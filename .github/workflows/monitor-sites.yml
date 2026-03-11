@@ -1,0 +1,39 @@
+name: Monitor AMI Sites
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # Every 6 hours
+  workflow_dispatch:          # Allow manual trigger
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run monitoring checks
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+        run: node scripts/monitor-sites.js
+
+      - name: Commit updated snapshots
+        run: |
+          git config user.name "ami-monitor-bot"
+          git config user.email "bot@ami-labs.vercel.app"
+          git add data/monitoring.json data/jobs.json
+          if git diff --staged --quiet; then
+            echo "No snapshot changes."
+          else
+            git commit -m "chore: update monitoring snapshots [$(date -u +%Y-%m-%d)]"
+            git push
+          fi
