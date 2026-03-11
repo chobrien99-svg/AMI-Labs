@@ -1,0 +1,238 @@
+[
+  {
+    "slug": "yann-lecun",
+    "name": "Yann LeCun",
+    "role": "Executive Chairman & Co-Founder",
+    "body": "Turing Award laureate (2018). Former Meta VP & Chief AI Scientist (12+ years). Architect of JEPA — the foundation of AMI's approach. Professor at NYU. Dual French-American.",
+    "tags": ["Paris/New York", "Co-Founder"],
+    "reportsTo": null,
+    "biography": "",
+    "careerHistory": [
+      { "org": "Meta AI (Facebook AI Research)", "title": "VP & Chief AI Scientist", "years": "2013–2025" },
+      { "org": "New York University", "title": "Silver Professor of Computer Science, Data Science, and Neural Science", "years": "2003–present" },
+      { "org": "AT&T Bell Labs / NEC Laboratories", "title": "Research Scientist", "years": "1988–2003" }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/yann-lecun-0746b939/",
+      "twitter": "https://twitter.com/ylecun",
+      "scholar": "https://scholar.google.com/citations?user=WLN3QrAAAAAJ"
+    },
+    "semanticScholarId": "1741101"
+  },
+  {
+    "slug": "alexandre-lebrun",
+    "name": "Alexandre (Alex) LeBrun",
+    "role": "CEO & Co-Founder",
+    "body": "Serial AI entrepreneur. Founded VirtuOz (sold to Nuance/Microsoft 2012), Wit.ai (sold to Meta 2015), Nabla (85K physicians). 24+ years in AI.",
+    "tags": ["Paris", "CEO"],
+    "reportsTo": "yann-lecun",
+    "biography": "",
+    "careerHistory": [
+      { "org": "Nabla", "title": "Co-Founder & CEO", "years": "2018–2024" },
+      { "org": "Meta (Facebook AI Research)", "title": "Director of Engineering", "years": "2015–2018" },
+      { "org": "Wit.ai", "title": "Co-Founder & CEO", "years": "2013–2015" },
+      { "org": "VirtuOz", "title": "Co-Founder & CEO", "years": "2000–2012" }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/alexlebrun/"
+    },
+    "semanticScholarId": null
+  },
+  {
+    "slug": "laurent-solly",
+    "name": "Laurent Solly",
+    "role": "COO & Co-Founder",
+    "body": "12y 10m at Meta (VP Europe). Built FAIR Paris into largest AI lab outside US. Before: CEO of TF1 Publicité; Chief of Staff to Nicolas Sarkozy. ENA & Sciences Po graduate.",
+    "tags": ["Paris", "COO"],
+    "reportsTo": "alexandre-lebrun",
+    "biography": "",
+    "careerHistory": [
+      { "org": "Meta", "title": "VP & Country Director, France & Southern Europe", "years": "2012–2025" },
+      { "org": "TF1 Publicité", "title": "CEO", "years": "2008–2012" },
+      { "org": "Office of the President of France", "title": "Chief of Staff to Nicolas Sarkozy", "years": "2007–2008" }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/laurentsolly/"
+    },
+    "semanticScholarId": null
+  },
+  {
+    "slug": "saining-xie",
+    "name": "Saining Xie",
+    "role": "Chief Science Officer & Co-Founder",
+    "body": "Visual representation learning specialist. Former Google DeepMind & Meta FAIR. Assistant Professor at NYU Courant. PhD from UC San Diego.",
+    "tags": ["New York", "CSO"],
+    "reportsTo": "alexandre-lebrun",
+    "biography": "",
+    "careerHistory": [
+      { "org": "New York University (Courant Institute)", "title": "Assistant Professor of Computer Science", "years": "2022–present" },
+      { "org": "Google DeepMind / Google Brain", "title": "Research Scientist", "years": "2021–2022" },
+      { "org": "Meta AI (FAIR)", "title": "Research Scientist", "years": "2016–2021" }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/sainxie/",
+      "scholar": "https://scholar.google.com/citations?user=Z84yfY4AAAAJ"
+    },
+    "semanticScholarId": "2153262"
+  },
+  {
+    "slug": "pascale-fung",
+    "name": "Pascale Fung",
+    "role": "CRIO & Co-Founder",
+    "body": "Pioneer in human-centered AI. Former Meta FAIR Senior Director. Chair Professor at HKUST. PhD from Columbia. Fellow of IEEE, ISCA, ACL, AAAI.",
+    "tags": ["Paris", "CRIO"],
+    "reportsTo": "alexandre-lebrun",
+    "biography": "",
+    "careerHistory": [
+      { "org": "Meta AI (FAIR)", "title": "Senior Director of Research", "years": "2022–2024" },
+      { "org": "HKUST", "title": "Chair Professor of AI, ECE & CS", "years": "1993–present" },
+      { "org": "Columbia University", "title": "PhD, Computer Science", "years": "1989–1994" }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/pascalefung/",
+      "scholar": "https://scholar.google.com/citations?user=QMnMBp0AAAAJ"
+    },
+    "semanticScholarId": "144809065"
+  },
+  {
+    "slug": "michael-rabbat",
+    "name": "Michael Rabbat",
+    "role": "VP of World Models & Co-Founder",
+    "body": "Expert in world models & self-supervised learning. Former Meta FAIR Montreal Director. Professor at McGill (11+ years). PhD from U. Wisconsin-Madison.",
+    "tags": ["Montreal", "VP World Models"],
+    "reportsTo": "saining-xie",
+    "biography": "",
+    "careerHistory": [
+      { "org": "Meta AI (FAIR)", "title": "Research Director, Montreal", "years": "2018–2024" },
+      { "org": "McGill University", "title": "Associate Professor, ECE", "years": "2007–2018" }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/michael-rabbat-a07a6115/",
+      "scholar": "https://scholar.google.com/citations?user=e2n8F2AAAAAJ"
+    },
+    "semanticScholarId": "1707559"
+  },
+  {
+    "slug": "li-jing",
+    "name": "Li Jing",
+    "role": "Head of Pretraining",
+    "body": "Former OpenAI researcher. Postdoc at Meta FAIR NY. Co-founder of Lightelligence. PhD in Physics from MIT. Gold Medal IPhO. Forbes 30 Under 30.",
+    "tags": ["New York"],
+    "reportsTo": "saining-xie",
+    "biography": "",
+    "careerHistory": [
+      { "org": "OpenAI", "title": "Research Scientist", "years": "2022–2024" },
+      { "org": "Meta AI (FAIR)", "title": "Postdoctoral Researcher", "years": "2020–2022" },
+      { "org": "Lightelligence", "title": "Co-Founder", "years": "2017–2020" },
+      { "org": "MIT", "title": "PhD, Physics", "years": "2014–2020" }
+    ],
+    "links": {
+      "scholar": "https://scholar.google.com/citations?user=pGdopzsAAAAJ"
+    },
+    "semanticScholarId": "2124844"
+  },
+  {
+    "slug": "min-lin",
+    "name": "Min Lin",
+    "role": "Head of AMI Singapore",
+    "body": "Former Principal Research Scientist at Sea (Singapore). Postdoc at Mila. PhD from NUS. BS in Biology from Peking University.",
+    "tags": ["Singapore"],
+    "reportsTo": "alexandre-lebrun",
+    "biography": "",
+    "careerHistory": [
+      { "org": "Sea (Shopee AI Lab)", "title": "Principal Research Scientist", "years": "2018–2024" },
+      { "org": "Mila – Quebec AI Institute", "title": "Postdoctoral Researcher", "years": "2015–2018" },
+      { "org": "National University of Singapore", "title": "PhD, Computer Science", "years": "2011–2015" }
+    ],
+    "links": {
+      "scholar": "https://scholar.google.com/citations?user=BGONmYIAAAAJ"
+    },
+    "semanticScholarId": "2126010"
+  },
+  {
+    "slug": "xingyi-zhou",
+    "name": "Xingyi Zhou",
+    "role": "Scientist",
+    "body": "Former Meta & Google Research Scientist. PhD from UT Austin. ACM ICPC Asia Regional Gold Medal.",
+    "tags": ["New York"],
+    "reportsTo": "saining-xie",
+    "biography": "",
+    "careerHistory": [
+      { "org": "Meta AI (FAIR)", "title": "Research Scientist", "years": "2021–2024" },
+      { "org": "Google Research", "title": "Research Scientist", "years": "2020–2021" },
+      { "org": "UT Austin", "title": "PhD, Computer Science", "years": "2016–2021" }
+    ],
+    "links": {
+      "scholar": "https://scholar.google.com/citations?user=h8Hm1gQAAAAJ"
+    },
+    "semanticScholarId": "3283610"
+  },
+  {
+    "slug": "sanghyun-woo",
+    "name": "Sanghyun Woo",
+    "role": "Member of Technical Staff",
+    "body": "Former Google DeepMind Senior Research Scientist (Seattle). Faculty Fellow at NYU. Research internships at Meta & Adobe. PhD from KAIST.",
+    "tags": ["New York"],
+    "reportsTo": "saining-xie",
+    "biography": "",
+    "careerHistory": [
+      { "org": "Google DeepMind", "title": "Senior Research Scientist", "years": "2022–2024" },
+      { "org": "New York University", "title": "Faculty Fellow", "years": "2022–2024" },
+      { "org": "KAIST", "title": "PhD, Computer Science", "years": "2016–2022" }
+    ],
+    "links": {
+      "scholar": "https://scholar.google.com/citations?user=vvqMsQ8AAAAJ"
+    },
+    "semanticScholarId": null
+  },
+  {
+    "slug": "brian-li",
+    "name": "Brian Li",
+    "role": "Member of Technical Staff (Singapore)",
+    "body": "Former Staff Research Scientist at ByteDance (Seed Multimodal & World Model team). Co-author of LLaVA-NeXT, LLaVA-OneVision, LLaVA-Video. Former Microsoft Research.",
+    "tags": ["Singapore"],
+    "reportsTo": "min-lin",
+    "biography": "",
+    "careerHistory": [
+      { "org": "ByteDance (Seed Multimodal)", "title": "Staff Research Scientist", "years": "2022–2024" },
+      { "org": "Microsoft Research", "title": "Research Scientist", "years": "2020–2022" }
+    ],
+    "links": {
+      "scholar": ""
+    },
+    "semanticScholarId": null
+  },
+  {
+    "slug": "delong-chen",
+    "name": "Delong Chen",
+    "role": "Founding Team Member",
+    "body": "Working on VL-JEPA and vision-language world modeling. Former Visiting Researcher at Meta Paris. PhD student at HKUST (ECE).",
+    "tags": ["Paris"],
+    "reportsTo": "saining-xie",
+    "biography": "",
+    "careerHistory": [
+      { "org": "Meta AI (FAIR Paris)", "title": "Visiting Researcher", "years": "2023–2024" },
+      { "org": "HKUST", "title": "PhD Student, ECE", "years": "2021–present" }
+    ],
+    "links": {
+      "scholar": ""
+    },
+    "semanticScholarId": null
+  },
+  {
+    "slug": "sean-nguyen",
+    "name": "Sean Nguyen",
+    "role": "Director of Operations",
+    "body": "Founding team, Office of Yann LeCun. Former Executive Administrative Partner at Meta AI (supported LeCun & Léon Bottou). BS Business from Boston University.",
+    "tags": ["New York"],
+    "reportsTo": "laurent-solly",
+    "biography": "",
+    "careerHistory": [
+      { "org": "Meta AI", "title": "Executive Administrative Partner", "years": "2018–2024" }
+    ],
+    "links": {
+      "linkedin": ""
+    },
+    "semanticScholarId": null
+  }
+]
