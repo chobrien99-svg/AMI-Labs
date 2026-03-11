@@ -2,8 +2,8 @@ name: Update News Feed
 
 on:
   schedule:
-    - cron: "0 8 * * *"   # Daily at 08:00 UTC
-  workflow_dispatch:       # Allow manual trigger
+    - cron: "0 8 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -19,132 +19,13 @@ jobs:
           node-version: "20"
 
       - name: Install dependencies
-        run: npm install @anthropic-ai/sdk node-fetch uuid
+        run: npm install @anthropic-ai/sdk
 
       - name: Fetch and summarize news
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
-        run: |
-          node <<'EOF'
-          const fs = require("fs");
-          const https = require("https");
-          const { randomUUID } = require("crypto");
-          const Anthropic = require("@anthropic-ai/sdk").default;
-
-          const DATA_FILE = "./data/news.json";
-          const existing = JSON.parse(fs.readFileSync(DATA_FILE, "utf8"));
-          const existingUrls = new Set(existing.map(a => a.url));
-
-          async function fetchRSS(url) {
-            return new Promise((resolve) => {
-              https.get(url, { headers: { "User-Agent": "AMI-Labs-News-Bot/1.0" } }, (res) => {
-                let data = "";
-                res.on("data", c => data += c);
-                res.on("end", () => resolve(data));
-              }).on("error", () => resolve(""));
-            });
-          }
-
-          function parseRSSItems(xml) {
-            const items = [];
-            const itemRegex = /<item>([\s\S]*?)<\/item>/g;
-            let m;
-            while ((m = itemRegex.exec(xml)) !== null) {
-              const block = m[1];
-              const get = (tag) => {
-                const r = new RegExp(`<${tag}(?:[^>]*)><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/${tag}>|<${tag}(?:[^>]*)>([\\s\\S]*?)<\\/${tag}>`);
-                const match = r.exec(block);
-                return match ? (match[1] || match[2] || "").trim() : "";
-              };
-              const title = get("title");
-              const link = get("link") || get("guid");
-              const pubDate = get("pubDate");
-              if (title && link) items.push({ title, link, pubDate, source: "Google News" });
-            }
-            return items;
-          }
-
-          async function fetchNewsAPI() {
-            if (!process.env.NEWS_API_KEY) return [];
-            return new Promise((resolve) => {
-              const query = encodeURIComponent("AMI Labs LeCun");
-              const url = `https://newsapi.org/v2/everything?q=${query}&language=en&sortBy=publishedAt&pageSize=20&apiKey=${process.env.NEWS_API_KEY}`;
-              https.get(url, { headers: { "User-Agent": "AMI-Labs-News-Bot/1.0" } }, (res) => {
-                let data = "";
-                res.on("data", c => data += c);
-                res.on("end", () => {
-                  try {
-                    const j = JSON.parse(data);
-                    resolve((j.articles || []).map(a => ({ title: a.title, link: a.url, pubDate: a.publishedAt, source: a.source?.name || "News" })));
-                  } catch { resolve([]); }
-                });
-              }).on("error", () => resolve([]));
-            });
-          }
-
-          async function summarizeWithClaude(title, url) {
-            if (!process.env.ANTHROPIC_API_KEY) return `${title}`;
-            const client = new Anthropic();
-            const msg = await client.messages.create({
-              model: "claude-haiku-4-5-20251001",
-              max_tokens: 200,
-              messages: [{
-                role: "user",
-                content: `Write a 2-3 sentence factual summary of this news article about AMI Labs (Advanced Machine Intelligence) for a news tracker. Article title: "${title}". URL: ${url}. If the title provides enough context, summarize based on the title alone. Be concise and factual.`
-              }]
-            });
-            return msg.content[0].type === "text" ? msg.content[0].text.trim() : title;
-          }
-
-          function inferTags(title) {
-            const t = title.toLowerCase();
-            const tags = [];
-            if (t.includes("rais") || t.includes("fund") || t.includes("invest") || t.includes("valuat") || t.includes("billion") || t.includes("million")) tags.push("funding");
-            if (t.includes("research") || t.includes("paper") || t.includes("model") || t.includes("jepa") || t.includes("science") || t.includes("publish")) tags.push("research");
-            if (t.includes("hir") || t.includes("join") || t.includes("appoint") || t.includes("team")) tags.push("hiring");
-            if (t.includes("regulat") || t.includes("legal") || t.includes("filing") || t.includes("compliance")) tags.push("regulatory");
-            return tags;
-          }
-
-          function parseDate(dateStr) {
-            try { return new Date(dateStr).toISOString().split("T")[0]; } catch { return new Date().toISOString().split("T")[0]; }
-          }
-
-          (async () => {
-            const rssXml = await fetchRSS("https://news.google.com/rss/search?q=AMI+Labs+Yann+LeCun&hl=en&gl=US&ceid=US:en");
-            const rssItems = parseRSSItems(rssXml);
-            const newsApiItems = await fetchNewsAPI();
-            const allItems = [...rssItems, ...newsApiItems];
-
-            const newItems = allItems.filter(item => item.link && !existingUrls.has(item.link));
-            console.log(`Found ${allItems.length} total items, ${newItems.length} new.`);
-
-            const newArticles = [];
-            for (const item of newItems.slice(0, 10)) {
-              const summary = await summarizeWithClaude(item.title, item.link);
-              newArticles.push({
-                id: randomUUID(),
-                title: item.title,
-                source: item.source,
-                url: item.link,
-                publishedAt: parseDate(item.pubDate),
-                summary,
-                tags: inferTags(item.title),
-                addedAt: new Date().toISOString(),
-              });
-              console.log(`Added: ${item.title}`);
-            }
-
-            if (newArticles.length > 0) {
-              const updated = [...newArticles, ...existing];
-              fs.writeFileSync(DATA_FILE, JSON.stringify(updated, null, 2));
-              console.log(`Updated news.json with ${newArticles.length} new articles.`);
-            } else {
-              console.log("No new articles to add.");
-            }
-          })();
-          EOF
+        run: node scripts/update-news.js
 
       - name: Commit updated news
         run: |
