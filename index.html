@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AMI Labs — Investor & Team Explorer</title>
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --surface: #13131a;
+      --surface2: #1c1c28;
+      --border: #2a2a3a;
+      --accent: #6c63ff;
+      --accent2: #a78bfa;
+      --text: #e2e2f0;
+      --muted: #8888aa;
+      --green: #34d399;
+      --blue: #60a5fa;
+      --orange: #fb923c;
+      --pink: #f472b6;
+      --yellow: #fbbf24;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: linear-gradient(135deg, #0f0f1a 0%, #1a1030 50%, #0f1a1a 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 32px 40px 28px;
+    }
+    .header-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+    .logo-wrap img {
+      height: 56px;
+      width: auto;
+      display: block;
+    }
+    .header-text h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, #a78bfa, #60a5fa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1.2;
+    }
+    .header-text p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-top: 4px;
+    }
+    .badge {
+      margin-left: auto;
+      background: linear-gradient(135deg, #6c63ff22, #60a5fa22);
+      border: 1px solid #6c63ff55;
+      border-radius: 12px;
+      padding: 12px 20px;
+      text-align: right;
+    }
+    .badge-amount { font-size: 1.6rem; font-weight: 800; color: var(--accent2); }
+    .badge-label { font-size: 0.75rem; color: var(--muted); margin-top: 2px; }
+
+    /* ── STATS ── */
+    .stats-bar {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 40px;
+    }
+    .stats-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+    .stat { display: flex; align-items: center; gap: 8px; }
+    .stat-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+    .stat-num { font-weight: 700; font-size: 1.1rem; }
+    .stat-label { color: var(--muted); font-size: 0.85rem; }
+
+    /* ── MAIN ── */
+    main {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 32px 40px;
+    }
+
+    /* ── CONTROLS ── */
+    .controls {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .search-wrap {
+      position: relative;
+      flex: 1;
+      min-width: 220px;
+    }
+    .search-wrap svg {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+      pointer-events: none;
+    }
+    input[type="search"] {
+      width: 100%;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      color: var(--text);
+      font-size: 0.95rem;
+      padding: 10px 16px 10px 42px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    input[type="search"]:focus { border-color: var(--accent); }
+    input[type="search"]::placeholder { color: var(--muted); }
+
+    .filter-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      color: var(--muted);
+      font-size: 0.85rem;
+      padding: 10px 18px;
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+      font-weight: 500;
+    }
+    .filter-btn:hover { border-color: var(--accent); color: var(--text); }
+    .filter-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+    .result-count {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-left: auto;
+      white-space: nowrap;
+    }
+
+    /* ── SECTION HEADERS ── */
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 16px;
+      margin-top: 32px;
+    }
+    .section-header:first-of-type { margin-top: 0; }
+    .section-icon {
+      width: 32px; height: 32px;
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+    .section-header h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+    .section-count {
+      font-size: 0.75rem;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 2px 8px;
+      color: var(--muted);
+    }
+
+    /* ── GRID ── */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+      gap: 14px;
+      margin-bottom: 8px;
+    }
+
+    /* ── CARD ── */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 18px;
+      transition: border-color 0.2s, transform 0.15s;
+      cursor: default;
+    }
+    .card:hover {
+      border-color: var(--accent);
+      transform: translateY(-1px);
+    }
+    .card-top {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+    .avatar {
+      width: 42px; height: 42px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem;
+      font-weight: 700;
+      color: #fff;
+      flex-shrink: 0;
+      text-transform: uppercase;
+    }
+    .card-name {
+      font-size: 0.95rem;
+      font-weight: 600;
+      line-height: 1.3;
+      color: var(--text);
+    }
+    .card-role {
+      font-size: 0.78rem;
+      color: var(--accent2);
+      margin-top: 2px;
+      font-weight: 500;
+    }
+    .card-body {
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-top: 10px;
+    }
+    .tag {
+      font-size: 0.7rem;
+      padding: 2px 8px;
+      border-radius: 20px;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+    .tag-corp    { background: #1a2a1a; color: var(--green);  border: 1px solid #2a4a2a; }
+    .tag-vc      { background: #1a1a2a; color: var(--blue);   border: 1px solid #2a2a4a; }
+    .tag-angel   { background: #2a1a1a; color: var(--orange); border: 1px solid #4a2a1a; }
+    .tag-team    { background: #2a1a2a; color: var(--pink);   border: 1px solid #4a2a4a; }
+    .tag-colead  { background: #2a2010; color: var(--yellow); border: 1px solid #4a3a10; }
+    .tag-country { background: var(--surface2); color: var(--muted); border: 1px solid var(--border); }
+
+    /* ── EMPTY ── */
+    .empty {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--muted);
+      grid-column: 1 / -1;
+    }
+    .empty svg { margin: 0 auto 12px; display: block; opacity: 0.4; }
+
+    /* ── HIDDEN ── */
+    .hidden { display: none; }
+
+    /* responsive */
+    @media (max-width: 680px) {
+      header { padding: 20px; }
+      main { padding: 20px; }
+      .stats-bar { padding: 14px 20px; }
+      .badge { margin-left: 0; width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo-wrap">
+      <img src="Ami.png" alt="AMI Labs" onerror="this.style.display='none'" />
+    </div>
+    <div class="header-text">
+      <h1>AMI Labs — Investor &amp; Team Explorer</h1>
+      <p>Advanced Machine Intelligence · Paris · New York · Montreal · Singapore</p>
+    </div>
+    <div class="badge">
+      <div class="badge-amount">$1.03B</div>
+      <div class="badge-label">Seed Round · $3.5B Valuation</div>
+    </div>
+  </div>
+</header>
+
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat">
+      <div class="stat-dot" style="background:var(--green)"></div>
+      <span class="stat-num" id="cnt-corp">11</span>
+      <span class="stat-label">Corporate Investors</span>
+    </div>
+    <div class="stat">
+      <div class="stat-dot" style="background:var(--blue)"></div>
+      <span class="stat-num" id="cnt-vc">20</span>
+      <span class="stat-label">VC Firms</span>
+    </div>
+    <div class="stat">
+      <div class="stat-dot" style="background:var(--orange)"></div>
+      <span class="stat-num" id="cnt-angel">34</span>
+      <span class="stat-label">Business Angels</span>
+    </div>
+    <div class="stat">
+      <div class="stat-dot" style="background:var(--pink)"></div>
+      <span class="stat-num" id="cnt-team">12</span>
+      <span class="stat-label">Team Members</span>
+    </div>
+  </div>
+</div>
+
+<main>
+  <div class="controls">
+    <div class="search-wrap">
+      <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+      <input type="search" id="search" placeholder="Search names, roles, firms…" />
+    </div>
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="corp">Corporate</button>
+    <button class="filter-btn" data-filter="vc">VC Firms</button>
+    <button class="filter-btn" data-filter="angel">Angels</button>
+    <button class="filter-btn" data-filter="team">Team</button>
+    <span class="result-count" id="result-count"></span>
+  </div>
+
+  <!-- CORPORATE INVESTORS -->
+  <div class="section-header" data-section="corp">
+    <div class="section-icon" style="background:#1a2a1a;">🏢</div>
+    <h2>Corporate &amp; Strategic Investors</h2>
+    <span class="section-count" id="sc-corp"></span>
+  </div>
+  <div class="cards-grid" id="grid-corp"></div>
+
+  <!-- VC FIRMS -->
+  <div class="section-header" data-section="vc">
+    <div class="section-icon" style="background:#1a1a2a;">💼</div>
+    <h2>Venture Capital Firms</h2>
+    <span class="section-count" id="sc-vc"></span>
+  </div>
+  <div class="cards-grid" id="grid-vc"></div>
+
+  <!-- ANGELS -->
+  <div class="section-header" data-section="angel">
+    <div class="section-icon" style="background:#2a1a1a;">👤</div>
+    <h2>Business Angels</h2>
+    <span class="section-count" id="sc-angel"></span>
+  </div>
+  <div class="cards-grid" id="grid-angel"></div>
+
+  <!-- TEAM -->
+  <div class="section-header" data-section="team">
+    <div class="section-icon" style="background:#2a1a2a;">🚀</div>
+    <h2>Team Members</h2>
+    <span class="section-count" id="sc-team"></span>
+  </div>
+  <div class="cards-grid" id="grid-team"></div>
+
+</main>
+
+<script>
+const DATA = {
+  corp: [
+    { name: "NVIDIA", role: "Strategic Corporate Investor", body: "Semiconductor & AI chip maker. One of the most prominent tech corporate backers.", tags: ["USA", "Semiconductor/AI"] },
+    { name: "Samsung", role: "Strategic Corporate Investor", body: "Global electronics conglomerate.", tags: ["South Korea", "Electronics"] },
+    { name: "Toyota Ventures", role: "Strategic Corporate Investor", body: "Corporate VC arm of Toyota. Led by Jim Adler. AI for physical reasoning aligns with automotive/robotics vision.", tags: ["USA/Japan", "Automotive/Robotics"] },
+    { name: "Sea", role: "Strategic Corporate Investor", body: "Singapore-based tech conglomerate (Shopee, Garena, SeaMoney). Also relevant to AMI's Singapore hub.", tags: ["Singapore", "Tech Conglomerate"] },
+    { name: "Temasek", role: "Strategic Institutional Investor", body: "Singapore sovereign wealth fund. Long-term strategic investor.", tags: ["Singapore", "Sovereign Wealth"] },
+    { name: "Publicis Groupe", role: "Strategic Corporate Investor", body: "French global communications & advertising group.", tags: ["France", "Communications"] },
+    { name: "Groupe Industriel Marcel Dassault", role: "Strategic Corporate Investor", body: "French industrial group — aviation and defense.", tags: ["France", "Aviation/Defense"] },
+    { name: "Association Familiale Mulliez", role: "Strategic Corporate Investor", body: "French family holding (Auchan, Decathlon, and more).", tags: ["France", "Family Office"] },
+    { name: "Artémis", role: "Strategic Corporate Investor", body: "Holding company of the Pinault family (Kering group).", tags: ["France", "Family Office"] },
+    { name: "Bpifrance Digital Venture", role: "Strategic Institutional Investor", body: "French public investment bank's digital venture fund.", tags: ["France", "Public/Institutional"] },
+    { name: "ZEBOX Ventures", role: "Strategic Corporate Investor", body: "Corporate venture arm of CMA CGM (shipping & logistics group).", tags: ["France", "Logistics/Shipping"] },
+  ],
+  vc: [
+    { name: "Bezos Expeditions", role: "Co-Lead Investor", colead: true, body: "Jeff Bezos's personal investment vehicle, acting as a VC fund.", tags: ["USA"] },
+    { name: "Cathay Innovation", role: "Co-Lead Investor", colead: true, body: "Global VC with offices in Paris, SF, Berlin, Madrid, Singapore, Shanghai. Managing Partner: Jacky Abitbol. VP: Jonathan Healy.", tags: ["France/Global", "Multi-stage"] },
+    { name: "Greycroft", role: "Co-Lead Investor", colead: true, body: "New York VC (~$2B+ AUM). Co-led by Dana Settle (Co-Founder & Managing Partner, now AMI Board Member). Partners: Conor Deveney, Jim Murphy.", tags: ["USA", "Multi-stage"] },
+    { name: "Hiro Capital", role: "Co-Lead Investor", colead: true, body: "London/Luxembourg VC. Focus: Spatial Computing, Physical AI, Robotics, Gaming, Defense. Managing Partner: Luke Alvarez. GP: Sir Nick Clegg.", tags: ["UK/Luxembourg", "Deep Tech"] },
+    { name: "HV Capital", role: "Co-Lead Investor", colead: true, body: "Munich-based European VC.", tags: ["Germany", "Multi-stage"] },
+    { name: "Eurazeo", role: "Participating Investor", body: "French global PE/VC group (~€35B AUM). Team includes Benoist Grossmann, Nicolas Debock, Tara Reeves.", tags: ["France", "PE/VC"] },
+    { name: "daphni", role: "Participating Investor", body: "French VC — second-largest French institutional investor. Invested via daphni Blue & Dastore. Team: Léopold Treppoz, Paul Chatton, Maxime UBEDA.", tags: ["France", "Early-stage"] },
+    { name: "Alpha Intelligence Capital (AIC)", role: "Participating Investor", body: "Advisors include Yann LeCun and Pascale Fung. Co-founders: Charles-Edouard Bouée, Antoine Blondeau, Arnaud Barthelemy.", tags: ["Global", "AI-focused"] },
+    { name: "Aglaé Ventures", role: "Participating Investor", body: "LVMH-linked venture fund. French strategic investor.", tags: ["France", "LVMH-linked"] },
+    { name: "20VC", role: "Participating Investor", body: "GP Julien Codorniou invested through prior relationship with LeBrun (Microsoft France, Facebook/Wit.ai, Nabla).", tags: ["Global", "Early-stage"] },
+    { name: "SBVA", role: "Participating Investor", body: "Formerly SoftBank Ventures Asia.", tags: ["Asia", "Multi-stage"] },
+    { name: "New Legacy Ventures", role: "Participating Investor", body: "VC fund.", tags: [] },
+    { name: "Headline", role: "Participating Investor", body: "International VC. GP Jonathan Userovici invested at seed stage. Portfolio: Mistral AI, Black Forest Labs, Bioptimus.", tags: ["Global", "Deep Tech"] },
+    { name: "Serena", role: "Participating Investor", body: "French deeptech VC. Senior Associate Juliette Ast led the investment. Connection through Yann LeCun's open-source LinkedIn posts.", tags: ["France", "Deep Tech"] },
+    { name: "Founders Future", role: "Participating Investor", body: "French VC. Team: Marc Menasé, Sophie Duval, Matthieu Benkerant, Louis Sautet.", tags: ["France", "Early-stage"] },
+    { name: "Drysdale Ventures", role: "Participating Investor", body: "Founder: Nicolas Essayan. Co-invested alongside Xavier Niel and AGLAÉ Ventures.", tags: ["France", "Early-stage"] },
+    { name: "firstminute capital", role: "Participating Investor", body: "London seed VC ($500M AUM, backed by 130+ unicorn founders). Partner Sam Endacott invested.", tags: ["UK", "Seed"] },
+    { name: "Global Founders Capital", role: "Participating Investor", body: "Partner David Sainteff (Paris) invested.", tags: ["Global", "Multi-stage"] },
+    { name: "Resonance", role: "Participating Investor", body: "French early-stage VC (€50M fund, pre-seed/seed European AI). Partner & co-founder Maxime Le Dantec.", tags: ["France", "Seed/Pre-seed"] },
+    { name: "Shorooq", role: "Participating Investor", body: "Abu Dhabi VC (~$1B AUM, backed by Mubadala, QIA, PIF, ADQ). Partner Bilal Baloch led AI investments.", tags: ["Abu Dhabi", "Multi-stage"] },
+  ],
+  angel: [
+    { name: "Jeff Bezos", role: "Business Angel", body: "Amazon founder. Invested both personally and through Bezos Expeditions.", tags: ["USA"] },
+    { name: "Eric Schmidt", role: "Business Angel", body: "Former Google CEO. Significant personal participation. Named across all press coverage.", tags: ["USA"] },
+    { name: "Mark Cuban", role: "Business Angel", body: "Entrepreneur, minority owner of the Dallas Mavericks. Named in PitchBook and multiple LP announcements.", tags: ["USA"] },
+    { name: "Xavier Niel", role: "Business Angel", body: "French tech billionaire, founder of Iliad/Free. Major French tech angel investor.", tags: ["France"] },
+    { name: "Tim Berners-Lee", role: "Business Angel", body: "Inventor of the World Wide Web. Invested jointly with his wife Rosemary Berners-Lee.", tags: ["UK"] },
+    { name: "Rosemary Berners-Lee", role: "Business Angel", body: "Invested jointly with Tim Berners-Lee.", tags: ["UK"] },
+    { name: "Jim Breyer", role: "Business Angel", body: "Venture capitalist, early Facebook investor (Breyer Capital).", tags: ["USA"] },
+    { name: "Mark Leslie", role: "Business Angel", body: "Technology investor. Named in TechCrunch coverage.", tags: ["USA"] },
+    { name: "Julien Codorniou", role: "Business Angel & 20VC GP", body: "GP at 20VC. Veteran of Microsoft France and Facebook. Met Alex LeBrun ~20 years ago. Previously invested in Nabla pre-seed.", tags: ["France/UK"] },
+    { name: "Anshul Agarwal", role: "Business Angel", body: "Managing Director at LG Technology Ventures (~$1B AUM). GCV Emerging Leaders Award 2022 & 2024. Investor in Lucid Motors, DocuSign, Wise, Netskope.", tags: ["USA"] },
+    { name: "Adrien Aumont", role: "Business Angel", body: "Co-founder of KissKissBankBank, Midnight Trains, epidemiK. Partner at 50 Partners Impact. Described as his 'biggest business angel ticket.' Connected by Simon Dawlat.", tags: ["France"] },
+    { name: "Simon Dawlat", role: "Business Angel", body: "CEO & co-founder of Batch (450+ EU brands). Prolific early-stage investor in French tech. Connected Adrien Aumont to AMI.", tags: ["France"] },
+    { name: "Briac Lescure", role: "Business Angel & daphni Venture Partner", body: "Co-founder & former CEO of Popchef. Forbes 30 Under 30 Europe. Angel investment in January 2026, distinct from daphni's institutional investment.", tags: ["France"] },
+    { name: "Gaultier Brun", role: "Business Angel", body: "Principal at 199 Ventures. Former Investment Associate at Antler Paris. Former analyst at Global Founders Capital.", tags: ["France"] },
+    { name: "Amaury Roland", role: "Business Angel", body: "Co-founder & former CEO of Studapart (student housing, sold 55M€+). Independent investor.", tags: ["France"] },
+    { name: "Diane-Rose Dupré", role: "Business Angel", body: "Head of Venture & Growth Solutions at UBS France. Structures secondary transactions (Revolut, Klarna, Anthropic, OpenAI, SpaceX). Lecturer at Sciences Po. Founder of OFF MARKET podcast.", tags: ["France"] },
+    { name: "Antoine Loron", role: "Business Angel", body: "Co-founder & CEO of Hublo (6,000+ healthcare facilities, 1M+ professionals). Partner at 50 Partners.", tags: ["France"] },
+    { name: "Damien Dupouy", role: "Business Angel", body: "Founder of Anytime (neobank, sold to Orange 2021) and MobileTrend (sold to HiPay 2008). LP at Seventure Partners.", tags: ["France"] },
+    { name: "Thibaut Angevin", role: "Business Angel", body: "Founding Partner of Quanteam. CEO of Perseus Capital (Lisbon real estate/hospitality). CEO of Cassiopeia Management.", tags: ["France"] },
+    { name: "Alexandre Rousseau", role: "Business Angel", body: "Founder of deep tech marketing agency (AI, quantum). Former at Pasqal. Also investor in Revolut, Perplexity, Anthropic, Pasqal.", tags: ["France"] },
+    { name: "David Sainteff", role: "Business Angel & GFC Partner", body: "Partner at Global Founders Capital Paris. Board director at Pennylane, Defacto, Ankorstore, Dalma, Maki People.", tags: ["France"] },
+    { name: "Jonathan Userovici", role: "Business Angel & Headline GP", body: "General Partner at Headline VC. Portfolio: Mistral AI, Fundamental, Black Forest Labs, Bioptimus. Forbes 30 Under 30.", tags: ["France"] },
+    { name: "Maxime Paradis", role: "Business Angel & United Founders", body: "Entrepreneur & angel investor (Forbes 30 Under 30 Europe, 3x founder, 120x investor). Announced United Founders' investment.", tags: ["France"] },
+    { name: "Maxime UBEDA", role: "Business Angel", body: "Advisory CFO (ex-Sorare, ex-Deloitte). Early-stage seed/pre-seed investor. Part of daphni team post.", tags: ["France"] },
+    { name: "Ulysse Laroche", role: "Business Angel & 1st Kind", body: "Investor at 1st Kind (Peugeot Family Office venture activity). Announced firm's participation in AMI.", tags: ["France"] },
+    { name: "Baptiste HAMEL", role: "Business Angel & Better Angle", body: "Cofounding partner at Better Angle micro-fund. Co-invested with Nicolas Douay and Henri NGO.", tags: ["France"] },
+    { name: "Nicolas Douay", role: "Business Angel", body: "Angel investor, co-invested via Better Angle with Baptiste HAMEL and Henri NGO.", tags: ["France"] },
+    { name: "Henri NGO", role: "Business Angel & Better Angle", body: "Investor at Galion.exe. Software engineer background (Institut Polytechnique de Paris). Co-invested at Better Angle.", tags: ["France"] },
+    { name: "Jules Reny", role: "Business Angel & WARREN Co-Founder", body: "Founding Partner at WARREN (new French VC/liquidity fund). Also Investor Network Coordinator at Hello Tomorrow.", tags: ["France"] },
+    { name: "Jules Ferrer", role: "Business Angel & WARREN Co-Founder", body: "Co-Founder at WARREN. Former Head of VC at HUB612. LP at Better Angle.", tags: ["France"] },
+    { name: "Alessio Mestrinaro", role: "Business Angel & HUB612", body: "VC and Operating Partner at HUB612 (Lyon-based VC). Personal angel investor.", tags: ["France"] },
+    { name: "Sam Endacott", role: "Business Angel & firstminute Partner", body: "Partner at firstminute capital (London, $500M AUM). Personal investor alongside firm's participation.", tags: ["UK"] },
+    { name: "Bilal Baloch", role: "Business Angel & Shorooq Partner", body: "Partner at Shorooq (Abu Dhabi). Leads firm's global AI investments.", tags: ["Abu Dhabi"] },
+    { name: "Sylvain Theveniaud", role: "Business Angel", body: "Founder of Allianz Accelerator (11 years, 80+ startups, €825M+ raised).", tags: ["France"] },
+  ],
+  team: [
+    { name: "Yann LeCun", role: "Executive Chairman & Co-Founder", body: "Turing Award laureate (2018). Former Meta VP & Chief AI Scientist (12+ years). Architect of JEPA — the foundation of AMI's approach. Professor at NYU. Dual French-American.", tags: ["Paris/New York", "Co-Founder"] },
+    { name: "Alexandre (Alex) LeBrun", role: "CEO & Co-Founder", body: "Serial AI entrepreneur. Founded VirtuOz (sold to Nuance/Microsoft 2012), Wit.ai (sold to Meta 2015), Nabla (85K physicians). 24+ years in AI.", tags: ["Paris", "CEO"] },
+    { name: "Laurent Solly", role: "COO & Co-Founder", body: "12y 10m at Meta (VP Europe). Built FAIR Paris into largest AI lab outside US. Before: CEO of TF1 Publicité; Chief of Staff to Nicolas Sarkozy. ENA & Sciences Po graduate.", tags: ["Paris", "COO"] },
+    { name: "Saining Xie", role: "Chief Science Officer & Co-Founder", body: "Visual representation learning specialist. Former Google DeepMind & Meta FAIR. Assistant Professor at NYU Courant. PhD from UC San Diego.", tags: ["New York", "CSO"] },
+    { name: "Pascale Fung", role: "CRIO & Co-Founder", body: "Pioneer in human-centered AI. Former Meta FAIR Senior Director. Chair Professor at HKUST. PhD from Columbia. Fellow of IEEE, ISCA, ACL, AAAI.", tags: ["Paris", "CRIO"] },
+    { name: "Michael Rabbat", role: "VP of World Models & Co-Founder", body: "Expert in world models & self-supervised learning. Former Meta FAIR Montreal Director. Professor at McGill (11+ years). PhD from U. Wisconsin-Madison.", tags: ["Montreal", "VP World Models"] },
+    { name: "Li Jing", role: "Head of Pretraining", body: "Former OpenAI researcher. Postdoc at Meta FAIR NY. Co-founder of Lightelligence. PhD in Physics from MIT. Gold Medal IPhO. Forbes 30 Under 30.", tags: ["New York"] },
+    { name: "Min Lin", role: "Head of AMI Singapore", body: "Former Principal Research Scientist at Sea (Singapore). Postdoc at Mila. PhD from NUS. BS in Biology from Peking University.", tags: ["Singapore"] },
+    { name: "Xingyi Zhou", role: "Scientist", body: "Former Meta & Google Research Scientist. PhD from UT Austin. ACM ICPC Asia Regional Gold Medal.", tags: ["New York"] },
+    { name: "Sanghyun Woo", role: "Member of Technical Staff", body: "Former Google DeepMind Senior Research Scientist (Seattle). Faculty Fellow at NYU. Research internships at Meta & Adobe. PhD from KAIST.", tags: ["New York"] },
+    { name: "Brian Li", role: "Member of Technical Staff (Singapore)", body: "Former Staff Research Scientist at ByteDance (Seed Multimodal & World Model team). Co-author of LLaVA-NeXT, LLaVA-OneVision, LLaVA-Video. Former Microsoft Research.", tags: ["Singapore"] },
+    { name: "Delong Chen", role: "Founding Team Member", body: "Working on VL-JEPA and vision-language world modeling. Former Visiting Researcher at Meta Paris. PhD student at HKUST (ECE).", tags: ["Paris"] },
+    { name: "Sean Nguyen", role: "Director of Operations", body: "Founding team, Office of Yann LeCun. Former Executive Administrative Partner at Meta AI (supported LeCun & Léon Bottou). BS Business from Boston University.", tags: ["New York"] },
+  ],
+};
+
+// ── RENDER ──────────────────────────────────────────────
+function initials(name) {
+  return name.split(/\s+/).map(w => w[0]).join('').slice(0, 2).toUpperCase();
+}
+
+const AVATAR_COLORS = [
+  ['#6c63ff','#a78bfa'], ['#3b82f6','#60a5fa'], ['#10b981','#34d399'],
+  ['#f59e0b','#fbbf24'], ['#ef4444','#f87171'], ['#8b5cf6','#c084fc'],
+  ['#ec4899','#f472b6'], ['#14b8a6','#2dd4bf'],
+];
+
+function avatarStyle(name) {
+  const i = name.charCodeAt(0) % AVATAR_COLORS.length;
+  const [a, b] = AVATAR_COLORS[i];
+  return `background:linear-gradient(135deg,${a},${b})`;
+}
+
+function cardHTML(item, category) {
+  const tagClass = { corp:'tag-corp', vc:'tag-vc', angel:'tag-angel', team:'tag-team' }[category];
+  const colead = item.colead ? `<span class="tag tag-colead">Co-Lead</span>` : '';
+  const extraTags = (item.tags || []).map(t => `<span class="tag tag-country">${t}</span>`).join('');
+  return `
+    <div class="card" data-name="${item.name.toLowerCase()}" data-role="${(item.role||'').toLowerCase()}" data-body="${(item.body||'').toLowerCase()}" data-cat="${category}">
+      <div class="card-top">
+        <div class="avatar" style="${avatarStyle(item.name)}">${initials(item.name)}</div>
+        <div>
+          <div class="card-name">${item.name}</div>
+          <div class="card-role">${item.role || ''}</div>
+        </div>
+      </div>
+      <div class="card-body">${item.body || ''}</div>
+      <div class="tags">${colead}${extraTags}</div>
+    </div>`;
+}
+
+function renderAll() {
+  ['corp','vc','angel','team'].forEach(cat => {
+    const grid = document.getElementById('grid-' + cat);
+    grid.innerHTML = DATA[cat].map(item => cardHTML(item, cat)).join('');
+  });
+  updateCounts();
+}
+
+// ── FILTER / SEARCH ────────────────────────────────────
+let activeFilter = 'all';
+let activeQuery = '';
+
+function applyFilters() {
+  const q = activeQuery.toLowerCase();
+  const sections = { corp: 0, vc: 0, angel: 0, team: 0 };
+
+  document.querySelectorAll('.card').forEach(card => {
+    const cat = card.dataset.cat;
+    const matchFilter = activeFilter === 'all' || activeFilter === cat;
+    const matchQuery = !q ||
+      card.dataset.name.includes(q) ||
+      card.dataset.role.includes(q) ||
+      card.dataset.body.includes(q);
+    const visible = matchFilter && matchQuery;
+    card.classList.toggle('hidden', !visible);
+    if (visible) sections[cat]++;
+  });
+
+  // section visibility
+  ['corp','vc','angel','team'].forEach(cat => {
+    const sec = document.querySelector(`.section-header[data-section="${cat}"]`);
+    const grid = document.getElementById('grid-' + cat);
+    const hide = activeFilter !== 'all' && activeFilter !== cat;
+    sec.classList.toggle('hidden', hide);
+    grid.classList.toggle('hidden', hide);
+    document.getElementById('sc-' + cat).textContent = hide ? '' : `${sections[cat]}`;
+  });
+
+  // total count
+  const total = Object.values(sections).reduce((a,b) => a+b, 0);
+  document.getElementById('result-count').textContent = `${total} result${total !== 1 ? 's' : ''}`;
+}
+
+function updateCounts() {
+  document.getElementById('cnt-corp').textContent = DATA.corp.length;
+  document.getElementById('cnt-vc').textContent = DATA.vc.length;
+  document.getElementById('cnt-angel').textContent = DATA.angel.length;
+  document.getElementById('cnt-team').textContent = DATA.team.length;
+  applyFilters();
+}
+
+// ── EVENTS ────────────────────────────────────────────
+document.getElementById('search').addEventListener('input', e => {
+  activeQuery = e.target.value;
+  applyFilters();
+});
+
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeFilter = btn.dataset.filter;
+    applyFilters();
+  });
+});
+
+renderAll();
+</script>
+</body>
+</html>
