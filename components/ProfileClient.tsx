@@ -90,16 +90,6 @@ export default function ProfileClient({ member }: { member: Member }) {
               {member.links?.scholar && (
                 <a href={member.links.scholar} target="_blank" rel="noopener noreferrer" className="profile-link">Google Scholar</a>
               )}
-              {member.semanticScholarId && (
-                <a
-                  href={`https://www.semanticscholar.org/author/${member.semanticScholarId}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="profile-link"
-                >
-                  Semantic Scholar
-                </a>
-              )}
             </div>
           </div>
         </div>
