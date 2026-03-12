@@ -6,7 +6,7 @@ function makeToken(email: string, expires: number, secret: string) {
 }
 
 export async function POST(req: NextRequest) {
-  const { email } = await req.json();
+  const { email, ftjOptIn } = await req.json();
 
   if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
     return NextResponse.json({ error: "Invalid email address." }, { status: 400 });
@@ -103,6 +103,18 @@ export async function POST(req: NextRequest) {
       { error: `Confirmation email failed (${emailRes.status}): ${JSON.stringify(body)}` },
       { status: 502 }
     );
+  }
+
+  // Optionally add to The French Tech Journal audience
+  if (ftjOptIn) {
+    const ftjAudienceId = process.env.RESEND_FTJ_AUDIENCE_ID;
+    if (ftjAudienceId) {
+      await fetch(`https://api.resend.com/audiences/${ftjAudienceId}/contacts`, {
+        method: "POST",
+        headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
+        body: JSON.stringify({ email, unsubscribed: false }),
+      }).catch((e) => console.error("FTJ audience error:", e));
+    }
   }
 
   return NextResponse.json({ ok: true });
