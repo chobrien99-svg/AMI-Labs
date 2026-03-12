@@ -1,0 +1,40 @@
+name: Monitor INPI (AMI / PengyouCo)
+
+on:
+  schedule:
+    - cron: "0 10 * * 6"   # Every Saturday at 10:00 UTC (INPI updates Fridays)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch and diff INPI filings
+        env:
+          INPI_USERNAME: ${{ secrets.INPI_USERNAME }}
+          INPI_PASSWORD: ${{ secrets.INPI_PASSWORD }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/monitor-inpi.js
+
+      - name: Commit updated INPI state
+        run: |
+          git config user.name "ami-inpi-bot"
+          git config user.email "bot@ami-labs.vercel.app"
+          git add data/inpi.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update INPI state [$(date -u +%Y-%m-%d\ %H:%M)]"
+            git push
+          fi
