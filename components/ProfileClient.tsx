@@ -1,5 +1,4 @@
 "use client";
-import { useEffect, useState } from "react";
 import Link from "next/link";
 
 const AVATAR_COLORS = [
@@ -33,37 +32,15 @@ type Member = {
   semanticScholarId: string | null;
 };
 
-type Publication = {
-  paperId: string;
+export type Publication = {
   title: string;
   year: number | null;
   citationCount: number;
-  externalIds?: { DOI?: string };
-  venue: string;
+  venue: string | null;
+  url: string;
 };
 
-export default function ProfileClient({ member }: { member: Member }) {
-  const [pubs, setPubs] = useState<Publication[] | null>(null);
-  const [pubsError, setPubsError] = useState(false);
-
-  useEffect(() => {
-    if (!member.semanticScholarId) {
-      setPubs([]);
-      return;
-    }
-    const url = `https://api.semanticscholar.org/graph/v1/author/${member.semanticScholarId}/papers?fields=title,year,citationCount,venue,externalIds&limit=5&sort=citationCount`;
-    fetch(url)
-      .then((r) => r.json())
-      .then((data) => {
-        const papers: Publication[] = (data.data || []).slice(0, 5);
-        setPubs(papers);
-      })
-      .catch(() => {
-        setPubsError(true);
-        setPubs([]);
-      });
-  }, [member.semanticScholarId]);
-
+export default function ProfileClient({ member, publications }: { member: Member; publications: Publication[] }) {
   return (
     <>
       <div className="profile-header">
@@ -112,11 +89,7 @@ export default function ProfileClient({ member }: { member: Member }) {
         {/* BIOGRAPHY */}
         <div className="profile-section">
           <div className="profile-section-title">Biography</div>
-          {member.biography ? (
-            <p className="profile-bio">{member.biography}</p>
-          ) : (
-            <p className="profile-bio">{member.body}</p>
-          )}
+          <p className="profile-bio">{member.biography || member.body}</p>
         </div>
 
         {/* CAREER HISTORY */}
@@ -136,33 +109,24 @@ export default function ProfileClient({ member }: { member: Member }) {
         )}
 
         {/* PUBLICATIONS */}
-        {member.semanticScholarId && (
+        {publications.length > 0 && (
           <div className="profile-section">
             <div className="profile-section-title">
-              Selected Publications{pubs && pubs.length > 0 ? ` (top ${pubs.length} by citations)` : ""}
+              Selected Publications (top {publications.length} by citations)
             </div>
-            {pubs === null && <p className="loading-text">Loading publications…</p>}
-            {pubsError && <p className="loading-text">Could not load publications.</p>}
-            {pubs && pubs.length === 0 && !pubsError && (
-              <p className="loading-text">No publications found.</p>
-            )}
-            {pubs && pubs.map((pub) => {
-              const doi = pub.externalIds?.DOI;
-              const href = doi ? `https://doi.org/${doi}` : `https://www.semanticscholar.org/paper/${pub.paperId}`;
-              return (
-                <div key={pub.paperId} className="pub-item">
-                  <div className="pub-title">
-                    <a href={href} target="_blank" rel="noopener noreferrer">{pub.title}</a>
-                  </div>
-                  <div className="pub-meta">
-                    {pub.year ?? "—"}{pub.venue ? ` · ${pub.venue}` : ""}
-                  </div>
-                  {pub.citationCount > 0 && (
-                    <div className="pub-citations">{pub.citationCount.toLocaleString()} citations</div>
-                  )}
+            {publications.map((pub, i) => (
+              <div key={i} className="pub-item">
+                <div className="pub-title">
+                  <a href={pub.url} target="_blank" rel="noopener noreferrer">{pub.title}</a>
                 </div>
-              );
-            })}
+                <div className="pub-meta">
+                  {pub.year ?? "—"}{pub.venue ? ` · ${pub.venue}` : ""}
+                </div>
+                {pub.citationCount > 0 && (
+                  <div className="pub-citations">{pub.citationCount.toLocaleString()} citations</div>
+                )}
+              </div>
+            ))}
           </div>
         )}
       </div>
