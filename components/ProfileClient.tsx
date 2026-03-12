@@ -51,11 +51,11 @@ export default function ProfileClient({ member }: { member: Member }) {
       setPubs([]);
       return;
     }
-    const url = `https://api.semanticscholar.org/graph/v1/author/${member.semanticScholarId}/papers?fields=title,year,citationCount,venue,externalIds&limit=10&sort=citationCount`;
+    const url = `https://api.semanticscholar.org/graph/v1/author/${member.semanticScholarId}/papers?fields=title,year,citationCount,venue,externalIds&limit=5&sort=citationCount`;
     fetch(url)
       .then((r) => r.json())
       .then((data) => {
-        const papers: Publication[] = (data.data || []).slice(0, 8);
+        const papers: Publication[] = (data.data || []).slice(0, 5);
         setPubs(papers);
       })
       .catch(() => {
