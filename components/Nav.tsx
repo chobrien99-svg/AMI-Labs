@@ -14,7 +14,10 @@ export default function Nav() {
   return (
     <nav className="nav">
       <div className="nav-inner">
-        <span className="nav-logo">AMI Labs</span>
+        <span className="nav-logo">
+          <span className="nav-logo-dot" />
+          AMI Labs
+        </span>
         {links.map((l) => (
           <Link
             key={l.href}
@@ -24,9 +27,9 @@ export default function Nav() {
             {l.label}
           </Link>
         ))}
-        <span style={{ marginLeft: "auto", fontSize: "0.7rem", color: "rgba(255,255,255,0.35)", whiteSpace: "nowrap" }}>
+        <span className="nav-powered">
           Powered by{" "}
-          <a href="https://frenchtechjournal.com" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(255,255,255,0.55)", textDecoration: "none" }}>
+          <a href="https://frenchtechjournal.com" target="_blank" rel="noopener noreferrer">
             The French Tech Journal
           </a>
         </span>
