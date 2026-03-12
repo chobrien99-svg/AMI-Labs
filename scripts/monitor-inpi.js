@@ -40,6 +40,23 @@ function request(options, body) {
   });
 }
 
+async function requestWithRetry(options, body, retries = 3) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      return await request(options, body);
+    } catch (err) {
+      const transient = err.code === "ECONNRESET" || err.code === "ECONNREFUSED" || err.code === "ETIMEDOUT";
+      if (transient && attempt < retries) {
+        const delay = 2000 * attempt;
+        console.warn(`[inpi] Network error (${err.code}), retry ${attempt}/${retries - 1} in ${delay / 1000}s...`);
+        await new Promise((res) => setTimeout(res, delay));
+      } else {
+        throw err;
+      }
+    }
+  }
+}
+
 /** Extract Set-Cookie values into a simple key=value map */
 function parseCookies(res) {
   const map = {};
@@ -102,7 +119,7 @@ async function authenticate(username, password) {
 async function search(domain, query, cookies) {
   // domain: "marques" | "brevets" | "dm"
   const payload = JSON.stringify({ query, rang: 1, nombre: 50 });
-  const res = await request({
+  const res = await requestWithRetry({
     hostname: BASE,
     path: `${DIFFUSION}/api/${domain}/search`,
     method: "POST",
