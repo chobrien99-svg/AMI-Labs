@@ -139,6 +139,12 @@ export default function ExplorerClient({ investors, team }: Props) {
             <p>Advanced Machine Intelligence · Paris · New York · Montreal · Singapore</p>
           </div>
           <div className="badge">
+            <div style={{ fontSize: "0.65rem", color: "rgba(255,255,255,0.4)", textAlign: "right", marginBottom: "0.2rem", letterSpacing: "0.03em" }}>
+              Powered by{" "}
+              <a href="https://frenchtechjournal.com" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(255,255,255,0.55)", textDecoration: "none" }}>
+                The French Tech Journal
+              </a>
+            </div>
             <div className="badge-amount">$1.03B</div>
             <div className="badge-label">Seed Round · $3.5B Valuation</div>
           </div>
@@ -169,6 +175,8 @@ export default function ExplorerClient({ investors, team }: Props) {
           </div>
         </div>
       </div>
+
+      <SubscribeForm />
 
       <main>
         <div className="controls">
@@ -246,7 +254,6 @@ export default function ExplorerClient({ investors, team }: Props) {
             </div>
           </>
         )}
-      <SubscribeForm />
       </main>
     </>
   );

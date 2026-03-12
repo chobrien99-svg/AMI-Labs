@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 
 export default function SubscribeForm() {
   const [email, setEmail] = useState("");
+  const [ftjOptIn, setFtjOptIn] = useState(false);
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "confirmed" | "error">("idle");
   const [message, setMessage] = useState("");
 
@@ -20,7 +21,7 @@ export default function SubscribeForm() {
       const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email, ftjOptIn }),
       });
       const data = await res.json();
       if (res.ok) {
@@ -38,68 +39,97 @@ export default function SubscribeForm() {
 
   return (
     <div style={{
-      margin: "3rem auto 2rem",
-      maxWidth: 480,
-      padding: "2rem",
+      margin: "1.5rem auto",
+      maxWidth: 560,
+      padding: "1.5rem 2rem",
       background: "rgba(255,255,255,0.03)",
       border: "1px solid rgba(255,255,255,0.08)",
       borderRadius: 12,
-      textAlign: "center",
     }}>
-      <p style={{ margin: "0 0 0.25rem", fontWeight: 600, fontSize: "1rem", color: "var(--foreground)" }}>
-        Stay updated
-      </p>
-      <p style={{ margin: "0 0 1.25rem", fontSize: "0.85rem", color: "rgba(255,255,255,0.45)" }}>
-        Get a weekly email digest of new news, jobs, and updates from AMI Labs.
-      </p>
+      <div style={{ display: "flex", alignItems: "baseline", gap: "0.75rem", marginBottom: "0.25rem" }}>
+        <p style={{ margin: 0, fontWeight: 600, fontSize: "1rem", color: "var(--foreground)" }}>
+          Stay updated
+        </p>
+        <p style={{ margin: 0, fontSize: "0.8rem", color: "rgba(255,255,255,0.35)" }}>
+          Weekly digest of new news, jobs &amp; updates from AMI Labs.
+        </p>
+      </div>
 
       {status === "confirmed" ? (
-        <p style={{ color: "#4ade80", fontSize: "0.9rem" }}>
+        <p style={{ margin: "0.75rem 0 0", color: "#4ade80", fontSize: "0.9rem" }}>
           You&apos;re confirmed. You&apos;ll receive the weekly digest every Monday.
         </p>
       ) : status === "success" ? (
-        <p style={{ color: "#4ade80", fontSize: "0.9rem" }}>
+        <p style={{ margin: "0.75rem 0 0", color: "#4ade80", fontSize: "0.9rem" }}>
           Check your inbox for a confirmation email.
         </p>
       ) : (
-        <form onSubmit={handleSubmit} style={{ display: "flex", gap: 8 }}>
-          <input
-            type="email"
-            required
-            placeholder="you@example.com"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            disabled={status === "loading"}
-            style={{
-              flex: 1,
-              padding: "0.6rem 0.9rem",
-              background: "rgba(255,255,255,0.06)",
-              border: "1px solid rgba(255,255,255,0.12)",
-              borderRadius: 8,
-              color: "var(--foreground)",
-              fontSize: "0.875rem",
-              outline: "none",
-            }}
-          />
-          <button
-            type="submit"
-            disabled={status === "loading"}
-            style={{
-              padding: "0.6rem 1.2rem",
-              background: "var(--foreground)",
-              color: "var(--background)",
-              border: "none",
-              borderRadius: 8,
-              fontSize: "0.875rem",
-              fontWeight: 600,
-              cursor: status === "loading" ? "not-allowed" : "pointer",
-              opacity: status === "loading" ? 0.6 : 1,
-              whiteSpace: "nowrap",
-            }}
-          >
-            {status === "loading" ? "…" : "Subscribe"}
-          </button>
-        </form>
+        <>
+          <form onSubmit={handleSubmit} style={{ display: "flex", gap: 8, marginTop: "0.85rem" }}>
+            <input
+              type="email"
+              required
+              placeholder="you@example.com"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              disabled={status === "loading"}
+              style={{
+                flex: 1,
+                padding: "0.6rem 0.9rem",
+                background: "rgba(255,255,255,0.06)",
+                border: "1px solid rgba(255,255,255,0.12)",
+                borderRadius: 8,
+                color: "var(--foreground)",
+                fontSize: "0.875rem",
+                outline: "none",
+              }}
+            />
+            <button
+              type="submit"
+              disabled={status === "loading"}
+              style={{
+                padding: "0.6rem 1.2rem",
+                background: "var(--foreground)",
+                color: "var(--background)",
+                border: "none",
+                borderRadius: 8,
+                fontSize: "0.875rem",
+                fontWeight: 600,
+                cursor: status === "loading" ? "not-allowed" : "pointer",
+                opacity: status === "loading" ? 0.6 : 1,
+                whiteSpace: "nowrap",
+              }}
+            >
+              {status === "loading" ? "…" : "Subscribe"}
+            </button>
+          </form>
+
+          <label style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "0.5rem",
+            marginTop: "0.65rem",
+            cursor: "pointer",
+          }}>
+            <input
+              type="checkbox"
+              checked={ftjOptIn}
+              onChange={(e) => setFtjOptIn(e.target.checked)}
+              style={{ accentColor: "var(--foreground)", width: 14, height: 14, cursor: "pointer" }}
+            />
+            <span style={{ fontSize: "0.78rem", color: "rgba(255,255,255,0.45)", lineHeight: 1.4 }}>
+              Also subscribe to newsletters from{" "}
+              <a
+                href="https://frenchtechjournal.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "rgba(255,255,255,0.6)", textDecoration: "underline" }}
+              >
+                The French Tech Journal
+              </a>
+            </span>
+          </label>
+        </>
       )}
 
       {status === "error" && (
