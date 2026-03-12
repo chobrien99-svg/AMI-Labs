@@ -23,6 +23,12 @@ export default function Nav() {
             {l.label}
           </Link>
         ))}
+        <span style={{ marginLeft: "auto", fontSize: "0.7rem", color: "rgba(255,255,255,0.35)", whiteSpace: "nowrap" }}>
+          Powered by{" "}
+          <a href="https://frenchtechjournal.com" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(255,255,255,0.55)", textDecoration: "none" }}>
+            The French Tech Journal
+          </a>
+        </span>
       </div>
     </nav>
   );
