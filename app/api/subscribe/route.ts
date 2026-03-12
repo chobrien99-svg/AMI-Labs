@@ -99,7 +99,10 @@ export async function POST(req: NextRequest) {
   if (!emailRes.ok) {
     const body = await emailRes.json().catch(() => ({}));
     console.error("Resend email error:", emailRes.status, body);
-    // Contact was added — don't surface this error to the user
+    return NextResponse.json(
+      { error: `Confirmation email failed (${emailRes.status}): ${JSON.stringify(body)}` },
+      { status: 502 }
+    );
   }
 
   return NextResponse.json({ ok: true });
