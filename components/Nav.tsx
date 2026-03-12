@@ -6,6 +6,7 @@ const links = [
   { href: "/", label: "Explorer" },
   { href: "/news", label: "News" },
   { href: "/org-chart", label: "Org Chart" },
+  { href: "/activity", label: "Activity" },
 ];
 
 export default function Nav() {
