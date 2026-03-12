@@ -1,0 +1,36 @@
+name: Fetch GitHub Activity
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # Every 6 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch GitHub activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/fetch-github-activity.js
+
+      - name: Commit updated activity
+        run: |
+          git config user.name "ami-activity-bot"
+          git config user.email "bot@ami-labs.vercel.app"
+          git add data/github-activity.json
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: refresh GitHub activity [$(date -u +%Y-%m-%d\ %H:%M)]"
+            git push
+          fi
