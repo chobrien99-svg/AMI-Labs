@@ -1,0 +1,39 @@
+name: Monitor Pappers (PengyouCo)
+
+on:
+  schedule:
+    - cron: "0 8 * * *"   # Daily at 08:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch and diff Pappers data
+        env:
+          PAPPERS_API_KEY: ${{ secrets.PAPPERS_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/monitor-pappers.js
+
+      - name: Commit updated Pappers state
+        run: |
+          git config user.name "ami-pappers-bot"
+          git config user.email "bot@ami-labs.vercel.app"
+          git add data/pappers.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update Pappers state [$(date -u +%Y-%m-%d\ %H:%M)]"
+            git push
+          fi
