@@ -1,0 +1,34 @@
+name: Fetch Publications
+
+on:
+  schedule:
+    - cron: "0 4 * * 1"   # Every Monday at 4am UTC (before digest runs at 9am)
+  workflow_dispatch:        # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch publications from Semantic Scholar
+        run: node scripts/fetch-publications.js
+
+      - name: Commit updated publications
+        run: |
+          git config user.name "ami-publications-bot"
+          git config user.email "bot@ami-labs.vercel.app"
+          git add data/publications.json
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: refresh publications data [$(date -u +%Y-%m-%d)]"
+            git push
+          fi

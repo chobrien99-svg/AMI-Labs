@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
 import teamData from "@/data/team.json";
+import publicationsData from "@/data/publications.json";
 import ProfileClient from "@/components/ProfileClient";
+import type { Publication } from "@/components/ProfileClient";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -22,5 +24,6 @@ export default async function TeamProfilePage({ params }: Props) {
   const { slug } = await params;
   const member = teamData.find((m) => m.slug === slug);
   if (!member) notFound();
-  return <ProfileClient member={member} />;
+  const publications: Publication[] = (publicationsData as Record<string, Publication[]>)[slug] ?? [];
+  return <ProfileClient member={member} publications={publications} />;
 }
