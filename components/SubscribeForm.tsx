@@ -1,11 +1,17 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function SubscribeForm() {
   const [email, setEmail] = useState("");
-  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+  const [status, setStatus] = useState<"idle" | "loading" | "success" | "confirmed" | "error">("idle");
   const [message, setMessage] = useState("");
+
+  useEffect(() => {
+    if (typeof window !== "undefined" && new URLSearchParams(window.location.search).get("subscribed") === "true") {
+      setStatus("confirmed");
+    }
+  }, []);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -47,9 +53,13 @@ export default function SubscribeForm() {
         Get a weekly email digest of new news, jobs, and updates from AMI Labs.
       </p>
 
-      {status === "success" ? (
+      {status === "confirmed" ? (
         <p style={{ color: "#4ade80", fontSize: "0.9rem" }}>
-          You&apos;re subscribed. Check your inbox to confirm.
+          You&apos;re confirmed. You&apos;ll receive the weekly digest every Monday.
+        </p>
+      ) : status === "success" ? (
+        <p style={{ color: "#4ade80", fontSize: "0.9rem" }}>
+          Check your inbox for a confirmation email.
         </p>
       ) : (
         <form onSubmit={handleSubmit} style={{ display: "flex", gap: 8 }}>
