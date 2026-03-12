@@ -1,6 +1,7 @@
 "use client";
 import { useState, useMemo } from "react";
 import Link from "next/link";
+import SubscribeForm from "./SubscribeForm";
 
 const AVATAR_COLORS = [
   ["#6c63ff", "#a78bfa"], ["#3b82f6", "#60a5fa"], ["#10b981", "#34d399"],
@@ -245,6 +246,7 @@ export default function ExplorerClient({ investors, team }: Props) {
             </div>
           </>
         )}
+      <SubscribeForm />
       </main>
     </>
   );
