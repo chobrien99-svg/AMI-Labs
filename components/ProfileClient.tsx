@@ -19,7 +19,7 @@ function initials(name: string) {
 }
 
 type CareerEntry = { org: string; title: string; years: string };
-type Links = { linkedin?: string; twitter?: string; scholar?: string };
+type Links = { linkedin?: string; twitter?: string; scholar?: string; github?: string; website?: string; bilibili?: string };
 
 type Member = {
   slug: string;
@@ -89,6 +89,15 @@ export default function ProfileClient({ member }: { member: Member }) {
               )}
               {member.links?.scholar && (
                 <a href={member.links.scholar} target="_blank" rel="noopener noreferrer" className="profile-link">Google Scholar</a>
+              )}
+              {member.links?.github && (
+                <a href={member.links.github} target="_blank" rel="noopener noreferrer" className="profile-link">GitHub</a>
+              )}
+              {member.links?.website && (
+                <a href={member.links.website} target="_blank" rel="noopener noreferrer" className="profile-link">Website</a>
+              )}
+              {member.links?.bilibili && (
+                <a href={member.links.bilibili} target="_blank" rel="noopener noreferrer" className="profile-link">Bilibili</a>
               )}
             </div>
           </div>
