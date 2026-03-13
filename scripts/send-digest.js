@@ -13,7 +13,7 @@ const path = require("path");
 
 const API_KEY = process.env.RESEND_API_KEY;
 const AUDIENCE_ID = process.env.RESEND_AUDIENCE_ID;
-const FROM_EMAIL = process.env.DIGEST_FROM_EMAIL || "AMI Labs Digest <digest@amilabs.xyz>";
+const FROM_EMAIL = process.env.DIGEST_FROM_EMAIL || "AMI Labs Digest <digest@frenchtechjournal.com>";
 const REPLY_TO = process.env.DIGEST_REPLY_TO || "";
 
 if (!API_KEY || !AUDIENCE_ID) {
@@ -154,7 +154,7 @@ const html = `<!DOCTYPE html>
           <td style="padding:40px 0 0;">
             <p style="margin:0;font-size:12px;color:#334155;">
               You&rsquo;re receiving this because you subscribed at
-              <a href="https://amilabs.xyz" style="color:#475569;">amilabs.xyz</a>.
+              <a href="https://frenchtechjournal.com" style="color:#475569;">frenchtechjournal.com</a>.
               &nbsp;&middot;&nbsp;
               <a href="{{unsubscribe_url}}" style="color:#475569;">Unsubscribe</a>
             </p>
