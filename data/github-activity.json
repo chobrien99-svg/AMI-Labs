@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-03-15T02:02:10.530Z",
+  "lastFetched": "2026-03-15T06:52:13.085Z",
   "members": [
     {
       "slug": "saining-xie",
@@ -176,6 +176,22 @@
       "githubUrl": "https://github.com/luodian",
       "events": [
         {
+          "type": "PullRequestEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Opened PR #1253 in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-03-15T06:50:24Z"
+        },
+        {
+          "type": "CreateEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Created branch brianli/sglang-distributed-eval in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-03-15T06:50:13Z"
+        },
+        {
           "type": "PushEvent",
           "repo": "EvolvingLMMs-Lab/lmms-eval",
           "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
@@ -278,22 +294,6 @@
           "description": "Created branch fix/1244-qwen3-vl-video-metadata in EvolvingLMMs-Lab/lmms-eval",
           "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
           "timestamp": "2026-03-10T13:05:20Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Opened PR #1247 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-03-10T08:15:29Z"
-        },
-        {
-          "type": "CreateEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Created branch brianli/dev in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-03-09T09:47:33Z"
         }
       ]
     },
