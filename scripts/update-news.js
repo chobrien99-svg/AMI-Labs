@@ -68,7 +68,8 @@ async function summarizeWithClaude(title, url) {
   const prompt =
     "Write a 2-3 sentence factual summary of this news article about AMI Labs (Advanced Machine Intelligence) for a news tracker. " +
     "Article title: " + JSON.stringify(title) + ". URL: " + url + ". " +
-    "If the title provides enough context, summarize based on the title alone. Be concise and factual.";
+    "Base your summary on what the title conveys. Do NOT mention that you cannot access URLs. Do NOT ask for more information. " +
+    "If the title alone is insufficient to write a meaningful summary, respond with only an empty string and nothing else.";
   const msg = await client.messages.create({
     model: "claude-haiku-4-5-20251001",
     max_tokens: 200,
