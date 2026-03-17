@@ -84,7 +84,7 @@ function inferTags(title) {
   if (/rais|fund|invest|valuat|billion|million/.test(t)) tags.push("funding");
   if (/research|paper|model|jepa|science|publish/.test(t)) tags.push("research");
   if (/hir|join|appoint|team/.test(t)) tags.push("hiring");
-  if (/regulat|legal|filing|compliance/.test(t)) tags.push("regulatory");
+  if (/regulat|legal|filing|compliance|incorporat|statut|registr|kbis/.test(t)) tags.push("administrative");
   return tags;
 }
 
