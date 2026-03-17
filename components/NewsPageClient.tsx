@@ -13,10 +13,10 @@ type Article = {
 };
 
 const TAG_STYLES: Record<string, { bg: string; color: string; border: string }> = {
-  funding:    { bg: "#1a2a1a", color: "var(--green)",  border: "#2a4a2a" },
-  research:   { bg: "#1a1a2a", color: "var(--blue)",   border: "#2a2a4a" },
-  hiring:     { bg: "#2a1a2a", color: "var(--pink)",   border: "#4a2a4a" },
-  regulatory: { bg: "#2a1a1a", color: "var(--orange)", border: "#4a2a1a" },
+  funding:       { bg: "#1a2a1a", color: "var(--green)",  border: "#2a4a2a" },
+  research:      { bg: "#1a1a2a", color: "var(--blue)",   border: "#2a2a4a" },
+  hiring:        { bg: "#2a1a2a", color: "var(--pink)",   border: "#4a2a4a" },
+  administrative:{ bg: "#2a1a1a", color: "var(--orange)", border: "#4a2a1a" },
 };
 
 function TagBadge({ tag }: { tag: string }) {
@@ -35,7 +35,7 @@ function formatDate(dateStr: string) {
   return new Date(dateStr).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
 }
 
-const ALL_TAGS = ["funding", "research", "hiring", "regulatory"];
+const ALL_TAGS = ["funding", "research", "hiring", "administrative"];
 
 export default function NewsPageClient({ articles }: { articles: Article[] }) {
   const [query, setQuery] = useState("");
