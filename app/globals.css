@@ -365,6 +365,33 @@ input[type="search"]::placeholder { color: var(--muted); }
 .tag-colead  { background: rgba(250, 204, 21,  0.1);  color: var(--yellow); border: 1px solid rgba(250, 204, 21,  0.25); }
 .tag-country { background: var(--surface2); color: var(--muted); border: 1px solid var(--border); }
 
+.card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+.card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--muted);
+  text-decoration: none;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  transition: color 0.15s, border-color 0.15s;
+}
+.card-link:hover {
+  color: var(--blue);
+  border-color: rgba(96, 165, 250, 0.4);
+}
+
 /* ── NEWS ── */
 .news-item {
   background: var(--surface);
