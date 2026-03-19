@@ -1,12 +1,12 @@
-import investorsData from "@/data/investors.json";
-import teamData from "@/data/team.json";
-import ExplorerClient from "@/components/ExplorerClient";
+import newsData from "@/data/news.json";
+import timelineData from "@/data/timeline.json";
+import HomepageClient from "@/components/HomepageClient";
 
 export default function Home() {
   return (
-    <ExplorerClient
-      investors={investorsData}
-      team={teamData}
+    <HomepageClient
+      news={newsData}
+      milestones={timelineData}
     />
   );
 }
