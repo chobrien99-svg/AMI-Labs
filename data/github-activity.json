@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-03-19T12:57:09.977Z",
+  "lastFetched": "2026-03-19T18:53:38.210Z",
   "members": [
     {
       "slug": "saining-xie",
@@ -23,6 +23,14 @@
       "username": "mavenlin",
       "githubUrl": "https://github.com/mavenlin",
       "events": [
+        {
+          "type": "PullRequestEvent",
+          "repo": "meta-pytorch/torchcodec",
+          "repoUrl": "https://github.com/meta-pytorch/torchcodec",
+          "description": "merged PR #1295 in meta-pytorch/torchcodec",
+          "url": "https://github.com/meta-pytorch/torchcodec",
+          "timestamp": "2026-03-19T17:39:11Z"
+        },
         {
           "type": "PushEvent",
           "repo": "sail-sg/envpool",
