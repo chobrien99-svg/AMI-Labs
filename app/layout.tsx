@@ -7,8 +7,8 @@ import Nav from "@/components/Nav";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "AMI Labs — Intelligence Hub",
-  description: "Comprehensive tracker for Advanced Machine Intelligence (AMI Labs) — news, team profiles, investors, and org chart.",
+  title: "AMI Labs Tracker — The French Tech Journal",
+  description: "Independent editorial tracker for AMI Labs (Advanced Machine Intelligence) — news, team, investors, funding, and milestones. A special project by The French Tech Journal.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
