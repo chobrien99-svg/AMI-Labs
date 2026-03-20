@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="hero-glass">
         <div className="hero-eyebrow">A Special Project by The French Tech Journal</div>
         <h1 className="hero-title">
-          Tracking AMI Labs —<br />
+          Tracking AMI Labs<br />
           <span className="hero-title-gradient">One of AI&apos;s Most Watched Companies</span>
         </h1>
         <p className="hero-description">
