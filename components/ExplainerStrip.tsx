@@ -5,9 +5,9 @@ const explainers = [
     icon: "🧠",
     title: "What is AMI Labs?",
     description:
-      "Advanced Machine Intelligence is building the next generation of AI — systems that reason about the physical world, not just language. Founded in 2025 by Yann LeCun and Alexandre LeBrun.",
+      "Advanced Machine Intelligence is one of the most closely watched AI startups in the world. Founded in 2025 by Yann LeCun and Alexandre LeBrun, it's building AI systems that reason about the physical world, not just language.",
     href: "/explainers",
-    linkLabel: "Our mission →",
+    linkLabel: "About the company →",
   },
   {
     icon: "🌐",
@@ -21,7 +21,7 @@ const explainers = [
     icon: "👥",
     title: "The Team",
     description:
-      "A world-class team of researchers, engineers, and operators across Paris, New York, Montreal, and Singapore — united by a shared conviction that AI can do far more than generate text.",
+      "AMI Labs has assembled researchers, engineers, and operators across Paris, New York, Montreal, and Singapore. We track every key hire and leadership change as the team grows.",
     href: "/org-chart",
     linkLabel: "Meet the team →",
   },
@@ -31,7 +31,7 @@ export default function ExplainerStrip() {
   return (
     <section className="home-section">
       <div className="home-section-header">
-        <span className="home-section-label">About AMI Labs</span>
+        <span className="home-section-label">What You Need to Know</span>
       </div>
       <div className="explainer-strip">
         {explainers.map((card) => (

@@ -51,8 +51,7 @@ export default function HomepageClient({ news, milestones }: HomepageClientProps
             <span className="home-section-label">Intelligence Digest</span>
           </div>
           <p className="subscribe-intro">
-            Stay ahead of every AMI Labs development — research breakthroughs, hiring news,
-            funding updates, and more. Delivered every Monday.
+            Every Monday, The French Tech Journal sends a digest of the latest AMI Labs news — funding, research, hiring, and more. Independent coverage. No spin.
           </p>
           <SubscribeForm />
         </section>
@@ -65,7 +64,7 @@ export default function HomepageClient({ news, milestones }: HomepageClientProps
               <span className="nav-logo-dot" />
               AMI Labs
             </span>
-            <span className="footer-tagline">Advanced Machine Intelligence</span>
+            <span className="footer-tagline">An editorial tracker by The French Tech Journal</span>
           </div>
           <div className="footer-links">
             <a href="/news">News</a>

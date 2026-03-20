@@ -9,14 +9,13 @@ export default function Hero() {
 
       {/* Frosted glass card */}
       <div className="hero-glass">
-        <div className="hero-eyebrow">Advanced Machine Intelligence</div>
+        <div className="hero-eyebrow">A Special Project by The French Tech Journal</div>
         <h1 className="hero-title">
-          Building AI That<br />
-          <span className="hero-title-gradient">Understands the World</span>
+          Tracking AMI Labs —<br />
+          <span className="hero-title-gradient">One of AI&apos;s Most Watched Companies</span>
         </h1>
         <p className="hero-description">
-          AMI Labs is developing World Models — AI systems that reason about the physical
-          world, go beyond language, and unlock the next frontier of machine intelligence.
+          AMI Labs is betting that the future of AI isn&apos;t language models: machines that understand the physical world. We&apos;re tracking every milestone, hire, investor, and research development so you don&apos;t have to.
         </p>
         <div className="hero-ctas">
           <Link href="/news" className="hero-cta-primary">
