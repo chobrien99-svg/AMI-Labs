@@ -96,13 +96,19 @@ export default function NewsPageClient({ articles }: { articles: Article[] }) {
           </div>
         )}
 
-        {filtered.map((article) => (
+        {filtered.map((article) => {
+          const isInternal = article.url.startsWith("/");
+          return (
           <div key={article.id} className="news-item">
             <div className="news-meta">
               <span className="news-source-badge">{article.source}</span>
               <span className="news-date">{formatDate(article.publishedAt)}</span>
             </div>
-            <a href={article.url} target="_blank" rel="noopener noreferrer" className="news-title">
+            <a
+              href={article.url}
+              {...(!isInternal && { target: "_blank", rel: "noopener noreferrer" })}
+              className="news-title"
+            >
               {article.title}
             </a>
             <div className="news-summary">{article.summary}</div>
@@ -112,7 +118,8 @@ export default function NewsPageClient({ articles }: { articles: Article[] }) {
               </div>
             )}
           </div>
-        ))}
+          );
+        })}
       </main>
     </>
   );
