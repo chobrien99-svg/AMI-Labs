@@ -42,25 +42,25 @@ export default function SubscribeForm() {
       margin: "1.5rem auto",
       maxWidth: 560,
       padding: "1.5rem 2rem",
-      background: "rgba(255,255,255,0.03)",
-      border: "1px solid rgba(255,255,255,0.08)",
-      borderRadius: 12,
+      background: "var(--surface)",
+      border: "1px solid var(--border)",
+      borderRadius: 10,
     }}>
       <div style={{ display: "flex", alignItems: "baseline", gap: "0.75rem", marginBottom: "0.25rem" }}>
-        <p style={{ margin: 0, fontWeight: 600, fontSize: "1rem", color: "var(--foreground)" }}>
+        <p style={{ margin: 0, fontWeight: 600, fontSize: "1rem", color: "var(--text)" }}>
           Stay updated
         </p>
-        <p style={{ margin: 0, fontSize: "0.8rem", color: "rgba(255,255,255,0.35)" }}>
+        <p style={{ margin: 0, fontSize: "0.8rem", color: "var(--muted)" }}>
           Weekly digest of new news, jobs &amp; updates from AMI Labs.
         </p>
       </div>
 
       {status === "confirmed" ? (
-        <p style={{ margin: "0.75rem 0 0", color: "#4ade80", fontSize: "0.9rem" }}>
+        <p style={{ margin: "0.75rem 0 0", color: "var(--green)", fontSize: "0.9rem" }}>
           You&apos;re confirmed. You&apos;ll receive the weekly digest every Monday.
         </p>
       ) : status === "success" ? (
-        <p style={{ margin: "0.75rem 0 0", color: "#4ade80", fontSize: "0.9rem" }}>
+        <p style={{ margin: "0.75rem 0 0", color: "var(--green)", fontSize: "0.9rem" }}>
           Check your inbox for a confirmation email.
         </p>
       ) : (
@@ -76,10 +76,10 @@ export default function SubscribeForm() {
               style={{
                 flex: 1,
                 padding: "0.6rem 0.9rem",
-                background: "rgba(255,255,255,0.06)",
-                border: "1px solid rgba(255,255,255,0.12)",
-                borderRadius: 8,
-                color: "var(--foreground)",
+                background: "var(--bg)",
+                border: "1px solid var(--border)",
+                borderRadius: 6,
+                color: "var(--text)",
                 fontSize: "0.875rem",
                 outline: "none",
               }}
@@ -89,10 +89,10 @@ export default function SubscribeForm() {
               disabled={status === "loading"}
               style={{
                 padding: "0.6rem 1.2rem",
-                background: "var(--foreground)",
-                color: "var(--background)",
+                background: "var(--accent)",
+                color: "#fff",
                 border: "none",
-                borderRadius: 8,
+                borderRadius: 6,
                 fontSize: "0.875rem",
                 fontWeight: 600,
                 cursor: status === "loading" ? "not-allowed" : "pointer",
@@ -115,15 +115,15 @@ export default function SubscribeForm() {
               type="checkbox"
               checked={ftjOptIn}
               onChange={(e) => setFtjOptIn(e.target.checked)}
-              style={{ accentColor: "var(--foreground)", width: 14, height: 14, cursor: "pointer" }}
+              style={{ accentColor: "var(--accent)", width: 14, height: 14, cursor: "pointer" }}
             />
-            <span style={{ fontSize: "0.78rem", color: "rgba(255,255,255,0.45)", lineHeight: 1.4 }}>
+            <span style={{ fontSize: "0.78rem", color: "var(--text-dim)", lineHeight: 1.4 }}>
               Also subscribe to newsletters from{" "}
               <a
                 href="https://frenchtechjournal.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ color: "rgba(255,255,255,0.6)", textDecoration: "underline" }}
+                style={{ color: "var(--accent2)", textDecoration: "underline" }}
               >
                 The French Tech Journal
               </a>

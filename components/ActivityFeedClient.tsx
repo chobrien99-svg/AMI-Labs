@@ -86,9 +86,9 @@ export default function ActivityFeedClient({ members, lastFetched }: Props) {
           style={{
             padding: "0.35rem 0.85rem",
             borderRadius: 20,
-            border: "1px solid rgba(255,255,255,0.12)",
-            background: filterMember === "all" ? "rgba(255,255,255,0.12)" : "transparent",
-            color: "var(--foreground)",
+            border: "1px solid var(--border)",
+            background: filterMember === "all" ? "var(--accent-dim)" : "transparent",
+            color: filterMember === "all" ? "var(--accent)" : "var(--muted)",
             fontSize: "0.78rem",
             cursor: "pointer",
           }}
@@ -102,9 +102,9 @@ export default function ActivityFeedClient({ members, lastFetched }: Props) {
             style={{
               padding: "0.35rem 0.85rem",
               borderRadius: 20,
-              border: "1px solid rgba(255,255,255,0.12)",
-              background: filterMember === m.slug ? "rgba(255,255,255,0.12)" : "transparent",
-              color: "var(--foreground)",
+              border: "1px solid var(--border)",
+              background: filterMember === m.slug ? "var(--accent-dim)" : "transparent",
+              color: filterMember === m.slug ? "var(--accent)" : "var(--muted)",
               fontSize: "0.78rem",
               cursor: "pointer",
               display: "flex",
@@ -124,7 +124,7 @@ export default function ActivityFeedClient({ members, lastFetched }: Props) {
           </button>
         ))}
         {lastFetched && (
-          <span style={{ marginLeft: "auto", fontSize: "0.72rem", color: "rgba(255,255,255,0.3)" }}>
+          <span style={{ marginLeft: "auto", fontSize: "0.72rem", color: "var(--muted)" }}>
             Updated {timeAgo(lastFetched)}
           </span>
         )}
@@ -132,7 +132,7 @@ export default function ActivityFeedClient({ members, lastFetched }: Props) {
 
       {/* event feed */}
       {allEvents.length === 0 ? (
-        <p style={{ color: "rgba(255,255,255,0.3)", fontSize: "0.9rem" }}>No activity yet. Run the GitHub Action to populate data.</p>
+        <p style={{ color: "var(--muted)", fontSize: "0.9rem" }}>No activity yet. Run the GitHub Action to populate data.</p>
       ) : (
         <div style={{ display: "flex", flexDirection: "column", gap: 0 }}>
           {allEvents.map((e, i) => (
@@ -140,7 +140,7 @@ export default function ActivityFeedClient({ members, lastFetched }: Props) {
               display: "flex",
               gap: 14,
               padding: "12px 0",
-              borderBottom: "1px solid rgba(255,255,255,0.05)",
+              borderBottom: "1px solid var(--border)",
             }}>
               {/* avatar */}
               <div style={{
@@ -155,22 +155,22 @@ export default function ActivityFeedClient({ members, lastFetched }: Props) {
               {/* content */}
               <div style={{ flex: 1, minWidth: 0 }}>
                 <div style={{ display: "flex", alignItems: "baseline", gap: 6, flexWrap: "wrap" }}>
-                  <a href={`/team/${e.member.slug}`} style={{ fontSize: "0.82rem", fontWeight: 600, color: "var(--foreground)", textDecoration: "none" }}>
+                  <a href={`/team/${e.member.slug}`} style={{ fontSize: "0.82rem", fontWeight: 600, color: "var(--text)", textDecoration: "none" }}>
                     {e.member.name}
                   </a>
-                  <span style={{ fontSize: "0.72rem", color: "rgba(255,255,255,0.25)" }}>
+                  <span style={{ fontSize: "0.72rem", color: "var(--muted)" }}>
                     {eventIcon(e.type)}
                   </span>
-                  <a href={e.url} target="_blank" rel="noopener noreferrer" style={{ fontSize: "0.82rem", color: "rgba(255,255,255,0.7)", textDecoration: "none", minWidth: 0, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+                  <a href={e.url} target="_blank" rel="noopener noreferrer" style={{ fontSize: "0.82rem", color: "var(--text-dim)", textDecoration: "none", minWidth: 0, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
                     {e.description}
                   </a>
                 </div>
                 <div style={{ marginTop: 3, display: "flex", alignItems: "center", gap: 8 }}>
-                  <a href={e.repoUrl} target="_blank" rel="noopener noreferrer" style={{ fontSize: "0.72rem", color: "rgba(255,255,255,0.3)", textDecoration: "none" }}>
+                  <a href={e.repoUrl} target="_blank" rel="noopener noreferrer" style={{ fontSize: "0.72rem", color: "var(--muted)", textDecoration: "none" }}>
                     {e.repo}
                   </a>
-                  <span style={{ fontSize: "0.68rem", color: "rgba(255,255,255,0.2)" }}>·</span>
-                  <span style={{ fontSize: "0.72rem", color: "rgba(255,255,255,0.25)" }}>{timeAgo(e.timestamp)}</span>
+                  <span style={{ fontSize: "0.68rem", color: "var(--border)" }}>·</span>
+                  <span style={{ fontSize: "0.72rem", color: "var(--muted)" }}>{timeAgo(e.timestamp)}</span>
                 </div>
               </div>
             </div>
