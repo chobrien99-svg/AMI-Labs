@@ -23,12 +23,14 @@ type SanityArticle = {
 };
 
 export default async function NewsPage() {
-  let articles = newsData as unknown as Parameters<typeof NewsPageClient>[0]["articles"];
+  const jsonArticles = newsData as unknown as Parameters<typeof NewsPageClient>[0]["articles"];
+
+  let sanityArticles: Parameters<typeof NewsPageClient>[0]["articles"] = [];
 
   try {
-    const sanityArticles: SanityArticle[] = await client.fetch(allArticlesQuery, {}, { perspective: "published" });
-    if (sanityArticles && sanityArticles.length > 0) {
-      articles = sanityArticles.map((a) => ({
+    const fetched: SanityArticle[] = await client.fetch(allArticlesQuery, {}, { perspective: "published" });
+    if (fetched?.length) {
+      sanityArticles = fetched.map((a) => ({
         id: a._id,
         title: a.title,
         source: a.source ?? "",
@@ -40,8 +42,14 @@ export default async function NewsPage() {
       }));
     }
   } catch (err) {
-    console.error("[news/page] Sanity fetch failed — falling back to news.json:", err);
+    console.error("[news/page] Sanity fetch failed — falling back to news.json only:", err);
   }
+
+  // Merge: Sanity articles take priority; exclude any JSON articles whose URL
+  // matches a Sanity article (avoids duplicates if the workflow ever writes both)
+  const sanityUrls = new Set(sanityArticles.map((a) => a.url));
+  const dedupedJson = jsonArticles.filter((a) => !sanityUrls.has(a.url));
+  const articles = [...sanityArticles, ...dedupedJson];
 
   return <NewsPageClient articles={articles} />;
 }
