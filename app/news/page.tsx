@@ -26,7 +26,7 @@ export default async function NewsPage() {
   let articles = newsData as unknown as Parameters<typeof NewsPageClient>[0]["articles"];
 
   try {
-    const sanityArticles: SanityArticle[] = await client.fetch(allArticlesQuery);
+    const sanityArticles: SanityArticle[] = await client.fetch(allArticlesQuery, {}, { perspective: "published" });
     if (sanityArticles && sanityArticles.length > 0) {
       articles = sanityArticles.map((a) => ({
         id: a._id,

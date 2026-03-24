@@ -131,7 +131,7 @@ const portableTextComponents = {
 
 export async function generateStaticParams() {
   try {
-    const articles: Article[] = await client.fetch(allArticlesQuery);
+    const articles: Article[] = await client.fetch(allArticlesQuery, {}, { perspective: "published" });
     return (articles ?? []).map((a) => ({ slug: a.slug.current }));
   } catch {
     return [];
@@ -141,7 +141,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   try {
     const { slug } = await params;
-    const article: Article | null = await client.fetch(articleBySlugQuery, { slug });
+    const article: Article | null = await client.fetch(articleBySlugQuery, { slug }, { perspective: "published" });
     if (!article) return {};
     return {
       title: `${article.title} — AMI Labs`,
@@ -157,7 +157,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   let article: Article | null = null;
 
   try {
-    article = await client.fetch(articleBySlugQuery, { slug });
+    article = await client.fetch(articleBySlugQuery, { slug }, { perspective: "published" });
   } catch {
     // Sanity not reachable
   }
