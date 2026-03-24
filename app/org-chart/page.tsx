@@ -33,7 +33,9 @@ export default async function OrgChartPage() {
         reportsTo: p.reportsTo?.slug?.current ?? null,
       }));
     }
-  } catch { /* fall back to team.json */ }
+  } catch (err) {
+    console.error("[org-chart] Sanity fetch failed — falling back to team.json:", err);
+  }
 
   return <OrgChartClient team={team} />;
 }
