@@ -15,6 +15,10 @@ const API_KEY = process.env.RESEND_API_KEY;
 const AUDIENCE_ID = process.env.RESEND_AUDIENCE_ID;
 const FROM_EMAIL = process.env.DIGEST_FROM_EMAIL || "AMI Labs Digest <digest@frenchtechjournal.com>";
 const REPLY_TO = process.env.DIGEST_REPLY_TO || "";
+const SANITY_TOKEN = process.env.SANITY_API_READ_TOKEN || "";
+const SANITY_PROJECT_ID = "k8hl9hed";
+const SANITY_DATASET = "production";
+const SITE_URL = "https://ami.frenchtechjournal.com";
 
 if (!API_KEY || !AUDIENCE_ID) {
   console.error("Missing RESEND_API_KEY or RESEND_AUDIENCE_ID");
@@ -22,6 +26,21 @@ if (!API_KEY || !AUDIENCE_ID) {
 }
 
 // ── helpers ──────────────────────────────────────────────────────────────────
+
+function get(url, headers) {
+  return new Promise((resolve, reject) => {
+    const req = https.request(url, { headers }, (res) => {
+      let data = "";
+      res.on("data", (c) => (data += c));
+      res.on("end", () => {
+        try { resolve({ status: res.statusCode, body: JSON.parse(data) }); }
+        catch { resolve({ status: res.statusCode, body: data }); }
+      });
+    });
+    req.on("error", reject);
+    req.end();
+  });
+}
 
 function resend(method, path, body) {
   return new Promise((resolve, reject) => {
@@ -65,14 +84,38 @@ function recentItems(file, dateField) {
   }
 }
 
-const newArticles = recentItems("news.json", "addedAt");
-const newJobs = recentItems("jobs.json", "postedAt");
-
-console.log(`New articles: ${newArticles.length}, New jobs: ${newJobs.length}`);
-
-if (newArticles.length === 0 && newJobs.length === 0) {
-  console.log("Nothing new this week — skipping digest.");
-  process.exit(0);
+async function fetchSanityArticles() {
+  if (!SANITY_TOKEN) {
+    console.warn("No SANITY_API_READ_TOKEN — skipping Sanity fetch for digest.");
+    return [];
+  }
+  try {
+    const query = encodeURIComponent(
+      `*[_type == "article" && !(_id in path("drafts.**")) && _createdAt >= "${cutoff.toISOString()}"] | order(_createdAt desc) { title, slug, source, externalUrl, publishedAt, summary }`
+    );
+    const url = `https://${SANITY_PROJECT_ID}.api.sanity.io/v2024-01-01/data/query/${SANITY_DATASET}?query=${query}`;
+    const res = await get(url, {
+      Authorization: `Bearer ${SANITY_TOKEN}`,
+      "User-Agent": "AMI-Labs-Digest/1.0",
+    });
+    if (res.status !== 200 || !res.body.result) {
+      console.warn("Sanity fetch returned unexpected response:", res.status);
+      return [];
+    }
+    return res.body.result.map((a) => ({
+      id: a.slug?.current ?? a.title,
+      title: a.title,
+      source: a.source ?? "AMI Labs",
+      url: a.externalUrl ?? `${SITE_URL}/news/${a.slug?.current}`,
+      publishedAt: a.publishedAt ?? "",
+      summary: a.summary ?? "",
+      tags: [],
+      addedAt: a.publishedAt ?? "",
+    }));
+  } catch (e) {
+    console.warn("Sanity fetch failed:", e.message);
+    return [];
+  }
 }
 
 // ── build HTML email ──────────────────────────────────────────────────────────
@@ -100,9 +143,11 @@ function jobRow(j) {
     </tr>`;
 }
 
-const weekLabel = new Date().toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+// ── fetch subscribers and send ────────────────────────────────────────────────
 
-const html = `<!DOCTYPE html>
+function buildHtml(newArticles, newJobs) {
+  const weekLabel = new Date().toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+  return `<!DOCTYPE html>
 <html lang="en">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
 <body style="margin:0;padding:0;background:#0a0a0a;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
@@ -166,10 +211,27 @@ const html = `<!DOCTYPE html>
   </table>
 </body>
 </html>`;
-
-// ── fetch subscribers and send ────────────────────────────────────────────────
+}
 
 async function main() {
+  // Collect articles from both sources
+  const jsonArticles = recentItems("news.json", "addedAt");
+  const sanityArticles = await fetchSanityArticles();
+
+  // Merge: Sanity first, then JSON — dedup by URL
+  const sanityUrls = new Set(sanityArticles.map((a) => a.url));
+  const newArticles = [...sanityArticles, ...jsonArticles.filter((a) => !sanityUrls.has(a.url))];
+  const newJobs = recentItems("jobs.json", "postedAt");
+
+  console.log(`Sanity articles: ${sanityArticles.length}, JSON articles: ${jsonArticles.length}, Jobs: ${newJobs.length}`);
+
+  if (newArticles.length === 0 && newJobs.length === 0) {
+    console.log("Nothing new this week — skipping digest.");
+    process.exit(0);
+  }
+
+  const html = buildHtml(newArticles, newJobs);
+
   // Fetch all contacts
   const contactsRes = await resend("GET", `/audiences/${AUDIENCE_ID}/contacts`);
   if (contactsRes.status !== 200) {
@@ -185,6 +247,7 @@ async function main() {
     process.exit(0);
   }
 
+  const weekLabel = new Date().toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
   const subject = `AMI Labs Digest — ${weekLabel}`;
   const BATCH_SIZE = 100;
 
