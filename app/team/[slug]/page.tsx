@@ -36,7 +36,7 @@ type SanityPerson = {
 
 export async function generateStaticParams() {
   try {
-    const persons: SanityPerson[] = await client.fetch(allPersonsQuery);
+    const persons: SanityPerson[] = await client.fetch(allPersonsQuery, {}, { perspective: "published" });
     if (persons?.length) return persons.map((p) => ({ slug: p.slug.current }));
   } catch { /* fall through */ }
   return teamData.map((m) => ({ slug: m.slug }));
@@ -45,7 +45,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
   try {
-    const person: SanityPerson | null = await client.fetch(personBySlugQuery, { slug });
+    const person: SanityPerson | null = await client.fetch(personBySlugQuery, { slug }, { perspective: "published" });
     if (person) return { title: `${person.name} — AMI Labs`, description: person.body };
   } catch { /* fall through */ }
   const member = teamData.find((m) => m.slug === slug);
@@ -58,7 +58,7 @@ export default async function TeamProfilePage({ params }: Props) {
 
   // Try Sanity first
   try {
-    const person: SanityPerson | null = await client.fetch(personBySlugQuery, { slug });
+    const person: SanityPerson | null = await client.fetch(personBySlugQuery, { slug }, { perspective: "published" });
     if (person) {
       const autoPubs: Publication[] =
         (publicationsData as Record<string, Publication[]>)[slug] ?? [];

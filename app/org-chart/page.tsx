@@ -24,7 +24,7 @@ export default async function OrgChartPage() {
     teamData.map((m) => ({ slug: m.slug, name: m.name, role: m.role, reportsTo: m.reportsTo }));
 
   try {
-    const persons: SanityPerson[] = await client.fetch(allPersonsQuery);
+    const persons: SanityPerson[] = await client.fetch(allPersonsQuery, {}, { perspective: "published" });
     if (persons?.length) {
       team = persons.map((p) => ({
         slug: p.slug.current,
