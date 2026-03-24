@@ -39,8 +39,8 @@ export default async function NewsPage() {
         addedAt: a.publishedAt,
       }));
     }
-  } catch {
-    // Sanity not configured yet — fall back to static JSON
+  } catch (err) {
+    console.error("[news/page] Sanity fetch failed — falling back to news.json:", err);
   }
 
   return <NewsPageClient articles={articles} />;

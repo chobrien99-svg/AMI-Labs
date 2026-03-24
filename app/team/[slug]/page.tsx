@@ -81,7 +81,9 @@ export default async function TeamProfilePage({ params }: Props) {
         />
       );
     }
-  } catch { /* fall through to JSON */ }
+  } catch (err) {
+    console.error(`[team/${slug}] Sanity fetch failed — falling back to team.json:`, err);
+  }
 
   // Fall back to team.json
   const member = teamData.find((m) => m.slug === slug);
