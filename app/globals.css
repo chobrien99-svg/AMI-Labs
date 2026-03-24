@@ -576,6 +576,40 @@ input[type="search"]::placeholder { color: var(--muted); }
   color: var(--text-dim);
   line-height: 1.75;
 }
+.bio-h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-family: var(--font-serif, Georgia, serif);
+  letter-spacing: -0.02em;
+  margin: 0 0 1rem;
+  color: var(--text);
+}
+.bio-h2 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 1.75rem 0 0.5rem;
+  color: var(--text);
+}
+.bio-h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.4rem;
+  color: var(--text);
+}
+.bio-p {
+  margin-bottom: 1.1rem;
+}
+.bio-p:last-child { margin-bottom: 0; }
+.bio-link {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.bio-ul, .bio-ol {
+  padding-left: 1.4rem;
+  margin-bottom: 1.1rem;
+}
+.bio-li { margin-bottom: 0.3rem; }
 .career-item {
   display: flex;
   gap: 20px;

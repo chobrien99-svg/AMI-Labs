@@ -1,5 +1,7 @@
 "use client";
 import Link from "next/link";
+import ReactMarkdown from "react-markdown";
+import { PortableText, type PortableTextBlock } from "@portabletext/react";
 
 const AVATAR_COLORS = [
   ["#6c63ff", "#a78bfa"], ["#3b82f6", "#60a5fa"], ["#10b981", "#34d399"],
@@ -26,7 +28,8 @@ type Member = {
   role: string;
   body: string;
   tags: string[];
-  biography: string;
+  biography: string | null;
+  biographyPortable: PortableTextBlock[] | null;
   careerHistory: CareerEntry[];
   links: Links;
   semanticScholarId: string | null;
@@ -38,9 +41,78 @@ export type Publication = {
   citationCount: number;
   venue: string | null;
   url: string;
+  note?: string;
 };
 
-export default function ProfileClient({ member, publications }: { member: Member; publications: Publication[] }) {
+const portableTextComponents = {
+  block: {
+    h1: ({ children }: { children?: React.ReactNode }) => <h1 className="bio-h1">{children}</h1>,
+    h2: ({ children }: { children?: React.ReactNode }) => <h2 className="bio-h2">{children}</h2>,
+    h3: ({ children }: { children?: React.ReactNode }) => <h3 className="bio-h3">{children}</h3>,
+    normal: ({ children }: { children?: React.ReactNode }) => <p className="bio-p">{children}</p>,
+    blockquote: ({ children }: { children?: React.ReactNode }) => (
+      <blockquote style={{ borderLeft: "3px solid var(--accent2)", paddingLeft: "1rem", color: "var(--muted)", fontStyle: "italic", margin: "1rem 0" }}>
+        {children}
+      </blockquote>
+    ),
+  },
+  marks: {
+    strong: ({ children }: { children?: React.ReactNode }) => <strong style={{ fontWeight: 700 }}>{children}</strong>,
+    em: ({ children }: { children?: React.ReactNode }) => <em>{children}</em>,
+    link: ({ value, children }: { value?: { href: string }; children?: React.ReactNode }) => (
+      <a href={value?.href} target="_blank" rel="noopener noreferrer" className="bio-link">{children}</a>
+    ),
+  },
+  list: {
+    bullet: ({ children }: { children?: React.ReactNode }) => <ul className="bio-ul">{children}</ul>,
+    number: ({ children }: { children?: React.ReactNode }) => <ol className="bio-ol">{children}</ol>,
+  },
+  listItem: {
+    bullet: ({ children }: { children?: React.ReactNode }) => <li className="bio-li">{children}</li>,
+    number: ({ children }: { children?: React.ReactNode }) => <li className="bio-li">{children}</li>,
+  },
+};
+
+const markdownComponents = {
+  h1: ({ children }: { children?: React.ReactNode }) => <h1 className="bio-h1">{children}</h1>,
+  h2: ({ children }: { children?: React.ReactNode }) => <h2 className="bio-h2">{children}</h2>,
+  h3: ({ children }: { children?: React.ReactNode }) => <h3 className="bio-h3">{children}</h3>,
+  p:  ({ children }: { children?: React.ReactNode }) => <p className="bio-p">{children}</p>,
+  a:  ({ href, children }: { href?: string; children?: React.ReactNode }) => (
+    <a href={href} target="_blank" rel="noopener noreferrer" className="bio-link">{children}</a>
+  ),
+  ul: ({ children }: { children?: React.ReactNode }) => <ul className="bio-ul">{children}</ul>,
+  ol: ({ children }: { children?: React.ReactNode }) => <ol className="bio-ol">{children}</ol>,
+  li: ({ children }: { children?: React.ReactNode }) => <li className="bio-li">{children}</li>,
+  strong: ({ children }: { children?: React.ReactNode }) => <strong style={{ fontWeight: 700 }}>{children}</strong>,
+};
+
+function BiographySection({ member }: { member: Member }) {
+  if (member.biographyPortable && member.biographyPortable.length > 0) {
+    return (
+      <div className="profile-bio">
+        <PortableText value={member.biographyPortable} components={portableTextComponents} />
+      </div>
+    );
+  }
+  const text = member.biography || member.body;
+  if (!text) return null;
+  return (
+    <div className="profile-bio">
+      <ReactMarkdown components={markdownComponents}>{text}</ReactMarkdown>
+    </div>
+  );
+}
+
+export default function ProfileClient({
+  member,
+  publications,
+  featuredPublications = [],
+}: {
+  member: Member;
+  publications: Publication[];
+  featuredPublications?: Publication[];
+}) {
   return (
     <>
       <div className="profile-header">
@@ -89,7 +161,7 @@ export default function ProfileClient({ member, publications }: { member: Member
         {/* BIOGRAPHY */}
         <div className="profile-section">
           <div className="profile-section-title">Biography</div>
-          <p className="profile-bio">{member.biography || member.body}</p>
+          <BiographySection member={member} />
         </div>
 
         {/* CAREER HISTORY */}
@@ -108,11 +180,34 @@ export default function ProfileClient({ member, publications }: { member: Member
           </div>
         )}
 
-        {/* PUBLICATIONS */}
+        {/* FEATURED PUBLICATIONS (manually curated in Sanity) */}
+        {featuredPublications.length > 0 && (
+          <div className="profile-section">
+            <div className="profile-section-title">Key Papers</div>
+            {featuredPublications.map((pub, i) => (
+              <div key={i} className="pub-item">
+                <div className="pub-title">
+                  <a href={pub.url} target="_blank" rel="noopener noreferrer">{pub.title}</a>
+                </div>
+                {pub.note && <div style={{ fontSize: "0.75rem", color: "var(--accent)", marginTop: "2px", fontWeight: 500 }}>{pub.note}</div>}
+                <div className="pub-meta">
+                  {pub.year ?? "—"}{pub.venue ? ` · ${pub.venue}` : ""}
+                </div>
+                {pub.citationCount && pub.citationCount > 0 ? (
+                  <div className="pub-citations">{pub.citationCount.toLocaleString()} citations</div>
+                ) : null}
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* AUTO-FETCHED PUBLICATIONS (Semantic Scholar) */}
         {publications.length > 0 && (
           <div className="profile-section">
             <div className="profile-section-title">
-              Selected Publications (top {publications.length} by citations)
+              {featuredPublications.length > 0
+                ? `More Publications (top ${publications.length} by citations)`
+                : `Selected Publications (top ${publications.length} by citations)`}
             </div>
             {publications.map((pub, i) => (
               <div key={i} className="pub-item">
