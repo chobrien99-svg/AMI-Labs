@@ -90,6 +90,27 @@ export default function ExplainersClient({ pitchdeck }: ExplainersClientProps) {
           </div>
 
           <div className="card explainer-article-card">
+            <div className="explainer-article-icon">🔬</div>
+            <div className="card-name">LeWorldModel — JEPA from Pixels</div>
+            <div className="card-body">
+              <p>
+                LeWorldModel (LeWM) is the first Joint Embedding Predictive Architecture that
+                trains stably end-to-end from raw pixels using only <strong>two loss terms</strong>.
+                Authored by Yann LeCun, Lucas Maes, and collaborators at Mila and Meta FAIR.
+              </p>
+              <p style={{ marginTop: 10 }}>
+                It achieves <strong>48× faster planning</strong> than foundation-model-based
+                alternatives by predicting entirely in latent space — no pixel decoding required.
+                A compact ~15M parameter model competitive with much larger systems.
+              </p>
+            </div>
+            <div className="explainer-article-links">
+              <Link href="/research/le-wm" className="card-link">🧠 Interactive explainer →</Link>
+              <a href="https://arxiv.org/abs/2603.19312" target="_blank" rel="noopener noreferrer" className="card-link">📄 arXiv paper →</a>
+            </div>
+          </div>
+
+          <div className="card explainer-article-card">
             <div className="explainer-article-icon">🌐</div>
             <div className="card-name">What are World Models?</div>
             <div className="card-body">
