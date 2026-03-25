@@ -11,11 +11,11 @@ export default function Hero() {
       <div className="hero-glass">
         <div className="hero-eyebrow">A Special Project by The French Tech Journal</div>
         <h1 className="hero-title">
-          Tracking AMI Labs<br />
+          The AMI Labs Observatory<br />
           <span className="hero-title-gradient">One of AI&apos;s Most Watched Companies</span>
         </h1>
         <p className="hero-description">
-          AMI Labs is betting that the future of AI isn&apos;t language models: machines that understand the physical world. We&apos;re tracking every milestone, hire, investor, and research development so you don&apos;t have to.
+          Advanced Machine Intelligence is betting that the future of AI goes beyond language models to machines that understand the physical world. We track every hire, investor move, and research milestone on the quest to take world models from the lab to commercialization.
         </p>
         <div className="hero-ctas">
           <Link href="/news" className="hero-cta-primary">
