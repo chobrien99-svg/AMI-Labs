@@ -24,8 +24,9 @@ Output (public/pusht_rollout.json):
   #    File name: pusht  (the script appends _object.ckpt automatically)
 
   # 3. Copy this script into the le-wm directory and run it
+  #    --checkpoint is the path relative to $STABLEWM_HOME, WITHOUT _object.ckpt
   cp path/to/AMI-Labs/scripts/capture_pusht_rollout.py .
-  python capture_pusht_rollout.py --checkpoint /path/to/pusht_object.ckpt
+  python capture_pusht_rollout.py --checkpoint pusht/lewm
 
   # 4. Move the output into the AMI-Labs public folder
   cp pusht_rollout.json path/to/AMI-Labs/public/pusht_rollout.json
@@ -58,7 +59,7 @@ import torch
 def parse_args():
     p = argparse.ArgumentParser(description="Capture LeWM PushT rollout data for visualisation")
     p.add_argument("--checkpoint", required=True,
-                   help="Path to the PushT .ckpt file (e.g. pusht_object.ckpt)")
+                   help="Path relative to $STABLEWM_HOME, without _object.ckpt suffix (e.g. pusht/lewm)")
     p.add_argument("--output", default="pusht_rollout.json",
                    help="Output JSON path (default: pusht_rollout.json)")
     p.add_argument("--max-steps", type=int, default=80,
@@ -322,9 +323,11 @@ def main():
         sys.exit(f"Checkpoint not found: {ckpt_path}")
 
     # ── 1. Load model ──────────────────────────────────────────────────────────
-    print(f"Loading model from {ckpt_path} …")
-    from stable_worldmodel import AutoCostModel
-    model = AutoCostModel.from_pretrained(str(ckpt_path))
+    # AutoCostModel takes the path relative to $STABLEWM_HOME (default ~/.stable-wm/)
+    # WITHOUT the _object.ckpt suffix — e.g. "pusht/lewm"
+    print(f"Loading model from $STABLEWM_HOME/{ckpt_path} …")
+    import stable_worldmodel as swm
+    model = swm.policy.AutoCostModel(str(ckpt_path))
     model.eval()
     print("  Model loaded ✓")
 
