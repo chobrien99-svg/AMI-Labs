@@ -395,7 +395,7 @@ export default function LeWMClient() {
           <div className="lewm-hero-gif">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://raw.githubusercontent.com/lucas-maes/le-wm/main/assets/lewm.gif"
+              src="/lewm-demo.gif"
               alt="LeWM planning demo across TwoRoom, PushT, Cube and Reacher environments"
               className="lewm-gif"
             />
