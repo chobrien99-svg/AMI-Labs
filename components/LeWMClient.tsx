@@ -104,8 +104,9 @@ function CEMVisualization() {
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
-    const ctx = canvas.getContext("2d");
-    if (!ctx) return;
+    const ctxMaybe = canvas.getContext("2d");
+    if (!ctxMaybe) return;
+    const ctx: CanvasRenderingContext2D = ctxMaybe;
 
     const W = canvas.width;
     const H = canvas.height;
