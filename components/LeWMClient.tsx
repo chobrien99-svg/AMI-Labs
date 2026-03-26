@@ -437,6 +437,17 @@ export default function LeWMClient() {
 
       <div className="lewm-body">
 
+        {/* ── Plain-English Intro ── */}
+        <section className="lewm-section">
+          <div className="lewm-plain-english">
+            <p className="lewm-plain-english-label">In Plain English</p>
+            <p>Think of world models like a flight simulator for AI. Instead of learning from text the way ChatGPT does, a world model tries to build an internal mental picture of how things work — objects move, gravity pulls, a ball bounces off a wall. The idea is that an AI with this kind of understanding could plan ahead, anticipate consequences, and eventually interact with the physical world in ways that today&apos;s chatbots simply can&apos;t.</p>
+            <p>The problem? The leading approach — JEPA (Joint Embedding Predictive Architecture) — has a nasty habit of collapsing during training. Imagine trying to teach someone to draw, but every time they pick up the pencil, they just scribble a single dot and say &ldquo;done.&rdquo; That&apos;s essentially what happens: the model finds a shortcut where it maps every situation to the same meaningless representation. Loss goes to zero. The model learns nothing.</p>
+            <p>To prevent this, researchers piled on fixes — freezing parts of the model, adding extra training objectives, pre-training components separately. It worked, sort of, but the result was fragile, expensive, and hard to reproduce.</p>
+            <p><strong>LeWorldModel takes a different approach: instead of adding more complexity, it strips the problem down to its mathematical core.</strong> The result is a system that trains stably from raw pixels using just two simple objectives — and runs on a single GPU in a few hours.</p>
+          </div>
+        </section>
+
         {/* ── The Problem ── */}
         <section className="lewm-section">
           <div className="lewm-section-header">
@@ -485,6 +496,12 @@ export default function LeWMClient() {
               <span>The <strong>AR Predictor</strong> autoregressively predicts future latents given history and actions, using AdaLN-zero conditioning (the same technique as in DiT).</span>
             </div>
           </div>
+          <div className="lewm-plain-english">
+            <p className="lewm-plain-english-label">Why the Architecture Matters Beyond the Lab</p>
+            <p><strong>Previous world models had a dependency problem.</strong> They relied on massive pre-trained vision models just to get started — like needing a fully equipped kitchen before you can boil an egg. That made them expensive, hard to customize, and nearly impossible for smaller teams to work with.</p>
+            <p><strong>LeWorldModel trains everything from scratch.</strong> The encoder that processes visual information and the predictor that imagines what happens next all learn together, end-to-end, from raw pixels. No pre-trained components required. This is a meaningful step toward world models that could be tailored to specific industries — factory floors, surgical robotics, autonomous vehicles — without needing a giant foundation model as a starting point.</p>
+            <p><strong>It&apos;s also small and fast.</strong> At roughly 15 million parameters, it&apos;s a fraction of the size of most modern AI models. It trains in hours on a single GPU and plans 48× faster than comparable systems. A robot that needs minutes to decide its next move is useless. One that can plan in milliseconds is a product.</p>
+          </div>
         </section>
 
         {/* ── Two Losses ── */}
@@ -519,6 +536,11 @@ export default function LeWMClient() {
             <span>Total objective: </span>
             <code>ℒ = ℒ<sub>pred</sub> + 0.09 · ℒ<sub>SIGReg</sub></code>
           </div>
+          <div className="lewm-plain-english">
+            <p className="lewm-plain-english-label">In Plain English</p>
+            <p>Previous systems needed up to six different training objectives, each requiring careful tuning. LeWorldModel gets away with just two: one that teaches the model to predict what happens next, and one (SIGReg) that prevents collapse by mathematically forcing the model&apos;s internal representations to stay spread out and meaningful.</p>
+            <p>Think of SIGReg as a rule that says: &ldquo;every situation must look different on the inside&rdquo; — which prevents the model from taking shortcuts and mapping everything to the same boring answer.</p>
+          </div>
         </section>
 
         {/* ── CEM Planning ── */}
@@ -528,6 +550,11 @@ export default function LeWMClient() {
             <p>At inference time, LeWM uses model-predictive planning: sample candidate action sequences, roll them out in latent space, and pick the best one — all 48× faster than foundation-model-based alternatives.</p>
           </div>
           <CEMVisualization />
+          <div className="lewm-plain-english">
+            <p className="lewm-plain-english-label">In Plain English</p>
+            <p>Once the model has learned how the world works, it uses that knowledge to make decisions by imagining 300 different possible action sequences, mentally simulating what would happen for each one, keeping the best options, and repeating — all without ever touching the real environment.</p>
+            <p>It&apos;s the same basic logic you use when you mentally rehearse different routes to work and pick the fastest one. The key difference from prior approaches: because LeWorldModel&apos;s internal world is so compact, this mental rehearsal runs <strong>48× faster</strong>.</p>
+          </div>
         </section>
 
         {/* ── Interactive Rollout Viewer ── */}
@@ -537,6 +564,11 @@ export default function LeWMClient() {
             <p>Pre-computed rollout from the trained LeWM checkpoint. Step through 80 frames of CEM planning: coloured lines are candidate action trajectories (teal = low cost, red = high cost), the highlighted path is the elite set the model selected. The UMAP plot tracks the agent&apos;s position in learned latent space.</p>
           </div>
           <PushTViewer />
+          <div className="lewm-plain-english">
+            <p className="lewm-plain-english-label">Reading the Viewer</p>
+            <p>Each colored line is a possible future the model imagined. <strong>Teal lines</strong> are plans the model liked (low cost — they get close to the goal). <strong>Red lines</strong> are plans it rejected (high cost — they go the wrong way). The highlighted path is the winner.</p>
+            <p>The UMAP plot on the right is a window into the model&apos;s &ldquo;mind&rdquo; — it shows how the model internally represents the agent&apos;s position, compressed from 192 dimensions down to a 2D map you can see.</p>
+          </div>
         </section>
 
         {/* ── Live Browser Demo ── */}
@@ -557,6 +589,15 @@ export default function LeWMClient() {
             <span className="live-demo-badge">⚡ 24 MB encoder · PCA projection</span>
           </div>
           <LivePushTDemo />
+          <div className="lewm-plain-english">
+            <p className="lewm-plain-english-label">What&apos;s Actually Happening</p>
+            <p>When you click the canvas and set a goal, every single frame the model performs a full cycle of intelligent planning — <em>entirely inside your browser, with no server involved.</em></p>
+            <p><strong>1. It &ldquo;sees&rdquo; the current scene</strong> — processing raw pixels through its vision encoder, compressing a 224×224 image down to a single 192-number summary of &ldquo;what the world looks like right now.&rdquo;</p>
+            <p><strong>2. It imagines 300 possible futures</strong> — mentally simulating different action sequences entirely in its compressed internal world, not in pixel-space (which would be slow and expensive).</p>
+            <p><strong>3. It picks the best plan and acts</strong> — scores each imagined future by how close it gets to your goal, takes the first step of the winning plan, then replans from scratch.</p>
+            <p><strong>4. The scatter plot shows the model&apos;s &ldquo;mental map&rdquo;</strong> — projecting the model&apos;s 192-dimensional internal state down to 2D so you can see it.</p>
+            <p>This is a tiny model — about 15 million parameters, small enough to run in a web browser. And yet it&apos;s performing the core loop of autonomous decision-making: perceive, imagine, plan, act, repeat. That loop is the foundation of everything from warehouse robots to self-driving cars to surgical assistants. <strong>Each time you click and set a new goal,</strong> you&apos;re testing whether the model has genuinely learned the physics of this little world — not memorized a fixed path, but understood the underlying rules well enough to plan a new route on the fly.</p>
+          </div>
         </section>
 
         {/* ── Environments ── */}
@@ -578,6 +619,29 @@ export default function LeWMClient() {
                 <p className="lewm-env-desc">{env.desc}</p>
               </div>
             ))}
+          </div>
+          <div className="lewm-plain-english">
+            <p className="lewm-plain-english-label">In Plain English</p>
+            <p>The team tested LeWorldModel across four tasks that get progressively harder: navigating between rooms, pushing an object to a target, manipulating a 3D cube, and controlling a robotic arm. These are standard benchmarks in the field — the AI equivalent of standardized tests.</p>
+            <p>LeWorldModel holds its own against much larger systems on simpler tasks, though bigger pre-trained models still perform better in visually complex 3D settings. The point isn&apos;t that it&apos;s the best at everything — it&apos;s that it&apos;s <strong>competitive while being dramatically simpler and faster</strong>.</p>
+          </div>
+        </section>
+
+        {/* ── The Big Picture ── */}
+        <section className="lewm-section">
+          <div className="lewm-section-header">
+            <h2>The Big Picture</h2>
+          </div>
+          <div className="lewm-big-picture">
+            <p>LeWorldModel is not a breakthrough in what world models <em>can do</em>. It&apos;s a breakthrough in how <em>simply</em> they can be built.</p>
+            <p>For years, the world model approach to AI — building systems that understand and simulate physical reality rather than just predicting text — has been stuck behind an engineering wall. The systems were too fragile, too complex, and too expensive to train reliably. LeWorldModel doesn&apos;t demolish that wall, but it shows a much simpler path through it.</p>
+            <p>By replacing a tangled web of training tricks with a clean mathematical solution, it demonstrates that a fully end-to-end JEPA world model can be trained from raw pixels, on a single GPU, in a few hours. That&apos;s significant not because of the benchmarks (which are solid but not record-breaking), but because it <strong>changes the economics and accessibility of this entire line of research</strong>.</p>
+            <p>If this recipe scales — and that&apos;s still a big &ldquo;if&rdquo; — it could mean that building a world model stops being something only a handful of well-funded labs can attempt, and starts being something any AI team can experiment with. In a field defined by the mantra &ldquo;bigger models, more compute,&rdquo; LeWorldModel quietly suggests that sometimes, the answer is a better equation.</p>
+          </div>
+          <div className="lewm-vjepa-callout">
+            <h4>Two Paths, One Vision — LeWorldModel &amp; V-JEPA 2.1</h4>
+            <p>LeWorldModel isn&apos;t happening in isolation. LeCun&apos;s broader research program is pursuing two parallel tracks: <strong>LeWorldModel</strong> asks how simple world models can be made while keeping them functional — strip away the complexity, find the minimal recipe. <strong>V-JEPA 2.1</strong> asks how rich and expressive world model representations can become — more supervision, finer details, scaled across images and video.</p>
+            <p>These aren&apos;t competing approaches. One is compressing the engine to its essence. The other is expanding the fuel supply. For AMI, having both threads advancing simultaneously means the research isn&apos;t betting on a single path — it&apos;s building a toolkit.</p>
           </div>
         </section>
 
