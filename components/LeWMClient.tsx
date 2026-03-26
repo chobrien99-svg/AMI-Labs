@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import PushTViewer from "@/components/PushTViewer";
+import LivePushTDemo from "@/components/LivePushTDemo";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Architecture Diagram (SVG)
@@ -536,6 +537,26 @@ export default function LeWMClient() {
             <p>Pre-computed rollout from the trained LeWM checkpoint. Step through 80 frames of CEM planning: coloured lines are candidate action trajectories (teal = low cost, red = high cost), the highlighted path is the elite set the model selected. The UMAP plot tracks the agent&apos;s position in learned latent space.</p>
           </div>
           <PushTViewer />
+        </section>
+
+        {/* ── Live Browser Demo ── */}
+        <section className="lewm-section">
+          <div className="lewm-section-header">
+            <h2>Try It Live — Browser Inference</h2>
+            <p>
+              The trained encoder runs fully in your browser via ONNX Runtime Web.
+              Click the canvas to set a goal, press Play, and watch the kinematic
+              CEM planner move the agent toward it — all 100% client-side, zero server calls.
+              The scatter plot shows where the encoder maps the current observation
+              relative to the pre-computed reference trajectory.
+            </p>
+          </div>
+          <div className="live-demo-badge-row">
+            <span className="live-demo-badge">⚡ ONNX Runtime Web</span>
+            <span className="live-demo-badge">⚡ No server — pure browser</span>
+            <span className="live-demo-badge">⚡ 24 MB encoder · PCA projection</span>
+          </div>
+          <LivePushTDemo />
         </section>
 
         {/* ── Environments ── */}
