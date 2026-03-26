@@ -319,8 +319,6 @@ def main():
     args = parse_args()
 
     ckpt_path = Path(args.checkpoint)
-    if not ckpt_path.exists():
-        sys.exit(f"Checkpoint not found: {ckpt_path}")
 
     # ── 1. Load model ──────────────────────────────────────────────────────────
     # AutoCostModel takes the path relative to $STABLEWM_HOME (default ~/.stable-wm/)
