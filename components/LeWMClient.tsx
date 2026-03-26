@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import PushTViewer from "@/components/PushTViewer";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Architecture Diagram (SVG)
@@ -526,6 +527,15 @@ export default function LeWMClient() {
             <p>At inference time, LeWM uses model-predictive planning: sample candidate action sequences, roll them out in latent space, and pick the best one — all 48× faster than foundation-model-based alternatives.</p>
           </div>
           <CEMVisualization />
+        </section>
+
+        {/* ── Interactive Rollout Viewer ── */}
+        <section className="lewm-section">
+          <div className="lewm-section-header">
+            <h2>Live Planning Viewer — PushT</h2>
+            <p>Pre-computed rollout from the trained LeWM checkpoint. Step through 80 frames of CEM planning: coloured lines are candidate action trajectories (teal = low cost, red = high cost), the highlighted path is the elite set the model selected. The UMAP plot tracks the agent&apos;s position in learned latent space.</p>
+          </div>
+          <PushTViewer />
         </section>
 
         {/* ── Environments ── */}
