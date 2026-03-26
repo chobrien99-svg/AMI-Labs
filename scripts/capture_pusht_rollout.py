@@ -200,11 +200,14 @@ def run_cem(model, obs_tensor: torch.Tensor, env_state: dict,
         eps         = np.random.randn(N, H, action_dim).astype(np.float32)
         action_seqs = np.clip(mu[None] + std[None] * eps, -1.0, 1.0)   # (N, H, A)
 
-        # ── evaluate in latent space ──
-        action_t = torch.from_numpy(action_seqs)
-        with torch.no_grad():
-            costs = model.jepa.get_cost(obs_tensor, action_t)  # (N,)
-        costs_np = costs.cpu().numpy()
+        # ── evaluate cost: Euclidean distance from final position to goal ──
+        # (get_cost requires a goal image dict; use spatial proxy cost instead)
+        goal = np.array(env_state["goal_pos"], dtype=np.float32)
+        final_positions = np.array([
+            integrate_actions(env_state["agent_pos"], action_seqs[i], env_size)[-1]
+            for i in range(N)
+        ], dtype=np.float32)
+        costs_np = np.linalg.norm(final_positions - goal, axis=1)
 
         # ── refit distribution from elite set ──
         elite_idx = np.argsort(costs_np)[:K]
@@ -356,8 +359,9 @@ def main():
         obs_tensor = preprocess_obs(frame_rgb)
 
         # ── encode to latent ──
+        # encode() expects {'pixels': (b, t, c, h, w)} — add temporal dim
         with torch.no_grad():
-            latent_vec = model.jepa.encode(obs_tensor).squeeze(0).cpu().numpy()
+            latent_vec = model.encode({'pixels': obs_tensor.unsqueeze(1)}).squeeze(0).cpu().numpy()
         latents.append(latent_vec.tolist())
 
         # ── CEM planning ──
