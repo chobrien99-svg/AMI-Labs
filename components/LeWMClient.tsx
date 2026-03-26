@@ -550,6 +550,24 @@ export default function LeWMClient() {
               The scatter plot shows where the encoder maps the current observation
               relative to the pre-computed reference trajectory.
             </p>
+            <p>
+              <strong>What you&apos;re watching:</strong> The red circle is the agent (think of
+              it as a robot arm tip). Click anywhere on the canvas to drop a gold goal marker,
+              then press ▶. Every quarter-second the model asks itself: <em>&ldquo;given where
+              I am now, which small nudge gets me closest to that goal?&rdquo;</em> — and takes
+              that step. The red circle should reach the gold cross in about 5–15 seconds
+              depending on the distance. You don&apos;t need to wait for anything to finish
+              loading after the initial 24 MB encoder downloads — it runs continuously.
+            </p>
+            <p>
+              <strong>What the scatter plot shows:</strong> The blue dots are fixed snapshots —
+              each one records what the encoder &ldquo;saw&rdquo; at a different moment during
+              a pre-recorded run of this same task. The <em>red dot</em> is what the encoder
+              sees <em>right now</em> from your live canvas. As the agent moves you should see
+              the red dot drift through the blue cloud, which means the model is recognising
+              states it has encountered before. The blue dots won&apos;t change; they&apos;re
+              the reference. Watch the red dot travel.
+            </p>
           </div>
           <div className="live-demo-badge-row">
             <span className="live-demo-badge">⚡ ONNX Runtime Web</span>
