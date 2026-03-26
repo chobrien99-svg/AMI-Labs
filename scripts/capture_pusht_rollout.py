@@ -82,52 +82,57 @@ def parse_args():
 # Environment state extraction
 # ──────────────────────────────────────────────────────────────────────────────
 
-def get_pusht_state(env) -> dict:
+def get_pusht_state(env, obs=None) -> dict:
     """
     Pull the raw simulation state out of the PushT environment.
 
-    swm/PushT-v1 wraps a pymunk physics simulation.  We try the most common
-    attribute paths and fall back gracefully if the internals differ.
+    Tries obs['state'] first (most reliable), then falls back to
+    env.unwrapped attribute access.
+
+    PushT state vector is typically:
+      [agent_x, agent_y, block_x, block_y, block_sin, block_cos, goal_x, goal_y, ...]
+    or:
+      [agent_x, agent_y, block_x, block_y, block_angle, goal_x, goal_y, ...]
     """
+    # ── primary: use obs['state'] if available ──
+    if obs is not None and isinstance(obs, dict) and 'state' in obs:
+        s = np.array(obs['state']).flatten()
+        if len(s) >= 5:
+            agent_pos   = [round(float(s[0]), 1), round(float(s[1]), 1)]
+            block_pos   = [round(float(s[2]), 1), round(float(s[3]), 1)]
+            # angle may be raw or encoded as sin/cos
+            block_angle = round(float(np.arctan2(s[4], s[5])) if len(s) >= 6 else float(s[4]), 4)
+            goal_pos    = [round(float(s[-2]), 1), round(float(s[-1]), 1)] if len(s) >= 7 else [380.0, 180.0]
+            return {
+                "agent_pos":   agent_pos,
+                "block_pos":   block_pos,
+                "block_angle": block_angle,
+                "goal_pos":    goal_pos,
+            }
+
+    # ── fallback: env.unwrapped attribute access ──
     u = env.unwrapped
-
-    # ── agent (pusher) position ──
     try:
-        agent_pos = list(u.agent.position)          # pymunk Body
+        agent_pos = [round(float(v), 1) for v in u.agent.position]
     except AttributeError:
-        try:
-            agent_pos = list(u.agent_pos)
-        except AttributeError:
-            agent_pos = [256.0, 256.0]
-            print("  [warn] could not read agent position — using centre")
+        agent_pos = [256.0, 256.0]
 
-    # ── T-block position and angle ──
     try:
-        block_pos   = list(u.block.position)
-        block_angle = float(u.block.angle)
+        block_pos   = [round(float(v), 1) for v in u.block.position]
+        block_angle = round(float(u.block.angle), 4)
     except AttributeError:
-        try:
-            block_pos   = list(u.block_pos)
-            block_angle = float(u.block_angle)
-        except AttributeError:
-            block_pos, block_angle = [300.0, 300.0], 0.0
-            print("  [warn] could not read block state — using defaults")
+        block_pos, block_angle = [300.0, 300.0], 0.0
 
-    # ── goal ──
     try:
-        goal_pos = list(u.goal_pose[:2])
+        goal_pos = [round(float(v), 1) for v in u.goal_pose[:2]]
     except (AttributeError, TypeError):
-        try:
-            goal_pos = list(u.goal_pos)
-        except AttributeError:
-            goal_pos = [380.0, 180.0]
-            print("  [warn] could not read goal position — using default")
+        goal_pos = [380.0, 180.0]
 
     return {
-        "agent_pos":   [round(float(v), 1) for v in agent_pos],
-        "block_pos":   [round(float(v), 1) for v in block_pos],
-        "block_angle": round(float(block_angle), 4),
-        "goal_pos":    [round(float(v), 1) for v in goal_pos],
+        "agent_pos":   agent_pos,
+        "block_pos":   block_pos,
+        "block_angle": block_angle,
+        "goal_pos":    goal_pos,
     }
 
 
@@ -347,8 +352,8 @@ def main():
     for step_idx in range(args.max_steps):
 
         frame_rgb  = env.render()
-        env_state  = get_pusht_state(env)
-        obs_tensor = preprocess_obs(obs if isinstance(obs, np.ndarray) else obs["pixels"])
+        env_state  = get_pusht_state(env, obs)
+        obs_tensor = preprocess_obs(frame_rgb)
 
         # ── encode to latent ──
         with torch.no_grad():
