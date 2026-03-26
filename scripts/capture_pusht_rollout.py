@@ -26,7 +26,7 @@ Output (public/pusht_rollout.json):
   # 3. Copy this script into the le-wm directory and run it
   #    --checkpoint is the path relative to $STABLEWM_HOME, WITHOUT _object.ckpt
   cp path/to/AMI-Labs/scripts/capture_pusht_rollout.py .
-  python capture_pusht_rollout.py --checkpoint pusht/lewm
+  python capture_pusht_rollout.py --checkpoint pusht/lejepa
 
   # 4. Move the output into the AMI-Labs public folder
   cp pusht_rollout.json path/to/AMI-Labs/public/pusht_rollout.json
@@ -59,7 +59,7 @@ import torch
 def parse_args():
     p = argparse.ArgumentParser(description="Capture LeWM PushT rollout data for visualisation")
     p.add_argument("--checkpoint", required=True,
-                   help="Path relative to $STABLEWM_HOME, without _object.ckpt suffix (e.g. pusht/lewm)")
+                   help="Path relative to $STABLEWM_HOME, without _object.ckpt suffix (e.g. pusht/lejepa)")
     p.add_argument("--output", default="pusht_rollout.json",
                    help="Output JSON path (default: pusht_rollout.json)")
     p.add_argument("--max-steps", type=int, default=80,
