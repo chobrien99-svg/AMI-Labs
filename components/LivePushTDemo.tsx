@@ -279,7 +279,7 @@ export default function LivePushTDemo() {
       }
       if (cancelled) return;
 
-      const ort = (window as { ort: { env: { wasm: { wasmPaths: string } }; InferenceSession: { create: (path: string, opts: unknown) => Promise<unknown> } } }).ort;
+      const ort = (window as unknown as { ort: { env: { wasm: { wasmPaths: string } }; InferenceSession: { create: (path: string, opts: unknown) => Promise<unknown> } } }).ort;
       ort.env.wasm.wasmPaths = ORT_CDN;
       sessionRef.current = await ort.InferenceSession.create("/lewm_encoder.onnx", {
         executionProviders: ["wasm"],
@@ -311,7 +311,7 @@ export default function LivePushTDemo() {
     encodingRef.current = true;
     try {
       const tensor = await canvasToTensor(canvas);
-      const ort = (window as { ort: { Tensor: new (type: string, data: Float32Array, dims: number[]) => unknown } }).ort;
+      const ort = (window as unknown as { ort: { Tensor: new (type: string, data: Float32Array, dims: number[]) => unknown } }).ort;
       const inp = new ort.Tensor("float32", tensor, [1, 1, 3, 224, 224]);
       const session = sessionRef.current as { run: (inputs: Record<string, unknown>) => Promise<{ emb: { data: Float32Array } }> };
       const out = await session.run({ pixels: inp });
@@ -333,8 +333,17 @@ export default function LivePushTDemo() {
       clamp(ay + action[1] * ACT_SCALE, 0, ENV),
     ];
     agentRef.current = next;
-    setAgent([...next]);
-    encodeFrame(); // async — updates latent when ready
+
+    // Draw synchronously so encodeFrame captures the updated frame,
+    // not the previous one (which the useEffect would render asynchronously).
+    const canvas = canvasRef.current;
+    if (canvas) {
+      const ctx = canvas.getContext("2d");
+      if (ctx) drawScene(ctx, next, goalRef.current, canvas.width, canvas.height);
+    }
+
+    setAgent([...next]); // keep React state in sync for stats display
+    encodeFrame(); // async — updates latent dot when ready
   }, [encodeFrame]);
 
   // ── Play loop ────────────────────────────────────────────────────────────
