@@ -123,11 +123,11 @@ async function fetchSanityArticles() {
 function articleRow(a) {
   return `
     <tr>
-      <td style="padding:12px 0;border-bottom:1px solid #1e1e1e;">
-        <a href="${a.url}" style="color:#e2e8f0;font-weight:600;text-decoration:none;font-size:14px;">${a.title}</a>
+      <td style="padding:12px 0;border-bottom:1px solid #D5CEBD;">
+        <a href="${a.url}" style="color:#2C2517;font-weight:600;text-decoration:none;font-size:14px;">${a.title}</a>
         <br/>
-        <span style="color:#64748b;font-size:12px;">${a.source} &middot; ${a.publishedAt || ""}</span>
-        ${a.summary ? `<p style="color:#94a3b8;font-size:13px;margin:6px 0 0;">${a.summary.slice(0, 180)}${a.summary.length > 180 ? "…" : ""}</p>` : ""}
+        <span style="color:#8C8474;font-size:12px;">${a.source} &middot; ${a.publishedAt || ""}</span>
+        ${a.summary ? `<p style="color:#4A3F30;font-size:13px;margin:6px 0 0;">${a.summary.slice(0, 180)}${a.summary.length > 180 ? "…" : ""}</p>` : ""}
       </td>
     </tr>`;
 }
@@ -135,10 +135,10 @@ function articleRow(a) {
 function jobRow(j) {
   return `
     <tr>
-      <td style="padding:12px 0;border-bottom:1px solid #1e1e1e;">
-        <a href="${j.url}" style="color:#e2e8f0;font-weight:600;text-decoration:none;font-size:14px;">${j.title}</a>
+      <td style="padding:12px 0;border-bottom:1px solid #D5CEBD;">
+        <a href="${j.url}" style="color:#2C2517;font-weight:600;text-decoration:none;font-size:14px;">${j.title}</a>
         <br/>
-        <span style="color:#64748b;font-size:12px;">${[j.department, j.location].filter(Boolean).join(" · ")}</span>
+        <span style="color:#8C8474;font-size:12px;">${[j.department, j.location].filter(Boolean).join(" · ")}</span>
       </td>
     </tr>`;
 }
@@ -150,25 +150,31 @@ function buildHtml(newArticles, newJobs) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
-<body style="margin:0;padding:0;background:#0a0a0a;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+<body style="margin:0;padding:0;background:#FFFCF5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+
+  <!-- accent bar -->
   <table width="100%" cellpadding="0" cellspacing="0">
+    <tr><td style="height:3px;background:linear-gradient(90deg,#C8962E 0%,#D4A854 40%,#E8D5A8 100%);"></td></tr>
+  </table>
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#FFFCF5;">
     <tr><td align="center" style="padding:40px 16px;">
       <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;">
 
         <!-- header -->
         <tr>
-          <td style="padding:0 0 32px;">
-            <p style="margin:0 0 4px;font-size:12px;color:#475569;text-transform:uppercase;letter-spacing:0.1em;">AMI Labs</p>
-            <h1 style="margin:0;font-size:22px;font-weight:700;color:#f1f5f9;">Weekly Digest</h1>
-            <p style="margin:6px 0 0;font-size:13px;color:#64748b;">Week of ${weekLabel}</p>
+          <td style="padding:0 0 32px;border-bottom:1px solid #D5CEBD;">
+            <p style="margin:0 0 4px;font-size:12px;color:#8C8474;text-transform:uppercase;letter-spacing:0.1em;">AMI Labs</p>
+            <h1 style="margin:0;font-size:24px;font-weight:600;color:#2C2517;font-family:Georgia,'Times New Roman',serif;letter-spacing:-0.02em;">Weekly Digest</h1>
+            <p style="margin:6px 0 0;font-size:13px;color:#8C8474;">Week of ${weekLabel}</p>
           </td>
         </tr>
 
         ${newArticles.length > 0 ? `
         <!-- news -->
         <tr>
-          <td style="padding:0 0 8px;">
-            <p style="margin:0;font-size:11px;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:0.08em;">News & Coverage</p>
+          <td style="padding:24px 0 8px;">
+            <p style="margin:0;font-size:11px;font-weight:700;color:#8C8474;text-transform:uppercase;letter-spacing:0.08em;">News & Coverage</p>
           </td>
         </tr>
         <tr>
@@ -183,7 +189,7 @@ function buildHtml(newArticles, newJobs) {
         <!-- jobs -->
         <tr>
           <td style="padding:24px 0 8px;">
-            <p style="margin:0;font-size:11px;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:0.08em;">Open Positions</p>
+            <p style="margin:0;font-size:11px;font-weight:700;color:#8C8474;text-transform:uppercase;letter-spacing:0.08em;">Open Positions</p>
           </td>
         </tr>
         <tr>
@@ -196,12 +202,12 @@ function buildHtml(newArticles, newJobs) {
 
         <!-- footer -->
         <tr>
-          <td style="padding:40px 0 0;">
-            <p style="margin:0;font-size:12px;color:#334155;">
+          <td style="padding:40px 0 0;border-top:1px solid #D5CEBD;">
+            <p style="margin:0;font-size:12px;color:#4A3F30;">
               You&rsquo;re receiving this because you subscribed at
-              <a href="https://frenchtechjournal.com" style="color:#475569;">frenchtechjournal.com</a>.
+              <a href="https://frenchtechjournal.com" style="color:#946B2D;text-decoration:none;">frenchtechjournal.com</a>.
               &nbsp;&middot;&nbsp;
-              <a href="{{unsubscribe_url}}" style="color:#475569;">Unsubscribe</a>
+              <a href="{{unsubscribe_url}}" style="color:#946B2D;text-decoration:none;">Unsubscribe</a>
             </p>
           </td>
         </tr>
