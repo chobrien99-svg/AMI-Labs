@@ -20,7 +20,7 @@ interface DocsClientProps {
 const CATEGORY_OPTIONS = [
   { key: "all", label: "All" },
   { key: "pitchdeck", label: "Pitchdeck" },
-  { key: "report", label: "Reports" },
+  { key: "research", label: "Research" },
   { key: "filing", label: "Filings" },
 ];
 
@@ -45,7 +45,7 @@ export default function DocsClient({ documents }: DocsClientProps) {
       <div className="page-header">
         <div className="page-header-inner">
           <h1>Documents</h1>
-          <p>Official AMI Labs public documents — pitchdecks, reports, and filings.</p>
+          <p>Official AMI Labs public documents — pitchdecks, research, and filings.</p>
         </div>
       </div>
 
