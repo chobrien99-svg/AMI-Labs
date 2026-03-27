@@ -576,11 +576,38 @@ export default function LeWMClient() {
           <div className="lewm-section-header">
             <h2>Try It Live — Browser Inference</h2>
             <p>
-              The trained encoder runs fully in your browser via ONNX Runtime Web.
-              Click the canvas to set a goal, press Play, and watch the kinematic
-              CEM planner move the agent toward it — all 100% client-side, zero server calls.
-              The scatter plot shows where the encoder maps the current observation
-              relative to the pre-computed reference trajectory.
+              Click the canvas to place a goal, press ▶, and watch the agent (the red circle)
+              navigate toward it in real time — the entire model runs inside your browser,
+              no server involved.
+            </p>
+            <p>
+              <strong>What did the model actually learn?</strong> During training, LeWM was shown
+              thousands of video frames of an agent moving around this environment. It learned
+              to compress each frame into a compact &ldquo;fingerprint&rdquo; — 192 numbers
+              that capture the essentials of the scene: roughly where things are and how they
+              relate. Crucially, scenes that <em>look similar</em> get <em>similar
+              fingerprints</em>. The model can then reason about what fingerprint to expect
+              after a given action, without ever having to predict raw pixels. That is how it
+              plans: it imagines several possible moves, checks which imagined fingerprint
+              lands closest to the goal, and takes that step.
+            </p>
+            <p>
+              <strong>What the right-hand plot is showing you.</strong> Because a fingerprint is
+              192 numbers, we can&apos;t draw it directly — so we flatten it to 2D and plot it
+              as a dot. The <strong>blue dots</strong> come from one pre-recorded run where the
+              agent successfully reached a goal; each dot is one moment in time, in order, so
+              together they trace the &ldquo;journey&rdquo; through fingerprint-space for that run.
+              The <strong>red dot</strong> is the fingerprint of whatever is on your canvas
+              <em>right now</em>, updated live after each step. As your agent moves you should
+              see the red dot travel — and if it drifts into or alongside the blue cloud it
+              means the model is encountering scenes it recognises as similar to what it saw
+              during that successful run. The blue dots are fixed; only the red one moves.
+            </p>
+            <p>
+              <strong>How long to run it:</strong> A few seconds is enough to see the agent
+              move. Let it run for 10–20 seconds to watch the red dot settle into the blue
+              cloud as the situation becomes familiar to the model. Try clicking a new goal
+              mid-run to see it re-plan.
             </p>
           </div>
           <div className="live-demo-badge-row">
