@@ -154,8 +154,8 @@ export default function ProfileClient({
       </div>
 
       <div className="profile-content">
-        <Link href="/" className="back-link">
-          ← Back to Explorer
+        <Link href="/org-chart" className="back-link">
+          ← Back to Org Chart
         </Link>
 
         {/* BIOGRAPHY */}
