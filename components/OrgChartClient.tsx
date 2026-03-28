@@ -24,7 +24,7 @@ function buildTree(team: Member[]): TreeNode {
   let root: TreeNode | null = null;
   const orphans: TreeNode[] = [];
 
-  team.forEach((m) => {
+  for (const m of team) {
     if (!m.reportsTo) {
       if (!root) {
         root = map.get(m.slug)!; // first null-reportsTo wins as root
@@ -39,18 +39,19 @@ function buildTree(team: Member[]): TreeNode {
         orphans.push(map.get(m.slug)!); // reportsTo slug not found in chart
       }
     }
-  });
+  }
 
   // Attach orphans directly to root so they appear rather than breaking the tree
-  const finalRoot = root;
-  if (finalRoot && orphans.length) {
-    finalRoot.children = [...(finalRoot.children || []), ...orphans];
+  if (root && orphans.length) {
+    root.children = [...(root.children || []), ...orphans];
   }
 
   // Clean up empty children arrays
-  map.forEach((node) => { if (!node.children?.length) delete node.children; });
+  for (const node of map.values()) {
+    if (!node.children?.length) delete node.children;
+  }
 
-  return finalRoot!;
+  return root!;
 }
 
 const AVATAR_COLORS = [
