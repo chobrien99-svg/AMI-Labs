@@ -118,14 +118,14 @@ export default function SubscribeForm() {
               style={{ accentColor: "var(--accent)", width: 14, height: 14, cursor: "pointer" }}
             />
             <span style={{ fontSize: "0.78rem", color: "var(--text-dim)", lineHeight: 1.4 }}>
-              Also subscribe to newsletters from{" "}
+              Also subscribe to {" "}
               <a
                 href="https://frenchtechjournal.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: "var(--accent2)", textDecoration: "underline" }}
               >
-                The French Tech Journal
+                La Machine: The France AI Newsletter 
               </a>
             </span>
           </label>
