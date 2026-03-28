@@ -22,14 +22,29 @@ function buildTree(team: Member[]): TreeNode {
   team.forEach((m) => map.set(m.slug, { slug: m.slug, name: m.name, role: m.role, children: [] }));
 
   let root: TreeNode | null = null;
+  const orphans: TreeNode[] = [];
+
   team.forEach((m) => {
     if (!m.reportsTo) {
-      root = map.get(m.slug)!;
+      if (!root) {
+        root = map.get(m.slug)!; // first null-reportsTo wins as root
+      } else {
+        orphans.push(map.get(m.slug)!); // subsequent rootless nodes queued
+      }
     } else {
       const parent = map.get(m.reportsTo);
-      if (parent) parent.children = [...(parent.children || []), map.get(m.slug)!];
+      if (parent) {
+        parent.children = [...(parent.children || []), map.get(m.slug)!];
+      } else {
+        orphans.push(map.get(m.slug)!); // reportsTo slug not found in chart
+      }
     }
   });
+
+  // Attach orphans directly to root so they appear rather than breaking the tree
+  if (root && orphans.length) {
+    root.children = [...(root.children || []), ...orphans];
+  }
 
   // Clean up empty children arrays
   map.forEach((node) => { if (!node.children?.length) delete node.children; });
