@@ -42,14 +42,15 @@ function buildTree(team: Member[]): TreeNode {
   });
 
   // Attach orphans directly to root so they appear rather than breaking the tree
-  if (root && orphans.length) {
-    root.children = [...(root.children || []), ...orphans];
+  const finalRoot = root;
+  if (finalRoot && orphans.length) {
+    finalRoot.children = [...(finalRoot.children || []), ...orphans];
   }
 
   // Clean up empty children arrays
   map.forEach((node) => { if (!node.children?.length) delete node.children; });
 
-  return root!;
+  return finalRoot!;
 }
 
 const AVATAR_COLORS = [
