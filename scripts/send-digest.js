@@ -90,15 +90,6 @@ async function fetchSanityArticles() {
     return [];
   }
   try {
-    console.log(`Sanity cutoff date: ${cutoff.toISOString()}`);
-    // First: count all published articles (no date filter) for debugging
-    const countQuery = encodeURIComponent(`count(*[_type == "article" && !(_id in path("drafts.**"))])`);
-    const countRes = await get(`https://${SANITY_PROJECT_ID}.api.sanity.io/v2024-01-01/data/query/${SANITY_DATASET}?query=${countQuery}`, {
-      Authorization: `Bearer ${SANITY_TOKEN}`,
-      "User-Agent": "AMI-Labs-Digest/1.0",
-    });
-    console.log(`Total published articles in Sanity (no date filter): ${JSON.stringify(countRes.body?.result)}`);
-
     const query = encodeURIComponent(
       `*[_type == "article" && !(_id in path("drafts.**")) && dateTime(publishedAt) >= dateTime("${cutoff.toISOString()}")] | order(publishedAt desc) { title, slug, source, externalUrl, publishedAt, summary }`
     );
