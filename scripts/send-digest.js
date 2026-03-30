@@ -91,7 +91,7 @@ async function fetchSanityArticles() {
   }
   try {
     const query = encodeURIComponent(
-      `*[_type == "article" && !(_id in path("drafts.**")) && _createdAt >= "${cutoff.toISOString()}"] | order(_createdAt desc) { title, slug, source, externalUrl, publishedAt, summary }`
+      `*[_type == "article" && !(_id in path("drafts.**")) && publishedAt >= "${cutoff.toISOString()}"] | order(publishedAt desc) { title, slug, source, externalUrl, publishedAt, summary }`
     );
     const url = `https://${SANITY_PROJECT_ID}.api.sanity.io/v2024-01-01/data/query/${SANITY_DATASET}?query=${query}`;
     const res = await get(url, {
