@@ -17,23 +17,38 @@ const GOOGLE_NEWS_QUERIES = [
 
 const NEWSAPI_QUERY = '("AMI Labs" OR "Advanced Machine Intelligence" OR "AMI LeCun")';
 
-function httpsGet(url) {
+function httpsGet(url, maxRedirects = 5) {
   return new Promise((resolve) => {
-    https
-      .get(url, { headers: { "User-Agent": "AMI-Labs-News-Bot/1.0" } }, (res) => {
-        if (res.statusCode !== 200) {
-          console.error(`[httpsGet] ${url} responded with status ${res.statusCode}`);
-          res.resume();
-          return resolve("");
-        }
-        let data = "";
-        res.on("data", (c) => (data += c));
-        res.on("end", () => resolve(data));
-      })
-      .on("error", (err) => {
-        console.error(`[httpsGet] Request failed for ${url}: ${err.message}`);
-        resolve("");
-      });
+    const doRequest = (requestUrl, redirectsLeft) => {
+      const proto = requestUrl.startsWith("http://") ? require("http") : https;
+      proto
+        .get(requestUrl, { headers: { "User-Agent": "Mozilla/5.0 (compatible; AMI-Labs-News-Bot/1.0)" } }, (res) => {
+          if ((res.statusCode === 301 || res.statusCode === 302 || res.statusCode === 307) && res.headers.location) {
+            if (redirectsLeft <= 0) {
+              console.error(`[httpsGet] Too many redirects for ${url}`);
+              res.resume();
+              return resolve("");
+            }
+            const next = new URL(res.headers.location, requestUrl).href;
+            console.log(`[httpsGet] Following ${res.statusCode} redirect → ${next}`);
+            res.resume();
+            return doRequest(next, redirectsLeft - 1);
+          }
+          if (res.statusCode !== 200) {
+            console.error(`[httpsGet] ${requestUrl} responded with status ${res.statusCode}`);
+            res.resume();
+            return resolve("");
+          }
+          let data = "";
+          res.on("data", (c) => (data += c));
+          res.on("end", () => resolve(data));
+        })
+        .on("error", (err) => {
+          console.error(`[httpsGet] Request failed for ${requestUrl}: ${err.message}`);
+          resolve("");
+        });
+    };
+    doRequest(url, maxRedirects);
   });
 }
 
