@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-04-03T07:03:08.663Z",
+  "lastFetched": "2026-04-03T12:56:47.052Z",
   "members": [
     {
       "slug": "saining-xie",
@@ -166,28 +166,12 @@
           "timestamp": "2026-03-29T20:52:35Z"
         },
         {
-          "type": "PushEvent",
-          "repo": "Luodian/luodian.github.io",
-          "repoUrl": "https://github.com/Luodian/luodian.github.io",
-          "description": "Pushed 0 commits to main on Luodian/luodian.github.io",
-          "url": "https://github.com/Luodian/luodian.github.io",
-          "timestamp": "2026-03-29T20:52:36Z"
-        },
-        {
           "type": "PullRequestEvent",
           "repo": "Luodian/luodian.github.io",
           "repoUrl": "https://github.com/Luodian/luodian.github.io",
           "description": "Opened PR #8 in Luodian/luodian.github.io",
           "url": "https://github.com/Luodian/luodian.github.io",
           "timestamp": "2026-03-29T20:52:32Z"
-        },
-        {
-          "type": "CreateEvent",
-          "repo": "Luodian/luodian.github.io",
-          "repoUrl": "https://github.com/Luodian/luodian.github.io",
-          "description": "Created branch claude/fervent-pike in Luodian/luodian.github.io",
-          "url": "https://github.com/Luodian/luodian.github.io",
-          "timestamp": "2026-03-29T20:51:58Z"
         },
         {
           "type": "PullRequestEvent",
@@ -260,6 +244,22 @@
           "description": "merged PR #1270 in EvolvingLMMs-Lab/lmms-eval",
           "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
           "timestamp": "2026-03-26T14:14:50Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "closed PR #1261 in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-03-26T08:18:27Z"
+        },
+        {
+          "type": "IssueCommentEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Commented on issue #1261 in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval/pull/1261#issuecomment-4135190203",
+          "timestamp": "2026-03-26T14:10:11Z"
         }
       ]
     },
@@ -316,14 +316,6 @@
           "description": "Pushed 0 commits to main on facebookresearch/webssl",
           "url": "https://github.com/facebookresearch/webssl",
           "timestamp": "2026-03-20T07:18:52Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "beyond-llms/beyond-llms.github.io",
-          "repoUrl": "https://github.com/beyond-llms/beyond-llms.github.io",
-          "description": "Pushed 0 commits to main on beyond-llms/beyond-llms.github.io",
-          "url": "https://github.com/beyond-llms/beyond-llms.github.io",
-          "timestamp": "2026-03-04T02:39:22Z"
         }
       ]
     },
