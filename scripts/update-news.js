@@ -7,15 +7,33 @@ const DATA_FILE = "./data/news.json";
 const existing = JSON.parse(fs.readFileSync(DATA_FILE, "utf8"));
 const existingUrls = new Set(existing.map((a) => a.url));
 
+// ── Broadened search queries ────────────────────────────────────────────────
+// Use OR logic so we catch articles mentioning AMI Labs without LeCun and
+// vice-versa.  Also include the full legal name and common abbreviations.
+const GOOGLE_NEWS_QUERIES = [
+  "https://news.google.com/rss/search?q=%22AMI+Labs%22+OR+%22Advanced+Machine+Intelligence%22&hl=en&gl=US&ceid=US:en",
+  "https://news.google.com/rss/search?q=%22AMI+Labs%22+%22Yann+LeCun%22&hl=en&gl=US&ceid=US:en",
+];
+
+const NEWSAPI_QUERY = '("AMI Labs" OR "Advanced Machine Intelligence" OR "AMI LeCun")';
+
 function httpsGet(url) {
   return new Promise((resolve) => {
     https
       .get(url, { headers: { "User-Agent": "AMI-Labs-News-Bot/1.0" } }, (res) => {
+        if (res.statusCode !== 200) {
+          console.error(`[httpsGet] ${url} responded with status ${res.statusCode}`);
+          res.resume();
+          return resolve("");
+        }
         let data = "";
         res.on("data", (c) => (data += c));
         res.on("end", () => resolve(data));
       })
-      .on("error", () => resolve(""));
+      .on("error", (err) => {
+        console.error(`[httpsGet] Request failed for ${url}: ${err.message}`);
+        resolve("");
+      });
   });
 }
 
@@ -40,42 +58,87 @@ function parseRSSItems(xml) {
   return items;
 }
 
+async function fetchGoogleNews() {
+  const allItems = [];
+  for (const url of GOOGLE_NEWS_QUERIES) {
+    console.log(`[Google News] Fetching: ${url}`);
+    const xml = await httpsGet(url);
+    if (!xml) {
+      console.warn("[Google News] Empty response — the feed may be blocked or unavailable.");
+      continue;
+    }
+    const items = parseRSSItems(xml);
+    console.log(`[Google News] Parsed ${items.length} items from feed.`);
+    allItems.push(...items);
+  }
+  // Deduplicate across feeds by link
+  const seen = new Set();
+  return allItems.filter((item) => {
+    if (seen.has(item.link)) return false;
+    seen.add(item.link);
+    return true;
+  });
+}
+
 async function fetchNewsAPI() {
-  if (!process.env.NEWS_API_KEY) return [];
-  const query = encodeURIComponent("AMI Labs LeCun");
+  if (!process.env.NEWS_API_KEY) {
+    console.warn("[NewsAPI] NEWS_API_KEY is not set — skipping NewsAPI fetch.");
+    return [];
+  }
+  const query = encodeURIComponent(NEWSAPI_QUERY);
   const url =
     "https://newsapi.org/v2/everything?q=" +
     query +
     "&language=en&sortBy=publishedAt&pageSize=20&apiKey=" +
     process.env.NEWS_API_KEY;
+  console.log("[NewsAPI] Fetching articles...");
   const data = await httpsGet(url);
+  if (!data) {
+    console.error("[NewsAPI] Empty response — API may be unreachable.");
+    return [];
+  }
   try {
     const j = JSON.parse(data);
-    return (j.articles || []).map((a) => ({
+    if (j.status === "error") {
+      console.error(`[NewsAPI] API error: ${j.code} — ${j.message}`);
+      return [];
+    }
+    const articles = (j.articles || []).map((a) => ({
       title: a.title,
       link: a.url,
       pubDate: a.publishedAt,
       source: (a.source && a.source.name) || "News",
     }));
-  } catch {
+    console.log(`[NewsAPI] Received ${articles.length} articles.`);
+    return articles;
+  } catch (err) {
+    console.error(`[NewsAPI] Failed to parse response: ${err.message}`);
     return [];
   }
 }
 
 async function summarizeWithClaude(title, url) {
-  if (!process.env.ANTHROPIC_API_KEY) return title;
-  const client = new Anthropic();
-  const prompt =
-    "Write a 2-3 sentence factual summary of this news article about AMI Labs (Advanced Machine Intelligence) for a news tracker. " +
-    "Article title: " + JSON.stringify(title) + ". URL: " + url + ". " +
-    "Base your summary on what the title conveys. Do NOT mention that you cannot access URLs. Do NOT ask for more information. " +
-    "If the title alone is insufficient to write a meaningful summary, respond with only an empty string and nothing else.";
-  const msg = await client.messages.create({
-    model: "claude-haiku-4-5-20251001",
-    max_tokens: 200,
-    messages: [{ role: "user", content: prompt }],
-  });
-  return msg.content[0].type === "text" ? msg.content[0].text.trim() : title;
+  if (!process.env.ANTHROPIC_API_KEY) {
+    console.warn("[Claude] ANTHROPIC_API_KEY is not set — using title as summary.");
+    return title;
+  }
+  try {
+    const client = new Anthropic();
+    const prompt =
+      "Write a 2-3 sentence factual summary of this news article about AMI Labs (Advanced Machine Intelligence) for a news tracker. " +
+      "Article title: " + JSON.stringify(title) + ". URL: " + url + ". " +
+      "Base your summary on what the title conveys. Do NOT mention that you cannot access URLs. Do NOT ask for more information. " +
+      "If the title alone is insufficient to write a meaningful summary, respond with only an empty string and nothing else.";
+    const msg = await client.messages.create({
+      model: "claude-haiku-4-5-20251001",
+      max_tokens: 200,
+      messages: [{ role: "user", content: prompt }],
+    });
+    return msg.content[0].type === "text" ? msg.content[0].text.trim() : title;
+  } catch (err) {
+    console.error(`[Claude] Summarization failed for "${title}": ${err.message}`);
+    return title;
+  }
 }
 
 function inferTags(title) {
@@ -97,15 +160,28 @@ function parseDate(dateStr) {
 }
 
 (async () => {
-  const rssXml = await httpsGet(
-    "https://news.google.com/rss/search?q=AMI+Labs+Yann+LeCun&hl=en&gl=US&ceid=US:en"
-  );
-  const rssItems = parseRSSItems(rssXml);
+  console.log("=== AMI Labs News Bot ===");
+  console.log(`Existing articles: ${existing.length} (${existingUrls.size} unique URLs)`);
+
+  const rssItems = await fetchGoogleNews();
   const newsApiItems = await fetchNewsAPI();
   const allItems = [...rssItems, ...newsApiItems];
 
-  const newItems = allItems.filter((item) => item.link && !existingUrls.has(item.link));
-  console.log("Found " + allItems.length + " total items, " + newItems.length + " new.");
+  // Deduplicate across both sources by link
+  const seenLinks = new Set();
+  const uniqueItems = allItems.filter((item) => {
+    if (!item.link || seenLinks.has(item.link)) return false;
+    seenLinks.add(item.link);
+    return true;
+  });
+
+  const newItems = uniqueItems.filter((item) => !existingUrls.has(item.link));
+  console.log(`\nFound ${uniqueItems.length} unique items across all sources, ${newItems.length} are new.`);
+
+  if (newItems.length === 0) {
+    console.log("No new articles to add.");
+    return;
+  }
 
   const newArticles = [];
   for (const item of newItems.slice(0, 10)) {
@@ -120,14 +196,12 @@ function parseDate(dateStr) {
       tags: inferTags(item.title),
       addedAt: new Date().toISOString(),
     });
-    console.log("Added: " + item.title);
+    console.log("  Added: " + item.title);
   }
 
   if (newArticles.length > 0) {
     const updated = [...newArticles, ...existing];
     fs.writeFileSync(DATA_FILE, JSON.stringify(updated, null, 2));
-    console.log("Updated news.json with " + newArticles.length + " new articles.");
-  } else {
-    console.log("No new articles to add.");
+    console.log(`\nUpdated news.json with ${newArticles.length} new articles (total: ${updated.length}).`);
   }
 })();
