@@ -3,19 +3,65 @@ const https = require("https");
 const { randomUUID } = require("crypto");
 const Anthropic = require("@anthropic-ai/sdk").default;
 
-const DATA_FILE = "./data/news.json";
-const existing = JSON.parse(fs.readFileSync(DATA_FILE, "utf8"));
+// ═══════════════════════════════════════════════════════════════════════════
+// TRACKER CONFIGURATION — edit this section to adapt for a different company
+// ═══════════════════════════════════════════════════════════════════════════
+
+const TRACKER = {
+  name: "AMI Labs",
+  dataFile: "./data/news.json",
+
+  // Google News RSS feeds — use %22 for quoted phrases, +when:48h for recency
+  googleNewsFeeds: [
+    "https://news.google.com/rss/search?q=%22AMI+Labs%22+OR+%22Advanced+Machine+Intelligence%22+when:48h&hl=en&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=%22AMI+Labs%22+%22Yann+LeCun%22+when:48h&hl=en&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=%22AMI+Labs%22+OR+%22AMI+LeCun%22+when:48h&hl=en&gl=FR&ceid=FR:fr",
+  ],
+
+  // NewsAPI query (requires NEWS_API_KEY secret)
+  newsApiQuery: '("AMI Labs" OR "Advanced Machine Intelligence" OR "AMI LeCun")',
+
+  // Hacker News Algolia search terms — free, no API key needed
+  hackerNewsQueries: ["AMI Labs", "Advanced Machine Intelligence", "Yann LeCun AMI"],
+
+  // Whitelisted RSS feeds from specific outlets known to cover AMI Labs
+  whitelistFeeds: [
+    { url: "https://techcrunch.com/feed/", source: "TechCrunch" },
+    { url: "https://www.wired.com/feed/tag/ai/latest/rss", source: "Wired" },
+    { url: "https://siliconangle.com/feed/", source: "SiliconANGLE" },
+    { url: "https://the-decoder.com/feed/", source: "The Decoder" },
+  ],
+
+  // Keywords an article must match (at least one) to pass the whitelist filter.
+  // Only applied to whitelisted RSS feeds, not Google News / NewsAPI / HN.
+  whitelistKeywords: [
+    "ami labs", "ami lab", "advanced machine intelligence",
+    "yann lecun", "le cun", "lecun",
+    "jepa", "world model",
+    "alexandre lebrun",
+  ],
+
+  // Tag inference rules — regex patterns matched against lowercase title
+  tagRules: [
+    { tag: "funding", pattern: /rais|fund|invest|valuat|billion|million/ },
+    { tag: "research", pattern: /research|paper|model|jepa|science|publish/ },
+    { tag: "hiring", pattern: /hir|join|appoint|team/ },
+    { tag: "administrative", pattern: /regulat|legal|filing|compliance|incorporat|statut|registr|kbis/ },
+  ],
+
+  // Max new articles to process per run (controls Claude API spend)
+  maxNewPerRun: 10,
+};
+
+// ═══════════════════════════════════════════════════════════════════════════
+// CORE ENGINE — generally unchanged across trackers
+// ═══════════════════════════════════════════════════════════════════════════
+
+const existing = JSON.parse(fs.readFileSync(TRACKER.dataFile, "utf8"));
 const existingUrls = new Set(existing.map((a) => a.url));
+const existingTitles = existing.map((a) => a.title.toLowerCase());
 
-// ── Broadened search queries ────────────────────────────────────────────────
-// Use OR logic so we catch articles mentioning AMI Labs without LeCun and
-// vice-versa.  Also include the full legal name and common abbreviations.
-const GOOGLE_NEWS_QUERIES = [
-  "https://news.google.com/rss/search?q=%22AMI+Labs%22+OR+%22Advanced+Machine+Intelligence%22&hl=en&gl=US&ceid=US:en",
-  "https://news.google.com/rss/search?q=%22AMI+Labs%22+%22Yann+LeCun%22&hl=en&gl=US&ceid=US:en",
-];
-
-const NEWSAPI_QUERY = '("AMI Labs" OR "Advanced Machine Intelligence" OR "AMI LeCun")';
+// ── HTTP helper (follows redirects) ─────────────────────────────────────────
 
 function httpsGet(url, maxRedirects = 5) {
   return new Promise((resolve) => {
@@ -52,7 +98,9 @@ function httpsGet(url, maxRedirects = 5) {
   });
 }
 
-function parseRSSItems(xml) {
+// ── RSS parsing ─────────────────────────────────────────────────────────────
+
+function parseRSSItems(xml, defaultSource) {
   const items = [];
   const itemRegex = /<item>([\s\S]*?)<\/item>/g;
   let m;
@@ -68,25 +116,51 @@ function parseRSSItems(xml) {
     const title = get("title");
     const link = get("link") || get("guid");
     const pubDate = get("pubDate");
-    if (title && link) items.push({ title, link, pubDate, source: "Google News" });
+    if (title && link) items.push({ title, link, pubDate, source: defaultSource });
   }
   return items;
 }
 
+// ── Fuzzy title deduplication ───────────────────────────────────────────────
+// Jaccard similarity on word sets — catches "LeCun raises $1B" vs
+// "Yann LeCun raises $1B for AMI Labs" without needing embeddings.
+
+function titleWords(title) {
+  return new Set(
+    title.toLowerCase().replace(/[^a-z0-9\s]/g, "").split(/\s+/).filter((w) => w.length > 2)
+  );
+}
+
+function jaccardSimilarity(setA, setB) {
+  let intersection = 0;
+  for (const w of setA) if (setB.has(w)) intersection++;
+  const union = setA.size + setB.size - intersection;
+  return union === 0 ? 0 : intersection / union;
+}
+
+function isTitleDuplicate(title) {
+  const words = titleWords(title);
+  for (const existing of existingTitles) {
+    if (jaccardSimilarity(words, titleWords(existing)) > 0.65) return true;
+  }
+  return false;
+}
+
+// ── Source fetchers ─────────────────────────────────────────────────────────
+
 async function fetchGoogleNews() {
   const allItems = [];
-  for (const url of GOOGLE_NEWS_QUERIES) {
+  for (const url of TRACKER.googleNewsFeeds) {
     console.log(`[Google News] Fetching: ${url}`);
     const xml = await httpsGet(url);
     if (!xml) {
-      console.warn("[Google News] Empty response — the feed may be blocked or unavailable.");
+      console.warn("[Google News] Empty response — feed may be blocked or unavailable.");
       continue;
     }
-    const items = parseRSSItems(xml);
+    const items = parseRSSItems(xml, "Google News");
     console.log(`[Google News] Parsed ${items.length} items from feed.`);
     allItems.push(...items);
   }
-  // Deduplicate across feeds by link
   const seen = new Set();
   return allItems.filter((item) => {
     if (seen.has(item.link)) return false;
@@ -97,13 +171,12 @@ async function fetchGoogleNews() {
 
 async function fetchNewsAPI() {
   if (!process.env.NEWS_API_KEY) {
-    console.warn("[NewsAPI] NEWS_API_KEY is not set — skipping NewsAPI fetch.");
+    console.warn("[NewsAPI] NEWS_API_KEY is not set — skipping.");
     return [];
   }
-  const query = encodeURIComponent(NEWSAPI_QUERY);
+  const query = encodeURIComponent(TRACKER.newsApiQuery);
   const url =
-    "https://newsapi.org/v2/everything?q=" +
-    query +
+    "https://newsapi.org/v2/everything?q=" + query +
     "&language=en&sortBy=publishedAt&pageSize=20&apiKey=" +
     process.env.NEWS_API_KEY;
   console.log("[NewsAPI] Fetching articles...");
@@ -132,6 +205,66 @@ async function fetchNewsAPI() {
   }
 }
 
+async function fetchHackerNews() {
+  const allItems = [];
+  for (const query of TRACKER.hackerNewsQueries) {
+    const url = `https://hn.algolia.com/api/v1/search_by_date?query=${encodeURIComponent(query)}&tags=story&hitsPerPage=10`;
+    console.log(`[HN] Searching: "${query}"`);
+    const data = await httpsGet(url);
+    if (!data) {
+      console.warn(`[HN] Empty response for "${query}".`);
+      continue;
+    }
+    try {
+      const j = JSON.parse(data);
+      const hits = (j.hits || [])
+        .filter((h) => h.url) // skip Ask HN etc. without URLs
+        .map((h) => ({
+          title: h.title,
+          link: h.url,
+          pubDate: h.created_at,
+          source: "Hacker News",
+          hnPoints: h.points || 0,
+          hnComments: h.num_comments || 0,
+        }));
+      console.log(`[HN] Found ${hits.length} stories for "${query}".`);
+      allItems.push(...hits);
+    } catch (err) {
+      console.error(`[HN] Failed to parse response for "${query}": ${err.message}`);
+    }
+  }
+  const seen = new Set();
+  return allItems.filter((item) => {
+    if (seen.has(item.link)) return false;
+    seen.add(item.link);
+    return true;
+  });
+}
+
+async function fetchWhitelistFeeds() {
+  const allItems = [];
+  const keywords = TRACKER.whitelistKeywords;
+  for (const feed of TRACKER.whitelistFeeds) {
+    console.log(`[Whitelist] Fetching: ${feed.source} — ${feed.url}`);
+    const xml = await httpsGet(feed.url);
+    if (!xml) {
+      console.warn(`[Whitelist] Empty response from ${feed.source}.`);
+      continue;
+    }
+    const items = parseRSSItems(xml, feed.source);
+    // Filter to articles mentioning our keywords
+    const matched = items.filter((item) => {
+      const text = (item.title + " " + (item.description || "")).toLowerCase();
+      return keywords.some((kw) => text.includes(kw));
+    });
+    console.log(`[Whitelist] ${feed.source}: ${items.length} total items, ${matched.length} matched keywords.`);
+    allItems.push(...matched);
+  }
+  return allItems;
+}
+
+// ── Summarization ───────────────────────────────────────────────────────────
+
 async function summarizeWithClaude(title, url) {
   if (!process.env.ANTHROPIC_API_KEY) {
     console.warn("[Claude] ANTHROPIC_API_KEY is not set — using title as summary.");
@@ -140,7 +273,7 @@ async function summarizeWithClaude(title, url) {
   try {
     const client = new Anthropic();
     const prompt =
-      "Write a 2-3 sentence factual summary of this news article about AMI Labs (Advanced Machine Intelligence) for a news tracker. " +
+      `Write a 2-3 sentence factual summary of this news article about ${TRACKER.name} (Advanced Machine Intelligence) for a news tracker. ` +
       "Article title: " + JSON.stringify(title) + ". URL: " + url + ". " +
       "Base your summary on what the title conveys. Do NOT mention that you cannot access URLs. Do NOT ask for more information. " +
       "If the title alone is insufficient to write a meaningful summary, respond with only an empty string and nothing else.";
@@ -156,15 +289,14 @@ async function summarizeWithClaude(title, url) {
   }
 }
 
+// ── Tagging ─────────────────────────────────────────────────────────────────
+
 function inferTags(title) {
   const t = title.toLowerCase();
-  const tags = [];
-  if (/rais|fund|invest|valuat|billion|million/.test(t)) tags.push("funding");
-  if (/research|paper|model|jepa|science|publish/.test(t)) tags.push("research");
-  if (/hir|join|appoint|team/.test(t)) tags.push("hiring");
-  if (/regulat|legal|filing|compliance|incorporat|statut|registr|kbis/.test(t)) tags.push("administrative");
-  return tags;
+  return TRACKER.tagRules.filter((r) => r.pattern.test(t)).map((r) => r.tag);
 }
+
+// ── Utilities ───────────────────────────────────────────────────────────────
 
 function parseDate(dateStr) {
   try {
@@ -174,15 +306,23 @@ function parseDate(dateStr) {
   }
 }
 
+// ── Main ────────────────────────────────────────────────────────────────────
+
 (async () => {
-  console.log("=== AMI Labs News Bot ===");
-  console.log(`Existing articles: ${existing.length} (${existingUrls.size} unique URLs)`);
+  console.log(`=== ${TRACKER.name} News Bot ===`);
+  console.log(`Existing articles: ${existing.length} (${existingUrls.size} unique URLs)\n`);
 
-  const rssItems = await fetchGoogleNews();
-  const newsApiItems = await fetchNewsAPI();
-  const allItems = [...rssItems, ...newsApiItems];
+  // Fetch from all sources in parallel
+  const [rssItems, newsApiItems, hnItems, whitelistItems] = await Promise.all([
+    fetchGoogleNews(),
+    fetchNewsAPI(),
+    fetchHackerNews(),
+    fetchWhitelistFeeds(),
+  ]);
 
-  // Deduplicate across both sources by link
+  const allItems = [...rssItems, ...newsApiItems, ...hnItems, ...whitelistItems];
+
+  // Deduplicate across all sources by URL
   const seenLinks = new Set();
   const uniqueItems = allItems.filter((item) => {
     if (!item.link || seenLinks.has(item.link)) return false;
@@ -190,7 +330,16 @@ function parseDate(dateStr) {
     return true;
   });
 
-  const newItems = uniqueItems.filter((item) => !existingUrls.has(item.link));
+  // Filter out articles already in news.json (by URL or fuzzy title match)
+  const newItems = uniqueItems.filter((item) => {
+    if (existingUrls.has(item.link)) return false;
+    if (isTitleDuplicate(item.title)) {
+      console.log(`[Dedup] Skipped near-duplicate: "${item.title}"`);
+      return false;
+    }
+    return true;
+  });
+
   console.log(`\nFound ${uniqueItems.length} unique items across all sources, ${newItems.length} are new.`);
 
   if (newItems.length === 0) {
@@ -199,7 +348,7 @@ function parseDate(dateStr) {
   }
 
   const newArticles = [];
-  for (const item of newItems.slice(0, 10)) {
+  for (const item of newItems.slice(0, TRACKER.maxNewPerRun)) {
     const summary = await summarizeWithClaude(item.title, item.link);
     newArticles.push({
       id: randomUUID(),
@@ -211,12 +360,12 @@ function parseDate(dateStr) {
       tags: inferTags(item.title),
       addedAt: new Date().toISOString(),
     });
-    console.log("  Added: " + item.title);
+    console.log(`  Added: ${item.title}`);
   }
 
   if (newArticles.length > 0) {
     const updated = [...newArticles, ...existing];
-    fs.writeFileSync(DATA_FILE, JSON.stringify(updated, null, 2));
+    fs.writeFileSync(TRACKER.dataFile, JSON.stringify(updated, null, 2));
     console.log(`\nUpdated news.json with ${newArticles.length} new articles (total: ${updated.length}).`);
   }
 })();
