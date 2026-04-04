@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-04-04T12:47:04.524Z",
+  "lastFetched": "2026-04-04T18:36:48.737Z",
   "members": [
     {
       "slug": "saining-xie",
@@ -14,6 +14,22 @@
       "username": "mavenlin",
       "githubUrl": "https://github.com/mavenlin",
       "events": [
+        {
+          "type": "PullRequestEvent",
+          "repo": "meta-pytorch/torchcodec",
+          "repoUrl": "https://github.com/meta-pytorch/torchcodec",
+          "description": "Opened PR #1322 in meta-pytorch/torchcodec",
+          "url": "https://github.com/meta-pytorch/torchcodec",
+          "timestamp": "2026-04-04T17:01:11Z"
+        },
+        {
+          "type": "CreateEvent",
+          "repo": "mavenlin/torchcodec",
+          "repoUrl": "https://github.com/mavenlin/torchcodec",
+          "description": "Created branch decoder_options in mavenlin/torchcodec",
+          "url": "https://github.com/mavenlin/torchcodec",
+          "timestamp": "2026-04-04T16:59:35Z"
+        },
         {
           "type": "PullRequestEvent",
           "repo": "meta-pytorch/torchcodec",
