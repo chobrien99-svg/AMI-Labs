@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-04-08T07:13:13.636Z",
+  "lastFetched": "2026-04-08T13:13:52.745Z",
   "members": [
     {
       "slug": "saining-xie",
@@ -15,20 +15,20 @@
       "githubUrl": "https://github.com/mavenlin",
       "events": [
         {
-          "type": "PushEvent",
-          "repo": "the-AMI-Labs/torchcodec",
-          "repoUrl": "https://github.com/the-AMI-Labs/torchcodec",
-          "description": "Pushed 0 commits to main on the-AMI-Labs/torchcodec",
-          "url": "https://github.com/the-AMI-Labs/torchcodec",
-          "timestamp": "2026-04-05T13:30:34Z"
+          "type": "ReleaseEvent",
+          "repo": "the-AMI-Labs/torchcodec-fork",
+          "repoUrl": "https://github.com/the-AMI-Labs/torchcodec-fork",
+          "description": "Released v0.12.0-ami1 on the-AMI-Labs/torchcodec-fork",
+          "url": "https://github.com/the-AMI-Labs/torchcodec-fork/releases/tag/v0.12.0-ami1",
+          "timestamp": "2026-04-08T12:12:31Z"
         },
         {
-          "type": "ForkEvent",
+          "type": "IssueCommentEvent",
           "repo": "meta-pytorch/torchcodec",
           "repoUrl": "https://github.com/meta-pytorch/torchcodec",
-          "description": "Forked meta-pytorch/torchcodec",
-          "url": "https://github.com/the-AMI-Labs/torchcodec",
-          "timestamp": "2026-04-05T13:28:34Z"
+          "description": "Commented on issue #1322 in meta-pytorch/torchcodec",
+          "url": "https://github.com/meta-pytorch/torchcodec/pull/1322#issuecomment-4206115357",
+          "timestamp": "2026-04-08T12:09:08Z"
         },
         {
           "type": "PullRequestEvent",
