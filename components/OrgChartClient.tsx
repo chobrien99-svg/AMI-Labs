@@ -53,9 +53,9 @@ function buildTree(team: Member[]): TreeNode {
 }
 
 const AVATAR_COLORS = [
-  ["#6c63ff", "#a78bfa"], ["#3b82f6", "#60a5fa"], ["#10b981", "#34d399"],
-  ["#f59e0b", "#fbbf24"], ["#ef4444", "#f87171"], ["#8b5cf6", "#c084fc"],
-  ["#ec4899", "#f472b6"], ["#14b8a6", "#2dd4bf"],
+  ["#946B2D", "#B8960B"], ["#2A7D6B", "#3D9E88"], ["#3D7A4A", "#5EA06A"],
+  ["#C07A3A", "#D99B5C"], ["#A85C72", "#C8849A"], ["#7B5EA7", "#9D84C4"],
+  ["#4A7FA5", "#6FA3C4"], ["#5C8A5E", "#7FAE82"],
 ];
 
 function getColor(name: string) {
@@ -124,7 +124,7 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
       .enter()
       .append("path")
       .attr("fill", "none")
-      .attr("stroke", "#2a2a3a")
+      .attr("stroke", "var(--border)")
       .attr("stroke-width", 1.5)
       .attr("d", (d) => {
         const sx = d.source.x ?? 0, sy = (d.source.y ?? 0) + nodeH / 2;
@@ -155,7 +155,7 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
       .style("cursor", "pointer")
       .on("click", (_, d) => router.push(`/team/${d.data.slug}`))
       .on("mouseenter", function (event: MouseEvent, d) {
-        d3.select(this).select("rect").attr("stroke", "#6c63ff");
+        d3.select(this).select("rect").attr("stroke", "var(--accent)");
         setTooltip({
           name: d.data.name,
           role: d.data.role,
@@ -165,7 +165,7 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
         });
       })
       .on("mouseleave", function () {
-        d3.select(this).select("rect").attr("stroke", "#2a2a3a");
+        d3.select(this).select("rect").attr("stroke", "var(--border)");
         setTooltip(null);
       });
 
@@ -173,8 +173,8 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
       .attr("width", nodeW)
       .attr("height", nodeH)
       .attr("rx", 12)
-      .attr("fill", "#13131a")
-      .attr("stroke", "#2a2a3a")
+      .attr("fill", "var(--surface)")
+      .attr("stroke", "var(--border)")
       .attr("stroke-width", 1);
 
     // Avatar circle
@@ -198,7 +198,7 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
     nodeGroup.append("text")
       .attr("x", 68)
       .attr("y", nodeH / 2 - 10)
-      .attr("fill", "#e2e2f0")
+      .attr("fill", "var(--text)")
       .attr("font-size", "13px")
       .attr("font-weight", "600")
       .attr("font-family", "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif")
@@ -208,7 +208,7 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
     nodeGroup.append("text")
       .attr("x", 68)
       .attr("y", nodeH / 2 + 10)
-      .attr("fill", "#8888aa")
+      .attr("fill", "var(--muted)")
       .attr("font-size", "11px")
       .attr("font-family", "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif")
       .text((d) => d.data.role.length > 26 ? d.data.role.slice(0, 25) + "…" : d.data.role);
@@ -223,7 +223,7 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
     top: Math.min(tooltip.y - 20, (typeof window !== "undefined" ? window.innerHeight : 800) - TOOLTIP_H - 8),
   } : null;
 
-  const tooltipColors = tooltip ? getColor(tooltip.name) : ["#6c63ff", "#a78bfa"];
+  const tooltipColors = tooltip ? getColor(tooltip.name) : ["#946B2D", "#B8960B"];
 
   return (
     <>
@@ -260,11 +260,11 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
             width: TOOLTIP_W,
             zIndex: 1000,
             pointerEvents: "none",
-            background: "#1a1a2e",
-            border: "1px solid #6c63ff",
+            background: "var(--bg)",
+            border: "1px solid var(--accent)",
             borderRadius: "14px",
             padding: "16px 20px",
-            boxShadow: "0 8px 32px rgba(108,99,255,0.25), 0 2px 8px rgba(0,0,0,0.5)",
+            boxShadow: "0 8px 32px rgba(148, 107, 45, 0.15), 0 2px 8px rgba(0,0,0,0.08)",
             display: "flex",
             alignItems: "center",
             gap: "16px",
@@ -292,7 +292,7 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
           {/* Text */}
           <div style={{ minWidth: 0 }}>
             <div style={{
-              color: "#e2e2f0",
+              color: "var(--text)",
               fontSize: "15px",
               fontWeight: 700,
               lineHeight: 1.3,
@@ -301,7 +301,7 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
               {tooltip.name}
             </div>
             <div style={{
-              color: "#8888aa",
+              color: "var(--muted)",
               fontSize: "12px",
               lineHeight: 1.4,
               marginBottom: "8px",
@@ -309,7 +309,7 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
               {tooltip.role}
             </div>
             <div style={{
-              color: "#6c63ff",
+              color: "var(--accent)",
               fontSize: "11px",
               fontWeight: 500,
             }}>
