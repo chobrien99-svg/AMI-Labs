@@ -18,14 +18,16 @@ type SanityArticle = {
 };
 
 export default async function Home() {
-  const jsonArticles = newsData as unknown as {
+  // Filter news.json: only show approved articles and legacy articles (no status field).
+  const jsonArticles = (newsData as unknown as {
     id: string;
     title: string;
     source: string;
     url: string;
     publishedAt: string;
     tags: string[];
-  }[];
+    status?: string;
+  }[]).filter((a) => !a.status || a.status === "approved");
 
   let sanityArticles: typeof jsonArticles = [];
 
