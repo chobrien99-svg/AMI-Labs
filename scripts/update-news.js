@@ -2,6 +2,7 @@ const fs = require("fs");
 const https = require("https");
 const { randomUUID } = require("crypto");
 const Anthropic = require("@anthropic-ai/sdk").default;
+const { createClient } = require("@sanity/client");
 
 // ═══════════════════════════════════════════════════════════════════════════
 // TRACKER CONFIGURATION — edit this section to adapt for a different company
@@ -10,6 +11,14 @@ const Anthropic = require("@anthropic-ai/sdk").default;
 const TRACKER = {
   name: "AMI Labs",
   dataFile: "./data/news.json",
+  siteUrl: "https://ami.frenchtechjournal.com",
+
+  // Sanity CMS
+  sanity: {
+    projectId: "k8hl9hed",
+    dataset: "production",
+    apiVersion: "2024-01-01",
+  },
 
   // Google News RSS feeds — use %22 for quoted phrases, +when:48h for recency
   googleNewsFeeds: [
@@ -24,6 +33,17 @@ const TRACKER = {
   // Hacker News Algolia search terms — free, no API key needed
   hackerNewsQueries: ["AMI Labs", "Advanced Machine Intelligence", "Yann LeCun AMI"],
 
+  // YouTube channel RSS feeds (free, no API key needed)
+  youtubeFeeds: [
+    { url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCBOEQtZ1EP1cHBW3rvOQSfA", source: "Yann LeCun (YouTube)" },
+  ],
+
+  // Reddit RSS search — filtered for AMI keywords
+  redditFeeds: [
+    "https://www.reddit.com/r/MachineLearning/search.rss?q=%22AMI+Labs%22+OR+%22Yann+LeCun%22&sort=new&restrict_sr=1&t=week",
+    "https://www.reddit.com/r/artificial/search.rss?q=%22AMI+Labs%22+OR+%22Advanced+Machine+Intelligence%22&sort=new&restrict_sr=1&t=week",
+  ],
+
   // Whitelisted RSS feeds from specific outlets known to cover AMI Labs
   whitelistFeeds: [
     { url: "https://techcrunch.com/feed/", source: "TechCrunch" },
@@ -32,8 +52,7 @@ const TRACKER = {
     { url: "https://the-decoder.com/feed/", source: "The Decoder" },
   ],
 
-  // Keywords an article must match (at least one) to pass the whitelist filter.
-  // Only applied to whitelisted RSS feeds, not Google News / NewsAPI / HN.
+  // Keywords an article must match (at least one) to pass the whitelist filter
   whitelistKeywords: [
     "ami labs", "ami lab", "advanced machine intelligence",
     "yann lecun", "le cun", "lecun",
@@ -41,7 +60,35 @@ const TRACKER = {
     "alexandre lebrun",
   ],
 
-  // Tag inference rules — regex patterns matched against lowercase title
+  // ── Scoring configuration ─────────────────────────────────────────────────
+
+  // High-authority sources (score boost)
+  tier1Sources: [
+    "techcrunch", "wired", "nytimes", "new york times", "bloomberg",
+    "reuters", "financial times", "wall street journal", "nature",
+    "science", "fortune", "business insider", "the verge", "ars technica",
+    "mit technology review", "les echos", "le monde", "france 24",
+    "pitchbook", "observer", "siliconangle", "silicon angle",
+    "straits times", "channel news asia",
+  ],
+
+  // Core keywords (highest relevance)
+  coreKeywords: [
+    "ami labs", "ami lab", "advanced machine intelligence",
+    "alexandre lebrun", "pengyouco",
+  ],
+
+  // Secondary keywords (moderate relevance)
+  secondaryKeywords: [
+    "yann lecun", "le cun", "lecun",
+    "jepa", "world model", "v-jepa",
+  ],
+
+  // Score thresholds for auto-routing
+  autoApproveThreshold: 70,
+  autoRejectThreshold: 30,
+
+  // Tag inference rules
   tagRules: [
     { tag: "funding", pattern: /rais|fund|invest|valuat|billion|million/ },
     { tag: "research", pattern: /research|paper|model|jepa|science|publish/ },
@@ -49,17 +96,29 @@ const TRACKER = {
     { tag: "administrative", pattern: /regulat|legal|filing|compliance|incorporat|statut|registr|kbis/ },
   ],
 
-  // Max new articles to process per run (controls Claude API spend)
-  maxNewPerRun: 10,
+  maxNewPerRun: 15,
 };
 
 // ═══════════════════════════════════════════════════════════════════════════
-// CORE ENGINE — generally unchanged across trackers
+// CORE ENGINE
 // ═══════════════════════════════════════════════════════════════════════════
 
 const existing = JSON.parse(fs.readFileSync(TRACKER.dataFile, "utf8"));
 const existingUrls = new Set(existing.map((a) => a.url));
 const existingTitles = existing.map((a) => a.title.toLowerCase());
+
+// ── Sanity write client (for pushing articles to CMS) ───────────────────────
+
+let sanityClient = null;
+if (process.env.SANITY_API_WRITE_TOKEN) {
+  sanityClient = createClient({
+    ...TRACKER.sanity,
+    useCdn: false,
+    token: process.env.SANITY_API_WRITE_TOKEN,
+  });
+} else {
+  console.warn("[Sanity] SANITY_API_WRITE_TOKEN not set — articles will only be written to news.json.");
+}
 
 // ── HTTP helper (follows redirects) ─────────────────────────────────────────
 
@@ -121,9 +180,29 @@ function parseRSSItems(xml, defaultSource) {
   return items;
 }
 
+function parseAtomEntries(xml, defaultSource) {
+  const items = [];
+  const entryRegex = /<entry>([\s\S]*?)<\/entry>/g;
+  let m;
+  while ((m = entryRegex.exec(xml)) !== null) {
+    const block = m[1];
+    const get = (tag) => {
+      const r = new RegExp(
+        "<" + tag + "[^>]*><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/" + tag + ">|<" + tag + "[^>]*>([\\s\\S]*?)<\\/" + tag + ">"
+      );
+      const match = r.exec(block);
+      return match ? (match[1] || match[2] || "").trim() : "";
+    };
+    const linkMatch = /<link[^>]+href="([^"]+)"/.exec(block);
+    const title = get("title");
+    const link = linkMatch ? linkMatch[1] : "";
+    const pubDate = get("published") || get("updated");
+    if (title && link) items.push({ title, link, pubDate, source: defaultSource });
+  }
+  return items;
+}
+
 // ── Fuzzy title deduplication ───────────────────────────────────────────────
-// Jaccard similarity on word sets — catches "LeCun raises $1B" vs
-// "Yann LeCun raises $1B for AMI Labs" without needing embeddings.
 
 function titleWords(title) {
   return new Set(
@@ -144,6 +223,72 @@ function isTitleDuplicate(title) {
     if (jaccardSimilarity(words, titleWords(existing)) > 0.65) return true;
   }
   return false;
+}
+
+// ── Content scoring rubric ──────────────────────────────────────────────────
+
+function scoreArticle(item) {
+  const titleLower = item.title.toLowerCase();
+  const sourceLower = (item.source || "").toLowerCase();
+  let score = 0;
+  const breakdown = [];
+
+  // D1: Relevance (0–40) — does the article actually mention AMI Labs?
+  const hasCore = TRACKER.coreKeywords.some((kw) => titleLower.includes(kw));
+  const hasSecondary = TRACKER.secondaryKeywords.some((kw) => titleLower.includes(kw));
+  if (hasCore) {
+    score += 40;
+    breakdown.push("D1:40 (core keyword in title)");
+  } else if (hasSecondary) {
+    score += 20;
+    breakdown.push("D1:20 (secondary keyword in title)");
+  } else {
+    score += 5;
+    breakdown.push("D1:5 (no tracked keyword in title)");
+  }
+
+  // D2: Source credibility (0–25)
+  const isTier1 = TRACKER.tier1Sources.some((s) => sourceLower.includes(s));
+  if (isTier1) {
+    score += 25;
+    breakdown.push("D2:25 (tier-1 source)");
+  } else if (item.source === "Hacker News") {
+    const hnScore = Math.min(15, Math.floor((item.hnPoints || 0) / 10) * 3);
+    score += 10 + hnScore;
+    breakdown.push(`D2:${10 + hnScore} (HN, ${item.hnPoints || 0} pts)`);
+  } else {
+    score += 8;
+    breakdown.push("D2:8 (standard source)");
+  }
+
+  // D3: Content depth signals (0–20)
+  const actionWords = /launch|release|announc|partner|acquir|demo|tutorial|open.?source/;
+  if (actionWords.test(titleLower)) {
+    score += 20;
+    breakdown.push("D3:20 (actionable content)");
+  } else if (titleLower.length > 60) {
+    score += 12;
+    breakdown.push("D3:12 (descriptive title)");
+  } else {
+    score += 5;
+    breakdown.push("D3:5 (brief title)");
+  }
+
+  // D4: Timeliness (0–15)
+  const ageMs = Date.now() - new Date(item.pubDate || Date.now()).getTime();
+  const ageDays = ageMs / (1000 * 60 * 60 * 24);
+  if (ageDays <= 2) {
+    score += 15;
+    breakdown.push("D4:15 (< 2 days old)");
+  } else if (ageDays <= 7) {
+    score += 10;
+    breakdown.push("D4:10 (< 7 days old)");
+  } else {
+    score += 3;
+    breakdown.push("D4:3 (> 7 days old)");
+  }
+
+  return { score: Math.min(100, score), breakdown };
 }
 
 // ── Source fetchers ─────────────────────────────────────────────────────────
@@ -218,7 +363,7 @@ async function fetchHackerNews() {
     try {
       const j = JSON.parse(data);
       const hits = (j.hits || [])
-        .filter((h) => h.url) // skip Ask HN etc. without URLs
+        .filter((h) => h.url)
         .map((h) => ({
           title: h.title,
           link: h.url,
@@ -241,6 +386,39 @@ async function fetchHackerNews() {
   });
 }
 
+async function fetchYouTube() {
+  const allItems = [];
+  for (const feed of TRACKER.youtubeFeeds) {
+    console.log(`[YouTube] Fetching: ${feed.source}`);
+    const xml = await httpsGet(feed.url);
+    if (!xml) {
+      console.warn(`[YouTube] Empty response from ${feed.source}.`);
+      continue;
+    }
+    const items = parseAtomEntries(xml, feed.source);
+    console.log(`[YouTube] Found ${items.length} videos from ${feed.source}.`);
+    allItems.push(...items);
+  }
+  return allItems;
+}
+
+async function fetchReddit() {
+  const allItems = [];
+  for (const url of TRACKER.redditFeeds) {
+    const subreddit = url.match(/r\/([^/]+)/)?.[1] || "reddit";
+    console.log(`[Reddit] Fetching r/${subreddit}...`);
+    const xml = await httpsGet(url);
+    if (!xml) {
+      console.warn(`[Reddit] Empty response from r/${subreddit}.`);
+      continue;
+    }
+    const items = parseAtomEntries(xml, `Reddit r/${subreddit}`);
+    console.log(`[Reddit] Found ${items.length} posts from r/${subreddit}.`);
+    allItems.push(...items);
+  }
+  return allItems;
+}
+
 async function fetchWhitelistFeeds() {
   const allItems = [];
   const keywords = TRACKER.whitelistKeywords;
@@ -252,7 +430,6 @@ async function fetchWhitelistFeeds() {
       continue;
     }
     const items = parseRSSItems(xml, feed.source);
-    // Filter to articles mentioning our keywords
     const matched = items.filter((item) => {
       const text = (item.title + " " + (item.description || "")).toLowerCase();
       return keywords.some((kw) => text.includes(kw));
@@ -289,14 +466,12 @@ async function summarizeWithClaude(title, url) {
   }
 }
 
-// ── Tagging ─────────────────────────────────────────────────────────────────
+// ── Tagging & utilities ─────────────────────────────────────────────────────
 
 function inferTags(title) {
   const t = title.toLowerCase();
   return TRACKER.tagRules.filter((r) => r.pattern.test(t)).map((r) => r.tag);
 }
-
-// ── Utilities ───────────────────────────────────────────────────────────────
 
 function parseDate(dateStr) {
   try {
@@ -306,6 +481,90 @@ function parseDate(dateStr) {
   }
 }
 
+function slugify(text) {
+  return text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 96);
+}
+
+// ── Sanity write ────────────────────────────────────────────────────────────
+
+async function writeToSanity(article) {
+  if (!sanityClient) return;
+  const doc = {
+    _type: "article",
+    _id: `news-bot-${article.id}`,
+    title: article.title,
+    slug: { _type: "slug", current: slugify(article.title) },
+    source: article.source,
+    externalUrl: article.url,
+    publishedAt: new Date(article.publishedAt).toISOString(),
+    summary: article.summary,
+    tags: article.tags,
+    score: article.score,
+    reviewStatus: article.status,
+  };
+  try {
+    await sanityClient.createOrReplace(doc);
+    console.log(`  [Sanity] Wrote ${article.status} article: "${article.title}" (score: ${article.score})`);
+  } catch (err) {
+    console.error(`  [Sanity] Failed to write "${article.title}": ${err.message}`);
+  }
+}
+
+// ── GitHub Issue notification ───────────────────────────────────────────────
+
+async function notifyPendingArticles(pendingArticles) {
+  if (!process.env.GITHUB_TOKEN || !process.env.GITHUB_REPOSITORY) {
+    console.warn("[Notify] GITHUB_TOKEN or GITHUB_REPOSITORY not set — skipping notification.");
+    return;
+  }
+  const [owner, repo] = process.env.GITHUB_REPOSITORY.split("/");
+  const lines = pendingArticles.map((a) =>
+    `- [ ] **${a.title}** (score: ${a.score})\n  Source: ${a.source} | [Link](${a.url})\n  ${a.summary ? a.summary.slice(0, 150) + "…" : ""}`
+  );
+  const body =
+    `## ${pendingArticles.length} article(s) awaiting review\n\n` +
+    lines.join("\n\n") +
+    `\n\n---\n[Review on admin page](${TRACKER.siteUrl}/admin/review)\n\n_Auto-generated by AMI News Bot at ${new Date().toISOString()}_`;
+
+  const payload = JSON.stringify({
+    title: `[News Bot] ${pendingArticles.length} article(s) need review`,
+    body,
+    labels: ["news-bot", "review-needed"],
+  });
+
+  return new Promise((resolve) => {
+    const req = https.request({
+      hostname: "api.github.com",
+      path: `/repos/${owner}/${repo}/issues`,
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+        "Content-Type": "application/json",
+        "User-Agent": "AMI-Labs-News-Bot/1.0",
+        Accept: "application/vnd.github+json",
+      },
+    }, (res) => {
+      let data = "";
+      res.on("data", (c) => (data += c));
+      res.on("end", () => {
+        if (res.statusCode === 201) {
+          const issue = JSON.parse(data);
+          console.log(`[Notify] Created GitHub Issue #${issue.number}: ${issue.html_url}`);
+        } else {
+          console.error(`[Notify] Failed to create issue (${res.statusCode}): ${data.slice(0, 200)}`);
+        }
+        resolve();
+      });
+    });
+    req.on("error", (err) => {
+      console.error(`[Notify] Request failed: ${err.message}`);
+      resolve();
+    });
+    req.write(payload);
+    req.end();
+  });
+}
+
 // ── Main ────────────────────────────────────────────────────────────────────
 
 (async () => {
@@ -313,14 +572,16 @@ function parseDate(dateStr) {
   console.log(`Existing articles: ${existing.length} (${existingUrls.size} unique URLs)\n`);
 
   // Fetch from all sources in parallel
-  const [rssItems, newsApiItems, hnItems, whitelistItems] = await Promise.all([
+  const [rssItems, newsApiItems, hnItems, ytItems, redditItems, whitelistItems] = await Promise.all([
     fetchGoogleNews(),
     fetchNewsAPI(),
     fetchHackerNews(),
+    fetchYouTube(),
+    fetchReddit(),
     fetchWhitelistFeeds(),
   ]);
 
-  const allItems = [...rssItems, ...newsApiItems, ...hnItems, ...whitelistItems];
+  const allItems = [...rssItems, ...newsApiItems, ...hnItems, ...ytItems, ...redditItems, ...whitelistItems];
 
   // Deduplicate across all sources by URL
   const seenLinks = new Set();
@@ -347,10 +608,34 @@ function parseDate(dateStr) {
     return;
   }
 
+  // Score and route articles
   const newArticles = [];
+  const pendingArticles = [];
+  let approved = 0, pending = 0, rejected = 0;
+
   for (const item of newItems.slice(0, TRACKER.maxNewPerRun)) {
-    const summary = await summarizeWithClaude(item.title, item.link);
-    newArticles.push({
+    const { score, breakdown } = scoreArticle(item);
+
+    let status;
+    if (score >= TRACKER.autoApproveThreshold) {
+      status = "approved";
+      approved++;
+    } else if (score >= TRACKER.autoRejectThreshold) {
+      status = "pending";
+      pending++;
+    } else {
+      status = "rejected";
+      rejected++;
+    }
+
+    console.log(`  [Score] ${score}/100 → ${status} | "${item.title}"`);
+    breakdown.forEach((b) => console.log(`          ${b}`));
+
+    const summary = status !== "rejected"
+      ? await summarizeWithClaude(item.title, item.link)
+      : "";
+
+    const article = {
       id: randomUUID(),
       title: item.title,
       source: item.source,
@@ -358,14 +643,28 @@ function parseDate(dateStr) {
       publishedAt: parseDate(item.pubDate),
       summary,
       tags: inferTags(item.title),
+      score,
+      status,
       addedAt: new Date().toISOString(),
-    });
-    console.log(`  Added: ${item.title}`);
+    };
+
+    newArticles.push(article);
+    if (status === "pending") pendingArticles.push(article);
+
+    await writeToSanity(article);
   }
 
+  console.log(`\nRouting: ${approved} approved, ${pending} pending review, ${rejected} rejected.`);
+
+  // Write all articles (including rejected) to news.json as archive
   if (newArticles.length > 0) {
     const updated = [...newArticles, ...existing];
     fs.writeFileSync(TRACKER.dataFile, JSON.stringify(updated, null, 2));
-    console.log(`\nUpdated news.json with ${newArticles.length} new articles (total: ${updated.length}).`);
+    console.log(`Updated news.json with ${newArticles.length} new articles (total: ${updated.length}).`);
+  }
+
+  // Notify about pending articles via GitHub Issue
+  if (pendingArticles.length > 0) {
+    await notifyPendingArticles(pendingArticles);
   }
 })();

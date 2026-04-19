@@ -39,7 +39,7 @@ export const personBySlugQuery = groq`
 
 
 export const allArticlesQuery = groq`
-  *[_type == "article" && !(_id in path("drafts.**"))] | order(publishedAt desc) {
+  *[_type == "article" && !(_id in path("drafts.**")) && (reviewStatus == "approved" || !defined(reviewStatus))] | order(publishedAt desc) {
     _id,
     title,
     slug,
@@ -49,6 +49,21 @@ export const allArticlesQuery = groq`
     summary,
     tags,
     coverImage { asset->, alt },
+  }
+`;
+
+export const pendingArticlesQuery = groq`
+  *[_type == "article" && !(_id in path("drafts.**")) && reviewStatus == "pending"] | order(score desc, publishedAt desc) {
+    _id,
+    title,
+    slug,
+    source,
+    externalUrl,
+    publishedAt,
+    summary,
+    tags,
+    score,
+    reviewStatus,
   }
 `;
 

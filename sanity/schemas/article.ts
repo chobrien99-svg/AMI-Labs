@@ -62,6 +62,26 @@ export const article = defineType({
       rows: 3,
     }),
     defineField({
+      name: "reviewStatus",
+      title: "Review Status",
+      type: "string",
+      options: {
+        list: [
+          { title: "Pending", value: "pending" },
+          { title: "Approved", value: "approved" },
+          { title: "Rejected", value: "rejected" },
+        ],
+      },
+      initialValue: "approved",
+    }),
+    defineField({
+      name: "score",
+      title: "Relevance Score",
+      description: "Auto-calculated 0–100 relevance score from the news bot",
+      type: "number",
+      validation: (r) => r.min(0).max(100),
+    }),
+    defineField({
       name: "coverImage",
       title: "Cover Image",
       type: "image",
