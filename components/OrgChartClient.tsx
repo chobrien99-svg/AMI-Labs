@@ -124,7 +124,7 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
       .enter()
       .append("path")
       .attr("fill", "none")
-      .attr("stroke", "var(--border)")
+      .style("stroke", "var(--border)")
       .attr("stroke-width", 1.5)
       .attr("d", (d) => {
         const sx = d.source.x ?? 0, sy = (d.source.y ?? 0) + nodeH / 2;
@@ -155,7 +155,7 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
       .style("cursor", "pointer")
       .on("click", (_, d) => router.push(`/team/${d.data.slug}`))
       .on("mouseenter", function (event: MouseEvent, d) {
-        d3.select(this).select("rect").attr("stroke", "var(--accent)");
+        d3.select(this).select("rect").style("stroke", "var(--accent)");
         setTooltip({
           name: d.data.name,
           role: d.data.role,
@@ -165,7 +165,7 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
         });
       })
       .on("mouseleave", function () {
-        d3.select(this).select("rect").attr("stroke", "var(--border)");
+        d3.select(this).select("rect").style("stroke", "var(--border)");
         setTooltip(null);
       });
 
@@ -173,8 +173,8 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
       .attr("width", nodeW)
       .attr("height", nodeH)
       .attr("rx", 12)
-      .attr("fill", "var(--surface)")
-      .attr("stroke", "var(--border)")
+      .style("fill", "var(--surface)")
+      .style("stroke", "var(--border)")
       .attr("stroke-width", 1);
 
     // Avatar circle
@@ -198,7 +198,7 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
     nodeGroup.append("text")
       .attr("x", 68)
       .attr("y", nodeH / 2 - 10)
-      .attr("fill", "var(--text)")
+      .style("fill", "var(--text)")
       .attr("font-size", "13px")
       .attr("font-weight", "600")
       .attr("font-family", "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif")
@@ -208,7 +208,7 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
     nodeGroup.append("text")
       .attr("x", 68)
       .attr("y", nodeH / 2 + 10)
-      .attr("fill", "var(--muted)")
+      .style("fill", "var(--muted)")
       .attr("font-size", "11px")
       .attr("font-family", "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif")
       .text((d) => d.data.role.length > 26 ? d.data.role.slice(0, 25) + "…" : d.data.role);
