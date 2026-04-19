@@ -23,7 +23,10 @@ type SanityArticle = {
 };
 
 export default async function NewsPage() {
-  const jsonArticles = newsData as unknown as Parameters<typeof NewsPageClient>[0]["articles"];
+  // Filter news.json: only show approved articles and legacy articles (no status field).
+  // Pending/rejected articles are hidden until approved via /admin/review.
+  const jsonArticles = (newsData as unknown as (Parameters<typeof NewsPageClient>[0]["articles"][number] & { status?: string })[])
+    .filter((a) => !a.status || a.status === "approved");
 
   let sanityArticles: Parameters<typeof NewsPageClient>[0]["articles"] = [];
 
