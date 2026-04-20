@@ -104,7 +104,7 @@ function buildTree(team: Member[]): TreeNode | null {
 
 type Positioned = { node: TreeNode; x: number; y: number; depth: number };
 
-const MAX_CHILDREN_PER_ROW = 4;
+const MAX_CHILDREN_PER_ROW = 3;
 const WRAP_GAP = 24;
 
 function layoutTree(
@@ -122,31 +122,43 @@ function layoutTree(
     if (!n.children.length) {
       xByNode.set(n, cursor);
       cursor += nodeW + hGap;
-    } else if (
-      n.children.length > MAX_CHILDREN_PER_ROW &&
-      n.children.every((c) => c.children.length === 0)
-    ) {
-      gridParents.add(n);
-      wrapDepths.add(depth + 1);
-      const cols = Math.ceil(n.children.length / 2);
-      const row1 = n.children.slice(0, cols);
-      const row2 = n.children.slice(cols);
-      for (let i = 0; i < cols; i++) {
-        xByNode.set(row1[i], cursor);
-        if (row2[i]) {
-          xByNode.set(row2[i], cursor);
-          wrappedChildren.add(row2[i]);
-        }
-        cursor += nodeW + hGap;
-      }
-      const first = xByNode.get(row1[0])!;
-      const last = xByNode.get(row1[cols - 1])!;
-      xByNode.set(n, (first + last) / 2);
     } else {
-      n.children.forEach((c) => walk(c, depth + 1));
-      const first = xByNode.get(n.children[0])!;
-      const last = xByNode.get(n.children[n.children.length - 1])!;
-      xByNode.set(n, (first + last) / 2);
+      const leaves = n.children.filter((c) => c.children.length === 0);
+      const branches = n.children.filter((c) => c.children.length > 0);
+
+      if (leaves.length > MAX_CHILDREN_PER_ROW) {
+        gridParents.add(n);
+        wrapDepths.add(depth + 1);
+
+        // Process branch children normally first
+        branches.forEach((c) => walk(c, depth + 1));
+
+        // Grid the leaf children into 2 rows
+        const cols = Math.ceil(leaves.length / 2);
+        const row1 = leaves.slice(0, cols);
+        const row2 = leaves.slice(cols);
+        for (let i = 0; i < cols; i++) {
+          xByNode.set(row1[i], cursor);
+          if (row2[i]) {
+            xByNode.set(row2[i], cursor);
+            wrappedChildren.add(row2[i]);
+          }
+          cursor += nodeW + hGap;
+        }
+
+        // Center parent over all children
+        const allChildXs = [...branches, ...row1]
+          .map((c) => xByNode.get(c)!)
+          .filter((x) => x !== undefined);
+        const minCX = Math.min(...allChildXs);
+        const maxCX = Math.max(...allChildXs);
+        xByNode.set(n, (minCX + maxCX) / 2);
+      } else {
+        n.children.forEach((c) => walk(c, depth + 1));
+        const first = xByNode.get(n.children[0])!;
+        const last = xByNode.get(n.children[n.children.length - 1])!;
+        xByNode.set(n, (first + last) / 2);
+      }
     }
   }
   walk(root, 0);
