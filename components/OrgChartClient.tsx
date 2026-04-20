@@ -102,10 +102,10 @@ function buildTree(team: Member[]): TreeNode | null {
   return root;
 }
 
-type Positioned = { node: TreeNode; x: number; y: number; depth: number };
+type Positioned = { node: TreeNode; x: number; y: number; depth: number; isWrapped?: boolean };
 
 const MAX_CHILDREN_PER_ROW = 3;
-const WRAP_GAP = 24;
+const WRAP_GAP = 60;
 
 function layoutTree(
   root: TreeNode,
@@ -216,7 +216,7 @@ function layoutTree(
         if (depth > wd) y += nodeH + WRAP_GAP;
       }
     }
-    all.push({ node: n, x: xByNode.get(n)!, y, depth });
+    all.push({ node: n, x: xByNode.get(n)!, y, depth, isWrapped: wrappedChildren.has(n) });
     n.children.forEach((c) => collect(c, depth + 1));
   }
   collect(root, 0);
@@ -496,6 +496,7 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
                     left: p.x + PAD,
                     top: p.y + PAD,
                     width: NODE_W,
+                    zIndex: p.isWrapped ? 2 : undefined,
                     animationDelay: `${80 + p.depth * 90 + (i % 4) * 25}ms`,
                   }}
                 >
