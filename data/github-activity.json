@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-04-03T07:03:08.663Z",
+  "lastFetched": "2026-04-20T13:22:33.235Z",
   "members": [
     {
       "slug": "saining-xie",
@@ -15,76 +15,52 @@
       "githubUrl": "https://github.com/mavenlin",
       "events": [
         {
+          "type": "IssueCommentEvent",
+          "repo": "meta-pytorch/torchcodec",
+          "repoUrl": "https://github.com/meta-pytorch/torchcodec",
+          "description": "Commented on issue #1322 in meta-pytorch/torchcodec",
+          "url": "https://github.com/meta-pytorch/torchcodec/pull/1322#issuecomment-4257126746",
+          "timestamp": "2026-04-16T03:01:49Z"
+        },
+        {
+          "type": "IssueCommentEvent",
+          "repo": "meta-pytorch/torchcodec",
+          "repoUrl": "https://github.com/meta-pytorch/torchcodec",
+          "description": "Commented on issue #1322 in meta-pytorch/torchcodec",
+          "url": "https://github.com/meta-pytorch/torchcodec/pull/1322#issuecomment-4248355512",
+          "timestamp": "2026-04-15T00:49:40Z"
+        },
+        {
+          "type": "ReleaseEvent",
+          "repo": "the-AMI-Labs/torchcodec-fork",
+          "repoUrl": "https://github.com/the-AMI-Labs/torchcodec-fork",
+          "description": "Released v0.12.0-ami1 on the-AMI-Labs/torchcodec-fork",
+          "url": "https://github.com/the-AMI-Labs/torchcodec-fork/releases/tag/v0.12.0-ami1",
+          "timestamp": "2026-04-08T12:12:31Z"
+        },
+        {
+          "type": "IssueCommentEvent",
+          "repo": "meta-pytorch/torchcodec",
+          "repoUrl": "https://github.com/meta-pytorch/torchcodec",
+          "description": "Commented on issue #1322 in meta-pytorch/torchcodec",
+          "url": "https://github.com/meta-pytorch/torchcodec/pull/1322#issuecomment-4206115357",
+          "timestamp": "2026-04-08T12:09:08Z"
+        },
+        {
           "type": "PullRequestEvent",
           "repo": "meta-pytorch/torchcodec",
           "repoUrl": "https://github.com/meta-pytorch/torchcodec",
-          "description": "merged PR #1295 in meta-pytorch/torchcodec",
+          "description": "Opened PR #1322 in meta-pytorch/torchcodec",
           "url": "https://github.com/meta-pytorch/torchcodec",
-          "timestamp": "2026-03-19T17:39:11Z"
+          "timestamp": "2026-04-04T17:01:11Z"
         },
         {
-          "type": "PushEvent",
-          "repo": "sail-sg/envpool",
-          "repoUrl": "https://github.com/sail-sg/envpool",
-          "description": "Pushed 0 commits to main on sail-sg/envpool",
-          "url": "https://github.com/sail-sg/envpool",
-          "timestamp": "2026-03-19T11:21:16Z"
-        },
-        {
-          "type": "IssuesEvent",
-          "repo": "sail-sg/envpool",
-          "repoUrl": "https://github.com/sail-sg/envpool",
-          "description": "Closed issue #327 in sail-sg/envpool",
-          "url": "https://github.com/sail-sg/envpool/issues/327",
-          "timestamp": "2026-03-19T11:21:16Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "meta-pytorch/torchcodec",
-          "repoUrl": "https://github.com/meta-pytorch/torchcodec",
-          "description": "Opened PR #1295 in meta-pytorch/torchcodec",
-          "url": "https://github.com/meta-pytorch/torchcodec",
-          "timestamp": "2026-03-19T08:01:36Z"
-        },
-        {
-          "type": "PushEvent",
+          "type": "CreateEvent",
           "repo": "mavenlin/torchcodec",
           "repoUrl": "https://github.com/mavenlin/torchcodec",
-          "description": "Pushed 0 commits to main on mavenlin/torchcodec",
+          "description": "Created branch decoder_options in mavenlin/torchcodec",
           "url": "https://github.com/mavenlin/torchcodec",
-          "timestamp": "2026-03-19T07:58:08Z"
-        },
-        {
-          "type": "ForkEvent",
-          "repo": "meta-pytorch/torchcodec",
-          "repoUrl": "https://github.com/meta-pytorch/torchcodec",
-          "description": "Forked meta-pytorch/torchcodec",
-          "url": "https://github.com/mavenlin/torchcodec",
-          "timestamp": "2026-03-19T07:55:03Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "mavenlin/zshrc",
-          "repoUrl": "https://github.com/mavenlin/zshrc",
-          "description": "Pushed 0 commits to master on mavenlin/zshrc",
-          "url": "https://github.com/mavenlin/zshrc",
-          "timestamp": "2026-03-08T16:29:00Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "mavenlin/zshrc",
-          "repoUrl": "https://github.com/mavenlin/zshrc",
-          "description": "Pushed 0 commits to master on mavenlin/zshrc",
-          "url": "https://github.com/mavenlin/zshrc",
-          "timestamp": "2026-03-08T16:06:35Z"
-        },
-        {
-          "type": "WatchEvent",
-          "repo": "achimala/farfield",
-          "repoUrl": "https://github.com/achimala/farfield",
-          "description": "Starred achimala/farfield",
-          "url": "https://github.com/achimala/farfield",
-          "timestamp": "2026-03-08T04:54:10Z"
+          "timestamp": "2026-04-04T16:59:35Z"
         }
       ]
     },
@@ -109,22 +85,6 @@
           "description": "Starred pytorch/torchtitan",
           "url": "https://github.com/pytorch/torchtitan",
           "timestamp": "2026-03-28T17:18:53Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "xingyizhou/xingyizhou.github.io",
-          "repoUrl": "https://github.com/xingyizhou/xingyizhou.github.io",
-          "description": "Pushed 0 commits to main on xingyizhou/xingyizhou.github.io",
-          "url": "https://github.com/xingyizhou/xingyizhou.github.io",
-          "timestamp": "2026-03-11T02:12:40Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "xingyizhou/xingyizhou.github.io",
-          "repoUrl": "https://github.com/xingyizhou/xingyizhou.github.io",
-          "description": "Pushed 0 commits to main on xingyizhou/xingyizhou.github.io",
-          "url": "https://github.com/xingyizhou/xingyizhou.github.io",
-          "timestamp": "2026-03-10T05:24:17Z"
         }
       ]
     },
@@ -142,124 +102,124 @@
       "githubUrl": "https://github.com/luodian",
       "events": [
         {
-          "type": "CreateEvent",
-          "repo": "Luodian/tmux-coding-agents",
-          "repoUrl": "https://github.com/Luodian/tmux-coding-agents",
-          "description": "Created branch main in Luodian/tmux-coding-agents",
-          "url": "https://github.com/Luodian/tmux-coding-agents",
-          "timestamp": "2026-04-02T13:14:22Z"
-        },
-        {
-          "type": "WatchEvent",
-          "repo": "manaflow-ai/cmux",
-          "repoUrl": "https://github.com/manaflow-ai/cmux",
-          "description": "Starred manaflow-ai/cmux",
-          "url": "https://github.com/manaflow-ai/cmux",
-          "timestamp": "2026-04-01T17:58:23Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "Luodian/luodian.github.io",
-          "repoUrl": "https://github.com/Luodian/luodian.github.io",
-          "description": "merged PR #8 in Luodian/luodian.github.io",
-          "url": "https://github.com/Luodian/luodian.github.io",
-          "timestamp": "2026-03-29T20:52:35Z"
-        },
-        {
           "type": "PushEvent",
           "repo": "Luodian/luodian.github.io",
           "repoUrl": "https://github.com/Luodian/luodian.github.io",
           "description": "Pushed 0 commits to main on Luodian/luodian.github.io",
           "url": "https://github.com/Luodian/luodian.github.io",
-          "timestamp": "2026-03-29T20:52:36Z"
+          "timestamp": "2026-04-17T09:20:57Z"
         },
         {
-          "type": "PullRequestEvent",
-          "repo": "Luodian/luodian.github.io",
-          "repoUrl": "https://github.com/Luodian/luodian.github.io",
-          "description": "Opened PR #8 in Luodian/luodian.github.io",
-          "url": "https://github.com/Luodian/luodian.github.io",
-          "timestamp": "2026-03-29T20:52:32Z"
-        },
-        {
-          "type": "CreateEvent",
-          "repo": "Luodian/luodian.github.io",
-          "repoUrl": "https://github.com/Luodian/luodian.github.io",
-          "description": "Created branch claude/fervent-pike in Luodian/luodian.github.io",
-          "url": "https://github.com/Luodian/luodian.github.io",
-          "timestamp": "2026-03-29T20:51:58Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Opened PR #1276 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-03-26T16:10:33Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Opened PR #1275 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-03-26T16:10:27Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Opened PR #1274 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-03-26T16:10:21Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Opened PR #1273 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-03-26T16:06:13Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Opened PR #1272 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-03-26T16:06:06Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Opened PR #1271 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-03-26T16:05:58Z"
+          "type": "WatchEvent",
+          "repo": "rothgar/awesome-tmux",
+          "repoUrl": "https://github.com/rothgar/awesome-tmux",
+          "description": "Starred rothgar/awesome-tmux",
+          "url": "https://github.com/rothgar/awesome-tmux",
+          "timestamp": "2026-04-15T07:14:08Z"
         },
         {
           "type": "IssueCommentEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Commented on issue #1263 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval/pull/1263#issuecomment-4135295829",
-          "timestamp": "2026-03-26T14:20:39Z"
+          "repo": "LLaVA-VL/LLaVA-NeXT",
+          "repoUrl": "https://github.com/LLaVA-VL/LLaVA-NeXT",
+          "description": "Commented on issue #510 in LLaVA-VL/LLaVA-NeXT",
+          "url": "https://github.com/LLaVA-VL/LLaVA-NeXT/pull/510#issuecomment-4249845593",
+          "timestamp": "2026-04-15T06:39:00Z"
         },
         {
-          "type": "PullRequestReviewEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Reviewed PR #1268 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-03-26T14:17:51Z"
+          "type": "PullRequestEvent",
+          "repo": "LLaVA-VL/LLaVA-NeXT",
+          "repoUrl": "https://github.com/LLaVA-VL/LLaVA-NeXT",
+          "description": "closed PR #509 in LLaVA-VL/LLaVA-NeXT",
+          "url": "https://github.com/LLaVA-VL/LLaVA-NeXT",
+          "timestamp": "2026-04-15T04:30:42Z"
+        },
+        {
+          "type": "IssueCommentEvent",
+          "repo": "LLaVA-VL/LLaVA-NeXT",
+          "repoUrl": "https://github.com/LLaVA-VL/LLaVA-NeXT",
+          "description": "Commented on issue #509 in LLaVA-VL/LLaVA-NeXT",
+          "url": "https://github.com/LLaVA-VL/LLaVA-NeXT/pull/509#issuecomment-4249844401",
+          "timestamp": "2026-04-15T06:38:44Z"
+        },
+        {
+          "type": "IssuesEvent",
+          "repo": "LLaVA-VL/LLaVA-NeXT",
+          "repoUrl": "https://github.com/LLaVA-VL/LLaVA-NeXT",
+          "description": "Closed issue #508 in LLaVA-VL/LLaVA-NeXT",
+          "url": "https://github.com/LLaVA-VL/LLaVA-NeXT/issues/508",
+          "timestamp": "2026-04-15T06:38:28Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "LLaVA-VL/LLaVA-NeXT",
+          "repoUrl": "https://github.com/LLaVA-VL/LLaVA-NeXT",
+          "description": "merged PR #511 in LLaVA-VL/LLaVA-NeXT",
+          "url": "https://github.com/LLaVA-VL/LLaVA-NeXT",
+          "timestamp": "2026-04-15T06:38:26Z"
+        },
+        {
+          "type": "IssueCommentEvent",
+          "repo": "LLaVA-VL/LLaVA-NeXT",
+          "repoUrl": "https://github.com/LLaVA-VL/LLaVA-NeXT",
+          "description": "Commented on issue #511 in LLaVA-VL/LLaVA-NeXT",
+          "url": "https://github.com/LLaVA-VL/LLaVA-NeXT/pull/511#issuecomment-4249432868",
+          "timestamp": "2026-04-15T05:19:10Z"
+        },
+        {
+          "type": "IssueCommentEvent",
+          "repo": "LLaVA-VL/LLaVA-NeXT",
+          "repoUrl": "https://github.com/LLaVA-VL/LLaVA-NeXT",
+          "description": "Commented on issue #508 in LLaVA-VL/LLaVA-NeXT",
+          "url": "https://github.com/LLaVA-VL/LLaVA-NeXT/issues/508#issuecomment-4246129994",
+          "timestamp": "2026-04-14T18:11:04Z"
+        },
+        {
+          "type": "IssueCommentEvent",
+          "repo": "LLaVA-VL/LLaVA-NeXT",
+          "repoUrl": "https://github.com/LLaVA-VL/LLaVA-NeXT",
+          "description": "Commented on issue #510 in LLaVA-VL/LLaVA-NeXT",
+          "url": "https://github.com/LLaVA-VL/LLaVA-NeXT/pull/510#issuecomment-4246128268",
+          "timestamp": "2026-04-14T18:10:45Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "LLaVA-VL/LLaVA-NeXT",
+          "repoUrl": "https://github.com/LLaVA-VL/LLaVA-NeXT",
+          "description": "Opened PR #511 in LLaVA-VL/LLaVA-NeXT",
+          "url": "https://github.com/LLaVA-VL/LLaVA-NeXT",
+          "timestamp": "2026-04-14T18:10:22Z"
+        },
+        {
+          "type": "ForkEvent",
+          "repo": "LLaVA-VL/LLaVA-NeXT",
+          "repoUrl": "https://github.com/LLaVA-VL/LLaVA-NeXT",
+          "description": "Forked LLaVA-VL/LLaVA-NeXT",
+          "url": "https://github.com/Luodian/LLaVA-NeXT",
+          "timestamp": "2026-04-14T18:09:20Z"
+        },
+        {
+          "type": "WatchEvent",
+          "repo": "Orchestra-Research/AI-Research-SKILLs",
+          "repoUrl": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+          "description": "Starred Orchestra-Research/AI-Research-SKILLs",
+          "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+          "timestamp": "2026-04-12T18:44:32Z"
         },
         {
           "type": "PullRequestEvent",
           "repo": "EvolvingLMMs-Lab/lmms-eval",
           "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "merged PR #1270 in EvolvingLMMs-Lab/lmms-eval",
+          "description": "merged PR #1274 in EvolvingLMMs-Lab/lmms-eval",
           "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-03-26T14:14:50Z"
+          "timestamp": "2026-04-11T06:34:43Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "merged PR #1276 in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-04-11T06:31:46Z"
         }
       ]
     },
@@ -284,22 +244,6 @@
           "description": "Starred GaTech-RL2/EgoVerse",
           "url": "https://github.com/GaTech-RL2/EgoVerse",
           "timestamp": "2026-03-23T22:55:10Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "ChenDelong1999/ChenDelong1999",
-          "repoUrl": "https://github.com/ChenDelong1999/ChenDelong1999",
-          "description": "Pushed 0 commits to main on ChenDelong1999/ChenDelong1999",
-          "url": "https://github.com/ChenDelong1999/ChenDelong1999",
-          "timestamp": "2026-03-15T19:56:36Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "ChenDelong1999/my-academic-website-2023",
-          "repoUrl": "https://github.com/ChenDelong1999/my-academic-website-2023",
-          "description": "Pushed 0 commits to main on ChenDelong1999/my-academic-website-2023",
-          "url": "https://github.com/ChenDelong1999/my-academic-website-2023",
-          "timestamp": "2026-03-11T21:05:16Z"
         }
       ]
     },
@@ -308,24 +252,7 @@
       "name": "David Fan",
       "username": "dfan",
       "githubUrl": "https://github.com/dfan",
-      "events": [
-        {
-          "type": "PushEvent",
-          "repo": "facebookresearch/webssl",
-          "repoUrl": "https://github.com/facebookresearch/webssl",
-          "description": "Pushed 0 commits to main on facebookresearch/webssl",
-          "url": "https://github.com/facebookresearch/webssl",
-          "timestamp": "2026-03-20T07:18:52Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "beyond-llms/beyond-llms.github.io",
-          "repoUrl": "https://github.com/beyond-llms/beyond-llms.github.io",
-          "description": "Pushed 0 commits to main on beyond-llms/beyond-llms.github.io",
-          "url": "https://github.com/beyond-llms/beyond-llms.github.io",
-          "timestamp": "2026-03-04T02:39:22Z"
-        }
-      ]
+      "events": []
     },
     {
       "slug": "xinyi-wan",
@@ -340,6 +267,38 @@
       "username": "jihanyang",
       "githubUrl": "https://github.com/jihanyang",
       "events": [
+        {
+          "type": "PushEvent",
+          "repo": "jihanyang/jihanyang.github.io",
+          "repoUrl": "https://github.com/jihanyang/jihanyang.github.io",
+          "description": "Pushed 0 commits to master on jihanyang/jihanyang.github.io",
+          "url": "https://github.com/jihanyang/jihanyang.github.io",
+          "timestamp": "2026-04-14T18:00:02Z"
+        },
+        {
+          "type": "PushEvent",
+          "repo": "jihanyang/jihanyang.github.io",
+          "repoUrl": "https://github.com/jihanyang/jihanyang.github.io",
+          "description": "Pushed 0 commits to master on jihanyang/jihanyang.github.io",
+          "url": "https://github.com/jihanyang/jihanyang.github.io",
+          "timestamp": "2026-04-14T16:33:29Z"
+        },
+        {
+          "type": "PushEvent",
+          "repo": "jihanyang/jihanyang.github.io",
+          "repoUrl": "https://github.com/jihanyang/jihanyang.github.io",
+          "description": "Pushed 0 commits to master on jihanyang/jihanyang.github.io",
+          "url": "https://github.com/jihanyang/jihanyang.github.io",
+          "timestamp": "2026-04-14T15:52:47Z"
+        },
+        {
+          "type": "PushEvent",
+          "repo": "jihanyang/jihanyang.github.io",
+          "repoUrl": "https://github.com/jihanyang/jihanyang.github.io",
+          "description": "Pushed 0 commits to master on jihanyang/jihanyang.github.io",
+          "url": "https://github.com/jihanyang/jihanyang.github.io",
+          "timestamp": "2026-04-14T15:52:02Z"
+        },
         {
           "type": "PushEvent",
           "repo": "jihanyang/jihanyang.github.io",
@@ -363,14 +322,6 @@
           "description": "Pushed 0 commits to master on jihanyang/jihanyang.github.io",
           "url": "https://github.com/jihanyang/jihanyang.github.io",
           "timestamp": "2026-03-28T04:45:18Z"
-        },
-        {
-          "type": "WatchEvent",
-          "repo": "test-time-training/discover",
-          "repoUrl": "https://github.com/test-time-training/discover",
-          "description": "Starred test-time-training/discover",
-          "url": "https://github.com/test-time-training/discover",
-          "timestamp": "2026-03-17T21:29:25Z"
         }
       ]
     }
