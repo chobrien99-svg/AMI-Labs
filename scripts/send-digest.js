@@ -77,7 +77,10 @@ function recentItems(file, dateField) {
   try {
     const raw = JSON.parse(fs.readFileSync(path.resolve(__dirname, "../data", file), "utf8"));
     const items = Array.isArray(raw) ? raw : raw.jobs || raw.items || [];
-    return items.filter((item) => item[dateField] && new Date(item[dateField]) >= cutoff);
+    return items.filter((item) =>
+      item[dateField] && new Date(item[dateField]) >= cutoff &&
+      (!item.status || item.status === "approved")
+    );
   } catch (e) {
     console.warn(`Could not read ${file}:`, e.message);
     return [];
@@ -91,7 +94,7 @@ async function fetchSanityArticles() {
   }
   try {
     const query = encodeURIComponent(
-      `*[_type == "article" && !(_id in path("drafts.**")) && dateTime(publishedAt) >= dateTime("${cutoff.toISOString()}")] | order(publishedAt desc) { title, slug, source, externalUrl, publishedAt, summary }`
+      `*[_type == "article" && !(_id in path("drafts.**")) && (reviewStatus == "approved" || !defined(reviewStatus)) && dateTime(publishedAt) >= dateTime("${cutoff.toISOString()}")] | order(publishedAt desc) { title, slug, source, externalUrl, publishedAt, summary }`
     );
     const url = `https://${SANITY_PROJECT_ID}.api.sanity.io/v2024-01-01/data/query/${SANITY_DATASET}?query=${query}`;
     const res = await get(url, {
