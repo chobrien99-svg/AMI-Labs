@@ -104,6 +104,9 @@ function buildTree(team: Member[]): TreeNode | null {
 
 type Positioned = { node: TreeNode; x: number; y: number; depth: number };
 
+const MAX_CHILDREN_PER_ROW = 4;
+const WRAP_GAP = 24;
+
 function layoutTree(
   root: TreeNode,
   opts: { nodeW: number; nodeH: number; hGap: number; vGap: number }
@@ -111,19 +114,42 @@ function layoutTree(
   const { nodeW, nodeH, hGap, vGap } = opts;
   let cursor = 0;
   const xByNode = new Map<TreeNode, number>();
+  const gridParents = new Set<TreeNode>();
+  const wrappedChildren = new Set<TreeNode>();
+  const wrapDepths = new Set<number>();
 
-  function walk(n: TreeNode) {
+  function walk(n: TreeNode, depth: number) {
     if (!n.children.length) {
       xByNode.set(n, cursor);
       cursor += nodeW + hGap;
+    } else if (
+      n.children.length > MAX_CHILDREN_PER_ROW &&
+      n.children.every((c) => c.children.length === 0)
+    ) {
+      gridParents.add(n);
+      wrapDepths.add(depth + 1);
+      const cols = Math.ceil(n.children.length / 2);
+      const row1 = n.children.slice(0, cols);
+      const row2 = n.children.slice(cols);
+      for (let i = 0; i < cols; i++) {
+        xByNode.set(row1[i], cursor);
+        if (row2[i]) {
+          xByNode.set(row2[i], cursor);
+          wrappedChildren.add(row2[i]);
+        }
+        cursor += nodeW + hGap;
+      }
+      const first = xByNode.get(row1[0])!;
+      const last = xByNode.get(row1[cols - 1])!;
+      xByNode.set(n, (first + last) / 2);
     } else {
-      n.children.forEach(walk);
+      n.children.forEach((c) => walk(c, depth + 1));
       const first = xByNode.get(n.children[0])!;
       const last = xByNode.get(n.children[n.children.length - 1])!;
       xByNode.set(n, (first + last) / 2);
     }
   }
-  walk(root);
+  walk(root, 0);
 
   function shift(n: TreeNode, delta: number) {
     xByNode.set(n, (xByNode.get(n) ?? 0) + delta);
@@ -142,6 +168,7 @@ function layoutTree(
     return { left, right };
   }
   function resolve(n: TreeNode) {
+    if (gridParents.has(n)) return;
     if (n.children.length < 2) {
       n.children.forEach(resolve);
       return;
@@ -169,7 +196,15 @@ function layoutTree(
 
   const all: Positioned[] = [];
   function collect(n: TreeNode, depth: number) {
-    all.push({ node: n, x: xByNode.get(n)!, y: depth * (nodeH + vGap), depth });
+    let y = depth * (nodeH + vGap);
+    if (wrappedChildren.has(n)) {
+      y += nodeH + WRAP_GAP;
+    } else {
+      for (const wd of wrapDepths) {
+        if (depth > wd) y += nodeH + WRAP_GAP;
+      }
+    }
+    all.push({ node: n, x: xByNode.get(n)!, y, depth });
     n.children.forEach((c) => collect(c, depth + 1));
   }
   collect(root, 0);
