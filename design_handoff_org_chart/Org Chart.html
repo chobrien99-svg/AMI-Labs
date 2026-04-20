@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Org Chart — AMI Labs Intelligence Hub</title>
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  />
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=JetBrains+Mono:wght@400;500&display=swap"
+  />
+
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body>
+  <div id="root"></div>
+
+  <template id="__bundler_thumbnail">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+      <rect width="100" height="100" fill="#FFFCF5" />
+      <g stroke="#946B2D" stroke-width="1.4" fill="none">
+        <path d="M50 28 L50 42" />
+        <path d="M50 42 L28 56 M50 42 L72 56" />
+        <path d="M28 56 L28 68 M72 56 L72 68" />
+      </g>
+      <circle cx="50" cy="24" r="6" fill="#B8860B" />
+      <circle cx="28" cy="52" r="5" fill="#2A7D6B" />
+      <circle cx="72" cy="52" r="5" fill="#C07A3A" />
+      <circle cx="28" cy="72" r="4" fill="#3D7A4A" />
+      <circle cx="72" cy="72" r="4" fill="#A85C72" />
+    </svg>
+  </template>
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+  <script type="text/babel" src="src/data.jsx"></script>
+  <script type="text/babel" src="src/PersonCard.jsx"></script>
+  <script type="text/babel" src="src/Connectors.jsx"></script>
+  <script type="text/babel" src="src/OrgChart.jsx"></script>
+
+  <script type="text/babel">
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(<window.OrgChart />);
+  </script>
+</body>
+</html>
