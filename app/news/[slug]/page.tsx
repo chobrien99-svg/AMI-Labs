@@ -58,23 +58,31 @@ const portableTextComponents = {
         )}
       </figure>
     ),
-    videoEmbed: ({ value }: { value: { url: string; caption?: string } }) => (
-      <figure style={{ margin: "2rem 0" }}>
-        <div style={{ position: "relative", paddingBottom: "56.25%", height: 0, overflow: "hidden", borderRadius: "8px" }}>
-          <iframe
-            src={value.url}
-            style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }}
-            allowFullScreen
-            title={value.caption ?? "Video"}
-          />
-        </div>
-        {value.caption && (
-          <figcaption style={{ marginTop: "8px", fontSize: "0.8rem", color: "var(--muted)", textAlign: "center" }}>
-            {value.caption}
-          </figcaption>
-        )}
-      </figure>
-    ),
+    videoEmbed: ({ value }: { value: { url: string; caption?: string } }) => {
+      let src = value.url;
+      const yt = src.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([\w-]+)/);
+      if (yt) src = `https://www.youtube.com/embed/${yt[1]}`;
+      const vimeo = !yt && src.match(/vimeo\.com\/(\d+)/);
+      if (vimeo) src = `https://player.vimeo.com/video/${vimeo[1]}`;
+      return (
+        <figure style={{ margin: "2rem 0" }}>
+          <div style={{ position: "relative", paddingBottom: "56.25%", height: 0, overflow: "hidden", borderRadius: "8px" }}>
+            <iframe
+              src={src}
+              style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title={value.caption ?? "Video"}
+            />
+          </div>
+          {value.caption && (
+            <figcaption style={{ marginTop: "8px", fontSize: "0.8rem", color: "var(--muted)", textAlign: "center" }}>
+              {value.caption}
+            </figcaption>
+          )}
+        </figure>
+      );
+    },
   },
   block: {
     h1: ({ children }: { children?: React.ReactNode }) => (
