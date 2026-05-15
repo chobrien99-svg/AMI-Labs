@@ -83,6 +83,46 @@ const portableTextComponents = {
         </figure>
       );
     },
+    pdfEmbed: ({ value }: { value: { url: string; caption?: string } }) => (
+      <figure style={{ margin: "2rem 0" }}>
+        <div style={{
+          position: "relative",
+          paddingBottom: "75%",
+          height: 0,
+          overflow: "hidden",
+          borderRadius: "8px",
+          border: "1px solid var(--border)",
+          background: "var(--surface)",
+        }}>
+          <iframe
+            src={value.url}
+            style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }}
+            title={value.caption ?? "PDF Document"}
+          />
+        </div>
+        {value.caption && (
+          <figcaption style={{ marginTop: "8px", fontSize: "0.8rem", color: "var(--muted)", textAlign: "center" }}>
+            {value.caption}
+          </figcaption>
+        )}
+        <div style={{ marginTop: "8px", textAlign: "center" }}>
+          <a
+            href={value.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: "inline-flex", alignItems: "center", gap: "6px",
+              fontSize: "0.82rem", color: "var(--accent)", fontWeight: 600,
+              textDecoration: "none", padding: "6px 14px",
+              border: "1px solid var(--border)", borderRadius: "6px",
+              background: "var(--surface)", transition: "all 0.15s",
+            }}
+          >
+            ↓ Open PDF in new tab
+          </a>
+        </div>
+      </figure>
+    ),
   },
   block: {
     h1: ({ children }: { children?: React.ReactNode }) => (
