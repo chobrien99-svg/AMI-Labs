@@ -1,5 +1,5 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 
 type Member = {
@@ -297,6 +297,235 @@ function SearchIcon() {
   );
 }
 
+const MIN_SCALE = 0.25;
+const MAX_SCALE = 1.5;
+const SCALE_STEP = 0.1;
+
+function ZoomIcon({ type }: { type: "in" | "out" | "fit" }) {
+  if (type === "fit") return <span style={{ fontSize: 13, lineHeight: 1 }}>⊡</span>;
+  return <span style={{ fontSize: 16, lineHeight: 1, fontWeight: 400 }}>{type === "in" ? "+" : "−"}</span>;
+}
+
+function OrgCanvas({
+  canvasW, canvasH, links, nodes, lineage, matchedSet,
+  expanded, hover, setHover, setExpanded, pathFor,
+}: {
+  canvasW: number;
+  canvasH: number;
+  links: { from: Positioned; to: Positioned }[];
+  nodes: Positioned[];
+  lineage: Set<string> | null;
+  matchedSet: Set<string> | null;
+  expanded: string | null;
+  hover: string | null;
+  setHover: (s: string | null) => void;
+  setExpanded: React.Dispatch<React.SetStateAction<string | null>>;
+  pathFor: (from: Positioned, to: Positioned) => string;
+}) {
+  const wrapRef = useRef<HTMLDivElement>(null);
+  const [scale, setScale] = useState(1);
+
+  const fitScale = useCallback(() => {
+    if (!wrapRef.current) return 1;
+    const cw = wrapRef.current.clientWidth - 24;
+    const ch = wrapRef.current.clientHeight || 700;
+    return Math.min(1, cw / canvasW, ch / canvasH);
+  }, [canvasW, canvasH]);
+
+  useEffect(() => {
+    setScale(fitScale());
+  }, [fitScale]);
+
+  useEffect(() => {
+    const wrap = wrapRef.current;
+    if (!wrap) return;
+    const handler = (e: WheelEvent) => {
+      if (!e.ctrlKey && !e.metaKey) return;
+      e.preventDefault();
+      setScale((s) => {
+        const delta = e.deltaY > 0 ? -SCALE_STEP : SCALE_STEP;
+        return Math.max(MIN_SCALE, Math.min(MAX_SCALE, s + delta));
+      });
+    };
+    wrap.addEventListener("wheel", handler, { passive: false });
+    return () => wrap.removeEventListener("wheel", handler);
+  }, []);
+
+  const scaledW = canvasW * scale;
+  const scaledH = canvasH * scale;
+  const pct = Math.round(scale * 100);
+
+  return (
+    <main className="org-main">
+      <div className="org-zoom-bar">
+        <button
+          className="org-zoom-btn"
+          onClick={() => setScale((s) => Math.max(MIN_SCALE, s - SCALE_STEP))}
+          disabled={scale <= MIN_SCALE}
+          title="Zoom out"
+        >
+          <ZoomIcon type="out" />
+        </button>
+        <span className="org-zoom-pct">{pct}%</span>
+        <button
+          className="org-zoom-btn"
+          onClick={() => setScale((s) => Math.min(MAX_SCALE, s + SCALE_STEP))}
+          disabled={scale >= MAX_SCALE}
+          title="Zoom in"
+        >
+          <ZoomIcon type="in" />
+        </button>
+        <button
+          className="org-zoom-btn"
+          onClick={() => setScale(fitScale())}
+          title="Fit to screen"
+        >
+          <ZoomIcon type="fit" />
+        </button>
+      </div>
+
+      <div className="org-canvas-wrap" ref={wrapRef}>
+        <div style={{ width: scaledW, height: scaledH, position: "relative" }}>
+          <div
+            className="org-canvas"
+            style={{
+              width: canvasW,
+              height: canvasH,
+              transform: `scale(${scale})`,
+              transformOrigin: "top left",
+            }}
+          >
+            <svg
+              className="org-connectors"
+              width={canvasW}
+              height={canvasH}
+              viewBox={`0 0 ${canvasW} ${canvasH}`}
+              aria-hidden
+            >
+              {links.map((l) => {
+                const onLineage =
+                  lineage &&
+                  lineage.has(l.from.node.slug) &&
+                  lineage.has(l.to.node.slug);
+                const dim = lineage && !onLineage;
+                const cls = `org-link${dim ? " org-link--dim" : ""}${onLineage ? " org-link--focus" : ""}`;
+                return (
+                  <path
+                    key={`${l.from.node.slug}-${l.to.node.slug}`}
+                    d={pathFor(l.from, l.to)}
+                    className={cls}
+                    style={{ animationDelay: `${160 + l.to.depth * 90}ms` }}
+                  />
+                );
+              })}
+            </svg>
+
+            {nodes.map((p, i) => {
+              const matched = matchedSet ? matchedSet.has(p.node.slug) : null;
+              const lineageHit = lineage ? lineage.has(p.node.slug) : null;
+
+              let highlight: "dim" | "focus" | null = null;
+              if (matched === false) highlight = "dim";
+              if (lineage && !lineageHit) highlight = "dim";
+              if (lineage && lineageHit) highlight = "focus";
+              if (matched === true && !lineage) highlight = "focus";
+
+              const color = colorFor(p.node.slug, p.node.role);
+              const isExpanded = expanded === p.node.slug;
+              const isRoot = !p.node.reportsTo;
+
+              return (
+                <div
+                  key={p.node.slug}
+                  className="org-node"
+                  style={{
+                    left: p.x + PAD,
+                    top: p.y + PAD,
+                    width: NODE_W,
+                    zIndex: isExpanded ? 10 : p.isWrapped ? 2 : undefined,
+                    animationDelay: `${80 + p.depth * 90 + (i % 4) * 25}ms`,
+                  }}
+                >
+                  <div
+                    className={`pcard${highlight === "dim" ? " pcard--dim" : ""}${highlight === "focus" ? " pcard--focus" : ""}${isExpanded ? " pcard--expanded" : ""}`}
+                    style={{
+                      height: isExpanded ? "auto" : NODE_H,
+                      ["--tile-a" as string]: color.a,
+                      ["--tile-b" as string]: color.b,
+                      ["--tile-ink" as string]: color.ink,
+                    }}
+                    onMouseEnter={() => setHover(p.node.slug)}
+                    onMouseLeave={() => setHover(null)}
+                    onClick={() => setExpanded((cur) => (cur === p.node.slug ? null : p.node.slug))}
+                  >
+                    <div className="pcard-accent" aria-hidden />
+
+                    <div className="pcard-head">
+                      <div
+                        className="pcard-avatar"
+                        style={{ width: 40, height: 40, fontSize: 16 }}
+                      >
+                        {initialsOf(p.node.name)}
+                      </div>
+                      <div className="pcard-headtext">
+                        <div className="pcard-name">{p.node.name}</div>
+                        <div className="pcard-role">{p.node.role}</div>
+                      </div>
+                      {isRoot && (
+                        <span className="pcard-crown" title="Executive Chairman" aria-hidden>
+                          ✦
+                        </span>
+                      )}
+                    </div>
+
+                    {(p.node.location || p.node.tenure) && (
+                      <div className="pcard-meta">
+                        {p.node.location && (
+                          <span className="pcard-loc">
+                            <MapPin /> {p.node.location}
+                          </span>
+                        )}
+                        {p.node.tenure && (
+                          <span className="pcard-tenure">{p.node.tenure}</span>
+                        )}
+                      </div>
+                    )}
+
+                    {!isExpanded && p.node.body && <p className="pcard-body">{p.node.body}</p>}
+
+                    {isExpanded && (
+                      <div className="pcard-expanded">
+                        <div className="pcard-expanded-body">{p.node.body}</div>
+                        <div className="pcard-actions">
+                          <Link
+                            className="pcard-cta"
+                            href={`/team/${p.node.slug}`}
+                            onClick={(e) => e.stopPropagation()}
+                          >
+                            View full profile →
+                          </Link>
+                        </div>
+                      </div>
+                    )}
+
+                    <div className="pcard-hoverchip" aria-hidden>
+                      Click for profile →
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+      <p className="org-footnote">
+        Reporting structure inferred from public announcements and LinkedIn ·
+        AMI Labs, Advanced Machine Intelligence
+      </p>
+    </main>
+  );
+}
+
 type LegendItem = { key: keyof typeof PALETTE; label: string };
 const LEGEND: LegendItem[] = [
   { key: "chairman", label: "Chairman" },
@@ -446,136 +675,19 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
         </div>
       </div>
 
-      <main className="org-main">
-        <div className="org-canvas-wrap">
-          <div className="org-canvas" style={{ width: canvasW, height: canvasH }}>
-            <svg
-              className="org-connectors"
-              width={canvasW}
-              height={canvasH}
-              viewBox={`0 0 ${canvasW} ${canvasH}`}
-              aria-hidden
-            >
-              {links.map((l) => {
-                const onLineage =
-                  lineage &&
-                  lineage.has(l.from.node.slug) &&
-                  lineage.has(l.to.node.slug);
-                const dim = lineage && !onLineage;
-                const cls = `org-link${dim ? " org-link--dim" : ""}${onLineage ? " org-link--focus" : ""}`;
-                return (
-                  <path
-                    key={`${l.from.node.slug}-${l.to.node.slug}`}
-                    d={pathFor(l.from, l.to)}
-                    className={cls}
-                    style={{ animationDelay: `${160 + l.to.depth * 90}ms` }}
-                  />
-                );
-              })}
-            </svg>
-
-            {layout.nodes.map((p, i) => {
-              const matched = matchedSet ? matchedSet.has(p.node.slug) : null;
-              const lineageHit = lineage ? lineage.has(p.node.slug) : null;
-
-              let highlight: "dim" | "focus" | null = null;
-              if (matched === false) highlight = "dim";
-              if (lineage && !lineageHit) highlight = "dim";
-              if (lineage && lineageHit) highlight = "focus";
-              if (matched === true && !lineage) highlight = "focus";
-
-              const color = colorFor(p.node.slug, p.node.role);
-              const isExpanded = expanded === p.node.slug;
-              const isRoot = !p.node.reportsTo;
-
-              return (
-                <div
-                  key={p.node.slug}
-                  className="org-node"
-                  style={{
-                    left: p.x + PAD,
-                    top: p.y + PAD,
-                    width: NODE_W,
-                    zIndex: p.isWrapped ? 2 : undefined,
-                    animationDelay: `${80 + p.depth * 90 + (i % 4) * 25}ms`,
-                  }}
-                >
-                  <div
-                    className={`pcard${highlight === "dim" ? " pcard--dim" : ""}${highlight === "focus" ? " pcard--focus" : ""}${isExpanded ? " pcard--expanded" : ""}`}
-                    style={{
-                      minHeight: NODE_H,
-                      ["--tile-a" as string]: color.a,
-                      ["--tile-b" as string]: color.b,
-                      ["--tile-ink" as string]: color.ink,
-                    }}
-                    onMouseEnter={() => setHover(p.node.slug)}
-                    onMouseLeave={() => setHover(null)}
-                    onClick={() => setExpanded((cur) => (cur === p.node.slug ? null : p.node.slug))}
-                  >
-                    <div className="pcard-accent" aria-hidden />
-
-                    <div className="pcard-head">
-                      <div
-                        className="pcard-avatar"
-                        style={{ width: 40, height: 40, fontSize: 16 }}
-                      >
-                        {initialsOf(p.node.name)}
-                      </div>
-                      <div className="pcard-headtext">
-                        <div className="pcard-name">{p.node.name}</div>
-                        <div className="pcard-role">{p.node.role}</div>
-                      </div>
-                      {isRoot && (
-                        <span className="pcard-crown" title="Executive Chairman" aria-hidden>
-                          ✦
-                        </span>
-                      )}
-                    </div>
-
-                    {(p.node.location || p.node.tenure) && (
-                      <div className="pcard-meta">
-                        {p.node.location && (
-                          <span className="pcard-loc">
-                            <MapPin /> {p.node.location}
-                          </span>
-                        )}
-                        {p.node.tenure && (
-                          <span className="pcard-tenure">{p.node.tenure}</span>
-                        )}
-                      </div>
-                    )}
-
-                    {p.node.body && <p className="pcard-body">{p.node.body}</p>}
-
-                    {isExpanded && (
-                      <div className="pcard-expanded">
-                        <div className="pcard-expanded-body">{p.node.body}</div>
-                        <div className="pcard-actions">
-                          <Link
-                            className="pcard-cta"
-                            href={`/team/${p.node.slug}`}
-                            onClick={(e) => e.stopPropagation()}
-                          >
-                            View full profile →
-                          </Link>
-                        </div>
-                      </div>
-                    )}
-
-                    <div className="pcard-hoverchip" aria-hidden>
-                      Click for profile →
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-        <p className="org-footnote">
-          Reporting structure inferred from public announcements and LinkedIn ·
-          AMI Labs, Advanced Machine Intelligence
-        </p>
-      </main>
+      <OrgCanvas
+        canvasW={canvasW}
+        canvasH={canvasH}
+        links={links}
+        nodes={layout.nodes}
+        lineage={lineage}
+        matchedSet={matchedSet}
+        expanded={expanded}
+        hover={hover}
+        setHover={setHover}
+        setExpanded={setExpanded}
+        pathFor={pathFor}
+      />
     </>
   );
 }
