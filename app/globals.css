@@ -2846,6 +2846,42 @@ input[type="search"]::placeholder { color: var(--muted); }
   border-bottom-color: var(--accent2);
 }
 
+/* ── ZOOM CONTROLS ── */
+.org-zoom-bar {
+  max-width: 1400px; margin: 0 auto 12px;
+  display: flex; align-items: center; gap: 6px;
+  justify-content: flex-end;
+}
+.org-zoom-btn {
+  width: 32px; height: 32px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-dim);
+  cursor: pointer;
+  font-family: var(--font-sans);
+  transition: all 0.15s;
+}
+.org-zoom-btn:hover:not(:disabled) {
+  border-color: var(--accent2);
+  color: var(--accent);
+}
+.org-zoom-btn:disabled {
+  opacity: 0.4; cursor: default;
+}
+.org-zoom-pct {
+  font-size: 0.72rem;
+  font-family: var(--font-mono);
+  color: var(--muted);
+  min-width: 38px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Card fixed height to prevent overlap in grid rows */
+.pcard { overflow: hidden; }
+
 /* Responsive — org chart */
 @media (max-width: 900px) {
   .page-header--observatory { padding: 28px 20px 24px; }
