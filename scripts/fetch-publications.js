@@ -38,7 +38,7 @@ function sleep(ms) {
 
 async function fetchForMember(slug, id) {
   const url = `https://api.semanticscholar.org/graph/v1/author/${id}/papers` +
-    `?fields=title,year,citationCount,venue,externalIds&limit=5&sort=citationCount`;
+    `?fields=title,year,citationCount,venue,externalIds,url&limit=10&sort=citationCount:desc`;
   const data = await get(url);
   return (data.data || []).slice(0, 5).map((p) => {
     const doi = p.externalIds?.DOI;
