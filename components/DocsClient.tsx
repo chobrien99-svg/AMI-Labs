@@ -20,6 +20,7 @@ interface DocsClientProps {
 const CATEGORY_OPTIONS = [
   { key: "all", label: "All" },
   { key: "pitchdeck", label: "Pitchdeck" },
+  { key: "presentation", label: "Presentations" },
   { key: "research", label: "Research" },
   { key: "filing", label: "Filings" },
 ];

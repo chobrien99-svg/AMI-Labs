@@ -97,7 +97,7 @@ export const article = defineType({
     defineField({
       name: "body",
       title: "Body",
-      description: "Full article content — supports rich text, images, and video embeds",
+      description: "Full article content — supports rich text, images, video embeds, and PDF embeds",
       type: "array",
       of: [
         { type: "block" },
@@ -131,6 +131,31 @@ export const article = defineType({
             select: { title: "url", subtitle: "caption" },
             prepare({ title, subtitle }) {
               return { title: subtitle || "Video", subtitle: title };
+            },
+          },
+        },
+        {
+          type: "object",
+          name: "pdfEmbed",
+          title: "PDF Embed",
+          fields: [
+            defineField({
+              name: "url",
+              title: "PDF URL",
+              description: "Path to a PDF in /documents/ (e.g. /documents/filename.pdf) or a full URL",
+              type: "string",
+              validation: (r) => r.required(),
+            }),
+            defineField({
+              name: "caption",
+              title: "Caption",
+              type: "string",
+            }),
+          ],
+          preview: {
+            select: { title: "caption", subtitle: "url" },
+            prepare({ title, subtitle }) {
+              return { title: title || "PDF Document", subtitle };
             },
           },
         },
