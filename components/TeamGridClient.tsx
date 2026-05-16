@@ -7,18 +7,20 @@ type TeamMember = {
   role: string;
   body: string;
   tags: string[];
+  department?: string;
   links: Record<string, string | undefined>;
 };
 
 const GROUPS: { label: string; test: (role: string) => boolean }[] = [
   { label: "Leadership", test: (r) => /chairman|ceo|coo/i.test(r) },
-  { label: "Science & Research Leadership", test: (r) => /chief|^vp |vice president/i.test(r) },
-  { label: "Operations", test: (r) => /director|operations/i.test(r) },
+  { label: "Science & Research Leadership", test: (r) => /crio|chief.*scien|chief.*research|^vp |vice president/i.test(r) },
+  { label: "Operations", test: (r) => /director|operations|chief.*staff|chief.*operat/i.test(r) },
 ];
 
-function getGroup(role: string): string {
+function getGroup(member: TeamMember): string {
+  if (member.department && GROUP_ORDER.includes(member.department)) return member.department;
   for (const g of GROUPS) {
-    if (g.test(role)) return g.label;
+    if (g.test(member.role)) return g.label;
   }
   return "Research & Engineering";
 }
@@ -84,7 +86,7 @@ export default function TeamGridClient({ team }: { team: TeamMember[] }) {
   const grouped = new Map<string, TeamMember[]>();
   for (const label of GROUP_ORDER) grouped.set(label, []);
   for (const m of team) {
-    const g = getGroup(m.role);
+    const g = getGroup(m);
     if (!grouped.has(g)) grouped.set(g, []);
     grouped.get(g)!.push(m);
   }

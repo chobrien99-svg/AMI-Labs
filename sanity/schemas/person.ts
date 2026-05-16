@@ -39,6 +39,20 @@ export const person = defineType({
       of: [{ type: "string" }],
     }),
     defineField({
+      name: "department",
+      title: "Department / Group",
+      description: "Controls which section this person appears in on the Team page",
+      type: "string",
+      options: {
+        list: [
+          { title: "Leadership", value: "Leadership" },
+          { title: "Science & Research Leadership", value: "Science & Research Leadership" },
+          { title: "Operations", value: "Operations" },
+          { title: "Research & Engineering", value: "Research & Engineering" },
+        ],
+      },
+    }),
+    defineField({
       name: "reportsTo",
       title: "Reports To",
       description: "Manager / direct supervisor — used to build the org chart",

@@ -18,6 +18,7 @@ type SanityPerson = {
   role: string;
   body?: string;
   tags?: string[];
+  department?: string;
   reportsTo?: { slug: { current: string } } | null;
   photo?: { asset: Record<string, unknown>; alt?: string | null } | null;
   links?: Record<string, string | undefined>;
@@ -29,6 +30,7 @@ export type TeamMember = {
   role: string;
   body: string;
   tags: string[];
+  department?: string;
   links: Record<string, string | undefined>;
 };
 
@@ -52,6 +54,7 @@ export default async function TeamPage() {
           role: p.role,
           body: typeof p.body === "string" ? p.body : "",
           tags: p.tags ?? [],
+          department: p.department,
           links: p.links ?? {},
         }])
       );
@@ -65,6 +68,7 @@ export default async function TeamPage() {
             role: p.role,
             body: typeof p.body === "string" ? p.body : "",
             tags: p.tags ?? [],
+            department: p.department,
             links: p.links ?? {},
           })),
       ];
