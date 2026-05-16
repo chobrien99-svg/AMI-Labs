@@ -1,5 +1,6 @@
 "use client";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 type Member = {
@@ -308,7 +309,7 @@ function ZoomIcon({ type }: { type: "in" | "out" | "fit" }) {
 
 function OrgCanvas({
   canvasW, canvasH, links, nodes, lineage, matchedSet,
-  expanded, hover, setHover, setExpanded, pathFor,
+  hover, setHover, pathFor,
 }: {
   canvasW: number;
   canvasH: number;
@@ -316,13 +317,12 @@ function OrgCanvas({
   nodes: Positioned[];
   lineage: Set<string> | null;
   matchedSet: Set<string> | null;
-  expanded: string | null;
   hover: string | null;
   setHover: (s: string | null) => void;
-  setExpanded: React.Dispatch<React.SetStateAction<string | null>>;
   pathFor: (from: Positioned, to: Positioned) => string;
 }) {
   const wrapRef = useRef<HTMLDivElement>(null);
+  const router = useRouter();
   const [scale, setScale] = useState(1);
 
   const fitScale = useCallback(() => {
@@ -431,7 +431,7 @@ function OrgCanvas({
               if (matched === true && !lineage) highlight = "focus";
 
               const color = colorFor(p.node.slug, p.node.role);
-              const isExpanded = expanded === p.node.slug;
+              const isHovered = hover === p.node.slug;
               const isRoot = !p.node.reportsTo;
 
               return (
@@ -442,21 +442,21 @@ function OrgCanvas({
                     left: p.x + PAD,
                     top: p.y + PAD,
                     width: NODE_W,
-                    zIndex: isExpanded ? 10 : p.isWrapped ? 2 : undefined,
+                    zIndex: isHovered ? 10 : p.isWrapped ? 2 : undefined,
                     animationDelay: `${80 + p.depth * 90 + (i % 4) * 25}ms`,
                   }}
                 >
                   <div
-                    className={`pcard${highlight === "dim" ? " pcard--dim" : ""}${highlight === "focus" ? " pcard--focus" : ""}${isExpanded ? " pcard--expanded" : ""}`}
+                    className={`pcard${highlight === "dim" ? " pcard--dim" : ""}${highlight === "focus" ? " pcard--focus" : ""}${isHovered ? " pcard--expanded" : ""}`}
                     style={{
-                      height: isExpanded ? "auto" : NODE_H,
+                      height: isHovered ? "auto" : NODE_H,
                       ["--tile-a" as string]: color.a,
                       ["--tile-b" as string]: color.b,
                       ["--tile-ink" as string]: color.ink,
                     }}
                     onMouseEnter={() => setHover(p.node.slug)}
                     onMouseLeave={() => setHover(null)}
-                    onClick={() => setExpanded((cur) => (cur === p.node.slug ? null : p.node.slug))}
+                    onClick={() => router.push(`/team/${p.node.slug}`)}
                   >
                     <div className="pcard-accent" aria-hidden />
 
@@ -491,19 +491,13 @@ function OrgCanvas({
                       </div>
                     )}
 
-                    {!isExpanded && p.node.body && <p className="pcard-body">{p.node.body}</p>}
+                    {p.node.body && <p className="pcard-body">{p.node.body}</p>}
 
-                    {isExpanded && (
+                    {isHovered && (
                       <div className="pcard-expanded">
                         <div className="pcard-expanded-body">{p.node.body}</div>
                         <div className="pcard-actions">
-                          <Link
-                            className="pcard-cta"
-                            href={`/team/${p.node.slug}`}
-                            onClick={(e) => e.stopPropagation()}
-                          >
-                            View full profile →
-                          </Link>
+                          <span className="pcard-cta">View full profile →</span>
                         </div>
                       </div>
                     )}
@@ -540,7 +534,6 @@ const FOUNDER_TENURES = new Set(["Co-Founder"]);
 
 export default function OrgChartClient({ team }: { team: Member[] }) {
   const [hover, setHover] = useState<string | null>(null);
-  const [expanded, setExpanded] = useState<string | null>(null);
   const [query, setQuery] = useState("");
 
   const layout = useMemo(() => {
@@ -549,7 +542,7 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
     return layoutTree(tree, { nodeW: NODE_W, nodeH: NODE_H, hGap: H_GAP, vGap: V_GAP });
   }, [team]);
 
-  const focusSlug = expanded ?? hover;
+  const focusSlug = hover;
 
   const lineage = useMemo(() => {
     if (!focusSlug) return null;
@@ -682,10 +675,8 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
         nodes={layout.nodes}
         lineage={lineage}
         matchedSet={matchedSet}
-        expanded={expanded}
         hover={hover}
         setHover={setHover}
-        setExpanded={setExpanded}
         pathFor={pathFor}
       />
     </>
