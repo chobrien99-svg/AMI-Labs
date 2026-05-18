@@ -111,6 +111,29 @@ export default function ExplainersClient({ pitchdeck }: ExplainersClientProps) {
           </div>
 
           <div className="card explainer-article-card">
+            <div className="explainer-article-icon">🪜</div>
+            <div className="card-name">HWM — Hierarchical Planning with Latent World Models</div>
+            <div className="card-body">
+              <p>
+                HWM stacks two latent world models at different time-scales and lets them
+                share the same encoder — so the high-level model&apos;s predictions are
+                directly usable as subgoals for the low-level planner. No new training, no
+                policy network, no reward function.
+              </p>
+              <p style={{ marginTop: 10 }}>
+                On a real Franka arm, pick-and-place success goes from <strong>0% to 70%</strong>
+                from a single goal image — beating vision-language-action models trained on
+                <strong> 77× more</strong> robotic interaction data, with <strong>3–4× less</strong>
+                planning compute.
+              </p>
+            </div>
+            <div className="explainer-article-links">
+              <Link href="/research/hwm" className="card-link">🧠 Interactive explainer →</Link>
+              <a href="https://arxiv.org/abs/2604.03208" target="_blank" rel="noopener noreferrer" className="card-link">📄 arXiv paper →</a>
+            </div>
+          </div>
+
+          <div className="card explainer-article-card">
             <div className="explainer-article-icon">🌐</div>
             <div className="card-name">What are World Models?</div>
             <div className="card-body">
