@@ -401,8 +401,27 @@ function renderCard(p) {
 // ────────────────────────────────────────────────────────────────
 // Build
 // ────────────────────────────────────────────────────────────────
+const SANITY_PROJECT_ID = "k8hl9hed";
+const SANITY_DATASET = "production";
+const SANITY_API_VERSION = "2024-01-01";
+const SANITY_QUERY = `*[_type == "person" && !(_id in path("drafts.**"))] | order(name asc) {
+  _id, name, slug, role, body, tags, reportsTo->{ slug }
+}`;
+
+async function fetchSanityPersons() {
+  const token = process.env.SANITY_API_READ_TOKEN;
+  const url =
+    `https://${SANITY_PROJECT_ID}.api.sanity.io/v${SANITY_API_VERSION}/data/query/${SANITY_DATASET}` +
+    `?query=${encodeURIComponent(SANITY_QUERY)}`;
+  const headers = token ? { Authorization: `Bearer ${token}` } : {};
+  const res = await fetch(url, { headers });
+  if (!res.ok) throw new Error(`Sanity ${res.status}: ${await res.text()}`);
+  const json = await res.json();
+  return json.result || [];
+}
+
 const teamRaw = JSON.parse(fs.readFileSync(TEAM_PATH, "utf8"));
-const team = teamRaw.map((m) => {
+let team = teamRaw.map((m) => {
   const { location, tenure } = extractLocationAndTenure(m.tags);
   return {
     slug: m.slug,
@@ -414,6 +433,41 @@ const team = teamRaw.map((m) => {
     tenure,
   };
 });
+
+try {
+  const persons = await fetchSanityPersons();
+  if (persons.length) {
+    const sanityMap = new Map(
+      persons
+        .filter((p) => p?.slug?.current)
+        .map((p) => {
+          const { location, tenure } = extractLocationAndTenure(p.tags);
+          return [
+            p.slug.current,
+            {
+              slug: p.slug.current,
+              name: p.name,
+              role: p.role,
+              reportsTo: p.reportsTo?.slug?.current ?? null,
+              body: typeof p.body === "string" ? p.body : "",
+              location,
+              tenure,
+            },
+          ];
+        }),
+    );
+    const merged = team.map((m) => sanityMap.get(m.slug) ?? m);
+    for (const [slug, person] of sanityMap) {
+      if (!merged.some((m) => m.slug === slug)) merged.push(person);
+    }
+    team = merged;
+    console.log(`Merged team: ${team.length} people (Sanity returned ${persons.length})`);
+  } else {
+    console.log(`Sanity returned 0 persons — using team.json (${team.length})`);
+  }
+} catch (err) {
+  console.warn(`[org-chart] Sanity fetch failed, using team.json only: ${err.message}`);
+}
 
 const root = buildTree(team);
 if (!root) throw new Error("No root node found in team.json");
