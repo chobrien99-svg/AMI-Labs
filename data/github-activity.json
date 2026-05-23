@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-05-23T13:16:41.063Z",
+  "lastFetched": "2026-05-23T19:04:13.192Z",
   "members": [
     {
       "slug": "saining-xie",
@@ -14,6 +14,14 @@
       "username": "mavenlin",
       "githubUrl": "https://github.com/mavenlin",
       "events": [
+        {
+          "type": "PullRequestEvent",
+          "repo": "meta-pytorch/torchcodec",
+          "repoUrl": "https://github.com/meta-pytorch/torchcodec",
+          "description": "closed PR #1322 in meta-pytorch/torchcodec",
+          "url": "https://github.com/meta-pytorch/torchcodec",
+          "timestamp": "2026-04-16T03:03:52Z"
+        },
         {
           "type": "WatchEvent",
           "repo": "wjakob/nanobind",
@@ -67,30 +75,6 @@
           "description": "Starred tt-a1i/archify",
           "url": "https://github.com/tt-a1i/archify",
           "timestamp": "2026-05-11T18:07:53Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Opened PR #1306 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-04-23T07:09:42Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Opened PR #1305 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-04-23T07:09:30Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Opened PR #1304 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-04-23T07:09:21Z"
         }
       ]
     },
