@@ -1,6 +1,13 @@
 {
   "yann-lecun": [
     {
+      "title": "Announcing the Shaw Prize in Computer Science",
+      "year": 2026,
+      "citationCount": 0,
+      "venue": "Communications of the ACM",
+      "url": "https://doi.org/10.1145/3811413"
+    },
+    {
       "title": "FAST INCREMENTAL LEARNING FOR AUTONOMOUS GROUND NAVIGATION",
       "year": 2024,
       "citationCount": 0,
@@ -10,7 +17,7 @@
     {
       "title": "Learning and Leveraging World Models in Visual Representation Learning",
       "year": 2024,
-      "citationCount": 63,
+      "citationCount": 65,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2403.00504"
     },
@@ -27,13 +34,6 @@
       "citationCount": 6,
       "venue": "International Conference on Learning Representations",
       "url": "https://www.semanticscholar.org/paper/0380271e23c5a3348f9f8ad1906b692b22f8b75e"
-    },
-    {
-      "title": "Self-supervised learning of Split Invariant Equivariant representations",
-      "year": 2023,
-      "citationCount": 43,
-      "venue": "International Conference on Machine Learning",
-      "url": "https://doi.org/10.48550/arXiv.2302.10283"
     }
   ],
   "saining-xie": [],
@@ -51,14 +51,14 @@
     {
       "title": "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders",
       "year": 2023,
-      "citationCount": 1613,
+      "citationCount": 1653,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548"
     },
     {
       "title": "Mask-Guided Matting in the Wild",
       "year": 2023,
-      "citationCount": 20,
+      "citationCount": 21,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.00198"
     },
@@ -102,16 +102,53 @@
     {
       "title": "What Makes for Good Image Captions?",
       "year": 2024,
-      "citationCount": 11,
+      "citationCount": 12,
       "venue": "Conference on Empirical Methods in Natural Language Processing",
       "url": "https://doi.org/10.18653/v1/2025.findings-emnlp.75"
     },
     {
       "title": "High-Dimension Human Value Representation in Large Language Models",
       "year": 2024,
-      "citationCount": 16,
+      "citationCount": 17,
       "venue": "North American Chapter of the Association for Computational Linguistics",
       "url": "https://doi.org/10.48550/arXiv.2404.07900"
+    }
+  ],
+  "michael-rabbat": [
+    {
+      "title": "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
+      "year": 2025,
+      "citationCount": 51,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2502.11831"
+    },
+    {
+      "title": "Revisiting Feature Prediction for Learning Visual Representations from Video",
+      "year": 2024,
+      "citationCount": 282,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2404.08471"
+    },
+    {
+      "title": "Benchmarking Neural Network Training Algorithms",
+      "year": 2023,
+      "citationCount": 47,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2306.07179"
+    },
+    {
+      "title": "DINOv2: Learning Robust Visual Features without Supervision",
+      "year": 2023,
+      "citationCount": 8133,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2304.07193"
+    },
+    {
+      "title": "Green Federated Learning",
+      "year": 2023,
+      "citationCount": 21,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2303.14604"
     }
   ]
 }
