@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-07-06T10:10:03.483Z",
+  "lastFetched": "2026-07-06T15:23:01.598Z",
   "members": [
     {
       "slug": "saining-xie",
@@ -157,68 +157,124 @@
       "githubUrl": "https://github.com/luodian",
       "events": [
         {
-          "type": "PullRequestEvent",
+          "type": "IssueCommentEvent",
           "repo": "EvolvingLMMs-Lab/lmms-eval",
           "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Opened PR #1377 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-07-06T10:07:15Z"
+          "description": "Commented on issue #1378 in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval/pull/1378#issuecomment-4893644665",
+          "timestamp": "2026-07-06T13:57:43Z"
         },
         {
-          "type": "CreateEvent",
+          "type": "PushEvent",
           "repo": "EvolvingLMMs-Lab/lmms-eval",
           "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Created branch fix/egotempo-parameterize-s3-index in EvolvingLMMs-Lab/lmms-eval",
+          "description": "Pushed 0 commits to feat/diffusers-wm-backends on EvolvingLMMs-Lab/lmms-eval",
           "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-07-06T10:07:02Z"
+          "timestamp": "2026-07-06T13:53:38Z"
         },
         {
-          "type": "PublicEvent",
-          "repo": "Luodian/latent-think-verl",
-          "repoUrl": "https://github.com/Luodian/latent-think-verl",
-          "description": "Made Luodian/latent-think-verl public",
-          "url": "https://github.com/Luodian/latent-think-verl",
-          "timestamp": "2025-09-19T11:17:51Z"
+          "type": "PushEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Pushed 0 commits to feat/verifiers-task-migrations on EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-06T13:37:47Z"
         },
         {
-          "type": "PullRequestReviewCommentEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-engine",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-engine",
-          "description": "Activity in EvolvingLMMs-Lab/lmms-engine",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-engine",
-          "timestamp": "2026-07-06T06:16:37Z"
+          "type": "PushEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Pushed 0 commits to feat/physbench-intphys2-vantage on EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-06T13:29:40Z"
         },
         {
-          "type": "PullRequestReviewEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-engine",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-engine",
-          "description": "Reviewed PR #183 in EvolvingLMMs-Lab/lmms-engine",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-engine",
-          "timestamp": "2026-06-26T04:01:36Z"
+          "type": "PushEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Pushed 0 commits to feat/gemini-google-genai-sdk on EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-06T13:28:19Z"
         },
         {
-          "type": "PullRequestReviewCommentEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-engine",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-engine",
-          "description": "Activity in EvolvingLMMs-Lab/lmms-engine",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-engine",
-          "timestamp": "2026-06-15T03:37:01Z"
+          "type": "PushEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Pushed 0 commits to feat/verifiers-module on EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-06T13:25:37Z"
         },
         {
-          "type": "PullRequestReviewCommentEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-engine",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-engine",
-          "description": "Activity in EvolvingLMMs-Lab/lmms-engine",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-engine",
-          "timestamp": "2026-06-15T03:36:09Z"
+          "type": "PushEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Pushed 0 commits to feat/swanlab-logger on EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-06T13:25:28Z"
         },
         {
-          "type": "PullRequestReviewCommentEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-engine",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-engine",
-          "description": "Activity in EvolvingLMMs-Lab/lmms-engine",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-engine",
-          "timestamp": "2026-06-15T03:34:41Z"
+          "type": "PushEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Pushed 0 commits to feat/swanlab-logger on EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-06T13:25:28Z"
+        },
+        {
+          "type": "PushEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Pushed 0 commits to fix/core-eval-correctness on EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-06T13:24:59Z"
+        },
+        {
+          "type": "PushEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Pushed 0 commits to fix/task-utils-improvements on EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-06T13:24:32Z"
+        },
+        {
+          "type": "PushEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Pushed 0 commits to refactor/remove-lance-data-paths on EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-06T13:23:14Z"
+        },
+        {
+          "type": "PushEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Pushed 0 commits to feat/swanlab-logger on EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-06T13:21:59Z"
+        },
+        {
+          "type": "PushEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Pushed 0 commits to feat/gemini-google-genai-sdk on EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-06T13:21:59Z"
+        },
+        {
+          "type": "PushEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Pushed 0 commits to feat/strip-thinking-filter on EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-06T13:20:14Z"
+        },
+        {
+          "type": "PushEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Pushed 0 commits to fix/llm-judge-openai-providers on EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-06T13:19:03Z"
         }
       ]
     },
