@@ -692,7 +692,12 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
   // Stats
   const stats = useMemo(() => {
     const total = resolvedTeam.length;
-    const founders = resolvedTeam.filter((m) => m.tenure === "Co-Founder").length;
+    // Count co-founders by tenure tag OR "Co-Founder" in the role — most
+    // co-founders carry the title in their role (e.g. "CEO & Co-Founder")
+    // but only Yann has the Sanity "Co-Founder" tenure tag.
+    const founders = resolvedTeam.filter(
+      (m) => m.tenure === "Co-Founder" || /co-?founder/i.test(m.role),
+    ).length;
     const cities = new Set(
       resolvedTeam
         .map((m) => (m.location || "").split("/")[0].trim())
