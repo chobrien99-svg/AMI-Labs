@@ -3568,6 +3568,19 @@ input[type="search"]::placeholder { color: var(--muted); }
     0 14px 36px rgba(44, 37, 23, 0.07);
   position: relative;
 }
+/* Cards render at 90% of their natural design size. Keep --card-scale in sync
+   with CARD_SCALE in components/OrgChartClient.tsx (which sets CARD_W/CARD_H). */
+.org2-canvas { --card-scale: 0.9; }
+
+.org2-zoom-bar {
+  max-width: 1400px;
+  margin: 0 auto 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: flex-end;
+}
+
 .org2-canvas {
   position: relative;
   background:
@@ -3648,8 +3661,12 @@ input[type="search"]::placeholder { color: var(--muted); }
 /* ── CARD v2 ── */
 .pcard2 {
   position: relative;
-  width: 100%;
-  height: 100%;
+  /* Rendered at natural design size (node box ÷ scale) then scaled down, so the
+     whole card — text, avatar, spacing — shrinks uniformly to fill the node. */
+  width: calc(100% / var(--card-scale, 1));
+  height: calc(100% / var(--card-scale, 1));
+  transform: scale(var(--card-scale, 1));
+  transform-origin: top left;
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 12px;
@@ -3780,7 +3797,7 @@ input[type="search"]::placeholder { color: var(--muted); }
 
 .pcard2:hover {
   border-color: var(--tile-a, var(--accent2));
-  transform: translateY(-3px);
+  transform: scale(var(--card-scale, 1)) translateY(-3px);
   box-shadow:
     0 2px 4px rgba(44, 37, 23, 0.05),
     0 18px 38px rgba(148, 107, 45, 0.14),
