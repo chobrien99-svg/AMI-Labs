@@ -78,10 +78,10 @@ const PERSON_COLOR: Record<string, ColorTriplet> = {
 /* ────────────────────────────────────────────────────────────────
  *  Visual reorganization overrides.
  *
- *  The chart shows a cleaner hierarchy when Rabbat sits at tier 2
- *  beside the other co-founders, Min Lin's Singapore branch hangs
- *  under Saining (Science), and the Paris-based admin / engineering
- *  staff group under Laurent (Ops) / Pascale (CRIO Paris).
+ *  The chart shows a cleaner hierarchy when Rabbat and Min Lin sit at
+ *  tier 2 beside the other co-founders (Min Lin heads the Singapore
+ *  column), and the Paris-based admin / engineering staff group under
+ *  Laurent (Ops) / Pascale (CRIO Paris).
  *
  *  These overrides ONLY change visual layout — they do not edit
  *  Sanity. When Sanity is updated to match (preferred long-term),
@@ -92,7 +92,7 @@ const VISUAL_REPORTS_OVERRIDES: Record<string, string> = {
   "leopold-treppoz": "laurent-solly",
   "aurelia-bortone-bouvet": "laurent-solly",
   "christophe-tcheng": "laurent-solly",
-  "min-lin": "saining-xie",
+  "min-lin": "alexandre-lebrun",   // promote to tier 2 — Singapore as its own column
   "delong-chen": "pascale-fung",
   "basile-terver": "pascale-fung",
   "willy-chung": "pascale-fung",
@@ -164,8 +164,13 @@ function buildTree(team: Member[]): TreeNode | null {
 
 /* ── Column layout ─────────────────────────────────────────────── */
 
-const CARD_W = 420;
-const CARD_H = 198;
+// Cards render at 90% of their natural 420×198 design. CARD_W/CARD_H are the
+// on-canvas footprint used for layout, node boxes, and connector math; the
+// card's internal design scales to fit via `--card-scale` in globals.css —
+// keep that variable in sync with CARD_SCALE.
+const CARD_SCALE = 0.9;
+const CARD_W = Math.round(420 * CARD_SCALE); // 378
+const CARD_H = Math.round(198 * CARD_SCALE); // 178
 const TIER_GAP_Y = 64;
 const ROW_GAP = 18;
 const COL_GAP = 24;
@@ -400,6 +405,15 @@ function ArrowRight() {
   );
 }
 
+function ZoomIcon({ type }: { type: "in" | "out" | "fit" }) {
+  if (type === "fit") return <span style={{ fontSize: 13, lineHeight: 1 }}>⊡</span>;
+  return (
+    <span style={{ fontSize: 16, lineHeight: 1, fontWeight: 400 }}>
+      {type === "in" ? "+" : "−"}
+    </span>
+  );
+}
+
 /* ── PersonCard ────────────────────────────────────────────────── */
 
 type CardProps = {
@@ -616,6 +630,10 @@ function Connectors({ positions, links, focusSlug, team }: ConnectorsProps) {
 const POPUP_SHOW_DELAY = 220;
 const POPUP_HIDE_DELAY = 180;
 
+const MIN_ZOOM = 0.4;
+const MAX_ZOOM = 1.5;
+const ZOOM_STEP = 0.1;
+
 const LEGEND_ITEMS: { key: keyof typeof PALETTE; label: string }[] = [
   { key: "chairman", label: "Chairman" },
   { key: "exec", label: "CEO" },
@@ -634,7 +652,9 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
   const [query, setQuery] = useState("");
   const [hover, setHover] = useState<string | null>(null);
   const [popupAnchor, setPopupAnchor] = useState<DOMRect | null>(null);
+  const [zoom, setZoom] = useState(1);
 
+  const wrapRef = useRef<HTMLDivElement>(null);
   const showTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -735,6 +755,33 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
   const canvasW = layout.width + PAD * 2;
   const canvasH = layout.height + PAD * 2;
 
+  // Zoom: clamp helper, +/- steps, and "fit width" so the full co-founder row
+  // is visible (height is left to vertical scroll — the chart is tall).
+  const clampZoom = (z: number) => Math.max(MIN_ZOOM, Math.min(MAX_ZOOM, z));
+  const zoomIn = useCallback(() => setZoom((z) => clampZoom(z + ZOOM_STEP)), []);
+  const zoomOut = useCallback(() => setZoom((z) => clampZoom(z - ZOOM_STEP)), []);
+  const fitWidth = useCallback(() => {
+    const wrap = wrapRef.current;
+    if (!wrap || !canvasW) return;
+    const avail = wrap.clientWidth - 24;
+    setZoom(clampZoom(Math.min(1, avail / canvasW)));
+  }, [canvasW]);
+
+  // Ctrl/⌘ + wheel to zoom (matches the v1 behavior).
+  useEffect(() => {
+    const wrap = wrapRef.current;
+    if (!wrap) return;
+    const handler = (e: WheelEvent) => {
+      if (!e.ctrlKey && !e.metaKey) return;
+      e.preventDefault();
+      setZoom((z) => clampZoom(z + (e.deltaY > 0 ? -ZOOM_STEP : ZOOM_STEP)));
+    };
+    wrap.addEventListener("wheel", handler, { passive: false });
+    return () => wrap.removeEventListener("wheel", handler);
+  }, []);
+
+  const zoomPct = Math.round(zoom * 100);
+
   return (
     <>
       <header className="page-header page-header--observatory">
@@ -791,14 +838,53 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
       </div>
 
       <main className="org2-main">
-        <div className="org2-canvas-wrap">
-          <div className="org2-canvas" style={{ width: canvasW, height: canvasH }}>
-            <Connectors
-              positions={layout.nodes.map((n) => ({ ...n, x: n.x + PAD, y: n.y + PAD }))}
-              links={layout.links}
-              focusSlug={hover}
-              team={resolvedTeam}
-            />
+        <div className="org2-zoom-bar">
+          <button
+            className="org-zoom-btn"
+            onClick={zoomOut}
+            disabled={zoom <= MIN_ZOOM}
+            title="Zoom out"
+            aria-label="Zoom out"
+          >
+            <ZoomIcon type="out" />
+          </button>
+          <span className="org-zoom-pct">{zoomPct}%</span>
+          <button
+            className="org-zoom-btn"
+            onClick={zoomIn}
+            disabled={zoom >= MAX_ZOOM}
+            title="Zoom in"
+            aria-label="Zoom in"
+          >
+            <ZoomIcon type="in" />
+          </button>
+          <button
+            className="org-zoom-btn"
+            onClick={fitWidth}
+            title="Fit width"
+            aria-label="Fit width"
+          >
+            <ZoomIcon type="fit" />
+          </button>
+        </div>
+
+        <div className="org2-canvas-wrap" ref={wrapRef}>
+          <div style={{ width: canvasW * zoom, height: canvasH * zoom, position: "relative" }}>
+            <div
+              className="org2-canvas"
+              style={{
+                width: canvasW,
+                height: canvasH,
+                transform: `scale(${zoom})`,
+                transformOrigin: "top left",
+              }}
+            >
+              <Connectors
+                positions={layout.nodes.map((n) => ({ ...n, x: n.x + PAD, y: n.y + PAD }))}
+                links={layout.links}
+                focusSlug={hover}
+                team={resolvedTeam}
+              />
 
             {layout.nodes.map((p, i) => {
               const matched = matchedSet ? matchedSet.has(p.node.slug) : null;
@@ -834,6 +920,7 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
                 </div>
               );
             })}
+            </div>
           </div>
         </div>
 
