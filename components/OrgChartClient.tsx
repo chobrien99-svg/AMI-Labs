@@ -1,7 +1,24 @@
 "use client";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import {
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import { useRouter } from "next/navigation";
-import Link from "next/link";
+
+/* ────────────────────────────────────────────────────────────────
+ *  AMI Observatory — Org Chart  (v2)
+ *
+ *  Vertical-emphasis layout. Yann at top, Alex below, 4 co-founders
+ *  centered as tier 2. Each co-founder's subtree stacks vertically as
+ *  a single column. Hover any card → 380px popup with bio + CTA.
+ *  Click card or popup → /team/[slug].
+ *
+ *  Page chrome (header, stats, search, legend) is rendered here; the
+ *  Nav is provided by app/layout.tsx as before.
+ * ──────────────────────────────────────────────────────────────── */
 
 type Member = {
   slug: string;
@@ -13,36 +30,81 @@ type Member = {
   tenure: string;
 };
 
+type TreeNode = Member & { children: TreeNode[] };
+
 type ColorTriplet = { a: string; b: string; ink: string };
 
 const PALETTE: Record<string, ColorTriplet> = {
-  chairman:  { a: "#B8860B", b: "#946B2D", ink: "#6B4E1F" },
-  exec:      { a: "#C07A3A", b: "#9E5F28", ink: "#7A4618" },
-  ops:       { a: "#A85C72", b: "#87445A", ink: "#6B3347" },
-  science:   { a: "#2A7D6B", b: "#1F5E50", ink: "#17453B" },
-  research:  { a: "#3D7A4A", b: "#2B5A36", ink: "#1F4427" },
-  singapore: { a: "#4A7FA5", b: "#345E7C", ink: "#26455C" },
-  fallback:  { a: "#8C8474", b: "#6B6355", ink: "#4A3F30" },
+  chairman:    { a: "#B8860B", b: "#946B2D", ink: "#6B4E1F" },
+  exec:        { a: "#C07A3A", b: "#9E5F28", ink: "#7A4618" },
+  ops:         { a: "#A85C72", b: "#87445A", ink: "#6B3347" },
+  science:     { a: "#2A7D6B", b: "#1F5E50", ink: "#17453B" },
+  research:    { a: "#3D7A4A", b: "#2B5A36", ink: "#1F4427" },
+  singapore:   { a: "#4A7FA5", b: "#345E7C", ink: "#26455C" },
+  engineering: { a: "#7E6BA5", b: "#5C4E7E", ink: "#3F3658" },
+  fallback:    { a: "#8C8474", b: "#6B6355", ink: "#4A3F30" },
 };
 
 const PERSON_COLOR: Record<string, ColorTriplet> = {
-  "yann-lecun":       PALETTE.chairman,
-  "alexandre-lebrun": PALETTE.exec,
-  "laurent-solly":    PALETTE.ops,
-  "sean-nguyen":      PALETTE.ops,
-  "saining-xie":      PALETTE.science,
-  "pascale-fung":     PALETTE.science,
-  "min-lin":          PALETTE.singapore,
-  "brian-li":         PALETTE.singapore,
-  "michael-rabbat":   PALETTE.research,
-  "li-jing":          PALETTE.research,
-  "xingyi-zhou":      PALETTE.research,
-  "sanghyun-woo":     PALETTE.research,
-  "delong-chen":      PALETTE.research,
-  "david-fan":        PALETTE.research,
-  "xinyi-wan":        PALETTE.research,
-  "jihan-yang":       PALETTE.research,
+  "yann-lecun":              PALETTE.chairman,
+  "alexandre-lebrun":        PALETTE.exec,
+  "laurent-solly":           PALETTE.ops,
+  "sean-nguyen":             PALETTE.ops,
+  "leopold-treppoz":         PALETTE.ops,
+  "aurelia-bortone-bouvet":  PALETTE.ops,
+  "saining-xie":             PALETTE.science,
+  "pascale-fung":            PALETTE.science,
+  "min-lin":                 PALETTE.singapore,
+  "brian-li":                PALETTE.singapore,
+  "xinyi-wan":               PALETTE.singapore,
+  "chao-du":                 PALETTE.singapore,
+  "michael-rabbat":          PALETTE.research,
+  "quentin-duval":           PALETTE.research,
+  "matthew-muckley":         PALETTE.research,
+  "li-jing":                 PALETTE.research,
+  "xingyi-zhou":             PALETTE.research,
+  "sanghyun-woo":            PALETTE.research,
+  "david-fan":               PALETTE.research,
+  "jihan-yang":              PALETTE.research,
+  "bingyi-kang":             PALETTE.research,
+  "john-nguyen":             PALETTE.research,
+  "delong-chen":             PALETTE.research,
+  "basile-terver":           PALETTE.research,
+  "willy-chung":             PALETTE.research,
+  "christophe-tcheng":       PALETTE.engineering,
+  "felix-naepels":           PALETTE.engineering,
 };
+
+/* ────────────────────────────────────────────────────────────────
+ *  Visual reorganization overrides.
+ *
+ *  The chart shows a cleaner hierarchy when Rabbat sits at tier 2
+ *  beside the other co-founders, Min Lin's Singapore branch hangs
+ *  under Saining (Science), and the Paris-based admin / engineering
+ *  staff group under Laurent (Ops) / Pascale (CRIO Paris).
+ *
+ *  These overrides ONLY change visual layout — they do not edit
+ *  Sanity. When Sanity is updated to match (preferred long-term),
+ *  remove the corresponding entries from this map.
+ * ──────────────────────────────────────────────────────────────── */
+const VISUAL_REPORTS_OVERRIDES: Record<string, string> = {
+  "michael-rabbat": "alexandre-lebrun",   // promote to tier 2
+  "leopold-treppoz": "laurent-solly",
+  "aurelia-bortone-bouvet": "laurent-solly",
+  "christophe-tcheng": "laurent-solly",
+  "min-lin": "saining-xie",
+  "delong-chen": "pascale-fung",
+  "basile-terver": "pascale-fung",
+  "willy-chung": "pascale-fung",
+};
+
+function applyOverrides(team: Member[]): Member[] {
+  return team.map((m) =>
+    VISUAL_REPORTS_OVERRIDES[m.slug]
+      ? { ...m, reportsTo: VISUAL_REPORTS_OVERRIDES[m.slug] }
+      : m,
+  );
+}
 
 function colorFor(slug: string, role: string): ColorTriplet {
   const explicit = PERSON_COLOR[slug];
@@ -50,16 +112,17 @@ function colorFor(slug: string, role: string): ColorTriplet {
   const r = role.toLowerCase();
   if (/chairman/.test(r)) return PALETTE.chairman;
   if (/\bceo\b/.test(r)) return PALETTE.exec;
-  if (/\bcoo\b|operations/.test(r)) return PALETTE.ops;
-  if (/chief|science/.test(r)) return PALETTE.science;
+  if (/\bcoo\b|operations|chief of staff/.test(r)) return PALETTE.ops;
+  if (/chief.*science|cso/.test(r)) return PALETTE.science;
   if (/singapore/.test(r)) return PALETTE.singapore;
-  if (/research|scientist|technical staff|pretraining|world models/.test(r)) return PALETTE.research;
+  if (/\bvp engineering|head of it|cio\b/.test(r)) return PALETTE.engineering;
+  if (/research|scientist|technical staff|pretraining|world models|phd|doctorant/.test(r)) return PALETTE.research;
   return PALETTE.fallback;
 }
 
 function initialsOf(name: string): string {
   return name
-    .replace(/[^A-Za-z\s-]/g, "")
+    .replace(/[^A-Za-zÀ-ÿ\s-]/g, "")
     .split(/\s+/)
     .filter(Boolean)
     .map((w) => w[0])
@@ -68,9 +131,9 @@ function initialsOf(name: string): string {
     .toUpperCase();
 }
 
-const DEFAULT_PARENT_FOR_ORPHANS = "saining-xie";
+/* ── Tree building ─────────────────────────────────────────────── */
 
-type TreeNode = Member & { children: TreeNode[] };
+const DEFAULT_PARENT_FOR_ORPHANS = "saining-xie";
 
 function buildTree(team: Member[]): TreeNode | null {
   const map = new Map<string, TreeNode>();
@@ -92,143 +155,188 @@ function buildTree(team: Member[]): TreeNode | null {
   }
 
   if (orphans.length) {
-    const fallbackParent = map.get(DEFAULT_PARENT_FOR_ORPHANS);
-    if (fallbackParent) {
-      fallbackParent.children.push(...orphans);
-    } else if (root) {
-      root.children.push(...orphans);
-    }
+    const fallback = map.get(DEFAULT_PARENT_FOR_ORPHANS) || root;
+    if (fallback) fallback.children.push(...orphans);
   }
 
   return root;
 }
 
-type Positioned = { node: TreeNode; x: number; y: number; depth: number; isWrapped?: boolean };
+/* ── Column layout ─────────────────────────────────────────────── */
 
-const MAX_CHILDREN_PER_ROW = 3;
-const WRAP_GAP = 60;
+const CARD_W = 420;
+const CARD_H = 198;
+const TIER_GAP_Y = 64;
+const ROW_GAP = 18;
+const COL_GAP = 24;
+const COLUMN_GAP = 48;
+const PAD = 56;
 
-function layoutTree(
-  root: TreeNode,
-  opts: { nodeW: number; nodeH: number; hGap: number; vGap: number }
-): { nodes: Positioned[]; width: number; height: number } {
-  const { nodeW, nodeH, hGap, vGap } = opts;
-  let cursor = 0;
-  const xByNode = new Map<TreeNode, number>();
-  const gridParents = new Set<TreeNode>();
-  const wrappedChildren = new Set<TreeNode>();
-  const wrapDepths = new Set<number>();
+type Positioned = { node: TreeNode; x: number; y: number; depth: number };
+type Link = { from: string; to: string };
 
-  function walk(n: TreeNode, depth: number) {
-    if (!n.children.length) {
-      xByNode.set(n, cursor);
-      cursor += nodeW + hGap;
-    } else {
-      const leaves = n.children.filter((c) => c.children.length === 0);
-      const branches = n.children.filter((c) => c.children.length > 0);
+type SubtreeBlock = {
+  placements: Positioned[];
+  links: Link[];
+  rootX: number;
+  width: number;
+  height: number;
+};
 
-      if (leaves.length > MAX_CHILDREN_PER_ROW) {
-        gridParents.add(n);
-        wrapDepths.add(depth + 1);
+function layoutSubtreeBlock(
+  node: TreeNode,
+  ox: number,
+  oy: number,
+  depth: number,
+): SubtreeBlock {
+  const placements: Positioned[] = [];
+  const links: Link[] = [];
 
-        // Process branch children normally first
-        branches.forEach((c) => walk(c, depth + 1));
-
-        // Grid the leaf children into 2 rows
-        const cols = Math.ceil(leaves.length / 2);
-        const row1 = leaves.slice(0, cols);
-        const row2 = leaves.slice(cols);
-        for (let i = 0; i < cols; i++) {
-          xByNode.set(row1[i], cursor);
-          if (row2[i]) {
-            xByNode.set(row2[i], cursor);
-            wrappedChildren.add(row2[i]);
-          }
-          cursor += nodeW + hGap;
-        }
-
-        // Center parent over all children
-        const allChildXs = [...branches, ...row1]
-          .map((c) => xByNode.get(c)!)
-          .filter((x) => x !== undefined);
-        const minCX = Math.min(...allChildXs);
-        const maxCX = Math.max(...allChildXs);
-        xByNode.set(n, (minCX + maxCX) / 2);
-      } else {
-        n.children.forEach((c) => walk(c, depth + 1));
-        const first = xByNode.get(n.children[0])!;
-        const last = xByNode.get(n.children[n.children.length - 1])!;
-        xByNode.set(n, (first + last) / 2);
-      }
-    }
+  if (!node.children || node.children.length === 0) {
+    placements.push({ node, x: ox, y: oy, depth });
+    return { placements, links, rootX: ox, width: CARD_W, height: CARD_H };
   }
-  walk(root, 0);
 
-  function shift(n: TreeNode, delta: number) {
-    xByNode.set(n, (xByNode.get(n) ?? 0) + delta);
-    n.children.forEach((c) => shift(c, delta));
-  }
-  function contours(n: TreeNode): { left: number[]; right: number[] } {
-    const left: number[] = [];
-    const right: number[] = [];
-    function rec(m: TreeNode, d: number) {
-      const x = xByNode.get(m)!;
-      if (left[d] === undefined || x < left[d]) left[d] = x;
-      if (right[d] === undefined || x > right[d]) right[d] = x;
-      m.children.forEach((c) => rec(c, d + 1));
-    }
-    rec(n, 0);
-    return { left, right };
-  }
-  function resolve(n: TreeNode) {
-    if (gridParents.has(n)) return;
-    if (n.children.length < 2) {
-      n.children.forEach(resolve);
-      return;
-    }
-    for (let i = 1; i < n.children.length; i++) {
-      const left = n.children[i - 1];
-      const right = n.children[i];
-      const lc = contours(left).right;
-      const rc = contours(right).left;
-      let maxOverlap = 0;
-      const depthCount = Math.min(lc.length, rc.length);
-      for (let d = 0; d < depthCount; d++) {
-        const need = lc[d] + nodeW + hGap;
-        const gap = rc[d] - need;
-        if (gap < 0 && -gap > maxOverlap) maxOverlap = -gap;
-      }
-      if (maxOverlap > 0) shift(right, maxOverlap);
-    }
-    const first = xByNode.get(n.children[0])!;
-    const last = xByNode.get(n.children[n.children.length - 1])!;
-    xByNode.set(n, (first + last) / 2);
-    n.children.forEach(resolve);
-  }
-  resolve(root);
+  const branches = node.children.filter((c) => c.children && c.children.length > 0);
+  const leaves = node.children.filter((c) => !c.children || c.children.length === 0);
 
-  const all: Positioned[] = [];
-  function collect(n: TreeNode, depth: number) {
-    let y = depth * (nodeH + vGap);
-    if (wrappedChildren.has(n)) {
-      y += nodeH + WRAP_GAP;
-    } else {
-      for (const wd of wrapDepths) {
-        if (depth > wd) y += nodeH + WRAP_GAP;
-      }
-    }
-    all.push({ node: n, x: xByNode.get(n)!, y, depth, isWrapped: wrappedChildren.has(n) });
-    n.children.forEach((c) => collect(c, depth + 1));
-  }
-  collect(root, 0);
+  // Single-column stack — keeps each subtree narrow & tall.
+  const leafCols = 1;
+  const leafRows = leaves.length;
 
-  const minX = Math.min(...all.map((p) => p.x));
-  all.forEach((p) => (p.x -= minX));
+  const leavesBlockWidth = leafCols * CARD_W + (leafCols - 1) * COL_GAP;
+  const leavesBlockHeight =
+    leaves.length > 0 ? leafRows * CARD_H + (leafRows - 1) * ROW_GAP : 0;
 
-  const maxX = Math.max(...all.map((p) => p.x)) + nodeW;
-  const maxY = Math.max(...all.map((p) => p.y)) + nodeH;
-  return { nodes: all, width: maxX, height: maxY };
+  const branchBlocks = branches.map((b) => layoutSubtreeBlock(b, 0, 0, depth + 1));
+  const branchesWidth = branchBlocks.length
+    ? Math.max(...branchBlocks.map((b) => b.width))
+    : 0;
+  const branchesHeight =
+    branchBlocks.reduce((sum, b) => sum + b.height, 0) +
+    Math.max(0, branchBlocks.length - 1) * TIER_GAP_Y;
+
+  const childrenBlockWidth = Math.max(leavesBlockWidth, branchesWidth);
+  const childrenBlockHeight =
+    leavesBlockHeight +
+    (branchBlocks.length && leaves.length ? TIER_GAP_Y : 0) +
+    branchesHeight;
+
+  const totalWidth = Math.max(CARD_W, childrenBlockWidth);
+  const rootX = ox + (totalWidth - CARD_W) / 2;
+  placements.push({ node, x: rootX, y: oy, depth });
+
+  const childrenTop = oy + CARD_H + TIER_GAP_Y;
+  const childrenLeft = ox + (totalWidth - childrenBlockWidth) / 2;
+
+  const leavesLeft =
+    childrenLeft + (childrenBlockWidth - leavesBlockWidth) / 2;
+  leaves.forEach((leaf, i) => {
+    const col = i % leafCols;
+    const row = Math.floor(i / leafCols);
+    placements.push({
+      node: leaf,
+      x: leavesLeft + col * (CARD_W + COL_GAP),
+      y: childrenTop + row * (CARD_H + ROW_GAP),
+      depth: depth + 1,
+    });
+    links.push({ from: node.slug, to: leaf.slug });
+  });
+
+  let branchY = childrenTop + leavesBlockHeight + (leaves.length ? TIER_GAP_Y : 0);
+  branchBlocks.forEach((block) => {
+    const branchLeft = childrenLeft + (childrenBlockWidth - block.width) / 2;
+    block.placements.forEach((p) =>
+      placements.push({
+        node: p.node,
+        x: p.x + branchLeft,
+        y: p.y + branchY,
+        depth: p.depth,
+      }),
+    );
+    block.links.forEach((l) => links.push(l));
+    links.push({ from: node.slug, to: block.placements[0].node.slug });
+    branchY += block.height + TIER_GAP_Y;
+  });
+
+  const totalHeight =
+    CARD_H + (childrenBlockHeight ? TIER_GAP_Y + childrenBlockHeight : 0);
+
+  return { placements, links, rootX, width: totalWidth, height: totalHeight };
 }
+
+type LayoutResult = {
+  nodes: Positioned[];
+  links: Link[];
+  width: number;
+  height: number;
+};
+
+function layoutOrg(root: TreeNode): LayoutResult {
+  const positions: Positioned[] = [];
+  const links: Link[] = [];
+
+  const yann = root;
+  const alex = root.children[0];
+  const tier2 = alex ? alex.children : [];
+
+  const columns = tier2.map((node) => layoutSubtreeBlock(node, 0, 0, 0));
+
+  const yYann = 0;
+  const yAlex = CARD_H + TIER_GAP_Y;
+  const yTier2 = yAlex + CARD_H + TIER_GAP_Y;
+
+  let cursorX = 0;
+  columns.forEach((col) => {
+    col.placements.forEach((p) =>
+      positions.push({
+        node: p.node,
+        x: p.x + cursorX,
+        y: p.y + yTier2,
+        depth: p.depth + 2,
+      }),
+    );
+    col.links.forEach((l) => links.push(l));
+    if (alex) links.push({ from: alex.slug, to: col.placements[0].node.slug });
+    cursorX += col.width + COLUMN_GAP;
+  });
+
+  // True visual center of the tier-2 row (across actual card positions, not
+  // the column rectangles — those carry padding that throws off centering).
+  let tierMinX = Infinity;
+  let tierMaxX = -Infinity;
+  positions.forEach((p) => {
+    if (p.x < tierMinX) tierMinX = p.x;
+    if (p.x + CARD_W > tierMaxX) tierMaxX = p.x + CARD_W;
+  });
+  const visualCenterX = (tierMinX + tierMaxX) / 2;
+
+  positions.unshift({
+    node: yann,
+    x: visualCenterX - CARD_W / 2,
+    y: yYann,
+    depth: 0,
+  });
+  if (alex) {
+    positions.splice(1, 0, {
+      node: alex,
+      x: visualCenterX - CARD_W / 2,
+      y: yAlex,
+      depth: 1,
+    });
+    links.push({ from: yann.slug, to: alex.slug });
+  }
+
+  const minX = Math.min(...positions.map((p) => p.x));
+  positions.forEach((p) => (p.x -= minX));
+
+  const maxX = Math.max(...positions.map((p) => p.x + CARD_W));
+  const maxY = Math.max(...positions.map((p) => p.y + CARD_H));
+
+  return { nodes: positions, links, width: maxX, height: maxY };
+}
+
+/* ── Graph helpers ─────────────────────────────────────────────── */
 
 function ancestorsOf(team: Member[], slug: string): Set<string> {
   const map = new Map(team.map((m) => [m.slug, m]));
@@ -252,8 +360,7 @@ function descendantsOf(team: Member[], slug: string): Set<string> {
   const stack = [slug];
   while (stack.length) {
     const cur = stack.pop()!;
-    const kids = kidsByParent.get(cur) || [];
-    kids.forEach((k) => {
+    (kidsByParent.get(cur) || []).forEach((k) => {
       if (!out.has(k)) {
         out.add(k);
         stack.push(k);
@@ -263,15 +370,11 @@ function descendantsOf(team: Member[], slug: string): Set<string> {
   return out;
 }
 
-const NODE_W = 280;
-const NODE_H = 132;
-const H_GAP = 32;
-const V_GAP = 92;
-const PAD = 56;
+/* ── Inline SVG icons ──────────────────────────────────────────── */
 
 function MapPin() {
   return (
-    <svg width="10" height="10" viewBox="0 0 16 16" fill="none" aria-hidden>
+    <svg width="11" height="11" viewBox="0 0 16 16" fill="none" aria-hidden>
       <path
         d="M8 1.5a4.5 4.5 0 0 0-4.5 4.5c0 3.38 4.5 8.5 4.5 8.5s4.5-5.12 4.5-8.5A4.5 4.5 0 0 0 8 1.5Zm0 6.25a1.75 1.75 0 1 1 0-3.5 1.75 1.75 0 0 1 0 3.5Z"
         fill="currentColor"
@@ -282,267 +385,185 @@ function MapPin() {
 
 function SearchIcon() {
   return (
-    <svg
-      width="16"
-      height="16"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
       <circle cx="11" cy="11" r="7" />
       <path d="m20 20-3.35-3.35" />
     </svg>
   );
 }
 
-const MIN_SCALE = 0.25;
-const MAX_SCALE = 1.5;
-const SCALE_STEP = 0.1;
-
-function ZoomIcon({ type }: { type: "in" | "out" | "fit" }) {
-  if (type === "fit") return <span style={{ fontSize: 13, lineHeight: 1 }}>⊡</span>;
-  return <span style={{ fontSize: 16, lineHeight: 1, fontWeight: 400 }}>{type === "in" ? "+" : "−"}</span>;
-}
-
-function OrgCanvas({
-  canvasW, canvasH, links, nodes, lineage, matchedSet,
-  hover, setHover, pathFor,
-}: {
-  canvasW: number;
-  canvasH: number;
-  links: { from: Positioned; to: Positioned }[];
-  nodes: Positioned[];
-  lineage: Set<string> | null;
-  matchedSet: Set<string> | null;
-  hover: string | null;
-  setHover: (s: string | null) => void;
-  pathFor: (from: Positioned, to: Positioned) => string;
-}) {
-  const wrapRef = useRef<HTMLDivElement>(null);
-  const router = useRouter();
-  const [scale, setScale] = useState(1);
-
-  const fitScale = useCallback(() => {
-    if (!wrapRef.current) return 1;
-    const cw = wrapRef.current.clientWidth - 24;
-    const ch = wrapRef.current.clientHeight || 700;
-    return Math.min(1, cw / canvasW, ch / canvasH);
-  }, [canvasW, canvasH]);
-
-  useEffect(() => {
-    setScale(fitScale());
-  }, [fitScale]);
-
-  useEffect(() => {
-    const wrap = wrapRef.current;
-    if (!wrap) return;
-    const handler = (e: WheelEvent) => {
-      if (!e.ctrlKey && !e.metaKey) return;
-      e.preventDefault();
-      setScale((s) => {
-        const delta = e.deltaY > 0 ? -SCALE_STEP : SCALE_STEP;
-        return Math.max(MIN_SCALE, Math.min(MAX_SCALE, s + delta));
-      });
-    };
-    wrap.addEventListener("wheel", handler, { passive: false });
-    return () => wrap.removeEventListener("wheel", handler);
-  }, []);
-
-  const scaledW = canvasW * scale;
-  const scaledH = canvasH * scale;
-  const pct = Math.round(scale * 100);
-
+function ArrowRight() {
   return (
-    <main className="org-main">
-      <div className="org-zoom-bar">
-        <button
-          className="org-zoom-btn"
-          onClick={() => setScale((s) => Math.max(MIN_SCALE, s - SCALE_STEP))}
-          disabled={scale <= MIN_SCALE}
-          title="Zoom out"
-        >
-          <ZoomIcon type="out" />
-        </button>
-        <span className="org-zoom-pct">{pct}%</span>
-        <button
-          className="org-zoom-btn"
-          onClick={() => setScale((s) => Math.min(MAX_SCALE, s + SCALE_STEP))}
-          disabled={scale >= MAX_SCALE}
-          title="Zoom in"
-        >
-          <ZoomIcon type="in" />
-        </button>
-        <button
-          className="org-zoom-btn"
-          onClick={() => setScale(fitScale())}
-          title="Fit to screen"
-        >
-          <ZoomIcon type="fit" />
-        </button>
-      </div>
-
-      <div className="org-canvas-wrap" ref={wrapRef}>
-        <div style={{ width: scaledW, height: scaledH, position: "relative" }}>
-          <div
-            className="org-canvas"
-            style={{
-              width: canvasW,
-              height: canvasH,
-              transform: `scale(${scale})`,
-              transformOrigin: "top left",
-            }}
-          >
-            <svg
-              className="org-connectors"
-              width={canvasW}
-              height={canvasH}
-              viewBox={`0 0 ${canvasW} ${canvasH}`}
-              aria-hidden
-            >
-              {links.map((l) => {
-                const onLineage =
-                  lineage &&
-                  lineage.has(l.from.node.slug) &&
-                  lineage.has(l.to.node.slug);
-                const dim = lineage && !onLineage;
-                const cls = `org-link${dim ? " org-link--dim" : ""}${onLineage ? " org-link--focus" : ""}`;
-                return (
-                  <path
-                    key={`${l.from.node.slug}-${l.to.node.slug}`}
-                    d={pathFor(l.from, l.to)}
-                    className={cls}
-                    style={{ animationDelay: `${160 + l.to.depth * 90}ms` }}
-                  />
-                );
-              })}
-            </svg>
-
-            {nodes.map((p, i) => {
-              const matched = matchedSet ? matchedSet.has(p.node.slug) : null;
-              const lineageHit = lineage ? lineage.has(p.node.slug) : null;
-
-              let highlight: "dim" | "focus" | null = null;
-              if (matched === false) highlight = "dim";
-              if (lineage && !lineageHit) highlight = "dim";
-              if (lineage && lineageHit) highlight = "focus";
-              if (matched === true && !lineage) highlight = "focus";
-
-              const color = colorFor(p.node.slug, p.node.role);
-              const isHovered = hover === p.node.slug;
-              const isRoot = !p.node.reportsTo;
-
-              return (
-                <div
-                  key={p.node.slug}
-                  className="org-node"
-                  style={{
-                    left: p.x + PAD,
-                    top: p.y + PAD,
-                    width: NODE_W,
-                    zIndex: isHovered ? 10 : p.isWrapped ? 2 : undefined,
-                    animationDelay: `${80 + p.depth * 90 + (i % 4) * 25}ms`,
-                  }}
-                >
-                  <div
-                    className={`pcard${highlight === "dim" ? " pcard--dim" : ""}${highlight === "focus" ? " pcard--focus" : ""}${isHovered ? " pcard--expanded" : ""}`}
-                    style={{
-                      height: isHovered ? "auto" : NODE_H,
-                      ["--tile-a" as string]: color.a,
-                      ["--tile-b" as string]: color.b,
-                      ["--tile-ink" as string]: color.ink,
-                    }}
-                    onMouseEnter={() => setHover(p.node.slug)}
-                    onMouseLeave={() => setHover(null)}
-                    onClick={() => router.push(`/team/${p.node.slug}`)}
-                  >
-                    <div className="pcard-accent" aria-hidden />
-
-                    <div className="pcard-head">
-                      <div
-                        className="pcard-avatar"
-                        style={{ width: 40, height: 40, fontSize: 16 }}
-                      >
-                        {initialsOf(p.node.name)}
-                      </div>
-                      <div className="pcard-headtext">
-                        <div className="pcard-name">{p.node.name}</div>
-                        <div className="pcard-role">{p.node.role}</div>
-                      </div>
-                      {isRoot && (
-                        <span className="pcard-crown" title="Executive Chairman" aria-hidden>
-                          ✦
-                        </span>
-                      )}
-                    </div>
-
-                    {(p.node.location || p.node.tenure) && (
-                      <div className="pcard-meta">
-                        {p.node.location && (
-                          <span className="pcard-loc">
-                            <MapPin /> {p.node.location}
-                          </span>
-                        )}
-                        {p.node.tenure && (
-                          <span className="pcard-tenure">{p.node.tenure}</span>
-                        )}
-                      </div>
-                    )}
-
-                    {p.node.body && <p className="pcard-body">{p.node.body}</p>}
-
-                    {isHovered && (
-                      <div className="pcard-expanded">
-                        <div className="pcard-expanded-body">{p.node.body}</div>
-                        <div className="pcard-actions">
-                          <span className="pcard-cta">View full profile →</span>
-                        </div>
-                      </div>
-                    )}
-
-                    <div className="pcard-hoverchip" aria-hidden>
-                      Click for profile →
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </div>
-      <p className="org-footnote">
-        Reporting structure inferred from public announcements and LinkedIn ·
-        AMI Labs, Advanced Machine Intelligence
-      </p>
-    </main>
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M5 12h14M13 5l7 7-7 7" />
+    </svg>
   );
 }
 
-type LegendItem = { key: keyof typeof PALETTE; label: string };
-const LEGEND: LegendItem[] = [
-  { key: "chairman", label: "Chairman" },
-  { key: "exec", label: "CEO" },
-  { key: "ops", label: "Operations" },
-  { key: "science", label: "Science" },
-  { key: "research", label: "Research" },
-  { key: "singapore", label: "Singapore" },
-];
+/* ── PersonCard ────────────────────────────────────────────────── */
 
-const FOUNDER_TENURES = new Set(["Co-Founder"]);
+type CardProps = {
+  person: Member;
+  highlight: "dim" | "focus" | null;
+  isRoot: boolean;
+  isCEO: boolean;
+  onHover: (slug: string, el: HTMLElement) => void;
+  onLeave: () => void;
+  onClick: (slug: string) => void;
+};
 
-export default function OrgChartClient({ team }: { team: Member[] }) {
-  const [hover, setHover] = useState<string | null>(null);
-  const [query, setQuery] = useState("");
+function PersonCard({ person, highlight, isRoot, isCEO, onHover, onLeave, onClick }: CardProps) {
+  const color = colorFor(person.slug, person.role);
+  const dimmed = highlight === "dim";
+  const focused = highlight === "focus";
+  const accentCls = isRoot ? "pcard2--root" : isCEO ? "pcard2--ceo" : "";
 
-  const layout = useMemo(() => {
-    const tree = buildTree(team);
-    if (!tree) return { nodes: [] as Positioned[], width: 0, height: 0 };
-    return layoutTree(tree, { nodeW: NODE_W, nodeH: NODE_H, hGap: H_GAP, vGap: V_GAP });
-  }, [team]);
+  return (
+    <div
+      className={`pcard2 ${accentCls}${dimmed ? " pcard2--dim" : ""}${focused ? " pcard2--focus" : ""}`}
+      style={{
+        ["--tile-a" as string]: color.a,
+        ["--tile-b" as string]: color.b,
+        ["--tile-ink" as string]: color.ink,
+      }}
+      onMouseEnter={(e) => onHover(person.slug, e.currentTarget)}
+      onMouseLeave={onLeave}
+      onClick={() => onClick(person.slug)}
+    >
+      <div className="pcard2-stripe" aria-hidden />
 
-  const focusSlug = hover;
+      <div className="pcard2-inner">
+        <div className="pcard2-avatar"><span>{initialsOf(person.name)}</span></div>
+
+        <div className="pcard2-body">
+          <div className="pcard2-namerow">
+            <h3 className="pcard2-name">{person.name}</h3>
+            {isRoot && <span className="pcard2-mark" title="Executive Chairman" aria-hidden>✦</span>}
+          </div>
+          <div className="pcard2-role">{person.role}</div>
+
+          <div className="pcard2-meta">
+            {person.location && (
+              <span className="pcard2-loc"><MapPin /> {person.location}</span>
+            )}
+            {person.tenure && (
+              <span className="pcard2-tenure">{person.tenure}</span>
+            )}
+          </div>
+        </div>
+      </div>
+
+      <div className="pcard2-glint" aria-hidden />
+    </div>
+  );
+}
+
+/* ── PersonPopup ───────────────────────────────────────────────── */
+
+type PopupProps = {
+  anchorRect: DOMRect;
+  person: Member;
+  onEnter: () => void;
+  onLeave: () => void;
+  onNavigate: (slug: string) => void;
+};
+
+function PersonPopup({ anchorRect, person, onEnter, onLeave, onNavigate }: PopupProps) {
+  const popupRef = useRef<HTMLDivElement>(null);
+  const [pos, setPos] = useState<{ left: number; top: number; side: "right" | "left" | "below" }>({
+    left: -9999,
+    top: -9999,
+    side: "right",
+  });
+
+  const color = colorFor(person.slug, person.role);
+
+  useEffect(() => {
+    if (!popupRef.current) return;
+    const popup = popupRef.current;
+    const popupW = popup.offsetWidth;
+    const popupH = popup.offsetHeight;
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+    const margin = 16;
+
+    const spaceRight = vw - anchorRect.right - margin;
+    const spaceLeft = anchorRect.left - margin;
+
+    let side: "right" | "left" | "below" = "right";
+    let left: number;
+    if (spaceRight >= popupW + 12) {
+      side = "right";
+      left = anchorRect.right + 12;
+    } else if (spaceLeft >= popupW + 12) {
+      side = "left";
+      left = anchorRect.left - popupW - 12;
+    } else {
+      side = "below";
+      left = Math.max(margin, Math.min(vw - popupW - margin, anchorRect.left));
+    }
+
+    let top = anchorRect.top + anchorRect.height / 2 - popupH / 2;
+    top = Math.max(margin, Math.min(vh - popupH - margin, top));
+
+    setPos({ left, top, side });
+  }, [anchorRect, person]);
+
+  return (
+    <div
+      ref={popupRef}
+      className={`ppopup ppopup--${pos.side}`}
+      style={{
+        left: pos.left,
+        top: pos.top,
+        ["--tile-a" as string]: color.a,
+        ["--tile-b" as string]: color.b,
+        ["--tile-ink" as string]: color.ink,
+      }}
+      onMouseEnter={onEnter}
+      onMouseLeave={onLeave}
+      onClick={() => onNavigate(person.slug)}
+      role="dialog"
+      aria-label={`${person.name} profile preview`}
+    >
+      <div className="ppopup-header">
+        <div className="ppopup-avatar">{initialsOf(person.name)}</div>
+        <div className="ppopup-titles">
+          <h3 className="ppopup-name">{person.name}</h3>
+          <div className="ppopup-role">{person.role}</div>
+          <div className="ppopup-meta">
+            {person.location && <span className="ppopup-loc"><MapPin /> {person.location}</span>}
+            {person.tenure && <span className="ppopup-tenure">{person.tenure}</span>}
+          </div>
+        </div>
+      </div>
+
+      <div className="ppopup-divider" aria-hidden />
+
+      <div className="ppopup-bio">{person.body}</div>
+
+      <div className="ppopup-cta">
+        View full profile <ArrowRight />
+      </div>
+    </div>
+  );
+}
+
+/* ── Connectors ────────────────────────────────────────────────── */
+
+type ConnectorsProps = {
+  positions: Positioned[];
+  links: Link[];
+  focusSlug: string | null;
+  team: Member[];
+};
+
+function Connectors({ positions, links, focusSlug, team }: ConnectorsProps) {
+  const bySlug = useMemo(() => {
+    const m = new Map<string, Positioned>();
+    positions.forEach((p) => m.set(p.node.slug, p));
+    return m;
+  }, [positions]);
 
   const lineage = useMemo(() => {
     if (!focusSlug) return null;
@@ -551,67 +572,168 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
     return new Set<string>([...anc, ...dsc]);
   }, [focusSlug, team]);
 
+  const maxX = positions.reduce((a, p) => Math.max(a, p.x + CARD_W), 0);
+  const maxY = positions.reduce((a, p) => Math.max(a, p.y + CARD_H), 0) + 40;
+
+  function pathFor(from: Positioned, to: Positioned): string {
+    const sx = from.x + CARD_W / 2;
+    const sy = from.y + CARD_H;
+    const tx = to.x + CARD_W / 2;
+    const ty = to.y;
+    const my = sy + (ty - sy) / 2;
+    return `M ${sx} ${sy} C ${sx} ${my}, ${tx} ${my}, ${tx} ${ty}`;
+  }
+
+  return (
+    <svg
+      className="org2-connectors"
+      width={maxX}
+      height={maxY}
+      viewBox={`0 0 ${maxX} ${maxY}`}
+      aria-hidden
+    >
+      {links.map((l) => {
+        const from = bySlug.get(l.from);
+        const to = bySlug.get(l.to);
+        if (!from || !to) return null;
+        const onLineage = lineage && lineage.has(l.from) && lineage.has(l.to);
+        const dim = lineage && !onLineage;
+        return (
+          <path
+            key={`${l.from}-${l.to}`}
+            d={pathFor(from, to)}
+            className={`org2-link${dim ? " org2-link--dim" : ""}${onLineage ? " org2-link--focus" : ""}`}
+            style={{ animationDelay: `${120 + to.depth * 60}ms` }}
+          />
+        );
+      })}
+    </svg>
+  );
+}
+
+/* ── Main client component ────────────────────────────────────── */
+
+const POPUP_SHOW_DELAY = 220;
+const POPUP_HIDE_DELAY = 180;
+
+const LEGEND_ITEMS: { key: keyof typeof PALETTE; label: string }[] = [
+  { key: "chairman", label: "Chairman" },
+  { key: "exec", label: "CEO" },
+  { key: "ops", label: "Operations" },
+  { key: "science", label: "Science" },
+  { key: "research", label: "Research" },
+  { key: "singapore", label: "Singapore" },
+  { key: "engineering", label: "Engineering" },
+];
+
+export default function OrgChartClient({ team }: { team: Member[] }) {
+  const router = useRouter();
+
+  const resolvedTeam = useMemo(() => applyOverrides(team), [team]);
+
+  const [query, setQuery] = useState("");
+  const [hover, setHover] = useState<string | null>(null);
+  const [popupAnchor, setPopupAnchor] = useState<DOMRect | null>(null);
+
+  const showTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Layout
+  const layout = useMemo(() => {
+    const tree = buildTree(resolvedTeam);
+    if (!tree) return { nodes: [] as Positioned[], links: [] as Link[], width: 0, height: 0 };
+    return layoutOrg(tree);
+  }, [resolvedTeam]);
+
+  // Search filter
   const matchedSet = useMemo(() => {
     const q = query.trim().toLowerCase();
     if (!q) return null;
     return new Set(
-      team
+      resolvedTeam
         .filter(
           (m) =>
             m.name.toLowerCase().includes(q) ||
             m.role.toLowerCase().includes(q) ||
-            (m.location || "").toLowerCase().includes(q)
+            (m.location || "").toLowerCase().includes(q),
         )
-        .map((m) => m.slug)
+        .map((m) => m.slug),
     );
-  }, [query, team]);
+  }, [query, resolvedTeam]);
 
+  // Lineage for hovered card
+  const lineage = useMemo(() => {
+    if (!hover) return null;
+    const anc = ancestorsOf(resolvedTeam, hover);
+    const dsc = descendantsOf(resolvedTeam, hover);
+    return new Set<string>([...anc, ...dsc]);
+  }, [hover, resolvedTeam]);
+
+  // Stats
   const stats = useMemo(() => {
-    const total = team.length;
-    const founders = team.filter((m) => FOUNDER_TENURES.has(m.tenure)).length;
+    const total = resolvedTeam.length;
+    const founders = resolvedTeam.filter((m) => m.tenure === "Co-Founder").length;
     const cities = new Set(
-      team
+      resolvedTeam
         .map((m) => (m.location || "").split("/")[0].trim())
-        .filter((l) => l && l !== "—")
+        .filter((l) => l && l !== "—"),
     );
     return { total, founders, cities: cities.size };
-  }, [team]);
+  }, [resolvedTeam]);
 
-  const lastUpdated = useMemo(() => {
-    const d = new Date();
-    return d.toLocaleString("en-US", { month: "short", year: "numeric" });
+  const lastUpdated = useMemo(
+    () => new Date().toLocaleString("en-US", { month: "short", year: "numeric" }),
+    [],
+  );
+
+  // Popup state machine
+  const cancelHide = useCallback(() => {
+    if (hideTimer.current) {
+      clearTimeout(hideTimer.current);
+      hideTimer.current = null;
+    }
   }, []);
+
+  const scheduleShow = useCallback((slug: string, el: HTMLElement) => {
+    cancelHide();
+    if (showTimer.current) clearTimeout(showTimer.current);
+    showTimer.current = setTimeout(() => {
+      setHover(slug);
+      setPopupAnchor(el.getBoundingClientRect());
+    }, POPUP_SHOW_DELAY);
+  }, [cancelHide]);
+
+  const scheduleHide = useCallback(() => {
+    if (showTimer.current) {
+      clearTimeout(showTimer.current);
+      showTimer.current = null;
+    }
+    if (hideTimer.current) clearTimeout(hideTimer.current);
+    hideTimer.current = setTimeout(() => {
+      setHover(null);
+      setPopupAnchor(null);
+    }, POPUP_HIDE_DELAY);
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      if (showTimer.current) clearTimeout(showTimer.current);
+      if (hideTimer.current) clearTimeout(hideTimer.current);
+    };
+  }, []);
+
+  const hoveredPerson = useMemo(() => {
+    if (!hover) return null;
+    return resolvedTeam.find((m) => m.slug === hover) || null;
+  }, [hover, resolvedTeam]);
+
+  const navigateToProfile = useCallback(
+    (slug: string) => router.push(`/team/${slug}`),
+    [router],
+  );
 
   const canvasW = layout.width + PAD * 2;
   const canvasH = layout.height + PAD * 2;
-
-  // Build connector links from positions
-  const positionsBySlug = useMemo(() => {
-    const m = new Map<string, Positioned>();
-    layout.nodes.forEach((p) => m.set(p.node.slug, p));
-    return m;
-  }, [layout]);
-
-  const links = useMemo(() => {
-    const out: { from: Positioned; to: Positioned }[] = [];
-    layout.nodes.forEach((p) => {
-      const parentSlug = p.node.reportsTo;
-      if (!parentSlug) return;
-      const parent = positionsBySlug.get(parentSlug);
-      if (!parent) return;
-      out.push({ from: parent, to: p });
-    });
-    return out;
-  }, [layout, positionsBySlug]);
-
-  function pathFor(from: Positioned, to: Positioned): string {
-    const sx = from.x + PAD + NODE_W / 2;
-    const sy = from.y + PAD + NODE_H;
-    const tx = to.x + PAD + NODE_W / 2;
-    const ty = to.y + PAD;
-    const my = sy + (ty - sy) / 2;
-    return `M ${sx} ${sy} C ${sx} ${my}, ${tx} ${my}, ${tx} ${ty}`;
-  }
 
   return (
     <>
@@ -623,7 +745,7 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
           <h1>AMI Labs Org Chart</h1>
           <p>
             Reporting structure inferred from public announcements and LinkedIn.
-            Hover a card to trace its reporting line; click to expand.
+            Hover any card to read a profile preview; click to open the full bio.
           </p>
           <div className="ph-stats">
             <div className="ph-stat">
@@ -658,7 +780,7 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
             />
           </div>
           <div className="legend">
-            {LEGEND.map((item) => (
+            {LEGEND_ITEMS.map((item) => (
               <span className="legend-dot" key={item.key}>
                 <span className="legend-swatch" style={{ background: PALETTE[item.key].a }} />
                 {item.label}
@@ -668,17 +790,68 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
         </div>
       </div>
 
-      <OrgCanvas
-        canvasW={canvasW}
-        canvasH={canvasH}
-        links={links}
-        nodes={layout.nodes}
-        lineage={lineage}
-        matchedSet={matchedSet}
-        hover={hover}
-        setHover={setHover}
-        pathFor={pathFor}
-      />
+      <main className="org2-main">
+        <div className="org2-canvas-wrap">
+          <div className="org2-canvas" style={{ width: canvasW, height: canvasH }}>
+            <Connectors
+              positions={layout.nodes.map((n) => ({ ...n, x: n.x + PAD, y: n.y + PAD }))}
+              links={layout.links}
+              focusSlug={hover}
+              team={resolvedTeam}
+            />
+
+            {layout.nodes.map((p, i) => {
+              const matched = matchedSet ? matchedSet.has(p.node.slug) : null;
+              const lineageHit = lineage ? lineage.has(p.node.slug) : null;
+
+              let highlight: "dim" | "focus" | null = null;
+              if (matched === false) highlight = "dim";
+              if (lineage && !lineageHit) highlight = "dim";
+              if (lineage && lineageHit && p.node.slug !== hover) highlight = "focus";
+              if (matched === true && !lineage) highlight = "focus";
+
+              return (
+                <div
+                  key={p.node.slug}
+                  className="org2-node"
+                  style={{
+                    left: p.x + PAD,
+                    top: p.y + PAD,
+                    width: CARD_W,
+                    height: CARD_H,
+                    animationDelay: `${80 + p.depth * 90 + (i % 4) * 25}ms`,
+                  }}
+                >
+                  <PersonCard
+                    person={p.node}
+                    highlight={highlight}
+                    isRoot={p.node.slug === "yann-lecun"}
+                    isCEO={p.node.slug === "alexandre-lebrun"}
+                    onHover={scheduleShow}
+                    onLeave={scheduleHide}
+                    onClick={navigateToProfile}
+                  />
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        <p className="org2-footnote">
+          Reporting structure inferred from public announcements and LinkedIn ·
+          AMI Labs, Advanced Machine Intelligence
+        </p>
+      </main>
+
+      {hover && hoveredPerson && popupAnchor && (
+        <PersonPopup
+          anchorRect={popupAnchor}
+          person={hoveredPerson}
+          onEnter={cancelHide}
+          onLeave={scheduleHide}
+          onNavigate={navigateToProfile}
+        />
+      )}
     </>
   );
 }
