@@ -1,6 +1,8 @@
 import newsData from "@/data/news.json";
 import timelineData from "@/data/timeline.json";
+import synthesisData from "@/data/synthesis.json";
 import HomepageClient from "@/components/HomepageClient";
+import type { Briefing } from "@/components/ObservatoryBriefing";
 import { client } from "@/sanity/lib/client";
 import { allArticlesQuery } from "@/sanity/lib/queries";
 
@@ -57,6 +59,7 @@ export default async function Home() {
     <HomepageClient
       news={news}
       milestones={timelineData}
+      briefing={synthesisData as unknown as Briefing}
     />
   );
 }

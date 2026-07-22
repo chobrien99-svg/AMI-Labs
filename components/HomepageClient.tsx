@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import ObservatoryBriefing, { type Briefing } from "@/components/ObservatoryBriefing";
 import NewsColumns from "@/components/NewsColumns";
 import ExplainerStrip from "@/components/ExplainerStrip";
 import TimelinePreview from "@/components/TimelinePreview";
@@ -26,14 +27,19 @@ interface Milestone {
 interface HomepageClientProps {
   news: NewsItem[];
   milestones: Milestone[];
+  briefing: Briefing;
 }
 
-export default function HomepageClient({ news, milestones }: HomepageClientProps) {
+export default function HomepageClient({ news, milestones, briefing }: HomepageClientProps) {
   return (
     <div className="homepage">
       <Hero />
 
       <div className="homepage-content">
+        <ObservatoryBriefing briefing={briefing} variant="preview" />
+
+        <div className="homepage-divider" />
+
         <NewsColumns items={news} />
 
         <div className="homepage-divider" />
@@ -67,6 +73,7 @@ export default function HomepageClient({ news, milestones }: HomepageClientProps
             <span className="footer-tagline">An editorial tracker by The French Tech Journal</span>
           </div>
           <div className="footer-links">
+            <a href="/briefing">Briefing</a>
             <a href="/news">News</a>
             <a href="/explainers">Explainers</a>
             <a href="/timeline">Timeline</a>

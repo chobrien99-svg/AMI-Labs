@@ -991,6 +991,152 @@ input[type="search"]::placeholder { color: var(--muted); }
 .tag-admin    { background: #EDE8DF; color: #6B6355; border: 1px solid #D5CEBD; }
 
 /* ─────────────────────────────────────────
+   OBSERVATORY BRIEFING — synthesis lede
+───────────────────────────────────────── */
+.briefing-headline {
+  font-family: var(--font-serif, Georgia, "Times New Roman", serif);
+  font-size: 1.6rem;
+  line-height: 1.25;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--text);
+  margin: 0 0 12px;
+}
+.briefing-stateofplay {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--text-dim);
+  margin: 0 0 24px;
+  max-width: 68ch;
+}
+.briefing-threads {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.briefing-thread {
+  padding: 18px 20px;
+}
+.briefing-thread-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.briefing-thread-title {
+  font-family: var(--font-serif, Georgia, "Times New Roman", serif);
+  font-size: 1.05rem;
+  line-height: 1.3;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0;
+}
+.briefing-narrative {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-dim);
+  margin: 0 0 12px;
+}
+.briefing-evidence {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.briefing-evidence li {
+  position: relative;
+  padding-left: 14px;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+.briefing-evidence li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--muted);
+}
+.briefing-evidence a {
+  color: var(--accent2);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.briefing-evidence a:hover {
+  color: var(--electric);
+  text-decoration: underline;
+}
+.briefing-signals-block {
+  margin-top: 28px;
+}
+.briefing-signals {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.briefing-signals li {
+  position: relative;
+  padding-left: 18px;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--text-dim);
+}
+.briefing-signals li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent2);
+}
+.briefing-watch {
+  margin-top: 28px;
+  padding: 16px 20px;
+  background: var(--accent-dim);
+  border-left: 3px solid var(--accent2);
+  border-radius: 0 8px 8px 0;
+}
+.briefing-watch-label {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+.briefing-watch p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-dim);
+}
+.briefing-empty {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--muted);
+  padding: 8px 0 4px;
+}
+.briefing-stale-note {
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+.briefing-section .briefing-stale-note {
+  margin-top: 16px;
+  display: inline-block;
+}
+@media (max-width: 720px) {
+  .briefing-threads { grid-template-columns: 1fr; }
+  .briefing-headline { font-size: 1.35rem; }
+}
+
+/* ─────────────────────────────────────────
    EXPLAINER STRIP — 3-col cards
 ───────────────────────────────────────── */
 .explainer-strip {

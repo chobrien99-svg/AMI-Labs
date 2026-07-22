@@ -1,0 +1,36 @@
+name: Publish Observatory Briefing
+
+# Editor-triggered publish step. Promotes the reviewed draft
+# (data/synthesis.pending.json) to the live file (data/synthesis.json)
+# that the site renders. Run this after reviewing/editing the draft.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish-synthesis:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Promote draft to published
+        run: node scripts/publish-synthesis.js
+
+      - name: Commit published briefing
+        run: |
+          git config user.name "ami-synthesis-bot"
+          git config user.email "bot@ami-labs.vercel.app"
+          git add data/synthesis.json
+          if git diff --staged --quiet; then
+            echo "No changes to publish."
+          else
+            git commit -m "chore: publish observatory briefing [$(date -u +%Y-%m-%d)]"
+            git push
+          fi
