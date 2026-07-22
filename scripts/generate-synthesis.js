@@ -266,10 +266,14 @@ async function main() {
   };
 
   // No API key → write an error stub but keep any prior narrative if present.
+  // Preserve the PRIOR snapshot (like the stale fallback): this run produced no
+  // briefing, so advancing the diff baseline would make the failed run's new
+  // jobs/publications/directors/capital/IP look "already seen" to the next run.
   if (!process.env.ANTHROPIC_API_KEY) {
     console.warn("[synthesis] ANTHROPIC_API_KEY not set — writing status:error draft.");
     writePending({
       ...base,
+      _snapshot: prevSnapshot || snapshot,
       status: "error",
       headline: prev?.headline || "",
       stateOfPlay: prev?.stateOfPlay || "",
