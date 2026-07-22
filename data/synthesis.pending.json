@@ -1,0 +1,224 @@
+{
+  "generatedAt": "2026-07-22T22:52:17.840Z",
+  "window": {
+    "days": 7,
+    "since": "2026-07-15",
+    "until": "2026-07-22"
+  },
+  "model": "claude-sonnet-4-6",
+  "facts": {
+    "news": {
+      "windowCount": 4,
+      "byTag": {
+        "funding": 1
+      },
+      "items": [
+        {
+          "title": "Alexandre Lebrun passe le flambeau à Brian Manning à la tête de Nabla - Maddyness",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWkJFdng4eUhfQm5Nand6U1A4d19PdXM1YnRfOFI0MTl1NmUtaFpTTVRlNFVBb2tFdjNWbS1TQlNGQmlJZmRtRnJWVmF6Y3pvR29KSmVSNWdEd2EzQ0RDczBIUllmQ1owWF9GZk1CSkpzTWt5NlRMOG1mWWxKS3lBWjl4T2MxRnlGNkNDWXNVUlByaHZLdFQ5NWV0SjU4T1pUSnp3TVVkVnJseG8?oc=5",
+          "source": "Google News",
+          "publishedAt": "2026-07-22",
+          "tags": [],
+          "summary": "Alexandre Lebrun has stepped down as head of Nabla, with Brian Manning taking over leadership of the company. The leadership transition was reported by Maddyness."
+        },
+        {
+          "title": "890 millions d'euros, 2026, AMI Labs de Yann LeCun entre au Next40, ce que cette lev��e change pour l'IA française - voone-actu.com",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPS2E5MTZMcDE0aVo5MTdTaFNnQThHY2tab2pwUGhjNWZxX2s4d1RXMHRpZkw3UnZKekwxcG9kWGlkdjhfWWw5UDVEMm5KM3BYSGViTWplUnlCN1Jfby1lWUNYTG1POEZoRWVrX0NOTEM1MlMzOHJFV0VHZnQ1R2hqZ250SlVZUDMtbWNLejNpNnk4R3NpV1FZZUhjXzRwSWcxWGFrUzN2V1VLSGgyS20zRkJEeWN3TnRzT1ZRYlQybFkteE1jQ0JsTFlNUUQ?oc=5",
+          "source": "Google News",
+          "publishedAt": "2026-07-22",
+          "tags": [
+            "funding"
+          ],
+          "summary": "AMI Labs, an artificial intelligence company founded by Yann LeCun, has raised 890 million euros and joined France's Next40 program by 2026, marking a significant development for the French AI sector. This funding and inclusion in the prestigious Next40 list represents a major boost for France's artificial intelligence industry and positions AMI Labs as a key player in the competitive AI landscape."
+        },
+        {
+          "title": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’",
+          "url": "https://biztoc.com/x/376b1e7d8b073bbc",
+          "source": "Biztoc.com",
+          "publishedAt": "2026-07-16",
+          "tags": [],
+          "summary": "AMI Labs founder Alexandre LeBrun avoids labeling his artificial intelligence systems as \"AGI\" (Artificial General Intelligence) or \"superintelligence,\" preferring more cautious terminology around AI capabilities. The distinction reflects a broader debate in the AI industry about how to responsibly describe and discuss advanced machine intelligence development."
+        },
+        {
+          "title": "Why AMI Labs’ Alexandre LeBrun won't call his AI 'AGI' or 'superintelligence' | TechCrunch",
+          "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-07-16",
+          "tags": [],
+          "summary": "AMI Labs founder Alexandre LeBrun avoids using terms like \"AGI\" (Artificial General Intelligence) or \"superintelligence\" to describe his company's AI systems. The article explores LeBrun's reasoning for rejecting these commonly used labels in the AI industry, suggesting a more cautious or precise approach to characterizing the capabilities of his technology."
+        }
+      ]
+    },
+    "jobs": {
+      "total": 5,
+      "newSinceLast": 0,
+      "newItems": [],
+      "byDepartment": {
+        "All Departments": 1,
+        "Technical Staff": 4
+      }
+    },
+    "publications": {
+      "total": 20,
+      "newSinceLast": 0,
+      "newItems": [],
+      "topCited": [
+        {
+          "member": "michael-rabbat",
+          "title": "DINOv2: Learning Robust Visual Features without Supervision",
+          "year": 2023,
+          "venue": "Trans. Mach. Learn. Res.",
+          "url": "https://doi.org/10.48550/arXiv.2304.07193",
+          "citationCount": 9358
+        },
+        {
+          "member": "sanghyun-woo",
+          "title": "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders",
+          "year": 2023,
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/CVPR52729.2023.01548",
+          "citationCount": 1839
+        },
+        {
+          "member": "michael-rabbat",
+          "title": "Revisiting Feature Prediction for Learning Visual Representations from Video",
+          "year": 2024,
+          "venue": "Trans. Mach. Learn. Res.",
+          "url": "https://doi.org/10.48550/arXiv.2404.08471",
+          "citationCount": 392
+        },
+        {
+          "member": "yann-lecun",
+          "title": "Learning and Leveraging World Models in Visual Representation Learning",
+          "year": 2024,
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2403.00504",
+          "citationCount": 69
+        },
+        {
+          "member": "michael-rabbat",
+          "title": "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
+          "year": 2025,
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2502.11831",
+          "citationCount": 64
+        }
+      ]
+    },
+    "github": {
+      "windowEventCount": 1,
+      "byMember": {
+        "Brian Li": 1
+      },
+      "notable": []
+    },
+    "corporate": {
+      "capital": 12449.43,
+      "capitalChanged": false,
+      "prevCapital": null,
+      "newDirigeants": [],
+      "adresse": "10 RUE DE PENTHIEVRE, 75008, PARIS",
+      "denomination": "ADVANCED MACHINE INTELLIGENCE"
+    },
+    "ip": {
+      "newMarques": [],
+      "newBrevets": [],
+      "newDessins": []
+    },
+    "monitoring": {
+      "changedTargets": []
+    },
+    "timeline": {
+      "recentMilestones": []
+    }
+  },
+  "_snapshot": {
+    "jobIds": [
+      "34d3053f-381f-4350-9c9b-172e5d6a6b70",
+      "da976389-9875-4eb6-b866-8097baed3178",
+      "df8b17c5-97e6-49e7-abb9-c21a39e4162a",
+      "7d58ea84-fd76-4ac7-ad6e-1424f76c42f9",
+      "9f59ac61-f20b-4d33-9343-9603f693523f"
+    ],
+    "publicationKeys": [
+      "yann-lecun|Announcing the Shaw Prize in Computer Science|2026",
+      "yann-lecun|FAST INCREMENTAL LEARNING FOR AUTONOMOUS GROUND NAVIGATION|2024",
+      "yann-lecun|Learning and Leveraging World Models in Visual Representation Learning|2024",
+      "yann-lecun|The SSL Interplay: Augmentations, Inductive Bias, and Generalization|2023",
+      "yann-lecun|Minimalistic Unsupervised Representation Learning with the Sparse Manifold Transform|2023",
+      "sanghyun-woo|MTMMC: A Large-Scale Real-World Multi-Modal Camera Tracking Benchmark|2024",
+      "sanghyun-woo|ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders|2023",
+      "sanghyun-woo|Mask-Guided Matting in the Wild|2023",
+      "sanghyun-woo|Bidirectional Domain Mixup for Domain Adaptive Semantic Segmentation|2023",
+      "sanghyun-woo|Cyclical Compound Domain Test-time Adaptation via Continual Domain-Matching Algorithm|2023",
+      "delong-chen|RemoteSAM: Towards Segment Anything for Earth Observation|2025",
+      "delong-chen|Chain-of-Talkers (CoTalk): Fast Human Annotation of Dense Image Captions|2025",
+      "delong-chen|Making Large Vision Language Models to be Good Few-shot Learners|2024",
+      "delong-chen|What Makes for Good Image Captions?|2024",
+      "delong-chen|High-Dimension Human Value Representation in Large Language Models|2024",
+      "michael-rabbat|MJEPA: A Simple and Scalable Joint-Embedding Predictive Architecture for Audio-Visual Learning|2026",
+      "michael-rabbat|Intuitive physics understanding emerges from self-supervised pretraining on natural videos|2025",
+      "michael-rabbat|Revisiting Feature Prediction for Learning Visual Representations from Video|2024",
+      "michael-rabbat|Benchmarking Neural Network Training Algorithms|2023",
+      "michael-rabbat|DINOv2: Learning Robust Visual Features without Supervision|2023"
+    ],
+    "capital": 12449.43,
+    "dirigeantKeys": [
+      "Laurent Solly|Président",
+      "Chloé Giraut|Directeur général",
+      "Maxime Ubeda|Directeur général"
+    ],
+    "marqueKeys": [],
+    "brevetKeys": [],
+    "dessinKeys": []
+  },
+  "status": "ok",
+  "headline": "AMI Labs' €890M raise and Next40 entry dominate the week as LeBrun stakes out cautious AI terminology",
+  "stateOfPlay": "AMI Labs' reported €890 million fundraise and admission to France's Next40 programme mark the company's most significant public milestone to date, cementing its position at the centre of France's AI ambitions. Alongside the funding news, founder Alexandre LeBrun drew media attention for deliberately eschewing terms like 'AGI' and 'superintelligence' when describing the company's work. Operationally, the week was quiet: no new hires were posted, no new research publications appeared, and corporate filings showed no changes to capital or leadership.",
+  "threads": [
+    {
+      "title": "€890M Raise and Next40 Admission Signal AMI Labs' Scale Ambitions",
+      "category": "funding",
+      "narrative": "AMI Labs has raised €890 million and joined France's Next40 programme, the government-backed list of high-growth technology companies considered future global champions. The combination of a large fundraise and Next40 status positions AMI Labs as the most heavily capitalised French AI pure-play, though the round's structure, investors, and closing date have not been detailed in available reporting.",
+      "evidence": []
+    },
+    {
+      "title": "LeBrun's Deliberate Rejection of 'AGI' and 'Superintelligence' Labels",
+      "category": "research",
+      "narrative": "In a TechCrunch profile published on 16 July, Alexandre LeBrun explained his refusal to describe AMI Labs' systems using terms such as 'AGI' or 'superintelligence', signalling a consciously cautious public positioning on AI capabilities at the exact moment the company is absorbing a major funding round. The stance differentiates AMI Labs rhetorically from several US competitors that have leaned into those framings.",
+      "evidence": [
+        {
+          "label": "TechCrunch: Why AMI Labs' Alexandre LeBrun won't call his AI 'AGI' or 'superintelligence'",
+          "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/"
+        },
+        {
+          "label": "Biztoc syndication of same article",
+          "url": "https://biztoc.com/x/376b1e7d8b073bbc"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "No new job postings this week despite a fresh €890M raise — hiring pipeline has not yet visibly accelerated in public listings.",
+      "category": "hiring"
+    },
+    {
+      "text": "Corporate capital remains unchanged at €12,449.43 and no new dirigeants were filed, indicating the fundraise has not yet flowed through to a French corporate capital increase at the INPI level.",
+      "category": "corporate"
+    },
+    {
+      "text": "Zero new IP filings (marques, brevets, dessins) this week — no trademark or patent activity coinciding with the funding announcement.",
+      "category": "administrative"
+    },
+    {
+      "text": "GitHub activity was minimal: a single event attributed to Brian Li, with nothing flagged as notable.",
+      "category": "research"
+    },
+    {
+      "text": "No new research publications from any tracked AMI Labs member this week; the standing publication count holds at 20.",
+      "category": "research"
+    }
+  ],
+  "whatToWatch": "Monitor French corporate registry filings in the coming weeks for a capital increase or new dirigeant entries that would confirm the €890M round has been formalised legally. A surge in senior technical job postings would be the next expected operational signal as the company puts fresh capital to work."
+}
