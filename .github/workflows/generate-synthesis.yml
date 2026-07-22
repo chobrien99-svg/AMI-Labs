@@ -1,0 +1,44 @@
+name: Generate Observatory Briefing
+
+on:
+  schedule:
+    - cron: "0 10 * * 1"  # Mondays 10:00 UTC — after publications (04:00), pappers (08:00), and the 06:00 activity/site runs
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  generate-synthesis:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install @anthropic-ai/sdk
+
+      - name: Generate briefing draft
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SYNTHESIS_MODEL: ${{ vars.SYNTHESIS_MODEL }}
+          SYNTHESIS_WINDOW_DAYS: ${{ vars.SYNTHESIS_WINDOW_DAYS }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/generate-synthesis.js
+
+      - name: Commit briefing draft
+        run: |
+          git config user.name "ami-synthesis-bot"
+          git config user.email "bot@ami-labs.vercel.app"
+          git add data/synthesis.pending.json
+          if git diff --staged --quiet; then
+            echo "No draft changes to commit."
+          else
+            git commit -m "chore: draft observatory briefing [$(date -u +%Y-%m-%d)]"
+            git push
+          fi
