@@ -30,7 +30,10 @@ const {
 
 const PENDING_FILE = path.resolve(__dirname, "../data/synthesis.pending.json");
 const MODEL = process.env.SYNTHESIS_MODEL || "claude-sonnet-4-6";
-const WINDOW_DAYS = Number(process.env.SYNTHESIS_WINDOW_DAYS ?? 7);
+// Actions passes an empty string for an unset `vars.SYNTHESIS_WINDOW_DAYS`,
+// which is not nullish — so `?? 7` would not fire and Number("") would be 0,
+// collapsing the window to "today only". `|| 7` falls back on "", NaN, and 0.
+const WINDOW_DAYS = Number(process.env.SYNTHESIS_WINDOW_DAYS) || 7;
 const CATEGORIES = ["funding", "research", "hiring", "administrative", "corporate"];
 
 // ── refusal detection (mirrors scripts/update-profiles.js) ───────────────────
