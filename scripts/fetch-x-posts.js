@@ -26,7 +26,9 @@ const RETRY_MS = 3000;
 const MAX_PAGES = 5; // cap pages per run (each page ≤100 posts) to bound cost
 
 const BEARER = process.env.X_BEARER_TOKEN;
-const LIST_ID = process.env.X_LIST_ID;
+// Accept either a bare numeric List ID or a full list URL (e.g. x.com/i/lists/<id>) —
+// extract the numeric ID so a pasted URL doesn't produce an invalid `list:` query.
+const LIST_ID = (process.env.X_LIST_ID || "").match(/\d{5,}/)?.[0] || null;
 const ENGAGEMENT_MIN = Number(process.env.X_ENGAGEMENT_MIN) || 50;
 const WINDOW_DAYS = Number(process.env.X_WINDOW_DAYS) || 60;
 const MAX_POSTS = Number(process.env.X_MAX_POSTS) || 500;
