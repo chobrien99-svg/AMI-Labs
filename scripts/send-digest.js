@@ -168,10 +168,19 @@ function briefingThread(t) {
   const ev = (t.evidence || [])
     .map((e) => `<a href="${e.url}" style="color:#946B2D;text-decoration:none;">${e.label}</a>`)
     .join(' <span style="color:#D5CEBD;">&middot;</span> ');
+  const paras = String(t.narrative || "")
+    .split(/\n{2,}/)
+    .map((p) => p.trim())
+    .filter(Boolean)
+    .map(
+      (p, i) =>
+        `<p style="margin:${i === 0 ? "0" : "8px 0 0"};font-size:13px;color:#4A3F30;line-height:1.55;">${p}</p>`
+    )
+    .join("");
   return `
     <div style="margin:0 0 16px;">
       <p style="margin:0 0 4px;font-size:14px;font-weight:600;color:#2C2517;">${t.title}</p>
-      <p style="margin:0;font-size:13px;color:#4A3F30;line-height:1.55;">${t.narrative}</p>
+      ${paras}
       ${ev ? `<p style="margin:6px 0 0;font-size:12px;">${ev}</p>` : ""}
     </div>`;
 }
