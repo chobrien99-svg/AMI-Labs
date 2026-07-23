@@ -9,6 +9,7 @@ type TeamMember = {
   tags: string[];
   department?: string;
   links: Record<string, string | undefined>;
+  image?: string;
 };
 
 // Location lives inside the tags array (e.g. ["Paris/New York", "Co-Founder"]).
@@ -27,6 +28,17 @@ function isOperating(m: TeamMember): boolean {
 
 function monogram(name: string) {
   return name.split(/\s+/).map((w) => w[0]).join("").slice(0, 2).toUpperCase();
+}
+
+// 4:5 duotone portrait. The monogram panel is always rendered behind the image, so
+// a missing or broken portrait degrades to the monogram with no JS and no SSR race.
+function Portrait({ m }: { m: TeamMember }) {
+  return (
+    <div className="ed-figure">
+      <span className="ed-figure-mono" aria-hidden>{monogram(m.name)}</span>
+      {m.image && <img className="founder-image" src={m.image} alt={m.name} loading="lazy" />}
+    </div>
+  );
 }
 
 // Plain text links separated by middots — no boxed icons.
@@ -57,16 +69,16 @@ function FounderProfile({ m }: { m: TeamMember }) {
   const loc = locationOf(m);
   return (
     <div className="ed-profile">
-      <div className="ed-profile-head">
-        <span className="ed-mono" aria-hidden>{monogram(m.name)}</span>
-        <div className="ed-ident">
-          <Link href={`/team/${m.slug}`} className="ed-name">{m.name}</Link>
-          <div className="ed-role">{m.role}</div>
-          {loc && <div className="ed-loc">{loc}</div>}
-        </div>
+      <Link href={`/team/${m.slug}`} className="ed-figure-link" aria-label={m.name}>
+        <Portrait m={m} />
+      </Link>
+      <div className="ed-ident">
+        <Link href={`/team/${m.slug}`} className="ed-name">{m.name}</Link>
+        <div className="ed-role">{m.role}</div>
+        {loc && <div className="ed-loc">{loc}</div>}
+        {m.body && <p className="ed-bio">{m.body}</p>}
+        <ProfileLinks m={m} />
       </div>
-      {m.body && <p className="ed-bio">{m.body}</p>}
-      <ProfileLinks m={m} />
     </div>
   );
 }
