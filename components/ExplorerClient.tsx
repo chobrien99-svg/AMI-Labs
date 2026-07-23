@@ -1,6 +1,5 @@
 "use client";
 import { useState, useMemo } from "react";
-import Link from "next/link";
 import SubscribeForm from "./SubscribeForm";
 
 const AVATAR_COLORS = [
@@ -32,14 +31,6 @@ type InvestorItem = {
   tags: string[];
   colead?: boolean;
   links?: InvestorLinks;
-};
-
-type TeamMember = {
-  slug: string;
-  name: string;
-  role: string;
-  body: string;
-  tags: string[];
 };
 
 type InvestorData = {
@@ -97,39 +88,13 @@ function InvestorCard({ item, category }: { item: InvestorItem; category: string
   );
 }
 
-function TeamCard({ member }: { member: TeamMember }) {
-  return (
-    <Link href={`/team/${member.slug}`} style={{ display: "block" }}>
-      <div className="card" style={{ cursor: "pointer" }}>
-        <div className="card-top">
-          <div className="avatar" style={avatarStyle(member.name)}>
-            {initials(member.name)}
-          </div>
-          <div>
-            <div className="card-name">{member.name}</div>
-            <div className="card-role">{member.role}</div>
-          </div>
-        </div>
-        <div className="card-body">{member.body}</div>
-        <div className="tags">
-          {(member.tags || []).map((t) => (
-            <span key={t} className="tag tag-country">{t}</span>
-          ))}
-          <span className="tag tag-team">Team</span>
-        </div>
-      </div>
-    </Link>
-  );
-}
-
 type Props = {
   investors: InvestorData;
-  team: TeamMember[];
 };
 
-type Filter = "all" | "corp" | "vc" | "angel" | "team";
+type Filter = "all" | "corp" | "vc" | "angel";
 
-export default function ExplorerClient({ investors, team }: Props) {
+export default function ExplorerClient({ investors }: Props) {
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState<Filter>("all");
 
@@ -145,14 +110,12 @@ export default function ExplorerClient({ investors, team }: Props) {
     corp: investors.corp.filter(matchItem),
     vc: investors.vc.filter(matchItem),
     angel: investors.angel.filter(matchItem),
-    team: team.filter(matchItem),
-  }), [q, investors, team]);
+  }), [q, investors]);
 
   const total =
     (filter === "all" || filter === "corp" ? filtered.corp.length : 0) +
     (filter === "all" || filter === "vc" ? filtered.vc.length : 0) +
-    (filter === "all" || filter === "angel" ? filtered.angel.length : 0) +
-    (filter === "all" || filter === "team" ? filtered.team.length : 0);
+    (filter === "all" || filter === "angel" ? filtered.angel.length : 0);
 
   const show = (cat: Filter) => filter === "all" || filter === cat;
 
@@ -164,7 +127,7 @@ export default function ExplorerClient({ investors, team }: Props) {
             <img src="/ami-logo.png" alt="AMI Labs" onError={(e) => ((e.target as HTMLImageElement).style.display = "none")} />
           </div>
           <div className="header-text">
-            <h1>AMI Labs — Investor &amp; Team Explorer</h1>
+            <h1>AMI Labs — Investors</h1>
             <p>Advanced Machine Intelligence · Paris · New York · Montreal · Singapore</p>
           </div>
           <div className="badge">
@@ -191,11 +154,6 @@ export default function ExplorerClient({ investors, team }: Props) {
             <span className="stat-num">{investors.angel.length}</span>
             <span className="stat-label">Business Angels</span>
           </div>
-          <div className="stat">
-            <div className="stat-dot" style={{ background: "var(--pink)" }} />
-            <span className="stat-num">{team.length}</span>
-            <span className="stat-label">Team Members</span>
-          </div>
         </div>
       </div>
 
@@ -214,13 +172,13 @@ export default function ExplorerClient({ investors, team }: Props) {
               onChange={(e) => setQuery(e.target.value)}
             />
           </div>
-          {(["all", "corp", "vc", "angel", "team"] as Filter[]).map((f) => (
+          {(["all", "corp", "vc", "angel"] as Filter[]).map((f) => (
             <button
               key={f}
               className={`filter-btn${filter === f ? " active" : ""}`}
               onClick={() => setFilter(f)}
             >
-              {f === "all" ? "All" : f === "corp" ? "Corporate" : f === "vc" ? "VC Firms" : f === "angel" ? "Angels" : "Team"}
+              {f === "all" ? "All" : f === "corp" ? "Corporate" : f === "vc" ? "VC Firms" : "Angels"}
             </button>
           ))}
           <span className="result-count">{total} result{total !== 1 ? "s" : ""}</span>
@@ -261,19 +219,6 @@ export default function ExplorerClient({ investors, team }: Props) {
             </div>
             <div className="cards-grid">
               {filtered.angel.map((item) => <InvestorCard key={item.name} item={item} category="angel" />)}
-            </div>
-          </>
-        )}
-
-        {show("team") && (
-          <>
-            <div className="section-header">
-              <div className="section-icon" style={{ background: "#2a1a2a" }}>🚀</div>
-              <h2>Team Members</h2>
-              <span className="section-count">{filtered.team.length}</span>
-            </div>
-            <div className="cards-grid">
-              {filtered.team.map((member) => <TeamCard key={member.slug} member={member} />)}
             </div>
           </>
         )}

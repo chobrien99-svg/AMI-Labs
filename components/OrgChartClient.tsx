@@ -35,14 +35,14 @@ type TreeNode = Member & { children: TreeNode[] };
 type ColorTriplet = { a: string; b: string; ink: string };
 
 const PALETTE: Record<string, ColorTriplet> = {
-  chairman:    { a: "#B8860B", b: "#946B2D", ink: "#6B4E1F" },
-  exec:        { a: "#C07A3A", b: "#9E5F28", ink: "#7A4618" },
-  ops:         { a: "#A85C72", b: "#87445A", ink: "#6B3347" },
-  science:     { a: "#2A7D6B", b: "#1F5E50", ink: "#17453B" },
-  research:    { a: "#3D7A4A", b: "#2B5A36", ink: "#1F4427" },
-  singapore:   { a: "#4A7FA5", b: "#345E7C", ink: "#26455C" },
-  engineering: { a: "#7E6BA5", b: "#5C4E7E", ink: "#3F3658" },
-  fallback:    { a: "#8C8474", b: "#6B6355", ink: "#4A3F30" },
+  chairman:    { a: "#8FB6FF", b: "#5C82D6", ink: "#C2D5F5" },
+  exec:        { a: "#E0A23C", b: "#B57C25", ink: "#F0C878" },
+  ops:         { a: "#9A8CFF", b: "#6E5FD6", ink: "#C7BEFF" },
+  science:     { a: "#3FC7C0", b: "#2A8B86", ink: "#8FE2DD" },
+  research:    { a: "#46C08A", b: "#2E8A63", ink: "#93E2BF" },
+  singapore:   { a: "#5AA9E6", b: "#3B78AD", ink: "#A6D4F4" },
+  engineering: { a: "#AEB7C6", b: "#7E8797", ink: "#D6DCE6" },
+  fallback:    { a: "#8892A1", b: "#5C6675", ink: "#BCC4CF" },
 };
 
 const PERSON_COLOR: Record<string, ColorTriplet> = {
@@ -452,7 +452,7 @@ function PersonCard({ person, highlight, isRoot, isCEO, onHover, onLeave, onClic
         <div className="pcard2-body">
           <div className="pcard2-namerow">
             <h3 className="pcard2-name">{person.name}</h3>
-            {isRoot && <span className="pcard2-mark" title="Executive Chairman" aria-hidden>✦</span>}
+            {isRoot && <span className="pcard2-mark" title="Executive Chairman" aria-hidden>CHAIR</span>}
           </div>
           <div className="pcard2-role">{person.role}</div>
 

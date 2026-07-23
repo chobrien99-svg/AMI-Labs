@@ -34,8 +34,7 @@ export default function Hero() {
         <div>
           <div className="fig">
             <div className="fig-bar"><span className="sq" />Fig.01 — Embodied manipulation</div>
-            {/* Placeholder: swap for /cube_1_half.gif (exceeds the design import size cap). */}
-            <img src="/lewm-demo.gif" alt="Robot arm acting under a learned dynamics model" />
+            <img src="/cube_1_half.gif" alt="UR5 arm performing pick-and-place under a learned world model" />
             <div className="fig-cap">UR5 arm · pick-and-place guided by a <b>learned world model</b></div>
           </div>
           <p className="hero-note">The arm plans its next move by simulating what will happen — not by matching text. Intelligence begins in the world, not in language.</p>
