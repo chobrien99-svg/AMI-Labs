@@ -70,7 +70,15 @@ function Thread({ thread }: { thread: BriefingThread }) {
           {thread.category}
         </span>
       </div>
-      <p className="briefing-narrative">{thread.narrative}</p>
+      {thread.narrative
+        .split(/\n{2,}/)
+        .map((para) => para.trim())
+        .filter(Boolean)
+        .map((para, i) => (
+          <p key={i} className="briefing-narrative">
+            {para}
+          </p>
+        ))}
       {thread.evidence.length > 0 && (
         <ul className="briefing-evidence">
           {thread.evidence.map((e) => (
