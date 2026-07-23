@@ -167,6 +167,8 @@ function computePublicationFacts(research, prevSnapshot, sinceTime, census) {
     if (!notable.has(p.paperId)) notable.set(p.paperId, p);
   }
 
+  // Census surveys the whole corpus, so let every paper reach the prompt (with a leaner
+  // abstract to keep the payload sane); a normal run keeps the top dozen with full abstracts.
   const strip = (p) => ({
     memberName: p.memberName,
     teamAuthors: (p.teamAuthors || []).map((a) => a.name),
@@ -177,14 +179,16 @@ function computePublicationFacts(research, prevSnapshot, sinceTime, census) {
     url: p.url,
     citationCount: p.citationCount || 0,
     tldr: p.tldr || null,
-    abstract: p.abstract ? p.abstract.slice(0, 600) : null,
+    abstract: p.abstract ? p.abstract.slice(0, census ? 280 : 600) : null,
   });
 
+  const cap = census ? papers.length : 12;
   return {
     total: papers.length,
     newSinceLast: notable.size,
-    newItems: [...notable.values()].slice(0, 12).map(strip),
-    recent: papers.filter(inWin).slice(0, 12).map(strip),
+    newItems: [...notable.values()].slice(0, cap).map(strip),
+    // In census, newItems already carries the whole corpus — don't duplicate it in `recent`.
+    recent: census ? [] : papers.filter(inWin).slice(0, 12).map(strip),
     publicationKeys: keys, // paperIds, for next snapshot
   };
 }
