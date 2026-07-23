@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 20 * * 0"  # Sunday 20:00 UTC (~Sun night in Paris) — leaves the night + Mon morning to review & publish before the Mon 09:00 digest
   workflow_dispatch:
+    inputs:
+      preserve_snapshot:
+        description: "Test/preview run: generate the draft but DON'T advance the diff baseline (so a new hire/paper/filing still surfaces on the next scheduled run)."
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -27,6 +32,8 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SYNTHESIS_MODEL: ${{ vars.SYNTHESIS_MODEL }}
           SYNTHESIS_WINDOW_DAYS: ${{ vars.SYNTHESIS_WINDOW_DAYS }}
+          # Empty on scheduled runs (baseline advances); "true" by default on manual runs (baseline preserved).
+          SYNTHESIS_PRESERVE_SNAPSHOT: ${{ github.event.inputs.preserve_snapshot }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: node scripts/generate-synthesis.js
