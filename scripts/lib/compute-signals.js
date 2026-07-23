@@ -49,6 +49,7 @@ function loadData(dataDir) {
     news: read("news.json"),
     jobs: read("jobs.json"),
     publications: read("publications.json"),
+    research: read("research.json"),
     github: read("github-activity.json"),
     pappers: read("pappers.json"),
     inpi: read("inpi.json"),
@@ -129,47 +130,58 @@ function computeJobFacts(jobs, prevSnapshot) {
   };
 }
 
-function pubKey(slug, p) {
-  return `${slug}|${(p.title || "").trim()}|${p.year || ""}`;
+// Consumes the team-wide recency feed (data/research.json). A paper is "notable"
+// this run if it is newly seen (diff by paperId vs snapshot) OR freshly published
+// inside the window. `newItems` carries tldr/abstract so the synthesis can explain
+// what each paper is and why it matters — grounded, never invented.
+function bestPubDate(p) {
+  return p.publicationDate || (p.year ? `${p.year}-07-01` : null);
 }
 
-function computePublicationFacts(publications, prevSnapshot) {
-  const empty = { total: 0, newSinceLast: 0, newItems: [], topCited: [], publicationKeys: [] };
-  if (!publications || typeof publications !== "object") return empty;
-  const flat = [];
-  const keys = [];
-  for (const [slug, papers] of Object.entries(publications)) {
-    if (!Array.isArray(papers)) continue;
-    for (const p of papers) {
-      const key = pubKey(slug, p);
-      keys.push(key);
-      flat.push({
-        member: slug,
-        title: p.title,
-        year: p.year,
-        venue: p.venue || "",
-        url: p.url,
-        citationCount: p.citationCount || 0,
-        _key: key,
-      });
-    }
+function computePublicationFacts(research, prevSnapshot, sinceTime) {
+  const empty = { total: 0, newSinceLast: 0, newItems: [], recent: [], publicationKeys: [] };
+  const papers = research && Array.isArray(research.papers) ? research.papers : [];
+  if (!papers.length) return empty;
+
+  const keys = papers.map((p) => p.paperId).filter(Boolean);
+
+  // Snapshot migration: earlier snapshots stored `slug|title|year` keys. If we detect
+  // that old format, treat this run as a baseline so switching to paperId keys does not
+  // surface every paper as "new" in one burst.
+  const prevKeysRaw = (prevSnapshot && prevSnapshot.publicationKeys) || null;
+  const prevIsOldFormat = prevKeysRaw && prevKeysRaw.some((k) => typeof k === "string" && k.includes("|"));
+  const prevKeys = prevIsOldFormat ? null : prevKeysRaw;
+
+  const inWin = (p) => {
+    const d = bestPubDate(p);
+    return d ? inWindow(d, sinceTime) : false;
+  };
+
+  const newlySeen = prevKeys ? papers.filter((p) => !prevKeys.includes(p.paperId)) : [];
+  const notable = new Map();
+  for (const p of [...newlySeen, ...papers.filter(inWin)]) {
+    if (!notable.has(p.paperId)) notable.set(p.paperId, p);
   }
-  const prevKeys = (prevSnapshot && prevSnapshot.publicationKeys) || null;
-  const newList = prevKeys ? flat.filter((p) => !prevKeys.includes(p._key)) : [];
+
   const strip = (p) => ({
-    member: p.member,
+    memberName: p.memberName,
+    teamAuthors: (p.teamAuthors || []).map((a) => a.name),
     title: p.title,
     year: p.year,
-    venue: p.venue,
+    publicationDate: p.publicationDate || null,
+    venue: p.venue || null,
     url: p.url,
-    citationCount: p.citationCount,
+    citationCount: p.citationCount || 0,
+    tldr: p.tldr || null,
+    abstract: p.abstract ? p.abstract.slice(0, 600) : null,
   });
+
   return {
-    total: flat.length,
-    newSinceLast: newList.length,
-    newItems: newList.map(strip),
-    topCited: [...flat].sort((a, b) => b.citationCount - a.citationCount).slice(0, 5).map(strip),
-    publicationKeys: keys, // for next snapshot
+    total: papers.length,
+    newSinceLast: notable.size,
+    newItems: [...notable.values()].slice(0, 12).map(strip),
+    recent: papers.filter(inWin).slice(0, 12).map(strip),
+    publicationKeys: keys, // paperIds, for next snapshot
   };
 }
 
@@ -300,7 +312,7 @@ function buildFacts(data, { since, prevSnapshot } = {}) {
 
   const news = computeNewsFacts(data.news, sinceTime);
   const jobsFull = computeJobFacts(data.jobs, prev);
-  const pubsFull = computePublicationFacts(data.publications, prev);
+  const pubsFull = computePublicationFacts(data.research, prev, sinceTime);
   const github = computeGithubFacts(data.github, sinceTime);
   const corpFull = computeCorporateFacts(data.pappers, sinceTime, prev);
   const ipFull = computeIpFacts(data.inpi, prev);
@@ -354,7 +366,7 @@ function collectAllowedUrls(facts) {
   (facts.news.items || []).forEach((i) => add(i.url));
   (facts.jobs.newItems || []).forEach((i) => add(i.url));
   (facts.publications.newItems || []).forEach((i) => add(i.url));
-  (facts.publications.topCited || []).forEach((i) => add(i.url));
+  (facts.publications.recent || []).forEach((i) => add(i.url));
   (facts.github.notable || []).forEach((i) => add(i.url));
   return urls;
 }
