@@ -9,6 +9,10 @@ on:
         description: "Test/preview run: generate the draft but DON'T advance the diff baseline (so a new hire/paper/filing still surfaces on the next scheduled run)."
         type: boolean
         default: true
+      census:
+        description: "One-off 'State of AMI' census: survey the FULL current picture (all papers/jobs/officers/filings), not just the week. Advances the baseline, so the next run returns to weekly deltas."
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -34,6 +38,8 @@ jobs:
           SYNTHESIS_WINDOW_DAYS: ${{ vars.SYNTHESIS_WINDOW_DAYS }}
           # Empty on scheduled runs (baseline advances); "true" by default on manual runs (baseline preserved).
           SYNTHESIS_PRESERVE_SNAPSHOT: ${{ github.event.inputs.preserve_snapshot }}
+          # "true" only for a deliberate one-off full-state census; empty otherwise.
+          SYNTHESIS_CENSUS: ${{ github.event.inputs.census }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: node scripts/generate-synthesis.js

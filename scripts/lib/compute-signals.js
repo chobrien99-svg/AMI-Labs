@@ -109,14 +109,15 @@ function computeNewsFacts(news, sinceTime) {
   };
 }
 
-function computeJobFacts(jobs, prevSnapshot) {
+function computeJobFacts(jobs, prevSnapshot, census) {
   const empty = { total: 0, newSinceLast: 0, newItems: [], byDepartment: {}, jobIds: [] };
   const list = jobs && Array.isArray(jobs.jobs) ? jobs.jobs : [];
   if (!list.length) return empty;
   const jobIds = list.map((j) => j.id).filter(Boolean);
   const prevIds = (prevSnapshot && prevSnapshot.jobIds) || null;
-  // First run (no baseline) → don't report every existing job as "new".
-  const newList = prevIds ? list.filter((j) => !prevIds.includes(j.id)) : [];
+  // Census → surface every current job. First normal run (no baseline) → surface none
+  // (establish baseline). Otherwise → only jobs absent from the prior snapshot.
+  const newList = census ? list.slice() : prevIds ? list.filter((j) => !prevIds.includes(j.id)) : [];
   return {
     total: list.length,
     newSinceLast: newList.length,
@@ -139,7 +140,7 @@ function bestPubDate(p) {
   return p.publicationDate || (p.year ? `${p.year}-07-01` : null);
 }
 
-function computePublicationFacts(research, prevSnapshot, sinceTime) {
+function computePublicationFacts(research, prevSnapshot, sinceTime, census) {
   const empty = { total: 0, newSinceLast: 0, newItems: [], recent: [], publicationKeys: [] };
   const papers = research && Array.isArray(research.papers) ? research.papers : [];
   if (!papers.length) return empty;
@@ -158,7 +159,9 @@ function computePublicationFacts(research, prevSnapshot, sinceTime) {
     return d ? inWindow(d, sinceTime) : false;
   };
 
-  const newlySeen = prevKeys ? papers.filter((p) => !prevKeys.includes(p.paperId)) : [];
+  // Census → treat the whole current corpus as notable. Otherwise → papers absent from
+  // the prior snapshot (or none, on a migrated/baseline run).
+  const newlySeen = census ? papers.slice() : prevKeys ? papers.filter((p) => !prevKeys.includes(p.paperId)) : [];
   const notable = new Map();
   for (const p of [...newlySeen, ...papers.filter(inWin)]) {
     if (!notable.has(p.paperId)) notable.set(p.paperId, p);
@@ -217,7 +220,7 @@ function computeGithubFacts(github, sinceTime) {
   return { windowEventCount, byMember, notable: notable.slice(0, 10) };
 }
 
-function computeCorporateFacts(pappers, sinceTime, prevSnapshot) {
+function computeCorporateFacts(pappers, sinceTime, prevSnapshot, census) {
   const empty = {
     capital: null, capitalChanged: false, prevCapital: null,
     newDirigeants: [], adresse: "", denomination: "",
@@ -230,8 +233,11 @@ function computeCorporateFacts(pappers, sinceTime, prevSnapshot) {
   const prevCapital = prevSnapshot && typeof prevSnapshot.capital === "number"
     ? prevSnapshot.capital : null;
 
-  // New directors: either not in prev snapshot (diff) or nominated within the window.
-  const newByDiff = prevKeys
+  // New directors: census → all current officers; else not in prev snapshot (diff) or
+  // nominated within the window.
+  const newByDiff = census
+    ? dirigeants.slice()
+    : prevKeys
     ? dirigeants.filter((d) => !prevKeys.includes(`${d.nom}|${d.qualite}`))
     : [];
   const newByDate = dirigeants.filter((d) => inWindow(d.dateNomination, sinceTime));
@@ -257,22 +263,22 @@ function computeCorporateFacts(pappers, sinceTime, prevSnapshot) {
   };
 }
 
-function diffArray(current, prev, keyFn) {
+function diffArray(current, prev, keyFn, census) {
   const list = Array.isArray(current) ? current : [];
   const keys = list.map(keyFn);
   const prevKeys = Array.isArray(prev) ? prev : null;
-  const newItems = prevKeys ? list.filter((it) => !prevKeys.includes(keyFn(it))) : [];
+  const newItems = census ? list.slice() : prevKeys ? list.filter((it) => !prevKeys.includes(keyFn(it))) : [];
   return { newItems, keys };
 }
 
-function computeIpFacts(inpi, prevSnapshot) {
+function computeIpFacts(inpi, prevSnapshot, census) {
   const empty = { newMarques: [], newBrevets: [], newDessins: [], marqueKeys: [], brevetKeys: [], dessinKeys: [] };
   if (!inpi || typeof inpi !== "object") return empty;
   const prev = prevSnapshot || {};
   const mk = (x) => x.id || x.numero || x.nom || JSON.stringify(x);
-  const m = diffArray(inpi.marques, prev.marqueKeys, mk);
-  const b = diffArray(inpi.brevets, prev.brevetKeys, mk);
-  const d = diffArray(inpi.dessinsModeles, prev.dessinKeys, mk);
+  const m = diffArray(inpi.marques, prev.marqueKeys, mk, census);
+  const b = diffArray(inpi.brevets, prev.brevetKeys, mk, census);
+  const d = diffArray(inpi.dessinsModeles, prev.dessinKeys, mk, census);
   return {
     newMarques: m.newItems,
     newBrevets: b.newItems,
@@ -333,16 +339,19 @@ function computeSocialFacts(x, sinceTime) {
 
 // ── orchestrator ─────────────────────────────────────────────────────────────
 
-function buildFacts(data, { since, prevSnapshot } = {}) {
-  const sinceTime = toTime(since);
+function buildFacts(data, { since, prevSnapshot, census = false } = {}) {
+  // Census → no time window (sinceTime 0 admits every dated item) and every diff-based
+  // source reports its full current set. The snapshot returned is still the fresh
+  // current state, so the NEXT (normal) run diffs against it and returns to deltas.
+  const sinceTime = census ? 0 : toTime(since);
   const prev = prevSnapshot || {};
 
   const news = computeNewsFacts(data.news, sinceTime);
-  const jobsFull = computeJobFacts(data.jobs, prev);
-  const pubsFull = computePublicationFacts(data.research, prev, sinceTime);
+  const jobsFull = computeJobFacts(data.jobs, prev, census);
+  const pubsFull = computePublicationFacts(data.research, prev, sinceTime, census);
   const github = computeGithubFacts(data.github, sinceTime);
-  const corpFull = computeCorporateFacts(data.pappers, sinceTime, prev);
-  const ipFull = computeIpFacts(data.inpi, prev);
+  const corpFull = computeCorporateFacts(data.pappers, sinceTime, prev, census);
+  const ipFull = computeIpFacts(data.inpi, prev, census);
   const monitoring = computeMonitoringFacts(data.monitoring, sinceTime);
   const timeline = computeTimelineFacts(data.timeline, sinceTime);
   const social = computeSocialFacts(data.x, sinceTime);
