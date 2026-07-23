@@ -31,10 +31,31 @@
 }
 
 /* ── founder roster (equal 3-up editorial profiles, no cards) ──────────── */
-.ed-roster { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 44px; }
-.ed-profile { padding: 26px 0 6px; border-top: 1px solid var(--border); }
-.ed-profile-head { display: flex; gap: 14px; align-items: flex-start; }
+.ed-roster { display: grid; grid-template-columns: repeat(3, 1fr); gap: 34px 44px; }
+.ed-profile {
+  display: grid; grid-template-columns: 160px 1fr; gap: 22px; align-items: start;
+  padding: 26px 0 4px; border-top: 1px solid var(--border);
+}
 .ed-ident { min-width: 0; }
+
+/* 4:5 duotone portrait; the monogram panel always sits behind, as the fallback. */
+.ed-figure-link { display: block; text-decoration: none; }
+.ed-figure {
+  position: relative; aspect-ratio: 4 / 5; width: 100%;
+  border-radius: 6px; overflow: hidden; border: 1px solid var(--border-strong);
+  background: linear-gradient(160deg, var(--surface), var(--surface2));
+  display: flex; align-items: center; justify-content: center;
+}
+.ed-figure-mono {
+  font-family: var(--f-mono); font-weight: 600; font-size: 1.5rem;
+  letter-spacing: .08em; color: var(--muted);
+}
+.founder-image {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; object-position: center 25%;
+  filter: grayscale(1) contrast(1.03) sepia(.08); transition: filter .2s;
+}
+.ed-figure-link:hover .founder-image { filter: grayscale(1) contrast(1.05) sepia(.15) brightness(1.02); }
 .ed-name {
   font-family: var(--f-serif); font-size: 1.18rem; font-weight: 600;
   line-height: 1.2; letter-spacing: -.01em; color: var(--text);
@@ -138,12 +159,14 @@ a.ed-row-title:hover { color: var(--clay); }
 
 /* ── responsive ────────────────────────────────────────────────────────── */
 @media (max-width: 880px) {
-  .ed-roster { grid-template-columns: repeat(2, 1fr); gap: 0 32px; }
+  .ed-roster { grid-template-columns: repeat(2, 1fr); gap: 30px 32px; }
+  .ed-profile { grid-template-columns: 150px 1fr; }
   .ed-directory { grid-template-columns: 1fr; }
   .ed-lead-title { font-size: 1.6rem; }
 }
 @media (max-width: 560px) {
   .ed-roster { grid-template-columns: 1fr; }
-  .ed-section-head { flex-direction: column; gap: 6px; }
+  .ed-profile { grid-template-columns: 128px 1fr; gap: 18px; }
+  .ed-section-head { flex-direction: column; gap: 6px; align-items: flex-start; }
   .ed-lead-title { font-size: 1.4rem; }
 }

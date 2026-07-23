@@ -2,7 +2,20 @@ import teamData from "@/data/team.json";
 import TeamGridClient from "@/components/TeamGridClient";
 import { client } from "@/sanity/lib/client";
 import { allPersonsQuery } from "@/sanity/lib/queries";
+import imageUrlBuilder from "@sanity/image-url";
 import type { Metadata } from "next";
+
+const builder = imageUrlBuilder(client);
+// Build a square portrait URL from a Sanity image; null on any malformed source.
+function portraitUrl(photo: unknown): string | undefined {
+  try {
+    return builder
+      .image(photo as Parameters<typeof builder.image>[0])
+      .width(240).height(240).fit("crop").url();
+  } catch {
+    return undefined;
+  }
+}
 
 export const revalidate = 300;
 
@@ -32,6 +45,7 @@ export type TeamMember = {
   tags: string[];
   department?: string;
   links: Record<string, string | undefined>;
+  image?: string; // portrait URL (git-native /team/<slug>.jpg or a Sanity photo)
 };
 
 export default async function TeamPage() {
@@ -42,6 +56,7 @@ export default async function TeamPage() {
     body: m.body || "",
     tags: m.tags || [],
     links: m.links || {},
+    image: (m as { image?: string }).image || undefined,
   }));
 
   try {
@@ -56,10 +71,15 @@ export default async function TeamPage() {
           tags: p.tags ?? [],
           department: p.department,
           links: p.links ?? {},
+          image: p.photo?.asset ? portraitUrl(p.photo) : undefined,
         }])
       );
       team = [
-        ...team.map((m) => sanityMap.get(m.slug) ?? m),
+        // Prefer Sanity content, but keep a JSON-provided portrait if Sanity has none.
+        ...team.map((m) => {
+          const s = sanityMap.get(m.slug);
+          return s ? { ...s, image: s.image ?? m.image } : m;
+        }),
         ...persons
           .filter((p) => !team.some((m) => m.slug === p.slug.current))
           .map((p) => ({
@@ -70,6 +90,7 @@ export default async function TeamPage() {
             tags: p.tags ?? [],
             department: p.department,
             links: p.links ?? {},
+            image: p.photo?.asset ? portraitUrl(p.photo) : undefined,
           })),
       ];
     }
