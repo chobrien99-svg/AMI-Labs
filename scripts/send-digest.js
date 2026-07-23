@@ -146,9 +146,58 @@ function jobRow(j) {
     </tr>`;
 }
 
+// ── Observatory Briefing (published, human-reviewed synthesis) ────────────────
+
+// Only include a briefing that is published (status "ok") AND fresh — so an
+// unpublished or stale (e.g. skipped-week) briefing is never re-emailed.
+function loadBriefing() {
+  try {
+    const b = JSON.parse(fs.readFileSync(path.resolve(__dirname, "../data/synthesis.json"), "utf8"));
+    if (!b || b.status !== "ok" || !b.headline) return null;
+    const stamp = b.publishedAt || b.generatedAt;
+    if (!stamp) return null;
+    const ageDays = (Date.now() - new Date(stamp).getTime()) / (24 * 60 * 60 * 1000);
+    if (!(ageDays >= 0) || ageDays > 9) return null;
+    return b;
+  } catch {
+    return null;
+  }
+}
+
+function briefingThread(t) {
+  const ev = (t.evidence || [])
+    .map((e) => `<a href="${e.url}" style="color:#946B2D;text-decoration:none;">${e.label}</a>`)
+    .join(' <span style="color:#D5CEBD;">&middot;</span> ');
+  return `
+    <div style="margin:0 0 16px;">
+      <p style="margin:0 0 4px;font-size:14px;font-weight:600;color:#2C2517;">${t.title}</p>
+      <p style="margin:0;font-size:13px;color:#4A3F30;line-height:1.55;">${t.narrative}</p>
+      ${ev ? `<p style="margin:6px 0 0;font-size:12px;">${ev}</p>` : ""}
+    </div>`;
+}
+
+function briefingSection(b) {
+  const threads = (b.threads || []).slice(0, 4).map(briefingThread).join("");
+  return `
+        <tr>
+          <td style="padding:24px 0 8px;">
+            <p style="margin:0;font-size:11px;font-weight:700;color:#8C8474;text-transform:uppercase;letter-spacing:0.08em;">Observatory Briefing</p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:0 0 20px;border-bottom:1px solid #D5CEBD;">
+            <h2 style="margin:0 0 10px;font-size:20px;font-weight:600;color:#2C2517;font-family:Georgia,'Times New Roman',serif;line-height:1.25;letter-spacing:-0.01em;">${b.headline}</h2>
+            <p style="margin:0 0 18px;font-size:14px;color:#4A3F30;line-height:1.6;">${b.stateOfPlay}</p>
+            ${threads}
+            ${b.whatToWatch ? `<p style="margin:14px 0 0;font-size:13px;color:#4A3F30;line-height:1.55;"><strong style="color:#946B2D;">What to watch:</strong> ${b.whatToWatch}</p>` : ""}
+            <p style="margin:18px 0 0;"><a href="${SITE_URL}/briefing" style="color:#946B2D;font-weight:600;text-decoration:none;font-size:13px;">Read the full briefing &rarr;</a></p>
+          </td>
+        </tr>`;
+}
+
 // ── fetch subscribers and send ────────────────────────────────────────────────
 
-function buildHtml(newArticles, newJobs) {
+function buildHtml(briefing, newArticles, newJobs) {
   const weekLabel = new Date().toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
   return `<!DOCTYPE html>
 <html lang="en">
@@ -172,6 +221,8 @@ function buildHtml(newArticles, newJobs) {
             <p style="margin:6px 0 0;font-size:13px;color:#8C8474;">Week of ${weekLabel}</p>
           </td>
         </tr>
+
+        ${briefing ? briefingSection(briefing) : ""}
 
         ${newArticles.length > 0 ? `
         <!-- news -->
@@ -231,15 +282,16 @@ async function main() {
   const sanityUrls = new Set(sanityArticles.map((a) => a.url));
   const newArticles = [...sanityArticles, ...jsonArticles.filter((a) => !sanityUrls.has(a.url))];
   const newJobs = recentItems("jobs.json", "postedAt");
+  const briefing = loadBriefing();
 
-  console.log(`Sanity articles: ${sanityArticles.length}, JSON articles: ${jsonArticles.length}, Jobs: ${newJobs.length}`);
+  console.log(`Briefing: ${briefing ? "yes" : "no"}, Sanity articles: ${sanityArticles.length}, JSON articles: ${jsonArticles.length}, Jobs: ${newJobs.length}`);
 
-  if (newArticles.length === 0 && newJobs.length === 0) {
+  if (!briefing && newArticles.length === 0 && newJobs.length === 0) {
     console.log("Nothing new this week — skipping digest.");
     process.exit(0);
   }
 
-  const html = buildHtml(newArticles, newJobs);
+  const html = buildHtml(briefing, newArticles, newJobs);
 
   // Fetch all contacts
   const contactsRes = await resend("GET", `/audiences/${AUDIENCE_ID}/contacts`);

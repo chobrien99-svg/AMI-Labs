@@ -530,6 +530,7 @@ async function notifyPendingArticles(pendingArticles) {
     title: `[News Bot] ${pendingArticles.length} article(s) need review`,
     body,
     labels: ["news-bot", "review-needed"],
+    assignees: [owner], // notify the repo owner (GitHub emails/pushes to the assignee)
   });
 
   return new Promise((resolve) => {

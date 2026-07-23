@@ -2,7 +2,7 @@ name: Generate Observatory Briefing
 
 on:
   schedule:
-    - cron: "0 10 * * 1"  # Mondays 10:00 UTC — after publications (04:00), pappers (08:00), and the 06:00 activity/site runs
+    - cron: "0 20 * * 0"  # Sunday 20:00 UTC (~Sun night in Paris) — leaves the night + Mon morning to review & publish before the Mon 09:00 digest
   workflow_dispatch:
 
 permissions:
