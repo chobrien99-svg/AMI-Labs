@@ -50,6 +50,7 @@ function loadData(dataDir) {
     jobs: read("jobs.json"),
     publications: read("publications.json"),
     research: read("research.json"),
+    x: read("x-posts.json"),
     github: read("github-activity.json"),
     pappers: read("pappers.json"),
     inpi: read("inpi.json"),
@@ -304,6 +305,32 @@ function computeTimelineFacts(timeline, sinceTime) {
   return { recentMilestones: recent };
 }
 
+// Captured X (Twitter) posts from the team List. "Notable" = keyword-tagged or high-engagement,
+// so the synthesis only ever sees the signal-bearing subset, not the firehose.
+function computeSocialFacts(x, sinceTime) {
+  const empty = { windowCount: 0, byTag: {}, notable: [] };
+  const posts = x && Array.isArray(x.posts) ? x.posts : [];
+  if (!posts.length) return empty;
+  const inWin = posts.filter((p) => inWindow(p.createdAt, sinceTime));
+  const byTag = {};
+  for (const p of inWin) for (const t of p.tags || []) byTag[t] = (byTag[t] || 0) + 1;
+  const notable = inWin
+    .filter((p) => (p.tags && p.tags.length) || p.highEngagement)
+    .sort((a, b) => (b.engagementScore || 0) - (a.engagementScore || 0) || (toTime(b.createdAt) - toTime(a.createdAt)))
+    .slice(0, 15)
+    .map((p) => ({
+      author: p.authorName || p.authorUsername,
+      handle: p.authorUsername,
+      text: p.text,
+      url: p.url,
+      createdAt: p.createdAt,
+      tags: p.tags || [],
+      metrics: p.metrics,
+      highEngagement: !!p.highEngagement,
+    }));
+  return { windowCount: inWin.length, byTag, notable };
+}
+
 // ── orchestrator ─────────────────────────────────────────────────────────────
 
 function buildFacts(data, { since, prevSnapshot } = {}) {
@@ -318,6 +345,7 @@ function buildFacts(data, { since, prevSnapshot } = {}) {
   const ipFull = computeIpFacts(data.inpi, prev);
   const monitoring = computeMonitoringFacts(data.monitoring, sinceTime);
   const timeline = computeTimelineFacts(data.timeline, sinceTime);
+  const social = computeSocialFacts(data.x, sinceTime);
 
   // Split rendered "facts" from snapshot-only bookkeeping fields.
   const { jobIds, ...jobs } = jobsFull;
@@ -325,7 +353,7 @@ function buildFacts(data, { since, prevSnapshot } = {}) {
   const { dirigeantKeys, ...corporate } = corpFull;
   const { marqueKeys, brevetKeys, dessinKeys, ...ip } = ipFull;
 
-  const facts = { news, jobs, publications, github, corporate, ip, monitoring, timeline };
+  const facts = { news, jobs, publications, github, corporate, ip, monitoring, timeline, social };
 
   const snapshot = {
     jobIds,
@@ -355,6 +383,7 @@ function isEmpty(facts) {
     f.ip.newMarques.length + f.ip.newBrevets.length + f.ip.newDessins.length,
     f.monitoring.changedTargets.length,
     f.timeline.recentMilestones.length,
+    f.social ? f.social.notable.length : 0,
   ];
   return counts.every((c) => !c);
 }
@@ -368,6 +397,7 @@ function collectAllowedUrls(facts) {
   (facts.publications.newItems || []).forEach((i) => add(i.url));
   (facts.publications.recent || []).forEach((i) => add(i.url));
   (facts.github.notable || []).forEach((i) => add(i.url));
+  if (facts.social) (facts.social.notable || []).forEach((i) => add(i.url));
   return urls;
 }
 
@@ -386,4 +416,5 @@ module.exports = {
   computeIpFacts,
   computeMonitoringFacts,
   computeTimelineFacts,
+  computeSocialFacts,
 };

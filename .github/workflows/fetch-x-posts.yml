@@ -1,0 +1,40 @@
+name: Fetch X Posts
+
+on:
+  schedule:
+    - cron: "0 5 * * *"  # daily 05:00 UTC — well inside the 7-day recent-search window
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-x-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch X List posts
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          X_LIST_ID: ${{ vars.X_LIST_ID }}
+          X_ENGAGEMENT_MIN: ${{ vars.X_ENGAGEMENT_MIN }}
+          X_WINDOW_DAYS: ${{ vars.X_WINDOW_DAYS }}
+          X_MAX_POSTS: ${{ vars.X_MAX_POSTS }}
+        run: node scripts/fetch-x-posts.js
+
+      - name: Commit captured posts
+        run: |
+          git config user.name "ami-x-bot"
+          git config user.email "bot@ami-labs.vercel.app"
+          git add data/x-posts.json
+          if git diff --staged --quiet; then
+            echo "No new posts."
+          else
+            git commit -m "chore: capture X posts [$(date -u +%Y-%m-%d)]"
+            git push
+          fi
