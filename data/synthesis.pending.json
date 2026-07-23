@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T21:22:11.748Z",
+  "generatedAt": "2026-07-23T21:48:18.539Z",
   "window": {
     "days": 7,
     "since": "2026-07-16",
@@ -8,28 +8,20 @@
   "model": "claude-sonnet-4-6",
   "facts": {
     "news": {
-      "windowCount": 4,
+      "windowCount": 3,
       "byTag": {
-        "funding": 1
+        "hiring": 1
       },
       "items": [
         {
-          "title": "Alexandre Lebrun passe le flambeau à Brian Manning à la tête de Nabla - Maddyness",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWkJFdng4eUhfQm5Nand6U1A4d19PdXM1YnRfOFI0MTl1NmUtaFpTTVRlNFVBb2tFdjNWbS1TQlNGQmlJZmRtRnJWVmF6Y3pvR29KSmVSNWdEd2EzQ0RDczBIUllmQ1owWF9GZk1CSkpzTWt5NlRMOG1mWWxKS3lBWjl4T2MxRnlGNkNDWXNVUlByaHZLdFQ5NWV0SjU4T1pUSnp3TVVkVnJseG8?oc=5",
-          "source": "Google News",
-          "publishedAt": "2026-07-22",
-          "tags": [],
-          "summary": "Alexandre Lebrun has stepped down as head of Nabla, with Brian Manning taking over leadership of the company. The leadership transition was reported by Maddyness."
-        },
-        {
-          "title": "890 millions d'euros, 2026, AMI Labs de Yann LeCun entre au Next40, ce que cette lev��e change pour l'IA française - voone-actu.com",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPS2E5MTZMcDE0aVo5MTdTaFNnQThHY2tab2pwUGhjNWZxX2s4d1RXMHRpZkw3UnZKekwxcG9kWGlkdjhfWWw5UDVEMm5KM3BYSGViTWplUnlCN1Jfby1lWUNYTG1POEZoRWVrX0NOTEM1MlMzOHJFV0VHZnQ1R2hqZ250SlVZUDMtbWNLejNpNnk4R3NpV1FZZUhjXzRwSWcxWGFrUzN2V1VLSGgyS20zRkJEeWN3TnRzT1ZRYlQybFkteE1jQ0JsTFlNUUQ?oc=5",
-          "source": "Google News",
+          "title": "Alexandre Lebrun passe le flambeau à Brian Manning à la tête de Nabla",
+          "url": "https://www.maddyness.com/2026/07/21/alexandre-lebrun-passe-le-flambeau-a-brian-manning-a-la-tete-de-nabla",
+          "source": "Maddyness",
           "publishedAt": "2026-07-22",
           "tags": [
-            "funding"
+            "hiring"
           ],
-          "summary": "AMI Labs, an artificial intelligence company founded by Yann LeCun, has raised 890 million euros and joined France's Next40 program by 2026, marking a significant development for the French AI sector. This funding and inclusion in the prestigious Next40 list represents a major boost for France's artificial intelligence industry and positions AMI Labs as a key player in the competitive AI landscape."
+          "summary": "Alexandre Lebrun has stepped down as head of Nabla, with Brian Manning taking over leadership of the company. The leadership transition was reported by Maddyness."
         },
         {
           "title": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’",
@@ -160,57 +152,38 @@
     "dessinKeys": []
   },
   "status": "ok",
-  "headline": "AMI Labs raises €890M and joins Next40 as LeBrun publicly rejects 'AGI' framing",
-  "stateOfPlay": "AMI Labs' most consequential week on record: a €890 million fundraise and entry into France's Next40 programme cement it as a flagship of the French AI sector. Simultaneously, co-founder Alexandre LeBrun used the media attention to stake out a deliberate terminological position, refusing to describe the company's systems as AGI or superintelligence. No new hires, publications, or corporate filings were recorded this week, keeping the spotlight squarely on the funding milestone and its narrative framing.",
+  "headline": "LeBrun's Semantic Caution Is the Clearest Signal of AMI's Public Strategy This Week",
+  "stateOfPlay": "A quiet week on the technical front — no new publications, no new hires, minimal GitHub activity — throws AMI's public positioning into sharper relief. The dominant story is founder Alexandre LeBrun's deliberate refusal to deploy the language of AGI or superintelligence, covered by TechCrunch and amplified via Biztoc. Combined with LeBrun's concurrent exit from the Nabla chairmanship, the week suggests a founder increasingly focused on AMI's identity and narrative as the company's primary asset at this stage. There is no new research or product signal to read this week; the signal is the silence, and what AMI's leadership chooses to say into it.",
   "threads": [
     {
-      "title": "€890M raise and Next40 entry mark AMI Labs' arrival as a national AI champion",
-      "category": "funding",
-      "narrative": "AMI Labs has raised 890 million euros and been admitted to France's Next40 programme, according to reporting published on 22 July 2026. The combination of a major capital injection and a place on the government-backed growth index positions AMI Labs alongside the most closely watched French tech companies. The scale of the round makes it one of the largest in French AI history and is expected to substantially expand the company's operational runway.",
-      "evidence": [
-        {
-          "label": "voone-actu.com: AMI Labs €890M raise and Next40 entry",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPS2E5MTZMcDE0aVo5MTdTaFNnQThHY2tab2pwUGhjNWZxX2s4d1RXMHRpZkw3UnZKekwxcG9kWGlkdjhfWWw5UDVEMm5KM3BYSGViTWplUnlCN1Jfby1lWUNYTG1POEZoRWVrX0NOTEM1MlMzOHJFV0VHZnQ1R2hqZ250SlVZUDMtbWNLejNpNnk4R3NpV1FZZUhjXzRwSWcxWGFrUzN2V1VLSGgyS20zRkJEeWN3TnRzT1ZRYlQybFkteE1jQ0JsTFlNUUQ?oc=5"
-        }
-      ]
-    },
-    {
-      "title": "LeBrun's rejection of 'AGI' and 'superintelligence' labels signals a deliberate public positioning",
+      "title": "Rejecting 'AGI' Is a Strategic Positioning Move, Not Just Humility",
       "category": "corporate",
-      "narrative": "In a TechCrunch feature published on 16 July, Alexandre LeBrun explained why he avoids the terms 'AGI' and 'superintelligence' when describing AMI Labs' systems, opting for more cautious language about AI capabilities. The stance, articulated at the moment of the company's largest fundraise, appears designed to differentiate AMI Labs from competitors who deploy maximalist framing and to ground public expectations in more precise terms.",
+      "narrative": "LeBrun's explicit refusal to call AMI's systems AGI or superintelligence — reported by TechCrunch on July 16 — is worth reading as deliberate brand architecture, not mere epistemic caution. In a funding environment where competitors race to claim the most expansive capabilities, opting for more precise language carves out a distinct positioning: AMI as the serious, technically grounded alternative to hype-driven labs. This is the same rhetorical territory Yann LeCun has long occupied in public debates about AI progress, and it reinforces the intellectual lineage AMI's co-founding leans on.\n\nThe practical effect is to set expectations carefully at a moment when AMI has not yet made major public technical disclosures. With no new papers this week and a thin GitHub footprint, the founder's language choices become the company's loudest output. Framing matters most when the product is not yet visible.",
       "evidence": [
         {
-          "label": "TechCrunch: Why LeBrun won't call his AI 'AGI' or 'superintelligence'",
+          "label": "TechCrunch: Why AMI Labs' Alexandre LeBrun won't call his AI 'AGI' or 'superintelligence'",
           "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/"
-        },
+        }
+      ]
+    },
+    {
+      "title": "The Nabla Departure Frees LeBrun for AMI — and Raises the Stakes",
+      "category": "hiring",
+      "narrative": "The July 22 Maddyness report that LeBrun has handed Nabla's leadership to Brian Manning is a meaningful contextual fact for AMI-watchers. LeBrun co-founded Nabla and has been a central figure there; stepping back now suggests he is consolidating his attention on AMI at a moment when the startup is presumably approaching a critical early phase — whether that means a first product, a funding round, or a research debut.\n\nThis is not a distress signal for AMI; it reads as the opposite. Founders typically shed board or operational commitments at other companies when they need bandwidth for an intensive push. The timing, coinciding with a week of public narrative-setting via TechCrunch, points to deliberate preparation rather than coincidence.",
+      "evidence": []
+    },
+    {
+      "title": "Pascale Fung's Defence of Industry-Funded Research Signals Team Alignment on a Contested Question",
+      "category": "research",
+      "narrative": "AMI team member Pascale Fung posted publicly on July 18 to defend the record of large industry research labs — Bell Labs, IBM, Xerox PARC, Microsoft, Google — as the source of paradigm-changing AI advances, pushing back against critics of industry-funded science. The post drew modest engagement (32 likes, 3 retweets), but its content matters more than its reach.\n\nFor a team that includes Yann LeCun and operates at the intersection of deep academic credibility and commercial ambition, this is an implicit self-justification: AMI's model — serious research inside or adjacent to an industry-funded lab — is historically validated. Fung is not speaking for the company, but the stance is consistent with AMI's foundational logic and suggests the team is thinking carefully about how it wants to be perceived within the broader research community.",
+      "evidence": [
         {
-          "label": "Biztoc mirror of TechCrunch piece",
-          "url": "https://biztoc.com/x/376b1e7d8b073bbc"
+          "label": "Pascale Fung on X: defence of industry-funded research",
+          "url": "https://x.com/pascalefung/status/2078409080763289953"
         }
       ]
     }
   ],
-  "signals": [
-    {
-      "text": "No new job postings were added this week despite the €890M raise; total open roles remain at 5, with 4 in Technical Staff.",
-      "category": "hiring"
-    },
-    {
-      "text": "No new research publications or GitHub activity of note were recorded, suggesting the team's public energy this week was directed at the funding announcement.",
-      "category": "research"
-    },
-    {
-      "text": "AMI Labs team member Pascale Fung posted on X defending the value of large industry-funded research, citing Bell Labs, IBM, Xerox PARC, Microsoft, and Google as precedents — a signal consistent with the company's own positioning as a well-capitalised research-driven lab.",
-      "category": "research"
-    },
-    {
-      "text": "Alexandre LeBrun's leadership transition at Nabla — he stepped down, with Brian Manning taking over — was reported on 22 July, separating his personal profile from that company as AMI Labs takes centre stage.",
-      "category": "corporate"
-    },
-    {
-      "text": "Corporate filings show no change in capital (€12,449.43), no new dirigeants, and no IP filings this week, meaning the fundraise has not yet registered at the Infogreffe level.",
-      "category": "administrative"
-    }
-  ],
-  "whatToWatch": "Look for a Kbis or capital update at the corporate registry reflecting the €890M round, and watch whether the Next40 admission accelerates new senior hires or triggers a wave of research publications as the company scales up."
+  "signals": [],
+  "whatToWatch": "Whether LeBrun's TechCrunch appearance is a precursor to a more substantive announcement — a funding round, a first product reveal, or a research publication — in the coming weeks. The combination of narrative-setting and the Nabla exit suggests AMI is preparing for a more visible moment; watch for new job postings or a GitHub activity surge as early indicators."
 }
