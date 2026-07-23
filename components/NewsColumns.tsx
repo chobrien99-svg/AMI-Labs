@@ -13,76 +13,76 @@ interface NewsColumnsProps {
   items: NewsItem[];
 }
 
-function formatDate(dateStr: string): string {
+function monthYear(dateStr: string): string {
   const d = new Date(dateStr);
-  return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+  if (Number.isNaN(d.getTime())) return "";
+  return d.toLocaleDateString("en-US", { month: "short", year: "numeric" });
 }
 
-const TAG_COLORS: Record<string, string> = {
-  funding: "tag-funding",
-  research: "tag-research",
-  hiring: "tag-hiring",
-  administrative: "tag-admin",
+const CAT_CLASS: Record<string, string> = {
+  funding: "c-funding",
+  research: "c-research",
+  hiring: "c-hiring",
+  administrative: "c-admin",
 };
 
+function CatMeta({ item }: { item: NewsItem }) {
+  const tag = item.tags[0];
+  return (
+    <>
+      {item.source}
+      {" · "}
+      {monthYear(item.publishedAt)}
+      {tag && (
+        <>
+          {" · "}
+          <span className={`cat ${CAT_CLASS[tag] ?? "c-neutral"}`}>{tag.toUpperCase()}</span>
+        </>
+      )}
+    </>
+  );
+}
+
 export default function NewsColumns({ items }: NewsColumnsProps) {
-  const recent = items.slice(0, 6);
-  const col1 = recent.slice(0, 3);
-  const col2 = recent.slice(3, 6);
+  if (!items.length) return null;
+  const lead = items[0];
+  const rest = items.slice(1, 6);
 
   return (
-    <section className="home-section">
+    <section className="home-section" id="news">
       <div className="home-section-header">
-        <span className="home-section-label">Latest News</span>
-        <Link href="/news" className="home-section-link">
-          View all →
-        </Link>
+        <span className="home-section-label">Latest Signals</span>
+        <Link href="/news" className="home-section-link">View all →</Link>
       </div>
 
-      <div className="news-columns">
-        <div className="news-col">
-          {col1.map((item) => (
-            <NewsRow key={item.id} item={item} />
-          ))}
-        </div>
-        <div className="news-col">
-          {col2.map((item) => (
-            <NewsRow key={item.id} item={item} />
+      <div className="news-grid">
+        <a className="lead" href={lead.url} target="_blank" rel="noopener noreferrer">
+          <svg className="wave" viewBox="0 0 460 380" preserveAspectRatio="xMaxYMax slice" aria-hidden="true">
+            <g fill="none" stroke="var(--clay)" strokeWidth=".9" strokeDasharray="1.4 6.5" className="flow">
+              <path d="M-30 360 C130 320 250 250 500 150" opacity=".55" />
+              <path d="M-30 380 C130 344 250 278 500 182" opacity=".5" />
+              <path d="M-30 400 C140 368 260 306 500 214" opacity=".45" />
+              <path d="M0 400 C160 372 280 320 520 236" opacity=".4" />
+              <path d="M40 400 C190 378 300 338 540 262" opacity=".34" />
+              <path d="M90 400 C230 384 340 352 560 288" opacity=".28" />
+              <path d="M150 400 C280 390 380 366 580 314" opacity=".22" />
+              <path d="M220 400 C330 394 420 380 600 342" opacity=".16" />
+            </g>
+          </svg>
+          <h3 className="lead-h">{lead.title}</h3>
+          <div className="lead-tick" />
+          <div className="lead-m"><CatMeta item={lead} /></div>
+        </a>
+
+        <div className="sig-list">
+          {rest.map((item) => (
+            <div className="sig" key={item.id}>
+              <a className="sig-t" href={item.url} target="_blank" rel="noopener noreferrer">{item.title}</a>
+              <div className="sig-m"><CatMeta item={item} /></div>
+            </div>
           ))}
         </div>
       </div>
     </section>
-  );
-}
-
-function NewsRow({ item }: { item: NewsItem }) {
-  const primaryTag = item.tags[0];
-  return (
-    <div className="news-row">
-      <div className="news-row-dot" />
-      <div className="news-row-content">
-        <a
-          href={item.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="news-row-title"
-        >
-          {item.title}
-        </a>
-        <div className="news-row-meta">
-          <span className="news-row-source">{item.source}</span>
-          <span className="news-row-sep">·</span>
-          <span className="news-row-date">{formatDate(item.publishedAt)}</span>
-          {primaryTag && (
-            <>
-              <span className="news-row-sep">·</span>
-              <span className={`news-row-tag ${TAG_COLORS[primaryTag] ?? ""}`}>
-                {primaryTag}
-              </span>
-            </>
-          )}
-        </div>
-      </div>
-    </div>
   );
 }
