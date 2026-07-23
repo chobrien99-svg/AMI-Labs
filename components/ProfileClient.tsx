@@ -32,7 +32,7 @@ type Member = {
   biographyPortable: PortableTextBlock[] | null;
   careerHistory: CareerEntry[];
   links: Links;
-  semanticScholarId: string | null;
+  semanticScholarId: string | string[] | null;
 };
 
 export type Publication = {

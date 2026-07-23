@@ -30,7 +30,7 @@ type SanityPerson = {
     website?: string;
     bilibili?: string;
   };
-  semanticScholarId?: string | null;
+  semanticScholarId?: string | string[] | null;
   featuredPublications?: Publication[];
 };
 
