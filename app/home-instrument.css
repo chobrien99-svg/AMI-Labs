@@ -1,0 +1,89 @@
+/* ============================================================
+   Homepage-specific "Instrument" markup (hero figure, Latest
+   Signals lead-card, research callout). Scoped under
+   `.instrument-home` so these generic class names never leak.
+   Loaded AFTER instrument-theme.css; reuses its :root tokens.
+   ============================================================ */
+
+.instrument-home{
+  /* aliases for the few prototype token names that differ from the theme */
+  --blue:var(--e-blue); --blue-soft:var(--e-blue-soft); --blue-dim:var(--e-blue-dim);
+  --tx-l:var(--text); --tx-lm:var(--text-dim); --tx-ll:var(--muted);
+  --line-l:var(--border); --paper:var(--bg); --white:#fff; --clay-dim:rgba(201,109,59,.10);
+}
+
+@keyframes ih-flow{to{stroke-dashoffset:-22}}
+@keyframes ih-drift{to{background-position:46px 46px}}
+@keyframes ih-blip{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.7)}}
+.instrument-home .flow{animation:ih-flow 3.4s linear infinite}
+
+/* ── HERO ── */
+.instrument-home .ih-hero{position:relative;background:var(--ink);color:var(--tx-d);overflow:hidden;border-bottom:1px solid var(--line-d)}
+.instrument-home .grid-bg{position:absolute;inset:-2px;background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:46px 46px;animation:ih-drift 34s linear infinite;pointer-events:none}
+.instrument-home .hero-traj{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.instrument-home .hero-in{position:relative;max-width:1280px;margin:0 auto;padding:76px 34px 68px;display:grid;grid-template-columns:1fr 400px;gap:56px;align-items:center}
+.instrument-home .eyebrow{font-family:var(--f-mono);font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--blue-soft);margin-bottom:22px;display:flex;align-items:center;gap:10px}
+.instrument-home .eyebrow .bk{width:7px;height:7px;background:var(--blue-soft);animation:ih-blip 2.6s ease-in-out infinite}
+.instrument-home h1.title{font-family:var(--f-disp);font-weight:600;font-size:54px;line-height:1.02;letter-spacing:-.03em;color:#F5F8FC;margin-bottom:22px}
+.instrument-home h1.title em{font-style:normal;color:var(--blue-soft)}
+.instrument-home .lede{font-size:16px;line-height:1.62;color:var(--tx-dm);max-width:460px;margin-bottom:30px}
+.instrument-home .ctas{display:flex;gap:12px;margin-bottom:44px;flex-wrap:wrap}
+.instrument-home .btn{display:inline-block;font-family:var(--f-body);font-size:13.5px;font-weight:600;padding:13px 26px;border-radius:5px;cursor:pointer;border:1px solid transparent;transition:transform .15s,background .15s,border-color .15s;letter-spacing:.01em}
+.instrument-home .btn-p{background:var(--blue);color:#fff}.instrument-home .btn-p:hover{background:#255ce0;transform:translateY(-1px)}
+.instrument-home .btn-clay{background:var(--clay);color:#fff}.instrument-home .btn-clay:hover{background:#b25f30;transform:translateY(-1px)}
+.instrument-home .btn-s{background:transparent;border-color:rgba(255,255,255,.2);color:#cfd7e3}.instrument-home .btn-s:hover{border-color:var(--blue-soft);color:#fff}
+.instrument-home .hstats{display:flex;gap:0;border-top:1px solid var(--line-d);padding-top:24px;max-width:520px}
+.instrument-home .hstat{flex:1;display:flex;flex-direction:column;gap:5px}
+.instrument-home .hstat b{font-family:var(--f-disp);font-size:26px;font-weight:600;letter-spacing:-.02em;color:#F5F8FC}
+.instrument-home .hstat span{font-family:var(--f-mono);font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--tx-dd)}
+.instrument-home .fig{border:1px solid var(--line-d);border-radius:10px;overflow:hidden;background:var(--panel)}
+.instrument-home .fig-bar{display:flex;align-items:center;gap:9px;padding:9px 13px;font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--tx-dm);border-bottom:1px solid var(--line-d)}
+.instrument-home .fig-bar .sq{width:8px;height:8px;background:var(--blue-soft)}
+.instrument-home .fig img{width:100%;display:block}
+.instrument-home .fig-cap{font-family:var(--f-mono);font-size:10px;letter-spacing:.03em;color:var(--tx-dd);padding:9px 13px;line-height:1.5}
+.instrument-home .fig-cap b{color:var(--blue-soft);font-weight:600}
+.instrument-home .hero-note{font-family:var(--f-mono);font-size:10px;color:var(--tx-dd);line-height:1.6;margin-top:14px;padding-left:2px}
+
+/* ── NEWS: lead-card + signal list ── */
+.instrument-home .news-grid{display:grid;grid-template-columns:1.04fr .96fr;gap:0 60px;align-items:stretch}
+.instrument-home .lead{position:relative;background:var(--ink);border:1px solid var(--line-d);border-radius:12px;overflow:hidden;padding:46px 46px 40px;min-height:436px;display:flex;flex-direction:column;justify-content:flex-end}
+.instrument-home .lead .wave{position:absolute;right:0;bottom:0;width:76%;height:82%;pointer-events:none}
+.instrument-home .lead-h{position:relative;font-family:var(--f-serif);font-weight:500;font-size:36px;line-height:1.1;letter-spacing:-.015em;color:#F4F4F1;max-width:16ch}
+.instrument-home .lead-d{position:relative;font-size:15px;line-height:1.6;color:var(--tx-dm);max-width:46ch;margin-top:20px}
+.instrument-home .lead-tick{position:relative;width:32px;height:2px;background:var(--clay);margin:32px 0 18px}
+.instrument-home .lead-m{position:relative;font-family:var(--f-mono);font-size:12px;letter-spacing:.02em;color:var(--tx-dm)}
+.instrument-home .lead-m b{color:var(--clay);font-weight:600;letter-spacing:.05em}
+.instrument-home .lead:hover .lead-h{color:#fff}
+.instrument-home .sig-list{display:flex;flex-direction:column;justify-content:space-between}
+.instrument-home .sig{padding:17px 0;border-bottom:1px solid var(--line-l)}
+.instrument-home .sig:first-child{padding-top:0}
+.instrument-home .sig:last-child{border-bottom:none;padding-bottom:0}
+.instrument-home .sig-t{display:block;font-family:var(--f-serif);font-size:18px;font-weight:500;line-height:1.32;color:var(--tx-l);letter-spacing:-.008em;transition:color .15s}
+.instrument-home .sig-t:hover{color:var(--clay)}
+.instrument-home .sig-m{font-family:var(--f-mono);font-size:11.5px;color:#7C8288;letter-spacing:.01em;margin-top:9px}
+.instrument-home .sig-m .cat{font-weight:600;letter-spacing:.07em}
+.instrument-home .c-funding{color:#B45E2E}
+.instrument-home .c-research{color:#B23F3F}
+.instrument-home .c-hiring{color:#8A6A12}
+.instrument-home .c-admin,.instrument-home .c-neutral{color:#51575C}
+
+/* ── RESEARCH callout ── */
+.instrument-home .research{display:grid;grid-template-columns:1fr 460px;gap:44px;align-items:center;background:var(--ink);color:var(--tx-d);border-radius:14px;padding:44px;position:relative;overflow:hidden}
+.instrument-home .research .grid-bg{opacity:.6}
+.instrument-home .research h2{position:relative;font-family:var(--f-disp);font-size:30px;font-weight:600;letter-spacing:-.02em;color:#F5F8FC;margin-bottom:14px;line-height:1.1}
+.instrument-home .research p{position:relative;font-size:14.5px;color:var(--tx-dm);line-height:1.65;margin-bottom:22px;max-width:420px}
+.instrument-home .research .rlinks{position:relative;display:flex;gap:12px;flex-wrap:wrap}
+
+@media(max-width:960px){
+  .instrument-home .hero-in{grid-template-columns:1fr;gap:38px}
+  .instrument-home h1.title{font-size:42px}
+  .instrument-home .research{grid-template-columns:1fr;gap:28px}
+  .instrument-home .news-grid{grid-template-columns:1fr;gap:34px}
+  .instrument-home .lead{min-height:0;padding:36px 32px 32px}
+  .instrument-home .lead-h{font-size:30px}
+}
+@media(max-width:680px){
+  .instrument-home .hero-in{padding:48px 20px 44px}
+  .instrument-home h1.title{font-size:34px}
+  .instrument-home .hstats{flex-wrap:wrap;gap:16px}
+}

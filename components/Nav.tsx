@@ -20,7 +20,12 @@ export default function Nav() {
     <nav className="nav">
       <div className="nav-inner">
         <Link href="/" className="nav-logo">
-          <span className="nav-logo-dot" />
+          <svg className="nav-reticle" viewBox="0 0 17 17" width="17" height="17" aria-hidden="true">
+            <circle cx="8.5" cy="8.5" r="6.5" fill="none" stroke="#6EA0FF" strokeWidth="1.2" />
+            <line x1="8.5" y1="0" x2="8.5" y2="17" stroke="#6EA0FF" strokeWidth="1" />
+            <line x1="0" y1="8.5" x2="17" y2="8.5" stroke="#6EA0FF" strokeWidth="1" />
+            <circle cx="8.5" cy="8.5" r="1.5" fill="#6EA0FF" />
+          </svg>
           AMI Labs
         </Link>
         <div className="nav-links">
@@ -41,9 +46,6 @@ export default function Nav() {
               The French Tech Journal
             </a>
           </span>
-          <button className="nav-signin" disabled title="Coming soon">
-            Sign In
-          </button>
         </div>
       </div>
     </nav>
