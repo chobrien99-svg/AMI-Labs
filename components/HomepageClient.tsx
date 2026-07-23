@@ -66,8 +66,7 @@ export default function HomepageClient({ news, milestones, briefing }: HomepageC
             </div>
             <div className="fig">
               <div className="fig-bar"><span className="sq" />Fig.02 — Reacher rollout</div>
-              {/* Uses the existing LeWM demo; swap for /reacher_viz_lewm.gif if you want the exact 3-panel clip. */}
-              <img src="/lewm-demo.gif" alt="original, reconstruction, and world-model rollout prediction" />
+              <img src="/reacher_viz_lewm.gif" alt="original, reconstruction, and world-model rollout prediction" />
               <div className="fig-cap">observed → reconstruction → <b>predicted future</b></div>
             </div>
           </div>

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import investorsData from "@/data/investors.json";
-import teamData from "@/data/team.json";
 import ExplorerClient from "@/components/ExplorerClient";
 
 export const metadata: Metadata = {
@@ -10,5 +9,5 @@ export const metadata: Metadata = {
 };
 
 export default function InvestorsPage() {
-  return <ExplorerClient investors={investorsData} team={teamData} />;
+  return <ExplorerClient investors={investorsData} />;
 }
