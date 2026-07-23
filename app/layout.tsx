@@ -4,6 +4,7 @@ import { Inter, Newsreader } from "next/font/google";
 import "./globals.css";
 import "./instrument-theme.css";
 import "./home-instrument.css";
+import "./editorial.css";
 import Nav from "@/components/Nav";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
