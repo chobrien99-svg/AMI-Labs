@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-22T22:52:17.840Z",
+  "generatedAt": "2026-07-23T21:22:11.748Z",
   "window": {
     "days": 7,
-    "since": "2026-07-15",
-    "until": "2026-07-22"
+    "since": "2026-07-16",
+    "until": "2026-07-23"
   },
   "model": "claude-sonnet-4-6",
   "facts": {
@@ -59,63 +59,23 @@
       }
     },
     "publications": {
-      "total": 20,
+      "total": 52,
       "newSinceLast": 0,
       "newItems": [],
-      "topCited": [
-        {
-          "member": "michael-rabbat",
-          "title": "DINOv2: Learning Robust Visual Features without Supervision",
-          "year": 2023,
-          "venue": "Trans. Mach. Learn. Res.",
-          "url": "https://doi.org/10.48550/arXiv.2304.07193",
-          "citationCount": 9358
-        },
-        {
-          "member": "sanghyun-woo",
-          "title": "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders",
-          "year": 2023,
-          "venue": "Computer Vision and Pattern Recognition",
-          "url": "https://doi.org/10.1109/CVPR52729.2023.01548",
-          "citationCount": 1839
-        },
-        {
-          "member": "michael-rabbat",
-          "title": "Revisiting Feature Prediction for Learning Visual Representations from Video",
-          "year": 2024,
-          "venue": "Trans. Mach. Learn. Res.",
-          "url": "https://doi.org/10.48550/arXiv.2404.08471",
-          "citationCount": 392
-        },
-        {
-          "member": "yann-lecun",
-          "title": "Learning and Leveraging World Models in Visual Representation Learning",
-          "year": 2024,
-          "venue": "arXiv.org",
-          "url": "https://doi.org/10.48550/arXiv.2403.00504",
-          "citationCount": 69
-        },
-        {
-          "member": "michael-rabbat",
-          "title": "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
-          "year": 2025,
-          "venue": "arXiv.org",
-          "url": "https://doi.org/10.48550/arXiv.2502.11831",
-          "citationCount": 64
-        }
-      ]
+      "recent": []
     },
     "github": {
-      "windowEventCount": 1,
+      "windowEventCount": 3,
       "byMember": {
-        "Brian Li": 1
+        "Min Lin": 1,
+        "Brian Li": 2
       },
       "notable": []
     },
     "corporate": {
       "capital": 12449.43,
       "capitalChanged": false,
-      "prevCapital": null,
+      "prevCapital": 12449.43,
       "newDirigeants": [],
       "adresse": "10 RUE DE PENTHIEVRE, 75008, PARIS",
       "denomination": "ADVANCED MACHINE INTELLIGENCE"
@@ -130,6 +90,33 @@
     },
     "timeline": {
       "recentMilestones": []
+    },
+    "social": {
+      "windowCount": 2,
+      "byTag": {
+        "funding": 1,
+        "research": 1
+      },
+      "notable": [
+        {
+          "author": "Pascale Fung",
+          "handle": "pascalefung",
+          "text": "Speaking from my American experience only here. Some people complain about large industry funded research. Don’t forget that almost all of paradigm changing research that led to modern AI came from either large industry labs - Bell Lab, IBM Labs, Xerox Parc, Microsoft, Google,",
+          "url": "https://x.com/pascalefung/status/2078409080763289953",
+          "createdAt": "2026-07-18T09:18:34.000Z",
+          "tags": [
+            "funding",
+            "research"
+          ],
+          "metrics": {
+            "likes": 32,
+            "retweets": 3,
+            "replies": 1,
+            "quotes": 0
+          },
+          "highEngagement": false
+        }
+      ]
     }
   },
   "_snapshot": {
@@ -173,26 +160,31 @@
     "dessinKeys": []
   },
   "status": "ok",
-  "headline": "AMI Labs' €890M raise and Next40 entry dominate the week as LeBrun stakes out cautious AI terminology",
-  "stateOfPlay": "AMI Labs' reported €890 million fundraise and admission to France's Next40 programme mark the company's most significant public milestone to date, cementing its position at the centre of France's AI ambitions. Alongside the funding news, founder Alexandre LeBrun drew media attention for deliberately eschewing terms like 'AGI' and 'superintelligence' when describing the company's work. Operationally, the week was quiet: no new hires were posted, no new research publications appeared, and corporate filings showed no changes to capital or leadership.",
+  "headline": "AMI Labs raises €890M and joins Next40 as LeBrun publicly rejects 'AGI' framing",
+  "stateOfPlay": "AMI Labs' most consequential week on record: a €890 million fundraise and entry into France's Next40 programme cement it as a flagship of the French AI sector. Simultaneously, co-founder Alexandre LeBrun used the media attention to stake out a deliberate terminological position, refusing to describe the company's systems as AGI or superintelligence. No new hires, publications, or corporate filings were recorded this week, keeping the spotlight squarely on the funding milestone and its narrative framing.",
   "threads": [
     {
-      "title": "€890M Raise and Next40 Admission Signal AMI Labs' Scale Ambitions",
+      "title": "€890M raise and Next40 entry mark AMI Labs' arrival as a national AI champion",
       "category": "funding",
-      "narrative": "AMI Labs has raised €890 million and joined France's Next40 programme, the government-backed list of high-growth technology companies considered future global champions. The combination of a large fundraise and Next40 status positions AMI Labs as the most heavily capitalised French AI pure-play, though the round's structure, investors, and closing date have not been detailed in available reporting.",
-      "evidence": []
-    },
-    {
-      "title": "LeBrun's Deliberate Rejection of 'AGI' and 'Superintelligence' Labels",
-      "category": "research",
-      "narrative": "In a TechCrunch profile published on 16 July, Alexandre LeBrun explained his refusal to describe AMI Labs' systems using terms such as 'AGI' or 'superintelligence', signalling a consciously cautious public positioning on AI capabilities at the exact moment the company is absorbing a major funding round. The stance differentiates AMI Labs rhetorically from several US competitors that have leaned into those framings.",
+      "narrative": "AMI Labs has raised 890 million euros and been admitted to France's Next40 programme, according to reporting published on 22 July 2026. The combination of a major capital injection and a place on the government-backed growth index positions AMI Labs alongside the most closely watched French tech companies. The scale of the round makes it one of the largest in French AI history and is expected to substantially expand the company's operational runway.",
       "evidence": [
         {
-          "label": "TechCrunch: Why AMI Labs' Alexandre LeBrun won't call his AI 'AGI' or 'superintelligence'",
+          "label": "voone-actu.com: AMI Labs €890M raise and Next40 entry",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPS2E5MTZMcDE0aVo5MTdTaFNnQThHY2tab2pwUGhjNWZxX2s4d1RXMHRpZkw3UnZKekwxcG9kWGlkdjhfWWw5UDVEMm5KM3BYSGViTWplUnlCN1Jfby1lWUNYTG1POEZoRWVrX0NOTEM1MlMzOHJFV0VHZnQ1R2hqZ250SlVZUDMtbWNLejNpNnk4R3NpV1FZZUhjXzRwSWcxWGFrUzN2V1VLSGgyS20zRkJEeWN3TnRzT1ZRYlQybFkteE1jQ0JsTFlNUUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "LeBrun's rejection of 'AGI' and 'superintelligence' labels signals a deliberate public positioning",
+      "category": "corporate",
+      "narrative": "In a TechCrunch feature published on 16 July, Alexandre LeBrun explained why he avoids the terms 'AGI' and 'superintelligence' when describing AMI Labs' systems, opting for more cautious language about AI capabilities. The stance, articulated at the moment of the company's largest fundraise, appears designed to differentiate AMI Labs from competitors who deploy maximalist framing and to ground public expectations in more precise terms.",
+      "evidence": [
+        {
+          "label": "TechCrunch: Why LeBrun won't call his AI 'AGI' or 'superintelligence'",
           "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/"
         },
         {
-          "label": "Biztoc syndication of same article",
+          "label": "Biztoc mirror of TechCrunch piece",
           "url": "https://biztoc.com/x/376b1e7d8b073bbc"
         }
       ]
@@ -200,25 +192,25 @@
   ],
   "signals": [
     {
-      "text": "No new job postings this week despite a fresh €890M raise — hiring pipeline has not yet visibly accelerated in public listings.",
+      "text": "No new job postings were added this week despite the €890M raise; total open roles remain at 5, with 4 in Technical Staff.",
       "category": "hiring"
     },
     {
-      "text": "Corporate capital remains unchanged at €12,449.43 and no new dirigeants were filed, indicating the fundraise has not yet flowed through to a French corporate capital increase at the INPI level.",
+      "text": "No new research publications or GitHub activity of note were recorded, suggesting the team's public energy this week was directed at the funding announcement.",
+      "category": "research"
+    },
+    {
+      "text": "AMI Labs team member Pascale Fung posted on X defending the value of large industry-funded research, citing Bell Labs, IBM, Xerox PARC, Microsoft, and Google as precedents — a signal consistent with the company's own positioning as a well-capitalised research-driven lab.",
+      "category": "research"
+    },
+    {
+      "text": "Alexandre LeBrun's leadership transition at Nabla — he stepped down, with Brian Manning taking over — was reported on 22 July, separating his personal profile from that company as AMI Labs takes centre stage.",
       "category": "corporate"
     },
     {
-      "text": "Zero new IP filings (marques, brevets, dessins) this week — no trademark or patent activity coinciding with the funding announcement.",
+      "text": "Corporate filings show no change in capital (€12,449.43), no new dirigeants, and no IP filings this week, meaning the fundraise has not yet registered at the Infogreffe level.",
       "category": "administrative"
-    },
-    {
-      "text": "GitHub activity was minimal: a single event attributed to Brian Li, with nothing flagged as notable.",
-      "category": "research"
-    },
-    {
-      "text": "No new research publications from any tracked AMI Labs member this week; the standing publication count holds at 20.",
-      "category": "research"
     }
   ],
-  "whatToWatch": "Monitor French corporate registry filings in the coming weeks for a capital increase or new dirigeant entries that would confirm the €890M round has been formalised legally. A surge in senior technical job postings would be the next expected operational signal as the company puts fresh capital to work."
+  "whatToWatch": "Look for a Kbis or capital update at the corporate registry reflecting the €890M round, and watch whether the Next40 admission accelerates new senior hires or triggers a wave of research publications as the company scales up."
 }
