@@ -1,4 +1,993 @@
 {
-  "generatedAt": "2026-07-23T13:45:00.094Z",
-  "papers": []
+  "generatedAt": "2026-07-23T14:53:27.948Z",
+  "papers": [
+    {
+      "paperId": "4f890d8373b93892ce2a50d87415653fc225a5a8",
+      "title": "Separating Representation from Reconstruction Enables Scalable Text Encoders",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-07-04",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/4f890d8373b93892ce2a50d87415653fc225a5a8",
+      "citationCount": 0,
+      "tldr": "This work proposes CrossBERT, a two-part architecture that separates the learning of high-quality encoded representations from the rigid grounding of token reconstruction, and demonstrates monotonic scaling and superior performance on MTEB(eng, v2) and frozen GLUE benchmarks.",
+      "abstract": "While decoders have rapidly scaled, encoders have remained largely unchanged since BERT. We revisit this disparity by frozen backbone evaluation via probing. Under this lens, the representations of BERT encoders become increasingly $\\textit{unexploitable}$ by frozen probes, despite improved perplexity. The misalignment originates in BERT's flat design, which couples representation learning to the token reconstruction loss. We propose $\\textbf{CrossBERT}$, a two-part architecture that separates the learning of high-quality encoded representations from the rigid grounding of token reconstruction. This design further enables high masking ratios ($\\ge 50\\%$) and gradient collection over all tokens via a $\\textit{Complementary Masking Strategy}$, respectively increasing throughput by $1.5$ to $2\\times$ and sample efficiency by $2\\times$. Overall, CrossBERT demonstrates monotonic scaling and superior performance on MTEB(eng, v2) and frozen GLUE benchmarks."
+    },
+    {
+      "paperId": "bbb2fba52c4d7d3b29f58a5e136d012acdc2010d",
+      "title": "MJEPA: A Simple and Scalable Joint-Embedding Predictive Architecture for Audio-Visual Learning",
+      "teamAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        }
+      ],
+      "memberSlug": "michael-rabbat",
+      "memberName": "Michael Rabbat",
+      "publicationDate": "2026-06-23",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/bbb2fba52c4d7d3b29f58a5e136d012acdc2010d",
+      "citationCount": 0,
+      "tldr": "This work introduces MJEPA, a joint-embedding predictive architecture for audio-visual learning that uses a single, unified encoder for both modalities, and shows that cross-modal prediction is critical: without it, a shared encoder degrades below unimodal baselines; with it, each modality's representation benefits from the other.",
+      "abstract": "Self-supervised learning from large-scale video data has emerged as a dominant paradigm for visual representation learning. Since audio and visual streams naturally co-occur in video data, extending this success to jointly learn from both modalities is a natural next step, yet it remains challenging. Existing audio-visual self-supervised methods rely on modality-specific encoders and complex combinations of contrastive or reconstruction objectives, limiting cross-modal synergy and scalability. Joint Embedding Predictive Architectures (JEPAs) offer a simple, modality-agnostic alternative, but have to date been applied primarily to individual modalities. We introduce MJEPA, a joint-embedding predictive architecture for audio-visual learning that uses a single, unified encoder for both modalities. Our approach uses only a single predictive objective, applied both within and across modalities. We show that cross-modal prediction is critical: without it, a shared encoder degrades below unimodal baselines; with it, each modality's representation benefits from the other. Our frozen ViT-g model outperforms the best prior frozen baseline by over 6.8 mAP on AudioSet-20K, surpasses fully fine"
+    },
+    {
+      "paperId": "31e6e9e341f8e8152c9f633b5838c585853feb1b",
+      "title": "Learning through Internalization",
+      "teamAuthors": [
+        {
+          "slug": "julia-kempe",
+          "name": "Julia Kempe"
+        }
+      ],
+      "memberSlug": "julia-kempe",
+      "memberName": "Julia Kempe",
+      "publicationDate": "2026-06-18",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/31e6e9e341f8e8152c9f633b5838c585853feb1b",
+      "citationCount": 0,
+      "tldr": "This work provides the first provable analysis of successful internalization: for the task of learning parities, it is shown that a simplified one-layer transformer provably first learns the target with explicit CoT supervision and then internalizes the autoregressive generation as CoT tokens are progressively removed, learning to directly compute the parity.",
+      "abstract": "We study internalization processes, by which neural-network-based systems absorb an explicit computational procedure into their own weights, and how they facilitate learning. We investigate how transformers internalize the simulation of semiautomata by internalizing chain-of-thought (CoT) tokens, which classes of semiautomata are harder to internalize, and expose the flip side of internalization, that is, a progressive degradation of out-of-distribution performance. We then provide the first provable analysis of successful internalization: for the task of learning parities, we show that a simplified one-layer transformer provably first learns the target with explicit CoT supervision and then internalizes the autoregressive generation as CoT tokens are progressively removed, learning to directly compute the parity. This task is computationally hard to learn from data without CoT supervision. Finally, we discuss how learning through internalization relates to the \\textit{Positive Distribution Shift} phenomenon recently introduced by~\\citet{Med+26}."
+    },
+    {
+      "paperId": "53ea2e04a11011cc0c05e4b704c6d3f379c1645b",
+      "title": "RepFusion: Leveraging Multimodal Priors for Denoising in Representation Space",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2026-06-12",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/53ea2e04a11011cc0c05e4b704c6d3f379c1645b",
+      "citationCount": 1,
+      "tldr": "It is demonstrated that MLLMs provide strong priors for denoising visual representations and that, by conditioning on evolving noisy representations, test-time compute can be productively spent on repeated MLLM conditioning in modern T2I systems.",
+      "abstract": "Large language models (LLMs) are widely used in text-to-image (T2I) systems, but they are typically limited to text encoding, while denoising is handled by newly trained generative backbones. The emergence of representation autoencoders (RAEs) shifts the generation target toward semantically structured visual representations, creating a latent space that is more compatible with pretrained LLM priors. Inspired by multimodal LLMs (MLLMs), where an MLP projector is sufficient to align clean visual representations with a pretrained LLM, we repurpose the MLLM itself as a noisy representation encoder, extending this mechanism from clean to noisy inputs. We present RepFusion, which uses the resulting MLLM outputs as the conditioning signal for a diffusion transformer. In controlled comparisons at similar inference budgets, RepFusion outperforms baselines that devote comparable capacity to newly initialized denoisers. These results demonstrate that MLLMs provide strong priors for denoising visual representations and that, by conditioning on evolving noisy representations, test-time compute can be productively spent on repeated MLLM conditioning in modern T2I systems."
+    },
+    {
+      "paperId": "3a638cbb42b5f388d57063059eaaae23d57b9b95",
+      "title": "Plan, Watch, Recover: A Benchmark and Architectures for Proactive Procedural Assistance",
+      "teamAuthors": [
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        }
+      ],
+      "memberSlug": "pascale-fung",
+      "memberName": "Pascale Fung",
+      "publicationDate": "2026-06-03",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/3a638cbb42b5f388d57063059eaaae23d57b9b95",
+      "citationCount": 0,
+      "tldr": "The trained Llama-4 system substantially improves objective intervention quality over strong proprietary baselines and open-weight baselines across all six datasets, and Oracle-plan experiments further show that, when plan quality is controlled, the trained duplex model produces high-quality guidance and large gains on Out-of-Plan recovery.",
+      "abstract": "We envision a proactive multi-modal assistant system which gives users real-time step-by-step guidance on a procedural task, autonomously deciding \\textit{when} to interrupt, and \\textit{how} to coach. However, progress is limited by the absence of large-scale, cross-domain benchmarks that reflect realistic conditions, particularly the common case in which users deviate from the expected step sequence. We address this gap with four contributions: \\textbf{(1)}~we release \\textbf{EgoProactive}, a large-scale wearable-egocentric dataset for proactive procedural assistance with explicit Out-of-Plan (OOP) annotations and recovery steps; \\textbf{(2)}~we augment five established benchmarks (Ego4D, EPIC-KITCHENS, EgoExo4D, HoloAssist, HowTo100M) into \\textbf{Pro\\textsuperscript{2}Bench} under a unified proactive-guidance schema; \\textbf{(3)}~we propose a \\textbf{decoupled planner--interaction architecture} specialized for procedural state, visual cues, and recovery injection; \\textbf{(4)}~we introduce a post-training recipe that transfers across model families, validated by cross-backbone replication on Llama~4 and Qwen-3.6-VL. In extensive experiments, our trained Llama-4 system substanti"
+    },
+    {
+      "paperId": "225c1956cb19dabaa9ec35e9d951f683971c8349",
+      "title": "Formalizing Mathematics at Scale",
+      "teamAuthors": [
+        {
+          "slug": "julia-kempe",
+          "name": "Julia Kempe"
+        }
+      ],
+      "memberSlug": "julia-kempe",
+      "memberName": "Julia Kempe",
+      "publicationDate": "2026-05-28",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.29955",
+      "citationCount": 2,
+      "tldr": null,
+      "abstract": "We present AutoformBot, a multi-agent system for building an Autoformalized Textbook Library At Scale (Atlas) in Lean 4. AutoformBot orchestrates thousands of LLM agents, equipped with formal verification tools, dependency-aware task scheduling, and collaborative version control, to translate informal textbook prose into machine-checked definitions and proofs. We apply our methods to a corpus of 26 open-access textbooks spanning analysis, algebra, topology, combinatorics, and probability, producing Atlas: a verified library of over 45,000 Lean 4 declarations and 500 thousand lines of code. We release two artifacts: (i) AutoformBot, the open-source multi-agent framework; and (ii) Atlas, the resulting formal library. Our results suggest that autoformalizing the core content of graduate-level mathematics at scale is now economically and technically feasible. This opens the door to the automated verification of both human- and machine-generated mathematics at a research level."
+    },
+    {
+      "paperId": "20ba4363b7275178aaca520f9f16b39dad3a87d0",
+      "title": "Announcing the Shaw Prize in Computer Science",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-05-21",
+      "year": 2026,
+      "venue": "Communications of the ACM",
+      "url": "https://doi.org/10.1145/3811413",
+      "citationCount": 0,
+      "tldr": null,
+      "abstract": "Nominations for this new prize will be invited September to November 2026."
+    },
+    {
+      "paperId": "1692a95688453760a46c2f073574bf8a6c45173d",
+      "title": "Crys-JEPA: Accelerating Crystal Discovery via Embedding Screening and Generative Refinement",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-05-14",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.14759",
+      "citationCount": 0,
+      "tldr": "Crys-JEPA is introduced, a joint embedding predictive architecture for crystals that learns an energy-aware latent space preserving formation-energy differences that can be reformulated as an embedding-based comparison against accessible training crystals, reducing the reliance on expensive energy evaluation and task-specific external references.",
+      "abstract": "De novo crystal generation seeks to discover materials that are not merely realistic, but also stable and novel. However, most existing generative models are trained to maximize the likelihood of observed crystals, which encourages samples to stay close to known materials yet not necessarily align with the criteria that matter in discovery. Our empirical analysis shows that current crystal generative models exhibit a clear conflict between stability and novelty: samples near the observed distribution tend to retain stability but offer limited novelty, whereas samples farther from it often lose stability rapidly. This suggests that the useful region for discovering crystals that are both stable and novel is extremely narrow. To move beyond this limitation, we introduce Crys-JEPA, a joint embedding predictive architecture for crystals that learns an energy-aware latent space preserving formation-energy differences. In this space, stability assessment can be reformulated as an embedding-based comparison against accessible training crystals, reducing the reliance on expensive energy evaluation and task-specific external references. Building on Crys-JEPA, we further develop a screening-"
+    },
+    {
+      "paperId": "8c08f6f5b52f6d80116b1dc6b542f63b564b07c2",
+      "title": "Efficient RL Training for LLMs with Experience Replay",
+      "teamAuthors": [
+        {
+          "slug": "julia-kempe",
+          "name": "Julia Kempe"
+        }
+      ],
+      "memberSlug": "julia-kempe",
+      "memberName": "Julia Kempe",
+      "publicationDate": "2026-04-09",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2604.08706",
+      "citationCount": 3,
+      "tldr": "This work presents a systematic study of replay buffers for LLM post-training, formalizing the optimal design as a trade-off between staleness-induced variance, sample diversity and the high computational cost of generation.",
+      "abstract": "While Experience Replay - the practice of storing rollouts and reusing them multiple times during training - is a foundational technique in general RL, it remains largely unexplored in LLM post-training due to the prevailing belief that fresh, on-policy data is essential for high performance. In this work, we challenge this assumption. We present a systematic study of replay buffers for LLM post-training, formalizing the optimal design as a trade-off between staleness-induced variance, sample diversity and the high computational cost of generation. We show that strict on-policy sampling is suboptimal when generation is expensive. Empirically, we show that a well-designed replay buffer can drastically reduce inference compute without degrading - and in some cases even improving - final model performance, while preserving policy entropy."
+    },
+    {
+      "paperId": "f274a1bce813c2bb358ed7b6fbd54c08c17bac1a",
+      "title": "Formalization of De Giorgi--Nash--Moser Theory in Lean",
+      "teamAuthors": [
+        {
+          "slug": "julia-kempe",
+          "name": "Julia Kempe"
+        }
+      ],
+      "memberSlug": "julia-kempe",
+      "memberName": "Julia Kempe",
+      "publicationDate": "2026-04-07",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/f274a1bce813c2bb358ed7b6fbd54c08c17bac1a",
+      "citationCount": 7,
+      "tldr": null,
+      "abstract": "We present a formalization in Lean of the core interior De Giorgi--Nash--Moser theory for uniformly elliptic divergence-form equations with bounded measurable coefficients. The formalized results include local boundedness of weak subsolutions, the weak Harnack inequality for positive weak supersolutions, Moser's Harnack inequality for positive weak solutions, and interior H\\\"older regularity. This is, to our knowledge, the first machine-checked formalization of a major theorem in modern PDE theory. The development also required substantial new infrastructure for Sobolev spaces on bounded domains, weak solutions of elliptic equations, and quantitative regularity estimates. More broadly, it suggests that large-scale autoformalization of hard analysis in Lean is now within reach."
+    },
+    {
+      "paperId": "7272e854e744fda37757fed2557612c820792de3",
+      "title": "Repurposing Geometric Foundation Models for Multi-view Diffusion",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2026-03-23",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.22275",
+      "citationCount": 5,
+      "tldr": "This paper proposes Geometric Latent Diffusion (GLD), a framework that repurposes the geometrically consistent feature space of geometric foundation models as the latent space for multi-view diffusion, and shows that these features not only support high-fidelity RGB reconstruction but also encode strong cross-view geometric correspondences, providing a well-suited latent space for NVS.",
+      "abstract": "While recent advances in generative latent spaces have driven substantial progress in single-image generation, the optimal latent space for novel view synthesis (NVS) remains largely unexplored. In particular, NVS requires geometrically consistent generation across viewpoints, but existing approaches typically operate in a view-independent VAE latent space. In this paper, we propose Geometric Latent Diffusion (GLD), a framework that repurposes the geometrically consistent feature space of geometric foundation models as the latent space for multi-view diffusion. We show that these features not only support high-fidelity RGB reconstruction but also encode strong cross-view geometric correspondences, providing a well-suited latent space for NVS. Our experiments demonstrate that GLD outperforms both VAE and RAE on 2D image quality and 3D consistency metrics, while accelerating training by more than 4.4x compared to the VAE latent space. Notably, GLD remains competitive with state-of-the-art methods that leverage large-scale text-to-image pretraining, despite training its diffusion model from scratch without such generative pretraining."
+    },
+    {
+      "paperId": "ad3040d17ed4b21c2c5f1b6a351e5ca5b56ea33c",
+      "title": "Reward Prediction with Factorized World States",
+      "teamAuthors": [
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        }
+      ],
+      "memberSlug": "pascale-fung",
+      "memberName": "Pascale Fung",
+      "publicationDate": "2026-03-10",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.09400",
+      "citationCount": 1,
+      "tldr": "This paper investigates whether well-defined world state representations alone can enable accurate reward prediction across domains, and shows promising zero-shot results against both VLWM-critic and LLM-as-a-Judge reward models.",
+      "abstract": "Agents must infer action outcomes and select actions that maximize a reward signal indicating how close the goal is to being reached. Supervised learning of reward models could introduce biases inherent to training data, limiting generalization to novel goals and environments. In this paper, we investigate whether well-defined world state representations alone can enable accurate reward prediction across domains. To address this, we introduce StateFactory, a factorized representation method that transforms unstructured observations into a hierarchical object-attribute structure using language models. This structured representation allows rewards to be estimated naturally as the semantic similarity between the current state and the goal state under hierarchical constraint. Overall, the compact representation structure induced by StateFactory enables strong reward generalization capabilities. We evaluate on RewardPrediction, a new benchmark dataset spanning five diverse domains and comprising 2,454 unique action-observation trajectories with step-wise ground-truth rewards. Our method shows promising zero-shot results against both VLWM-critic and LLM-as-a-Judge reward models, achievin"
+    },
+    {
+      "paperId": "9b65331305dfab8d4f48da6854ee7673c8c6eb99",
+      "title": "The Spike, the Sparse and the Sink: Anatomy of Massive Activations and Attention Sinks",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-03-05",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.05498",
+      "citationCount": 13,
+      "tldr": "The pre-norm configuration is identified as the key choice that enables the co-occurrence of massive activations and attention sinks, and it is shown that ablating it causes the two phenomena to decouple.",
+      "abstract": "We study two recurring phenomena in Transformer language models: massive activations, in which a small number of tokens exhibit extreme outliers in a few channels, and attention sinks, in which certain tokens attract disproportionate attention mass regardless of semantic relevance. Prior work observes that these phenomena frequently co-occur and often involve the same tokens, but their functional roles and causal relationship remain unclear. Through systematic experiments, we show that the co-occurrence is largely an architectural artifact of modern Transformer design, and that the two phenomena serve related but distinct functions. Massive activations operate globally: they induce near-constant hidden representations that persist across layers, effectively functioning as implicit parameters of the model. Attention sinks operate locally: they modulate attention outputs across heads and bias individual heads toward short-range dependencies. We identify the pre-norm configuration as the key choice that enables the co-occurrence, and show that ablating it causes the two phenomena to decouple."
+    },
+    {
+      "paperId": "c3e09942658c43e607176e0b87192e91e15aeca1",
+      "title": "AI+HW 2035: Shaping the Next Decade",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-03-05",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.05225",
+      "citationCount": 2,
+      "tldr": "This vision paper lays out a 10-year roadmap for AI+HW co-design and co-development, spanning algorithms, architectures, systems, and sustainability, and articulate key insights that redefine scaling around energy efficiency, system-level integration, and cross-layer optimization.",
+      "abstract": "Artificial intelligence (AI) and hardware (HW) are advancing at unprecedented rates, yet their trajectories have become inseparably intertwined. The global research community lacks a cohesive, long-term vision to strategically coordinate the development of AI and HW. This fragmentation constrains progress toward holistic, sustainable, and adaptive AI systems capable of learning, reasoning, and operating efficiently across cloud, edge, and physical environments. The future of AI depends not only on scaling intelligence, but on scaling efficiency, achieving exponential gains in intelligence per joule, rather than unbounded compute consumption. Addressing this grand challenge requires rethinking the entire computing stack. This vision paper lays out a 10-year roadmap for AI+HW co-design and co-development, spanning algorithms, architectures, systems, and sustainability. We articulate key insights that redefine scaling around energy efficiency, system-level integration, and cross-layer optimization. We identify key challenges and opportunities, candidly assess potential obstacles and pitfalls, and propose integrated solutions grounded in algorithmic innovation, hardware advances, and s"
+    },
+    {
+      "paperId": "acb718a8659640ac1258d3bd391ddd9f1f2d7251",
+      "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-03-03",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.03276",
+      "citationCount": 18,
+      "tldr": "It is demonstrated that the MoE architecture harmonizes this scaling asymmetry by providing the high model capacity required by language while accommodating the data-intensive nature of vision, paving the way for truly unified multimodal models.",
+      "abstract": "The visual world offers a critical axis for advancing foundation models beyond language. Despite growing interest in this direction, the design space for native multimodal models remains opaque. We provide empirical clarity through controlled, from-scratch pretraining experiments, isolating the factors that govern multimodal pretraining without interference from language pretraining. We adopt the Transfusion framework, using next-token prediction for language and diffusion for vision, to train on diverse data including text, video, image-text pairs, and even action-conditioned video. Our experiments yield four key insights: (i) Representation Autoencoder (RAE) provides an optimal unified visual representation by excelling at both visual understanding and generation; (ii) visual and language data are complementary and yield synergy for downstream capabilities; (iii) unified multimodal pretraining leads naturally to world modeling, with capabilities emerging from general training; and (iv) Mixture-of-Experts (MoE) enables efficient and effective multimodal scaling while naturally inducing modality specialization. Through IsoFLOP analysis, we compute scaling laws for both modalities a"
+    },
+    {
+      "paperId": "4fe6ee338373b796ed3b26cf6908c7db2ca56798",
+      "title": "AI Must Embrace Specialization via Superhuman Adaptable Intelligence",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-02-27",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.23643",
+      "citationCount": 7,
+      "tldr": "It is argued that AI must embrace specialization, rather than strive for generality, and in its specialization strive for superhuman performance, and introduces Superhuman Adaptable Intelligence (SAI), defined as intelligence that can learn to exceed humans at anything important that the authors can do.",
+      "abstract": "Everyone from AI executives and researchers to doomsayers, politicians, and activists is talking about Artificial General Intelligence (AGI). Yet, they often don't seem to agree on its exact definition. One common definition of AGI is an AI that can do everything a human can do, but are humans truly general? In this paper, we address what's wrong with our conception of AGI, and why, even in its most coherent formulation, it is a flawed concept to describe the future of AI. We explore whether the most widely accepted definitions are plausible, useful, and truly general. We argue that AI must embrace specialization, rather than strive for generality, and in its specialization strive for superhuman performance, and introduce Superhuman Adaptable Intelligence (SAI). SAI is defined as intelligence that can learn to exceed humans at anything important that we can do, and that can fill in the skill gaps where humans are incapable. We then lay out how SAI can help hone a discussion around AI that was blurred by an overloaded definition of AGI, and extrapolate the implications of using it as a guide for the future."
+    },
+    {
+      "paperId": "aef0d84ac46f451d8083a7ae7bbafdbdfdad97ca",
+      "title": "Semantic Tube Prediction: Beating LLM Data Efficiency with JEPA",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-02-26",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.22617",
+      "citationCount": 6,
+      "tldr": "The Geodesic Hypothesis is introduced, positing that token sequences trace geodesics on a smooth semantic manifold and are therefore locally linear, and a novel Semantic Tube Prediction (STP) task is proposed, a JEPA-style regularizer that confines hidden-state trajectories to a tubular neighborhood of the geodesic.",
+      "abstract": "Large Language Models (LLMs) obey consistent scaling laws -- empirical power-law fits that predict how loss decreases with compute, data, and parameters. While predictive, these laws are descriptive rather than prescriptive: they characterize typical training, not optimal training. Surprisingly few works have successfully challenged the data-efficiency bounds implied by these laws -- which is our primary focus. To that end, we introduce the Geodesic Hypothesis, positing that token sequences trace geodesics on a smooth semantic manifold and are therefore locally linear. Building on this principle, we propose a novel Semantic Tube Prediction (STP) task, a JEPA-style regularizer that confines hidden-state trajectories to a tubular neighborhood of the geodesic. STP generalizes JEPA to language without requiring explicit multi-view augmentations. We show this constraint improves signal-to-noise ratio, and consequently preserves diversity by preventing trajectory collisions during inference. Empirically, STP allows LLMs to match baseline accuracy with 16$\\times$ less training data on the NL-RX-SYNTH dataset, directly violating the data term of Chinchilla-style scaling laws and demonstrat"
+    },
+    {
+      "paperId": "0571686b5b6a838759a3219cd8e8684a1992c0aa",
+      "title": "Likelihood-Based Reward Designs for General LLM Reasoning",
+      "teamAuthors": [
+        {
+          "slug": "julia-kempe",
+          "name": "Julia Kempe"
+        }
+      ],
+      "memberSlug": "julia-kempe",
+      "memberName": "Julia Kempe",
+      "publicationDate": "2026-02-03",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.03979",
+      "citationCount": 5,
+      "tldr": "This work systematically investigates rewards derived from the probability or log-probability of emitting the reference answer (or any other prompt continuation present in the data), finding that using the log-probability of the reference answer as the reward for chain-of-thought (CoT) learning is the only option that performs well in all setups.",
+      "abstract": "Fine-tuning large language models (LLMs) on reasoning benchmarks via reinforcement learning requires a specific reward function, often binary, for each benchmark. This comes with two potential limitations: the need to design the reward, and the potentially sparse nature of binary rewards. Here, we systematically investigate rewards derived from the probability or log-probability of emitting the reference answer (or any other prompt continuation present in the data), which have the advantage of not relying on specific verifiers and being available at scale. Several recent works have advocated for the use of similar rewards (e.g., VeriFree, JEPO, RLPR, NOVER). We systematically compare variants of likelihood-based rewards with standard baselines, testing performance both on standard mathematical reasoning benchmarks, and on long-form answers where no external verifier is available. We find that using the log-probability of the reference answer as the reward for chain-of-thought (CoT) learning is the only option that performs well in all setups. This reward is also consistent with the next-token log-likelihood loss used during pretraining. In verifiable settings, log-probability rewar"
+    },
+    {
+      "paperId": "9d317102e82a43db4c461976c4ec914a1e423e90",
+      "title": "Teaching Models to Teach Themselves: Reasoning at the Edge of Learnability",
+      "teamAuthors": [
+        {
+          "slug": "julia-kempe",
+          "name": "Julia Kempe"
+        }
+      ],
+      "memberSlug": "julia-kempe",
+      "memberName": "Julia Kempe",
+      "publicationDate": "2026-01-26",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.18778",
+      "citationCount": 15,
+      "tldr": "SOAR: An asymmetric self-play framework that uses meta-RL to surface pedagogical signals, suggesting that the ability to generate useful stepping stones does not require the preexisting ability to solve the hard problems, paving a principled path to escape reasoning plateaus without additional curated data.",
+      "abstract": "RL methods for scaling large reasoning models stall on datasets with low initial success rates, and thus little training signal. We investigate a fundamental question: Can a pretrained LLM leverage latent knowledge to generate an automated curriculum for problems it cannot solve? We explore this with SOAR: An asymmetric self-play framework that uses meta-RL to surface these pedagogical signals. A teacher model proposes synthetic problems for a student model, and is rewarded with its improvement on a subset of hard problems, thus grounding the curriculum in real student progress rather than intrinsic proxy rewards. Our study on the hardest subsets of math benchmarks (0/128 success) reveals three core findings. First, it is possible to realize bilevel meta-RL that unlocks learning under sparse, binary rewards by sharpening a latent capacity of pretrained models to generate useful problems. Second, grounded rewards outperform intrinsic learnability rewards used in prior LLM self-play, reliably avoiding typical instability and diversity collapse modes. Third, the structure and well-posedness of questions are more critical for learning progress than solution correctness. Our results sug"
+    },
+    {
+      "paperId": "4214cfd60b1925f738ac728fa4a5c8feaa489db0",
+      "title": "What matters for Representation Alignment: Global Information or Spatial Structure?",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2025-12-11",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2512.10794",
+      "citationCount": 52,
+      "tldr": "Surprisingly, the simple method, termed iREPA, consistently improves convergence speed of REPA, across a diverse set of vision encoders, model sizes, and training variants (such as REPA, REPA-E, Meanflow, JiT etc).",
+      "abstract": "Representation alignment (REPA) guides generative training by distilling representations from a strong, pretrained vision encoder to intermediate diffusion features. We investigate a fundamental question: what aspect of the target representation matters for generation, its \\textit{global} \\revision{semantic} information (e.g., measured by ImageNet-1K accuracy) or its spatial structure (i.e. pairwise cosine similarity between patch tokens)? Prevalent wisdom holds that stronger global semantic performance leads to better generation as a target representation. To study this, we first perform a large-scale empirical analysis across 27 different vision encoders and different model scales. The results are surprising; spatial structure, rather than global performance, drives the generation performance of a target representation. To further study this, we introduce two straightforward modifications, which specifically accentuate the transfer of \\emph{spatial} information. We replace the standard MLP projection layer in REPA with a simple convolution layer and introduce a spatial normalization layer for the external representation. Surprisingly, our simple method (implemented in $<$4 lines "
+    },
+    {
+      "paperId": "b0d799e331b31b6c8d131b1cb590331268a5c48c",
+      "title": "Embedding Trust: Semantic Isotropy Predicts Nonfactuality in Long-Form Text Generation",
+      "teamAuthors": [
+        {
+          "slug": "julia-kempe",
+          "name": "Julia Kempe"
+        }
+      ],
+      "memberSlug": "julia-kempe",
+      "memberName": "Julia Kempe",
+      "publicationDate": "2025-10-24",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2510.21891",
+      "citationCount": 1,
+      "tldr": "This work introduces semantic isotropy -- the degree of uniformity across normalized text embeddings on the unit sphere -- and uses it to assess the trustworthiness of long-form responses generated by LLMs, offering a practical, low-cost approach for integrating trust assessment into real-world LLM workflows.",
+      "abstract": "To deploy large language models (LLMs) in high-stakes application domains that require substantively accurate responses to open-ended prompts, we need reliable, computationally inexpensive methods that assess the trustworthiness of long-form responses generated by LLMs. However, existing approaches often rely on claim-by-claim fact-checking, which is computationally expensive and brittle in long-form responses to open-ended prompts. In this work, we introduce semantic isotropy -- the degree of uniformity across normalized text embeddings on the unit sphere -- and use it to assess the trustworthiness of long-form responses generated by LLMs. To do so, we generate several long-form responses, embed them, and estimate the level of semantic isotropy of these responses as the angular dispersion of the embeddings on the unit sphere. We find that higher semantic isotropy -- that is, greater embedding dispersion -- reliably signals lower factual consistency across samples. Our approach requires no labeled data, no fine-tuning, and no hyperparameter selection, and can be used with open- or closed-weight embedding models. Across multiple domains, our method consistently outperforms existing "
+    },
+    {
+      "paperId": "f14e707fd9926b010350e45c37e8193bbf752a2c",
+      "title": "Soft Tokens, Hard Truths",
+      "teamAuthors": [
+        {
+          "slug": "julia-kempe",
+          "name": "Julia Kempe"
+        }
+      ],
+      "memberSlug": "julia-kempe",
+      "memberName": "Julia Kempe",
+      "publicationDate": "2025-09-23",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.19170",
+      "citationCount": 17,
+      "tldr": "This is the first work introducing a scalable method to learn continuous CoTs via reinforcement learning (RL), without distilling from reference discrete CoTs, and shows continuous CoT RL training better preserves the predictions of the base model on out-of-domain tasks, thus providing a softer touch to the base model.",
+      "abstract": "The use of continuous instead of discrete tokens during the Chain-of-Thought (CoT) phase of reasoning LLMs has garnered attention recently, based on the intuition that a continuous mixture of discrete tokens could simulate a superposition of several reasoning paths simultaneously. Theoretical results have formally proven that continuous tokens have much greater expressivity and can solve specific problems more efficiently. However, practical use of continuous tokens has been limited by strong training difficulties: previous works either just use continuous tokens at inference time on a pre-trained discrete-token model, or must distill the continuous CoT from ground-truth discrete CoTs and face computational costs that limit the CoT to very few tokens. This is the first work introducing a scalable method to learn continuous CoTs via reinforcement learning (RL), without distilling from reference discrete CoTs. We use\"soft\"tokens: mixtures of tokens together with noise on the input embedding to provide RL exploration. Computational overhead is minimal, enabling us to learn continuous CoTs with hundreds of tokens. On math reasoning benchmarks with Llama and Qwen models up to 8B, traini"
+    },
+    {
+      "paperId": "a59bd4c20088d57ea27eb51f860996fa58caf2a3",
+      "title": "DiffusionGuard: A Robust Defense Against Malicious Diffusion-based Image Editing",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": null,
+      "year": 2025,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2410.05694",
+      "citationCount": 27,
+      "tldr": "This work proposes DiffusionGuard, a robust and effective defense method against unauthorized edits by diffusion-based image editing models, even in challenging setups, and introduces a novel objective that generates adversarial noise targeting the early stage of the diffusion process.",
+      "abstract": null
+    },
+    {
+      "paperId": "ef2cb2427e5b6768a809f1da243ae00a0d2ee0ea",
+      "title": "Chain-of-Talkers (CoTalk): Fast Human Annotation of Dense Image Captions",
+      "teamAuthors": [
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        }
+      ],
+      "memberSlug": "delong-chen",
+      "memberName": "Delong Chen",
+      "publicationDate": "2025-05-28",
+      "year": 2025,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.48550/arXiv.2505.22627",
+      "citationCount": 1,
+      "tldr": "The Chain-of-Talkers (CoTalk) methodology is introduced, an AI-in-the-loop methodology designed to maximize the number of annotated samples and improve their comprehensiveness under fixed budget constraints.",
+      "abstract": "While densely annotated image captions significantly facilitate the learning of robust vision-language alignment, methodologies for systematically optimizing human annotation efforts remain underexplored. We introduce Chain-of-Talkers (CoTalk), an AI-in-the-loop methodology designed to maximize the number of annotated samples and improve their comprehensiveness under fixed budget constraints (e.g., total human annotation time). The framework is built upon two key insights. First, sequential annotation reduces redundant workload compared to conventional parallel annotation, as subsequent annotators only need to annotate the ``residual'' -- the missing visual information that previous annotations have not covered. Second, humans process textual input faster by reading while outputting annotations with much higher throughput via talking; thus a multimodal interface enables optimized efficiency. We evaluate our framework from two aspects: intrinsic evaluations that assess the comprehensiveness of semantic units, obtained by parsing detailed captions into object-attribute trees and analyzing their effective connections; extrinsic evaluation measures the practical usage of the annotated "
+    },
+    {
+      "paperId": "ef03e180f8e0d46b9d5044a889103d8bb680e899",
+      "title": "RemoteSAM: Towards Segment Anything for Earth Observation",
+      "teamAuthors": [
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        }
+      ],
+      "memberSlug": "delong-chen",
+      "memberName": "Delong Chen",
+      "publicationDate": "2025-05-23",
+      "year": 2025,
+      "venue": "ACM Multimedia",
+      "url": "https://doi.org/10.1145/3746027.3754950",
+      "citationCount": 57,
+      "tldr": "RemoteSAM is presented, a foundation model that establishes new SoTA on several earth observation perception benchmarks, outperforming other foundation models such as Falcon, GeoChat, and LHRS-Bot with significantly higher efficiency.",
+      "abstract": "We aim to develop a robust yet flexible visual foundation model for Earth observation. It should possess strong capabilities in recognizing and localizing diverse visual targets while providing compatibility with various input-output interfaces required across different task scenarios. Current systems cannot meet these requirements, as they typically utilize task-specific architecture trained on narrow data domains with limited semantic coverage. Our study addresses these limitations from two aspects: data and modeling. We first introduce an automatic data engine that enjoys significantly better scalability compared to previous human annotation or rule-based approaches. It has enabled us to create the largest dataset of its kind to date, comprising 270K image-text-mask triplets covering an unprecedented range of diverse semantic categories and attribute specifications. Based on this data foundation, we further propose a task unification paradigm that centers around referring expression segmentation. It effectively handles a wide range of vision-centric perception tasks, including classification, detection, segmentation, grounding, etc, using a single model without any task-specific"
+    },
+    {
+      "paperId": "27a028c9ad4145d52d5e00619a7672ca0429aac2",
+      "title": "REPA-E: Unlocking VAE for End-to-End Tuning with Latent Diffusion Transformers",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2025-04-14",
+      "year": 2025,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV51701.2025.01697",
+      "citationCount": 182,
+      "tldr": "It is shown that while diffusion loss is ineffective, end-to-end training can be unlocked through the representation-alignment (REPA) loss - allowing both VAE and diffusion model to be jointly tuned during the training process.",
+      "abstract": "In this paper we tackle a fundamental question:“Can we train latent diffusion models together with the variational auto-encoder (VAE) tokenizer in an end-to-end manner?”Traditional deep-learning wisdom dictates that end-to-end training is often preferable when possible. However, for latent diffusion transformers, it is observed that end-toend training both VAE and diffusion-model using standard diffusion-loss is ineffective, even causing a degradation in final performance. We show that while diffusion loss is ineffective, end-to-end training can be unlocked through the representation-alignment (REPA) loss - allowing both VAE and diffusion model to be jointly tuned during the training process. Despite its simplicity, the proposed training recipe (REPA-E) shows remarkable performance; speeding up diffusion model training by over $17 \\times$ and $45 \\times$ over REPA and vanilla training recipes, respectively. Interestingly, we observe that end-to-end tuning with REPA-E also improves the VAE itself; leading to improved latent space structure and downstream generation performance. In terms of final performance, our approach sets a new state-of-the-art; achieving FID of 1.26 and 1.83 wi"
+    },
+    {
+      "paperId": "c5e7e68a6214f5f2726b5d1845968e5f93fcef1c",
+      "title": "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
+      "teamAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        }
+      ],
+      "memberSlug": "michael-rabbat",
+      "memberName": "Michael Rabbat",
+      "publicationDate": "2025-02-17",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2502.11831",
+      "citationCount": 66,
+      "tldr": "This work finds that video prediction models trained to predict outcomes in a learned representation space demonstrate an understanding of various intuitive physics properties, such as object permanence and shape consistency, in contrast to video prediction in pixel space and multimodal large language models, which reason through text.",
+      "abstract": "We investigate the emergence of intuitive physics understanding in general-purpose deep neural network models trained to predict masked regions in natural videos. Leveraging the violation-of-expectation framework, we find that video prediction models trained to predict outcomes in a learned representation space demonstrate an understanding of various intuitive physics properties, such as object permanence and shape consistency. In contrast, video prediction in pixel space and multimodal large language models, which reason through text, achieve performance closer to chance. Our comparisons of these architectures reveal that jointly learning an abstract representation space while predicting missing parts of sensory input, akin to predictive coding, is sufficient to acquire an understanding of intuitive physics, and that even models trained on one week of unique video achieve above chance performance. This challenges the idea that core knowledge -- a set of innate systems to help understand the world -- needs to be hardwired to develop an understanding of intuitive physics."
+    },
+    {
+      "paperId": "d7630a918b68e6281318e0106dfe7bdacdb7161c",
+      "title": "International AI Safety Report",
+      "teamAuthors": [
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        }
+      ],
+      "memberSlug": "pascale-fung",
+      "memberName": "Pascale Fung",
+      "publicationDate": "2025-01-29",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2501.17805",
+      "citationCount": 84,
+      "tldr": null,
+      "abstract": "The first International AI Safety Report comprehensively synthesizes the current evidence on the capabilities, risks, and safety of advanced AI systems. The report was mandated by the nations attending the AI Safety Summit in Bletchley, UK. Thirty nations, the UN, the OECD, and the EU each nominated a representative to the report's Expert Advisory Panel. A total of 100 AI experts contributed, representing diverse perspectives and disciplines. Led by the report's Chair, these independent experts collectively had full discretion over the report's content."
+    },
+    {
+      "paperId": "c0c70fee50c4dc087d6e812b74b6761787b9b4d6",
+      "title": "Few-Shot Classification Model Compression via School Learning",
+      "teamAuthors": [
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        }
+      ],
+      "memberSlug": "delong-chen",
+      "memberName": "Delong Chen",
+      "publicationDate": "2024-12-01",
+      "year": 2024,
+      "venue": "IEEE transactions on circuits and systems for video technology (Print)",
+      "url": "https://doi.org/10.1109/TCSVT.2024.3432596",
+      "citationCount": 1,
+      "tldr": null,
+      "abstract": "Few-shot classification (FSC) is a challenging task due to limitation in accessing training data. Recent methods often employ highly complex networks to obtain high-quality features, but this may not be suitable for resource-limited applications. To tackle this challenge, we introduce Few-Shot Classification Model Compression (FSC-MC), a new task aimed at enhancing the FSC performance of lightweight and low-capacity models by learning from more complex models. We also propose a novel two-level learning strategy called School Learning to accomplish the FSC-MC task by mimicking the real learning process in the social school life. In this new learning paradigm, the first level performs preview learning, in which each student is equipped with a preparer to perform self-learning on the base set. The second level is the team learning, consisting of a complex teacher network and several lightweight student networks organized into a team. One student network is randomly chosen as the leader network, while the remaining student networks serve as member networks. The leader network simultaneously learns knowledge from the teacher network and all member networks. Conversely, each member netwo"
+    },
+    {
+      "paperId": "4d44f9ce850fd1ad976af1a7cf8a4a0d80de4334",
+      "title": "International Scientific Report on the Safety of Advanced AI (Interim Report)",
+      "teamAuthors": [
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        }
+      ],
+      "memberSlug": "pascale-fung",
+      "memberName": "Pascale Fung",
+      "publicationDate": "2024-11-05",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/4d44f9ce850fd1ad976af1a7cf8a4a0d80de4334",
+      "citationCount": 50,
+      "tldr": "The report synthesises the scientific understanding of general-purpose AI -- AI that can perform a wide variety of tasks -- with a focus on understanding and managing its risks.",
+      "abstract": "This is the interim publication of the first International Scientific Report on the Safety of Advanced AI. The report synthesises the scientific understanding of general-purpose AI -- AI that can perform a wide variety of tasks -- with a focus on understanding and managing its risks. A diverse group of 75 AI experts contributed to this report, including an international Expert Advisory Panel nominated by 30 countries, the EU, and the UN. Led by the Chair, these independent experts collectively had full discretion over the report's content. The final report is available at arXiv:2501.17805"
+    },
+    {
+      "paperId": "f5ac95fa58815a35622a60f42a5729f518e57cdf",
+      "title": "Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2024-10-09",
+      "year": 2024,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2410.06940",
+      "citationCount": 625,
+      "tldr": "This work argues that one main bottleneck in training large-scale diffusion models for generation lies in effectively learning these representations, and introduces a straightforward regularization called REPresentation Alignment (REPA), which aligns the projections of noisy input hidden states in denoising networks with clean image representations obtained from external, pretrained visual encoders.",
+      "abstract": "Recent studies have shown that the denoising process in (generative) diffusion models can induce meaningful (discriminative) representations inside the model, though the quality of these representations still lags behind those learned through recent self-supervised learning methods. We argue that one main bottleneck in training large-scale diffusion models for generation lies in effectively learning these representations. Moreover, training can be made easier by incorporating high-quality external visual representations, rather than relying solely on the diffusion models to learn them independently. We study this by introducing a straightforward regularization called REPresentation Alignment (REPA), which aligns the projections of noisy input hidden states in denoising networks with clean image representations obtained from external, pretrained visual encoders. The results are striking: our simple strategy yields significant improvements in both training efficiency and generation quality when applied to popular diffusion and flow-based transformers, such as DiTs and SiTs. For instance, our method can speed up SiT training by over 17.5$\\times$, matching the performance (without clas"
+    },
+    {
+      "paperId": "7a2dfea68ce49dbab042bb29a890a4e357ebda6f",
+      "title": "DiffusionGuard: A Robust Defense Against Malicious Diffusion-based Image Editing",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2024-10-08",
+      "year": 2024,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/7a2dfea68ce49dbab042bb29a890a4e357ebda6f",
+      "citationCount": 0,
+      "tldr": null,
+      "abstract": "Recent advances in diffusion models have introduced a new era of text-guided image manipulation, enabling users to create realistic edited images with simple textual prompts. However, there is significant concern about the potential misuse of these methods, especially in creating misleading or harmful content. Although recent defense strategies, which introduce imperceptible adversarial noise to induce model failure, have shown promise, they remain ineffective against more sophisticated manipulations, such as editing with a mask. In this work, we propose DiffusionGuard, a robust and effective defense method against unauthorized edits by diffusion-based image editing models, even in challenging setups. Through a detailed analysis of these models, we introduce a novel objective that generates adversarial noise targeting the early stage of the diffusion process. This approach significantly improves the efficiency and effectiveness of adversarial noises. We also introduce a mask-augmentation technique to enhance robustness against various masks during test time. Finally, we introduce a comprehensive benchmark designed to evaluate the effectiveness and robustness of methods in protectin"
+    },
+    {
+      "paperId": "f7135dca58bf8c6131ff2fbb708eac887a262640",
+      "title": "Prompting DirectSAM for Semantic Contour Extraction in Remote Sensing Images",
+      "teamAuthors": [
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        }
+      ],
+      "memberSlug": "delong-chen",
+      "memberName": "Delong Chen",
+      "publicationDate": "2024-10-08",
+      "year": 2024,
+      "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "url": "https://doi.org/10.1109/ICASSP49660.2025.10889192",
+      "citationCount": 6,
+      "tldr": "This paper introduces a foundation model derived from DirectSAM, termed DirectSAM-RS, which not only inherits the strong segmentation capability acquired from natural images, but also benefits from a large-scale dataset the authors created for remote sensing semantic contour extraction.",
+      "abstract": "The Direct Segment Anything Model (DirectSAM) excels in class-agnostic contour extraction. In this paper, we explore its use by applying it to optical remote sensing imagery, where semantic contour extraction—such as identifying buildings, road networks, and coastlines-holds significant practical value. Those applications are currently handled via training specialized small models separately on small datasets in each domain. We introduce a foundation model derived from DirectSAM, termed DirectSAM-RS, which not only inherits the strong segmentation capability acquired from natural images, but also benefits from a large-scale dataset we created for remote sensing semantic contour extraction. This dataset comprises over 34k image-text-contour triplets, making it at least 30 times larger than individual dataset. DirectSAM-RS integrates a prompter module: a text encoder and cross-attention layers attached to the DirectSAM architecture, which allows flexible conditioning on target class labels or referring expressions. We evaluate the DirectSAM-RS in both zero-shot and fine-tuning setting, and demonstrate that it achieves state-of-the-art performance across several downstream benchmarks."
+    },
+    {
+      "paperId": "697aad9ef06add41b7f25e7bc671976c48ac68ad",
+      "title": "Making Large Vision Language Models to be Good Few-shot Learners",
+      "teamAuthors": [
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        }
+      ],
+      "memberSlug": "delong-chen",
+      "memberName": "Delong Chen",
+      "publicationDate": "2024-08-21",
+      "year": 2024,
+      "venue": "AAAI Conference on Artificial Intelligence",
+      "url": "https://doi.org/10.48550/arXiv.2408.11297",
+      "citationCount": 8,
+      "tldr": "This work adopts the meta-learning strategy to teach models ``learn to learn\" and boosts LVLM's few-shot learning capabilities through label augmentation (LA) and candidate selection (CS) in the fine-tuning and inference stages, respectively.",
+      "abstract": "Few-shot classification (FSC) is a fundamental yet challenging task in computer vision that involves recognizing novel classes from limited data. While previous methods have focused on enhancing visual features or incorporating additional modalities, Large Vision Language Models (LVLMs) offer a promising alternative due to their rich knowledge and strong visual perception. However, LVLMs risk learning specific response formats rather than effectively extracting useful information from support data in FSC. In this paper, we investigate LVLMs' performance in FSC and identify key issues such as insufficient learning and the presence of severe position biases. To tackle above challenges, we adopt the meta-learning strategy to teach models ``learn to learn\". By constructing a rich set of meta-tasks for instruction fine-tuning, LVLMs enhance the ability to extract information from few-shot support data for classification. Additionally, we further boost LVLM's few-shot learning capabilities through label augmentation (LA) and candidate selection (CS) in the fine-tuning and inference stages, respectively. LA is implemented via a character perturbation strategy to ensure the model focuses o"
+    },
+    {
+      "paperId": "d75e16896cc50b720cea864d50b3173a2d053524",
+      "title": "Flatness-Aware Gradient Descent for Safe Conversational AI",
+      "teamAuthors": [
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        }
+      ],
+      "memberSlug": "pascale-fung",
+      "memberName": "Pascale Fung",
+      "publicationDate": null,
+      "year": 2024,
+      "venue": "TRUSTNLP",
+      "url": "https://doi.org/10.18653/v1/2024.trustnlp-1.15",
+      "citationCount": 0,
+      "tldr": "Experimental results demonstrate that the new regularized fine-tuning approach, FlatGD, outperforms the current baselines in reducing toxicity while preserving the conversation quality and can better generalize to unseen toxic data.",
+      "abstract": "As generative dialog models become ubiquitous in real-world applications, it is paramount to ensure a harmless generation. There are two major challenges when enforcing safety to open-domain chatbots. Firstly, it is impractical to provide training data reflecting the desired response to all emerging forms of toxicity (generalisation challenge). Secondly, implementing safety features may compromise the quality of the conversation (trade-off challenge). To tackle the challenges, this paper introduces a regularized fine-tuning approach called FlatGD. By employing a safety-tailored loss, we translate better optimization to more safety. To ensure better optimization, FlatGD penalizes sharp trajectories of loss curve, encouraging flatness of the converged local minima. Experimental results on datasets of “BAD” and “prosocial dialog” demonstrate that our model outperforms the current baselines in reducing toxicity while preserving the conversation quality. Moreover, compared to other baselines, FlatGD can better generalize to unseen toxic data."
+    },
+    {
+      "paperId": "80945e0f3e60df0ee545caa665aad1b78123ff4a",
+      "title": "What Makes for Good Image Captions?",
+      "teamAuthors": [
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        }
+      ],
+      "memberSlug": "delong-chen",
+      "memberName": "Delong Chen",
+      "publicationDate": "2024-05-01",
+      "year": 2024,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.18653/v1/2025.findings-emnlp.75",
+      "citationCount": 13,
+      "tldr": "This paper introduces the Pyramid of Captions method, which generates enriched captions by integrating local and global visual information and presents both theoretical proof that PoCa improves caption quality under certain assumptions, and empirical validation of its effectiveness across various image captioning models and datasets.",
+      "abstract": "This paper establishes a formal information-theoretic framework for image captioning, conceptualizing captions as compressed linguistic representations that selectively encode semantic units in images. Our framework posits that good image captions should balance three key aspects: informationally sufficient, minimally redundant, and readily comprehensible by humans. By formulating these aspects as quantitative measures with adjustable weights, our framework provides a flexible foundation for analyzing and optimizing image captioning systems across diverse task requirements. To demonstrate its applicability, we introduce the Pyramid of Captions (PoCa) method, which generates enriched captions by integrating local and global visual information. We present both theoretical proof that PoCa improves caption quality under certain assumptions, and empirical validation of its effectiveness across various image captioning models and datasets."
+    },
+    {
+      "paperId": "8ddd669fad4272223ec94f3cbdfd8d67876a60b5",
+      "title": "High-Dimension Human Value Representation in Large Language Models",
+      "teamAuthors": [
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        }
+      ],
+      "memberSlug": "delong-chen",
+      "memberName": "Delong Chen",
+      "publicationDate": "2024-04-11",
+      "year": 2024,
+      "venue": "North American Chapter of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2404.07900",
+      "citationCount": 20,
+      "tldr": "This work proposes UniVaR, a high-dimensional neural representation of symbolic human value distributions in LLMs, orthogonal to model architecture and training data, and visualize and explore how LLMs prioritize different values in 25 languages and cultures, shedding light on complex interplay between human values and language modeling.",
+      "abstract": "The widespread application of LLMs across various tasks and fields has necessitated the alignment of these models with human values and preferences. Given various approaches of human value alignment, there is an urgent need to understand the scope and nature of human values injected into these LLMs before their deployment and adoption. We propose UniVaR, a high-dimensional neural representation of symbolic human value distributions in LLMs, orthogonal to model architecture and training data. This is a continuous and scalable representation, self-supervised from the value-relevant output of 8 LLMs and evaluated on 15 open-source and commercial LLMs. Through UniVaR, we visualize and explore how LLMs prioritize different values in 25 languages and cultures, shedding light on complex interplay between human values and language modeling."
+    },
+    {
+      "paperId": "a188930cfa21cb8c780ddaeccc219b07caeb5016",
+      "title": "MTMMC: A Large-Scale Real-World Multi-Modal Camera Tracking Benchmark",
+      "teamAuthors": [
+        {
+          "slug": "sanghyun-woo",
+          "name": "Sanghyun Woo"
+        }
+      ],
+      "memberSlug": "sanghyun-woo",
+      "memberName": "Sanghyun Woo",
+      "publicationDate": "2024-03-29",
+      "year": 2024,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52733.2024.02108",
+      "citationCount": 5,
+      "tldr": "This work presents MTMMC, a real-world, large-scale dataset that includes long video sequences captured by 16 multi-modal cameras in two different environments - campus and factory - across various time, weather, and season conditions and includes an additional input modality of spatially aligned and temporally synchronized RGB and thermal cameras, which enhances the accuracy of multi-camera tracking.",
+      "abstract": "Multi-target multi-camera tracking is a crucial task that involves identifying and tracking individuals over time using video streams from multiple cameras. This task has practical applications in various fields, such as visual surveillance, crowd behavior analysis, and anomaly detection. However, due to the difficulty and cost of collecting and labeling data, existing datasets for this task are either synthetically generated or artificially constructed within a controlled camera network setting, which limits their ability to model real-world dynamics and generalize to diverse camera configurations. To address this issue, we present MTMMC, a real-world, large-scale dataset that includes long video sequences captured by 16 multi-modal cameras in two different environments - campus and factory - across various time, weather, and season conditions. This dataset provides a challenging test-bed for studying multi-camera tracking under diverse real-world complexities and includes an additional input modality of spatially aligned and temporally synchronized RGB and thermal cameras, which enhances the accuracy of multi-camera tracking. MTMMC is a super-set of existing datasets, benefiting "
+    },
+    {
+      "paperId": "8f77307a394f006633c27cca56a345c0879eb67c",
+      "title": "Measuring Political Bias in Large Language Models: What Is Said and How It Is Said",
+      "teamAuthors": [
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        }
+      ],
+      "memberSlug": "delong-chen",
+      "memberName": "Delong Chen",
+      "publicationDate": "2024-03-27",
+      "year": 2024,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2403.18932",
+      "citationCount": 128,
+      "tldr": null,
+      "abstract": "We propose to measure political bias in LLMs by analyzing both the content and style of their generated content regarding political issues. Existing benchmarks and measures focus on gender and racial biases. However, political bias exists in LLMs and can lead to polarization and other harms in downstream applications. In order to provide transparency to users, we advocate that there should be fine-grained and explainable measures of political biases generated by LLMs. Our proposed measure looks at different political issues such as reproductive rights and climate change, at both the content (the substance of the generation) and the style (the lexical polarity) of such bias. We measured the political bias in eleven open-sourced LLMs and showed that our proposed framework is easily scalable to other topics and is explainable."
+    },
+    {
+      "paperId": "872d78c04c8fb115d492eea98199407991670533",
+      "title": "Revisiting Feature Prediction for Learning Visual Representations from Video",
+      "teamAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        }
+      ],
+      "memberSlug": "michael-rabbat",
+      "memberName": "Michael Rabbat",
+      "publicationDate": "2024-02-15",
+      "year": 2024,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2404.08471",
+      "citationCount": 399,
+      "tldr": null,
+      "abstract": "This paper explores feature prediction as a stand-alone objective for unsupervised learning from video and introduces V-JEPA, a collection of vision models trained solely using a feature prediction objective, without the use of pretrained image encoders, text, negative examples, reconstruction, or other sources of supervision. The models are trained on 2 million videos collected from public datasets and are evaluated on downstream image and video tasks. Our results show that learning by predicting video features leads to versatile visual representations that perform well on both motion and appearance-based tasks, without adaption of the model's parameters; e.g., using a frozen backbone. Our largest model, a ViT-H/16 trained only on videos, obtains 81.9% on Kinetics-400, 72.2% on Something-Something-v2, and 77.9% on ImageNet1K."
+    },
+    {
+      "paperId": "942c856469a6feee06c6c90c1571d6f4d3ebc65b",
+      "title": "Contrastive Positive Unlabeled Learning",
+      "teamAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        }
+      ],
+      "memberSlug": "michael-rabbat",
+      "memberName": "Michael Rabbat",
+      "publicationDate": null,
+      "year": 2023,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/942c856469a6feee06c6c90c1571d6f4d3ebc65b",
+      "citationCount": 0,
+      "tldr": "This work proposes a simple extension of standard infoNCE family of contrastive losses, to the PU setting; and develops a simple methodology to pseudo-label the unlabeled samples using a new PU-specific clustering scheme, which can be used to train the final (positive vs. negative) classifier.",
+      "abstract": null
+    },
+    {
+      "paperId": "d2b6db657204b8505ee6c7cf4833cb7811b6f162",
+      "title": "Cyclical Compound Domain Test-time Adaptation via Continual Domain-Matching Algorithm",
+      "teamAuthors": [
+        {
+          "slug": "sanghyun-woo",
+          "name": "Sanghyun Woo"
+        }
+      ],
+      "memberSlug": "sanghyun-woo",
+      "memberName": "Sanghyun Woo",
+      "publicationDate": null,
+      "year": 2023,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/d2b6db657204b8505ee6c7cf4833cb7811b6f162",
+      "citationCount": 0,
+      "tldr": "A lightweight domain-matching algorithm is proposed that allows the TTA model to manage knowledge from the compound domain and improves the adaptation performance on various benchmarks, including image classiﬁcation on ImageNet-C and semantic segmentation on GTA5, C-driving datasets, and Cityscapes with corruptions.",
+      "abstract": null
+    },
+    {
+      "paperId": "49146ba6e2eac5eb854297db0fc4685656d0a9f4",
+      "title": "Benchmarking Neural Network Training Algorithms",
+      "teamAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        }
+      ],
+      "memberSlug": "michael-rabbat",
+      "memberName": "Michael Rabbat",
+      "publicationDate": "2023-06-12",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2306.07179",
+      "citationCount": 51,
+      "tldr": "A new, competitive, time-to-result benchmark using multiple workloads running on fixed hardware, the AlgoPerf: Training Algorithms benchmark is introduced, which includes a set of workload variants that make it possible to detect benchmark submissions that are more robust to workload changes than current widely-used methods.",
+      "abstract": "Training algorithms, broadly construed, are an essential part of every deep learning pipeline. Training algorithm improvements that speed up training across a wide variety of workloads (e.g., better update rules, tuning protocols, learning rate schedules, or data selection schemes) could save time, save computational resources, and lead to better, more accurate, models. Unfortunately, as a community, we are currently unable to reliably identify training algorithm improvements, or even determine the state-of-the-art training algorithm. In this work, using concrete experiments, we argue that real progress in speeding up training requires new benchmarks that resolve three basic challenges faced by empirical comparisons of training algorithms: (1) how to decide when training is complete and precisely measure training time, (2) how to handle the sensitivity of measurements to exact workload details, and (3) how to fairly compare algorithms that require hyperparameter tuning. In order to address these challenges, we introduce a new, competitive, time-to-result benchmark using multiple workloads running on fixed hardware, the AlgoPerf: Training Algorithms benchmark. Our benchmark includes"
+    },
+    {
+      "paperId": "5e833e3674fda71ac8544f052ae1c8501a52a10d",
+      "title": "Mask-Guided Matting in the Wild",
+      "teamAuthors": [
+        {
+          "slug": "sanghyun-woo",
+          "name": "Sanghyun Woo"
+        }
+      ],
+      "memberSlug": "sanghyun-woo",
+      "memberName": "Sanghyun Woo",
+      "publicationDate": "2023-06-01",
+      "year": 2023,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52729.2023.00198",
+      "citationCount": 23,
+      "tldr": null,
+      "abstract": "Mask-guided matting has shown great practicality compared to traditional trimap-based methods. The mask-guided approach takes an easily-obtainable coarse mask as guidance and produces an accurate alpha matte. To extend the success toward practical usage, we tackle mask-guided matting in the wild, which covers a wide range of categories in their complex context robustly. To this end, we propose a simple yet effective learning framework based on two core insights: 1) learning a generalized matting model that can better understand the given mask guidance and 2) leveraging weak supervision datasets (e.g., instance segmentation dataset) to alleviate the limited diversity and scale of existing matting datasets. Extensive experimental results on multiple benchmarks, consisting of a newly proposed synthetic benchmark (Composition-Wild) and existing natural datasets, demonstrate the superiority of the proposed method. Moreover, we provide appealing results on new practical applications (e.g., panoptic matting and mask-guided video matting), showing the great generality and potential of our model."
+    },
+    {
+      "paperId": "5a9cb1b3dc4655218b3deeaf4a2417a9a8cd0891",
+      "title": "DINOv2: Learning Robust Visual Features without Supervision",
+      "teamAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        }
+      ],
+      "memberSlug": "michael-rabbat",
+      "memberName": "Michael Rabbat",
+      "publicationDate": "2023-04-14",
+      "year": 2023,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2304.07193",
+      "citationCount": 9421,
+      "tldr": "This work revisits existing approaches and combines different techniques to scale the pretraining in terms of data and model size, and proposes an automatic pipeline to build a dedicated, diverse, and curated image dataset instead of uncurated data, as typically done in the self-supervised literature.",
+      "abstract": "The recent breakthroughs in natural language processing for model pretraining on large quantities of data have opened the way for similar foundation models in computer vision. These models could greatly simplify the use of images in any system by producing all-purpose visual features, i.e., features that work across image distributions and tasks without finetuning. This work shows that existing pretraining methods, especially self-supervised methods, can produce such features if trained on enough curated data from diverse sources. We revisit existing approaches and combine different techniques to scale our pretraining in terms of data and model size. Most of the technical contributions aim at accelerating and stabilizing the training at scale. In terms of data, we propose an automatic pipeline to build a dedicated, diverse, and curated image dataset instead of uncurated data, as typically done in the self-supervised literature. In terms of models, we train a ViT model (Dosovitskiy et al., 2020) with 1B parameters and distill it into a series of smaller models that surpass the best available all-purpose features, OpenCLIP (Ilharco et al., 2021) on most of the benchmarks at image and"
+    },
+    {
+      "paperId": "8f5eee0ab94a613cb30722e6573585e44cdd5aee",
+      "title": "Green Federated Learning",
+      "teamAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        }
+      ],
+      "memberSlug": "michael-rabbat",
+      "memberName": "Michael Rabbat",
+      "publicationDate": "2023-03-26",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2303.14604",
+      "citationCount": 23,
+      "tldr": "The concept of Green FL is proposed, which involves optimizing FL parameters and making design choices to minimize carbon emissions consistent with competitive performance and training time, and a data-driven approach to quantify the carbon emissions of FL by directly measuring real-world at-scale FL tasks running on millions of phones is adopted.",
+      "abstract": "The rapid progress of AI is fueled by increasingly large and computationally intensive machine learning models and datasets. As a consequence, the amount of compute used in training state-of-the-art models is exponentially increasing (doubling every 10 months between 2015 and 2022), resulting in a large carbon footprint. Federated Learning (FL) - a collaborative machine learning technique for training a centralized model using data of decentralized entities - can also be resource-intensive and have a significant carbon footprint, particularly when deployed at scale. Unlike centralized AI that can reliably tap into renewables at strategically placed data centers, cross-device FL may leverage as many as hundreds of millions of globally distributed end-user devices with diverse energy sources. Green AI is a novel and important research area where carbon footprint is regarded as an evaluation criterion for AI, alongside accuracy, convergence speed, and other metrics. In this paper, we propose the concept of Green FL, which involves optimizing FL parameters and making design choices to minimize carbon emissions consistent with competitive performance and training time. The contributions"
+    },
+    {
+      "paperId": "a3577255e136a2c38198ac240cec2921bd739cde",
+      "title": "Bidirectional Domain Mixup for Domain Adaptive Semantic Segmentation",
+      "teamAuthors": [
+        {
+          "slug": "sanghyun-woo",
+          "name": "Sanghyun Woo"
+        }
+      ],
+      "memberSlug": "sanghyun-woo",
+      "memberName": "Sanghyun Woo",
+      "publicationDate": "2023-03-17",
+      "year": 2023,
+      "venue": "AAAI Conference on Artificial Intelligence",
+      "url": "https://doi.org/10.48550/arXiv.2303.09779",
+      "citationCount": 14,
+      "tldr": "BDM leaves domain transferable regions by cutting, balances the dataset-level class distribution while preserving natural scene context by pasting, and jointly considers class distribution, spatial structure, and pseudo label confidence.",
+      "abstract": "Mixup provides interpolated training samples and allows the model to obtain smoother decision boundaries for better generalization. The idea can be naturally applied to the domain adaptation task, where we can mix the source and target samples to obtain domain-mixed samples for better adaptation. However, the extension of the idea from classification to segmentation (i.e., structured output) is nontrivial. This paper systematically studies the impact of mixup under the domain adaptive semantic segmentation task and presents a simple yet effective mixup strategy called Bidirectional Domain Mixup (BDM). In specific, we achieve domain mixup in two-step: cut and paste. Given the warm-up model trained from any adaptation techniques, we forward the source and target samples and perform a simple threshold-based cut out of the unconfident regions (cut). After then, we fill-in the dropped regions with the other domain region patches (paste). In doing so, we jointly consider class distribution, spatial structure, and pseudo label confidence. Based on our analysis, we found that BDM leaves domain transferable regions by cutting, balances the dataset-level class distribution while preserving n"
+    },
+    {
+      "paperId": "ee57e4d7a125f4ca8916284a857c3760d7d378d3",
+      "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+      "teamAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        }
+      ],
+      "memberSlug": "michael-rabbat",
+      "memberName": "Michael Rabbat",
+      "publicationDate": "2023-01-19",
+      "year": 2023,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52729.2023.01499",
+      "citationCount": 1033,
+      "tldr": null,
+      "abstract": "This paper demonstrates an approach for learning highly semantic image representations without relying on hand-crafted data-augmentations. We introduce the Image-based Joint-Embedding Predictive Architecture (I-JEPA), a non-generative approach for self-supervised learning from images. The idea behind I-JEPA is simple: from a single context block, predict the representations of various target blocks in the same image. A core design choice to guide I-JEPA towards producing semantic representations is the masking strategy; specifically, it is crucial to (a) sample target blocks with sufficiently large scale (semantic), and to (b) use a sufficiently informative (spatially distributed) context block. Empirically, when combined with Vision Transformers, we find I-JEPA to be highly scalable. For instance, we train a ViT-Huge/14 on ImageNet using 16 A100 GPUs in under 72 hours to achieve strong downstream performance across a wide range of tasks, from linear classification to object counting and depth prediction."
+    },
+    {
+      "paperId": "2218f1713d7f721ab76801063416ec9b11c7646f",
+      "title": "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders",
+      "teamAuthors": [
+        {
+          "slug": "sanghyun-woo",
+          "name": "Sanghyun Woo"
+        }
+      ],
+      "memberSlug": "sanghyun-woo",
+      "memberName": "Sanghyun Woo",
+      "publicationDate": "2023-01-02",
+      "year": 2023,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52729.2023.01548",
+      "citationCount": 1845,
+      "tldr": "This paper proposes a fully convolutional masked autoencoder framework and a new Global Response Normalization (GRN) layer that can be added to the ConvNeXt architecture to enhance inter-channel feature competition and significantly improves the performance of pure ConvNets on various recognition benchmarks.",
+      "abstract": "Driven by improved architectures and better representation learning frameworks, the field of visual recognition has enjoyed rapid modernization and performance boost in the early 2020s. For example, modern ConvNets, represented by ConvNeXt [33], have demonstrated strong performance in various scenarios. While these models were originally designed for supervised learning with ImageNet labels, they can also potentially benefit from self-supervised learning techniques such as masked autoencoders (MAE) [14]. However, we found that simply combining these two approaches leads to subpar performance. In this paper, we propose a fully convolutional masked autoencoder framework and a new Global Response Normalization (GRN) layer that can be added to the ConvNeXt architecture to enhance inter-channel feature competition. This co-design of self-supervised learning techniques and architectural improvement results in a new model family called ConvNeXt V2, which significantly improves the performance of pure ConvNets on various recognition benchmarks, including ImageNet classification, COCO detection, and ADE20K segmentation. We also provide pre-trained ConvNeXt V2 models of various sizes, rangin"
+    },
+    {
+      "paperId": "1d6b1d998aec4093719eecd41cb1bde39b9e1ad0",
+      "title": "Tracking by Associating Clips",
+      "teamAuthors": [
+        {
+          "slug": "sanghyun-woo",
+          "name": "Sanghyun Woo"
+        }
+      ],
+      "memberSlug": "sanghyun-woo",
+      "memberName": "Sanghyun Woo",
+      "publicationDate": "2022-12-20",
+      "year": 2022,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-031-19806-9_8",
+      "citationCount": 12,
+      "tldr": "This paper investigates an alternative by treating object association as clip-wise matching, and shows how the tracking performance improves with the state-of-the-art tracking-by-detection tracker, QDTrack, with the new tracking formulation.",
+      "abstract": ". The tracking-by-detection paradigm today has become the dominant method for multi-object tracking and works by detecting objects in each frame and then performing data association across frames. However, its sequential frame-wise matching property fundamentally suffers from the intermediate interruptions in a video, such as object occlusions, fast camera movements, and abrupt light changes. Moreover, it typically overlooks temporal information beyond the two frames for matching. In this paper, we investigate an alternative by treating object association as clip-wise matching . Our new perspective views a single long video sequence as multiple short clips, and then the tracking is performed both within and between the clips. The benefits of this new approach are two folds. First, our method is robust to tracking error accumulation or propagation, as the video chunking allows bypassing the interrupted frames, and the short clip tracking avoids the conventional error-prone long-term track memory management. Second, the multiple frame information is aggregated during the clip-wise matching, resulting in a more accurate long-range track association than the current frame-wise matching"
+    },
+    {
+      "paperId": "8335027d600d084cb99e144250d1ea387b2a0fc3",
+      "title": "Bridging Images and Videos: A Simple Learning Framework for Large Vocabulary Video Object Detection",
+      "teamAuthors": [
+        {
+          "slug": "sanghyun-woo",
+          "name": "Sanghyun Woo"
+        }
+      ],
+      "memberSlug": "sanghyun-woo",
+      "memberName": "Sanghyun Woo",
+      "publicationDate": "2022-12-20",
+      "year": 2022,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-031-19806-9_14",
+      "citationCount": 7,
+      "tldr": "A simple but effective learning framework that takes full advantage of all available training data to learn detection and tracking while not losing any LVIS categories to recognize is presented.",
+      "abstract": ". Scaling object taxonomies is one of the important steps toward a robust real-world deployment of recognition systems. We have faced remarkable progress in images since the introduction of the LVIS benchmark. To continue this success in videos, a new video benchmark, TAO, was recently presented. Given the recent encouraging results from both detection and tracking communities, we are interested in marrying those two advances and building a strong large vocabulary video tracker. However, supervisions in LVIS and TAO are inherently sparse or even missing, posing two new challenges for training the large vocabulary trackers. First, no tracking supervisions are in LVIS, which leads to inconsistent learning of detection (with LVIS and TAO) and tracking (only with TAO). Second, the detection supervisions in TAO are partial, which results in catastrophic forgetting of absent LVIS categories during video fine-tuning. To resolve these challenges, we present a simple but effective learning framework that takes full advantage of all available training data to learn detection and tracking while not losing any LVIS categories to recognize. With this new learning scheme, we show that consistent"
+    },
+    {
+      "paperId": "5f7a1992ce7bfab7ee2dfd1a6cb5494d4c55135d",
+      "title": "Learning Classifiers of Prototypes and Reciprocal Points for Universal Domain Adaptation",
+      "teamAuthors": [
+        {
+          "slug": "sanghyun-woo",
+          "name": "Sanghyun Woo"
+        }
+      ],
+      "memberSlug": "sanghyun-woo",
+      "memberName": "Sanghyun Woo",
+      "publicationDate": "2022-12-16",
+      "year": 2022,
+      "venue": "IEEE Workshop/Winter Conference on Applications of Computer Vision",
+      "url": "https://doi.org/10.1109/WACV56688.2023.00060",
+      "citationCount": 16,
+      "tldr": "This paper proposes a new approach in which dual Classifiers for Prototypes and Reciprocals are used, namely dual Classifiers for Prototypes and Reciprocals, to associate each prototype with corresponding known class features while pushing the reciprocals apart from these prototypes to locate them in the potential unknown feature space.",
+      "abstract": "Universal Domain Adaptation aims to transfer the knowledge between the datasets by handling two shifts: domain-shift and category-shift. The main challenge is correctly distinguishing the unknown target samples while adapting the distribution of known class knowledge from source to target. Most existing methods approach this problem by first training the target adapted known classifier and then relying on the single threshold to distinguish unknown target samples. However, this simple threshold-based approach prevents the model from considering the underlying complexities existing between the known and unknown samples in the high-dimensional feature space. In this paper, we propose a new approach in which we use two sets of feature points, namely dual Classifiers for Prototypes and Reciprocals (CPR). Our key idea is to associate each prototype with corresponding known class features while pushing the reciprocals apart from these prototypes to locate them in the potential unknown feature space. The target samples are then classified as unknown if they fall near any reciprocals at test time. To successfully train our framework, we collect the partial, confident target samples that ar"
+    }
+  ]
 }
