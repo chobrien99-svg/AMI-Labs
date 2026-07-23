@@ -18,35 +18,72 @@ const TEAM_FILE = path.resolve(__dirname, "../data/team.json");
 const PUBS_FILE = path.resolve(__dirname, "../data/publications.json");
 const RESEARCH_FILE = path.resolve(__dirname, "../data/research.json");
 const DELAY_MS = 1500; // be polite to the API
+const RETRY_MS = 3000; // backoff on 429 / 5xx
 
 // Top-cited pass keeps profiles' "greatest hits". paperId added so the non-DOI fallback URL resolves.
 const CITE_FIELDS = "title,year,citationCount,venue,externalIds,url,paperId,publicationDate";
-// Recency pass carries the substance the synthesis analyses (tldr/abstract) + co-authorship.
-const RECENT_FIELDS = "title,year,citationCount,venue,externalIds,url,paperId,publicationDate,abstract,tldr,authors";
-const RECENT_FETCH_LIMIT = 15; // request this many newest, then keep RECENT_KEEP
+// Recency: the author/papers endpoint rejects a publicationDate sort (HTTP 400), so we page through
+// its papers with light fields, rank by date client-side, then fetch rich fields for the newest few
+// via the /paper/batch endpoint (which supports abstract/tldr/authors).
+const DATE_FIELDS = "paperId,publicationDate,year";
+const BATCH_FIELDS = "paperId,title,year,venue,externalIds,url,citationCount,publicationDate,abstract,tldr,authors";
+const PAGE_SIZE = 100;
+const MAX_PAGES = 10; // cap per author profile (up to 1000 papers)
 const RECENT_KEEP = 8;
 const ABSTRACT_MAX = 1200; // store a bounded abstract; the synthesis truncates further
 
-function get(url) {
+function requestJson(method, url, body, tries = 2) {
   return new Promise((resolve, reject) => {
-    const req = https.get(url, { headers: { "User-Agent": "AMI-Labs-Site/1.0" } }, (res) => {
-      let data = "";
-      res.on("data", (c) => (data += c));
-      res.on("end", () => {
-        if (res.statusCode !== 200) {
-          reject(new Error(`HTTP ${res.statusCode} for ${url}`));
-        } else {
-          resolve(JSON.parse(data));
-        }
-      });
+    const payload = body ? JSON.stringify(body) : null;
+    const u = new URL(url);
+    const req = https.request(
+      {
+        method,
+        hostname: u.hostname,
+        path: u.pathname + u.search,
+        headers: {
+          "User-Agent": "AMI-Labs-Site/1.0",
+          ...(payload ? { "Content-Type": "application/json", "Content-Length": Buffer.byteLength(payload) } : {}),
+        },
+      },
+      (res) => {
+        let data = "";
+        res.on("data", (c) => (data += c));
+        res.on("end", () => {
+          const status = res.statusCode;
+          if (status === 200) {
+            try { resolve(JSON.parse(data)); }
+            catch { reject(new Error(`Bad JSON for ${method} ${url}`)); }
+          } else if ((status === 429 || status >= 500) && tries > 0) {
+            setTimeout(() => requestJson(method, url, body, tries - 1).then(resolve, reject), RETRY_MS);
+          } else {
+            reject(new Error(`HTTP ${status} for ${method} ${url}`));
+          }
+        });
+      }
+    );
+    req.on("error", (err) => {
+      if (tries > 0) setTimeout(() => requestJson(method, url, body, tries - 1).then(resolve, reject), RETRY_MS);
+      else reject(err);
     });
-    req.on("error", reject);
-    req.setTimeout(15000, () => { req.destroy(); reject(new Error(`Timeout: ${url}`)); });
+    req.setTimeout(20000, () => { req.destroy(); reject(new Error(`Timeout: ${url}`)); });
+    if (payload) req.write(payload);
+    req.end();
   });
 }
 
+function get(url) { return requestJson("GET", url); }
+function postJson(url, body) { return requestJson("POST", url, body); }
+
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
+}
+
+// A member's semanticScholarId may be a string or an array (authors can be split across
+// multiple Semantic Scholar profiles — e.g. landmark vs. recent work under different IDs).
+function idsOf(member) {
+  const v = member.semanticScholarId;
+  return Array.isArray(v) ? v.filter(Boolean) : v ? [v] : [];
 }
 
 function paperUrl(p) {
@@ -78,20 +115,50 @@ async function fetchTopCited(id) {
 
 // ── pass 2: most-recent (research feed) ──────────────────────────────────────
 
-async function fetchRecent(id) {
-  const url = `https://api.semanticscholar.org/graph/v1/author/${id}/papers` +
-    `?fields=${RECENT_FIELDS}&limit=${RECENT_FETCH_LIMIT}&sort=publicationDate:desc`;
-  const data = await get(url);
-  const papers = (data.data || []).filter((p) => p.paperId && p.title);
-  // Client-side sort by best date (desc, nulls last) in case the API sort is loose.
-  papers.sort((a, b) => {
-    const da = sortDateOf(a), db = sortDateOf(b);
-    if (!da && !db) return 0;
-    if (!da) return 1;
-    if (!db) return -1;
-    return db.localeCompare(da);
-  });
-  return papers.slice(0, RECENT_KEEP);
+function byDateDesc(a, b) {
+  const da = sortDateOf(a), db = sortDateOf(b);
+  if (!da && !db) return 0;
+  if (!da) return 1;   // nulls last
+  if (!db) return -1;
+  return db.localeCompare(da);
+}
+
+// Page through one author profile's papers with light fields (no sort — the endpoint 400s
+// on a publicationDate sort). Returns [{paperId, publicationDate, year}].
+async function fetchAuthorPaperDates(id) {
+  const out = [];
+  let offset = 0;
+  for (let page = 0; page < MAX_PAGES; page++) {
+    const url = `https://api.semanticscholar.org/graph/v1/author/${id}/papers` +
+      `?fields=${DATE_FIELDS}&offset=${offset}&limit=${PAGE_SIZE}`;
+    const data = await get(url);
+    const batch = (data.data || []).filter((p) => p.paperId);
+    out.push(...batch);
+    if (data.next == null || batch.length === 0) break;
+    offset = data.next;
+    await sleep(DELAY_MS);
+  }
+  return out;
+}
+
+// Gather papers across all of a member's author profiles, rank by date, and fetch rich
+// fields for the newest RECENT_KEEP via the batch endpoint (which supports abstract/tldr/authors).
+async function fetchRecent(ids) {
+  const seen = new Map();
+  for (let i = 0; i < ids.length; i++) {
+    const papers = await fetchAuthorPaperDates(ids[i]);
+    for (const p of papers) if (!seen.has(p.paperId)) seen.set(p.paperId, p);
+    if (i < ids.length - 1) await sleep(DELAY_MS);
+  }
+  const topIds = [...seen.values()].sort(byDateDesc).slice(0, RECENT_KEEP).map((p) => p.paperId);
+  if (!topIds.length) return [];
+
+  await sleep(DELAY_MS);
+  const url = `https://api.semanticscholar.org/graph/v1/paper/batch?fields=${BATCH_FIELDS}`;
+  const details = await postJson(url, { ids: topIds });
+  const byId = new Map();
+  for (const p of details || []) if (p && p.paperId && p.title) byId.set(p.paperId, p);
+  return topIds.map((id) => byId.get(id)).filter(Boolean); // preserve date order
 }
 
 // Merge a member's recent paper into the team-wide map (dedupe co-authored papers by paperId).
@@ -137,11 +204,12 @@ async function main() {
 
   for (let i = 0; i < members.length; i++) {
     const member = members[i];
+    const ids = idsOf(member);
     process.stdout.write(`[${member.name}] `);
 
-    // pass 1 — top-cited (profiles)
+    // pass 1 — top-cited from the primary profile (profiles' greatest hits)
     try {
-      pubs[member.slug] = await fetchTopCited(member.semanticScholarId);
+      pubs[member.slug] = await fetchTopCited(ids[0]);
       process.stdout.write(`top-cited ${pubs[member.slug].length} · `);
     } catch (e) {
       process.stdout.write(`top-cited FAILED (${e.message}) · `);
@@ -149,9 +217,9 @@ async function main() {
 
     await sleep(DELAY_MS);
 
-    // pass 2 — most-recent (research feed)
+    // pass 2 — most-recent across all of the member's profiles (research feed)
     try {
-      const recent = await fetchRecent(member.semanticScholarId);
+      const recent = await fetchRecent(ids);
       recent.forEach((p) => addRecentPaper(researchMap, member, p));
       console.log(`recent ${recent.length}`);
     } catch (e) {
