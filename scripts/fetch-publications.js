@@ -145,11 +145,24 @@ async function fetchAuthorPaperDates(id) {
 // fields for the newest RECENT_KEEP via the batch endpoint (which supports abstract/tldr/authors).
 async function fetchRecent(ids) {
   const seen = new Map();
+  let anyOk = false;
+  let anyError = false;
   for (let i = 0; i < ids.length; i++) {
-    const papers = await fetchAuthorPaperDates(ids[i]);
-    for (const p of papers) if (!seen.has(p.paperId)) seen.set(p.paperId, p);
+    // Isolate each profile: one stale/failed alternate ID must not discard the papers
+    // already gathered from the member's valid profiles.
+    try {
+      const papers = await fetchAuthorPaperDates(ids[i]);
+      for (const p of papers) if (!seen.has(p.paperId)) seen.set(p.paperId, p);
+      anyOk = true;
+    } catch (e) {
+      anyError = true;
+      console.error(`\n  ⚠ profile ${ids[i]} failed: ${e.message}`);
+    }
     if (i < ids.length - 1) await sleep(DELAY_MS);
   }
+  // Only surface a failure (so the caller preserves the member's prior papers via carry-over)
+  // when EVERY profile errored — a partial failure still uses whatever succeeded.
+  if (!anyOk && anyError) throw new Error("all author profiles failed");
   const topIds = [...seen.values()].sort(byDateDesc).slice(0, RECENT_KEEP).map((p) => p.paperId);
   if (!topIds.length) return [];
 
