@@ -222,6 +222,7 @@ function openReviewIssue(briefing, window) {
     title: `[Briefing] Weekly Observatory briefing needs review (${window.until})`,
     body,
     labels: ["synthesis-bot", "review-needed"],
+    assignees: [owner], // notify the repo owner (GitHub emails/pushes to the assignee)
   });
 
   return new Promise((resolve) => {
