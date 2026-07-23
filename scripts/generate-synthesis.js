@@ -34,6 +34,11 @@ const MODEL = process.env.SYNTHESIS_MODEL || "claude-sonnet-4-6";
 // which is not nullish — so `?? 7` would not fire and Number("") would be 0,
 // collapsing the window to "today only". `|| 7` falls back on "", NaN, and 0.
 const WINDOW_DAYS = Number(process.env.SYNTHESIS_WINDOW_DAYS) || 7;
+// Test/preview runs (e.g. a manual workflow_dispatch) can set this so the draft is
+// generated normally but the diff baseline is NOT advanced — the written _snapshot
+// keeps the PRIOR run's keys. That way a test run does not "consume" a new hire,
+// paper, or filing, and the next scheduled run still reports it as new.
+const PRESERVE_SNAPSHOT = /^(1|true|yes|on)$/i.test(process.env.SYNTHESIS_PRESERVE_SNAPSHOT || "");
 const CATEGORIES = ["funding", "research", "hiring", "administrative", "corporate"];
 
 // ── refusal detection (mirrors scripts/update-profiles.js) ───────────────────
@@ -270,12 +275,19 @@ async function main() {
   const data = loadData();
   const { facts, snapshot } = buildFacts(data, { since: window.since, prevSnapshot });
 
+  // On a preserve (test/preview) run, write the prior snapshot so the diff baseline
+  // does not advance; otherwise advance to the freshly-computed snapshot.
+  const outSnapshot = PRESERVE_SNAPSHOT ? (prevSnapshot || snapshot) : snapshot;
+  if (PRESERVE_SNAPSHOT) {
+    console.log("[synthesis] SYNTHESIS_PRESERVE_SNAPSHOT set — diff baseline will NOT advance this run.");
+  }
+
   const base = {
     generatedAt: new Date().toISOString(),
     window,
     model: MODEL,
     facts,
-    _snapshot: snapshot,
+    _snapshot: outSnapshot,
   };
 
   // No API key → write an error stub but keep any prior narrative if present.
