@@ -15,6 +15,7 @@ const OUT_FILE = path.resolve(__dirname, "../data/github-activity.json");
 const TOKEN = process.env.GITHUB_TOKEN;
 const MAX_EVENTS = 15; // per user
 const DELAY_MS = 500;
+const SANITY = { projectId: "k8hl9hed", dataset: "production", apiVersion: "2024-01-01" };
 
 function get(url) {
   return new Promise((resolve, reject) => {
@@ -35,6 +36,43 @@ function get(url) {
 }
 
 function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
+
+// Read GitHub links straight from Sanity persons (separate request so the GitHub token is
+// never sent to Sanity). Passes a Sanity read token if available; public reads work without.
+// Returns { ok, members } so an outage is distinguishable from an empty result.
+function sanityGet(url) {
+  return new Promise((resolve, reject) => {
+    const headers = { "User-Agent": "AMI-Labs-Site/1.0" };
+    const t = process.env.SANITY_API_READ_TOKEN;
+    if (t) headers["Authorization"] = `Bearer ${t}`;
+    const req = https.get(url, { headers }, (res) => {
+      let data = "";
+      res.on("data", (c) => (data += c));
+      res.on("end", () => {
+        if (res.statusCode !== 200) { reject(new Error(`HTTP ${res.statusCode}`)); return; }
+        try { resolve(JSON.parse(data)); } catch { reject(new Error("bad JSON")); }
+      });
+    });
+    req.on("error", reject);
+    req.setTimeout(15000, () => { req.destroy(); reject(new Error("timeout")); });
+  });
+}
+
+async function fetchSanityMembers() {
+  const groq =
+    '*[_type == "person" && !(_id in path("drafts.**")) && defined(links.github)]' +
+    '{ "slug": slug.current, name, "github": links.github }';
+  const url =
+    `https://${SANITY.projectId}.api.sanity.io/v${SANITY.apiVersion}/data/query/${SANITY.dataset}` +
+    `?query=${encodeURIComponent(groq)}&perspective=published`;
+  try {
+    const data = await sanityGet(url);
+    return { ok: true, members: (data.result || []).filter((p) => p && p.slug && p.github) };
+  } catch (e) {
+    console.warn(`[sanity] Could not read persons (${e.message}) — using team.json only.`);
+    return { ok: false, members: [] };
+  }
+}
 
 function describeEvent(event) {
   const repo = event.repo?.name || "";
@@ -82,7 +120,7 @@ function describeEvent(event) {
 }
 
 async function fetchForMember(member) {
-  const username = member.links.github.replace("https://github.com/", "").replace(/\/$/, "");
+  const username = member.github.replace("https://github.com/", "").replace(/\/$/, "");
   const events = await get(`https://api.github.com/users/${username}/events/public?per_page=30`);
   return (Array.isArray(events) ? events : []).slice(0, MAX_EVENTS).map((event) => {
     const { description, url } = describeEvent(event);
@@ -99,31 +137,50 @@ async function fetchForMember(member) {
 
 async function main() {
   const team = JSON.parse(fs.readFileSync(TEAM_FILE, "utf8"));
-  const members = team.filter((m) => m.links?.github);
 
-  console.log(`Fetching GitHub activity for ${members.length} members…`);
+  // Unify GitHub accounts from team.json (git-native seed) and Sanity (CMS), keyed by slug —
+  // so a member added in Sanity with a GitHub link is tracked without a team.json edit.
+  const bySlug = new Map();
+  for (const m of team) if (m.links?.github) bySlug.set(m.slug, { slug: m.slug, name: m.name, github: m.links.github });
+  const sanity = await fetchSanityMembers();
+  for (const p of sanity.members) if (!bySlug.has(p.slug)) bySlug.set(p.slug, { slug: p.slug, name: p.name || p.slug, github: p.github });
+  const members = [...bySlug.values()];
+  const knownSlugs = new Set(members.map((m) => m.slug));
+
+  const existing = fs.existsSync(OUT_FILE)
+    ? JSON.parse(fs.readFileSync(OUT_FILE, "utf8"))
+    : { members: [] };
+
+  console.log(`Fetching GitHub activity for ${members.length} members (team.json + Sanity${sanity.ok ? "" : " OUTAGE"})…`);
   if (!TOKEN) console.warn("No GITHUB_TOKEN — rate limited to 60 req/hr");
 
   const activity = [];
 
   for (let i = 0; i < members.length; i++) {
     const member = members[i];
-    const username = member.links.github.replace("https://github.com/", "").replace(/\/$/, "");
+    const username = member.github.replace("https://github.com/", "").replace(/\/$/, "");
     process.stdout.write(`[${member.name}] (${username}) fetching… `);
     try {
       const events = await fetchForMember(member);
       console.log(`${events.length} events`);
-      activity.push({
-        slug: member.slug,
-        name: member.name,
-        username,
-        githubUrl: member.links.github,
-        events,
-      });
+      activity.push({ slug: member.slug, name: member.name, username, githubUrl: member.github, events });
     } catch (e) {
       console.error(`FAILED: ${e.message}`);
     }
     if (i < members.length - 1) await sleep(DELAY_MS);
+  }
+
+  // Carry over prior members we couldn't refresh this run so a transient failure never blanks
+  // the feed: a known member whose fetch failed, or — on a Sanity outage — a member missing this
+  // run entirely (likely Sanity-only). When Sanity reads fine, an absent member is a real removal.
+  const gotSlugs = new Set(activity.map((a) => a.slug));
+  const unrefreshable = (slug) =>
+    (knownSlugs.has(slug) && !gotSlugs.has(slug)) || (!sanity.ok && !knownSlugs.has(slug));
+  for (const prev of existing.members || []) {
+    if (!gotSlugs.has(prev.slug) && unrefreshable(prev.slug)) {
+      activity.push(prev);
+      console.log(`  carried over prior activity for ${prev.slug} (not refreshed this run)`);
+    }
   }
 
   const out = { lastFetched: new Date().toISOString(), members: activity };
