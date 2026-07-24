@@ -1,0 +1,43 @@
+name: Backfill News Images
+
+# One-off (re-runnable) job: fetches og:image thumbnails for existing news.json
+# articles that don't have one yet, then commits the result. Run manually from
+# the Actions tab. Idempotent — already-imaged articles are skipped.
+
+on:
+  workflow_dispatch:
+    inputs:
+      max:
+        description: "Max articles to attempt this run (leave blank for all)."
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  backfill-news-images:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Backfill thumbnails
+        env:
+          BACKFILL_MAX: ${{ github.event.inputs.max }}
+        run: node scripts/backfill-news-images.js
+
+      - name: Commit updated news
+        run: |
+          git config user.name "ami-news-bot"
+          git config user.email "bot@ami-labs.vercel.app"
+          git add data/news.json
+          if git diff --staged --quiet; then
+            echo "No image changes to commit."
+          else
+            git commit -m "chore: backfill news thumbnails [$(date -u +%Y-%m-%d)]"
+            git push
+          fi
