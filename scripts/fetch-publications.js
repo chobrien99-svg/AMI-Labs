@@ -101,10 +101,11 @@ async function fetchSanityMembers() {
   const token = process.env.SANITY_API_READ_TOKEN;
   try {
     const data = await get(url, token ? { Authorization: `Bearer ${token}` } : undefined);
-    return (data.result || []).filter((p) => p && p.slug && p.semanticScholarId);
+    // ok:true even when empty — distinguishes "Sanity has no such authors" from an outage.
+    return { ok: true, members: (data.result || []).filter((p) => p && p.slug && p.semanticScholarId) };
   } catch (e) {
     console.warn(`[sanity] Could not read persons (${e.message}) — using team.json only.`);
-    return [];
+    return { ok: false, members: [] };
   }
 }
 
@@ -239,13 +240,14 @@ async function main() {
     bySlug.set(slug, cur);
   };
   for (const m of team) if (m.semanticScholarId) addSource(m.slug, m.name, m.semanticScholarId);
-  const sanityMembers = await fetchSanityMembers();
-  for (const p of sanityMembers) addSource(p.slug, p.name, p.semanticScholarId);
+  const sanity = await fetchSanityMembers();
+  for (const p of sanity.members) addSource(p.slug, p.name, p.semanticScholarId);
 
   const members = [...bySlug.values()]
     .filter((m) => m.ids.size)
     .map((m) => ({ slug: m.slug, name: m.name || m.slug, semanticScholarId: [...m.ids] }));
-  console.log(`Members with Semantic Scholar IDs: ${members.length} (team.json: ${team.filter((m) => m.semanticScholarId).length}, Sanity: ${sanityMembers.length}).`);
+  const knownSlugs = new Set(members.map((m) => m.slug));
+  console.log(`Members with Semantic Scholar IDs: ${members.length} (team.json: ${team.filter((m) => m.semanticScholarId).length}, Sanity: ${sanity.members.length}${sanity.ok ? "" : ", OUTAGE"}).`);
 
   const existingPubs = fs.existsSync(PUBS_FILE) ? JSON.parse(fs.readFileSync(PUBS_FILE, "utf8")) : {};
   const existingResearch = fs.existsSync(RESEARCH_FILE)
@@ -284,9 +286,14 @@ async function main() {
     if (i < members.length - 1) await sleep(DELAY_MS);
   }
 
-  // Carry over papers contributed only by members whose recency fetch failed this run.
+  // Carry over papers we couldn't refresh this run, so a transient failure never deletes data:
+  //   • a known member whose recency fetch failed (failedMembers), OR
+  //   • an author missing from this run entirely because Sanity was unreachable — otherwise a
+  //     Sanity-only researcher's papers would be dropped on an outage (they're never in members
+  //     and so never in failedMembers). When Sanity read OK, an absent author is a real removal.
+  const unrefreshable = (a) => failedMembers.includes(a.slug) || (!sanity.ok && !knownSlugs.has(a.slug));
   for (const p of existingResearch.papers || []) {
-    if (!p.teamAuthors?.some((a) => failedMembers.includes(a.slug))) continue;
+    if (!p.teamAuthors?.some(unrefreshable)) continue;
     if (researchMap.has(p.paperId)) {
       const e = researchMap.get(p.paperId);
       for (const a of p.teamAuthors) {
