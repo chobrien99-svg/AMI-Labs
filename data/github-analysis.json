@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-07-24T18:50:47.875Z",
+  "generatedAt": "2026-07-24T21:19:11.794Z",
   "windowDays": 90,
   "memberCount": 21,
-  "overview": "The AMI Labs team is concentrated on two converging research fronts: world models and multimodal large language model (LMM) infrastructure. On the world-model side, the team is actively developing and publishing reproducible research platforms centered on Joint Embedding Predictive Architectures (JEPAs). On the multimodal side, the team is contributing to a unified ecosystem for training and evaluating frontier LMMs across text, image, video, and audio modalities. Ancillary activity includes personal websites and developer tooling, suggesting a small, research-oriented group maintaining both public-facing identity and low-level infrastructure. The through-line is a commitment to reproducible, scalable, and evaluable deep learning research at the frontier of self-supervised and multimodal learning.",
+  "overview": "Over the past 90 days, current AMI Labs members have concentrated their public activity on two intersecting research frontiers: world-model and joint-embedding predictive architectures (JEPA) for representation learning and planning, and the evaluation and training infrastructure for large multimodal models. The most heavily worked project is an external reproducibility platform for world-model research, where one member has been a dominant contributor, while a second member is actively involved in two external projects centered on multimodal model evaluation and training. A third member is contributing to an energy-based JEPA fork with ties to Meta AI Research. The through-line across all five projects is a shared investment in the machinery needed to build, train, and rigorously benchmark the next generation of learned world models and multimodal systems.",
   "themes": [
     {
-      "title": "JEPA as a central research paradigm",
-      "text": "At least three projects — stable-worldmodel, eb_jepa, and lmms-engine (via its world-model-adjacent scope) — converge on Joint Embedding Predictive Architectures as a core methodology. The team appears to be both consuming and contributing to the JEPA research ecosystem, with stable-worldmodel being an original platform and eb_jepa a fork tied to a named paper co-authored by a team member. This suggests JEPA-based self-supervised learning is a defining intellectual focus of the group."
+      "title": "JEPA and world models as a unifying research thread",
+      "text": "Three of the five projects — stable-worldmodel, eb_jepa, and implicitly lmms-engine's video generation scope — converge on joint-embedding predictive architectures and learned world models as a central research interest. The heaviest single concentration of effort (Quentin Le Lidec on stable-worldmodel) is directed at a platform explicitly built to make world-model research reproducible and comparable, signaling that infrastructure for this class of models is a priority, not just the models themselves."
     },
     {
-      "title": "Train-evaluate infrastructure for multimodal models",
-      "text": "The pairing of lmms-eval and lmms-engine under the EvolvingLMMs-Lab organization, both with Brian Li as contributor, points to the team's investment in end-to-end multimodal model infrastructure. One project covers unified training at scale; the other covers standardized benchmarking across text, image, video, and audio. Together they form a coherent pipeline for multimodal frontier model research."
+      "title": "Investment in evaluation and training infrastructure over end models",
+      "text": "Rather than publishing finished models, the active projects are predominantly platforms, toolkits, and engines: stable-worldmodel provides a reproducibility harness, lmms-eval provides a benchmarking layer, and lmms-engine provides a training backbone. This pattern suggests that AMI members are currently investing in the scaffolding that enables systematic research — measurement, reproducibility, and scale — as much as in model development itself."
     },
     {
-      "title": "Cross-framework interoperability",
-      "text": "The presence of torch2jax — which bridges PyTorch and JAX via abstract interpretation — alongside heavy PyTorch usage in the core research projects suggests the team is interested in, or actively navigating, the boundary between the two dominant deep learning frameworks. This may reflect exploration of JAX's hardware portability (e.g., TPUs) as a complement to PyTorch-native research workflows."
+      "title": "Cross-framework portability as an emerging concern",
+      "text": "The presence of torch2jax — a tool for running PyTorch computations inside JAX, including on TPUs — alongside the otherwise PyTorch-centric project set hints at interest in hardware flexibility and framework interoperability. While the activity level on this project is modest, its inclusion alongside heavy PyTorch use elsewhere may indicate exploratory work on expanding the compute substrates available for the group's research."
     }
   ],
   "projects": [
@@ -23,6 +23,7 @@
       "repo": "galilai-group/stable-worldmodel",
       "url": "https://github.com/galilai-group/stable-worldmodel",
       "owner": "galilai-group",
+      "ownership": "external",
       "activityScore": 269,
       "eventSummary": "35 pushes, 15 PRs, 8 creates, 8 issues",
       "contributors": [
@@ -37,15 +38,16 @@
         "pytorch",
         "world-model"
       ],
-      "stars": 2067,
+      "stars": 2069,
       "isFork": false,
-      "analysis": "This is the team's most actively developed project: an original Python platform for reproducible world-model research and evaluation, built on PyTorch. Its topics — JEPA, model-predictive control, and world models — indicate a focus on learning predictive representations of environments, a paradigm closely associated with self-supervised approaches like I-JEPA and V-JEPA. The repository carries an associated ArXiv preprint (2605.21800), documentation, and a PyPI package, signaling it is intended as a community research artifact rather than a private tool. Quentin Le Lidec is the sole listed AMI Labs contributor, driving the bulk of the activity with 35 pushes, 15 PRs, 8 branch creates, and 8 issues."
+      "analysis": "This is an external project owned by the galilai-group organization, described as a platform for reproducible world model research and evaluation, built in Python with PyTorch and covering topics including JEPA and model-predictive control. It is backed by an arXiv preprint (arXiv:2605.21800) and ships as a PyPI package with CI and documentation. AMI member Quentin Le Lidec has been the most active contributor in the window, accounting for 35 pushes, 15 pull requests, 8 branch or tag creations, and 8 issues — a level of sustained, broad engagement that suggests a core contributor role rather than a peripheral one."
     },
     {
       "rank": 2,
       "repo": "EvolvingLMMs-Lab/lmms-eval",
       "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
       "owner": "EvolvingLMMs-Lab",
+      "ownership": "external",
       "activityScore": 132,
       "eventSummary": "26 PRs",
       "contributors": [
@@ -65,64 +67,14 @@
       ],
       "stars": 4335,
       "isFork": false,
-      "analysis": "LMMs-Eval is a high-star (4,335), externally maintained evaluation toolkit described as a unified benchmark suite for frontier multimodal models spanning text, image, video, and audio tasks. The project's stated purpose is to probe model intelligence across diverse real-world tasks and is available on PyPI with broad multilingual documentation. Brian Li is the AMI Labs contributor, engaging primarily through pull requests (26 PRs), consistent with a reviewing or integration role rather than primary authorship."
+      "analysis": "lmms-eval is an external project maintained by the EvolvingLMMs-Lab organization and describes itself as a unified evaluation toolkit for frontier multimodal models spanning text, image, video, and audio tasks. With over 4,300 stars and topics including benchmark, llm-evaluation, and multimodal-evaluation, it is a widely-used community resource for measuring model capabilities. AMI member Brian Li has been contributing via pull requests (26 PRs recorded), indicating active involvement in extending or maintaining the toolkit's evaluation coverage."
     },
     {
       "rank": 3,
-      "repo": "rohitgirdhar/rohitgirdhar.github.io",
-      "url": "https://github.com/rohitgirdhar/rohitgirdhar.github.io",
-      "owner": "rohitgirdhar",
-      "activityScore": 48,
-      "eventSummary": "12 pushes",
-      "contributors": [
-        "Rohit Girdhar"
-      ],
-      "description": null,
-      "language": "HTML",
-      "topics": [],
-      "stars": 0,
-      "isFork": false,
-      "analysis": "This is a personal academic or professional website maintained by Rohit Girdhar, written in HTML. No description or README is provided, so its specific content and purpose beyond serving as a personal web presence cannot be determined from the available metadata."
-    },
-    {
-      "rank": 4,
-      "repo": "mavenlin/zshrc",
-      "url": "https://github.com/mavenlin/zshrc",
-      "owner": "mavenlin",
-      "activityScore": 24,
-      "eventSummary": "6 pushes",
-      "contributors": [
-        "Min Lin"
-      ],
-      "description": null,
-      "language": "Shell",
-      "topics": [],
-      "stars": 0,
-      "isFork": false,
-      "analysis": "A Shell-language repository maintained by Min Lin with no description or README. Based solely on the repository name, it appears to be a personal shell configuration file (zshrc), a common developer dotfile practice. Its purpose beyond personal environment configuration cannot be determined from the available metadata."
-    },
-    {
-      "rank": 5,
-      "repo": "jingli9111/jingli.io",
-      "url": "https://github.com/jingli9111/jingli.io",
-      "owner": "jingli9111",
-      "activityScore": 12,
-      "eventSummary": "3 pushes",
-      "contributors": [
-        "Li Jing"
-      ],
-      "description": null,
-      "language": "HTML",
-      "topics": [],
-      "stars": 0,
-      "isFork": false,
-      "analysis": "An HTML repository maintained by Li Jing with no description or README excerpt. The repository name suggests it is a personal website, but its content and purpose cannot be further characterized from the available metadata."
-    },
-    {
-      "rank": 6,
       "repo": "Trick5t3r/eb_jepa",
       "url": "https://github.com/Trick5t3r/eb_jepa",
       "owner": "Trick5t3r",
+      "ownership": "external",
       "activityScore": 10,
       "eventSummary": "2 PRs",
       "contributors": [
@@ -133,13 +85,14 @@
       "topics": [],
       "stars": 3,
       "isFork": true,
-      "analysis": "This is a fork of an open-source library for Energy-Based Joint Embedding Predictive Architectures (EB-JEPA), attributed in the README to Meta AI Research (FAIR) and associated with an ArXiv paper (2602.03604). The library provides examples and code for self-supervised representation learning from images, video, and action-conditioned video, as well as planning using JEPA-based models. Basile Terver is listed as both a named author on the associated paper and the AMI Labs contributor, contributing via 2 PRs, indicating active research participation rather than passive forking."
+      "analysis": "This is a personal-account repository belonging to Trick5t3r (Basile Terver) and is a fork of a library associated with Meta AI Research / FAIR, focused on Energy-Based Joint-Embedding Predictive Architectures (EB-JEPA). The README links to arXiv:2602.03604 and lists a multi-institution author list including Yann LeCun, situating it within ongoing JEPA research. AMI member Basile Terver has contributed 2 pull requests to this fork, suggesting involvement in adapting or extending the EB-JEPA codebase, though the scope of those contributions is not detailed in the available metadata."
     },
     {
-      "rank": 7,
+      "rank": 4,
       "repo": "mavenlin/torch2jax",
       "url": "https://github.com/mavenlin/torch2jax",
       "owner": "mavenlin",
+      "ownership": "personal-account",
       "activityScore": 8,
       "eventSummary": "2 pushes",
       "contributors": [
@@ -150,30 +103,14 @@
       "topics": [],
       "stars": 0,
       "isFork": true,
-      "analysis": "This is a forked Python utility that enables PyTorch models and functions to be executed within the JAX runtime, with support for end-to-end autodiff, JIT compilation, and TPU execution via JAX primitives such as jit, grad, and vmap. The tool uses abstract interpretation to trace PyTorch computation graphs into JAX-native equivalents. Min Lin contributes via 2 pushes, suggesting exploratory or integration use rather than primary development."
+      "analysis": "This is a personal-account repository belonging to mavenlin (Min Lin) and is itself a fork; it provides a library for running PyTorch code inside the JAX ecosystem via abstract interpretation, enabling JAX primitives such as jit, grad, and vmap to operate on PyTorch models, including on TPUs. AMI member Min Lin has made 2 pushes to this fork, but the nature and purpose of those changes are not clear from the available metadata beyond general maintenance or experimentation with the PyTorch-JAX interoperability layer."
     },
     {
-      "rank": 8,
-      "repo": "adithyaiyer1999/adithyaiyer1999.github.io",
-      "url": "https://github.com/adithyaiyer1999/adithyaiyer1999.github.io",
-      "owner": "adithyaiyer1999",
-      "activityScore": 8,
-      "eventSummary": "2 pushes",
-      "contributors": [
-        "Adithya Iyer"
-      ],
-      "description": "Personal Website of Adithya Iyer",
-      "language": "HTML",
-      "topics": [],
-      "stars": 0,
-      "isFork": true,
-      "analysis": "This is a personal website for Adithya Iyer, forked and built using Jekyll and GitHub Pages. The README references a Smashing Magazine tutorial as the construction guide. Its purpose is purely a personal web presence; no research content can be inferred from the available metadata."
-    },
-    {
-      "rank": 9,
+      "rank": 5,
       "repo": "EvolvingLMMs-Lab/lmms-engine",
       "url": "https://github.com/EvolvingLMMs-Lab/lmms-engine",
       "owner": "EvolvingLMMs-Lab",
+      "ownership": "external",
       "activityScore": 4,
       "eventSummary": "activity",
       "contributors": [
@@ -190,24 +127,7 @@
       ],
       "stars": 812,
       "isFork": false,
-      "analysis": "LMMs-Engine is described as a lean, flexible, and scalable training engine for unified multimodal models, supporting video generation among other modalities, built on Python 3.11+ and PyTorch. Its topics — unified multimodal models, video generation, and AGI — indicate it is designed as the training counterpart to lmms-eval, forming a full train-and-evaluate pipeline for frontier LMMs. Brian Li is the AMI Labs contributor; activity metadata is listed only as 'activity' without further detail, so the nature and volume of contribution cannot be precisely characterized."
-    },
-    {
-      "rank": 10,
-      "repo": "EvolvingLMMs-Lab/.github",
-      "url": "https://github.com/EvolvingLMMs-Lab/.github",
-      "owner": "EvolvingLMMs-Lab",
-      "activityScore": 1,
-      "eventSummary": "activity",
-      "contributors": [
-        "Brian Li"
-      ],
-      "description": null,
-      "language": "Python",
-      "topics": [],
-      "stars": 1,
-      "isFork": false,
-      "analysis": "This is the GitHub organization profile repository for EvolvingLMMs-Lab, used to manage the public-facing README displayed on the organization's GitHub page. Its purpose is administrative and presentational rather than technical. Brian Li is the listed contributor."
+      "analysis": "lmms-engine is an external project from the EvolvingLMMs-Lab organization, described as a lean and flexible unified training engine for multimodal models, designed for large-scale experimentation and covering topics including unified multimodal models and video generation. It targets Python 3.11+ and PyTorch 2.0+, and includes Model FLOPs Utilization reporting as part of its efficiency tooling. AMI member Brian Li is listed as a contributor, though the activity summary field does not provide granular detail on the type or volume of contributions in this window."
     }
   ]
 }
