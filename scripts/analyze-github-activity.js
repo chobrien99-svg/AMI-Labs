@@ -106,7 +106,10 @@ function aggregate(memberEvents) {
       const w = WEIGHT[e.type] ?? 1;
       r.score += w;
       r.counts[e.type] = (r.counts[e.type] || 0) + 1;
-      if (e.type === "PushEvent") r.commits += (e.payload?.commits || []).length;
+      // payload.size is the authoritative commit count; the commits[] array can be empty/truncated.
+      if (e.type === "PushEvent") {
+        r.commits += typeof e.payload?.size === "number" ? e.payload.size : (e.payload?.commits || []).length;
+      }
       if (CONTRIB_TYPES.has(e.type)) { r.contributors.add(member.name); r.contribEvents++; }
       if (e.created_at > r.lastAt) r.lastAt = e.created_at;
     }
@@ -120,7 +123,13 @@ function aggregate(memberEvents) {
 // ── repo metadata + README (what the project IS) ────────────────────────────────
 function summariseCounts(counts, commits) {
   const parts = [];
-  if (counts.PushEvent) parts.push(`${commits || counts.PushEvent} commit${(commits || counts.PushEvent) !== 1 ? "s" : ""}`);
+  // Report a real commit count when we have one; otherwise label the pushes as pushes,
+  // never as commits (empty payload.commits must not be reported as N commits).
+  if (counts.PushEvent) {
+    parts.push(commits > 0
+      ? `${commits} commit${commits !== 1 ? "s" : ""}`
+      : `${counts.PushEvent} push${counts.PushEvent !== 1 ? "es" : ""}`);
+  }
   if (counts.PullRequestEvent) parts.push(`${counts.PullRequestEvent} PR${counts.PullRequestEvent !== 1 ? "s" : ""}`);
   if (counts.ReleaseEvent) parts.push(`${counts.ReleaseEvent} release${counts.ReleaseEvent !== 1 ? "s" : ""}`);
   if (counts.CreateEvent) parts.push(`${counts.CreateEvent} create${counts.CreateEvent !== 1 ? "s" : ""}`);
