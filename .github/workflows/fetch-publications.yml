@@ -19,6 +19,9 @@ jobs:
           node-version: "20"
 
       - name: Fetch publications from Semantic Scholar
+        env:
+          # Optional — only needed if the Sanity dataset isn't public-read. Public reads work without it.
+          SANITY_API_READ_TOKEN: ${{ secrets.SANITY_API_READ_TOKEN }}
         run: node scripts/fetch-publications.js
 
       - name: Commit updated publications

@@ -17,6 +17,7 @@ const path = require("path");
 const TEAM_FILE = path.resolve(__dirname, "../data/team.json");
 const PUBS_FILE = path.resolve(__dirname, "../data/publications.json");
 const RESEARCH_FILE = path.resolve(__dirname, "../data/research.json");
+const SANITY = { projectId: "k8hl9hed", dataset: "production", apiVersion: "2024-01-01" };
 const DELAY_MS = 1500; // be polite to the API
 const RETRY_MS = 3000; // backoff on 429 / 5xx
 
@@ -32,7 +33,7 @@ const MAX_PAGES = 10; // cap per author profile (up to 1000 papers)
 const RECENT_KEEP = 8;
 const ABSTRACT_MAX = 1200; // store a bounded abstract; the synthesis truncates further
 
-function requestJson(method, url, body, tries = 2) {
+function requestJson(method, url, body, tries = 2, extraHeaders = {}) {
   return new Promise((resolve, reject) => {
     const payload = body ? JSON.stringify(body) : null;
     const u = new URL(url);
@@ -43,6 +44,7 @@ function requestJson(method, url, body, tries = 2) {
         path: u.pathname + u.search,
         headers: {
           "User-Agent": "AMI-Labs-Site/1.0",
+          ...extraHeaders,
           ...(payload ? { "Content-Type": "application/json", "Content-Length": Buffer.byteLength(payload) } : {}),
         },
       },
@@ -55,7 +57,7 @@ function requestJson(method, url, body, tries = 2) {
             try { resolve(JSON.parse(data)); }
             catch { reject(new Error(`Bad JSON for ${method} ${url}`)); }
           } else if ((status === 429 || status >= 500) && tries > 0) {
-            setTimeout(() => requestJson(method, url, body, tries - 1).then(resolve, reject), RETRY_MS);
+            setTimeout(() => requestJson(method, url, body, tries - 1, extraHeaders).then(resolve, reject), RETRY_MS);
           } else {
             reject(new Error(`HTTP ${status} for ${method} ${url}`));
           }
@@ -63,7 +65,7 @@ function requestJson(method, url, body, tries = 2) {
       }
     );
     req.on("error", (err) => {
-      if (tries > 0) setTimeout(() => requestJson(method, url, body, tries - 1).then(resolve, reject), RETRY_MS);
+      if (tries > 0) setTimeout(() => requestJson(method, url, body, tries - 1, extraHeaders).then(resolve, reject), RETRY_MS);
       else reject(err);
     });
     req.setTimeout(20000, () => { req.destroy(); reject(new Error(`Timeout: ${url}`)); });
@@ -72,7 +74,7 @@ function requestJson(method, url, body, tries = 2) {
   });
 }
 
-function get(url) { return requestJson("GET", url); }
+function get(url, extraHeaders) { return requestJson("GET", url, null, 2, extraHeaders); }
 function postJson(url, body) { return requestJson("POST", url, body); }
 
 function sleep(ms) {
@@ -84,6 +86,26 @@ function sleep(ms) {
 function idsOf(member) {
   const v = member.semanticScholarId;
   return Array.isArray(v) ? v.filter(Boolean) : v ? [v] : [];
+}
+
+// Read Semantic Scholar IDs straight from Sanity persons, so a researcher added in Sanity
+// (with the ID filled in) gets a feed without a team.json edit. Uses the public read API;
+// passes a read token if one is available (for private datasets). Degrades to [] on any error.
+async function fetchSanityMembers() {
+  const groq =
+    '*[_type == "person" && !(_id in path("drafts.**")) && defined(semanticScholarId)]' +
+    '{ "slug": slug.current, name, semanticScholarId }';
+  const url =
+    `https://${SANITY.projectId}.api.sanity.io/v${SANITY.apiVersion}/data/query/${SANITY.dataset}` +
+    `?query=${encodeURIComponent(groq)}&perspective=published`;
+  const token = process.env.SANITY_API_READ_TOKEN;
+  try {
+    const data = await get(url, token ? { Authorization: `Bearer ${token}` } : undefined);
+    return (data.result || []).filter((p) => p && p.slug && p.semanticScholarId);
+  } catch (e) {
+    console.warn(`[sanity] Could not read persons (${e.message}) — using team.json only.`);
+    return [];
+  }
 }
 
 function paperUrl(p) {
@@ -204,7 +226,26 @@ function addRecentPaper(map, member, p) {
 
 async function main() {
   const team = JSON.parse(fs.readFileSync(TEAM_FILE, "utf8"));
-  const members = team.filter((m) => m.semanticScholarId);
+
+  // Unify Semantic Scholar authors from team.json (git-native seed) and Sanity (CMS). A person's
+  // IDs from both sources are merged by slug, so either source can add a researcher — or an extra
+  // author profile — and nothing regresses if Sanity is unreachable (it just falls back to team.json).
+  const bySlug = new Map();
+  const addSource = (slug, name, ssid) => {
+    if (!slug) return;
+    const cur = bySlug.get(slug) || { slug, name, ids: new Set() };
+    if (name && !cur.name) cur.name = name;
+    for (const id of idsOf({ semanticScholarId: ssid })) cur.ids.add(String(id));
+    bySlug.set(slug, cur);
+  };
+  for (const m of team) if (m.semanticScholarId) addSource(m.slug, m.name, m.semanticScholarId);
+  const sanityMembers = await fetchSanityMembers();
+  for (const p of sanityMembers) addSource(p.slug, p.name, p.semanticScholarId);
+
+  const members = [...bySlug.values()]
+    .filter((m) => m.ids.size)
+    .map((m) => ({ slug: m.slug, name: m.name || m.slug, semanticScholarId: [...m.ids] }));
+  console.log(`Members with Semantic Scholar IDs: ${members.length} (team.json: ${team.filter((m) => m.semanticScholarId).length}, Sanity: ${sanityMembers.length}).`);
 
   const existingPubs = fs.existsSync(PUBS_FILE) ? JSON.parse(fs.readFileSync(PUBS_FILE, "utf8")) : {};
   const existingResearch = fs.existsSync(RESEARCH_FILE)
