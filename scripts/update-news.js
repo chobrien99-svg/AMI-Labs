@@ -157,6 +157,37 @@ function httpsGet(url, maxRedirects = 5) {
   });
 }
 
+// ── image extraction ────────────────────────────────────────────────────────
+
+// Pull an image URL out of an RSS/Atom item block (media:*, enclosure, inline <img>).
+function extractItemImage(block) {
+  const m =
+    /<media:content[^>]+url=["']([^"']+)["'][^>]*>/i.exec(block) ||
+    /<media:thumbnail[^>]+url=["']([^"']+)["']/i.exec(block) ||
+    /<enclosure[^>]+url=["']([^"']+)["'][^>]*type=["']image[^"']*["']/i.exec(block) ||
+    /<enclosure[^>]+type=["']image[^"']*["'][^>]*url=["']([^"']+)["']/i.exec(block) ||
+    /<img[^>]+src=["']([^"']+)["']/i.exec(block);
+  return m && /^https?:\/\//i.test(m[1]) ? m[1] : null;
+}
+
+// Fetch a page's og:image / twitter:image as a last-resort thumbnail source.
+async function fetchOgImage(url) {
+  if (!url || !/^https?:\/\//i.test(url)) return null;
+  const html = await httpsGet(url);
+  if (!html) return null;
+  const head = html.slice(0, 120000); // meta tags live in <head>
+  const patterns = [
+    /<meta[^>]+property=["']og:image(?::secure_url)?["'][^>]+content=["']([^"']+)["']/i,
+    /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i,
+    /<meta[^>]+name=["']twitter:image(?::src)?["'][^>]+content=["']([^"']+)["']/i,
+  ];
+  for (const p of patterns) {
+    const m = p.exec(head);
+    if (m && /^https?:\/\//i.test(m[1])) return m[1];
+  }
+  return null;
+}
+
 // ── RSS parsing ─────────────────────────────────────────────────────────────
 
 function parseRSSItems(xml, defaultSource) {
@@ -175,7 +206,7 @@ function parseRSSItems(xml, defaultSource) {
     const title = get("title");
     const link = get("link") || get("guid");
     const pubDate = get("pubDate");
-    if (title && link) items.push({ title, link, pubDate, source: defaultSource });
+    if (title && link) items.push({ title, link, pubDate, source: defaultSource, image: extractItemImage(block) });
   }
   return items;
 }
@@ -197,7 +228,7 @@ function parseAtomEntries(xml, defaultSource) {
     const title = get("title");
     const link = linkMatch ? linkMatch[1] : "";
     const pubDate = get("published") || get("updated");
-    if (title && link) items.push({ title, link, pubDate, source: defaultSource });
+    if (title && link) items.push({ title, link, pubDate, source: defaultSource, image: extractItemImage(block) });
   }
   return items;
 }
@@ -341,6 +372,7 @@ async function fetchNewsAPI() {
       link: a.url,
       pubDate: a.publishedAt,
       source: (a.source && a.source.name) || "News",
+      image: a.urlToImage || null,
     }));
     console.log(`[NewsAPI] Received ${articles.length} articles.`);
     return articles;
@@ -636,6 +668,10 @@ async function notifyPendingArticles(pendingArticles) {
       ? await summarizeWithClaude(item.title, item.link)
       : "";
 
+    // Thumbnail: feed-provided image first; otherwise fetch the article's og:image.
+    // Only for shown (non-rejected) items — rejected are archived but never displayed.
+    const image = item.image || (status !== "rejected" ? await fetchOgImage(item.link) : null);
+
     const article = {
       id: randomUUID(),
       title: item.title,
@@ -647,6 +683,7 @@ async function notifyPendingArticles(pendingArticles) {
       score,
       status,
       addedAt: new Date().toISOString(),
+      image: image || null,
     };
 
     newArticles.push(article);

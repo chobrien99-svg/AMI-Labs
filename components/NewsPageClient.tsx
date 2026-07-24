@@ -10,6 +10,7 @@ type Article = {
   summary: string;
   tags: string[];
   addedAt: string;
+  image?: string | null;
 };
 
 // Ordered filter set; "administrative" surfaces to readers as "Corporate".
@@ -58,6 +59,46 @@ function Kicker({ article }: { article: Article }) {
 
 function articleProps(url: string) {
   return url.startsWith("/") ? {} : { target: "_blank", rel: "noopener noreferrer" };
+}
+
+// Lead story — large left thumbnail when an image is present, text-only otherwise.
+function Lead({ a }: { a: Article }) {
+  const [imgOk, setImgOk] = useState(!!a.image);
+  const showImg = !!a.image && imgOk;
+  return (
+    <article className={`ed-lead${showImg ? " has-image" : ""}`}>
+      {showImg && (
+        <a href={a.url} {...articleProps(a.url)} className="ed-lead-media" aria-hidden tabIndex={-1}>
+          <img src={a.image!} alt="" loading="lazy" onError={() => setImgOk(false)} />
+        </a>
+      )}
+      <div className="ed-lead-main">
+        <Kicker article={a} />
+        <a href={a.url} {...articleProps(a.url)} className="ed-lead-title">{a.title}</a>
+        {a.summary && <p className="ed-lead-sum">{trim(a.summary, 240)}</p>}
+      </div>
+    </article>
+  );
+}
+
+// Feed row — small square thumbnail on the right when present; reflows to full width on error.
+function FeedRow({ a }: { a: Article }) {
+  const [imgOk, setImgOk] = useState(!!a.image);
+  const showImg = !!a.image && imgOk;
+  return (
+    <article className={`ed-row${showImg ? " has-image" : ""}`}>
+      <div className="ed-row-main">
+        <Kicker article={a} />
+        <a href={a.url} {...articleProps(a.url)} className="ed-row-title">{a.title}</a>
+        {a.summary && <p className="ed-row-sum">{trim(a.summary)}</p>}
+      </div>
+      {showImg && (
+        <a href={a.url} {...articleProps(a.url)} className="ed-row-media" aria-hidden tabIndex={-1}>
+          <img src={a.image!} alt="" loading="lazy" onError={() => setImgOk(false)} />
+        </a>
+      )}
+    </article>
+  );
 }
 
 export default function NewsPageClient({ articles }: { articles: Article[] }) {
@@ -132,24 +173,12 @@ export default function NewsPageClient({ articles }: { articles: Article[] }) {
 
         {filtered.length === 0 && <div className="ed-empty">No coverage found.</div>}
 
-        {lead && (
-          <article className="ed-lead">
-            <Kicker article={lead} />
-            <a href={lead.url} {...articleProps(lead.url)} className="ed-lead-title">{lead.title}</a>
-            {lead.summary && <p className="ed-lead-sum">{trim(lead.summary, 240)}</p>}
-          </article>
-        )}
+        {lead && <Lead a={lead} />}
 
         {months.map((month) => (
           <section key={month.label}>
             <div className="ed-month">{month.label}</div>
-            {month.items.map((a) => (
-              <article key={a.id} className="ed-row">
-                <Kicker article={a} />
-                <a href={a.url} {...articleProps(a.url)} className="ed-row-title">{a.title}</a>
-                {a.summary && <p className="ed-row-sum">{trim(a.summary)}</p>}
-              </article>
-            ))}
+            {month.items.map((a) => <FeedRow key={a.id} a={a} />)}
           </section>
         ))}
       </main>
