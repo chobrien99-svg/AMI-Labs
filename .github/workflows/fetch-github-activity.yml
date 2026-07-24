@@ -21,6 +21,8 @@ jobs:
       - name: Fetch GitHub activity
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional — only needed if the Sanity dataset isn't public-read. Public reads work without it.
+          SANITY_API_READ_TOKEN: ${{ secrets.SANITY_API_READ_TOKEN }}
         run: node scripts/fetch-github-activity.js
 
       - name: Commit updated activity
