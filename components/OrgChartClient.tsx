@@ -652,7 +652,7 @@ export default function OrgChartClient({ team }: { team: Member[] }) {
   const [query, setQuery] = useState("");
   const [hover, setHover] = useState<string | null>(null);
   const [popupAnchor, setPopupAnchor] = useState<DOMRect | null>(null);
-  const [zoom, setZoom] = useState(1);
+  const [zoom, setZoom] = useState(0.6); // default the viewer to 60% on first load
 
   const wrapRef = useRef<HTMLDivElement>(null);
   const showTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
