@@ -21,9 +21,16 @@ function locationOf(m: TeamMember): string {
 function isFounder(m: TeamMember): boolean {
   return /co-?founder/i.test(m.role) || (m.tags || []).some((t) => /co-?founder/i.test(t));
 }
+// People placed under Operations regardless of their role string (matched by slug or name).
+const OPERATIONS_SLUGS = new Set(["marina-farthouat", "felix-naepels", "christophe-tcheng"]);
+const OPERATIONS_NAMES = new Set(["marina farthouat", "felix naepels", "christophe tcheng"]);
 // Non-founder operating / functional leadership (kept distinct from research leads).
 function isOperating(m: TeamMember): boolean {
-  return /(director of operations|chief of staff|head of (people|finance|operations|ops)|general counsel|\bcoo\b)/i.test(m.role);
+  return (
+    OPERATIONS_SLUGS.has(m.slug) ||
+    OPERATIONS_NAMES.has(m.name.trim().toLowerCase()) ||
+    /(director of operations|chief of staff|head of (people|finance|operations|ops)|general counsel|\bcoo\b)/i.test(m.role)
+  );
 }
 
 function monogram(name: string) {
