@@ -1,11 +1,190 @@
 {
-  "generatedAt": null,
-  "window": { "days": 7, "since": null, "until": null },
-  "model": null,
-  "status": "empty",
-  "headline": "",
-  "stateOfPlay": "",
-  "threads": [],
+  "generatedAt": "2026-07-23T21:48:18.539Z",
+  "window": {
+    "days": 7,
+    "since": "2026-07-16",
+    "until": "2026-07-23"
+  },
+  "model": "claude-sonnet-4-6",
+  "facts": {
+    "news": {
+      "windowCount": 3,
+      "byTag": {
+        "hiring": 1
+      },
+      "items": [
+        {
+          "title": "Alexandre Lebrun passe le flambeau à Brian Manning à la tête de Nabla",
+          "url": "https://www.maddyness.com/2026/07/21/alexandre-lebrun-passe-le-flambeau-a-brian-manning-a-la-tete-de-nabla",
+          "source": "Maddyness",
+          "publishedAt": "2026-07-22",
+          "tags": [
+            "hiring"
+          ],
+          "summary": "Alexandre Lebrun has stepped down as head of Nabla, with Brian Manning taking over leadership of the company. The leadership transition was reported by Maddyness."
+        },
+        {
+          "title": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’",
+          "url": "https://biztoc.com/x/376b1e7d8b073bbc",
+          "source": "Biztoc.com",
+          "publishedAt": "2026-07-16",
+          "tags": [],
+          "summary": "AMI Labs founder Alexandre LeBrun avoids labeling his artificial intelligence systems as \"AGI\" (Artificial General Intelligence) or \"superintelligence,\" preferring more cautious terminology around AI capabilities. The distinction reflects a broader debate in the AI industry about how to responsibly describe and discuss advanced machine intelligence development."
+        },
+        {
+          "title": "Why AMI Labs’ Alexandre LeBrun won't call his AI 'AGI' or 'superintelligence' | TechCrunch",
+          "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-07-16",
+          "tags": [],
+          "summary": "AMI Labs founder Alexandre LeBrun avoids using terms like \"AGI\" (Artificial General Intelligence) or \"superintelligence\" to describe his company's AI systems. The article explores LeBrun's reasoning for rejecting these commonly used labels in the AI industry, suggesting a more cautious or precise approach to characterizing the capabilities of his technology."
+        }
+      ]
+    },
+    "jobs": {
+      "total": 5,
+      "newSinceLast": 0,
+      "newItems": [],
+      "byDepartment": {
+        "All Departments": 1,
+        "Technical Staff": 4
+      }
+    },
+    "publications": {
+      "total": 52,
+      "newSinceLast": 0,
+      "newItems": [],
+      "recent": []
+    },
+    "github": {
+      "windowEventCount": 3,
+      "byMember": {
+        "Min Lin": 1,
+        "Brian Li": 2
+      },
+      "notable": []
+    },
+    "corporate": {
+      "capital": 12449.43,
+      "capitalChanged": false,
+      "prevCapital": 12449.43,
+      "newDirigeants": [],
+      "adresse": "10 RUE DE PENTHIEVRE, 75008, PARIS",
+      "denomination": "ADVANCED MACHINE INTELLIGENCE"
+    },
+    "ip": {
+      "newMarques": [],
+      "newBrevets": [],
+      "newDessins": []
+    },
+    "monitoring": {
+      "changedTargets": []
+    },
+    "timeline": {
+      "recentMilestones": []
+    },
+    "social": {
+      "windowCount": 2,
+      "byTag": {
+        "funding": 1,
+        "research": 1
+      },
+      "notable": [
+        {
+          "author": "Pascale Fung",
+          "handle": "pascalefung",
+          "text": "Speaking from my American experience only here. Some people complain about large industry funded research. Don’t forget that almost all of paradigm changing research that led to modern AI came from either large industry labs - Bell Lab, IBM Labs, Xerox Parc, Microsoft, Google,",
+          "url": "https://x.com/pascalefung/status/2078409080763289953",
+          "createdAt": "2026-07-18T09:18:34.000Z",
+          "tags": [
+            "funding",
+            "research"
+          ],
+          "metrics": {
+            "likes": 32,
+            "retweets": 3,
+            "replies": 1,
+            "quotes": 0
+          },
+          "highEngagement": false
+        }
+      ]
+    }
+  },
+  "_snapshot": {
+    "jobIds": [
+      "34d3053f-381f-4350-9c9b-172e5d6a6b70",
+      "da976389-9875-4eb6-b866-8097baed3178",
+      "df8b17c5-97e6-49e7-abb9-c21a39e4162a",
+      "7d58ea84-fd76-4ac7-ad6e-1424f76c42f9",
+      "9f59ac61-f20b-4d33-9343-9603f693523f"
+    ],
+    "publicationKeys": [
+      "yann-lecun|Announcing the Shaw Prize in Computer Science|2026",
+      "yann-lecun|FAST INCREMENTAL LEARNING FOR AUTONOMOUS GROUND NAVIGATION|2024",
+      "yann-lecun|Learning and Leveraging World Models in Visual Representation Learning|2024",
+      "yann-lecun|The SSL Interplay: Augmentations, Inductive Bias, and Generalization|2023",
+      "yann-lecun|Minimalistic Unsupervised Representation Learning with the Sparse Manifold Transform|2023",
+      "sanghyun-woo|MTMMC: A Large-Scale Real-World Multi-Modal Camera Tracking Benchmark|2024",
+      "sanghyun-woo|ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders|2023",
+      "sanghyun-woo|Mask-Guided Matting in the Wild|2023",
+      "sanghyun-woo|Bidirectional Domain Mixup for Domain Adaptive Semantic Segmentation|2023",
+      "sanghyun-woo|Cyclical Compound Domain Test-time Adaptation via Continual Domain-Matching Algorithm|2023",
+      "delong-chen|RemoteSAM: Towards Segment Anything for Earth Observation|2025",
+      "delong-chen|Chain-of-Talkers (CoTalk): Fast Human Annotation of Dense Image Captions|2025",
+      "delong-chen|Making Large Vision Language Models to be Good Few-shot Learners|2024",
+      "delong-chen|What Makes for Good Image Captions?|2024",
+      "delong-chen|High-Dimension Human Value Representation in Large Language Models|2024",
+      "michael-rabbat|MJEPA: A Simple and Scalable Joint-Embedding Predictive Architecture for Audio-Visual Learning|2026",
+      "michael-rabbat|Intuitive physics understanding emerges from self-supervised pretraining on natural videos|2025",
+      "michael-rabbat|Revisiting Feature Prediction for Learning Visual Representations from Video|2024",
+      "michael-rabbat|Benchmarking Neural Network Training Algorithms|2023",
+      "michael-rabbat|DINOv2: Learning Robust Visual Features without Supervision|2023"
+    ],
+    "capital": 12449.43,
+    "dirigeantKeys": [
+      "Laurent Solly|Président",
+      "Chloé Giraut|Directeur général",
+      "Maxime Ubeda|Directeur général"
+    ],
+    "marqueKeys": [],
+    "brevetKeys": [],
+    "dessinKeys": []
+  },
+  "status": "ok",
+  "headline": "LeBrun's Semantic Caution Is the Clearest Signal of AMI's Public Strategy This Week",
+  "stateOfPlay": "A quiet week on the technical front. There were no new publications, no new hires, and minimal GitHub activity. This throws AMI's public positioning into sharper relief. The dominant story is founder Alexandre LeBrun's deliberate refusal to deploy the language of AGI or superintelligence, covered by TechCrunch and amplified via Biztoc. Combined with LeBrun's concurrent exit from the Nabla chairmanship, the week suggests a founder increasingly focused on AMI's identity and narrative as the company's primary asset at this stage.",
+  "threads": [
+    {
+      "title": "Rejecting 'AGI' Is a Strategic Positioning Move, Not Just Humility",
+      "category": "corporate",
+      "narrative": "LeBrun's explicit refusal to call AMI's systems AGI or superintelligence, as reported by TechCrunch on July 16, is worth reading as deliberate brand architecture, not mere epistemic caution. In a funding environment where competitors race to claim the most expansive capabilities, opting for more precise language carves out a distinct positioning: AMI as the serious, technically grounded alternative to hype-driven labs. This is the same rhetorical territory Yann LeCun has long occupied in public debates about AI progress, and it reinforces the intellectual lineage AMI's co-founding leans on.\n\nThe practical effect is to set expectations carefully at a moment when AMI has not yet made major public technical disclosures.",
+      "evidence": [
+        {
+          "label": "TechCrunch: Why AMI Labs' Alexandre LeBrun won't call his AI 'AGI' or 'superintelligence'",
+          "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/"
+        }
+      ]
+    },
+    {
+      "title": "The Nabla Departure Frees LeBrun for AMI — and Raises the Stakes",
+      "category": "hiring",
+      "narrative": "The July 22 Maddyness report that LeBrun has handed Nabla's leadership to Brian Manning is a meaningful contextual fact for AMI-watchers. LeBrun co-founded Nabla and has been a central figure there. Stepping back now suggests he is consolidating his attention on AMI at a moment when the startup is presumably approaching a critical early phase. We'll see whether that means a first product, a funding round, or a research debut.",
+      "evidence": []
+    },
+    {
+      "title": "Pascale Fung's Defense of Industry-Funded Research Signals Team Alignment on a Contested Question",
+      "category": "research",
+      "narrative": "AMI Co-Founder Pascale Fung posted publicly on July 18 to defend the record of large industry research labs such as Bell Labs, IBM, Xerox PARC, Microsoft, and Google as the source of paradigm-changing AI advances, pushing back against critics of industry-funded science. The post drew modest engagement (32 likes, 3 retweets), but its content matters more than its reach.\n\nFor a team that includes LeCun and operates at the intersection of deep academic credibility and commercial ambition, this is an implicit self-justification: AMI's model is serious research inside or adjacent to an industry-funded lab. Fung is arguing that this is historically validated. Fung is not speaking for the company, but the stance is consistent with AMI's foundational logic and suggests the team is thinking carefully about how it wants to be perceived within the broader research community.",
+      "evidence": [
+        {
+          "label": "Pascale Fung on X: defense of industry-funded research",
+          "url": "https://x.com/pascalefung/status/2078409080763289953"
+        }
+      ]
+    }
+  ],
   "signals": [],
-  "whatToWatch": ""
+  "whatToWatch": "Whether LeBrun's TechCrunch appearance is a precursor to a more substantive announcement: a funding round, a first product reveal, or a research publication in the coming weeks.",
+  "publishedAt": "2026-07-23T22:37:13.117Z"
 }
