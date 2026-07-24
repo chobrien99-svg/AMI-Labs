@@ -1,0 +1,49 @@
+name: Analyze GitHub Activity
+
+# On-demand: gathers ~2 months of the team's GitHub activity, ranks the most active
+# projects, has Claude analyze what they are, and commits data/github-analysis.json.
+# Run manually from the Actions tab; not scheduled.
+
+on:
+  workflow_dispatch:
+    inputs:
+      window_days:
+        description: "How many days back to analyze (default 60)."
+        type: string
+        default: "60"
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install @anthropic-ai/sdk
+
+      - name: Analyze GitHub activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SYNTHESIS_MODEL: ${{ vars.SYNTHESIS_MODEL }}
+          GH_ANALYSIS_WINDOW_DAYS: ${{ github.event.inputs.window_days }}
+        run: node scripts/analyze-github-activity.js
+
+      - name: Commit analysis
+        run: |
+          git config user.name "ami-activity-bot"
+          git config user.email "bot@ami-labs.vercel.app"
+          git add data/github-analysis.json
+          if git diff --staged --quiet; then
+            echo "No analysis changes to commit."
+          else
+            git commit -m "chore: analyze GitHub activity [$(date -u +%Y-%m-%d)]"
+            git push
+          fi
