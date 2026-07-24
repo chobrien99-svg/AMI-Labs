@@ -41,14 +41,14 @@ export const person = defineType({
     defineField({
       name: "department",
       title: "Department / Group",
-      description: "Controls which section this person appears in on the Team page",
+      description:
+        "Controls which section this person appears in on the Team page. Leave blank to infer from the Role field (roles containing “Co-Founder” go to Co-founders).",
       type: "string",
       options: {
         list: [
-          { title: "Leadership", value: "Leadership" },
+          { title: "Co-founders", value: "Co-founders" },
           { title: "Science & Research Leadership", value: "Science & Research Leadership" },
           { title: "Operations", value: "Operations" },
-          { title: "Research & Engineering", value: "Research & Engineering" },
         ],
       },
     }),

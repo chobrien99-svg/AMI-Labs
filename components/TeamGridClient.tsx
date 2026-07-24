@@ -105,10 +105,27 @@ function DirectoryItem({ m }: { m: TeamMember }) {
   );
 }
 
+type Section = "founders" | "research" | "operating";
+
+// Which section a member appears in. The Sanity "Department / Group" field is
+// authoritative when set (so editors control placement from a dropdown); otherwise
+// we infer from role/tags. Legacy department values are mapped too.
+function sectionOf(m: TeamMember): Section {
+  const d = (m.department || "").trim().toLowerCase();
+  if (d) {
+    if (d.includes("operation")) return "operating";
+    if (d.includes("science") || d.includes("research")) return "research"; // incl. "Research & Engineering"
+    if (d.includes("founder") || d === "leadership") return "founders";
+  }
+  if (isFounder(m)) return "founders";
+  if (isOperating(m)) return "operating";
+  return "research";
+}
+
 export default function TeamGridClient({ team }: { team: TeamMember[] }) {
-  const founders = team.filter(isFounder);
-  const operating = team.filter((m) => !isFounder(m) && isOperating(m));
-  const research = team.filter((m) => !isFounder(m) && !isOperating(m));
+  const founders = team.filter((m) => sectionOf(m) === "founders");
+  const research = team.filter((m) => sectionOf(m) === "research");
+  const operating = team.filter((m) => sectionOf(m) === "operating");
 
   return (
     <>
