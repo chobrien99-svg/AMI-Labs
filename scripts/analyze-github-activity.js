@@ -63,6 +63,34 @@ function ghRequest(url, raw = false) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// AMI-owned GitHub orgs (lowercase), if known — configure via AMI_GITHUB_ORGS (comma-separated).
+// Empty by default: we do NOT claim external/community projects as AMI's own.
+const AMI_ORGS = new Set((process.env.AMI_GITHUB_ORGS || "").toLowerCase().split(",").map((s) => s.trim()).filter(Boolean));
+
+const DOTFILES = /^\.?(dotfiles?|zshrc|bashrc|bash_profile|zprofile|vimrc|tmux\.conf|nvim|config|profile|gitconfig)$/i;
+function ownerName(full) { const i = full.indexOf("/"); return { owner: full.slice(0, i), name: full.slice(i + 1) }; }
+
+// Personal housekeeping (websites, dotfiles, org-profile repos) — not a research/engineering
+// signal. The domain-website check needs metadata; pass null to run only the name-based checks.
+function isPersonalRepo(full, meta) {
+  const { owner, name } = ownerName(full);
+  if (name === ".github") return true;                          // org profile repo
+  if (/\.github\.io$/i.test(name)) return true;                 // GitHub Pages site
+  if (name.toLowerCase() === owner.toLowerCase()) return true;  // owner/owner profile repo
+  if (DOTFILES.test(name)) return true;                         // dotfiles
+  if (meta && /\.[a-z]{2,6}$/i.test(name) && /^(HTML|CSS|SCSS|Less)$/i.test(meta.language || "") &&
+      !meta.description && !(meta.topics || []).length) return true; // personal domain website
+  return false;
+}
+
+// ami | personal-account | external — where a project sits relative to AMI and the member.
+function ownershipOf(owner, contributorUsernames) {
+  const o = (owner || "").toLowerCase();
+  if (AMI_ORGS.has(o)) return "ami";
+  if ((contributorUsernames || []).some((u) => u.toLowerCase() === o)) return "personal-account";
+  return "external";
+}
+
 // ── roster ────────────────────────────────────────────────────────────────────
 function loadRoster() {
   try {
@@ -100,7 +128,7 @@ function aggregate(memberEvents) {
       if (!repo) continue;
       let r = repos.get(repo);
       if (!r) {
-        r = { repo, score: 0, counts: {}, commits: 0, contributors: new Set(), lastAt: e.created_at, contribEvents: 0 };
+        r = { repo, score: 0, counts: {}, commits: 0, contributors: new Set(), contributorUsernames: new Set(), lastAt: e.created_at, contribEvents: 0 };
         repos.set(repo, r);
       }
       const w = WEIGHT[e.type] ?? 1;
@@ -110,14 +138,18 @@ function aggregate(memberEvents) {
       if (e.type === "PushEvent") {
         r.commits += typeof e.payload?.size === "number" ? e.payload.size : (e.payload?.commits || []).length;
       }
-      if (CONTRIB_TYPES.has(e.type)) { r.contributors.add(member.name); r.contribEvents++; }
+      if (CONTRIB_TYPES.has(e.type)) {
+        r.contributors.add(member.name);
+        if (member.username) r.contributorUsernames.add(member.username);
+        r.contribEvents++;
+      }
       if (e.created_at > r.lastAt) r.lastAt = e.created_at;
     }
   });
   return [...repos.values()]
-    .filter((r) => r.contribEvents > 0) // drop repos only starred/forked
-    .sort((a, b) => b.score - a.score)
-    .slice(0, TOP_N);
+    // drop repos only starred/forked, and obvious personal housekeeping (by name)
+    .filter((r) => r.contribEvents > 0 && !isPersonalRepo(r.repo, null))
+    .sort((a, b) => b.score - a.score);
 }
 
 // ── repo metadata + README (what the project IS) ────────────────────────────────
@@ -149,10 +181,13 @@ async function enrich(project) {
   const meta = await ghRequest(`https://api.github.com/repos/${project.repo}`);
   await sleep(200);
   const readme = decodeReadme(await ghRequest(`https://api.github.com/repos/${project.repo}/readme`));
+  const owner = meta?.owner?.login || project.repo.split("/")[0];
+  const contributorUsernames = [...project.contributorUsernames];
   return {
     repo: project.repo,
     url: meta?.html_url || `https://github.com/${project.repo}`,
-    owner: meta?.owner?.login || project.repo.split("/")[0],
+    owner,
+    ownership: ownershipOf(owner, contributorUsernames), // ami | personal-account | external
     description: meta?.description || null,
     language: meta?.language || null,
     topics: Array.isArray(meta?.topics) ? meta.topics.slice(0, 8) : [],
@@ -162,6 +197,7 @@ async function enrich(project) {
     activityScore: Math.round(project.score),
     eventSummary: summariseCounts(project.counts, project.commits),
     contributors: [...project.contributors],
+    contributorUsernames,
     readmeExcerpt: readme,
   };
 }
@@ -169,10 +205,18 @@ async function enrich(project) {
 // ── narration (Claude, grounded in the facts) ───────────────────────────────────
 const SYSTEM_PROMPT = [
   "You are a technical analyst for The French Tech Journal's AMI Labs Observatory.",
-  "You are given a ranked list of GitHub projects the AMI Labs team has been most active on over a recent",
-  "window, each with metadata (description, language, topics, README excerpt), which team members are active",
-  "on it, and a summary of the activity. Write an analysis of what the team is building — the NATURE and",
-  "PURPOSE of the top projects — NOT a commit log.",
+  "You are given a ranked list of GitHub projects that CURRENT AMI Labs team members have been most active on",
+  "over a recent window, each with metadata (description, language, topics, README excerpt), which members are",
+  "active on it, and a summary of the activity. Write an analysis of what these people are putting time into —",
+  "the NATURE and PURPOSE of the top projects — NOT a commit log.",
+  "",
+  "FRAMING — this is critical:",
+  "- The signal is 'where current AMI members are investing effort, based on public activity' — NOT 'AMI's",
+  "  projects'. Most of these are external or community projects; some predate AMI or involve many institutions.",
+  "- Each project has an 'ownership' field: 'ami' (owned by an AMI GitHub org), 'personal-account' (a member's",
+  "  own account), or 'external' (an outside org/community project). Make this distinction explicit in the prose",
+  "  when relevant. NEVER imply AMI owns, originated, or is affiliated with an 'external'/'personal-account'",
+  "  project — say a member is contributing to it. Only call a project AMI's if ownership is 'ami'.",
   "",
   "HARD RULES:",
   "- Ground every claim about a project ONLY in its provided description, README excerpt, topics, and language.",
@@ -182,9 +226,10 @@ const SYSTEM_PROMPT = [
   "- Neutral, precise, editorial tone.",
   "",
   "OUTPUT: a single JSON object and nothing else, with keys:",
-  '  "overview": string (3-5 sentences: what the team is collectively working on, the through-line),',
+  '  "overview": string (3-5 sentences: what current AMI members are collectively putting effort into and the',
+  "     through-line — framed as their activity, not AMI's ownership),",
   '  "projects": array of { "repo": string (copied EXACTLY from a provided repo), "analysis": string',
-  "     (2-4 sentences on what the project is and its purpose, grounded in its metadata) },",
+  "     (2-4 sentences on what the project is and its purpose, grounded in its metadata, with ownership made clear) },",
   '  "themes": array (0-3) of { "title": string, "text": string } — cross-project patterns worth naming.',
   "If you cannot produce a grounded analysis, output exactly SKIP.",
 ].join("\n");
@@ -204,7 +249,8 @@ async function narrate(projects) {
   const Anthropic = require("@anthropic-ai/sdk").default;
   const client = new Anthropic();
   const facts = projects.map((p, i) => ({
-    rank: i + 1, repo: p.repo, description: p.description, language: p.language,
+    rank: i + 1, repo: p.repo, owner: p.owner, ownership: p.ownership,
+    description: p.description, language: p.language,
     topics: p.topics, stars: p.stars, isFork: p.isFork, activity: p.eventSummary,
     contributors: p.contributors, readmeExcerpt: p.readmeExcerpt,
   }));
@@ -239,17 +285,22 @@ async function main() {
   }
 
   const ranked = aggregate(memberEvents);
-  console.log(`\nTop ${ranked.length} projects by weighted activity. Enriching…`);
+  // Enrich a few more than we need, since the metadata-based personal-repo filter can drop some.
+  const candidates = ranked.slice(0, TOP_N + 8);
+  console.log(`\n${ranked.length} contributed projects; enriching top ${candidates.length}…`);
 
-  const projects = [];
-  for (const r of ranked) {
+  const enriched = [];
+  for (const r of candidates) {
     try {
-      projects.push(await enrich(r));
+      enriched.push(await enrich(r));
       process.stdout.write(`  ${r.repo} (score ${Math.round(r.score)})\n`);
     } catch (e) {
       console.error(`  ${r.repo}: enrich FAILED (${e.message})`);
     }
   }
+  // Drop personal websites/dotfiles the name filter couldn't catch without metadata, then take the top N.
+  const projects = enriched.filter((p) => !isPersonalRepo(p.repo, p)).slice(0, TOP_N);
+  console.log(`${projects.length} projects after excluding personal repos.`);
 
   let narration = null;
   try { narration = await narrate(projects); }
@@ -267,6 +318,7 @@ async function main() {
       repo: p.repo,
       url: p.url,
       owner: p.owner,
+      ownership: p.ownership, // ami | personal-account | external
       activityScore: p.activityScore,
       eventSummary: p.eventSummary,
       contributors: p.contributors,
