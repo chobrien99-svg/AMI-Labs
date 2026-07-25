@@ -3,6 +3,7 @@ const https = require("https");
 const { randomUUID } = require("crypto");
 const Anthropic = require("@anthropic-ai/sdk").default;
 const { createClient } = require("@sanity/client");
+const { buildMentionIndex, detectPeople } = require("./lib/detect-people");
 
 // ═══════════════════════════════════════════════════════════════════════════
 // TRACKER CONFIGURATION — edit this section to adapt for a different company
@@ -106,6 +107,16 @@ const TRACKER = {
 const existing = JSON.parse(fs.readFileSync(TRACKER.dataFile, "utf8"));
 const existingUrls = new Set(existing.map((a) => a.url));
 const existingTitles = existing.map((a) => a.title.toLowerCase());
+
+// Roster-driven person-mention detection: tag each article with the AMI people it mentions.
+const roster = (() => {
+  try { return JSON.parse(fs.readFileSync("./data/team.json", "utf8")); }
+  catch { return []; }
+})();
+const mentionIndex = buildMentionIndex(roster);
+// Populated once from Sanity before the article loop, so `people` slugs can be written as
+// person references. Stays empty when Sanity is unavailable (news.json still gets slugs).
+const personIdBySlug = new Map();
 
 // ── Sanity write client (for pushing articles to CMS) ───────────────────────
 
@@ -534,6 +545,12 @@ async function writeToSanity(article) {
     score: article.score,
     reviewStatus: article.status,
   };
+  // Person references, resolved from the detected slugs (skipped if Sanity lacks the person).
+  const peopleRefs = (article.people || [])
+    .map((slug) => personIdBySlug.get(slug))
+    .filter(Boolean)
+    .map((id) => ({ _type: "reference", _ref: id, _key: id }));
+  if (peopleRefs.length) doc.people = peopleRefs;
   try {
     await sanityClient.createOrReplace(doc);
     console.log(`  [Sanity] Wrote ${article.status} article: "${article.title}" (score: ${article.score})`);
@@ -641,6 +658,16 @@ async function notifyPendingArticles(pendingArticles) {
     return;
   }
 
+  // Resolve person slug → Sanity _id once, so detected people can be written as references.
+  if (sanityClient) {
+    try {
+      const persons = await sanityClient.fetch('*[_type == "person" && !(_id in path("drafts.**"))]{_id, "slug": slug.current}');
+      for (const p of persons || []) if (p.slug) personIdBySlug.set(p.slug, p._id);
+    } catch (err) {
+      console.warn(`[Sanity] Could not load person ids for tagging: ${err.message}`);
+    }
+  }
+
   // Score and route articles
   const newArticles = [];
   const pendingArticles = [];
@@ -684,7 +711,10 @@ async function notifyPendingArticles(pendingArticles) {
       status,
       addedAt: new Date().toISOString(),
       image: image || null,
+      // Roster people mentioned in the headline/summary (slugs; reviewed before publishing).
+      people: detectPeople(`${item.title}. ${summary}`, mentionIndex),
     };
+    if (article.people.length === 0) delete article.people; // keep records clean
 
     newArticles.push(article);
     if (status === "pending") pendingArticles.push(article);
