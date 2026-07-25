@@ -50,6 +50,7 @@ export const allArticlesQuery = groq`
     publishedAt,
     summary,
     tags,
+    "people": people[]->{ "slug": slug.current, name },
     coverImage { asset->, alt },
   }
 `;
@@ -79,6 +80,7 @@ export const articleBySlugQuery = groq`
     publishedAt,
     summary,
     tags,
+    "people": people[]->{ "slug": slug.current, name },
     coverImage { asset->, alt },
     body[] {
       ...,
