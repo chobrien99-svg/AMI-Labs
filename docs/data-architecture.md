@@ -91,12 +91,17 @@ what Sanity started and adding a thin join layer.
 
 Each phase stands alone and leaves the site working.
 
-- **Phase 0 — Reconcile the roster.** *(Implemented in this PR.)* Make Sanity the one
-  list; add `scripts/export-sanity-to-team.js` to regenerate `team.json` from Sanity, and
-  a workflow to keep it fresh. Ends the drift; every `team.json` reader instantly sees all
-  38 people.
-- **Phase 1 — Resolver + complete external IDs.** Ensure every person carries GitHub,
-  Semantic Scholar, X, and LinkedIn IDs; build the resolver; refactor pipelines to use it.
+- **Phase 0 — Reconcile the roster.** *(Done.)* Make Sanity the one list;
+  `scripts/export-sanity-to-team.js` regenerates `team.json` from Sanity, with a workflow
+  to keep it fresh. Ends the drift; every `team.json` reader sees all 38 people.
+- **Phase 1 — Resolver + external-ID coverage.** *(Implemented in this PR.)*
+  `scripts/lib/resolve-identity.js` maps any external key (GitHub username, Semantic
+  Scholar ID, X handle, or name) → canonical `slug`, with unit tests
+  (`resolve-identity.test.js`). `scripts/audit-identity-coverage.js` reports which people
+  are missing which IDs so gaps can be filled in Sanity. The by-name/by-handle pipelines
+  now resolve through it: `analyze-github-activity.js` attaches `contributorSlugs`, and
+  `fetch-x-posts.js` attaches `authorSlug`. *(Remaining: fill the ID gaps the audit
+  surfaces; optionally migrate the already-slug-keyed pipelines onto the shared helpers.)*
 - **Phase 2 — Link the orphans.** `people` refs on `article`; full resolved paper authors;
   slug on X posts. Backfill via name / ID matching with human review.
 - **Phase 3 — Relationship edges + per-person dossiers.** Derive co-authorship and

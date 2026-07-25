@@ -17,6 +17,7 @@
 const https = require("https");
 const fs = require("fs");
 const path = require("path");
+const { loadResolver } = require("./lib/resolve-identity");
 
 const ACTIVITY_FILE = path.resolve(__dirname, "../data/github-activity.json");
 const TEAM_FILE = path.resolve(__dirname, "../data/team.json");
@@ -269,6 +270,7 @@ async function narrate(projects) {
 async function main() {
   if (!TOKEN) console.warn("[analyze] No GITHUB_TOKEN — heavily rate limited (60 req/hr).");
   const roster = loadRoster();
+  const resolver = loadResolver(); // maps contributor github usernames/names → person slug
   const sinceMs = Date.now() - WINDOW_DAYS * 24 * 60 * 60 * 1000;
   console.log(`Analyzing GitHub activity for ${roster.length} members over ${WINDOW_DAYS} days…`);
 
@@ -322,6 +324,11 @@ async function main() {
       activityScore: p.activityScore,
       eventSummary: p.eventSummary,
       contributors: p.contributors,
+      // Canonical person slugs for the contributors, so the analysis links to people.
+      contributorSlugs: [...new Set([
+        ...(p.contributorUsernames || []).map((u) => { const m = resolver.byGithub(u); return m && m.slug; }),
+        ...(p.contributors || []).map((n) => { const m = resolver.byName(n); return m && m.slug; }),
+      ].filter(Boolean))],
       description: p.description,
       language: p.language,
       topics: p.topics,

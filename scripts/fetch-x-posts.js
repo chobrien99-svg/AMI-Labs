@@ -20,6 +20,7 @@
 const https = require("https");
 const fs = require("fs");
 const path = require("path");
+const { loadResolver } = require("./lib/resolve-identity");
 
 const OUT_FILE = path.resolve(__dirname, "../data/x-posts.json");
 const RETRY_MS = 3000;
@@ -102,7 +103,7 @@ function searchUrl(sinceId, nextToken) {
   return `https://api.twitter.com/2/tweets/search/recent?${params.toString()}`;
 }
 
-function mapPost(t, usersById) {
+function mapPost(t, usersById, resolver) {
   const u = usersById[t.author_id] || {};
   const username = u.username || "";
   const ents = t.entities || {};
@@ -114,6 +115,8 @@ function mapPost(t, usersById) {
     id: t.id,
     authorId: t.author_id,
     authorUsername: username,
+    // Canonical person slug for the author (via X handle), or null if not on the roster.
+    authorSlug: (resolver && resolver.byTwitter(username) && resolver.byTwitter(username).slug) || null,
     authorName: u.name || "",
     createdAt: t.created_at || null,
     text: t.text || "",
@@ -163,7 +166,8 @@ async function main() {
     return;
   }
 
-  const newPosts = fresh.map((t) => mapPost(t, usersById));
+  const resolver = loadResolver(); // maps X handles → person slug
+  const newPosts = fresh.map((t) => mapPost(t, usersById, resolver));
   console.log(`[x] ${newPosts.length} new post(s) since ${sinceId || "(first run)"}.`);
 
   // Merge + dedupe by id, newest first.
