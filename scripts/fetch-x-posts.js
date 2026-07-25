@@ -173,6 +173,10 @@ async function main() {
   // Merge + dedupe by id, newest first.
   const byId = new Map();
   for (const p of [...newPosts, ...(existing.posts || [])]) if (!byId.has(p.id)) byId.set(p.id, p);
+  // Refresh authorSlug on every retained post: those in the rolling window were mapped
+  // before the resolver existed (or before their author joined the roster) and are never
+  // re-fetched, so resolve them here to keep person joins complete.
+  for (const p of byId.values()) p.authorSlug = (resolver.byTwitter(p.authorUsername) && resolver.byTwitter(p.authorUsername).slug) || null;
   let posts = [...byId.values()].sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
 
   // Prune: rolling window + hard cap.

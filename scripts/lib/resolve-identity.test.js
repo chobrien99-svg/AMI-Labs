@@ -76,6 +76,15 @@ test("resolve() tries identifiers strongest-first and slugFor returns slug", () 
   assert.strictEqual(r.slugFor({ name: "Nobody Here" }), null);
 });
 
+test("bare-string resolve covers slug, github, S2 id, X handle, and name", () => {
+  assert.strictEqual(r.slugFor("min-lin"), "min-lin");        // slug
+  assert.strictEqual(r.slugFor("mavenlin"), "min-lin");       // github username
+  assert.strictEqual(r.slugFor("1688882"), "min-lin");        // Semantic Scholar id
+  assert.strictEqual(r.slugFor("@lin_min"), "min-lin");       // X handle
+  assert.strictEqual(r.slugFor("Yann LeCun"), "yann-lecun");  // name
+  assert.strictEqual(r.slugFor("unmatched-token"), null);
+});
+
 test("collisions keep the first registration and report", () => {
   const collisions = [];
   const dup = buildResolver(

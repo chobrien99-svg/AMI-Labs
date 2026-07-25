@@ -106,7 +106,12 @@ function buildResolver(roster, { onCollision } = {}) {
   // `xUsername`/`twitter` are interchangeable inputs for the handle.
   function resolve(input) {
     if (!input) return null;
-    if (typeof input === "string") return bySlug(input) || byGithub(input) || byName(input);
+    // A bare string is tried against every identifier map, strongest-first, matching the
+    // object path below. Stronger lookups miss cleanly on unrelated strings (e.g. an S2 id
+    // isn't a github username), so ordering stays safe.
+    if (typeof input === "string") {
+      return bySlug(input) || byGithub(input) || bySemanticScholarId(input) || byTwitter(input) || byName(input);
+    }
     return (
       bySlug(input.slug) ||
       byGithub(input.github) ||

@@ -15,6 +15,15 @@ const { buildResolver, semanticScholarIds } = require("./lib/resolve-identity");
 
 const TEAM_FILE = path.resolve(__dirname, "../data/team.json");
 
+// Operational / executive roles are expected to lack research identifiers (GitHub,
+// Semantic Scholar), so we don't flag those absences as gaps to fill.
+function isOperational(m) {
+  const dept = (m.department || "").toLowerCase();
+  if (dept.includes("operat")) return true; // "Operations" / "Operating Leadership"
+  const role = (m.role || "").toLowerCase();
+  return /\b(ceo|coo|chief of staff|recruiter|talent|people ops|operations|cio|it director|head of it|office of)\b/.test(role);
+}
+
 // Which identifiers matter, and which pipeline each one unlocks.
 const FIELDS = [
   { key: "github", label: "GitHub", get: (m) => m.links && m.links.github, unlocks: "GitHub activity + analysis" },
@@ -38,12 +47,20 @@ function main() {
     console.log(`  ${f.label.padEnd(18)} ${String(have).padStart(3)}/${total}  (${pct}%)  — unlocks ${f.unlocks}`);
   }
 
-  // People missing the two identifiers that drive the biggest pipelines.
+  // People missing the two research identifiers that drive the biggest pipelines. Split
+  // out operational / executive roles, which are expected to lack a GitHub or Semantic
+  // Scholar profile — so the "review" list is only people who probably should have one.
   for (const key of ["github", "semanticScholarId"]) {
     const f = FIELDS.find((x) => x.key === key);
-    const missing = roster.filter((m) => !f.get(m)).map((m) => m.name).sort();
-    console.log(`\nMissing ${f.label} (${missing.length}):`);
-    console.log(missing.length ? missing.map((n) => `  · ${n}`).join("\n") : "  (none — full coverage)");
+    const missing = roster.filter((m) => !f.get(m));
+    const review = missing.filter((m) => !isOperational(m)).map((m) => m.name).sort();
+    const expected = missing.filter((m) => isOperational(m)).map((m) => m.name).sort();
+    console.log(`\nMissing ${f.label} — ${review.length} to review, ${expected.length} expected (ops/exec):`);
+    console.log("  to review:");
+    console.log(review.length ? review.map((n) => `    · ${n}`).join("\n") : "    (none)");
+    if (expected.length) {
+      console.log(`  expected (ops/exec, likely no ${f.label}): ${expected.join(", ")}`);
+    }
   }
 
   // Collisions the resolver would encounter (same identifier → two people).
