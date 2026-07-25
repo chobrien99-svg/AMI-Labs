@@ -134,6 +134,13 @@ Each phase stands alone and leaves the site working.
   class is needed for the roster; the affiliation is uniform.
 - **Sanity is canonical** for person identity. Git-native JSON files are derived caches.
 
+## Operating the system
+
+- **Adding an article by hand** (a notable paper or news item) and attaching it to people:
+  see [`docs/adding-articles.md`](./adding-articles.md). Tag the people in the Studio's
+  `people` field; `scripts/export-sanity-news.js` (run first in the Build Person Dossiers
+  workflow) syncs Sanity articles into `news.json` so those tags reach the dossiers and report.
+
 ## Open questions
 
 - **Portraits:** some people have committed `/team/*.jpg` portraits; others only have a
