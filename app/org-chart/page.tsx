@@ -54,7 +54,7 @@ export default async function OrgChartPage() {
       slug: m.slug,
       name: m.name,
       role: m.role,
-      reportsTo: m.reportsTo,
+      reportsTo: m.reportsTo ?? null,
       body: m.body || "",
       location,
       tenure,

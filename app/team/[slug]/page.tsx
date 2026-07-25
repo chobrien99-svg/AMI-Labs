@@ -94,8 +94,15 @@ export default async function TeamProfilePage({ params }: Props) {
     <ProfileClient
       member={{
         ...member,
+        // team.json is generated from Sanity and omits empty fields, so default every
+        // required Member field the cache may not carry.
+        body: member.body ?? "",
+        tags: member.tags ?? [],
         biography: member.biography ?? null,
         biographyPortable: null,
+        careerHistory: member.careerHistory ?? [],
+        links: member.links ?? {},
+        semanticScholarId: member.semanticScholarId ?? null,
       }}
       publications={publications}
       featuredPublications={[]}
