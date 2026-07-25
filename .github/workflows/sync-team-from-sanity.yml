@@ -1,0 +1,42 @@
+name: Sync Team from Sanity
+
+# Regenerates data/team.json from Sanity (the single source of truth for the roster)
+# and commits it when it changes. Keeps the git-native cache from drifting out of date
+# as people are added/edited in the CMS. Runs daily and on demand.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * *" # daily at 06:17 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Export Sanity persons to team.json
+        env:
+          # Optional — only needed to authenticate against a private dataset; the public
+          # production dataset reads without it. Does not include drafts.
+          SANITY_API_READ_TOKEN: ${{ secrets.SANITY_API_READ_TOKEN }}
+        run: node scripts/export-sanity-to-team.js
+
+      - name: Commit team.json
+        run: |
+          git config user.name "ami-activity-bot"
+          git config user.email "bot@ami-labs.vercel.app"
+          git add data/team.json
+          if git diff --staged --quiet; then
+            echo "No roster changes to commit."
+          else
+            git commit -m "chore: sync team.json from Sanity [$(date -u +%Y-%m-%d)]"
+            git push
+          fi
