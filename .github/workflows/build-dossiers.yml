@@ -2,8 +2,10 @@ name: Build Person Dossiers
 
 # Regenerates the per-person dossiers + relationship graph under data/people/ by
 # joining team.json, research.json, github-analysis.json, github-activity.json,
-# news.json and x-posts.json. Runs daily (after the data-fetch workflows) and on
-# demand. Deterministic — commits only when the joined output actually changes.
+# news.json and x-posts.json. First syncs manually-authored Sanity articles (with
+# their curated people tags) into news.json, so hand-added items reach the dossiers.
+# Runs daily (after the data-fetch workflows) and on demand. Deterministic — commits
+# only when the joined output actually changes.
 
 on:
   workflow_dispatch:
@@ -23,6 +25,13 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Sync articles from Sanity
+        continue-on-error: true # a Sanity outage must not block the dossier rebuild
+        env:
+          # Optional — public dataset reads without it; only needed for a private dataset.
+          SANITY_API_READ_TOKEN: ${{ secrets.SANITY_API_READ_TOKEN }}
+        run: node scripts/export-sanity-news.js
+
       - name: Build dossiers
         run: node scripts/build-dossiers.js
 
@@ -30,7 +39,7 @@ jobs:
         run: |
           git config user.name "ami-activity-bot"
           git config user.email "bot@ami-labs.vercel.app"
-          git add data/people
+          git add data/news.json data/people
           if git diff --staged --quiet; then
             echo "No dossier changes to commit."
           else
