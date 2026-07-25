@@ -17,6 +17,7 @@
 const https = require("https");
 const fs = require("fs");
 const path = require("path");
+const { loadResolver } = require("./lib/resolve-identity");
 
 const ACTIVITY_FILE = path.resolve(__dirname, "../data/github-activity.json");
 const TEAM_FILE = path.resolve(__dirname, "../data/team.json");
@@ -97,13 +98,13 @@ function loadRoster() {
     const a = JSON.parse(fs.readFileSync(ACTIVITY_FILE, "utf8"));
     const members = (a.members || [])
       .filter((m) => m.username)
-      .map((m) => ({ name: m.name, username: m.username }));
+      .map((m) => ({ name: m.name, username: m.username, slug: m.slug }));
     if (members.length) return members;
   } catch { /* fall through */ }
   const team = JSON.parse(fs.readFileSync(TEAM_FILE, "utf8"));
   return team
     .filter((m) => m.links?.github)
-    .map((m) => ({ name: m.name, username: m.links.github.replace("https://github.com/", "").replace(/\/$/, "") }));
+    .map((m) => ({ name: m.name, slug: m.slug, username: m.links.github.replace("https://github.com/", "").replace(/\/$/, "") }));
 }
 
 // ── events → per-repo aggregation ───────────────────────────────────────────────
@@ -128,7 +129,7 @@ function aggregate(memberEvents) {
       if (!repo) continue;
       let r = repos.get(repo);
       if (!r) {
-        r = { repo, score: 0, counts: {}, commits: 0, contributors: new Set(), contributorUsernames: new Set(), lastAt: e.created_at, contribEvents: 0 };
+        r = { repo, score: 0, counts: {}, commits: 0, contributors: new Set(), contributorUsernames: new Set(), contributorSlugs: new Set(), lastAt: e.created_at, contribEvents: 0 };
         repos.set(repo, r);
       }
       const w = WEIGHT[e.type] ?? 1;
@@ -141,6 +142,7 @@ function aggregate(memberEvents) {
       if (CONTRIB_TYPES.has(e.type)) {
         r.contributors.add(member.name);
         if (member.username) r.contributorUsernames.add(member.username);
+        if (member.slug) r.contributorSlugs.add(member.slug); // canonical slug from the roster
         r.contribEvents++;
       }
       if (e.created_at > r.lastAt) r.lastAt = e.created_at;
@@ -198,6 +200,7 @@ async function enrich(project) {
     eventSummary: summariseCounts(project.counts, project.commits),
     contributors: [...project.contributors],
     contributorUsernames,
+    contributorSlugs: [...project.contributorSlugs],
     readmeExcerpt: readme,
   };
 }
@@ -269,6 +272,7 @@ async function narrate(projects) {
 async function main() {
   if (!TOKEN) console.warn("[analyze] No GITHUB_TOKEN — heavily rate limited (60 req/hr).");
   const roster = loadRoster();
+  const resolver = loadResolver(); // maps contributor github usernames/names → person slug
   const sinceMs = Date.now() - WINDOW_DAYS * 24 * 60 * 60 * 1000;
   console.log(`Analyzing GitHub activity for ${roster.length} members over ${WINDOW_DAYS} days…`);
 
@@ -322,6 +326,14 @@ async function main() {
       activityScore: p.activityScore,
       eventSummary: p.eventSummary,
       contributors: p.contributors,
+      // Canonical person slugs for the contributors, so the analysis links to people.
+      // Prefer the slug the roster already carried; fall back to resolving the contributor's
+      // github username / name against team.json for any the roster didn't slug.
+      contributorSlugs: [...new Set([
+        ...(p.contributorSlugs || []),
+        ...(p.contributorUsernames || []).map((u) => { const m = resolver.byGithub(u); return m && m.slug; }),
+        ...(p.contributors || []).map((n) => { const m = resolver.byName(n); return m && m.slug; }),
+      ].filter(Boolean))],
       description: p.description,
       language: p.language,
       topics: p.topics,

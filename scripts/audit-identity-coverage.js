@@ -1,0 +1,75 @@
+// ============================================================================
+// AMI Observatory — identity coverage audit
+// ----------------------------------------------------------------------------
+// Read-only report over data/team.json (the Sanity-derived roster). Shows which
+// people are missing the external identifiers the data pipelines rely on, so the
+// gaps can be filled in Sanity. Also surfaces any identifier collisions the
+// resolver would hit. No network; safe to run anytime.
+//
+//   node scripts/audit-identity-coverage.js
+// ============================================================================
+
+const fs = require("fs");
+const path = require("path");
+const { buildResolver, semanticScholarIds } = require("./lib/resolve-identity");
+
+const TEAM_FILE = path.resolve(__dirname, "../data/team.json");
+
+// Operational / executive roles are expected to lack research identifiers (GitHub,
+// Semantic Scholar), so we don't flag those absences as gaps to fill.
+function isOperational(m) {
+  const dept = (m.department || "").toLowerCase();
+  if (dept.includes("operat")) return true; // "Operations" / "Operating Leadership"
+  const role = (m.role || "").toLowerCase();
+  return /\b(ceo|coo|chief of staff|recruiter|talent|people ops|operations|cio|it director|head of it|office of)\b/.test(role);
+}
+
+// Which identifiers matter, and which pipeline each one unlocks.
+const FIELDS = [
+  { key: "github", label: "GitHub", get: (m) => m.links && m.links.github, unlocks: "GitHub activity + analysis" },
+  { key: "semanticScholarId", label: "Semantic Scholar", get: (m) => semanticScholarIds(m.semanticScholarId).length > 0, unlocks: "publications + research" },
+  { key: "twitter", label: "X/Twitter", get: (m) => m.links && m.links.twitter, unlocks: "X posts" },
+  { key: "linkedin", label: "LinkedIn", get: (m) => m.links && m.links.linkedin, unlocks: "profile links" },
+];
+
+function main() {
+  let roster;
+  try { roster = JSON.parse(fs.readFileSync(TEAM_FILE, "utf8")); }
+  catch (e) { console.error(`Could not read team.json: ${e.message}`); process.exit(1); }
+
+  const total = roster.length;
+  console.log(`Identity coverage — ${total} people in team.json\n`);
+
+  // Per-field coverage summary.
+  for (const f of FIELDS) {
+    const have = roster.filter((m) => f.get(m)).length;
+    const pct = total ? Math.round((have / total) * 100) : 0;
+    console.log(`  ${f.label.padEnd(18)} ${String(have).padStart(3)}/${total}  (${pct}%)  — unlocks ${f.unlocks}`);
+  }
+
+  // People missing the two research identifiers that drive the biggest pipelines. Split
+  // out operational / executive roles, which are expected to lack a GitHub or Semantic
+  // Scholar profile — so the "review" list is only people who probably should have one.
+  for (const key of ["github", "semanticScholarId"]) {
+    const f = FIELDS.find((x) => x.key === key);
+    const missing = roster.filter((m) => !f.get(m));
+    const review = missing.filter((m) => !isOperational(m)).map((m) => m.name).sort();
+    const expected = missing.filter((m) => isOperational(m)).map((m) => m.name).sort();
+    console.log(`\nMissing ${f.label} — ${review.length} to review, ${expected.length} expected (ops/exec):`);
+    console.log("  to review:");
+    console.log(review.length ? review.map((n) => `    · ${n}`).join("\n") : "    (none)");
+    if (expected.length) {
+      console.log(`  expected (ops/exec, likely no ${f.label}): ${expected.join(", ")}`);
+    }
+  }
+
+  // Collisions the resolver would encounter (same identifier → two people).
+  const collisions = [];
+  buildResolver(roster, { onCollision: (k, kind, a, b) => collisions.push(`${kind} "${k}": ${a} vs ${b}`) });
+  console.log(`\nIdentifier collisions: ${collisions.length}`);
+  for (const c of collisions) console.log(`  ⚠ ${c}`);
+
+  console.log("\nFill any gaps by editing the person in Sanity, then re-run the Sync Team from Sanity workflow.");
+}
+
+main();
