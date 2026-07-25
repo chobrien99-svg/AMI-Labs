@@ -1,40 +1,64 @@
 [
   {
-    "slug": "yann-lecun",
-    "name": "Yann LeCun",
-    "image": "/team/Yann LeCun.jpg",
-    "role": "Executive Chairman & Co-Founder",
-    "body": "Turing Award laureate (2018). Former Meta VP & Chief AI Scientist (12+ years). Architect of JEPA — the foundation of AMI's approach. Professor at NYU. Dual French-American.",
+    "slug": "adithya-iyer",
+    "name": "Adithya Iyer",
+    "role": "Member of Technical Staff",
+    "body": "Former founding machine-learning researcher at Morphic, where he led work on video-generation models.",
     "tags": [
-      "Paris/New York",
-      "Co-Founder"
+      "New York"
     ],
-    "reportsTo": null,
-    "biography": "# Yann LeCun\n\nYann LeCun is a French-American computer scientist and artificial intelligence researcher widely regarded as one of the founding figures of modern deep learning. He earned his Diplôme d'Ingénieur from the École Supérieure d'Ingénieurs en Électrotechnique et Électronique (ESIEE Paris) and his Ph.D. in Computer Science from Université Pierre et Marie Curie (now Sorbonne Université) in 1987. His doctoral and early postdoctoral work, conducted in part at Bell Labs, laid the groundwork for some of the most consequential innovations in the history of machine learning.\n\nLeCun's most significant early contribution was the development and formalization of convolutional neural networks (CNNs), a class of deep learning architectures inspired by the structure of the biological visual cortex. His landmark 1989 and 1998 papers introduced and refined the LeNet architecture, which demonstrated the practical viability of gradient-based learning for image recognition and document analysis — including handwritten digit recognition systems deployed commercially by the banking industry. This work established principles that would later become foundational to computer vision, natural language processing, and generative AI at scale. In recognition of these contributions, LeCun was awarded the Turing Award in 2018 — often described as the \"Nobel Prize of computing\" — alongside Geoffrey Hinton and Yoshua Bengio, for their collective role in advancing deep learning.\n\nFollowing his academic career at Bell Labs and AT&T, LeCun joined New York University, where he holds a Silver Professor appointment in the Courant Institute of Mathematical Sciences and the Center for Data Science. In 2013, he joined Meta (then Facebook) as Vice President and Chief AI Scientist, a role he held for more than twelve years, during which he helped build and lead Meta AI Research (FAIR) into one of the most influential industrial AI research organizations in the world. During this period, LeCun became an increasingly prominent advocate for a specific scientific vision of artificial intelligence — one grounded in self-supervised learning, world models, and energy-based frameworks rather than purely generative or language-model-centric approaches.\n\nLeCun is a Co-Founder and Executive Chairman of AMI Labs (Advanced Machine Intelligence), a Paris-based artificial intelligence startup whose technical direction is rooted in his ongoing research agenda. Central to AMI's approach is the Joint Embedding Predictive Architecture (JEPA), a framework LeCun has championed as a more principled and efficient path toward human-level machine intelligence — one that emphasizes learning structured, abstract representations of the world rather than pixel- or token-level prediction. LeCun's significance to AMI Labs extends well beyond a",
+    "department": "Research & Engineering",
+    "reportsTo": "saining-xie",
     "careerHistory": [
       {
-        "org": "Meta AI (Facebook AI Research)",
-        "title": "VP & Chief AI Scientist",
-        "years": "2013–2025"
+        "org": "Morphic",
+        "title": "Founding ML Researcher",
+        "years": "2024-2026"
       },
       {
-        "org": "New York University",
-        "title": "Silver Professor of Computer Science, Data Science, and Neural Science",
-        "years": "2003–present"
-      },
-      {
-        "org": "AT&T Bell Labs / NEC Laboratories",
-        "title": "Research Scientist",
-        "years": "1988–2003"
+        "org": "NYU Center for Data Science",
+        "title": "Research Assistant",
+        "years": "2023-2024"
       }
     ],
     "links": {
-      "linkedin": "https://www.linkedin.com/in/yann-lecun/",
-      "twitter": "https://x.com/ylecun",
-      "scholar": "https://scholar.google.com/citations?user=WLN3QrAAAAAJ",
-      "website": "http://yann.lecun.com/"
+      "github": "https://github.com/adithyaiyer1999",
+      "linkedin": "https://www.linkedin.com/in/adithya-iyer-52b954133/",
+      "scholar": "https://scholar.google.com/citations?user=upUmrH8AAAAJ&hl=en&oi=sra",
+      "website": "https://adithyaiyer1999.github.io/"
     },
-    "semanticScholarId": ["1688882", "2265899558"]
+    "semanticScholarId": "2393205310"
+  },
+  {
+    "slug": "adrien-bardes",
+    "name": "Adrien Bardes",
+    "role": "Member of Technical Staff",
+    "body": "Former Meta research scientist whose work focuses on self-supervised visual learning and world-model architectures.",
+    "tags": [
+      "Paris"
+    ],
+    "department": "Research & Engineering",
+    "reportsTo": "pascale-fung",
+    "careerHistory": [
+      {
+        "org": "Meta",
+        "title": "Research Scientist",
+        "years": "2024-2026"
+      },
+      {
+        "org": "Facebook AI",
+        "title": "Research Assistant, PhD",
+        "years": "2020-2024"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/Adrien987k",
+      "linkedin": "https://www.linkedin.com/in/adrien-bardes-48a080129/",
+      "scholar": "https://scholar.google.com/citations?user=SvRU8F8AAAAJ&hl=en&oi=sra",
+      "twitter": "https://x.com/AdrienBardes",
+      "website": "https://adrien987k.github.io/"
+    },
+    "semanticScholarId": "1453740540"
   },
   {
     "slug": "alexandre-lebrun",
@@ -46,6 +70,7 @@
       "Paris",
       "CEO"
     ],
+    "department": "Leadership",
     "reportsTo": "yann-lecun",
     "biography": "# Alexandre (Alex) LeBrun is a French entrepreneur and artificial intelligence executive with more than two decades of experience building and scaling AI-driven technology companies. He is the CEO and Co-Founder of AMI Labs (Advanced Machine Intelligence), a Paris-based AI research and product company co-founded alongside Turing Award laureate and deep learning pioneer Yann LeCun. LeBrun's career spans the full arc of the modern AI industry, from early natural language processing applications in the 2000s through the current era of large-scale machine intelligence, establishing him as one of Europe's most accomplished serial entrepreneurs in the field.\n\nLeBrun's foundational work in applied AI began with VirtuOz, a conversational AI company he founded that developed intelligent virtual agent technology for enterprise customer engagement. VirtuOz was acquired in 2012 by Nuance Communications, a leader in speech and language technology, marking LeBrun's first significant successful exit and validating his early conviction that natural language interfaces would become central to human-computer interaction. He subsequently founded Wit.ai, a natural language processing platform designed to give developers accessible tools for building conversational interfaces and voice-enabled applications. Wit.ai was acquired by Meta (then Facebook) in January 2015, after which LeBrun joined the company and led AI initiatives within its product and research ecosystem, working in close proximity to some of the world's foremost AI researchers, including LeCun, who served as Meta's Chief AI Scientist.\n\nBeyond his work in consumer and enterprise AI, LeBrun also played a founding role in Nabla, a Paris-based digital health company focused on deploying artificial intelligence in clinical environments. Nabla has grown to serve more than 85,000 physicians, offering AI-powered tools designed to reduce administrative burden and improve the quality of care delivery. His involvement across such distinct application domains — customer service automation, developer tooling for natural language understanding, and healthcare AI — reflects both the breadth of his technical expertise and his consistent focus on building AI systems that operate in high-stakes, real-world contexts.\n\nAt AMI Labs, LeBrun serves as Chief Executive Officer, guiding the company's strategic direction and operational development. His partnership with Yann LeCun brings together complementary strengths: LeCun's foundational contributions to convolutional neural networks and self-supervised learning with LeBrun's proven ability to translate advanced AI research into scalable, commercially viable products. AMI Labs is focused on advancing machine intelligence beyond current paradigms, an ambition that places the company at the frontier of contemporary AI research and development. LeBrun's significance to AMI Labs lies not only in his entrepreneurial track record — having built and successfully exited multiple AI companies over more than 24",
     "careerHistory": [
@@ -71,20 +96,422 @@
       }
     ],
     "links": {
-      "linkedin": "https://www.linkedin.com/in/alexandrelebrun/"
+      "linkedin": "https://www.linkedin.com/in/alexandrelebrun/",
+      "twitter": "https://x.com/lxbrun"
+    }
+  },
+  {
+    "slug": "andrew-brown",
+    "name": "Andrew Brown",
+    "role": "Member of Technical Staff",
+    "body": "A former Meta research scientist specializing in generative video, computer vision and multimodal representation learning.",
+    "tags": [
+      "New York"
+    ],
+    "department": "Research & Engineering",
+    "reportsTo": "saining-xie",
+    "careerHistory": [
+      {
+        "org": "Meta",
+        "title": "Research Scientist (Computer Vision and Machine Learning)",
+        "years": "2023-2026"
+      },
+      {
+        "org": "University of Oxford",
+        "title": "DPhil - Computer Vision and Machine Learning",
+        "years": "2018-2023"
+      },
+      {
+        "org": "PRO Unlimited @ Meta",
+        "title": "Research Scientist Contractor",
+        "years": "2021-2022"
+      },
+      {
+        "org": "Meta",
+        "title": "Research Scientist",
+        "years": "2021-2021"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/Andrew-Brown1",
+      "linkedin": "https://www.linkedin.com/in/andrew-brown-6b4193115/",
+      "scholar": "https://scholar.google.com/citations?user=WXUm4uUAAAAJ&hl=en",
+      "twitter": "https://twitter.com/Andrew__Brown__",
+      "website": "https://www.robots.ox.ac.uk/~abrown/"
     },
-    "semanticScholarId": null
+    "semanticScholarId": "2267305491"
+  },
+  {
+    "slug": "aurelia-bortone-bouvet",
+    "name": "Aurélia Bortone-Bouvet",
+    "role": "Chief of Staff",
+    "body": "Building strategic partnerships with key industrial players, helping to bring AMI's work on World Models into the real world.",
+    "tags": [
+      "Paris",
+      "Operations"
+    ],
+    "department": "Operations",
+    "reportsTo": "leopold-treppoz",
+    "careerHistory": [
+      {
+        "org": "Boston Consulting Group (BCG)",
+        "title": "Project Leader",
+        "years": "2025 - 2026 "
+      },
+      {
+        "org": "BCG",
+        "title": "Consultant",
+        "years": "2023-2025"
+      },
+      {
+        "org": "BCG",
+        "title": "Senior Associate",
+        "years": "2022-2023"
+      },
+      {
+        "org": "BCG",
+        "title": "Associate",
+        "years": "2021-2022"
+      },
+      {
+        "org": "Nabla",
+        "title": "Chief of Staff, then Strategy & Operations Manager",
+        "years": "2020-2021"
+      }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/aurélia-bortone-bouvet"
+    }
+  },
+  {
+    "slug": "basile-terver",
+    "name": "Basile Terver",
+    "role": "Doctorant chercheur",
+    "body": "Basile Terver is a rising French AI researcher and PhD candidate working with Yann Le Cun at Inria and AMI, bridging elite scientific training with deep connections across the French intellectual ecosystem.",
+    "tags": [
+      "Paris"
+    ],
+    "reportsTo": "pascale-fung",
+    "careerHistory": [
+      {
+        "org": "Inria",
+        "title": "PhD candidate",
+        "years": "2024-present"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/Basile-Terv",
+      "linkedin": "https://www.linkedin.com/in/basile-terver-761481165/",
+      "scholar": "https://scholar.google.com/citations?user=6gdRsmkAAAAJ&hl=en&oi=sra",
+      "twitter": "https://x.com/BasileTerv987"
+    },
+    "semanticScholarId": "2216065931"
+  },
+  {
+    "slug": "bingyi-kang",
+    "name": "Bingyi Kang",
+    "role": "Founding Scientist",
+    "body": "AI researcher building spatially intelligent agents, best known for the Depth Anything series advancing human-level machine perception.",
+    "tags": [
+      "New York City"
+    ],
+    "reportsTo": "saining-xie",
+    "careerHistory": [
+      {
+        "org": "ByteDance",
+        "title": "Research Intern",
+        "years": "2020"
+      },
+      {
+        "org": "Meta (Facebook)",
+        "title": "Reseach Intern",
+        "years": "2019"
+      }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/bingyi-kang-8b56931b1/",
+      "scholar": "https://scholar.google.com.sg/citations?user=NmHgX-wAAAAJ&hl=en",
+      "twitter": "https://x.com/bingyikang",
+      "website": "https://bingyikang.com/"
+    },
+    "semanticScholarId": "2064621368"
+  },
+  {
+    "slug": "brian-li",
+    "name": "Brian Li",
+    "role": "Member of Technical Staff (Singapore)",
+    "body": "Former Staff Research Scientist at ByteDance (Seed Multimodal & World Model team). Co-author of LLaVA-NeXT, LLaVA-OneVision, LLaVA-Video. Former Microsoft Research.",
+    "tags": [
+      "Singapore"
+    ],
+    "department": "Research & Engineering",
+    "reportsTo": "min-lin",
+    "biography": "# Brian Li\n\nBrian Li is a machine learning researcher and engineer specializing in multimodal artificial intelligence, currently serving as Member of Technical Staff (Singapore) at AMI Labs (Advanced Machine Intelligence), a Paris-based AI research organization. AMI Labs was co-founded with the involvement of Yann LeCun, one of the pioneers of deep learning and a Turing Award laureate, positioning the company at the forefront of foundational AI research.\n\nPrior to joining AMI Labs, Li held a position as Staff Research Scientist at ByteDance, where he was a core member of the Seed Multimodal and World Model team. During his tenure at ByteDance, Li made significant contributions to the field of large multimodal models as a co-author of several influential research works, including LLaVA-NeXT, LLaVA-OneVision, and LLaVA-Video. These works are part of the LLaVA (Large Language and Vision Assistant) family of open-source multimodal models, which have been widely adopted by the research community and have contributed substantially to advances in vision-language understanding. Before his role at ByteDance, Li also gained research experience at Microsoft Research, further grounding his expertise in large-scale AI systems and applied research.\n\nLi's research focus centers on multimodal learning, vision-language models, and video understanding — areas that sit at the intersection of computer vision and natural language processing. His co-authorship on the LLaVA series of papers represents some of the most cited and reproduced work in open multimodal AI research in recent years, reflecting his ability to contribute to both the scientific and engineering dimensions of large-scale model development.\n\nAt AMI Labs, Li brings his expertise in multimodal systems and world modeling to an organization focused on advancing the science of machine intelligence. His background in building and scaling open multimodal models, combined with his experience across leading industry research laboratories, makes him a significant technical contributor to AMI Labs as the company pursues its research agenda in foundational and applied AI.",
+    "careerHistory": [
+      {
+        "org": "ByteDance (Seed Multimodal)",
+        "title": "Staff Research Scientist",
+        "years": "2022-2024"
+      },
+      {
+        "org": "Microsoft Research",
+        "title": "Research Scientist",
+        "years": "2020-2022"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/luodian",
+      "linkedin": "https://www.linkedin.com/in/brianbo1121/",
+      "scholar": "https://scholar.google.com/citations?user=1_zc1-IAAAAJ",
+      "twitter": "https://x.com/Brian_Bo_Li",
+      "website": "https://www.brianboli.com/"
+    },
+    "semanticScholarId": "2310709478"
+  },
+  {
+    "slug": "chao-du",
+    "name": "Chao Du",
+    "role": "Member of the Technical Staff",
+    "body": "Senior Research Scientist specializing in machine learning and deep learning.",
+    "tags": [
+      "Singapore"
+    ],
+    "reportsTo": "min-lin",
+    "careerHistory": [
+      {
+        "org": "Sea AI Lab (SAIL)",
+        "title": "Research Scientist",
+        "years": "2022-2026"
+      },
+      {
+        "org": "Alibaba.com",
+        "title": "Researcher",
+        "years": "2019-2022"
+      }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/duchao/",
+      "scholar": "https://scholar.google.com/citations?user=QOp7xW0AAAAJ&hl=en",
+      "twitter": "https://twitter.com/duchao0726",
+      "website": "https://duchao0726.github.io/"
+    },
+    "semanticScholarId": "2325201427"
+  },
+  {
+    "slug": "christophe-tcheng",
+    "name": "Christophe Tcheng",
+    "role": "VP Engineering",
+    "body": "Veteran engineering leader and VP of Engineering at AMI Labs, with a track record of scaling high-impact technology platforms across Meta, Amadeus, and American Express.\n",
+    "tags": [
+      "Paris"
+    ],
+    "department": "Research & Engineering",
+    "reportsTo": "alexandre-lebrun",
+    "careerHistory": [
+      {
+        "org": "Meta",
+        "title": "Software Engineer",
+        "years": "2020-2026"
+      },
+      {
+        "org": "American Express Global Business Travel",
+        "title": "Vice President Products and Platforms",
+        "years": "2015-2020"
+      },
+      {
+        "org": "Amadeus",
+        "title": "Head of R&D Services and Ecosystem",
+        "years": "2007-2015"
+      }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/christophetcheng/",
+      "twitter": "https://x.com/christophetch"
+    }
+  },
+  {
+    "slug": "david-fan",
+    "name": "David Fan",
+    "role": "Member of Technical Staff",
+    "body": "I joined AMI Labs as a founding member of the NYC lab! I'm super excited to build AI systems that truly understand the real world.",
+    "tags": [
+      "New York City"
+    ],
+    "reportsTo": "saining-xie",
+    "careerHistory": [
+      {
+        "org": "Meta",
+        "title": "Senior Research Engineer",
+        "years": "2024-2026"
+      },
+      {
+        "org": "Amazon",
+        "title": "Applied Research Scientist and Machine Learning Engineer",
+        "years": "2019-2023"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/dfan",
+      "linkedin": "https://www.linkedin.com/in/davidfan97",
+      "scholar": "https://scholar.google.com/citations?user=VAiqiv4AAAAJ&hl=en&oi=sra",
+      "website": "https://davidfan.io/"
+    },
+    "semanticScholarId": "2335871751"
+  },
+  {
+    "slug": "delong-chen",
+    "name": "Delong Chen",
+    "role": "Founding Team Member",
+    "body": "Working on VL-JEPA and vision-language world modeling. Former Visiting Researcher at Meta Paris. PhD student at HKUST (ECE).",
+    "tags": [
+      "Paris",
+      "Founding Team Member"
+    ],
+    "reportsTo": "pascale-fung",
+    "biography": "# Delong Chen\n\nDelong Chen is a researcher and entrepreneur specializing in machine learning and computer vision, currently serving as a Founding Team Member at AMI Labs (Advanced Machine Intelligence), a Paris-based artificial intelligence startup. Chen's work sits at the intersection of vision-language modeling and self-supervised learning, reflecting a research trajectory that has brought him into collaboration with some of the leading figures in modern AI.\n\nChen pursued his doctoral studies in Electronic and Computer Engineering (ECE) at the Hong Kong University of Science and Technology (HKUST), where he developed expertise in deep learning and multimodal representation. Prior to his founding role at AMI Labs, he served as a Visiting Researcher at Meta's Paris research laboratory, an experience that placed him within one of the most prominent AI research environments in Europe and exposed him to large-scale work in self-supervised and joint-embedding architectures.\n\nChen's research contributions have centered on vision-language world modeling, with a notable focus on VL-JEPA (Vision-Language Joint-Embedding Predictive Architecture), a framework that extends the JEPA line of research pioneered by Yann LeCun toward multimodal understanding. This work aligns closely with the theoretical agenda of learning abstract, predictive world models rather than relying solely on generative or contrastive approaches, representing a meaningful contribution to the foundational debate in contemporary AI research.\n\nAt AMI Labs, co-founded with Yann LeCun, Chen brings both his research specialization in multimodal world modeling and his firsthand experience with the architectural paradigms central to the company's mission. His role as a founding team member positions him as a key technical contributor to the laboratory's efforts to advance machine intelligence grounded in principled, non-generative learning frameworks.",
+    "careerHistory": [
+      {
+        "org": "Meta AI (FAIR Paris)",
+        "title": "Visiting Researcher",
+        "years": "2023–2024"
+      },
+      {
+        "org": "HKUST",
+        "title": "PhD Student, ECE",
+        "years": "2021–present"
+      }
+    ],
+    "links": {
+      "bilibili": "https://space.bilibili.com/291158396",
+      "github": "https://github.com/ChenDelong1999",
+      "linkedin": "https://www.linkedin.com/in/chendelong",
+      "scholar": "https://scholar.google.com/citations?user=7PW095gAAAAJ",
+      "twitter": "https://x.com/Delong0_0",
+      "website": "https://chendelong.world/"
+    },
+    "semanticScholarId": "94210578"
+  },
+  {
+    "slug": "felix-naepels",
+    "name": "Felix Naepels",
+    "role": "Head of IT / CIO / IT Director",
+    "body": "Building IT Infra & Ops",
+    "tags": [
+      "Paris"
+    ],
+    "department": "Operations",
+    "reportsTo": "christophe-tcheng",
+    "careerHistory": [
+      {
+        "org": "H Company",
+        "title": "Head of IT",
+        "years": "2025-2026"
+      },
+      {
+        "org": "Pigment",
+        "title": "Head of Internal IT",
+        "years": "2022-2024"
+      },
+      {
+        "org": "DocuSign",
+        "title": "IT Specialis",
+        "years": "2018-2022"
+      }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/felix-n-89748010b/"
+    }
+  },
+  {
+    "slug": "jihan-yang",
+    "name": "Jihan Yang",
+    "role": "Researcher",
+    "body": "Computer vision and multimodal AI researcher focused on advancing spatial intelligence and reasoning in next-generation large-scale multimodal models.",
+    "tags": [
+      "New York City"
+    ],
+    "reportsTo": "saining-xie",
+    "links": {
+      "github": "https://github.com/jihanyang",
+      "linkedin": "https://www.linkedin.com/in/jihan-yang-3b034a218",
+      "scholar": "https://scholar.google.com/citations?user=zWfNZnIAAAAJ&hl=en",
+      "twitter": "https://x.com/jihanyang13",
+      "website": "https://jihanyang.com/"
+    },
+    "semanticScholarId": "2362644269"
+  },
+  {
+    "slug": "john-nguyen",
+    "name": "John Nguyen",
+    "role": "Member of the Technical Staff",
+    "body": "Research engineer building large-scale multimodal AI systems and world models.",
+    "tags": [
+      "New York",
+      ""
+    ],
+    "reportsTo": "saining-xie",
+    "careerHistory": [
+      {
+        "org": "Meta",
+        "title": "Research Engineer",
+        "years": "2020-2026"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/JohnlNguyen",
+      "linkedin": "https://www.linkedin.com/in/qlk",
+      "scholar": "https://scholar.google.com/citations?user=3CTTUYgAAAAJ&hl=en",
+      "twitter": "https://x.com/__JohnNguyen__",
+      "website": "https://johnlnguyen.com/"
+    },
+    "semanticScholarId": "2384120102"
+  },
+  {
+    "slug": "julia-kempe",
+    "name": "Julia Kempe",
+    "role": "Director of Research, Paris",
+    "body": "Silver Professor of Computer Science, Data Science and Mathematics at New York University’s Courant Institute and Center for Data Science.",
+    "tags": [
+      "Paris"
+    ],
+    "department": "Science & Research Leadership",
+    "reportsTo": "pascale-fung",
+    "careerHistory": [
+      {
+        "org": "New York University",
+        "title": "Professor of Computer Science, Mathematics and Data Science",
+        "years": "2023-2026"
+      },
+      {
+        "org": "CNRS",
+        "title": "Directeur/Charge de Recherche",
+        "years": "2001-present"
+      },
+      {
+        "org": "Quantitative Hedge Fund",
+        "title": "Researcher",
+        "years": "2011-2018"
+      }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/julia-kempe-6b424b2b/",
+      "scholar": "https://scholar.google.com/citations?user=m9WZOV4AAAAJ&hl=en&oi=sra",
+      "twitter": "https://x.com/KempeLab",
+      "website": "https://cims.nyu.edu/~kempe/"
+    },
+    "semanticScholarId": "2372953497"
   },
   {
     "slug": "laurent-solly",
     "name": "Laurent Solly",
     "image": "/team/Laurent Solly.jpg",
     "role": "COO & Co-Founder",
-    "body": "12y 10m at Meta (VP Europe). Built FAIR Paris into largest AI lab outside US. Before: CEO of TF1 Publicité; Chief of Staff to Nicolas Sarkozy. ENA & Sciences Po graduate.",
+    "body": "12 years at Meta (VP Europe). Built FAIR Paris into largest AI lab outside US. Before: CEO of TF1 Publicité; Chief of Staff to Nicolas Sarkozy. ENA & Sciences Po graduate.",
     "tags": [
       "Paris",
       "COO"
     ],
+    "department": "Leadership",
     "reportsTo": "alexandre-lebrun",
     "biography": "# Laurent Solly\n\nLaurent Solly is a French executive and entrepreneur whose career has spanned public service, media, and global technology leadership. He completed his undergraduate studies at Sciences Po Paris, one of France's most prestigious institutions for political science and public affairs, before going on to graduate from the École Nationale d'Administration (ENA), the elite French grande école historically responsible for training the country's senior civil servants, diplomats, and top executives. This dual academic foundation gave Solly both the analytical rigor and institutional fluency that would come to define his professional trajectory across the public and private sectors.\n\nFollowing his graduation from ENA, Solly entered public service and rose to serve as Chief of Staff to Nicolas Sarkozy during Sarkozy's tenure as Minister of the Interior and subsequently during his presidency of the French Republic. This role placed Solly at the center of French political and administrative decision-making, sharpening his capacity for strategic leadership and executive management at the highest levels of government. He later transitioned into the media and advertising industry, serving as Chief Executive Officer of TF1 Publicité, the commercial advertising arm of TF1 Group, France's leading private broadcaster, where he gained substantial experience in media monetization, commercial strategy, and the evolving digital advertising landscape.\n\nSolly joined Meta (then Facebook) in 2012, where he would spend nearly thirteen years in increasingly senior leadership roles, ultimately serving as Vice President for Europe. In this capacity, he was responsible for overseeing Meta's operations, policy, partnerships, and commercial activities across the European continent, navigating the company through significant periods of regulatory scrutiny, geopolitical complexity, and platform transformation. Among his most consequential contributions during this period was his central role in establishing and building the Paris hub of FAIR — Meta's Fundamental AI Research division — into what became the largest artificial intelligence research laboratory outside the United States. This achievement reflected both his ability to attract world-class scientific talent and his skill in cultivating productive relationships between the technology industry and France's academic and governmental ecosystems.\n\nSolly subsequently co-founded AMI Labs (Advanced Machine Intelligence), a Paris-based artificial intelligence startup, alongside Yann LeCun, the Turing Award-winning scientist widely regarded as one of the founding fathers of modern deep learning and the Chief AI Scientist at Meta. Solly serves as Chief Operating Officer and Co-Founder of the company, a role in which he is responsible for translating AMI Labs' research ambitions into operational and organizational reality. His significance to the venture is considerable: having spent over a decade building one of Europe's most prominent AI research environments and cultivating deep relationships with the French and European scientific, regulatory, and investor communities, Solly brings the institutional capital, executive experience, and cross-sector credibility necessary",
     "careerHistory": [
@@ -105,113 +532,9 @@
       }
     ],
     "links": {
-      "linkedin": "https://www.linkedin.com/in/laurent-solly/"
-    },
-    "semanticScholarId": null
-  },
-  {
-    "slug": "saining-xie",
-    "name": "Saining Xie",
-    "image": "/team/Saining Xie.jpg",
-    "role": "Chief Science Officer & Co-Founder",
-    "body": "Visual representation learning specialist. Former Google DeepMind & Meta FAIR. Assistant Professor at NYU Courant. PhD from UC San Diego.",
-    "tags": [
-      "New York",
-      "CSO"
-    ],
-    "reportsTo": "alexandre-lebrun",
-    "biography": "# Saining Xie\n\nSaining Xie is an artificial intelligence researcher and entrepreneur whose work has significantly advanced the fields of computer vision and deep learning. He earned his Doctor of Philosophy in Computer Science from the University of California, San Diego, where he developed an early foundation in visual recognition and neural network architectures. His doctoral training laid the groundwork for a research career centered on understanding how machines perceive and represent visual information, a discipline that would come to define his subsequent contributions to the field.\n\nFollowing his graduate studies, Xie held research positions at two of the world's foremost industrial AI laboratories. At Meta AI's Fundamental AI Research (FAIR) division, he contributed to influential work in visual representation learning, including research on self-supervised learning and scalable vision architectures that have shaped modern approaches to image understanding. He subsequently joined Google DeepMind, further broadening his experience across leading institutions at the frontier of AI research. In parallel with his industry roles, Xie served as an Assistant Professor at New York University's Courant Institute of Mathematical Sciences, one of the world's premier mathematics and computer science research centers, where he engaged with the academic community and mentored the next generation of AI researchers.\n\nXie co-founded AMI Labs (Advanced Machine Intelligence), a Paris-based AI startup, alongside Yann LeCun, the Turing Award–winning pioneer widely regarded as one of the founding figures of modern deep learning. At AMI Labs, Xie serves as Chief Science Officer, a role that places him at the center of the company's research agenda and technical direction. His expertise in visual representation learning and his experience spanning elite academic and industrial research environments make him a critical scientific architect for the organization as it pursues advances in machine intelligence.",
-    "careerHistory": [
-      {
-        "org": "New York University (Courant Institute)",
-        "title": "Assistant Professor of Computer Science",
-        "years": "2022–present"
-      },
-      {
-        "org": "Google DeepMind / Google Brain",
-        "title": "Research Scientist",
-        "years": "2021–2022"
-      },
-      {
-        "org": "Meta AI (FAIR)",
-        "title": "Research Scientist",
-        "years": "2016–2021"
-      }
-    ],
-    "links": {
-      "linkedin": "https://www.linkedin.com/in/sainxie/",
-      "scholar": "https://scholar.google.com/citations?user=Y2GtJkAAAAAJ&hl=en",
-      "github": "https://github.com/s9xie",
-      "website": "https://www.sainingxie.com/",
-      "twitter": "https://x.com/sainingxie"
-    },
-    "semanticScholarId": ["2153262", "2325817465"]
-  },
-  {
-    "slug": "pascale-fung",
-    "name": "Pascale Fung",
-    "image": "/team/Pascale Fung.jpg",
-    "role": "CRIO & Co-Founder",
-    "body": "Pioneer in human-centered AI. Former Meta FAIR Senior Director. Chair Professor at HKUST. PhD from Columbia. Fellow of IEEE, ISCA, ACL, AAAI.",
-    "tags": [
-      "Paris",
-      "CRIO"
-    ],
-    "reportsTo": "alexandre-lebrun",
-    "biography": "# Pascale Fung\n\nPascale Fung is a pioneering researcher and technologist in the field of human-centered artificial intelligence, whose decades of foundational work in natural language processing, speech recognition, and machine intelligence have established her as one of the most influential figures in the global AI research community. She holds a Doctor of Philosophy degree from Columbia University, where she developed early expertise in the computational and statistical approaches to language understanding that would define much of her subsequent career. Her academic training laid the groundwork for a research trajectory spanning both fundamental science and applied machine intelligence.\n\nFung served as a Chair Professor at the Hong Kong University of Science and Technology (HKUST), where she led research into spoken language processing, multilingual AI systems, and empathetic computing. Her work at HKUST encompassed natural language processing, human-machine communication, and the development of AI systems capable of understanding and responding to human emotion — a body of research that helped shape the emerging field of affective computing and conversational AI. She is a Fellow of the Institute of Electrical and Electronics Engineers (IEEE), the International Speech Communication Association (ISCA), the Association for Computational Linguistics (ACL), and the Association for the Advancement of Artificial Intelligence (AAAI), reflecting the breadth of her contributions across multiple scientific disciplines.\n\nPrior to co-founding AMI Labs, Fung served as Senior Director at Meta's Fundamental AI Research (FAIR) laboratory, one of the world's foremost industrial AI research organizations. In that capacity, she contributed to advancing large-scale AI research at the frontier of the field, working alongside leading scientists on foundational challenges in machine learning and artificial intelligence. Her tenure at Meta FAIR further cemented her standing as a bridge between academic research and real-world AI development at scale.\n\nFung is the Chief Research and Innovation Officer (CRIO) and Co-Founder of AMI Labs (Advanced Machine Intelligence), a Paris-based AI startup co-founded with Yann LeCun. In this role, she brings her extensive expertise in human-centered AI, natural language understanding, and responsible machine intelligence to bear on the company's core research mission. Her leadership at AMI Labs reflects a commitment to developing AI systems that are not only technically advanced but also aligned with human values and needs — a principle that has defined her scientific work throughout her career. Her combination of deep academic credentials, high-level industry experience, and sustained focus on the human dimensions of AI makes her a central figure in the company's scientific vision and strategic direction.",
-    "careerHistory": [
-      {
-        "org": "Meta AI (FAIR)",
-        "title": "Senior Director of Research",
-        "years": "2022–2024"
-      },
-      {
-        "org": "HKUST",
-        "title": "Chair Professor of AI, ECE & CS",
-        "years": "1993–present"
-      },
-      {
-        "org": "Columbia University",
-        "title": "PhD, Computer Science",
-        "years": "1989–1994"
-      }
-    ],
-    "links": {
-      "linkedin": "https://www.linkedin.com/in/pascale-fung-a3aa05139/",
-      "scholar": "https://scholar.google.com/citations?user=QEMJWzEAAAAJ&hl=en",
-      "twitter": "https://x.com/pascalefung"
-    },
-    "semanticScholarId": "2308480659"
-  },
-  {
-    "slug": "michael-rabbat",
-    "name": "Michael Rabbat",
-    "image": "/team/Michael Rabbat.jpg",
-    "role": "VP of World Models & Co-Founder",
-    "body": "Expert in world models & self-supervised learning. Former Meta FAIR Montreal Director. Professor at McGill (11+ years). PhD from U. Wisconsin-Madison.",
-    "tags": [
-      "Montreal",
-      "VP World Models"
-    ],
-    "reportsTo": "saining-xie",
-    "biography": "# Michael Rabbat\n\nMichael Rabbat is a Canadian researcher and technology executive whose career spans academic research, industrial AI development, and company building. He earned his Ph.D. from the University of Wisconsin–Madison, where he developed expertise in statistical signal processing and distributed systems. Following his doctoral training, he joined McGill University in Montreal as a faculty member, where he served for more than eleven years. During his tenure at McGill, he contributed to research in machine learning, optimization, and signal processing, building a scholarly record that established him as a recognized voice in the Canadian and international machine learning communities.\n\nRabbat subsequently joined Meta's Fundamental AI Research (FAIR) laboratory, eventually rising to the position of Director of FAIR Montreal. In that role, he oversaw research efforts at one of the world's most prominent industrial AI research centers, working alongside leading scientists on foundational questions in machine learning. His work at FAIR became closely aligned with the emerging field of self-supervised learning and the development of systems capable of learning rich representations of the world from unlabeled data — research priorities strongly associated with FAIR's broader scientific agenda under Chief AI Scientist Yann LeCun.\n\nRabbat subsequently co-founded AMI Labs (Advanced Machine Intelligence), a Paris-based artificial intelligence startup, alongside Yann LeCun. At AMI Labs, he serves as Vice President of World Models, a title that reflects the company's core technical focus: building AI systems that can construct and reason with internal models of the physical and social world, a long-standing goal in AI research that LeCun has publicly championed as essential to achieving more robust and generalizable machine intelligence. Rabbat's combination of academic depth, large-scale industrial research leadership, and specialized expertise in self-supervised learning makes him a central figure in translating AMI Labs' foundational scientific vision into concrete research and product directions.\n\nAs of the time of writing, AMI Labs represents one of the more closely watched ventures in the contemporary AI landscape, given the stature of its co-founders and its explicit focus on world models as an alternative paradigm to prevailing large language model approaches. Rabbat's role positions him at the intersection of scientific leadership and organizational strategy, drawing on a career that bridges rigorous academic research and the demands of applied AI development at scale.",
-    "careerHistory": [
-      {
-        "org": "Meta AI (FAIR)",
-        "title": "Research Director, Montreal",
-        "years": "2018–2024"
-      },
-      {
-        "org": "McGill University",
-        "title": "Associate Professor, ECE",
-        "years": "2007–2018"
-      }
-    ],
-    "links": {
-      "linkedin": "https://www.linkedin.com/in/michael-rabbat-66a00b7/",
-      "scholar": "https://scholar.google.com/citations?user=cMPKe9UAAAAJ&hl=en&oi=ao"
-    },
-    "semanticScholarId": "2066127975"
+      "linkedin": "https://www.linkedin.com/in/laurent-solly/",
+      "twitter": "https://x.com/laurentsolly"
+    }
   },
   {
     "slug": "li-jing",
@@ -238,20 +561,163 @@
         "org": "Lightelligence",
         "title": "Co-Founder",
         "years": "2017–2020"
-      },
-      {
-        "org": "MIT",
-        "title": "PhD, Physics",
-        "years": "2014–2020"
       }
     ],
     "links": {
-      "linkedin": "https://www.linkedin.com/in/li-jing-568b3765/",
-      "website": "https://jingli.io/",
+      "github": "https://github.com/jingli9111",
+      "linkedin": "https://www.linkedin.com/in/li-jing-568b3765",
       "scholar": "https://scholar.google.com/citations?hl=en&user=VhxDLwcAAAAJ",
-      "twitter": "https://x.com/jingli9111"
+      "twitter": "https://x.com/jingli9111",
+      "website": "https://jingli.io/"
     },
-    "semanticScholarId": "2124844"
+    "semanticScholarId": "2260978400"
+  },
+  {
+    "slug": "leopold-treppoz",
+    "name": "Léopold Treppoz",
+    "role": "Chief of Staff to the CEO",
+    "body": "French entrepreneur and operator currently serving as Chief of Staff to the CEO at AMI.",
+    "tags": [
+      "Paris",
+      "Operations"
+    ],
+    "department": "Operations",
+    "reportsTo": "alexandre-lebrun",
+    "careerHistory": [
+      {
+        "org": "UNICO",
+        "title": "Investor",
+        "years": "2023-present"
+      },
+      {
+        "org": "Mediflash",
+        "title": "Co-Founder",
+        "years": "2020-2025"
+      }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/leopold-treppoz/"
+    }
+  },
+  {
+    "slug": "marina-farthouat",
+    "name": "Marina Farthouat",
+    "role": "Recruiter, Paris",
+    "body": "People and culture leader helping AMI Labs build and scale its global team, following senior executive roles at Oyster, ClickHouse, Elastic, and Asurion.",
+    "tags": [
+      "Paris"
+    ],
+    "department": "Operations",
+    "reportsTo": "laurent-solly",
+    "careerHistory": [
+      {
+        "org": "Oyster®",
+        "title": "CPO & Chief of Staff to CEO",
+        "years": "2025-2026"
+      },
+      {
+        "org": "ClickHouse",
+        "title": "VP of People",
+        "years": "2022-2025"
+      },
+      {
+        "org": "Elastic",
+        "title": "HR",
+        "years": "2017-2022"
+      }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/marina-farthouat-0ab96053/"
+    }
+  },
+  {
+    "slug": "matthew-muckley",
+    "name": "Matthew Muckley",
+    "role": "Member of the Technical Staff",
+    "body": "Member of the technical staff at AMI, working on world models. Prior to AMI, was a research engineer in the FAIR team at Meta, where he worked on fastMRI, neural compression, and JEPA.",
+    "tags": [
+      "New York City"
+    ],
+    "reportsTo": "saining-xie",
+    "careerHistory": [
+      {
+        "org": "Meta",
+        "title": "Research Engineer",
+        "years": "2020-2026"
+      },
+      {
+        "org": "NYU Langone Health",
+        "title": "Research Scientist",
+        "years": "2016 - 2020"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/mmuckley",
+      "linkedin": "https://www.linkedin.com/in/matthew-muckley-33a9b558/",
+      "scholar": "https://scholar.google.com/citations?user=Iz9v6dcAAAAJ&hl=en",
+      "twitter": "https://x.com/mattmucklm",
+      "website": "https://mmuckley.github.io/"
+    },
+    "semanticScholarId": "2954796"
+  },
+  {
+    "slug": "megi-dervishi",
+    "name": "Megi Dervishi",
+    "role": "Postdoc",
+    "body": "Meta FAIR-trained computer scientist whose work spans artificial intelligence, machine learning and advanced research systems.",
+    "tags": [
+      "Paris"
+    ],
+    "department": "Research & Engineering",
+    "reportsTo": "julia-kempe",
+    "careerHistory": [
+      {
+        "org": "Meta AI & PSL Paris-Dauphine",
+        "title": "Meta PhD (CIFRE)",
+        "years": "2023-2026"
+      },
+      {
+        "org": "Facebook",
+        "title": "Research Intern",
+        "years": "2021-2021"
+      }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/megi-dervishi/",
+      "scholar": "https://scholar.google.com/citations?user=uAPLohIAAAAJ&hl=en"
+    },
+    "semanticScholarId": "2113964327"
+  },
+  {
+    "slug": "michael-rabbat",
+    "name": "Michael Rabbat",
+    "image": "/team/Michael Rabbat.jpg",
+    "role": "VP of World Models & Co-Founder",
+    "body": "Expert in world models & self-supervised learning. Former Meta FAIR Montreal Director. Professor at McGill (11+ years). PhD from U. Wisconsin-Madison.",
+    "tags": [
+      "Montreal",
+      "VP World Models"
+    ],
+    "department": "Leadership",
+    "reportsTo": "alexandre-lebrun",
+    "biography": "# Michael Rabbat\n\nMichael Rabbat is a Canadian researcher and technology executive whose career spans academic research, industrial AI development, and company building. He earned his Ph.D. from the University of Wisconsin–Madison, where he developed expertise in statistical signal processing and distributed systems. Following his doctoral training, he joined McGill University in Montreal as a faculty member, where he served for more than eleven years. During his tenure at McGill, he contributed to research in machine learning, optimization, and signal processing, building a scholarly record that established him as a recognized voice in the Canadian and international machine learning communities.\n\nRabbat subsequently joined Meta's Fundamental AI Research (FAIR) laboratory, eventually rising to the position of Director of FAIR Montreal. In that role, he oversaw research efforts at one of the world's most prominent industrial AI research centers, working alongside leading scientists on foundational questions in machine learning. His work at FAIR became closely aligned with the emerging field of self-supervised learning and the development of systems capable of learning rich representations of the world from unlabeled data — research priorities strongly associated with FAIR's broader scientific agenda under Chief AI Scientist Yann LeCun.\n\nRabbat subsequently co-founded AMI Labs (Advanced Machine Intelligence), a Paris-based artificial intelligence startup, alongside Yann LeCun. At AMI Labs, he serves as Vice President of World Models, a title that reflects the company's core technical focus: building AI systems that can construct and reason with internal models of the physical and social world, a long-standing goal in AI research that LeCun has publicly championed as essential to achieving more robust and generalizable machine intelligence. Rabbat's combination of academic depth, large-scale industrial research leadership, and specialized expertise in self-supervised learning makes him a central figure in translating AMI Labs' foundational scientific vision into concrete research and product directions.\n\nAs of the time of writing, AMI Labs represents one of the more closely watched ventures in the contemporary AI landscape, given the stature of its co-founders and its explicit focus on world models as an alternative paradigm to prevailing large language model approaches. Rabbat's role positions him at the intersection of scientific leadership and organizational strategy, drawing on a career that bridges rigorous academic research and the demands of applied AI development at scale.",
+    "careerHistory": [
+      {
+        "org": "Meta AI (FAIR)",
+        "title": "Research Director, Montreal",
+        "years": "2018–2024"
+      },
+      {
+        "org": "McGill University",
+        "title": "Associate Professor, ECE",
+        "years": "2007–2018"
+      }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/michael-rabbat-66a00b7",
+      "scholar": "https://scholar.google.com/citations?user=cMPKe9UAAAAJ&hl=en&oi=ao"
+    },
+    "semanticScholarId": "2066127975"
   },
   {
     "slug": "min-lin",
@@ -261,6 +727,7 @@
     "tags": [
       "Singapore"
     ],
+    "department": "Science & Research Leadership",
     "reportsTo": "alexandre-lebrun",
     "biography": "# Min Lin\n\nMin Lin is a machine learning researcher and technology leader serving as Head of AMI Singapore at AMI Labs (Advanced Machine Intelligence), a Paris-based artificial intelligence research company. He completed his undergraduate studies in Biology at Peking University, one of China's most prestigious research universities, before transitioning to computational and machine learning research. He subsequently earned his Doctor of Philosophy from the National University of Singapore (NUS), where he developed foundational expertise in deep learning and neural network architectures. Following his doctorate, he undertook postdoctoral research at Mila, the Quebec Artificial Intelligence Institute in Montreal, an institution widely regarded as one of the world's leading centers for deep learning research.\n\nMin Lin is perhaps best known in the machine learning community as the lead author of the influential 2013 paper *Network In Network*, which introduced key architectural innovations to convolutional neural networks, including the use of multilayer perceptrons within network modules and the global average pooling technique. The global average pooling approach, in particular, proved highly consequential, as it was subsequently adopted in several landmark deep learning architectures and became a standard component in the field. His research contributions established him as a significant figure in the development of modern neural network design principles.\n\nPrior to joining AMI Labs, Min Lin served as a Principal Research Scientist at Sea Limited, the Singapore-based technology conglomerate, where he contributed to applied and fundamental machine learning research within one of Southeast Asia's most prominent technology organizations. His tenure at Sea positioned him at the intersection of rigorous research and large-scale industrial application, building expertise directly relevant to the development and deployment of advanced AI systems.\n\nAt AMI Labs, a company co-founded with Turing Award recipient and deep learning pioneer Yann LeCun, Min Lin leads the company's Singapore operations as Head of AMI Singapore. His combination of foundational research contributions, postdoctoral training at a world-class AI institute, and applied industry experience at scale makes him a significant figure within the organization. His presence reflects AMI Labs' commitment to building research and engineering capacity across key global AI hubs, with Singapore serving as a strategic center for the company's presence in the Asia-Pacific region.",
     "careerHistory": [
@@ -281,12 +748,334 @@
       }
     ],
     "links": {
-      "linkedin": "https://www.linkedin.com/in/min-lin-08a3a422/",
-      "website": "https://linmin.me/",
+      "github": "https://github.com/mavenlin",
+      "linkedin": "https://www.linkedin.com/in/min-lin-08a3a422",
       "scholar": "https://scholar.google.com.sg/citations?user=BGONmkIAAAAJ&hl=en",
-      "github": "https://github.com/mavenlin"
+      "website": "https://linmin.me/"
     },
-    "semanticScholarId": "2126010"
+    "semanticScholarId": "2253977831"
+  },
+  {
+    "slug": "pascale-fung",
+    "name": "Pascale Fung",
+    "image": "/team/Pascale Fung.jpg",
+    "role": "Chief Research & Innovation Officer & Co-Founder",
+    "body": "Pioneer in human-centered AI. Former Meta FAIR Senior Director. Chair Professor at HKUST. PhD from Columbia. Fellow of IEEE, ISCA, ACL, AAAI.",
+    "tags": [
+      "Paris",
+      "Chief Research & Innovation Officer"
+    ],
+    "department": "Leadership",
+    "reportsTo": "alexandre-lebrun",
+    "biography": "# Pascale Fung\n\nPascale Fung is a pioneering researcher and technologist in the field of human-centered artificial intelligence, whose decades of foundational work in natural language processing, speech recognition, and machine intelligence have established her as one of the most influential figures in the global AI research community. She holds a Doctor of Philosophy degree from Columbia University, where she developed early expertise in the computational and statistical approaches to language understanding that would define much of her subsequent career. Her academic training laid the groundwork for a research trajectory spanning both fundamental science and applied machine intelligence.\n\nFung served as a Chair Professor at the Hong Kong University of Science and Technology (HKUST), where she led research into spoken language processing, multilingual AI systems, and empathetic computing. Her work at HKUST encompassed natural language processing, human-machine communication, and the development of AI systems capable of understanding and responding to human emotion — a body of research that helped shape the emerging field of affective computing and conversational AI. She is a Fellow of the Institute of Electrical and Electronics Engineers (IEEE), the International Speech Communication Association (ISCA), the Association for Computational Linguistics (ACL), and the Association for the Advancement of Artificial Intelligence (AAAI), reflecting the breadth of her contributions across multiple scientific disciplines.\n\nPrior to co-founding AMI Labs, Fung served as Senior Director at Meta's Fundamental AI Research (FAIR) laboratory, one of the world's foremost industrial AI research organizations. In that capacity, she contributed to advancing large-scale AI research at the frontier of the field, working alongside leading scientists on foundational challenges in machine learning and artificial intelligence. Her tenure at Meta FAIR further cemented her standing as a bridge between academic research and real-world AI development at scale.\n\nFung is the Chief Research and Innovation Officer (CRIO) and Co-Founder of AMI Labs (Advanced Machine Intelligence), a Paris-based AI startup co-founded with Yann LeCun. In this role, she brings her extensive expertise in human-centered AI, natural language understanding, and responsible machine intelligence to bear on the company's core research mission. Her leadership at AMI Labs reflects a commitment to developing AI systems that are not only technically advanced but also aligned with human values and needs — a principle that has defined her scientific work throughout her career. Her combination of deep academic credentials, high-level industry experience, and sustained focus on the human dimensions of AI makes her a central figure in the company's scientific vision and strategic direction.",
+    "careerHistory": [
+      {
+        "org": "Meta AI (FAIR)",
+        "title": "Senior Director of Research",
+        "years": "2022–2024"
+      },
+      {
+        "org": "HKUST",
+        "title": "Chair Professor of AI, ECE & CS",
+        "years": "1993–present"
+      },
+      {
+        "org": "Columbia University",
+        "title": "PhD, Computer Science",
+        "years": "1989–1994"
+      }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/pascale-fung-a3aa05139",
+      "scholar": "https://scholar.google.com/citations?user=QEMJWzEAAAAJ&hl=en",
+      "twitter": "https://x.com/pascalefung",
+      "website": "https://pascale.home.ece.ust.hk/"
+    },
+    "semanticScholarId": "2057151752"
+  },
+  {
+    "slug": "quentin-duval",
+    "name": "Quentin Duval",
+    "role": "Member of Technical Staff",
+    "body": "AI research engineer specializing in large-scale self-supervised learning and video generation, with prior leadership experience in financial software engineering and distributed systems.\n",
+    "tags": [
+      "Montreal"
+    ],
+    "reportsTo": "michael-rabbat",
+    "careerHistory": [
+      {
+        "org": "Meta",
+        "title": "AI Research Engineer on Video Generation",
+        "years": "2023 - 2026"
+      },
+      {
+        "org": "Meta",
+        "title": "AI Research Engineer on Image Representation Learning",
+        "years": "2020-2023"
+      },
+      {
+        "org": "Murex",
+        "title": "Principal Back Office Software Engineer",
+        "years": "2013-2019"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/QuentinDuval",
+      "linkedin": "https://www.linkedin.com/in/quentin-duval-53ba6576/",
+      "scholar": "https://scholar.google.com/citations?user=XTaVGqYAAAAJ&hl=en&oi=sra",
+      "twitter": "https://x.com/quduval",
+      "website": "https://deque.blog/"
+    },
+    "semanticScholarId": "2101830371"
+  },
+  {
+    "slug": "quentin-garrido",
+    "name": "Quentin Garrido",
+    "role": "Member of Technical Staff",
+    "body": "Former Meta FAIR research scientist specializing in self-supervised learning, computer vision and world models.",
+    "tags": [
+      "Paris"
+    ],
+    "department": "Research & Engineering",
+    "reportsTo": "pascale-fung",
+    "careerHistory": [
+      {
+        "org": "Meta",
+        "title": "Research Scientist",
+        "years": "2024-2026"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/garridoq",
+      "linkedin": "https://www.linkedin.com/in/quentingarrido/",
+      "scholar": "https://scholar.google.com/citations?user=RQaZUNsAAAAJ&hl=en&oi=sra",
+      "twitter": "https://twitter.com/garridoq_",
+      "website": "https://garridoq.com/"
+    },
+    "semanticScholarId": "2048163343"
+  },
+  {
+    "slug": "quentin-le-lidec",
+    "name": "Quentin Le Lidec",
+    "role": "Postdoctoral researcher",
+    "body": "A postdoctoral researcher at AMI Labs developing world models for robotics, with expertise spanning machine learning, differentiable optimization, computer vision and physical simulation.",
+    "tags": [
+      "Paris"
+    ],
+    "department": "Research & Engineering",
+    "reportsTo": "pascale-fung",
+    "links": {
+      "github": "https://github.com/quentinll",
+      "linkedin": "https://www.linkedin.com/in/quentin-le-lidec-779657151/",
+      "scholar": "https://scholar.google.com/citations?user=39fFsjkAAAAJ&hl=en&oi=ao",
+      "twitter": "https://x.com/quentinlldc",
+      "website": "https://quentinll.github.io/"
+    },
+    "semanticScholarId": "2133323688"
+  },
+  {
+    "slug": "rohit-girdhar",
+    "name": "Rohit Girdhar",
+    "role": "Research Scientist",
+    "body": "Former Meta AI researcher whose work spans computer vision, multimodal learning, and advanced generative AI systems.",
+    "tags": [
+      "New York"
+    ],
+    "department": "Research & Engineering",
+    "reportsTo": "saining-xie",
+    "careerHistory": [
+      {
+        "org": "Meta",
+        "title": "Research Scientist",
+        "years": "2019-2026"
+      },
+      {
+        "org": "DeepMind",
+        "title": "Research Intern",
+        "years": "2018"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/rohitgirdhar",
+      "linkedin": "https://www.linkedin.com/in/rohit-girdhar-53382881/",
+      "scholar": "https://scholar.google.co.in/citations?user=7cuwdr8AAAAJ&hl=en",
+      "website": "http://rohitgirdhar.github.io"
+    }
+  },
+  {
+    "slug": "saining-xie",
+    "name": "Saining Xie",
+    "image": "/team/Saining Xie.jpg",
+    "role": "Chief Science Officer & Co-Founder",
+    "body": "Visual representation learning specialist. Former Google DeepMind & Meta FAIR. Assistant Professor at NYU Courant. PhD from UC San Diego.",
+    "tags": [
+      "New York",
+      "CSO"
+    ],
+    "department": "Leadership",
+    "reportsTo": "alexandre-lebrun",
+    "biography": "# Saining Xie\n\nSaining Xie is an artificial intelligence researcher and entrepreneur whose work has significantly advanced the fields of computer vision and deep learning. He earned his Doctor of Philosophy in Computer Science from the University of California, San Diego, where he developed an early foundation in visual recognition and neural network architectures. His doctoral training laid the groundwork for a research career centered on understanding how machines perceive and represent visual information, a discipline that would come to define his subsequent contributions to the field.\n\nFollowing his graduate studies, Xie held research positions at two of the world's foremost industrial AI laboratories. At Meta AI's Fundamental AI Research (FAIR) division, he contributed to influential work in visual representation learning, including research on self-supervised learning and scalable vision architectures that have shaped modern approaches to image understanding. He subsequently joined Google DeepMind, further broadening his experience across leading institutions at the frontier of AI research. In parallel with his industry roles, Xie served as an Assistant Professor at New York University's Courant Institute of Mathematical Sciences, one of the world's premier mathematics and computer science research centers, where he engaged with the academic community and mentored the next generation of AI researchers.\n\nXie co-founded AMI Labs (Advanced Machine Intelligence), a Paris-based AI startup, alongside Yann LeCun, the Turing Award–winning pioneer widely regarded as one of the founding figures of modern deep learning. At AMI Labs, Xie serves as Chief Science Officer, a role that places him at the center of the company's research agenda and technical direction. His expertise in visual representation learning and his experience spanning elite academic and industrial research environments make him a critical scientific architect for the organization as it pursues advances in machine intelligence.",
+    "careerHistory": [
+      {
+        "org": "New York University (Courant Institute)",
+        "title": "Assistant Professor of Computer Science",
+        "years": "2022–present"
+      },
+      {
+        "org": "Google DeepMind / Google Brain",
+        "title": "Research Scientist",
+        "years": "2021–2022"
+      },
+      {
+        "org": "Meta AI (FAIR)",
+        "title": "Research Scientist",
+        "years": "2016–2021"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/s9xie",
+      "linkedin": "https://www.linkedin.com/in/sainxie/",
+      "scholar": "https://scholar.google.com/citations?user=Y2GtJkAAAAAJ&hl=en",
+      "twitter": "https://x.com/sainingxie",
+      "website": "https://www.sainingxie.com/"
+    },
+    "semanticScholarId": "1817030"
+  },
+  {
+    "slug": "sanghyun-woo",
+    "name": "Sanghyun Woo",
+    "role": "Member of Technical Staff",
+    "body": "Former Google DeepMind Senior Research Scientist (Seattle). Faculty Fellow at NYU. Research internships at Meta & Adobe. PhD from KAIST.",
+    "tags": [
+      "New York"
+    ],
+    "department": "Research & Engineering",
+    "reportsTo": "saining-xie",
+    "biography": "# Sanghyun Woo\n\nSanghyun Woo is a machine learning researcher and Member of Technical Staff at AMI Labs (Advanced Machine Intelligence), a Paris-based artificial intelligence startup. He earned his Ph.D. from the Korea Advanced Institute of Science and Technology (KAIST), one of South Korea's premier research universities, where he developed a strong foundation in computer vision and deep learning. Building on his doctoral training, Woo pursued research internships at Meta and Adobe, gaining industry experience across leading technology organizations before transitioning into full-time research roles.\n\nPrior to joining AMI Labs, Woo served as a Senior Research Scientist at Google DeepMind, based in Seattle, where he contributed to research efforts at one of the world's foremost artificial intelligence laboratories. He also held a Faculty Fellow appointment at New York University (NYU), further establishing his credentials within the academic research community. Woo is perhaps most widely recognized in the research community for his work on attention mechanisms in deep neural networks, including contributions to architectures that improve how models selectively process and weight information — work that has accumulated significant citation impact within the computer vision and representation learning literature.\n\nAt AMI Labs, Woo serves as a Member of Technical Staff, contributing to the company's core research and development agenda. AMI Labs was co-founded with the involvement of Yann LeCun, the Turing Award-winning scientist widely regarded as one of the founding figures of modern deep learning, lending the organization significant scientific credibility. Woo's background spanning elite academic institutions, major industry research laboratories, and foundational work in neural network architectures positions him as a valuable contributor to AMI Labs' mission of advancing machine intelligence research.\n\n---\n*Note: Readers are encouraged to consult primary sources, including Woo's official publications and institutional profiles, for the most current and complete information.*",
+    "careerHistory": [
+      {
+        "org": "Google DeepMind",
+        "title": "Senior Research Scientis",
+        "years": "2022-2024"
+      },
+      {
+        "org": "New York University",
+        "title": "Faculty Fellow",
+        "years": "2022-2024"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/shwoo1219",
+      "linkedin": "https://www.linkedin.com/in/sanghyun-woo-38994610a/",
+      "scholar": "https://scholar.google.com/citations?user=iwBPvPIAAAAJ&hl=en",
+      "twitter": "https://x.com/sanghyunwoo1219",
+      "website": "https://sites.google.com/view/sanghyunwoo/"
+    },
+    "semanticScholarId": "2262209"
+  },
+  {
+    "slug": "sean-nguyen",
+    "name": "Sean Nguyen",
+    "role": "Director of Operations",
+    "body": "Founding team, Office of Yann LeCun. Former Executive Administrative Partner at Meta AI (supported LeCun & Léon Bottou). BS Business from Boston University.",
+    "tags": [
+      "New York"
+    ],
+    "department": "Operations",
+    "reportsTo": "yann-lecun",
+    "biography": "# Sean Nguyen\n\nSean Nguyen is a technology operations professional and member of the founding team of AMI Labs (Advanced Machine Intelligence), a Paris-based artificial intelligence startup. He currently serves as Director of Operations at the company, which was co-founded with Yann LeCun, the Turing Award–winning computer scientist and Chief AI Scientist at Meta. Nguyen holds a Bachelor of Science in Business from Boston University, providing him with a foundational background in organizational management and business operations.\n\nPrior to joining AMI Labs, Nguyen served as Executive Administrative Partner within Meta AI, where he supported two of the most prominent figures in modern deep learning research: Yann LeCun and Léon Bottou, a distinguished research scientist known for his foundational contributions to stochastic gradient descent and machine learning theory. In this capacity, Nguyen operated at the intersection of world-class AI research and institutional management, gaining direct exposure to the strategic, operational, and scientific priorities of one of the largest AI research organizations in the world. This experience positioned him as a trusted operational partner to senior leadership at the forefront of the field.\n\nAt AMI Labs, Nguyen brings his operational expertise and his close working relationship with the founding scientific leadership to help build and structure the organization from the ground up. As a member of the founding team operating within the Office of Yann LeCun, his role is central to translating research vision into institutional function, managing the day-to-day operations necessary to support the company's development. His background reflects a profile common among key operational figures at research-driven startups: deep familiarity with the scientific mission combined with the organizational skills required to execute it.\n\n---\n*Note: This biography is based solely on publicly verifiable professional details. Readers seeking the most current information are encouraged to consult official AMI Labs communications or Nguyen's professional profiles directly.*",
+    "careerHistory": [
+      {
+        "org": "Meta AI",
+        "title": "Executive Administrative Partner",
+        "years": "2018–2024"
+      }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/sean-nguyen-74350b26/"
+    }
+  },
+  {
+    "slug": "sonia-rattan",
+    "name": "Sonia Rattan",
+    "role": "Recruiter",
+    "body": "Bringing more than a decade of experience recruiting specialized AI, machine-learning, and technical talent for companies including Google, Snowflake, and Moonvalley.",
+    "tags": [
+      "New York"
+    ],
+    "department": "Operations",
+    "reportsTo": "laurent-solly",
+    "careerHistory": [
+      {
+        "org": "Moonvalley",
+        "title": "Head of Talent",
+        "years": "2025-2026"
+      },
+      {
+        "org": "Strive Talent",
+        "title": "Fractional AI/ML Research Recruiting & Advisory",
+        "years": "2025-2025"
+      },
+      {
+        "org": "Snowflake",
+        "title": "AI Talent Acquisition",
+        "years": "2024-2025"
+      },
+      {
+        "org": "Google",
+        "title": "Research Scientist Recruiter/ Staffing Account Manager",
+        "years": "2015-2023"
+      }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/sonia-rattan-6104831/"
+    }
+  },
+  {
+    "slug": "tengyu-ma",
+    "name": "Tengyu Ma",
+    "role": "Member of Technical Staff",
+    "body": "Former Meta FAIR Staff Research Scientist whose work has contributed to major advances in visual grounding and image segmentation, including SAM 2 and SAM 3.",
+    "tags": [
+      "New York"
+    ],
+    "department": "Research & Engineering",
+    "reportsTo": "saining-xie",
+    "careerHistory": [
+      {
+        "org": "Meta",
+        "title": "Staff Research Scientist",
+        "years": "2021 - 2026"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/tengyu-ma",
+      "linkedin": "https://www.linkedin.com/in/tengyu-ma/",
+      "scholar": "https://scholar.google.com/citations?user=VeTSl0wAAAAJ&hl=en"
+    },
+    "semanticScholarId": "2114186424"
+  },
+  {
+    "slug": "willy-chung",
+    "name": "Willy Chung",
+    "role": "PhD Candidate at Advanced Machine Intelligence",
+    "body": "A second-year PhD student at ISIR, Sorbonne Université, who spent the first year and a half of his PhD at Meta (FAIR), working on world models and high-level planning, and is now continuing and finishing his PhD at AMILabs.",
+    "tags": [
+      "Paris"
+    ],
+    "reportsTo": "pascale-fung",
+    "careerHistory": [
+      {
+        "org": "Meta",
+        "title": "Research Assitant",
+        "years": "2024-2026"
+      }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/willyhcchung/",
+      "scholar": "https://scholar.google.com/citations?user=y02ojzsAAAAJ&hl=fr"
+    },
+    "semanticScholarId": "2160716372"
   },
   {
     "slug": "xingyi-zhou",
@@ -316,185 +1105,82 @@
       }
     ],
     "links": {
+      "github": "https://github.com/xingyizhou",
       "linkedin": "https://www.linkedin.com/in/xingyi-zhou-21925290/",
       "scholar": "https://scholar.google.com/citations?user=47n-0mwAAAAJ&hl=en",
-      "github": "https://github.com/xingyizhou"
+      "website": "https://xingyizhou.github.io/"
     },
-    "semanticScholarId": "3283610"
-  },
-  {
-    "slug": "sanghyun-woo",
-    "name": "Sanghyun Woo",
-    "role": "Member of Technical Staff",
-    "body": "Former Google DeepMind Senior Research Scientist (Seattle). Faculty Fellow at NYU. Research internships at Meta & Adobe. PhD from KAIST.",
-    "tags": [
-      "New York"
-    ],
-    "reportsTo": "saining-xie",
-    "biography": "# Sanghyun Woo\n\nSanghyun Woo is a machine learning researcher and Member of Technical Staff at AMI Labs (Advanced Machine Intelligence), a Paris-based artificial intelligence startup. He earned his Ph.D. from the Korea Advanced Institute of Science and Technology (KAIST), one of South Korea's premier research universities, where he developed a strong foundation in computer vision and deep learning. Building on his doctoral training, Woo pursued research internships at Meta and Adobe, gaining industry experience across leading technology organizations before transitioning into full-time research roles.\n\nPrior to joining AMI Labs, Woo served as a Senior Research Scientist at Google DeepMind, based in Seattle, where he contributed to research efforts at one of the world's foremost artificial intelligence laboratories. He also held a Faculty Fellow appointment at New York University (NYU), further establishing his credentials within the academic research community. Woo is perhaps most widely recognized in the research community for his work on attention mechanisms in deep neural networks, including contributions to architectures that improve how models selectively process and weight information — work that has accumulated significant citation impact within the computer vision and representation learning literature.\n\nAt AMI Labs, Woo serves as a Member of Technical Staff, contributing to the company's core research and development agenda. AMI Labs was co-founded with the involvement of Yann LeCun, the Turing Award-winning scientist widely regarded as one of the founding figures of modern deep learning, lending the organization significant scientific credibility. Woo's background spanning elite academic institutions, major industry research laboratories, and foundational work in neural network architectures positions him as a valuable contributor to AMI Labs' mission of advancing machine intelligence research.\n\n---\n*Note: Readers are encouraged to consult primary sources, including Woo's official publications and institutional profiles, for the most current and complete information.*",
-    "careerHistory": [
-      {
-        "org": "Google DeepMind",
-        "title": "Senior Research Scientist",
-        "years": "2022–2024"
-      },
-      {
-        "org": "New York University",
-        "title": "Faculty Fellow",
-        "years": "2022–2024"
-      },
-      {
-        "org": "KAIST",
-        "title": "PhD, Computer Science",
-        "years": "2016–2022"
-      }
-    ],
-    "links": {
-      "linkedin": "https://www.linkedin.com/in/sanghyun-woo-38994610a/",
-      "scholar": "https://scholar.google.com/citations?user=iwBPvPIAAAAJ&hl=en",
-      "twitter": "https://x.com/sanghyunwoo1219",
-      "github": "https://github.com/shwoo1219",
-      "website": "https://sites.google.com/view/sanghyunwoo/"
-    },
-    "semanticScholarId": "2262209"
-  },
-  {
-    "slug": "brian-li",
-    "name": "Brian Li",
-    "role": "Member of Technical Staff (Singapore)",
-    "body": "Former Staff Research Scientist at ByteDance (Seed Multimodal & World Model team). Co-author of LLaVA-NeXT, LLaVA-OneVision, LLaVA-Video. Former Microsoft Research.",
-    "tags": [
-      "Singapore"
-    ],
-    "reportsTo": "min-lin",
-    "biography": "# Brian Li\n\nBrian Li is a machine learning researcher and engineer specializing in multimodal artificial intelligence, currently serving as Member of Technical Staff (Singapore) at AMI Labs (Advanced Machine Intelligence), a Paris-based AI research organization. AMI Labs was co-founded with the involvement of Yann LeCun, one of the pioneers of deep learning and a Turing Award laureate, positioning the company at the forefront of foundational AI research.\n\nPrior to joining AMI Labs, Li held a position as Staff Research Scientist at ByteDance, where he was a core member of the Seed Multimodal and World Model team. During his tenure at ByteDance, Li made significant contributions to the field of large multimodal models as a co-author of several influential research works, including LLaVA-NeXT, LLaVA-OneVision, and LLaVA-Video. These works are part of the LLaVA (Large Language and Vision Assistant) family of open-source multimodal models, which have been widely adopted by the research community and have contributed substantially to advances in vision-language understanding. Before his role at ByteDance, Li also gained research experience at Microsoft Research, further grounding his expertise in large-scale AI systems and applied research.\n\nLi's research focus centers on multimodal learning, vision-language models, and video understanding — areas that sit at the intersection of computer vision and natural language processing. His co-authorship on the LLaVA series of papers represents some of the most cited and reproduced work in open multimodal AI research in recent years, reflecting his ability to contribute to both the scientific and engineering dimensions of large-scale model development.\n\nAt AMI Labs, Li brings his expertise in multimodal systems and world modeling to an organization focused on advancing the science of machine intelligence. His background in building and scaling open multimodal models, combined with his experience across leading industry research laboratories, makes him a significant technical contributor to AMI Labs as the company pursues its research agenda in foundational and applied AI.",
-    "careerHistory": [
-      {
-        "org": "ByteDance (Seed Multimodal)",
-        "title": "Staff Research Scientist",
-        "years": "2022–2024"
-      },
-      {
-        "org": "Microsoft Research",
-        "title": "Research Scientist",
-        "years": "2020–2022"
-      }
-    ],
-    "links": {
-      "linkedin": "https://www.linkedin.com/in/brianbo1121/",
-      "scholar": "https://scholar.google.com/citations?user=1_zc1-IAAAAJ",
-      "website": "https://www.brianboli.com/",
-      "twitter": "https://x.com/Brian_Bo_Li",
-      "github": "https://github.com/luodian"
-    },
-    "semanticScholarId": ["2360435670", "2310709478"]
-  },
-  {
-    "slug": "delong-chen",
-    "name": "Delong Chen",
-    "role": "Founding Team Member",
-    "body": "Working on VL-JEPA and vision-language world modeling. Former Visiting Researcher at Meta Paris. PhD student at HKUST (ECE).",
-    "tags": [
-      "Paris"
-    ],
-    "reportsTo": "saining-xie",
-    "biography": "# Delong Chen\n\nDelong Chen is a researcher and entrepreneur specializing in machine learning and computer vision, currently serving as a Founding Team Member at AMI Labs (Advanced Machine Intelligence), a Paris-based artificial intelligence startup. Chen's work sits at the intersection of vision-language modeling and self-supervised learning, reflecting a research trajectory that has brought him into collaboration with some of the leading figures in modern AI.\n\nChen pursued his doctoral studies in Electronic and Computer Engineering (ECE) at the Hong Kong University of Science and Technology (HKUST), where he developed expertise in deep learning and multimodal representation. Prior to his founding role at AMI Labs, he served as a Visiting Researcher at Meta's Paris research laboratory, an experience that placed him within one of the most prominent AI research environments in Europe and exposed him to large-scale work in self-supervised and joint-embedding architectures.\n\nChen's research contributions have centered on vision-language world modeling, with a notable focus on VL-JEPA (Vision-Language Joint-Embedding Predictive Architecture), a framework that extends the JEPA line of research pioneered by Yann LeCun toward multimodal understanding. This work aligns closely with the theoretical agenda of learning abstract, predictive world models rather than relying solely on generative or contrastive approaches, representing a meaningful contribution to the foundational debate in contemporary AI research.\n\nAt AMI Labs, co-founded with Yann LeCun, Chen brings both his research specialization in multimodal world modeling and his firsthand experience with the architectural paradigms central to the company's mission. His role as a founding team member positions him as a key technical contributor to the laboratory's efforts to advance machine intelligence grounded in principled, non-generative learning frameworks.",
-    "careerHistory": [
-      {
-        "org": "Meta AI (FAIR Paris)",
-        "title": "Visiting Researcher",
-        "years": "2023–2024"
-      },
-      {
-        "org": "HKUST",
-        "title": "PhD Student, ECE",
-        "years": "2021–present"
-      }
-    ],
-    "links": {
-      "linkedin": "https://www.linkedin.com/in/chendelong/",
-      "scholar": "https://scholar.google.com/citations?user=7PW095gAAAAJ",
-      "website": "https://chendelong.world/",
-      "github": "https://github.com/ChenDelong1999",
-      "twitter": "https://x.com/Delong0_0",
-      "bilibili": "https://space.bilibili.com/291158396"
-    },
-    "semanticScholarId": "94210578"
-  },
-  {
-    "slug": "sean-nguyen",
-    "name": "Sean Nguyen",
-    "role": "Director of Operations",
-    "body": "Founding team, Office of Yann LeCun. Former Executive Administrative Partner at Meta AI (supported LeCun & Léon Bottou). BS Business from Boston University.",
-    "tags": [
-      "New York"
-    ],
-    "reportsTo": "laurent-solly",
-    "biography": "# Sean Nguyen\n\nSean Nguyen is a technology operations professional and member of the founding team of AMI Labs (Advanced Machine Intelligence), a Paris-based artificial intelligence startup. He currently serves as Director of Operations at the company, which was co-founded with Yann LeCun, the Turing Award–winning computer scientist and Chief AI Scientist at Meta. Nguyen holds a Bachelor of Science in Business from Boston University, providing him with a foundational background in organizational management and business operations.\n\nPrior to joining AMI Labs, Nguyen served as Executive Administrative Partner within Meta AI, where he supported two of the most prominent figures in modern deep learning research: Yann LeCun and Léon Bottou, a distinguished research scientist known for his foundational contributions to stochastic gradient descent and machine learning theory. In this capacity, Nguyen operated at the intersection of world-class AI research and institutional management, gaining direct exposure to the strategic, operational, and scientific priorities of one of the largest AI research organizations in the world. This experience positioned him as a trusted operational partner to senior leadership at the forefront of the field.\n\nAt AMI Labs, Nguyen brings his operational expertise and his close working relationship with the founding scientific leadership to help build and structure the organization from the ground up. As a member of the founding team operating within the Office of Yann LeCun, his role is central to translating research vision into institutional function, managing the day-to-day operations necessary to support the company's development. His background reflects a profile common among key operational figures at research-driven startups: deep familiarity with the scientific mission combined with the organizational skills required to execute it.\n\n---\n*Note: This biography is based solely on publicly verifiable professional details. Readers seeking the most current information are encouraged to consult official AMI Labs communications or Nguyen's professional profiles directly.*",
-    "careerHistory": [
-      {
-        "org": "Meta AI",
-        "title": "Executive Administrative Partner",
-        "years": "2018–2024"
-      }
-    ],
-    "links": {
-      "linkedin": "https://www.linkedin.com/in/sean-nguyen-74350b26/"
-    },
-    "semanticScholarId": null
-  },
-  {
-    "slug": "david-fan",
-    "name": "David Fan",
-    "role": "Researcher",
-    "body": "",
-    "tags": [],
-    "reportsTo": "saining-xie",
-    "biography": null,
-    "careerHistory": [],
-    "links": {
-      "github": "https://github.com/dfan"
-    },
-    "semanticScholarId": ["2335871751", "2054268969"]
+    "semanticScholarId": "1390555183"
   },
   {
     "slug": "xinyi-wan",
     "name": "Xinyi Wan",
-    "role": "Researcher",
-    "body": "",
-    "tags": [],
-    "reportsTo": "saining-xie",
-    "biography": null,
-    "careerHistory": [],
+    "role": "Member of Research Staff",
+    "body": "Machine learning researcher and systems engineer specializing in scaling AI from theory to real-world, production-grade applications across large technology platforms.",
+    "tags": [
+      "Singapore"
+    ],
+    "reportsTo": "min-lin",
+    "careerHistory": [
+      {
+        "org": "Sea",
+        "title": "Engineer",
+        "years": "2021-2024"
+      },
+      {
+        "org": "FABU.ai",
+        "title": "Senior Software Engineer",
+        "years": "2018-2021"
+      },
+      {
+        "org": "Google",
+        "title": "Software Engineer",
+        "years": "2016-2018"
+      }
+    ],
     "links": {
-      "github": "https://github.com/ufotalent"
+      "github": "https://github.com/ufotalent",
+      "linkedin": "https://www.linkedin.com/in/xinyi-wan-6b975931/",
+      "scholar": "https://scholar.google.fr/citations?user=6gCaX2sAAAAJ&hl=th",
+      "twitter": "https://x.com/UfotalentZju"
     },
     "semanticScholarId": "2280067114"
   },
   {
-    "slug": "jihan-yang",
-    "name": "Jihan Yang",
-    "role": "Researcher",
-    "body": "",
-    "tags": [],
-    "reportsTo": "saining-xie",
-    "biography": null,
-    "careerHistory": [],
+    "slug": "yann-lecun",
+    "name": "Yann LeCun",
+    "image": "/team/Yann LeCun.jpg",
+    "role": "Executive Chairman & Co-Founder",
+    "body": "Turing Award laureate (2018). Former Meta VP & Chief AI Scientist (12+ years). Architect of JEPA — the foundation of AMI's approach. Professor at NYU. Dual French-American.",
+    "tags": [
+      "Paris/New York",
+      "Co-Founder"
+    ],
+    "department": "Leadership",
+    "biography": "# Yann LeCun\n\nYann LeCun is a French-American computer scientist and artificial intelligence researcher widely regarded as one of the founding figures of modern deep learning. He earned his Diplôme d'Ingénieur from the École Supérieure d'Ingénieurs en Électrotechnique et Électronique (ESIEE Paris) and his Ph.D. in Computer Science from Université Pierre et Marie Curie (now Sorbonne Université) in 1987. His doctoral and early postdoctoral work, conducted in part at Bell Labs, laid the groundwork for some of the most consequential innovations in the history of machine learning.\n\nLeCun's most significant early contribution was the development and formalization of convolutional neural networks (CNNs), a class of deep learning architectures inspired by the structure of the biological visual cortex. His landmark 1989 and 1998 papers introduced and refined the LeNet architecture, which demonstrated the practical viability of gradient-based learning for image recognition and document analysis — including handwritten digit recognition systems deployed commercially by the banking industry. This work established principles that would later become foundational to computer vision, natural language processing, and generative AI at scale. In recognition of these contributions, LeCun was awarded the Turing Award in 2018 — often described as the \"Nobel Prize of computing\" — alongside Geoffrey Hinton and Yoshua Bengio, for their collective role in advancing deep learning.\n\nFollowing his academic career at Bell Labs and AT&T, LeCun joined New York University, where he holds a Silver Professor appointment in the Courant Institute of Mathematical Sciences and the Center for Data Science. In 2013, he joined Meta (then Facebook) as Vice President and Chief AI Scientist, a role he held for more than twelve years, during which he helped build and lead Meta AI Research (FAIR) into one of the most influential industrial AI research organizations in the world. During this period, LeCun became an increasingly prominent advocate for a specific scientific vision of artificial intelligence — one grounded in self-supervised learning, world models, and energy-based frameworks rather than purely generative or language-model-centric approaches.\n\nLeCun is a Co-Founder and Executive Chairman of AMI Labs (Advanced Machine Intelligence), a Paris-based artificial intelligence startup whose technical direction is rooted in his ongoing research agenda. Central to AMI's approach is the Joint Embedding Predictive Architecture (JEPA), a framework LeCun has championed as a more principled and efficient path toward human-level machine intelligence — one that emphasizes learning structured, abstract representations of the world rather than pixel- or token-level prediction. LeCun's significance to AMI Labs extends well beyond a",
+    "careerHistory": [
+      {
+        "org": "Meta AI (Facebook AI Research)",
+        "title": "VP & Chief AI Scientist",
+        "years": "2013–2025"
+      },
+      {
+        "org": "New York University",
+        "title": "Silver Professor of Computer Science, Data Science, and Neural Science",
+        "years": "2003–present"
+      },
+      {
+        "org": "AT&T Bell Labs / NEC Laboratories",
+        "title": "Research Scientist",
+        "years": "1988–2003"
+      }
+    ],
     "links": {
-      "github": "https://github.com/jihanyang"
+      "linkedin": "https://www.linkedin.com/in/yann-lecun/",
+      "scholar": "https://scholar.google.com/citations?user=WLN3QrAAAAAJ",
+      "twitter": "https://x.com/ylecun",
+      "website": "http://yann.lecun.com/"
     },
-    "semanticScholarId": "2362644269"
-  },
-  {
-    "slug": "julia-kempe",
-    "name": "Julia Kempe",
-    "role": "Researcher",
-    "body": "",
-    "tags": [],
-    "reportsTo": null,
-    "biography": null,
-    "careerHistory": [],
-    "links": {},
-    "semanticScholarId": ["2325095118", "2372953497"]
+    "semanticScholarId": "1688882"
   }
 ]
