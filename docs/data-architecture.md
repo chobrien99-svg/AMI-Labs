@@ -117,8 +117,14 @@ Each phase stands alone and leaves the site working.
   **Build Person Dossiers** workflow. Co-authorship edges fill in as `fetch-publications`
   re-runs with the full roster + resolved `authors[]`; shared-history edges (e.g. FAIR/NYU
   alumni) are already populated from `careerHistory`.
-- **Phase 4 — Report generator.** Consumes the dossiers to produce quarterly /
-  semi-annual reports.
+- **Phase 4 — Report generator.** *(Done.)* `scripts/lib/compute-report.js` turns the
+  dossiers + time-windowed sources into deterministic report facts (roster, new/top research,
+  GitHub activity, notable news, the relationship network, per-person highlights);
+  `scripts/generate-report.js` has Claude narrate them (grounded only in the facts, degrading
+  to a complete facts-only report without a key) and writes `reports/ami-report-<date>.md` +
+  `data/report.json`. Runs on demand and quarterly via the **Generate AMI Report** workflow
+  (`window_days` input — 90 quarterly, 180 semi-annual). Co-authorship is computed live from
+  `research.json` so the report is always internally consistent.
 
 ---
 

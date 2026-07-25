@@ -1,0 +1,50 @@
+name: Generate AMI Report
+
+# Produces a periodic (quarterly / semi-annual) AMI report by joining the person
+# dossiers into deterministic facts and having Claude narrate them. Writes
+# reports/ami-report-<date>.md and data/report.json. Runs on demand and quarterly.
+
+on:
+  workflow_dispatch:
+    inputs:
+      window_days:
+        description: "How many days the report covers (default 90; use 180 for semi-annual)."
+        type: string
+        default: "90"
+  schedule:
+    - cron: "0 8 1 1,4,7,10 *" # 08:00 UTC on the 1st of Jan/Apr/Jul/Oct
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install @anthropic-ai/sdk
+
+      - name: Generate report
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SYNTHESIS_MODEL: ${{ vars.SYNTHESIS_MODEL }}
+          REPORT_WINDOW_DAYS: ${{ github.event.inputs.window_days }}
+        run: node scripts/generate-report.js
+
+      - name: Commit report
+        run: |
+          git config user.name "ami-activity-bot"
+          git config user.email "bot@ami-labs.vercel.app"
+          git add reports data/report.json
+          if git diff --staged --quiet; then
+            echo "No report changes to commit."
+          else
+            git commit -m "chore: generate AMI report [$(date -u +%Y-%m-%d)]"
+            git push
+          fi

@@ -1,0 +1,584 @@
+{
+  "generatedAt": "2026-07-25T11:47:25.784Z",
+  "period": {
+    "windowDays": 90,
+    "since": "2026-04-26",
+    "until": "2026-07-25"
+  },
+  "facts": {
+    "period": {
+      "windowDays": 90,
+      "since": "2026-04-26",
+      "until": "2026-07-25"
+    },
+    "roster": {
+      "total": 38,
+      "byDepartment": [
+        {
+          "key": "Unassigned",
+          "count": 13
+        },
+        {
+          "key": "Research & Engineering",
+          "count": 11
+        },
+        {
+          "key": "Leadership",
+          "count": 6
+        },
+        {
+          "key": "Operations",
+          "count": 6
+        },
+        {
+          "key": "Science & Research Leadership",
+          "count": 2
+        }
+      ]
+    },
+    "research": {
+      "totalTracked": 174,
+      "newInWindow": 14,
+      "newPapers": [
+        {
+          "title": "Separating Representation from Reconstruction Enables Scalable Text Encoders",
+          "date": "2026-07-04",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/4f890d8373b93892ce2a50d87415653fc225a5a8",
+          "citationCount": 0,
+          "teamAuthors": [
+            "Megi Dervishi"
+          ]
+        },
+        {
+          "title": "Anchored Self-Play for Code Repair",
+          "date": "2026-07-03",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/1231876b4c92c7a26d4e0cbea9cac388d6dafefb",
+          "citationCount": 0,
+          "teamAuthors": [
+            "Tengyu Ma"
+          ]
+        },
+        {
+          "title": "Video-MMMU: Evaluating Knowledge Acquisition from Multidisciplinary Professional Videos",
+          "date": "2026-07-01",
+          "venue": "Annual Meeting of the Association for Computational Linguistics",
+          "url": "https://doi.org/10.18653/v1/2026.acl-long.1281",
+          "citationCount": 2,
+          "teamAuthors": [
+            "Brian Li"
+          ]
+        },
+        {
+          "title": "Understanding LLMs’ summarization capabilities: an analysis of biomedical abstract and lay summary generation",
+          "date": "2026-07-01",
+          "venue": "Annual Meeting of the Association for Computational Linguistics",
+          "url": "https://doi.org/10.18653/v1/2026.findings-acl.554",
+          "citationCount": 0,
+          "teamAuthors": [
+            "Li Jing"
+          ]
+        },
+        {
+          "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
+          "date": "2026-07-01",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2602.11389",
+          "citationCount": 22,
+          "teamAuthors": [
+            "Quentin Le Lidec"
+          ]
+        },
+        {
+          "title": "MJEPA: A Simple and Scalable Joint-Embedding Predictive Architecture for Audio-Visual Learning",
+          "date": "2026-06-23",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/bbb2fba52c4d7d3b29f58a5e136d012acdc2010d",
+          "citationCount": 0,
+          "teamAuthors": [
+            "Adrien Bardes",
+            "Michael Rabbat"
+          ]
+        },
+        {
+          "title": "Learning through Internalization",
+          "date": "2026-06-18",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/31e6e9e341f8e8152c9f633b5838c585853feb1b",
+          "citationCount": 0,
+          "teamAuthors": [
+            "Julia Kempe"
+          ]
+        },
+        {
+          "title": "Fantastic Pretraining Optimizers and Where to Find Them II: Hyperball Optimization",
+          "date": "2026-06-15",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/d90159d04db78db63e04ebd03a8d65f985b5eb85",
+          "citationCount": 2,
+          "teamAuthors": [
+            "Tengyu Ma"
+          ]
+        },
+        {
+          "title": "Cambrian-P: Pose-Grounded Video Understanding",
+          "date": "2026-05-21",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2605.22819",
+          "citationCount": 0,
+          "teamAuthors": [
+            "Jihan Yang"
+          ]
+        },
+        {
+          "title": "Announcing the Shaw Prize in Computer Science",
+          "date": "2026-05-21",
+          "venue": "Communications of the ACM",
+          "url": "https://doi.org/10.1145/3811413",
+          "citationCount": 0,
+          "teamAuthors": [
+            "Yann LeCun"
+          ]
+        },
+        {
+          "title": "stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation",
+          "date": "2026-05-20",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2605.21800",
+          "citationCount": 2,
+          "teamAuthors": [
+            "Quentin Le Lidec"
+          ]
+        },
+        {
+          "title": "PEIRA: Learning Predictive Encoders through Inter-View Regressor Alignment",
+          "date": "2026-05-17",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2605.17671",
+          "citationCount": 0,
+          "teamAuthors": [
+            "Basile Terver"
+          ]
+        },
+        {
+          "title": "KVerus: Scalable and Resilient Formal Verification Proof Generation for Rust Code",
+          "date": "2026-05-05",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2605.03822",
+          "citationCount": 1,
+          "teamAuthors": [
+            "Xinyi Wan"
+          ]
+        },
+        {
+          "title": "From Where Things Are to What They Are For: Benchmarking Spatial-Functional Intelligence in Multimodal LLMs",
+          "date": "2026-05-04",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2605.02130",
+          "citationCount": 1,
+          "teamAuthors": [
+            "Jihan Yang"
+          ]
+        }
+      ],
+      "topCited": [
+        {
+          "title": "DINOv2: Learning Robust Visual Features without Supervision",
+          "year": 2023,
+          "venue": "Trans. Mach. Learn. Res.",
+          "url": "https://doi.org/10.48550/arXiv.2304.07193",
+          "citationCount": 9445
+        },
+        {
+          "title": "A ConvNet for the 2020s",
+          "year": 2022,
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/CVPR52688.2022.01167",
+          "citationCount": 8842
+        },
+        {
+          "title": "Scalable Diffusion Models with Transformers",
+          "year": 2022,
+          "venue": "IEEE International Conference on Computer Vision",
+          "url": "https://doi.org/10.1109/ICCV51070.2023.00387",
+          "citationCount": 6708
+        },
+        {
+          "title": "LLaVA-OneVision: Easy Visual Task Transfer",
+          "year": 2024,
+          "venue": "Trans. Mach. Learn. Res.",
+          "url": "https://doi.org/10.48550/arXiv.2408.03326",
+          "citationCount": 2754
+        },
+        {
+          "title": "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders",
+          "year": 2023,
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/CVPR52729.2023.01548",
+          "citationCount": 1857
+        },
+        {
+          "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+          "year": 2023,
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/CVPR52729.2023.01499",
+          "citationCount": 1034
+        },
+        {
+          "title": "Detecting Twenty-thousand Classes using Image-level Supervision",
+          "year": 2022,
+          "venue": "European Conference on Computer Vision",
+          "url": "https://doi.org/10.1007/978-3-031-20077-9_21",
+          "citationCount": 888
+        },
+        {
+          "title": "OpenAI GPT-5 System Card",
+          "year": 2025,
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/6f9e6a47b8c2a65d3fa758bb4062f096b4afd34d",
+          "citationCount": 683
+        }
+      ]
+    },
+    "github": {
+      "topProjects": [
+        {
+          "repo": "galilai-group/stable-worldmodel",
+          "ownership": "external",
+          "activityScore": 269,
+          "url": "https://github.com/galilai-group/stable-worldmodel",
+          "contributors": [
+            "Quentin Le Lidec"
+          ]
+        },
+        {
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "ownership": "external",
+          "activityScore": 132,
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "contributors": [
+            "Brian Li"
+          ]
+        },
+        {
+          "repo": "Trick5t3r/eb_jepa",
+          "ownership": "external",
+          "activityScore": 10,
+          "url": "https://github.com/Trick5t3r/eb_jepa",
+          "contributors": [
+            "Basile Terver"
+          ]
+        },
+        {
+          "repo": "mavenlin/torch2jax",
+          "ownership": "personal-account",
+          "activityScore": 8,
+          "url": "https://github.com/mavenlin/torch2jax",
+          "contributors": [
+            "Min Lin"
+          ]
+        },
+        {
+          "repo": "EvolvingLMMs-Lab/lmms-engine",
+          "ownership": "external",
+          "activityScore": 4,
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-engine",
+          "contributors": [
+            "Brian Li"
+          ]
+        }
+      ],
+      "overview": "Over the past 90 days, current AMI Labs members have concentrated their public activity on two intersecting research frontiers: world-model and joint-embedding predictive architectures (JEPA) for representation learning and planning, and the evaluation and training infrastructure for large multimodal models. The most heavily worked project is an external reproducibility platform for world-model research, where one member has been a dominant contributor, while a second member is actively involved in two external projects centered on multimodal model evaluation and training. A third member is contributing to an energy-based JEPA fork with ties to Meta AI Research. The through-line across all five projects is a shared investment in the machinery needed to build, train, and rigorously benchmark the next generation of learned world models and multimodal systems."
+    },
+    "news": {
+      "inWindow": 68,
+      "notable": [
+        {
+          "title": "Why AMI Labs’ Alexandre LeBrun won't call his AI 'AGI' or 'superintelligence' | TechCrunch",
+          "date": "2026-07-16",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
+          "people": [
+            "Alexandre LeBrun"
+          ]
+        },
+        {
+          "title": "Meet the team helping Yann LeCun build AI startup AMI Labs - Sifted",
+          "date": "2026-07-23",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tOEZmSGd3b1dHbXJtVDJJTGd4c1lWWEJGZ2ltcDRQQ0VXUHptY0laOERDSE5ONkVndG8zX1BHZnY4YmFJQmdBODluUnAzWnNsTUczeWN1dGExazBsS3c?oc=5",
+          "people": [
+            "Yann LeCun"
+          ]
+        },
+        {
+          "title": "AMI Labs, Alan, VivaTech… : retour sur les 10 grandes actus de la French Tech depuis le début de l’année - Maddyness",
+          "date": "2026-07-23",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9sdXJTQ1lQdnN1cFhXYTZ3OHZidC1MQ3JuT0RFb3dOSk5NX1gtSHhCc2ZRQmtrWV9JSnBuTFhRWXQ2YzNhOHhsODgtb0Y?oc=5",
+          "people": []
+        },
+        {
+          "title": "890 millions d'euros, 2026, AMI Labs de Yann LeCun entre au Next40, ce que cette levée change pour l'IA française - voone-actu.com",
+          "date": "2026-07-22",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPS2E5MTZMcDE0aVo5MTdTaFNnQThHY2tab2pwUGhjNWZxX2s4d1RXMHRpZkw3UnZKekwxcG9kWGlkdjhfWWw5UDVEMm5KM3BYSGViTWplUnlCN1Jfby1lWUNYTG1POEZoRWVrX0NOTEM1MlMzOHJFV0VHZnQ1R2hqZ250SlVZUDMtbWNLejNpNnk4R3NpV1FZZUhjXzRwSWcxWGFrUzN2V1VLSGgyS20zRkJEeWN3TnRzT1ZRYlQybFkteE1jQ0JsTFlNUUQ?oc=5",
+          "people": [
+            "Yann LeCun"
+          ]
+        },
+        {
+          "title": "Alexandre Lebrun passe le flambeau à Brian Manning à la tête de Nabla",
+          "date": "2026-07-22",
+          "source": "Maddyness",
+          "url": "https://www.maddyness.com/2026/07/21/alexandre-lebrun-passe-le-flambeau-a-brian-manning-a-la-tete-de-nabla",
+          "people": [
+            "Alexandre LeBrun"
+          ]
+        },
+        {
+          "title": "AMI Labs et Yann LeCun : 1 milliard pour l'IA - Brief IA",
+          "date": "2026-07-23",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5jUWR0dnJUTHU1UTdNUkhpRlBndWh2WnlRelF6eWxMWU9fTG5ELVdBMTUyd0FyRFctdmg5LTFRZHktNTNheFh1OG85enVMODdlNWNDVFVLWk9Hck01LUNYUUpCVDJWcVY2Y2VjQmYxNlp3dWRmNExpNEZ0UzRqX3M?oc=5",
+          "people": [
+            "Yann LeCun"
+          ]
+        },
+        {
+          "title": "Yann LeCun on AMI Labs, JEPA, and the AI World of 2030",
+          "date": "2026-07-16",
+          "source": "Hacker News",
+          "url": "https://nebius.science/stories/meet-yann-lecuns-lab-and-the-ai-world-of-2030?shem=rimspwouohc,",
+          "people": [
+            "Yann LeCun"
+          ]
+        },
+        {
+          "title": "‘Godmother of AI’ and tech entrepreneurs draw investors by pivoting from chatbots to ‘world models’ saying AI has to read the room, not just books",
+          "date": "2026-06-24",
+          "source": "Fortune",
+          "url": "https://fortune.com/2026/06/24/ai-godmother-investors-chatbots/",
+          "people": []
+        },
+        {
+          "title": "Hot French startup ZML releases free product to speed inference across lots of AI chips | TechCrunch",
+          "date": "2026-07-08",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
+          "people": []
+        },
+        {
+          "title": "Show HN: GlycemicGPT – Open-source AI-powered diabetes management",
+          "date": "2026-05-15",
+          "source": "Hacker News",
+          "url": "https://github.com/GlycemicGPT/GlycemicGPT",
+          "people": []
+        },
+        {
+          "title": "Launch HN: Ardent (YC P26) – Postgres sandboxes in seconds with zero migration",
+          "date": "2026-05-13",
+          "source": "Hacker News",
+          "url": "https://www.tryardent.com/",
+          "people": []
+        },
+        {
+          "title": "‘World models’ are AI’s latest sensation: what are they and what can they do?",
+          "date": "2026-04-28",
+          "source": "Nature.com",
+          "url": "https://www.nature.com/articles/d41586-026-00820-5",
+          "people": []
+        }
+      ],
+      "aboutPeople": [
+        {
+          "key": "Yann LeCun",
+          "count": 8
+        },
+        {
+          "key": "Alexandre LeBrun",
+          "count": 2
+        }
+      ]
+    },
+    "network": {
+      "coAuthorshipEdges": 59,
+      "topCoAuthorPairs": [
+        {
+          "a": "Michael Rabbat",
+          "b": "Yann LeCun",
+          "paperCount": 12
+        },
+        {
+          "a": "Adrien Bardes",
+          "b": "Yann LeCun",
+          "paperCount": 9
+        },
+        {
+          "a": "Chao Du",
+          "b": "Min Lin",
+          "paperCount": 9
+        },
+        {
+          "a": "Delong Chen",
+          "b": "Pascale Fung",
+          "paperCount": 9
+        },
+        {
+          "a": "Pascale Fung",
+          "b": "Willy Chung",
+          "paperCount": 8
+        },
+        {
+          "a": "David Fan",
+          "b": "Michael Rabbat",
+          "paperCount": 7
+        },
+        {
+          "a": "David Fan",
+          "b": "Yann LeCun",
+          "paperCount": 7
+        },
+        {
+          "a": "Michael Rabbat",
+          "b": "Quentin Garrido",
+          "paperCount": 7
+        }
+      ],
+      "sharedHistoryEdges": 234,
+      "sharedHistoryByOrg": [
+        {
+          "key": "Meta (FAIR)",
+          "count": 212
+        },
+        {
+          "key": "NYU",
+          "count": 11
+        },
+        {
+          "key": "Google / DeepMind",
+          "count": 8
+        },
+        {
+          "key": "nabla",
+          "count": 1
+        },
+        {
+          "key": "hkust",
+          "count": 1
+        },
+        {
+          "key": "sea",
+          "count": 1
+        }
+      ],
+      "reportingEdges": 37
+    },
+    "people": {
+      "mostPublished": [
+        {
+          "name": "Delong Chen",
+          "role": "Founding Team Member",
+          "papers": 8
+        },
+        {
+          "name": "Julia Kempe",
+          "role": "Director of Research, Paris",
+          "papers": 8
+        },
+        {
+          "name": "Michael Rabbat",
+          "role": "VP of World Models & Co-Founder",
+          "papers": 8
+        },
+        {
+          "name": "Sanghyun Woo",
+          "role": "Member of Technical Staff",
+          "papers": 8
+        },
+        {
+          "name": "Yann LeCun",
+          "role": "Executive Chairman & Co-Founder",
+          "papers": 8
+        },
+        {
+          "name": "Saining Xie",
+          "role": "Chief Science Officer & Co-Founder",
+          "papers": 7
+        },
+        {
+          "name": "Pascale Fung",
+          "role": "Chief Research & Innovation Officer & Co-Founder",
+          "papers": 5
+        },
+        {
+          "name": "Adithya Iyer",
+          "role": "Member of Technical Staff",
+          "papers": 0
+        }
+      ],
+      "mostConnected": [
+        {
+          "name": "Yann LeCun",
+          "role": "Executive Chairman & Co-Founder",
+          "coAuthors": 0,
+          "formerColleagues": 27
+        },
+        {
+          "name": "Saining Xie",
+          "role": "Chief Science Officer & Co-Founder",
+          "coAuthors": 0,
+          "formerColleagues": 24
+        },
+        {
+          "name": "Rohit Girdhar",
+          "role": "Research Scientist",
+          "coAuthors": 0,
+          "formerColleagues": 23
+        },
+        {
+          "name": "Laurent Solly",
+          "role": "COO & Co-Founder",
+          "coAuthors": 0,
+          "formerColleagues": 22
+        },
+        {
+          "name": "Michael Rabbat",
+          "role": "VP of World Models & Co-Founder",
+          "coAuthors": 0,
+          "formerColleagues": 22
+        },
+        {
+          "name": "Sean Nguyen",
+          "role": "Director of Operations",
+          "coAuthors": 0,
+          "formerColleagues": 22
+        },
+        {
+          "name": "Xingyi Zhou",
+          "role": "Scientist",
+          "coAuthors": 0,
+          "formerColleagues": 22
+        },
+        {
+          "name": "Matthew Muckley",
+          "role": "Member of the Technical Staff",
+          "coAuthors": 0,
+          "formerColleagues": 21
+        }
+      ],
+      "mostInNews": [
+        {
+          "name": "Yann LeCun",
+          "mentions": 37
+        },
+        {
+          "name": "Alexandre LeBrun",
+          "mentions": 4
+        }
+      ]
+    }
+  },
+  "narration": null
+}
