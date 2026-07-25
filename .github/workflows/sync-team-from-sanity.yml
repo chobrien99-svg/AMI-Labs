@@ -24,7 +24,8 @@ jobs:
 
       - name: Export Sanity persons to team.json
         env:
-          # Optional — only needed to include drafts; published reads work without it.
+          # Optional — only needed to authenticate against a private dataset; the public
+          # production dataset reads without it. Does not include drafts.
           SANITY_API_READ_TOKEN: ${{ secrets.SANITY_API_READ_TOKEN }}
         run: node scripts/export-sanity-to-team.js
 
