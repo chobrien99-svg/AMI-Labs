@@ -62,6 +62,14 @@ export const article = defineType({
       rows: 3,
     }),
     defineField({
+      name: "people",
+      title: "People",
+      description:
+        "AMI people this article is about. Auto-suggested from the headline/summary by the news bot — review before publishing.",
+      type: "array",
+      of: [{ type: "reference", to: [{ type: "person" }] }],
+    }),
+    defineField({
       name: "reviewStatus",
       title: "Review Status",
       type: "string",

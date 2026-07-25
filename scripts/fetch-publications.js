@@ -13,6 +13,7 @@
 const https = require("https");
 const fs = require("fs");
 const path = require("path");
+const { buildResolver } = require("./lib/resolve-identity");
 
 const TEAM_FILE = path.resolve(__dirname, "../data/team.json");
 const PUBS_FILE = path.resolve(__dirname, "../data/publications.json");
@@ -198,7 +199,18 @@ async function fetchRecent(ids) {
 }
 
 // Merge a member's recent paper into the team-wide map (dedupe co-authored papers by paperId).
-function addRecentPaper(map, member, p) {
+// Resolve the paper's FULL author list (from Semantic Scholar) to canonical people where
+// possible — matching by S2 author id, then by name. Outside collaborators stay in the list
+// with slug:null. This is what makes co-authorship (e.g. a member + Yann LeCun) queryable.
+function resolveAuthors(p, resolver) {
+  if (!Array.isArray(p.authors)) return [];
+  return p.authors.map((a) => {
+    const person = resolver.bySemanticScholarId(a.authorId) || resolver.byName(a.name);
+    return { name: a.name || null, authorId: a.authorId || null, slug: person ? person.slug : null };
+  });
+}
+
+function addRecentPaper(map, member, p, resolver) {
   const id = p.paperId;
   if (map.has(id)) {
     const e = map.get(id);
@@ -211,6 +223,7 @@ function addRecentPaper(map, member, p) {
     paperId: id,
     title: p.title,
     teamAuthors: [{ slug: member.slug, name: member.name }],
+    authors: resolveAuthors(p, resolver), // full author list with resolved slugs (co-authorship)
     memberSlug: member.slug,
     memberName: member.name,
     publicationDate: p.publicationDate || null,
@@ -227,6 +240,7 @@ function addRecentPaper(map, member, p) {
 
 async function main() {
   const team = JSON.parse(fs.readFileSync(TEAM_FILE, "utf8"));
+  const resolver = buildResolver(team); // maps paper authors (S2 id / name) → person slug
 
   // Unify Semantic Scholar authors from team.json (git-native seed) and Sanity (CMS). A person's
   // IDs from both sources are merged by slug, so either source can add a researcher — or an extra
@@ -276,7 +290,7 @@ async function main() {
     // pass 2 — most-recent across all of the member's profiles (research feed)
     try {
       const recent = await fetchRecent(ids);
-      recent.forEach((p) => addRecentPaper(researchMap, member, p));
+      recent.forEach((p) => addRecentPaper(researchMap, member, p, resolver));
       console.log(`recent ${recent.length}`);
     } catch (e) {
       failedMembers.push(member.slug);

@@ -102,8 +102,15 @@ Each phase stands alone and leaves the site working.
   now resolve through it: `analyze-github-activity.js` attaches `contributorSlugs`, and
   `fetch-x-posts.js` attaches `authorSlug`. *(Remaining: fill the ID gaps the audit
   surfaces; optionally migrate the already-slug-keyed pipelines onto the shared helpers.)*
-- **Phase 2 — Link the orphans.** `people` refs on `article`; full resolved paper authors;
-  slug on X posts. Backfill via name / ID matching with human review.
+- **Phase 2 — Link the orphans.** *(In progress.)* Done here: full resolved paper authorship
+  in `research.json` (`fetch-publications.js` now keeps the complete author list with slugs,
+  so co-authorship — e.g. a member + Yann LeCun — is queryable); a person-mention detector
+  (`scripts/lib/detect-people.js`, tested) with the 154 existing `news.json` articles
+  backfilled (`scripts/backfill-article-people.js`); and a `people` reference field on the
+  Sanity `article` schema + GROQ. X-post `authorSlug` already landed in Phase 1.
+  *(Remaining: wire the detector into `update-news.js` so new articles are auto-tagged and
+  written to Sanity as person references — a follow-up PR, since it touches the live news
+  bot's Sanity writes.)*
 - **Phase 3 — Relationship edges + per-person dossiers.** Derive co-authorship and
   shared-history graphs; emit `data/people/<slug>.json`.
 - **Phase 4 — Report generator.** Consumes the dossiers to produce quarterly /
