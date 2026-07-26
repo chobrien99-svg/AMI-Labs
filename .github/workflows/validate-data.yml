@@ -1,0 +1,20 @@
+name: Validate Data JSON
+
+# Fast guardrail: fail on any malformed JSON under data/ before it reaches a
+# production build. Runs on every PR, and on pushes to main (which also catches
+# direct commits from the Publish workflow or GitHub web edits).
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Validate data/*.json
+        run: node scripts/validate-json.js data
