@@ -141,7 +141,8 @@ const SYSTEM_PROMPT = [
   '  "signals": array (0-4) of { "text": string, "category": string, "url"?: string, "linkLabel"?: string }',
   '     (url must be copied verbatim from FACTS, like evidence; linkLabel is the short highlighted link text, e.g. "Tweet")  — use SPARINGLY, only for genuinely',
   "     minor items that do not warrant a section; leave empty if everything worth saying is in the threads,",
-  '  "whatToWatch": string (1-3 sentences — what these signals imply for the coming weeks).',
+  '  "whatToWatch": string (1-3 sentences — what these signals imply for the coming weeks),',
+  '  "whatToWatchLinks": array (0-3) of { "url": string, "linkLabel": string } — optional source links for the note; url must be copied verbatim from FACTS.',
   "",
   "If you cannot produce a grounded briefing from the facts, output exactly the single token SKIP.",
 ].join("\n");
@@ -228,7 +229,16 @@ function validate(parsed, allowedUrls) {
 
   const whatToWatch = typeof parsed.whatToWatch === "string" ? parsed.whatToWatch.trim() : "";
 
-  return { headline, stateOfPlay, threads, signals, whatToWatch };
+  // Optional source links for the "what to watch" note — same allowed-URL guard as evidence.
+  const whatToWatchLinks = (Array.isArray(parsed.whatToWatchLinks) ? parsed.whatToWatchLinks.slice(0, 4) : [])
+    .map((l) => {
+      if (!l || typeof l.url !== "string" || !allowedUrls.has(l.url)) return null;
+      const linkLabel = typeof l.linkLabel === "string" && l.linkLabel.trim() ? l.linkLabel.trim() : null;
+      return linkLabel ? { url: l.url, linkLabel } : null;
+    })
+    .filter(Boolean);
+
+  return { headline, stateOfPlay, threads, signals, whatToWatch, whatToWatchLinks };
 }
 
 // ── GitHub Issue notification (mirrors update-news.js notifyPendingArticles) ──
