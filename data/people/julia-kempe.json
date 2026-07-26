@@ -43,16 +43,24 @@
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/31e6e9e341f8e8152c9f633b5838c585853feb1b",
       "citationCount": 0,
-      "coAuthors": []
-    },
-    {
-      "paperId": "225c1956cb19dabaa9ec35e9d951f683971c8349",
-      "title": "Formalizing Mathematics at Scale",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2605.29955",
-      "citationCount": 2,
-      "coAuthors": []
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Nikolaos Tsilivis"
+        },
+        {
+          "slug": null,
+          "name": "Nirmit Joshi"
+        },
+        {
+          "slug": null,
+          "name": "Marko Medvedev"
+        },
+        {
+          "slug": null,
+          "name": "Nati Srebro"
+        }
+      ]
     },
     {
       "paperId": "8c08f6f5b52f6d80116b1dc6b542f63b564b07c2",
@@ -61,16 +69,24 @@
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2604.08706",
       "citationCount": 3,
-      "coAuthors": []
-    },
-    {
-      "paperId": "f274a1bce813c2bb358ed7b6fbd54c08c17bac1a",
-      "title": "Formalization of De Giorgi--Nash--Moser Theory in Lean",
-      "year": 2026,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/f274a1bce813c2bb358ed7b6fbd54c08c17bac1a",
-      "citationCount": 7,
-      "coAuthors": []
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Charles Arnal"
+        },
+        {
+          "slug": null,
+          "name": "Vivien Cabannes"
+        },
+        {
+          "slug": null,
+          "name": "Taco Cohen"
+        },
+        {
+          "slug": null,
+          "name": "Rémi Munos"
+        }
+      ]
     },
     {
       "paperId": "0571686b5b6a838759a3219cd8e8684a1992c0aa",
@@ -79,7 +95,24 @@
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.03979",
       "citationCount": 5,
-      "coAuthors": []
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ariel Kwiatkowski"
+        },
+        {
+          "slug": null,
+          "name": "Natasha Butt"
+        },
+        {
+          "slug": null,
+          "name": "Ismail Labiad"
+        },
+        {
+          "slug": null,
+          "name": "Yann Ollivier"
+        }
+      ]
     },
     {
       "paperId": "9d317102e82a43db4c461976c4ec914a1e423e90",
@@ -88,7 +121,28 @@
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.18778",
       "citationCount": 15,
-      "coAuthors": []
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Shobhita Sundaram"
+        },
+        {
+          "slug": null,
+          "name": "John Quan"
+        },
+        {
+          "slug": null,
+          "name": "Ariel Kwiatkowski"
+        },
+        {
+          "slug": null,
+          "name": "Kartik Ahuja"
+        },
+        {
+          "slug": null,
+          "name": "Yann Ollivier"
+        }
+      ]
     },
     {
       "paperId": "b0d799e331b31b6c8d131b1cb590331268a5c48c",
@@ -97,7 +151,16 @@
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2510.21891",
       "citationCount": 1,
-      "coAuthors": []
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Dhrupad Bhardwaj"
+        },
+        {
+          "slug": null,
+          "name": "Tim G. J. Rudner"
+        }
+      ]
     },
     {
       "paperId": "f14e707fd9926b010350e45c37e8193bbf752a2c",
@@ -106,7 +169,76 @@
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2509.19170",
       "citationCount": 17,
-      "coAuthors": []
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Natasha Butt"
+        },
+        {
+          "slug": null,
+          "name": "Ariel Kwiatkowski"
+        },
+        {
+          "slug": null,
+          "name": "Ismail Labiad"
+        },
+        {
+          "slug": null,
+          "name": "Yann Ollivier"
+        }
+      ]
+    },
+    {
+      "paperId": "0fe8f2f55046ad0b8d6337f57a78466790923264",
+      "title": "Outcome-based Exploration for LLM Reasoning",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.06941",
+      "citationCount": 78,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yuda Song"
+        },
+        {
+          "slug": null,
+          "name": "Rémi Munos"
+        }
+      ]
+    },
+    {
+      "paperId": "c70ea55cb8740b8260bca874d9f0921c6a8aa319",
+      "title": "Tuning without Peeking: Provable Generalization Bounds and Robust LLM Post-Training",
+      "year": 2025,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/c70ea55cb8740b8260bca874d9f0921c6a8aa319",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ismail Labiad"
+        },
+        {
+          "slug": null,
+          "name": "Mathurin Videau"
+        },
+        {
+          "slug": null,
+          "name": "M. Kowalski"
+        },
+        {
+          "slug": null,
+          "name": "Marc Schoenauer"
+        },
+        {
+          "slug": null,
+          "name": "A. Leite"
+        },
+        {
+          "slug": null,
+          "name": "Olivier Teytaud"
+        }
+      ]
     }
   ],
   "topPublications": [
@@ -145,7 +277,100 @@
   "xPosts": [],
   "connections": {
     "coAuthors": [],
-    "externalCoAuthors": [],
+    "externalCoAuthors": [
+      {
+        "name": "Ariel Kwiatkowski",
+        "papers": 3
+      },
+      {
+        "name": "Ismail Labiad",
+        "papers": 3
+      },
+      {
+        "name": "Yann Ollivier",
+        "papers": 3
+      },
+      {
+        "name": "Rémi Munos",
+        "papers": 2
+      },
+      {
+        "name": "Natasha Butt",
+        "papers": 2
+      },
+      {
+        "name": "Nikolaos Tsilivis",
+        "papers": 1
+      },
+      {
+        "name": "Nirmit Joshi",
+        "papers": 1
+      },
+      {
+        "name": "Marko Medvedev",
+        "papers": 1
+      },
+      {
+        "name": "Nati Srebro",
+        "papers": 1
+      },
+      {
+        "name": "Charles Arnal",
+        "papers": 1
+      },
+      {
+        "name": "Vivien Cabannes",
+        "papers": 1
+      },
+      {
+        "name": "Taco Cohen",
+        "papers": 1
+      },
+      {
+        "name": "Shobhita Sundaram",
+        "papers": 1
+      },
+      {
+        "name": "John Quan",
+        "papers": 1
+      },
+      {
+        "name": "Kartik Ahuja",
+        "papers": 1
+      },
+      {
+        "name": "Dhrupad Bhardwaj",
+        "papers": 1
+      },
+      {
+        "name": "Tim G. J. Rudner",
+        "papers": 1
+      },
+      {
+        "name": "Yuda Song",
+        "papers": 1
+      },
+      {
+        "name": "Mathurin Videau",
+        "papers": 1
+      },
+      {
+        "name": "M. Kowalski",
+        "papers": 1
+      },
+      {
+        "name": "Marc Schoenauer",
+        "papers": 1
+      },
+      {
+        "name": "A. Leite",
+        "papers": 1
+      },
+      {
+        "name": "Olivier Teytaud",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "adithya-iyer",

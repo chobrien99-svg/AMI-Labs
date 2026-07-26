@@ -25,19 +25,297 @@
   ],
   "reportsTo": "saining-xie",
   "reports": [],
-  "papers": [],
-  "topPublications": [],
+  "papers": [
+    {
+      "paperId": "acb718a8659640ac1258d3bd391ddd9f1f2d7251",
+      "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.03276",
+      "citationCount": 18,
+      "coAuthors": [
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
+          "slug": null,
+          "name": "Shengbang Tong"
+        },
+        {
+          "slug": null,
+          "name": "Ellis Brown"
+        },
+        {
+          "slug": null,
+          "name": "Gaoyue Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Shengyi Qian"
+        },
+        {
+          "slug": null,
+          "name": "Boyang Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Th'eophane Vallaeys"
+        },
+        {
+          "slug": null,
+          "name": "Junlin Han"
+        },
+        {
+          "slug": null,
+          "name": "Rob Fergus"
+        },
+        {
+          "slug": null,
+          "name": "Naila Murray"
+        },
+        {
+          "slug": null,
+          "name": "Marjan Ghazvininejad"
+        },
+        {
+          "slug": null,
+          "name": "Mike Lewis"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Amir Bar"
+        },
+        {
+          "slug": null,
+          "name": "Jakob Verbeek"
+        },
+        {
+          "slug": null,
+          "name": "Luke S. Zettlemoyer"
+        },
+        {
+          "slug": null,
+          "name": "Koustuv Sinha"
+        }
+      ]
+    },
+    {
+      "paperId": "ff6752c7461f1a6bdeef485efa93cec0db788945",
+      "title": "Flowception: Temporally Expansive Flow Matching for Video Generation",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2512.11438",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tariq Berrada Ifriqi"
+        },
+        {
+          "slug": null,
+          "name": "Alahari Karteek"
+        },
+        {
+          "slug": null,
+          "name": "Jakob Verbeek"
+        },
+        {
+          "slug": null,
+          "name": "Ricky T. Q. Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "67315adc04c4934b4eade977be0cd4510b559d3d",
+      "title": "OneFlow: Concurrent Mixed-Modal and Interleaved Generation with Edit Flows",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2510.03506",
+      "citationCount": 13,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Marton Havasi"
+        },
+        {
+          "slug": null,
+          "name": "Tariq Berrada"
+        },
+        {
+          "slug": null,
+          "name": "Luke S. Zettlemoyer"
+        },
+        {
+          "slug": null,
+          "name": "Ricky T. Q. Chen"
+        }
+      ]
+    }
+  ],
+  "topPublications": [
+    {
+      "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+      "year": 2026,
+      "citationCount": 18,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.03276"
+    },
+    {
+      "title": "OneFlow: Concurrent Mixed-Modal and Interleaved Generation with Edit Flows",
+      "year": 2025,
+      "citationCount": 13,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2510.03506"
+    },
+    {
+      "title": "Flowception: Temporally Expansive Flow Matching for Video Generation",
+      "year": 2025,
+      "citationCount": 2,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2512.11438"
+    }
+  ],
   "githubProjects": [],
   "githubActivity": {
     "username": "JohnlNguyen",
     "githubUrl": "https://github.com/JohnlNguyen",
     "recentEventCount": 0
   },
-  "news": [],
+  "news": [
+    {
+      "title": "New Hire: John Nguyen Member of the Technical Staff",
+      "url": "https://ami.frenchtechjournal.com/team/john-nguyen",
+      "source": "The AMI Observatory",
+      "publishedAt": "2026-04-19"
+    }
+  ],
   "xPosts": [],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "david-fan",
+        "name": "David Fan",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "michael-rabbat",
+        "name": "Michael Rabbat",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "yann-lecun",
+        "name": "Yann LeCun",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "saining-xie",
+        "name": "Saining Xie",
+        "sharedPapers": 1
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "Jakob Verbeek",
+        "papers": 2
+      },
+      {
+        "name": "Luke S. Zettlemoyer",
+        "papers": 2
+      },
+      {
+        "name": "Ricky T. Q. Chen",
+        "papers": 2
+      },
+      {
+        "name": "Shengbang Tong",
+        "papers": 1
+      },
+      {
+        "name": "Ellis Brown",
+        "papers": 1
+      },
+      {
+        "name": "Gaoyue Zhou",
+        "papers": 1
+      },
+      {
+        "name": "Shengyi Qian",
+        "papers": 1
+      },
+      {
+        "name": "Boyang Zheng",
+        "papers": 1
+      },
+      {
+        "name": "Th'eophane Vallaeys",
+        "papers": 1
+      },
+      {
+        "name": "Junlin Han",
+        "papers": 1
+      },
+      {
+        "name": "Rob Fergus",
+        "papers": 1
+      },
+      {
+        "name": "Naila Murray",
+        "papers": 1
+      },
+      {
+        "name": "Marjan Ghazvininejad",
+        "papers": 1
+      },
+      {
+        "name": "Mike Lewis",
+        "papers": 1
+      },
+      {
+        "name": "Nicolas Ballas",
+        "papers": 1
+      },
+      {
+        "name": "Amir Bar",
+        "papers": 1
+      },
+      {
+        "name": "Koustuv Sinha",
+        "papers": 1
+      },
+      {
+        "name": "Tariq Berrada Ifriqi",
+        "papers": 1
+      },
+      {
+        "name": "Alahari Karteek",
+        "papers": 1
+      },
+      {
+        "name": "Marton Havasi",
+        "papers": 1
+      },
+      {
+        "name": "Tariq Berrada",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "adrien-bardes",

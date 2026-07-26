@@ -28,15 +28,587 @@
   ],
   "reportsTo": "min-lin",
   "reports": [],
-  "papers": [],
-  "topPublications": [],
+  "papers": [
+    {
+      "paperId": "3f633672ef74063e9c894659dca604c79434b3b1",
+      "title": "Rethinking the Trust Region in LLM Reinforcement Learning",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.04879",
+      "citationCount": 20,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Penghui Qi"
+        },
+        {
+          "slug": null,
+          "name": "Xiangxin Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Yan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Wee Sun Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "28a20096a624875ab0a182c836aabf42ead1c7fb",
+      "title": "Defeating the Training-Inference Mismatch via FP16",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2510.26788",
+      "citationCount": 50,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Penghui Qi"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Yan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Xiangxin Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Wee Sun Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "a0d2b6ff08845aa670b897f08a0d217c5e07d0f2",
+      "title": "Nonparametric Data Attribution for Diffusion Models",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2510.14269",
+      "citationCount": 3,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Yutian Zhao"
+        },
+        {
+          "slug": null,
+          "name": "Xiaosen Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        }
+      ]
+    },
+    {
+      "paperId": "51357ff32df3924f29e550aaf71c9882c2b99348",
+      "title": "Variational Reasoning for Language Models",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.22637",
+      "citationCount": 6,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Xiangxin Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Yan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Haonan Wang"
+        },
+        {
+          "slug": null,
+          "name": "Chongxuan Li"
+        },
+        {
+          "slug": null,
+          "name": "Liang Wang"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        }
+      ]
+    },
+    {
+      "paperId": "df0a07beb75eea9c71ca70344726e5c822974c40",
+      "title": "Language Models Can Learn from Verbal Feedback Without Scalar Rewards",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.22638",
+      "citationCount": 15,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Renjie Luo"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Yan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Xiangyan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Wenhu Chen"
+        },
+        {
+          "slug": null,
+          "name": "Wei Lu"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        }
+      ]
+    },
+    {
+      "paperId": "8d1a5fd439dd67f8a16859566b12a35f705f7c83",
+      "title": "Continual Reinforcement Learning by Planning with Online World Models",
+      "year": 2025,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2507.09177",
+      "citationCount": 11,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Yan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Guoji Fu"
+        },
+        {
+          "slug": null,
+          "name": "Wee Sun Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "853e540102e92f8150e14be5f7daf943f0a88194",
+      "title": "When Precision Meets Position: BFloat16 Breaks Down RoPE in Long-Context Training",
+      "year": 2025,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://www.semanticscholar.org/paper/853e540102e92f8150e14be5f7daf943f0a88194",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Haonan Wang"
+        },
+        {
+          "slug": null,
+          "name": "Qian Liu"
+        },
+        {
+          "slug": null,
+          "name": "Tongyao Zhu"
+        },
+        {
+          "slug": null,
+          "name": "Cunxiao Du"
+        },
+        {
+          "slug": null,
+          "name": "Kenji Kawaguchi"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        }
+      ]
+    },
+    {
+      "paperId": "24d9d00b91f99dde3c9a0ea5c79e63f2ed26151c",
+      "title": "Reinforcing General Reasoning without Verifiers",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2505.21493",
+      "citationCount": 71,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Xiangxin Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Yan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Anya Sims"
+        },
+        {
+          "slug": null,
+          "name": "Haonan Wang"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Chongxuan Li"
+        },
+        {
+          "slug": null,
+          "name": "Liang Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "97c44c9f6fa8da32dea71a7b593fe627a2e6748b",
+      "title": "Lifelong Safety Alignment for Language Models",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2505.20259",
+      "citationCount": 13,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Haoyu Wang"
+        },
+        {
+          "slug": null,
+          "name": "Zeyu Qin"
+        },
+        {
+          "slug": null,
+          "name": "Yifei Zhao"
+        },
+        {
+          "slug": null,
+          "name": "Xueqian Wang"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        }
+      ]
+    },
+    {
+      "paperId": "cce911c13b5f83db5a73252f78a4f82883e1ff5a",
+      "title": "QuickVideo: Real-Time Long Video Understanding with System Algorithm Co-Design",
+      "year": 2025,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2505.16175",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Benjamin Schneider"
+        },
+        {
+          "slug": null,
+          "name": "Dongfu Jiang"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Wenhu Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "2aae2dd79ef30022da59d8c33f0b3afa55d9c20d",
+      "title": "Efficient Diffusion Policies for Offline Reinforcement Learning",
+      "year": 2023,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2305.20081",
+      "citationCount": 184,
+      "coAuthors": [
+        {
+          "slug": "bingyi-kang",
+          "name": "Bingyi Kang"
+        },
+        {
+          "slug": null,
+          "name": "Xiao Ma"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Shuicheng Yan"
+        }
+      ]
+    },
+    {
+      "paperId": "0abd29e67b1e52e922660c315bcdeedd9b1eab7e",
+      "title": "Bag of Tricks for Training Data Extraction from Language Models",
+      "year": 2023,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2302.04460",
+      "citationCount": 95,
+      "coAuthors": [
+        {
+          "slug": "bingyi-kang",
+          "name": "Bingyi Kang"
+        },
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Weichen Yu"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Qian Liu"
+        },
+        {
+          "slug": null,
+          "name": "Yan Huang"
+        },
+        {
+          "slug": null,
+          "name": "Shuicheng Yan"
+        }
+      ]
+    }
+  ],
+  "topPublications": [
+    {
+      "title": "Rethinking the Trust Region in LLM Reinforcement Learning",
+      "year": 2026,
+      "citationCount": 20,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.04879"
+    },
+    {
+      "title": "Defeating the Training-Inference Mismatch via FP16",
+      "year": 2025,
+      "citationCount": 50,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2510.26788"
+    },
+    {
+      "title": "BanditSpec: Adaptive Speculative Decoding via Bandit Algorithms",
+      "year": 2025,
+      "citationCount": 13,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2505.15141"
+    },
+    {
+      "title": "Variational Reasoning for Language Models",
+      "year": 2025,
+      "citationCount": 6,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.22637"
+    },
+    {
+      "title": "Towards Learning on Vertically Partitioned Data with Distributed Differential Privacy",
+      "year": 2025,
+      "citationCount": 0,
+      "venue": "IEEE International Conference on Data Engineering",
+      "url": "https://doi.org/10.1109/ICDE65448.2025.00161"
+    }
+  ],
   "githubProjects": [],
   "githubActivity": null,
-  "news": [],
+  "news": [
+    {
+      "title": "New Hire: Chao Du, Member of the Technical Staff, Singapore",
+      "url": "https://ami.frenchtechjournal.com/team/chao-du",
+      "source": "The AMI Observatory",
+      "publishedAt": "2026-04-19"
+    }
+  ],
   "xPosts": [],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "min-lin",
+        "name": "Min Lin",
+        "sharedPapers": 9
+      },
+      {
+        "slug": "bingyi-kang",
+        "name": "Bingyi Kang",
+        "sharedPapers": 2
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "Tianyu Pang",
+        "papers": 11
+      },
+      {
+        "name": "Zi-Yan Liu",
+        "papers": 6
+      },
+      {
+        "name": "Xiangxin Zhou",
+        "papers": 4
+      },
+      {
+        "name": "Wee Sun Lee",
+        "papers": 3
+      },
+      {
+        "name": "Haonan Wang",
+        "papers": 3
+      },
+      {
+        "name": "Penghui Qi",
+        "papers": 2
+      },
+      {
+        "name": "Chongxuan Li",
+        "papers": 2
+      },
+      {
+        "name": "Liang Wang",
+        "papers": 2
+      },
+      {
+        "name": "Wenhu Chen",
+        "papers": 2
+      },
+      {
+        "name": "Qian Liu",
+        "papers": 2
+      },
+      {
+        "name": "Shuicheng Yan",
+        "papers": 2
+      },
+      {
+        "name": "Yutian Zhao",
+        "papers": 1
+      },
+      {
+        "name": "Xiaosen Zheng",
+        "papers": 1
+      },
+      {
+        "name": "Renjie Luo",
+        "papers": 1
+      },
+      {
+        "name": "Xiangyan Liu",
+        "papers": 1
+      },
+      {
+        "name": "Wei Lu",
+        "papers": 1
+      },
+      {
+        "name": "Guoji Fu",
+        "papers": 1
+      },
+      {
+        "name": "Tongyao Zhu",
+        "papers": 1
+      },
+      {
+        "name": "Cunxiao Du",
+        "papers": 1
+      },
+      {
+        "name": "Kenji Kawaguchi",
+        "papers": 1
+      },
+      {
+        "name": "Anya Sims",
+        "papers": 1
+      },
+      {
+        "name": "Haoyu Wang",
+        "papers": 1
+      },
+      {
+        "name": "Zeyu Qin",
+        "papers": 1
+      },
+      {
+        "name": "Yifei Zhao",
+        "papers": 1
+      },
+      {
+        "name": "Xueqian Wang",
+        "papers": 1
+      },
+      {
+        "name": "Benjamin Schneider",
+        "papers": 1
+      },
+      {
+        "name": "Dongfu Jiang",
+        "papers": 1
+      },
+      {
+        "name": "Xiao Ma",
+        "papers": 1
+      },
+      {
+        "name": "Weichen Yu",
+        "papers": 1
+      },
+      {
+        "name": "Yan Huang",
+        "papers": 1
+      }
+    ],
     "formerColleagues": []
   }
 }

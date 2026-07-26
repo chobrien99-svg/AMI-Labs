@@ -44,95 +44,826 @@
   ],
   "papers": [
     {
-      "paperId": "3a638cbb42b5f388d57063059eaaae23d57b9b95",
-      "title": "Plan, Watch, Recover: A Benchmark and Architectures for Proactive Procedural Assistance",
-      "year": 2026,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/3a638cbb42b5f388d57063059eaaae23d57b9b95",
-      "citationCount": 0,
-      "coAuthors": []
-    },
-    {
-      "paperId": "ad3040d17ed4b21c2c5f1b6a351e5ca5b56ea33c",
-      "title": "Reward Prediction with Factorized World States",
+      "paperId": "b8ed5bdadb1cd0fa2ccb329c135d5e57c3742de0",
+      "title": "Action100M: A Large-scale Video Action Dataset",
       "year": 2026,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2603.09400",
-      "citationCount": 1,
-      "coAuthors": []
+      "url": "https://doi.org/10.48550/arXiv.2601.10592",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        },
+        {
+          "slug": null,
+          "name": "Tejaswi Kasarla"
+        },
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Mustafa Shukor"
+        },
+        {
+          "slug": null,
+          "name": "Jade Yu"
+        },
+        {
+          "slug": null,
+          "name": "A. Bolourchi"
+        },
+        {
+          "slug": null,
+          "name": "Théo Moutakanni"
+        }
+      ]
     },
     {
-      "paperId": "d7630a918b68e6281318e0106dfe7bdacdb7161c",
-      "title": "International AI Safety Report",
+      "paperId": "6e82aaa7a4fb2e062a2b41d447a4bf82ab08dc52",
+      "title": "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language",
       "year": 2025,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2501.17805",
-      "citationCount": 84,
-      "coAuthors": []
+      "url": "https://doi.org/10.48550/arXiv.2512.10942",
+      "citationCount": 46,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Mustafa Shukor"
+        },
+        {
+          "slug": null,
+          "name": "Théo Moutakanni"
+        },
+        {
+          "slug": null,
+          "name": "Jade Yu"
+        },
+        {
+          "slug": null,
+          "name": "Tejaswi Kasarla"
+        },
+        {
+          "slug": null,
+          "name": "A. Bolourchi"
+        }
+      ]
     },
     {
-      "paperId": "4d44f9ce850fd1ad976af1a7cf8a4a0d80de4334",
-      "title": "International Scientific Report on the Safety of Advanced AI (Interim Report)",
-      "year": 2024,
+      "paperId": "4eb0b4ee1586a81581f6155c5e9149ec28131a1c",
+      "title": "Planning with Reasoning using Vision Language World Model",
+      "year": 2025,
       "venue": "arXiv.org",
-      "url": "https://www.semanticscholar.org/paper/4d44f9ce850fd1ad976af1a7cf8a4a0d80de4334",
-      "citationCount": 50,
-      "coAuthors": []
+      "url": "https://doi.org/10.48550/arXiv.2509.02722",
+      "citationCount": 31,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        },
+        {
+          "slug": null,
+          "name": "Théo Moutakanni"
+        },
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Ji"
+        },
+        {
+          "slug": null,
+          "name": "A. Bolourchi"
+        }
+      ]
     },
     {
-      "paperId": "d75e16896cc50b720cea864d50b3173a2d053524",
-      "title": "Flatness-Aware Gradient Descent for Safe Conversational AI",
+      "paperId": "121d34fe66a35ef11e408de4119477971ee6e2cc",
+      "title": "Embodied AI Agents: Modeling the World",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.22355",
+      "citationCount": 77,
+      "coAuthors": [
+        {
+          "slug": "basile-terver",
+          "name": "Basile Terver"
+        },
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        },
+        {
+          "slug": null,
+          "name": "Yoram Bachrach"
+        },
+        {
+          "slug": null,
+          "name": "Asli Celikyilmaz"
+        },
+        {
+          "slug": null,
+          "name": "Kamalika Chaudhuri"
+        },
+        {
+          "slug": null,
+          "name": "Emmanuel Dupoux"
+        },
+        {
+          "slug": null,
+          "name": "Hervé Jégou"
+        },
+        {
+          "slug": null,
+          "name": "A. Lazaric"
+        },
+        {
+          "slug": null,
+          "name": "Arjun Majumdar"
+        },
+        {
+          "slug": null,
+          "name": "Andrea Madotto"
+        },
+        {
+          "slug": null,
+          "name": "Franziska Meier"
+        },
+        {
+          "slug": null,
+          "name": "Florian Metze"
+        },
+        {
+          "slug": null,
+          "name": "Théo Moutakanni"
+        },
+        {
+          "slug": null,
+          "name": "Juan Pino"
+        },
+        {
+          "slug": null,
+          "name": "Joseph Tighe"
+        },
+        {
+          "slug": null,
+          "name": "J. Malik"
+        }
+      ]
+    },
+    {
+      "paperId": "bffdca2a8f44e13e7144527799bb9077d06259fe",
+      "title": "WorldPrediction: A Benchmark for High-level World Modeling and Long-horizon Procedural Planning",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.04363",
+      "citationCount": 14,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        },
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Ji"
+        }
+      ]
+    },
+    {
+      "paperId": "80945e0f3e60df0ee545caa665aad1b78123ff4a",
+      "title": "What Makes for Good Image Captions?",
       "year": 2024,
-      "venue": "TRUSTNLP",
-      "url": "https://doi.org/10.18653/v1/2024.trustnlp-1.15",
-      "citationCount": 0,
-      "coAuthors": []
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.18653/v1/2025.findings-emnlp.75",
+      "citationCount": 13,
+      "coAuthors": [
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Etsuko Ishii"
+        },
+        {
+          "slug": null,
+          "name": "Ho Shu Chan"
+        },
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        }
+      ]
+    },
+    {
+      "paperId": "8ddd669fad4272223ec94f3cbdfd8d67876a60b5",
+      "title": "High-Dimension Human Value Representation in Large Language Models",
+      "year": 2024,
+      "venue": "North American Chapter of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2404.07900",
+      "citationCount": 20,
+      "coAuthors": [
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Leila Khalatbari"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Wilie"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Ji"
+        },
+        {
+          "slug": null,
+          "name": "Etsuko Ishii"
+        }
+      ]
+    },
+    {
+      "paperId": "f04e6bb8108cf191c88c461b5f367cd3ec336ebc",
+      "title": "Cendol: Open Instruction-tuned Generative Large Language Models for Indonesian Languages",
+      "year": 2024,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2404.06138",
+      "citationCount": 30,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Fajri Koto"
+        },
+        {
+          "slug": null,
+          "name": "Rifki Afina Putri"
+        },
+        {
+          "slug": null,
+          "name": "Emmanuel Dave"
+        },
+        {
+          "slug": null,
+          "name": "Jhonson Lee"
+        },
+        {
+          "slug": null,
+          "name": "Nuur Shadieq"
+        },
+        {
+          "slug": null,
+          "name": "Wawan Cenggoro"
+        },
+        {
+          "slug": null,
+          "name": "Salsabil Maulana Akbar"
+        },
+        {
+          "slug": null,
+          "name": "M. Mahendra"
+        },
+        {
+          "slug": null,
+          "name": "Dea Annisayanti Putri"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Wilie"
+        },
+        {
+          "slug": null,
+          "name": "Genta Indra Winata"
+        },
+        {
+          "slug": null,
+          "name": "Alham Fikri Aji"
+        },
+        {
+          "slug": null,
+          "name": "Ayu Purwarianti"
+        }
+      ]
+    },
+    {
+      "paperId": "8f77307a394f006633c27cca56a345c0879eb67c",
+      "title": "Measuring Political Bias in Large Language Models: What Is Said and How It Is Said",
+      "year": 2024,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2403.18932",
+      "citationCount": 132,
+      "coAuthors": [
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        },
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Nayeon Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "4c01dfec69f5d55daae00b668665e94eb9da7f39",
+      "title": "LLMs Are Few-Shot In-Context Low-Resource Language Learners",
+      "year": 2024,
+      "venue": "North American Chapter of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2403.16512",
+      "citationCount": 112,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        }
+      ]
+    },
+    {
+      "paperId": "d46c6507a7b40920d378ac4bdf1c52b6e09d05a3",
+      "title": "Subobject-level Image Tokenization",
+      "year": 2024,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2402.14327",
+      "citationCount": 23,
+      "coAuthors": [
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Jianfeng Liu"
+        },
+        {
+          "slug": null,
+          "name": "Baoyuan Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "99f7bd216214b22c22974142fd558ce554f518b8",
+      "title": "Contrastive Learning for Inference in Dialogue",
+      "year": 2023,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.48550/arXiv.2310.12467",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": null,
+          "name": "Etsuko Ishii"
+        },
+        {
+          "slug": null,
+          "name": "Yan Xu"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Wilie"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Ji"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        }
+      ]
+    },
+    {
+      "paperId": "1fcffc771fdebb50682d3aad716b955ef0e72fe3",
+      "title": "InstructTODS: Large Language Models for End-to-End Task-Oriented Dialogue Systems",
+      "year": 2023,
+      "venue": "NLINT",
+      "url": "https://doi.org/10.48550/arXiv.2310.08885",
+      "citationCount": 14,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Wilie"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        }
+      ]
+    },
+    {
+      "paperId": "cd2e04598909158494e556823d9de8baa692cee2",
+      "title": "Towards Mitigating Hallucination in Large Language Models via Self-Reflection",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2310.06271",
+      "citationCount": 117,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ziwei Ji"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        },
+        {
+          "slug": null,
+          "name": "Yan Xu"
+        },
+        {
+          "slug": null,
+          "name": "Nayeon Lee"
+        },
+        {
+          "slug": null,
+          "name": "Etsuko Ishii"
+        }
+      ]
+    },
+    {
+      "paperId": "c36d7bc6adeee7d16df1194c44cb66c48c9ae681",
+      "title": "Negative Object Presence Evaluation (NOPE) to Measure Object Hallucination in Vision-Language Models",
+      "year": 2023,
+      "venue": "ALVR",
+      "url": "https://doi.org/10.48550/arXiv.2310.05338",
+      "citationCount": 92,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Wenliang Dai"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Ji"
+        }
+      ]
+    },
+    {
+      "paperId": "b210cd21ffd5e7d82daa838a844e56e35d26fe74",
+      "title": "PICK: Polished & Informed Candidate Scoring for Knowledge-Grounded Dialogue Systems",
+      "year": 2023,
+      "venue": "International Joint Conference on Natural Language Processing",
+      "url": "https://doi.org/10.48550/arXiv.2309.10413",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Wilie"
+        },
+        {
+          "slug": null,
+          "name": "Yan Xu"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        }
+      ]
     }
   ],
   "topPublications": [
     {
-      "title": "Plan, Watch, Recover: A Benchmark and Architectures for Proactive Procedural Assistance",
-      "year": 2026,
-      "citationCount": 0,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/3a638cbb42b5f388d57063059eaaae23d57b9b95"
-    },
-    {
-      "title": "Reward Prediction with Factorized World States",
-      "year": 2026,
-      "citationCount": 1,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2603.09400"
-    },
-    {
-      "title": "International AI Safety Report",
-      "year": 2025,
-      "citationCount": 84,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2501.17805"
-    },
-    {
-      "title": "International Scientific Report on the Safety of Advanced AI (Interim Report)",
+      "title": "LLMs Are Few-Shot In-Context Low-Resource Language Learners",
       "year": 2024,
-      "citationCount": 50,
-      "venue": "arXiv.org",
-      "url": "https://www.semanticscholar.org/paper/4d44f9ce850fd1ad976af1a7cf8a4a0d80de4334"
+      "citationCount": 112,
+      "venue": "North American Chapter of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2403.16512"
     },
     {
-      "title": "Flatness-Aware Gradient Descent for Safe Conversational AI",
+      "title": "Subobject-level Image Tokenization",
       "year": 2024,
-      "citationCount": 0,
-      "venue": "TRUSTNLP",
-      "url": "https://doi.org/10.18653/v1/2024.trustnlp-1.15"
+      "citationCount": 23,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2402.14327"
+    },
+    {
+      "title": "Cendol: Open Instruction-tuned Generative Large Language Models for Indonesian Languages",
+      "year": 2024,
+      "citationCount": 30,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2404.06138"
+    },
+    {
+      "title": "InstructTODS: Large Language Models for End-to-End Task-Oriented Dialogue Systems",
+      "year": 2023,
+      "citationCount": 14,
+      "venue": "NLINT",
+      "url": "https://doi.org/10.48550/arXiv.2310.08885"
+    },
+    {
+      "title": "Diverse and Faithful Knowledge-Grounded Dialogue Generation via Sequential Posterior Inference",
+      "year": 2023,
+      "citationCount": 9,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2306.01153"
     }
   ],
   "githubProjects": [],
   "githubActivity": null,
   "news": [],
-  "xPosts": [],
+  "xPosts": [
+    {
+      "text": "Speaking from my American experience only here. Some people complain about large industry funded research. Don’t forget that almost all of paradigm changing research that led to modern AI came from either large industry labs - Bell Lab, IBM Labs, Xerox Parc, Microsoft, Google,",
+      "url": "https://x.com/pascalefung/status/2078409080763289953",
+      "createdAt": "2026-07-18T09:18:34.000Z"
+    }
+  ],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "delong-chen",
+        "name": "Delong Chen",
+        "sharedPapers": 9
+      },
+      {
+        "slug": "willy-chung",
+        "name": "Willy Chung",
+        "sharedPapers": 8
+      },
+      {
+        "slug": "yann-lecun",
+        "name": "Yann LeCun",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "basile-terver",
+        "name": "Basile Terver",
+        "sharedPapers": 1
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "Samuel Cahyawijaya",
+        "papers": 8
+      },
+      {
+        "name": "Yejin Bang",
+        "papers": 6
+      },
+      {
+        "name": "Ziwei Ji",
+        "papers": 6
+      },
+      {
+        "name": "Holy Lovenia",
+        "papers": 6
+      },
+      {
+        "name": "Bryan Wilie",
+        "papers": 5
+      },
+      {
+        "name": "Théo Moutakanni",
+        "papers": 4
+      },
+      {
+        "name": "Etsuko Ishii",
+        "papers": 4
+      },
+      {
+        "name": "A. Bolourchi",
+        "papers": 3
+      },
+      {
+        "name": "Yan Xu",
+        "papers": 3
+      },
+      {
+        "name": "Tejaswi Kasarla",
+        "papers": 2
+      },
+      {
+        "name": "Mustafa Shukor",
+        "papers": 2
+      },
+      {
+        "name": "Jade Yu",
+        "papers": 2
+      },
+      {
+        "name": "Nayeon Lee",
+        "papers": 2
+      },
+      {
+        "name": "Yoram Bachrach",
+        "papers": 1
+      },
+      {
+        "name": "Asli Celikyilmaz",
+        "papers": 1
+      },
+      {
+        "name": "Kamalika Chaudhuri",
+        "papers": 1
+      },
+      {
+        "name": "Emmanuel Dupoux",
+        "papers": 1
+      },
+      {
+        "name": "Hervé Jégou",
+        "papers": 1
+      },
+      {
+        "name": "A. Lazaric",
+        "papers": 1
+      },
+      {
+        "name": "Arjun Majumdar",
+        "papers": 1
+      },
+      {
+        "name": "Andrea Madotto",
+        "papers": 1
+      },
+      {
+        "name": "Franziska Meier",
+        "papers": 1
+      },
+      {
+        "name": "Florian Metze",
+        "papers": 1
+      },
+      {
+        "name": "Juan Pino",
+        "papers": 1
+      },
+      {
+        "name": "Joseph Tighe",
+        "papers": 1
+      },
+      {
+        "name": "J. Malik",
+        "papers": 1
+      },
+      {
+        "name": "Ho Shu Chan",
+        "papers": 1
+      },
+      {
+        "name": "Leila Khalatbari",
+        "papers": 1
+      },
+      {
+        "name": "Fajri Koto",
+        "papers": 1
+      },
+      {
+        "name": "Rifki Afina Putri",
+        "papers": 1
+      },
+      {
+        "name": "Emmanuel Dave",
+        "papers": 1
+      },
+      {
+        "name": "Jhonson Lee",
+        "papers": 1
+      },
+      {
+        "name": "Nuur Shadieq",
+        "papers": 1
+      },
+      {
+        "name": "Wawan Cenggoro",
+        "papers": 1
+      },
+      {
+        "name": "Salsabil Maulana Akbar",
+        "papers": 1
+      },
+      {
+        "name": "M. Mahendra",
+        "papers": 1
+      },
+      {
+        "name": "Dea Annisayanti Putri",
+        "papers": 1
+      },
+      {
+        "name": "Genta Indra Winata",
+        "papers": 1
+      },
+      {
+        "name": "Alham Fikri Aji",
+        "papers": 1
+      },
+      {
+        "name": "Ayu Purwarianti",
+        "papers": 1
+      },
+      {
+        "name": "Jianfeng Liu",
+        "papers": 1
+      },
+      {
+        "name": "Baoyuan Wang",
+        "papers": 1
+      },
+      {
+        "name": "Tiezheng Yu",
+        "papers": 1
+      },
+      {
+        "name": "Wenliang Dai",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "adrien-bardes",

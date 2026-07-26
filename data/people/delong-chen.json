@@ -33,13 +33,260 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "b8ed5bdadb1cd0fa2ccb329c135d5e57c3742de0",
+      "title": "Action100M: A Large-scale Video Action Dataset",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.10592",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        },
+        {
+          "slug": null,
+          "name": "Tejaswi Kasarla"
+        },
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Mustafa Shukor"
+        },
+        {
+          "slug": null,
+          "name": "Jade Yu"
+        },
+        {
+          "slug": null,
+          "name": "A. Bolourchi"
+        },
+        {
+          "slug": null,
+          "name": "Théo Moutakanni"
+        }
+      ]
+    },
+    {
+      "paperId": "6e82aaa7a4fb2e062a2b41d447a4bf82ab08dc52",
+      "title": "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2512.10942",
+      "citationCount": 46,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        },
+        {
+          "slug": null,
+          "name": "Mustafa Shukor"
+        },
+        {
+          "slug": null,
+          "name": "Théo Moutakanni"
+        },
+        {
+          "slug": null,
+          "name": "Jade Yu"
+        },
+        {
+          "slug": null,
+          "name": "Tejaswi Kasarla"
+        },
+        {
+          "slug": null,
+          "name": "A. Bolourchi"
+        }
+      ]
+    },
+    {
+      "paperId": "4eb0b4ee1586a81581f6155c5e9149ec28131a1c",
+      "title": "Planning with Reasoning using Vision Language World Model",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.02722",
+      "citationCount": 31,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        },
+        {
+          "slug": null,
+          "name": "Théo Moutakanni"
+        },
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Ji"
+        },
+        {
+          "slug": null,
+          "name": "A. Bolourchi"
+        }
+      ]
+    },
+    {
+      "paperId": "121d34fe66a35ef11e408de4119477971ee6e2cc",
+      "title": "Embodied AI Agents: Modeling the World",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.22355",
+      "citationCount": 77,
+      "coAuthors": [
+        {
+          "slug": "basile-terver",
+          "name": "Basile Terver"
+        },
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        },
+        {
+          "slug": null,
+          "name": "Yoram Bachrach"
+        },
+        {
+          "slug": null,
+          "name": "Asli Celikyilmaz"
+        },
+        {
+          "slug": null,
+          "name": "Kamalika Chaudhuri"
+        },
+        {
+          "slug": null,
+          "name": "Emmanuel Dupoux"
+        },
+        {
+          "slug": null,
+          "name": "Hervé Jégou"
+        },
+        {
+          "slug": null,
+          "name": "A. Lazaric"
+        },
+        {
+          "slug": null,
+          "name": "Arjun Majumdar"
+        },
+        {
+          "slug": null,
+          "name": "Andrea Madotto"
+        },
+        {
+          "slug": null,
+          "name": "Franziska Meier"
+        },
+        {
+          "slug": null,
+          "name": "Florian Metze"
+        },
+        {
+          "slug": null,
+          "name": "Théo Moutakanni"
+        },
+        {
+          "slug": null,
+          "name": "Juan Pino"
+        },
+        {
+          "slug": null,
+          "name": "Joseph Tighe"
+        },
+        {
+          "slug": null,
+          "name": "J. Malik"
+        }
+      ]
+    },
+    {
+      "paperId": "bffdca2a8f44e13e7144527799bb9077d06259fe",
+      "title": "WorldPrediction: A Benchmark for High-level World Modeling and Long-horizon Procedural Planning",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.04363",
+      "citationCount": 14,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        },
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Ji"
+        }
+      ]
+    },
+    {
       "paperId": "ef2cb2427e5b6768a809f1da243ae00a0d2ee0ea",
       "title": "Chain-of-Talkers (CoTalk): Fast Human Annotation of Dense Image Captions",
       "year": 2025,
       "venue": "Conference on Empirical Methods in Natural Language Processing",
       "url": "https://doi.org/10.48550/arXiv.2505.22627",
       "citationCount": 1,
-      "coAuthors": []
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yijun Shen"
+        },
+        {
+          "slug": null,
+          "name": "Fan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Xingyu Wang"
+        },
+        {
+          "slug": null,
+          "name": "Chuanyi Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Liang Yao"
+        },
+        {
+          "slug": null,
+          "name": "Yuhui Zheng"
+        }
+      ]
     },
     {
       "paperId": "ef03e180f8e0d46b9d5044a889103d8bb680e899",
@@ -47,8 +294,41 @@
       "year": 2025,
       "venue": "ACM Multimedia",
       "url": "https://doi.org/10.1145/3746027.3754950",
-      "citationCount": 57,
-      "coAuthors": []
+      "citationCount": 58,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Liang Yao"
+        },
+        {
+          "slug": null,
+          "name": "Fan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Chuanyi Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Yijun Wang"
+        },
+        {
+          "slug": null,
+          "name": "Ziyun Chen"
+        },
+        {
+          "slug": null,
+          "name": "Wei Xu"
+        },
+        {
+          "slug": null,
+          "name": "Shimin Di"
+        },
+        {
+          "slug": null,
+          "name": "Yuhui Zheng"
+        }
+      ]
     },
     {
       "paperId": "c0c70fee50c4dc087d6e812b74b6761787b9b4d6",
@@ -57,7 +337,24 @@
       "venue": "IEEE transactions on circuits and systems for video technology (Print)",
       "url": "https://doi.org/10.1109/TCSVT.2024.3432596",
       "citationCount": 1,
-      "coAuthors": []
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Sai Yang"
+        },
+        {
+          "slug": null,
+          "name": "Fan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Huaxi Huang"
+        },
+        {
+          "slug": null,
+          "name": "Jun Zhou"
+        }
+      ]
     },
     {
       "paperId": "f7135dca58bf8c6131ff2fbb708eac887a262640",
@@ -66,7 +363,32 @@
       "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
       "url": "https://doi.org/10.1109/ICASSP49660.2025.10889192",
       "citationCount": 6,
-      "coAuthors": []
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Shiyu Miao"
+        },
+        {
+          "slug": null,
+          "name": "Fan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Chuanyi Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Yanhui Gu"
+        },
+        {
+          "slug": null,
+          "name": "Shengjie Guo"
+        },
+        {
+          "slug": null,
+          "name": "Jun Zhou"
+        }
+      ]
     },
     {
       "paperId": "697aad9ef06add41b7f25e7bc671976c48ac68ad",
@@ -75,7 +397,28 @@
       "venue": "AAAI Conference on Artificial Intelligence",
       "url": "https://doi.org/10.48550/arXiv.2408.11297",
       "citationCount": 8,
-      "coAuthors": []
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Fan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Wenwen Cai"
+        },
+        {
+          "slug": null,
+          "name": "Jian Huo"
+        },
+        {
+          "slug": null,
+          "name": "Chuanyi Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Jun Zhou"
+        }
+      ]
     },
     {
       "paperId": "80945e0f3e60df0ee545caa665aad1b78123ff4a",
@@ -84,7 +427,28 @@
       "venue": "Conference on Empirical Methods in Natural Language Processing",
       "url": "https://doi.org/10.18653/v1/2025.findings-emnlp.75",
       "citationCount": 13,
-      "coAuthors": []
+      "coAuthors": [
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Etsuko Ishii"
+        },
+        {
+          "slug": null,
+          "name": "Ho Shu Chan"
+        },
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        }
+      ]
     },
     {
       "paperId": "8ddd669fad4272223ec94f3cbdfd8d67876a60b5",
@@ -93,7 +457,36 @@
       "venue": "North American Chapter of the Association for Computational Linguistics",
       "url": "https://doi.org/10.48550/arXiv.2404.07900",
       "citationCount": 20,
-      "coAuthors": []
+      "coAuthors": [
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Leila Khalatbari"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Wilie"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Ji"
+        },
+        {
+          "slug": null,
+          "name": "Etsuko Ishii"
+        }
+      ]
     },
     {
       "paperId": "8f77307a394f006633c27cca56a345c0879eb67c",
@@ -101,15 +494,54 @@
       "year": 2024,
       "venue": "Annual Meeting of the Association for Computational Linguistics",
       "url": "https://doi.org/10.48550/arXiv.2403.18932",
-      "citationCount": 128,
-      "coAuthors": []
+      "citationCount": 132,
+      "coAuthors": [
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        },
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Nayeon Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "d46c6507a7b40920d378ac4bdf1c52b6e09d05a3",
+      "title": "Subobject-level Image Tokenization",
+      "year": 2024,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2402.14327",
+      "citationCount": 23,
+      "coAuthors": [
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Jianfeng Liu"
+        },
+        {
+          "slug": null,
+          "name": "Baoyuan Wang"
+        }
+      ]
     }
   ],
   "topPublications": [
     {
       "title": "RemoteSAM: Towards Segment Anything for Earth Observation",
       "year": 2025,
-      "citationCount": 57,
+      "citationCount": 58,
       "venue": "ACM Multimedia",
       "url": "https://doi.org/10.1145/3746027.3754950"
     },
@@ -151,8 +583,214 @@
   "news": [],
   "xPosts": [],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "pascale-fung",
+        "name": "Pascale Fung",
+        "sharedPapers": 9
+      },
+      {
+        "slug": "willy-chung",
+        "name": "Willy Chung",
+        "sharedPapers": 5
+      },
+      {
+        "slug": "yann-lecun",
+        "name": "Yann LeCun",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "basile-terver",
+        "name": "Basile Terver",
+        "sharedPapers": 1
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "Yejin Bang",
+        "papers": 6
+      },
+      {
+        "name": "Fan Liu",
+        "papers": 5
+      },
+      {
+        "name": "Théo Moutakanni",
+        "papers": 4
+      },
+      {
+        "name": "Chuanyi Zhang",
+        "papers": 4
+      },
+      {
+        "name": "A. Bolourchi",
+        "papers": 3
+      },
+      {
+        "name": "Ziwei Ji",
+        "papers": 3
+      },
+      {
+        "name": "Jun Zhou",
+        "papers": 3
+      },
+      {
+        "name": "Samuel Cahyawijaya",
+        "papers": 3
+      },
+      {
+        "name": "Tejaswi Kasarla",
+        "papers": 2
+      },
+      {
+        "name": "Mustafa Shukor",
+        "papers": 2
+      },
+      {
+        "name": "Jade Yu",
+        "papers": 2
+      },
+      {
+        "name": "Liang Yao",
+        "papers": 2
+      },
+      {
+        "name": "Yuhui Zheng",
+        "papers": 2
+      },
+      {
+        "name": "Etsuko Ishii",
+        "papers": 2
+      },
+      {
+        "name": "Yoram Bachrach",
+        "papers": 1
+      },
+      {
+        "name": "Asli Celikyilmaz",
+        "papers": 1
+      },
+      {
+        "name": "Kamalika Chaudhuri",
+        "papers": 1
+      },
+      {
+        "name": "Emmanuel Dupoux",
+        "papers": 1
+      },
+      {
+        "name": "Hervé Jégou",
+        "papers": 1
+      },
+      {
+        "name": "A. Lazaric",
+        "papers": 1
+      },
+      {
+        "name": "Arjun Majumdar",
+        "papers": 1
+      },
+      {
+        "name": "Andrea Madotto",
+        "papers": 1
+      },
+      {
+        "name": "Franziska Meier",
+        "papers": 1
+      },
+      {
+        "name": "Florian Metze",
+        "papers": 1
+      },
+      {
+        "name": "Juan Pino",
+        "papers": 1
+      },
+      {
+        "name": "Joseph Tighe",
+        "papers": 1
+      },
+      {
+        "name": "J. Malik",
+        "papers": 1
+      },
+      {
+        "name": "Yijun Shen",
+        "papers": 1
+      },
+      {
+        "name": "Xingyu Wang",
+        "papers": 1
+      },
+      {
+        "name": "Yijun Wang",
+        "papers": 1
+      },
+      {
+        "name": "Ziyun Chen",
+        "papers": 1
+      },
+      {
+        "name": "Wei Xu",
+        "papers": 1
+      },
+      {
+        "name": "Shimin Di",
+        "papers": 1
+      },
+      {
+        "name": "Sai Yang",
+        "papers": 1
+      },
+      {
+        "name": "Huaxi Huang",
+        "papers": 1
+      },
+      {
+        "name": "Shiyu Miao",
+        "papers": 1
+      },
+      {
+        "name": "Yanhui Gu",
+        "papers": 1
+      },
+      {
+        "name": "Shengjie Guo",
+        "papers": 1
+      },
+      {
+        "name": "Wenwen Cai",
+        "papers": 1
+      },
+      {
+        "name": "Jian Huo",
+        "papers": 1
+      },
+      {
+        "name": "Ho Shu Chan",
+        "papers": 1
+      },
+      {
+        "name": "Leila Khalatbari",
+        "papers": 1
+      },
+      {
+        "name": "Bryan Wilie",
+        "papers": 1
+      },
+      {
+        "name": "Nayeon Lee",
+        "papers": 1
+      },
+      {
+        "name": "Jianfeng Liu",
+        "papers": 1
+      },
+      {
+        "name": "Baoyuan Wang",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "adrien-bardes",

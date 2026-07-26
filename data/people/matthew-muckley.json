@@ -29,19 +29,626 @@
   ],
   "reportsTo": "saining-xie",
   "reports": [],
-  "papers": [],
-  "topPublications": [],
+  "papers": [
+    {
+      "paperId": "42ca8bd0ae408eff0d3bd9f5e121f792876e83ea",
+      "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.14482",
+      "citationCount": 47,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Lorenzo Mur-Labadia"
+        },
+        {
+          "slug": null,
+          "name": "Amir Bar"
+        },
+        {
+          "slug": null,
+          "name": "Mido Assran"
+        },
+        {
+          "slug": null,
+          "name": "Koustuv Sinha"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        }
+      ]
+    },
+    {
+      "paperId": "b202faf38efbffcb26470c702e1140b047d6f6e7",
+      "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.09985",
+      "citationCount": 537,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
+        },
+        {
+          "slug": "quentin-garrido",
+          "name": "Quentin Garrido"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Mahmoud Assran"
+        },
+        {
+          "slug": null,
+          "name": "Russell Howes"
+        },
+        {
+          "slug": null,
+          "name": "Mojtaba Komeili"
+        },
+        {
+          "slug": null,
+          "name": "Ammar Rizvi"
+        },
+        {
+          "slug": null,
+          "name": "Claire Roberts"
+        },
+        {
+          "slug": null,
+          "name": "Koustuv Sinha"
+        },
+        {
+          "slug": null,
+          "name": "Artem Zholus"
+        },
+        {
+          "slug": null,
+          "name": "Sergio Arnaud"
+        },
+        {
+          "slug": null,
+          "name": "Abha Gejji"
+        },
+        {
+          "slug": null,
+          "name": "Ada Martin"
+        },
+        {
+          "slug": null,
+          "name": "Francois Hogan"
+        },
+        {
+          "slug": null,
+          "name": "Daniel Dugas"
+        },
+        {
+          "slug": null,
+          "name": "Piotr Bojanowski"
+        },
+        {
+          "slug": null,
+          "name": "Vasil Khalidov"
+        },
+        {
+          "slug": null,
+          "name": "Patrick Labatut"
+        },
+        {
+          "slug": null,
+          "name": "Francisco Massa"
+        },
+        {
+          "slug": null,
+          "name": "Marc Szafraniec"
+        },
+        {
+          "slug": null,
+          "name": "K. Krishnakumar"
+        },
+        {
+          "slug": null,
+          "name": "Yong Li"
+        },
+        {
+          "slug": null,
+          "name": "Xiaodong Ma"
+        },
+        {
+          "slug": null,
+          "name": "Sarath Chandar"
+        },
+        {
+          "slug": null,
+          "name": "Franziska Meier"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Fair at Meta"
+        },
+        {
+          "slug": null,
+          "name": "M. Québec"
+        },
+        {
+          "slug": null,
+          "name": "AI Institute"
+        },
+        {
+          "slug": null,
+          "name": "P. Montr'eal"
+        }
+      ]
+    },
+    {
+      "paperId": "a59f06bdda22df7474e93428239be38f2cdaf6ac",
+      "title": "Exact Byte-Level Probabilities from Tokenized Language Models for FIM-Tasks and Model Ensembles",
+      "year": 2024,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2410.09303",
+      "citationCount": 17,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Buu Phan"
+        },
+        {
+          "slug": null,
+          "name": "Brandon Amos"
+        },
+        {
+          "slug": null,
+          "name": "Itai Gat"
+        },
+        {
+          "slug": null,
+          "name": "Marton Havasi"
+        },
+        {
+          "slug": null,
+          "name": "Karen Ullrich"
+        }
+      ]
+    },
+    {
+      "paperId": "5990dd4e00ab8d29d8942a953fa109716126b635",
+      "title": "Understanding and Mitigating Tokenization Bias in Language Models",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2406.16829",
+      "citationCount": 17,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Buu Phan"
+        },
+        {
+          "slug": null,
+          "name": "Marton Havasi"
+        },
+        {
+          "slug": null,
+          "name": "Karen Ullrich"
+        }
+      ]
+    },
+    {
+      "paperId": "46b0d6d9ca06e844635de0139c09ef1dddcea014",
+      "title": "Accelerated MRI reconstructions via variational network and feature domain learning",
+      "year": 2024,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-024-59705-0",
+      "citationCount": 16,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ilias I. Giannakopoulos"
+        },
+        {
+          "slug": null,
+          "name": "Jesi Kim"
+        },
+        {
+          "slug": null,
+          "name": "Matthew Breen"
+        },
+        {
+          "slug": null,
+          "name": "Patricia M Johnson"
+        },
+        {
+          "slug": null,
+          "name": "Yvonne W. Lui"
+        },
+        {
+          "slug": null,
+          "name": "Riccardo Lattanzi"
+        }
+      ]
+    },
+    {
+      "paperId": "0c08725a79cb5dbb1354793a287810646dbefe52",
+      "title": "Residual Quantization with Implicit Neural Codebooks",
+      "year": 2024,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2401.14732",
+      "citationCount": 26,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Iris A. M. Huijben"
+        },
+        {
+          "slug": null,
+          "name": "Matthijs Douze"
+        },
+        {
+          "slug": null,
+          "name": "Ruud van Sloun"
+        },
+        {
+          "slug": null,
+          "name": "Jakob Verbeek"
+        }
+      ]
+    },
+    {
+      "paperId": "ebb77213f63cda5612cc1bc48eb55c2b71a5cfd8",
+      "title": "Towards image compression with perfect realism at ultra-low bitrates",
+      "year": 2023,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2310.10325",
+      "citationCount": 139,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Marlène Careil"
+        },
+        {
+          "slug": null,
+          "name": "Jakob Verbeek"
+        },
+        {
+          "slug": null,
+          "name": "St'ephane Lathuiliere"
+        }
+      ]
+    },
+    {
+      "paperId": "d72bf83fbeae8df51ab86bb8f3965b40416c8ac7",
+      "title": "Training-free linear image inverses via flows",
+      "year": 2023,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://www.semanticscholar.org/paper/d72bf83fbeae8df51ab86bb8f3965b40416c8ac7",
+      "citationCount": 72,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "A. Pokle"
+        },
+        {
+          "slug": null,
+          "name": "Ricky T. Q. Chen"
+        },
+        {
+          "slug": null,
+          "name": "Brian Karrer"
+        }
+      ]
+    }
+  ],
+  "topPublications": [
+    {
+      "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+      "year": 2026,
+      "citationCount": 47,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.14482"
+    },
+    {
+      "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+      "year": 2025,
+      "citationCount": 537,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.09985"
+    },
+    {
+      "title": "Residual Quantization with Implicit Neural Codebooks",
+      "year": 2024,
+      "citationCount": 26,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2401.14732"
+    },
+    {
+      "title": "Accelerated MRI reconstructions via variational network and feature domain learning",
+      "year": 2024,
+      "citationCount": 16,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-024-59705-0"
+    },
+    {
+      "title": "Understanding and Mitigating Tokenization Bias in Language Models",
+      "year": 2024,
+      "citationCount": 17,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2406.16829"
+    }
+  ],
   "githubProjects": [],
   "githubActivity": {
     "username": "mmuckley",
     "githubUrl": "https://github.com/mmuckley",
     "recentEventCount": 0
   },
-  "news": [],
+  "news": [
+    {
+      "title": "New Hire: Matthew Muckley, Researcher in New York",
+      "url": "/news/new-hire-matthew-muckley",
+      "source": "The AMI Observatory",
+      "publishedAt": "2026-04-05"
+    }
+  ],
   "xPosts": [],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "adrien-bardes",
+        "name": "Adrien Bardes",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "michael-rabbat",
+        "name": "Michael Rabbat",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "yann-lecun",
+        "name": "Yann LeCun",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "david-fan",
+        "name": "David Fan",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "quentin-garrido",
+        "name": "Quentin Garrido",
+        "sharedPapers": 1
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "Koustuv Sinha",
+        "papers": 2
+      },
+      {
+        "name": "Nicolas Ballas",
+        "papers": 2
+      },
+      {
+        "name": "Buu Phan",
+        "papers": 2
+      },
+      {
+        "name": "Marton Havasi",
+        "papers": 2
+      },
+      {
+        "name": "Karen Ullrich",
+        "papers": 2
+      },
+      {
+        "name": "Jakob Verbeek",
+        "papers": 2
+      },
+      {
+        "name": "Lorenzo Mur-Labadia",
+        "papers": 1
+      },
+      {
+        "name": "Amir Bar",
+        "papers": 1
+      },
+      {
+        "name": "Mido Assran",
+        "papers": 1
+      },
+      {
+        "name": "Mahmoud Assran",
+        "papers": 1
+      },
+      {
+        "name": "Russell Howes",
+        "papers": 1
+      },
+      {
+        "name": "Mojtaba Komeili",
+        "papers": 1
+      },
+      {
+        "name": "Ammar Rizvi",
+        "papers": 1
+      },
+      {
+        "name": "Claire Roberts",
+        "papers": 1
+      },
+      {
+        "name": "Artem Zholus",
+        "papers": 1
+      },
+      {
+        "name": "Sergio Arnaud",
+        "papers": 1
+      },
+      {
+        "name": "Abha Gejji",
+        "papers": 1
+      },
+      {
+        "name": "Ada Martin",
+        "papers": 1
+      },
+      {
+        "name": "Francois Hogan",
+        "papers": 1
+      },
+      {
+        "name": "Daniel Dugas",
+        "papers": 1
+      },
+      {
+        "name": "Piotr Bojanowski",
+        "papers": 1
+      },
+      {
+        "name": "Vasil Khalidov",
+        "papers": 1
+      },
+      {
+        "name": "Patrick Labatut",
+        "papers": 1
+      },
+      {
+        "name": "Francisco Massa",
+        "papers": 1
+      },
+      {
+        "name": "Marc Szafraniec",
+        "papers": 1
+      },
+      {
+        "name": "K. Krishnakumar",
+        "papers": 1
+      },
+      {
+        "name": "Yong Li",
+        "papers": 1
+      },
+      {
+        "name": "Xiaodong Ma",
+        "papers": 1
+      },
+      {
+        "name": "Sarath Chandar",
+        "papers": 1
+      },
+      {
+        "name": "Franziska Meier",
+        "papers": 1
+      },
+      {
+        "name": "Fair at Meta",
+        "papers": 1
+      },
+      {
+        "name": "M. Québec",
+        "papers": 1
+      },
+      {
+        "name": "AI Institute",
+        "papers": 1
+      },
+      {
+        "name": "P. Montr'eal",
+        "papers": 1
+      },
+      {
+        "name": "Brandon Amos",
+        "papers": 1
+      },
+      {
+        "name": "Itai Gat",
+        "papers": 1
+      },
+      {
+        "name": "Ilias I. Giannakopoulos",
+        "papers": 1
+      },
+      {
+        "name": "Jesi Kim",
+        "papers": 1
+      },
+      {
+        "name": "Matthew Breen",
+        "papers": 1
+      },
+      {
+        "name": "Patricia M Johnson",
+        "papers": 1
+      },
+      {
+        "name": "Yvonne W. Lui",
+        "papers": 1
+      },
+      {
+        "name": "Riccardo Lattanzi",
+        "papers": 1
+      },
+      {
+        "name": "Iris A. M. Huijben",
+        "papers": 1
+      },
+      {
+        "name": "Matthijs Douze",
+        "papers": 1
+      },
+      {
+        "name": "Ruud van Sloun",
+        "papers": 1
+      },
+      {
+        "name": "Marlène Careil",
+        "papers": 1
+      },
+      {
+        "name": "St'ephane Lathuiliere",
+        "papers": 1
+      },
+      {
+        "name": "A. Pokle",
+        "papers": 1
+      },
+      {
+        "name": "Ricky T. Q. Chen",
+        "papers": 1
+      },
+      {
+        "name": "Brian Karrer",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "adrien-bardes",

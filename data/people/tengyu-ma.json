@@ -22,19 +22,456 @@
   ],
   "reportsTo": "saining-xie",
   "reports": [],
-  "papers": [],
-  "topPublications": [],
+  "papers": [
+    {
+      "paperId": "1231876b4c92c7a26d4e0cbea9cac388d6dafefb",
+      "title": "Anchored Self-Play for Code Repair",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/1231876b4c92c7a26d4e0cbea9cac388d6dafefb",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Caroline Choi"
+        },
+        {
+          "slug": null,
+          "name": "Zeyneb N. Kaya"
+        },
+        {
+          "slug": null,
+          "name": "Shirley Wu"
+        },
+        {
+          "slug": null,
+          "name": "Tatsunori Hashimoto"
+        },
+        {
+          "slug": null,
+          "name": "Ludwig Schmidt"
+        }
+      ]
+    },
+    {
+      "paperId": "d90159d04db78db63e04ebd03a8d65f985b5eb85",
+      "title": "Fantastic Pretraining Optimizers and Where to Find Them II: Hyperball Optimization",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/d90159d04db78db63e04ebd03a8d65f985b5eb85",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Kaiyue Wen"
+        },
+        {
+          "slug": null,
+          "name": "Xingyu Dang"
+        },
+        {
+          "slug": null,
+          "name": "Kaifeng Lyu"
+        },
+        {
+          "slug": null,
+          "name": "Percy Liang"
+        }
+      ]
+    },
+    {
+      "paperId": "cbec8bf16a459b0ae38856f604a6a14cd1343477",
+      "title": "One Step of Gradient Descent is Provably the Optimal In-Context Learner with One Layer of Linear Self-Attention",
+      "year": 2023,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2307.03576",
+      "citationCount": 184,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Arvind V. Mahankali"
+        },
+        {
+          "slug": null,
+          "name": "Tatsunori Hashimoto"
+        }
+      ]
+    },
+    {
+      "paperId": "7c7687d5539d28c65560b6946ade6a6a6bda2226",
+      "title": "The Inductive Bias of Flatness Regularization for Deep Matrix Factorization",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2306.13239",
+      "citationCount": 13,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Khashayar Gatmiry"
+        },
+        {
+          "slug": null,
+          "name": "Zhiyuan Li"
+        },
+        {
+          "slug": null,
+          "name": "Ching-Yao Chuang"
+        },
+        {
+          "slug": null,
+          "name": "Sashank J. Reddi"
+        },
+        {
+          "slug": null,
+          "name": "S. Jegelka"
+        }
+      ]
+    },
+    {
+      "paperId": "32dcd0887537cece54e214f531d2c384470b023f",
+      "title": "Large Language Models as Tool Makers",
+      "year": 2023,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2305.17126",
+      "citationCount": 319,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tianle Cai"
+        },
+        {
+          "slug": null,
+          "name": "Xuezhi Wang"
+        },
+        {
+          "slug": null,
+          "name": "Xinyun Chen"
+        },
+        {
+          "slug": null,
+          "name": "Denny Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "6cb35dd6e1338faa0c3d6a6b0020bbcbcc18653d",
+      "title": "Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training",
+      "year": 2023,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2305.14342",
+      "citationCount": 302,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Hong Liu"
+        },
+        {
+          "slug": null,
+          "name": "Zhiyuan Li"
+        },
+        {
+          "slug": null,
+          "name": "David Leo Wright Hall"
+        },
+        {
+          "slug": null,
+          "name": "Percy Liang"
+        }
+      ]
+    },
+    {
+      "paperId": "9b4f7c97c0b83a80c32bc0b93595cbcfb4ecb16d",
+      "title": "DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining",
+      "year": 2023,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2305.10429",
+      "citationCount": 396,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Sang Michael Xie"
+        },
+        {
+          "slug": null,
+          "name": "Hieu Pham"
+        },
+        {
+          "slug": null,
+          "name": "Xuanyi Dong"
+        },
+        {
+          "slug": null,
+          "name": "Nan Du"
+        },
+        {
+          "slug": null,
+          "name": "Hanxiao Liu"
+        },
+        {
+          "slug": null,
+          "name": "Yifeng Lu"
+        },
+        {
+          "slug": null,
+          "name": "Percy Liang"
+        },
+        {
+          "slug": null,
+          "name": "Quoc V. Le"
+        },
+        {
+          "slug": null,
+          "name": "Adams Wei Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "3db1219429c3f04e88347d41269bdc83c457fbf9",
+      "title": "Symbol tuning improves in-context learning in language models",
+      "year": 2023,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.48550/arXiv.2305.08298",
+      "citationCount": 105,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jerry W. Wei"
+        },
+        {
+          "slug": null,
+          "name": "Le Hou"
+        },
+        {
+          "slug": null,
+          "name": "Andrew Kyle Lampinen"
+        },
+        {
+          "slug": null,
+          "name": "Xiangning Chen"
+        },
+        {
+          "slug": null,
+          "name": "Da Huang"
+        },
+        {
+          "slug": null,
+          "name": "Yi Tay"
+        },
+        {
+          "slug": null,
+          "name": "Xinyun Chen"
+        },
+        {
+          "slug": null,
+          "name": "Yifeng Lu"
+        },
+        {
+          "slug": null,
+          "name": "Denny Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Quoc V. Le"
+        }
+      ]
+    }
+  ],
+  "topPublications": [
+    {
+      "title": "Anchored Self-Play for Code Repair",
+      "year": 2026,
+      "citationCount": 0,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/1231876b4c92c7a26d4e0cbea9cac388d6dafefb"
+    },
+    {
+      "title": "Fantastic Pretraining Optimizers and Where to Find Them II: Hyperball Optimization",
+      "year": 2026,
+      "citationCount": 2,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/d90159d04db78db63e04ebd03a8d65f985b5eb85"
+    },
+    {
+      "title": "Larger language models do in-context learning differently",
+      "year": 2023,
+      "citationCount": 489,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2303.03846"
+    },
+    {
+      "title": "Large Language Models as Tool Makers",
+      "year": 2023,
+      "citationCount": 319,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2305.17126"
+    },
+    {
+      "title": "Symbol tuning improves in-context learning in language models",
+      "year": 2023,
+      "citationCount": 105,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.48550/arXiv.2305.08298"
+    }
+  ],
   "githubProjects": [],
   "githubActivity": {
     "username": "tengyu-ma",
     "githubUrl": "https://github.com/tengyu-ma",
     "recentEventCount": 0
   },
-  "news": [],
+  "news": [
+    {
+      "title": "New Hire: Tengyu Ma, Member of Technical, Staff New York",
+      "url": "https://ami.frenchtechjournal.com/team/tengyu-ma",
+      "source": "The AMI Observatory",
+      "publishedAt": "2026-07-24"
+    }
+  ],
   "xPosts": [],
   "connections": {
     "coAuthors": [],
-    "externalCoAuthors": [],
+    "externalCoAuthors": [
+      {
+        "name": "Percy Liang",
+        "papers": 3
+      },
+      {
+        "name": "Tatsunori Hashimoto",
+        "papers": 2
+      },
+      {
+        "name": "Zhiyuan Li",
+        "papers": 2
+      },
+      {
+        "name": "Xinyun Chen",
+        "papers": 2
+      },
+      {
+        "name": "Denny Zhou",
+        "papers": 2
+      },
+      {
+        "name": "Yifeng Lu",
+        "papers": 2
+      },
+      {
+        "name": "Quoc V. Le",
+        "papers": 2
+      },
+      {
+        "name": "Caroline Choi",
+        "papers": 1
+      },
+      {
+        "name": "Zeyneb N. Kaya",
+        "papers": 1
+      },
+      {
+        "name": "Shirley Wu",
+        "papers": 1
+      },
+      {
+        "name": "Ludwig Schmidt",
+        "papers": 1
+      },
+      {
+        "name": "Kaiyue Wen",
+        "papers": 1
+      },
+      {
+        "name": "Xingyu Dang",
+        "papers": 1
+      },
+      {
+        "name": "Kaifeng Lyu",
+        "papers": 1
+      },
+      {
+        "name": "Arvind V. Mahankali",
+        "papers": 1
+      },
+      {
+        "name": "Khashayar Gatmiry",
+        "papers": 1
+      },
+      {
+        "name": "Ching-Yao Chuang",
+        "papers": 1
+      },
+      {
+        "name": "Sashank J. Reddi",
+        "papers": 1
+      },
+      {
+        "name": "S. Jegelka",
+        "papers": 1
+      },
+      {
+        "name": "Tianle Cai",
+        "papers": 1
+      },
+      {
+        "name": "Xuezhi Wang",
+        "papers": 1
+      },
+      {
+        "name": "Hong Liu",
+        "papers": 1
+      },
+      {
+        "name": "David Leo Wright Hall",
+        "papers": 1
+      },
+      {
+        "name": "Sang Michael Xie",
+        "papers": 1
+      },
+      {
+        "name": "Hieu Pham",
+        "papers": 1
+      },
+      {
+        "name": "Xuanyi Dong",
+        "papers": 1
+      },
+      {
+        "name": "Nan Du",
+        "papers": 1
+      },
+      {
+        "name": "Hanxiao Liu",
+        "papers": 1
+      },
+      {
+        "name": "Adams Wei Yu",
+        "papers": 1
+      },
+      {
+        "name": "Jerry W. Wei",
+        "papers": 1
+      },
+      {
+        "name": "Le Hou",
+        "papers": 1
+      },
+      {
+        "name": "Andrew Kyle Lampinen",
+        "papers": 1
+      },
+      {
+        "name": "Xiangning Chen",
+        "papers": 1
+      },
+      {
+        "name": "Da Huang",
+        "papers": 1
+      },
+      {
+        "name": "Yi Tay",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "adrien-bardes",

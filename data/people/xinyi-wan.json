@@ -33,19 +33,602 @@
   ],
   "reportsTo": "min-lin",
   "reports": [],
-  "papers": [],
-  "topPublications": [],
+  "papers": [
+    {
+      "paperId": "220a20b046af83f448b405111d76c45168ae2421",
+      "title": "KVerus: Scalable and Resilient Formal Verification Proof Generation for Rust Code",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.03822",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yuwei Liu"
+        },
+        {
+          "slug": null,
+          "name": "Yanhao Wang"
+        },
+        {
+          "slug": null,
+          "name": "Minghua Wang"
+        },
+        {
+          "slug": null,
+          "name": "Lin Huang"
+        },
+        {
+          "slug": null,
+          "name": "Tao Wei"
+        }
+      ]
+    },
+    {
+      "paperId": "060e5a919566330254cc7ea8c9c540ae1860248f",
+      "title": "RL over Commodity Networks: Overcoming the Bandwidth Barrier with Lossless Sparse Deltas",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.11456",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chaoyi Ruan"
+        },
+        {
+          "slug": null,
+          "name": "Geng Luo"
+        },
+        {
+          "slug": null,
+          "name": "Long Zhao"
+        },
+        {
+          "slug": null,
+          "name": "Qinghe Wang"
+        },
+        {
+          "slug": null,
+          "name": "Jiaan Zhu"
+        },
+        {
+          "slug": null,
+          "name": "Dulin Xu"
+        },
+        {
+          "slug": null,
+          "name": "Guanbin Xu"
+        },
+        {
+          "slug": null,
+          "name": "Dehui Wei"
+        },
+        {
+          "slug": null,
+          "name": "Xiang Liu"
+        },
+        {
+          "slug": null,
+          "name": "Cheng Li"
+        },
+        {
+          "slug": null,
+          "name": "Haifeng Sun"
+        },
+        {
+          "slug": null,
+          "name": "Congcong Miao"
+        },
+        {
+          "slug": null,
+          "name": "Jialin Li"
+        }
+      ]
+    },
+    {
+      "paperId": "9ddc2b3cc7e2a165ada3ea880da3b7936c498122",
+      "title": "Revisiting Parameter Server in LLM Post-Training",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.19362",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Penghui Qi"
+        },
+        {
+          "slug": null,
+          "name": "Guangxing Huang"
+        },
+        {
+          "slug": null,
+          "name": "Chaoyi Ruan"
+        },
+        {
+          "slug": null,
+          "name": "Jialin Li"
+        }
+      ]
+    },
+    {
+      "paperId": "0b17ed374bfa7bacb6834acf6cf2c6ce3e5d5d2c",
+      "title": "CortenMM: Efficient Memory Management with Strong Correctness Guarantees",
+      "year": 2025,
+      "venue": "Symposium on Operating Systems Principles",
+      "url": "https://doi.org/10.1145/3731569.3764836",
+      "citationCount": 6,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Junyang Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Xiang Xu"
+        },
+        {
+          "slug": null,
+          "name": "Yonghao Zou"
+        },
+        {
+          "slug": null,
+          "name": "Zhe Tang"
+        },
+        {
+          "slug": null,
+          "name": "Kang Hu"
+        },
+        {
+          "slug": null,
+          "name": "Siyuan Wang"
+        },
+        {
+          "slug": null,
+          "name": "Wenbo Xu"
+        },
+        {
+          "slug": null,
+          "name": "Di Wang"
+        },
+        {
+          "slug": null,
+          "name": "Haogang Chen"
+        },
+        {
+          "slug": null,
+          "name": "Lin Huang"
+        },
+        {
+          "slug": null,
+          "name": "Shoumeng Yan"
+        },
+        {
+          "slug": null,
+          "name": "Y. Tamir"
+        },
+        {
+          "slug": null,
+          "name": "Yingwei Luo"
+        },
+        {
+          "slug": null,
+          "name": "Xiaolin Wang"
+        },
+        {
+          "slug": null,
+          "name": "Huashan Yu"
+        },
+        {
+          "slug": null,
+          "name": "Zhenlin Wang"
+        },
+        {
+          "slug": null,
+          "name": "Hongliang Tian"
+        },
+        {
+          "slug": null,
+          "name": "Diyu Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "641a8b01dc986ede5d894765b24c5fed6ad15462",
+      "title": "Cortex: Achieving Low-Latency, Cost-Efficient Remote Data Access For LLM via Semantic-Aware Knowledge Caching",
+      "year": 2025,
+      "venue": "Symposium on Networked Systems Design and Implementation",
+      "url": "https://www.semanticscholar.org/paper/641a8b01dc986ede5d894765b24c5fed6ad15462",
+      "citationCount": 5,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chaoyi Ruan"
+        },
+        {
+          "slug": null,
+          "name": "Chao Bi"
+        },
+        {
+          "slug": null,
+          "name": "Kaiwen Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Ziji Shi"
+        },
+        {
+          "slug": null,
+          "name": "Jialin Li"
+        }
+      ]
+    },
+    {
+      "paperId": "c5fc9e50a9b11ec16109987a7990bcba41f6a05d",
+      "title": "Variable-Depth Learning Architecture to Adaptive Multi-User Channel Prediction",
+      "year": 2025,
+      "venue": "IEEE Transactions on Wireless Communications",
+      "url": "https://doi.org/10.1109/TWC.2025.3552917",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Guanzhang Liu"
+        },
+        {
+          "slug": null,
+          "name": "Hongying Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Jiang Xue"
+        }
+      ]
+    },
+    {
+      "paperId": "751ef04264d661f6a59e49f3fbd181ac46ef5eed",
+      "title": "Asteria: Semantic-Aware Cross-Region Caching for Agentic LLM Tool Access",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.17360",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chaoyi Ruan"
+        },
+        {
+          "slug": null,
+          "name": "Chao Bi"
+        },
+        {
+          "slug": null,
+          "name": "Kaiwen Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Ziji Shi"
+        },
+        {
+          "slug": null,
+          "name": "Jialin Li"
+        }
+      ]
+    },
+    {
+      "paperId": "a990b37c970a48b71533db1f49f51310a07755cb",
+      "title": "ZeCO: Zero Communication Overhead Sequence Parallelism for Linear Attention",
+      "year": 2025,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2507.01004",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yuhong Chou"
+        },
+        {
+          "slug": null,
+          "name": "Zehao Liu"
+        },
+        {
+          "slug": null,
+          "name": "Ruijie Zhu"
+        },
+        {
+          "slug": null,
+          "name": "Tianjian Li"
+        },
+        {
+          "slug": null,
+          "name": "Congying Chu"
+        },
+        {
+          "slug": null,
+          "name": "Qian Liu"
+        },
+        {
+          "slug": null,
+          "name": "Jibin Wu"
+        },
+        {
+          "slug": null,
+          "name": "Zejun Ma"
+        }
+      ]
+    }
+  ],
+  "topPublications": [
+    {
+      "title": "RL over Commodity Networks: Overcoming the Bandwidth Barrier with Lossless Sparse Deltas",
+      "year": 2026,
+      "citationCount": 0,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.11456"
+    },
+    {
+      "title": "KVerus: Scalable and Resilient Formal Verification Proof Generation for Rust Code",
+      "year": 2026,
+      "citationCount": 1,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.03822"
+    },
+    {
+      "title": "Revisiting Parameter Server in LLM Post-Training",
+      "year": 2026,
+      "citationCount": 2,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.19362"
+    },
+    {
+      "title": "CortenMM: Efficient Memory Management with Strong Correctness Guarantees",
+      "year": 2025,
+      "citationCount": 6,
+      "venue": "Symposium on Operating Systems Principles",
+      "url": "https://doi.org/10.1145/3731569.3764836"
+    },
+    {
+      "title": "PipeOffload: Improving Scalability of Pipeline Parallelism with Memory Optimization",
+      "year": 2025,
+      "citationCount": 8,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2503.01328"
+    }
+  ],
   "githubProjects": [],
   "githubActivity": {
     "username": "ufotalent",
     "githubUrl": "https://github.com/ufotalent",
     "recentEventCount": 0
   },
-  "news": [],
+  "news": [
+    {
+      "title": "New Hire: Xinyi Wan, Member of Research Staff",
+      "url": "/news/new-hire-xinyi-wan",
+      "source": "The AMI Observatory",
+      "publishedAt": "2026-03-28"
+    }
+  ],
   "xPosts": [],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "min-lin",
+        "name": "Min Lin",
+        "sharedPapers": 1
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "Chaoyi Ruan",
+        "papers": 4
+      },
+      {
+        "name": "Jialin Li",
+        "papers": 4
+      },
+      {
+        "name": "Lin Huang",
+        "papers": 2
+      },
+      {
+        "name": "Chao Bi",
+        "papers": 2
+      },
+      {
+        "name": "Kaiwen Zheng",
+        "papers": 2
+      },
+      {
+        "name": "Ziji Shi",
+        "papers": 2
+      },
+      {
+        "name": "Yuwei Liu",
+        "papers": 1
+      },
+      {
+        "name": "Yanhao Wang",
+        "papers": 1
+      },
+      {
+        "name": "Minghua Wang",
+        "papers": 1
+      },
+      {
+        "name": "Tao Wei",
+        "papers": 1
+      },
+      {
+        "name": "Geng Luo",
+        "papers": 1
+      },
+      {
+        "name": "Long Zhao",
+        "papers": 1
+      },
+      {
+        "name": "Qinghe Wang",
+        "papers": 1
+      },
+      {
+        "name": "Jiaan Zhu",
+        "papers": 1
+      },
+      {
+        "name": "Dulin Xu",
+        "papers": 1
+      },
+      {
+        "name": "Guanbin Xu",
+        "papers": 1
+      },
+      {
+        "name": "Dehui Wei",
+        "papers": 1
+      },
+      {
+        "name": "Xiang Liu",
+        "papers": 1
+      },
+      {
+        "name": "Cheng Li",
+        "papers": 1
+      },
+      {
+        "name": "Haifeng Sun",
+        "papers": 1
+      },
+      {
+        "name": "Congcong Miao",
+        "papers": 1
+      },
+      {
+        "name": "Penghui Qi",
+        "papers": 1
+      },
+      {
+        "name": "Guangxing Huang",
+        "papers": 1
+      },
+      {
+        "name": "Junyang Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Xiang Xu",
+        "papers": 1
+      },
+      {
+        "name": "Yonghao Zou",
+        "papers": 1
+      },
+      {
+        "name": "Zhe Tang",
+        "papers": 1
+      },
+      {
+        "name": "Kang Hu",
+        "papers": 1
+      },
+      {
+        "name": "Siyuan Wang",
+        "papers": 1
+      },
+      {
+        "name": "Wenbo Xu",
+        "papers": 1
+      },
+      {
+        "name": "Di Wang",
+        "papers": 1
+      },
+      {
+        "name": "Haogang Chen",
+        "papers": 1
+      },
+      {
+        "name": "Shoumeng Yan",
+        "papers": 1
+      },
+      {
+        "name": "Y. Tamir",
+        "papers": 1
+      },
+      {
+        "name": "Yingwei Luo",
+        "papers": 1
+      },
+      {
+        "name": "Xiaolin Wang",
+        "papers": 1
+      },
+      {
+        "name": "Huashan Yu",
+        "papers": 1
+      },
+      {
+        "name": "Zhenlin Wang",
+        "papers": 1
+      },
+      {
+        "name": "Hongliang Tian",
+        "papers": 1
+      },
+      {
+        "name": "Diyu Zhou",
+        "papers": 1
+      },
+      {
+        "name": "Guanzhang Liu",
+        "papers": 1
+      },
+      {
+        "name": "Hongying Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Jiang Xue",
+        "papers": 1
+      },
+      {
+        "name": "Yuhong Chou",
+        "papers": 1
+      },
+      {
+        "name": "Zehao Liu",
+        "papers": 1
+      },
+      {
+        "name": "Ruijie Zhu",
+        "papers": 1
+      },
+      {
+        "name": "Tianjian Li",
+        "papers": 1
+      },
+      {
+        "name": "Congying Chu",
+        "papers": 1
+      },
+      {
+        "name": "Qian Liu",
+        "papers": 1
+      },
+      {
+        "name": "Jibin Wu",
+        "papers": 1
+      },
+      {
+        "name": "Zejun Ma",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "min-lin",

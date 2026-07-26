@@ -28,15 +28,439 @@
   ],
   "reportsTo": "saining-xie",
   "reports": [],
-  "papers": [],
-  "topPublications": [],
+  "papers": [
+    {
+      "paperId": "1ac7fc5a55ce5843fb8a19d9f62b623e822bb7de",
+      "title": "Loong: Generating Minute-level Long Videos with Autoregressive Language Models",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2410.02757",
+      "citationCount": 101,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yuqing Wang"
+        },
+        {
+          "slug": null,
+          "name": "Tianwei Xiong"
+        },
+        {
+          "slug": null,
+          "name": "Daquan Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Zhijie Lin"
+        },
+        {
+          "slug": null,
+          "name": "Yang Zhao"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        },
+        {
+          "slug": null,
+          "name": "Xihui Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "466134a53cd65ded957ce2d102a10eed3170e0e7",
+      "title": "Harnessing Diffusion Models for Visual Perception with Meta Prompts",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2312.14733",
+      "citationCount": 22,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Qiang Wan"
+        },
+        {
+          "slug": null,
+          "name": "Zilong Huang"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        },
+        {
+          "slug": null,
+          "name": "Li Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "962ccf1fc49c83817fb031e5b24b81b19cdfb89d",
+      "title": "BuboGPT: Enabling Visual Grounding in Multi-Modal LLMs",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2307.08581",
+      "citationCount": 134,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yang Zhao"
+        },
+        {
+          "slug": null,
+          "name": "Zhijie Lin"
+        },
+        {
+          "slug": null,
+          "name": "Daquan Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Zilong Huang"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        }
+      ]
+    },
+    {
+      "paperId": "146748b26209afac66a3c0a52fea8b72065b2b2c",
+      "title": "Decoupled Prioritized Resampling for Offline RL",
+      "year": 2023,
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+      "url": "https://doi.org/10.1109/TNNLS.2024.3488358",
+      "citationCount": 12,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yang Yue"
+        },
+        {
+          "slug": null,
+          "name": "Xiao Ma"
+        },
+        {
+          "slug": null,
+          "name": "Qisen Yang"
+        },
+        {
+          "slug": null,
+          "name": "Gao Huang"
+        },
+        {
+          "slug": null,
+          "name": "S. Song"
+        },
+        {
+          "slug": null,
+          "name": "Shuicheng Yan"
+        }
+      ]
+    },
+    {
+      "paperId": "5bccb4ffcd3ea8c5d5b25adeb15366cd9579aa34",
+      "title": "Improving and Benchmarking Offline Reinforcement Learning Algorithms",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2306.00972",
+      "citationCount": 9,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Xiao Ma"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Ren Wang"
+        },
+        {
+          "slug": null,
+          "name": "Yang Yue"
+        },
+        {
+          "slug": null,
+          "name": "Shuicheng Yan"
+        }
+      ]
+    },
+    {
+      "paperId": "2aae2dd79ef30022da59d8c33f0b3afa55d9c20d",
+      "title": "Efficient Diffusion Policies for Offline Reinforcement Learning",
+      "year": 2023,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2305.20081",
+      "citationCount": 184,
+      "coAuthors": [
+        {
+          "slug": "chao-du",
+          "name": "Chao Du"
+        },
+        {
+          "slug": null,
+          "name": "Xiao Ma"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Shuicheng Yan"
+        }
+      ]
+    },
+    {
+      "paperId": "22d31891ba36a02fcef6ba79f29e4f3ca9b783a0",
+      "title": "MADiff: Offline Multi-agent Learning with Diffusion Models",
+      "year": 2023,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2305.17330",
+      "citationCount": 100,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Zhengbang Zhu"
+        },
+        {
+          "slug": null,
+          "name": "Minghuan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Liyuan Mao"
+        },
+        {
+          "slug": null,
+          "name": "Minkai Xu"
+        },
+        {
+          "slug": null,
+          "name": "Yong Yu"
+        },
+        {
+          "slug": null,
+          "name": "S. Ermon"
+        },
+        {
+          "slug": null,
+          "name": "Weinan Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "0abd29e67b1e52e922660c315bcdeedd9b1eab7e",
+      "title": "Bag of Tricks for Training Data Extraction from Language Models",
+      "year": 2023,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2302.04460",
+      "citationCount": 95,
+      "coAuthors": [
+        {
+          "slug": "chao-du",
+          "name": "Chao Du"
+        },
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Weichen Yu"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Qian Liu"
+        },
+        {
+          "slug": null,
+          "name": "Yan Huang"
+        },
+        {
+          "slug": null,
+          "name": "Shuicheng Yan"
+        }
+      ]
+    }
+  ],
+  "topPublications": [
+    {
+      "title": "Loong: Generating Minute-level Long Videos with Autoregressive Language Models",
+      "year": 2024,
+      "citationCount": 101,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2410.02757"
+    },
+    {
+      "title": "Bag of Tricks for Training Data Extraction from Language Models",
+      "year": 2023,
+      "citationCount": 95,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2302.04460"
+    },
+    {
+      "title": "Decoupled Prioritized Resampling for Offline RL",
+      "year": 2023,
+      "citationCount": 12,
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+      "url": "https://doi.org/10.1109/TNNLS.2024.3488358"
+    },
+    {
+      "title": "MADiff: Offline Multi-agent Learning with Diffusion Models",
+      "year": 2023,
+      "citationCount": 100,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2305.17330"
+    },
+    {
+      "title": "Efficient Diffusion Policies for Offline Reinforcement Learning",
+      "year": 2023,
+      "citationCount": 184,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2305.20081"
+    }
+  ],
   "githubProjects": [],
   "githubActivity": null,
-  "news": [],
+  "news": [
+    {
+      "title": "New Hire: Bingyi Kang",
+      "url": "/news/new-hire-bingyi-kang",
+      "source": "The AMI Observatory",
+      "publishedAt": "2026-03-28"
+    }
+  ],
   "xPosts": [],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "chao-du",
+        "name": "Chao Du",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "min-lin",
+        "name": "Min Lin",
+        "sharedPapers": 1
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "Shuicheng Yan",
+        "papers": 4
+      },
+      {
+        "name": "Jiashi Feng",
+        "papers": 3
+      },
+      {
+        "name": "Xiao Ma",
+        "papers": 3
+      },
+      {
+        "name": "Daquan Zhou",
+        "papers": 2
+      },
+      {
+        "name": "Zhijie Lin",
+        "papers": 2
+      },
+      {
+        "name": "Yang Zhao",
+        "papers": 2
+      },
+      {
+        "name": "Zilong Huang",
+        "papers": 2
+      },
+      {
+        "name": "Yang Yue",
+        "papers": 2
+      },
+      {
+        "name": "Tianyu Pang",
+        "papers": 2
+      },
+      {
+        "name": "Yuqing Wang",
+        "papers": 1
+      },
+      {
+        "name": "Tianwei Xiong",
+        "papers": 1
+      },
+      {
+        "name": "Xihui Liu",
+        "papers": 1
+      },
+      {
+        "name": "Qiang Wan",
+        "papers": 1
+      },
+      {
+        "name": "Li Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Qisen Yang",
+        "papers": 1
+      },
+      {
+        "name": "Gao Huang",
+        "papers": 1
+      },
+      {
+        "name": "S. Song",
+        "papers": 1
+      },
+      {
+        "name": "Yi-Ren Wang",
+        "papers": 1
+      },
+      {
+        "name": "Zhengbang Zhu",
+        "papers": 1
+      },
+      {
+        "name": "Minghuan Liu",
+        "papers": 1
+      },
+      {
+        "name": "Liyuan Mao",
+        "papers": 1
+      },
+      {
+        "name": "Minkai Xu",
+        "papers": 1
+      },
+      {
+        "name": "Yong Yu",
+        "papers": 1
+      },
+      {
+        "name": "S. Ermon",
+        "papers": 1
+      },
+      {
+        "name": "Weinan Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Weichen Yu",
+        "papers": 1
+      },
+      {
+        "name": "Qian Liu",
+        "papers": 1
+      },
+      {
+        "name": "Yan Huang",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "laurent-solly",

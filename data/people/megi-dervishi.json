@@ -26,15 +26,391 @@
   ],
   "reportsTo": "julia-kempe",
   "reports": [],
-  "papers": [],
-  "topPublications": [],
+  "papers": [
+    {
+      "paperId": "4f890d8373b93892ce2a50d87415653fc225a5a8",
+      "title": "Separating Representation from Reconstruction Enables Scalable Text Encoders",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/4f890d8373b93892ce2a50d87415653fc225a5a8",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Mathurin Videau"
+        }
+      ]
+    },
+    {
+      "paperId": "7e65d820f13cf94be083495fd2c433c0886f5a9b",
+      "title": "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.03604",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": "basile-terver",
+          "name": "Basile Terver"
+        },
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
+        },
+        {
+          "slug": "quentin-garrido",
+          "name": "Quentin Garrido"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Tushar Nagarajan"
+        },
+        {
+          "slug": null,
+          "name": "Koustuv Sinha"
+        },
+        {
+          "slug": null,
+          "name": "Wancong Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Amir Bar"
+        }
+      ]
+    },
+    {
+      "paperId": "2268d5094a7baad2fb680584465c5584fb195587",
+      "title": "Training compute-optimal transformer encoder models",
+      "year": 2025,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.18653/v1/2025.emnlp-main.1804",
+      "citationCount": 6,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Alexandre Allauzen"
+        },
+        {
+          "slug": null,
+          "name": "Gabriel Synnaeve"
+        }
+      ]
+    },
+    {
+      "paperId": "44ffd3cd333bb41b900926556edb1c452759c398",
+      "title": "WorldSense: A Synthetic Benchmark for Grounded Reasoning in Large Language Models",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2311.15930",
+      "citationCount": 19,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Youssef Benchekroun"
+        },
+        {
+          "slug": null,
+          "name": "Mark Ibrahim"
+        },
+        {
+          "slug": null,
+          "name": "Jean-Baptiste Gaya"
+        },
+        {
+          "slug": null,
+          "name": "X. Martinet"
+        },
+        {
+          "slug": null,
+          "name": "G. Mialon"
+        },
+        {
+          "slug": null,
+          "name": "Thomas Scialom"
+        },
+        {
+          "slug": null,
+          "name": "Emmanuel Dupoux"
+        },
+        {
+          "slug": null,
+          "name": "Dieuwke Hupkes"
+        },
+        {
+          "slug": null,
+          "name": "Pascal Vincent"
+        }
+      ]
+    },
+    {
+      "paperId": "ff5f70c925be95dce6fb766a085beae66ab7fbbb",
+      "title": "Time, Privacy, Robustness, Accuracy: Trade Offs for the Open Vote Network Protocol",
+      "year": 2021,
+      "venue": "IACR Cryptology ePrint Archive",
+      "url": "https://doi.org/10.1007/978-3-031-15911-4_2",
+      "citationCount": 3,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Gergei Bana"
+        },
+        {
+          "slug": null,
+          "name": "M. Biroli"
+        },
+        {
+          "slug": null,
+          "name": "Fatima-Ezzahra El Orche"
+        },
+        {
+          "slug": null,
+          "name": "Rémi Géraud-Stewart"
+        },
+        {
+          "slug": null,
+          "name": "D. Naccache"
+        },
+        {
+          "slug": null,
+          "name": "P. B. Ronne"
+        },
+        {
+          "slug": null,
+          "name": "P. Ryan"
+        },
+        {
+          "slug": null,
+          "name": "Hugo Waltsburger"
+        }
+      ]
+    },
+    {
+      "paperId": "b2d009db853956292e9041a7d340435c8913e6fb",
+      "title": "Near-Optimal Pool Testing under Urgency Constraints",
+      "year": 2021,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/b2d009db853956292e9041a7d340435c8913e6fb",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Éric Brier"
+        },
+        {
+          "slug": null,
+          "name": "Rémi Géraud-Stewart"
+        },
+        {
+          "slug": null,
+          "name": "D. Naccache"
+        },
+        {
+          "slug": null,
+          "name": "Ofer Yifrach-Stav"
+        }
+      ]
+    }
+  ],
+  "topPublications": [
+    {
+      "title": "Separating Representation from Reconstruction Enables Scalable Text Encoders",
+      "year": 2026,
+      "citationCount": 0,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/4f890d8373b93892ce2a50d87415653fc225a5a8"
+    },
+    {
+      "title": "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
+      "year": 2026,
+      "citationCount": 8,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.03604"
+    },
+    {
+      "title": "Training compute-optimal transformer encoder models",
+      "year": 2025,
+      "citationCount": 6,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.18653/v1/2025.emnlp-main.1804"
+    },
+    {
+      "title": "WorldSense: A Synthetic Benchmark for Grounded Reasoning in Large Language Models",
+      "year": 2023,
+      "citationCount": 19,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2311.15930"
+    },
+    {
+      "title": "Near-Optimal Pool Testing under Urgency Constraints",
+      "year": 2021,
+      "citationCount": 0,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/b2d009db853956292e9041a7d340435c8913e6fb"
+    }
+  ],
   "githubProjects": [],
   "githubActivity": null,
   "news": [],
   "xPosts": [],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "yann-lecun",
+        "name": "Yann LeCun",
+        "sharedPapers": 3
+      },
+      {
+        "slug": "basile-terver",
+        "name": "Basile Terver",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "david-fan",
+        "name": "David Fan",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "quentin-garrido",
+        "name": "Quentin Garrido",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "michael-rabbat",
+        "name": "Michael Rabbat",
+        "sharedPapers": 1
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "Rémi Géraud-Stewart",
+        "papers": 2
+      },
+      {
+        "name": "D. Naccache",
+        "papers": 2
+      },
+      {
+        "name": "Mathurin Videau",
+        "papers": 1
+      },
+      {
+        "name": "Randall Balestriero",
+        "papers": 1
+      },
+      {
+        "name": "Tushar Nagarajan",
+        "papers": 1
+      },
+      {
+        "name": "Koustuv Sinha",
+        "papers": 1
+      },
+      {
+        "name": "Wancong Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Amir Bar",
+        "papers": 1
+      },
+      {
+        "name": "Alexandre Allauzen",
+        "papers": 1
+      },
+      {
+        "name": "Gabriel Synnaeve",
+        "papers": 1
+      },
+      {
+        "name": "Youssef Benchekroun",
+        "papers": 1
+      },
+      {
+        "name": "Mark Ibrahim",
+        "papers": 1
+      },
+      {
+        "name": "Jean-Baptiste Gaya",
+        "papers": 1
+      },
+      {
+        "name": "X. Martinet",
+        "papers": 1
+      },
+      {
+        "name": "G. Mialon",
+        "papers": 1
+      },
+      {
+        "name": "Thomas Scialom",
+        "papers": 1
+      },
+      {
+        "name": "Emmanuel Dupoux",
+        "papers": 1
+      },
+      {
+        "name": "Dieuwke Hupkes",
+        "papers": 1
+      },
+      {
+        "name": "Pascal Vincent",
+        "papers": 1
+      },
+      {
+        "name": "Gergei Bana",
+        "papers": 1
+      },
+      {
+        "name": "M. Biroli",
+        "papers": 1
+      },
+      {
+        "name": "Fatima-Ezzahra El Orche",
+        "papers": 1
+      },
+      {
+        "name": "P. B. Ronne",
+        "papers": 1
+      },
+      {
+        "name": "P. Ryan",
+        "papers": 1
+      },
+      {
+        "name": "Hugo Waltsburger",
+        "papers": 1
+      },
+      {
+        "name": "Éric Brier",
+        "papers": 1
+      },
+      {
+        "name": "Ofer Yifrach-Stav",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "adrien-bardes",

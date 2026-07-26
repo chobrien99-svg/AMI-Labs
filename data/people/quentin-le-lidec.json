@@ -18,19 +18,392 @@
   "careerHistory": [],
   "reportsTo": "pascale-fung",
   "reports": [],
-  "papers": [],
-  "topPublications": [],
+  "papers": [
+    {
+      "paperId": "7d909170d91e1b35b4b9a8ac01731d7aed2cd53e",
+      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.11389",
+      "citationCount": 22,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Heejeong Nam"
+        },
+        {
+          "slug": null,
+          "name": "Lucas Maes"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        }
+      ]
+    },
+    {
+      "paperId": "8d62bb68ffa636edd5b72a8fc8fcd99f37aeb836",
+      "title": "stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.21800",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Lucas Maes"
+        },
+        {
+          "slug": null,
+          "name": "Luiz Facury"
+        },
+        {
+          "slug": null,
+          "name": "Nassim Massaudi"
+        },
+        {
+          "slug": null,
+          "name": "Ayush Chaurasia"
+        },
+        {
+          "slug": null,
+          "name": "Francesco Capuano"
+        },
+        {
+          "slug": null,
+          "name": "Richard Gao"
+        },
+        {
+          "slug": null,
+          "name": "Taj Gillin"
+        },
+        {
+          "slug": null,
+          "name": "Dan Haramati"
+        },
+        {
+          "slug": null,
+          "name": "Damien Scieur"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        }
+      ]
+    },
+    {
+      "paperId": "f1a7a798e6ac2298f5f140d19ee25031e4f8e1d2",
+      "title": "Accelerating trajectory optimization with Sobolev-trained diffusion policies",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2604.19011",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Th'eotime Le Hellard"
+        },
+        {
+          "slug": null,
+          "name": "Franki Nguimatsia Tiofack"
+        },
+        {
+          "slug": null,
+          "name": "Justin Carpentier"
+        }
+      ]
+    },
+    {
+      "paperId": "530dab86cb8034bc12a32d21508aaa3f2cc00aa1",
+      "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.19312",
+      "citationCount": 103,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Lucas Maes"
+        },
+        {
+          "slug": null,
+          "name": "Damien Scieur"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        }
+      ]
+    },
+    {
+      "paperId": "bed6ecff103c1a6f3a516d9b9d4847be8aff5294",
+      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Masking",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/bed6ecff103c1a6f3a516d9b9d4847be8aff5294",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Heejeong Nam"
+        },
+        {
+          "slug": null,
+          "name": "Lucas Maes"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        }
+      ]
+    },
+    {
+      "paperId": "952a89a0add88d80674c0554aa116a83d82763df",
+      "title": "stable-worldmodel-v1: Reproducible World Modeling Research and Evaluation",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.08968",
+      "citationCount": 5,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Lucas Maes"
+        },
+        {
+          "slug": null,
+          "name": "Dan Haramati"
+        },
+        {
+          "slug": null,
+          "name": "Nassim Massaudi"
+        },
+        {
+          "slug": null,
+          "name": "Damien Scieur"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        }
+      ]
+    },
+    {
+      "paperId": "f2b50aa84f10b0f89293fc116e91f8a93f7f40e7",
+      "title": "Value-guided action planning with JEPA world models",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.00844",
+      "citationCount": 9,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Matthieu Destrade"
+        },
+        {
+          "slug": null,
+          "name": "Oumayma Bounou"
+        },
+        {
+          "slug": null,
+          "name": "Jean Ponce"
+        }
+      ]
+    },
+    {
+      "paperId": "0f5d44bc261459ea10e91b62f0bc1a9f6cb07270",
+      "title": "Differentiable Simulation of Soft Robots with Frictional Contacts",
+      "year": 2025,
+      "venue": "International Conference on Soft Robotics",
+      "url": "https://doi.org/10.1109/RoboSoft63089.2025.11020844",
+      "citationCount": 6,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Etienne M'enager"
+        },
+        {
+          "slug": null,
+          "name": "Louis Montaut"
+        },
+        {
+          "slug": null,
+          "name": "J. Carpentier"
+        }
+      ]
+    }
+  ],
+  "topPublications": [
+    {
+      "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
+      "year": 2026,
+      "citationCount": 103,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.19312"
+    },
+    {
+      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
+      "year": 2026,
+      "citationCount": 22,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.11389"
+    },
+    {
+      "title": "stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation",
+      "year": 2026,
+      "citationCount": 2,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.21800"
+    },
+    {
+      "title": "stable-worldmodel-v1: Reproducible World Modeling Research and Evaluation",
+      "year": 2026,
+      "citationCount": 5,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.08968"
+    },
+    {
+      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Masking",
+      "year": 2026,
+      "citationCount": 2,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/bed6ecff103c1a6f3a516d9b9d4847be8aff5294"
+    }
+  ],
   "githubProjects": [],
   "githubActivity": {
     "username": "quentinll",
     "githubUrl": "https://github.com/quentinll",
     "recentEventCount": 15
   },
-  "news": [],
+  "news": [
+    {
+      "title": "Research | The World Model Race Gets a Common Playground",
+      "url": "/news/research-world-model-race-common-playground",
+      "source": "The AMI Observeratory",
+      "publishedAt": "2026-07-20"
+    },
+    {
+      "title": "New Hire: Quentin Le Lidec, Postdoctoral researcher, Paris",
+      "url": "https://ami.frenchtechjournal.com/team/quentin-le-lidec",
+      "source": "The Ami Observer",
+      "publishedAt": "2026-07-19"
+    }
+  ],
   "xPosts": [],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "yann-lecun",
+        "name": "Yann LeCun",
+        "sharedPapers": 6
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "Lucas Maes",
+        "papers": 5
+      },
+      {
+        "name": "Randall Balestriero",
+        "papers": 5
+      },
+      {
+        "name": "Damien Scieur",
+        "papers": 3
+      },
+      {
+        "name": "Heejeong Nam",
+        "papers": 2
+      },
+      {
+        "name": "Nassim Massaudi",
+        "papers": 2
+      },
+      {
+        "name": "Dan Haramati",
+        "papers": 2
+      },
+      {
+        "name": "Luiz Facury",
+        "papers": 1
+      },
+      {
+        "name": "Ayush Chaurasia",
+        "papers": 1
+      },
+      {
+        "name": "Francesco Capuano",
+        "papers": 1
+      },
+      {
+        "name": "Richard Gao",
+        "papers": 1
+      },
+      {
+        "name": "Taj Gillin",
+        "papers": 1
+      },
+      {
+        "name": "Th'eotime Le Hellard",
+        "papers": 1
+      },
+      {
+        "name": "Franki Nguimatsia Tiofack",
+        "papers": 1
+      },
+      {
+        "name": "Justin Carpentier",
+        "papers": 1
+      },
+      {
+        "name": "Matthieu Destrade",
+        "papers": 1
+      },
+      {
+        "name": "Oumayma Bounou",
+        "papers": 1
+      },
+      {
+        "name": "Jean Ponce",
+        "papers": 1
+      },
+      {
+        "name": "Etienne M'enager",
+        "papers": 1
+      },
+      {
+        "name": "Louis Montaut",
+        "papers": 1
+      },
+      {
+        "name": "J. Carpentier",
+        "papers": 1
+      }
+    ],
     "formerColleagues": []
   }
 }

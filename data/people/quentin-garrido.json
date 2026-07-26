@@ -24,19 +24,761 @@
   ],
   "reportsTo": "pascale-fung",
   "reports": [],
-  "papers": [],
-  "topPublications": [],
+  "papers": [
+    {
+      "paperId": "81bd51aa553cdf24a4e5713a3d4562d310aa9ed3",
+      "title": "Interpreting Physics in Video World Models",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.07050",
+      "citationCount": 5,
+      "coAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Sonia Joseph"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Matthew Kowal"
+        },
+        {
+          "slug": null,
+          "name": "Thomas Fel"
+        },
+        {
+          "slug": null,
+          "name": "Shahab Bakhtiari"
+        },
+        {
+          "slug": null,
+          "name": "Blake Richards"
+        }
+      ]
+    },
+    {
+      "paperId": "7e65d820f13cf94be083495fd2c433c0886f5a9b",
+      "title": "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.03604",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": "basile-terver",
+          "name": "Basile Terver"
+        },
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
+        },
+        {
+          "slug": "megi-dervishi",
+          "name": "Megi Dervishi"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Tushar Nagarajan"
+        },
+        {
+          "slug": null,
+          "name": "Koustuv Sinha"
+        },
+        {
+          "slug": null,
+          "name": "Wancong Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Amir Bar"
+        }
+      ]
+    },
+    {
+      "paperId": "50509dcc04f3972ba0e10f4fe635aa92cbfac9fc",
+      "title": "Learning Latent Action World Models In The Wild",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.05230",
+      "citationCount": 29,
+      "coAuthors": [
+        {
+          "slug": "basile-terver",
+          "name": "Basile Terver"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Tushar Nagarajan"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        }
+      ]
+    },
+    {
+      "paperId": "927498a8ccc57dc94e9654099c64d060aba5f4f8",
+      "title": "Self-supervised learning beyond invariant image representations. (Apprentissage auto-supervisé au-delà de représentations invariantes d'images)",
+      "year": 2025,
+      "venue": null,
+      "url": "https://doi.org/10.70675/ac2d4d52z596fz4742z8a22zbc1504a44a90",
+      "citationCount": 0,
+      "coAuthors": []
+    },
+    {
+      "paperId": "b202faf38efbffcb26470c702e1140b047d6f6e7",
+      "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.09985",
+      "citationCount": 537,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
+        },
+        {
+          "slug": "matthew-muckley",
+          "name": "Matthew Muckley"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Mahmoud Assran"
+        },
+        {
+          "slug": null,
+          "name": "Russell Howes"
+        },
+        {
+          "slug": null,
+          "name": "Mojtaba Komeili"
+        },
+        {
+          "slug": null,
+          "name": "Ammar Rizvi"
+        },
+        {
+          "slug": null,
+          "name": "Claire Roberts"
+        },
+        {
+          "slug": null,
+          "name": "Koustuv Sinha"
+        },
+        {
+          "slug": null,
+          "name": "Artem Zholus"
+        },
+        {
+          "slug": null,
+          "name": "Sergio Arnaud"
+        },
+        {
+          "slug": null,
+          "name": "Abha Gejji"
+        },
+        {
+          "slug": null,
+          "name": "Ada Martin"
+        },
+        {
+          "slug": null,
+          "name": "Francois Hogan"
+        },
+        {
+          "slug": null,
+          "name": "Daniel Dugas"
+        },
+        {
+          "slug": null,
+          "name": "Piotr Bojanowski"
+        },
+        {
+          "slug": null,
+          "name": "Vasil Khalidov"
+        },
+        {
+          "slug": null,
+          "name": "Patrick Labatut"
+        },
+        {
+          "slug": null,
+          "name": "Francisco Massa"
+        },
+        {
+          "slug": null,
+          "name": "Marc Szafraniec"
+        },
+        {
+          "slug": null,
+          "name": "K. Krishnakumar"
+        },
+        {
+          "slug": null,
+          "name": "Yong Li"
+        },
+        {
+          "slug": null,
+          "name": "Xiaodong Ma"
+        },
+        {
+          "slug": null,
+          "name": "Sarath Chandar"
+        },
+        {
+          "slug": null,
+          "name": "Franziska Meier"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Fair at Meta"
+        },
+        {
+          "slug": null,
+          "name": "M. Québec"
+        },
+        {
+          "slug": null,
+          "name": "AI Institute"
+        },
+        {
+          "slug": null,
+          "name": "P. Montr'eal"
+        }
+      ]
+    },
+    {
+      "paperId": "632a3faba12ebdb39e344dc57f193627752a56ea",
+      "title": "A Shortcut-aware Video-QA Benchmark for Physical Understanding via Minimal Video Pairs",
+      "year": 2025,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2506.09987",
+      "citationCount": 18,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Benno Krojer"
+        },
+        {
+          "slug": null,
+          "name": "Mojtaba Komeili"
+        },
+        {
+          "slug": null,
+          "name": "Candace Ross"
+        },
+        {
+          "slug": null,
+          "name": "Koustuv Sinha"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Mahmoud Assran"
+        }
+      ]
+    },
+    {
+      "paperId": "65f3e558fa1e558caf9cd952ce41fcdd82c8ff6d",
+      "title": "IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.09849",
+      "citationCount": 30,
+      "coAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Florian Bordes"
+        },
+        {
+          "slug": null,
+          "name": "Justine T Kao"
+        },
+        {
+          "slug": null,
+          "name": "Adina Williams"
+        },
+        {
+          "slug": null,
+          "name": "Emmanuel Dupoux"
+        }
+      ]
+    },
+    {
+      "paperId": "c5e7e68a6214f5f2726b5d1845968e5f93fcef1c",
+      "title": "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2502.11831",
+      "citationCount": 66,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Mahmoud Assran"
+        },
+        {
+          "slug": null,
+          "name": "Laurent Najman"
+        },
+        {
+          "slug": null,
+          "name": "Emmanuel Dupoux"
+        }
+      ]
+    },
+    {
+      "paperId": "4d1eadaa9a04e86aef2278ae13eb9fce644c9fc5",
+      "title": "Learning and Leveraging World Models in Visual Representation Learning",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2403.00504",
+      "citationCount": 69,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": null,
+          "name": "Mahmoud Assran"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Laurent Najman"
+        }
+      ]
+    },
+    {
+      "paperId": "872d78c04c8fb115d492eea98199407991670533",
+      "title": "Revisiting Feature Prediction for Learning Visual Representations from Video",
+      "year": 2024,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2404.08471",
+      "citationCount": 400,
+      "coAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Jean Ponce"
+        },
+        {
+          "slug": null,
+          "name": "Xinlei Chen"
+        },
+        {
+          "slug": null,
+          "name": "Mahmoud Assran"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        }
+      ]
+    },
+    {
+      "paperId": "5dc01119b2e4911b0c1ae61233e36efe78588aed",
+      "title": "Self-Supervised Learning with Lie Symmetries for Partial Differential Equations",
+      "year": 2023,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2307.05432",
+      "citationCount": 33,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "G. Mialon"
+        },
+        {
+          "slug": null,
+          "name": "Hannah Lawrence"
+        },
+        {
+          "slug": null,
+          "name": "Danyal Rehman"
+        },
+        {
+          "slug": null,
+          "name": "B. Kiani"
+        }
+      ]
+    }
+  ],
+  "topPublications": [
+    {
+      "title": "Learning Latent Action World Models In The Wild",
+      "year": 2026,
+      "citationCount": 29,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.05230"
+    },
+    {
+      "title": "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
+      "year": 2026,
+      "citationCount": 8,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.03604"
+    },
+    {
+      "title": "Interpreting Physics in Video World Models",
+      "year": 2026,
+      "citationCount": 5,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.07050"
+    },
+    {
+      "title": "A Shortcut-aware Video-QA Benchmark for Physical Understanding via Minimal Video Pairs",
+      "year": 2025,
+      "citationCount": 18,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2506.09987"
+    },
+    {
+      "title": "IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments",
+      "year": 2025,
+      "citationCount": 30,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.09849"
+    }
+  ],
   "githubProjects": [],
   "githubActivity": {
     "username": "garridoq",
     "githubUrl": "https://github.com/garridoq",
     "recentEventCount": 0
   },
-  "news": [],
+  "news": [
+    {
+      "title": "New Hire: Quentin Garrido, Member of Technical Staff, Paris",
+      "url": "https://ami.frenchtechjournal.com/team/quentin-garrido",
+      "source": "The AMI Observatory",
+      "publishedAt": "2026-07-24"
+    }
+  ],
   "xPosts": [],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "michael-rabbat",
+        "name": "Michael Rabbat",
+        "sharedPapers": 7
+      },
+      {
+        "slug": "yann-lecun",
+        "name": "Yann LeCun",
+        "sharedPapers": 7
+      },
+      {
+        "slug": "adrien-bardes",
+        "name": "Adrien Bardes",
+        "sharedPapers": 4
+      },
+      {
+        "slug": "basile-terver",
+        "name": "Basile Terver",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "david-fan",
+        "name": "David Fan",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "megi-dervishi",
+        "name": "Megi Dervishi",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "matthew-muckley",
+        "name": "Matthew Muckley",
+        "sharedPapers": 1
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "Nicolas Ballas",
+        "papers": 6
+      },
+      {
+        "name": "Mahmoud Assran",
+        "papers": 5
+      },
+      {
+        "name": "Koustuv Sinha",
+        "papers": 3
+      },
+      {
+        "name": "Randall Balestriero",
+        "papers": 2
+      },
+      {
+        "name": "Tushar Nagarajan",
+        "papers": 2
+      },
+      {
+        "name": "Mojtaba Komeili",
+        "papers": 2
+      },
+      {
+        "name": "Emmanuel Dupoux",
+        "papers": 2
+      },
+      {
+        "name": "Laurent Najman",
+        "papers": 2
+      },
+      {
+        "name": "Sonia Joseph",
+        "papers": 1
+      },
+      {
+        "name": "Matthew Kowal",
+        "papers": 1
+      },
+      {
+        "name": "Thomas Fel",
+        "papers": 1
+      },
+      {
+        "name": "Shahab Bakhtiari",
+        "papers": 1
+      },
+      {
+        "name": "Blake Richards",
+        "papers": 1
+      },
+      {
+        "name": "Wancong Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Amir Bar",
+        "papers": 1
+      },
+      {
+        "name": "Russell Howes",
+        "papers": 1
+      },
+      {
+        "name": "Ammar Rizvi",
+        "papers": 1
+      },
+      {
+        "name": "Claire Roberts",
+        "papers": 1
+      },
+      {
+        "name": "Artem Zholus",
+        "papers": 1
+      },
+      {
+        "name": "Sergio Arnaud",
+        "papers": 1
+      },
+      {
+        "name": "Abha Gejji",
+        "papers": 1
+      },
+      {
+        "name": "Ada Martin",
+        "papers": 1
+      },
+      {
+        "name": "Francois Hogan",
+        "papers": 1
+      },
+      {
+        "name": "Daniel Dugas",
+        "papers": 1
+      },
+      {
+        "name": "Piotr Bojanowski",
+        "papers": 1
+      },
+      {
+        "name": "Vasil Khalidov",
+        "papers": 1
+      },
+      {
+        "name": "Patrick Labatut",
+        "papers": 1
+      },
+      {
+        "name": "Francisco Massa",
+        "papers": 1
+      },
+      {
+        "name": "Marc Szafraniec",
+        "papers": 1
+      },
+      {
+        "name": "K. Krishnakumar",
+        "papers": 1
+      },
+      {
+        "name": "Yong Li",
+        "papers": 1
+      },
+      {
+        "name": "Xiaodong Ma",
+        "papers": 1
+      },
+      {
+        "name": "Sarath Chandar",
+        "papers": 1
+      },
+      {
+        "name": "Franziska Meier",
+        "papers": 1
+      },
+      {
+        "name": "Fair at Meta",
+        "papers": 1
+      },
+      {
+        "name": "M. Québec",
+        "papers": 1
+      },
+      {
+        "name": "AI Institute",
+        "papers": 1
+      },
+      {
+        "name": "P. Montr'eal",
+        "papers": 1
+      },
+      {
+        "name": "Benno Krojer",
+        "papers": 1
+      },
+      {
+        "name": "Candace Ross",
+        "papers": 1
+      },
+      {
+        "name": "Florian Bordes",
+        "papers": 1
+      },
+      {
+        "name": "Justine T Kao",
+        "papers": 1
+      },
+      {
+        "name": "Adina Williams",
+        "papers": 1
+      },
+      {
+        "name": "Jean Ponce",
+        "papers": 1
+      },
+      {
+        "name": "Xinlei Chen",
+        "papers": 1
+      },
+      {
+        "name": "G. Mialon",
+        "papers": 1
+      },
+      {
+        "name": "Hannah Lawrence",
+        "papers": 1
+      },
+      {
+        "name": "Danyal Rehman",
+        "papers": 1
+      },
+      {
+        "name": "B. Kiani",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "adrien-bardes",

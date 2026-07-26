@@ -33,8 +33,273 @@
   ],
   "reportsTo": "saining-xie",
   "reports": [],
-  "papers": [],
-  "topPublications": [],
+  "papers": [
+    {
+      "paperId": "929de208dc5f275117bf992d12af99206109f240",
+      "title": "Does Visual Pretraining Help End-to-End Reasoning?",
+      "year": 2023,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2307.08506",
+      "citationCount": 4,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chen Sun"
+        },
+        {
+          "slug": null,
+          "name": "Calvin Luo"
+        },
+        {
+          "slug": null,
+          "name": "Anurag Arnab"
+        },
+        {
+          "slug": null,
+          "name": "C. Schmid"
+        }
+      ]
+    },
+    {
+      "paperId": "8ca84be6788622ed6700d2799bb6460b15707fca",
+      "title": "Dense Video Object Captioning from Disjoint Supervision",
+      "year": 2023,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2306.11729",
+      "citationCount": 11,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Anurag Arnab"
+        },
+        {
+          "slug": null,
+          "name": "Chen Sun"
+        },
+        {
+          "slug": null,
+          "name": "C. Schmid"
+        }
+      ]
+    },
+    {
+      "paperId": "5d3b032270276a0c17ef5fb76679291186dccdca",
+      "title": "DaTaSeg: Taming a Universal Multi-Dataset Multi-Task Segmentation Model",
+      "year": 2023,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2306.01736",
+      "citationCount": 40,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Xiuye Gu"
+        },
+        {
+          "slug": null,
+          "name": "Yin Cui"
+        },
+        {
+          "slug": null,
+          "name": "Jonathan Huang"
+        },
+        {
+          "slug": null,
+          "name": "Abdullah Rashwan"
+        },
+        {
+          "slug": null,
+          "name": "X. Yang"
+        },
+        {
+          "slug": null,
+          "name": "Golnaz Ghiasi"
+        },
+        {
+          "slug": null,
+          "name": "Weicheng Kuo"
+        },
+        {
+          "slug": null,
+          "name": "Huizhong Chen"
+        },
+        {
+          "slug": null,
+          "name": "Liang-Chieh Chen"
+        },
+        {
+          "slug": null,
+          "name": "David A. Ross"
+        }
+      ]
+    },
+    {
+      "paperId": "4f1408ca267763cb2d20e0141ac53a63d766e69e",
+      "title": "How can objects help action recognition?",
+      "year": 2023,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52729.2023.00233",
+      "citationCount": 30,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Anurag Arnab"
+        },
+        {
+          "slug": null,
+          "name": "Chen Sun"
+        },
+        {
+          "slug": null,
+          "name": "C. Schmid"
+        }
+      ]
+    },
+    {
+      "paperId": "f1a17ec934d55909bbd35846048f1871ef09892e",
+      "title": "First principles investigation on Na-ion storage in two-dimensional boron-rich B2N, B3N, and B5N.",
+      "year": 2023,
+      "venue": "Physical Chemistry, Chemical Physics - PCCP",
+      "url": "https://doi.org/10.1039/d2cp03662b",
+      "citationCount": 5,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Fang Liu"
+        },
+        {
+          "slug": null,
+          "name": "Xianfei Chen"
+        },
+        {
+          "slug": null,
+          "name": "Yi Huang"
+        },
+        {
+          "slug": null,
+          "name": "Peicong Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Beibei Xiao"
+        },
+        {
+          "slug": null,
+          "name": "Wentao Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Lianli Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "e45a9242a977352ab1d7379e9e2a01dde82663ed",
+      "title": "NMS Strikes Back",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2212.06137",
+      "citationCount": 59,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jeffrey Ouyang-Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Jang Hyun Cho"
+        },
+        {
+          "slug": null,
+          "name": "Philipp Krahenbuhl"
+        }
+      ]
+    },
+    {
+      "paperId": "467035370610662eafd4d03ac5dcc9444476d3c6",
+      "title": "Global Tracking Transformers",
+      "year": 2022,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52688.2022.00857",
+      "citationCount": 211,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tianwei Yin"
+        },
+        {
+          "slug": null,
+          "name": "V. Koltun"
+        },
+        {
+          "slug": null,
+          "name": "Philipp Krähenbühl"
+        }
+      ]
+    },
+    {
+      "paperId": "86b42cac364985919987789795be7c3a577ee3de",
+      "title": "Detecting Twenty-thousand Classes using Image-level Supervision",
+      "year": 2022,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-031-20077-9_21",
+      "citationCount": 888,
+      "coAuthors": [
+        {
+          "slug": "rohit-girdhar",
+          "name": "Rohit Girdhar"
+        },
+        {
+          "slug": null,
+          "name": "Armand Joulin"
+        },
+        {
+          "slug": null,
+          "name": "Phillip Krahenbuhl"
+        },
+        {
+          "slug": null,
+          "name": "Ishan Misra"
+        }
+      ]
+    }
+  ],
+  "topPublications": [
+    {
+      "title": "How can objects help action recognition?",
+      "year": 2023,
+      "citationCount": 30,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52729.2023.00233"
+    },
+    {
+      "title": "DaTaSeg: Taming a Universal Multi-Dataset Multi-Task Segmentation Model",
+      "year": 2023,
+      "citationCount": 40,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2306.01736"
+    },
+    {
+      "title": "Dense Video Object Captioning from Disjoint Supervision",
+      "year": 2023,
+      "citationCount": 11,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2306.11729"
+    },
+    {
+      "title": "Does Visual Pretraining Help End-to-End Reasoning?",
+      "year": 2023,
+      "citationCount": 4,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2307.08506"
+    },
+    {
+      "title": "First principles investigation on Na-ion storage in two-dimensional boron-rich B2N, B3N, and B5N.",
+      "year": 2023,
+      "citationCount": 5,
+      "venue": "Physical Chemistry, Chemical Physics - PCCP",
+      "url": "https://doi.org/10.1039/d2cp03662b"
+    }
+  ],
   "githubProjects": [],
   "githubActivity": {
     "username": "xingyizhou",
@@ -44,8 +309,135 @@
   "news": [],
   "xPosts": [],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "rohit-girdhar",
+        "name": "Rohit Girdhar",
+        "sharedPapers": 1
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "Chen Sun",
+        "papers": 3
+      },
+      {
+        "name": "Anurag Arnab",
+        "papers": 3
+      },
+      {
+        "name": "C. Schmid",
+        "papers": 3
+      },
+      {
+        "name": "Calvin Luo",
+        "papers": 1
+      },
+      {
+        "name": "Xiuye Gu",
+        "papers": 1
+      },
+      {
+        "name": "Yin Cui",
+        "papers": 1
+      },
+      {
+        "name": "Jonathan Huang",
+        "papers": 1
+      },
+      {
+        "name": "Abdullah Rashwan",
+        "papers": 1
+      },
+      {
+        "name": "X. Yang",
+        "papers": 1
+      },
+      {
+        "name": "Golnaz Ghiasi",
+        "papers": 1
+      },
+      {
+        "name": "Weicheng Kuo",
+        "papers": 1
+      },
+      {
+        "name": "Huizhong Chen",
+        "papers": 1
+      },
+      {
+        "name": "Liang-Chieh Chen",
+        "papers": 1
+      },
+      {
+        "name": "David A. Ross",
+        "papers": 1
+      },
+      {
+        "name": "Fang Liu",
+        "papers": 1
+      },
+      {
+        "name": "Xianfei Chen",
+        "papers": 1
+      },
+      {
+        "name": "Yi Huang",
+        "papers": 1
+      },
+      {
+        "name": "Peicong Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Beibei Xiao",
+        "papers": 1
+      },
+      {
+        "name": "Wentao Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Lianli Wang",
+        "papers": 1
+      },
+      {
+        "name": "Jeffrey Ouyang-Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Jang Hyun Cho",
+        "papers": 1
+      },
+      {
+        "name": "Philipp Krahenbuhl",
+        "papers": 1
+      },
+      {
+        "name": "Tianwei Yin",
+        "papers": 1
+      },
+      {
+        "name": "V. Koltun",
+        "papers": 1
+      },
+      {
+        "name": "Philipp Krähenbühl",
+        "papers": 1
+      },
+      {
+        "name": "Armand Joulin",
+        "papers": 1
+      },
+      {
+        "name": "Phillip Krahenbuhl",
+        "papers": 1
+      },
+      {
+        "name": "Ishan Misra",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "adrien-bardes",

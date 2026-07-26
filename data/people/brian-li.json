@@ -29,8 +29,657 @@
   ],
   "reportsTo": "min-lin",
   "reports": [],
-  "papers": [],
-  "topPublications": [],
+  "papers": [
+    {
+      "paperId": "ef00907321ce5dd241f55a24fcdf49267320dd09",
+      "title": "Video-MMMU: Evaluating Knowledge Acquisition from Multidisciplinary Professional Videos",
+      "year": 2026,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.18653/v1/2026.acl-long.1281",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Kairui Hu"
+        },
+        {
+          "slug": null,
+          "name": "Penghao Wu"
+        },
+        {
+          "slug": null,
+          "name": "Fanyi Pu"
+        },
+        {
+          "slug": null,
+          "name": "Wang Xiao"
+        },
+        {
+          "slug": null,
+          "name": "Xiang Yue"
+        },
+        {
+          "slug": null,
+          "name": "Yuanhan Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "c065b806555f74e4878ccbd695245d1b6534c16a",
+      "title": "UniG2U-Bench: Do Unified Models Advance Multimodal Understanding?",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.03241",
+      "citationCount": 3,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Zimo Wen"
+        },
+        {
+          "slug": null,
+          "name": "Boxiu Li"
+        },
+        {
+          "slug": null,
+          "name": "Wan-Yue Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Jun Lei"
+        },
+        {
+          "slug": null,
+          "name": "Xiaoyu Chen"
+        },
+        {
+          "slug": null,
+          "name": "Yijia Fan"
+        },
+        {
+          "slug": null,
+          "name": "Qi Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Yujiang Wang"
+        },
+        {
+          "slug": null,
+          "name": "Lili Qiu"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Liu"
+        },
+        {
+          "slug": null,
+          "name": "Caihua Shan"
+        },
+        {
+          "slug": null,
+          "name": "Yifan Yang"
+        },
+        {
+          "slug": null,
+          "name": "Yifei Shen"
+        }
+      ]
+    },
+    {
+      "paperId": "3452df196f838dc17667bd416d2eb6fc3f246e08",
+      "title": "TUNA: Comprehensive Fine-grained Temporal Understanding Evaluation on Dense Dynamic Videos",
+      "year": 2025,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2505.20124",
+      "citationCount": 10,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Fanheng Kong"
+        },
+        {
+          "slug": null,
+          "name": "Jingyuan Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Hongzhi Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Shi Feng"
+        },
+        {
+          "slug": null,
+          "name": "Daling Wang"
+        },
+        {
+          "slug": null,
+          "name": "Linhao Yu"
+        },
+        {
+          "slug": null,
+          "name": "Xingguang Ji"
+        },
+        {
+          "slug": null,
+          "name": "Yu Tian"
+        },
+        {
+          "slug": null,
+          "name": "Qi Wang"
+        },
+        {
+          "slug": null,
+          "name": "Fuzheng Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Elmira Amirloo"
+        },
+        {
+          "slug": null,
+          "name": "J. Fauconnier"
+        },
+        {
+          "slug": null,
+          "name": "Christoph Roesmann"
+        },
+        {
+          "slug": null,
+          "name": "Christian Kerl"
+        },
+        {
+          "slug": null,
+          "name": "Rinu Boney"
+        },
+        {
+          "slug": null,
+          "name": "Yu-Mei Qian"
+        },
+        {
+          "slug": null,
+          "name": "Zirui Wang"
+        },
+        {
+          "slug": null,
+          "name": "Afshin Dehghan"
+        },
+        {
+          "slug": null,
+          "name": "Zhe Yinfei Yang"
+        },
+        {
+          "slug": null,
+          "name": "Hidehisa Arai"
+        },
+        {
+          "slug": null,
+          "name": "Keita Miwa"
+        },
+        {
+          "slug": null,
+          "name": "Kento Sasaki"
+        },
+        {
+          "slug": null,
+          "name": "Yu Yamaguchi"
+        },
+        {
+          "slug": null,
+          "name": "Kohei Watanabe"
+        },
+        {
+          "slug": null,
+          "name": "Shunsuke Aoki"
+        },
+        {
+          "slug": null,
+          "name": "Issei Yamamoto"
+        },
+        {
+          "slug": null,
+          "name": "Covla"
+        },
+        {
+          "slug": null,
+          "name": "Davide Caffagni"
+        },
+        {
+          "slug": null,
+          "name": "Federico Cocchi"
+        },
+        {
+          "slug": null,
+          "name": "Luca Barsellotti"
+        },
+        {
+          "slug": null,
+          "name": "Nicholas Moratelli"
+        },
+        {
+          "slug": null,
+          "name": "Sara Sarto"
+        },
+        {
+          "slug": null,
+          "name": "L. Baraldi"
+        },
+        {
+          "slug": null,
+          "name": "Marcella Cornia"
+        },
+        {
+          "slug": null,
+          "name": "Rita Cucchiara"
+        },
+        {
+          "slug": null,
+          "name": "Zhe Chen"
+        },
+        {
+          "slug": null,
+          "name": "Weiyun Wang"
+        },
+        {
+          "slug": null,
+          "name": "Haowen Tian"
+        },
+        {
+          "slug": null,
+          "name": "Sheng-Tao Ye"
+        },
+        {
+          "slug": null,
+          "name": "Zhangwei Gao"
+        },
+        {
+          "slug": null,
+          "name": "Erfei Cui"
+        },
+        {
+          "slug": null,
+          "name": "Wenwen Tong"
+        },
+        {
+          "slug": null,
+          "name": "Kongzhi Hu"
+        },
+        {
+          "slug": null,
+          "name": "Jiapeng Luo"
+        },
+        {
+          "slug": null,
+          "name": "Zheng Ma"
+        },
+        {
+          "slug": null,
+          "name": "Yuan-hang Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Dong Guo"
+        },
+        {
+          "slug": null,
+          "name": "Renrui Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Feng Li"
+        },
+        {
+          "slug": null,
+          "name": "Hao Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Kaichen Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Yanwei Li"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Liu"
+        },
+        {
+          "slug": null,
+          "name": "Wei Li"
+        },
+        {
+          "slug": null,
+          "name": "Zejun Ma"
+        },
+        {
+          "slug": null,
+          "name": "Chunyuan Li"
+        },
+        {
+          "slug": null,
+          "name": "Junnan Li"
+        },
+        {
+          "slug": null,
+          "name": "Dongxu Li"
+        },
+        {
+          "slug": null,
+          "name": "Silvio Savarese"
+        },
+        {
+          "slug": null,
+          "name": "Kunchang Li"
+        },
+        {
+          "slug": null,
+          "name": "Yali Wang"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Wei He"
+        },
+        {
+          "slug": null,
+          "name": "Yizhuo Li"
+        },
+        {
+          "slug": null,
+          "name": "Yi Wang"
+        },
+        {
+          "slug": null,
+          "name": "Yi Liu"
+        },
+        {
+          "slug": null,
+          "name": "Zun Wang"
+        },
+        {
+          "slug": null,
+          "name": "Jilan Xu"
+        },
+        {
+          "slug": null,
+          "name": "Guo Chen"
+        },
+        {
+          "slug": null,
+          "name": "Ji Lin"
+        },
+        {
+          "slug": null,
+          "name": "Hongxu Yin"
+        },
+        {
+          "slug": null,
+          "name": "Wei Ping"
+        },
+        {
+          "slug": null,
+          "name": "Pavlo Molchanov"
+        },
+        {
+          "slug": null,
+          "name": "Ye Liu"
+        },
+        {
+          "slug": null,
+          "name": "Zongyang Ma"
+        },
+        {
+          "slug": null,
+          "name": "Zhongang Qi"
+        },
+        {
+          "slug": null,
+          "name": "Yang Wu"
+        },
+        {
+          "slug": null,
+          "name": "Changzheng Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "4e3d888abc01555feb92a60935c8e537abc4648a",
+      "title": "Video-MMMU: Evaluating Knowledge Acquisition from Multi-Discipline Professional Videos",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2501.13826",
+      "citationCount": 217,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Kairui Hu"
+        },
+        {
+          "slug": null,
+          "name": "Penghao Wu"
+        },
+        {
+          "slug": null,
+          "name": "Fanyi Pu"
+        },
+        {
+          "slug": null,
+          "name": "W. Xiao"
+        },
+        {
+          "slug": null,
+          "name": "Yuanhan Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Xiang Yue"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "05f01ee0687b03d8ab3527ca26380dca692d7a5c",
+      "title": "MME-Survey: A Comprehensive Survey on Evaluation of Multimodal LLMs",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2411.15296",
+      "citationCount": 77,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chaoyou Fu"
+        },
+        {
+          "slug": null,
+          "name": "Yifan Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Shukang Yin"
+        },
+        {
+          "slug": null,
+          "name": "Xinyu Fang"
+        },
+        {
+          "slug": null,
+          "name": "Sirui Zhao"
+        },
+        {
+          "slug": null,
+          "name": "Haodong Duan"
+        },
+        {
+          "slug": null,
+          "name": "Xing Sun"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Liu"
+        },
+        {
+          "slug": null,
+          "name": "Liang Wang"
+        },
+        {
+          "slug": null,
+          "name": "Caifeng Shan"
+        },
+        {
+          "slug": null,
+          "name": "Ran He"
+        }
+      ]
+    },
+    {
+      "paperId": "b2dfbda2dc8bc8954d64db8f0c43d187490456bd",
+      "title": "Large Multi-modal Models Can Interpret Features in Large Multi-modal Models",
+      "year": 2024,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV51701.2025.00348",
+      "citationCount": 21,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Kaichen Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Yifei Shen"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "ed44571dd9de3654b84ee1fea63015ecb67e6e63",
+      "title": "LLaVA-Video: Video Instruction Tuning With Synthetic Data",
+      "year": 2024,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://www.semanticscholar.org/paper/ed44571dd9de3654b84ee1fea63015ecb67e6e63",
+      "citationCount": 441,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yuanhan Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Jinming Wu"
+        },
+        {
+          "slug": null,
+          "name": "Wei Li"
+        },
+        {
+          "slug": null,
+          "name": "Zejun Ma"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Liu"
+        },
+        {
+          "slug": null,
+          "name": "Chunyuan Li"
+        }
+      ]
+    },
+    {
+      "paperId": "1a71f7b216b710b936da666027014adb83af8e7a",
+      "title": "LLaVA-OneVision: Easy Visual Task Transfer",
+      "year": 2024,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2408.03326",
+      "citationCount": 2754,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yuanhan Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Dong Guo"
+        },
+        {
+          "slug": null,
+          "name": "Renrui Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Feng Li"
+        },
+        {
+          "slug": null,
+          "name": "Hao Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Kaichen Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Yanwei Li"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Liu"
+        },
+        {
+          "slug": null,
+          "name": "Chunyuan Li"
+        }
+      ]
+    }
+  ],
+  "topPublications": [
+    {
+      "title": "UniG2U-Bench: Do Unified Models Advance Multimodal Understanding?",
+      "year": 2026,
+      "citationCount": 3,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.03241"
+    },
+    {
+      "title": "Video-MMMU: Evaluating Knowledge Acquisition from Multidisciplinary Professional Videos",
+      "year": 2026,
+      "citationCount": 2,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.18653/v1/2026.acl-long.1281"
+    },
+    {
+      "title": "TUNA: Comprehensive Fine-grained Temporal Understanding Evaluation on Dense Dynamic Videos",
+      "year": 2025,
+      "citationCount": 10,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2505.20124"
+    },
+    {
+      "title": "Video-MMMU: Evaluating Knowledge Acquisition from Multi-Discipline Professional Videos",
+      "year": 2025,
+      "citationCount": 217,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2501.13826"
+    },
+    {
+      "title": "MME-Survey: A Comprehensive Survey on Evaluation of Multimodal LLMs",
+      "year": 2024,
+      "citationCount": 77,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2411.15296"
+    }
+  ],
   "githubProjects": [],
   "githubActivity": {
     "username": "luodian",
@@ -41,7 +690,436 @@
   "xPosts": [],
   "connections": {
     "coAuthors": [],
-    "externalCoAuthors": [],
+    "externalCoAuthors": [
+      {
+        "name": "Ziwei Liu",
+        "papers": 8
+      },
+      {
+        "name": "Yuanhan Zhang",
+        "papers": 4
+      },
+      {
+        "name": "Kaichen Zhang",
+        "papers": 3
+      },
+      {
+        "name": "Chunyuan Li",
+        "papers": 3
+      },
+      {
+        "name": "Kairui Hu",
+        "papers": 2
+      },
+      {
+        "name": "Penghao Wu",
+        "papers": 2
+      },
+      {
+        "name": "Fanyi Pu",
+        "papers": 2
+      },
+      {
+        "name": "Xiang Yue",
+        "papers": 2
+      },
+      {
+        "name": "Yifei Shen",
+        "papers": 2
+      },
+      {
+        "name": "Dong Guo",
+        "papers": 2
+      },
+      {
+        "name": "Renrui Zhang",
+        "papers": 2
+      },
+      {
+        "name": "Feng Li",
+        "papers": 2
+      },
+      {
+        "name": "Hao Zhang",
+        "papers": 2
+      },
+      {
+        "name": "Yanwei Li",
+        "papers": 2
+      },
+      {
+        "name": "Wei Li",
+        "papers": 2
+      },
+      {
+        "name": "Zejun Ma",
+        "papers": 2
+      },
+      {
+        "name": "Wang Xiao",
+        "papers": 1
+      },
+      {
+        "name": "Zimo Wen",
+        "papers": 1
+      },
+      {
+        "name": "Boxiu Li",
+        "papers": 1
+      },
+      {
+        "name": "Wan-Yue Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Jun Lei",
+        "papers": 1
+      },
+      {
+        "name": "Xiaoyu Chen",
+        "papers": 1
+      },
+      {
+        "name": "Yijia Fan",
+        "papers": 1
+      },
+      {
+        "name": "Qi Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Yujiang Wang",
+        "papers": 1
+      },
+      {
+        "name": "Lili Qiu",
+        "papers": 1
+      },
+      {
+        "name": "Caihua Shan",
+        "papers": 1
+      },
+      {
+        "name": "Yifan Yang",
+        "papers": 1
+      },
+      {
+        "name": "Fanheng Kong",
+        "papers": 1
+      },
+      {
+        "name": "Jingyuan Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Hongzhi Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Shi Feng",
+        "papers": 1
+      },
+      {
+        "name": "Daling Wang",
+        "papers": 1
+      },
+      {
+        "name": "Linhao Yu",
+        "papers": 1
+      },
+      {
+        "name": "Xingguang Ji",
+        "papers": 1
+      },
+      {
+        "name": "Yu Tian",
+        "papers": 1
+      },
+      {
+        "name": "Qi Wang",
+        "papers": 1
+      },
+      {
+        "name": "Fuzheng Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Elmira Amirloo",
+        "papers": 1
+      },
+      {
+        "name": "J. Fauconnier",
+        "papers": 1
+      },
+      {
+        "name": "Christoph Roesmann",
+        "papers": 1
+      },
+      {
+        "name": "Christian Kerl",
+        "papers": 1
+      },
+      {
+        "name": "Rinu Boney",
+        "papers": 1
+      },
+      {
+        "name": "Yu-Mei Qian",
+        "papers": 1
+      },
+      {
+        "name": "Zirui Wang",
+        "papers": 1
+      },
+      {
+        "name": "Afshin Dehghan",
+        "papers": 1
+      },
+      {
+        "name": "Zhe Yinfei Yang",
+        "papers": 1
+      },
+      {
+        "name": "Hidehisa Arai",
+        "papers": 1
+      },
+      {
+        "name": "Keita Miwa",
+        "papers": 1
+      },
+      {
+        "name": "Kento Sasaki",
+        "papers": 1
+      },
+      {
+        "name": "Yu Yamaguchi",
+        "papers": 1
+      },
+      {
+        "name": "Kohei Watanabe",
+        "papers": 1
+      },
+      {
+        "name": "Shunsuke Aoki",
+        "papers": 1
+      },
+      {
+        "name": "Issei Yamamoto",
+        "papers": 1
+      },
+      {
+        "name": "Covla",
+        "papers": 1
+      },
+      {
+        "name": "Davide Caffagni",
+        "papers": 1
+      },
+      {
+        "name": "Federico Cocchi",
+        "papers": 1
+      },
+      {
+        "name": "Luca Barsellotti",
+        "papers": 1
+      },
+      {
+        "name": "Nicholas Moratelli",
+        "papers": 1
+      },
+      {
+        "name": "Sara Sarto",
+        "papers": 1
+      },
+      {
+        "name": "L. Baraldi",
+        "papers": 1
+      },
+      {
+        "name": "Marcella Cornia",
+        "papers": 1
+      },
+      {
+        "name": "Rita Cucchiara",
+        "papers": 1
+      },
+      {
+        "name": "Zhe Chen",
+        "papers": 1
+      },
+      {
+        "name": "Weiyun Wang",
+        "papers": 1
+      },
+      {
+        "name": "Haowen Tian",
+        "papers": 1
+      },
+      {
+        "name": "Sheng-Tao Ye",
+        "papers": 1
+      },
+      {
+        "name": "Zhangwei Gao",
+        "papers": 1
+      },
+      {
+        "name": "Erfei Cui",
+        "papers": 1
+      },
+      {
+        "name": "Wenwen Tong",
+        "papers": 1
+      },
+      {
+        "name": "Kongzhi Hu",
+        "papers": 1
+      },
+      {
+        "name": "Jiapeng Luo",
+        "papers": 1
+      },
+      {
+        "name": "Zheng Ma",
+        "papers": 1
+      },
+      {
+        "name": "Yuan-hang Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Junnan Li",
+        "papers": 1
+      },
+      {
+        "name": "Dongxu Li",
+        "papers": 1
+      },
+      {
+        "name": "Silvio Savarese",
+        "papers": 1
+      },
+      {
+        "name": "Kunchang Li",
+        "papers": 1
+      },
+      {
+        "name": "Yali Wang",
+        "papers": 1
+      },
+      {
+        "name": "Yi-Wei He",
+        "papers": 1
+      },
+      {
+        "name": "Yizhuo Li",
+        "papers": 1
+      },
+      {
+        "name": "Yi Wang",
+        "papers": 1
+      },
+      {
+        "name": "Yi Liu",
+        "papers": 1
+      },
+      {
+        "name": "Zun Wang",
+        "papers": 1
+      },
+      {
+        "name": "Jilan Xu",
+        "papers": 1
+      },
+      {
+        "name": "Guo Chen",
+        "papers": 1
+      },
+      {
+        "name": "Ji Lin",
+        "papers": 1
+      },
+      {
+        "name": "Hongxu Yin",
+        "papers": 1
+      },
+      {
+        "name": "Wei Ping",
+        "papers": 1
+      },
+      {
+        "name": "Pavlo Molchanov",
+        "papers": 1
+      },
+      {
+        "name": "Ye Liu",
+        "papers": 1
+      },
+      {
+        "name": "Zongyang Ma",
+        "papers": 1
+      },
+      {
+        "name": "Zhongang Qi",
+        "papers": 1
+      },
+      {
+        "name": "Yang Wu",
+        "papers": 1
+      },
+      {
+        "name": "Changzheng Chen",
+        "papers": 1
+      },
+      {
+        "name": "W. Xiao",
+        "papers": 1
+      },
+      {
+        "name": "Chaoyou Fu",
+        "papers": 1
+      },
+      {
+        "name": "Yifan Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Shukang Yin",
+        "papers": 1
+      },
+      {
+        "name": "Xinyu Fang",
+        "papers": 1
+      },
+      {
+        "name": "Sirui Zhao",
+        "papers": 1
+      },
+      {
+        "name": "Haodong Duan",
+        "papers": 1
+      },
+      {
+        "name": "Xing Sun",
+        "papers": 1
+      },
+      {
+        "name": "Liang Wang",
+        "papers": 1
+      },
+      {
+        "name": "Caifeng Shan",
+        "papers": 1
+      },
+      {
+        "name": "Ran He",
+        "papers": 1
+      },
+      {
+        "name": "Jinming Wu",
+        "papers": 1
+      }
+    ],
     "formerColleagues": []
   }
 }

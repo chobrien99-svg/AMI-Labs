@@ -18,19 +18,483 @@
   "careerHistory": [],
   "reportsTo": "saining-xie",
   "reports": [],
-  "papers": [],
-  "topPublications": [],
+  "papers": [
+    {
+      "paperId": "98bfd032ec0208cadd3a5deb9f34d4b228736599",
+      "title": "Cambrian-P: Pose-Grounded Video Understanding",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.22819",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
+          "slug": null,
+          "name": "Zifan Zhao"
+        },
+        {
+          "slug": null,
+          "name": "Xichen Pan"
+        },
+        {
+          "slug": null,
+          "name": "Shusheng Yang"
+        },
+        {
+          "slug": null,
+          "name": "Junyi Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Bin Kang"
+        },
+        {
+          "slug": null,
+          "name": "Hu Xu"
+        }
+      ]
+    },
+    {
+      "paperId": "04eec95aa8c9e20b1ae70e9687789a11fa70e4b8",
+      "title": "From Where Things Are to What They Are For: Benchmarking Spatial-Functional Intelligence in Multimodal LLMs",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.02130",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Le Zhang"
+        },
+        {
+          "slug": null,
+          "name": "S. Krishnan"
+        },
+        {
+          "slug": null,
+          "name": "J. Majmudar"
+        },
+        {
+          "slug": null,
+          "name": "Xiou Ge"
+        },
+        {
+          "slug": null,
+          "name": "Prasoon Puri"
+        },
+        {
+          "slug": null,
+          "name": "Prathamesh Saraf"
+        },
+        {
+          "slug": null,
+          "name": "Shruti Bhargava"
+        },
+        {
+          "slug": null,
+          "name": "Dhivya Piraviperumal"
+        },
+        {
+          "slug": null,
+          "name": "Yinan Ling"
+        },
+        {
+          "slug": null,
+          "name": "Cindy Pan"
+        },
+        {
+          "slug": null,
+          "name": "Hong Yu"
+        },
+        {
+          "slug": null,
+          "name": "Aishwarya Agrawal"
+        },
+        {
+          "slug": null,
+          "name": "Bo-Hsiang Tseng"
+        }
+      ]
+    },
+    {
+      "paperId": "0b457a087fa7c01f37de67065be19f3aa8583aa8",
+      "title": "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.16208",
+      "citationCount": 38,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
+          "slug": null,
+          "name": "Shengbang Tong"
+        },
+        {
+          "slug": null,
+          "name": "Boyang Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Ziteng Wang"
+        },
+        {
+          "slug": null,
+          "name": "Bingda Tang"
+        },
+        {
+          "slug": null,
+          "name": "Nanye Ma"
+        },
+        {
+          "slug": null,
+          "name": "Ellis Brown"
+        },
+        {
+          "slug": null,
+          "name": "Rob Fergus"
+        }
+      ]
+    },
+    {
+      "paperId": "2154ab7d1741e093df8ed0361f63f636185d213f",
+      "title": "Benchmark Designers Should \"Train on the Test Set\" to Expose Exploitable Non-Visual Shortcuts",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2511.04655",
+      "citationCount": 28,
+      "coAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
+          "slug": null,
+          "name": "Ellis Brown"
+        },
+        {
+          "slug": null,
+          "name": "Shusheng Yang"
+        },
+        {
+          "slug": null,
+          "name": "Rob Fergus"
+        }
+      ]
+    },
+    {
+      "paperId": "cd1d87e7e31a05a82b6b25bf231f831c39006ef1",
+      "title": "Cambrian-S: Towards Spatial Supersensing in Video",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2511.04670",
+      "citationCount": 113,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
+          "slug": null,
+          "name": "Shusheng Yang"
+        },
+        {
+          "slug": null,
+          "name": "Pinzhi Huang"
+        },
+        {
+          "slug": null,
+          "name": "Ellis Brown"
+        },
+        {
+          "slug": null,
+          "name": "Zihao Yang"
+        },
+        {
+          "slug": null,
+          "name": "Yue Yu"
+        },
+        {
+          "slug": null,
+          "name": "Shengbang Tong"
+        },
+        {
+          "slug": null,
+          "name": "Zihan Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Yifan Xu"
+        },
+        {
+          "slug": null,
+          "name": "Muhan Wang"
+        },
+        {
+          "slug": null,
+          "name": "Daohan Lu"
+        },
+        {
+          "slug": null,
+          "name": "Rob Fergus"
+        },
+        {
+          "slug": null,
+          "name": "Fei-Fei Li"
+        }
+      ]
+    },
+    {
+      "paperId": "dc008a333ac4aaf69ca9715c05741de40b18630a",
+      "title": "Traveling Across Languages: Benchmarking Cross-Lingual Consistency in Multimodal LLMs",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2505.15075",
+      "citationCount": 3,
+      "coAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
+          "slug": null,
+          "name": "Hao Wang"
+        },
+        {
+          "slug": null,
+          "name": "Pinzhi Huang"
+        },
+        {
+          "slug": null,
+          "name": "Daisuke Kawahara"
+        }
+      ]
+    }
+  ],
+  "topPublications": [
+    {
+      "title": "From Where Things Are to What They Are For: Benchmarking Spatial-Functional Intelligence in Multimodal LLMs",
+      "year": 2026,
+      "citationCount": 1,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.02130"
+    },
+    {
+      "title": "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
+      "year": 2026,
+      "citationCount": 38,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.16208"
+    },
+    {
+      "title": "Cambrian-P: Pose-Grounded Video Understanding",
+      "year": 2026,
+      "citationCount": 0,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.22819"
+    },
+    {
+      "title": "Benchmark Designers Should \"Train on the Test Set\" to Expose Exploitable Non-Visual Shortcuts",
+      "year": 2025,
+      "citationCount": 28,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2511.04655"
+    },
+    {
+      "title": "Cambrian-S: Towards Spatial Supersensing in Video",
+      "year": 2025,
+      "citationCount": 113,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2511.04670"
+    }
+  ],
   "githubProjects": [],
   "githubActivity": {
     "username": "jihanyang",
     "githubUrl": "https://github.com/jihanyang",
     "recentEventCount": 1
   },
-  "news": [],
+  "news": [
+    {
+      "title": "New Hire: Jihan Yan, Researcher",
+      "url": "/news/new-hire-jihan-yan",
+      "source": "The AMI Observatory",
+      "publishedAt": "2026-03-28"
+    }
+  ],
   "xPosts": [],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "saining-xie",
+        "name": "Saining Xie",
+        "sharedPapers": 5
+      },
+      {
+        "slug": "yann-lecun",
+        "name": "Yann LeCun",
+        "sharedPapers": 2
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "Shusheng Yang",
+        "papers": 3
+      },
+      {
+        "name": "Ellis Brown",
+        "papers": 3
+      },
+      {
+        "name": "Rob Fergus",
+        "papers": 3
+      },
+      {
+        "name": "Shengbang Tong",
+        "papers": 2
+      },
+      {
+        "name": "Pinzhi Huang",
+        "papers": 2
+      },
+      {
+        "name": "Zifan Zhao",
+        "papers": 1
+      },
+      {
+        "name": "Xichen Pan",
+        "papers": 1
+      },
+      {
+        "name": "Junyi Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Bin Kang",
+        "papers": 1
+      },
+      {
+        "name": "Hu Xu",
+        "papers": 1
+      },
+      {
+        "name": "Le Zhang",
+        "papers": 1
+      },
+      {
+        "name": "S. Krishnan",
+        "papers": 1
+      },
+      {
+        "name": "J. Majmudar",
+        "papers": 1
+      },
+      {
+        "name": "Xiou Ge",
+        "papers": 1
+      },
+      {
+        "name": "Prasoon Puri",
+        "papers": 1
+      },
+      {
+        "name": "Prathamesh Saraf",
+        "papers": 1
+      },
+      {
+        "name": "Shruti Bhargava",
+        "papers": 1
+      },
+      {
+        "name": "Dhivya Piraviperumal",
+        "papers": 1
+      },
+      {
+        "name": "Yinan Ling",
+        "papers": 1
+      },
+      {
+        "name": "Cindy Pan",
+        "papers": 1
+      },
+      {
+        "name": "Hong Yu",
+        "papers": 1
+      },
+      {
+        "name": "Aishwarya Agrawal",
+        "papers": 1
+      },
+      {
+        "name": "Bo-Hsiang Tseng",
+        "papers": 1
+      },
+      {
+        "name": "Boyang Zheng",
+        "papers": 1
+      },
+      {
+        "name": "Ziteng Wang",
+        "papers": 1
+      },
+      {
+        "name": "Bingda Tang",
+        "papers": 1
+      },
+      {
+        "name": "Nanye Ma",
+        "papers": 1
+      },
+      {
+        "name": "Zihao Yang",
+        "papers": 1
+      },
+      {
+        "name": "Yue Yu",
+        "papers": 1
+      },
+      {
+        "name": "Zihan Zheng",
+        "papers": 1
+      },
+      {
+        "name": "Yifan Xu",
+        "papers": 1
+      },
+      {
+        "name": "Muhan Wang",
+        "papers": 1
+      },
+      {
+        "name": "Daohan Lu",
+        "papers": 1
+      },
+      {
+        "name": "Fei-Fei Li",
+        "papers": 1
+      },
+      {
+        "name": "Hao Wang",
+        "papers": 1
+      },
+      {
+        "name": "Daisuke Kawahara",
+        "papers": 1
+      }
+    ],
     "formerColleagues": []
   }
 }

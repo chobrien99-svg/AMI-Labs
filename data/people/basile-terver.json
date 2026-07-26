@@ -23,19 +23,562 @@
   ],
   "reportsTo": "pascale-fung",
   "reports": [],
-  "papers": [],
-  "topPublications": [],
+  "papers": [
+    {
+      "paperId": "101274838d26060ebdbed1949b7a7b82c23cd9c2",
+      "title": "PEIRA: Learning Predictive Encoders through Inter-View Regressor Alignment",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.17671",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Michael Arbel"
+        },
+        {
+          "slug": null,
+          "name": "Jean Ponce"
+        }
+      ]
+    },
+    {
+      "paperId": "477e20594635eb0ced89bbf2dd9ec873278cf48d",
+      "title": "Hierarchical Planning with Latent World Models",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2604.03208",
+      "citationCount": 12,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Wancong Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Artem Zholus"
+        },
+        {
+          "slug": null,
+          "name": "Soham Chitnis"
+        },
+        {
+          "slug": null,
+          "name": "Harsh Sutaria"
+        },
+        {
+          "slug": null,
+          "name": "Mido Assran"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Amir Bar"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        }
+      ]
+    },
+    {
+      "paperId": "7e65d820f13cf94be083495fd2c433c0886f5a9b",
+      "title": "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.03604",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
+        },
+        {
+          "slug": "megi-dervishi",
+          "name": "Megi Dervishi"
+        },
+        {
+          "slug": "quentin-garrido",
+          "name": "Quentin Garrido"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Tushar Nagarajan"
+        },
+        {
+          "slug": null,
+          "name": "Koustuv Sinha"
+        },
+        {
+          "slug": null,
+          "name": "Wancong Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Amir Bar"
+        }
+      ]
+    },
+    {
+      "paperId": "50509dcc04f3972ba0e10f4fe635aa92cbfac9fc",
+      "title": "Learning Latent Action World Models In The Wild",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.05230",
+      "citationCount": 29,
+      "coAuthors": [
+        {
+          "slug": "quentin-garrido",
+          "name": "Quentin Garrido"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Tushar Nagarajan"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        }
+      ]
+    },
+    {
+      "paperId": "35fc38884dacfaf54e87d739fdb4104bc49b63e5",
+      "title": "What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?",
+      "year": 2025,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2512.24497",
+      "citationCount": 23,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Tsung-Yen Yang"
+        },
+        {
+          "slug": null,
+          "name": "Jean Ponce"
+        }
+      ]
+    },
+    {
+      "paperId": "6eab7b59bac9246b577dcbbadd0ab0a230bf5432",
+      "title": "Back to the Features: DINO as a Foundation for Video World Models",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2507.19468",
+      "citationCount": 51,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Federico Baldassarre"
+        },
+        {
+          "slug": null,
+          "name": "Marc Szafraniec"
+        },
+        {
+          "slug": null,
+          "name": "Vasil Khalidov"
+        },
+        {
+          "slug": null,
+          "name": "Francisco Massa"
+        },
+        {
+          "slug": null,
+          "name": "Patrick Labatut"
+        },
+        {
+          "slug": null,
+          "name": "Maximilian Seitzer"
+        },
+        {
+          "slug": null,
+          "name": "Piotr Bojanowski"
+        }
+      ]
+    },
+    {
+      "paperId": "121d34fe66a35ef11e408de4119477971ee6e2cc",
+      "title": "Embodied AI Agents: Modeling the World",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.22355",
+      "citationCount": 77,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        },
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        },
+        {
+          "slug": null,
+          "name": "Yoram Bachrach"
+        },
+        {
+          "slug": null,
+          "name": "Asli Celikyilmaz"
+        },
+        {
+          "slug": null,
+          "name": "Kamalika Chaudhuri"
+        },
+        {
+          "slug": null,
+          "name": "Emmanuel Dupoux"
+        },
+        {
+          "slug": null,
+          "name": "Hervé Jégou"
+        },
+        {
+          "slug": null,
+          "name": "A. Lazaric"
+        },
+        {
+          "slug": null,
+          "name": "Arjun Majumdar"
+        },
+        {
+          "slug": null,
+          "name": "Andrea Madotto"
+        },
+        {
+          "slug": null,
+          "name": "Franziska Meier"
+        },
+        {
+          "slug": null,
+          "name": "Florian Metze"
+        },
+        {
+          "slug": null,
+          "name": "Théo Moutakanni"
+        },
+        {
+          "slug": null,
+          "name": "Juan Pino"
+        },
+        {
+          "slug": null,
+          "name": "Joseph Tighe"
+        },
+        {
+          "slug": null,
+          "name": "J. Malik"
+        }
+      ]
+    },
+    {
+      "paperId": "66502329bc402a58b8d02c778dc5b37e2498c8c0",
+      "title": "Dual Perspectives on Non-Contrastive Self-Supervised Learning",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2507.01028",
+      "citationCount": 3,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jean Ponce"
+        },
+        {
+          "slug": null,
+          "name": "Martial Hebert"
+        }
+      ]
+    }
+  ],
+  "topPublications": [
+    {
+      "title": "PEIRA: Learning Predictive Encoders through Inter-View Regressor Alignment",
+      "year": 2026,
+      "citationCount": 0,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.17671"
+    },
+    {
+      "title": "Hierarchical Planning with Latent World Models",
+      "year": 2026,
+      "citationCount": 12,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2604.03208"
+    },
+    {
+      "title": "Learning Latent Action World Models In The Wild",
+      "year": 2026,
+      "citationCount": 29,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.05230"
+    },
+    {
+      "title": "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
+      "year": 2026,
+      "citationCount": 8,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.03604"
+    },
+    {
+      "title": "Embodied AI Agents: Modeling the World",
+      "year": 2025,
+      "citationCount": 77,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.22355"
+    }
+  ],
   "githubProjects": [],
   "githubActivity": {
     "username": "Basile-Terv",
     "githubUrl": "https://github.com/Basile-Terv",
-    "recentEventCount": 2
+    "recentEventCount": 0
   },
-  "news": [],
+  "news": [
+    {
+      "title": "New Hire: Basile Terver, Doctorant chercheur, Paris",
+      "url": "https://ami.frenchtechjournal.com/team/basile-terver",
+      "source": "The AMI Observatory",
+      "publishedAt": "2026-05-18"
+    }
+  ],
   "xPosts": [],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "yann-lecun",
+        "name": "Yann LeCun",
+        "sharedPapers": 5
+      },
+      {
+        "slug": "adrien-bardes",
+        "name": "Adrien Bardes",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "quentin-garrido",
+        "name": "Quentin Garrido",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "michael-rabbat",
+        "name": "Michael Rabbat",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "david-fan",
+        "name": "David Fan",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "megi-dervishi",
+        "name": "Megi Dervishi",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "willy-chung",
+        "name": "Willy Chung",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "pascale-fung",
+        "name": "Pascale Fung",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "delong-chen",
+        "name": "Delong Chen",
+        "sharedPapers": 1
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "Jean Ponce",
+        "papers": 3
+      },
+      {
+        "name": "Wancong Zhang",
+        "papers": 2
+      },
+      {
+        "name": "Randall Balestriero",
+        "papers": 2
+      },
+      {
+        "name": "Amir Bar",
+        "papers": 2
+      },
+      {
+        "name": "Nicolas Ballas",
+        "papers": 2
+      },
+      {
+        "name": "Tushar Nagarajan",
+        "papers": 2
+      },
+      {
+        "name": "Michael Arbel",
+        "papers": 1
+      },
+      {
+        "name": "Artem Zholus",
+        "papers": 1
+      },
+      {
+        "name": "Soham Chitnis",
+        "papers": 1
+      },
+      {
+        "name": "Harsh Sutaria",
+        "papers": 1
+      },
+      {
+        "name": "Mido Assran",
+        "papers": 1
+      },
+      {
+        "name": "Koustuv Sinha",
+        "papers": 1
+      },
+      {
+        "name": "Tsung-Yen Yang",
+        "papers": 1
+      },
+      {
+        "name": "Federico Baldassarre",
+        "papers": 1
+      },
+      {
+        "name": "Marc Szafraniec",
+        "papers": 1
+      },
+      {
+        "name": "Vasil Khalidov",
+        "papers": 1
+      },
+      {
+        "name": "Francisco Massa",
+        "papers": 1
+      },
+      {
+        "name": "Patrick Labatut",
+        "papers": 1
+      },
+      {
+        "name": "Maximilian Seitzer",
+        "papers": 1
+      },
+      {
+        "name": "Piotr Bojanowski",
+        "papers": 1
+      },
+      {
+        "name": "Yoram Bachrach",
+        "papers": 1
+      },
+      {
+        "name": "Asli Celikyilmaz",
+        "papers": 1
+      },
+      {
+        "name": "Kamalika Chaudhuri",
+        "papers": 1
+      },
+      {
+        "name": "Emmanuel Dupoux",
+        "papers": 1
+      },
+      {
+        "name": "Hervé Jégou",
+        "papers": 1
+      },
+      {
+        "name": "A. Lazaric",
+        "papers": 1
+      },
+      {
+        "name": "Arjun Majumdar",
+        "papers": 1
+      },
+      {
+        "name": "Andrea Madotto",
+        "papers": 1
+      },
+      {
+        "name": "Franziska Meier",
+        "papers": 1
+      },
+      {
+        "name": "Florian Metze",
+        "papers": 1
+      },
+      {
+        "name": "Théo Moutakanni",
+        "papers": 1
+      },
+      {
+        "name": "Juan Pino",
+        "papers": 1
+      },
+      {
+        "name": "Joseph Tighe",
+        "papers": 1
+      },
+      {
+        "name": "J. Malik",
+        "papers": 1
+      },
+      {
+        "name": "Martial Hebert",
+        "papers": 1
+      }
+    ],
     "formerColleagues": []
   }
 }

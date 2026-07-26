@@ -37,8 +37,385 @@
     "chao-du",
     "xinyi-wan"
   ],
-  "papers": [],
-  "topPublications": [],
+  "papers": [
+    {
+      "paperId": "3f633672ef74063e9c894659dca604c79434b3b1",
+      "title": "Rethinking the Trust Region in LLM Reinforcement Learning",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.04879",
+      "citationCount": 20,
+      "coAuthors": [
+        {
+          "slug": "chao-du",
+          "name": "Chao Du"
+        },
+        {
+          "slug": null,
+          "name": "Penghui Qi"
+        },
+        {
+          "slug": null,
+          "name": "Xiangxin Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Yan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Wee Sun Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "9ddc2b3cc7e2a165ada3ea880da3b7936c498122",
+      "title": "Revisiting Parameter Server in LLM Post-Training",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.19362",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": "xinyi-wan",
+          "name": "Xinyi Wan"
+        },
+        {
+          "slug": null,
+          "name": "Penghui Qi"
+        },
+        {
+          "slug": null,
+          "name": "Guangxing Huang"
+        },
+        {
+          "slug": null,
+          "name": "Chaoyi Ruan"
+        },
+        {
+          "slug": null,
+          "name": "Jialin Li"
+        }
+      ]
+    },
+    {
+      "paperId": "28a20096a624875ab0a182c836aabf42ead1c7fb",
+      "title": "Defeating the Training-Inference Mismatch via FP16",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2510.26788",
+      "citationCount": 50,
+      "coAuthors": [
+        {
+          "slug": "chao-du",
+          "name": "Chao Du"
+        },
+        {
+          "slug": null,
+          "name": "Penghui Qi"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Yan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Xiangxin Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Wee Sun Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "a0d2b6ff08845aa670b897f08a0d217c5e07d0f2",
+      "title": "Nonparametric Data Attribution for Diffusion Models",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2510.14269",
+      "citationCount": 3,
+      "coAuthors": [
+        {
+          "slug": "chao-du",
+          "name": "Chao Du"
+        },
+        {
+          "slug": null,
+          "name": "Yutian Zhao"
+        },
+        {
+          "slug": null,
+          "name": "Xiaosen Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        }
+      ]
+    },
+    {
+      "paperId": "51357ff32df3924f29e550aaf71c9882c2b99348",
+      "title": "Variational Reasoning for Language Models",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.22637",
+      "citationCount": 6,
+      "coAuthors": [
+        {
+          "slug": "chao-du",
+          "name": "Chao Du"
+        },
+        {
+          "slug": null,
+          "name": "Xiangxin Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Yan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Haonan Wang"
+        },
+        {
+          "slug": null,
+          "name": "Chongxuan Li"
+        },
+        {
+          "slug": null,
+          "name": "Liang Wang"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        }
+      ]
+    },
+    {
+      "paperId": "df0a07beb75eea9c71ca70344726e5c822974c40",
+      "title": "Language Models Can Learn from Verbal Feedback Without Scalar Rewards",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.22638",
+      "citationCount": 15,
+      "coAuthors": [
+        {
+          "slug": "chao-du",
+          "name": "Chao Du"
+        },
+        {
+          "slug": null,
+          "name": "Renjie Luo"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Yan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Xiangyan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Wenhu Chen"
+        },
+        {
+          "slug": null,
+          "name": "Wei Lu"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        }
+      ]
+    },
+    {
+      "paperId": "8d1a5fd439dd67f8a16859566b12a35f705f7c83",
+      "title": "Continual Reinforcement Learning by Planning with Online World Models",
+      "year": 2025,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2507.09177",
+      "citationCount": 11,
+      "coAuthors": [
+        {
+          "slug": "chao-du",
+          "name": "Chao Du"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Yan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Guoji Fu"
+        },
+        {
+          "slug": null,
+          "name": "Wee Sun Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "24d9d00b91f99dde3c9a0ea5c79e63f2ed26151c",
+      "title": "Reinforcing General Reasoning without Verifiers",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2505.21493",
+      "citationCount": 71,
+      "coAuthors": [
+        {
+          "slug": "chao-du",
+          "name": "Chao Du"
+        },
+        {
+          "slug": null,
+          "name": "Xiangxin Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Yan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Anya Sims"
+        },
+        {
+          "slug": null,
+          "name": "Haonan Wang"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Chongxuan Li"
+        },
+        {
+          "slug": null,
+          "name": "Liang Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "97c44c9f6fa8da32dea71a7b593fe627a2e6748b",
+      "title": "Lifelong Safety Alignment for Language Models",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2505.20259",
+      "citationCount": 13,
+      "coAuthors": [
+        {
+          "slug": "chao-du",
+          "name": "Chao Du"
+        },
+        {
+          "slug": null,
+          "name": "Haoyu Wang"
+        },
+        {
+          "slug": null,
+          "name": "Zeyu Qin"
+        },
+        {
+          "slug": null,
+          "name": "Yifei Zhao"
+        },
+        {
+          "slug": null,
+          "name": "Xueqian Wang"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        }
+      ]
+    },
+    {
+      "paperId": "0abd29e67b1e52e922660c315bcdeedd9b1eab7e",
+      "title": "Bag of Tricks for Training Data Extraction from Language Models",
+      "year": 2023,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2302.04460",
+      "citationCount": 95,
+      "coAuthors": [
+        {
+          "slug": "bingyi-kang",
+          "name": "Bingyi Kang"
+        },
+        {
+          "slug": "chao-du",
+          "name": "Chao Du"
+        },
+        {
+          "slug": null,
+          "name": "Weichen Yu"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Qian Liu"
+        },
+        {
+          "slug": null,
+          "name": "Yan Huang"
+        },
+        {
+          "slug": null,
+          "name": "Shuicheng Yan"
+        }
+      ]
+    }
+  ],
+  "topPublications": [
+    {
+      "title": "Rethinking the Trust Region in LLM Reinforcement Learning",
+      "year": 2026,
+      "citationCount": 20,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.04879"
+    },
+    {
+      "title": "FlowReasoner: Reinforcing Query-Level Meta-Agents",
+      "year": 2025,
+      "citationCount": 46,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2504.15257"
+    },
+    {
+      "title": "Reinforcing General Reasoning without Verifiers",
+      "year": 2025,
+      "citationCount": 71,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2505.21493"
+    },
+    {
+      "title": "Defeating the Training-Inference Mismatch via FP16",
+      "year": 2025,
+      "citationCount": 50,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2510.26788"
+    },
+    {
+      "title": "Variational Reasoning for Language Models",
+      "year": 2025,
+      "citationCount": 6,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.22637"
+    }
+  ],
   "githubProjects": [],
   "githubActivity": {
     "username": "mavenlin",
@@ -48,8 +425,133 @@
   "news": [],
   "xPosts": [],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "chao-du",
+        "name": "Chao Du",
+        "sharedPapers": 9
+      },
+      {
+        "slug": "xinyi-wan",
+        "name": "Xinyi Wan",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "bingyi-kang",
+        "name": "Bingyi Kang",
+        "sharedPapers": 1
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "Tianyu Pang",
+        "papers": 8
+      },
+      {
+        "name": "Zi-Yan Liu",
+        "papers": 6
+      },
+      {
+        "name": "Xiangxin Zhou",
+        "papers": 4
+      },
+      {
+        "name": "Penghui Qi",
+        "papers": 3
+      },
+      {
+        "name": "Wee Sun Lee",
+        "papers": 3
+      },
+      {
+        "name": "Haonan Wang",
+        "papers": 2
+      },
+      {
+        "name": "Chongxuan Li",
+        "papers": 2
+      },
+      {
+        "name": "Liang Wang",
+        "papers": 2
+      },
+      {
+        "name": "Guangxing Huang",
+        "papers": 1
+      },
+      {
+        "name": "Chaoyi Ruan",
+        "papers": 1
+      },
+      {
+        "name": "Jialin Li",
+        "papers": 1
+      },
+      {
+        "name": "Yutian Zhao",
+        "papers": 1
+      },
+      {
+        "name": "Xiaosen Zheng",
+        "papers": 1
+      },
+      {
+        "name": "Renjie Luo",
+        "papers": 1
+      },
+      {
+        "name": "Xiangyan Liu",
+        "papers": 1
+      },
+      {
+        "name": "Wenhu Chen",
+        "papers": 1
+      },
+      {
+        "name": "Wei Lu",
+        "papers": 1
+      },
+      {
+        "name": "Guoji Fu",
+        "papers": 1
+      },
+      {
+        "name": "Anya Sims",
+        "papers": 1
+      },
+      {
+        "name": "Haoyu Wang",
+        "papers": 1
+      },
+      {
+        "name": "Zeyu Qin",
+        "papers": 1
+      },
+      {
+        "name": "Yifei Zhao",
+        "papers": 1
+      },
+      {
+        "name": "Xueqian Wang",
+        "papers": 1
+      },
+      {
+        "name": "Weichen Yu",
+        "papers": 1
+      },
+      {
+        "name": "Qian Liu",
+        "papers": 1
+      },
+      {
+        "name": "Yan Huang",
+        "papers": 1
+      },
+      {
+        "name": "Shuicheng Yan",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "xinyi-wan",
