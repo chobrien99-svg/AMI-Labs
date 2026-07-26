@@ -15,6 +15,8 @@ export interface BriefingThread {
 export interface BriefingSignal {
   text: string;
   category?: string;
+  url?: string;
+  linkLabel?: string;
 }
 
 export interface Briefing {
@@ -135,7 +137,22 @@ export default function ObservatoryBriefing({ briefing, variant = "preview" }: O
               <span className="home-section-label">Signals</span>
               <ul className="briefing-signals">
                 {briefing.signals.map((s, i) => (
-                  <li key={i}>{s.text}</li>
+                  <li key={i}>
+                    {s.text}
+                    {s.url && (
+                      <>
+                        {" "}
+                        <a
+                          href={s.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="briefing-signal-link"
+                        >
+                          {s.linkLabel || "link"}
+                        </a>
+                      </>
+                    )}
+                  </li>
                 ))}
               </ul>
             </div>
