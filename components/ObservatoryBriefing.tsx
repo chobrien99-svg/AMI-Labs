@@ -30,6 +30,7 @@ export interface Briefing {
   threads?: BriefingThread[];
   signals?: BriefingSignal[];
   whatToWatch?: string;
+  whatToWatchLinks?: { url: string; linkLabel: string }[];
 }
 
 interface ObservatoryBriefingProps {
@@ -162,6 +163,18 @@ export default function ObservatoryBriefing({ briefing, variant = "preview" }: O
             <div className="briefing-watch">
               <span className="briefing-watch-label">What to watch</span>
               <p>{briefing.whatToWatch}</p>
+              {briefing.whatToWatchLinks && briefing.whatToWatchLinks.length > 0 && (
+                <p className="briefing-watch-links">
+                  {briefing.whatToWatchLinks.map((l, i) => (
+                    <span key={l.url}>
+                      {i > 0 && <span className="briefing-watch-sep"> · </span>}
+                      <a href={l.url} target="_blank" rel="noopener noreferrer" className="briefing-signal-link">
+                        {l.linkLabel}
+                      </a>
+                    </span>
+                  ))}
+                </p>
+              )}
             </div>
           )}
 

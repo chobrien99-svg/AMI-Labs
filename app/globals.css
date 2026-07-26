@@ -1379,6 +1379,13 @@ input[type="search"]::placeholder { color: var(--muted); }
   color: var(--electric);
   text-decoration: underline;
 }
+.briefing-watch-links {
+  margin: 8px 0 0;
+  font-size: 0.85rem;
+}
+.briefing-watch-sep {
+  color: var(--muted);
+}
 .briefing-watch {
   margin-top: 28px;
   padding: 16px 20px;
