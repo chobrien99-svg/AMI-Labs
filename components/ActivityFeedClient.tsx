@@ -1,18 +1,7 @@
 "use client";
 
 import { useState } from "react";
-
-const AVATAR_COLORS = [
-  ["#6c63ff", "#a78bfa"], ["#3b82f6", "#60a5fa"], ["#10b981", "#34d399"],
-  ["#f59e0b", "#fbbf24"], ["#ef4444", "#f87171"], ["#8b5cf6", "#c084fc"],
-  ["#ec4899", "#f472b6"], ["#14b8a6", "#2dd4bf"],
-];
-
-function avatarStyle(name: string) {
-  const i = name.charCodeAt(0) % AVATAR_COLORS.length;
-  const [a, b] = AVATAR_COLORS[i];
-  return { background: `linear-gradient(135deg,${a},${b})` };
-}
+import Link from "next/link";
 
 function initials(name: string) {
   return name.split(/\s+/).map((w) => w[0]).join("").slice(0, 2).toUpperCase();
@@ -29,20 +18,32 @@ function timeAgo(timestamp: string) {
   return new Date(timestamp).toLocaleDateString("en-US", { month: "short", day: "numeric" });
 }
 
-function eventIcon(type: string) {
+// Short mono label per event type (replaces the old emoji glyphs).
+function eventLabel(type: string): string {
   switch (type) {
-    case "PushEvent": return "⬆";
-    case "CreateEvent": return "✦";
-    case "ReleaseEvent": return "🏷";
-    case "WatchEvent": return "★";
-    case "ForkEvent": return "⑂";
-    case "IssuesEvent": return "○";
-    case "IssueCommentEvent": return "◎";
-    case "PullRequestEvent": return "↦";
-    case "PullRequestReviewEvent": return "✓";
-    case "DeleteEvent": return "✕";
-    default: return "•";
+    case "PushEvent": return "push";
+    case "CreateEvent": return "create";
+    case "ReleaseEvent": return "release";
+    case "WatchEvent": return "star";
+    case "ForkEvent": return "fork";
+    case "IssuesEvent": return "issue";
+    case "IssueCommentEvent": return "comment";
+    case "PullRequestEvent": return "PR";
+    case "PullRequestReviewEvent": return "review";
+    case "PullRequestReviewCommentEvent": return "review";
+    case "DeleteEvent": return "delete";
+    case "MemberEvent": return "member";
+    default: return type.replace(/Event$/, "").toLowerCase();
   }
+}
+
+// Group the event type into one of four accent buckets (no rainbow — each bucket
+// is a single Instrument hue).
+function eventKind(type: string): string {
+  if (type.startsWith("PullRequest")) return "pr";
+  if (type === "PushEvent" || type === "CreateEvent" || type === "ReleaseEvent") return "code";
+  if (type.startsWith("Issue")) return "issue";
+  return "meta";
 }
 
 export type GithubEvent = {
@@ -70,107 +71,57 @@ type Props = {
 export default function ActivityFeedClient({ members, lastFetched }: Props) {
   const [filterMember, setFilterMember] = useState<string>("all");
 
-  // Flatten and sort all events by timestamp
+  const active = members.filter((m) => m.events.length > 0);
+
   const allEvents = members
     .filter((m) => filterMember === "all" || m.slug === filterMember)
     .flatMap((m) => m.events.map((e) => ({ ...e, member: m })))
     .sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime());
 
   return (
-    <div style={{ maxWidth: 760, margin: "0 auto", padding: "0 24px 60px" }}>
+    <div className="actv-feed">
+      <div className="actv-feed-head">
+        <span className="actv-chart-eyebrow"><span className="actv-blip actv-blip-blue" />Activity feed</span>
+        {lastFetched && <span className="actv-updated">Updated {timeAgo(lastFetched)}</span>}
+      </div>
 
-      {/* filter bar */}
-      <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: "1.5rem", flexWrap: "wrap" }}>
+      <div className="actv-filter">
         <button
           onClick={() => setFilterMember("all")}
-          style={{
-            padding: "0.35rem 0.85rem",
-            borderRadius: 20,
-            border: "1px solid var(--border)",
-            background: filterMember === "all" ? "var(--accent-dim)" : "transparent",
-            color: filterMember === "all" ? "var(--accent)" : "var(--muted)",
-            fontSize: "0.78rem",
-            cursor: "pointer",
-          }}
+          className={`actv-pill${filterMember === "all" ? " actv-pill-on" : ""}`}
         >
           All
         </button>
-        {members.map((m) => (
+        {active.map((m) => (
           <button
             key={m.slug}
             onClick={() => setFilterMember(m.slug)}
-            style={{
-              padding: "0.35rem 0.85rem",
-              borderRadius: 20,
-              border: "1px solid var(--border)",
-              background: filterMember === m.slug ? "var(--accent-dim)" : "transparent",
-              color: filterMember === m.slug ? "var(--accent)" : "var(--muted)",
-              fontSize: "0.78rem",
-              cursor: "pointer",
-              display: "flex",
-              alignItems: "center",
-              gap: 6,
-            }}
+            className={`actv-pill${filterMember === m.slug ? " actv-pill-on" : ""}`}
           >
-            <span style={{
-              width: 18, height: 18, borderRadius: "50%",
-              ...avatarStyle(m.name),
-              display: "inline-flex", alignItems: "center", justifyContent: "center",
-              fontSize: "0.55rem", fontWeight: 700, color: "#fff", flexShrink: 0,
-            }}>
-              {initials(m.name)}
-            </span>
             {m.name.split(" ")[0]}
           </button>
         ))}
-        {lastFetched && (
-          <span style={{ marginLeft: "auto", fontSize: "0.72rem", color: "var(--muted)" }}>
-            Updated {timeAgo(lastFetched)}
-          </span>
-        )}
       </div>
 
-      {/* event feed */}
       {allEvents.length === 0 ? (
-        <p style={{ color: "var(--muted)", fontSize: "0.9rem" }}>No activity yet. Run the GitHub Action to populate data.</p>
+        <p className="actv-empty">No activity yet. Run the GitHub Action to populate data.</p>
       ) : (
-        <div style={{ display: "flex", flexDirection: "column", gap: 0 }}>
+        <div className="actv-rows">
           {allEvents.map((e, i) => (
-            <div key={i} style={{
-              display: "flex",
-              gap: 14,
-              padding: "12px 0",
-              borderBottom: "1px solid var(--border)",
-            }}>
-              {/* avatar */}
-              <div style={{
-                width: 32, height: 32, borderRadius: "50%",
-                ...avatarStyle(e.member.name),
-                display: "flex", alignItems: "center", justifyContent: "center",
-                fontSize: "0.65rem", fontWeight: 700, color: "#fff", flexShrink: 0, marginTop: 2,
-              }}>
-                {initials(e.member.name)}
-              </div>
-
-              {/* content */}
-              <div style={{ flex: 1, minWidth: 0 }}>
-                <div style={{ display: "flex", alignItems: "baseline", gap: 6, flexWrap: "wrap" }}>
-                  <a href={`/team/${e.member.slug}`} style={{ fontSize: "0.82rem", fontWeight: 600, color: "var(--text)", textDecoration: "none" }}>
-                    {e.member.name}
-                  </a>
-                  <span style={{ fontSize: "0.72rem", color: "var(--muted)" }}>
-                    {eventIcon(e.type)}
-                  </span>
-                  <a href={e.url} target="_blank" rel="noopener noreferrer" style={{ fontSize: "0.82rem", color: "var(--text-dim)", textDecoration: "none", minWidth: 0, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+            <div key={i} className="actv-row">
+              <span className="actv-avatar" aria-hidden>{initials(e.member.name)}</span>
+              <div className="actv-row-body">
+                <div className="actv-row-top">
+                  <Link href={`/team/${e.member.slug}`} className="actv-row-name">{e.member.name}</Link>
+                  <span className={`actv-type actv-type-${eventKind(e.type)}`}>{eventLabel(e.type)}</span>
+                  <a href={e.url} target="_blank" rel="noopener noreferrer" className="actv-row-desc">
                     {e.description}
                   </a>
                 </div>
-                <div style={{ marginTop: 3, display: "flex", alignItems: "center", gap: 8 }}>
-                  <a href={e.repoUrl} target="_blank" rel="noopener noreferrer" style={{ fontSize: "0.72rem", color: "var(--muted)", textDecoration: "none" }}>
-                    {e.repo}
-                  </a>
-                  <span style={{ fontSize: "0.68rem", color: "var(--border)" }}>·</span>
-                  <span style={{ fontSize: "0.72rem", color: "var(--muted)" }}>{timeAgo(e.timestamp)}</span>
+                <div className="actv-row-meta">
+                  <a href={e.repoUrl} target="_blank" rel="noopener noreferrer" className="actv-row-repo">{e.repo}</a>
+                  <span className="actv-dot">·</span>
+                  <span>{timeAgo(e.timestamp)}</span>
                 </div>
               </div>
             </div>
