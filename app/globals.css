@@ -1368,6 +1368,17 @@ input[type="search"]::placeholder { color: var(--muted); }
   border-radius: 50%;
   background: var(--accent2);
 }
+.briefing-signal-link {
+  color: var(--accent2);
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.15s;
+}
+.briefing-signal-link:hover {
+  color: var(--electric);
+  text-decoration: underline;
+}
 .briefing-watch {
   margin-top: 28px;
   padding: 16px 20px;

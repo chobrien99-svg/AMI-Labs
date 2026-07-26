@@ -138,7 +138,8 @@ const SYSTEM_PROMPT = [
   '     "narrative": string (1-2 tight analytical paragraphs — interpret the signal, cite the evidence;',
   "        separate paragraphs with a blank line),",
   '     "evidence": array of { "label": string, "url": string } },',
-  '  "signals": array (0-4) of { "text": string, "category": string }  — use SPARINGLY, only for genuinely',
+  '  "signals": array (0-4) of { "text": string, "category": string, "url"?: string, "linkLabel"?: string }',
+  '     (url must be copied verbatim from FACTS, like evidence; linkLabel is the short highlighted link text, e.g. "Tweet")  — use SPARINGLY, only for genuinely',
   "     minor items that do not warrant a section; leave empty if everything worth saying is in the threads,",
   '  "whatToWatch": string (1-3 sentences — what these signals imply for the coming weeks).',
   "",
@@ -210,7 +211,18 @@ function validate(parsed, allowedUrls) {
     .map((s) => {
       if (!s || typeof s.text !== "string" || !s.text.trim()) return null;
       const category = CATEGORIES.includes(s.category) ? s.category : undefined;
-      return { text: s.text.trim(), ...(category ? { category } : {}) };
+      // Optional source link — only kept if the URL was in the facts (same
+      // anti-hallucination guard as thread evidence).
+      const url = typeof s.url === "string" && allowedUrls.has(s.url) ? s.url : undefined;
+      const linkLabel = url && typeof s.linkLabel === "string" && s.linkLabel.trim()
+        ? s.linkLabel.trim()
+        : undefined;
+      return {
+        text: s.text.trim(),
+        ...(category ? { category } : {}),
+        ...(url ? { url } : {}),
+        ...(linkLabel ? { linkLabel } : {}),
+      };
     })
     .filter(Boolean);
 
