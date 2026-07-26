@@ -1,18 +1,85 @@
 {
-  "generatedAt": "2026-07-23T21:48:18.539Z",
+  "generatedAt": "2026-07-26T20:46:46.273Z",
   "window": {
     "days": 7,
-    "since": "2026-07-16",
-    "until": "2026-07-23"
+    "since": "2026-07-19",
+    "until": "2026-07-26"
   },
   "model": "claude-sonnet-4-6",
   "facts": {
     "news": {
-      "windowCount": 3,
+      "windowCount": 17,
       "byTag": {
-        "hiring": 1
+        "hiring": 10,
+        "research": 2
       },
       "items": [
+        {
+          "title": "AMI Labs, Oratomic and Prime Intellect: Founder Lessons - quasa.io",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPczdUZmY1Q3p4RnRoRDlxWGhGTm9UeUN4OWQybVpQQ3RIOXN5MXVDYUZZS2tCeDhNLTZrTnk0NFZydS1WUG52Zm5QUEUycGV3eXZ1eW02cHctZ2JuWGxyaFZRenVhdW42a1JQS3lvLUxhcDRPNnFpak12Zm14eUtlMXRlOWJ6aUZVOHo3dXJiLVRUaWRMR1o1T0F6VQ?oc=5",
+          "source": "Google News",
+          "publishedAt": "2026-07-25",
+          "tags": [],
+          "summary": "AMI Labs, alongside companies Oratomic and Prime Intellect, is featured in an article discussing founder lessons and insights from the quasa.io platform. The piece appears to highlight educational or business guidance derived from the experiences of these AI and technology-focused companies."
+        },
+        {
+          "title": "New Hire: Marina Farthouat, Recruiter, Paris",
+          "url": "https://ami.frenchtechjournal.com/team/marina-farthouat",
+          "source": "The AMI Observatory",
+          "publishedAt": "2026-07-24",
+          "tags": [
+            "hiring"
+          ],
+          "summary": "People and culture leader helping AMI Labs build and scale its global team, following senior executive roles at Oyster, ClickHouse, Elastic, and Asurion."
+        },
+        {
+          "title": "New Hire: Adrien Bardes, Member of Technical, Staff Paris",
+          "url": "https://ami.frenchtechjournal.com/team/adrien-bardes",
+          "source": "The AMI Observatory",
+          "publishedAt": "2026-07-24",
+          "tags": [
+            "hiring"
+          ],
+          "summary": "Former Meta research scientist whose work focuses on self-supervised visual learning and world-model architectures."
+        },
+        {
+          "title": "New Hire: Tengyu Ma, Member of Technical, Staff New York",
+          "url": "https://ami.frenchtechjournal.com/team/tengyu-ma",
+          "source": "The AMI Observatory",
+          "publishedAt": "2026-07-24",
+          "tags": [
+            "hiring"
+          ],
+          "summary": "Former Meta FAIR Staff Research Scientist whose work has contributed to major advances in visual grounding and image segmentation, including SAM 2 and SAM 3."
+        },
+        {
+          "title": "New Hire: Quentin Garrido, Member of Technical Staff, Paris",
+          "url": "https://ami.frenchtechjournal.com/team/quentin-garrido",
+          "source": "The AMI Observatory",
+          "publishedAt": "2026-07-24",
+          "tags": [
+            "hiring"
+          ],
+          "summary": "Former Meta FAIR research scientist specializing in self-supervised learning, computer vision, and world models."
+        },
+        {
+          "title": "New Hire: Andrew Brown, Member of Technical Staff, New York",
+          "url": "https://ami.frenchtechjournal.com/team/andrew-brown",
+          "source": "The AMI Observatory",
+          "publishedAt": "2026-07-24",
+          "tags": [
+            "hiring"
+          ],
+          "summary": "A former Meta research scientist specializing in generative video, computer vision and multimodal representation learning."
+        },
+        {
+          "title": "AMI Labs Co-founder: “Physical AI Still an Unresolved Area… LLM Has Clear Limitations\"",
+          "url": "https://n.news.naver.com/mnews/article/009/0005704275?sid=105",
+          "source": "Maeil Business Newspaper",
+          "publishedAt": "2026-07-22",
+          "tags": [],
+          "summary": "Pascal Fung, Chief Research and Innovation Officer at AMI Labs, delivers a keynote speech at the ICML conference held in South Korea."
+        },
         {
           "title": "Alexandre Lebrun passe le flambeau à Brian Manning à la tête de Nabla",
           "url": "https://www.maddyness.com/2026/07/21/alexandre-lebrun-passe-le-flambeau-a-brian-manning-a-la-tete-de-nabla",
@@ -24,20 +91,42 @@
           "summary": "Alexandre Lebrun has stepped down as head of Nabla, with Brian Manning taking over leadership of the company. The leadership transition was reported by Maddyness."
         },
         {
-          "title": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’",
-          "url": "https://biztoc.com/x/376b1e7d8b073bbc",
-          "source": "Biztoc.com",
-          "publishedAt": "2026-07-16",
-          "tags": [],
-          "summary": "AMI Labs founder Alexandre LeBrun avoids labeling his artificial intelligence systems as \"AGI\" (Artificial General Intelligence) or \"superintelligence,\" preferring more cautious terminology around AI capabilities. The distinction reflects a broader debate in the AI industry about how to responsibly describe and discuss advanced machine intelligence development."
+          "title": "Yann LeCun's Team Latest Research: Enabling World Models to Learn \"Adaptiveness\" and Continuously Evolve Through Action",
+          "url": "https://eu.36kr.com/en/p/3879369780817922",
+          "source": "European Central Station",
+          "publishedAt": "2026-07-21",
+          "tags": [
+            "research"
+          ],
+          "summary": "Latent world models enable robots to simulate the future before taking actions and then plan their movements accordingly. In 2022, the team led by Yann LeCun, the Turing Award laureate, proposed the Joint Embedding Prediction Architecture (JEPA). By predicting the evolution of future states in the latent space, it promoted the prediction in the representation space to become an important paradigm in the research of world models."
         },
         {
-          "title": "Why AMI Labs’ Alexandre LeBrun won't call his AI 'AGI' or 'superintelligence' | TechCrunch",
-          "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
-          "source": "TechCrunch",
-          "publishedAt": "2026-07-16",
+          "title": "A four-year-old has seen more of the world than ChatGPT. Yann LeCun is betting $1bn on that",
+          "url": "https://thenextweb.com/news/yann-lecun-ami-world-models-raise-summit-llms",
+          "source": "TNW",
+          "publishedAt": "2026-07-21",
           "tags": [],
-          "summary": "AMI Labs founder Alexandre LeBrun avoids using terms like \"AGI\" (Artificial General Intelligence) or \"superintelligence\" to describe his company's AI systems. The article explores LeBrun's reasoning for rejecting these commonly used labels in the AI industry, suggesting a more cautious or precise approach to characterizing the capabilities of his technology."
+          "summary": "The Turing Award winner spent 12 years running Meta's AI lab, then quit to bet against the industry. At RAISE Summit in Paris, he argued that a child learns more about the world from watching it than the biggest chatbot learns from all the text online. "
+        },
+        {
+          "title": "New Job Posting: AMI Engineer - Singapore",
+          "url": "https://jobs.ashbyhq.com/ami/9f59ac61-f20b-4d33-9343-9603f693523f",
+          "source": "AMI",
+          "publishedAt": "2026-07-20",
+          "tags": [
+            "hiring"
+          ],
+          "summary": ""
+        },
+        {
+          "title": "New Job Posting: AMI Engineer - Paris",
+          "url": "https://jobs.ashbyhq.com/ami/7d58ea84-fd76-4ac7-ad6e-1424f76c42f9",
+          "source": "AMI",
+          "publishedAt": "2026-07-20",
+          "tags": [
+            "hiring"
+          ],
+          "summary": ""
         }
       ]
     },
@@ -51,18 +140,104 @@
       }
     },
     "publications": {
-      "total": 52,
+      "total": 174,
       "newSinceLast": 0,
       "newItems": [],
       "recent": []
     },
     "github": {
-      "windowEventCount": 3,
+      "windowEventCount": 34,
       "byMember": {
+        "Brian Li": 3,
+        "Li Jing": 2,
         "Min Lin": 1,
-        "Brian Li": 2
+        "Quentin Le Lidec": 15,
+        "Rohit Girdhar": 7,
+        "Xingyi Zhou": 1,
+        "Haoyi Li": 5
       },
-      "notable": []
+      "notable": [
+        {
+          "member": "Haoyi Li",
+          "type": "PullRequestReviewEvent",
+          "repo": "com-lihaoyi/mill",
+          "description": "Reviewed PR #7399 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-07-26T01:46:15Z"
+        },
+        {
+          "member": "Quentin Le Lidec",
+          "type": "CreateEvent",
+          "repo": "galilai-group/stable-worldmodel",
+          "description": "Created branch buffer in galilai-group/stable-worldmodel",
+          "url": "https://github.com/galilai-group/stable-worldmodel",
+          "timestamp": "2026-07-24T16:07:37Z"
+        },
+        {
+          "member": "Quentin Le Lidec",
+          "type": "IssueCommentEvent",
+          "repo": "galilai-group/stable-worldmodel",
+          "description": "Commented on issue #302 in galilai-group/stable-worldmodel",
+          "url": "https://github.com/galilai-group/stable-worldmodel/pull/302#issuecomment-5068430364",
+          "timestamp": "2026-07-24T09:44:35Z"
+        },
+        {
+          "member": "Quentin Le Lidec",
+          "type": "IssuesEvent",
+          "repo": "galilai-group/stable-worldmodel",
+          "description": "Closed issue #269 in galilai-group/stable-worldmodel",
+          "url": "https://github.com/galilai-group/stable-worldmodel/issues/269",
+          "timestamp": "2026-07-24T09:17:38Z"
+        },
+        {
+          "member": "Quentin Le Lidec",
+          "type": "PullRequestReviewEvent",
+          "repo": "galilai-group/stable-worldmodel",
+          "description": "Reviewed PR #292 in galilai-group/stable-worldmodel",
+          "url": "https://github.com/galilai-group/stable-worldmodel",
+          "timestamp": "2026-07-24T09:17:12Z"
+        },
+        {
+          "member": "Quentin Le Lidec",
+          "type": "PullRequestEvent",
+          "repo": "galilai-group/stable-worldmodel",
+          "description": "Opened PR #303 in galilai-group/stable-worldmodel",
+          "url": "https://github.com/galilai-group/stable-worldmodel",
+          "timestamp": "2026-07-24T08:45:46Z"
+        },
+        {
+          "member": "Quentin Le Lidec",
+          "type": "CreateEvent",
+          "repo": "galilai-group/stable-worldmodel",
+          "description": "Created branch episode-table in galilai-group/stable-worldmodel",
+          "url": "https://github.com/galilai-group/stable-worldmodel",
+          "timestamp": "2026-07-24T08:44:18Z"
+        },
+        {
+          "member": "Quentin Le Lidec",
+          "type": "PullRequestEvent",
+          "repo": "galilai-group/stable-worldmodel",
+          "description": "merged PR #300 in galilai-group/stable-worldmodel",
+          "url": "https://github.com/galilai-group/stable-worldmodel",
+          "timestamp": "2026-07-23T15:55:29Z"
+        },
+        {
+          "member": "Quentin Le Lidec",
+          "type": "IssueCommentEvent",
+          "repo": "galilai-group/stable-worldmodel",
+          "description": "Commented on issue #292 in galilai-group/stable-worldmodel",
+          "url": "https://github.com/galilai-group/stable-worldmodel/pull/292#issuecomment-5056266277",
+          "timestamp": "2026-07-23T08:44:12Z"
+        },
+        {
+          "member": "Quentin Le Lidec",
+          "type": "PullRequestEvent",
+          "repo": "galilai-group/stable-worldmodel",
+          "description": "Opened PR #300 in galilai-group/stable-worldmodel",
+          "url": "https://github.com/galilai-group/stable-worldmodel",
+          "timestamp": "2026-07-23T08:42:42Z"
+        }
+      ]
     },
     "corporate": {
       "capital": 12449.43,
@@ -85,28 +260,22 @@
     },
     "social": {
       "windowCount": 2,
-      "byTag": {
-        "funding": 1,
-        "research": 1
-      },
+      "byTag": {},
       "notable": [
         {
-          "author": "Pascale Fung",
-          "handle": "pascalefung",
-          "text": "Speaking from my American experience only here. Some people complain about large industry funded research. Don’t forget that almost all of paradigm changing research that led to modern AI came from either large industry labs - Bell Lab, IBM Labs, Xerox Parc, Microsoft, Google,",
-          "url": "https://x.com/pascalefung/status/2078409080763289953",
-          "createdAt": "2026-07-18T09:18:34.000Z",
-          "tags": [
-            "funding",
-            "research"
-          ],
+          "author": "Yann LeCun",
+          "handle": "ylecun",
+          "text": "Tired of winning https://t.co/PIbhQ4mlDF",
+          "url": "https://x.com/ylecun/status/2080588168781336630",
+          "createdAt": "2026-07-24T09:37:29.000Z",
+          "tags": [],
           "metrics": {
-            "likes": 32,
-            "retweets": 3,
-            "replies": 1,
-            "quotes": 0
+            "likes": 978,
+            "retweets": 37,
+            "replies": 60,
+            "quotes": 2
           },
-          "highEngagement": false
+          "highEngagement": true
         }
       ]
     }
@@ -120,26 +289,180 @@
       "9f59ac61-f20b-4d33-9343-9603f693523f"
     ],
     "publicationKeys": [
-      "yann-lecun|Announcing the Shaw Prize in Computer Science|2026",
-      "yann-lecun|FAST INCREMENTAL LEARNING FOR AUTONOMOUS GROUND NAVIGATION|2024",
-      "yann-lecun|Learning and Leveraging World Models in Visual Representation Learning|2024",
-      "yann-lecun|The SSL Interplay: Augmentations, Inductive Bias, and Generalization|2023",
-      "yann-lecun|Minimalistic Unsupervised Representation Learning with the Sparse Manifold Transform|2023",
-      "sanghyun-woo|MTMMC: A Large-Scale Real-World Multi-Modal Camera Tracking Benchmark|2024",
-      "sanghyun-woo|ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders|2023",
-      "sanghyun-woo|Mask-Guided Matting in the Wild|2023",
-      "sanghyun-woo|Bidirectional Domain Mixup for Domain Adaptive Semantic Segmentation|2023",
-      "sanghyun-woo|Cyclical Compound Domain Test-time Adaptation via Continual Domain-Matching Algorithm|2023",
-      "delong-chen|RemoteSAM: Towards Segment Anything for Earth Observation|2025",
-      "delong-chen|Chain-of-Talkers (CoTalk): Fast Human Annotation of Dense Image Captions|2025",
-      "delong-chen|Making Large Vision Language Models to be Good Few-shot Learners|2024",
-      "delong-chen|What Makes for Good Image Captions?|2024",
-      "delong-chen|High-Dimension Human Value Representation in Large Language Models|2024",
-      "michael-rabbat|MJEPA: A Simple and Scalable Joint-Embedding Predictive Architecture for Audio-Visual Learning|2026",
-      "michael-rabbat|Intuitive physics understanding emerges from self-supervised pretraining on natural videos|2025",
-      "michael-rabbat|Revisiting Feature Prediction for Learning Visual Representations from Video|2024",
-      "michael-rabbat|Benchmarking Neural Network Training Algorithms|2023",
-      "michael-rabbat|DINOv2: Learning Robust Visual Features without Supervision|2023"
+      "4f890d8373b93892ce2a50d87415653fc225a5a8",
+      "1231876b4c92c7a26d4e0cbea9cac388d6dafefb",
+      "ef00907321ce5dd241f55a24fcdf49267320dd09",
+      "d503a7f08b8333f96cb6298085b96cb87f3fea4c",
+      "7d909170d91e1b35b4b9a8ac01731d7aed2cd53e",
+      "bbb2fba52c4d7d3b29f58a5e136d012acdc2010d",
+      "31e6e9e341f8e8152c9f633b5838c585853feb1b",
+      "d90159d04db78db63e04ebd03a8d65f985b5eb85",
+      "98bfd032ec0208cadd3a5deb9f34d4b228736599",
+      "20ba4363b7275178aaca520f9f16b39dad3a87d0",
+      "8d62bb68ffa636edd5b72a8fc8fcd99f37aeb836",
+      "101274838d26060ebdbed1949b7a7b82c23cd9c2",
+      "220a20b046af83f448b405111d76c45168ae2421",
+      "04eec95aa8c9e20b1ae70e9687789a11fa70e4b8",
+      "f1a7a798e6ac2298f5f140d19ee25031e4f8e1d2",
+      "8c08f6f5b52f6d80116b1dc6b542f63b564b07c2",
+      "477e20594635eb0ced89bbf2dd9ec873278cf48d",
+      "42ca8bd0ae408eff0d3bd9f5e121f792876e83ea",
+      "530dab86cb8034bc12a32d21508aaa3f2cc00aa1",
+      "c065b806555f74e4878ccbd695245d1b6534c16a",
+      "acb718a8659640ac1258d3bd391ddd9f1f2d7251",
+      "060e5a919566330254cc7ea8c9c540ae1860248f",
+      "bed6ecff103c1a6f3a516d9b9d4847be8aff5294",
+      "952a89a0add88d80674c0554aa116a83d82763df",
+      "3f633672ef74063e9c894659dca604c79434b3b1",
+      "81bd51aa553cdf24a4e5713a3d4562d310aa9ed3",
+      "7e65d820f13cf94be083495fd2c433c0886f5a9b",
+      "0571686b5b6a838759a3219cd8e8684a1992c0aa",
+      "9ddc2b3cc7e2a165ada3ea880da3b7936c498122",
+      "9d317102e82a43db4c461976c4ec914a1e423e90",
+      "0b457a087fa7c01f37de67065be19f3aa8583aa8",
+      "f7cecd115a162e8b0324b3a70c61a0887e2c6192",
+      "b8ed5bdadb1cd0fa2ccb329c135d5e57c3742de0",
+      "50509dcc04f3972ba0e10f4fe635aa92cbfac9fc",
+      "35fc38884dacfaf54e87d739fdb4104bc49b63e5",
+      "b60df2ce1466758f91eb0f1163845aadf37431b9",
+      "f2b50aa84f10b0f89293fc116e91f8a93f7f40e7",
+      "6f9e6a47b8c2a65d3fa758bb4062f096b4afd34d",
+      "088a45338d45f05f6a7460fb152615fb96150f6e",
+      "ff6752c7461f1a6bdeef485efa93cec0db788945",
+      "6e82aaa7a4fb2e062a2b41d447a4bf82ab08dc52",
+      "2154ab7d1741e093df8ed0361f63f636185d213f",
+      "cd1d87e7e31a05a82b6b25bf231f831c39006ef1",
+      "28a20096a624875ab0a182c836aabf42ead1c7fb",
+      "b0d799e331b31b6c8d131b1cb590331268a5c48c",
+      "a0d2b6ff08845aa670b897f08a0d217c5e07d0f2",
+      "0b17ed374bfa7bacb6834acf6cf2c6ce3e5d5d2c",
+      "67315adc04c4934b4eade977be0cd4510b559d3d",
+      "e976fffa23249fde45b60c05cde8c98494b37ea7",
+      "51357ff32df3924f29e550aaf71c9882c2b99348",
+      "df0a07beb75eea9c71ca70344726e5c822974c40",
+      "f14e707fd9926b010350e45c37e8193bbf752a2c",
+      "641a8b01dc986ede5d894765b24c5fed6ad15462",
+      "0fe8f2f55046ad0b8d6337f57a78466790923264",
+      "4eb0b4ee1586a81581f6155c5e9149ec28131a1c",
+      "c5fc9e50a9b11ec16109987a7990bcba41f6a05d",
+      "6eab7b59bac9246b577dcbbadd0ab0a230bf5432",
+      "8d1a5fd439dd67f8a16859566b12a35f705f7c83",
+      "b1175c2344c7acf7d0048650204506384a2e5184",
+      "5577066b9b69301f6fd61d9b6949fbdd2aed68d7",
+      "c5c1eea3338ffaf46b548cd7e6678c2118393e47",
+      "c70ea55cb8740b8260bca874d9f0921c6a8aa319",
+      "853e540102e92f8150e14be5f7daf943f0a88194",
+      "7fef3016487f62db760ac776d90034370e151467",
+      "9259321c507460c5a9989d3b5fff910d99469159",
+      "2268d5094a7baad2fb680584465c5584fb195587",
+      "927498a8ccc57dc94e9654099c64d060aba5f4f8",
+      "751ef04264d661f6a59e49f3fbd181ac46ef5eed",
+      "a990b37c970a48b71533db1f49f51310a07755cb",
+      "121d34fe66a35ef11e408de4119477971ee6e2cc",
+      "66502329bc402a58b8d02c778dc5b37e2498c8c0",
+      "b202faf38efbffcb26470c702e1140b047d6f6e7",
+      "632a3faba12ebdb39e344dc57f193627752a56ea",
+      "65f3e558fa1e558caf9cd952ce41fcdd82c8ff6d",
+      "bffdca2a8f44e13e7144527799bb9077d06259fe",
+      "ef2cb2427e5b6768a809f1da243ae00a0d2ee0ea",
+      "24d9d00b91f99dde3c9a0ea5c79e63f2ed26151c",
+      "3452df196f838dc17667bd416d2eb6fc3f246e08",
+      "97c44c9f6fa8da32dea71a7b593fe627a2e6748b",
+      "ef03e180f8e0d46b9d5044a889103d8bb680e899",
+      "cce911c13b5f83db5a73252f78a4f82883e1ff5a",
+      "dc008a333ac4aaf69ca9715c05741de40b18630a",
+      "aa5d0f6a14a9da689de842f6af61021e6d91aadf",
+      "c5e7e68a6214f5f2726b5d1845968e5f93fcef1c",
+      "0f5d44bc261459ea10e91b62f0bc1a9f6cb07270",
+      "4e3d888abc01555feb92a60935c8e537abc4648a",
+      "af548607b73fcd51683842d2fbefb3f97205e885",
+      "c0c70fee50c4dc087d6e812b74b6761787b9b4d6",
+      "05f01ee0687b03d8ab3527ca26380dca692d7a5c",
+      "b2dfbda2dc8bc8954d64db8f0c43d187490456bd",
+      "4c4d882c3e54612946d289fd159da8de98fb3200",
+      "6535c7f9a14153fd8f9670a20f734e37362778b2",
+      "ed92a7be6b2acc36baf0ed43454a97dbade0c893",
+      "a59f06bdda22df7474e93428239be38f2cdaf6ac",
+      "f7135dca58bf8c6131ff2fbb708eac887a262640",
+      "1ac7fc5a55ce5843fb8a19d9f62b623e822bb7de",
+      "ed44571dd9de3654b84ee1fea63015ecb67e6e63",
+      "697aad9ef06add41b7f25e7bc671976c48ac68ad",
+      "1a71f7b216b710b936da666027014adb83af8e7a",
+      "8400b197d2647e79b4bf8cb8d020b90f6ddf7ca1",
+      "5990dd4e00ab8d29d8942a953fa109716126b635",
+      "46b0d6d9ca06e844635de0139c09ef1dddcea014",
+      "80945e0f3e60df0ee545caa665aad1b78123ff4a",
+      "8ddd669fad4272223ec94f3cbdfd8d67876a60b5",
+      "f04e6bb8108cf191c88c461b5f367cd3ec336ebc",
+      "a188930cfa21cb8c780ddaeccc219b07caeb5016",
+      "8f77307a394f006633c27cca56a345c0879eb67c",
+      "4c01dfec69f5d55daae00b668665e94eb9da7f39",
+      "4d1eadaa9a04e86aef2278ae13eb9fce644c9fc5",
+      "d46c6507a7b40920d378ac4bdf1c52b6e09d05a3",
+      "872d78c04c8fb115d492eea98199407991670533",
+      "0c08725a79cb5dbb1354793a287810646dbefe52",
+      "466134a53cd65ded957ce2d102a10eed3170e0e7",
+      "fc9994f5d0b966b16cbe61e6393b9f8be65bc416",
+      "44ffd3cd333bb41b900926556edb1c452759c398",
+      "85b10400864187230714506412c85610c786b5c3",
+      "99f7bd216214b22c22974142fd558ce554f518b8",
+      "ebb77213f63cda5612cc1bc48eb55c2b71a5cfd8",
+      "1fcffc771fdebb50682d3aad716b955ef0e72fe3",
+      "cd2e04598909158494e556823d9de8baa692cee2",
+      "c36d7bc6adeee7d16df1194c44cb66c48c9ae681",
+      "782d400ba7aac6ccb2d4b6d3cadbf4b7c2600d50",
+      "f875c2de4a3ccee670cc76a81b1dfd111bd40f64",
+      "d72bf83fbeae8df51ab86bb8f3965b40416c8ac7",
+      "b210cd21ffd5e7d82daa838a844e56e35d26fe74",
+      "7143623c7f1886ba67cc71692cc963741306ae4f",
+      "da136b4651e035c2bafd0bfd34433faf7af2619e",
+      "3c1e43b7d3f5fd42a06c65e3aafe6d8f4a606d5c",
+      "962ccf1fc49c83817fb031e5b24b81b19cdfb89d",
+      "929de208dc5f275117bf992d12af99206109f240",
+      "5dc01119b2e4911b0c1ae61233e36efe78588aed",
+      "cbec8bf16a459b0ae38856f604a6a14cd1343477",
+      "942c856469a6feee06c6c90c1571d6f4d3ebc65b",
+      "d2b6db657204b8505ee6c7cf4833cb7811b6f162",
+      "7c7687d5539d28c65560b6946ade6a6a6bda2226",
+      "8ca84be6788622ed6700d2799bb6460b15707fca",
+      "49146ba6e2eac5eb854297db0fc4685656d0a9f4",
+      "146748b26209afac66a3c0a52fea8b72065b2b2c",
+      "5d3b032270276a0c17ef5fb76679291186dccdca",
+      "5bccb4ffcd3ea8c5d5b25adeb15366cd9579aa34",
+      "5e833e3674fda71ac8544f052ae1c8501a52a10d",
+      "4f1408ca267763cb2d20e0141ac53a63d766e69e",
+      "2aae2dd79ef30022da59d8c33f0b3afa55d9c20d",
+      "22d31891ba36a02fcef6ba79f29e4f3ca9b783a0",
+      "32dcd0887537cece54e214f531d2c384470b023f",
+      "6cb35dd6e1338faa0c3d6a6b0020bbcbcc18653d",
+      "1bdd5fc17cc580efe998304692639c57c857cc84",
+      "9b4f7c97c0b83a80c32bc0b93595cbcfb4ecb16d",
+      "3db1219429c3f04e88347d41269bdc83c457fbf9",
+      "5a9cb1b3dc4655218b3deeaf4a2417a9a8cd0891",
+      "8f5eee0ab94a613cb30722e6573585e44cdd5aee",
+      "d5076534b9fa8aaa70d12f14ed87d3d63fd6acaa",
+      "a3577255e136a2c38198ac240cec2921bd739cde",
+      "7ad573707c305ea41a21a1672ec4bba3afe40ca6",
+      "0abd29e67b1e52e922660c315bcdeedd9b1eab7e",
+      "24841177e94994f8920ec1aa9b67a8fff9f52157",
+      "ee57e4d7a125f4ca8916284a857c3760d7d378d3",
+      "b62b2b24378165df6a3dc904dde2b600745310f2",
+      "f1a17ec934d55909bbd35846048f1871ef09892e",
+      "2218f1713d7f721ab76801063416ec9b11c7646f",
+      "1d6b1d998aec4093719eecd41cb1bde39b9e1ad0",
+      "8335027d600d084cb99e144250d1ea387b2a0fc3",
+      "736973165f98105fec3729b7db414ae4d80fcbeb",
+      "5f7a1992ce7bfab7ee2dfd1a6cb5494d4c55135d",
+      "e45a9242a977352ab1d7379e9e2a01dde82663ed",
+      "77d4100d6fe291352e705147467f9acb1e308c60",
+      "4fca50ab80e278f7210b632e501e3616dd3eb2a1",
+      "467035370610662eafd4d03ac5dcc9444476d3c6",
+      "177e957f5cd93229c9794ea652c646d2557b4a69",
+      "86b42cac364985919987789795be7c3a577ee3de",
+      "bf6f640f937d001a0965ab374d0ff3cfa4ffcd4a",
+      "ff5f70c925be95dce6fb766a085beae66ab7fbbb",
+      "b2d009db853956292e9041a7d340435c8913e6fb",
+      "be2bd2ca84460ab58c5563789b8cd482e977ee76"
     ],
     "capital": 12449.43,
     "dirigeantKeys": [
@@ -152,39 +475,90 @@
     "dessinKeys": []
   },
   "status": "ok",
-  "headline": "LeBrun's Semantic Caution Is the Clearest Signal of AMI's Public Strategy This Week",
-  "stateOfPlay": "A quiet week on the technical front. There were no new publications, no new hires, and minimal GitHub activity. This throws AMI's public positioning into sharper relief. The dominant story is founder Alexandre LeBrun's deliberate refusal to deploy the language of AGI or superintelligence, covered by TechCrunch and amplified via Biztoc. Combined with LeBrun's concurrent exit from the Nabla chairmanship, the week suggests a founder increasingly focused on AMI's identity and narrative as the company's primary asset at this stage.",
+  "headline": "AMI expands world-model talent as team reaches 40, with research advances already appearing in code",
+  "stateOfPlay": "This week we added four new names to the AMI roster who had shared lineage with Meta FAIR's world-model and self-supervised learning. Meanwhile, the `stable-worldmodel` repository is churning through its heavy sustained development. This continues a pattern of AMI co-founders, most notably Yann LeCun, continuing to build a research lab by luring previous collaborators, a mix of both established researchers and promising students. Speaking of LeCun, he has become omnipresent thanks to a slew of public appearances at both VivaTech in June and the RAISE Summit in Paris, where he repeated philosophical framing: LLMs are bounded and physical intelligence is unsolved.",
   "threads": [
     {
-      "title": "Rejecting 'AGI' Is a Strategic Positioning Move, Not Just Humility",
-      "category": "corporate",
-      "narrative": "LeBrun's explicit refusal to call AMI's systems AGI or superintelligence, as reported by TechCrunch on July 16, is worth reading as deliberate brand architecture, not mere epistemic caution. In a funding environment where competitors race to claim the most expansive capabilities, opting for more precise language carves out a distinct positioning: AMI as the serious, technically grounded alternative to hype-driven labs. This is the same rhetorical territory Yann LeCun has long occupied in public debates about AI progress, and it reinforces the intellectual lineage AMI's co-founding leans on.\n\nThe practical effect is to set expectations carefully at a moment when AMI has not yet made major public technical disclosures.",
+      "title": "Four ex-Meta FAIR hires continue a raid on world-model expertise",
+      "category": "hiring",
+      "narrative": "AMI's four confirmed new Members of Technical Staff include: Adrien Bardes (self-supervised visual learning and world-model architectures), Quentin Garrido (self-supervised learning, computer vision, world models), Tengyu Ma (visual grounding and segmentation, including SAM 2 and SAM 3), and Andrew Brown (generative video, multimodal representation learning). They all come from Meta FAIR. Of course, this is not coincidental. These are people whose published research often includes LeCun as a cited co-author and so naturally sits almost precisely at the intersection AMI has staked out: learning structured representations of the world from raw sensory data without dense human labels.\n\nThe breadth within that focus is also telling. Bardes and Garrido bring the representation-learning theory. Ma brings the grounding and segmentation capability needed to link that representation to the physical world. Brown brings the generative-video side, which matters enormously for training and evaluating world models against real visual dynamics. Taken together, the four cover the full pipeline from learning a world model to deploying it in a perception-action loop. Alongside this, AMI added Marina Farthouat in Paris and Sonia Rattan in NYC as dedicated AI recruiters, signaling that the hiring pace will continue to accelerate. Which is not surprising when a company has a few hundred million euros burning a hole in its pocket from a Seed Round.",
       "evidence": [
         {
-          "label": "TechCrunch: Why AMI Labs' Alexandre LeBrun won't call his AI 'AGI' or 'superintelligence'",
-          "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/"
+          "label": "New Hire: Adrien Bardes",
+          "url": "https://ami.frenchtechjournal.com/team/adrien-bardes"
+        },
+        {
+          "label": "New Hire: Quentin Garrido",
+          "url": "https://ami.frenchtechjournal.com/team/quentin-garrido"
+        },
+        {
+          "label": "New Hire: Tengyu Ma",
+          "url": "https://ami.frenchtechjournal.com/team/tengyu-ma"
+        },
+        {
+          "label": "New Hire: Andrew Brown",
+          "url": "https://ami.frenchtechjournal.com/team/andrew-brown"
+        },
+        {
+          "label": "New Hire: Marina Farthouat, Recruiter",
+          "url": "https://ami.frenchtechjournal.com/team/marina-farthouat"
+        },
+        {
+          "label": "New Hire: Sonia Rattan, Recruiter",
+          "url": "https://ami.frenchtechjournal.com/team/sonia-rattan"
         }
       ]
     },
     {
-      "title": "The Nabla Departure Frees LeBrun for AMI — and Raises the Stakes",
-      "category": "hiring",
-      "narrative": "The July 22 Maddyness report that LeBrun has handed Nabla's leadership to Brian Manning is a meaningful contextual fact for AMI-watchers. LeBrun co-founded Nabla and has been a central figure there. Stepping back now suggests he is consolidating his attention on AMI at a moment when the startup is presumably approaching a critical early phase. We'll see whether that means a first product, a funding round, or a research debut.",
-      "evidence": []
-    },
-    {
-      "title": "Pascale Fung's Defense of Industry-Funded Research Signals Team Alignment on a Contested Question",
+      "title": "The `stable-worldmodel` repo is where the theory meets the code — and it is moving fast",
       "category": "research",
-      "narrative": "AMI Co-Founder Pascale Fung posted publicly on July 18 to defend the record of large industry research labs such as Bell Labs, IBM, Xerox PARC, Microsoft, and Google as the source of paradigm-changing AI advances, pushing back against critics of industry-funded science. The post drew modest engagement (32 likes, 3 retweets), but its content matters more than its reach.\n\nFor a team that includes LeCun and operates at the intersection of deep academic credibility and commercial ambition, this is an implicit self-justification: AMI's model is serious research inside or adjacent to an industry-funded lab. Fung is arguing that this is historically validated. Fung is not speaking for the company, but the stance is consistent with AMI's foundational logic and suggests the team is thinking carefully about how it wants to be perceived within the broader research community.",
+      "narrative": "Of AMI's 34 GitHub events this week, 15 belong to Quentin Le Lidec, almost all concentrated in a single repository: `galilai-group/stable-worldmodel`. The activity is substantive rather than cosmetic, with new branches named `buffer` and `episode-table`, multiple pull requests opened and merged, issues reviewed and closed. The naming is revealing: 'episode-table' suggests a structured data layer for storing interaction episodes, a standard component in model-based reinforcement learning and world-model training pipelines; 'buffer' points to the replay or experience-buffer infrastructure those pipelines depend on. This is not exploratory prototyping; it is the kind of iterative, issue-tracked engineering you do when a system is being stabilized for use by a growing team.\n\nRohit Girdhar also registered seven events this week, and Li Jing contributed two.",
       "evidence": [
         {
-          "label": "Pascale Fung on X: defense of industry-funded research",
-          "url": "https://x.com/pascalefung/status/2078409080763289953"
+          "label": "stable-worldmodel: branch 'buffer' created",
+          "url": "https://github.com/galilai-group/stable-worldmodel"
+        },
+        {
+          "label": "stable-worldmodel: issue #269 closed",
+          "url": "https://github.com/galilai-group/stable-worldmodel/issues/269"
+        },
+        {
+          "label": "stable-worldmodel: PR #292 comment",
+          "url": "https://github.com/galilai-group/stable-worldmodel/pull/292#issuecomment-5056266277"
+        }
+      ]
+    },
+    {
+      "title": "Co-Founder 's public positioning keeps the intellectual bet loud",
+      "category": "research",
+      "narrative": "Pascale Fung, Chief Research & Innovation Officer & Co-Founder, gave a keynote address at ICML in South Korea, where she argued that physical AI remains unresolved and that LLMs carry clear limitations. At the RAISE Summit in Paris, LeCun made the point that a four-year-old learns more about the world by watching it than the largest language model learns from all the text on the internet. These are not new claims, but the venues were certainly prominent. ICML is the premier machine-learning research conference, and RAISE is a high-profile French tech policy gathering. AMI is simultaneously pitching to the research community and to the institutional and policy audiences that matter for a Paris-headquartered lab.\n\nThe 36kr/European Central Station write-up on the JEPA architecture, specifically framing it as enabling robots to 'simulate the future before taking actions,' runs in parallel. That framing, robots simulating forward to plan, is precisely what a stable, episode-aware world model (see the GitHub thread) is needed for. The public narrative and the engineering activity are pointing at the same target.",
+      "evidence": [
+        {
+          "label": "AMI Co-founder keynote at ICML: 'Physical AI Still an Unresolved Area'",
+          "url": "https://n.news.naver.com/mnews/article/009/0005704275?sid=105"
+        },
+        {
+          "label": "TNW: LeCun at RAISE Summit on world models vs LLMs",
+          "url": "https://thenextweb.com/news/yann-lecun-ami-world-models-raise-summit-llms"
+        },
+        {
+          "label": "36kr: Yann LeCun's team on adaptive world models",
+          "url": "https://eu.36kr.com/en/p/3879369780817922"
         }
       ]
     }
   ],
-  "signals": [],
-  "whatToWatch": "Whether LeBrun's TechCrunch appearance is a precursor to a more substantive announcement: a funding round, a first product reveal, or a research publication in the coming weeks.",
-  "publishedAt": "2026-07-23T22:37:13.117Z"
+  "signals": [
+    {
+      "text": "LeCun retweeted a post from researcher Reza Bayat endorsing his deep-dive explanation of 'SIGReg from First Principles.' In the tweet, Bayat writes: 'World Modeling with JEPA has recently gained traction thanks to a novel anti-collapse mechanism called \"SIGReg\" (by @ylecun and @randall_balestr). The math is clean, but it is rarely explained from first principles, so I broke it down in a detailed blog post.'",
+      "url": "https://x.com/reza_byt/status/2080291982115479668",
+      "linkLabel": "Tweet"
+    },
+    {
+      "text": "AMI posted two new engineer roles — one in Singapore, one in Paris — on July 20.",
+      "category": "hiring"
+    }
+  ],
+  "whatToWatch": "AMI is co-organizing the Wearable AI Workshop at ECCV 2026 with Meta Reality Labs, HKUST, Georgia Tech, UCF, and U. of Edinburgh. The conference, in Malmo, Sweden, on September 8-9, targets people working on \"egocentric perception, multimodal assistants, or long-form video understanding,\" according to a LinkedIn post from Co-Founder Fung. It's a small hint of how the company sees some of the practical deployment cases for World Models.",
+  "publishedAt": "2026-07-26T21:45:51.741Z"
 }
