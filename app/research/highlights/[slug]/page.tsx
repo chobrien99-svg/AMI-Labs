@@ -63,7 +63,7 @@ export default async function ResearchHighlightPage({ params }: { params: Promis
           <div style={{ marginBottom: "12px" }}>
             <Link
               href="/research"
-              style={{ fontSize: "0.8rem", color: "var(--muted)", display: "inline-flex", alignItems: "center", gap: "6px" }}
+              style={{ fontSize: "0.8rem", color: "var(--tx-dm, #93A0B4)", display: "inline-flex", alignItems: "center", gap: "6px" }}
             >
               ← Back to Research
             </Link>
@@ -75,10 +75,10 @@ export default async function ResearchHighlightPage({ params }: { params: Promis
             {h.title}
           </h1>
 
-          <div style={{ display: "flex", gap: "16px", alignItems: "center", flexWrap: "wrap", fontSize: "0.85rem", color: "var(--muted)" }}>
-            {h.venue && <span style={{ fontWeight: 600, color: "var(--text-dim)" }}>{h.venue}</span>}
+          <div style={{ display: "flex", gap: "16px", alignItems: "center", flexWrap: "wrap", fontSize: "0.85rem", color: "var(--tx-dm, #93A0B4)" }}>
+            {h.venue && <span style={{ fontWeight: 600, color: "var(--tx-d, #E7ECF3)" }}>{h.venue}</span>}
             {date && <span>{date}</span>}
-            <a href={h.paperUrl} target="_blank" rel="noopener noreferrer" style={{ color: "var(--accent2)", fontWeight: 600, textDecoration: "none" }}>
+            <a href={h.paperUrl} target="_blank" rel="noopener noreferrer" style={{ color: "var(--e-blue-soft, #8FB6FF)", fontWeight: 600, textDecoration: "none" }}>
               View paper ↗
             </a>
           </div>
