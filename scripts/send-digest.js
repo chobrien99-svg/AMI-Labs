@@ -20,11 +20,6 @@ const SANITY_PROJECT_ID = "k8hl9hed";
 const SANITY_DATASET = "production";
 const SITE_URL = "https://ami.frenchtechjournal.com";
 
-if (!API_KEY || !AUDIENCE_ID) {
-  console.error("Missing RESEND_API_KEY or RESEND_AUDIENCE_ID");
-  process.exit(1);
-}
-
 // ── helpers ──────────────────────────────────────────────────────────────────
 
 function get(url, headers) {
@@ -122,15 +117,50 @@ async function fetchSanityArticles() {
 }
 
 // ── build HTML email ──────────────────────────────────────────────────────────
+// Palette + fonts mirror the site's "Instrument" design (app/instrument-theme.css,
+// app/home-instrument.css): ink canvas, paper body, blue + clay accents, serif
+// editorial headlines, mono labels. Email-safe: hardcoded hex, web-safe font
+// fallbacks (the display faces load in clients that have them, else fall back).
+const DZ = {
+  ink: "#0B0E13", panel: "#141A22", paper: "#F4F4F1", card: "#FFFFFF",
+  border: "#E1E0DB", line: "#ECEBE6",
+  blue: "#4A7FA5", blueSoft: "#8FB6FF", clay: "#C96D3B",
+  text: "#15181D", muted: "#7C8288", body: "#3A4048",
+  onDark: "#F5F8FC", onDarkDim: "#93A0B4", onDarkDd: "#6B788C",
+};
+// Category accent colors, straight from home-instrument.css (.c-funding etc.).
+const CAT = { funding: "#B45E2E", research: "#B23F3F", hiring: "#8A6A12", product: "#2A6B4A", administrative: "#51575C" };
+const FZ = {
+  serif: "'Newsreader',Georgia,'Times New Roman',serif",
+  mono: "'IBM Plex Mono',ui-monospace,Menlo,'Courier New',monospace",
+  body: "'IBM Plex Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif",
+};
+
+// Small uppercase mono section label with the blue "blip" square, matching the site eyebrow.
+function sectionLabel(text) {
+  return `<p style="margin:0;font-family:${FZ.mono};font-size:10.5px;font-weight:600;color:${DZ.blue};text-transform:uppercase;letter-spacing:0.14em;">
+    <span style="display:inline-block;width:6px;height:6px;background:${DZ.blue};margin-right:8px;vertical-align:middle;"></span>${text}</p>`;
+}
 
 function articleRow(a) {
+  const cat = (a.category || (Array.isArray(a.tags) ? a.tags[0] : "") || "").toLowerCase();
+  const accent = CAT[cat] || DZ.blue;
+  const chip = cat
+    ? `<span style="font-family:${FZ.mono};font-size:9.5px;font-weight:600;color:${accent};text-transform:uppercase;letter-spacing:0.06em;border:1px solid ${accent}40;padding:1px 6px;border-radius:3px;margin-left:8px;">${cat}</span>`
+    : "";
   return `
     <tr>
-      <td style="padding:12px 0;border-bottom:1px solid #D5CEBD;">
-        <a href="${a.url}" style="color:#2C2517;font-weight:600;text-decoration:none;font-size:14px;">${a.title}</a>
-        <br/>
-        <span style="color:#8C8474;font-size:12px;">${a.source} &middot; ${a.publishedAt || ""}</span>
-        ${a.summary ? `<p style="color:#4A3F30;font-size:13px;margin:6px 0 0;">${a.summary.slice(0, 180)}${a.summary.length > 180 ? "…" : ""}</p>` : ""}
+      <td style="padding:14px 0;border-bottom:1px solid ${DZ.line};">
+        <table width="100%" cellpadding="0" cellspacing="0"><tr>
+          <td width="3" valign="top" style="padding-top:5px;"><div style="width:3px;height:34px;background:${accent};border-radius:2px;"></div></td>
+          <td style="padding-left:13px;">
+            <a href="${a.url}" style="font-family:${FZ.serif};color:${DZ.text};font-weight:500;text-decoration:none;font-size:15px;line-height:1.35;">${a.title}</a>
+            <div style="margin-top:6px;">
+              <span style="font-family:${FZ.mono};color:${DZ.muted};font-size:11px;">${a.source || ""}${a.publishedAt ? ` &middot; ${a.publishedAt}` : ""}</span>${chip}
+            </div>
+            ${a.summary ? `<p style="color:${DZ.body};font-size:13px;line-height:1.55;margin:8px 0 0;">${a.summary.slice(0, 180)}${a.summary.length > 180 ? "…" : ""}</p>` : ""}
+          </td>
+        </tr></table>
       </td>
     </tr>`;
 }
@@ -138,10 +168,19 @@ function articleRow(a) {
 function jobRow(j) {
   return `
     <tr>
-      <td style="padding:12px 0;border-bottom:1px solid #D5CEBD;">
-        <a href="${j.url}" style="color:#2C2517;font-weight:600;text-decoration:none;font-size:14px;">${j.title}</a>
-        <br/>
-        <span style="color:#8C8474;font-size:12px;">${[j.department, j.location].filter(Boolean).join(" · ")}</span>
+      <td style="padding:0 0 10px;">
+        <table width="100%" cellpadding="0" cellspacing="0" style="background:${DZ.paper};border:1px solid ${DZ.border};border-radius:7px;">
+          <tr>
+            <td style="padding:12px 15px;">
+              <a href="${j.url}" style="font-family:${FZ.serif};color:${DZ.text};font-weight:500;text-decoration:none;font-size:14px;">${j.title}</a>
+              <br/>
+              <span style="font-family:${FZ.mono};color:${DZ.muted};font-size:11px;">${[j.department, j.location].filter(Boolean).join(" · ")}</span>
+            </td>
+            <td width="56" align="right" valign="middle" style="padding:12px 15px;">
+              <a href="${j.url}" style="font-family:${FZ.mono};font-size:11px;font-weight:600;color:${DZ.blue};text-decoration:none;">View &rarr;</a>
+            </td>
+          </tr>
+        </table>
       </td>
     </tr>`;
 }
@@ -166,22 +205,22 @@ function loadBriefing() {
 
 function briefingThread(t) {
   const ev = (t.evidence || [])
-    .map((e) => `<a href="${e.url}" style="color:#946B2D;text-decoration:none;">${e.label}</a>`)
-    .join(' <span style="color:#D5CEBD;">&middot;</span> ');
+    .map((e) => `<a href="${e.url}" style="font-family:${FZ.mono};color:${DZ.blue};text-decoration:none;">${e.label}</a>`)
+    .join(` <span style="color:${DZ.border};">&middot;</span> `);
   const paras = String(t.narrative || "")
     .split(/\n{2,}/)
     .map((p) => p.trim())
     .filter(Boolean)
     .map(
       (p, i) =>
-        `<p style="margin:${i === 0 ? "0" : "8px 0 0"};font-size:13px;color:#4A3F30;line-height:1.55;">${p}</p>`
+        `<p style="margin:${i === 0 ? "0" : "8px 0 0"};font-size:13px;color:${DZ.body};line-height:1.55;">${p}</p>`
     )
     .join("");
   return `
-    <div style="margin:0 0 16px;">
-      <p style="margin:0 0 4px;font-size:14px;font-weight:600;color:#2C2517;">${t.title}</p>
+    <div style="margin:0 0 18px;padding-left:13px;border-left:2px solid ${DZ.border};">
+      <p style="margin:0 0 5px;font-family:${FZ.serif};font-size:15px;font-weight:500;color:${DZ.text};">${t.title}</p>
       ${paras}
-      ${ev ? `<p style="margin:6px 0 0;font-size:12px;">${ev}</p>` : ""}
+      ${ev ? `<p style="margin:7px 0 0;font-size:12px;">${ev}</p>` : ""}
     </div>`;
 }
 
@@ -189,17 +228,17 @@ function briefingSection(b) {
   const threads = (b.threads || []).slice(0, 4).map(briefingThread).join("");
   return `
         <tr>
-          <td style="padding:24px 0 8px;">
-            <p style="margin:0;font-size:11px;font-weight:700;color:#8C8474;text-transform:uppercase;letter-spacing:0.08em;">Observatory Briefing</p>
+          <td style="padding:26px 0 10px;">
+            ${sectionLabel("Observatory Briefing")}
           </td>
         </tr>
         <tr>
-          <td style="padding:0 0 20px;border-bottom:1px solid #D5CEBD;">
-            <h2 style="margin:0 0 10px;font-size:20px;font-weight:600;color:#2C2517;font-family:Georgia,'Times New Roman',serif;line-height:1.25;letter-spacing:-0.01em;">${b.headline}</h2>
-            <p style="margin:0 0 18px;font-size:14px;color:#4A3F30;line-height:1.6;">${b.stateOfPlay}</p>
+          <td style="padding:0 0 22px;border-bottom:1px solid ${DZ.border};">
+            <h2 style="margin:0 0 12px;font-size:22px;font-weight:500;color:${DZ.text};font-family:${FZ.serif};line-height:1.2;letter-spacing:-0.01em;">${b.headline}</h2>
+            <p style="margin:0 0 20px;font-size:14px;color:${DZ.body};line-height:1.6;">${b.stateOfPlay}</p>
             ${threads}
-            ${b.whatToWatch ? `<p style="margin:14px 0 0;font-size:13px;color:#4A3F30;line-height:1.55;"><strong style="color:#946B2D;">What to watch:</strong> ${b.whatToWatch}</p>` : ""}
-            <p style="margin:18px 0 0;"><a href="${SITE_URL}/briefing" style="color:#946B2D;font-weight:600;text-decoration:none;font-size:13px;">Read the full briefing &rarr;</a></p>
+            ${b.whatToWatch ? `<p style="margin:16px 0 0;font-size:13px;color:${DZ.body};line-height:1.55;"><strong style="color:${DZ.clay};">What to watch:</strong> ${b.whatToWatch}</p>` : ""}
+            <p style="margin:20px 0 0;"><a href="${SITE_URL}/briefing" style="font-family:${FZ.mono};color:${DZ.blue};font-weight:600;text-decoration:none;font-size:12.5px;">Read the full briefing &rarr;</a></p>
           </td>
         </tr>`;
 }
@@ -211,69 +250,71 @@ function buildHtml(briefing, newArticles, newJobs) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
-<body style="margin:0;padding:0;background:#FFFCF5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+<body style="margin:0;padding:0;background:${DZ.paper};font-family:${FZ.body};">
 
-  <!-- accent bar -->
-  <table width="100%" cellpadding="0" cellspacing="0">
-    <tr><td style="height:3px;background:linear-gradient(90deg,#C8962E 0%,#D4A854 40%,#E8D5A8 100%);"></td></tr>
-  </table>
-
-  <table width="100%" cellpadding="0" cellspacing="0" style="background:#FFFCF5;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:${DZ.paper};">
     <tr><td align="center" style="padding:40px 16px;">
-      <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;">
+      <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background:${DZ.card};border:1px solid ${DZ.border};border-radius:12px;overflow:hidden;">
 
-        <!-- header -->
-        <tr>
-          <td style="padding:0 0 32px;border-bottom:1px solid #D5CEBD;">
-            <p style="margin:0 0 4px;font-size:12px;color:#8C8474;text-transform:uppercase;letter-spacing:0.1em;">AMI Labs</p>
-            <h1 style="margin:0;font-size:24px;font-weight:600;color:#2C2517;font-family:Georgia,'Times New Roman',serif;letter-spacing:-0.02em;">Weekly Digest</h1>
-            <p style="margin:6px 0 0;font-size:13px;color:#8C8474;">Week of ${weekLabel}</p>
-          </td>
-        </tr>
+        <!-- accent bar (blue → clay) -->
+        <tr><td style="height:3px;background:linear-gradient(90deg,${DZ.blue} 0%,${DZ.clay} 100%);font-size:0;line-height:0;">&nbsp;</td></tr>
 
-        ${briefing ? briefingSection(briefing) : ""}
-
-        ${newArticles.length > 0 ? `
-        <!-- news -->
+        <!-- header: ink hero band -->
         <tr>
-          <td style="padding:24px 0 8px;">
-            <p style="margin:0;font-size:11px;font-weight:700;color:#8C8474;text-transform:uppercase;letter-spacing:0.08em;">News & Coverage</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
+          <td style="background:${DZ.ink};padding:30px 36px 28px;">
             <table width="100%" cellpadding="0" cellspacing="0">
-              ${newArticles.map(articleRow).join("")}
+              <tr>
+                <td valign="middle">
+                  <span style="font-family:${FZ.mono};font-size:10.5px;font-weight:600;color:${DZ.blueSoft};text-transform:uppercase;letter-spacing:0.2em;">
+                    <span style="display:inline-block;width:7px;height:7px;background:${DZ.blueSoft};margin-right:9px;vertical-align:middle;"></span>AMI Observatory</span>
+                </td>
+                <td align="right" valign="middle">
+                  <span style="font-family:${FZ.mono};font-size:10px;color:${DZ.onDarkDd};letter-spacing:0.03em;">The French Tech Journal</span>
+                </td>
+              </tr>
             </table>
-          </td>
-        </tr>` : ""}
-
-        ${newJobs.length > 0 ? `
-        <!-- jobs -->
-        <tr>
-          <td style="padding:24px 0 8px;">
-            <p style="margin:0;font-size:11px;font-weight:700;color:#8C8474;text-transform:uppercase;letter-spacing:0.08em;">Open Positions</p>
+            <h1 style="margin:18px 0 0;font-family:${FZ.serif};font-size:30px;font-weight:500;color:${DZ.onDark};line-height:1.05;letter-spacing:-0.01em;">Weekly Digest</h1>
+            <p style="margin:9px 0 0;font-family:${FZ.mono};font-size:11.5px;color:${DZ.onDarkDim};letter-spacing:0.02em;">Week of ${weekLabel}</p>
           </td>
         </tr>
-        <tr>
-          <td>
-            <table width="100%" cellpadding="0" cellspacing="0">
-              ${newJobs.map(jobRow).join("")}
-            </table>
-          </td>
-        </tr>` : ""}
 
-        <!-- footer -->
-        <tr>
-          <td style="padding:40px 0 0;border-top:1px solid #D5CEBD;">
-            <p style="margin:0;font-size:12px;color:#4A3F30;">
-              You&rsquo;re receiving this because you subscribed at
-              <a href="https://frenchtechjournal.com" style="color:#946B2D;text-decoration:none;">frenchtechjournal.com</a>.
-              &nbsp;&middot;&nbsp;
-              <a href="{{unsubscribe_url}}" style="color:#946B2D;text-decoration:none;">Unsubscribe</a>
-            </p>
-          </td>
-        </tr>
+        <!-- body -->
+        <tr><td style="padding:8px 36px 0;">
+
+          ${briefing ? `<table width="100%" cellpadding="0" cellspacing="0">${briefingSection(briefing)}</table>` : ""}
+
+          ${newArticles.length > 0 ? `
+          <table width="100%" cellpadding="0" cellspacing="0">
+            <tr><td style="padding:26px 0 12px;">${sectionLabel("News &amp; Coverage")}</td></tr>
+            ${newArticles.map(articleRow).join("")}
+          </table>` : ""}
+
+          ${newJobs.length > 0 ? `
+          <table width="100%" cellpadding="0" cellspacing="0">
+            <tr><td style="padding:26px 0 14px;">${sectionLabel("Open Positions")}</td></tr>
+            ${newJobs.map(jobRow).join("")}
+          </table>` : ""}
+
+          <!-- CTA -->
+          <table width="100%" cellpadding="0" cellspacing="0"><tr>
+            <td align="center" style="padding:30px 0 6px;">
+              <a href="${SITE_URL}" style="display:inline-block;font-family:${FZ.body};padding:12px 28px;background:${DZ.blue};color:#fff;font-size:13px;font-weight:600;border-radius:5px;text-decoration:none;">Read more at AMI Observatory</a>
+            </td>
+          </tr></table>
+
+          <!-- footer -->
+          <table width="100%" cellpadding="0" cellspacing="0"><tr>
+            <td style="padding:26px 0 30px;margin-top:8px;border-top:1px solid ${DZ.border};">
+              <p style="margin:18px 0 0;font-family:${FZ.mono};font-size:11px;color:${DZ.muted};line-height:1.6;">
+                You&rsquo;re receiving this because you subscribed at
+                <a href="https://frenchtechjournal.com" style="color:${DZ.blue};text-decoration:none;">frenchtechjournal.com</a>.
+                &nbsp;&middot;&nbsp;
+                <a href="{{unsubscribe_url}}" style="color:${DZ.blue};text-decoration:none;">Unsubscribe</a>
+              </p>
+            </td>
+          </tr></table>
+
+        </td></tr>
 
       </table>
     </td></tr>
@@ -283,6 +324,13 @@ function buildHtml(briefing, newArticles, newJobs) {
 }
 
 async function main() {
+  // Credentials are required only to actually send — checked here so importing
+  // buildHtml (for previews/tests) doesn't terminate the caller.
+  if (!API_KEY || !AUDIENCE_ID) {
+    console.error("Missing RESEND_API_KEY or RESEND_AUDIENCE_ID");
+    process.exit(1);
+  }
+
   // Collect articles from both sources
   const jsonArticles = recentItems("news.json", "addedAt");
   const sanityArticles = await fetchSanityArticles();
@@ -341,4 +389,8 @@ async function main() {
   console.log("Digest complete.");
 }
 
-main().catch((e) => { console.error(e); process.exit(1); });
+if (require.main === module) {
+  main().catch((e) => { console.error(e); process.exit(1); });
+}
+
+module.exports = { buildHtml, articleRow, jobRow };
