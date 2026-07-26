@@ -475,13 +475,13 @@
     "dessinKeys": []
   },
   "status": "ok",
-  "headline": "AMI doubles down on world-model talent, with the engineering proof already running in code",
-  "stateOfPlay": "The most revealing thing about AMI this week is not any single hire or post — it is the convergence of four simultaneous additions from Meta FAIR's world-model and self-supervised learning lineage arriving at exactly the moment the `stable-worldmodel` repository is churning through its heaviest sustained development of recent memory. The pattern is deliberate: AMI is not building a research lab that will eventually ship product; it is assembling a team around a technical bet that is already in active engineering. Yann LeCun's public appearances at both ICML and the RAISE Summit in Paris kept the philosophical frame in view — LLMs are bounded, physical intelligence is unsolved — while the back-end activity this week shows the team is trying to be the ones who solve it.",
+  "headline": "AMI expands world-model talent as team reaches 40, with research advances already appearing in code",
+  "stateOfPlay": "This week we added four new names to the AMI roster who had shared lineage with Meta FAIR's world-model and self-supervised learning. Meanwhile, the `stable-worldmodel` repository is churning through its heavy sustained development. This continues a pattern of AMI co-founders, most notably Yann LeCun, continuing to build a research lab by luring previous collaborators, a mix of both established researchers and promising students. Speaking of LeCun, he has become omnipresent thanks to a slew of public appearances at both VivaTech in June and the RAISE Summit in Paris, where he repeated philosophical framing: LLMs are bounded and physical intelligence is unsolved.",
   "threads": [
     {
-      "title": "Four ex-Meta FAIR hires in one week signals a deliberate raid on world-model expertise",
+      "title": "Four ex-Meta FAIR hires continue a raid on world-model expertise",
       "category": "hiring",
-      "narrative": "AMI confirmed four new Members of Technical Staff in a single reporting window, and the commonality is striking: Adrien Bardes (self-supervised visual learning and world-model architectures), Quentin Garrido (self-supervised learning, computer vision, world models), Tengyu Ma (visual grounding and segmentation, including SAM 2 and SAM 3), and Andrew Brown (generative video, multimodal representation learning) all come from Meta FAIR. This is not coincidental proximity — these are people whose published research sits almost precisely at the intersection AMI has staked out: learning structured representations of the world from raw sensory data without dense human labels.\n\nThe breadth within that focus is also telling. Bardes and Garrido bring the representation-learning theory; Ma brings the grounding and segmentation capability needed to link that representation to the physical world; Brown brings the generative-video side, which matters enormously for training and evaluating world models against real visual dynamics. Taken together, the four cover the full pipeline from learning a world model to deploying it in a perception-action loop. Alongside this, AMI added Marina Farthouat as a dedicated recruiter — a signal that this hiring pace is expected to continue, not wind down.",
+      "narrative": "AMI's four confirmed new Members of Technical Staff include: Adrien Bardes (self-supervised visual learning and world-model architectures), Quentin Garrido (self-supervised learning, computer vision, world models), Tengyu Ma (visual grounding and segmentation, including SAM 2 and SAM 3), and Andrew Brown (generative video, multimodal representation learning). They all come from Meta FAIR. Of course, this is not coincidental. These are people whose published research often includes LeCun as a cited co-author and so naturally sits almost precisely at the intersection AMI has staked out: learning structured representations of the world from raw sensory data without dense human labels.\n\nThe breadth within that focus is also telling. Bardes and Garrido bring the representation-learning theory. Ma brings the grounding and segmentation capability needed to link that representation to the physical world. Brown brings the generative-video side, which matters enormously for training and evaluating world models against real visual dynamics. Taken together, the four cover the full pipeline from learning a world model to deploying it in a perception-action loop. Alongside this, AMI added Marina Farthouat in Paris and Sonia Rattan in NYC as dedicated AI recruiters, signaling that the hiring pace will continue to accelerate. Which is not surprising when a company has a few hundred million euros burning a hole in its pocket from a Seed Round.",
       "evidence": [
         {
           "label": "New Hire: Adrien Bardes",
@@ -502,13 +502,17 @@
         {
           "label": "New Hire: Marina Farthouat, Recruiter",
           "url": "https://ami.frenchtechjournal.com/team/marina-farthouat"
+        },
+        {
+          "label": "New Hire: Sonia Rattan, Recruiter",
+          "url": "https://ami.frenchtechjournal.com/team/sonia-rattan"
         }
       ]
     },
     {
       "title": "The `stable-worldmodel` repo is where the theory meets the code — and it is moving fast",
       "category": "research",
-      "narrative": "Of AMI's 34 GitHub events this week, 15 belong to Quentin Le Lidec, almost all concentrated in a single repository: `galilai-group/stable-worldmodel`. The activity is substantive rather than cosmetic — new branches named `buffer` and `episode-table`, multiple pull requests opened and merged, issues reviewed and closed. The naming is itself informative: 'episode-table' suggests a structured data layer for storing interaction episodes, a standard component in model-based reinforcement learning and world-model training pipelines; 'buffer' points to the replay or experience-buffer infrastructure those pipelines depend on. This is not exploratory prototyping; it is the kind of iterative, issue-tracked engineering you do when a system is being stabilised for use by a growing team.\n\nRohit Girdhar also registered seven events this week, and Li Jing contributed two, suggesting the repository is not a solo project. The timing matters: AMI has just added four researchers whose expertise is directly applicable to exactly this kind of system. The `stable-worldmodel` codebase looks like the shared substrate the incoming team will be building on.",
+      "narrative": "Of AMI's 34 GitHub events this week, 15 belong to Quentin Le Lidec, almost all concentrated in a single repository: `galilai-group/stable-worldmodel`. The activity is substantive rather than cosmetic, with new branches named `buffer` and `episode-table`, multiple pull requests opened and merged, issues reviewed and closed. The naming is revealing: 'episode-table' suggests a structured data layer for storing interaction episodes, a standard component in model-based reinforcement learning and world-model training pipelines; 'buffer' points to the replay or experience-buffer infrastructure those pipelines depend on. This is not exploratory prototyping; it is the kind of iterative, issue-tracked engineering you do when a system is being stabilized for use by a growing team.\n\nRohit Girdhar also registered seven events this week, and Li Jing contributed two.",
       "evidence": [
         {
           "label": "stable-worldmodel: branch 'buffer' created",
@@ -525,9 +529,9 @@
       ]
     },
     {
-      "title": "LeCun's public positioning keeps the intellectual bet loud — and the pressure on the team real",
+      "title": "Co-Founder 's public positioning keeps the intellectual bet loud",
       "category": "research",
-      "narrative": "LeCun appeared at both ICML in South Korea (represented through Pascal Fung's keynote, where Fung argued that physical AI remains unresolved and that LLMs carry clear limitations) and at the RAISE Summit in Paris, where press coverage summarised his argument as: a four-year-old learns more about the world by watching it than the largest language model learns from all the text on the internet. These are not new claims, but the venues matter — ICML is the premier machine-learning research conference, and RAISE is a high-profile French tech policy gathering. AMI is simultaneously pitching to the research community and to the institutional and policy audiences that matter for a Paris-headquartered lab.\n\nThe 36kr/European Central Station write-up on the JEPA architecture — specifically framing it as enabling robots to 'simulate the future before taking actions' — runs in parallel. That framing, robots simulating forward to plan, is precisely what a stable, episode-aware world model (see the GitHub thread) is needed for. The public narrative and the engineering activity are pointing at the same target.",
+      "narrative": "Pascale Fung, Chief Research & Innovation Officer & Co-Founder, gave a keynote address at ICML in South Korea, where she argued that physical AI remains unresolved and that LLMs carry clear limitations. At the RAISE Summit in Paris, LeCun made the point that a four-year-old learns more about the world by watching it than the largest language model learns from all the text on the internet. These are not new claims, but the venues were certainly prominent. ICML is the premier machine-learning research conference, and RAISE is a high-profile French tech policy gathering. AMI is simultaneously pitching to the research community and to the institutional and policy audiences that matter for a Paris-headquartered lab.\n\nThe 36kr/European Central Station write-up on the JEPA architecture, specifically framing it as enabling robots to 'simulate the future before taking actions,' runs in parallel. That framing, robots simulating forward to plan, is precisely what a stable, episode-aware world model (see the GitHub thread) is needed for. The public narrative and the engineering activity are pointing at the same target.",
       "evidence": [
         {
           "label": "AMI Co-founder keynote at ICML: 'Physical AI Still an Unresolved Area'",
@@ -544,14 +548,16 @@
       ]
     }
   ],
-  "signals": [
+   "signals": [
     {
-      "text": "LeCun's post 'Tired of winning' drew nearly 1,000 likes but links to an external URL whose context is not established in the available facts — worth monitoring for what it references."
+      "text": "LeCun retweeted a post from researcher Reza Bayat endorsing his deep-dive explanation of 'SIGReg from First Principles.' In the tweet, Bayat writes: 'World Modeling with JEPA has recently gained traction thanks to a novel anti-collapse mechanism called \"SIGReg\" (by @ylecun and @randall_balestr). The math is clean, but it is rarely explained from first principles, so I broke it down in a detailed blog post.'",
+      "url": "https://x.com/reza_byt/status/2080291982115479668",
+      "linkLabel": "Tweet"
     },
     {
-      "text": "AMI posted two new engineer roles — one in Singapore, one in Paris — on July 20, extending its geographic footprint beyond New York and Paris proper.",
+      "text": "AMI posted two new engineer roles — one in Singapore, one in Paris — on July 20.",
       "category": "hiring"
     }
   ],
-  "whatToWatch": "The immediate question is how quickly the four new FAIR alumni are onboarded into the `stable-worldmodel` codebase — a surge in their GitHub activity against that repo in the coming weeks would confirm it is AMI's primary engineering vehicle rather than an exploratory side project. The Singapore engineering role is also worth tracking: a hire there would mark AMI's first operational foothold in Asia-Pacific, and combined with Fung's ICML keynote presence in South Korea, it may signal deliberate regional expansion rather than opportunistic recruiting."
+  "whatToWatch": "AMI is co-organizing the Wearable AI Workshop at ECCV 2026 with Meta Reality Labs, HKUST, Georgia Tech, UCF, and U. of Edinburgh. The conference, in Malmo, Sweden, on September 8-9, targets people working on \"egocentric perception, multimodal assistants, or long-form video understanding,\" according to a LinkedIn post from Co-Founder Fung. It's a small hint of how the company sees some of the practical deployment cases for World Models."
 }
