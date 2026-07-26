@@ -767,9 +767,62 @@ input[type="search"]::placeholder { color: var(--muted); }
 .research-contributors a:hover { text-decoration: underline; }
 .research-highlight-body {
   margin-top: 14px;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .research-highlight-body > *:first-child { margin-top: 0; }
+.research-highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+.research-card {
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+  text-decoration: none;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.research-card:hover {
+  border-color: var(--accent2);
+  transform: translateY(-2px);
+}
+.research-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  margin: 0 0 6px;
+}
+.research-card-meta {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+.research-card-summary {
+  font-size: 0.83rem;
+  line-height: 1.5;
+  color: var(--text-dim);
+  margin: 0 0 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.research-card-cta {
+  margin-top: auto;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent2);
+}
+/* Contributors block on the highlight detail page */
+.research-contributors-detail {
+  margin: 0 0 24px;
+  padding: 16px 0 0;
+}
 .loading-text {
   color: var(--muted);
   font-size: 0.85rem;
