@@ -1,8 +1,14 @@
 import type { Metadata } from "next";
 import researchData from "@/data/research.json";
 import synthesisData from "@/data/synthesis.json";
-import ResearchClient, { normalizeUrl, type ResearchPaper } from "@/components/ResearchClient";
+import ResearchClient, {
+  normalizeUrl,
+  type ResearchPaper,
+  type ResearchHighlight,
+} from "@/components/ResearchClient";
 import type { Briefing } from "@/components/ObservatoryBriefing";
+import { client } from "@/sanity/lib/client";
+import { researchHighlightsQuery } from "@/sanity/lib/queries";
 
 export const revalidate = 60;
 
@@ -14,8 +20,36 @@ export const metadata: Metadata = {
     "The latest papers from the AMI Labs team, with plain-language analysis of what each one is and why it matters — tracked by The French Tech Journal.",
 };
 
-export default function ResearchPage() {
-  const papers = ((researchData as { papers?: ResearchPaper[] }).papers ?? []).slice(0, FEED_CAP);
+// A feed paper is "covered" by a highlight when they refer to the same paper, so we
+// don't render both the plain auto-row and the curated highlight. Match by matchId
+// (arXiv id or Semantic Scholar paperId, substring-tolerant of the feed's DOI form)
+// or by canonical URL.
+function isCoveredByHighlight(p: ResearchPaper, highlights: ResearchHighlight[]): boolean {
+  const pUrlKey = normalizeUrl(p.url);
+  const pUrlLower = (p.url ?? "").toLowerCase();
+  return highlights.some((h) => {
+    const id = (h.matchId ?? "").trim().toLowerCase();
+    if (id && (p.paperId === h.matchId || pUrlLower.includes(id))) return true;
+    const hKey = normalizeUrl(h.paperUrl);
+    return !!hKey && hKey === pUrlKey;
+  });
+}
+
+export default async function ResearchPage() {
+  let highlights: ResearchHighlight[] = [];
+  try {
+    const fetched = await client.fetch<ResearchHighlight[]>(
+      researchHighlightsQuery,
+      {},
+      { perspective: "published" }
+    );
+    if (fetched?.length) highlights = fetched;
+  } catch {
+    // Sanity unreachable — fall back to the auto-feed only.
+  }
+
+  const allPapers = (researchData as { papers?: ResearchPaper[] }).papers ?? [];
+  const papers = allPapers.filter((p) => !isCoveredByHighlight(p, highlights)).slice(0, FEED_CAP);
 
   // Attach the synthesis's "why it matters" notes to papers by matching evidence URLs.
   const briefing = synthesisData as unknown as Briefing;
@@ -37,7 +71,7 @@ export default function ResearchPage() {
         </div>
       </div>
 
-      <ResearchClient papers={papers} notesByUrl={notesByUrl} />
+      <ResearchClient papers={papers} highlights={highlights} notesByUrl={notesByUrl} />
     </>
   );
 }

@@ -70,6 +70,31 @@ export const pendingArticlesQuery = groq`
   }
 `;
 
+// ── RESEARCH HIGHLIGHTS ───────────────────────────────────────────────────────
+
+export const researchHighlightsQuery = groq`
+  *[_type == "researchHighlight" && !(_id in path("drafts.**")) && (reviewStatus == "approved" || !defined(reviewStatus))] | order(pinned desc, publishedAt desc) {
+    _id,
+    title,
+    "slug": slug.current,
+    paperUrl,
+    matchId,
+    venue,
+    publishedAt,
+    summary,
+    pinned,
+    "contributors": contributors[]{
+      contribution,
+      "slug": person->slug.current,
+      "name": person->name
+    },
+    whyItMatters[] {
+      ...,
+      _type == "image" => { asset->, alt, caption },
+    }
+  }
+`;
+
 export const articleBySlugQuery = groq`
   *[_type == "article" && !(_id in path("drafts.**")) && slug.current == $slug][0] {
     _id,

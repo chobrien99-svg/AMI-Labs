@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { PortableText, type PortableTextBlock } from "@portabletext/react";
+import { portableTextComponents } from "./portableTextComponents";
 
 export interface ResearchAuthor {
   slug: string;
@@ -9,6 +11,7 @@ export interface ResearchPaper {
   paperId: string;
   title: string;
   teamAuthors?: ResearchAuthor[];
+  authors?: { slug: string | null; name: string }[];
   memberSlug?: string;
   memberName?: string;
   publicationDate?: string | null;
@@ -20,8 +23,29 @@ export interface ResearchPaper {
   abstract?: string | null;
 }
 
+export interface HighlightContributor {
+  slug: string | null;
+  name: string;
+  contribution?: string | null;
+}
+
+export interface ResearchHighlight {
+  _id: string;
+  title: string;
+  slug?: string;
+  paperUrl: string;
+  matchId?: string;
+  venue?: string | null;
+  publishedAt?: string | null;
+  summary?: string | null;
+  pinned?: boolean;
+  contributors?: HighlightContributor[];
+  whyItMatters?: PortableTextBlock[];
+}
+
 interface ResearchClientProps {
   papers: ResearchPaper[];
+  highlights?: ResearchHighlight[];
   notesByUrl: Record<string, string>;
 }
 
@@ -37,14 +61,28 @@ export function normalizeUrl(u?: string | null): string {
   return s;
 }
 
-function formatPaperDate(p: ResearchPaper): string {
-  if (p.publicationDate) {
-    const d = new Date(p.publicationDate);
+function formatIsoDate(iso?: string | null, year?: number | null): string {
+  if (iso) {
+    const d = new Date(iso);
     if (!Number.isNaN(d.getTime())) {
       return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
     }
   }
-  return p.year ? String(p.year) : "";
+  return year ? String(year) : "";
+}
+
+// Every AMI author on a paper: the curated teamAuthors plus any full-author-list entry
+// that resolved to a roster slug (so co-authors the paper wasn't fetched under still show).
+function amiAuthors(p: ResearchPaper): ResearchAuthor[] {
+  const seen = new Set<string>();
+  const out: ResearchAuthor[] = [];
+  for (const a of [...(p.teamAuthors ?? []), ...(p.authors ?? [])]) {
+    if (a && a.slug && !seen.has(a.slug)) {
+      seen.add(a.slug);
+      out.push({ slug: a.slug, name: a.name });
+    }
+  }
+  return out;
 }
 
 function Authors({ authors, fallback }: { authors?: ResearchAuthor[]; fallback?: string }) {
@@ -68,8 +106,45 @@ function Authors({ authors, fallback }: { authors?: ResearchAuthor[]; fallback?:
   );
 }
 
-export default function ResearchClient({ papers, notesByUrl }: ResearchClientProps) {
-  if (!papers.length) {
+function Highlight({ h }: { h: ResearchHighlight }) {
+  const date = formatIsoDate(h.publishedAt);
+  return (
+    <article className="pub-item research-paper research-highlight">
+      <span className="research-highlight-badge">Highlighted</span>
+      <div className="pub-title">
+        <a href={h.paperUrl} target="_blank" rel="noopener noreferrer">
+          {h.title}
+        </a>
+      </div>
+      <div className="pub-meta">
+        {h.contributors && h.contributors.length ? (
+          <Authors authors={h.contributors.filter((c) => c.slug).map((c) => ({ slug: c.slug as string, name: c.name }))} />
+        ) : null}
+        {h.venue ? ` · ${h.venue}` : ""}
+        {date ? ` · ${date}` : ""}
+      </div>
+      {h.summary && <p className="research-tldr">{h.summary}</p>}
+      {h.whyItMatters && h.whyItMatters.length > 0 && (
+        <div className="research-highlight-body">
+          <PortableText value={h.whyItMatters} components={portableTextComponents} />
+        </div>
+      )}
+      {h.contributors && h.contributors.length > 0 && (
+        <ul className="research-contributors">
+          {h.contributors.map((c) => (
+            <li key={c.slug || c.name}>
+              {c.slug ? <Link href={`/team/${c.slug}`}>{c.name}</Link> : c.name}
+              {c.contribution ? ` — ${c.contribution}` : ""}
+            </li>
+          ))}
+        </ul>
+      )}
+    </article>
+  );
+}
+
+export default function ResearchClient({ papers, highlights = [], notesByUrl }: ResearchClientProps) {
+  if (!papers.length && !highlights.length) {
     return (
       <main>
         <p className="briefing-empty">
@@ -82,10 +157,20 @@ export default function ResearchClient({ papers, notesByUrl }: ResearchClientPro
 
   return (
     <main>
+      {highlights.length > 0 && (
+        <div className="research-highlights">
+          <p className="research-section-label">Highlighted research</p>
+          {highlights.map((h) => (
+            <Highlight key={h._id} h={h} />
+          ))}
+        </div>
+      )}
+
       <div className="research-list">
         {papers.map((p) => {
           const note = notesByUrl[normalizeUrl(p.url)];
-          const date = formatPaperDate(p);
+          const date = formatIsoDate(p.publicationDate, p.year);
+          const authors = amiAuthors(p);
           return (
             <article key={p.paperId} className="pub-item research-paper">
               <div className="pub-title">
@@ -94,7 +179,7 @@ export default function ResearchClient({ papers, notesByUrl }: ResearchClientPro
                 </a>
               </div>
               <div className="pub-meta">
-                <Authors authors={p.teamAuthors} fallback={p.memberName} />
+                <Authors authors={authors} fallback={p.memberName} />
                 {p.venue ? ` · ${p.venue}` : ""}
                 {date ? ` · ${date}` : ""}
               </div>
