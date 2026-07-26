@@ -20,11 +20,6 @@ const SANITY_PROJECT_ID = "k8hl9hed";
 const SANITY_DATASET = "production";
 const SITE_URL = "https://ami.frenchtechjournal.com";
 
-if (!API_KEY || !AUDIENCE_ID) {
-  console.error("Missing RESEND_API_KEY or RESEND_AUDIENCE_ID");
-  process.exit(1);
-}
-
 // ── helpers ──────────────────────────────────────────────────────────────────
 
 function get(url, headers) {
@@ -329,6 +324,13 @@ function buildHtml(briefing, newArticles, newJobs) {
 }
 
 async function main() {
+  // Credentials are required only to actually send — checked here so importing
+  // buildHtml (for previews/tests) doesn't terminate the caller.
+  if (!API_KEY || !AUDIENCE_ID) {
+    console.error("Missing RESEND_API_KEY or RESEND_AUDIENCE_ID");
+    process.exit(1);
+  }
+
   // Collect articles from both sources
   const jsonArticles = recentItems("news.json", "addedAt");
   const sanityArticles = await fetchSanityArticles();
