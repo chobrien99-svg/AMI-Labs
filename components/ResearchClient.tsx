@@ -1,6 +1,5 @@
 import Link from "next/link";
-import { PortableText, type PortableTextBlock } from "@portabletext/react";
-import { portableTextComponents } from "./portableTextComponents";
+import { type PortableTextBlock } from "@portabletext/react";
 
 export interface ResearchAuthor {
   slug: string;
@@ -106,40 +105,29 @@ function Authors({ authors, fallback }: { authors?: ResearchAuthor[]; fallback?:
   );
 }
 
-function Highlight({ h }: { h: ResearchHighlight }) {
+// Compact card for the highlights grid. The whole card links to the highlight's
+// dedicated page (so contributor names stay plain text — no nested anchors).
+function HighlightCard({ h }: { h: ResearchHighlight }) {
   const date = formatIsoDate(h.publishedAt);
-  return (
-    <article className="pub-item research-paper research-highlight">
+  const names = (h.contributors ?? []).map((c) => c.name).join(", ");
+  const meta = [names, h.venue || "", date].filter(Boolean).join(" · ");
+  const inner = (
+    <>
       <span className="research-highlight-badge">Highlighted</span>
-      <div className="pub-title">
-        <a href={h.paperUrl} target="_blank" rel="noopener noreferrer">
-          {h.title}
-        </a>
-      </div>
-      <div className="pub-meta">
-        {h.contributors && h.contributors.length ? (
-          <Authors authors={h.contributors.filter((c) => c.slug).map((c) => ({ slug: c.slug as string, name: c.name }))} />
-        ) : null}
-        {h.venue ? ` · ${h.venue}` : ""}
-        {date ? ` · ${date}` : ""}
-      </div>
-      {h.summary && <p className="research-tldr">{h.summary}</p>}
-      {h.whyItMatters && h.whyItMatters.length > 0 && (
-        <div className="research-highlight-body">
-          <PortableText value={h.whyItMatters} components={portableTextComponents} />
-        </div>
-      )}
-      {h.contributors && h.contributors.length > 0 && (
-        <ul className="research-contributors">
-          {h.contributors.map((c) => (
-            <li key={c.slug || c.name}>
-              {c.slug ? <Link href={`/team/${c.slug}`}>{c.name}</Link> : c.name}
-              {c.contribution ? ` — ${c.contribution}` : ""}
-            </li>
-          ))}
-        </ul>
-      )}
-    </article>
+      <h3 className="research-card-title">{h.title}</h3>
+      {meta && <div className="research-card-meta">{meta}</div>}
+      {h.summary && <p className="research-card-summary">{h.summary}</p>}
+      <span className="research-card-cta">Read the highlight →</span>
+    </>
+  );
+  return h.slug ? (
+    <Link href={`/research/highlights/${h.slug}`} className="research-card">
+      {inner}
+    </Link>
+  ) : (
+    <a href={h.paperUrl} target="_blank" rel="noopener noreferrer" className="research-card">
+      {inner}
+    </a>
   );
 }
 
@@ -160,9 +148,11 @@ export default function ResearchClient({ papers, highlights = [], notesByUrl }: 
       {highlights.length > 0 && (
         <div className="research-highlights">
           <p className="research-section-label">Highlighted research</p>
-          {highlights.map((h) => (
-            <Highlight key={h._id} h={h} />
-          ))}
+          <div className="research-highlights-grid">
+            {highlights.map((h) => (
+              <HighlightCard key={h._id} h={h} />
+            ))}
+          </div>
         </div>
       )}
 
