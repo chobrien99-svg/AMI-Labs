@@ -24,7 +24,7 @@
     {
       "title": "The SSL Interplay: Augmentations, Inductive Bias, and Generalization",
       "year": 2023,
-      "citationCount": 45,
+      "citationCount": 46,
       "venue": "International Conference on Machine Learning",
       "url": "https://doi.org/10.48550/arXiv.2302.02774"
     },
@@ -47,7 +47,7 @@
     {
       "title": "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders",
       "year": 2023,
-      "citationCount": 1857,
+      "citationCount": 1862,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548"
     },
@@ -61,7 +61,7 @@
     {
       "title": "A ConvNet for the 2020s",
       "year": 2022,
-      "citationCount": 8842,
+      "citationCount": 8859,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01167"
     },
@@ -105,7 +105,7 @@
     {
       "title": "OpenAI GPT-5 System Card",
       "year": 2025,
-      "citationCount": 683,
+      "citationCount": 684,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/6f9e6a47b8c2a65d3fa758bb4062f096b4afd34d"
     }
@@ -195,7 +195,7 @@
     {
       "title": "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders",
       "year": 2023,
-      "citationCount": 1857,
+      "citationCount": 1862,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548"
     },
@@ -290,7 +290,7 @@
     {
       "title": "DINOv2: Learning Robust Visual Features without Supervision",
       "year": 2023,
-      "citationCount": 9445,
+      "citationCount": 9451,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2304.07193"
     }
@@ -334,32 +334,39 @@
   ],
   "julia-kempe": [
     {
-      "title": "Formalizing Mathematics at Scale",
+      "title": "Likelihood-Based Reward Designs for General LLM Reasoning",
       "year": 2026,
-      "citationCount": 2,
+      "citationCount": 5,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2605.29955"
+      "url": "https://doi.org/10.48550/arXiv.2602.03979"
     },
     {
-      "title": "Formalization of De Giorgi--Nash--Moser Theory in Lean",
+      "title": "Learning through Internalization",
       "year": 2026,
-      "citationCount": 7,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/f274a1bce813c2bb358ed7b6fbd54c08c17bac1a"
-    },
-    {
-      "title": "Emergent properties with repeated examples",
-      "year": 2024,
-      "citationCount": 12,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2410.07041"
-    },
-    {
-      "title": "Repeated examples help learn arithmetic",
-      "year": null,
       "citationCount": 0,
       "venue": null,
-      "url": "https://www.semanticscholar.org/paper/8a289c7171c78422726186339f1dd35726bfe3cc"
+      "url": "https://www.semanticscholar.org/paper/31e6e9e341f8e8152c9f633b5838c585853feb1b"
+    },
+    {
+      "title": "Efficient RL Training for LLMs with Experience Replay",
+      "year": 2026,
+      "citationCount": 3,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2604.08706"
+    },
+    {
+      "title": "Teaching Models to Teach Themselves: Reasoning at the Edge of Learnability",
+      "year": 2026,
+      "citationCount": 15,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.18778"
+    },
+    {
+      "title": "Outcome-based Exploration for LLM Reasoning",
+      "year": 2025,
+      "citationCount": 78,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.06941"
     }
   ],
   "adithya-iyer": [
@@ -521,14 +528,14 @@
     {
       "title": "MADiff: Offline Multi-agent Learning with Diffusion Models",
       "year": 2023,
-      "citationCount": 100,
+      "citationCount": 101,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2305.17330"
     },
     {
       "title": "Efficient Diffusion Policies for Offline Reinforcement Learning",
       "year": 2023,
-      "citationCount": 184,
+      "citationCount": 186,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2305.20081"
     }
@@ -803,7 +810,7 @@
     {
       "title": "FACET: Fairness in Computer Vision Evaluation Benchmark",
       "year": 2023,
-      "citationCount": 80,
+      "citationCount": 81,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51070.2023.01863"
     },
@@ -998,6 +1005,43 @@
       "citationCount": 8,
       "venue": "International Conference on Machine Learning",
       "url": "https://doi.org/10.48550/arXiv.2503.01328"
+    }
+  ],
+  "ayaan-naveed-malik": [
+    {
+      "title": "World Action Models are Zero-shot Policies",
+      "year": 2026,
+      "citationCount": 200,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.15922"
+    },
+    {
+      "title": "DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos",
+      "year": 2026,
+      "citationCount": 78,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.06949"
+    },
+    {
+      "title": "Improving intrauterine contraceptive device follow-up with a scan-only clinic model in a specialist community contraception service",
+      "year": 2025,
+      "citationCount": 0,
+      "venue": "BMJ Sexual & Reproductive Health",
+      "url": "https://doi.org/10.1136/bmjsrh-2025-202815"
+    },
+    {
+      "title": "Types of stressors, stress-coping strategies, and personality traits as predictors of depression and anxiety among teachers in a suddenly stressful situation",
+      "year": 2025,
+      "citationCount": 0,
+      "venue": "Journal of Health Inequalities",
+      "url": "https://doi.org/10.5114/jhi.2025.155418"
+    },
+    {
+      "title": "The median sacral artery and its surgical anatomy in pelvic and spinal surgery: a systematic review and meta-analysis.",
+      "year": 2025,
+      "citationCount": 0,
+      "venue": "Folia Morphologica",
+      "url": "https://doi.org/10.5603/fm.105386"
     }
   ]
 }

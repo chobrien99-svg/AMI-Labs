@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T11:34:13.959Z",
+  "generatedAt": "2026-07-27T06:57:41.980Z",
   "papers": [
     {
       "paperId": "4f890d8373b93892ce2a50d87415653fc225a5a8",
@@ -2864,67 +2864,6 @@
       "abstract": "Matrix based optimizers such as Muon can substantially speed up language model pretraining, but their gains over AdamW are observed to shrink as model size and data scale grow when using standard constant decoupled weight decay. We propose Hyperball, a simple optimizer wrapper that addresses this issue. Given a base optimizer such as Adam or Muon, Hyperball sets the Frobenius norms of weight matrices and their corresponding optimizer updates to fixed constants. On Qwen3 style models up to 1.2B parameters, Muon Hyperball achieves 20--30% token equivalent speedup over weight decay baselines. Hyperball also improves learning rate transfer across widths and depths compared to decoupled weight decay. This method is motivated by prior theory showing that training with weight decay leads to an equilibrium weight norm that only depends on the training hyperparameters. Through this mechanism, the weight decay then decides the angular learning rate, i.e. how fast the direction of the weight matrix changes."
     },
     {
-      "paperId": "98bfd032ec0208cadd3a5deb9f34d4b228736599",
-      "title": "Cambrian-P: Pose-Grounded Video Understanding",
-      "teamAuthors": [
-        {
-          "slug": "jihan-yang",
-          "name": "Jihan Yang"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Jihan Yang",
-          "authorId": "2362644269",
-          "slug": "jihan-yang"
-        },
-        {
-          "name": "Zifan Zhao",
-          "authorId": "2283083245",
-          "slug": null
-        },
-        {
-          "name": "Xichen Pan",
-          "authorId": "2158877024",
-          "slug": null
-        },
-        {
-          "name": "Shusheng Yang",
-          "authorId": "2237626195",
-          "slug": null
-        },
-        {
-          "name": "Junyi Zhang",
-          "authorId": "51233565",
-          "slug": null
-        },
-        {
-          "name": "Bin Kang",
-          "authorId": "2303800554",
-          "slug": null
-        },
-        {
-          "name": "Hu Xu",
-          "authorId": "2327611054",
-          "slug": null
-        },
-        {
-          "name": "Saining Xie",
-          "authorId": "2249884026",
-          "slug": "saining-xie"
-        }
-      ],
-      "memberSlug": "jihan-yang",
-      "memberName": "Jihan Yang",
-      "publicationDate": "2026-05-21",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2605.22819",
-      "citationCount": 0,
-      "tldr": "Cambrian-P is revisited as a lightweight supervisory signal and Cambrian-P, a video MLLM augmented with per-frame learnable camera tokens and a pose regression head is introduced, which achieves substantial gains on spatial reasoning benchmarks and achieves state of the art streaming pose estimation on ScanNet.",
-      "abstract": "Camera pose matters. The position and orientation of each viewpoint define a shared spatial coordinate frame that relates observations across video frames. Yet this signal is largely absent from multimodal LLMs (MLLMs) for video understanding, which process frames as isolated 2D snapshots, instead of the persistent scene humans perceive. We revisit pose as a lightweight supervisory signal and introduce Cambrian-P, a video MLLM augmented with per-frame learnable camera tokens and a pose regression head. With a carefully designed sampling scheme, the model achieves substantial gains of 4.5-6.5% on spatial reasoning benchmarks such as VSI-Bench, generalizes across eight additional spatial and general video QA benchmarks, and, as a byproduct, achieves state of the art streaming pose estimation on ScanNet. Surprisingly, training on pseudo-annotated poses from in-the-wild video further improves general video QA benchmarks, showing pose helps beyond spatial reasoning. Together, these results position camera pose as a fundamental signal for video models that reason about the physical world."
-    },
-    {
       "paperId": "20ba4363b7275178aaca520f9f16b39dad3a87d0",
       "title": "Announcing the Shaw Prize in Computer Science",
       "teamAuthors": [
@@ -2984,6 +2923,67 @@
       "citationCount": 0,
       "tldr": null,
       "abstract": "Nominations for this new prize will be invited September to November 2026."
+    },
+    {
+      "paperId": "98bfd032ec0208cadd3a5deb9f34d4b228736599",
+      "title": "Cambrian-P: Pose-Grounded Video Understanding",
+      "teamAuthors": [
+        {
+          "slug": "jihan-yang",
+          "name": "Jihan Yang"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Jihan Yang",
+          "authorId": "2362644269",
+          "slug": "jihan-yang"
+        },
+        {
+          "name": "Zifan Zhao",
+          "authorId": "2283083245",
+          "slug": null
+        },
+        {
+          "name": "Xichen Pan",
+          "authorId": "2158877024",
+          "slug": null
+        },
+        {
+          "name": "Shusheng Yang",
+          "authorId": "2237626195",
+          "slug": null
+        },
+        {
+          "name": "Junyi Zhang",
+          "authorId": "51233565",
+          "slug": null
+        },
+        {
+          "name": "Bin Kang",
+          "authorId": "2303800554",
+          "slug": null
+        },
+        {
+          "name": "Hu Xu",
+          "authorId": "2327611054",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "2249884026",
+          "slug": "saining-xie"
+        }
+      ],
+      "memberSlug": "jihan-yang",
+      "memberName": "Jihan Yang",
+      "publicationDate": "2026-05-21",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.22819",
+      "citationCount": 0,
+      "tldr": "Cambrian-P is revisited as a lightweight supervisory signal and Cambrian-P, a video MLLM augmented with per-frame learnable camera tokens and a pose regression head is introduced, which achieves substantial gains on spatial reasoning benchmarks and achieves state of the art streaming pose estimation on ScanNet.",
+      "abstract": "Camera pose matters. The position and orientation of each viewpoint define a shared spatial coordinate frame that relates observations across video frames. Yet this signal is largely absent from multimodal LLMs (MLLMs) for video understanding, which process frames as isolated 2D snapshots, instead of the persistent scene humans perceive. We revisit pose as a lightweight supervisory signal and introduce Cambrian-P, a video MLLM augmented with per-frame learnable camera tokens and a pose regression head. With a carefully designed sampling scheme, the model achieves substantial gains of 4.5-6.5% on spatial reasoning benchmarks such as VSI-Bench, generalizes across eight additional spatial and general video QA benchmarks, and, as a byproduct, achieves state of the art streaming pose estimation on ScanNet. Surprisingly, training on pseudo-annotated poses from in-the-wild video further improves general video QA benchmarks, showing pose helps beyond spatial reasoning. Together, these results position camera pose as a fundamental signal for video models that reason about the physical world."
     },
     {
       "paperId": "8d62bb68ffa636edd5b72a8fc8fcd99f37aeb836",
@@ -4071,16 +4071,16 @@
           "name": "Basile Terver"
         },
         {
-          "slug": "david-fan",
-          "name": "David Fan"
-        },
-        {
           "slug": "megi-dervishi",
           "name": "Megi Dervishi"
         },
         {
           "slug": "quentin-garrido",
           "name": "Quentin Garrido"
+        },
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
         }
       ],
       "authors": [
@@ -13485,6 +13485,190 @@
       "abstract": null
     },
     {
+      "paperId": "2268d5094a7baad2fb680584465c5584fb195587",
+      "title": "Training compute-optimal transformer encoder models",
+      "teamAuthors": [
+        {
+          "slug": "megi-dervishi",
+          "name": "Megi Dervishi"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Megi Dervishi",
+          "authorId": "2113964327",
+          "slug": "megi-dervishi"
+        },
+        {
+          "name": "Alexandre Allauzen",
+          "authorId": "2260025800",
+          "slug": null
+        },
+        {
+          "name": "Gabriel Synnaeve",
+          "authorId": "2282478",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2265899558",
+          "slug": "yann-lecun"
+        }
+      ],
+      "memberSlug": "megi-dervishi",
+      "memberName": "Megi Dervishi",
+      "publicationDate": null,
+      "year": 2025,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.18653/v1/2025.emnlp-main.1804",
+      "citationCount": 6,
+      "tldr": null,
+      "abstract": ","
+    },
+    {
+      "paperId": "927498a8ccc57dc94e9654099c64d060aba5f4f8",
+      "title": "Self-supervised learning beyond invariant image representations. (Apprentissage auto-supervisé au-delà de représentations invariantes d'images)",
+      "teamAuthors": [
+        {
+          "slug": "quentin-garrido",
+          "name": "Quentin Garrido"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Q. Garrido",
+          "authorId": "2048163343",
+          "slug": "quentin-garrido"
+        }
+      ],
+      "memberSlug": "quentin-garrido",
+      "memberName": "Quentin Garrido",
+      "publicationDate": null,
+      "year": 2025,
+      "venue": null,
+      "url": "https://doi.org/10.70675/ac2d4d52z596fz4742z8a22zbc1504a44a90",
+      "citationCount": 0,
+      "tldr": null,
+      "abstract": "\n Afin de construire des systèmes d'intelligence artificielle puissants, les chercheurs se sont inspirés de systèmes intelligents existants, à savoir les humains et les animaux. Cela peut être fait architecturalement ou en essayant de reproduire certaines capacités. Par exemple, les humains peuvent s'adapter à de nouvelles tâches rapidement ou apprendre sans supervision. Cependant, les systèmes d'apprentissage profond échouent souvent de manière spectaculaire dans des tâches qui sont faciles pour les humains, comme illustré par le paradoxe de Moravec. Au cours des dernières années, le domaine de l'apprentissage auto-supervisé a fait des progrès dans l'apprentissage de systèmes d'IA capables d'apprendre à partir d'observations seules et de s'adapter à de nouvelles tâches, deux propriétés très souhaitables. Cela est réalisé en apprenant un espace de représentation abstrait le plus sémantique possible. Cependant, la plupart des progrès ont été faits avec des architectures siamoises pour apprendre des représentations d'images invariantes à un ensemble de transformations. Cette thèse vise à étudier trois aspects de l'apprentissage auto-supervisé. Dans une première partie, nous étudions "
+    },
+    {
+      "paperId": "751ef04264d661f6a59e49f3fbd181ac46ef5eed",
+      "title": "Asteria: Semantic-Aware Cross-Region Caching for Agentic LLM Tool Access",
+      "teamAuthors": [
+        {
+          "slug": "xinyi-wan",
+          "name": "Xinyi Wan"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Chaoyi Ruan",
+          "authorId": "51510890",
+          "slug": null
+        },
+        {
+          "name": "Chao Bi",
+          "authorId": "2187312290",
+          "slug": null
+        },
+        {
+          "name": "Kaiwen Zheng",
+          "authorId": "2329191804",
+          "slug": null
+        },
+        {
+          "name": "Ziji Shi",
+          "authorId": "2110010038",
+          "slug": null
+        },
+        {
+          "name": "Xinyi Wan",
+          "authorId": "2280067114",
+          "slug": "xinyi-wan"
+        },
+        {
+          "name": "Jialin Li",
+          "authorId": "2381557755",
+          "slug": null
+        }
+      ],
+      "memberSlug": "xinyi-wan",
+      "memberName": "Xinyi Wan",
+      "publicationDate": null,
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.17360",
+      "citationCount": 2,
+      "tldr": "Asteria is introduced, a novel cross-region knowledge caching architecture for LLM agents that achieves up to a 3.6 × increase in throughput by maintaining cache hit rates of over 85%, while preserving accuracy virtually identical to non-cached baselines.",
+      "abstract": null
+    },
+    {
+      "paperId": "a990b37c970a48b71533db1f49f51310a07755cb",
+      "title": "ZeCO: Zero Communication Overhead Sequence Parallelism for Linear Attention",
+      "teamAuthors": [
+        {
+          "slug": "xinyi-wan",
+          "name": "Xinyi Wan"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Yuhong Chou",
+          "authorId": "2372426938",
+          "slug": null
+        },
+        {
+          "name": "Zehao Liu",
+          "authorId": "2373703992",
+          "slug": null
+        },
+        {
+          "name": "Ruijie Zhu",
+          "authorId": "2331769907",
+          "slug": null
+        },
+        {
+          "name": "Xinyi Wan",
+          "authorId": "2280067114",
+          "slug": "xinyi-wan"
+        },
+        {
+          "name": "Tianjian Li",
+          "authorId": "2372466776",
+          "slug": null
+        },
+        {
+          "name": "Congying Chu",
+          "authorId": "2374409019",
+          "slug": null
+        },
+        {
+          "name": "Qian Liu",
+          "authorId": "2378199472",
+          "slug": null
+        },
+        {
+          "name": "Jibin Wu",
+          "authorId": "47876444",
+          "slug": null
+        },
+        {
+          "name": "Zejun Ma",
+          "authorId": "2356479376",
+          "slug": null
+        }
+      ],
+      "memberSlug": "xinyi-wan",
+      "memberName": "Xinyi Wan",
+      "publicationDate": "2025-07-01",
+      "year": 2025,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2507.01004",
+      "citationCount": 1,
+      "tldr": "ZeCO (Zero Communication Overhead) sequence parallelism for linear attention models, a new SP method designed to overcome limitations and achieve end-to-end near-linear scalability for long sequence training, is introduced.",
+      "abstract": "Linear attention mechanisms deliver significant advantages for Large Language Models (LLMs) by providing linear computational complexity, enabling efficient processing of ultra-long sequences (e.g., 1M context). However, existing Sequence Parallelism (SP) methods, essential for distributing these workloads across devices, become the primary bottleneck due to substantial communication overhead. In this paper, we introduce ZeCO (Zero Communication Overhead) sequence parallelism for linear attention models, a new SP method designed to overcome these limitations and achieve end-to-end near-linear scalability for long sequence training. For example, training a model with a 1M sequence length across 64 devices using ZeCO takes roughly the same time as training with an 16k sequence on a single device. At the heart of ZeCO lies All-Scan, a new collective communication primitive. All-Scan provides each SP rank with precisely the initial operator state it requires while maintaining a minimal communication footprint, effectively eliminating communication overhead. Theoretically, we prove the optimaity of ZeCO, showing that it introduces only negligible time and space overhead. Empirically, we"
+    },
+    {
       "paperId": "7fef3016487f62db760ac776d90034370e151467",
       "title": "MNLP at PerAnsSumm: A Classifier-Refiner Architecture for Improving the Classification of Consumer Health User Responses",
       "teamAuthors": [
@@ -16882,190 +17066,6 @@
       "abstract": null
     },
     {
-      "paperId": "2268d5094a7baad2fb680584465c5584fb195587",
-      "title": "Training compute-optimal transformer encoder models",
-      "teamAuthors": [
-        {
-          "slug": "megi-dervishi",
-          "name": "Megi Dervishi"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Megi Dervishi",
-          "authorId": "2113964327",
-          "slug": "megi-dervishi"
-        },
-        {
-          "name": "Alexandre Allauzen",
-          "authorId": "2260025800",
-          "slug": null
-        },
-        {
-          "name": "Gabriel Synnaeve",
-          "authorId": "2282478",
-          "slug": null
-        },
-        {
-          "name": "Yann LeCun",
-          "authorId": "2265899558",
-          "slug": "yann-lecun"
-        }
-      ],
-      "memberSlug": "megi-dervishi",
-      "memberName": "Megi Dervishi",
-      "publicationDate": null,
-      "year": 2025,
-      "venue": "Conference on Empirical Methods in Natural Language Processing",
-      "url": "https://doi.org/10.18653/v1/2025.emnlp-main.1804",
-      "citationCount": 6,
-      "tldr": null,
-      "abstract": ","
-    },
-    {
-      "paperId": "927498a8ccc57dc94e9654099c64d060aba5f4f8",
-      "title": "Self-supervised learning beyond invariant image representations. (Apprentissage auto-supervisé au-delà de représentations invariantes d'images)",
-      "teamAuthors": [
-        {
-          "slug": "quentin-garrido",
-          "name": "Quentin Garrido"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Q. Garrido",
-          "authorId": "2048163343",
-          "slug": "quentin-garrido"
-        }
-      ],
-      "memberSlug": "quentin-garrido",
-      "memberName": "Quentin Garrido",
-      "publicationDate": null,
-      "year": 2025,
-      "venue": null,
-      "url": "https://doi.org/10.70675/ac2d4d52z596fz4742z8a22zbc1504a44a90",
-      "citationCount": 0,
-      "tldr": null,
-      "abstract": "\n Afin de construire des systèmes d'intelligence artificielle puissants, les chercheurs se sont inspirés de systèmes intelligents existants, à savoir les humains et les animaux. Cela peut être fait architecturalement ou en essayant de reproduire certaines capacités. Par exemple, les humains peuvent s'adapter à de nouvelles tâches rapidement ou apprendre sans supervision. Cependant, les systèmes d'apprentissage profond échouent souvent de manière spectaculaire dans des tâches qui sont faciles pour les humains, comme illustré par le paradoxe de Moravec. Au cours des dernières années, le domaine de l'apprentissage auto-supervisé a fait des progrès dans l'apprentissage de systèmes d'IA capables d'apprendre à partir d'observations seules et de s'adapter à de nouvelles tâches, deux propriétés très souhaitables. Cela est réalisé en apprenant un espace de représentation abstrait le plus sémantique possible. Cependant, la plupart des progrès ont été faits avec des architectures siamoises pour apprendre des représentations d'images invariantes à un ensemble de transformations. Cette thèse vise à étudier trois aspects de l'apprentissage auto-supervisé. Dans une première partie, nous étudions "
-    },
-    {
-      "paperId": "751ef04264d661f6a59e49f3fbd181ac46ef5eed",
-      "title": "Asteria: Semantic-Aware Cross-Region Caching for Agentic LLM Tool Access",
-      "teamAuthors": [
-        {
-          "slug": "xinyi-wan",
-          "name": "Xinyi Wan"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Chaoyi Ruan",
-          "authorId": "51510890",
-          "slug": null
-        },
-        {
-          "name": "Chao Bi",
-          "authorId": "2187312290",
-          "slug": null
-        },
-        {
-          "name": "Kaiwen Zheng",
-          "authorId": "2329191804",
-          "slug": null
-        },
-        {
-          "name": "Ziji Shi",
-          "authorId": "2110010038",
-          "slug": null
-        },
-        {
-          "name": "Xinyi Wan",
-          "authorId": "2280067114",
-          "slug": "xinyi-wan"
-        },
-        {
-          "name": "Jialin Li",
-          "authorId": "2381557755",
-          "slug": null
-        }
-      ],
-      "memberSlug": "xinyi-wan",
-      "memberName": "Xinyi Wan",
-      "publicationDate": null,
-      "year": 2025,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2509.17360",
-      "citationCount": 2,
-      "tldr": "Asteria is introduced, a novel cross-region knowledge caching architecture for LLM agents that achieves up to a 3.6 × increase in throughput by maintaining cache hit rates of over 85%, while preserving accuracy virtually identical to non-cached baselines.",
-      "abstract": null
-    },
-    {
-      "paperId": "a990b37c970a48b71533db1f49f51310a07755cb",
-      "title": "ZeCO: Zero Communication Overhead Sequence Parallelism for Linear Attention",
-      "teamAuthors": [
-        {
-          "slug": "xinyi-wan",
-          "name": "Xinyi Wan"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Yuhong Chou",
-          "authorId": "2372426938",
-          "slug": null
-        },
-        {
-          "name": "Zehao Liu",
-          "authorId": "2373703992",
-          "slug": null
-        },
-        {
-          "name": "Ruijie Zhu",
-          "authorId": "2331769907",
-          "slug": null
-        },
-        {
-          "name": "Xinyi Wan",
-          "authorId": "2280067114",
-          "slug": "xinyi-wan"
-        },
-        {
-          "name": "Tianjian Li",
-          "authorId": "2372466776",
-          "slug": null
-        },
-        {
-          "name": "Congying Chu",
-          "authorId": "2374409019",
-          "slug": null
-        },
-        {
-          "name": "Qian Liu",
-          "authorId": "2378199472",
-          "slug": null
-        },
-        {
-          "name": "Jibin Wu",
-          "authorId": "47876444",
-          "slug": null
-        },
-        {
-          "name": "Zejun Ma",
-          "authorId": "2356479376",
-          "slug": null
-        }
-      ],
-      "memberSlug": "xinyi-wan",
-      "memberName": "Xinyi Wan",
-      "publicationDate": "2025-07-01",
-      "year": 2025,
-      "venue": "Neural Information Processing Systems",
-      "url": "https://doi.org/10.48550/arXiv.2507.01004",
-      "citationCount": 1,
-      "tldr": "ZeCO (Zero Communication Overhead) sequence parallelism for linear attention models, a new SP method designed to overcome limitations and achieve end-to-end near-linear scalability for long sequence training, is introduced.",
-      "abstract": "Linear attention mechanisms deliver significant advantages for Large Language Models (LLMs) by providing linear computational complexity, enabling efficient processing of ultra-long sequences (e.g., 1M context). However, existing Sequence Parallelism (SP) methods, essential for distributing these workloads across devices, become the primary bottleneck due to substantial communication overhead. In this paper, we introduce ZeCO (Zero Communication Overhead) sequence parallelism for linear attention models, a new SP method designed to overcome these limitations and achieve end-to-end near-linear scalability for long sequence training. For example, training a model with a 1M sequence length across 64 devices using ZeCO takes roughly the same time as training with an 16k sequence on a single device. At the heart of ZeCO lies All-Scan, a new collective communication primitive. All-Scan provides each SP rank with precisely the initial operator state it requires while maintaining a minimal communication footprint, effectively eliminating communication overhead. Theoretically, we prove the optimaity of ZeCO, showing that it introduces only negligible time and space overhead. Empirically, we"
-    },
-    {
       "paperId": "121d34fe66a35ef11e408de4119477971ee6e2cc",
       "title": "Embodied AI Agents: Modeling the World",
       "teamAuthors": [
@@ -17225,16 +17225,16 @@
           "name": "Adrien Bardes"
         },
         {
-          "slug": "david-fan",
-          "name": "David Fan"
-        },
-        {
           "slug": "matthew-muckley",
           "name": "Matthew Muckley"
         },
         {
           "slug": "quentin-garrido",
           "name": "Quentin Garrido"
+        },
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
         }
       ],
       "authors": [
@@ -19719,7 +19719,7 @@
       "year": 2024,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2408.03326",
-      "citationCount": 2754,
+      "citationCount": 2755,
       "tldr": "LLaVA-OneVision is the first single model that can simultaneously push the performance boundaries of open LMMs in three important computer vision scenarios: single-image, multi-image, and video scenarios.",
       "abstract": "We present LLaVA-OneVision, a family of open large multimodal models (LMMs) developed by consolidating our insights into data, models, and visual representations in the LLaVA-NeXT blog series. Our experimental results demonstrate that LLaVA-OneVision is the first single model that can simultaneously push the performance boundaries of open LMMs in three important computer vision scenarios: single-image, multi-image, and video scenarios. Importantly, the design of LLaVA-OneVision allows strong transfer learning across different modalities/scenarios, yielding new emerging capabilities. In particular, strong video understanding and cross-scenario capabilities are demonstrated through task transfer from images to videos."
     },
@@ -20721,7 +20721,7 @@
       "year": 2023,
       "venue": "International Conference on Learning Representations",
       "url": "https://doi.org/10.48550/arXiv.2310.10325",
-      "citationCount": 139,
+      "citationCount": 140,
       "tldr": "This work proposes to decode with iterative diffusion models to improve image quality and remove dependency on the bitrate, and finds that the model leads to reconstructions with state-of-the-art visual quality as measured by FID and KID.",
       "abstract": "Image codecs are typically optimized to trade-off bitrate \\vs distortion metrics. At low bitrates, this leads to compression artefacts which are easily perceptible, even when training with perceptual or adversarial losses. To improve image quality and remove dependency on the bitrate, we propose to decode with iterative diffusion models. We condition the decoding process on a vector-quantized image representation, as well as a global image description to provide additional context. We dub our model PerCo for 'perceptual compression', and compare it to state-of-the-art codecs at rates from 0.1 down to 0.003 bits per pixel. The latter rate is more than an order of magnitude smaller than those considered in most prior work, compressing a 512x768 Kodak image with less than 153 bytes. Despite this ultra-low bitrate, our approach maintains the ability to reconstruct realistic images. We find that our model leads to reconstructions with state-of-the-art visual quality as measured by FID and KID. As predicted by rate-distortion-perception theory, visual quality is less dependent on the bitrate than previous methods."
     },
@@ -21102,7 +21102,7 @@
       "year": 2023,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51070.2023.01863",
-      "citationCount": 80,
+      "citationCount": 81,
       "tldr": "A new benchmark named FACET (FAirness in Computer Vision EvaluaTion), a large, publicly available evaluation set of 32k images for some of the most common vision tasks - image classification, object detection and segmentation, shows that classification, detection, segmentation, and visual grounding models exhibit performance disparities across demographic attributes and intersections of attributes.",
       "abstract": "Computer vision models have known performance disparities across attributes such as gender and skin tone. This means during tasks such as classification and detection, model performance differs for certain classes based on the demographics of the people in the image. These disparities have been shown to exist, but until now there has not been a unified approach to measure these differences for common use-cases of computer vision models. We present a new benchmark named FACET (FAirness in Computer Vision EvaluaTion), a large, publicly available evaluation set of 32k images for some of the most common vision tasks - image classification, object detection and segmentation. For every image in FACET, we hired expert reviewers to manually annotate person-related attributes such as perceived skin tone and hair type, manually draw bounding boxes and label fine-grained person-related classes such as disk jockey or guitarist. In addition, we use FACET to benchmark state-of-the-art vision models and present a deeper understanding of potential performance disparities and challenges across sensitive demographic attributes. With the exhaustive annotations collected, we probe models using single "
     },
@@ -22039,7 +22039,7 @@
       "year": 2023,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2305.20081",
-      "citationCount": 184,
+      "citationCount": 186,
       "tldr": "The results show that EDP can reduce the diffusion policy training time from 5 days to 5 hours on gym-locomotion tasks and is compatible with various offline RL algorithms (TD3, CRR, and IQL) and achieves new state-of-the-art on D4RL by large margins over previous methods.",
       "abstract": "Offline reinforcement learning (RL) aims to learn optimal policies from offline datasets, where the parameterization of policies is crucial but often overlooked. Recently, Diffsuion-QL significantly boosts the performance of offline RL by representing a policy with a diffusion model, whose success relies on a parametrized Markov Chain with hundreds of steps for sampling. However, Diffusion-QL suffers from two critical limitations. 1) It is computationally inefficient to forward and backward through the whole Markov chain during training. 2) It is incompatible with maximum likelihood-based RL algorithms (e.g., policy gradient methods) as the likelihood of diffusion models is intractable. Therefore, we propose efficient diffusion policy (EDP) to overcome these two challenges. EDP approximately constructs actions from corrupted ones at training to avoid running the sampling chain. We conduct extensive experiments on the D4RL benchmark. The results show that EDP can reduce the diffusion policy training time from 5 days to 5 hours on gym-locomotion tasks. Moreover, we show that EDP is compatible with various offline RL algorithms (TD3, CRR, and IQL) and achieves new state-of-the-art on "
     },
@@ -22100,7 +22100,7 @@
       "year": 2023,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2305.17330",
-      "citationCount": 100,
+      "citationCount": 101,
       "tldr": "MADiff is the first diffusion-based multi-agent learning framework, functioning as both a decentralized policy and a centralized controller, and it outperforms baseline algorithms across various multi-agent learning tasks, highlighting its effectiveness in modeling complex multi-agent interactions.",
       "abstract": "Offline reinforcement learning (RL) aims to learn policies from pre-existing datasets without further interactions, making it a challenging task. Q-learning algorithms struggle with extrapolation errors in offline settings, while supervised learning methods are constrained by model expressiveness. Recently, diffusion models (DMs) have shown promise in overcoming these limitations in single-agent learning, but their application in multi-agent scenarios remains unclear. Generating trajectories for each agent with independent DMs may impede coordination, while concatenating all agents' information can lead to low sample efficiency. Accordingly, we propose MADiff, which is realized with an attention-based diffusion model to model the complex coordination among behaviors of multiple agents. To our knowledge, MADiff is the first diffusion-based multi-agent learning framework, functioning as both a decentralized policy and a centralized controller. During decentralized executions, MADiff simultaneously performs teammate modeling, and the centralized controller can also be applied in multi-agent trajectory predictions. Our experiments demonstrate that MADiff outperforms baseline algorithms"
     },
@@ -22546,7 +22546,7 @@
       "year": 2023,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2304.07193",
-      "citationCount": 9445,
+      "citationCount": 9451,
       "tldr": "This work revisits existing approaches and combines different techniques to scale the pretraining in terms of data and model size, and proposes an automatic pipeline to build a dedicated, diverse, and curated image dataset instead of uncurated data, as typically done in the self-supervised literature.",
       "abstract": "The recent breakthroughs in natural language processing for model pretraining on large quantities of data have opened the way for similar foundation models in computer vision. These models could greatly simplify the use of images in any system by producing all-purpose visual features, i.e., features that work across image distributions and tasks without finetuning. This work shows that existing pretraining methods, especially self-supervised methods, can produce such features if trained on enough curated data from diverse sources. We revisit existing approaches and combine different techniques to scale our pretraining in terms of data and model size. Most of the technical contributions aim at accelerating and stabilizing the training at scale. In terms of data, we propose an automatic pipeline to build a dedicated, diverse, and curated image dataset instead of uncurated data, as typically done in the self-supervised literature. In terms of models, we train a ViT model (Dosovitskiy et al., 2020) with 1B parameters and distill it into a series of smaller models that surpass the best available all-purpose features, OpenCLIP (Ilharco et al., 2021) on most of the benchmarks at image and"
     },
@@ -22962,7 +22962,7 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01499",
-      "citationCount": 1034,
+      "citationCount": 1035,
       "tldr": null,
       "abstract": "This paper demonstrates an approach for learning highly semantic image representations without relying on hand-crafted data-augmentations. We introduce the Image-based Joint-Embedding Predictive Architecture (I-JEPA), a non-generative approach for self-supervised learning from images. The idea behind I-JEPA is simple: from a single context block, predict the representations of various target blocks in the same image. A core design choice to guide I-JEPA towards producing semantic representations is the masking strategy; specifically, it is crucial to (a) sample target blocks with sufficiently large scale (semantic), and to (b) use a sufficiently informative (spatially distributed) context block. Empirically, when combined with Vision Transformers, we find I-JEPA to be highly scalable. For instance, we train a ViT-Huge/14 on ImageNet using 16 A100 GPUs in under 72 hours to achieve strong downstream performance across a wide range of tasks, from linear classification to object counting and depth prediction."
     },
@@ -23144,7 +23144,7 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548",
-      "citationCount": 1857,
+      "citationCount": 1862,
       "tldr": "This paper proposes a fully convolutional masked autoencoder framework and a new Global Response Normalization (GRN) layer that can be added to the ConvNeXt architecture to enhance inter-channel feature competition and significantly improves the performance of pure ConvNets on various recognition benchmarks.",
       "abstract": "Driven by improved architectures and better representation learning frameworks, the field of visual recognition has enjoyed rapid modernization and performance boost in the early 2020s. For example, modern ConvNets, represented by ConvNeXt [33], have demonstrated strong performance in various scenarios. While these models were originally designed for supervised learning with ImageNet labels, they can also potentially benefit from self-supervised learning techniques such as masked autoencoders (MAE) [14]. However, we found that simply combining these two approaches leads to subpar performance. In this paper, we propose a fully convolutional masked autoencoder framework and a new Global Response Normalization (GRN) layer that can be added to the ConvNeXt architecture to enhance inter-channel feature competition. This co-design of self-supervised learning techniques and architectural improvement results in a new model family called ConvNeXt V2, which significantly improves the performance of pure ConvNets on various recognition benchmarks, including ImageNet classification, COCO detection, and ADE20K segmentation. We also provide pre-trained ConvNeXt V2 models of various sizes, rangin"
     },
@@ -23267,7 +23267,7 @@
       "year": 2022,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51070.2023.00387",
-      "citationCount": 6708,
+      "citationCount": 6710,
       "tldr": "A new class of diffusion models based on the transformer architecture is explored, replacing the commonly-used U-Net backbone with a transformer that operates on latent patches that outperform all prior diffusion models on the class-conditional ImageNet 512×512 and 256×256 benchmarks.",
       "abstract": "We explore a new class of diffusion models based on the transformer architecture. We train latent diffusion models of images, replacing the commonly-used U-Net backbone with a transformer that operates on latent patches. We analyze the scalability of our Diffusion Transformers (DiTs) through the lens of forward pass complexity as measured by Gflops. We find that DiTs with higher Gflops—through increased transformer depth/width or increased number of input tokens—consistently have lower FID. In addition to possessing good scalability properties, our largest DiT-XL/2 models outperform all prior diffusion models on the class-conditional ImageNet 512×512 and 256×256 benchmarks, achieving a state-of-the-art FID of 2.27 on the latter."
     },
@@ -23553,7 +23553,7 @@
       "year": 2022,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01167",
-      "citationCount": 8842,
+      "citationCount": 8859,
       "tldr": "This work gradually “modernize” a standard ResNet toward the design of a vision Transformer, and discovers several key components that contribute to the performance difference along the way, leading to a family of pure ConvNet models dubbed ConvNeXt.",
       "abstract": "The “Roaring 20s” of visual recognition began with the introduction of Vision Transformers (ViTs), which quickly superseded ConvNets as the state-of-the-art image classification model. A vanilla ViT, on the other hand, faces difficulties when applied to general computer vision tasks such as object detection and semantic segmentation. It is the hierarchical Transformers (e.g., Swin Transformers) that reintroduced several ConvNet priors, making Transformers practically viable as a generic vision backbone and demonstrating remarkable performance on a wide variety of vision tasks. However, the effectiveness of such hybrid approaches is still largely credited to the intrinsic superiority of Transformers, rather than the inherent inductive biases of convolutions. In this work, we reexamine the design spaces and test the limits of what a pure ConvNet can achieve. We gradually “modernize” a standard ResNet toward the design of a vision Transformer, and discover several key components that contribute to the performance difference along the way. The outcome of this exploration is a family of pure ConvNet models dubbed ConvNeXt. Constructed entirely from standard ConvNet modules, ConvNeXts co"
     },
