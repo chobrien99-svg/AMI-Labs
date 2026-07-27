@@ -264,14 +264,6 @@
     },
     {
       "a": "basile-terver",
-      "b": "david-fan",
-      "paperCount": 1,
-      "papers": [
-        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures"
-      ]
-    },
-    {
-      "a": "basile-terver",
       "b": "megi-dervishi",
       "paperCount": 1,
       "papers": [
@@ -289,6 +281,14 @@
     },
     {
       "a": "basile-terver",
+      "b": "david-fan",
+      "paperCount": 1,
+      "papers": [
+        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures"
+      ]
+    },
+    {
+      "a": "basile-terver",
       "b": "michael-rabbat",
       "paperCount": 2,
       "papers": [
@@ -297,8 +297,24 @@
       ]
     },
     {
+      "a": "megi-dervishi",
+      "b": "quentin-garrido",
+      "paperCount": 1,
+      "papers": [
+        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures"
+      ]
+    },
+    {
       "a": "david-fan",
       "b": "megi-dervishi",
+      "paperCount": 1,
+      "papers": [
+        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures"
+      ]
+    },
+    {
+      "a": "megi-dervishi",
+      "b": "michael-rabbat",
       "paperCount": 1,
       "papers": [
         "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures"
@@ -311,22 +327,6 @@
       "papers": [
         "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
         "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
-      ]
-    },
-    {
-      "a": "megi-dervishi",
-      "b": "quentin-garrido",
-      "paperCount": 1,
-      "papers": [
-        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures"
-      ]
-    },
-    {
-      "a": "megi-dervishi",
-      "b": "michael-rabbat",
-      "paperCount": 1,
-      "papers": [
-        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures"
       ]
     },
     {
@@ -463,15 +463,6 @@
     },
     {
       "a": "adrien-bardes",
-      "b": "david-fan",
-      "paperCount": 2,
-      "papers": [
-        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
-        "The Diashow Paradox: Stronger 3D-Aware Representations Emerge from Image Sets, Not Videos Anonymous ICCV submission"
-      ]
-    },
-    {
-      "a": "adrien-bardes",
       "b": "quentin-garrido",
       "paperCount": 4,
       "papers": [
@@ -482,16 +473,25 @@
       ]
     },
     {
-      "a": "david-fan",
-      "b": "matthew-muckley",
+      "a": "adrien-bardes",
+      "b": "david-fan",
+      "paperCount": 2,
+      "papers": [
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+        "The Diashow Paradox: Stronger 3D-Aware Representations Emerge from Image Sets, Not Videos Anonymous ICCV submission"
+      ]
+    },
+    {
+      "a": "matthew-muckley",
+      "b": "quentin-garrido",
       "paperCount": 1,
       "papers": [
         "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
       ]
     },
     {
-      "a": "matthew-muckley",
-      "b": "quentin-garrido",
+      "a": "david-fan",
+      "b": "matthew-muckley",
       "paperCount": 1,
       "papers": [
         "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
@@ -2724,6 +2724,10 @@
       "manager": "leopold-treppoz"
     },
     {
+      "person": "ayaan-naveed-malik",
+      "manager": "saining-xie"
+    },
+    {
       "person": "basile-terver",
       "manager": "pascale-fung"
     },
@@ -2754,6 +2758,10 @@
     {
       "person": "felix-naepels",
       "manager": "christophe-tcheng"
+    },
+    {
+      "person": "haoyi-li",
+      "manager": "min-lin"
     },
     {
       "person": "jihan-yang",
