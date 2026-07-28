@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-07-28T02:07:45.413Z",
+  "lastFetched": "2026-07-28T08:27:08.203Z",
   "members": [
     {
       "slug": "adithya-iyer",
@@ -204,6 +204,22 @@
       "githubUrl": "https://github.com/lihaoyi",
       "events": [
         {
+          "type": "PushEvent",
+          "repo": "com-lihaoyi/mill",
+          "repoUrl": "https://github.com/com-lihaoyi/mill",
+          "description": "Pushed 0 commits to main on com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-07-28T04:02:05Z"
+        },
+        {
+          "type": "IssuesEvent",
+          "repo": "com-lihaoyi/mill",
+          "repoUrl": "https://github.com/com-lihaoyi/mill",
+          "description": "Closed issue #7118 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill/issues/7118",
+          "timestamp": "2026-07-28T04:02:05Z"
+        },
+        {
           "type": "PullRequestReviewEvent",
           "repo": "com-lihaoyi/mill",
           "repoUrl": "https://github.com/com-lihaoyi/mill",
@@ -306,22 +322,6 @@
           "description": "Reviewed PR #26435 in scala/scala3",
           "url": "https://github.com/scala/scala3",
           "timestamp": "2026-07-03T01:48:02Z"
-        },
-        {
-          "type": "PullRequestReviewCommentEvent",
-          "repo": "scala/scala3",
-          "repoUrl": "https://github.com/scala/scala3",
-          "description": "Activity in scala/scala3",
-          "url": "https://github.com/scala/scala3",
-          "timestamp": "2026-07-03T01:48:00Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "lihaoyi/scala3",
-          "repoUrl": "https://github.com/lihaoyi/scala3",
-          "description": "Pushed 0 commits to dwfault-vector on lihaoyi/scala3",
-          "url": "https://github.com/lihaoyi/scala3",
-          "timestamp": "2026-07-01T14:37:34Z"
         }
       ]
     },
