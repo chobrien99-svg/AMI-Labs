@@ -85,8 +85,9 @@ const TRACKER = {
     "jepa", "world model", "v-jepa",
   ],
 
-  // Score thresholds for auto-routing
-  autoApproveThreshold: 70,
+  // Score threshold for auto-routing. Nothing is auto-approved — every article
+  // above this score goes to "pending" for human review; below it is auto-rejected
+  // as clear noise (still archived in news.json, never shown).
   autoRejectThreshold: 30,
 
   // Tag inference rules
@@ -671,16 +672,14 @@ async function notifyPendingArticles(pendingArticles) {
   // Score and route articles
   const newArticles = [];
   const pendingArticles = [];
-  let approved = 0, pending = 0, rejected = 0;
+  let pending = 0, rejected = 0;
 
   for (const item of newItems.slice(0, TRACKER.maxNewPerRun)) {
     const { score, breakdown } = scoreArticle(item);
 
+    // No auto-approval: relevant articles await human review; clear noise is rejected.
     let status;
-    if (score >= TRACKER.autoApproveThreshold) {
-      status = "approved";
-      approved++;
-    } else if (score >= TRACKER.autoRejectThreshold) {
+    if (score >= TRACKER.autoRejectThreshold) {
       status = "pending";
       pending++;
     } else {
@@ -722,7 +721,7 @@ async function notifyPendingArticles(pendingArticles) {
     await writeToSanity(article);
   }
 
-  console.log(`\nRouting: ${approved} approved, ${pending} pending review, ${rejected} rejected.`);
+  console.log(`\nRouting: ${pending} pending review, ${rejected} rejected.`);
 
   // Write all articles (including rejected) to news.json as archive
   if (newArticles.length > 0) {
