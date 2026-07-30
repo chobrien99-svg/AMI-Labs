@@ -1,44 +1,41 @@
 {
-  "slug": "laurent-solly",
-  "name": "Laurent Solly",
-  "role": "COO & Co-Founder",
-  "department": "Leadership",
-  "location": "Paris",
+  "slug": "bowen-shi",
+  "name": "Bowen Shi",
+  "role": "Member of Technical Staff",
+  "department": "Science & Research Leadership",
+  "location": "New York City",
   "tags": [
-    "Paris",
-    "COO"
+    "New York City"
   ],
   "links": {
-    "linkedin": "https://www.linkedin.com/in/laurent-solly/",
-    "twitter": "https://x.com/laurentsolly"
+    "github": "https://github.com/chevalierNoir",
+    "linkedin": "https://www.linkedin.com/in/bowen-shi-6b73a290/",
+    "scholar": "https://scholar.google.com/citations?user=7m8JVusAAAAJ&hl=en",
+    "website": "https://bw-shi.github.io/"
   },
-  "semanticScholarId": null,
+  "semanticScholarId": "2261676061",
   "careerHistory": [
     {
       "org": "Meta",
-      "title": "VP & Country Director, France & Southern Europe",
-      "years": "2012–2025"
+      "title": "Staff Research Scientist",
+      "years": "2023-2026"
     },
     {
-      "org": "TF1 Publicité",
-      "title": "CEO",
-      "years": "2008–2012"
-    },
-    {
-      "org": "Office of the President of France",
-      "title": "Chief of Staff to Nicolas Sarkozy",
-      "years": "2007–2008"
+      "org": "Facebook AI",
+      "title": "Research Intern",
+      "years": "2021"
     }
   ],
-  "reportsTo": "alexandre-lebrun",
-  "reports": [
-    "marina-farthouat",
-    "sonia-rattan"
-  ],
+  "reportsTo": "saining-xie",
+  "reports": [],
   "papers": [],
   "topPublications": [],
   "githubProjects": [],
-  "githubActivity": null,
+  "githubActivity": {
+    "username": "chevalierNoir",
+    "githubUrl": "https://github.com/chevalierNoir",
+    "recentEventCount": 0
+  },
   "news": [],
   "xPosts": [],
   "connections": {
@@ -50,17 +47,8 @@
         "name": "Adrien Bardes",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
-          2025
-        ]
-      },
-      {
-        "slug": "alexandre-lebrun",
-        "name": "Alexandre LeBrun",
-        "org": "Meta (FAIR)",
-        "years": [
-          2015,
-          2018
+          2021,
+          2026
         ]
       },
       {
@@ -69,7 +57,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2025,
-          2025
+          2026
         ]
       },
       {
@@ -78,25 +66,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2021,
-          2025
-        ]
-      },
-      {
-        "slug": "bingyi-kang",
-        "name": "Bingyi Kang",
-        "org": "Meta (FAIR)",
-        "years": [
-          2019,
-          2019
-        ]
-      },
-      {
-        "slug": "bowen-shi",
-        "name": "Bowen Shi",
-        "org": "Meta (FAIR)",
-        "years": [
-          2021,
-          2025
+          2026
         ]
       },
       {
@@ -104,8 +74,8 @@
         "name": "Christophe Tcheng",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
-          2025
+          2021,
+          2026
         ]
       },
       {
@@ -114,7 +84,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2024,
-          2025
+          2026
         ]
       },
       {
@@ -131,7 +101,16 @@
         "name": "John Nguyen",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
+          2021,
+          2026
+        ]
+      },
+      {
+        "slug": "laurent-solly",
+        "name": "Laurent Solly",
+        "org": "Meta (FAIR)",
+        "years": [
+          2021,
           2025
         ]
       },
@@ -140,8 +119,8 @@
         "name": "Li Jing",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
-          2022
+          2021,
+          2021
         ]
       },
       {
@@ -149,8 +128,8 @@
         "name": "Matthew Muckley",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
-          2025
+          2021,
+          2026
         ]
       },
       {
@@ -159,7 +138,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2021,
-          2025
+          2026
         ]
       },
       {
@@ -167,7 +146,7 @@
         "name": "Michael Rabbat",
         "org": "Meta (FAIR)",
         "years": [
-          2018,
+          2021,
           2024
         ]
       },
@@ -176,7 +155,7 @@
         "name": "Pascale Fung",
         "org": "Meta (FAIR)",
         "years": [
-          2022,
+          2023,
           2024
         ]
       },
@@ -185,8 +164,8 @@
         "name": "Quentin Duval",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
-          2025
+          2021,
+          2026
         ]
       },
       {
@@ -195,7 +174,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2024,
-          2025
+          2026
         ]
       },
       {
@@ -203,8 +182,8 @@
         "name": "Rohit Girdhar",
         "org": "Meta (FAIR)",
         "years": [
-          2019,
-          2025
+          2021,
+          2026
         ]
       },
       {
@@ -212,7 +191,7 @@
         "name": "Saining Xie",
         "org": "Meta (FAIR)",
         "years": [
-          2016,
+          2021,
           2021
         ]
       },
@@ -221,7 +200,7 @@
         "name": "Sean Nguyen",
         "org": "Meta (FAIR)",
         "years": [
-          2018,
+          2021,
           2024
         ]
       },
@@ -231,7 +210,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2021,
-          2025
+          2026
         ]
       },
       {
@@ -240,7 +219,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2024,
-          2025
+          2026
         ]
       },
       {
@@ -257,7 +236,7 @@
         "name": "Yann LeCun",
         "org": "Meta (FAIR)",
         "years": [
-          2013,
+          2021,
           2025
         ]
       }

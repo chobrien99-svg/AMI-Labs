@@ -1,48 +1,53 @@
 {
-  "slug": "christophe-tcheng",
-  "name": "Christophe Tcheng",
-  "role": "VP Engineering",
-  "department": "Research & Engineering",
-  "location": "Paris",
+  "slug": "amir-bar",
+  "name": "Amir Bar",
+  "role": "Member of Technical Staff",
+  "department": "Science & Research Leadership",
+  "location": "London",
   "tags": [
-    "Paris"
+    "London"
   ],
   "links": {
-    "linkedin": "https://www.linkedin.com/in/christophetcheng/",
-    "twitter": "https://x.com/christophetch"
+    "github": "https://github.com/amirbar",
+    "linkedin": "https://www.linkedin.com/in/amirbar",
+    "scholar": "https://scholar.google.co.il/citations?hl=en&user=L__n1LUAAAAJ&view_op=list_works&sortby=pubdate",
+    "twitter": "https://x.com/_amirbar",
+    "website": "https://www.amirbar.net/"
   },
-  "semanticScholarId": null,
+  "semanticScholarId": "2346979635",
   "careerHistory": [
     {
+      "org": "Imperial College London",
+      "title": "Assistant Professor",
+      "years": "2026-Present"
+    },
+    {
       "org": "Meta",
-      "title": "Software Engineer",
-      "years": "2020-2026"
+      "title": "Research Scientist",
+      "years": "2025-2026"
     },
     {
-      "org": "American Express Global Business Travel",
-      "title": "Vice President Products and Platforms",
-      "years": "2015-2020"
-    },
-    {
-      "org": "Amadeus",
-      "title": "Head of R&D Services and Ecosystem",
-      "years": "2007-2015"
+      "org": "Zebra Medical Vision Ltd",
+      "title": "AI Tech Lead",
+      "years": "2016-2022"
     }
   ],
-  "reportsTo": "alexandre-lebrun",
-  "reports": [
-    "felix-naepels"
-  ],
+  "reportsTo": "pascale-fung",
+  "reports": [],
   "papers": [],
   "topPublications": [],
   "githubProjects": [],
-  "githubActivity": null,
+  "githubActivity": {
+    "username": "amirbar",
+    "githubUrl": "https://github.com/amirbar",
+    "recentEventCount": 5
+  },
   "news": [
     {
-      "title": "New Hire: Christophe Tcheng, VP Engineering in Paris",
-      "url": "https://ami.frenchtechjournal.com/team/christophe-tcheng",
+      "title": "New Hire: Amir Bar, Member of Technical Staff, London",
+      "url": "https://ami.frenchtechjournal.com/team/amir-bar",
       "source": "The AMI Observatory",
-      "publishedAt": "2026-04-19"
+      "publishedAt": "2026-07-29"
     }
   ],
   "xPosts": [],
@@ -55,15 +60,6 @@
         "name": "Adrien Bardes",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
-          2026
-        ]
-      },
-      {
-        "slug": "amir-bar",
-        "name": "Amir Bar",
-        "org": "Meta (FAIR)",
-        "years": [
           2025,
           2026
         ]
@@ -73,7 +69,7 @@
         "name": "Andrew Brown",
         "org": "Meta (FAIR)",
         "years": [
-          2021,
+          2025,
           2026
         ]
       },
@@ -82,7 +78,16 @@
         "name": "Bowen Shi",
         "org": "Meta (FAIR)",
         "years": [
-          2021,
+          2025,
+          2026
+        ]
+      },
+      {
+        "slug": "christophe-tcheng",
+        "name": "Christophe Tcheng",
+        "org": "Meta (FAIR)",
+        "years": [
+          2025,
           2026
         ]
       },
@@ -91,17 +96,8 @@
         "name": "David Fan",
         "org": "Meta (FAIR)",
         "years": [
-          2024,
+          2025,
           2026
-        ]
-      },
-      {
-        "slug": "delong-chen",
-        "name": "Delong Chen",
-        "org": "Meta (FAIR)",
-        "years": [
-          2023,
-          2024
         ]
       },
       {
@@ -109,7 +105,7 @@
         "name": "John Nguyen",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
+          2025,
           2026
         ]
       },
@@ -118,17 +114,8 @@
         "name": "Laurent Solly",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
+          2025,
           2025
-        ]
-      },
-      {
-        "slug": "li-jing",
-        "name": "Li Jing",
-        "org": "Meta (FAIR)",
-        "years": [
-          2020,
-          2022
         ]
       },
       {
@@ -136,7 +123,7 @@
         "name": "Matthew Muckley",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
+          2025,
           2026
         ]
       },
@@ -145,26 +132,8 @@
         "name": "Megi Dervishi",
         "org": "Meta (FAIR)",
         "years": [
-          2021,
+          2025,
           2026
-        ]
-      },
-      {
-        "slug": "michael-rabbat",
-        "name": "Michael Rabbat",
-        "org": "Meta (FAIR)",
-        "years": [
-          2020,
-          2024
-        ]
-      },
-      {
-        "slug": "pascale-fung",
-        "name": "Pascale Fung",
-        "org": "Meta (FAIR)",
-        "years": [
-          2022,
-          2024
         ]
       },
       {
@@ -172,7 +141,7 @@
         "name": "Quentin Duval",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
+          2025,
           2026
         ]
       },
@@ -181,7 +150,7 @@
         "name": "Quentin Garrido",
         "org": "Meta (FAIR)",
         "years": [
-          2024,
+          2025,
           2026
         ]
       },
@@ -190,26 +159,8 @@
         "name": "Rohit Girdhar",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
+          2025,
           2026
-        ]
-      },
-      {
-        "slug": "saining-xie",
-        "name": "Saining Xie",
-        "org": "Meta (FAIR)",
-        "years": [
-          2020,
-          2021
-        ]
-      },
-      {
-        "slug": "sean-nguyen",
-        "name": "Sean Nguyen",
-        "org": "Meta (FAIR)",
-        "years": [
-          2020,
-          2024
         ]
       },
       {
@@ -217,7 +168,7 @@
         "name": "Tengyu Ma",
         "org": "Meta (FAIR)",
         "years": [
-          2021,
+          2025,
           2026
         ]
       },
@@ -226,17 +177,8 @@
         "name": "Willy Chung",
         "org": "Meta (FAIR)",
         "years": [
-          2024,
+          2025,
           2026
-        ]
-      },
-      {
-        "slug": "xingyi-zhou",
-        "name": "Xingyi Zhou",
-        "org": "Meta (FAIR)",
-        "years": [
-          2021,
-          2024
         ]
       },
       {
@@ -244,7 +186,7 @@
         "name": "Yann LeCun",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
+          2025,
           2025
         ]
       }
