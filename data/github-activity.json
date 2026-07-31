@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-07-31T02:25:55.724Z",
+  "lastFetched": "2026-07-31T08:43:21.556Z",
   "members": [
     {
       "slug": "adithya-iyer",
@@ -117,6 +117,22 @@
       "githubUrl": "https://github.com/luodian",
       "events": [
         {
+          "type": "PushEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Pushed 0 commits to main on EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-31T06:02:44Z"
+        },
+        {
+          "type": "PullRequestReviewEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Reviewed PR #1417 in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-31T06:02:36Z"
+        },
+        {
           "type": "WatchEvent",
           "repo": "next-state/open-dreamer",
           "repoUrl": "https://github.com/next-state/open-dreamer",
@@ -219,22 +235,6 @@
           "description": "merged PR #1385 in EvolvingLMMs-Lab/lmms-eval",
           "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
           "timestamp": "2026-07-07T01:45:12Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "merged PR #1387 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-07-07T01:44:35Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "merged PR #1378 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-07-07T01:43:01Z"
         }
       ]
     },
@@ -258,6 +258,22 @@
       "username": "lihaoyi",
       "githubUrl": "https://github.com/lihaoyi",
       "events": [
+        {
+          "type": "IssueCommentEvent",
+          "repo": "scala/scala3",
+          "repoUrl": "https://github.com/scala/scala3",
+          "description": "Commented on issue #25034 in scala/scala3",
+          "url": "https://github.com/scala/scala3/pull/25034#issuecomment-5139759635",
+          "timestamp": "2026-07-31T05:50:07Z"
+        },
+        {
+          "type": "IssueCommentEvent",
+          "repo": "scala/scala3",
+          "repoUrl": "https://github.com/scala/scala3",
+          "description": "Commented on issue #25034 in scala/scala3",
+          "url": "https://github.com/scala/scala3/pull/25034#issuecomment-5139749279",
+          "timestamp": "2026-07-31T05:48:21Z"
+        },
         {
           "type": "PushEvent",
           "repo": "com-lihaoyi/mill",
@@ -361,22 +377,6 @@
           "description": "Reviewed PR #26435 in scala/scala3",
           "url": "https://github.com/scala/scala3",
           "timestamp": "2026-07-03T06:46:09Z"
-        },
-        {
-          "type": "PullRequestReviewCommentEvent",
-          "repo": "scala/scala3",
-          "repoUrl": "https://github.com/scala/scala3",
-          "description": "Activity in scala/scala3",
-          "url": "https://github.com/scala/scala3",
-          "timestamp": "2026-07-03T06:46:08Z"
-        },
-        {
-          "type": "PullRequestReviewEvent",
-          "repo": "scala/scala3",
-          "repoUrl": "https://github.com/scala/scala3",
-          "description": "Reviewed PR #26435 in scala/scala3",
-          "url": "https://github.com/scala/scala3",
-          "timestamp": "2026-07-03T01:48:02Z"
         }
       ]
     },
@@ -385,16 +385,7 @@
       "name": "Jihan Yang",
       "username": "jihanyang",
       "githubUrl": "https://github.com/jihanyang",
-      "events": [
-        {
-          "type": "WatchEvent",
-          "repo": "microsoft/mup",
-          "repoUrl": "https://github.com/microsoft/mup",
-          "description": "Starred microsoft/mup",
-          "url": "https://github.com/microsoft/mup",
-          "timestamp": "2026-06-30T20:24:13Z"
-        }
-      ]
+      "events": []
     },
     {
       "slug": "john-nguyen",
