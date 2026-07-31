@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-07-31T08:43:21.556Z",
+  "lastFetched": "2026-07-31T13:57:22.967Z",
   "members": [
     {
       "slug": "adithya-iyer",
@@ -117,6 +117,22 @@
       "githubUrl": "https://github.com/luodian",
       "events": [
         {
+          "type": "PullRequestEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Opened PR #1418 in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-31T11:06:18Z"
+        },
+        {
+          "type": "CreateEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Created branch brian/feat/agentic-game-minimal in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-31T11:05:25Z"
+        },
+        {
           "type": "PushEvent",
           "repo": "EvolvingLMMs-Lab/lmms-eval",
           "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
@@ -219,22 +235,6 @@
           "description": "Starred EvolvingLMMs-Lab/SkillOpt-Lite",
           "url": "https://github.com/EvolvingLMMs-Lab/SkillOpt-Lite",
           "timestamp": "2026-07-08T03:31:03Z"
-        },
-        {
-          "type": "ForkEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-engine",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-engine",
-          "description": "Forked EvolvingLMMs-Lab/lmms-engine",
-          "url": "https://github.com/Luodian/lmms-engine",
-          "timestamp": "2026-07-07T03:04:00Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "merged PR #1385 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-07-07T01:45:12Z"
         }
       ]
     },
@@ -258,6 +258,14 @@
       "username": "lihaoyi",
       "githubUrl": "https://github.com/lihaoyi",
       "events": [
+        {
+          "type": "PushEvent",
+          "repo": "com-lihaoyi/mill",
+          "repoUrl": "https://github.com/com-lihaoyi/mill",
+          "description": "Pushed 0 commits to main on com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-07-31T10:40:28Z"
+        },
         {
           "type": "IssueCommentEvent",
           "repo": "scala/scala3",
@@ -369,14 +377,6 @@
           "description": "Activity in scala/scala3",
           "url": "https://github.com/scala/scala3",
           "timestamp": "2026-07-03T06:48:46Z"
-        },
-        {
-          "type": "PullRequestReviewEvent",
-          "repo": "scala/scala3",
-          "repoUrl": "https://github.com/scala/scala3",
-          "description": "Reviewed PR #26435 in scala/scala3",
-          "url": "https://github.com/scala/scala3",
-          "timestamp": "2026-07-03T06:46:09Z"
         }
       ]
     },
