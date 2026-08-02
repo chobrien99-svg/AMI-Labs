@@ -1,142 +1,125 @@
 {
-  "generatedAt": "2026-07-26T20:46:46.273Z",
+  "generatedAt": "2026-08-02T20:43:56.630Z",
   "window": {
     "days": 7,
-    "since": "2026-07-19",
-    "until": "2026-07-26"
+    "since": "2026-07-26",
+    "until": "2026-08-02"
   },
   "model": "claude-sonnet-4-6",
   "facts": {
     "news": {
-      "windowCount": 17,
+      "windowCount": 9,
       "byTag": {
-        "hiring": 10,
-        "research": 2
+        "hiring": 5,
+        "funding": 1,
+        "": 2
       },
       "items": [
         {
-          "title": "AMI Labs, Oratomic and Prime Intellect: Founder Lessons - quasa.io",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPczdUZmY1Q3p4RnRoRDlxWGhGTm9UeUN4OWQybVpQQ3RIOXN5MXVDYUZZS2tCeDhNLTZrTnk0NFZydS1WUG52Zm5QUEUycGV3eXZ1eW02cHctZ2JuWGxyaFZRenVhdW42a1JQS3lvLUxhcDRPNnFpak12Zm14eUtlMXRlOWJ6aUZVOHo3dXJiLVRUaWRMR1o1T0F6VQ?oc=5",
-          "source": "Google News",
-          "publishedAt": "2026-07-25",
-          "tags": [],
-          "summary": "AMI Labs, alongside companies Oratomic and Prime Intellect, is featured in an article discussing founder lessons and insights from the quasa.io platform. The piece appears to highlight educational or business guidance derived from the experiences of these AI and technology-focused companies."
-        },
-        {
-          "title": "New Hire: Marina Farthouat, Recruiter, Paris",
-          "url": "https://ami.frenchtechjournal.com/team/marina-farthouat",
-          "source": "The AMI Observatory",
-          "publishedAt": "2026-07-24",
-          "tags": [
-            "hiring"
-          ],
-          "summary": "People and culture leader helping AMI Labs build and scale its global team, following senior executive roles at Oyster, ClickHouse, Elastic, and Asurion."
-        },
-        {
-          "title": "New Hire: Adrien Bardes, Member of Technical, Staff Paris",
-          "url": "https://ami.frenchtechjournal.com/team/adrien-bardes",
-          "source": "The AMI Observatory",
-          "publishedAt": "2026-07-24",
-          "tags": [
-            "hiring"
-          ],
-          "summary": "Former Meta research scientist whose work focuses on self-supervised visual learning and world-model architectures."
-        },
-        {
-          "title": "New Hire: Tengyu Ma, Member of Technical, Staff New York",
-          "url": "https://ami.frenchtechjournal.com/team/tengyu-ma",
-          "source": "The AMI Observatory",
-          "publishedAt": "2026-07-24",
-          "tags": [
-            "hiring"
-          ],
-          "summary": "Former Meta FAIR Staff Research Scientist whose work has contributed to major advances in visual grounding and image segmentation, including SAM 2 and SAM 3."
-        },
-        {
-          "title": "New Hire: Quentin Garrido, Member of Technical Staff, Paris",
-          "url": "https://ami.frenchtechjournal.com/team/quentin-garrido",
-          "source": "The AMI Observatory",
-          "publishedAt": "2026-07-24",
-          "tags": [
-            "hiring"
-          ],
-          "summary": "Former Meta FAIR research scientist specializing in self-supervised learning, computer vision, and world models."
-        },
-        {
-          "title": "New Hire: Andrew Brown, Member of Technical Staff, New York",
-          "url": "https://ami.frenchtechjournal.com/team/andrew-brown",
-          "source": "The AMI Observatory",
-          "publishedAt": "2026-07-24",
-          "tags": [
-            "hiring"
-          ],
-          "summary": "A former Meta research scientist specializing in generative video, computer vision and multimodal representation learning."
-        },
-        {
-          "title": "AMI Labs Co-founder: “Physical AI Still an Unresolved Area… LLM Has Clear Limitations\"",
-          "url": "https://n.news.naver.com/mnews/article/009/0005704275?sid=105",
-          "source": "Maeil Business Newspaper",
-          "publishedAt": "2026-07-22",
-          "tags": [],
-          "summary": "Pascal Fung, Chief Research and Innovation Officer at AMI Labs, delivers a keynote speech at the ICML conference held in South Korea."
-        },
-        {
-          "title": "Alexandre Lebrun passe le flambeau à Brian Manning à la tête de Nabla",
-          "url": "https://www.maddyness.com/2026/07/21/alexandre-lebrun-passe-le-flambeau-a-brian-manning-a-la-tete-de-nabla",
-          "source": "Maddyness",
-          "publishedAt": "2026-07-22",
-          "tags": [
-            "hiring"
-          ],
-          "summary": "Alexandre Lebrun has stepped down as head of Nabla, with Brian Manning taking over leadership of the company. The leadership transition was reported by Maddyness."
-        },
-        {
-          "title": "Yann LeCun's Team Latest Research: Enabling World Models to Learn \"Adaptiveness\" and Continuously Evolve Through Action",
-          "url": "https://eu.36kr.com/en/p/3879369780817922",
-          "source": "European Central Station",
-          "publishedAt": "2026-07-21",
-          "tags": [
-            "research"
-          ],
-          "summary": "Latent world models enable robots to simulate the future before taking actions and then plan their movements accordingly. In 2022, the team led by Yann LeCun, the Turing Award laureate, proposed the Joint Embedding Prediction Architecture (JEPA). By predicting the evolution of future states in the latent space, it promoted the prediction in the representation space to become an important paradigm in the research of world models."
-        },
-        {
-          "title": "A four-year-old has seen more of the world than ChatGPT. Yann LeCun is betting $1bn on that",
-          "url": "https://thenextweb.com/news/yann-lecun-ami-world-models-raise-summit-llms",
-          "source": "TNW",
-          "publishedAt": "2026-07-21",
-          "tags": [],
-          "summary": "The Turing Award winner spent 12 years running Meta's AI lab, then quit to bet against the industry. At RAISE Summit in Paris, he argued that a child learns more about the world from watching it than the biggest chatbot learns from all the text online. "
-        },
-        {
-          "title": "New Job Posting: AMI Engineer - Singapore",
-          "url": "https://jobs.ashbyhq.com/ami/9f59ac61-f20b-4d33-9343-9603f693523f",
-          "source": "AMI",
-          "publishedAt": "2026-07-20",
+          "title": "New Job Posting: Talent Intelligence & Sourcing Partner, Paris",
+          "url": "https://jobs.ashbyhq.com/ami/e1b64e18-74f3-458c-a7e4-2720e50823de",
+          "source": "AMI Labs",
+          "publishedAt": "2026-07-29",
           "tags": [
             "hiring"
           ],
           "summary": ""
         },
         {
-          "title": "New Job Posting: AMI Engineer - Paris",
-          "url": "https://jobs.ashbyhq.com/ami/7d58ea84-fd76-4ac7-ad6e-1424f76c42f9",
-          "source": "AMI",
-          "publishedAt": "2026-07-20",
+          "title": "Surfaced: 7 Additional AMI Seed Round Investors",
+          "url": "/news/surfaced-7-additional-ami-seed-round-investors",
+          "source": "The AMI Observatory",
+          "publishedAt": "2026-07-29",
+          "tags": [
+            "funding"
+          ],
+          "summary": ""
+        },
+        {
+          "title": "AMI Labs Builds Its Next Research Bench Through Internships",
+          "url": "/news/ami-labs-builds-its-next-research-bench-through-internships",
+          "source": "The AMI Observatory",
+          "publishedAt": "2026-07-29",
           "tags": [
             "hiring"
           ],
-          "summary": ""
+          "summary": "AMI Labs has quietly assembled a small but technically ambitious group of interns across its Paris and New York operations. "
+        },
+        {
+          "title": "\"LLM-pilled\": At VivaTech, LeCun torches AI's monoculture and its safety priesthood",
+          "url": "/news/llm-pilled-at-vivatech-lecun-torches-ai-s-monoculture-and-its-safety-priesthood",
+          "source": "VivaTech",
+          "publishedAt": "2026-07-29",
+          "tags": [],
+          "summary": "In a fireside chat with Steven Levy, the AMI Labs founder mocked Silicon Valley's \"LLM-pilled\" monoculture, revealed how he fought to open-source Llama 2, and accused Anthropic of medieval obscurantism for trying to lock down AI."
+        },
+        {
+          "title": "LeCun at RAISE: LLMs hit a wall, and Europe can win the next race",
+          "url": "/news/lecun-at-raise-llms-hit-a-wall-and-europe-can-win-the-next-race",
+          "source": "Raise Summit",
+          "publishedAt": "2026-07-29",
+          "tags": [
+            ""
+          ],
+          "summary": "Seven months after quitting Meta, the AMI Labs co-founder told the Paris crowd that world models will drive the next AI revolution, and that Silicon Valley's LLM obsession has left the door open for Europe."
+        },
+        {
+          "title": "New Hire: Amir Bar, Member of Technical Staff, London",
+          "url": "https://ami.frenchtechjournal.com/team/amir-bar",
+          "source": "The AMI Observatory",
+          "publishedAt": "2026-07-29",
+          "tags": [
+            "hiring"
+          ],
+          "summary": "An assistant professor at Imperial College London, a former Meta researcher, and a founding member of technical staff at AMI Labs."
+        },
+        {
+          "title": "New Hire: Ayaan Naveed Malik, Research Scientist, New York City",
+          "url": "https://ami.frenchtechjournal.com/team/ayaan-naveed-malik",
+          "source": "The Ami Observatory",
+          "publishedAt": "2026-07-26",
+          "tags": [
+            "hiring"
+          ],
+          "summary": "Recent Stanford graduate with background in robotics and multimodal AI."
+        },
+        {
+          "title": "New Hire: Haoyi Li, Member of Technical Staff, Singapore",
+          "url": "https://ami.frenchtechjournal.com/team/haoyi-li",
+          "source": "The AMI Observatory",
+          "publishedAt": "2026-07-26",
+          "tags": [
+            "hiring"
+          ],
+          "summary": "Author and software engineer known for building large-scale developer infrastructure at Databricks and Dropbox."
+        },
+        {
+          "title": "Yann LeCun ETH Lecture: World Models: Enabling the next AI revolution ",
+          "url": "/news/yann-lecun-eth-lecture-world-models-enabling-the-next-ai-revolution",
+          "source": "YouTube",
+          "publishedAt": "2026-07-26",
+          "tags": [
+            ""
+          ],
+          "summary": "Talk given by Yann LeCun at ETH Zürich during \"Frontiers of Embodied AI\"."
         }
       ]
     },
     "jobs": {
-      "total": 5,
-      "newSinceLast": 0,
-      "newItems": [],
+      "total": 6,
+      "newSinceLast": 1,
+      "newItems": [
+        {
+          "title": "Talent Intelligence & Sourcing Partner",
+          "department": "General and Administration",
+          "location": "Paris",
+          "url": "https://jobs.ashbyhq.com/ami/e1b64e18-74f3-458c-a7e4-2720e50823de"
+        }
+      ],
       "byDepartment": {
         "All Departments": 1,
-        "Technical Staff": 4
+        "Technical Staff": 4,
+        "General and Administration": 1
       }
     },
     "publications": {
@@ -146,96 +129,93 @@
       "recent": []
     },
     "github": {
-      "windowEventCount": 34,
+      "windowEventCount": 23,
       "byMember": {
-        "Brian Li": 3,
-        "Li Jing": 2,
-        "Min Lin": 1,
-        "Quentin Le Lidec": 15,
-        "Rohit Girdhar": 7,
-        "Xingyi Zhou": 1,
-        "Haoyi Li": 5
+        "Brian Li": 10,
+        "Haoyi Li": 8,
+        "Quentin Le Lidec": 4,
+        "Xingyi Zhou": 1
       },
       "notable": [
         {
           "member": "Haoyi Li",
-          "type": "PullRequestReviewEvent",
-          "repo": "com-lihaoyi/mill",
-          "description": "Reviewed PR #7399 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-07-26T01:46:15Z"
-        },
-        {
-          "member": "Quentin Le Lidec",
-          "type": "CreateEvent",
-          "repo": "galilai-group/stable-worldmodel",
-          "description": "Created branch buffer in galilai-group/stable-worldmodel",
-          "url": "https://github.com/galilai-group/stable-worldmodel",
-          "timestamp": "2026-07-24T16:07:37Z"
-        },
-        {
-          "member": "Quentin Le Lidec",
-          "type": "IssueCommentEvent",
-          "repo": "galilai-group/stable-worldmodel",
-          "description": "Commented on issue #302 in galilai-group/stable-worldmodel",
-          "url": "https://github.com/galilai-group/stable-worldmodel/pull/302#issuecomment-5068430364",
-          "timestamp": "2026-07-24T09:44:35Z"
-        },
-        {
-          "member": "Quentin Le Lidec",
           "type": "IssuesEvent",
-          "repo": "galilai-group/stable-worldmodel",
-          "description": "Closed issue #269 in galilai-group/stable-worldmodel",
-          "url": "https://github.com/galilai-group/stable-worldmodel/issues/269",
-          "timestamp": "2026-07-24T09:17:38Z"
+          "repo": "com-lihaoyi/mill",
+          "description": "Closed issue #7324 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill/issues/7324",
+          "timestamp": "2026-08-01T08:16:54Z"
         },
         {
-          "member": "Quentin Le Lidec",
-          "type": "PullRequestReviewEvent",
-          "repo": "galilai-group/stable-worldmodel",
-          "description": "Reviewed PR #292 in galilai-group/stable-worldmodel",
-          "url": "https://github.com/galilai-group/stable-worldmodel",
-          "timestamp": "2026-07-24T09:17:12Z"
-        },
-        {
-          "member": "Quentin Le Lidec",
-          "type": "PullRequestEvent",
-          "repo": "galilai-group/stable-worldmodel",
-          "description": "Opened PR #303 in galilai-group/stable-worldmodel",
-          "url": "https://github.com/galilai-group/stable-worldmodel",
-          "timestamp": "2026-07-24T08:45:46Z"
-        },
-        {
-          "member": "Quentin Le Lidec",
-          "type": "CreateEvent",
-          "repo": "galilai-group/stable-worldmodel",
-          "description": "Created branch episode-table in galilai-group/stable-worldmodel",
-          "url": "https://github.com/galilai-group/stable-worldmodel",
-          "timestamp": "2026-07-24T08:44:18Z"
-        },
-        {
-          "member": "Quentin Le Lidec",
-          "type": "PullRequestEvent",
-          "repo": "galilai-group/stable-worldmodel",
-          "description": "merged PR #300 in galilai-group/stable-worldmodel",
-          "url": "https://github.com/galilai-group/stable-worldmodel",
-          "timestamp": "2026-07-23T15:55:29Z"
-        },
-        {
-          "member": "Quentin Le Lidec",
+          "member": "Brian Li",
           "type": "IssueCommentEvent",
-          "repo": "galilai-group/stable-worldmodel",
-          "description": "Commented on issue #292 in galilai-group/stable-worldmodel",
-          "url": "https://github.com/galilai-group/stable-worldmodel/pull/292#issuecomment-5056266277",
-          "timestamp": "2026-07-23T08:44:12Z"
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "description": "Commented on issue #1368 in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval/pull/1368#issuecomment-5143886462",
+          "timestamp": "2026-07-31T14:19:56Z"
         },
         {
-          "member": "Quentin Le Lidec",
+          "member": "Brian Li",
           "type": "PullRequestEvent",
-          "repo": "galilai-group/stable-worldmodel",
-          "description": "Opened PR #300 in galilai-group/stable-worldmodel",
-          "url": "https://github.com/galilai-group/stable-worldmodel",
-          "timestamp": "2026-07-23T08:42:42Z"
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "description": "Opened PR #1419 in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-31T14:02:38Z"
+        },
+        {
+          "member": "Brian Li",
+          "type": "CreateEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "description": "Created branch brian/feat/agentic-env-interface in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-31T14:01:58Z"
+        },
+        {
+          "member": "Brian Li",
+          "type": "PullRequestEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "description": "Opened PR #1418 in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-31T11:06:18Z"
+        },
+        {
+          "member": "Brian Li",
+          "type": "CreateEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "description": "Created branch brian/feat/agentic-game-minimal in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-31T11:05:25Z"
+        },
+        {
+          "member": "Brian Li",
+          "type": "PullRequestReviewEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "description": "Reviewed PR #1417 in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-07-31T06:02:36Z"
+        },
+        {
+          "member": "Haoyi Li",
+          "type": "IssueCommentEvent",
+          "repo": "scala/scala3",
+          "description": "Commented on issue #25034 in scala/scala3",
+          "url": "https://github.com/scala/scala3/pull/25034#issuecomment-5139759635",
+          "timestamp": "2026-07-31T05:50:07Z"
+        },
+        {
+          "member": "Haoyi Li",
+          "type": "IssueCommentEvent",
+          "repo": "scala/scala3",
+          "description": "Commented on issue #25034 in scala/scala3",
+          "url": "https://github.com/scala/scala3/pull/25034#issuecomment-5139749279",
+          "timestamp": "2026-07-31T05:48:21Z"
+        },
+        {
+          "member": "Haoyi Li",
+          "type": "IssuesEvent",
+          "repo": "com-lihaoyi/mill",
+          "description": "Closed issue #7118 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill/issues/7118",
+          "timestamp": "2026-07-28T04:02:05Z"
         }
       ]
     },
@@ -259,23 +239,42 @@
       "recentMilestones": []
     },
     "social": {
-      "windowCount": 2,
-      "byTag": {},
+      "windowCount": 5,
+      "byTag": {
+        "research": 1
+      },
       "notable": [
         {
           "author": "Yann LeCun",
           "handle": "ylecun",
-          "text": "Tired of winning https://t.co/PIbhQ4mlDF",
-          "url": "https://x.com/ylecun/status/2080588168781336630",
-          "createdAt": "2026-07-24T09:37:29.000Z",
+          "text": "Tired of not winning https://t.co/ETFG6Cl99i",
+          "url": "https://x.com/ylecun/status/2083290542956224643",
+          "createdAt": "2026-07-31T20:35:45.000Z",
           "tags": [],
           "metrics": {
-            "likes": 978,
-            "retweets": 37,
-            "replies": 60,
-            "quotes": 2
+            "likes": 371,
+            "retweets": 11,
+            "replies": 29,
+            "quotes": 1
           },
           "highEngagement": true
+        },
+        {
+          "author": "Pascale Fung",
+          "handle": "pascalefung",
+          "text": "Jensen Huang promotes open-source LLMs for innovation. Great. The next step is democratizing compute. High GPU costs remain one of the biggest barriers to academic research and grassroots innovation. Imagine the impact if NVIDIA also expanded free or heavily subsidized compute",
+          "url": "https://x.com/pascalefung/status/2082097765648048260",
+          "createdAt": "2026-07-28T13:36:05.000Z",
+          "tags": [
+            "research"
+          ],
+          "metrics": {
+            "likes": 21,
+            "retweets": 1,
+            "replies": 2,
+            "quotes": 0
+          },
+          "highEngagement": false
         }
       ]
     }
@@ -285,6 +284,7 @@
       "34d3053f-381f-4350-9c9b-172e5d6a6b70",
       "da976389-9875-4eb6-b866-8097baed3178",
       "df8b17c5-97e6-49e7-abb9-c21a39e4162a",
+      "e1b64e18-74f3-458c-a7e4-2720e50823de",
       "7d58ea84-fd76-4ac7-ad6e-1424f76c42f9",
       "9f59ac61-f20b-4d33-9343-9603f693523f"
     ],
@@ -297,8 +297,8 @@
       "bbb2fba52c4d7d3b29f58a5e136d012acdc2010d",
       "31e6e9e341f8e8152c9f633b5838c585853feb1b",
       "d90159d04db78db63e04ebd03a8d65f985b5eb85",
-      "98bfd032ec0208cadd3a5deb9f34d4b228736599",
       "20ba4363b7275178aaca520f9f16b39dad3a87d0",
+      "98bfd032ec0208cadd3a5deb9f34d4b228736599",
       "8d62bb68ffa636edd5b72a8fc8fcd99f37aeb836",
       "101274838d26060ebdbed1949b7a7b82c23cd9c2",
       "220a20b046af83f448b405111d76c45168ae2421",
@@ -352,12 +352,12 @@
       "c5c1eea3338ffaf46b548cd7e6678c2118393e47",
       "c70ea55cb8740b8260bca874d9f0921c6a8aa319",
       "853e540102e92f8150e14be5f7daf943f0a88194",
-      "7fef3016487f62db760ac776d90034370e151467",
-      "9259321c507460c5a9989d3b5fff910d99469159",
       "2268d5094a7baad2fb680584465c5584fb195587",
       "927498a8ccc57dc94e9654099c64d060aba5f4f8",
       "751ef04264d661f6a59e49f3fbd181ac46ef5eed",
       "a990b37c970a48b71533db1f49f51310a07755cb",
+      "7fef3016487f62db760ac776d90034370e151467",
+      "9259321c507460c5a9989d3b5fff910d99469159",
       "121d34fe66a35ef11e408de4119477971ee6e2cc",
       "66502329bc402a58b8d02c778dc5b37e2498c8c0",
       "b202faf38efbffcb26470c702e1140b047d6f6e7",
@@ -475,93 +475,109 @@
     "dessinKeys": []
   },
   "status": "ok",
-  "headline": "AMI expands world-model talent as team reaches 40, with research advances already appearing in code",
-  "stateOfPlay": "This week we added four new names to the AMI roster who had shared lineage with Meta FAIR's world-model and self-supervised learning. Meanwhile, the `stable-worldmodel` repository is churning through its heavy sustained development. This continues a pattern of AMI co-founders, most notably Yann LeCun, continuing to build a research lab by luring previous collaborators, a mix of both established researchers and promising students. Speaking of LeCun, he has become omnipresent thanks to a slew of public appearances at both VivaTech in June and the RAISE Summit in Paris, where he repeated philosophical framing: LLMs are bounded and physical intelligence is unsolved.",
+  "headline": "AMI is hiring for scale, not just research — and LeCun is making the public case for the world-model bet",
+  "stateOfPlay": "This was a week of institution-building at AMI Labs. Three new hires spanning London, New York, and Singapore, a dedicated talent-sourcing role posted in Paris, and newly surfaced seed investors all point to a company moving from founding team to functioning organisation. That operational push runs alongside a sustained public campaign by Yann LeCun — at VivaTech, at RAISE, and at ETH Zürich — hammering the same thesis: LLMs have hit their ceiling, world models are the path forward, and Europe has a window. The two tracks are not separate; AMI is visibly staffing up to pursue the research agenda LeCun is loudly advertising.",
   "threads": [
     {
-      "title": "Four ex-Meta FAIR hires continue a raid on world-model expertise",
+      "title": "Three hires in three cities reveal an infrastructure and multimodal agenda beneath the world-model rhetoric",
       "category": "hiring",
-      "narrative": "AMI's four confirmed new Members of Technical Staff include: Adrien Bardes (self-supervised visual learning and world-model architectures), Quentin Garrido (self-supervised learning, computer vision, world models), Tengyu Ma (visual grounding and segmentation, including SAM 2 and SAM 3), and Andrew Brown (generative video, multimodal representation learning). They all come from Meta FAIR. Of course, this is not coincidental. These are people whose published research often includes LeCun as a cited co-author and so naturally sits almost precisely at the intersection AMI has staked out: learning structured representations of the world from raw sensory data without dense human labels.\n\nThe breadth within that focus is also telling. Bardes and Garrido bring the representation-learning theory. Ma brings the grounding and segmentation capability needed to link that representation to the physical world. Brown brings the generative-video side, which matters enormously for training and evaluating world models against real visual dynamics. Taken together, the four cover the full pipeline from learning a world model to deploying it in a perception-action loop. Alongside this, AMI added Marina Farthouat in Paris and Sonia Rattan in NYC as dedicated AI recruiters, signaling that the hiring pace will continue to accelerate. Which is not surprising when a company has a few hundred million euros burning a hole in its pocket from a Seed Round.",
+      "narrative": "The most telling hiring signal this week is not any single appointment but the combination. Amir Bar — an assistant professor at Imperial College London and former Meta researcher — brings serious computer-vision and multimodal credentials to AMI's London footprint. Ayaan Naveed Malik, a recent Stanford graduate joining in New York, arrives with a background in robotics and multimodal AI, exactly the domains where JEPA-style world models need to prove themselves. Together they suggest AMI is assembling the technical bench to move from theory to working systems.\n\nThe third hire is the outlier that completes the picture. Haoyi Li, joining in Singapore, is not a machine-learning researcher; he is a large-scale developer infrastructure engineer known for work at Databricks and Dropbox, and the author of the Mill build tool. His GitHub activity this week — closing issues in his own `com-lihaoyi/mill` repo and commenting on a Scala 3 pull request — confirms he is already active on infrastructure concerns. Hiring someone of Li's profile at this stage signals that AMI is taking the underlying engineering platform seriously, not just the research layer above it.",
       "evidence": [
         {
-          "label": "New Hire: Adrien Bardes",
-          "url": "https://ami.frenchtechjournal.com/team/adrien-bardes"
+          "label": "Amir Bar profile",
+          "url": "https://ami.frenchtechjournal.com/team/amir-bar"
         },
         {
-          "label": "New Hire: Quentin Garrido",
-          "url": "https://ami.frenchtechjournal.com/team/quentin-garrido"
+          "label": "Ayaan Naveed Malik profile",
+          "url": "https://ami.frenchtechjournal.com/team/ayaan-naveed-malik"
         },
         {
-          "label": "New Hire: Tengyu Ma",
-          "url": "https://ami.frenchtechjournal.com/team/tengyu-ma"
+          "label": "Haoyi Li profile",
+          "url": "https://ami.frenchtechjournal.com/team/haoyi-li"
         },
         {
-          "label": "New Hire: Andrew Brown",
-          "url": "https://ami.frenchtechjournal.com/team/andrew-brown"
-        },
-        {
-          "label": "New Hire: Marina Farthouat, Recruiter",
-          "url": "https://ami.frenchtechjournal.com/team/marina-farthouat"
-        },
-        {
-          "label": "New Hire: Sonia Rattan, Recruiter",
-          "url": "https://ami.frenchtechjournal.com/team/sonia-rattan"
+          "label": "Haoyi Li — Mill issue",
+          "url": "https://github.com/com-lihaoyi/mill/issues/7324"
         }
       ]
     },
     {
-      "title": "The `stable-worldmodel` repo is where the theory meets the code — and it is moving fast",
-      "category": "research",
-      "narrative": "Of AMI's 34 GitHub events this week, 15 belong to Quentin Le Lidec, almost all concentrated in a single repository: `galilai-group/stable-worldmodel`. The activity is substantive rather than cosmetic, with new branches named `buffer` and `episode-table`, multiple pull requests opened and merged, issues reviewed and closed. The naming is revealing: 'episode-table' suggests a structured data layer for storing interaction episodes, a standard component in model-based reinforcement learning and world-model training pipelines; 'buffer' points to the replay or experience-buffer infrastructure those pipelines depend on. This is not exploratory prototyping; it is the kind of iterative, issue-tracked engineering you do when a system is being stabilized for use by a growing team.\n\nRohit Girdhar also registered seven events this week, and Li Jing contributed two.",
+      "title": "A talent-sourcing hire and newly surfaced investors signal AMI is preparing for a larger recruiting push",
+      "category": "administrative",
+      "narrative": "The one new job posting this week is not a researcher or engineer: it is a Talent Intelligence & Sourcing Partner, based in Paris, sitting inside General and Administration. Hiring dedicated recruiting infrastructure at this stage — when the total open roles stand at just six — is a forward-looking signal. Companies bring in talent-sourcing specialists when they anticipate volume hiring, not when they are filling one-off roles.\n\nThat reading is reinforced by the separate surfacing of seven additional seed-round investors. More angels and institutional backers in the cap table means more runway and more stakeholder pressure to grow. The combination of fresh capital visibility and a new in-house recruiter suggests AMI's leadership expects the headcount curve to steepen materially in the months ahead.",
       "evidence": [
         {
-          "label": "stable-worldmodel: branch 'buffer' created",
-          "url": "https://github.com/galilai-group/stable-worldmodel"
+          "label": "Talent Intelligence & Sourcing Partner posting",
+          "url": "https://jobs.ashbyhq.com/ami/e1b64e18-74f3-458c-a7e4-2720e50823de"
         },
         {
-          "label": "stable-worldmodel: issue #269 closed",
-          "url": "https://github.com/galilai-group/stable-worldmodel/issues/269"
-        },
-        {
-          "label": "stable-worldmodel: PR #292 comment",
-          "url": "https://github.com/galilai-group/stable-worldmodel/pull/292#issuecomment-5056266277"
+          "label": "Surfaced seed investors",
+          "url": "/news/surfaced-7-additional-ami-seed-round-investors"
         }
       ]
     },
     {
-      "title": "Co-Founder 's public positioning keeps the intellectual bet loud",
+      "title": "LeCun's public circuit is a product-market positioning exercise, not just intellectual provocation",
       "category": "research",
-      "narrative": "Pascale Fung, Chief Research & Innovation Officer & Co-Founder, gave a keynote address at ICML in South Korea, where she argued that physical AI remains unresolved and that LLMs carry clear limitations. At the RAISE Summit in Paris, LeCun made the point that a four-year-old learns more about the world by watching it than the largest language model learns from all the text on the internet. These are not new claims, but the venues were certainly prominent. ICML is the premier machine-learning research conference, and RAISE is a high-profile French tech policy gathering. AMI is simultaneously pitching to the research community and to the institutional and policy audiences that matter for a Paris-headquartered lab.\n\nThe 36kr/European Central Station write-up on the JEPA architecture, specifically framing it as enabling robots to 'simulate the future before taking actions,' runs in parallel. That framing, robots simulating forward to plan, is precisely what a stable, episode-aware world model (see the GitHub thread) is needed for. The public narrative and the engineering activity are pointing at the same target.",
+      "narrative": "Three public appearances in one week — VivaTech, the RAISE Summit, and an ETH Zürich lecture titled \"World Models: Enabling the next AI revolution\" — amount to a coordinated messaging campaign. The content is consistent: LLMs are a dead end, world models are what comes next, and Europe is competitively positioned to lead that transition. At VivaTech, LeCun reportedly mocked Silicon Valley's \"LLM-pilled\" monoculture and attacked Anthropic's approach to AI safety. At RAISE, he explicitly named world models as the driver of the next AI revolution and framed Europe's relative distance from the LLM arms race as an advantage.\n\nReading these appearances alongside the week's hiring, the message is not just philosophical. LeCun is publicly staking AMI's identity in contrast to the foundation-model incumbents, which is useful for recruiting researchers who are skeptical of the LLM orthodoxy and for differentiating AMI to European institutional partners and investors. The ETH lecture, aimed at an academic audience focused on embodied AI, also suggests AMI is cultivating the university pipeline from which its next generation of researchers — like Malik — will come.",
       "evidence": [
         {
-          "label": "AMI Co-founder keynote at ICML: 'Physical AI Still an Unresolved Area'",
-          "url": "https://n.news.naver.com/mnews/article/009/0005704275?sid=105"
+          "label": "LeCun at VivaTech",
+          "url": "/news/llm-pilled-at-vivatech-lecun-torches-ai-s-monoculture-and-its-safety-priesthood"
         },
         {
-          "label": "TNW: LeCun at RAISE Summit on world models vs LLMs",
-          "url": "https://thenextweb.com/news/yann-lecun-ami-world-models-raise-summit-llms"
+          "label": "LeCun at RAISE",
+          "url": "/news/lecun-at-raise-llms-hit-a-wall-and-europe-can-win-the-next-race"
         },
         {
-          "label": "36kr: Yann LeCun's team on adaptive world models",
-          "url": "https://eu.36kr.com/en/p/3879369780817922"
+          "label": "ETH Zürich lecture",
+          "url": "/news/yann-lecun-eth-lecture-world-models-enabling-the-next-ai-revolution"
+        }
+      ]
+    },
+    {
+      "title": "Brian Li's agentic evaluation work points to an emerging benchmark priority",
+      "category": "research",
+      "narrative": "The most technically specific GitHub signal this week comes from Brian Li, who contributed the majority of AMI-attributable commits. His activity in `EvolvingLMMs-Lab/lmms-eval` is notable for what he named the branches: `brian/feat/agentic-env-interface` and `brian/feat/agentic-game-minimal`. These are not incremental patches; they suggest Li is building out evaluation infrastructure for agentic, interactive environments within a multimodal LLM benchmark framework. That work sits at the intersection of evaluation methodology and the kind of embodied, action-taking AI that world-model approaches are meant to enable.\n\nThis is a thin signal — branch names and pull requests, not published results — but it is directionally consistent with the rest of the week's picture. If AMI's research agenda centers on world models and embodied agents, having team members actively developing the evaluation tooling for agentic multimodal systems is exactly the kind of preparatory infrastructure work you would expect to see.",
+      "evidence": [
+        {
+          "label": "Brian Li — agentic env interface branch",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval"
+        },
+        {
+          "label": "Brian Li — PR comment",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval/pull/1368#issuecomment-5143886462"
         }
       ]
     }
   ],
-   "signals": [
+  "signals": [
     {
-      "text": "LeCun retweeted a post from researcher Reza Bayat endorsing his deep-dive explanation of 'SIGReg from First Principles.' In the tweet, Bayat writes: 'World Modeling with JEPA has recently gained traction thanks to a novel anti-collapse mechanism called \"SIGReg\" (by @ylecun and @randall_balestr). The math is clean, but it is rarely explained from first principles, so I broke it down in a detailed blog post.'",
-      "url": "https://x.com/reza_byt/status/2080291982115479668",
+      "text": "LeCun posted \"Tired of not winning\" on July 31 — a cryptic, high-engagement note that attracted 371 likes. Without more context it resists clean interpretation, but the timing, amid a week of public appearances and hiring activity, suggests a combative mood rather than a setback.",
+      "url": "https://x.com/ylecun/status/2083290542956224643",
       "linkLabel": "Tweet"
     },
     {
-      "text": "AMI posted two new engineer roles — one in Singapore, one in Paris — on July 20.",
-      "category": "hiring"
+      "text": "AMI board member Pascale Fung publicly called on NVIDIA to expand free or subsidized compute for academic researchers — a pointed reminder that even well-funded AI startups outside the hyperscaler tier face GPU access as a structural constraint.",
+      "category": "research",
+      "url": "https://x.com/pascalefung/status/2082097765648048260",
+      "linkLabel": "Tweet"
+    },
+    {
+      "text": "AMI's intern cohort across Paris and New York was quietly reported this week. Building a bench through internships at this stage is consistent with the university-pipeline cultivation visible in LeCun's academic speaking circuit.",
+      "category": "hiring",
+      "url": "/news/ami-labs-builds-its-next-research-bench-through-internships"
     }
   ],
-  "whatToWatch": "AMI is co-organizing the Wearable AI Workshop at ECCV 2026 with Meta Reality Labs, HKUST, Georgia Tech, UCF, and U. of Edinburgh. The conference, in Malmo, Sweden, on September 8-9, targets people working on \"egocentric perception, multimodal assistants, or long-form video understanding,\" according to a LinkedIn post from Co-Founder Fung. It's a small hint of how the company sees some of the practical deployment cases for World Models.",
+  "whatToWatch": "With a dedicated talent-sourcing hire now in place and seven additional seed investors surfaced, the structural conditions for an accelerated hiring wave are present — watch whether the open-role count grows sharply over the next month. On the research side, Brian Li's agentic evaluation branches in lmms-eval are worth tracking: if those PRs merge and expand, they may foreshadow AMI's first public benchmark contributions in the agentic multimodal space.",
   "whatToWatchLinks": [
-    { "url": "https://www.linkedin.com/posts/pascale-fung-a3aa05139_wearable-ai-workshop-activity-7477581964406071296-mHka/", "linkLabel": "Fung LinkedIn Post" },
-    { "url": "https://wearable-ai-workshop.github.io/", "linkLabel": "Conference Website" }
+    {
+      "url": "https://jobs.ashbyhq.com/ami/e1b64e18-74f3-458c-a7e4-2720e50823de",
+      "linkLabel": "Talent sourcing role"
+    },
+    {
+      "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+      "linkLabel": "lmms-eval repo"
+    }
   ]
 }
