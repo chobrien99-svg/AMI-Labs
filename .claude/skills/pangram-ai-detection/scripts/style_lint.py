@@ -57,6 +57,25 @@ LLM_LEXIS = [
     "landscape of", "underscore", "underscores", "foster a", "shed light on",
     "the world of", "a myriad of", "seamless", "seamlessly",
 ]
+# Contrastive-pivot markers: the "X rather than Y / not-A-B / it changes yet it remains"
+# scaffolding. A signature LLM cadence in analytic prose, and one the strict antithesis
+# patterns below miss because each is a single marker, not a full "not only ... but" frame.
+# These are legitimate constructions in isolation; density is the tell.
+CONTRASTIVE_RES = [
+    re.compile(r"\brather than\b", re.I),
+    re.compile(r"\bnot simply\b", re.I),
+    re.compile(r"\bnot merely\b", re.I),
+    re.compile(r"\bnot necessarily\b", re.I),
+    re.compile(r"\bnot solely\b", re.I),
+    re.compile(r"\bas opposed to\b", re.I),
+    re.compile(r"\beven as\b", re.I),
+    re.compile(r";\s+the\s+[^.?!;]{1,45}\bremains?\b", re.I),  # "…changes; the substrate remains"
+]
+
+# A section-break / punchy line is short; those add reader-facing variance but are not what a
+# 512-token detector window scores. Body cadence (sentences at/above this length) is the honest
+# uniformity measure. See references/signals.md §6.
+BODY_MIN_WORDS = 8
 
 SENT_RE = re.compile(r'[^.!?]*[.!?]+["\')\]]?|\S[^.!?]*$', re.S)
 WORD_RE = re.compile(r"[A-Za-z][A-Za-z'-]*")
@@ -119,6 +138,15 @@ def find_antithesis(text):
     return hits
 
 
+def find_contrastive(text):
+    hits = []
+    for rx in CONTRASTIVE_RES:
+        for m in rx.finditer(text):
+            hits.append({"snippet": m.group()[:80], "start": m.start(), "end": m.end()})
+    hits.sort(key=lambda h: h["start"])
+    return hits
+
+
 def find_tricolon(text):
     # "A, B, and C" style balanced triples — elegant once, a tell in bulk.
     hits = []
@@ -166,6 +194,7 @@ def main():
     booster_hits = find_lexicon_hits(text, BOOSTERS)
     signpost_hits = find_signpost_openers(sentences)
     antithesis_hits = find_antithesis(text)
+    contrastive_hits = find_contrastive(text)
     tricolon_hits = find_tricolon(text)
     conclusion_hits = find_phrase_hits(text, CONCLUSION_OPENERS)
     lexis_hits = find_phrase_hits(text, LLM_LEXIS)
@@ -173,10 +202,23 @@ def main():
     dash_hits = [{"snippet": m.group(), "start": m.start(), "end": m.end()} for m in DASH_RE.finditer(text)]
 
     # ---- burstiness (sentence-length variation) ----
+    # Report both the overall CV and the body-only CV. Short section-break lines inflate the
+    # overall figure with reader-facing variance a detector's windows never see; the body-only
+    # CV is the honest measure of how uniform the sustained prose actually is.
     sent_wcounts = [len(WORD_RE.findall(s)) for s, _, _ in sentences]
     mean_len = statistics.mean(sent_wcounts)
     stdev_len = statistics.pstdev(sent_wcounts) if n_sents > 1 else 0.0
-    cv = (stdev_len / mean_len) if mean_len else 0.0  # coefficient of variation
+    cv = (stdev_len / mean_len) if mean_len else 0.0  # overall coefficient of variation
+
+    body_wcounts = [w for w in sent_wcounts if w >= BODY_MIN_WORDS]
+    short_lines = [w for w in sent_wcounts if w < BODY_MIN_WORDS]
+    if len(body_wcounts) >= 5:
+        body_mean = statistics.mean(body_wcounts)
+        body_cv = (statistics.pstdev(body_wcounts) / body_mean) if body_mean else 0.0
+    else:
+        body_cv = cv  # too few body sentences to separate; fall back to overall
+    # The subscore keys on body_cv — that is what actually gets windowed and scored.
+    masking = cv - body_cv  # large positive => short lines are hiding uniform body prose
 
     # ---- concreteness (anchors: digits + mid-sentence proper-noun proxy) ----
     digit_tokens = len(re.findall(r"\b\d[\d,.:/-]*\b", text))
@@ -199,21 +241,24 @@ def main():
 
     # ---- subscores in [0,1] (see references/signals.md §6 for the reasoning) ----
     hb_density = (len(hedge_hits) + len(booster_hits)) / per100
+    per500 = n_words / 500.0
     sub = {
         "hedge_booster": clamp(hb_density / 4.0 * (1 + 0.5 * cooc_ratio)),
-        "burstiness_low_variance": clamp((0.5 - cv) / 0.4),
+        "burstiness_low_variance": clamp((0.5 - body_cv) / 0.4),
         "low_concreteness": clamp((3.0 - anchor_density) / 3.0),
+        "contrastive_pivot": clamp((len(contrastive_hits) / per500) / 5.0),
         "signposting": clamp((len(signpost_hits) / n_sents) / 0.3),
-        "antithesis": clamp((len(antithesis_hits) / (n_words / 500.0)) / 2.0),
-        "tricolon_parallelism": clamp((len(tricolon_hits) / (n_words / 500.0)) / 3.0),
+        "antithesis": clamp((len(antithesis_hits) / per500) / 2.0),
+        "tricolon_parallelism": clamp((len(tricolon_hits) / per500) / 3.0),
         "formulaic_conclusion": clamp(len(conclusion_hits) / 2.0),
         "llm_lexis_weak": clamp(len(lexis_hits) / max(1.0, (n_words / 1000.0) * 2)),
         "em_dash_weak": clamp((len(dash_hits) / per100) / 2.0),
     }
     weights = {
-        "hedge_booster": 22, "burstiness_low_variance": 20, "low_concreteness": 18,
-        "signposting": 12, "antithesis": 10, "tricolon_parallelism": 8,
-        "formulaic_conclusion": 5, "llm_lexis_weak": 3, "em_dash_weak": 2,
+        "hedge_booster": 20, "burstiness_low_variance": 18, "low_concreteness": 16,
+        "contrastive_pivot": 12, "signposting": 10, "antithesis": 8,
+        "tricolon_parallelism": 6, "formulaic_conclusion": 4, "llm_lexis_weak": 3,
+        "em_dash_weak": 3,
     }
     contributions = {k: round(weights[k] * sub[k], 1) for k in weights}
     composite = round(sum(contributions.values()), 1)
@@ -221,7 +266,7 @@ def main():
     # ---- per-sentence risk ranking (localize lexical signals) ----
     lexical_pools = {
         "hedge": hedge_hits, "booster": booster_hits, "signpost": signpost_hits,
-        "antithesis": antithesis_hits, "tricolon": tricolon_hits,
+        "antithesis": antithesis_hits, "contrastive": contrastive_hits, "tricolon": tricolon_hits,
         "conclusion": conclusion_hits, "llm_lexis": lexis_hits, "participial": participial_hits,
     }
     ranked = []
@@ -248,7 +293,14 @@ def main():
             "mean_sentence_words": round(mean_len, 1),
             "stdev_sentence_words": round(stdev_len, 1),
             "sentence_length_cv": round(cv, 3),
-            "cv_note": "lower CV = more uniform/machine-like; human prose is typically >~0.5",
+            "body_sentence_length_cv": round(body_cv, 3),
+            "short_break_lines": len(short_lines),
+            "cv_note": "body_cv is the honest measure (what gets windowed); lower = more "
+                       "uniform/machine-like; human prose is typically >~0.5",
+            "cadence_masking": round(masking, 3),
+            "cadence_masking_note": ("short section-break lines are inflating the overall CV; "
+                                     "the sustained body prose is more uniform than it looks"
+                                     if masking > 0.05 else "overall and body cadence agree"),
             "concrete_anchors": anchors,
             "concrete_anchors_per_100w": round(anchor_density, 2),
             "hedge_booster_per_100w": round(hb_density, 2),
@@ -257,16 +309,17 @@ def main():
         "signal_counts": {
             "hedges": len(hedge_hits), "boosters": len(booster_hits),
             "signpost_openers": len(signpost_hits), "antithesis": len(antithesis_hits),
-            "tricolon": len(tricolon_hits), "formulaic_conclusions": len(conclusion_hits),
+            "contrastive_pivots": len(contrastive_hits), "tricolon": len(tricolon_hits),
+            "formulaic_conclusions": len(conclusion_hits),
             "llm_lexis_weak": len(lexis_hits), "participial_openers": len(participial_hits),
             "em_dashes_weak": len(dash_hits),
         },
         "riskiest_spans": ranked[:10],
         "hits": {
             "hedges": hedge_hits, "boosters": booster_hits, "signpost_openers": signpost_hits,
-            "antithesis": antithesis_hits, "tricolon": tricolon_hits,
-            "formulaic_conclusions": conclusion_hits, "llm_lexis_weak": lexis_hits,
-            "participial_openers": participial_hits,
+            "antithesis": antithesis_hits, "contrastive_pivots": contrastive_hits,
+            "tricolon": tricolon_hits, "formulaic_conclusions": conclusion_hits,
+            "llm_lexis_weak": lexis_hits, "participial_openers": participial_hits,
         },
     }
     print(json.dumps(out, indent=2, ensure_ascii=False))

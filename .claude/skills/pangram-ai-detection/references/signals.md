@@ -135,7 +135,11 @@ them accordingly and never present them as certainties.
   significant / essential" in the same span are the clearest correlate.
 - **Sentence-length burstiness (low variance).** Human prose is bursty — it mixes very short
   and long sentences. LLM prose tends toward uniform, evenly-cadenced sentence lengths. Low
-  coefficient of variation is one of the more reliable structural correlates.
+  coefficient of variation is one of the more reliable structural correlates. The linter
+  reports both overall CV and **body-only CV** (sentences ≥ 8 words) and scores on the
+  latter, because short section-break one-liners inflate the overall figure with variance a
+  512-token detector window never sees. When `cadence_masking` is high, the sustained prose
+  is more uniform than the overall number suggests — that is the honest read.
 - **Concrete-detail density (low = risky).** Specific names, numbers, dates, places, and
   lived particulars are hard for a model to fabricate and rare in generic LLM output.
   Abstraction-heavy prose with few concrete anchors reads machine-written.
@@ -145,6 +149,11 @@ them accordingly and never present them as certainties.
   Additionally, Consequently, Ultimately, Importantly, Notably"). LLMs over-scaffold.
 - **Antithesis constructions** ("not X but Y," "it's not just X, it's Y," "not only … but
   also"). A signature LLM rhetorical move when overused.
+- **Contrastive pivots** ("X rather than Y," "not simply / not merely / not necessarily,"
+  "even as," "as opposed to," "it changes; the substrate remains"). The single-marker
+  cousins of antithesis — individually unremarkable, but in density they are one of the
+  clearest cadence tells in polished analytic prose, and easy to miss by eye. Tracked
+  separately from antithesis so the count and locations are explicit.
 - **Tricolon / rule-of-three parallelism** ("A, B, and C" balanced triples, repeated
   parallel clause structure). Elegant once; a tell in bulk.
 - **Formulaic conclusions** ("In conclusion," "Overall," "In summary," tidy summarizing
