@@ -126,7 +126,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2605.21800",
-      "citationCount": 2,
+      "citationCount": 3,
       "coAuthors": [
         {
           "slug": "quentin-le-lidec",
@@ -180,7 +180,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2604.03208",
-      "citationCount": 12,
+      "citationCount": 15,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -189,6 +189,10 @@
         {
           "slug": "basile-terver",
           "name": "Basile Terver"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": null,
@@ -216,10 +220,6 @@
         },
         {
           "slug": null,
-          "name": "Amir Bar"
-        },
-        {
-          "slug": null,
           "name": "Nicolas Ballas"
         }
       ]
@@ -230,11 +230,15 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.14482",
-      "citationCount": 47,
+      "citationCount": 49,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
           "name": "Adrien Bardes"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": "matthew-muckley",
@@ -247,10 +251,6 @@
         {
           "slug": null,
           "name": "Lorenzo Mur-Labadia"
-        },
-        {
-          "slug": null,
-          "name": "Amir Bar"
         },
         {
           "slug": null,
@@ -272,7 +272,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.19312",
-      "citationCount": 103,
+      "citationCount": 116,
       "coAuthors": [
         {
           "slug": "quentin-le-lidec",
@@ -298,8 +298,12 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276",
-      "citationCount": 18,
+      "citationCount": 20,
       "coAuthors": [
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
+        },
         {
           "slug": "david-fan",
           "name": "David Fan"
@@ -366,10 +370,6 @@
         },
         {
           "slug": null,
-          "name": "Amir Bar"
-        },
-        {
-          "slug": null,
           "name": "Jakob Verbeek"
         },
         {
@@ -388,7 +388,7 @@
       "year": 2026,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/bed6ecff103c1a6f3a516d9b9d4847be8aff5294",
-      "citationCount": 2,
+      "citationCount": 4,
       "coAuthors": [
         {
           "slug": "quentin-le-lidec",
@@ -455,6 +455,10 @@
           "name": "Basile Terver"
         },
         {
+          "slug": "david-fan",
+          "name": "David Fan"
+        },
+        {
           "slug": "megi-dervishi",
           "name": "Megi Dervishi"
         },
@@ -463,12 +467,12 @@
           "name": "Quentin Garrido"
         },
         {
-          "slug": "david-fan",
-          "name": "David Fan"
-        },
-        {
           "slug": "michael-rabbat",
           "name": "Michael Rabbat"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": null,
@@ -485,10 +489,32 @@
         {
           "slug": null,
           "name": "Wancong Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "6209c4ab686552f9d644f56ff962018a67978e27",
+      "title": "Parallel Stochastic Gradient-Based Planning for World Models",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.00475",
+      "citationCount": 7,
+      "coAuthors": [
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
         },
         {
           "slug": null,
-          "name": "Amir Bar"
+          "name": "Michael Psenka"
+        },
+        {
+          "slug": null,
+          "name": "Aditi Krishnapriyan"
         }
       ]
     },
@@ -544,7 +570,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.05230",
-      "citationCount": 29,
+      "citationCount": 33,
       "coAuthors": [
         {
           "slug": "basile-terver",
@@ -574,7 +600,7 @@
       "year": 2025,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2512.24497",
-      "citationCount": 23,
+      "citationCount": 24,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -600,7 +626,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.00844",
-      "citationCount": 9,
+      "citationCount": 10,
       "coAuthors": [
         {
           "slug": "quentin-le-lidec",
@@ -629,6 +655,10 @@
       "citationCount": 15,
       "coAuthors": [
         {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
+        },
+        {
           "slug": "david-fan",
           "name": "David Fan"
         },
@@ -639,10 +669,6 @@
         {
           "slug": null,
           "name": "Raktim Gautam Goswami"
-        },
-        {
-          "slug": null,
-          "name": "Amir Bar"
         },
         {
           "slug": null,
@@ -776,7 +802,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2507.19468",
-      "citationCount": 51,
+      "citationCount": 52,
       "coAuthors": [
         {
           "slug": "basile-terver",
@@ -840,11 +866,15 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 537,
+      "citationCount": 564,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
           "name": "Adrien Bardes"
+        },
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
         },
         {
           "slug": "matthew-muckley",
@@ -853,10 +883,6 @@
         {
           "slug": "quentin-garrido",
           "name": "Quentin Garrido"
-        },
-        {
-          "slug": "david-fan",
-          "name": "David Fan"
         },
         {
           "slug": "michael-rabbat",
@@ -978,7 +1004,7 @@
       "year": 2025,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.00042",
-      "citationCount": 65,
+      "citationCount": 66,
       "coAuthors": [
         {
           "slug": "david-fan",
@@ -987,6 +1013,10 @@
         {
           "slug": "michael-rabbat",
           "name": "Michael Rabbat"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": "saining-xie",
@@ -1015,10 +1045,6 @@
         {
           "slug": null,
           "name": "Nicolas Ballas"
-        },
-        {
-          "slug": null,
-          "name": "Amir Bar"
         }
       ]
     },
@@ -1028,7 +1054,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2502.11831",
-      "citationCount": 66,
+      "citationCount": 67,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -1066,7 +1092,7 @@
       "year": 2024,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.01579",
-      "citationCount": 216,
+      "citationCount": 219,
       "coAuthors": [
         {
           "slug": "david-fan",
@@ -1145,12 +1171,74 @@
       ]
     },
     {
+      "paperId": "94773f22b5befd0e167a7de525d29bec2b09937a",
+      "title": "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
+      "year": 2024,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2406.16860",
+      "citationCount": 913,
+      "coAuthors": [
+        {
+          "slug": "adithya-iyer",
+          "name": "Adithya Iyer"
+        },
+        {
+          "slug": "sanghyun-woo",
+          "name": "Sanghyun Woo"
+        },
+        {
+          "slug": "jihan-yang",
+          "name": "Jihan Yang"
+        },
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
+          "slug": null,
+          "name": "Shengbang Tong"
+        },
+        {
+          "slug": null,
+          "name": "Ellis Brown"
+        },
+        {
+          "slug": null,
+          "name": "Penghao Wu"
+        },
+        {
+          "slug": null,
+          "name": "Manoj Middepogu"
+        },
+        {
+          "slug": null,
+          "name": "Sai Akula"
+        },
+        {
+          "slug": null,
+          "name": "Shusheng Yang"
+        },
+        {
+          "slug": null,
+          "name": "Xichen Pan"
+        },
+        {
+          "slug": null,
+          "name": "Austin Wang"
+        },
+        {
+          "slug": null,
+          "name": "Rob Fergus"
+        }
+      ]
+    },
+    {
       "paperId": "4d1eadaa9a04e86aef2278ae13eb9fce644c9fc5",
       "title": "Learning and Leveraging World Models in Visual Representation Learning",
       "year": 2024,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2403.00504",
-      "citationCount": 69,
+      "citationCount": 70,
       "coAuthors": [
         {
           "slug": "quentin-garrido",
@@ -1180,7 +1268,7 @@
       "year": 2024,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2404.08471",
-      "citationCount": 400,
+      "citationCount": 413,
       "coAuthors": [
         {
           "slug": "michael-rabbat",
@@ -1261,7 +1349,7 @@
       "citationCount": 10,
       "coAuthors": [
         {
-          "slug": null,
+          "slug": "amir-bar",
           "name": "Amir Bar"
         },
         {
@@ -1348,7 +1436,7 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01499",
-      "citationCount": 1035,
+      "citationCount": 1061,
       "coAuthors": [
         {
           "slug": "michael-rabbat",
@@ -1601,7 +1689,7 @@
     {
       "title": "Learning and Leveraging World Models in Visual Representation Learning",
       "year": 2024,
-      "citationCount": 69,
+      "citationCount": 70,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2403.00504"
     },
@@ -1995,12 +2083,17 @@
       {
         "slug": "michael-rabbat",
         "name": "Michael Rabbat",
-        "sharedPapers": 12
+        "sharedPapers": 13
       },
       {
         "slug": "adrien-bardes",
         "name": "Adrien Bardes",
         "sharedPapers": 9
+      },
+      {
+        "slug": "amir-bar",
+        "name": "Amir Bar",
+        "sharedPapers": 8
       },
       {
         "slug": "david-fan",
@@ -2018,13 +2111,13 @@
         "sharedPapers": 6
       },
       {
-        "slug": "basile-terver",
-        "name": "Basile Terver",
-        "sharedPapers": 5
-      },
-      {
         "slug": "saining-xie",
         "name": "Saining Xie",
+        "sharedPapers": 6
+      },
+      {
+        "slug": "basile-terver",
+        "name": "Basile Terver",
         "sharedPapers": 5
       },
       {
@@ -2033,13 +2126,13 @@
         "sharedPapers": 3
       },
       {
-        "slug": "matthew-muckley",
-        "name": "Matthew Muckley",
-        "sharedPapers": 2
-      },
-      {
         "slug": "jihan-yang",
         "name": "Jihan Yang",
+        "sharedPapers": 3
+      },
+      {
+        "slug": "matthew-muckley",
+        "name": "Matthew Muckley",
         "sharedPapers": 2
       },
       {
@@ -2066,6 +2159,16 @@
         "slug": "pascale-fung",
         "name": "Pascale Fung",
         "sharedPapers": 1
+      },
+      {
+        "slug": "adithya-iyer",
+        "name": "Adithya Iyer",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "sanghyun-woo",
+        "name": "Sanghyun Woo",
+        "sharedPapers": 1
       }
     ],
     "externalCoAuthors": [
@@ -2078,10 +2181,6 @@
         "papers": 7
       },
       {
-        "name": "Amir Bar",
-        "papers": 7
-      },
-      {
         "name": "Mahmoud Assran",
         "papers": 7
       },
@@ -2090,12 +2189,20 @@
         "papers": 6
       },
       {
+        "name": "Shengbang Tong",
+        "papers": 6
+      },
+      {
         "name": "Lucas Maes",
         "papers": 5
       },
       {
-        "name": "Shengbang Tong",
-        "papers": 5
+        "name": "Ellis Brown",
+        "papers": 4
+      },
+      {
+        "name": "Rob Fergus",
+        "papers": 4
       },
       {
         "name": "Piotr Bojanowski",
@@ -2103,14 +2210,6 @@
       },
       {
         "name": "Damien Scieur",
-        "papers": 3
-      },
-      {
-        "name": "Ellis Brown",
-        "papers": 3
-      },
-      {
-        "name": "Rob Fergus",
         "papers": 3
       },
       {
@@ -2175,6 +2274,10 @@
       },
       {
         "name": "Tsung-Yen Yang",
+        "papers": 2
+      },
+      {
+        "name": "Shusheng Yang",
         "papers": 2
       },
       {
@@ -2310,6 +2413,14 @@
         "papers": 1
       },
       {
+        "name": "Michael Psenka",
+        "papers": 1
+      },
+      {
+        "name": "Aditi Krishnapriyan",
+        "papers": 1
+      },
+      {
         "name": "Ziteng Wang",
         "papers": 1
       },
@@ -2359,10 +2470,6 @@
       },
       {
         "name": "A. Bolourchi",
-        "papers": 1
-      },
-      {
-        "name": "Shusheng Yang",
         "papers": 1
       },
       {
@@ -2503,6 +2610,26 @@
       },
       {
         "name": "L. Jackel",
+        "papers": 1
+      },
+      {
+        "name": "Penghao Wu",
+        "papers": 1
+      },
+      {
+        "name": "Manoj Middepogu",
+        "papers": 1
+      },
+      {
+        "name": "Sai Akula",
+        "papers": 1
+      },
+      {
+        "name": "Xichen Pan",
+        "papers": 1
+      },
+      {
+        "name": "Austin Wang",
         "papers": 1
       },
       {

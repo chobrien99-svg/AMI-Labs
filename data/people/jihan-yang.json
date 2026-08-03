@@ -282,6 +282,68 @@
           "name": "Daisuke Kawahara"
         }
       ]
+    },
+    {
+      "paperId": "94773f22b5befd0e167a7de525d29bec2b09937a",
+      "title": "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
+      "year": 2024,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2406.16860",
+      "citationCount": 913,
+      "coAuthors": [
+        {
+          "slug": "adithya-iyer",
+          "name": "Adithya Iyer"
+        },
+        {
+          "slug": "sanghyun-woo",
+          "name": "Sanghyun Woo"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
+          "slug": null,
+          "name": "Shengbang Tong"
+        },
+        {
+          "slug": null,
+          "name": "Ellis Brown"
+        },
+        {
+          "slug": null,
+          "name": "Penghao Wu"
+        },
+        {
+          "slug": null,
+          "name": "Manoj Middepogu"
+        },
+        {
+          "slug": null,
+          "name": "Sai Akula"
+        },
+        {
+          "slug": null,
+          "name": "Shusheng Yang"
+        },
+        {
+          "slug": null,
+          "name": "Xichen Pan"
+        },
+        {
+          "slug": null,
+          "name": "Austin Wang"
+        },
+        {
+          "slug": null,
+          "name": "Rob Fergus"
+        }
+      ]
     }
   ],
   "topPublications": [
@@ -295,7 +357,7 @@
     {
       "title": "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
       "year": 2026,
-      "citationCount": 38,
+      "citationCount": 39,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.16208"
     },
@@ -341,29 +403,43 @@
       {
         "slug": "saining-xie",
         "name": "Saining Xie",
-        "sharedPapers": 5
+        "sharedPapers": 6
       },
       {
         "slug": "yann-lecun",
         "name": "Yann LeCun",
-        "sharedPapers": 2
+        "sharedPapers": 3
+      },
+      {
+        "slug": "adithya-iyer",
+        "name": "Adithya Iyer",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "sanghyun-woo",
+        "name": "Sanghyun Woo",
+        "sharedPapers": 1
       }
     ],
     "externalCoAuthors": [
       {
         "name": "Shusheng Yang",
-        "papers": 3
+        "papers": 4
       },
       {
         "name": "Ellis Brown",
-        "papers": 3
+        "papers": 4
       },
       {
         "name": "Rob Fergus",
-        "papers": 3
+        "papers": 4
       },
       {
         "name": "Shengbang Tong",
+        "papers": 3
+      },
+      {
+        "name": "Xichen Pan",
         "papers": 2
       },
       {
@@ -372,10 +448,6 @@
       },
       {
         "name": "Zifan Zhao",
-        "papers": 1
-      },
-      {
-        "name": "Xichen Pan",
         "papers": 1
       },
       {
@@ -492,6 +564,22 @@
       },
       {
         "name": "Daisuke Kawahara",
+        "papers": 1
+      },
+      {
+        "name": "Penghao Wu",
+        "papers": 1
+      },
+      {
+        "name": "Manoj Middepogu",
+        "papers": 1
+      },
+      {
+        "name": "Sai Akula",
+        "papers": 1
+      },
+      {
+        "name": "Austin Wang",
         "papers": 1
       }
     ],

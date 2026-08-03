@@ -32,19 +32,452 @@
   ],
   "reportsTo": "saining-xie",
   "reports": [],
-  "papers": [],
+  "papers": [
+    {
+      "paperId": "badf8adcf2b6a6780a308881de75f148a4cacea0",
+      "title": "World Action Models are Zero-shot Policies",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.15922",
+      "citationCount": 215,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Seonghyeon Ye"
+        },
+        {
+          "slug": null,
+          "name": "Yunhao Ge"
+        },
+        {
+          "slug": null,
+          "name": "Kaiyuan Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Shenyuan Gao"
+        },
+        {
+          "slug": null,
+          "name": "Sihyun Yu"
+        },
+        {
+          "slug": null,
+          "name": "George Kurian"
+        },
+        {
+          "slug": null,
+          "name": "Suneel Indupuru"
+        },
+        {
+          "slug": null,
+          "name": "Y. Tan"
+        },
+        {
+          "slug": null,
+          "name": "Chuning Zhu"
+        },
+        {
+          "slug": null,
+          "name": "Jiannan Xiang"
+        },
+        {
+          "slug": null,
+          "name": "Kyungmin Lee"
+        },
+        {
+          "slug": null,
+          "name": "William Liang"
+        },
+        {
+          "slug": null,
+          "name": "Nadun Ranawaka"
+        },
+        {
+          "slug": null,
+          "name": "Jiasheng Gu"
+        },
+        {
+          "slug": null,
+          "name": "Yinzhen Xu"
+        },
+        {
+          "slug": null,
+          "name": "Guanzhi Wang"
+        },
+        {
+          "slug": null,
+          "name": "Fengyuan Hu"
+        },
+        {
+          "slug": null,
+          "name": "Avnish Narayan"
+        },
+        {
+          "slug": null,
+          "name": "Johan Bjorck"
+        },
+        {
+          "slug": null,
+          "name": "Jing Wang"
+        },
+        {
+          "slug": null,
+          "name": "Gwanghyun Kim"
+        },
+        {
+          "slug": null,
+          "name": "Dantong Niu"
+        },
+        {
+          "slug": null,
+          "name": "Ruijie Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Yuqi Xie"
+        },
+        {
+          "slug": null,
+          "name": "Jimmy Wu"
+        },
+        {
+          "slug": null,
+          "name": "Qi Wang"
+        },
+        {
+          "slug": null,
+          "name": "Ryan C. Julian"
+        },
+        {
+          "slug": null,
+          "name": "Dan Xu"
+        },
+        {
+          "slug": null,
+          "name": "Yilun Du"
+        },
+        {
+          "slug": null,
+          "name": "Yevgen Chebotar"
+        },
+        {
+          "slug": null,
+          "name": "Scott Reed"
+        },
+        {
+          "slug": null,
+          "name": "Jan Kautz"
+        },
+        {
+          "slug": null,
+          "name": "Yuke Zhu"
+        },
+        {
+          "slug": null,
+          "name": "LinxiJimFan"
+        },
+        {
+          "slug": null,
+          "name": "J. Jang"
+        }
+      ]
+    },
+    {
+      "paperId": "ca524f499028275f21776ea4b1fd41fd2ff7844b",
+      "title": "DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.06949",
+      "citationCount": 81,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Shenyuan Gao"
+        },
+        {
+          "slug": null,
+          "name": "William Liang"
+        },
+        {
+          "slug": null,
+          "name": "Kaiyuan Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Seonghyeon Ye"
+        },
+        {
+          "slug": null,
+          "name": "Sihyun Yu"
+        },
+        {
+          "slug": null,
+          "name": "Wei-Cheng Tseng"
+        },
+        {
+          "slug": null,
+          "name": "Yuzhu Dong"
+        },
+        {
+          "slug": null,
+          "name": "Kaichun Mo"
+        },
+        {
+          "slug": null,
+          "name": "Chen-Hsuan Lin"
+        },
+        {
+          "slug": null,
+          "name": "Qianli Ma"
+        },
+        {
+          "slug": null,
+          "name": "Seungjun Nah"
+        },
+        {
+          "slug": null,
+          "name": "Loic Magne"
+        },
+        {
+          "slug": null,
+          "name": "Jiannan Xiang"
+        },
+        {
+          "slug": null,
+          "name": "Yuqi Xie"
+        },
+        {
+          "slug": null,
+          "name": "Ruijie Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Dantong Niu"
+        },
+        {
+          "slug": null,
+          "name": "Y. Tan"
+        },
+        {
+          "slug": null,
+          "name": "K. Zentner"
+        },
+        {
+          "slug": null,
+          "name": "George Kurian"
+        },
+        {
+          "slug": null,
+          "name": "Suneel Indupuru"
+        },
+        {
+          "slug": null,
+          "name": "Pooya Jannaty"
+        },
+        {
+          "slug": null,
+          "name": "Jinwei Gu"
+        },
+        {
+          "slug": null,
+          "name": "Jun Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Jitendra Malik"
+        },
+        {
+          "slug": null,
+          "name": "Pieter Abbeel"
+        },
+        {
+          "slug": null,
+          "name": "Ming-Yu Liu"
+        },
+        {
+          "slug": null,
+          "name": "Yuke Zhu"
+        },
+        {
+          "slug": null,
+          "name": "J. Jang"
+        },
+        {
+          "slug": null,
+          "name": "LinxiJimFan"
+        }
+      ]
+    },
+    {
+      "paperId": "d957fc669a5c32fb2a7f7e5f3f703a12b9040395",
+      "title": "Student Grade Prediction Using Machine Learning",
+      "year": 2025,
+      "venue": "Physical Education, Health and Social Sciences",
+      "url": "https://doi.org/10.63163/jpehss.v3i4.848",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "N. Akbar"
+        },
+        {
+          "slug": null,
+          "name": "Usman Khan"
+        },
+        {
+          "slug": null,
+          "name": "Riaz Ahmad"
+        },
+        {
+          "slug": null,
+          "name": "Ameer Mustafa"
+        }
+      ]
+    },
+    {
+      "paperId": "fe640b62d632a3332af1fd2e2966e566317cba41",
+      "title": "From Human-in-the-Loop to Accountability Gaps: AI-Enabled Targeting Tools and International Humanitarian Law",
+      "year": 2025,
+      "venue": "Physical Education, Health and Social Sciences",
+      "url": "https://doi.org/10.63163/jpehss.v3i4.849",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Dr. Rizwana Gul"
+        },
+        {
+          "slug": null,
+          "name": "B. Nawaz"
+        }
+      ]
+    },
+    {
+      "paperId": "42793a3ad8f3d0ec9ad613417c1e7a2ed2999ece",
+      "title": "Types of stressors, stress-coping strategies, and personality traits as predictors of depression and anxiety among teachers in a suddenly stressful situation",
+      "year": 2025,
+      "venue": "Journal of Health Inequalities",
+      "url": "https://doi.org/10.5114/jhi.2025.155418",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "B. Hintze"
+        },
+        {
+          "slug": null,
+          "name": "E. Cichoń"
+        },
+        {
+          "slug": null,
+          "name": "Anna Barczak"
+        },
+        {
+          "slug": null,
+          "name": "M. Gawrych"
+        }
+      ]
+    },
+    {
+      "paperId": "03bb7af83a20460ac022836611303ed21a524603",
+      "title": "Improving intrauterine contraceptive device follow-up with a scan-only clinic model in a specialist community contraception service",
+      "year": 2025,
+      "venue": "BMJ Sexual & Reproductive Health",
+      "url": "https://doi.org/10.1136/bmjsrh-2025-202815",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Maryam Nasri"
+        }
+      ]
+    },
+    {
+      "paperId": "a8edca7e5b3e56e679ea0ccc9431cf37a42dcf4c",
+      "title": "The median sacral artery and its surgical anatomy in pelvic and spinal surgery: a systematic review and meta-analysis.",
+      "year": 2025,
+      "venue": "Folia Morphologica",
+      "url": "https://doi.org/10.5603/fm.105386",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Grzegorz Fibiger"
+        },
+        {
+          "slug": null,
+          "name": "J. Tempski"
+        },
+        {
+          "slug": null,
+          "name": "Jakub Wilczek"
+        },
+        {
+          "slug": null,
+          "name": "Katarzyna Majka"
+        },
+        {
+          "slug": null,
+          "name": "M. Osiowski"
+        },
+        {
+          "slug": null,
+          "name": "A. Osiowski"
+        },
+        {
+          "slug": null,
+          "name": "Szymon Matejuk"
+        },
+        {
+          "slug": null,
+          "name": "T. Kozioł"
+        },
+        {
+          "slug": null,
+          "name": "Wojciech Fibiger"
+        },
+        {
+          "slug": null,
+          "name": "J. Walocha"
+        },
+        {
+          "slug": null,
+          "name": "Przemysław A Pękala"
+        }
+      ]
+    },
+    {
+      "paperId": "464065726dbe1be51b32f05b4e33f0f66de20538",
+      "title": "MSR149 Bridging the Gap Between Theory and Reality in Systematic Literature Reviews Using Artificial Intelligence",
+      "year": 2024,
+      "venue": "Value in Health",
+      "url": "https://doi.org/10.1016/j.jval.2024.10.2383",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "H. Rathi"
+        },
+        {
+          "slug": null,
+          "name": "D.C. Behera"
+        }
+      ]
+    }
+  ],
   "topPublications": [
     {
       "title": "World Action Models are Zero-shot Policies",
       "year": 2026,
-      "citationCount": 200,
+      "citationCount": 215,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.15922"
     },
     {
       "title": "DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos",
       "year": 2026,
-      "citationCount": 78,
+      "citationCount": 81,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.06949"
     },
@@ -83,7 +516,300 @@
   "xPosts": [],
   "connections": {
     "coAuthors": [],
-    "externalCoAuthors": [],
+    "externalCoAuthors": [
+      {
+        "name": "Seonghyeon Ye",
+        "papers": 2
+      },
+      {
+        "name": "Kaiyuan Zheng",
+        "papers": 2
+      },
+      {
+        "name": "Shenyuan Gao",
+        "papers": 2
+      },
+      {
+        "name": "Sihyun Yu",
+        "papers": 2
+      },
+      {
+        "name": "George Kurian",
+        "papers": 2
+      },
+      {
+        "name": "Suneel Indupuru",
+        "papers": 2
+      },
+      {
+        "name": "Y. Tan",
+        "papers": 2
+      },
+      {
+        "name": "Jiannan Xiang",
+        "papers": 2
+      },
+      {
+        "name": "William Liang",
+        "papers": 2
+      },
+      {
+        "name": "Dantong Niu",
+        "papers": 2
+      },
+      {
+        "name": "Ruijie Zheng",
+        "papers": 2
+      },
+      {
+        "name": "Yuqi Xie",
+        "papers": 2
+      },
+      {
+        "name": "Yuke Zhu",
+        "papers": 2
+      },
+      {
+        "name": "LinxiJimFan",
+        "papers": 2
+      },
+      {
+        "name": "J. Jang",
+        "papers": 2
+      },
+      {
+        "name": "Yunhao Ge",
+        "papers": 1
+      },
+      {
+        "name": "Chuning Zhu",
+        "papers": 1
+      },
+      {
+        "name": "Kyungmin Lee",
+        "papers": 1
+      },
+      {
+        "name": "Nadun Ranawaka",
+        "papers": 1
+      },
+      {
+        "name": "Jiasheng Gu",
+        "papers": 1
+      },
+      {
+        "name": "Yinzhen Xu",
+        "papers": 1
+      },
+      {
+        "name": "Guanzhi Wang",
+        "papers": 1
+      },
+      {
+        "name": "Fengyuan Hu",
+        "papers": 1
+      },
+      {
+        "name": "Avnish Narayan",
+        "papers": 1
+      },
+      {
+        "name": "Johan Bjorck",
+        "papers": 1
+      },
+      {
+        "name": "Jing Wang",
+        "papers": 1
+      },
+      {
+        "name": "Gwanghyun Kim",
+        "papers": 1
+      },
+      {
+        "name": "Jimmy Wu",
+        "papers": 1
+      },
+      {
+        "name": "Qi Wang",
+        "papers": 1
+      },
+      {
+        "name": "Ryan C. Julian",
+        "papers": 1
+      },
+      {
+        "name": "Dan Xu",
+        "papers": 1
+      },
+      {
+        "name": "Yilun Du",
+        "papers": 1
+      },
+      {
+        "name": "Yevgen Chebotar",
+        "papers": 1
+      },
+      {
+        "name": "Scott Reed",
+        "papers": 1
+      },
+      {
+        "name": "Jan Kautz",
+        "papers": 1
+      },
+      {
+        "name": "Wei-Cheng Tseng",
+        "papers": 1
+      },
+      {
+        "name": "Yuzhu Dong",
+        "papers": 1
+      },
+      {
+        "name": "Kaichun Mo",
+        "papers": 1
+      },
+      {
+        "name": "Chen-Hsuan Lin",
+        "papers": 1
+      },
+      {
+        "name": "Qianli Ma",
+        "papers": 1
+      },
+      {
+        "name": "Seungjun Nah",
+        "papers": 1
+      },
+      {
+        "name": "Loic Magne",
+        "papers": 1
+      },
+      {
+        "name": "K. Zentner",
+        "papers": 1
+      },
+      {
+        "name": "Pooya Jannaty",
+        "papers": 1
+      },
+      {
+        "name": "Jinwei Gu",
+        "papers": 1
+      },
+      {
+        "name": "Jun Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Jitendra Malik",
+        "papers": 1
+      },
+      {
+        "name": "Pieter Abbeel",
+        "papers": 1
+      },
+      {
+        "name": "Ming-Yu Liu",
+        "papers": 1
+      },
+      {
+        "name": "N. Akbar",
+        "papers": 1
+      },
+      {
+        "name": "Usman Khan",
+        "papers": 1
+      },
+      {
+        "name": "Riaz Ahmad",
+        "papers": 1
+      },
+      {
+        "name": "Ameer Mustafa",
+        "papers": 1
+      },
+      {
+        "name": "Dr. Rizwana Gul",
+        "papers": 1
+      },
+      {
+        "name": "B. Nawaz",
+        "papers": 1
+      },
+      {
+        "name": "B. Hintze",
+        "papers": 1
+      },
+      {
+        "name": "E. Cichoń",
+        "papers": 1
+      },
+      {
+        "name": "Anna Barczak",
+        "papers": 1
+      },
+      {
+        "name": "M. Gawrych",
+        "papers": 1
+      },
+      {
+        "name": "Maryam Nasri",
+        "papers": 1
+      },
+      {
+        "name": "Grzegorz Fibiger",
+        "papers": 1
+      },
+      {
+        "name": "J. Tempski",
+        "papers": 1
+      },
+      {
+        "name": "Jakub Wilczek",
+        "papers": 1
+      },
+      {
+        "name": "Katarzyna Majka",
+        "papers": 1
+      },
+      {
+        "name": "M. Osiowski",
+        "papers": 1
+      },
+      {
+        "name": "A. Osiowski",
+        "papers": 1
+      },
+      {
+        "name": "Szymon Matejuk",
+        "papers": 1
+      },
+      {
+        "name": "T. Kozioł",
+        "papers": 1
+      },
+      {
+        "name": "Wojciech Fibiger",
+        "papers": 1
+      },
+      {
+        "name": "J. Walocha",
+        "papers": 1
+      },
+      {
+        "name": "Przemysław A Pękala",
+        "papers": 1
+      },
+      {
+        "name": "H. Rathi",
+        "papers": 1
+      },
+      {
+        "name": "D.C. Behera",
+        "papers": 1
+      }
+    ],
     "formerColleagues": []
   }
 }

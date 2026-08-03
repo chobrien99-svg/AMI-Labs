@@ -2056,11 +2056,15 @@
       "year": 2024,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/ed92a7be6b2acc36baf0ed43454a97dbade0c893",
-      "citationCount": 602,
+      "citationCount": 606,
       "coAuthors": [
         {
           "slug": "quentin-duval",
           "name": "Quentin Duval"
+        },
+        {
+          "slug": "bowen-shi",
+          "name": "Bowen Shi"
         },
         {
           "slug": "rohit-girdhar",
@@ -2089,10 +2093,6 @@
         {
           "slug": null,
           "name": "Apoorv Vyas"
-        },
-        {
-          "slug": null,
-          "name": "Bowen Shi"
         },
         {
           "slug": null,
@@ -2440,7 +2440,7 @@
       "year": 2023,
       "venue": "European Conference on Computer Vision",
       "url": "https://doi.org/10.48550/arXiv.2311.10709",
-      "citationCount": 292,
+      "citationCount": 293,
       "coAuthors": [
         {
           "slug": "quentin-duval",
@@ -2485,14 +2485,14 @@
     {
       "title": "Movie Gen: A Cast of Media Foundation Models",
       "year": 2024,
-      "citationCount": 602,
+      "citationCount": 606,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/ed92a7be6b2acc36baf0ed43454a97dbade0c893"
     },
     {
       "title": "Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning",
       "year": 2023,
-      "citationCount": 292,
+      "citationCount": 293,
       "venue": "European Conference on Computer Vision",
       "url": "https://doi.org/10.48550/arXiv.2311.10709"
     },
@@ -2530,6 +2530,11 @@
         "slug": "rohit-girdhar",
         "name": "Rohit Girdhar",
         "sharedPapers": 3
+      },
+      {
+        "slug": "bowen-shi",
+        "name": "Bowen Shi",
+        "sharedPapers": 1
       }
     ],
     "externalCoAuthors": [
@@ -4559,10 +4564,6 @@
       },
       {
         "name": "Apoorv Vyas",
-        "papers": 1
-      },
-      {
-        "name": "Bowen Shi",
         "papers": 1
       },
       {

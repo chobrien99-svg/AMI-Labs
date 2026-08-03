@@ -35,8 +35,12 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276",
-      "citationCount": 18,
+      "citationCount": 20,
       "coAuthors": [
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
+        },
         {
           "slug": "john-nguyen",
           "name": "John Nguyen"
@@ -103,10 +107,6 @@
         },
         {
           "slug": null,
-          "name": "Amir Bar"
-        },
-        {
-          "slug": null,
           "name": "Jakob Verbeek"
         },
         {
@@ -148,6 +148,10 @@
           "name": "Yann LeCun"
         },
         {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
+        },
+        {
           "slug": null,
           "name": "Randall Balestriero"
         },
@@ -162,10 +166,6 @@
         {
           "slug": null,
           "name": "Wancong Zhang"
-        },
-        {
-          "slug": null,
-          "name": "Amir Bar"
         }
       ]
     },
@@ -178,6 +178,10 @@
       "citationCount": 15,
       "coAuthors": [
         {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
+        },
+        {
           "slug": "michael-rabbat",
           "name": "Michael Rabbat"
         },
@@ -188,10 +192,6 @@
         {
           "slug": null,
           "name": "Raktim Gautam Goswami"
-        },
-        {
-          "slug": null,
-          "name": "Amir Bar"
         },
         {
           "slug": null,
@@ -217,7 +217,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2509.26625",
-      "citationCount": 22,
+      "citationCount": 23,
       "coAuthors": [
         {
           "slug": null,
@@ -251,7 +251,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 537,
+      "citationCount": 564,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -389,7 +389,7 @@
       "year": 2025,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.00042",
-      "citationCount": 65,
+      "citationCount": 66,
       "coAuthors": [
         {
           "slug": "michael-rabbat",
@@ -398,6 +398,10 @@
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": "saining-xie",
@@ -426,10 +430,6 @@
         {
           "slug": null,
           "name": "Nicolas Ballas"
-        },
-        {
-          "slug": null,
-          "name": "Amir Bar"
         }
       ]
     },
@@ -439,7 +439,7 @@
       "year": 2024,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.01579",
-      "citationCount": 216,
+      "citationCount": 219,
       "coAuthors": [
         {
           "slug": "michael-rabbat",
@@ -693,7 +693,7 @@
     {
       "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
       "year": 2026,
-      "citationCount": 18,
+      "citationCount": 20,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276"
     },
@@ -707,14 +707,14 @@
     {
       "title": "Scaling Language-Free Visual Representation Learning",
       "year": 2025,
-      "citationCount": 65,
+      "citationCount": 66,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.00042"
     },
     {
       "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
-      "citationCount": 537,
+      "citationCount": 564,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985"
     }
@@ -745,6 +745,11 @@
         "slug": "yann-lecun",
         "name": "Yann LeCun",
         "sharedPapers": 7
+      },
+      {
+        "slug": "amir-bar",
+        "name": "Amir Bar",
+        "sharedPapers": 4
       },
       {
         "slug": "saining-xie",
@@ -794,10 +799,6 @@
       },
       {
         "name": "Shengbang Tong",
-        "papers": 4
-      },
-      {
-        "name": "Amir Bar",
         "papers": 4
       },
       {

@@ -32,8 +32,12 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276",
-      "citationCount": 18,
+      "citationCount": 20,
       "coAuthors": [
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
+        },
         {
           "slug": "david-fan",
           "name": "David Fan"
@@ -100,10 +104,6 @@
         },
         {
           "slug": null,
-          "name": "Amir Bar"
-        },
-        {
-          "slug": null,
           "name": "Jakob Verbeek"
         },
         {
@@ -143,6 +143,84 @@
       ]
     },
     {
+      "paperId": "9ed9abb407371ff86811ec0cb97e6c6097c8f217",
+      "title": "TV2TV: A Unified Framework for Interleaved Language and Video Generation",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2512.05103",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
+        },
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        },
+        {
+          "slug": null,
+          "name": "Xiaochuang Han"
+        },
+        {
+          "slug": null,
+          "name": "Youssef Emad"
+        },
+        {
+          "slug": null,
+          "name": "Melissa Hall"
+        },
+        {
+          "slug": null,
+          "name": "Karthik Padthe"
+        },
+        {
+          "slug": null,
+          "name": "Liam Robbins"
+        },
+        {
+          "slug": null,
+          "name": "M. Drozdzal"
+        },
+        {
+          "slug": null,
+          "name": "Maha Elbayad"
+        },
+        {
+          "slug": null,
+          "name": "Yushi Hu"
+        },
+        {
+          "slug": null,
+          "name": "Shang-Wen Li"
+        },
+        {
+          "slug": null,
+          "name": "Sreya . Dutta Roy"
+        },
+        {
+          "slug": null,
+          "name": "Jakob Verbeek"
+        },
+        {
+          "slug": null,
+          "name": "Xudong Wang"
+        },
+        {
+          "slug": null,
+          "name": "Marjan Ghazvininejad"
+        },
+        {
+          "slug": null,
+          "name": "Luke S. Zettlemoyer"
+        },
+        {
+          "slug": null,
+          "name": "Emily Dinan"
+        }
+      ]
+    },
+    {
       "paperId": "67315adc04c4934b4eade977be0cd4510b559d3d",
       "title": "OneFlow: Concurrent Mixed-Modal and Interleaved Generation with Edit Flows",
       "year": 2025,
@@ -173,7 +251,7 @@
     {
       "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
       "year": 2026,
-      "citationCount": 18,
+      "citationCount": 20,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276"
     },
@@ -210,6 +288,11 @@
   "connections": {
     "coAuthors": [
       {
+        "slug": "amir-bar",
+        "name": "Amir Bar",
+        "sharedPapers": 2
+      },
+      {
         "slug": "david-fan",
         "name": "David Fan",
         "sharedPapers": 1
@@ -228,15 +311,24 @@
         "slug": "saining-xie",
         "name": "Saining Xie",
         "sharedPapers": 1
+      },
+      {
+        "slug": "delong-chen",
+        "name": "Delong Chen",
+        "sharedPapers": 1
       }
     ],
     "externalCoAuthors": [
       {
         "name": "Jakob Verbeek",
-        "papers": 2
+        "papers": 3
       },
       {
         "name": "Luke S. Zettlemoyer",
+        "papers": 3
+      },
+      {
+        "name": "Marjan Ghazvininejad",
         "papers": 2
       },
       {
@@ -280,19 +372,11 @@
         "papers": 1
       },
       {
-        "name": "Marjan Ghazvininejad",
-        "papers": 1
-      },
-      {
         "name": "Mike Lewis",
         "papers": 1
       },
       {
         "name": "Nicolas Ballas",
-        "papers": 1
-      },
-      {
-        "name": "Amir Bar",
         "papers": 1
       },
       {
@@ -305,6 +389,54 @@
       },
       {
         "name": "Alahari Karteek",
+        "papers": 1
+      },
+      {
+        "name": "Xiaochuang Han",
+        "papers": 1
+      },
+      {
+        "name": "Youssef Emad",
+        "papers": 1
+      },
+      {
+        "name": "Melissa Hall",
+        "papers": 1
+      },
+      {
+        "name": "Karthik Padthe",
+        "papers": 1
+      },
+      {
+        "name": "Liam Robbins",
+        "papers": 1
+      },
+      {
+        "name": "M. Drozdzal",
+        "papers": 1
+      },
+      {
+        "name": "Maha Elbayad",
+        "papers": 1
+      },
+      {
+        "name": "Yushi Hu",
+        "papers": 1
+      },
+      {
+        "name": "Shang-Wen Li",
+        "papers": 1
+      },
+      {
+        "name": "Sreya . Dutta Roy",
+        "papers": 1
+      },
+      {
+        "name": "Xudong Wang",
+        "papers": 1
+      },
+      {
+        "name": "Emily Dinan",
         "papers": 1
       },
       {

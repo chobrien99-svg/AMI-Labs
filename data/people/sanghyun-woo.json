@@ -31,6 +31,68 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "94773f22b5befd0e167a7de525d29bec2b09937a",
+      "title": "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
+      "year": 2024,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2406.16860",
+      "citationCount": 913,
+      "coAuthors": [
+        {
+          "slug": "adithya-iyer",
+          "name": "Adithya Iyer"
+        },
+        {
+          "slug": "jihan-yang",
+          "name": "Jihan Yang"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
+          "slug": null,
+          "name": "Shengbang Tong"
+        },
+        {
+          "slug": null,
+          "name": "Ellis Brown"
+        },
+        {
+          "slug": null,
+          "name": "Penghao Wu"
+        },
+        {
+          "slug": null,
+          "name": "Manoj Middepogu"
+        },
+        {
+          "slug": null,
+          "name": "Sai Akula"
+        },
+        {
+          "slug": null,
+          "name": "Shusheng Yang"
+        },
+        {
+          "slug": null,
+          "name": "Xichen Pan"
+        },
+        {
+          "slug": null,
+          "name": "Austin Wang"
+        },
+        {
+          "slug": null,
+          "name": "Rob Fergus"
+        }
+      ]
+    },
+    {
       "paperId": "a188930cfa21cb8c780ddaeccc219b07caeb5016",
       "title": "MTMMC: A Large-Scale Real-World Multi-Modal Camera Tracking Benchmark",
       "year": 2024,
@@ -152,7 +214,7 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548",
-      "citationCount": 1862,
+      "citationCount": 1889,
       "coAuthors": [
         {
           "slug": "saining-xie",
@@ -270,7 +332,7 @@
     {
       "title": "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders",
       "year": 2023,
-      "citationCount": 1862,
+      "citationCount": 1889,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548"
     },
@@ -309,6 +371,21 @@
       {
         "slug": "saining-xie",
         "name": "Saining Xie",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "adithya-iyer",
+        "name": "Adithya Iyer",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "jihan-yang",
+        "name": "Jihan Yang",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "yann-lecun",
+        "name": "Yann LeCun",
         "sharedPapers": 1
       }
     ],
@@ -332,6 +409,42 @@
       {
         "name": "Joon-Young Lee",
         "papers": 3
+      },
+      {
+        "name": "Shengbang Tong",
+        "papers": 1
+      },
+      {
+        "name": "Ellis Brown",
+        "papers": 1
+      },
+      {
+        "name": "Penghao Wu",
+        "papers": 1
+      },
+      {
+        "name": "Manoj Middepogu",
+        "papers": 1
+      },
+      {
+        "name": "Sai Akula",
+        "papers": 1
+      },
+      {
+        "name": "Shusheng Yang",
+        "papers": 1
+      },
+      {
+        "name": "Xichen Pan",
+        "papers": 1
+      },
+      {
+        "name": "Austin Wang",
+        "papers": 1
+      },
+      {
+        "name": "Rob Fergus",
+        "papers": 1
       },
       {
         "name": "Myungchul Kim",

@@ -96,8 +96,12 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276",
-      "citationCount": 18,
+      "citationCount": 20,
       "coAuthors": [
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
+        },
         {
           "slug": "david-fan",
           "name": "David Fan"
@@ -161,10 +165,6 @@
         {
           "slug": null,
           "name": "Nicolas Ballas"
-        },
-        {
-          "slug": null,
-          "name": "Amir Bar"
         },
         {
           "slug": null,
@@ -350,7 +350,7 @@
       "year": 2025,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.00042",
-      "citationCount": 65,
+      "citationCount": 66,
       "coAuthors": [
         {
           "slug": "david-fan",
@@ -363,6 +363,10 @@
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": null,
@@ -387,10 +391,6 @@
         {
           "slug": null,
           "name": "Nicolas Ballas"
-        },
-        {
-          "slug": null,
-          "name": "Amir Bar"
         }
       ]
     },
@@ -400,7 +400,7 @@
       "year": 2024,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.01579",
-      "citationCount": 216,
+      "citationCount": 219,
       "coAuthors": [
         {
           "slug": "david-fan",
@@ -437,6 +437,68 @@
         {
           "slug": null,
           "name": "Zhuang Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "94773f22b5befd0e167a7de525d29bec2b09937a",
+      "title": "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
+      "year": 2024,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2406.16860",
+      "citationCount": 913,
+      "coAuthors": [
+        {
+          "slug": "adithya-iyer",
+          "name": "Adithya Iyer"
+        },
+        {
+          "slug": "sanghyun-woo",
+          "name": "Sanghyun Woo"
+        },
+        {
+          "slug": "jihan-yang",
+          "name": "Jihan Yang"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Shengbang Tong"
+        },
+        {
+          "slug": null,
+          "name": "Ellis Brown"
+        },
+        {
+          "slug": null,
+          "name": "Penghao Wu"
+        },
+        {
+          "slug": null,
+          "name": "Manoj Middepogu"
+        },
+        {
+          "slug": null,
+          "name": "Sai Akula"
+        },
+        {
+          "slug": null,
+          "name": "Shusheng Yang"
+        },
+        {
+          "slug": null,
+          "name": "Xichen Pan"
+        },
+        {
+          "slug": null,
+          "name": "Austin Wang"
+        },
+        {
+          "slug": null,
+          "name": "Rob Fergus"
         }
       ]
     },
@@ -518,7 +580,7 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548",
-      "citationCount": 1862,
+      "citationCount": 1889,
       "coAuthors": [
         {
           "slug": "sanghyun-woo",
@@ -552,7 +614,7 @@
       "year": 2022,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51070.2023.00387",
-      "citationCount": 6710,
+      "citationCount": 6765,
       "coAuthors": [
         {
           "slug": null,
@@ -630,7 +692,7 @@
       "year": 2022,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01167",
-      "citationCount": 8859,
+      "citationCount": 8933,
       "coAuthors": [
         {
           "slug": null,
@@ -696,7 +758,7 @@
     {
       "title": "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders",
       "year": 2023,
-      "citationCount": 1862,
+      "citationCount": 1889,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548"
     },
@@ -710,7 +772,7 @@
     {
       "title": "A ConvNet for the 2020s",
       "year": 2022,
-      "citationCount": 8859,
+      "citationCount": 8933,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01167"
     },
@@ -742,12 +804,12 @@
       {
         "slug": "jihan-yang",
         "name": "Jihan Yang",
-        "sharedPapers": 5
+        "sharedPapers": 6
       },
       {
         "slug": "yann-lecun",
         "name": "Yann LeCun",
-        "sharedPapers": 5
+        "sharedPapers": 6
       },
       {
         "slug": "david-fan",
@@ -760,27 +822,41 @@
         "sharedPapers": 3
       },
       {
+        "slug": "amir-bar",
+        "name": "Amir Bar",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "sanghyun-woo",
+        "name": "Sanghyun Woo",
+        "sharedPapers": 2
+      },
+      {
         "slug": "john-nguyen",
         "name": "John Nguyen",
         "sharedPapers": 1
       },
       {
-        "slug": "sanghyun-woo",
-        "name": "Sanghyun Woo",
+        "slug": "adithya-iyer",
+        "name": "Adithya Iyer",
         "sharedPapers": 1
       }
     ],
     "externalCoAuthors": [
       {
         "name": "Shengbang Tong",
-        "papers": 5
+        "papers": 6
       },
       {
         "name": "Ellis Brown",
-        "papers": 4
+        "papers": 5
       },
       {
         "name": "Rob Fergus",
+        "papers": 5
+      },
+      {
+        "name": "Shusheng Yang",
         "papers": 4
       },
       {
@@ -792,12 +868,12 @@
         "papers": 4
       },
       {
-        "name": "Shusheng Yang",
+        "name": "Koustuv Sinha",
         "papers": 3
       },
       {
-        "name": "Koustuv Sinha",
-        "papers": 3
+        "name": "Xichen Pan",
+        "papers": 2
       },
       {
         "name": "Hu Xu",
@@ -809,10 +885,6 @@
       },
       {
         "name": "Nicolas Ballas",
-        "papers": 2
-      },
-      {
-        "name": "Amir Bar",
         "papers": 2
       },
       {
@@ -857,10 +929,6 @@
       },
       {
         "name": "Zifan Zhao",
-        "papers": 1
-      },
-      {
-        "name": "Xichen Pan",
         "papers": 1
       },
       {
@@ -957,6 +1025,22 @@
       },
       {
         "name": "Yunyang Xiong",
+        "papers": 1
+      },
+      {
+        "name": "Penghao Wu",
+        "papers": 1
+      },
+      {
+        "name": "Manoj Middepogu",
+        "papers": 1
+      },
+      {
+        "name": "Sai Akula",
+        "papers": 1
+      },
+      {
+        "name": "Austin Wang",
         "papers": 1
       },
       {

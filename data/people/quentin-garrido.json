@@ -31,7 +31,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.07050",
-      "citationCount": 5,
+      "citationCount": 6,
       "coAuthors": [
         {
           "slug": "michael-rabbat",
@@ -76,12 +76,12 @@
           "name": "Basile Terver"
         },
         {
-          "slug": "megi-dervishi",
-          "name": "Megi Dervishi"
-        },
-        {
           "slug": "david-fan",
           "name": "David Fan"
+        },
+        {
+          "slug": "megi-dervishi",
+          "name": "Megi Dervishi"
         },
         {
           "slug": "michael-rabbat",
@@ -90,6 +90,10 @@
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": null,
@@ -106,10 +110,6 @@
         {
           "slug": null,
           "name": "Wancong Zhang"
-        },
-        {
-          "slug": null,
-          "name": "Amir Bar"
         }
       ]
     },
@@ -119,7 +119,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.05230",
-      "citationCount": 29,
+      "citationCount": 33,
       "coAuthors": [
         {
           "slug": "basile-terver",
@@ -158,19 +158,19 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 537,
+      "citationCount": 564,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
           "name": "Adrien Bardes"
         },
         {
-          "slug": "matthew-muckley",
-          "name": "Matthew Muckley"
-        },
-        {
           "slug": "david-fan",
           "name": "David Fan"
+        },
+        {
+          "slug": "matthew-muckley",
+          "name": "Matthew Muckley"
         },
         {
           "slug": "yann-lecun",
@@ -330,7 +330,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09849",
-      "citationCount": 30,
+      "citationCount": 32,
       "coAuthors": [
         {
           "slug": "michael-rabbat",
@@ -360,7 +360,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2502.11831",
-      "citationCount": 66,
+      "citationCount": 67,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -398,7 +398,7 @@
       "year": 2024,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2403.00504",
-      "citationCount": 69,
+      "citationCount": 70,
       "coAuthors": [
         {
           "slug": "yann-lecun",
@@ -428,7 +428,7 @@
       "year": 2024,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2404.08471",
-      "citationCount": 400,
+      "citationCount": 413,
       "coAuthors": [
         {
           "slug": "michael-rabbat",
@@ -495,7 +495,7 @@
     {
       "title": "Learning Latent Action World Models In The Wild",
       "year": 2026,
-      "citationCount": 29,
+      "citationCount": 33,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.05230"
     },
@@ -509,7 +509,7 @@
     {
       "title": "Interpreting Physics in Video World Models",
       "year": 2026,
-      "citationCount": 5,
+      "citationCount": 6,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.07050"
     },
@@ -523,7 +523,7 @@
     {
       "title": "IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments",
       "year": 2025,
-      "citationCount": 30,
+      "citationCount": 32,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09849"
     }
@@ -573,6 +573,11 @@
       {
         "slug": "megi-dervishi",
         "name": "Megi Dervishi",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "amir-bar",
+        "name": "Amir Bar",
         "sharedPapers": 1
       },
       {
@@ -636,10 +641,6 @@
       },
       {
         "name": "Wancong Zhang",
-        "papers": 1
-      },
-      {
-        "name": "Amir Bar",
         "papers": 1
       },
       {

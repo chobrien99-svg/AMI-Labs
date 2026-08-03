@@ -48,11 +48,15 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2604.03208",
-      "citationCount": 12,
+      "citationCount": 15,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
           "name": "Adrien Bardes"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": "yann-lecun",
@@ -84,10 +88,6 @@
         },
         {
           "slug": null,
-          "name": "Amir Bar"
-        },
-        {
-          "slug": null,
           "name": "Nicolas Ballas"
         }
       ]
@@ -101,6 +101,10 @@
       "citationCount": 8,
       "coAuthors": [
         {
+          "slug": "david-fan",
+          "name": "David Fan"
+        },
+        {
           "slug": "megi-dervishi",
           "name": "Megi Dervishi"
         },
@@ -109,16 +113,16 @@
           "name": "Quentin Garrido"
         },
         {
-          "slug": "david-fan",
-          "name": "David Fan"
-        },
-        {
           "slug": "michael-rabbat",
           "name": "Michael Rabbat"
         },
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": null,
@@ -135,10 +139,6 @@
         {
           "slug": null,
           "name": "Wancong Zhang"
-        },
-        {
-          "slug": null,
-          "name": "Amir Bar"
         }
       ]
     },
@@ -148,7 +148,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.05230",
-      "citationCount": 29,
+      "citationCount": 33,
       "coAuthors": [
         {
           "slug": "quentin-garrido",
@@ -178,7 +178,7 @@
       "year": 2025,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2512.24497",
-      "citationCount": 23,
+      "citationCount": 24,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -204,7 +204,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2507.19468",
-      "citationCount": 51,
+      "citationCount": 52,
       "coAuthors": [
         {
           "slug": "yann-lecun",
@@ -246,7 +246,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.22355",
-      "citationCount": 77,
+      "citationCount": 79,
       "coAuthors": [
         {
           "slug": "willy-chung",
@@ -348,14 +348,14 @@
     {
       "title": "Hierarchical Planning with Latent World Models",
       "year": 2026,
-      "citationCount": 12,
+      "citationCount": 15,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2604.03208"
     },
     {
       "title": "Learning Latent Action World Models In The Wild",
       "year": 2026,
-      "citationCount": 29,
+      "citationCount": 33,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.05230"
     },
@@ -369,7 +369,7 @@
     {
       "title": "Embodied AI Agents: Modeling the World",
       "year": 2025,
-      "citationCount": 77,
+      "citationCount": 78,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.22355"
     }
@@ -408,6 +408,11 @@
         "sharedPapers": 2
       },
       {
+        "slug": "amir-bar",
+        "name": "Amir Bar",
+        "sharedPapers": 2
+      },
+      {
         "slug": "quentin-garrido",
         "name": "Quentin Garrido",
         "sharedPapers": 2
@@ -418,13 +423,13 @@
         "sharedPapers": 2
       },
       {
-        "slug": "megi-dervishi",
-        "name": "Megi Dervishi",
+        "slug": "david-fan",
+        "name": "David Fan",
         "sharedPapers": 1
       },
       {
-        "slug": "david-fan",
-        "name": "David Fan",
+        "slug": "megi-dervishi",
+        "name": "Megi Dervishi",
         "sharedPapers": 1
       },
       {
@@ -454,10 +459,6 @@
       },
       {
         "name": "Randall Balestriero",
-        "papers": 2
-      },
-      {
-        "name": "Amir Bar",
         "papers": 2
       },
       {

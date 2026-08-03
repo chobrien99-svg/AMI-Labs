@@ -28,7 +28,182 @@
   ],
   "reportsTo": "saining-xie",
   "reports": [],
-  "papers": [],
+  "papers": [
+    {
+      "paperId": "d48730481633499ce3ef5341c852c6439a5cae00",
+      "title": "Reshoot-Anything: A Self-Supervised Model for In-the-Wild Video Reshooting",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2604.21776",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Avinash Paliwal"
+        },
+        {
+          "slug": null,
+          "name": "Shivin Yadav"
+        },
+        {
+          "slug": null,
+          "name": "Muhammad Ali Afridi"
+        },
+        {
+          "slug": null,
+          "name": "M. Harikumar"
+        }
+      ]
+    },
+    {
+      "paperId": "6f24ecfb6232d6d239db8fa2f55dc71fcd6bfbda",
+      "title": "Rethinking Kernel Program Repair: Benchmarking and Enhancing LLMs with RGym",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2511.15757",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Kareem Shehada"
+        },
+        {
+          "slug": null,
+          "name": "Yifan Wu"
+        },
+        {
+          "slug": null,
+          "name": "Wyatt D. Feng"
+        },
+        {
+          "slug": null,
+          "name": "Gryphon Kumfert"
+        },
+        {
+          "slug": null,
+          "name": "Yangruibo Ding"
+        },
+        {
+          "slug": null,
+          "name": "Zhiyun Qian"
+        }
+      ]
+    },
+    {
+      "paperId": "94773f22b5befd0e167a7de525d29bec2b09937a",
+      "title": "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
+      "year": 2024,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2406.16860",
+      "citationCount": 913,
+      "coAuthors": [
+        {
+          "slug": "sanghyun-woo",
+          "name": "Sanghyun Woo"
+        },
+        {
+          "slug": "jihan-yang",
+          "name": "Jihan Yang"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
+          "slug": null,
+          "name": "Shengbang Tong"
+        },
+        {
+          "slug": null,
+          "name": "Ellis Brown"
+        },
+        {
+          "slug": null,
+          "name": "Penghao Wu"
+        },
+        {
+          "slug": null,
+          "name": "Manoj Middepogu"
+        },
+        {
+          "slug": null,
+          "name": "Sai Akula"
+        },
+        {
+          "slug": null,
+          "name": "Shusheng Yang"
+        },
+        {
+          "slug": null,
+          "name": "Xichen Pan"
+        },
+        {
+          "slug": null,
+          "name": "Austin Wang"
+        },
+        {
+          "slug": null,
+          "name": "Rob Fergus"
+        }
+      ]
+    },
+    {
+      "paperId": "59638d5237a53ec2f713af2aebcb38f925a8a308",
+      "title": "STENCIL: Submodular Mutual Information Based Weak Supervision for Cold-Start Active Learning",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2402.13468",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Nathan Beck"
+        },
+        {
+          "slug": null,
+          "name": "Rishabh K. Iyer"
+        }
+      ]
+    },
+    {
+      "paperId": "3af8e9671eafa1d86ef914ff30f14a1e4d96e1d4",
+      "title": "A Third Eye for Visually Impaired",
+      "year": 2023,
+      "venue": "2023 Intelligent Computing and Control for Engineering and Business Systems (ICCEBS)",
+      "url": "https://doi.org/10.1109/ICCEBS58601.2023.10448652",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "M. S"
+        },
+        {
+          "slug": null,
+          "name": "S. R"
+        },
+        {
+          "slug": null,
+          "name": "D. S."
+        },
+        {
+          "slug": null,
+          "name": "Sarath Kumaar J"
+        },
+        {
+          "slug": null,
+          "name": "Krishnamurthy C"
+        },
+        {
+          "slug": null,
+          "name": "A. R"
+        }
+      ]
+    }
+  ],
   "topPublications": [
     {
       "title": "Reshoot-Anything: A Self-Supervised Model for In-the-Wild Video Reshooting",
@@ -54,7 +229,7 @@
     {
       "title": "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
       "year": 2024,
-      "citationCount": 905,
+      "citationCount": 913,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2406.16860"
     },
@@ -82,8 +257,138 @@
   ],
   "xPosts": [],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "sanghyun-woo",
+        "name": "Sanghyun Woo",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "jihan-yang",
+        "name": "Jihan Yang",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "yann-lecun",
+        "name": "Yann LeCun",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "saining-xie",
+        "name": "Saining Xie",
+        "sharedPapers": 1
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "Avinash Paliwal",
+        "papers": 1
+      },
+      {
+        "name": "Shivin Yadav",
+        "papers": 1
+      },
+      {
+        "name": "Muhammad Ali Afridi",
+        "papers": 1
+      },
+      {
+        "name": "M. Harikumar",
+        "papers": 1
+      },
+      {
+        "name": "Kareem Shehada",
+        "papers": 1
+      },
+      {
+        "name": "Yifan Wu",
+        "papers": 1
+      },
+      {
+        "name": "Wyatt D. Feng",
+        "papers": 1
+      },
+      {
+        "name": "Gryphon Kumfert",
+        "papers": 1
+      },
+      {
+        "name": "Yangruibo Ding",
+        "papers": 1
+      },
+      {
+        "name": "Zhiyun Qian",
+        "papers": 1
+      },
+      {
+        "name": "Shengbang Tong",
+        "papers": 1
+      },
+      {
+        "name": "Ellis Brown",
+        "papers": 1
+      },
+      {
+        "name": "Penghao Wu",
+        "papers": 1
+      },
+      {
+        "name": "Manoj Middepogu",
+        "papers": 1
+      },
+      {
+        "name": "Sai Akula",
+        "papers": 1
+      },
+      {
+        "name": "Shusheng Yang",
+        "papers": 1
+      },
+      {
+        "name": "Xichen Pan",
+        "papers": 1
+      },
+      {
+        "name": "Austin Wang",
+        "papers": 1
+      },
+      {
+        "name": "Rob Fergus",
+        "papers": 1
+      },
+      {
+        "name": "Nathan Beck",
+        "papers": 1
+      },
+      {
+        "name": "Rishabh K. Iyer",
+        "papers": 1
+      },
+      {
+        "name": "M. S",
+        "papers": 1
+      },
+      {
+        "name": "S. R",
+        "papers": 1
+      },
+      {
+        "name": "D. S.",
+        "papers": 1
+      },
+      {
+        "name": "Sarath Kumaar J",
+        "papers": 1
+      },
+      {
+        "name": "Krishnamurthy C",
+        "papers": 1
+      },
+      {
+        "name": "A. R",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "julia-kempe",

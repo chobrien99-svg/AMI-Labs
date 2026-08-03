@@ -36,11 +36,15 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.14482",
-      "citationCount": 47,
+      "citationCount": 49,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
           "name": "Adrien Bardes"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": "michael-rabbat",
@@ -53,10 +57,6 @@
         {
           "slug": null,
           "name": "Lorenzo Mur-Labadia"
-        },
-        {
-          "slug": null,
-          "name": "Amir Bar"
         },
         {
           "slug": null,
@@ -78,19 +78,19 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 537,
+      "citationCount": 564,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
           "name": "Adrien Bardes"
         },
         {
-          "slug": "quentin-garrido",
-          "name": "Quentin Garrido"
-        },
-        {
           "slug": "david-fan",
           "name": "David Fan"
+        },
+        {
+          "slug": "quentin-garrido",
+          "name": "Quentin Garrido"
         },
         {
           "slug": "yann-lecun",
@@ -246,7 +246,7 @@
       "year": 2024,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2406.16829",
-      "citationCount": 17,
+      "citationCount": 18,
       "coAuthors": [
         {
           "slug": null,
@@ -268,7 +268,7 @@
       "year": 2024,
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-024-59705-0",
-      "citationCount": 16,
+      "citationCount": 17,
       "coAuthors": [
         {
           "slug": null,
@@ -328,7 +328,7 @@
       "year": 2023,
       "venue": "International Conference on Learning Representations",
       "url": "https://doi.org/10.48550/arXiv.2310.10325",
-      "citationCount": 140,
+      "citationCount": 139,
       "coAuthors": [
         {
           "slug": null,
@@ -350,7 +350,7 @@
       "year": 2023,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://www.semanticscholar.org/paper/d72bf83fbeae8df51ab86bb8f3965b40416c8ac7",
-      "citationCount": 72,
+      "citationCount": 74,
       "coAuthors": [
         {
           "slug": null,
@@ -371,14 +371,14 @@
     {
       "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
       "year": 2026,
-      "citationCount": 47,
+      "citationCount": 49,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.14482"
     },
     {
       "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
-      "citationCount": 537,
+      "citationCount": 564,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985"
     },
@@ -392,14 +392,14 @@
     {
       "title": "Accelerated MRI reconstructions via variational network and feature domain learning",
       "year": 2024,
-      "citationCount": 16,
+      "citationCount": 17,
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-024-59705-0"
     },
     {
       "title": "Understanding and Mitigating Tokenization Bias in Language Models",
       "year": 2024,
-      "citationCount": 17,
+      "citationCount": 18,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2406.16829"
     }
@@ -437,13 +437,18 @@
         "sharedPapers": 2
       },
       {
-        "slug": "quentin-garrido",
-        "name": "Quentin Garrido",
+        "slug": "amir-bar",
+        "name": "Amir Bar",
         "sharedPapers": 1
       },
       {
         "slug": "david-fan",
         "name": "David Fan",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "quentin-garrido",
+        "name": "Quentin Garrido",
         "sharedPapers": 1
       }
     ],
@@ -474,10 +479,6 @@
       },
       {
         "name": "Lorenzo Mur-Labadia",
-        "papers": 1
-      },
-      {
-        "name": "Amir Bar",
         "papers": 1
       },
       {

@@ -58,12 +58,12 @@
           "name": "Basile Terver"
         },
         {
-          "slug": "quentin-garrido",
-          "name": "Quentin Garrido"
-        },
-        {
           "slug": "david-fan",
           "name": "David Fan"
+        },
+        {
+          "slug": "quentin-garrido",
+          "name": "Quentin Garrido"
         },
         {
           "slug": "michael-rabbat",
@@ -72,6 +72,10 @@
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": null,
@@ -88,10 +92,6 @@
         {
           "slug": null,
           "name": "Wancong Zhang"
-        },
-        {
-          "slug": null,
-          "name": "Amir Bar"
         }
       ]
     },
@@ -286,18 +286,23 @@
         "sharedPapers": 1
       },
       {
-        "slug": "quentin-garrido",
-        "name": "Quentin Garrido",
-        "sharedPapers": 1
-      },
-      {
         "slug": "david-fan",
         "name": "David Fan",
         "sharedPapers": 1
       },
       {
+        "slug": "quentin-garrido",
+        "name": "Quentin Garrido",
+        "sharedPapers": 1
+      },
+      {
         "slug": "michael-rabbat",
         "name": "Michael Rabbat",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "amir-bar",
+        "name": "Amir Bar",
         "sharedPapers": 1
       }
     ],
@@ -328,10 +333,6 @@
       },
       {
         "name": "Wancong Zhang",
-        "papers": 1
-      },
-      {
-        "name": "Amir Bar",
         "papers": 1
       },
       {

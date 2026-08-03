@@ -2051,11 +2051,15 @@
       "year": 2024,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/ed92a7be6b2acc36baf0ed43454a97dbade0c893",
-      "citationCount": 602,
+      "citationCount": 606,
       "coAuthors": [
         {
           "slug": "andrew-brown",
           "name": "Andrew Brown"
+        },
+        {
+          "slug": "bowen-shi",
+          "name": "Bowen Shi"
         },
         {
           "slug": "rohit-girdhar",
@@ -2084,10 +2088,6 @@
         {
           "slug": null,
           "name": "Apoorv Vyas"
-        },
-        {
-          "slug": null,
-          "name": "Bowen Shi"
         },
         {
           "slug": null,
@@ -2409,7 +2409,7 @@
       "year": 2023,
       "venue": "European Conference on Computer Vision",
       "url": "https://doi.org/10.48550/arXiv.2311.10709",
-      "citationCount": 292,
+      "citationCount": 293,
       "coAuthors": [
         {
           "slug": "andrew-brown",
@@ -2455,7 +2455,7 @@
       "year": 2023,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51070.2023.01863",
-      "citationCount": 81,
+      "citationCount": 80,
       "coAuthors": [
         {
           "slug": null,
@@ -2493,7 +2493,7 @@
       "year": 2023,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51070.2023.00505",
-      "citationCount": 93,
+      "citationCount": 94,
       "coAuthors": [
         {
           "slug": "rohit-girdhar",
@@ -2591,7 +2591,7 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01499",
-      "citationCount": 1035,
+      "citationCount": 1061,
       "coAuthors": [
         {
           "slug": "michael-rabbat",
@@ -2837,7 +2837,7 @@
     {
       "title": "Movie Gen: A Cast of Media Foundation Models",
       "year": 2024,
-      "citationCount": 602,
+      "citationCount": 606,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/ed92a7be6b2acc36baf0ed43454a97dbade0c893"
     },
@@ -2851,7 +2851,7 @@
     {
       "title": "FACET: Fairness in Computer Vision Evaluation Benchmark",
       "year": 2023,
-      "citationCount": 81,
+      "citationCount": 80,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51070.2023.01863"
     },
@@ -2899,6 +2899,11 @@
         "slug": "yann-lecun",
         "name": "Yann LeCun",
         "sharedPapers": 2
+      },
+      {
+        "slug": "bowen-shi",
+        "name": "Bowen Shi",
+        "sharedPapers": 1
       },
       {
         "slug": "david-fan",
@@ -4958,10 +4963,6 @@
       },
       {
         "name": "Apoorv Vyas",
-        "papers": 1
-      },
-      {
-        "name": "Bowen Shi",
         "papers": 1
       },
       {

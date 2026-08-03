@@ -66,11 +66,15 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2604.03208",
-      "citationCount": 12,
+      "citationCount": 15,
       "coAuthors": [
         {
           "slug": "basile-terver",
           "name": "Basile Terver"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": "yann-lecun",
@@ -102,10 +106,6 @@
         },
         {
           "slug": null,
-          "name": "Amir Bar"
-        },
-        {
-          "slug": null,
           "name": "Nicolas Ballas"
         }
       ]
@@ -116,8 +116,12 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.14482",
-      "citationCount": 47,
+      "citationCount": 49,
       "coAuthors": [
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
+        },
         {
           "slug": "matthew-muckley",
           "name": "Matthew Muckley"
@@ -133,10 +137,6 @@
         {
           "slug": null,
           "name": "Lorenzo Mur-Labadia"
-        },
-        {
-          "slug": null,
-          "name": "Amir Bar"
         },
         {
           "slug": null,
@@ -158,7 +158,7 @@
       "year": 2025,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2512.24497",
-      "citationCount": 23,
+      "citationCount": 24,
       "coAuthors": [
         {
           "slug": "basile-terver",
@@ -184,8 +184,12 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 537,
+      "citationCount": 564,
       "coAuthors": [
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
+        },
         {
           "slug": "matthew-muckley",
           "name": "Matthew Muckley"
@@ -193,10 +197,6 @@
         {
           "slug": "quentin-garrido",
           "name": "Quentin Garrido"
-        },
-        {
-          "slug": "david-fan",
-          "name": "David Fan"
         },
         {
           "slug": "yann-lecun",
@@ -322,7 +322,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2502.11831",
-      "citationCount": 66,
+      "citationCount": 67,
       "coAuthors": [
         {
           "slug": "michael-rabbat",
@@ -399,7 +399,7 @@
       "year": 2024,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2403.00504",
-      "citationCount": 69,
+      "citationCount": 70,
       "coAuthors": [
         {
           "slug": "yann-lecun",
@@ -429,7 +429,7 @@
       "year": 2024,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2404.08471",
-      "citationCount": 400,
+      "citationCount": 413,
       "coAuthors": [
         {
           "slug": "michael-rabbat",
@@ -686,14 +686,14 @@
     {
       "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
       "year": 2026,
-      "citationCount": 47,
+      "citationCount": 49,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.14482"
     },
     {
       "title": "Hierarchical Planning with Latent World Models",
       "year": 2026,
-      "citationCount": 12,
+      "citationCount": 15,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2604.03208"
     },
@@ -707,14 +707,14 @@
     {
       "title": "What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?",
       "year": 2025,
-      "citationCount": 23,
+      "citationCount": 24,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2512.24497"
     },
     {
       "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
-      "citationCount": 537,
+      "citationCount": 564,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985"
     }
@@ -757,6 +757,11 @@
         "sharedPapers": 2
       },
       {
+        "slug": "amir-bar",
+        "name": "Amir Bar",
+        "sharedPapers": 2
+      },
+      {
         "slug": "matthew-muckley",
         "name": "Matthew Muckley",
         "sharedPapers": 2
@@ -787,10 +792,6 @@
       },
       {
         "name": "Mido Assran",
-        "papers": 2
-      },
-      {
-        "name": "Amir Bar",
         "papers": 2
       },
       {

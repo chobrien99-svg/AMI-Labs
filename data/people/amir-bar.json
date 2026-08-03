@@ -34,8 +34,593 @@
   ],
   "reportsTo": "pascale-fung",
   "reports": [],
-  "papers": [],
-  "topPublications": [],
+  "papers": [
+    {
+      "paperId": "0858da5e7989e7cacdb550ca11c5ef32b49c3932",
+      "title": "PGT: Procedurally Generated Tasks for improving visual grounding in MLLMs",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.23883",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Rim Assouel"
+        },
+        {
+          "slug": null,
+          "name": "Michal Drozdzal"
+        },
+        {
+          "slug": null,
+          "name": "Adriana Romero-Soriano"
+        }
+      ]
+    },
+    {
+      "paperId": "477e20594635eb0ced89bbf2dd9ec873278cf48d",
+      "title": "Hierarchical Planning with Latent World Models",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2604.03208",
+      "citationCount": 15,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": "basile-terver",
+          "name": "Basile Terver"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Wancong Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Artem Zholus"
+        },
+        {
+          "slug": null,
+          "name": "Soham Chitnis"
+        },
+        {
+          "slug": null,
+          "name": "Harsh Sutaria"
+        },
+        {
+          "slug": null,
+          "name": "Mido Assran"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        }
+      ]
+    },
+    {
+      "paperId": "42ca8bd0ae408eff0d3bd9f5e121f792876e83ea",
+      "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.14482",
+      "citationCount": 49,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": "matthew-muckley",
+          "name": "Matthew Muckley"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Lorenzo Mur-Labadia"
+        },
+        {
+          "slug": null,
+          "name": "Mido Assran"
+        },
+        {
+          "slug": null,
+          "name": "Koustuv Sinha"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        }
+      ]
+    },
+    {
+      "paperId": "acb718a8659640ac1258d3bd391ddd9f1f2d7251",
+      "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.03276",
+      "citationCount": 20,
+      "coAuthors": [
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
+        },
+        {
+          "slug": "john-nguyen",
+          "name": "John Nguyen"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
+          "slug": null,
+          "name": "Shengbang Tong"
+        },
+        {
+          "slug": null,
+          "name": "Ellis Brown"
+        },
+        {
+          "slug": null,
+          "name": "Gaoyue Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Shengyi Qian"
+        },
+        {
+          "slug": null,
+          "name": "Boyang Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Th'eophane Vallaeys"
+        },
+        {
+          "slug": null,
+          "name": "Junlin Han"
+        },
+        {
+          "slug": null,
+          "name": "Rob Fergus"
+        },
+        {
+          "slug": null,
+          "name": "Naila Murray"
+        },
+        {
+          "slug": null,
+          "name": "Marjan Ghazvininejad"
+        },
+        {
+          "slug": null,
+          "name": "Mike Lewis"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Jakob Verbeek"
+        },
+        {
+          "slug": null,
+          "name": "Luke S. Zettlemoyer"
+        },
+        {
+          "slug": null,
+          "name": "Koustuv Sinha"
+        }
+      ]
+    },
+    {
+      "paperId": "7e65d820f13cf94be083495fd2c433c0886f5a9b",
+      "title": "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.03604",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": "basile-terver",
+          "name": "Basile Terver"
+        },
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
+        },
+        {
+          "slug": "megi-dervishi",
+          "name": "Megi Dervishi"
+        },
+        {
+          "slug": "quentin-garrido",
+          "name": "Quentin Garrido"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Tushar Nagarajan"
+        },
+        {
+          "slug": null,
+          "name": "Koustuv Sinha"
+        },
+        {
+          "slug": null,
+          "name": "Wancong Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "c20bfd9d9af460157201ad786e5f6b1898a292a0",
+      "title": "Grounding Generated Videos in Feasible Plans via World Models",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.01960",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Christos Ziakas"
+        },
+        {
+          "slug": null,
+          "name": "Alessandra Russo"
+        }
+      ]
+    },
+    {
+      "paperId": "6209c4ab686552f9d644f56ff962018a67978e27",
+      "title": "Parallel Stochastic Gradient-Based Planning for World Models",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.00475",
+      "citationCount": 7,
+      "coAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Michael Psenka"
+        },
+        {
+          "slug": null,
+          "name": "Aditi Krishnapriyan"
+        }
+      ]
+    },
+    {
+      "paperId": "281539c8c28178f1b9badfc97649824f9b278806",
+      "title": "DeFM: Learning Foundation Representations from Depth for Robotics",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.18923",
+      "citationCount": 3,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Manthan Patel"
+        },
+        {
+          "slug": null,
+          "name": "Jonas Frey"
+        },
+        {
+          "slug": null,
+          "name": "Mayank Mittal"
+        },
+        {
+          "slug": null,
+          "name": "Fan Yang"
+        },
+        {
+          "slug": null,
+          "name": "Alexander Hansson"
+        },
+        {
+          "slug": null,
+          "name": "César Cadena"
+        },
+        {
+          "slug": null,
+          "name": "Marco Hutter"
+        }
+      ]
+    },
+    {
+      "paperId": "088a45338d45f05f6a7460fb152615fb96150f6e",
+      "title": "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
+      "year": 2025,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/088a45338d45f05f6a7460fb152615fb96150f6e",
+      "citationCount": 15,
+      "coAuthors": [
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Raktim Gautam Goswami"
+        },
+        {
+          "slug": null,
+          "name": "Tsung-Yen Yang"
+        },
+        {
+          "slug": null,
+          "name": "Gaoyue Zhou"
+        },
+        {
+          "slug": null,
+          "name": "P. Krishnamurthy"
+        },
+        {
+          "slug": null,
+          "name": "F. Khorrami"
+        }
+      ]
+    },
+    {
+      "paperId": "9ed9abb407371ff86811ec0cb97e6c6097c8f217",
+      "title": "TV2TV: A Unified Framework for Interleaved Language and Video Generation",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2512.05103",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": "john-nguyen",
+          "name": "John Nguyen"
+        },
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        },
+        {
+          "slug": null,
+          "name": "Xiaochuang Han"
+        },
+        {
+          "slug": null,
+          "name": "Youssef Emad"
+        },
+        {
+          "slug": null,
+          "name": "Melissa Hall"
+        },
+        {
+          "slug": null,
+          "name": "Karthik Padthe"
+        },
+        {
+          "slug": null,
+          "name": "Liam Robbins"
+        },
+        {
+          "slug": null,
+          "name": "M. Drozdzal"
+        },
+        {
+          "slug": null,
+          "name": "Maha Elbayad"
+        },
+        {
+          "slug": null,
+          "name": "Yushi Hu"
+        },
+        {
+          "slug": null,
+          "name": "Shang-Wen Li"
+        },
+        {
+          "slug": null,
+          "name": "Sreya . Dutta Roy"
+        },
+        {
+          "slug": null,
+          "name": "Jakob Verbeek"
+        },
+        {
+          "slug": null,
+          "name": "Xudong Wang"
+        },
+        {
+          "slug": null,
+          "name": "Marjan Ghazvininejad"
+        },
+        {
+          "slug": null,
+          "name": "Luke S. Zettlemoyer"
+        },
+        {
+          "slug": null,
+          "name": "Emily Dinan"
+        }
+      ]
+    },
+    {
+      "paperId": "aa5d0f6a14a9da689de842f6af61021e6d91aadf",
+      "title": "Scaling Language-Free Visual Representation Learning",
+      "year": 2025,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV51701.2025.00042",
+      "citationCount": 66,
+      "coAuthors": [
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
+          "slug": null,
+          "name": "Shengbang Tong"
+        },
+        {
+          "slug": null,
+          "name": "Jiacheng Zhu"
+        },
+        {
+          "slug": null,
+          "name": "Koustuv Sinha"
+        },
+        {
+          "slug": null,
+          "name": "Zhuang Liu"
+        },
+        {
+          "slug": null,
+          "name": "Xinlei Chen"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        }
+      ]
+    },
+    {
+      "paperId": "da136b4651e035c2bafd0bfd34433faf7af2619e",
+      "title": "Stochastic positional embeddings improve masked image modeling",
+      "year": 2023,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/da136b4651e035c2bafd0bfd34433faf7af2619e",
+      "citationCount": 10,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Florian Bordes"
+        },
+        {
+          "slug": null,
+          "name": "Assaf Shocher"
+        },
+        {
+          "slug": null,
+          "name": "Mahmoud Assran"
+        },
+        {
+          "slug": null,
+          "name": "Pascal Vincent"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Trevor Darrell"
+        },
+        {
+          "slug": null,
+          "name": "A. Globerson"
+        }
+      ]
+    }
+  ],
+  "topPublications": [
+    {
+      "title": "PGT: Procedurally Generated Tasks for improving visual grounding in MLLMs",
+      "year": 2026,
+      "citationCount": 0,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.23883"
+    },
+    {
+      "title": "DeFM: Learning Foundation Representations from Depth for Robotics",
+      "year": 2026,
+      "citationCount": 3,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.18923"
+    },
+    {
+      "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+      "year": 2026,
+      "citationCount": 49,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.14482"
+    },
+    {
+      "title": "Parallel Stochastic Gradient-Based Planning for World Models",
+      "year": 2026,
+      "citationCount": 7,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.00475"
+    },
+    {
+      "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+      "year": 2026,
+      "citationCount": 20,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.03276"
+    }
+  ],
   "githubProjects": [],
   "githubActivity": {
     "username": "amirbar",
@@ -52,8 +637,313 @@
   ],
   "xPosts": [],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "yann-lecun",
+        "name": "Yann LeCun",
+        "sharedPapers": 8
+      },
+      {
+        "slug": "michael-rabbat",
+        "name": "Michael Rabbat",
+        "sharedPapers": 6
+      },
+      {
+        "slug": "david-fan",
+        "name": "David Fan",
+        "sharedPapers": 4
+      },
+      {
+        "slug": "adrien-bardes",
+        "name": "Adrien Bardes",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "basile-terver",
+        "name": "Basile Terver",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "john-nguyen",
+        "name": "John Nguyen",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "saining-xie",
+        "name": "Saining Xie",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "matthew-muckley",
+        "name": "Matthew Muckley",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "megi-dervishi",
+        "name": "Megi Dervishi",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "quentin-garrido",
+        "name": "Quentin Garrido",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "delong-chen",
+        "name": "Delong Chen",
+        "sharedPapers": 1
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "Nicolas Ballas",
+        "papers": 5
+      },
+      {
+        "name": "Koustuv Sinha",
+        "papers": 4
+      },
+      {
+        "name": "Wancong Zhang",
+        "papers": 2
+      },
+      {
+        "name": "Mido Assran",
+        "papers": 2
+      },
+      {
+        "name": "Randall Balestriero",
+        "papers": 2
+      },
+      {
+        "name": "Shengbang Tong",
+        "papers": 2
+      },
+      {
+        "name": "Gaoyue Zhou",
+        "papers": 2
+      },
+      {
+        "name": "Marjan Ghazvininejad",
+        "papers": 2
+      },
+      {
+        "name": "Jakob Verbeek",
+        "papers": 2
+      },
+      {
+        "name": "Luke S. Zettlemoyer",
+        "papers": 2
+      },
+      {
+        "name": "Rim Assouel",
+        "papers": 1
+      },
+      {
+        "name": "Michal Drozdzal",
+        "papers": 1
+      },
+      {
+        "name": "Adriana Romero-Soriano",
+        "papers": 1
+      },
+      {
+        "name": "Artem Zholus",
+        "papers": 1
+      },
+      {
+        "name": "Soham Chitnis",
+        "papers": 1
+      },
+      {
+        "name": "Harsh Sutaria",
+        "papers": 1
+      },
+      {
+        "name": "Lorenzo Mur-Labadia",
+        "papers": 1
+      },
+      {
+        "name": "Ellis Brown",
+        "papers": 1
+      },
+      {
+        "name": "Shengyi Qian",
+        "papers": 1
+      },
+      {
+        "name": "Boyang Zheng",
+        "papers": 1
+      },
+      {
+        "name": "Th'eophane Vallaeys",
+        "papers": 1
+      },
+      {
+        "name": "Junlin Han",
+        "papers": 1
+      },
+      {
+        "name": "Rob Fergus",
+        "papers": 1
+      },
+      {
+        "name": "Naila Murray",
+        "papers": 1
+      },
+      {
+        "name": "Mike Lewis",
+        "papers": 1
+      },
+      {
+        "name": "Tushar Nagarajan",
+        "papers": 1
+      },
+      {
+        "name": "Christos Ziakas",
+        "papers": 1
+      },
+      {
+        "name": "Alessandra Russo",
+        "papers": 1
+      },
+      {
+        "name": "Michael Psenka",
+        "papers": 1
+      },
+      {
+        "name": "Aditi Krishnapriyan",
+        "papers": 1
+      },
+      {
+        "name": "Manthan Patel",
+        "papers": 1
+      },
+      {
+        "name": "Jonas Frey",
+        "papers": 1
+      },
+      {
+        "name": "Mayank Mittal",
+        "papers": 1
+      },
+      {
+        "name": "Fan Yang",
+        "papers": 1
+      },
+      {
+        "name": "Alexander Hansson",
+        "papers": 1
+      },
+      {
+        "name": "César Cadena",
+        "papers": 1
+      },
+      {
+        "name": "Marco Hutter",
+        "papers": 1
+      },
+      {
+        "name": "Raktim Gautam Goswami",
+        "papers": 1
+      },
+      {
+        "name": "Tsung-Yen Yang",
+        "papers": 1
+      },
+      {
+        "name": "P. Krishnamurthy",
+        "papers": 1
+      },
+      {
+        "name": "F. Khorrami",
+        "papers": 1
+      },
+      {
+        "name": "Xiaochuang Han",
+        "papers": 1
+      },
+      {
+        "name": "Youssef Emad",
+        "papers": 1
+      },
+      {
+        "name": "Melissa Hall",
+        "papers": 1
+      },
+      {
+        "name": "Karthik Padthe",
+        "papers": 1
+      },
+      {
+        "name": "Liam Robbins",
+        "papers": 1
+      },
+      {
+        "name": "M. Drozdzal",
+        "papers": 1
+      },
+      {
+        "name": "Maha Elbayad",
+        "papers": 1
+      },
+      {
+        "name": "Yushi Hu",
+        "papers": 1
+      },
+      {
+        "name": "Shang-Wen Li",
+        "papers": 1
+      },
+      {
+        "name": "Sreya . Dutta Roy",
+        "papers": 1
+      },
+      {
+        "name": "Xudong Wang",
+        "papers": 1
+      },
+      {
+        "name": "Emily Dinan",
+        "papers": 1
+      },
+      {
+        "name": "Jiacheng Zhu",
+        "papers": 1
+      },
+      {
+        "name": "Zhuang Liu",
+        "papers": 1
+      },
+      {
+        "name": "Xinlei Chen",
+        "papers": 1
+      },
+      {
+        "name": "Florian Bordes",
+        "papers": 1
+      },
+      {
+        "name": "Assaf Shocher",
+        "papers": 1
+      },
+      {
+        "name": "Mahmoud Assran",
+        "papers": 1
+      },
+      {
+        "name": "Pascal Vincent",
+        "papers": 1
+      },
+      {
+        "name": "Trevor Darrell",
+        "papers": 1
+      },
+      {
+        "name": "A. Globerson",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "adrien-bardes",
