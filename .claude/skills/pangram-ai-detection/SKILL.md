@@ -47,9 +47,16 @@ be far more accurate and less hand-wavy if you have that model in your head.
   set, the skill still runs in **heuristic-only mode** — say so plainly in the report and
   label the risk estimate as a proxy, not a Pangram result.
 - Python 3 (standard library only; no packages to install).
-- Optional overrides: `PANGRAM_API_URL` (default `https://text.api.pangram.com/v3`) and
-  `PANGRAM_VERSION` (default `4.0`, i.e. Pangram 4). Adjust these only if the user's
-  account docs specify something different.
+- The Pangram REST API is asynchronous: `pangram_check.py` POSTs to a task endpoint
+  (`https://text.external-api.pangram.com/task` by default), then polls
+  `.../task/<task_id>` until the result is ready. It authenticates with the `x-api-key`
+  header and never prints the key.
+- Optional overrides (rarely needed): `PANGRAM_API_URL` (task base URL),
+  `PANGRAM_POLL_TIMEOUT` (default 120s), and `PANGRAM_PUBLIC_DASHBOARD=1` to request a
+  shareable public dashboard link (off by default for privacy).
+- Network note: the API host must be reachable from wherever the skill runs. Some
+  sandboxed environments firewall outbound hosts; if the call returns a proxy/tunnel 403,
+  run the skill from an environment with egress to `text.external-api.pangram.com`.
 
 ## Workflow
 
