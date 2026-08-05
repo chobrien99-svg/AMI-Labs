@@ -1,18 +1,11 @@
 {
   "yann-lecun": [
     {
-      "title": "Announcing the Shaw Prize in Computer Science",
-      "year": 2026,
-      "citationCount": 0,
-      "venue": "Communications of the ACM",
-      "url": "https://doi.org/10.1145/3811413"
-    },
-    {
-      "title": "FAST INCREMENTAL LEARNING FOR AUTONOMOUS GROUND NAVIGATION",
-      "year": 2024,
-      "citationCount": 0,
-      "venue": "SAE technical paper series",
-      "url": "https://doi.org/10.4271/2024-01-3556"
+      "title": "Augmented Language Models: a Survey",
+      "year": 2023,
+      "citationCount": 584,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://www.semanticscholar.org/paper/2029349c55c1dba3493c5b3bd25152f18ba21ae2"
     },
     {
       "title": "Learning and Leveraging World Models in Visual Representation Learning",
@@ -29,64 +22,64 @@
       "url": "https://doi.org/10.48550/arXiv.2302.02774"
     },
     {
-      "title": "Minimalistic Unsupervised Representation Learning with the Sparse Manifold Transform",
+      "title": "Self-supervised learning of Split Invariant Equivariant representations",
       "year": 2023,
-      "citationCount": 8,
-      "venue": "International Conference on Learning Representations",
-      "url": "https://www.semanticscholar.org/paper/0380271e23c5a3348f9f8ad1906b692b22f8b75e"
+      "citationCount": 46,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2302.10283"
+    },
+    {
+      "title": "An Information-Theoretic Perspective on Variance-Invariance-Covariance Regularization",
+      "year": 2023,
+      "citationCount": 32,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2303.00633"
     }
   ],
   "saining-xie": [
     {
-      "title": "Going Denser with Open-Vocabulary Part Segmentation",
-      "year": 2023,
-      "citationCount": 94,
-      "venue": "IEEE International Conference on Computer Vision",
-      "url": "https://doi.org/10.1109/ICCV51070.2023.01417"
-    },
-    {
-      "title": "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders",
-      "year": 2023,
-      "citationCount": 1889,
+      "title": "Masked Autoencoders Are Scalable Vision Learners",
+      "year": 2021,
+      "citationCount": 12331,
       "venue": "Computer Vision and Pattern Recognition",
-      "url": "https://doi.org/10.1109/CVPR52729.2023.01548"
-    },
-    {
-      "title": "CiT: Curation in Training for Effective Vision-Language Data",
-      "year": 2023,
-      "citationCount": 32,
-      "venue": "IEEE International Conference on Computer Vision",
-      "url": "https://doi.org/10.48550/arXiv.2301.02241"
+      "url": "https://doi.org/10.1109/CVPR52688.2022.01553"
     },
     {
       "title": "A ConvNet for the 2020s",
       "year": 2022,
-      "citationCount": 8933,
+      "citationCount": 8942,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01167"
     },
     {
-      "title": "Can we train vision and language zero-shot classiﬁcation models without syntax?",
+      "title": "Scalable Diffusion Models with Transformers",
       "year": 2022,
-      "citationCount": 0,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/4fca50ab80e278f7210b632e501e3616dd3eb2a1"
+      "citationCount": 6789,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV51070.2023.00387"
+    },
+    {
+      "title": "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders",
+      "year": 2023,
+      "citationCount": 1894,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52729.2023.01548"
+    },
+    {
+      "title": "Masked Feature Prediction for Self-Supervised Visual Pre-Training",
+      "year": 2021,
+      "citationCount": 871,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52688.2022.01426"
     }
   ],
   "li-jing": [
     {
-      "title": "Understanding LLMs’ summarization capabilities: an analysis of biomedical abstract and lay summary generation",
-      "year": 2026,
-      "citationCount": 0,
-      "venue": "Annual Meeting of the Association for Computational Linguistics",
-      "url": "https://doi.org/10.18653/v1/2026.findings-acl.554"
-    },
-    {
-      "title": "Chatbots in Educational Settings: A Comprehensive Literature Review",
+      "title": "OpenAI GPT-5 System Card",
       "year": 2025,
-      "citationCount": 1,
-      "venue": "2025 7th International Conference on Computer Science and Technologies in Education (CSTE)",
-      "url": "https://doi.org/10.1109/CSTE64638.2025.11092062"
+      "citationCount": 720,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/6f9e6a47b8c2a65d3fa758bb4062f096b4afd34d"
     },
     {
       "title": "From ID-based to ID-free: Rethinking ID Effectiveness in Multimodal Collaborative Filtering Recommendation",
@@ -103,28 +96,21 @@
       "url": "https://doi.org/10.48550/arXiv.2505.22037"
     },
     {
-      "title": "OpenAI GPT-5 System Card",
+      "title": "From KMMLU-Redux to Pro: A Professional Korean Benchmark Suite for LLM Evaluation",
       "year": 2025,
-      "citationCount": 709,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/6f9e6a47b8c2a65d3fa758bb4062f096b4afd34d"
+      "citationCount": 3,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.18653/v1/2025.findings-emnlp.1038"
+    },
+    {
+      "title": "Chatbots in Educational Settings: A Comprehensive Literature Review",
+      "year": 2025,
+      "citationCount": 1,
+      "venue": "2025 7th International Conference on Computer Science and Technologies in Education (CSTE)",
+      "url": "https://doi.org/10.1109/CSTE64638.2025.11092062"
     }
   ],
   "min-lin": [
-    {
-      "title": "Rethinking the Trust Region in LLM Reinforcement Learning",
-      "year": 2026,
-      "citationCount": 20,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.04879"
-    },
-    {
-      "title": "FlowReasoner: Reinforcing Query-Level Meta-Agents",
-      "year": 2025,
-      "citationCount": 47,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2504.15257"
-    },
     {
       "title": "Reinforcing General Reasoning without Verifiers",
       "year": 2025,
@@ -140,62 +126,69 @@
       "url": "https://doi.org/10.48550/arXiv.2510.26788"
     },
     {
-      "title": "Variational Reasoning for Language Models",
+      "title": "FlowReasoner: Reinforcing Query-Level Meta-Agents",
       "year": 2025,
-      "citationCount": 6,
+      "citationCount": 48,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2509.22637"
+      "url": "https://doi.org/10.48550/arXiv.2504.15257"
+    },
+    {
+      "title": "Optimizing Anytime Reasoning via Budget Relative Policy Optimization",
+      "year": 2025,
+      "citationCount": 26,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2505.13438"
+    },
+    {
+      "title": "Rethinking the Trust Region in LLM Reinforcement Learning",
+      "year": 2026,
+      "citationCount": 20,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.04879"
     }
   ],
   "xingyi-zhou": [
     {
-      "title": "How can objects help action recognition?",
-      "year": 2023,
-      "citationCount": 32,
+      "title": "Detecting Twenty-thousand Classes using Image-level Supervision",
+      "year": 2022,
+      "citationCount": 892,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-031-20077-9_21"
+    },
+    {
+      "title": "Multimodal Virtual Point 3D Detection",
+      "year": 2021,
+      "citationCount": 367,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/9eaf5cc6f632b456e1d2959a93965c91f5c91fae"
+    },
+    {
+      "title": "Global Tracking Transformers",
+      "year": 2022,
+      "citationCount": 212,
       "venue": "Computer Vision and Pattern Recognition",
-      "url": "https://doi.org/10.1109/CVPR52729.2023.00233"
+      "url": "https://doi.org/10.1109/CVPR52688.2022.00857"
     },
     {
-      "title": "DaTaSeg: Taming a Universal Multi-Dataset Multi-Task Segmentation Model",
-      "year": 2023,
-      "citationCount": 40,
-      "venue": "Neural Information Processing Systems",
-      "url": "https://doi.org/10.48550/arXiv.2306.01736"
+      "title": "Simple Multi-dataset Detection",
+      "year": 2021,
+      "citationCount": 160,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52688.2022.00742"
     },
     {
-      "title": "Dense Video Object Captioning from Disjoint Supervision",
-      "year": 2023,
-      "citationCount": 11,
-      "venue": "International Conference on Learning Representations",
-      "url": "https://doi.org/10.48550/arXiv.2306.11729"
-    },
-    {
-      "title": "Does Visual Pretraining Help End-to-End Reasoning?",
-      "year": 2023,
-      "citationCount": 4,
-      "venue": "Neural Information Processing Systems",
-      "url": "https://doi.org/10.48550/arXiv.2307.08506"
-    },
-    {
-      "title": "First principles investigation on Na-ion storage in two-dimensional boron-rich B2N, B3N, and B5N.",
-      "year": 2023,
-      "citationCount": 5,
-      "venue": "Physical Chemistry, Chemical Physics - PCCP",
-      "url": "https://doi.org/10.1039/d2cp03662b"
+      "title": "NMS Strikes Back",
+      "year": 2022,
+      "citationCount": 59,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2212.06137"
     }
   ],
   "sanghyun-woo": [
     {
-      "title": "MTMMC: A Large-Scale Real-World Multi-Modal Camera Tracking Benchmark",
-      "year": 2024,
-      "citationCount": 5,
-      "venue": "Computer Vision and Pattern Recognition",
-      "url": "https://doi.org/10.1109/CVPR52733.2024.02108"
-    },
-    {
       "title": "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders",
       "year": 2023,
-      "citationCount": 1889,
+      "citationCount": 1894,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548"
     },
@@ -207,6 +200,13 @@
       "url": "https://doi.org/10.1109/CVPR52729.2023.00198"
     },
     {
+      "title": "Learning Classifiers of Prototypes and Reciprocal Points for Universal Domain Adaptation",
+      "year": 2022,
+      "citationCount": 16,
+      "venue": "IEEE Workshop/Winter Conference on Applications of Computer Vision",
+      "url": "https://doi.org/10.1109/WACV56688.2023.00060"
+    },
+    {
       "title": "Bidirectional Domain Mixup for Domain Adaptive Semantic Segmentation",
       "year": 2023,
       "citationCount": 14,
@@ -214,14 +214,28 @@
       "url": "https://doi.org/10.48550/arXiv.2303.09779"
     },
     {
-      "title": "Cyclical Compound Domain Test-time Adaptation via Continual Domain-Matching Algorithm",
-      "year": 2023,
-      "citationCount": 0,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/d2b6db657204b8505ee6c7cf4833cb7811b6f162"
+      "title": "Tracking by Associating Clips",
+      "year": 2022,
+      "citationCount": 12,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-031-19806-9_8"
     }
   ],
   "delong-chen": [
+    {
+      "title": "Measuring Political Bias in Large Language Models: What Is Said and How It Is Said",
+      "year": 2024,
+      "citationCount": 133,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2403.18932"
+    },
+    {
+      "title": "Few-shot adaptation of multi-modal foundation models: a survey",
+      "year": 2024,
+      "citationCount": 69,
+      "venue": "Artificial Intelligence Review",
+      "url": "https://doi.org/10.1007/s10462-024-10915-y"
+    },
     {
       "title": "RemoteSAM: Towards Segment Anything for Earth Observation",
       "year": 2025,
@@ -230,25 +244,11 @@
       "url": "https://doi.org/10.1145/3746027.3754950"
     },
     {
-      "title": "Chain-of-Talkers (CoTalk): Fast Human Annotation of Dense Image Captions",
-      "year": 2025,
-      "citationCount": 1,
-      "venue": "Conference on Empirical Methods in Natural Language Processing",
-      "url": "https://doi.org/10.48550/arXiv.2505.22627"
-    },
-    {
-      "title": "Making Large Vision Language Models to be Good Few-shot Learners",
+      "title": "Subobject-level Image Tokenization",
       "year": 2024,
-      "citationCount": 8,
-      "venue": "AAAI Conference on Artificial Intelligence",
-      "url": "https://doi.org/10.48550/arXiv.2408.11297"
-    },
-    {
-      "title": "What Makes for Good Image Captions?",
-      "year": 2024,
-      "citationCount": 13,
-      "venue": "Conference on Empirical Methods in Natural Language Processing",
-      "url": "https://doi.org/10.18653/v1/2025.findings-emnlp.75"
+      "citationCount": 23,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2402.14327"
     },
     {
       "title": "High-Dimension Human Value Representation in Large Language Models",
@@ -260,11 +260,32 @@
   ],
   "michael-rabbat": [
     {
-      "title": "MJEPA: A Simple and Scalable Joint-Embedding Predictive Architecture for Audio-Visual Learning",
-      "year": 2026,
-      "citationCount": 0,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/bbb2fba52c4d7d3b29f58a5e136d012acdc2010d"
+      "title": "DINOv2: Learning Robust Visual Features without Supervision",
+      "year": 2023,
+      "citationCount": 9616,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2304.07193"
+    },
+    {
+      "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+      "year": 2023,
+      "citationCount": 1068,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52729.2023.01499"
+    },
+    {
+      "title": "Revisiting Feature Prediction for Learning Visual Representations from Video",
+      "year": 2024,
+      "citationCount": 416,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2404.08471"
+    },
+    {
+      "title": "Federated Learning with Partial Model Personalization",
+      "year": 2022,
+      "citationCount": 244,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2204.03809"
     },
     {
       "title": "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
@@ -272,36 +293,29 @@
       "citationCount": 67,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2502.11831"
-    },
-    {
-      "title": "Revisiting Feature Prediction for Learning Visual Representations from Video",
-      "year": 2024,
-      "citationCount": 413,
-      "venue": "Trans. Mach. Learn. Res.",
-      "url": "https://doi.org/10.48550/arXiv.2404.08471"
-    },
-    {
-      "title": "Benchmarking Neural Network Training Algorithms",
-      "year": 2023,
-      "citationCount": 51,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2306.07179"
-    },
-    {
-      "title": "DINOv2: Learning Robust Visual Features without Supervision",
-      "year": 2023,
-      "citationCount": 9567,
-      "venue": "Trans. Mach. Learn. Res.",
-      "url": "https://doi.org/10.48550/arXiv.2304.07193"
     }
   ],
   "pascale-fung": [
+    {
+      "title": "InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning",
+      "year": 2023,
+      "citationCount": 3780,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2305.06500"
+    },
     {
       "title": "LLMs Are Few-Shot In-Context Low-Resource Language Learners",
       "year": 2024,
       "citationCount": 113,
       "venue": "North American Chapter of the Association for Computational Linguistics",
       "url": "https://doi.org/10.48550/arXiv.2403.16512"
+    },
+    {
+      "title": "Cendol: Open Instruction-tuned Generative Large Language Models for Indonesian Languages",
+      "year": 2024,
+      "citationCount": 31,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2404.06138"
     },
     {
       "title": "Subobject-level Image Tokenization",
@@ -311,28 +325,35 @@
       "url": "https://doi.org/10.48550/arXiv.2402.14327"
     },
     {
-      "title": "Cendol: Open Instruction-tuned Generative Large Language Models for Indonesian Languages",
-      "year": 2024,
-      "citationCount": 30,
-      "venue": "Annual Meeting of the Association for Computational Linguistics",
-      "url": "https://doi.org/10.48550/arXiv.2404.06138"
-    },
-    {
       "title": "InstructTODS: Large Language Models for End-to-End Task-Oriented Dialogue Systems",
       "year": 2023,
       "citationCount": 14,
       "venue": "NLINT",
       "url": "https://doi.org/10.48550/arXiv.2310.08885"
-    },
-    {
-      "title": "Diverse and Faithful Knowledge-Grounded Dialogue Generation via Sequential Posterior Inference",
-      "year": 2023,
-      "citationCount": 9,
-      "venue": "International Conference on Machine Learning",
-      "url": "https://doi.org/10.48550/arXiv.2306.01153"
     }
   ],
   "julia-kempe": [
+    {
+      "title": "Outcome-based Exploration for LLM Reasoning",
+      "year": 2025,
+      "citationCount": 79,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.06941"
+    },
+    {
+      "title": "Soft Tokens, Hard Truths",
+      "year": 2025,
+      "citationCount": 17,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.19170"
+    },
+    {
+      "title": "Teaching Models to Teach Themselves: Reasoning at the Edge of Learnability",
+      "year": 2026,
+      "citationCount": 16,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.18778"
+    },
     {
       "title": "Likelihood-Based Reward Designs for General LLM Reasoning",
       "year": 2026,
@@ -341,35 +362,28 @@
       "url": "https://doi.org/10.48550/arXiv.2602.03979"
     },
     {
-      "title": "Learning through Internalization",
-      "year": 2026,
-      "citationCount": 0,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/31e6e9e341f8e8152c9f633b5838c585853feb1b"
-    },
-    {
       "title": "Efficient RL Training for LLMs with Experience Replay",
       "year": 2026,
-      "citationCount": 3,
+      "citationCount": 4,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2604.08706"
-    },
-    {
-      "title": "Teaching Models to Teach Themselves: Reasoning at the Edge of Learnability",
-      "year": 2026,
-      "citationCount": 15,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2601.18778"
-    },
-    {
-      "title": "Outcome-based Exploration for LLM Reasoning",
-      "year": 2025,
-      "citationCount": 78,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2509.06941"
     }
   ],
   "adithya-iyer": [
+    {
+      "title": "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
+      "year": 2024,
+      "citationCount": 918,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2406.16860"
+    },
+    {
+      "title": "Rethinking Kernel Program Repair: Benchmarking and Enhancing LLMs with RGym",
+      "year": 2025,
+      "citationCount": 2,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2511.15757"
+    },
     {
       "title": "Reshoot-Anything: A Self-Supervised Model for In-the-Wild Video Reshooting",
       "year": 2026,
@@ -378,25 +392,11 @@
       "url": "https://doi.org/10.48550/arXiv.2604.21776"
     },
     {
-      "title": "Rethinking Kernel Program Repair: Benchmarking and Enhancing LLMs with RGym",
-      "year": 2025,
-      "citationCount": 1,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2511.15757"
-    },
-    {
       "title": "STENCIL: Submodular Mutual Information Based Weak Supervision for Cold-Start Active Learning",
       "year": 2024,
       "citationCount": 1,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2402.13468"
-    },
-    {
-      "title": "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
-      "year": 2024,
-      "citationCount": 913,
-      "venue": "Neural Information Processing Systems",
-      "url": "https://doi.org/10.48550/arXiv.2406.16860"
     },
     {
       "title": "A Third Eye for Visually Impaired",
@@ -408,46 +408,46 @@
   ],
   "adrien-bardes": [
     {
-      "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
-      "year": 2026,
-      "citationCount": 49,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2603.14482"
-    },
-    {
-      "title": "Hierarchical Planning with Latent World Models",
-      "year": 2026,
-      "citationCount": 15,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2604.03208"
-    },
-    {
-      "title": "MJEPA: A Simple and Scalable Joint-Embedding Predictive Architecture for Audio-Visual Learning",
-      "year": 2026,
-      "citationCount": 0,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/bbb2fba52c4d7d3b29f58a5e136d012acdc2010d"
-    },
-    {
-      "title": "What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?",
-      "year": 2025,
-      "citationCount": 24,
-      "venue": "Trans. Mach. Learn. Res.",
-      "url": "https://doi.org/10.48550/arXiv.2512.24497"
-    },
-    {
       "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
-      "citationCount": 564,
+      "citationCount": 572,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985"
+    },
+    {
+      "title": "An Introduction to Vision-Language Modeling",
+      "year": 2024,
+      "citationCount": 239,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2405.17247"
+    },
+    {
+      "title": "Learning and Leveraging World Models in Visual Representation Learning",
+      "year": 2024,
+      "citationCount": 70,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2403.00504"
+    },
+    {
+      "title": "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
+      "year": 2025,
+      "citationCount": 67,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2502.11831"
+    },
+    {
+      "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+      "year": 2026,
+      "citationCount": 50,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.14482"
     }
   ],
   "andrew-brown": [
     {
       "title": "Movie Gen: A Cast of Media Foundation Models",
       "year": 2024,
-      "citationCount": 606,
+      "citationCount": 608,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/ed92a7be6b2acc36baf0ed43454a97dbade0c893"
     },
@@ -468,18 +468,18 @@
   ],
   "basile-terver": [
     {
-      "title": "PEIRA: Learning Predictive Encoders through Inter-View Regressor Alignment",
-      "year": 2026,
-      "citationCount": 0,
+      "title": "Embodied AI Agents: Modeling the World",
+      "year": 2025,
+      "citationCount": 79,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2605.17671"
+      "url": "https://doi.org/10.48550/arXiv.2506.22355"
     },
     {
-      "title": "Hierarchical Planning with Latent World Models",
-      "year": 2026,
-      "citationCount": 15,
+      "title": "Back to the Features: DINO as a Foundation for Video World Models",
+      "year": 2025,
+      "citationCount": 53,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2604.03208"
+      "url": "https://doi.org/10.48550/arXiv.2507.19468"
     },
     {
       "title": "Learning Latent Action World Models In The Wild",
@@ -489,41 +489,41 @@
       "url": "https://doi.org/10.48550/arXiv.2601.05230"
     },
     {
-      "title": "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
-      "year": 2026,
-      "citationCount": 8,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.03604"
+      "title": "What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?",
+      "year": 2025,
+      "citationCount": 25,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2512.24497"
     },
     {
-      "title": "Embodied AI Agents: Modeling the World",
-      "year": 2025,
-      "citationCount": 78,
+      "title": "Hierarchical Planning with Latent World Models",
+      "year": 2026,
+      "citationCount": 15,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2506.22355"
+      "url": "https://doi.org/10.48550/arXiv.2604.03208"
     }
   ],
   "bingyi-kang": [
+    {
+      "title": "Efficient Diffusion Policies for Offline Reinforcement Learning",
+      "year": 2023,
+      "citationCount": 186,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2305.20081"
+    },
+    {
+      "title": "BuboGPT: Enabling Visual Grounding in Multi-Modal LLMs",
+      "year": 2023,
+      "citationCount": 134,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2307.08581"
+    },
     {
       "title": "Loong: Generating Minute-level Long Videos with Autoregressive Language Models",
       "year": 2024,
       "citationCount": 102,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2410.02757"
-    },
-    {
-      "title": "Bag of Tricks for Training Data Extraction from Language Models",
-      "year": 2023,
-      "citationCount": 96,
-      "venue": "International Conference on Machine Learning",
-      "url": "https://doi.org/10.48550/arXiv.2302.04460"
-    },
-    {
-      "title": "Decoupled Prioritized Resampling for Offline RL",
-      "year": 2023,
-      "citationCount": 12,
-      "venue": "IEEE Transactions on Neural Networks and Learning Systems",
-      "url": "https://doi.org/10.1109/TNNLS.2024.3488358"
     },
     {
       "title": "MADiff: Offline Multi-agent Learning with Diffusion Models",
@@ -533,58 +533,51 @@
       "url": "https://doi.org/10.48550/arXiv.2305.17330"
     },
     {
-      "title": "Efficient Diffusion Policies for Offline Reinforcement Learning",
+      "title": "Bag of Tricks for Training Data Extraction from Language Models",
       "year": 2023,
-      "citationCount": 186,
-      "venue": "Neural Information Processing Systems",
-      "url": "https://doi.org/10.48550/arXiv.2305.20081"
+      "citationCount": 96,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2302.04460"
     }
   ],
   "brian-li": [
     {
-      "title": "UniG2U-Bench: Do Unified Models Advance Multimodal Understanding?",
-      "year": 2026,
-      "citationCount": 3,
+      "title": "LLaVA-OneVision: Easy Visual Task Transfer",
+      "year": 2024,
+      "citationCount": 2817,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2408.03326"
+    },
+    {
+      "title": "LLaVA-NeXT-Interleave: Tackling Multi-image, Video, and 3D in Large Multimodal Models",
+      "year": 2024,
+      "citationCount": 624,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2603.03241"
+      "url": "https://doi.org/10.48550/arXiv.2407.07895"
     },
     {
-      "title": "Video-MMMU: Evaluating Knowledge Acquisition from Multidisciplinary Professional Videos",
-      "year": 2026,
-      "citationCount": 2,
-      "venue": "Annual Meeting of the Association for Computational Linguistics",
-      "url": "https://doi.org/10.18653/v1/2026.acl-long.1281"
+      "title": "LLaVA-Video: Video Instruction Tuning With Synthetic Data",
+      "year": 2024,
+      "citationCount": 454,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://www.semanticscholar.org/paper/ed44571dd9de3654b84ee1fea63015ecb67e6e63"
     },
     {
-      "title": "TUNA: Comprehensive Fine-grained Temporal Understanding Evaluation on Dense Dynamic Videos",
-      "year": 2025,
-      "citationCount": 11,
-      "venue": "Annual Meeting of the Association for Computational Linguistics",
-      "url": "https://doi.org/10.48550/arXiv.2505.20124"
+      "title": "LMMs-Eval: Reality Check on the Evaluation of Large Multimodal Models",
+      "year": 2024,
+      "citationCount": 336,
+      "venue": "North American Chapter of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.18653/v1/2025.findings-naacl.51"
     },
     {
       "title": "Video-MMMU: Evaluating Knowledge Acquisition from Multi-Discipline Professional Videos",
       "year": 2025,
-      "citationCount": 217,
+      "citationCount": 218,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2501.13826"
-    },
-    {
-      "title": "MME-Survey: A Comprehensive Survey on Evaluation of Multimodal LLMs",
-      "year": 2024,
-      "citationCount": 77,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2411.15296"
     }
   ],
   "chao-du": [
-    {
-      "title": "Rethinking the Trust Region in LLM Reinforcement Learning",
-      "year": 2026,
-      "citationCount": 20,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.04879"
-    },
     {
       "title": "Defeating the Training-Inference Mismatch via FP16",
       "year": 2025,
@@ -593,48 +586,48 @@
       "url": "https://doi.org/10.48550/arXiv.2510.26788"
     },
     {
-      "title": "BanditSpec: Adaptive Speculative Decoding via Bandit Algorithms",
+      "title": "Optimizing Anytime Reasoning via Budget Relative Policy Optimization",
       "year": 2025,
-      "citationCount": 13,
-      "venue": "International Conference on Machine Learning",
-      "url": "https://doi.org/10.48550/arXiv.2505.15141"
-    },
-    {
-      "title": "Variational Reasoning for Language Models",
-      "year": 2025,
-      "citationCount": 6,
+      "citationCount": 26,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2509.22637"
+      "url": "https://doi.org/10.48550/arXiv.2505.13438"
     },
     {
-      "title": "Towards Learning on Vertically Partitioned Data with Distributed Differential Privacy",
+      "title": "Rethinking the Trust Region in LLM Reinforcement Learning",
+      "year": 2026,
+      "citationCount": 20,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.04879"
+    },
+    {
+      "title": "Error Analyses of Auto-Regressive Video Diffusion Models: A Unified Framework",
       "year": 2025,
-      "citationCount": 0,
-      "venue": "IEEE International Conference on Data Engineering",
-      "url": "https://doi.org/10.1109/ICDE65448.2025.00161"
+      "citationCount": 18,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2503.10704"
+    },
+    {
+      "title": "Improving Your Model Ranking on Chatbot Arena by Vote Rigging",
+      "year": 2025,
+      "citationCount": 15,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2501.17858"
     }
   ],
   "david-fan": [
     {
-      "title": "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
-      "year": 2026,
-      "citationCount": 8,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.03604"
-    },
-    {
-      "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
-      "year": 2026,
-      "citationCount": 20,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2603.03276"
-    },
-    {
-      "title": "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
+      "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
-      "citationCount": 15,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/088a45338d45f05f6a7460fb152615fb96150f6e"
+      "citationCount": 572,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.09985"
+    },
+    {
+      "title": "MetaMorph: Multimodal Understanding and Generation via Instruction Tuning",
+      "year": 2024,
+      "citationCount": 219,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV51701.2025.01579"
     },
     {
       "title": "Scaling Language-Free Visual Representation Learning",
@@ -644,34 +637,34 @@
       "url": "https://doi.org/10.1109/ICCV51701.2025.00042"
     },
     {
-      "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+      "title": "Learning to See Before Seeing: Demystifying LLM Visual Priors from Language Pre-training",
       "year": 2025,
-      "citationCount": 564,
+      "citationCount": 23,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2506.09985"
+      "url": "https://doi.org/10.48550/arXiv.2509.26625"
+    },
+    {
+      "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+      "year": 2026,
+      "citationCount": 21,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.03276"
     }
   ],
   "jihan-yang": [
     {
-      "title": "From Where Things Are to What They Are For: Benchmarking Spatial-Functional Intelligence in Multimodal LLMs",
-      "year": 2026,
-      "citationCount": 1,
+      "title": "Cambrian-S: Towards Spatial Supersensing in Video",
+      "year": 2025,
+      "citationCount": 114,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2605.02130"
+      "url": "https://doi.org/10.48550/arXiv.2511.04670"
     },
     {
       "title": "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
       "year": 2026,
-      "citationCount": 39,
+      "citationCount": 40,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.16208"
-    },
-    {
-      "title": "Cambrian-P: Pose-Grounded Video Understanding",
-      "year": 2026,
-      "citationCount": 0,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2605.22819"
     },
     {
       "title": "Benchmark Designers Should \"Train on the Test Set\" to Expose Exploitable Non-Visual Shortcuts",
@@ -681,18 +674,25 @@
       "url": "https://doi.org/10.48550/arXiv.2511.04655"
     },
     {
-      "title": "Cambrian-S: Towards Spatial Supersensing in Video",
+      "title": "Traveling Across Languages: Benchmarking Cross-Lingual Consistency in Multimodal LLMs",
       "year": 2025,
-      "citationCount": 113,
+      "citationCount": 3,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2511.04670"
+      "url": "https://doi.org/10.48550/arXiv.2505.15075"
+    },
+    {
+      "title": "From Where Things Are to What They Are For: Benchmarking Spatial-Functional Intelligence in Multimodal LLMs",
+      "year": 2026,
+      "citationCount": 1,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.02130"
     }
   ],
   "john-nguyen": [
     {
       "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
       "year": 2026,
-      "citationCount": 20,
+      "citationCount": 21,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276"
     },
@@ -713,53 +713,53 @@
   ],
   "matthew-muckley": [
     {
-      "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
-      "year": 2026,
-      "citationCount": 49,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2603.14482"
-    },
-    {
       "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
-      "citationCount": 564,
+      "citationCount": 572,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985"
     },
     {
-      "title": "Residual Quantization with Implicit Neural Codebooks",
-      "year": 2024,
-      "citationCount": 26,
+      "title": "Towards image compression with perfect realism at ultra-low bitrates",
+      "year": 2023,
+      "citationCount": 139,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2310.10325"
+    },
+    {
+      "title": "Improving Statistical Fidelity for Neural Image Compression with Implicit Local Likelihood Models",
+      "year": 2023,
+      "citationCount": 130,
       "venue": "International Conference on Machine Learning",
-      "url": "https://doi.org/10.48550/arXiv.2401.14732"
+      "url": "https://doi.org/10.48550/arXiv.2301.11189"
     },
     {
-      "title": "Accelerated MRI reconstructions via variational network and feature domain learning",
-      "year": 2024,
-      "citationCount": 17,
-      "venue": "Scientific Reports",
-      "url": "https://doi.org/10.1038/s41598-024-59705-0"
+      "title": "Deep Learning Reconstruction Enables Prospectively Accelerated Clinical Knee MRI.",
+      "year": 2023,
+      "citationCount": 114,
+      "venue": "Radiology",
+      "url": "https://doi.org/10.1148/radiol.220425"
     },
     {
-      "title": "Understanding and Mitigating Tokenization Bias in Language Models",
-      "year": 2024,
-      "citationCount": 18,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2406.16829"
+      "title": "Training-free linear image inverses via flows",
+      "year": 2023,
+      "citationCount": 74,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://www.semanticscholar.org/paper/d72bf83fbeae8df51ab86bb8f3965b40416c8ac7"
     }
   ],
   "megi-dervishi": [
     {
-      "title": "Separating Representation from Reconstruction Enables Scalable Text Encoders",
-      "year": 2026,
-      "citationCount": 0,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/4f890d8373b93892ce2a50d87415653fc225a5a8"
+      "title": "WorldSense: A Synthetic Benchmark for Grounded Reasoning in Large Language Models",
+      "year": 2023,
+      "citationCount": 19,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2311.15930"
     },
     {
       "title": "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
       "year": 2026,
-      "citationCount": 8,
+      "citationCount": 9,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.03604"
     },
@@ -771,58 +771,79 @@
       "url": "https://doi.org/10.18653/v1/2025.emnlp-main.1804"
     },
     {
-      "title": "WorldSense: A Synthetic Benchmark for Grounded Reasoning in Large Language Models",
-      "year": 2023,
-      "citationCount": 19,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2311.15930"
+      "title": "Time, Privacy, Robustness, Accuracy: Trade Offs for the Open Vote Network Protocol",
+      "year": 2021,
+      "citationCount": 3,
+      "venue": "IACR Cryptology ePrint Archive",
+      "url": "https://doi.org/10.1007/978-3-031-15911-4_2"
     },
     {
-      "title": "Near-Optimal Pool Testing under Urgency Constraints",
-      "year": 2021,
+      "title": "Separating Representation from Reconstruction Enables Scalable Text Encoders",
+      "year": 2026,
       "citationCount": 0,
-      "venue": "arXiv.org",
-      "url": "https://www.semanticscholar.org/paper/b2d009db853956292e9041a7d340435c8913e6fb"
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/4f890d8373b93892ce2a50d87415653fc225a5a8"
     }
   ],
   "quentin-duval": [
     {
-      "title": "The Llama 4 Herd: Architecture, Training, Evaluation, and Deployment Notes",
-      "year": 2026,
-      "citationCount": 22,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2601.11659"
+      "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+      "year": 2023,
+      "citationCount": 1068,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52729.2023.01499"
     },
     {
       "title": "Movie Gen: A Cast of Media Foundation Models",
       "year": 2024,
-      "citationCount": 606,
+      "citationCount": 608,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/ed92a7be6b2acc36baf0ed43454a97dbade0c893"
     },
     {
-      "title": "A Simple Recipe for Competitive Low-compute Self supervised Vision Models",
+      "title": "Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning",
       "year": 2023,
-      "citationCount": 12,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2301.09451"
+      "citationCount": 293,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.48550/arXiv.2311.10709"
     },
     {
-      "title": "FACET: Fairness in Computer Vision Evaluation Benchmark",
+      "title": "Vision Models Are More Robust And Fair When Pretrained On Uncurated Images Without Supervision",
+      "year": 2022,
+      "citationCount": 125,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/07c6a2ccb65913f2478234e96dd50c9593989c5c"
+    },
+    {
+      "title": "The effectiveness of MAE pre-pretraining for billion-scale pretraining",
       "year": 2023,
-      "citationCount": 80,
+      "citationCount": 94,
       "venue": "IEEE International Conference on Computer Vision",
-      "url": "https://doi.org/10.1109/ICCV51070.2023.01863"
-    },
-    {
-      "title": "Learning to Substitute Ingredients in Recipes",
-      "year": 2023,
-      "citationCount": 15,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2302.07960"
+      "url": "https://doi.org/10.1109/ICCV51070.2023.00505"
     }
   ],
   "quentin-garrido": [
+    {
+      "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+      "year": 2025,
+      "citationCount": 572,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.09985"
+    },
+    {
+      "title": "Learning and Leveraging World Models in Visual Representation Learning",
+      "year": 2024,
+      "citationCount": 70,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2403.00504"
+    },
+    {
+      "title": "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
+      "year": 2025,
+      "citationCount": 67,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2502.11831"
+    },
     {
       "title": "Learning Latent Action World Models In The Wild",
       "year": 2026,
@@ -831,41 +852,27 @@
       "url": "https://doi.org/10.48550/arXiv.2601.05230"
     },
     {
-      "title": "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
-      "year": 2026,
-      "citationCount": 8,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.03604"
-    },
-    {
-      "title": "Interpreting Physics in Video World Models",
-      "year": 2026,
-      "citationCount": 6,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.07050"
-    },
-    {
-      "title": "A Shortcut-aware Video-QA Benchmark for Physical Understanding via Minimal Video Pairs",
-      "year": 2025,
-      "citationCount": 18,
-      "venue": "Trans. Mach. Learn. Res.",
-      "url": "https://doi.org/10.48550/arXiv.2506.09987"
-    },
-    {
-      "title": "IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments",
-      "year": 2025,
-      "citationCount": 32,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2506.09849"
+      "title": "UniBench: Visual Reasoning Requires Rethinking Vision-Language Beyond Scaling",
+      "year": 2024,
+      "citationCount": 33,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2408.04810"
     }
   ],
   "quentin-le-lidec": [
     {
       "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
       "year": 2026,
-      "citationCount": 116,
+      "citationCount": 121,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.19312"
+    },
+    {
+      "title": "GJK++: Leveraging Acceleration Methods for Faster Collision Detection",
+      "year": 2024,
+      "citationCount": 32,
+      "venue": "IEEE Transactions on robotics",
+      "url": "https://doi.org/10.1109/TRO.2024.3386370"
     },
     {
       "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
@@ -875,42 +882,21 @@
       "url": "https://doi.org/10.48550/arXiv.2602.11389"
     },
     {
-      "title": "stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation",
-      "year": 2026,
-      "citationCount": 3,
+      "title": "End-to-End and Highly-Efficient Differentiable Simulation for Robotics",
+      "year": 2024,
+      "citationCount": 13,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2605.21800"
+      "url": "https://doi.org/10.48550/arXiv.2409.07107"
     },
     {
-      "title": "stable-worldmodel-v1: Reproducible World Modeling Research and Evaluation",
-      "year": 2026,
-      "citationCount": 5,
+      "title": "Value-guided action planning with JEPA world models",
+      "year": 2025,
+      "citationCount": 10,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.08968"
-    },
-    {
-      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Masking",
-      "year": 2026,
-      "citationCount": 4,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/bed6ecff103c1a6f3a516d9b9d4847be8aff5294"
+      "url": "https://doi.org/10.48550/arXiv.2601.00844"
     }
   ],
   "tengyu-ma": [
-    {
-      "title": "Anchored Self-Play for Code Repair",
-      "year": 2026,
-      "citationCount": 0,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/1231876b4c92c7a26d4e0cbea9cac388d6dafefb"
-    },
-    {
-      "title": "Fantastic Pretraining Optimizers and Where to Find Them II: Hyperball Optimization",
-      "year": 2026,
-      "citationCount": 4,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/d90159d04db78db63e04ebd03a8d65f985b5eb85"
-    },
     {
       "title": "Larger language models do in-context learning differently",
       "year": 2023,
@@ -919,41 +905,41 @@
       "url": "https://doi.org/10.48550/arXiv.2303.03846"
     },
     {
+      "title": "DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining",
+      "year": 2023,
+      "citationCount": 404,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2305.10429"
+    },
+    {
+      "title": "Data Selection for Language Models via Importance Resampling",
+      "year": 2023,
+      "citationCount": 358,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2302.03169"
+    },
+    {
       "title": "Large Language Models as Tool Makers",
       "year": 2023,
-      "citationCount": 325,
+      "citationCount": 326,
       "venue": "International Conference on Learning Representations",
       "url": "https://doi.org/10.48550/arXiv.2305.17126"
     },
     {
-      "title": "Symbol tuning improves in-context learning in language models",
+      "title": "Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training",
       "year": 2023,
-      "citationCount": 105,
-      "venue": "Conference on Empirical Methods in Natural Language Processing",
-      "url": "https://doi.org/10.48550/arXiv.2305.08298"
+      "citationCount": 304,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2305.14342"
     }
   ],
   "willy-chung": [
     {
-      "title": "Action100M: A Large-scale Video Action Dataset",
-      "year": 2026,
-      "citationCount": 8,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2601.10592"
-    },
-    {
       "title": "Embodied AI Agents: Modeling the World",
       "year": 2025,
-      "citationCount": 78,
+      "citationCount": 79,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.22355"
-    },
-    {
-      "title": "Planning with Reasoning using Vision Language World Model",
-      "year": 2025,
-      "citationCount": 31,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2509.02722"
     },
     {
       "title": "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language",
@@ -963,34 +949,34 @@
       "url": "https://doi.org/10.48550/arXiv.2512.10942"
     },
     {
+      "title": "Planning with Reasoning using Vision Language World Model",
+      "year": 2025,
+      "citationCount": 32,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.02722"
+    },
+    {
       "title": "WorldPrediction: A Benchmark for High-level World Modeling and Long-horizon Procedural Planning",
       "year": 2025,
       "citationCount": 14,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.04363"
+    },
+    {
+      "title": "InstructTODS: Large Language Models for End-to-End Task-Oriented Dialogue Systems",
+      "year": 2023,
+      "citationCount": 14,
+      "venue": "NLINT",
+      "url": "https://doi.org/10.48550/arXiv.2310.08885"
     }
   ],
   "xinyi-wan": [
     {
-      "title": "RL over Commodity Networks: Overcoming the Bandwidth Barrier with Lossless Sparse Deltas",
-      "year": 2026,
-      "citationCount": 0,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.11456"
-    },
-    {
-      "title": "KVerus: Scalable and Resilient Formal Verification Proof Generation for Rust Code",
-      "year": 2026,
-      "citationCount": 2,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2605.03822"
-    },
-    {
-      "title": "Revisiting Parameter Server in LLM Post-Training",
-      "year": 2026,
-      "citationCount": 2,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2601.19362"
+      "title": "PipeOffload: Improving Scalability of Pipeline Parallelism with Memory Optimization",
+      "year": 2025,
+      "citationCount": 8,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2503.01328"
     },
     {
       "title": "CortenMM: Efficient Memory Management with Strong Correctness Guarantees",
@@ -1000,27 +986,55 @@
       "url": "https://doi.org/10.1145/3731569.3764836"
     },
     {
-      "title": "PipeOffload: Improving Scalability of Pipeline Parallelism with Memory Optimization",
+      "title": "Cortex: Achieving Low-Latency, Cost-Efficient Remote Data Access For LLM via Semantic-Aware Knowledge Caching",
       "year": 2025,
-      "citationCount": 8,
-      "venue": "International Conference on Machine Learning",
-      "url": "https://doi.org/10.48550/arXiv.2503.01328"
+      "citationCount": 5,
+      "venue": "Symposium on Networked Systems Design and Implementation",
+      "url": "https://www.semanticscholar.org/paper/641a8b01dc986ede5d894765b24c5fed6ad15462"
+    },
+    {
+      "title": "EMULATE: A Multi-Agent Framework for Determining the Veracity of Atomic Claims by Emulating Human Actions",
+      "year": 2025,
+      "citationCount": 4,
+      "venue": "Proceedings of the Eighth Fact Extraction and VERification Workshop (FEVER)",
+      "url": "https://doi.org/10.48550/arXiv.2505.16576"
+    },
+    {
+      "title": "KVerus: Scalable and Resilient Formal Verification Proof Generation for Rust Code",
+      "year": 2026,
+      "citationCount": 3,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.03822"
     }
   ],
   "ayaan-naveed-malik": [
     {
       "title": "World Action Models are Zero-shot Policies",
       "year": 2026,
-      "citationCount": 215,
+      "citationCount": 227,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.15922"
     },
     {
       "title": "DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos",
       "year": 2026,
-      "citationCount": 81,
+      "citationCount": 84,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.06949"
+    },
+    {
+      "title": "Administration of Prophylactic Levetiracetam in Patients with Intracerebral Hemorrhage: A Systematic Review and Meta-Analysis.",
+      "year": 2024,
+      "citationCount": 3,
+      "venue": "Health Sciences Review",
+      "url": "https://doi.org/10.1016/j.hsr.2024.100168"
+    },
+    {
+      "title": "MSR28 Use of Large Language Model (LLM) for Full-Text Screening in Systematic Literature Reviews: A Comparative Analysis",
+      "year": 2024,
+      "citationCount": 2,
+      "venue": "Value in Health",
+      "url": "https://doi.org/10.1016/j.jval.2024.03.1461"
     },
     {
       "title": "Improving intrauterine contraceptive device follow-up with a scan-only clinic model in a specialist community contraception service",
@@ -1028,87 +1042,52 @@
       "citationCount": 0,
       "venue": "BMJ Sexual & Reproductive Health",
       "url": "https://doi.org/10.1136/bmjsrh-2025-202815"
-    },
-    {
-      "title": "Types of stressors, stress-coping strategies, and personality traits as predictors of depression and anxiety among teachers in a suddenly stressful situation",
-      "year": 2025,
-      "citationCount": 0,
-      "venue": "Journal of Health Inequalities",
-      "url": "https://doi.org/10.5114/jhi.2025.155418"
-    },
-    {
-      "title": "The median sacral artery and its surgical anatomy in pelvic and spinal surgery: a systematic review and meta-analysis.",
-      "year": 2025,
-      "citationCount": 0,
-      "venue": "Folia Morphologica",
-      "url": "https://doi.org/10.5603/fm.105386"
     }
   ],
   "amir-bar": [
     {
-      "title": "PGT: Procedurally Generated Tasks for improving visual grounding in MLLMs",
-      "year": 2026,
-      "citationCount": 0,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2605.23883"
-    },
-    {
-      "title": "DeFM: Learning Foundation Representations from Depth for Robotics",
-      "year": 2026,
-      "citationCount": 3,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2601.18923"
+      "title": "Scaling Language-Free Visual Representation Learning",
+      "year": 2025,
+      "citationCount": 66,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV51701.2025.00042"
     },
     {
       "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
       "year": 2026,
-      "citationCount": 49,
+      "citationCount": 50,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.14482"
     },
     {
-      "title": "Parallel Stochastic Gradient-Based Planning for World Models",
-      "year": 2026,
-      "citationCount": 7,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.00475"
+      "title": "Pixels Versus Priors: Controlling Knowledge Priors in Vision-Language Models through Visual Counterfacts",
+      "year": 2025,
+      "citationCount": 23,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.48550/arXiv.2505.17127"
     },
     {
       "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
       "year": 2026,
-      "citationCount": 20,
+      "citationCount": 21,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276"
+    },
+    {
+      "title": "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
+      "year": 2025,
+      "citationCount": 15,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/088a45338d45f05f6a7460fb152615fb96150f6e"
     }
   ],
   "bowen-shi": [
     {
-      "title": "Mosaic: Unlocking Long-Context Inference for Diffusion LLMs via Global Memory Planning and Dynamic Peak Taming",
-      "year": 2026,
-      "citationCount": 2,
+      "title": "Meta Audiobox Aesthetics: Unified Automatic Quality Assessment for Speech, Music, and Sound",
+      "year": 2025,
+      "citationCount": 174,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2601.06562"
-    },
-    {
-      "title": "SAM Audio Judge: A Unified Multimodal Framework for Perceptual Evaluation of Audio Separation",
-      "year": 2026,
-      "citationCount": 1,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2601.19702"
-    },
-    {
-      "title": "MDI-YOLO a lightweight transformer-CNN-based multidimensional feature fusion model for small object detection",
-      "year": 2026,
-      "citationCount": 2,
-      "venue": "Scientific Reports",
-      "url": "https://doi.org/10.1038/s41598-026-38378-x"
-    },
-    {
-      "title": "JASTIN: Aligning LLMs for Zero-Shot Audio and Speech Evaluation via Natural Language Instructions",
-      "year": 2026,
-      "citationCount": 0,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2605.04505"
+      "url": "https://doi.org/10.48550/arXiv.2502.05139"
     },
     {
       "title": "SAM Audio: Segment Anything in Audio",
@@ -1116,29 +1095,50 @@
       "citationCount": 32,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2512.18099"
+    },
+    {
+      "title": "Meta Audiobox Aesthetics: Unified Automatic Assessment for Speech, Music and Sound",
+      "year": 2025,
+      "citationCount": 10,
+      "venue": "Automatic Speech Recognition & Understanding",
+      "url": "https://doi.org/10.1109/ASRU65441.2025.11434623"
+    },
+    {
+      "title": "MR-FlowDPO: Multi-Reward Direct Preference Optimization for Flow-Matching Text-to-Music Generation",
+      "year": 2025,
+      "citationCount": 3,
+      "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "url": "https://doi.org/10.48550/arXiv.2512.10264"
+    },
+    {
+      "title": "Mosaic: Unlocking Long-Context Inference for Diffusion LLMs via Global Memory Planning and Dynamic Peak Taming",
+      "year": 2026,
+      "citationCount": 2,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.06562"
     }
   ],
   "xuefeng-hu": [
     {
-      "title": "An investigation of ultraviolet-induced degradation: Kinetics and interface evolution in TOPCon solar cells",
-      "year": 2026,
-      "citationCount": 0,
-      "venue": "Solar Energy Materials and Solar Cells",
-      "url": "https://doi.org/10.1016/j.solmat.2026.114373"
+      "title": "SPAN: Spatial Pyramid Attention Network forImage Manipulation Localization",
+      "year": 2020,
+      "citationCount": 312,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-030-58589-1_19"
     },
     {
-      "title": "Thermoelectric composite hydrogels with ionic-electronic transport for bioactive energy harvesting and sensing",
-      "year": 2026,
-      "citationCount": 1,
-      "venue": "Nano Energy",
-      "url": "https://doi.org/10.1016/j.nanoen.2026.111940"
+      "title": "SimPLE: Similar Pseudo Label Exploitation for Semi-Supervised Classification",
+      "year": 2021,
+      "citationCount": 176,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR46437.2021.01485"
     },
     {
-      "title": "Multi-modal recommendation algorithm fusing visual and textual features",
-      "year": 2023,
-      "citationCount": 7,
-      "venue": "PLoS ONE",
-      "url": "https://doi.org/10.1371/journal.pone.0287927"
+      "title": "MixNorm: Test-Time Adaptation Through Online Normalization Estimation",
+      "year": 2021,
+      "citationCount": 55,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/7d57c581e2c38dc23ed8256574575aaac8675810"
     },
     {
       "title": "ReCLIP: Refine Contrastive Language Image Pre-Training with Source Free Domain Adaptation",
@@ -1148,11 +1148,11 @@
       "url": "https://doi.org/10.1109/WACV57701.2024.00297"
     },
     {
-      "title": "Efficient Feature Distillation for Zero-shot Detection",
+      "title": "Multi-modal recommendation algorithm fusing visual and textual features",
       "year": 2023,
-      "citationCount": 2,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2303.12145"
+      "citationCount": 7,
+      "venue": "PLoS ONE",
+      "url": "https://doi.org/10.1371/journal.pone.0287927"
     }
   ]
 }
