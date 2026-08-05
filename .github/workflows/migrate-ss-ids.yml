@@ -1,0 +1,27 @@
+name: Migrate Semantic Scholar IDs
+
+# One-time, idempotent: converts each person's semanticScholarId from a bare
+# string to a single-element array so the Studio's "Semantic Scholar Author IDs"
+# list field renders cleanly. Safe to re-run — it only touches docs still holding
+# a string. Trigger from the Actions tab (Run workflow); it patches Sanity only,
+# no repo commit.
+on:
+  workflow_dispatch:
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install @sanity/client
+
+      - name: Migrate semanticScholarId to array form
+        env:
+          SANITY_API_WRITE_TOKEN: ${{ secrets.SANITY_API_WRITE_TOKEN }}
+        run: node scripts/migrate-ss-ids.js
