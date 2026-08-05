@@ -14,7 +14,7 @@
     "twitter": "https://x.com/ylecun",
     "website": "http://yann.lecun.com/"
   },
-  "semanticScholarId": "1688882",
+  "semanticScholarId": "1688882, 2270469816, 2265899558",
   "careerHistory": [
     {
       "org": "Meta AI (Facebook AI Research)",
@@ -183,16 +183,16 @@
       "citationCount": 15,
       "coAuthors": [
         {
-          "slug": "adrien-bardes",
-          "name": "Adrien Bardes"
-        },
-        {
           "slug": "basile-terver",
           "name": "Basile Terver"
         },
         {
           "slug": "amir-bar",
           "name": "Amir Bar"
+        },
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
         },
         {
           "slug": null,
@@ -230,23 +230,23 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.14482",
-      "citationCount": 49,
+      "citationCount": 50,
       "coAuthors": [
         {
-          "slug": "adrien-bardes",
-          "name": "Adrien Bardes"
+          "slug": "matthew-muckley",
+          "name": "Matthew Muckley"
         },
         {
           "slug": "amir-bar",
           "name": "Amir Bar"
         },
         {
-          "slug": "matthew-muckley",
-          "name": "Matthew Muckley"
-        },
-        {
           "slug": "michael-rabbat",
           "name": "Michael Rabbat"
+        },
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
         },
         {
           "slug": null,
@@ -524,7 +524,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.16208",
-      "citationCount": 38,
+      "citationCount": 40,
       "coAuthors": [
         {
           "slug": "jihan-yang",
@@ -600,15 +600,15 @@
       "year": 2025,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2512.24497",
-      "citationCount": 24,
+      "citationCount": 25,
       "coAuthors": [
-        {
-          "slug": "adrien-bardes",
-          "name": "Adrien Bardes"
-        },
         {
           "slug": "basile-terver",
           "name": "Basile Terver"
+        },
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
         },
         {
           "slug": null,
@@ -736,7 +736,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2511.04670",
-      "citationCount": 113,
+      "citationCount": 114,
       "coAuthors": [
         {
           "slug": "jihan-yang",
@@ -866,7 +866,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 564,
+      "citationCount": 572,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -877,12 +877,12 @@
           "name": "David Fan"
         },
         {
-          "slug": "matthew-muckley",
-          "name": "Matthew Muckley"
-        },
-        {
           "slug": "quentin-garrido",
           "name": "Quentin Garrido"
+        },
+        {
+          "slug": "matthew-muckley",
+          "name": "Matthew Muckley"
         },
         {
           "slug": "michael-rabbat",
@@ -1057,16 +1057,16 @@
       "citationCount": 67,
       "coAuthors": [
         {
+          "slug": "quentin-garrido",
+          "name": "Quentin Garrido"
+        },
+        {
           "slug": "adrien-bardes",
           "name": "Adrien Bardes"
         },
         {
           "slug": "michael-rabbat",
           "name": "Michael Rabbat"
-        },
-        {
-          "slug": "quentin-garrido",
-          "name": "Quentin Garrido"
         },
         {
           "slug": null,
@@ -1268,12 +1268,8 @@
       "year": 2024,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2404.08471",
-      "citationCount": 413,
+      "citationCount": 416,
       "coAuthors": [
-        {
-          "slug": "michael-rabbat",
-          "name": "Michael Rabbat"
-        },
         {
           "slug": "adrien-bardes",
           "name": "Adrien Bardes"
@@ -1281,6 +1277,10 @@
         {
           "slug": "quentin-garrido",
           "name": "Quentin Garrido"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
         },
         {
           "slug": null,
@@ -1436,15 +1436,15 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01499",
-      "citationCount": 1061,
+      "citationCount": 1068,
       "coAuthors": [
-        {
-          "slug": "michael-rabbat",
-          "name": "Michael Rabbat"
-        },
         {
           "slug": "quentin-duval",
           "name": "Quentin Duval"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
         },
         {
           "slug": null,
@@ -1673,18 +1673,11 @@
   ],
   "topPublications": [
     {
-      "title": "Announcing the Shaw Prize in Computer Science",
-      "year": 2026,
-      "citationCount": 0,
-      "venue": "Communications of the ACM",
-      "url": "https://doi.org/10.1145/3811413"
-    },
-    {
-      "title": "FAST INCREMENTAL LEARNING FOR AUTONOMOUS GROUND NAVIGATION",
-      "year": 2024,
-      "citationCount": 0,
-      "venue": "SAE technical paper series",
-      "url": "https://doi.org/10.4271/2024-01-3556"
+      "title": "Augmented Language Models: a Survey",
+      "year": 2023,
+      "citationCount": 584,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://www.semanticscholar.org/paper/2029349c55c1dba3493c5b3bd25152f18ba21ae2"
     },
     {
       "title": "Learning and Leveraging World Models in Visual Representation Learning",
@@ -1701,11 +1694,18 @@
       "url": "https://doi.org/10.48550/arXiv.2302.02774"
     },
     {
-      "title": "Minimalistic Unsupervised Representation Learning with the Sparse Manifold Transform",
+      "title": "Self-supervised learning of Split Invariant Equivariant representations",
       "year": 2023,
-      "citationCount": 8,
-      "venue": "International Conference on Learning Representations",
-      "url": "https://www.semanticscholar.org/paper/0380271e23c5a3348f9f8ad1906b692b22f8b75e"
+      "citationCount": 46,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2302.10283"
+    },
+    {
+      "title": "An Information-Theoretic Perspective on Variance-Invariance-Covariance Regularization",
+      "year": 2023,
+      "citationCount": 32,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2303.00633"
     }
   ],
   "githubProjects": [],

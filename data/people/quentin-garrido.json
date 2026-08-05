@@ -158,7 +158,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 564,
+      "citationCount": 572,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -428,15 +428,15 @@
       "year": 2024,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2404.08471",
-      "citationCount": 413,
+      "citationCount": 416,
       "coAuthors": [
-        {
-          "slug": "michael-rabbat",
-          "name": "Michael Rabbat"
-        },
         {
           "slug": "adrien-bardes",
           "name": "Adrien Bardes"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
         },
         {
           "slug": "yann-lecun",
@@ -493,6 +493,27 @@
   ],
   "topPublications": [
     {
+      "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+      "year": 2025,
+      "citationCount": 572,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.09985"
+    },
+    {
+      "title": "Learning and Leveraging World Models in Visual Representation Learning",
+      "year": 2024,
+      "citationCount": 70,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2403.00504"
+    },
+    {
+      "title": "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
+      "year": 2025,
+      "citationCount": 67,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2502.11831"
+    },
+    {
       "title": "Learning Latent Action World Models In The Wild",
       "year": 2026,
       "citationCount": 33,
@@ -500,32 +521,11 @@
       "url": "https://doi.org/10.48550/arXiv.2601.05230"
     },
     {
-      "title": "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
-      "year": 2026,
-      "citationCount": 8,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.03604"
-    },
-    {
-      "title": "Interpreting Physics in Video World Models",
-      "year": 2026,
-      "citationCount": 6,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.07050"
-    },
-    {
-      "title": "A Shortcut-aware Video-QA Benchmark for Physical Understanding via Minimal Video Pairs",
-      "year": 2025,
-      "citationCount": 18,
-      "venue": "Trans. Mach. Learn. Res.",
-      "url": "https://doi.org/10.48550/arXiv.2506.09987"
-    },
-    {
-      "title": "IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments",
-      "year": 2025,
-      "citationCount": 32,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2506.09849"
+      "title": "UniBench: Visual Reasoning Requires Rethinking Vision-Language Beyond Scaling",
+      "year": 2024,
+      "citationCount": 33,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2408.04810"
     }
   ],
   "githubProjects": [],

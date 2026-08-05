@@ -40,7 +40,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2605.03822",
-      "citationCount": 2,
+      "citationCount": 3,
       "coAuthors": [
         {
           "slug": null,
@@ -70,7 +70,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.11456",
-      "citationCount": 0,
+      "citationCount": 1,
       "coAuthors": [
         {
           "slug": null,
@@ -365,25 +365,11 @@
   ],
   "topPublications": [
     {
-      "title": "RL over Commodity Networks: Overcoming the Bandwidth Barrier with Lossless Sparse Deltas",
-      "year": 2026,
-      "citationCount": 0,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.11456"
-    },
-    {
-      "title": "KVerus: Scalable and Resilient Formal Verification Proof Generation for Rust Code",
-      "year": 2026,
-      "citationCount": 2,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2605.03822"
-    },
-    {
-      "title": "Revisiting Parameter Server in LLM Post-Training",
-      "year": 2026,
-      "citationCount": 2,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2601.19362"
+      "title": "PipeOffload: Improving Scalability of Pipeline Parallelism with Memory Optimization",
+      "year": 2025,
+      "citationCount": 8,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2503.01328"
     },
     {
       "title": "CortenMM: Efficient Memory Management with Strong Correctness Guarantees",
@@ -393,11 +379,25 @@
       "url": "https://doi.org/10.1145/3731569.3764836"
     },
     {
-      "title": "PipeOffload: Improving Scalability of Pipeline Parallelism with Memory Optimization",
+      "title": "Cortex: Achieving Low-Latency, Cost-Efficient Remote Data Access For LLM via Semantic-Aware Knowledge Caching",
       "year": 2025,
-      "citationCount": 8,
-      "venue": "International Conference on Machine Learning",
-      "url": "https://doi.org/10.48550/arXiv.2503.01328"
+      "citationCount": 5,
+      "venue": "Symposium on Networked Systems Design and Implementation",
+      "url": "https://www.semanticscholar.org/paper/641a8b01dc986ede5d894765b24c5fed6ad15462"
+    },
+    {
+      "title": "EMULATE: A Multi-Agent Framework for Determining the Veracity of Atomic Claims by Emulating Human Actions",
+      "year": 2025,
+      "citationCount": 4,
+      "venue": "Proceedings of the Eighth Fact Extraction and VERification Workshop (FEVER)",
+      "url": "https://doi.org/10.48550/arXiv.2505.16576"
+    },
+    {
+      "title": "KVerus: Scalable and Resilient Formal Verification Proof Generation for Rust Code",
+      "year": 2026,
+      "citationCount": 3,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.03822"
     }
   ],
   "githubProjects": [],

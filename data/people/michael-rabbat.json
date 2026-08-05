@@ -66,23 +66,23 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.14482",
-      "citationCount": 49,
+      "citationCount": 50,
       "coAuthors": [
         {
-          "slug": "adrien-bardes",
-          "name": "Adrien Bardes"
+          "slug": "matthew-muckley",
+          "name": "Matthew Muckley"
         },
         {
           "slug": "amir-bar",
           "name": "Amir Bar"
         },
         {
-          "slug": "matthew-muckley",
-          "name": "Matthew Muckley"
-        },
-        {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
+        },
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
         },
         {
           "slug": null,
@@ -384,7 +384,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 564,
+      "citationCount": 572,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -395,12 +395,12 @@
           "name": "David Fan"
         },
         {
-          "slug": "matthew-muckley",
-          "name": "Matthew Muckley"
-        },
-        {
           "slug": "quentin-garrido",
           "name": "Quentin Garrido"
+        },
+        {
+          "slug": "matthew-muckley",
+          "name": "Matthew Muckley"
         },
         {
           "slug": "yann-lecun",
@@ -605,12 +605,12 @@
       "citationCount": 67,
       "coAuthors": [
         {
-          "slug": "adrien-bardes",
-          "name": "Adrien Bardes"
-        },
-        {
           "slug": "quentin-garrido",
           "name": "Quentin Garrido"
+        },
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
         },
         {
           "slug": "yann-lecun",
@@ -686,7 +686,7 @@
       "year": 2024,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2404.08471",
-      "citationCount": 413,
+      "citationCount": 416,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -860,7 +860,7 @@
       "year": 2023,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2304.07193",
-      "citationCount": 9567,
+      "citationCount": 9616,
       "coAuthors": [
         {
           "slug": null,
@@ -1016,7 +1016,7 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01499",
-      "citationCount": 1061,
+      "citationCount": 1068,
       "coAuthors": [
         {
           "slug": "quentin-duval",
@@ -1253,11 +1253,32 @@
   ],
   "topPublications": [
     {
-      "title": "MJEPA: A Simple and Scalable Joint-Embedding Predictive Architecture for Audio-Visual Learning",
-      "year": 2026,
-      "citationCount": 0,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/bbb2fba52c4d7d3b29f58a5e136d012acdc2010d"
+      "title": "DINOv2: Learning Robust Visual Features without Supervision",
+      "year": 2023,
+      "citationCount": 9616,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2304.07193"
+    },
+    {
+      "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+      "year": 2023,
+      "citationCount": 1068,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52729.2023.01499"
+    },
+    {
+      "title": "Revisiting Feature Prediction for Learning Visual Representations from Video",
+      "year": 2024,
+      "citationCount": 416,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2404.08471"
+    },
+    {
+      "title": "Federated Learning with Partial Model Personalization",
+      "year": 2022,
+      "citationCount": 244,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2204.03809"
     },
     {
       "title": "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
@@ -1265,27 +1286,6 @@
       "citationCount": 67,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2502.11831"
-    },
-    {
-      "title": "Revisiting Feature Prediction for Learning Visual Representations from Video",
-      "year": 2024,
-      "citationCount": 413,
-      "venue": "Trans. Mach. Learn. Res.",
-      "url": "https://doi.org/10.48550/arXiv.2404.08471"
-    },
-    {
-      "title": "Benchmarking Neural Network Training Algorithms",
-      "year": 2023,
-      "citationCount": 51,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2306.07179"
-    },
-    {
-      "title": "DINOv2: Learning Robust Visual Features without Supervision",
-      "year": 2023,
-      "citationCount": 9567,
-      "venue": "Trans. Mach. Learn. Res.",
-      "url": "https://doi.org/10.48550/arXiv.2304.07193"
     }
   ],
   "githubProjects": [],

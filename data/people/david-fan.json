@@ -251,19 +251,19 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 564,
+      "citationCount": 572,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
           "name": "Adrien Bardes"
         },
         {
-          "slug": "matthew-muckley",
-          "name": "Matthew Muckley"
-        },
-        {
           "slug": "quentin-garrido",
           "name": "Quentin Garrido"
+        },
+        {
+          "slug": "matthew-muckley",
+          "name": "Matthew Muckley"
         },
         {
           "slug": "yann-lecun",
@@ -684,25 +684,18 @@
   ],
   "topPublications": [
     {
-      "title": "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
-      "year": 2026,
-      "citationCount": 8,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.03604"
-    },
-    {
-      "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
-      "year": 2026,
-      "citationCount": 20,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2603.03276"
-    },
-    {
-      "title": "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
+      "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
-      "citationCount": 15,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/088a45338d45f05f6a7460fb152615fb96150f6e"
+      "citationCount": 572,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.09985"
+    },
+    {
+      "title": "MetaMorph: Multimodal Understanding and Generation via Instruction Tuning",
+      "year": 2024,
+      "citationCount": 219,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV51701.2025.01579"
     },
     {
       "title": "Scaling Language-Free Visual Representation Learning",
@@ -712,11 +705,18 @@
       "url": "https://doi.org/10.1109/ICCV51701.2025.00042"
     },
     {
-      "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+      "title": "Learning to See Before Seeing: Demystifying LLM Visual Priors from Language Pre-training",
       "year": 2025,
-      "citationCount": 564,
+      "citationCount": 23,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2506.09985"
+      "url": "https://doi.org/10.48550/arXiv.2509.26625"
+    },
+    {
+      "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+      "year": 2026,
+      "citationCount": 21,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.03276"
     }
   ],
   "githubProjects": [],

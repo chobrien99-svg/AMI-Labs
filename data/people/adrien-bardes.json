@@ -116,15 +116,15 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.14482",
-      "citationCount": 49,
+      "citationCount": 50,
       "coAuthors": [
-        {
-          "slug": "amir-bar",
-          "name": "Amir Bar"
-        },
         {
           "slug": "matthew-muckley",
           "name": "Matthew Muckley"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": "michael-rabbat",
@@ -158,7 +158,7 @@
       "year": 2025,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2512.24497",
-      "citationCount": 24,
+      "citationCount": 25,
       "coAuthors": [
         {
           "slug": "basile-terver",
@@ -184,19 +184,19 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 564,
+      "citationCount": 572,
       "coAuthors": [
         {
           "slug": "david-fan",
           "name": "David Fan"
         },
         {
-          "slug": "matthew-muckley",
-          "name": "Matthew Muckley"
-        },
-        {
           "slug": "quentin-garrido",
           "name": "Quentin Garrido"
+        },
+        {
+          "slug": "matthew-muckley",
+          "name": "Matthew Muckley"
         },
         {
           "slug": "yann-lecun",
@@ -325,12 +325,12 @@
       "citationCount": 67,
       "coAuthors": [
         {
-          "slug": "michael-rabbat",
-          "name": "Michael Rabbat"
-        },
-        {
           "slug": "quentin-garrido",
           "name": "Quentin Garrido"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
         },
         {
           "slug": "yann-lecun",
@@ -429,15 +429,15 @@
       "year": 2024,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2404.08471",
-      "citationCount": 413,
+      "citationCount": 416,
       "coAuthors": [
-        {
-          "slug": "michael-rabbat",
-          "name": "Michael Rabbat"
-        },
         {
           "slug": "quentin-garrido",
           "name": "Quentin Garrido"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
         },
         {
           "slug": "yann-lecun",
@@ -684,39 +684,39 @@
   ],
   "topPublications": [
     {
-      "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
-      "year": 2026,
-      "citationCount": 49,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2603.14482"
-    },
-    {
-      "title": "Hierarchical Planning with Latent World Models",
-      "year": 2026,
-      "citationCount": 15,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2604.03208"
-    },
-    {
-      "title": "MJEPA: A Simple and Scalable Joint-Embedding Predictive Architecture for Audio-Visual Learning",
-      "year": 2026,
-      "citationCount": 0,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/bbb2fba52c4d7d3b29f58a5e136d012acdc2010d"
-    },
-    {
-      "title": "What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?",
-      "year": 2025,
-      "citationCount": 24,
-      "venue": "Trans. Mach. Learn. Res.",
-      "url": "https://doi.org/10.48550/arXiv.2512.24497"
-    },
-    {
       "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
-      "citationCount": 564,
+      "citationCount": 572,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985"
+    },
+    {
+      "title": "An Introduction to Vision-Language Modeling",
+      "year": 2024,
+      "citationCount": 239,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2405.17247"
+    },
+    {
+      "title": "Learning and Leveraging World Models in Visual Representation Learning",
+      "year": 2024,
+      "citationCount": 70,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2403.00504"
+    },
+    {
+      "title": "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
+      "year": 2025,
+      "citationCount": 67,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2502.11831"
+    },
+    {
+      "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+      "year": 2026,
+      "citationCount": 50,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.14482"
     }
   ],
   "githubProjects": [],

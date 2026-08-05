@@ -36,12 +36,8 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.14482",
-      "citationCount": 49,
+      "citationCount": 50,
       "coAuthors": [
-        {
-          "slug": "adrien-bardes",
-          "name": "Adrien Bardes"
-        },
         {
           "slug": "amir-bar",
           "name": "Amir Bar"
@@ -53,6 +49,10 @@
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
+        },
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
         },
         {
           "slug": null,
@@ -78,7 +78,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 564,
+      "citationCount": 572,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -369,39 +369,39 @@
   ],
   "topPublications": [
     {
-      "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
-      "year": 2026,
-      "citationCount": 49,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2603.14482"
-    },
-    {
       "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
-      "citationCount": 564,
+      "citationCount": 572,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985"
     },
     {
-      "title": "Residual Quantization with Implicit Neural Codebooks",
-      "year": 2024,
-      "citationCount": 26,
+      "title": "Towards image compression with perfect realism at ultra-low bitrates",
+      "year": 2023,
+      "citationCount": 139,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2310.10325"
+    },
+    {
+      "title": "Improving Statistical Fidelity for Neural Image Compression with Implicit Local Likelihood Models",
+      "year": 2023,
+      "citationCount": 130,
       "venue": "International Conference on Machine Learning",
-      "url": "https://doi.org/10.48550/arXiv.2401.14732"
+      "url": "https://doi.org/10.48550/arXiv.2301.11189"
     },
     {
-      "title": "Accelerated MRI reconstructions via variational network and feature domain learning",
-      "year": 2024,
-      "citationCount": 17,
-      "venue": "Scientific Reports",
-      "url": "https://doi.org/10.1038/s41598-024-59705-0"
+      "title": "Deep Learning Reconstruction Enables Prospectively Accelerated Clinical Knee MRI.",
+      "year": 2023,
+      "citationCount": 114,
+      "venue": "Radiology",
+      "url": "https://doi.org/10.1148/radiol.220425"
     },
     {
-      "title": "Understanding and Mitigating Tokenization Bias in Language Models",
-      "year": 2024,
-      "citationCount": 18,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2406.16829"
+      "title": "Training-free linear image inverses via flows",
+      "year": 2023,
+      "citationCount": 74,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://www.semanticscholar.org/paper/d72bf83fbeae8df51ab86bb8f3965b40416c8ac7"
     }
   ],
   "githubProjects": [],
@@ -422,11 +422,6 @@
   "connections": {
     "coAuthors": [
       {
-        "slug": "adrien-bardes",
-        "name": "Adrien Bardes",
-        "sharedPapers": 2
-      },
-      {
         "slug": "michael-rabbat",
         "name": "Michael Rabbat",
         "sharedPapers": 2
@@ -434,6 +429,11 @@
       {
         "slug": "yann-lecun",
         "name": "Yann LeCun",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "adrien-bardes",
+        "name": "Adrien Bardes",
         "sharedPapers": 2
       },
       {

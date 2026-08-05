@@ -59,6 +59,15 @@
       ]
     },
     {
+      "a": "amir-bar",
+      "b": "basile-terver",
+      "paperCount": 2,
+      "papers": [
+        "Hierarchical Planning with Latent World Models",
+        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures"
+      ]
+    },
+    {
       "a": "adrien-bardes",
       "b": "basile-terver",
       "paperCount": 2,
@@ -68,12 +77,39 @@
       ]
     },
     {
+      "a": "basile-terver",
+      "b": "yann-lecun",
+      "paperCount": 5,
+      "papers": [
+        "Hierarchical Planning with Latent World Models",
+        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
+        "Learning Latent Action World Models In The Wild",
+        "What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?",
+        "Back to the Features: DINO as a Foundation for Video World Models"
+      ]
+    },
+    {
       "a": "adrien-bardes",
       "b": "amir-bar",
       "paperCount": 2,
       "papers": [
         "Hierarchical Planning with Latent World Models",
         "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning"
+      ]
+    },
+    {
+      "a": "amir-bar",
+      "b": "yann-lecun",
+      "paperCount": 8,
+      "papers": [
+        "Hierarchical Planning with Latent World Models",
+        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+        "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
+        "Parallel Stochastic Gradient-Based Planning for World Models",
+        "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
+        "Scaling Language-Free Visual Representation Learning",
+        "Stochastic positional embeddings improve masked image modeling"
       ]
     },
     {
@@ -94,38 +130,28 @@
     },
     {
       "a": "amir-bar",
-      "b": "basile-terver",
+      "b": "matthew-muckley",
+      "paperCount": 1,
+      "papers": [
+        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning"
+      ]
+    },
+    {
+      "a": "matthew-muckley",
+      "b": "michael-rabbat",
       "paperCount": 2,
       "papers": [
-        "Hierarchical Planning with Latent World Models",
-        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures"
-      ]
-    },
-    {
-      "a": "basile-terver",
-      "b": "yann-lecun",
-      "paperCount": 5,
-      "papers": [
-        "Hierarchical Planning with Latent World Models",
-        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
-        "Learning Latent Action World Models In The Wild",
-        "What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?",
-        "Back to the Features: DINO as a Foundation for Video World Models"
-      ]
-    },
-    {
-      "a": "amir-bar",
-      "b": "yann-lecun",
-      "paperCount": 8,
-      "papers": [
-        "Hierarchical Planning with Latent World Models",
         "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
-        "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
-        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
-        "Parallel Stochastic Gradient-Based Planning for World Models",
-        "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
-        "Scaling Language-Free Visual Representation Learning",
-        "Stochastic positional embeddings improve masked image modeling"
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
+      ]
+    },
+    {
+      "a": "matthew-muckley",
+      "b": "yann-lecun",
+      "paperCount": 2,
+      "papers": [
+        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
       ]
     },
     {
@@ -139,14 +165,6 @@
     },
     {
       "a": "amir-bar",
-      "b": "matthew-muckley",
-      "paperCount": 1,
-      "papers": [
-        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning"
-      ]
-    },
-    {
-      "a": "amir-bar",
       "b": "michael-rabbat",
       "paperCount": 6,
       "papers": [
@@ -156,24 +174,6 @@
         "Parallel Stochastic Gradient-Based Planning for World Models",
         "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
         "Scaling Language-Free Visual Representation Learning"
-      ]
-    },
-    {
-      "a": "matthew-muckley",
-      "b": "michael-rabbat",
-      "paperCount": 2,
-      "papers": [
-        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
-        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
-      ]
-    },
-    {
-      "a": "matthew-muckley",
-      "b": "yann-lecun",
-      "paperCount": 2,
-      "papers": [
-        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
-        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
       ]
     },
     {
@@ -643,6 +643,14 @@
       ]
     },
     {
+      "a": "bowen-shi",
+      "b": "rohit-girdhar",
+      "paperCount": 1,
+      "papers": [
+        "Movie Gen: A Cast of Media Foundation Models"
+      ]
+    },
+    {
       "a": "quentin-duval",
       "b": "rohit-girdhar",
       "paperCount": 4,
@@ -651,14 +659,6 @@
         "Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning",
         "The effectiveness of MAE pre-pretraining for billion-scale pretraining",
         "Learning to Substitute Ingredients in Recipes"
-      ]
-    },
-    {
-      "a": "bowen-shi",
-      "b": "rohit-girdhar",
-      "paperCount": 1,
-      "papers": [
-        "Movie Gen: A Cast of Media Foundation Models"
       ]
     },
     {
