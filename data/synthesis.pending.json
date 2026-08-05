@@ -475,13 +475,13 @@
     "dessinKeys": []
   },
   "status": "ok",
-  "headline": "AMI is hiring for scale, not just research — and LeCun is making the public case for the world-model bet",
-  "stateOfPlay": "This was a week of institution-building at AMI Labs. Three new hires spanning London, New York, and Singapore, a dedicated talent-sourcing role posted in Paris, and newly surfaced seed investors all point to a company moving from founding team to functioning organisation. That operational push runs alongside a sustained public campaign by Yann LeCun — at VivaTech, at RAISE, and at ETH Zürich — hammering the same thesis: LLMs have hit their ceiling, world models are the path forward, and Europe has a window. The two tracks are not separate; AMI is visibly staffing up to pursue the research agenda LeCun is loudly advertising.",
+  "headline": "AMI is hiring for scale, not just research. LeCun is making the public case for the world-model bet",
+  "stateOfPlay": "This week, we added three new hires identified at AMI, spanning London, New York, and Singapore; a dedicated talent-sourcing role posted in Paris; and newly surfaced seed investors, all of which point to a company moving from founding team to functioning organization. That operational push runs alongside a sustained public campaign by Yann LeCun — at VivaTech, RAISE, and ETH Zürich — hammering home the same thesis: LLMs have hit their ceiling, world models are the path forward, and Europe has a window. The two tracks are not separate; AMI is visibly staffing up to pursue the research agenda LeCun is loudly advertising.",
   "threads": [
     {
       "title": "Three hires in three cities reveal an infrastructure and multimodal agenda beneath the world-model rhetoric",
       "category": "hiring",
-      "narrative": "The most telling hiring signal this week is not any single appointment but the combination. Amir Bar — an assistant professor at Imperial College London and former Meta researcher — brings serious computer-vision and multimodal credentials to AMI's London footprint. Ayaan Naveed Malik, a recent Stanford graduate joining in New York, arrives with a background in robotics and multimodal AI, exactly the domains where JEPA-style world models need to prove themselves. Together they suggest AMI is assembling the technical bench to move from theory to working systems.\n\nThe third hire is the outlier that completes the picture. Haoyi Li, joining in Singapore, is not a machine-learning researcher; he is a large-scale developer infrastructure engineer known for work at Databricks and Dropbox, and the author of the Mill build tool. His GitHub activity this week — closing issues in his own `com-lihaoyi/mill` repo and commenting on a Scala 3 pull request — confirms he is already active on infrastructure concerns. Hiring someone of Li's profile at this stage signals that AMI is taking the underlying engineering platform seriously, not just the research layer above it.",
+      "narrative": "The most telling hiring signal this week is not any single appointment but the combination. Amir Bar — an assistant professor at Imperial College London and a former Meta researcher — brings serious computer vision and multimodal credentials to AMI's London footprint. Ayaan Naveed Malik, a recent Stanford graduate joining in New York, arrives with a background in robotics and multimodal AI, exactly the domains where JEPA-style world models need to prove themselves. Together they suggest AMI is assembling the technical bench to move from theory to working systems.\n\nThe third hire is Haoyi Li, who is joining in Singapore. He is not a machine-learning researcher, but rather a large-scale developer infrastructure engineer known for work at Databricks and Dropbox, and the author of the Mill build tool. His GitHub activity this week — closing issues in his own `com-lihaoyi/mill` repo and commenting on a Scala 3 pull request — confirms he is already active on infrastructure concerns. Hiring someone of Li's profile at this stage signals that AMI is taking the underlying engineering platform seriously, not just the research layer above it.",
       "evidence": [
         {
           "label": "Amir Bar profile",
@@ -504,7 +504,7 @@
     {
       "title": "A talent-sourcing hire and newly surfaced investors signal AMI is preparing for a larger recruiting push",
       "category": "administrative",
-      "narrative": "The one new job posting this week is not a researcher or engineer: it is a Talent Intelligence & Sourcing Partner, based in Paris, sitting inside General and Administration. Hiring dedicated recruiting infrastructure at this stage — when the total open roles stand at just six — is a forward-looking signal. Companies bring in talent-sourcing specialists when they anticipate volume hiring, not when they are filling one-off roles.\n\nThat reading is reinforced by the separate surfacing of seven additional seed-round investors. More angels and institutional backers in the cap table means more runway and more stakeholder pressure to grow. The combination of fresh capital visibility and a new in-house recruiter suggests AMI's leadership expects the headcount curve to steepen materially in the months ahead.",
+      "narrative": "The one new job posting this week is not a researcher or engineer: it is a Talent Intelligence & Sourcing Partner, based in Paris, sitting inside General and Administration. Hiring dedicated recruiting infrastructure at this stage is a forward-looking signal. A new in-house recruiter suggests AMI's leadership expects the headcount curve to steepen materially in the months ahead.",
       "evidence": [
         {
           "label": "Talent Intelligence & Sourcing Partner posting",
@@ -517,9 +517,9 @@
       ]
     },
     {
-      "title": "LeCun's public circuit is a product-market positioning exercise, not just intellectual provocation",
+      "title": "LeCun's public circuit is part product-market positioning, part intellectual provocation",
       "category": "research",
-      "narrative": "Three public appearances in one week — VivaTech, the RAISE Summit, and an ETH Zürich lecture titled \"World Models: Enabling the next AI revolution\" — amount to a coordinated messaging campaign. The content is consistent: LLMs are a dead end, world models are what comes next, and Europe is competitively positioned to lead that transition. At VivaTech, LeCun reportedly mocked Silicon Valley's \"LLM-pilled\" monoculture and attacked Anthropic's approach to AI safety. At RAISE, he explicitly named world models as the driver of the next AI revolution and framed Europe's relative distance from the LLM arms race as an advantage.\n\nReading these appearances alongside the week's hiring, the message is not just philosophical. LeCun is publicly staking AMI's identity in contrast to the foundation-model incumbents, which is useful for recruiting researchers who are skeptical of the LLM orthodoxy and for differentiating AMI to European institutional partners and investors. The ETH lecture, aimed at an academic audience focused on embodied AI, also suggests AMI is cultivating the university pipeline from which its next generation of researchers — like Malik — will come.",
+      "narrative": "We catch up on some of LeCun's public appearances this summer at VivaTech, the RAISE Summit, and an ETH Zürich lecture titled \"World Models: Enabling the next AI revolution\". The talks served as a coordinated messaging campaign: LLMs are a dead end, world models are what comes next, and Europe is competitively positioned to lead that transition. At VivaTech, LeCun mocked Silicon Valley's \"LLM-pilled\" monoculture and attacked Anthropic's approach to AI safety. At RAISE, he explicitly named world models as the driver of the next AI revolution and framed Europe's relative distance from the LLM arms race as an advantage.\n\nLeCun is publicly staking AMI's identity in contrast to the foundation-model incumbents, which is useful for recruiting researchers who are skeptical of the LLM orthodoxy and for differentiating AMI to European institutional partners and investors. The ETH lecture, aimed at an academic audience focused on embodied AI, also suggests AMI is cultivating the university pipeline from which its next generation of researchers — like Malik — will come.",
       "evidence": [
         {
           "label": "LeCun at VivaTech",
@@ -552,11 +552,6 @@
     }
   ],
   "signals": [
-    {
-      "text": "LeCun posted \"Tired of not winning\" on July 31 — a cryptic, high-engagement note that attracted 371 likes. Without more context it resists clean interpretation, but the timing, amid a week of public appearances and hiring activity, suggests a combative mood rather than a setback.",
-      "url": "https://x.com/ylecun/status/2083290542956224643",
-      "linkLabel": "Tweet"
-    },
     {
       "text": "AMI board member Pascale Fung publicly called on NVIDIA to expand free or subsidized compute for academic researchers — a pointed reminder that even well-funded AI startups outside the hyperscaler tier face GPU access as a structural constraint.",
       "category": "research",
