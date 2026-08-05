@@ -31,7 +31,12 @@ const DATE_FIELDS = "paperId,publicationDate,year";
 const BATCH_FIELDS = "paperId,title,year,venue,externalIds,url,citationCount,publicationDate,abstract,tldr,authors";
 const PAGE_SIZE = 100;
 const MAX_PAGES = 10; // cap per author profile (up to 1000 papers)
-const RECENT_KEEP = 8;
+// Newest papers kept per member (across all their profiles) for the research feed.
+// Raised from 8 → 40 so a ~6-month window is captured even for prolific authors
+// (e.g. LeCun across 3 profiles) — the six-month report and dossiers draw on this.
+// The /research page still ships only the newest 40 team-wide (FEED_CAP), so this
+// grows the data file server-side without adding client weight.
+const RECENT_KEEP = 40;
 const ABSTRACT_MAX = 1200; // store a bounded abstract; the synthesis truncates further
 
 function requestJson(method, url, body, tries = 2, extraHeaders = {}) {
