@@ -112,9 +112,11 @@ export const person = defineType({
     }),
     defineField({
       name: "semanticScholarId",
-      title: "Semantic Scholar ID",
-      description: "Used to auto-fetch top publications by citation count",
-      type: "string",
+      title: "Semantic Scholar Author IDs",
+      description:
+        "One or more Semantic Scholar author IDs. Add every profile if Semantic Scholar has split this person's papers across several (e.g. Yann LeCun has 3). All are fetched and merged for publications + research.",
+      type: "array",
+      of: [{ type: "string" }],
     }),
     defineField({
       name: "featuredPublications",

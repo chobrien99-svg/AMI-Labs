@@ -103,7 +103,7 @@ async function fetchSanityMembers() {
   try {
     const data = await get(url, token ? { Authorization: `Bearer ${token}` } : undefined);
     // ok:true even when empty — distinguishes "Sanity has no such authors" from an outage.
-    return { ok: true, members: (data.result || []).filter((p) => p && p.slug && p.semanticScholarId) };
+    return { ok: true, members: (data.result || []).filter((p) => p && p.slug && idsOf(p).length) };
   } catch (e) {
     console.warn(`[sanity] Could not read persons (${e.message}) — using team.json only.`);
     return { ok: false, members: [] };
