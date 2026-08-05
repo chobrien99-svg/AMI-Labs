@@ -124,17 +124,36 @@ function sortDateOf(p) {
 
 // ── pass 1: top-cited (profiles) ─────────────────────────────────────────────
 
-async function fetchTopCited(id) {
-  const url = `https://api.semanticscholar.org/graph/v1/author/${id}/papers` +
-    `?fields=${CITE_FIELDS}&limit=10&sort=citationCount:desc`;
-  const data = await get(url);
-  return (data.data || []).slice(0, 5).map((p) => ({
-    title: p.title,
-    year: p.year,
-    citationCount: p.citationCount,
-    venue: p.venue || null,
-    url: paperUrl(p),
-  }));
+// Top-cited across ALL of a member's author profiles: fetch each, merge (dedupe by paperId),
+// re-rank by citation count, keep the top 5. A single failed alternate profile does not discard
+// results already gathered from the member's other profiles.
+async function fetchTopCited(ids) {
+  const seen = new Map();
+  let anyOk = false, anyError = false;
+  for (let i = 0; i < ids.length; i++) {
+    try {
+      const url = `https://api.semanticscholar.org/graph/v1/author/${ids[i]}/papers` +
+        `?fields=${CITE_FIELDS}&limit=10&sort=citationCount:desc`;
+      const data = await get(url);
+      for (const p of data.data || []) if (p.paperId && !seen.has(p.paperId)) seen.set(p.paperId, p);
+      anyOk = true;
+    } catch (e) {
+      anyError = true;
+      console.error(`\n  ⚠ top-cited profile ${ids[i]} failed: ${e.message}`);
+    }
+    if (i < ids.length - 1) await sleep(DELAY_MS);
+  }
+  if (!anyOk && anyError) throw new Error("all author profiles failed");
+  return [...seen.values()]
+    .sort((a, b) => (b.citationCount ?? 0) - (a.citationCount ?? 0))
+    .slice(0, 5)
+    .map((p) => ({
+      title: p.title,
+      year: p.year,
+      citationCount: p.citationCount,
+      venue: p.venue || null,
+      url: paperUrl(p),
+    }));
 }
 
 // ── pass 2: most-recent (research feed) ──────────────────────────────────────
@@ -210,20 +229,37 @@ function resolveAuthors(p, resolver) {
   });
 }
 
+// Every AMI author on the paper (any position), by roster slug — deduped, roster names.
+function teamAuthorsFrom(authors, member, resolver) {
+  const seen = new Set();
+  const out = [];
+  for (const a of authors) {
+    if (a.slug && !seen.has(a.slug)) {
+      seen.add(a.slug);
+      const person = resolver.bySlug(a.slug);
+      out.push({ slug: a.slug, name: (person && person.name) || a.name });
+    }
+  }
+  // Safety net: credit the profile the paper was fetched under even if name/id resolution missed it.
+  if (!seen.has(member.slug)) out.push({ slug: member.slug, name: member.name });
+  return out;
+}
+
 function addRecentPaper(map, member, p, resolver) {
   const id = p.paperId;
+  const authors = resolveAuthors(p, resolver); // full author list with resolved slugs (co-authorship)
+  const teamAuthors = teamAuthorsFrom(authors, member, resolver);
   if (map.has(id)) {
+    // Union in any AMI authors not already credited (e.g. seen first under a different profile).
     const e = map.get(id);
-    if (!e.teamAuthors.some((a) => a.slug === member.slug)) {
-      e.teamAuthors.push({ slug: member.slug, name: member.name });
-    }
+    for (const t of teamAuthors) if (!e.teamAuthors.some((a) => a.slug === t.slug)) e.teamAuthors.push(t);
     return;
   }
   map.set(id, {
     paperId: id,
     title: p.title,
-    teamAuthors: [{ slug: member.slug, name: member.name }],
-    authors: resolveAuthors(p, resolver), // full author list with resolved slugs (co-authorship)
+    teamAuthors, // ALL AMI authors on the paper, regardless of listed position
+    authors,
     memberSlug: member.slug,
     memberName: member.name,
     publicationDate: p.publicationDate || null,
@@ -277,9 +313,9 @@ async function main() {
     const ids = idsOf(member);
     process.stdout.write(`[${member.name}] `);
 
-    // pass 1 — top-cited from the primary profile (profiles' greatest hits)
+    // pass 1 — top-cited across all of the member's profiles (profiles' greatest hits)
     try {
-      pubs[member.slug] = await fetchTopCited(ids[0]);
+      pubs[member.slug] = await fetchTopCited(ids);
       process.stdout.write(`top-cited ${pubs[member.slug].length} · `);
     } catch (e) {
       process.stdout.write(`top-cited FAILED (${e.message}) · `);
