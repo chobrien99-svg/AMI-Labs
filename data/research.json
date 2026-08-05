@@ -1,6 +1,331 @@
 {
-  "generatedAt": "2026-08-05T15:14:14.404Z",
+  "generatedAt": "2026-08-05T15:21:33.581Z",
   "papers": [
+    {
+      "paperId": "1006651b762e229b32cc001bb287c3f607749447",
+      "title": "Self-supervised DXA representations encode multi-system disease risk, biological aging and heritability",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "G. Sasson",
+          "authorId": "8125684",
+          "slug": null
+        },
+        {
+          "name": "Zachary Levine",
+          "authorId": "2276954812",
+          "slug": null
+        },
+        {
+          "name": "S. Shilo",
+          "authorId": "35641358",
+          "slug": null
+        },
+        {
+          "name": "S. Kohn",
+          "authorId": "2342488163",
+          "slug": null
+        },
+        {
+          "name": "G. Lutsker",
+          "authorId": "2291961834",
+          "slug": null
+        },
+        {
+          "name": "A. Godneva",
+          "authorId": "49390370",
+          "slug": null
+        },
+        {
+          "name": "A. Gabet",
+          "authorId": "91848601",
+          "slug": null
+        },
+        {
+          "name": "D. Krongauz",
+          "authorId": "2362719419",
+          "slug": null
+        },
+        {
+          "name": "A. Weinberger",
+          "authorId": "1873302",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Randall Balestriero",
+          "authorId": "2277741253",
+          "slug": null
+        },
+        {
+          "name": "Eran Segal",
+          "authorId": "2316700433",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-08-03",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/1006651b762e229b32cc001bb287c3f607749447",
+      "citationCount": 0,
+      "tldr": "It is shown that self-supervised learning (SSL) can convert raw DXA images into representations of systemic health, and prognostic information in DXA images that conventional readouts discard is revealed, learnable with relatively little data and modest compute.",
+      "abstract": "Whole-body dual-energy X-ray absorptiometry (DXA) scans are routinely acquired to measure bone density and regional body composition, leaving their spatial structure largely unused. Here, we show that self-supervised learning (SSL) can convert raw DXA images into representations of systemic health. We introduce LeDXA, a vision model based on a joint-embedding predictive architecture (JEPA) that learns by predicting latent representations rather than reconstructing pixels. Trained from scratch on 11,540 unlabeled Human Phenotype Project scans, LeDXA was evaluated internally and on 47,400 external UK Biobank (UKBB) scans. It improved cross-cohort prediction of prevalent diseases and biomarkers beyond scanner-derived DXA measurements and DINOv3, a state-of-the-art general-purpose model, despite approximately 150,000-fold fewer training images and nearly 40-fold fewer parameters. Over a median 4.3-year UKBB follow-up, LeDXA improved incident disease prediction over tabular DXA measures, with the largest gains for hip and knee arthrosis and type 2 diabetes. For hip arthrosis, 66% of incident cases occurred in the highest-risk quartile versus 41% for tabular measures. Its representations"
+    },
+    {
+      "paperId": "f4578e2fa551e6b991125e5f8770212337476fee",
+      "title": "HP-JEPA: Hierarchical Partitioning for Multi-Resolution Graph Joint-Embedding Predictive Learning",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Ruichen Xu",
+          "authorId": "2357860324",
+          "slug": null
+        },
+        {
+          "name": "Jingxiang Qu",
+          "authorId": "2360299082",
+          "slug": null
+        },
+        {
+          "name": "Wenhan Gao",
+          "authorId": "2332482168",
+          "slug": null
+        },
+        {
+          "name": "Jiaxing Zhang",
+          "authorId": null,
+          "slug": null
+        },
+        {
+          "name": "Linsey Pang",
+          "authorId": "2397382185",
+          "slug": null
+        },
+        {
+          "name": "Ravid Shwartz-Ziv",
+          "authorId": "1411405900",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2265899558",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Yuefan Deng",
+          "authorId": "2358087522",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-08-01",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/f4578e2fa551e6b991125e5f8770212337476fee",
+      "citationCount": 0,
+      "tldr": "Horsepower-JEPA organizes each graph into an ordered bank of coarse-to-fine partition resolutions and performs context-target latent prediction separately at each resolution using an online encoder, an exponential-moving-average target encoder, and a latent predictor.",
+      "abstract": "Graph self-supervised learning aims to learn transferable representations from large-scale unlabeled graph data. Joint-embedding predictive architectures (JEPAs) avoid explicit negative-pair construction and raw-input reconstruction by predicting masked targets directly in latent space. However, existing graph JEPAs typically rely on a single predefined graph partition, biasing the learned representations toward one structural granularity and limiting their ability to capture complementary patterns at different graph scales. To address this limitation, we propose HP-JEPA, a hierarchical partitioning framework for multi-resolution graph joint-embedding prediction. HP-JEPA organizes each graph into an ordered bank of coarse-to-fine partition resolutions and performs context-target latent prediction separately at each resolution using an online encoder, an exponential-moving-average target encoder, and a latent predictor. The resulting resolution-specific graph representations are subsequently integrated through concatenation or task-specific resolution weighting, allowing downstream models to combine complementary local, regional, and global structural information. Experiments on sev"
+    },
+    {
+      "paperId": "1434abdc75086289a430c2306488771c8b5c783a",
+      "title": "Unpacking Open Source Artificial Intelligence: Toward a Framework for Openness in Foundation Models",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Camille François",
+          "authorId": "2307267115",
+          "slug": null
+        },
+        {
+          "name": "Adrien Basdevant",
+          "authorId": "2303402391",
+          "slug": null
+        },
+        {
+          "name": "Victor Storchan",
+          "authorId": "1387983320",
+          "slug": null
+        },
+        {
+          "name": "Kevin Bankston",
+          "authorId": "2288624066",
+          "slug": null
+        },
+        {
+          "name": "Ayah Bdeir",
+          "authorId": "3257220",
+          "slug": null
+        },
+        {
+          "name": "B. Behlendorf",
+          "authorId": "2386009",
+          "slug": null
+        },
+        {
+          "name": "Mérouane Debbah",
+          "authorId": "2237985832",
+          "slug": null
+        },
+        {
+          "name": "Sayash Kapoor",
+          "authorId": "39893263",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Mark Surman",
+          "authorId": "2303403108",
+          "slug": null
+        },
+        {
+          "name": "Helen King-Turvey",
+          "authorId": "2303402877",
+          "slug": null
+        },
+        {
+          "name": "Nathan Lambert",
+          "authorId": "2296786317",
+          "slug": null
+        },
+        {
+          "name": "Stefano Maffulli",
+          "authorId": "2288615256",
+          "slug": null
+        },
+        {
+          "name": "Nik Marda",
+          "authorId": "52252788",
+          "slug": null
+        },
+        {
+          "name": "Govind Shivkumar",
+          "authorId": "2303401957",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-07-29",
+      "year": 2026,
+      "venue": "Communications of the ACM",
+      "url": "https://doi.org/10.1145/3778264",
+      "citationCount": 0,
+      "tldr": "A framework for analyzing openness across the AI stack is proposed, reviewing prior approaches and highlighting the diverse motivations for pursuing openness, showing how these map onto different forms of openness at both the model and system levels.",
+      "abstract": "There has been a robust debate about the benefits and risks of “open sourcing” foundation models. Yet much of the discourse has lacked specificity, either remaining overly abstract or focusing narrowly on a limited set of technical components. This is partly because defining open source for foundation models is challenging, given their significant differences from traditional software development. To inform a more practical and nuanced discussion of openness in AI systems, including foundation models, we propose a framework for analyzing openness across the AI stack. We review prior approaches and highlights the diverse motivations for pursuing openness, showing how these map onto different forms of openness at both the model and system levels. The framework makes these distinctions explicit and provides a foundation for evaluating how openness strategies advance broader goals such as safety and accountability. Steps toward a more nuanced and practical understanding of openness in AI."
+    },
+    {
+      "paperId": "aa719edaada5f83db6a151ca7f062f134927fce7",
+      "title": "Music-JEPA: Learning a World Model of Sound from Action",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Ziyu Wang",
+          "authorId": "2301543573",
+          "slug": null
+        },
+        {
+          "name": "Kun Fang",
+          "authorId": "2341717619",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-07-24",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/aa719edaada5f83db6a151ca7f062f134927fce7",
+      "citationCount": 0,
+      "tldr": "This work proposes to learn a world model of piano sound using JEPA by framing music as an action-conditioned system, and shows that the learned model captures the relationships between musical actions and their resulting sound.",
+      "abstract": "Joint Embedding Predictive Architectures (JEPA) have recently emerged as a paradigm for learning world models by predicting latent representations, offering a promising direction for self-supervised learning. While initial attempts have applied JEPA to the music domain, it remains unclear how such frameworks can naturally support the formation of a world model for music. In this work, we propose to learn a world model of piano sound using JEPA by framing music as an action-conditioned system: the audio is treated as the state, and the pianoroll as the instrument action. Given a current audio state and an action, the model predicts the resulting future audio state, mirroring how humans learn musical sound through interaction. The model is trained in a fully offline setting using paired audio-pianoroll data, without environment interaction. Experiments show that the learned model captures the relationships between musical actions and their resulting sound. The resulting representations support downstream tasks, including beat tracking, composer identification, and key estimation, and enable piano transcription via planning, by searching for actions that best explain a target sound."
+    },
+    {
+      "paperId": "41401cb47d98892ae37b7a12d2a125afea245e76",
+      "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Gaoyue Zhou",
+          "authorId": "2257386929",
+          "slug": null
+        },
+        {
+          "name": "Zichen Jeff Cui",
+          "authorId": "2172045711",
+          "slug": null
+        },
+        {
+          "name": "Ada Langford",
+          "authorId": "2328411226",
+          "slug": null
+        },
+        {
+          "name": "Bowen Tan",
+          "authorId": "2325098801",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Lerrel Pinto",
+          "authorId": "2253567347",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-07-20",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/41401cb47d98892ae37b7a12d2a125afea245e76",
+      "citationCount": 0,
+      "tldr": "This work believes Patch Policy provides a pipeline for the robotics community to readily leverage continuing progress in visual representation learning, without sacrificing the training efficiency or inference speed required for high-frequency, reactive control.",
+      "abstract": "Pretrained dense visual features from Vision Transformers (ViTs) are powerful yet have been underutilized in robot learning. Modern robot policies either compress each observation into a single global token, or rely on visual backbones trained from scratch, sacrificing both fine-grained spatial detail and the benefits of large-scale visual pre-training. While there exist policies that do operate on dense patch features like large vision-language-action models (VLAs), they tend to be heavy and slow, inheriting the full cost of a billion-parameter vision-language model (VLM) backbone. We close this gap with Patch Policy, a minimal architectural extension that enables transformer-based policies to consume dense pre-trained patch tokens directly without the computational overhead of a full VLM. At its core is a block-causal attention mask that preserves the temporal causality of standard policies while letting the model attend over many patch tokens per observation, alongside other state information. Patch Policy is lightweight, fast, and highly effective. Across four simulated and three real-world environment suites, our method achieves a 40% relative improvement over policies using s"
+    },
     {
       "paperId": "4f890d8373b93892ce2a50d87415653fc225a5a8",
       "title": "Separating Representation from Reconstruction Enables Scalable Text Encoders",
@@ -2850,6 +3175,47 @@
       "abstract": null
     },
     {
+      "paperId": "6a2f658d6ea2d3a1f2d03b11d0cce65e9881bd96",
+      "title": "AdaJEPA: An Adaptive Latent World Model",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Ying Wang",
+          "authorId": "2273338190",
+          "slug": null
+        },
+        {
+          "name": "Oumayma Bounou",
+          "authorId": "1388839835",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Mengye Ren",
+          "authorId": "2367273528",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-06-30",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/6a2f658d6ea2d3a1f2d03b11d0cce65e9881bd96",
+      "citationCount": 1,
+      "tldr": "AdaJEPA is an adaptive latent world model that performs test-time adaptation within the closed loop of model predictive control (MPC), and substantially improves planning success with as few as one gradient step per MPC replanning step.",
+      "abstract": "Latent world models enable planning from high-dimensional observations by predicting future states in a compact latent space. However, these models are typically kept frozen at test time: when their predictions become inaccurate, planning can fail, especially under test-time distribution shift. To address this, we propose AdaJEPA, an adaptive latent world model that performs test-time adaptation within the closed loop of model predictive control (MPC). After training, AdaJEPA plans and executes the first action chunk, uses the observed next-state transition as a self-supervised adaptation signal, and replans with the updated model. This closed-loop update continuously recalibrates the world model without additional expert demonstrations. Across a range of goal-reaching tasks, AdaJEPA substantially improves planning success with as few as one gradient step per MPC replanning step."
+    },
+    {
       "paperId": "bbb2fba52c4d7d3b29f58a5e136d012acdc2010d",
       "title": "MJEPA: A Simple and Scalable Joint-Embedding Predictive Architecture for Audio-Visual Learning",
       "teamAuthors": [
@@ -2905,6 +3271,52 @@
       "abstract": "Self-supervised learning from large-scale video data has emerged as a dominant paradigm for visual representation learning. Since audio and visual streams naturally co-occur in video data, extending this success to jointly learn from both modalities is a natural next step, yet it remains challenging. Existing audio-visual self-supervised methods rely on modality-specific encoders and complex combinations of contrastive or reconstruction objectives, limiting cross-modal synergy and scalability. Joint Embedding Predictive Architectures (JEPAs) offer a simple, modality-agnostic alternative, but have to date been applied primarily to individual modalities. We introduce MJEPA, a joint-embedding predictive architecture for audio-visual learning that uses a single, unified encoder for both modalities. Our approach uses only a single predictive objective, applied both within and across modalities. We show that cross-modal prediction is critical: without it, a shared encoder degrades below unimodal baselines; with it, each modality's representation benefits from the other. Our frozen ViT-g model outperforms the best prior frozen baseline by over 6.8 mAP on AudioSet-20K, surpasses fully fine"
     },
     {
+      "paperId": "41620e8f40ae6f6103a3c1d4eab59f5830c963dd",
+      "title": "SkyJEPA: Learning Long-Horizon World Models for Zero-Shot Sim-to-Real Control of Quadrotors",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "P. Rao",
+          "authorId": "2257453052",
+          "slug": null
+        },
+        {
+          "name": "Wancong Zhang",
+          "authorId": "2108277713",
+          "slug": null
+        },
+        {
+          "name": "Randall Balestriero",
+          "authorId": "2378151189",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Giuseppe Loianno",
+          "authorId": "1759737",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-06-22",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/41620e8f40ae6f6103a3c1d4eab59f5830c963dd",
+      "citationCount": 5,
+      "tldr": "The JEPA-style model for real-time quadrotor control is introduced, which combines a latent dynamics model with a novel physics-inspired prober that maps frozen latents to interpretable state, enabling physically grounded long-horizon prediction.",
+      "abstract": "Accurate dynamics models are critical for informed decision-making in robotic systems, particularly for agile aerial vehicles operating under uncertainty. Neural network dynamics models are attractive for capturing complex nonlinear effects, but existing predictive approaches struggle with long-horizon forecasting because their autoregressive rollout mechanism amplifies errors over time. Joint Embedding Predictive Architectures (JEPAs) offer a compelling alternative by modeling dynamics in latent space, yet prior JEPA-style methods for robot navigation have been studied primarily for kinematic-level planning, with limited investigation in high-frequency control. In this work, we introduce the JEPA-style model for real-time quadrotor control. The proposed approach combines a latent dynamics model with a novel physics-inspired prober that maps frozen latents to interpretable state, enabling physically grounded long-horizon prediction. Additionally, we combine the learned model with a sampling-based optimal control solution to take advantage of its predictive capabilities for real-time control on embedded hardware. Finally, to reduce the dependence on expensive and unsafe real-world d"
+    },
+    {
       "paperId": "31e6e9e341f8e8152c9f633b5838c585853feb1b",
       "title": "Learning through Internalization",
       "teamAuthors": [
@@ -2951,6 +3363,67 @@
       "abstract": "We study internalization processes, by which neural-network-based systems absorb an explicit computational procedure into their own weights, and how they facilitate learning. We investigate how transformers internalize the simulation of semiautomata by internalizing chain-of-thought (CoT) tokens, which classes of semiautomata are harder to internalize, and expose the flip side of internalization, that is, a progressive degradation of out-of-distribution performance. We then provide the first provable analysis of successful internalization: for the task of learning parities, we show that a simplified one-layer transformer provably first learns the target with explicit CoT supervision and then internalizes the autoregressive generation as CoT tokens are progressively removed, learning to directly compute the parity. This task is computationally hard to learn from data without CoT supervision. Finally, we discuss how learning through internalization relates to the \\textit{Positive Distribution Shift} phenomenon recently introduced by~\\citet{Med+26}."
     },
     {
+      "paperId": "54f505d19d73e12d3642a9a82cd4851235edf043",
+      "title": "S-JEPA : Soft Clustering Anchors for Self-Supervised Speech Representation Learning",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Georgios Ioannides",
+          "authorId": "2280137870",
+          "slug": null
+        },
+        {
+          "name": "Adrian Kieback",
+          "authorId": "2319408843",
+          "slug": null
+        },
+        {
+          "name": "Judah Goldfeder",
+          "authorId": "115246342",
+          "slug": null
+        },
+        {
+          "name": "Linsey Pang",
+          "authorId": "2397382185",
+          "slug": null
+        },
+        {
+          "name": "Aman Chadha",
+          "authorId": "2275226689",
+          "slug": null
+        },
+        {
+          "name": "Aaron Elkins",
+          "authorId": "2280135429",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Ravid Shwartz-Ziv",
+          "authorId": "1411405900",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-06-17",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/54f505d19d73e12d3642a9a82cd4851235edf043",
+      "citationCount": 0,
+      "tldr": "S-JEPA is introduced, a JEPA-style encoder-predictor pair trained to match the soft posteriors of a Gaussian Mixture Model at masked positions via KL divergence, establishing a new Pareto frontier without offline re-clustering or teacher distillation.",
+      "abstract": "Self-supervised speech encoders are predominantly trained by predicting discrete hard cluster IDs at masked positions, a recipe that collapses acoustic ambiguity at category boundaries and requires interrupting training to re-cluster the entire corpus between iterations. We introduce S-JEPA, a JEPA-style encoder-predictor pair trained to match the soft posteriors of a Gaussian Mixture Model at masked positions via KL divergence. Training runs as one continuous optimization trajectory in two phases: a fixed GMM over MFCC features, then an online GMM over encoder features, with the input layer selected adaptively from a label-free signal, removing both the offline re-cluster step and the hand-tuned choice of which transformer layer to cluster on. Under the SUPERB protocol, S-JEPA achieves the lowest WER among evaluated SSL methods below 90M parameters and matches HuBERT-Base on emotion recognition at roughly half its parameter count, establishing a new Pareto frontier without offline re-clustering or teacher distillation. An analysis of the predictor's per-frame entropy on held-out speech reveals a bimodal distribution with a substantial minority of frames near the entropy of a perfe"
+    },
+    {
       "paperId": "d90159d04db78db63e04ebd03a8d65f985b5eb85",
       "title": "Fantastic Pretraining Optimizers and Where to Find Them II: Hyperball Optimization",
       "teamAuthors": [
@@ -2995,6 +3468,88 @@
       "citationCount": 4,
       "tldr": "Hyperball is a simple optimizer wrapper that improves learning rate transfer across widths and depths compared to decoupled weight decay, motivated by prior theory showing that training with weight decay leads to an equilibrium weight norm that only depends on the training hyperparameters.",
       "abstract": "Matrix based optimizers such as Muon can substantially speed up language model pretraining, but their gains over AdamW are observed to shrink as model size and data scale grow when using standard constant decoupled weight decay. We propose Hyperball, a simple optimizer wrapper that addresses this issue. Given a base optimizer such as Adam or Muon, Hyperball sets the Frobenius norms of weight matrices and their corresponding optimizer updates to fixed constants. On Qwen3 style models up to 1.2B parameters, Muon Hyperball achieves 20--30% token equivalent speedup over weight decay baselines. Hyperball also improves learning rate transfer across widths and depths compared to decoupled weight decay. This method is motivated by prior theory showing that training with weight decay leads to an equilibrium weight norm that only depends on the training hyperparameters. Through this mechanism, the weight decay then decides the angular learning rate, i.e. how fast the direction of the weight matrix changes."
+    },
+    {
+      "paperId": "69b2f3313b31ea5592f6242f2a517b84011f9f24",
+      "title": "You Don't Need Strong Assumptions: Visual Representation Learning via Temporal Differences",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Ninad Daithankar",
+          "authorId": "2119067930",
+          "slug": null
+        },
+        {
+          "name": "Alexi Gladstone",
+          "authorId": "2216334722",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Heng Ji",
+          "authorId": "2349551882",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-06-14",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/69b2f3313b31ea5592f6242f2a517b84011f9f24",
+      "citationCount": 2,
+      "tldr": "Temporal Difference in Vision (TDV) is introduced, a new paradigm for self-supervised learning from video that avoids existing inductive biases, relying instead on a causal assumption that the past causes the future.",
+      "abstract": "Progress in AI has largely been driven by methods that assume less. As compute and data increase, approaches with weaker inductive biases generally outperform those with stronger assumptions. This is particularly characteristic of the field of Visual Representation Learning, where approaches have gone from being dominated by Supervised Learning, to Weakly Supervised Learning, to the now widespread success of Self-Supervised Learning without human labels. Yet, even modern Self-Supervised Learning approaches still depend on strong inductive biases such as augmentations, masking, or cropping. If this trend holds, even these remaining biases should become bottlenecks at scale -- and our experiments confirm this: the optimal strength of inductive biases decreases as data grows. This motivates the search for approaches that rely on fewer assumptions. To this end, we introduce Temporal Difference in Vision (TDV), a new paradigm for self-supervised learning from video that avoids existing inductive biases, relying instead on a causal assumption that the past causes the future. TDV functions by jointly training an image encoder and a motion encoder so that the current frame's representation"
+    },
+    {
+      "paperId": "e218c1a1fcba59c463082f9a1824ebeecae50f65",
+      "title": "Unifying Object-Centric World Models and Diffusion Policy: A Hierarchical Framework for Multi-Stage Robotic Tasks",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Raktim Gautam Goswami",
+          "authorId": "2003753110",
+          "slug": null
+        },
+        {
+          "name": "P. Krishnamurthy",
+          "authorId": "1920142",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "F. Khorrami",
+          "authorId": "1880767",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-06-07",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/e218c1a1fcba59c463082f9a1824ebeecae50f65",
+      "citationCount": 1,
+      "tldr": "Evaluated across several robotics benchmarks, WorldDP consistently outperforms existing baselines, validating that coupling the world model's physically grounded planning with diffusion policy's efficient execution yields superior multi-stage performance.",
+      "abstract": "Visual world models have shown great potential in learning complex system dynamics. Recent advancements leverage these models as transition functions within Model Predictive Control (MPC) frameworks to solve various control tasks. When applied to robotics, however, they are limited to single-stage tasks such as reaching or grasping, and struggle with multi-stage ones that demand complex sequential planning. In this work, we introduce WorldDP, a world model framework designed for multi-stage robotic manipulation. Our hierarchical approach utilizes a high-level world model as a transition function to optimize for feasible subgoals during runtime, which are subsequently reached by a low-level Diffusion Policy. To further aid in learning dynamics and planning, we incorporate object-centric representations that decouple environmental entities and enable us to plan sequentially with respect to each. Evaluated across several robotics benchmarks, WorldDP consistently outperforms existing baselines, validating that coupling the world model's physically grounded planning with diffusion policy's efficient execution yields superior multi-stage performance."
     },
     {
       "paperId": "8d00fe792435341ba46bd76adb34f891f46e6910",
@@ -3056,6 +3611,42 @@
       "citationCount": 1,
       "tldr": null,
       "abstract": null
+    },
+    {
+      "paperId": "36863b6dd7968bca4efb3f6e93cf06cb84568f0f",
+      "title": "When Does LeJEPA Learn a World Model?",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "David A. Klindt",
+          "authorId": "2396490492",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Randall Balestriero",
+          "authorId": "2378151189",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-05-25",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.26379",
+      "citationCount": 6,
+      "tldr": "It is proved that LeJEPA (alignment plus Gaussian regularization) linearly recovers the world's latent variables from nonlinear observations, a property known as linear identifiability, in a broad class of worlds where latents evolve under stationary, additive-noise transitions, and the Gaussian is the unique latent distribution for which this guarantee holds.",
+      "abstract": "A representation that scrambles the true degrees of freedom of the world cannot support reliable planning or compositional generalization. We prove that LeJEPA (alignment plus Gaussian regularization) linearly recovers the world's latent variables from nonlinear observations, a property known as linear identifiability, in a broad class of worlds where latents evolve under stationary, additive-noise transitions. Our main result is that among all such worlds, the Gaussian is the unique latent distribution for which this guarantee holds. The forward direction rests on a spectral decomposition in which each degree of nonlinearity is strictly penalized by alignment, making the linear map the optimum; the converse rules out every non-Gaussian alternative. We further prove an approximate identifiability result where the guarantee degrades gracefully, and show that linear, orthogonal identifiability enables optimal latent-space planning. We validate the theory with experiments ranging from 2D examples to 1024-dimensional latents, including distributional ablations and pixel-based robotic control. Our theory turns an empirically successful recipe into a mathematical guarantee, providing the"
     },
     {
       "paperId": "0858da5e7989e7cacdb550ca11c5ef32b49c3932",
@@ -3162,6 +3753,67 @@
       "citationCount": 0,
       "tldr": "Cambrian-P is revisited as a lightweight supervisory signal and Cambrian-P, a video MLLM augmented with per-frame learnable camera tokens and a pose regression head is introduced, which achieves substantial gains on spatial reasoning benchmarks and achieves state of the art streaming pose estimation on ScanNet.",
       "abstract": "Camera pose matters. The position and orientation of each viewpoint define a shared spatial coordinate frame that relates observations across video frames. Yet this signal is largely absent from multimodal LLMs (MLLMs) for video understanding, which process frames as isolated 2D snapshots, instead of the persistent scene humans perceive. We revisit pose as a lightweight supervisory signal and introduce Cambrian-P, a video MLLM augmented with per-frame learnable camera tokens and a pose regression head. With a carefully designed sampling scheme, the model achieves substantial gains of 4.5-6.5% on spatial reasoning benchmarks such as VSI-Bench, generalizes across eight additional spatial and general video QA benchmarks, and, as a byproduct, achieves state of the art streaming pose estimation on ScanNet. Surprisingly, training on pseudo-annotated poses from in-the-wild video further improves general video QA benchmarks, showing pose helps beyond spatial reasoning. Together, these results position camera pose as a fundamental signal for video models that reason about the physical world."
+    },
+    {
+      "paperId": "20ba4363b7275178aaca520f9f16b39dad3a87d0",
+      "title": "Announcing the Shaw Prize in Computer Science",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Jennifer T. Chayes",
+          "authorId": "2374227632",
+          "slug": null
+        },
+        {
+          "name": "T. F. Chan",
+          "authorId": "2067967062",
+          "slug": null
+        },
+        {
+          "name": "Jack J. Dongarra",
+          "authorId": "2267216686",
+          "slug": null
+        },
+        {
+          "name": "John L. Hennessy",
+          "authorId": "2328138947",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "1688882",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Harry Shum",
+          "authorId": "2342287808",
+          "slug": null
+        },
+        {
+          "name": "Joseph Sifakis",
+          "authorId": "2256520183",
+          "slug": null
+        },
+        {
+          "name": "Jeannette M. Wing",
+          "authorId": "2272152313",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-05-21",
+      "year": 2026,
+      "venue": "Communications of the ACM",
+      "url": "https://doi.org/10.1145/3811413",
+      "citationCount": 0,
+      "tldr": null,
+      "abstract": "Nominations for this new prize will be invited September to November 2026."
     },
     {
       "paperId": "8d62bb68ffa636edd5b72a8fc8fcd99f37aeb836",
@@ -3283,6 +3935,128 @@
       "citationCount": 0,
       "tldr": "PEIRA is introduced, a non-contrastive SSL method with an explicit objective defined through the trace of the optimal linear regressor, which shows that its only stable equilibria are nontrivial global minimizers and recover the same canonical correlation subspaces, with regularization selecting the effective dimension.",
       "abstract": "Non-contrastive self-supervised learning (SSL) is an effective framework for predictive representation learning, but popular (and in practice effective) methods such as SimSiam, BYOL, I-JEPA or DINO, which rely on a form of self-distillation to train a teacher-student network, remain poorly understood as they typically do not minimize a well-defined objective. We analyze the dynamics of a variant of the Joint Embedding Predictive Architecture (JEPA) using a regularized linear regressor to predict the learned representations of two views of the data from one another, and fully characterize its stability: non-collapsed stable equilibria align with leading nonlinear canonical correlation subspaces, while collapsed equilibria may also be stable attractors. Motivated by this result, we introduce PEIRA, a non-contrastive SSL method with an explicit objective defined through the trace of the optimal linear regressor. We show that its only stable equilibria are nontrivial global minimizers and recover the same canonical correlation subspaces, with regularization selecting the effective dimension. Experiments on ImageNet-1K and CIFAR-10 show PEIRA is competitive with VICReg and LeJEPA basel"
+    },
+    {
+      "paperId": "1692a95688453760a46c2f073574bf8a6c45173d",
+      "title": "Crys-JEPA: Accelerating Crystal Discovery via Embedding Screening and Generative Refinement",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Nian Liu",
+          "authorId": "2302823840",
+          "slug": null
+        },
+        {
+          "name": "Nikita Kazeev",
+          "authorId": "2261034413",
+          "slug": null
+        },
+        {
+          "name": "Stephen G Dale",
+          "authorId": "2330081621",
+          "slug": null
+        },
+        {
+          "name": "Artem Maevskiy",
+          "authorId": "2252995310",
+          "slug": null
+        },
+        {
+          "name": "Yuwei Zeng",
+          "authorId": "2284952386",
+          "slug": null
+        },
+        {
+          "name": "Ryoji Kubo",
+          "authorId": "2309487013",
+          "slug": null
+        },
+        {
+          "name": "Pengru Huang",
+          "authorId": "2315945257",
+          "slug": null
+        },
+        {
+          "name": "T. Laurent",
+          "authorId": "81634721",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2265899558",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Kostya S. Novoselov",
+          "authorId": "2305679213",
+          "slug": null
+        },
+        {
+          "name": "X. Bresson",
+          "authorId": "2549032",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-05-14",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.14759",
+      "citationCount": 0,
+      "tldr": "Crys-JEPA is introduced, a joint embedding predictive architecture for crystals that learns an energy-aware latent space preserving formation-energy differences that can be reformulated as an embedding-based comparison against accessible training crystals, reducing the reliance on expensive energy evaluation and task-specific external references.",
+      "abstract": "De novo crystal generation seeks to discover materials that are not merely realistic, but also stable and novel. However, most existing generative models are trained to maximize the likelihood of observed crystals, which encourages samples to stay close to known materials yet not necessarily align with the criteria that matter in discovery. Our empirical analysis shows that current crystal generative models exhibit a clear conflict between stability and novelty: samples near the observed distribution tend to retain stability but offer limited novelty, whereas samples farther from it often lose stability rapidly. This suggests that the useful region for discovering crystals that are both stable and novel is extremely narrow. To move beyond this limitation, we introduce Crys-JEPA, a joint embedding predictive architecture for crystals that learns an energy-aware latent space preserving formation-energy differences. In this space, stability assessment can be reformulated as an embedding-based comparison against accessible training crystals, reducing the reliance on expensive energy evaluation and task-specific external references. Building on Crys-JEPA, we further develop a screening-"
+    },
+    {
+      "paperId": "7f012be3704ebd1ffaa7571f179368a7db8703f7",
+      "title": "On Training in Imagination",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "N. Timor",
+          "authorId": "2151790441",
+          "slug": null
+        },
+        {
+          "name": "Ravid Shwartz-Ziv",
+          "authorId": "1411405900",
+          "slug": null
+        },
+        {
+          "name": "Micah Goldblum",
+          "authorId": "2126058635",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "David Harel",
+          "authorId": "2302803517",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-05-07",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.06732",
+      "citationCount": 0,
+      "tldr": "This work extends the analysis of Asadi et al. (2018) to MDPs with learned reward models, and derives the optimal sample allocation--the ratio of dynamics samples to reward samples that minimizes a bound on return error under power-law scaling assumptions.",
+      "abstract": "State-of-the-art model-based reinforcement learning methods train policies on imagined rollouts. These rollouts are trajectories generated by a learned dynamics model and are scored by a learned reward model, but without querying the true environment during policy updates. We study this training paradigm by quantifying how errors in learned dynamics and reward models affect returns and policy optimization. First, we extend the analysis of Asadi et al. (2018) to MDPs with learned reward models, and derive the optimal sample allocation--the ratio of dynamics samples to reward samples that minimizes a bound on return error under power-law scaling assumptions. We identify lower Lipschitz constants of the learned dynamics, reward, and policy as a representation desideratum that tightens this bound, and we connect this perspective to the temporal-straightening objective of Wang et al. (2026). Second, we examine how policy optimization with REINFORCE tolerates noisy rewards, which are often cheaper to obtain. We show that zero-mean reward noise leaves the gradient estimator unbiased and adds at most a variance term that decreases with the number of rollouts. This introduces a practical tr"
     },
     {
       "paperId": "a410289d9adea1f9047373cd7d924daaf63a575d",
@@ -3471,6 +4245,37 @@
       "citationCount": 1,
       "tldr": "The SFI-Bench is introduced, a video-based benchmark with over 1,500 expert-annotated questions derived from diverse egocentric indoor video scans that provides a diagnostic tool for measuring progress toward more cognitively capable and truly grounded multimodal agents.",
       "abstract": "Human-level agentic intelligence extends beyond low-level geometric perception, evolving from recognizing where things are to understanding what they are for. While existing benchmarks effectively evaluate the geometric perception capabilities of multimodal large language models (MLLMs), they fall short of probing the higher-order cognitive abilities required for grounded intelligence. To address this gap, we introduce the Spatial-Functional Intelligence Benchmark (SFI-Bench), a video-based benchmark with over 1,500 expert-annotated questions derived from diverse egocentric indoor video scans. SFI-Bench systematically evaluates two complementary dimensions of advanced reasoning: (1) Structured Spatial Reasoning, which requires understanding complex layouts and forming coherent spatial representations, and (2) Functional Reasoning, which involves inferring object affordances and their context-dependent utility. The benchmark includes tasks such as conditional counting, multi-hop relational reasoning, functional pairing, and knowledge-grounded troubleshooting, directly challenging models to integrate perception, memory, and inference. Our experiments reveal that current MLLMs consist"
+    },
+    {
+      "paperId": "8f486c09cffd1d848db6da66591c430d683dae0f",
+      "title": "Spectral Graph Theory: The mathematics of self-supervised learning [Special Issue on the Mathematics of Deep Learning]",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Randall Balestriero",
+          "authorId": "2378151189",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-05-01",
+      "year": 2026,
+      "venue": "IEEE Signal Processing Magazine",
+      "url": "https://doi.org/10.1109/MSP.2026.3659059",
+      "citationCount": 1,
+      "tldr": null,
+      "abstract": "Possessing a manipulable representation of the world is a requirement for intelligent machines to plan, reason, and act in the world. Endowing computational systems, e.g., deep networks (DNs), with artificial intelligence (AI) capabilities is the goal of self-supervised learning (SSL). Immense optimism, fueled by early successes, funneled vast resources into SSL, which led to fast-paced but fragmented early developments. As a result, today’s SSL research has become costly, slow-paced, and often akin to trial and error. To ensure that SSL research remains innovative and fail-proof, we present a unifying mathematical language that underpins SSL as a whole, and from which it is possible to explain and provably alleviate some of its limitations. To that end, we bring forward a spectral graph theory of SSL that will rely on harmonic analysis and spectral graph theory. Under that view, SSL can be summarized as 1) estimating a relationship graph between the dataset samples and 2) learning to produce a smooth signal (from a DN) on that graph, as measured by the Dirichlet energy. The vast collection of SSL methods fall under that formulation and differ only in how they estimate the graph, o"
     },
     {
       "paperId": "d48730481633499ce3ef5341c852c6439a5cae00",
@@ -3694,6 +4499,42 @@
       "abstract": "World models are a promising path to zero-shot embodied control through planning. However, existing world model planners struggle on long-horizon, multi-stage tasks: prediction errors compound and naive search is exponential in the planning horizon. Hierarchy mitigates both by decomposing tasks into shorter, tractable subproblems; yet prior hierarchical approaches either amortize control into task-specific policies (hierarchical RL) or assume low-dimensional states and known dynamics (classical hierarchical MPC). We present Hierarchical Planning with Latent World Models (HWM), an architecture and planning paradigm for hierarchical model predictive control (MPC) directly on visual world models trained solely via next-latent prediction. HWM learns world models at multiple temporal scales within a shared latent space, so predictions from the long-horizon model serve as subgoals for the short-horizon model via latent matching, without task-specific rewards, skill learning, or hierarchical policies. To keep long-horizon search tractable, HWM learns an action encoder that compresses primitive action chunks into latent macro-actions. On real-world Franka manipulation, HWM solves pick-and-"
     },
     {
+      "paperId": "4353f9b78c972e37273c1b77a440c3812215ca91",
+      "title": "Why AI systems don't learn and what to do about it: Lessons on autonomous learning from cognitive science",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Emmanuel Dupoux",
+          "authorId": "2292143317",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Jitendra Malik",
+          "authorId": "2263518886",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-03-16",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.15381",
+      "citationCount": 8,
+      "tldr": "A learning architecture inspired by human and animal cognition is proposed that integrates learning from observation and learning from active behavior while flexibly switching between these learning modes as a function of internally generated meta-control signals.",
+      "abstract": "We critically examine the limitations of current AI models in achieving autonomous learning and propose a learning architecture inspired by human and animal cognition. The proposed framework integrates learning from observation (System A) and learning from active behavior (System B) while flexibly switching between these learning modes as a function of internally generated meta-control signals (System M). We discuss how this could be built by taking inspiration on how organisms adapt to real-world, dynamic environments across evolutionary and developmental timescales."
+    },
+    {
       "paperId": "42ca8bd0ae408eff0d3bd9f5e121f792876e83ea",
       "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
       "teamAuthors": [
@@ -3824,6 +4665,330 @@
       "citationCount": 121,
       "tldr": "LeWorldModel is introduced, the first JEPA that trains stably end-to-end from raw pixels using only two loss terms: a next-embedding prediction loss and a regularizer enforcing Gaussian-distributed latent embeddings.",
       "abstract": "Joint Embedding Predictive Architectures (JEPAs) offer a compelling framework for learning world models in compact latent spaces, yet existing methods remain fragile, relying on complex multi-term losses, exponential moving averages, pre-trained encoders, or auxiliary supervision to avoid representation collapse. In this work, we introduce LeWorldModel (LeWM), the first JEPA that trains stably end-to-end from raw pixels using only two loss terms: a next-embedding prediction loss and a regularizer enforcing Gaussian-distributed latent embeddings. This reduces tunable loss hyperparameters from six to one compared to the only existing end-to-end alternative. With ~15M parameters trainable on a single GPU in a few hours, LeWM plans up to 48x faster than foundation-model-based world models while remaining competitive across diverse 2D and 3D control tasks. Beyond control, we show that LeWM's latent space encodes meaningful physical structure through probing of physical quantities. Surprise evaluation confirms that the model reliably detects physically implausible events."
+    },
+    {
+      "paperId": "23f953773609d673caf468aeea02da9c3f496592",
+      "title": "Representation Learning for Spatiotemporal Physical Systems",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Helen Qu",
+          "authorId": "2333514270",
+          "slug": null
+        },
+        {
+          "name": "Rudy Morel",
+          "authorId": "2304747339",
+          "slug": null
+        },
+        {
+          "name": "Michael McCabe",
+          "authorId": "2253663794",
+          "slug": null
+        },
+        {
+          "name": "Alberto Bietti",
+          "authorId": "2253484313",
+          "slug": null
+        },
+        {
+          "name": "F. Lanusse",
+          "authorId": "2358041102",
+          "slug": null
+        },
+        {
+          "name": "Shirley Ho",
+          "authorId": "2286049196",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-03-13",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.13227",
+      "citationCount": 5,
+      "tldr": "This work evaluates the effectiveness of general-purpose self-supervised methods in learning physics-grounded representations that are useful for downstream scientific tasks and finds that not all methods designed for physical modeling outperform generic self-supervised learning methods on these tasks.",
+      "abstract": "Machine learning approaches to spatiotemporal physical systems have primarily focused on next-frame prediction, with the goal of learning an accurate emulator for the system's evolution in time. However, these emulators are computationally expensive to train and are subject to performance pitfalls, such as compounding errors during autoregressive rollout. In this work, we take a different perspective and look at scientific tasks further downstream of predicting the next frame, such as estimation of a system's governing physical parameters. Accuracy on these tasks offers a uniquely quantifiable glimpse into the physical relevance of the representations of these models. We evaluate the effectiveness of general-purpose self-supervised methods in learning physics-grounded representations that are useful for downstream scientific tasks. Surprisingly, we find that not all methods designed for physical modeling outperform generic self-supervised learning methods on these tasks, and methods that learn in the latent space (e.g., joint embedding predictive architectures, or JEPAs) outperform those optimizing pixel-level prediction objectives. Code is available at https://github.com/helenqu/p"
+    },
+    {
+      "paperId": "8c9ae85bb64e6e872094065cb9c062f051c2ad1a",
+      "title": "Temporal Straightening for Latent Planning",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Ying Wang",
+          "authorId": "2273338190",
+          "slug": null
+        },
+        {
+          "name": "Oumayma Bounou",
+          "authorId": "1388839835",
+          "slug": null
+        },
+        {
+          "name": "Gaoyue Zhou",
+          "authorId": "2257386929",
+          "slug": null
+        },
+        {
+          "name": "Randall Balestriero",
+          "authorId": "2378151189",
+          "slug": null
+        },
+        {
+          "name": "Tim G. J. Rudner",
+          "authorId": "2107677984",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Mengye Ren",
+          "authorId": "2367273528",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-03-12",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.12231",
+      "citationCount": 17,
+      "tldr": "It is demonstrated empirically that temporal straightening makes gradient-based planning more stable and yields significantly higher success rates across a suite of goal-reaching tasks.",
+      "abstract": "Learning good representations is essential for latent planning with world models. While pretrained visual encoders produce strong semantic visual features, they are not tailored to planning and contain information irrelevant -- or even detrimental -- to planning. Inspired by the perceptual straightening hypothesis in human visual processing, we introduce temporal straightening to improve representation learning for latent planning. Using a curvature regularizer that encourages locally straightened latent trajectories, we jointly learn an encoder and a predictor of a Joint-Embedding Predictive Architecture (JEPA) world model. We show that reducing curvature this way makes the Euclidean distance in latent space a better proxy for the geodesic distance and improves the conditioning of the planning objective. We demonstrate empirically that temporal straightening makes gradient-based planning more stable and yields significantly higher success rates across a suite of goal-reaching tasks. Our code is available at https://agenticlearning.ai/temporal-straightening."
+    },
+    {
+      "paperId": "9b65331305dfab8d4f48da6854ee7673c8c6eb99",
+      "title": "The Spike, the Sparse and the Sink: Anatomy of Massive Activations and Attention Sinks",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Shangwen Sun",
+          "authorId": "2403141155",
+          "slug": null
+        },
+        {
+          "name": "A. Canziani",
+          "authorId": "2067767",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2265899558",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Jiacheng Zhu",
+          "authorId": "1870353",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-03-05",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.05498",
+      "citationCount": 13,
+      "tldr": "The pre-norm configuration is identified as the key choice that enables the co-occurrence of massive activations and attention sinks, and it is shown that ablating it causes the two phenomena to decouple.",
+      "abstract": "We study two recurring phenomena in Transformer language models: massive activations, in which a small number of tokens exhibit extreme outliers in a few channels, and attention sinks, in which certain tokens attract disproportionate attention mass regardless of semantic relevance. Prior work observes that these phenomena frequently co-occur and often involve the same tokens, but their functional roles and causal relationship remain unclear. Through systematic experiments, we show that the co-occurrence is largely an architectural artifact of modern Transformer design, and that the two phenomena serve related but distinct functions. Massive activations operate globally: they induce near-constant hidden representations that persist across layers, effectively functioning as implicit parameters of the model. Attention sinks operate locally: they modulate attention outputs across heads and bias individual heads toward short-range dependencies. We identify the pre-norm configuration as the key choice that enables the co-occurrence, and show that ablating it causes the two phenomena to decouple."
+    },
+    {
+      "paperId": "c3e09942658c43e607176e0b87192e91e15aeca1",
+      "title": "AI+HW 2035: Shaping the Next Decade",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Deming Chen",
+          "authorId": "2409346074",
+          "slug": null
+        },
+        {
+          "name": "Jason Cong",
+          "authorId": "2332534294",
+          "slug": null
+        },
+        {
+          "name": "Azalia Mirhoseini",
+          "authorId": "1861312",
+          "slug": null
+        },
+        {
+          "name": "Christos Kozyrakis",
+          "authorId": "2392869567",
+          "slug": null
+        },
+        {
+          "name": "Subhasish Mitra",
+          "authorId": "2288390784",
+          "slug": null
+        },
+        {
+          "name": "Jinjun Xiong",
+          "authorId": "2268761372",
+          "slug": null
+        },
+        {
+          "name": "C. Young",
+          "authorId": "39660914",
+          "slug": null
+        },
+        {
+          "name": "A. Anandkumar",
+          "authorId": "2367549145",
+          "slug": null
+        },
+        {
+          "name": "Michael S. Littman",
+          "authorId": "2056611060",
+          "slug": null
+        },
+        {
+          "name": "Aron Kirschen",
+          "authorId": "116618091",
+          "slug": null
+        },
+        {
+          "name": "Sophia Shao",
+          "authorId": "1410119848",
+          "slug": null
+        },
+        {
+          "name": "S. Leef",
+          "authorId": "2733896",
+          "slug": null
+        },
+        {
+          "name": "Naresh Shanbhag",
+          "authorId": "2325154704",
+          "slug": null
+        },
+        {
+          "name": "D. Milojicic",
+          "authorId": "2263733652",
+          "slug": null
+        },
+        {
+          "name": "Michael J. Schulte",
+          "authorId": "2263899353",
+          "slug": null
+        },
+        {
+          "name": "Gert Cauwenberghs",
+          "authorId": "2249155577",
+          "slug": null
+        },
+        {
+          "name": "Jerry M Chow",
+          "authorId": "2244649172",
+          "slug": null
+        },
+        {
+          "name": "Tri Dao",
+          "authorId": "2280290462",
+          "slug": null
+        },
+        {
+          "name": "Kailash Gopalakrishnan",
+          "authorId": "2265979573",
+          "slug": null
+        },
+        {
+          "name": "Richard Ho",
+          "authorId": "2065892268",
+          "slug": null
+        },
+        {
+          "name": "Hoshik Kim",
+          "authorId": "2387626979",
+          "slug": null
+        },
+        {
+          "name": "K. Olukotun",
+          "authorId": "1746638",
+          "slug": null
+        },
+        {
+          "name": "David Z. Pan",
+          "authorId": "2380703516",
+          "slug": null
+        },
+        {
+          "name": "Mark Ren",
+          "authorId": "2348255130",
+          "slug": null
+        },
+        {
+          "name": "Dan Roth",
+          "authorId": "2383303335",
+          "slug": null
+        },
+        {
+          "name": "Aarti Singh",
+          "authorId": "2286287699",
+          "slug": null
+        },
+        {
+          "name": "Yizhou Sun",
+          "authorId": "2266846937",
+          "slug": null
+        },
+        {
+          "name": "Yusu Wang",
+          "authorId": "2248133432",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2265899558",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Ruchir Puri",
+          "authorId": "2291271484",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-03-05",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.05225",
+      "citationCount": 2,
+      "tldr": "This vision paper lays out a 10-year roadmap for AI+HW co-design and co-development, spanning algorithms, architectures, systems, and sustainability, and articulate key insights that redefine scaling around energy efficiency, system-level integration, and cross-layer optimization.",
+      "abstract": "Artificial intelligence (AI) and hardware (HW) are advancing at unprecedented rates, yet their trajectories have become inseparably intertwined. The global research community lacks a cohesive, long-term vision to strategically coordinate the development of AI and HW. This fragmentation constrains progress toward holistic, sustainable, and adaptive AI systems capable of learning, reasoning, and operating efficiently across cloud, edge, and physical environments. The future of AI depends not only on scaling intelligence, but on scaling efficiency, achieving exponential gains in intelligence per joule, rather than unbounded compute consumption. Addressing this grand challenge requires rethinking the entire computing stack. This vision paper lays out a 10-year roadmap for AI+HW co-design and co-development, spanning algorithms, architectures, systems, and sustainability. We articulate key insights that redefine scaling around energy efficiency, system-level integration, and cross-layer optimization. We identify key challenges and opportunities, candidly assess potential obstacles and pitfalls, and propose integrated solutions grounded in algorithmic innovation, hardware advances, and s"
     },
     {
       "paperId": "acb718a8659640ac1258d3bd391ddd9f1f2d7251",
@@ -4063,6 +5228,83 @@
       "abstract": "Unified multimodal models have recently demonstrated strong generative capabilities, yet whether and when generation improves understanding remains unclear. Existing benchmarks lack a systematic exploration of the specific tasks where generation facilitates understanding. To this end, we introduce UniG2U-Bench, a comprehensive benchmark categorizing generation-to-understanding (G2U) evaluation into 7 regimes and 30 subtasks, requiring varying degrees of implicit or explicit visual transformations. Extensive evaluation of over 30 models reveals three core findings: 1) Unified models generally underperform their base Vision-Language Models (VLMs), and Generate-then-Answer (GtA) inference typically degrades performance relative to direct inference. 2) Consistent enhancements emerge in spatial intelligence, visual illusions, or multi-round reasoning subtasks, where enhanced spatial and shape perception, as well as multi-step intermediate image states, prove beneficial. 3) Tasks with similar reasoning structures and models sharing architectures exhibit correlated behaviors, suggesting that generation-understanding coupling induces class-consistent inductive biases over tasks, pretrainin"
     },
     {
+      "paperId": "4fe6ee338373b796ed3b26cf6908c7db2ca56798",
+      "title": "AI Must Embrace Specialization via Superhuman Adaptable Intelligence",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Judah Goldfeder",
+          "authorId": "115246342",
+          "slug": null
+        },
+        {
+          "name": "P. Wyder",
+          "authorId": "1420434717",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2265899558",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Ravid Shwartz-Ziv",
+          "authorId": "1411405900",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-02-27",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.23643",
+      "citationCount": 8,
+      "tldr": "It is argued that AI must embrace specialization, rather than strive for generality, and in its specialization strive for superhuman performance, and introduces Superhuman Adaptable Intelligence (SAI), defined as intelligence that can learn to exceed humans at anything important that the authors can do.",
+      "abstract": "Everyone from AI executives and researchers to doomsayers, politicians, and activists is talking about Artificial General Intelligence (AGI). Yet, they often don't seem to agree on its exact definition. One common definition of AGI is an AI that can do everything a human can do, but are humans truly general? In this paper, we address what's wrong with our conception of AGI, and why, even in its most coherent formulation, it is a flawed concept to describe the future of AI. We explore whether the most widely accepted definitions are plausible, useful, and truly general. We argue that AI must embrace specialization, rather than strive for generality, and in its specialization strive for superhuman performance, and introduce Superhuman Adaptable Intelligence (SAI). SAI is defined as intelligence that can learn to exceed humans at anything important that we can do, and that can fill in the skill gaps where humans are incapable. We then lay out how SAI can help hone a discussion around AI that was blurred by an overloaded definition of AGI, and extrapolate the implications of using it as a guide for the future."
+    },
+    {
+      "paperId": "aef0d84ac46f451d8083a7ae7bbafdbdfdad97ca",
+      "title": "Semantic Tube Prediction: Beating LLM Data Efficiency with JEPA",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Hai Huang",
+          "authorId": "2266291500",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2265899558",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Randall Balestriero",
+          "authorId": "2277741253",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-02-26",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.22617",
+      "citationCount": 7,
+      "tldr": "The Geodesic Hypothesis is introduced, positing that token sequences trace geodesics on a smooth semantic manifold and are therefore locally linear, and a novel Semantic Tube Prediction (STP) task is proposed, a JEPA-style regularizer that confines hidden-state trajectories to a tubular neighborhood of the geodesic.",
+      "abstract": "Large Language Models (LLMs) obey consistent scaling laws -- empirical power-law fits that predict how loss decreases with compute, data, and parameters. While predictive, these laws are descriptive rather than prescriptive: they characterize typical training, not optimal training. Surprisingly few works have successfully challenged the data-efficiency bounds implied by these laws -- which is our primary focus. To that end, we introduce the Geodesic Hypothesis, positing that token sequences trace geodesics on a smooth semantic manifold and are therefore locally linear. Building on this principle, we propose a novel Semantic Tube Prediction (STP) task, a JEPA-style regularizer that confines hidden-state trajectories to a tubular neighborhood of the geodesic. STP generalizes JEPA to language without requiring explicit multi-view augmentations. We show this constraint improves signal-to-noise ratio, and consequently preserves diversity by preventing trajectory collisions during inference. Empirically, STP allows LLMs to match baseline accuracy with 16$\\times$ less training data on the NL-RX-SYNTH dataset, directly violating the data term of Chinchilla-style scaling laws and demonstrat"
+    },
+    {
       "paperId": "badf8adcf2b6a6780a308881de75f148a4cacea0",
       "title": "World Action Models are Zero-shot Policies",
       "teamAuthors": [
@@ -4262,6 +5504,62 @@
       "citationCount": 231,
       "tldr": "DreamZero, a World Action Model (WAM) built upon a pretrained video diffusion backbone, is introduced, a World Action Model (WAM) built upon a pretrained video diffusion backbone that enables few-shot embodiment adaptation and enables few-shot embodiment adaptation.",
       "abstract": "State-of-the-art Vision-Language-Action (VLA) models excel at semantic generalization but struggle to generalize to unseen physical motions in novel environments. We introduce DreamZero, a World Action Model (WAM) built upon a pretrained video diffusion backbone. Unlike VLAs, WAMs learn physical dynamics by predicting future world states and actions, using video as a dense representation of how the world evolves. By jointly modeling video and action, DreamZero learns diverse skills effectively from heterogeneous robot data without relying on repetitive demonstrations. This results in over 2x improvement in generalization to new tasks and environments compared to state-of-the-art VLAs in real robot experiments. Crucially, through model and system optimizations, we enable a 14B autoregressive video diffusion model to perform real-time closed-loop control at 7Hz. Finally, we demonstrate two forms of cross-embodiment transfer: video-only demonstrations from other robots or humans yield a relative improvement of over 42% on unseen task performance with just 10-20 minutes of data. More surprisingly, DreamZero enables few-shot embodiment adaptation, transferring to a new embodiment with o"
+    },
+    {
+      "paperId": "d925357d2eec7147ee3c67016854271998307323",
+      "title": "Radial-VCReg: More Informative Representation Learning Through Radial Gaussianization",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Yilun Kuang",
+          "authorId": "2408460095",
+          "slug": null
+        },
+        {
+          "name": "Yash Dagade",
+          "authorId": "2408462621",
+          "slug": null
+        },
+        {
+          "name": "Deep Chakraborty",
+          "authorId": "2332095604",
+          "slug": null
+        },
+        {
+          "name": "Erik G. Learned-Miller",
+          "authorId": "2320519632",
+          "slug": null
+        },
+        {
+          "name": "Randall Balestriero",
+          "authorId": "2277741253",
+          "slug": null
+        },
+        {
+          "name": "Tim G. J. Rudner",
+          "authorId": "2107677984",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-02-15",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.14272",
+      "citationCount": 3,
+      "tldr": "It is proved that Radial-VCReg transforms a broader class of distributions towards normality compared to VCReg and shows on synthetic and real-world datasets that it consistently improves performance by reducing higher-order dependencies and promoting more diverse and informative representations.",
+      "abstract": "Self-supervised learning aims to learn maximally informative representations, but explicit information maximization is hindered by the curse of dimensionality. Existing methods like VCReg address this by regularizing first and second-order feature statistics, which cannot fully achieve maximum entropy. We propose Radial-VCReg, which augments VCReg with a radial Gaussianization loss that aligns feature norms with the Chi distribution-a defining property of high-dimensional Gaussians. We prove that Radial-VCReg transforms a broader class of distributions towards normality compared to VCReg and show on synthetic and real-world datasets that it consistently improves performance by reducing higher-order dependencies and promoting more diverse and informative representations."
     },
     {
       "paperId": "7d77755819ac40a7e328e0f667c81e52c0dc525b",
@@ -5004,6 +6302,52 @@
       "abstract": "Large-scale video generative models have shown emerging capabilities as zero-shot visual planners, yet video-generated plans often violate temporal consistency and physical constraints, leading to failures when mapped to executable actions. To address this, we propose Grounding Video Plans with World Models (GVP-WM), a planning method that grounds video-generated plans into feasible action sequences using a learned action-conditioned world model. At test-time, GVP-WM first generates a video plan from initial and goal observations, then projects the video guidance onto the manifold of dynamically feasible latent trajectories via video-guided latent collocation. In particular, we formulate grounding as a goal-conditioned latent-space trajectory optimization problem that jointly optimizes latent states and actions under world-model dynamics, while preserving semantic alignment with the video-generated plan. Empirically, GVP-WM recovers feasible long-horizon plans from zero-shot image-to-video-generated and motion-blurred videos that violate physical constraints, across navigation and manipulation simulation tasks."
     },
     {
+      "paperId": "2e8ccd5997437eeb8001e58204e2b66eaad02142",
+      "title": "Rectified LpJEPA: Joint-Embedding Predictive Architectures with Sparse and Maximum-Entropy Representations",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Yilun Kuang",
+          "authorId": "2408460095",
+          "slug": null
+        },
+        {
+          "name": "Yash Dagade",
+          "authorId": "2408462621",
+          "slug": null
+        },
+        {
+          "name": "Tim G. J. Rudner",
+          "authorId": "2107677984",
+          "slug": null
+        },
+        {
+          "name": "Randall Balestriero",
+          "authorId": "2277741253",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-02-01",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.01456",
+      "citationCount": 2,
+      "tldr": "Rectified LpJEPA learns sparse, non-negative representations with favorable sparsity--performance trade-offs and competitive downstream performance on image classification benchmarks, showing that RDMReg can enforce sparsity while preserving task-relevant information.",
+      "abstract": "Joint-Embedding Predictive Architectures (JEPA) learn view-invariant representations and admit projection-based distribution matching for collapse prevention. Existing approaches regularize representations towards isotropic Gaussian distributions, but inherently favor dense representations and fail to capture the key property of sparsity observed in efficient representations. We introduce Rectified Distribution Matching Regularization (RDMReg), a sliced two-sample distribution-matching loss that aligns representations to a Rectified Generalized Gaussian (RGG) distribution. RGG enables explicit control over expected $\\ell_0$ norm through rectification, while its continuous truncated component admits a maximum-entropy characterization under expected $\\ell_p$ norm and support constraints. Equipping JEPAs with RDMReg yields Rectified LpJEPA, which strictly generalizes prior Gaussian-based JEPAs. Empirically, Rectified LpJEPA learns sparse, non-negative representations with favorable sparsity--performance trade-offs and competitive downstream performance on image classification benchmarks, showing that RDMReg can enforce sparsity while preserving task-relevant information."
+    },
+    {
       "paperId": "6209c4ab686552f9d644f56ff962018a67978e27",
       "title": "Parallel Stochastic Gradient-Based Planning for World Models",
       "teamAuthors": [
@@ -5056,6 +6400,67 @@
       "citationCount": 7,
       "tldr": "This work proposes a robust and highly parallelizable planner that leverages the differentiability of the learned world model for efficient optimization, solving long-horizon control tasks from visual input, and introduces stochasticity into the states.",
       "abstract": "World models simulate environment dynamics from raw sensory inputs like video. However, using them for planning can be challenging due to the vast and unstructured search space. We propose a robust and highly parallelizable planner that leverages the differentiability of the learned world model for efficient optimization, solving long-horizon control tasks from visual input. Our method treats states as optimization variables (\"virtual states\") with soft dynamics constraints, enabling parallel computation and easier optimization. To facilitate exploration and avoid local optima, we introduce stochasticity into the states. To mitigate sensitive gradients through high-dimensional vision-based world models, we modify the gradient structure to descend towards valid plans while only requiring action-input gradients. Our planner, which we call GRASP (Gradient RelAxed Stochastic Planner), can be viewed as a stochastic version of a non-condensed or collocation-based optimal controller. We provide theoretical justification and experiments on video-based world models, where our resulting planner outperforms existing planning algorithms like the cross-entropy method (CEM) and vanilla gradient-"
+    },
+    {
+      "paperId": "b02857368ab8aae447e7856eda66d0d926603792",
+      "title": "Soft Clustering Anchors for Self-Supervised Speech Representation Learning in Joint Embedding Prediction Architectures",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Georgios Ioannides",
+          "authorId": "2280137870",
+          "slug": null
+        },
+        {
+          "name": "Adrian Kieback",
+          "authorId": "2319408843",
+          "slug": null
+        },
+        {
+          "name": "Judah Goldfeder",
+          "authorId": "115246342",
+          "slug": null
+        },
+        {
+          "name": "Linsey Pang",
+          "authorId": "2397382185",
+          "slug": null
+        },
+        {
+          "name": "Aman Chadha",
+          "authorId": "2275226689",
+          "slug": null
+        },
+        {
+          "name": "Aaron Elkins",
+          "authorId": "2280135429",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2265899558",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Ravid Shwartz-Ziv",
+          "authorId": "1411405900",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-01-30",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.09040",
+      "citationCount": 1,
+      "tldr": "GMM-Anchored JEPA is proposed, which fits a Gaussian Mixture Model once on log-mel spectrograms and uses its frozen soft posteriors as auxiliary targets throughout training to achieve substantially more uniform cluster utilization.",
+      "abstract": "Joint Embedding Predictive Architectures (JEPA) offer a promising approach to self-supervised speech representation learning, but suffer from representation collapse without explicit grounding. We propose GMM-Anchored JEPA, which fits a Gaussian Mixture Model once on log-mel spectrograms and uses its frozen soft posteriors as auxiliary targets throughout training. A decaying supervision schedule allows GMM regularization to dominate early training before gradually yielding to the JEPA objective. Unlike HuBERT and WavLM, which require iterative re-clustering, our approach clusters input features once with soft rather than hard assignments. On ~50k hours of speech, GMM anchoring improves ASR (28.68% vs. 33.22% WER), emotion recognition (67.76% vs. 65.46%), and slot filling (64.7% vs. 59.1% F1) compared to a WavLM-style baseline with matched compute. Cluster analysis shows GMM-anchored representations achieve up to 98% entropy compared to 31% for WavLM-style, indicating substantially more uniform cluster utilization. Code is made available at https://github.com/gioannides/clustering-anchored-jepa."
     },
     {
       "paperId": "307fd51e30ef676c96a065122e2a4fb8696cc3f8",
@@ -27169,6 +28574,62 @@
       "abstract": null
     },
     {
+      "paperId": "ef2cb2427e5b6768a809f1da243ae00a0d2ee0ea",
+      "title": "Chain-of-Talkers (CoTalk): Fast Human Annotation of Dense Image Captions",
+      "teamAuthors": [
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Yijun Shen",
+          "authorId": "2115383614",
+          "slug": null
+        },
+        {
+          "name": "Delong Chen",
+          "authorId": "94210578",
+          "slug": "delong-chen"
+        },
+        {
+          "name": "Fan Liu",
+          "authorId": "2303303690",
+          "slug": null
+        },
+        {
+          "name": "Xingyu Wang",
+          "authorId": "2275584090",
+          "slug": null
+        },
+        {
+          "name": "Chuanyi Zhang",
+          "authorId": "2303432553",
+          "slug": null
+        },
+        {
+          "name": "Liang Yao",
+          "authorId": "2272726374",
+          "slug": null
+        },
+        {
+          "name": "Yuhui Zheng",
+          "authorId": "2363689440",
+          "slug": null
+        }
+      ],
+      "memberSlug": "delong-chen",
+      "memberName": "Delong Chen",
+      "publicationDate": "2025-05-28",
+      "year": 2025,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.48550/arXiv.2505.22627",
+      "citationCount": 1,
+      "tldr": "The Chain-of-Talkers (CoTalk) methodology is introduced, an AI-in-the-loop methodology designed to maximize the number of annotated samples and improve their comprehensiveness under fixed budget constraints.",
+      "abstract": "While densely annotated image captions significantly facilitate the learning of robust vision-language alignment, methodologies for systematically optimizing human annotation efforts remain underexplored. We introduce Chain-of-Talkers (CoTalk), an AI-in-the-loop methodology designed to maximize the number of annotated samples and improve their comprehensiveness under fixed budget constraints (e.g., total human annotation time). The framework is built upon two key insights. First, sequential annotation reduces redundant workload compared to conventional parallel annotation, as subsequent annotators only need to annotate the ``residual'' -- the missing visual information that previous annotations have not covered. Second, humans process textual input faster by reading while outputting annotations with much higher throughput via talking; thus a multimodal interface enables optimized efficiency. We evaluate our framework from two aspects: intrinsic evaluations that assess the comprehensiveness of semantic units, obtained by parsing detailed captions into object-attribute trees and analyzing their effective connections; extrinsic evaluation measures the practical usage of the annotated "
+    },
+    {
       "paperId": "57d7977bb8ae533de61a317d907d8fa505ed1af3",
       "title": "Jailbreak Distillation: Renewable Safety Benchmarking",
       "teamAuthors": [
@@ -29692,62 +31153,6 @@
       "citationCount": 4,
       "tldr": "JBDistill addresses challenges in existing safety evaluation: the use of consistent evaluation prompts across models ensures fair comparisons and reproducibility, and requires minimal human effort to rerun the JBDistill pipeline and produce updated benchmarks, alleviating concerns on saturation and contamination.",
       "abstract": "Large language models (LLMs) are rapidly deployed in critical applications, raising urgent needs for robust safety benchmarking. We propose Jailbreak Distillation (JBDistill), a novel benchmark construction framework that\"distills\"jailbreak attacks into high-quality and easily-updatable safety benchmarks. JBDistill utilizes a small set of development models and existing jailbreak attack algorithms to create a candidate prompt pool, then employs prompt selection algorithms to identify an effective subset of prompts as safety benchmarks. JBDistill addresses challenges in existing safety evaluation: the use of consistent evaluation prompts across models ensures fair comparisons and reproducibility. It requires minimal human effort to rerun the JBDistill pipeline and produce updated benchmarks, alleviating concerns on saturation and contamination. Extensive experiments demonstrate our benchmarks generalize robustly to 13 diverse evaluation models held out from benchmark construction, including proprietary, specialized, and newer-generation LLMs, significantly outperforming existing safety benchmarks in effectiveness while maintaining high separability and diversity. Our framework thus "
-    },
-    {
-      "paperId": "ef2cb2427e5b6768a809f1da243ae00a0d2ee0ea",
-      "title": "Chain-of-Talkers (CoTalk): Fast Human Annotation of Dense Image Captions",
-      "teamAuthors": [
-        {
-          "slug": "delong-chen",
-          "name": "Delong Chen"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Yijun Shen",
-          "authorId": "2115383614",
-          "slug": null
-        },
-        {
-          "name": "Delong Chen",
-          "authorId": "94210578",
-          "slug": "delong-chen"
-        },
-        {
-          "name": "Fan Liu",
-          "authorId": "2303303690",
-          "slug": null
-        },
-        {
-          "name": "Xingyu Wang",
-          "authorId": "2275584090",
-          "slug": null
-        },
-        {
-          "name": "Chuanyi Zhang",
-          "authorId": "2303432553",
-          "slug": null
-        },
-        {
-          "name": "Liang Yao",
-          "authorId": "2272726374",
-          "slug": null
-        },
-        {
-          "name": "Yuhui Zheng",
-          "authorId": "2363689440",
-          "slug": null
-        }
-      ],
-      "memberSlug": "delong-chen",
-      "memberName": "Delong Chen",
-      "publicationDate": "2025-05-28",
-      "year": 2025,
-      "venue": "Conference on Empirical Methods in Natural Language Processing",
-      "url": "https://doi.org/10.48550/arXiv.2505.22627",
-      "citationCount": 1,
-      "tldr": "The Chain-of-Talkers (CoTalk) methodology is introduced, an AI-in-the-loop methodology designed to maximize the number of annotated samples and improve their comprehensiveness under fixed budget constraints.",
-      "abstract": "While densely annotated image captions significantly facilitate the learning of robust vision-language alignment, methodologies for systematically optimizing human annotation efforts remain underexplored. We introduce Chain-of-Talkers (CoTalk), an AI-in-the-loop methodology designed to maximize the number of annotated samples and improve their comprehensiveness under fixed budget constraints (e.g., total human annotation time). The framework is built upon two key insights. First, sequential annotation reduces redundant workload compared to conventional parallel annotation, as subsequent annotators only need to annotate the ``residual'' -- the missing visual information that previous annotations have not covered. Second, humans process textual input faster by reading while outputting annotations with much higher throughput via talking; thus a multimodal interface enables optimized efficiency. We evaluate our framework from two aspects: intrinsic evaluations that assess the comprehensiveness of semantic units, obtained by parsing detailed captions into object-attribute trees and analyzing their effective connections; extrinsic evaluation measures the practical usage of the annotated "
     },
     {
       "paperId": "24d9d00b91f99dde3c9a0ea5c79e63f2ed26151c",
@@ -38564,8 +39969,8 @@
           "slug": "pascale-fung"
         }
       ],
-      "memberSlug": "pascale-fung",
-      "memberName": "Pascale Fung",
+      "memberSlug": "delong-chen",
+      "memberName": "Delong Chen",
       "publicationDate": "2024-02-22",
       "year": 2024,
       "venue": "International Conference on Machine Learning",
@@ -50762,42 +52167,6 @@
       "abstract": "Training-time safety violations have been a major concern when we deploy reinforcement learning algorithms in the real world. This paper explores the possibility of safe RL algorithms with zero training-time safety violations in the challenging setting where we are only given a safe but trivial-reward initial policy without any prior knowledge of the dynamics model and additional offline data. We propose an algorithm, Co-trained Barrier Certificate for Safe RL (CRABS), which iteratively learns barrier certificates, dynamics models, and policies. The barrier certificates, learned via adversarial training, ensure the policy's safety assuming calibrated learned dynamics model. We also add a regularization term to encourage larger certified regions to enable better exploration. Empirical simulations show that zero safety violations are already challenging for a suite of simple environments with only 2-4 dimensional state space, especially if high-reward policies have to visit regions near the safety boundary. Prior methods require hundreds of violations to achieve decent rewards on these tasks, whereas our proposed algorithms incur zero violations."
     },
     {
-      "paperId": "0e9ac2cfc5a3ecb66eeace720901390f7809ba0a",
-      "title": "Statistically Meaningful Approximation: a Case Study on Approximating Turing Machines with Transformers",
-      "teamAuthors": [
-        {
-          "slug": "tengyu-ma",
-          "name": "Tengyu Ma"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Colin Wei",
-          "authorId": "3460405",
-          "slug": null
-        },
-        {
-          "name": "Yining Chen",
-          "authorId": "2145262885",
-          "slug": null
-        },
-        {
-          "name": "Tengyu Ma",
-          "authorId": "2114186424",
-          "slug": "tengyu-ma"
-        }
-      ],
-      "memberSlug": "tengyu-ma",
-      "memberName": "Tengyu Ma",
-      "publicationDate": "2021-07-28",
-      "year": 2021,
-      "venue": "Neural Information Processing Systems",
-      "url": "https://doi.org/10.52202/068431-0877",
-      "citationCount": 117,
-      "tldr": "This work proposes a formal definition of statistically meaningful (SM) approximation which requires the approximating network to exhibit good statistical learnability and introduces new tools for analyzing generalization which provide much tighter sample complexities than the typical VC-dimension or norm-based bounds.",
-      "abstract": "A common lens to theoretically study neural net architectures is to analyze the functions they can approximate. However, constructions from approximation theory may be unrealistic and therefore less meaningful. For example, a common unrealistic trick is to encode target function values using infinite precision. To address these issues, this work proposes a formal definition of statistically meaningful (SM) approximation which requires the approximating network to exhibit good statistical learnability. We study SM approximation for two function classes: boolean circuits and Turing machines. We show that overparameterized feedforward neural nets can SM approximate boolean circuits with sample complexity depending only polynomially on the circuit size, not the size of the network. In addition, we show that transformers can SM approximate Turing machines with computation time bounded by $T$ with sample complexity polynomial in the alphabet size, state space size, and $\\log (T)$. We also introduce new tools for analyzing generalization which provide much tighter sample complexities than the typical VC-dimension or norm-based bounds, which may be of independent interest."
-    },
-    {
       "paperId": "4ea9b807600537af27fbb8409f5e541714030dfa",
       "title": "VirtualConductor: Music-driven Conducting Video Generation System",
       "teamAuthors": [
@@ -50837,6 +52206,42 @@
       "citationCount": 3,
       "tldr": "This work combines 3D animation rendering and a pose transfer model to synthesize conducting video from a single given user's image and proposes Audio Motion Correspondence Network and adversarial-perceptual learning to learn the cross-modal relationship and generate diverse, plausible, music-synchronized motion.",
       "abstract": "In this demo, we present VirtualConductor, a system that can generate conducting video from any given music and a single user's image. First, a large-scale conductor motion dataset is collected and constructed. Then, we propose Audio Motion Correspondence Network (AMCNet) and adversarial-perceptual learning to learn the cross-modal relationship and generate diverse, plausible, music-synchronized motion. Finally, we combine 3D animation rendering and a pose transfer model to synthesize conducting video from a single given user's image. Therefore, any user can become a virtual conductor through the system."
+    },
+    {
+      "paperId": "0e9ac2cfc5a3ecb66eeace720901390f7809ba0a",
+      "title": "Statistically Meaningful Approximation: a Case Study on Approximating Turing Machines with Transformers",
+      "teamAuthors": [
+        {
+          "slug": "tengyu-ma",
+          "name": "Tengyu Ma"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Colin Wei",
+          "authorId": "3460405",
+          "slug": null
+        },
+        {
+          "name": "Yining Chen",
+          "authorId": "2145262885",
+          "slug": null
+        },
+        {
+          "name": "Tengyu Ma",
+          "authorId": "2114186424",
+          "slug": "tengyu-ma"
+        }
+      ],
+      "memberSlug": "tengyu-ma",
+      "memberName": "Tengyu Ma",
+      "publicationDate": "2021-07-28",
+      "year": 2021,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.52202/068431-0877",
+      "citationCount": 117,
+      "tldr": "This work proposes a formal definition of statistically meaningful (SM) approximation which requires the approximating network to exhibit good statistical learnability and introduces new tools for analyzing generalization which provide much tighter sample complexities than the typical VC-dimension or norm-based bounds.",
+      "abstract": "A common lens to theoretically study neural net architectures is to analyze the functions they can approximate. However, constructions from approximation theory may be unrealistic and therefore less meaningful. For example, a common unrealistic trick is to encode target function values using infinite precision. To address these issues, this work proposes a formal definition of statistically meaningful (SM) approximation which requires the approximating network to exhibit good statistical learnability. We study SM approximation for two function classes: boolean circuits and Turing machines. We show that overparameterized feedforward neural nets can SM approximate boolean circuits with sample complexity depending only polynomially on the circuit size, not the size of the network. In addition, we show that transformers can SM approximate Turing machines with computation time bounded by $T$ with sample complexity polynomial in the alphabet size, state space size, and $\\log (T)$. We also introduce new tools for analyzing generalization which provide much tighter sample complexities than the typical VC-dimension or norm-based bounds, which may be of independent interest."
     },
     {
       "paperId": "fb04891d44f81cd3ae9e13886f0a8adaff3dd75c",
@@ -53618,6 +55023,52 @@
       "abstract": null
     },
     {
+      "paperId": "f488bd9e631caf8c5803a5bc52ab3a36dd8e803c",
+      "title": "Paper Title (use style: paper title)",
+      "teamAuthors": [
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Fan Liu",
+          "authorId": "2170733045",
+          "slug": null
+        },
+        {
+          "name": "Delong Chen",
+          "authorId": "94210578",
+          "slug": "delong-chen"
+        },
+        {
+          "name": "Fei Wang",
+          "authorId": "1682816",
+          "slug": null
+        },
+        {
+          "name": "Zewen Li",
+          "authorId": "2109963918",
+          "slug": null
+        },
+        {
+          "name": "Feng Xu",
+          "authorId": "2152477706",
+          "slug": null
+        }
+      ],
+      "memberSlug": "delong-chen",
+      "memberName": "Delong Chen",
+      "publicationDate": null,
+      "year": 2020,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/f488bd9e631caf8c5803a5bc52ab3a36dd8e803c",
+      "citationCount": 38,
+      "tldr": "The semantic gap is regarded as an important future issue that needs to be considered in deep SSPP methods and efforts of traditional methods and deep feature combining, loss function improving and network structure improving are involved in the analysis in the generic learning methods section.",
+      "abstract": null
+    },
+    {
       "paperId": "6eaf6ecc07862ed2339d43d93f1cc8fb127c4222",
       "title": "Dataset of Knee Images for Accelerated MR Image Reconstruction Using Machine Learning",
       "teamAuthors": [
@@ -53832,52 +55283,6 @@
       "url": "https://www.semanticscholar.org/paper/d686707aff5620e8788a63ba5cbb6aa100a34fdf",
       "citationCount": 0,
       "tldr": "MOT16 shares the same training and testing sequences with MOT17, but officially supports private detection and ranks 2nd among all published entries, remarking that all other entries use a heavy detector trained on private data.",
-      "abstract": null
-    },
-    {
-      "paperId": "f488bd9e631caf8c5803a5bc52ab3a36dd8e803c",
-      "title": "Paper Title (use style: paper title)",
-      "teamAuthors": [
-        {
-          "slug": "delong-chen",
-          "name": "Delong Chen"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Fan Liu",
-          "authorId": "2170733045",
-          "slug": null
-        },
-        {
-          "name": "Delong Chen",
-          "authorId": "94210578",
-          "slug": "delong-chen"
-        },
-        {
-          "name": "Fei Wang",
-          "authorId": "1682816",
-          "slug": null
-        },
-        {
-          "name": "Zewen Li",
-          "authorId": "2109963918",
-          "slug": null
-        },
-        {
-          "name": "Feng Xu",
-          "authorId": "2152477706",
-          "slug": null
-        }
-      ],
-      "memberSlug": "delong-chen",
-      "memberName": "Delong Chen",
-      "publicationDate": null,
-      "year": 2020,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/f488bd9e631caf8c5803a5bc52ab3a36dd8e803c",
-      "citationCount": 38,
-      "tldr": "The semantic gap is regarded as an important future issue that needs to be considered in deep SSPP methods and efforts of traditional methods and deep feature combining, loss function improving and network structure improving are involved in the analysis in the generic learning methods section.",
       "abstract": null
     },
     {
@@ -63919,6 +65324,47 @@
       "abstract": null
     },
     {
+      "paperId": "f7b9d5e3b398eb46088d5b49462f4d1b85c75c00",
+      "title": "Engineering Applications of Artificial Intelligence",
+      "teamAuthors": [
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Fan Liu",
+          "authorId": "2271326028",
+          "slug": null
+        },
+        {
+          "name": "Delong Chen",
+          "authorId": "94210578",
+          "slug": "delong-chen"
+        },
+        {
+          "name": "Jun Zhou",
+          "authorId": "2152892624",
+          "slug": null
+        },
+        {
+          "name": "Feng Xu",
+          "authorId": "2152477706",
+          "slug": null
+        }
+      ],
+      "memberSlug": "delong-chen",
+      "memberName": "Delong Chen",
+      "publicationDate": null,
+      "year": null,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/f7b9d5e3b398eb46088d5b49462f4d1b85c75c00",
+      "citationCount": 0,
+      "tldr": "This review summarizes the latest research findings and presents the work on integration of RGB-D camera and deep learning, where Generative Adversarial Networks and multi-channel schemes are utilized to enhance the performance.",
+      "abstract": null
+    },
+    {
       "paperId": "6b2f415b612c59f4f1eed6445806aa6f5874137a",
       "title": "OpenAI GPT-4.5 System Card",
       "teamAuthors": [
@@ -67212,47 +68658,6 @@
       "url": "https://www.semanticscholar.org/paper/4e45ac10580841b22471dd37d45f478fdaa1efa0",
       "citationCount": 0,
       "tldr": null,
-      "abstract": null
-    },
-    {
-      "paperId": "f7b9d5e3b398eb46088d5b49462f4d1b85c75c00",
-      "title": "Engineering Applications of Artificial Intelligence",
-      "teamAuthors": [
-        {
-          "slug": "delong-chen",
-          "name": "Delong Chen"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Fan Liu",
-          "authorId": "2271326028",
-          "slug": null
-        },
-        {
-          "name": "Delong Chen",
-          "authorId": "94210578",
-          "slug": "delong-chen"
-        },
-        {
-          "name": "Jun Zhou",
-          "authorId": "2152892624",
-          "slug": null
-        },
-        {
-          "name": "Feng Xu",
-          "authorId": "2152477706",
-          "slug": null
-        }
-      ],
-      "memberSlug": "delong-chen",
-      "memberName": "Delong Chen",
-      "publicationDate": null,
-      "year": null,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/f7b9d5e3b398eb46088d5b49462f4d1b85c75c00",
-      "citationCount": 0,
-      "tldr": "This review summarizes the latest research findings and presents the work on integration of RGB-D camera and deep learning, where Generative Adversarial Networks and multi-channel schemes are utilized to enhance the performance.",
       "abstract": null
     }
   ]
