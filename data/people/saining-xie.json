@@ -15,7 +15,9 @@
     "twitter": "https://x.com/sainingxie",
     "website": "https://www.sainingxie.com/"
   },
-  "semanticScholarId": "1817030",
+  "semanticScholarId": [
+    "1817030"
+  ],
   "careerHistory": [
     {
       "org": "New York University (Courant Institute)",
@@ -96,12 +98,8 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276",
-      "citationCount": 20,
+      "citationCount": 21,
       "coAuthors": [
-        {
-          "slug": "amir-bar",
-          "name": "Amir Bar"
-        },
         {
           "slug": "david-fan",
           "name": "David Fan"
@@ -109,6 +107,10 @@
         {
           "slug": "john-nguyen",
           "name": "John Nguyen"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": "michael-rabbat",
@@ -400,7 +402,7 @@
       "year": 2024,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.01579",
-      "citationCount": 219,
+      "citationCount": 220,
       "coAuthors": [
         {
           "slug": "david-fan",
@@ -446,12 +448,8 @@
       "year": 2024,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2406.16860",
-      "citationCount": 913,
+      "citationCount": 917,
       "coAuthors": [
-        {
-          "slug": "adithya-iyer",
-          "name": "Adithya Iyer"
-        },
         {
           "slug": "sanghyun-woo",
           "name": "Sanghyun Woo"
@@ -459,6 +457,10 @@
         {
           "slug": "jihan-yang",
           "name": "Jihan Yang"
+        },
+        {
+          "slug": "adithya-iyer",
+          "name": "Adithya Iyer"
         },
         {
           "slug": "yann-lecun",
@@ -580,7 +582,7 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548",
-      "citationCount": 1894,
+      "citationCount": 1895,
       "coAuthors": [
         {
           "slug": "sanghyun-woo",
@@ -614,7 +616,7 @@
       "year": 2022,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51070.2023.00387",
-      "citationCount": 6789,
+      "citationCount": 6797,
       "coAuthors": [
         {
           "slug": null,
@@ -692,7 +694,7 @@
       "year": 2022,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01167",
-      "citationCount": 8942,
+      "citationCount": 8945,
       "coAuthors": [
         {
           "slug": null,
@@ -745,34 +747,933 @@
           "name": "Hamed Firooz"
         }
       ]
+    },
+    {
+      "paperId": "e9581d9758062f76e029bd19a58c4ae976cfb414",
+      "title": "SLIP: Self-supervision meets Language-Image Pre-training",
+      "year": 2021,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-031-19809-0_30",
+      "citationCount": 641,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Norman Mu"
+        },
+        {
+          "slug": null,
+          "name": "Alexander Kirillov"
+        },
+        {
+          "slug": null,
+          "name": "David A. Wagner"
+        }
+      ]
+    },
+    {
+      "paperId": "008a428e049003fe768068a0f1fa1416af5c4982",
+      "title": "Masked Feature Prediction for Self-Supervised Visual Pre-Training",
+      "year": 2021,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52688.2022.01426",
+      "citationCount": 871,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chen Wei"
+        },
+        {
+          "slug": null,
+          "name": "Haoqi Fan"
+        },
+        {
+          "slug": null,
+          "name": "Chaoxia Wu"
+        },
+        {
+          "slug": null,
+          "name": "A. Yuille"
+        },
+        {
+          "slug": null,
+          "name": "Christoph Feichtenhofer"
+        }
+      ]
+    },
+    {
+      "paperId": "20ee3dc902706d8dffcbc08f8cc89ce749abc8b0",
+      "title": "Benchmarking Detection Transfer Learning with Vision Transformers",
+      "year": 2021,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/20ee3dc902706d8dffcbc08f8cc89ce749abc8b0",
+      "citationCount": 213,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yanghao Li"
+        },
+        {
+          "slug": null,
+          "name": "Xinlei Chen"
+        },
+        {
+          "slug": null,
+          "name": "Piotr Dollár"
+        },
+        {
+          "slug": null,
+          "name": "Kaiming He"
+        },
+        {
+          "slug": null,
+          "name": "Ross B. Girshick"
+        }
+      ]
+    },
+    {
+      "paperId": "6351ebb4a3287f5f3e1273464b3b91e5df5a16d7",
+      "title": "Masked Autoencoders Are Scalable Vision Learners",
+      "year": 2021,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52688.2022.01553",
+      "citationCount": 12334,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Kaiming He"
+        },
+        {
+          "slug": null,
+          "name": "Xinlei Chen"
+        },
+        {
+          "slug": null,
+          "name": "Yanghao Li"
+        },
+        {
+          "slug": null,
+          "name": "Piotr Doll'ar"
+        },
+        {
+          "slug": null,
+          "name": "Ross B. Girshick"
+        }
+      ]
+    },
+    {
+      "paperId": "cb1765d399b988ec5c3bfd0dd58df5c2f6c7d130",
+      "title": "Performance Analysis of Object Detection Framework: Evolution from SIFT to Mask R - CNN",
+      "year": 2021,
+      "venue": null,
+      "url": "https://doi.org/10.17762/TURCOMAT.V12I10.5049",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Karen"
+        },
+        {
+          "slug": null,
+          "name": "Simonyan"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Albanie"
+        }
+      ]
+    },
+    {
+      "paperId": "c7dcdaafa2198b88854e364c4d7e6497a3a4f46c",
+      "title": "Pri3D: Can 3D Priors Help 2D Representation Learning?",
+      "year": 2021,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV48922.2021.00564",
+      "citationCount": 95,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ji Hou"
+        },
+        {
+          "slug": null,
+          "name": "Benjamin Graham"
+        },
+        {
+          "slug": null,
+          "name": "Angela Dai"
+        },
+        {
+          "slug": null,
+          "name": "M. Nießner"
+        }
+      ]
+    },
+    {
+      "paperId": "d616ec1fe4fa52627e6d57cffee126d8f58d25d8",
+      "title": "Sample-Efficient Neural Architecture Search by Learning Actions for Monte Carlo Tree Search",
+      "year": 2021,
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "url": "https://doi.org/10.1109/TPAMI.2021.3071343",
+      "citationCount": 56,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Linnan Wang"
+        },
+        {
+          "slug": null,
+          "name": "Teng Li"
+        },
+        {
+          "slug": null,
+          "name": "Rodrigo Fonseca"
+        },
+        {
+          "slug": null,
+          "name": "Yuandong Tian"
+        }
+      ]
+    },
+    {
+      "paperId": "739ceacfafb1c4eaa17509351b647c773270b3ae",
+      "title": "An Empirical Study of Training Self-Supervised Vision Transformers",
+      "year": 2021,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV48922.2021.00950",
+      "citationCount": 2447,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Xinlei Chen"
+        },
+        {
+          "slug": null,
+          "name": "Kaiming He"
+        }
+      ]
+    },
+    {
+      "paperId": "6af5cdb1c6d54ed75a32353f3c31097eca6cb35e",
+      "title": "On Interaction Between Augmentations and Corruptions in Natural Corruption Robustness",
+      "year": 2021,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/6af5cdb1c6d54ed75a32353f3c31097eca6cb35e",
+      "citationCount": 130,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Eric Mintun"
+        },
+        {
+          "slug": null,
+          "name": "A. Kirillov"
+        }
+      ]
+    },
+    {
+      "paperId": "053b96e162724fa10d8639196a99856d60de5214",
+      "title": "Exploring Data-Efficient 3D Scene Understanding with Contrastive Scene Contexts",
+      "year": 2020,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR46437.2021.01533",
+      "citationCount": 344,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ji Hou"
+        },
+        {
+          "slug": null,
+          "name": "Benjamin Graham"
+        },
+        {
+          "slug": null,
+          "name": "M. Nießner"
+        }
+      ]
+    },
+    {
+      "paperId": "491188ac198663094537cb4c38ac1c8808ef7440",
+      "title": "PointContrast: Unsupervised Pre-training for 3D Point Cloud Understanding",
+      "year": 2020,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-030-58580-8_34",
+      "citationCount": 843,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jiatao Gu"
+        },
+        {
+          "slug": null,
+          "name": "Demi Guo"
+        },
+        {
+          "slug": null,
+          "name": "C. Qi"
+        },
+        {
+          "slug": null,
+          "name": "L. Guibas"
+        },
+        {
+          "slug": null,
+          "name": "O. Litany"
+        }
+      ]
+    },
+    {
+      "paperId": "ccbd7f5f7aaa7a50e35ff3de41f718861de790c4",
+      "title": "Graph Structure of Neural Networks",
+      "year": 2020,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/ccbd7f5f7aaa7a50e35ff3de41f718861de790c4",
+      "citationCount": 169,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jiaxuan You"
+        },
+        {
+          "slug": null,
+          "name": "J. Leskovec"
+        },
+        {
+          "slug": null,
+          "name": "Kaiming He"
+        }
+      ]
+    },
+    {
+      "paperId": "fd986d9988067df491604b1ae8152ade9b624053",
+      "title": "Rethinking Class-Balanced Methods for Long-Tailed Visual Recognition from a Domain Adaptation Perspective",
+      "year": 2020,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/fd986d9988067df491604b1ae8152ade9b624053",
+      "citationCount": 15,
+      "coAuthors": [
+        {
+          "slug": "bingyi-kang",
+          "name": "Bingyi Kang"
+        },
+        {
+          "slug": null,
+          "name": "Kaidi Cao"
+        },
+        {
+          "slug": null,
+          "name": "Colin Wei"
+        },
+        {
+          "slug": null,
+          "name": "Adrien Gaidon"
+        },
+        {
+          "slug": null,
+          "name": "Nikos Aréchiga"
+        },
+        {
+          "slug": null,
+          "name": "Yin Cui"
+        },
+        {
+          "slug": null,
+          "name": "Menglin Jia"
+        },
+        {
+          "slug": null,
+          "name": "Tsung-Yi Lin"
+        },
+        {
+          "slug": null,
+          "name": "Yang Song"
+        },
+        {
+          "slug": null,
+          "name": "Marcus Rohrbach"
+        },
+        {
+          "slug": null,
+          "name": "Zhicheng Yan"
+        },
+        {
+          "slug": null,
+          "name": "Albert Gordo"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        },
+        {
+          "slug": null,
+          "name": "Priya Goyal"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Liu"
+        },
+        {
+          "slug": null,
+          "name": "Zhongqi Miao"
+        },
+        {
+          "slug": null,
+          "name": "Xiaohang Zhan"
+        },
+        {
+          "slug": null,
+          "name": "Jiayun Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "e4afee97378ce41c703b9c4ee88ca442347d81c1",
+      "title": "FBNetV2: Differentiable Neural Architecture Search for Spatial and Channel Dimensions",
+      "year": 2020,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/cvpr42600.2020.01298",
+      "citationCount": 334,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Alvin Wan"
+        },
+        {
+          "slug": null,
+          "name": "Xiaoliang Dai"
+        },
+        {
+          "slug": null,
+          "name": "Peizhao Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Zijian He"
+        },
+        {
+          "slug": null,
+          "name": "Yuandong Tian"
+        },
+        {
+          "slug": null,
+          "name": "Bichen Wu"
+        },
+        {
+          "slug": null,
+          "name": "Matthew Yu"
+        },
+        {
+          "slug": null,
+          "name": "Tao Xu"
+        },
+        {
+          "slug": null,
+          "name": "Kan Chen"
+        },
+        {
+          "slug": null,
+          "name": "Péter Vajda"
+        },
+        {
+          "slug": null,
+          "name": "Joseph E. Gonzalez"
+        }
+      ]
+    },
+    {
+      "paperId": "55edd0f014553e9faa2a9567f1323863f7e08410",
+      "title": "Are Labels Necessary for Neural Architecture Search?",
+      "year": 2020,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-030-58548-8_46",
+      "citationCount": 80,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chenxi Liu"
+        },
+        {
+          "slug": null,
+          "name": "Piotr Doll'ar"
+        },
+        {
+          "slug": null,
+          "name": "Kaiming He"
+        },
+        {
+          "slug": null,
+          "name": "Ross B. Girshick"
+        },
+        {
+          "slug": null,
+          "name": "A. Yuille"
+        }
+      ]
+    },
+    {
+      "paperId": "add2f205338d70e10ce5e686df4a690e2851bdfc",
+      "title": "Momentum Contrast for Unsupervised Visual Representation Learning",
+      "year": 2019,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/cvpr42600.2020.00975",
+      "citationCount": 15448,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Kaiming He"
+        },
+        {
+          "slug": null,
+          "name": "Haoqi Fan"
+        },
+        {
+          "slug": null,
+          "name": "Yuxin Wu"
+        },
+        {
+          "slug": null,
+          "name": "Ross B. Girshick"
+        }
+      ]
+    },
+    {
+      "paperId": "dcc4c760c3f1cb17f953c487190b735030c33b78",
+      "title": "Decoupling Representation and Classifier for Long-Tailed Recognition",
+      "year": 2019,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/dcc4c760c3f1cb17f953c487190b735030c33b78",
+      "citationCount": 1583,
+      "coAuthors": [
+        {
+          "slug": "bingyi-kang",
+          "name": "Bingyi Kang"
+        },
+        {
+          "slug": null,
+          "name": "Marcus Rohrbach"
+        },
+        {
+          "slug": null,
+          "name": "Zhicheng Yan"
+        },
+        {
+          "slug": null,
+          "name": "Albert Gordo"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        },
+        {
+          "slug": null,
+          "name": "Yannis Kalantidis"
+        }
+      ]
+    },
+    {
+      "paperId": "e61854de647b65e30510ad14726a798e818651d9",
+      "title": "Order-Aware Generative Modeling Using the 3D-Craft Dataset",
+      "year": 2019,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV.2019.00185",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Zhuoyuan Chen"
+        },
+        {
+          "slug": null,
+          "name": "Demi Guo"
+        },
+        {
+          "slug": null,
+          "name": "Tong Xiao"
+        },
+        {
+          "slug": null,
+          "name": "Xinlei Chen"
+        },
+        {
+          "slug": null,
+          "name": "Haonan Yu"
+        },
+        {
+          "slug": null,
+          "name": "Jonathan Gray"
+        },
+        {
+          "slug": null,
+          "name": "Kavya Srinet"
+        },
+        {
+          "slug": null,
+          "name": "Haoqi Fan"
+        },
+        {
+          "slug": null,
+          "name": "Jerry Ma"
+        },
+        {
+          "slug": null,
+          "name": "C. Qi"
+        },
+        {
+          "slug": null,
+          "name": "Shubham Tulsiani"
+        },
+        {
+          "slug": null,
+          "name": "Arthur Szlam"
+        },
+        {
+          "slug": null,
+          "name": "C. L. Zitnick"
+        }
+      ]
+    },
+    {
+      "paperId": "51d4f2aec59da6d150932e03e7a45eac8c2945f8",
+      "title": "Neural Architecture Search by Learning Action Space for Monte Carlo Tree Search",
+      "year": 2019,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/51d4f2aec59da6d150932e03e7a45eac8c2945f8",
+      "citationCount": 3,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Linnan Wang"
+        },
+        {
+          "slug": null,
+          "name": "Teng Li"
+        },
+        {
+          "slug": null,
+          "name": "Rodrigo Fonseca"
+        },
+        {
+          "slug": null,
+          "name": "Yuandong Tian"
+        }
+      ]
+    },
+    {
+      "paperId": "f3c7e853bb77d1ad360464aea81676cc9e3ca1fe",
+      "title": "Sample-Efficient Neural Architecture Search by Learning Action Space",
+      "year": 2019,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/f3c7e853bb77d1ad360464aea81676cc9e3ca1fe",
+      "citationCount": 48,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Linnan Wang"
+        },
+        {
+          "slug": null,
+          "name": "Teng Li"
+        },
+        {
+          "slug": null,
+          "name": "Rodrigo Fonseca"
+        },
+        {
+          "slug": null,
+          "name": "Yuandong Tian"
+        }
+      ]
+    },
+    {
+      "paperId": "15a526d7d66dd7a08f6bec6aa9b39ffa6322a96e",
+      "title": "On Network Design Spaces for Visual Recognition",
+      "year": 2019,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV.2019.00197",
+      "citationCount": 150,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ilija Radosavovic"
+        },
+        {
+          "slug": null,
+          "name": "Justin Johnson"
+        },
+        {
+          "slug": null,
+          "name": "Wan-Yen Lo"
+        },
+        {
+          "slug": null,
+          "name": "Piotr Dollár"
+        }
+      ]
+    },
+    {
+      "paperId": "e1cb7ddae92273dfb71f194e01586eb2342d847d",
+      "title": "Exploring Randomly Wired Neural Networks for Image Recognition",
+      "year": 2019,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV.2019.00137",
+      "citationCount": 390,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Alexander Kirillov"
+        },
+        {
+          "slug": null,
+          "name": "Ross B. Girshick"
+        },
+        {
+          "slug": null,
+          "name": "Kaiming He"
+        }
+      ]
+    },
+    {
+      "paperId": "42ed2b05e1fb2edb1c19b6ed398285c7644e80fb",
+      "title": "Deep Representation Learning with Induced Structural Priors",
+      "year": 2018,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/42ed2b05e1fb2edb1c19b6ed398285c7644e80fb",
+      "citationCount": 0,
+      "coAuthors": []
+    },
+    {
+      "paperId": "36777066966899fb48c1850d5776af97f1c81942",
+      "title": "Attentional ShapeContextNet for Point Cloud Recognition",
+      "year": 2018,
+      "venue": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR.2018.00484",
+      "citationCount": 344,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Sainan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Zeyu Chen"
+        },
+        {
+          "slug": null,
+          "name": "Z. Tu"
+        }
+      ]
+    },
+    {
+      "paperId": "61527789b487ab2dc0155f6f274de7196908c57c",
+      "title": "Transferring Task Goals via Hierarchical Reinforcement Learning",
+      "year": 2018,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/61527789b487ab2dc0155f6f274de7196908c57c",
+      "citationCount": 6,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Alexandre Galashov"
+        },
+        {
+          "slug": null,
+          "name": "Siqi Liu"
+        },
+        {
+          "slug": null,
+          "name": "Shaobo Hou"
+        },
+        {
+          "slug": null,
+          "name": "Razvan Pascanu"
+        },
+        {
+          "slug": null,
+          "name": "N. Heess"
+        },
+        {
+          "slug": null,
+          "name": "Y. Teh"
+        }
+      ]
+    },
+    {
+      "paperId": "4fa0d73b8ba114578744c2ebaf610d2ca9694f45",
+      "title": "Rethinking Spatiotemporal Feature Learning For Video Understanding",
+      "year": 2017,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/4fa0d73b8ba114578744c2ebaf610d2ca9694f45",
+      "citationCount": 266,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chen Sun"
+        },
+        {
+          "slug": null,
+          "name": "Jonathan Huang"
+        },
+        {
+          "slug": null,
+          "name": "Z. Tu"
+        },
+        {
+          "slug": null,
+          "name": "K. Murphy"
+        }
+      ]
+    },
+    {
+      "paperId": "815aa52cfc02961d82415f080384594639a21984",
+      "title": "Rethinking Spatiotemporal Feature Learning: Speed-Accuracy Trade-offs in Video Classification",
+      "year": 2017,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-030-01267-0_19",
+      "citationCount": 1505,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chen Sun"
+        },
+        {
+          "slug": null,
+          "name": "Jonathan Huang"
+        },
+        {
+          "slug": null,
+          "name": "Z. Tu"
+        },
+        {
+          "slug": null,
+          "name": "K. Murphy"
+        }
+      ]
+    },
+    {
+      "paperId": "f6e0856b4a9199fa968ac00da612a9407b5cb85c",
+      "title": "Aggregated Residual Transformations for Deep Neural Networks",
+      "year": 2016,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR.2017.634",
+      "citationCount": 11815,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ross B. Girshick"
+        },
+        {
+          "slug": null,
+          "name": "Piotr Dollár"
+        },
+        {
+          "slug": null,
+          "name": "Z. Tu"
+        },
+        {
+          "slug": null,
+          "name": "Kaiming He"
+        }
+      ]
+    },
+    {
+      "paperId": "ce21a57ba22b9c93cc7efa1540d2589c69fdfb9f",
+      "title": "Convolutional Pseudo-Prior for Structured Labeling",
+      "year": 2015,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/ce21a57ba22b9c93cc7efa1540d2589c69fdfb9f",
+      "citationCount": 9,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Xun Huang"
+        },
+        {
+          "slug": null,
+          "name": "Z. Tu"
+        }
+      ]
+    },
+    {
+      "paperId": "ea8640efbd4f517c57519e1b91fe8b1fdb0dc080",
+      "title": "Top-Down Learning for Structured Labeling with Convolutional Pseudoprior",
+      "year": 2015,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-319-46493-0_19",
+      "citationCount": 39,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Xun Huang"
+        },
+        {
+          "slug": null,
+          "name": "Z. Tu"
+        }
+      ]
+    },
+    {
+      "paperId": "38128302a9d3b910e4f4fb7c3e17dc98f1d735b1",
+      "title": "Hyper-class augmented and regularized deep learning for fine-grained image classification",
+      "year": 2015,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR.2015.7298880",
+      "citationCount": 177,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tianbao Yang"
+        },
+        {
+          "slug": null,
+          "name": "Xiaoyu Wang"
+        },
+        {
+          "slug": null,
+          "name": "Yuanqing Lin"
+        }
+      ]
+    },
+    {
+      "paperId": "8da55e685a7bef9c897788ab519a8710c695c419",
+      "title": "Holistically-Nested Edge Detection",
+      "year": 2015,
+      "venue": "International Journal of Computer Vision",
+      "url": "https://doi.org/10.1007/s11263-017-1004-z",
+      "citationCount": 3933,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Z. Tu"
+        }
+      ]
     }
   ],
   "topPublications": [
     {
       "title": "Masked Autoencoders Are Scalable Vision Learners",
       "year": 2021,
-      "citationCount": 12331,
+      "citationCount": 12334,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01553"
     },
     {
       "title": "A ConvNet for the 2020s",
       "year": 2022,
-      "citationCount": 8942,
+      "citationCount": 8945,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01167"
     },
     {
       "title": "Scalable Diffusion Models with Transformers",
       "year": 2022,
-      "citationCount": 6789,
+      "citationCount": 6797,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51070.2023.00387"
     },
     {
       "title": "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders",
       "year": 2023,
-      "citationCount": 1894,
+      "citationCount": 1895,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548"
     },
@@ -832,6 +1733,11 @@
         "sharedPapers": 2
       },
       {
+        "slug": "bingyi-kang",
+        "name": "Bingyi Kang",
+        "sharedPapers": 2
+      },
+      {
         "slug": "john-nguyen",
         "name": "John Nguyen",
         "sharedPapers": 1
@@ -844,7 +1750,23 @@
     ],
     "externalCoAuthors": [
       {
+        "name": "Xinlei Chen",
+        "papers": 8
+      },
+      {
+        "name": "Kaiming He",
+        "papers": 8
+      },
+      {
+        "name": "Z. Tu",
+        "papers": 7
+      },
+      {
         "name": "Shengbang Tong",
+        "papers": 6
+      },
+      {
+        "name": "Ross B. Girshick",
         "papers": 6
       },
       {
@@ -864,11 +1786,43 @@
         "papers": 4
       },
       {
-        "name": "Xinlei Chen",
+        "name": "Yuandong Tian",
         "papers": 4
       },
       {
         "name": "Koustuv Sinha",
+        "papers": 3
+      },
+      {
+        "name": "Zhicheng Yan",
+        "papers": 3
+      },
+      {
+        "name": "Christoph Feichtenhofer",
+        "papers": 3
+      },
+      {
+        "name": "Bichen Wu",
+        "papers": 3
+      },
+      {
+        "name": "Haoqi Fan",
+        "papers": 3
+      },
+      {
+        "name": "Piotr Dollár",
+        "papers": 3
+      },
+      {
+        "name": "Linnan Wang",
+        "papers": 3
+      },
+      {
+        "name": "Teng Li",
+        "papers": 3
+      },
+      {
+        "name": "Rodrigo Fonseca",
         "papers": 3
       },
       {
@@ -896,10 +1850,6 @@
         "papers": 2
       },
       {
-        "name": "Christoph Feichtenhofer",
-        "papers": 2
-      },
-      {
         "name": "Shoubhik Debnath",
         "papers": 2
       },
@@ -912,10 +1862,6 @@
         "papers": 2
       },
       {
-        "name": "Bichen Wu",
-        "papers": 2
-      },
-      {
         "name": "Madian Khabsa",
         "papers": 2
       },
@@ -925,6 +1871,70 @@
       },
       {
         "name": "Hamed Firooz",
+        "papers": 2
+      },
+      {
+        "name": "Alexander Kirillov",
+        "papers": 2
+      },
+      {
+        "name": "A. Yuille",
+        "papers": 2
+      },
+      {
+        "name": "Yanghao Li",
+        "papers": 2
+      },
+      {
+        "name": "Piotr Doll'ar",
+        "papers": 2
+      },
+      {
+        "name": "Ji Hou",
+        "papers": 2
+      },
+      {
+        "name": "Benjamin Graham",
+        "papers": 2
+      },
+      {
+        "name": "M. Nießner",
+        "papers": 2
+      },
+      {
+        "name": "Demi Guo",
+        "papers": 2
+      },
+      {
+        "name": "C. Qi",
+        "papers": 2
+      },
+      {
+        "name": "Marcus Rohrbach",
+        "papers": 2
+      },
+      {
+        "name": "Albert Gordo",
+        "papers": 2
+      },
+      {
+        "name": "Jiashi Feng",
+        "papers": 2
+      },
+      {
+        "name": "Chen Sun",
+        "papers": 2
+      },
+      {
+        "name": "Jonathan Huang",
+        "papers": 2
+      },
+      {
+        "name": "K. Murphy",
+        "papers": 2
+      },
+      {
+        "name": "Xun Huang",
         "papers": 2
       },
       {
@@ -1064,10 +2074,6 @@
         "papers": 1
       },
       {
-        "name": "Zhicheng Yan",
-        "papers": 1
-      },
-      {
         "name": "Po-Yao (Bernie) Huang",
         "papers": 1
       },
@@ -1117,6 +2123,258 @@
       },
       {
         "name": "Trevor Darrell",
+        "papers": 1
+      },
+      {
+        "name": "Norman Mu",
+        "papers": 1
+      },
+      {
+        "name": "David A. Wagner",
+        "papers": 1
+      },
+      {
+        "name": "Chen Wei",
+        "papers": 1
+      },
+      {
+        "name": "Chaoxia Wu",
+        "papers": 1
+      },
+      {
+        "name": "Karen",
+        "papers": 1
+      },
+      {
+        "name": "Simonyan",
+        "papers": 1
+      },
+      {
+        "name": "Samuel Albanie",
+        "papers": 1
+      },
+      {
+        "name": "Angela Dai",
+        "papers": 1
+      },
+      {
+        "name": "Eric Mintun",
+        "papers": 1
+      },
+      {
+        "name": "A. Kirillov",
+        "papers": 1
+      },
+      {
+        "name": "Jiatao Gu",
+        "papers": 1
+      },
+      {
+        "name": "L. Guibas",
+        "papers": 1
+      },
+      {
+        "name": "O. Litany",
+        "papers": 1
+      },
+      {
+        "name": "Jiaxuan You",
+        "papers": 1
+      },
+      {
+        "name": "J. Leskovec",
+        "papers": 1
+      },
+      {
+        "name": "Kaidi Cao",
+        "papers": 1
+      },
+      {
+        "name": "Colin Wei",
+        "papers": 1
+      },
+      {
+        "name": "Adrien Gaidon",
+        "papers": 1
+      },
+      {
+        "name": "Nikos Aréchiga",
+        "papers": 1
+      },
+      {
+        "name": "Yin Cui",
+        "papers": 1
+      },
+      {
+        "name": "Menglin Jia",
+        "papers": 1
+      },
+      {
+        "name": "Tsung-Yi Lin",
+        "papers": 1
+      },
+      {
+        "name": "Yang Song",
+        "papers": 1
+      },
+      {
+        "name": "Priya Goyal",
+        "papers": 1
+      },
+      {
+        "name": "Ziwei Liu",
+        "papers": 1
+      },
+      {
+        "name": "Zhongqi Miao",
+        "papers": 1
+      },
+      {
+        "name": "Xiaohang Zhan",
+        "papers": 1
+      },
+      {
+        "name": "Jiayun Wang",
+        "papers": 1
+      },
+      {
+        "name": "Alvin Wan",
+        "papers": 1
+      },
+      {
+        "name": "Xiaoliang Dai",
+        "papers": 1
+      },
+      {
+        "name": "Peizhao Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Zijian He",
+        "papers": 1
+      },
+      {
+        "name": "Matthew Yu",
+        "papers": 1
+      },
+      {
+        "name": "Tao Xu",
+        "papers": 1
+      },
+      {
+        "name": "Kan Chen",
+        "papers": 1
+      },
+      {
+        "name": "Péter Vajda",
+        "papers": 1
+      },
+      {
+        "name": "Joseph E. Gonzalez",
+        "papers": 1
+      },
+      {
+        "name": "Chenxi Liu",
+        "papers": 1
+      },
+      {
+        "name": "Yuxin Wu",
+        "papers": 1
+      },
+      {
+        "name": "Yannis Kalantidis",
+        "papers": 1
+      },
+      {
+        "name": "Zhuoyuan Chen",
+        "papers": 1
+      },
+      {
+        "name": "Tong Xiao",
+        "papers": 1
+      },
+      {
+        "name": "Haonan Yu",
+        "papers": 1
+      },
+      {
+        "name": "Jonathan Gray",
+        "papers": 1
+      },
+      {
+        "name": "Kavya Srinet",
+        "papers": 1
+      },
+      {
+        "name": "Jerry Ma",
+        "papers": 1
+      },
+      {
+        "name": "Shubham Tulsiani",
+        "papers": 1
+      },
+      {
+        "name": "Arthur Szlam",
+        "papers": 1
+      },
+      {
+        "name": "C. L. Zitnick",
+        "papers": 1
+      },
+      {
+        "name": "Ilija Radosavovic",
+        "papers": 1
+      },
+      {
+        "name": "Justin Johnson",
+        "papers": 1
+      },
+      {
+        "name": "Wan-Yen Lo",
+        "papers": 1
+      },
+      {
+        "name": "Sainan Liu",
+        "papers": 1
+      },
+      {
+        "name": "Zeyu Chen",
+        "papers": 1
+      },
+      {
+        "name": "Alexandre Galashov",
+        "papers": 1
+      },
+      {
+        "name": "Siqi Liu",
+        "papers": 1
+      },
+      {
+        "name": "Shaobo Hou",
+        "papers": 1
+      },
+      {
+        "name": "Razvan Pascanu",
+        "papers": 1
+      },
+      {
+        "name": "N. Heess",
+        "papers": 1
+      },
+      {
+        "name": "Y. Teh",
+        "papers": 1
+      },
+      {
+        "name": "Tianbao Yang",
+        "papers": 1
+      },
+      {
+        "name": "Xiaoyu Wang",
+        "papers": 1
+      },
+      {
+        "name": "Yuanqing Lin",
         "papers": 1
       }
     ],

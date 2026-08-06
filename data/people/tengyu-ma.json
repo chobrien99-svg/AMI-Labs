@@ -12,7 +12,9 @@
     "linkedin": "https://www.linkedin.com/in/tengyu-ma/",
     "scholar": "https://scholar.google.com/citations?user=VeTSl0wAAAAJ&hl=en"
   },
-  "semanticScholarId": "2114186424",
+  "semanticScholarId": [
+    "2114186424"
+  ],
   "careerHistory": [
     {
       "org": "Meta",
@@ -274,6 +276,1050 @@
           "name": "Quoc V. Le"
         }
       ]
+    },
+    {
+      "paperId": "e3fe9d7e1bfac43140fe01efba34c9831c3e5c0d",
+      "title": "Toward L∞-recovery of Nonlinear Functions: A Polynomial Sample Complexity Bound for Gaussian Random Fields",
+      "year": 2023,
+      "venue": "Annual Conference Computational Learning Theory",
+      "url": "https://doi.org/10.48550/arXiv.2305.00322",
+      "citationCount": 4,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Kefan Dong"
+        }
+      ]
+    },
+    {
+      "paperId": "154493f69d7db3d49da0e51df0192c6ad5f1724a",
+      "title": "Larger language models do in-context learning differently",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2303.03846",
+      "citationCount": 490,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jerry W. Wei"
+        },
+        {
+          "slug": null,
+          "name": "Jason Wei"
+        },
+        {
+          "slug": null,
+          "name": "Yi Tay"
+        },
+        {
+          "slug": null,
+          "name": "Dustin Tran"
+        },
+        {
+          "slug": null,
+          "name": "Albert Webson"
+        },
+        {
+          "slug": null,
+          "name": "Yifeng Lu"
+        },
+        {
+          "slug": null,
+          "name": "Xinyun Chen"
+        },
+        {
+          "slug": null,
+          "name": "Hanxiao Liu"
+        },
+        {
+          "slug": null,
+          "name": "Da Huang"
+        },
+        {
+          "slug": null,
+          "name": "Denny Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "74013b7cfa0fc524803350fca51341004565eb22",
+      "title": "Data Selection for Language Models via Importance Resampling",
+      "year": 2023,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2302.03169",
+      "citationCount": 358,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Sang Michael Xie"
+        },
+        {
+          "slug": null,
+          "name": "Shibani Santurkar"
+        },
+        {
+          "slug": null,
+          "name": "Percy Liang"
+        }
+      ]
+    },
+    {
+      "paperId": "7aa801b907b59b8ee4cfb1296d9dac22c5164c5d",
+      "title": "What learning algorithm is in-context learning? Investigations with linear models",
+      "year": 2022,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2211.15661",
+      "citationCount": 760,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ekin Akyürek"
+        },
+        {
+          "slug": null,
+          "name": "Dale Schuurmans"
+        },
+        {
+          "slug": null,
+          "name": "Jacob Andreas"
+        },
+        {
+          "slug": null,
+          "name": "Denny Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "88788d73eb81dc0a1134f30a1ff815c727376681",
+      "title": "A Theoretical Study of Inductive Biases in Contrastive Learning",
+      "year": 2022,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2211.14699",
+      "citationCount": 47,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jeff Z. HaoChen"
+        }
+      ]
+    },
+    {
+      "paperId": "07dbbb95eff2640e07ade6e42e666c14ae5d1d19",
+      "title": "How Does Sharpness-Aware Minimization Minimize Sharpness?",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2211.05729",
+      "citationCount": 76,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Kaiyue Wen"
+        },
+        {
+          "slug": null,
+          "name": "Zhiyuan Li"
+        }
+      ]
+    },
+    {
+      "paperId": "8a4e2828777c9b3703e8e2b68ac27d9af496261a",
+      "title": "Same Pre-training Loss, Better Downstream: Implicit Bias Matters for Language Models",
+      "year": 2022,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2210.14199",
+      "citationCount": 92,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Hong Liu"
+        },
+        {
+          "slug": null,
+          "name": "Sang Michael Xie"
+        },
+        {
+          "slug": null,
+          "name": "Zhiyuan Li"
+        }
+      ]
+    },
+    {
+      "paperId": "ea11c6ce8d3f091881c72a84672a3818e4e29a29",
+      "title": "PIA: Parallel Architecture with Illumination Allocator for Joint Enhancement and Detection in Low-Light",
+      "year": 2022,
+      "venue": "ACM Multimedia",
+      "url": "https://doi.org/10.1145/3503161.3548041",
+      "citationCount": 26,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Long Ma"
+        },
+        {
+          "slug": null,
+          "name": "Xin Fan"
+        },
+        {
+          "slug": null,
+          "name": "Zhongxuan Luo"
+        },
+        {
+          "slug": null,
+          "name": "Risheng Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "e979dd7efc96d742cb8a0adfe17bc4acc9f7201b",
+      "title": "Calibrated ensembles can mitigate accuracy tradeoffs under distribution shift",
+      "year": 2022,
+      "venue": "Conference on Uncertainty in Artificial Intelligence",
+      "url": "https://doi.org/10.48550/arXiv.2207.08977",
+      "citationCount": 48,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ananya Kumar"
+        },
+        {
+          "slug": null,
+          "name": "Percy Liang"
+        },
+        {
+          "slug": null,
+          "name": "Aditi Raghunathan"
+        }
+      ]
+    },
+    {
+      "paperId": "cbaeb612e208eac2723f6d7a3e7f66350c10c801",
+      "title": "Supplemental Materials: Toward Fast, Flexible, and Robust Low-Light Image Enhancement",
+      "year": 2022,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/cbaeb612e208eac2723f6d7a3e7f66350c10c801",
+      "citationCount": 315,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Long Ma"
+        },
+        {
+          "slug": null,
+          "name": "Risheng Liu"
+        },
+        {
+          "slug": null,
+          "name": "Xin Fan"
+        },
+        {
+          "slug": null,
+          "name": "Zhongxuan Luo"
+        }
+      ]
+    },
+    {
+      "paperId": "1de398ad15d72baef5d3fc4274c6ecf6557d7a3d",
+      "title": "Beyond Separability: Analyzing the Linear Transferability of Contrastive Representations to Related Subpopulations",
+      "year": 2022,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2204.02683",
+      "citationCount": 50,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jeff Z. HaoChen"
+        },
+        {
+          "slug": null,
+          "name": "Colin Wei"
+        },
+        {
+          "slug": null,
+          "name": "Ananya Kumar"
+        }
+      ]
+    },
+    {
+      "paperId": "5ce79f612034d36a955e0e4ebaf5c57fe29d4b31",
+      "title": "Connect, Not Collapse: Explaining Contrastive Learning for Unsupervised Domain Adaptation",
+      "year": 2022,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2204.00570",
+      "citationCount": 106,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Kendrick Shen"
+        },
+        {
+          "slug": null,
+          "name": "Robbie Jones"
+        },
+        {
+          "slug": null,
+          "name": "Ananya Kumar"
+        },
+        {
+          "slug": null,
+          "name": "Sang Michael Xie"
+        },
+        {
+          "slug": null,
+          "name": "Jeff Z. HaoChen"
+        },
+        {
+          "slug": null,
+          "name": "Percy Liang"
+        }
+      ]
+    },
+    {
+      "paperId": "29b77089a0a40f46372ce2dca9c3bb2dd5d46b1d",
+      "title": "Fine-Tuning can Distort Pretrained Features and Underperform Out-of-Distribution",
+      "year": 2022,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/29b77089a0a40f46372ce2dca9c3bb2dd5d46b1d",
+      "citationCount": 980,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ananya Kumar"
+        },
+        {
+          "slug": null,
+          "name": "Aditi Raghunathan"
+        },
+        {
+          "slug": null,
+          "name": "Robbie Jones"
+        },
+        {
+          "slug": null,
+          "name": "Percy Liang"
+        }
+      ]
+    },
+    {
+      "paperId": "d8da5d28807fe5f8af2e6942c67738bd9f12a1ec",
+      "title": "Safe Reinforcement Learning by Imagining the Near Future",
+      "year": 2022,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/d8da5d28807fe5f8af2e6942c67738bd9f12a1ec",
+      "citationCount": 115,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "G. Thomas"
+        },
+        {
+          "slug": null,
+          "name": "Yuping Luo"
+        }
+      ]
+    },
+    {
+      "paperId": "0120a00f9357220d024ed4d561952c45a330af3c",
+      "title": "Learning With Nested Scene Modeling and Cooperative Architecture Search for Low-Light Vision",
+      "year": 2021,
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "url": "https://doi.org/10.1109/TPAMI.2022.3212995",
+      "citationCount": 66,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Risheng Liu"
+        },
+        {
+          "slug": null,
+          "name": "Long Ma"
+        },
+        {
+          "slug": null,
+          "name": "Xin Fan"
+        },
+        {
+          "slug": null,
+          "name": "Zhongxuan Luo"
+        }
+      ]
+    },
+    {
+      "paperId": "c271b4d25bc184bc94622cef6c9aba80e8e2cce3",
+      "title": "DR3: Value-Based Deep Reinforcement Learning Requires Explicit Regularization",
+      "year": 2021,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/c271b4d25bc184bc94622cef6c9aba80e8e2cce3",
+      "citationCount": 90,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Aviral Kumar"
+        },
+        {
+          "slug": null,
+          "name": "Rishabh Agarwal"
+        },
+        {
+          "slug": null,
+          "name": "Aaron C. Courville"
+        },
+        {
+          "slug": null,
+          "name": "G. Tucker"
+        },
+        {
+          "slug": null,
+          "name": "S. Levine"
+        }
+      ]
+    },
+    {
+      "paperId": "ca5c8d732e7f6046af1b23b549e08460a1893ade",
+      "title": "Plan Better Amid Conservatism: Offline Multi-Agent Reinforcement Learning with Actor Rectification",
+      "year": 2021,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/ca5c8d732e7f6046af1b23b549e08460a1893ade",
+      "citationCount": 89,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "L. Pan"
+        },
+        {
+          "slug": null,
+          "name": "Longbo Huang"
+        },
+        {
+          "slug": null,
+          "name": "Huazhe Xu"
+        }
+      ]
+    },
+    {
+      "paperId": "31ba311a2fb22bcb575bedc73d5a80e620157276",
+      "title": "Sharp Bounds for Federated Averaging (Local SGD) and Continuous Perspective",
+      "year": 2021,
+      "venue": "International Conference on Artificial Intelligence and Statistics",
+      "url": "https://www.semanticscholar.org/paper/31ba311a2fb22bcb575bedc73d5a80e620157276",
+      "citationCount": 56,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Margalit Glasgow"
+        },
+        {
+          "slug": null,
+          "name": "Honglin Yuan"
+        }
+      ]
+    },
+    {
+      "paperId": "10bd4160b44803ada6a3d2e366c44b7e2a4ffe90",
+      "title": "An Explanation of In-context Learning as Implicit Bayesian Inference",
+      "year": 2021,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/10bd4160b44803ada6a3d2e366c44b7e2a4ffe90",
+      "citationCount": 1127,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Sang Michael Xie"
+        },
+        {
+          "slug": null,
+          "name": "Aditi Raghunathan"
+        },
+        {
+          "slug": null,
+          "name": "Percy Liang"
+        }
+      ]
+    },
+    {
+      "paperId": "a01ac66f5f66a2b23152f631b920972e4407275c",
+      "title": "Self-supervised Learning is More Robust to Dataset Imbalance",
+      "year": 2021,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/a01ac66f5f66a2b23152f631b920972e4407275c",
+      "citationCount": 196,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Hong Liu"
+        },
+        {
+          "slug": null,
+          "name": "Jeff Z. HaoChen"
+        },
+        {
+          "slug": null,
+          "name": "Adrien Gaidon"
+        }
+      ]
+    },
+    {
+      "paperId": "76e9e2ec3de437ffb30d8b7b629f7fe3e61de5c2",
+      "title": "On the Opportunities and Risks of Foundation Models",
+      "year": 2021,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/76e9e2ec3de437ffb30d8b7b629f7fe3e61de5c2",
+      "citationCount": 7058,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Rishi Bommasani"
+        },
+        {
+          "slug": null,
+          "name": "Drew A. Hudson"
+        },
+        {
+          "slug": null,
+          "name": "Ehsan Adeli"
+        },
+        {
+          "slug": null,
+          "name": "R. Altman"
+        },
+        {
+          "slug": null,
+          "name": "Simran Arora"
+        },
+        {
+          "slug": null,
+          "name": "Sydney von Arx"
+        },
+        {
+          "slug": null,
+          "name": "Michael S. Bernstein"
+        },
+        {
+          "slug": null,
+          "name": "Jeannette Bohg"
+        },
+        {
+          "slug": null,
+          "name": "Antoine Bosselut"
+        },
+        {
+          "slug": null,
+          "name": "E. Brunskill"
+        },
+        {
+          "slug": null,
+          "name": "Erik Brynjolfsson"
+        },
+        {
+          "slug": null,
+          "name": "S. Buch"
+        },
+        {
+          "slug": null,
+          "name": "Dallas Card"
+        },
+        {
+          "slug": null,
+          "name": "Rodrigo Castellon"
+        },
+        {
+          "slug": null,
+          "name": "Niladri S. Chatterji"
+        },
+        {
+          "slug": null,
+          "name": "Annie S. Chen"
+        },
+        {
+          "slug": null,
+          "name": "Kathleen A. Creel"
+        },
+        {
+          "slug": null,
+          "name": "Jared Davis"
+        },
+        {
+          "slug": null,
+          "name": "Dora Demszky"
+        },
+        {
+          "slug": null,
+          "name": "Chris Donahue"
+        },
+        {
+          "slug": null,
+          "name": "M. Doumbouya"
+        },
+        {
+          "slug": null,
+          "name": "Esin Durmus"
+        },
+        {
+          "slug": null,
+          "name": "S. Ermon"
+        },
+        {
+          "slug": null,
+          "name": "J. Etchemendy"
+        },
+        {
+          "slug": null,
+          "name": "Kawin Ethayarajh"
+        },
+        {
+          "slug": null,
+          "name": "L. Fei-Fei"
+        },
+        {
+          "slug": null,
+          "name": "Chelsea Finn"
+        },
+        {
+          "slug": null,
+          "name": "Trevor Gale"
+        },
+        {
+          "slug": null,
+          "name": "Lauren Gillespie"
+        },
+        {
+          "slug": null,
+          "name": "Karan Goel"
+        },
+        {
+          "slug": null,
+          "name": "Noah D. Goodman"
+        },
+        {
+          "slug": null,
+          "name": "S. Grossman"
+        },
+        {
+          "slug": null,
+          "name": "Neel Guha"
+        },
+        {
+          "slug": null,
+          "name": "Tatsunori Hashimoto"
+        },
+        {
+          "slug": null,
+          "name": "Peter Henderson"
+        },
+        {
+          "slug": null,
+          "name": "John Hewitt"
+        },
+        {
+          "slug": null,
+          "name": "Daniel E. Ho"
+        },
+        {
+          "slug": null,
+          "name": "Jenny Hong"
+        },
+        {
+          "slug": null,
+          "name": "Kyle Hsu"
+        },
+        {
+          "slug": null,
+          "name": "Jing Huang"
+        },
+        {
+          "slug": null,
+          "name": "Thomas F. Icard"
+        },
+        {
+          "slug": null,
+          "name": "Saahil Jain"
+        },
+        {
+          "slug": null,
+          "name": "Dan Jurafsky"
+        },
+        {
+          "slug": null,
+          "name": "Pratyusha Kalluri"
+        },
+        {
+          "slug": null,
+          "name": "Siddharth Karamcheti"
+        },
+        {
+          "slug": null,
+          "name": "G. Keeling"
+        },
+        {
+          "slug": null,
+          "name": "Fereshte Khani"
+        },
+        {
+          "slug": null,
+          "name": "O. Khattab"
+        },
+        {
+          "slug": null,
+          "name": "Pang Wei Koh"
+        },
+        {
+          "slug": null,
+          "name": "M. Krass"
+        },
+        {
+          "slug": null,
+          "name": "Ranjay Krishna"
+        },
+        {
+          "slug": null,
+          "name": "Rohith Kuditipudi"
+        },
+        {
+          "slug": null,
+          "name": "Ananya Kumar"
+        },
+        {
+          "slug": null,
+          "name": "Faisal Ladhak"
+        },
+        {
+          "slug": null,
+          "name": "Mina Lee"
+        },
+        {
+          "slug": null,
+          "name": "Tony Lee"
+        },
+        {
+          "slug": null,
+          "name": "J. Leskovec"
+        },
+        {
+          "slug": null,
+          "name": "Isabelle Levent"
+        },
+        {
+          "slug": null,
+          "name": "Xiang Lisa Li"
+        },
+        {
+          "slug": null,
+          "name": "Xuechen Li"
+        },
+        {
+          "slug": null,
+          "name": "Ali Malik"
+        },
+        {
+          "slug": null,
+          "name": "Christopher D. Manning"
+        },
+        {
+          "slug": null,
+          "name": "Suvir Mirchandani"
+        },
+        {
+          "slug": null,
+          "name": "E. Mitchell"
+        },
+        {
+          "slug": null,
+          "name": "Zanele Munyikwa"
+        },
+        {
+          "slug": null,
+          "name": "Suraj Nair"
+        },
+        {
+          "slug": null,
+          "name": "A. Narayan"
+        },
+        {
+          "slug": null,
+          "name": "D. Narayanan"
+        },
+        {
+          "slug": null,
+          "name": "Benjamin Newman"
+        },
+        {
+          "slug": null,
+          "name": "Allen Nie"
+        },
+        {
+          "slug": null,
+          "name": "Juan Carlos Niebles"
+        },
+        {
+          "slug": null,
+          "name": "H. Nilforoshan"
+        },
+        {
+          "slug": null,
+          "name": "Julian Nyarko"
+        },
+        {
+          "slug": null,
+          "name": "Giray Ogut"
+        },
+        {
+          "slug": null,
+          "name": "Laurel J. Orr"
+        },
+        {
+          "slug": null,
+          "name": "Isabel Papadimitriou"
+        },
+        {
+          "slug": null,
+          "name": "J. Park"
+        },
+        {
+          "slug": null,
+          "name": "C. Piech"
+        },
+        {
+          "slug": null,
+          "name": "Eva Portelance"
+        },
+        {
+          "slug": null,
+          "name": "Christopher Potts"
+        },
+        {
+          "slug": null,
+          "name": "Aditi Raghunathan"
+        },
+        {
+          "slug": null,
+          "name": "Robert Reich"
+        },
+        {
+          "slug": null,
+          "name": "Hongyu Ren"
+        },
+        {
+          "slug": null,
+          "name": "Frieda Rong"
+        },
+        {
+          "slug": null,
+          "name": "Yusuf H. Roohani"
+        },
+        {
+          "slug": null,
+          "name": "Camilo Ruiz"
+        },
+        {
+          "slug": null,
+          "name": "Jack Ryan"
+        },
+        {
+          "slug": null,
+          "name": "Christopher R'e"
+        },
+        {
+          "slug": null,
+          "name": "Dorsa Sadigh"
+        },
+        {
+          "slug": null,
+          "name": "Shiori Sagawa"
+        },
+        {
+          "slug": null,
+          "name": "Keshav Santhanam"
+        },
+        {
+          "slug": null,
+          "name": "Andy Shih"
+        },
+        {
+          "slug": null,
+          "name": "K. Srinivasan"
+        },
+        {
+          "slug": null,
+          "name": "Alex Tamkin"
+        },
+        {
+          "slug": null,
+          "name": "Rohan Taori"
+        },
+        {
+          "slug": null,
+          "name": "A. Thomas"
+        },
+        {
+          "slug": null,
+          "name": "Florian Tramèr"
+        },
+        {
+          "slug": null,
+          "name": "Rose E. Wang"
+        },
+        {
+          "slug": null,
+          "name": "William Wang"
+        },
+        {
+          "slug": null,
+          "name": "Bohan Wu"
+        },
+        {
+          "slug": null,
+          "name": "Jiajun Wu"
+        },
+        {
+          "slug": null,
+          "name": "Yuhuai Wu"
+        },
+        {
+          "slug": null,
+          "name": "Sang Michael Xie"
+        },
+        {
+          "slug": null,
+          "name": "Michihiro Yasunaga"
+        },
+        {
+          "slug": null,
+          "name": "Jiaxuan You"
+        },
+        {
+          "slug": null,
+          "name": "M. Zaharia"
+        },
+        {
+          "slug": null,
+          "name": "Michael Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Tianyi Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Xikun Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Yuhui Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Lucia Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Kaitlyn Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Percy Liang"
+        }
+      ]
+    },
+    {
+      "paperId": "36d55c909e8c1be84f3a4f2631e3303ef5392fb0",
+      "title": "Learning Barrier Certificates: Towards Safe Reinforcement Learning with Zero Training-time Violations",
+      "year": 2021,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/36d55c909e8c1be84f3a4f2631e3303ef5392fb0",
+      "citationCount": 56,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yuping Luo"
+        }
+      ]
+    },
+    {
+      "paperId": "0e9ac2cfc5a3ecb66eeace720901390f7809ba0a",
+      "title": "Statistically Meaningful Approximation: a Case Study on Approximating Turing Machines with Transformers",
+      "year": 2021,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.52202/068431-0877",
+      "citationCount": 117,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Colin Wei"
+        },
+        {
+          "slug": null,
+          "name": "Yining Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "e4179bf0963012f9f13ce0ca61d3cdd12a87b336",
+      "title": "Entity and Evidence Guided Document-Level Relation Extraction",
+      "year": 2021,
+      "venue": "Workshop on Representation Learning for NLP",
+      "url": "https://doi.org/10.18653/v1/2021.repl4nlp-1.30",
+      "citationCount": 37,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Kevin Huang"
+        },
+        {
+          "slug": null,
+          "name": "Peng Qi"
+        },
+        {
+          "slug": null,
+          "name": "Guangtao Wang"
+        },
+        {
+          "slug": null,
+          "name": "Jing Huang"
+        }
+      ]
+    },
+    {
+      "paperId": "d5d375628b5ed09a4e40c54eccdd1ae97a3a31fc",
+      "title": "Iterative Feature Matching: Toward Provable Domain Generalization with Logarithmic Environments",
+      "year": 2021,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.52202/068431-0126",
+      "citationCount": 38,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yining Chen"
+        },
+        {
+          "slug": null,
+          "name": "Elan Rosenfeld"
+        },
+        {
+          "slug": null,
+          "name": "Mark Sellke"
+        },
+        {
+          "slug": null,
+          "name": "Andrej Risteski"
+        }
+      ]
+    },
+    {
+      "paperId": "704ac069de5a539ef42489ddb6cee0bd1650d54c",
+      "title": "Why Do Pretrained Language Models Help in Downstream Tasks? An Analysis of Head and Prompt Tuning",
+      "year": 2021,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/704ac069de5a539ef42489ddb6cee0bd1650d54c",
+      "citationCount": 119,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Colin Wei"
+        },
+        {
+          "slug": null,
+          "name": "Sang Michael Xie"
+        }
+      ]
     }
   ],
   "topPublications": [
@@ -333,30 +1379,106 @@
     "externalCoAuthors": [
       {
         "name": "Percy Liang",
-        "papers": 3
+        "papers": 9
       },
       {
-        "name": "Tatsunori Hashimoto",
-        "papers": 2
+        "name": "Sang Michael Xie",
+        "papers": 7
+      },
+      {
+        "name": "Ananya Kumar",
+        "papers": 5
       },
       {
         "name": "Zhiyuan Li",
-        "papers": 2
-      },
-      {
-        "name": "Xinyun Chen",
-        "papers": 2
+        "papers": 4
       },
       {
         "name": "Denny Zhou",
-        "papers": 2
+        "papers": 4
+      },
+      {
+        "name": "Jeff Z. HaoChen",
+        "papers": 4
+      },
+      {
+        "name": "Aditi Raghunathan",
+        "papers": 4
+      },
+      {
+        "name": "Tatsunori Hashimoto",
+        "papers": 3
+      },
+      {
+        "name": "Xinyun Chen",
+        "papers": 3
+      },
+      {
+        "name": "Hong Liu",
+        "papers": 3
       },
       {
         "name": "Yifeng Lu",
+        "papers": 3
+      },
+      {
+        "name": "Long Ma",
+        "papers": 3
+      },
+      {
+        "name": "Xin Fan",
+        "papers": 3
+      },
+      {
+        "name": "Zhongxuan Luo",
+        "papers": 3
+      },
+      {
+        "name": "Risheng Liu",
+        "papers": 3
+      },
+      {
+        "name": "Colin Wei",
+        "papers": 3
+      },
+      {
+        "name": "Kaiyue Wen",
+        "papers": 2
+      },
+      {
+        "name": "Hanxiao Liu",
         "papers": 2
       },
       {
         "name": "Quoc V. Le",
+        "papers": 2
+      },
+      {
+        "name": "Jerry W. Wei",
+        "papers": 2
+      },
+      {
+        "name": "Da Huang",
+        "papers": 2
+      },
+      {
+        "name": "Yi Tay",
+        "papers": 2
+      },
+      {
+        "name": "Robbie Jones",
+        "papers": 2
+      },
+      {
+        "name": "Yuping Luo",
+        "papers": 2
+      },
+      {
+        "name": "Jing Huang",
+        "papers": 2
+      },
+      {
+        "name": "Yining Chen",
         "papers": 2
       },
       {
@@ -373,10 +1495,6 @@
       },
       {
         "name": "Ludwig Schmidt",
-        "papers": 1
-      },
-      {
-        "name": "Kaiyue Wen",
         "papers": 1
       },
       {
@@ -416,15 +1534,7 @@
         "papers": 1
       },
       {
-        "name": "Hong Liu",
-        "papers": 1
-      },
-      {
         "name": "David Leo Wright Hall",
-        "papers": 1
-      },
-      {
-        "name": "Sang Michael Xie",
         "papers": 1
       },
       {
@@ -440,15 +1550,7 @@
         "papers": 1
       },
       {
-        "name": "Hanxiao Liu",
-        "papers": 1
-      },
-      {
         "name": "Adams Wei Yu",
-        "papers": 1
-      },
-      {
-        "name": "Jerry W. Wei",
         "papers": 1
       },
       {
@@ -464,11 +1566,539 @@
         "papers": 1
       },
       {
-        "name": "Da Huang",
+        "name": "Kefan Dong",
         "papers": 1
       },
       {
-        "name": "Yi Tay",
+        "name": "Jason Wei",
+        "papers": 1
+      },
+      {
+        "name": "Dustin Tran",
+        "papers": 1
+      },
+      {
+        "name": "Albert Webson",
+        "papers": 1
+      },
+      {
+        "name": "Shibani Santurkar",
+        "papers": 1
+      },
+      {
+        "name": "Ekin Akyürek",
+        "papers": 1
+      },
+      {
+        "name": "Dale Schuurmans",
+        "papers": 1
+      },
+      {
+        "name": "Jacob Andreas",
+        "papers": 1
+      },
+      {
+        "name": "Kendrick Shen",
+        "papers": 1
+      },
+      {
+        "name": "G. Thomas",
+        "papers": 1
+      },
+      {
+        "name": "Aviral Kumar",
+        "papers": 1
+      },
+      {
+        "name": "Rishabh Agarwal",
+        "papers": 1
+      },
+      {
+        "name": "Aaron C. Courville",
+        "papers": 1
+      },
+      {
+        "name": "G. Tucker",
+        "papers": 1
+      },
+      {
+        "name": "S. Levine",
+        "papers": 1
+      },
+      {
+        "name": "L. Pan",
+        "papers": 1
+      },
+      {
+        "name": "Longbo Huang",
+        "papers": 1
+      },
+      {
+        "name": "Huazhe Xu",
+        "papers": 1
+      },
+      {
+        "name": "Margalit Glasgow",
+        "papers": 1
+      },
+      {
+        "name": "Honglin Yuan",
+        "papers": 1
+      },
+      {
+        "name": "Adrien Gaidon",
+        "papers": 1
+      },
+      {
+        "name": "Rishi Bommasani",
+        "papers": 1
+      },
+      {
+        "name": "Drew A. Hudson",
+        "papers": 1
+      },
+      {
+        "name": "Ehsan Adeli",
+        "papers": 1
+      },
+      {
+        "name": "R. Altman",
+        "papers": 1
+      },
+      {
+        "name": "Simran Arora",
+        "papers": 1
+      },
+      {
+        "name": "Sydney von Arx",
+        "papers": 1
+      },
+      {
+        "name": "Michael S. Bernstein",
+        "papers": 1
+      },
+      {
+        "name": "Jeannette Bohg",
+        "papers": 1
+      },
+      {
+        "name": "Antoine Bosselut",
+        "papers": 1
+      },
+      {
+        "name": "E. Brunskill",
+        "papers": 1
+      },
+      {
+        "name": "Erik Brynjolfsson",
+        "papers": 1
+      },
+      {
+        "name": "S. Buch",
+        "papers": 1
+      },
+      {
+        "name": "Dallas Card",
+        "papers": 1
+      },
+      {
+        "name": "Rodrigo Castellon",
+        "papers": 1
+      },
+      {
+        "name": "Niladri S. Chatterji",
+        "papers": 1
+      },
+      {
+        "name": "Annie S. Chen",
+        "papers": 1
+      },
+      {
+        "name": "Kathleen A. Creel",
+        "papers": 1
+      },
+      {
+        "name": "Jared Davis",
+        "papers": 1
+      },
+      {
+        "name": "Dora Demszky",
+        "papers": 1
+      },
+      {
+        "name": "Chris Donahue",
+        "papers": 1
+      },
+      {
+        "name": "M. Doumbouya",
+        "papers": 1
+      },
+      {
+        "name": "Esin Durmus",
+        "papers": 1
+      },
+      {
+        "name": "S. Ermon",
+        "papers": 1
+      },
+      {
+        "name": "J. Etchemendy",
+        "papers": 1
+      },
+      {
+        "name": "Kawin Ethayarajh",
+        "papers": 1
+      },
+      {
+        "name": "L. Fei-Fei",
+        "papers": 1
+      },
+      {
+        "name": "Chelsea Finn",
+        "papers": 1
+      },
+      {
+        "name": "Trevor Gale",
+        "papers": 1
+      },
+      {
+        "name": "Lauren Gillespie",
+        "papers": 1
+      },
+      {
+        "name": "Karan Goel",
+        "papers": 1
+      },
+      {
+        "name": "Noah D. Goodman",
+        "papers": 1
+      },
+      {
+        "name": "S. Grossman",
+        "papers": 1
+      },
+      {
+        "name": "Neel Guha",
+        "papers": 1
+      },
+      {
+        "name": "Peter Henderson",
+        "papers": 1
+      },
+      {
+        "name": "John Hewitt",
+        "papers": 1
+      },
+      {
+        "name": "Daniel E. Ho",
+        "papers": 1
+      },
+      {
+        "name": "Jenny Hong",
+        "papers": 1
+      },
+      {
+        "name": "Kyle Hsu",
+        "papers": 1
+      },
+      {
+        "name": "Thomas F. Icard",
+        "papers": 1
+      },
+      {
+        "name": "Saahil Jain",
+        "papers": 1
+      },
+      {
+        "name": "Dan Jurafsky",
+        "papers": 1
+      },
+      {
+        "name": "Pratyusha Kalluri",
+        "papers": 1
+      },
+      {
+        "name": "Siddharth Karamcheti",
+        "papers": 1
+      },
+      {
+        "name": "G. Keeling",
+        "papers": 1
+      },
+      {
+        "name": "Fereshte Khani",
+        "papers": 1
+      },
+      {
+        "name": "O. Khattab",
+        "papers": 1
+      },
+      {
+        "name": "Pang Wei Koh",
+        "papers": 1
+      },
+      {
+        "name": "M. Krass",
+        "papers": 1
+      },
+      {
+        "name": "Ranjay Krishna",
+        "papers": 1
+      },
+      {
+        "name": "Rohith Kuditipudi",
+        "papers": 1
+      },
+      {
+        "name": "Faisal Ladhak",
+        "papers": 1
+      },
+      {
+        "name": "Mina Lee",
+        "papers": 1
+      },
+      {
+        "name": "Tony Lee",
+        "papers": 1
+      },
+      {
+        "name": "J. Leskovec",
+        "papers": 1
+      },
+      {
+        "name": "Isabelle Levent",
+        "papers": 1
+      },
+      {
+        "name": "Xiang Lisa Li",
+        "papers": 1
+      },
+      {
+        "name": "Xuechen Li",
+        "papers": 1
+      },
+      {
+        "name": "Ali Malik",
+        "papers": 1
+      },
+      {
+        "name": "Christopher D. Manning",
+        "papers": 1
+      },
+      {
+        "name": "Suvir Mirchandani",
+        "papers": 1
+      },
+      {
+        "name": "E. Mitchell",
+        "papers": 1
+      },
+      {
+        "name": "Zanele Munyikwa",
+        "papers": 1
+      },
+      {
+        "name": "Suraj Nair",
+        "papers": 1
+      },
+      {
+        "name": "A. Narayan",
+        "papers": 1
+      },
+      {
+        "name": "D. Narayanan",
+        "papers": 1
+      },
+      {
+        "name": "Benjamin Newman",
+        "papers": 1
+      },
+      {
+        "name": "Allen Nie",
+        "papers": 1
+      },
+      {
+        "name": "Juan Carlos Niebles",
+        "papers": 1
+      },
+      {
+        "name": "H. Nilforoshan",
+        "papers": 1
+      },
+      {
+        "name": "Julian Nyarko",
+        "papers": 1
+      },
+      {
+        "name": "Giray Ogut",
+        "papers": 1
+      },
+      {
+        "name": "Laurel J. Orr",
+        "papers": 1
+      },
+      {
+        "name": "Isabel Papadimitriou",
+        "papers": 1
+      },
+      {
+        "name": "J. Park",
+        "papers": 1
+      },
+      {
+        "name": "C. Piech",
+        "papers": 1
+      },
+      {
+        "name": "Eva Portelance",
+        "papers": 1
+      },
+      {
+        "name": "Christopher Potts",
+        "papers": 1
+      },
+      {
+        "name": "Robert Reich",
+        "papers": 1
+      },
+      {
+        "name": "Hongyu Ren",
+        "papers": 1
+      },
+      {
+        "name": "Frieda Rong",
+        "papers": 1
+      },
+      {
+        "name": "Yusuf H. Roohani",
+        "papers": 1
+      },
+      {
+        "name": "Camilo Ruiz",
+        "papers": 1
+      },
+      {
+        "name": "Jack Ryan",
+        "papers": 1
+      },
+      {
+        "name": "Christopher R'e",
+        "papers": 1
+      },
+      {
+        "name": "Dorsa Sadigh",
+        "papers": 1
+      },
+      {
+        "name": "Shiori Sagawa",
+        "papers": 1
+      },
+      {
+        "name": "Keshav Santhanam",
+        "papers": 1
+      },
+      {
+        "name": "Andy Shih",
+        "papers": 1
+      },
+      {
+        "name": "K. Srinivasan",
+        "papers": 1
+      },
+      {
+        "name": "Alex Tamkin",
+        "papers": 1
+      },
+      {
+        "name": "Rohan Taori",
+        "papers": 1
+      },
+      {
+        "name": "A. Thomas",
+        "papers": 1
+      },
+      {
+        "name": "Florian Tramèr",
+        "papers": 1
+      },
+      {
+        "name": "Rose E. Wang",
+        "papers": 1
+      },
+      {
+        "name": "William Wang",
+        "papers": 1
+      },
+      {
+        "name": "Bohan Wu",
+        "papers": 1
+      },
+      {
+        "name": "Jiajun Wu",
+        "papers": 1
+      },
+      {
+        "name": "Yuhuai Wu",
+        "papers": 1
+      },
+      {
+        "name": "Michihiro Yasunaga",
+        "papers": 1
+      },
+      {
+        "name": "Jiaxuan You",
+        "papers": 1
+      },
+      {
+        "name": "M. Zaharia",
+        "papers": 1
+      },
+      {
+        "name": "Michael Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Tianyi Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Xikun Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Yuhui Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Lucia Zheng",
+        "papers": 1
+      },
+      {
+        "name": "Kaitlyn Zhou",
+        "papers": 1
+      },
+      {
+        "name": "Kevin Huang",
+        "papers": 1
+      },
+      {
+        "name": "Peng Qi",
+        "papers": 1
+      },
+      {
+        "name": "Guangtao Wang",
+        "papers": 1
+      },
+      {
+        "name": "Elan Rosenfeld",
+        "papers": 1
+      },
+      {
+        "name": "Mark Sellke",
+        "papers": 1
+      },
+      {
+        "name": "Andrej Risteski",
         "papers": 1
       }
     ],

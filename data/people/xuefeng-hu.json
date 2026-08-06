@@ -13,7 +13,9 @@
     "scholar": "https://scholar.google.com/citations?user=nqPRSl4AAAAJ&hl=en&oi=sra",
     "website": "https://xuefenghu.me/"
   },
-  "semanticScholarId": "1716207091",
+  "semanticScholarId": [
+    "1716207091"
+  ],
   "careerHistory": [
     {
       "org": "La Stories",
@@ -297,7 +299,7 @@
       "year": 2021,
       "venue": "arXiv.org",
       "url": "https://www.semanticscholar.org/paper/7d57c581e2c38dc23ed8256574575aaac8675810",
-      "citationCount": 55,
+      "citationCount": 56,
       "coAuthors": [
         {
           "slug": null,
@@ -324,6 +326,108 @@
           "name": "Ser-Nam Lim"
         }
       ]
+    },
+    {
+      "paperId": "72fe90517d8df2894a955ad01568ab7586495fda",
+      "title": "SimPLE: Similar Pseudo Label Exploitation for Semi-Supervised Classification",
+      "year": 2021,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR46437.2021.01485",
+      "citationCount": 176,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Zijian Hu"
+        },
+        {
+          "slug": null,
+          "name": "Zhengyu Yang"
+        },
+        {
+          "slug": null,
+          "name": "R. Nevatia"
+        }
+      ]
+    },
+    {
+      "paperId": "d2b9d6455bd97c8ed284cd6a638a9015cbd1f9f3",
+      "title": "SPAN: Spatial Pyramid Attention Network forImage Manipulation Localization",
+      "year": 2020,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-030-58589-1_19",
+      "citationCount": 312,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Zhihan Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Zhenye Jiang"
+        },
+        {
+          "slug": null,
+          "name": "Syomantak Chaudhuri"
+        },
+        {
+          "slug": null,
+          "name": "Zhenheng Yang"
+        },
+        {
+          "slug": null,
+          "name": "R. Nevatia"
+        }
+      ]
+    },
+    {
+      "paperId": "9147121ab65d3ace2d32afe123500f1b4ee18edd",
+      "title": "Joint Learning of Scene Graph Generation and Reasoning for Visual Question Answering Mid-term report",
+      "year": 2019,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/9147121ab65d3ace2d32afe123500f1b4ee18edd",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Arka Sadhu"
+        }
+      ]
+    },
+    {
+      "paperId": "c3801644100f6f7e521b3f28c2785a2d151988f4",
+      "title": "Joint Learning of Scene Graph Generation and Reasoning for Visual Question Answering Project Survey",
+      "year": 2019,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/c3801644100f6f7e521b3f28c2785a2d151988f4",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Arka Sadhu"
+        }
+      ]
+    },
+    {
+      "paperId": "9c960f02d24cd5c249896862d5800ae54957d5f1",
+      "title": "Unsupervised Rank-Preserving Hashing for Large-Scale Image Retrieval",
+      "year": 2019,
+      "venue": "International Conference on Multimedia Retrieval",
+      "url": "https://doi.org/10.1145/3323873.3325038",
+      "citationCount": 14,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Svebor Karaman"
+        },
+        {
+          "slug": null,
+          "name": "Xudong Lin"
+        },
+        {
+          "slug": null,
+          "name": "Shih-Fu Chang"
+        }
+      ]
     }
   ],
   "topPublications": [
@@ -344,7 +448,7 @@
     {
       "title": "MixNorm: Test-Time Adaptation Through Online Normalization Estimation",
       "year": 2021,
-      "citationCount": 55,
+      "citationCount": 56,
       "venue": "arXiv.org",
       "url": "https://www.semanticscholar.org/paper/7d57c581e2c38dc23ed8256574575aaac8675810"
     },
@@ -376,7 +480,7 @@
     "externalCoAuthors": [
       {
         "name": "R. Nevatia",
-        "papers": 2
+        "papers": 4
       },
       {
         "name": "Peng Sun",
@@ -388,6 +492,10 @@
       },
       {
         "name": "Qing Wang",
+        "papers": 2
+      },
+      {
+        "name": "Arka Sadhu",
         "papers": 2
       },
       {
@@ -572,6 +680,42 @@
       },
       {
         "name": "Ser-Nam Lim",
+        "papers": 1
+      },
+      {
+        "name": "Zijian Hu",
+        "papers": 1
+      },
+      {
+        "name": "Zhengyu Yang",
+        "papers": 1
+      },
+      {
+        "name": "Zhihan Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Zhenye Jiang",
+        "papers": 1
+      },
+      {
+        "name": "Syomantak Chaudhuri",
+        "papers": 1
+      },
+      {
+        "name": "Zhenheng Yang",
+        "papers": 1
+      },
+      {
+        "name": "Svebor Karaman",
+        "papers": 1
+      },
+      {
+        "name": "Xudong Lin",
+        "papers": 1
+      },
+      {
+        "name": "Shih-Fu Chang",
         "papers": 1
       }
     ],

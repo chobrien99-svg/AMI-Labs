@@ -13,7 +13,9 @@
     "scholar": "https://scholar.google.com/citations?user=6gdRsmkAAAAJ&hl=en&oi=sra",
     "twitter": "https://x.com/BasileTerv987"
   },
-  "semanticScholarId": "2216065931",
+  "semanticScholarId": [
+    "2216065931"
+  ],
   "careerHistory": [
     {
       "org": "Inria",
@@ -98,15 +100,15 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.03604",
-      "citationCount": 8,
+      "citationCount": 9,
       "coAuthors": [
-        {
-          "slug": "david-fan",
-          "name": "David Fan"
-        },
         {
           "slug": "megi-dervishi",
           "name": "Megi Dervishi"
+        },
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
         },
         {
           "slug": "quentin-garrido",
@@ -204,7 +206,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2507.19468",
-      "citationCount": 52,
+      "citationCount": 53,
       "coAuthors": [
         {
           "slug": "yann-lecun",
@@ -249,16 +251,16 @@
       "citationCount": 79,
       "coAuthors": [
         {
-          "slug": "willy-chung",
-          "name": "Willy Chung"
-        },
-        {
           "slug": "pascale-fung",
           "name": "Pascale Fung"
         },
         {
           "slug": "delong-chen",
           "name": "Delong Chen"
+        },
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
         },
         {
           "slug": null,
@@ -333,6 +335,62 @@
         {
           "slug": null,
           "name": "Martial Hebert"
+        }
+      ]
+    },
+    {
+      "paperId": "15c6406a50be8333b6a1de1aed46e19174eee6a8",
+      "title": "Improving Molecular Modeling with Geometric GNNs: an Empirical Study",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2407.08313",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ali Ramlaoui"
+        },
+        {
+          "slug": null,
+          "name": "Th'eo Saulus"
+        },
+        {
+          "slug": null,
+          "name": "Victor Schmidt"
+        },
+        {
+          "slug": null,
+          "name": "D. Rolnick"
+        },
+        {
+          "slug": null,
+          "name": "Fragkiskos D. Malliaros"
+        },
+        {
+          "slug": null,
+          "name": "Alexandre Duval"
+        }
+      ]
+    },
+    {
+      "paperId": "59da51b0f94c9201e3f502ef6485be105a87e632",
+      "title": "Solving irreducible stochastic mean-payoff games and entropy games by relative Krasnoselskii-Mann iteration",
+      "year": 2023,
+      "venue": "International Symposium on Mathematical Foundations of Computer Science",
+      "url": "https://doi.org/10.48550/arXiv.2305.02458",
+      "citationCount": 6,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "M. Akian"
+        },
+        {
+          "slug": null,
+          "name": "S. Gaubert"
+        },
+        {
+          "slug": null,
+          "name": "Ulysse Naepels"
         }
       ]
     }
@@ -423,18 +481,13 @@
         "sharedPapers": 2
       },
       {
-        "slug": "david-fan",
-        "name": "David Fan",
-        "sharedPapers": 1
-      },
-      {
         "slug": "megi-dervishi",
         "name": "Megi Dervishi",
         "sharedPapers": 1
       },
       {
-        "slug": "willy-chung",
-        "name": "Willy Chung",
+        "slug": "david-fan",
+        "name": "David Fan",
         "sharedPapers": 1
       },
       {
@@ -445,6 +498,11 @@
       {
         "slug": "delong-chen",
         "name": "Delong Chen",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "willy-chung",
+        "name": "Willy Chung",
         "sharedPapers": 1
       }
     ],
@@ -583,6 +641,42 @@
       },
       {
         "name": "Martial Hebert",
+        "papers": 1
+      },
+      {
+        "name": "Ali Ramlaoui",
+        "papers": 1
+      },
+      {
+        "name": "Th'eo Saulus",
+        "papers": 1
+      },
+      {
+        "name": "Victor Schmidt",
+        "papers": 1
+      },
+      {
+        "name": "D. Rolnick",
+        "papers": 1
+      },
+      {
+        "name": "Fragkiskos D. Malliaros",
+        "papers": 1
+      },
+      {
+        "name": "Alexandre Duval",
+        "papers": 1
+      },
+      {
+        "name": "M. Akian",
+        "papers": 1
+      },
+      {
+        "name": "S. Gaubert",
+        "papers": 1
+      },
+      {
+        "name": "Ulysse Naepels",
         "papers": 1
       }
     ],

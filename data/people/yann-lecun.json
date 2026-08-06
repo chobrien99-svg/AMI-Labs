@@ -14,7 +14,11 @@
     "twitter": "https://x.com/ylecun",
     "website": "http://yann.lecun.com/"
   },
-  "semanticScholarId": "1688882, 2270469816, 2265899558",
+  "semanticScholarId": [
+    "1688882",
+    "2265899558",
+    "2270469816"
+  ],
   "careerHistory": [
     {
       "org": "Meta AI (Facebook AI Research)",
@@ -38,6 +42,212 @@
     "sean-nguyen"
   ],
   "papers": [
+    {
+      "paperId": "1006651b762e229b32cc001bb287c3f607749447",
+      "title": "Self-supervised DXA representations encode multi-system disease risk, biological aging and heritability",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/1006651b762e229b32cc001bb287c3f607749447",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "G. Sasson"
+        },
+        {
+          "slug": null,
+          "name": "Zachary Levine"
+        },
+        {
+          "slug": null,
+          "name": "S. Shilo"
+        },
+        {
+          "slug": null,
+          "name": "S. Kohn"
+        },
+        {
+          "slug": null,
+          "name": "G. Lutsker"
+        },
+        {
+          "slug": null,
+          "name": "A. Godneva"
+        },
+        {
+          "slug": null,
+          "name": "A. Gabet"
+        },
+        {
+          "slug": null,
+          "name": "D. Krongauz"
+        },
+        {
+          "slug": null,
+          "name": "A. Weinberger"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Eran Segal"
+        }
+      ]
+    },
+    {
+      "paperId": "f4578e2fa551e6b991125e5f8770212337476fee",
+      "title": "HP-JEPA: Hierarchical Partitioning for Multi-Resolution Graph Joint-Embedding Predictive Learning",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/f4578e2fa551e6b991125e5f8770212337476fee",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ruichen Xu"
+        },
+        {
+          "slug": null,
+          "name": "Jingxiang Qu"
+        },
+        {
+          "slug": null,
+          "name": "Wenhan Gao"
+        },
+        {
+          "slug": null,
+          "name": "Jiaxing Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Linsey Pang"
+        },
+        {
+          "slug": null,
+          "name": "Ravid Shwartz-Ziv"
+        },
+        {
+          "slug": null,
+          "name": "Yuefan Deng"
+        }
+      ]
+    },
+    {
+      "paperId": "1434abdc75086289a430c2306488771c8b5c783a",
+      "title": "Unpacking Open Source Artificial Intelligence: Toward a Framework for Openness in Foundation Models",
+      "year": 2026,
+      "venue": "Communications of the ACM",
+      "url": "https://doi.org/10.1145/3778264",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Camille François"
+        },
+        {
+          "slug": null,
+          "name": "Adrien Basdevant"
+        },
+        {
+          "slug": null,
+          "name": "Victor Storchan"
+        },
+        {
+          "slug": null,
+          "name": "Kevin Bankston"
+        },
+        {
+          "slug": null,
+          "name": "Ayah Bdeir"
+        },
+        {
+          "slug": null,
+          "name": "B. Behlendorf"
+        },
+        {
+          "slug": null,
+          "name": "Mérouane Debbah"
+        },
+        {
+          "slug": null,
+          "name": "Sayash Kapoor"
+        },
+        {
+          "slug": null,
+          "name": "Mark Surman"
+        },
+        {
+          "slug": null,
+          "name": "Helen King-Turvey"
+        },
+        {
+          "slug": null,
+          "name": "Nathan Lambert"
+        },
+        {
+          "slug": null,
+          "name": "Stefano Maffulli"
+        },
+        {
+          "slug": null,
+          "name": "Nik Marda"
+        },
+        {
+          "slug": null,
+          "name": "Govind Shivkumar"
+        }
+      ]
+    },
+    {
+      "paperId": "aa719edaada5f83db6a151ca7f062f134927fce7",
+      "title": "Music-JEPA: Learning a World Model of Sound from Action",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/aa719edaada5f83db6a151ca7f062f134927fce7",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ziyu Wang"
+        },
+        {
+          "slug": null,
+          "name": "Kun Fang"
+        }
+      ]
+    },
+    {
+      "paperId": "41401cb47d98892ae37b7a12d2a125afea245e76",
+      "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/41401cb47d98892ae37b7a12d2a125afea245e76",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Gaoyue Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Zichen Jeff Cui"
+        },
+        {
+          "slug": null,
+          "name": "Ada Langford"
+        },
+        {
+          "slug": null,
+          "name": "Bowen Tan"
+        },
+        {
+          "slug": null,
+          "name": "Lerrel Pinto"
+        }
+      ]
+    },
     {
       "paperId": "4f890d8373b93892ce2a50d87415653fc225a5a8",
       "title": "Separating Representation from Reconstruction Enables Scalable Text Encoders",
@@ -75,6 +285,154 @@
         {
           "slug": null,
           "name": "Lucas Maes"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        }
+      ]
+    },
+    {
+      "paperId": "6a2f658d6ea2d3a1f2d03b11d0cce65e9881bd96",
+      "title": "AdaJEPA: An Adaptive Latent World Model",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/6a2f658d6ea2d3a1f2d03b11d0cce65e9881bd96",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ying Wang"
+        },
+        {
+          "slug": null,
+          "name": "Oumayma Bounou"
+        },
+        {
+          "slug": null,
+          "name": "Mengye Ren"
+        }
+      ]
+    },
+    {
+      "paperId": "41620e8f40ae6f6103a3c1d4eab59f5830c963dd",
+      "title": "SkyJEPA: Learning Long-Horizon World Models for Zero-Shot Sim-to-Real Control of Quadrotors",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/41620e8f40ae6f6103a3c1d4eab59f5830c963dd",
+      "citationCount": 5,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "P. Rao"
+        },
+        {
+          "slug": null,
+          "name": "Wancong Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Giuseppe Loianno"
+        }
+      ]
+    },
+    {
+      "paperId": "54f505d19d73e12d3642a9a82cd4851235edf043",
+      "title": "S-JEPA : Soft Clustering Anchors for Self-Supervised Speech Representation Learning",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/54f505d19d73e12d3642a9a82cd4851235edf043",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Georgios Ioannides"
+        },
+        {
+          "slug": null,
+          "name": "Adrian Kieback"
+        },
+        {
+          "slug": null,
+          "name": "Judah Goldfeder"
+        },
+        {
+          "slug": null,
+          "name": "Linsey Pang"
+        },
+        {
+          "slug": null,
+          "name": "Aman Chadha"
+        },
+        {
+          "slug": null,
+          "name": "Aaron Elkins"
+        },
+        {
+          "slug": null,
+          "name": "Ravid Shwartz-Ziv"
+        }
+      ]
+    },
+    {
+      "paperId": "69b2f3313b31ea5592f6242f2a517b84011f9f24",
+      "title": "You Don't Need Strong Assumptions: Visual Representation Learning via Temporal Differences",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/69b2f3313b31ea5592f6242f2a517b84011f9f24",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ninad Daithankar"
+        },
+        {
+          "slug": null,
+          "name": "Alexi Gladstone"
+        },
+        {
+          "slug": null,
+          "name": "Heng Ji"
+        }
+      ]
+    },
+    {
+      "paperId": "e218c1a1fcba59c463082f9a1824ebeecae50f65",
+      "title": "Unifying Object-Centric World Models and Diffusion Policy: A Hierarchical Framework for Multi-Stage Robotic Tasks",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/e218c1a1fcba59c463082f9a1824ebeecae50f65",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Raktim Gautam Goswami"
+        },
+        {
+          "slug": null,
+          "name": "P. Krishnamurthy"
+        },
+        {
+          "slug": null,
+          "name": "F. Khorrami"
+        }
+      ]
+    },
+    {
+      "paperId": "36863b6dd7968bca4efb3f6e93cf06cb84568f0f",
+      "title": "When Does LeJEPA Learn a World Model?",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.26379",
+      "citationCount": 6,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "David A. Klindt"
         },
         {
           "slug": null,
@@ -175,6 +533,96 @@
       ]
     },
     {
+      "paperId": "1692a95688453760a46c2f073574bf8a6c45173d",
+      "title": "Crys-JEPA: Accelerating Crystal Discovery via Embedding Screening and Generative Refinement",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.14759",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Nian Liu"
+        },
+        {
+          "slug": null,
+          "name": "Nikita Kazeev"
+        },
+        {
+          "slug": null,
+          "name": "Stephen G Dale"
+        },
+        {
+          "slug": null,
+          "name": "Artem Maevskiy"
+        },
+        {
+          "slug": null,
+          "name": "Yuwei Zeng"
+        },
+        {
+          "slug": null,
+          "name": "Ryoji Kubo"
+        },
+        {
+          "slug": null,
+          "name": "Pengru Huang"
+        },
+        {
+          "slug": null,
+          "name": "T. Laurent"
+        },
+        {
+          "slug": null,
+          "name": "Kostya S. Novoselov"
+        },
+        {
+          "slug": null,
+          "name": "X. Bresson"
+        }
+      ]
+    },
+    {
+      "paperId": "7f012be3704ebd1ffaa7571f179368a7db8703f7",
+      "title": "On Training in Imagination",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.06732",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "N. Timor"
+        },
+        {
+          "slug": null,
+          "name": "Ravid Shwartz-Ziv"
+        },
+        {
+          "slug": null,
+          "name": "Micah Goldblum"
+        },
+        {
+          "slug": null,
+          "name": "David Harel"
+        }
+      ]
+    },
+    {
+      "paperId": "8f486c09cffd1d848db6da66591c430d683dae0f",
+      "title": "Spectral Graph Theory: The mathematics of self-supervised learning [Special Issue on the Mathematics of Deep Learning]",
+      "year": 2026,
+      "venue": "IEEE Signal Processing Magazine",
+      "url": "https://doi.org/10.1109/MSP.2026.3659059",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        }
+      ]
+    },
+    {
       "paperId": "477e20594635eb0ced89bbf2dd9ec873278cf48d",
       "title": "Hierarchical Planning with Latent World Models",
       "year": 2026,
@@ -221,6 +669,24 @@
         {
           "slug": null,
           "name": "Nicolas Ballas"
+        }
+      ]
+    },
+    {
+      "paperId": "4353f9b78c972e37273c1b77a440c3812215ca91",
+      "title": "Why AI systems don't learn and what to do about it: Lessons on autonomous learning from cognitive science",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.15381",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Emmanuel Dupoux"
+        },
+        {
+          "slug": null,
+          "name": "Jitendra Malik"
         }
       ]
     },
@@ -272,7 +738,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.19312",
-      "citationCount": 116,
+      "citationCount": 121,
       "coAuthors": [
         {
           "slug": "quentin-le-lidec",
@@ -293,17 +759,229 @@
       ]
     },
     {
+      "paperId": "23f953773609d673caf468aeea02da9c3f496592",
+      "title": "Representation Learning for Spatiotemporal Physical Systems",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.13227",
+      "citationCount": 5,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Helen Qu"
+        },
+        {
+          "slug": null,
+          "name": "Rudy Morel"
+        },
+        {
+          "slug": null,
+          "name": "Michael McCabe"
+        },
+        {
+          "slug": null,
+          "name": "Alberto Bietti"
+        },
+        {
+          "slug": null,
+          "name": "F. Lanusse"
+        },
+        {
+          "slug": null,
+          "name": "Shirley Ho"
+        }
+      ]
+    },
+    {
+      "paperId": "8c9ae85bb64e6e872094065cb9c062f051c2ad1a",
+      "title": "Temporal Straightening for Latent Planning",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.12231",
+      "citationCount": 17,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ying Wang"
+        },
+        {
+          "slug": null,
+          "name": "Oumayma Bounou"
+        },
+        {
+          "slug": null,
+          "name": "Gaoyue Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Tim G. J. Rudner"
+        },
+        {
+          "slug": null,
+          "name": "Mengye Ren"
+        }
+      ]
+    },
+    {
+      "paperId": "9b65331305dfab8d4f48da6854ee7673c8c6eb99",
+      "title": "The Spike, the Sparse and the Sink: Anatomy of Massive Activations and Attention Sinks",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.05498",
+      "citationCount": 13,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Shangwen Sun"
+        },
+        {
+          "slug": null,
+          "name": "A. Canziani"
+        },
+        {
+          "slug": null,
+          "name": "Jiacheng Zhu"
+        }
+      ]
+    },
+    {
+      "paperId": "c3e09942658c43e607176e0b87192e91e15aeca1",
+      "title": "AI+HW 2035: Shaping the Next Decade",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.05225",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Deming Chen"
+        },
+        {
+          "slug": null,
+          "name": "Jason Cong"
+        },
+        {
+          "slug": null,
+          "name": "Azalia Mirhoseini"
+        },
+        {
+          "slug": null,
+          "name": "Christos Kozyrakis"
+        },
+        {
+          "slug": null,
+          "name": "Subhasish Mitra"
+        },
+        {
+          "slug": null,
+          "name": "Jinjun Xiong"
+        },
+        {
+          "slug": null,
+          "name": "C. Young"
+        },
+        {
+          "slug": null,
+          "name": "A. Anandkumar"
+        },
+        {
+          "slug": null,
+          "name": "Michael S. Littman"
+        },
+        {
+          "slug": null,
+          "name": "Aron Kirschen"
+        },
+        {
+          "slug": null,
+          "name": "Sophia Shao"
+        },
+        {
+          "slug": null,
+          "name": "S. Leef"
+        },
+        {
+          "slug": null,
+          "name": "Naresh Shanbhag"
+        },
+        {
+          "slug": null,
+          "name": "D. Milojicic"
+        },
+        {
+          "slug": null,
+          "name": "Michael J. Schulte"
+        },
+        {
+          "slug": null,
+          "name": "Gert Cauwenberghs"
+        },
+        {
+          "slug": null,
+          "name": "Jerry M Chow"
+        },
+        {
+          "slug": null,
+          "name": "Tri Dao"
+        },
+        {
+          "slug": null,
+          "name": "Kailash Gopalakrishnan"
+        },
+        {
+          "slug": null,
+          "name": "Richard Ho"
+        },
+        {
+          "slug": null,
+          "name": "Hoshik Kim"
+        },
+        {
+          "slug": null,
+          "name": "K. Olukotun"
+        },
+        {
+          "slug": null,
+          "name": "David Z. Pan"
+        },
+        {
+          "slug": null,
+          "name": "Mark Ren"
+        },
+        {
+          "slug": null,
+          "name": "Dan Roth"
+        },
+        {
+          "slug": null,
+          "name": "Aarti Singh"
+        },
+        {
+          "slug": null,
+          "name": "Yizhou Sun"
+        },
+        {
+          "slug": null,
+          "name": "Yusu Wang"
+        },
+        {
+          "slug": null,
+          "name": "Ruchir Puri"
+        }
+      ]
+    },
+    {
       "paperId": "acb718a8659640ac1258d3bd391ddd9f1f2d7251",
       "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276",
-      "citationCount": 20,
+      "citationCount": 21,
       "coAuthors": [
-        {
-          "slug": "amir-bar",
-          "name": "Amir Bar"
-        },
         {
           "slug": "david-fan",
           "name": "David Fan"
@@ -311,6 +989,10 @@
         {
           "slug": "john-nguyen",
           "name": "John Nguyen"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": "michael-rabbat",
@@ -383,12 +1065,86 @@
       ]
     },
     {
+      "paperId": "4fe6ee338373b796ed3b26cf6908c7db2ca56798",
+      "title": "AI Must Embrace Specialization via Superhuman Adaptable Intelligence",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.23643",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Judah Goldfeder"
+        },
+        {
+          "slug": null,
+          "name": "P. Wyder"
+        },
+        {
+          "slug": null,
+          "name": "Ravid Shwartz-Ziv"
+        }
+      ]
+    },
+    {
+      "paperId": "aef0d84ac46f451d8083a7ae7bbafdbdfdad97ca",
+      "title": "Semantic Tube Prediction: Beating LLM Data Efficiency with JEPA",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.22617",
+      "citationCount": 7,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Hai Huang"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        }
+      ]
+    },
+    {
+      "paperId": "d925357d2eec7147ee3c67016854271998307323",
+      "title": "Radial-VCReg: More Informative Representation Learning Through Radial Gaussianization",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.14272",
+      "citationCount": 3,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yilun Kuang"
+        },
+        {
+          "slug": null,
+          "name": "Yash Dagade"
+        },
+        {
+          "slug": null,
+          "name": "Deep Chakraborty"
+        },
+        {
+          "slug": null,
+          "name": "Erik G. Learned-Miller"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Tim G. J. Rudner"
+        }
+      ]
+    },
+    {
       "paperId": "bed6ecff103c1a6f3a516d9b9d4847be8aff5294",
       "title": "Causal-JEPA: Learning World Models through Object-Level Latent Masking",
       "year": 2026,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/bed6ecff103c1a6f3a516d9b9d4847be8aff5294",
-      "citationCount": 4,
+      "citationCount": 5,
       "coAuthors": [
         {
           "slug": "quentin-le-lidec",
@@ -448,19 +1204,19 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.03604",
-      "citationCount": 8,
+      "citationCount": 9,
       "coAuthors": [
         {
           "slug": "basile-terver",
           "name": "Basile Terver"
         },
         {
-          "slug": "david-fan",
-          "name": "David Fan"
-        },
-        {
           "slug": "megi-dervishi",
           "name": "Megi Dervishi"
+        },
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
         },
         {
           "slug": "quentin-garrido",
@@ -493,6 +1249,32 @@
       ]
     },
     {
+      "paperId": "2e8ccd5997437eeb8001e58204e2b66eaad02142",
+      "title": "Rectified LpJEPA: Joint-Embedding Predictive Architectures with Sparse and Maximum-Entropy Representations",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.01456",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yilun Kuang"
+        },
+        {
+          "slug": null,
+          "name": "Yash Dagade"
+        },
+        {
+          "slug": null,
+          "name": "Tim G. J. Rudner"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        }
+      ]
+    },
+    {
       "paperId": "6209c4ab686552f9d644f56ff962018a67978e27",
       "title": "Parallel Stochastic Gradient-Based Planning for World Models",
       "year": 2026,
@@ -501,12 +1283,12 @@
       "citationCount": 7,
       "coAuthors": [
         {
-          "slug": "amir-bar",
-          "name": "Amir Bar"
-        },
-        {
           "slug": "michael-rabbat",
           "name": "Michael Rabbat"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": null,
@@ -515,6 +1297,44 @@
         {
           "slug": null,
           "name": "Aditi Krishnapriyan"
+        }
+      ]
+    },
+    {
+      "paperId": "b02857368ab8aae447e7856eda66d0d926603792",
+      "title": "Soft Clustering Anchors for Self-Supervised Speech Representation Learning in Joint Embedding Prediction Architectures",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.09040",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Georgios Ioannides"
+        },
+        {
+          "slug": null,
+          "name": "Adrian Kieback"
+        },
+        {
+          "slug": null,
+          "name": "Judah Goldfeder"
+        },
+        {
+          "slug": null,
+          "name": "Linsey Pang"
+        },
+        {
+          "slug": null,
+          "name": "Aman Chadha"
+        },
+        {
+          "slug": null,
+          "name": "Aaron Elkins"
+        },
+        {
+          "slug": null,
+          "name": "Ravid Shwartz-Ziv"
         }
       ]
     },
@@ -573,12 +1393,12 @@
       "citationCount": 33,
       "coAuthors": [
         {
-          "slug": "basile-terver",
-          "name": "Basile Terver"
-        },
-        {
           "slug": "quentin-garrido",
           "name": "Quentin Garrido"
+        },
+        {
+          "slug": "basile-terver",
+          "name": "Basile Terver"
         },
         {
           "slug": "michael-rabbat",
@@ -697,12 +1517,12 @@
       "citationCount": 46,
       "coAuthors": [
         {
-          "slug": "willy-chung",
-          "name": "Willy Chung"
-        },
-        {
           "slug": "delong-chen",
           "name": "Delong Chen"
+        },
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
         },
         {
           "slug": "pascale-fung",
@@ -802,7 +1622,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2507.19468",
-      "citationCount": 52,
+      "citationCount": 53,
       "coAuthors": [
         {
           "slug": "basile-terver",
@@ -866,7 +1686,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 572,
+      "citationCount": 573,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -1049,6 +1869,40 @@
       ]
     },
     {
+      "paperId": "d3e5d695737dd59d409f2e24aa96d6410734471f",
+      "title": "Forgotten Polygons: Multimodal Large Language Models are Shape-Blind",
+      "year": 2025,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2502.15969",
+      "citationCount": 25,
+      "coAuthors": [
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
+        },
+        {
+          "slug": null,
+          "name": "William Rudman"
+        },
+        {
+          "slug": null,
+          "name": "Michal Golovanesky"
+        },
+        {
+          "slug": null,
+          "name": "V. Palit"
+        },
+        {
+          "slug": null,
+          "name": "Carsten Eickhoff"
+        },
+        {
+          "slug": null,
+          "name": "Ritambhara Singh"
+        }
+      ]
+    },
+    {
       "paperId": "c5e7e68a6214f5f2726b5d1845968e5f93fcef1c",
       "title": "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
       "year": 2025,
@@ -1092,7 +1946,7 @@
       "year": 2024,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.01579",
-      "citationCount": 219,
+      "citationCount": 220,
       "coAuthors": [
         {
           "slug": "david-fan",
@@ -1133,55 +1987,13 @@
       ]
     },
     {
-      "paperId": "4c4d882c3e54612946d289fd159da8de98fb3200",
-      "title": "FAST INCREMENTAL LEARNING FOR AUTONOMOUS GROUND NAVIGATION",
-      "year": 2024,
-      "venue": "SAE technical paper series",
-      "url": "https://doi.org/10.4271/2024-01-3556",
-      "citationCount": 0,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Artem Provodin"
-        },
-        {
-          "slug": null,
-          "name": "L. Torabi"
-        },
-        {
-          "slug": null,
-          "name": "Urs Muller"
-        },
-        {
-          "slug": null,
-          "name": "B. Flepp"
-        },
-        {
-          "slug": null,
-          "name": "Michael Sergio"
-        },
-        {
-          "slug": null,
-          "name": "Jure Zbontar"
-        },
-        {
-          "slug": null,
-          "name": "L. Jackel"
-        }
-      ]
-    },
-    {
       "paperId": "94773f22b5befd0e167a7de525d29bec2b09937a",
       "title": "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
       "year": 2024,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2406.16860",
-      "citationCount": 913,
+      "citationCount": 917,
       "coAuthors": [
-        {
-          "slug": "adithya-iyer",
-          "name": "Adithya Iyer"
-        },
         {
           "slug": "sanghyun-woo",
           "name": "Sanghyun Woo"
@@ -1189,6 +2001,10 @@
         {
           "slug": "jihan-yang",
           "name": "Jihan Yang"
+        },
+        {
+          "slug": "adithya-iyer",
+          "name": "Adithya Iyer"
         },
         {
           "slug": "saining-xie",
@@ -1301,88 +2117,6 @@
       ]
     },
     {
-      "paperId": "782d400ba7aac6ccb2d4b6d3cadbf4b7c2600d50",
-      "title": "URLOST: Unsupervised Representation Learning without Stationarity or Topology",
-      "year": 2023,
-      "venue": "International Conference on Learning Representations",
-      "url": "https://doi.org/10.48550/arXiv.2310.04496",
-      "citationCount": 1,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Zeyu Yun"
-        },
-        {
-          "slug": null,
-          "name": "Juexiao Zhang"
-        },
-        {
-          "slug": null,
-          "name": "B. Olshausen"
-        },
-        {
-          "slug": null,
-          "name": "Yubei Chen"
-        }
-      ]
-    },
-    {
-      "paperId": "f875c2de4a3ccee670cc76a81b1dfd111bd40f64",
-      "title": "Language, common sense, and the Winograd schema challenge",
-      "year": 2023,
-      "venue": "Artificial Intelligence",
-      "url": "https://doi.org/10.1016/j.artint.2023.104031",
-      "citationCount": 34,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Jacob Browning"
-        }
-      ]
-    },
-    {
-      "paperId": "da136b4651e035c2bafd0bfd34433faf7af2619e",
-      "title": "Stochastic positional embeddings improve masked image modeling",
-      "year": 2023,
-      "venue": "International Conference on Machine Learning",
-      "url": "https://www.semanticscholar.org/paper/da136b4651e035c2bafd0bfd34433faf7af2619e",
-      "citationCount": 10,
-      "coAuthors": [
-        {
-          "slug": "amir-bar",
-          "name": "Amir Bar"
-        },
-        {
-          "slug": null,
-          "name": "Florian Bordes"
-        },
-        {
-          "slug": null,
-          "name": "Assaf Shocher"
-        },
-        {
-          "slug": null,
-          "name": "Mahmoud Assran"
-        },
-        {
-          "slug": null,
-          "name": "Pascal Vincent"
-        },
-        {
-          "slug": null,
-          "name": "Nicolas Ballas"
-        },
-        {
-          "slug": null,
-          "name": "Trevor Darrell"
-        },
-        {
-          "slug": null,
-          "name": "A. Globerson"
-        }
-      ]
-    },
-    {
       "paperId": "3c1e43b7d3f5fd42a06c65e3aafe6d8f4a606d5c",
       "title": "MC-JEPA: A Joint-Embedding Predictive Architecture for Self-Supervised Learning of Motion and Content Features",
       "year": 2023,
@@ -1431,12 +2165,112 @@
       ]
     },
     {
+      "paperId": "6bfafb32b423c3f0456a10984814f89046def489",
+      "title": "A Cookbook of Self-Supervised Learning",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2304.12210",
+      "citationCount": 400,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": "quentin-garrido",
+          "name": "Quentin Garrido"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Mark Ibrahim"
+        },
+        {
+          "slug": null,
+          "name": "Vlad Sobal"
+        },
+        {
+          "slug": null,
+          "name": "Ari S. Morcos"
+        },
+        {
+          "slug": null,
+          "name": "Shashank Shekhar"
+        },
+        {
+          "slug": null,
+          "name": "T. Goldstein"
+        },
+        {
+          "slug": null,
+          "name": "Florian Bordes"
+        },
+        {
+          "slug": null,
+          "name": "G. Mialon"
+        },
+        {
+          "slug": null,
+          "name": "Yuandong Tian"
+        },
+        {
+          "slug": null,
+          "name": "Avi Schwarzschild"
+        },
+        {
+          "slug": null,
+          "name": "A. Wilson"
+        },
+        {
+          "slug": null,
+          "name": "Jonas Geiping"
+        },
+        {
+          "slug": null,
+          "name": "Pierre Fernandez"
+        },
+        {
+          "slug": null,
+          "name": "H. Pirsiavash"
+        },
+        {
+          "slug": null,
+          "name": "Micah Goldblum"
+        }
+      ]
+    },
+    {
+      "paperId": "10923e416d15ab36161f4ab9ad40aa15bb91f541",
+      "title": "Self-supervised learning of Split Invariant Equivariant representations",
+      "year": 2023,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2302.10283",
+      "citationCount": 46,
+      "coAuthors": [
+        {
+          "slug": "quentin-garrido",
+          "name": "Quentin Garrido"
+        },
+        {
+          "slug": null,
+          "name": "Laurent Najman"
+        }
+      ]
+    },
+    {
       "paperId": "ee57e4d7a125f4ca8916284a857c3760d7d378d3",
       "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01499",
-      "citationCount": 1068,
+      "citationCount": 1072,
       "coAuthors": [
         {
           "slug": "quentin-duval",
@@ -1469,6 +2303,134 @@
       ]
     },
     {
+      "paperId": "127ebdb7b87fe5c8c8ff1bb9173584b75eec8f47",
+      "title": "RankMe: Assessing the downstream performance of pretrained self-supervised representations by their rank",
+      "year": 2022,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2210.02885",
+      "citationCount": 160,
+      "coAuthors": [
+        {
+          "slug": "quentin-garrido",
+          "name": "Quentin Garrido"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Laurent Najman"
+        }
+      ]
+    },
+    {
+      "paperId": "b8d4beeb8df994db12688226cf2a619f1d633b72",
+      "title": "VICRegL: Self-Supervised Learning of Local Visual Features",
+      "year": 2022,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2210.01571",
+      "citationCount": 183,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": null,
+          "name": "J. Ponce"
+        }
+      ]
+    },
+    {
+      "paperId": "cf209f6cfa987e7b9320c24a8e9cb70bf39f31a7",
+      "title": "Intra-Instance VICReg: Bag of Self-Supervised Image Patch Embedding",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2206.08954",
+      "citationCount": 18,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": null,
+          "name": "Yubei Chen"
+        },
+        {
+          "slug": null,
+          "name": "Zengyi Li"
+        }
+      ]
+    },
+    {
+      "paperId": "0bbb60fd0fe2e0ffefacb16fc2c527cb2f01a71e",
+      "title": "Bag of Image Patch Embedding Behind the Success of Self-Supervised Learning",
+      "year": 2022,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://www.semanticscholar.org/paper/0bbb60fd0fe2e0ffefacb16fc2c527cb2f01a71e",
+      "citationCount": 10,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": null,
+          "name": "Yubei Chen"
+        },
+        {
+          "slug": null,
+          "name": "Zengyi Li"
+        }
+      ]
+    },
+    {
+      "paperId": "11c16254f7b61687b5d9b7637de032461a6ebb5f",
+      "title": "On the duality between contrastive and non-contrastive self-supervised learning",
+      "year": 2022,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2206.02574",
+      "citationCount": 132,
+      "coAuthors": [
+        {
+          "slug": "quentin-garrido",
+          "name": "Quentin Garrido"
+        },
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": null,
+          "name": "Yubei Chen"
+        },
+        {
+          "slug": null,
+          "name": "Laurent Najman"
+        }
+      ]
+    },
+    {
+      "paperId": "0d0cf5f64c052aa7edc5bb638203616a620557f6",
+      "title": "VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning",
+      "year": 2021,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/0d0cf5f64c052aa7edc5bb638203616a620557f6",
+      "citationCount": 1360,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": null,
+          "name": "J. Ponce"
+        }
+      ]
+    },
+    {
       "paperId": "be2bd2ca84460ab58c5563789b8cd482e977ee76",
       "title": "The Diashow Paradox: Stronger 3D-Aware Representations Emerge from Image Sets, Not Videos Anonymous ICCV submission",
       "year": null,
@@ -1476,10 +2438,6 @@
       "url": "https://www.semanticscholar.org/paper/be2bd2ca84460ab58c5563789b8cd482e977ee76",
       "citationCount": 0,
       "coAuthors": [
-        {
-          "slug": "david-fan",
-          "name": "David Fan"
-        },
         {
           "slug": "quentin-duval",
           "name": "Quentin Duval"
@@ -1491,6 +2449,10 @@
         {
           "slug": "adrien-bardes",
           "name": "Adrien Bardes"
+        },
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
         },
         {
           "slug": null,
@@ -1687,6 +2649,13 @@
       "url": "https://doi.org/10.48550/arXiv.2403.00504"
     },
     {
+      "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+      "year": 2026,
+      "citationCount": 50,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.14482"
+    },
+    {
       "title": "The SSL Interplay: Augmentations, Inductive Bias, and Generalization",
       "year": 2023,
       "citationCount": 46,
@@ -1699,18 +2668,71 @@
       "citationCount": 46,
       "venue": "International Conference on Machine Learning",
       "url": "https://doi.org/10.48550/arXiv.2302.10283"
-    },
-    {
-      "title": "An Information-Theoretic Perspective on Variance-Invariance-Covariance Regularization",
-      "year": 2023,
-      "citationCount": 32,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2303.00633"
     }
   ],
   "githubProjects": [],
   "githubActivity": null,
   "news": [
+    {
+      "title": "Yann LeCun joins new VC firm backed by 244 LPs",
+      "url": "https://sifted.eu/articles/yann-lecun-new-firm-224-ventures",
+      "source": "Sifted",
+      "publishedAt": "2026-08-05"
+    },
+    {
+      "title": "LLM Detractors Pivot To “Pure LLM” Term After Recent LLM Breakthroughs",
+      "url": "https://officechai.com/ai/llm-detractors-pivot-to-pure-llm-term-after-recent-llm-breakthroughs/",
+      "source": "OfficeChai",
+      "publishedAt": "2026-08-05"
+    },
+    {
+      "title": "Noa Khamallah was a street kid and convict. Now his $10 million fund is taking on mega-VCs",
+      "url": "https://fortune.com/2026/08/05/noa-khamallah-was-a-street-kid-and-convict-now-his-10-million-fund-is-taking-on-mega-vcs/",
+      "source": "Fortune",
+      "publishedAt": "2026-08-05"
+    },
+    {
+      "title": "Yann LeCun joins new VC firm backed by 244 LPs - Sifted",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE95U0xpWVBsY0tCM0NIWkdqVHFIbVUwbVVzVEJ0c3A3cndDdE5fTmNpUk1CNXdtRDBzYm1UamJwckkwRVRjR3p0dV8ySzcyVmdDMDFkN0NKaEM3RjY5eGxMZmlqbVZ4QnB4YkM4?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-08-05"
+    },
+    {
+      "title": "Turing Award Winner Yann LeCun Joins AI Investment Firm 224 Ventures: Report - citybiz",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd093Mndpd0NFYXk1MHF1ZEtuTWttM1VnUElUOVB4NTNXTXpaemwwa3A4VFlGM2NlVzYtN3RHXy1MdlRrTHlQclM0TklWN0Q4MnRaZ3RyVmlaRXQ1cDdRQ1VySDZpdnF0UVg5Vm1KU3cyMmdPeUJjRFFBNTh0UTU4UVRYT19BWVpiRDNZWGttWnE2STZkWlRHc3BqeXZXOVBiUnJYa0JYVXFuRUl3U0c5Q2dHbEQ?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-08-05"
+    },
+    {
+      "title": "Yann LeCun, Oriol Vinyals Launch 224 Ventures with $100 Mn for AI Startups - analyticsindiamag.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbGg2VS1TQnI2WmNCdzRTQnFuVFVpOGFETFR3ck55cmM3ak5Od2xDUm50SzA4dEx1a01RSDd0MEJHTVJkZzhfbjlGTFBid296QmM2dVpyOUg3dWc4TVVSclpvbXhfaE9xZl9iVTdzand0R2tvU3lpQ2hWT2FVZEJnNk9VVzIwRHpBM1prMzRjM0NSY3JCWEdQeEZBX0NLTkdOaVp1Q0RYVW16M05HRGE4?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-08-05"
+    },
+    {
+      "title": "Yann LeCun joins 224 Ventures to invest in AI startups, signaling where smart money is headed - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85S0FCWGwtMm1qLWNwZ1k1QUsycEhuM1BwZV9pcHBGWmdsQ1ZfTTZfbmRKTUZxTnNNal91MjktQjZ4ZXlrdU1BSEJUMXVxWlF5eGlEUDVGYXd0SzBISjBlR1BIUFh1bkUtamczUkhadHI?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-08-05"
+    },
+    {
+      "title": "Yann LeCun's second attempt at a VC fund lands with $100M and Gemini's co-lead as a partner - thenextweb.com",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5pWHhCX1dfTHAxaDBWRk1fc0YxeUpwV0lKQ1Zhb044NGpBSzE1WHA1WjVxcnFvT3hlN1pqMTJ0cHQ1QlltbDZVYnhiYmxJS1BlVUpYVHk0MGRFZ0lyZkxHeXpTTE85YzZjOVRGNU9NbU9jLUtnWlZNNnFKT1c5dw?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-08-05"
+    },
+    {
+      "title": "Yann LeCun joins new $100M AI fund, weeks after his last one lasted 8 hours - Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1oNkwwU0EydXpwMmk2a2N1dllNRkltR2prMEhodkNzRGIxQnBFaUlMUzdCVVJBekN4Uklqb0xuWkFhU0NtNVFQX0ZIUHNwLW9XTjRySGhTNEo2RVFaMnhOUW1Wb3hWVWFBYjdSQQ?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-08-06"
+    },
+    {
+      "title": "AMI Labs, startup IA de Yann LeCun, entre au Next40 après une levée de 890 millions en mars - lavoixdefrance.fr",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdENYemp6eW5TYzJmWXh0VWMtWE9GcUJBekdHQWlDeFAtVHltT0l1Uzl3MEFBalZlOTNZNE1qV25CeEUya3JpYUJ4UE1BMEhhbGRVN1pzRVJMTG92bG1uaWdPdUJmNXBJMDlxRnpjdlgtb3RyOGRDWkZ4QS13U2luYWxieWRGSzVkMFdZSWNmdlJiQXJCaGdJckVmejJvSWc2bTJBb2tUTlJoUm1LWG1ac0VTNW0zbkgyY005Q2pIVno4dFRLQTRTQnpuOTExZ09aaUdF?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-08-05"
+    },
     {
       "title": "\"LLM-pilled\": At VivaTech, LeCun torches AI's monoculture and its safety priesthood",
       "url": "/news/llm-pilled-at-vivatech-lecun-torches-ai-s-monoculture-and-its-safety-priesthood",
@@ -2081,28 +3103,28 @@
   "connections": {
     "coAuthors": [
       {
+        "slug": "adrien-bardes",
+        "name": "Adrien Bardes",
+        "sharedPapers": 15
+      },
+      {
         "slug": "michael-rabbat",
         "name": "Michael Rabbat",
         "sharedPapers": 13
       },
       {
-        "slug": "adrien-bardes",
-        "name": "Adrien Bardes",
-        "sharedPapers": 9
+        "slug": "quentin-garrido",
+        "name": "Quentin Garrido",
+        "sharedPapers": 11
       },
       {
         "slug": "amir-bar",
         "name": "Amir Bar",
-        "sharedPapers": 8
+        "sharedPapers": 9
       },
       {
         "slug": "david-fan",
         "name": "David Fan",
-        "sharedPapers": 7
-      },
-      {
-        "slug": "quentin-garrido",
-        "name": "Quentin Garrido",
         "sharedPapers": 7
       },
       {
@@ -2146,13 +3168,13 @@
         "sharedPapers": 1
       },
       {
-        "slug": "willy-chung",
-        "name": "Willy Chung",
+        "slug": "delong-chen",
+        "name": "Delong Chen",
         "sharedPapers": 1
       },
       {
-        "slug": "delong-chen",
-        "name": "Delong Chen",
+        "slug": "willy-chung",
+        "name": "Willy Chung",
         "sharedPapers": 1
       },
       {
@@ -2161,28 +3183,24 @@
         "sharedPapers": 1
       },
       {
-        "slug": "adithya-iyer",
-        "name": "Adithya Iyer",
+        "slug": "sanghyun-woo",
+        "name": "Sanghyun Woo",
         "sharedPapers": 1
       },
       {
-        "slug": "sanghyun-woo",
-        "name": "Sanghyun Woo",
+        "slug": "adithya-iyer",
+        "name": "Adithya Iyer",
         "sharedPapers": 1
       }
     ],
     "externalCoAuthors": [
       {
-        "name": "Nicolas Ballas",
-        "papers": 11
-      },
-      {
         "name": "Randall Balestriero",
-        "papers": 7
+        "papers": 17
       },
       {
-        "name": "Mahmoud Assran",
-        "papers": 7
+        "name": "Nicolas Ballas",
+        "papers": 10
       },
       {
         "name": "Koustuv Sinha",
@@ -2193,8 +3211,24 @@
         "papers": 6
       },
       {
+        "name": "Mahmoud Assran",
+        "papers": 6
+      },
+      {
+        "name": "Ravid Shwartz-Ziv",
+        "papers": 5
+      },
+      {
         "name": "Lucas Maes",
         "papers": 5
+      },
+      {
+        "name": "Laurent Najman",
+        "papers": 5
+      },
+      {
+        "name": "Gaoyue Zhou",
+        "papers": 4
       },
       {
         "name": "Ellis Brown",
@@ -2209,7 +3243,31 @@
         "papers": 4
       },
       {
+        "name": "Linsey Pang",
+        "papers": 3
+      },
+      {
+        "name": "Oumayma Bounou",
+        "papers": 3
+      },
+      {
+        "name": "Wancong Zhang",
+        "papers": 3
+      },
+      {
+        "name": "Judah Goldfeder",
+        "papers": 3
+      },
+      {
         "name": "Damien Scieur",
+        "papers": 3
+      },
+      {
+        "name": "Tim G. J. Rudner",
+        "papers": 3
+      },
+      {
+        "name": "Jiacheng Zhu",
         "papers": 3
       },
       {
@@ -2233,11 +3291,51 @@
         "papers": 3
       },
       {
-        "name": "Pascal Vincent",
+        "name": "J. Ponce",
+        "papers": 3
+      },
+      {
+        "name": "Yubei Chen",
         "papers": 3
       },
       {
         "name": "Heejeong Nam",
+        "papers": 2
+      },
+      {
+        "name": "Ying Wang",
+        "papers": 2
+      },
+      {
+        "name": "Mengye Ren",
+        "papers": 2
+      },
+      {
+        "name": "Georgios Ioannides",
+        "papers": 2
+      },
+      {
+        "name": "Adrian Kieback",
+        "papers": 2
+      },
+      {
+        "name": "Aman Chadha",
+        "papers": 2
+      },
+      {
+        "name": "Aaron Elkins",
+        "papers": 2
+      },
+      {
+        "name": "Raktim Gautam Goswami",
+        "papers": 2
+      },
+      {
+        "name": "P. Krishnamurthy",
+        "papers": 2
+      },
+      {
+        "name": "F. Khorrami",
         "papers": 2
       },
       {
@@ -2249,7 +3347,7 @@
         "papers": 2
       },
       {
-        "name": "Wancong Zhang",
+        "name": "Micah Goldblum",
         "papers": 2
       },
       {
@@ -2261,11 +3359,19 @@
         "papers": 2
       },
       {
-        "name": "Gaoyue Zhou",
+        "name": "Emmanuel Dupoux",
         "papers": 2
       },
       {
         "name": "Boyang Zheng",
+        "papers": 2
+      },
+      {
+        "name": "Yilun Kuang",
+        "papers": 2
+      },
+      {
+        "name": "Yash Dagade",
         "papers": 2
       },
       {
@@ -2301,15 +3407,11 @@
         "papers": 2
       },
       {
-        "name": "Jiacheng Zhu",
-        "papers": 2
-      },
-      {
         "name": "Zhuang Liu",
         "papers": 2
       },
       {
-        "name": "Laurent Najman",
+        "name": "G. Mialon",
         "papers": 2
       },
       {
@@ -2317,7 +3419,179 @@
         "papers": 2
       },
       {
+        "name": "Pascal Vincent",
+        "papers": 2
+      },
+      {
+        "name": "Zengyi Li",
+        "papers": 2
+      },
+      {
+        "name": "G. Sasson",
+        "papers": 1
+      },
+      {
+        "name": "Zachary Levine",
+        "papers": 1
+      },
+      {
+        "name": "S. Shilo",
+        "papers": 1
+      },
+      {
+        "name": "S. Kohn",
+        "papers": 1
+      },
+      {
+        "name": "G. Lutsker",
+        "papers": 1
+      },
+      {
+        "name": "A. Godneva",
+        "papers": 1
+      },
+      {
+        "name": "A. Gabet",
+        "papers": 1
+      },
+      {
+        "name": "D. Krongauz",
+        "papers": 1
+      },
+      {
+        "name": "A. Weinberger",
+        "papers": 1
+      },
+      {
+        "name": "Eran Segal",
+        "papers": 1
+      },
+      {
+        "name": "Ruichen Xu",
+        "papers": 1
+      },
+      {
+        "name": "Jingxiang Qu",
+        "papers": 1
+      },
+      {
+        "name": "Wenhan Gao",
+        "papers": 1
+      },
+      {
+        "name": "Jiaxing Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Yuefan Deng",
+        "papers": 1
+      },
+      {
+        "name": "Camille François",
+        "papers": 1
+      },
+      {
+        "name": "Adrien Basdevant",
+        "papers": 1
+      },
+      {
+        "name": "Victor Storchan",
+        "papers": 1
+      },
+      {
+        "name": "Kevin Bankston",
+        "papers": 1
+      },
+      {
+        "name": "Ayah Bdeir",
+        "papers": 1
+      },
+      {
+        "name": "B. Behlendorf",
+        "papers": 1
+      },
+      {
+        "name": "Mérouane Debbah",
+        "papers": 1
+      },
+      {
+        "name": "Sayash Kapoor",
+        "papers": 1
+      },
+      {
+        "name": "Mark Surman",
+        "papers": 1
+      },
+      {
+        "name": "Helen King-Turvey",
+        "papers": 1
+      },
+      {
+        "name": "Nathan Lambert",
+        "papers": 1
+      },
+      {
+        "name": "Stefano Maffulli",
+        "papers": 1
+      },
+      {
+        "name": "Nik Marda",
+        "papers": 1
+      },
+      {
+        "name": "Govind Shivkumar",
+        "papers": 1
+      },
+      {
+        "name": "Ziyu Wang",
+        "papers": 1
+      },
+      {
+        "name": "Kun Fang",
+        "papers": 1
+      },
+      {
+        "name": "Zichen Jeff Cui",
+        "papers": 1
+      },
+      {
+        "name": "Ada Langford",
+        "papers": 1
+      },
+      {
+        "name": "Bowen Tan",
+        "papers": 1
+      },
+      {
+        "name": "Lerrel Pinto",
+        "papers": 1
+      },
+      {
         "name": "Mathurin Videau",
+        "papers": 1
+      },
+      {
+        "name": "P. Rao",
+        "papers": 1
+      },
+      {
+        "name": "Giuseppe Loianno",
+        "papers": 1
+      },
+      {
+        "name": "Ninad Daithankar",
+        "papers": 1
+      },
+      {
+        "name": "Alexi Gladstone",
+        "papers": 1
+      },
+      {
+        "name": "Heng Ji",
+        "papers": 1
+      },
+      {
+        "name": "David A. Klindt",
         "papers": 1
       },
       {
@@ -2369,6 +3643,54 @@
         "papers": 1
       },
       {
+        "name": "Nian Liu",
+        "papers": 1
+      },
+      {
+        "name": "Nikita Kazeev",
+        "papers": 1
+      },
+      {
+        "name": "Stephen G Dale",
+        "papers": 1
+      },
+      {
+        "name": "Artem Maevskiy",
+        "papers": 1
+      },
+      {
+        "name": "Yuwei Zeng",
+        "papers": 1
+      },
+      {
+        "name": "Ryoji Kubo",
+        "papers": 1
+      },
+      {
+        "name": "Pengru Huang",
+        "papers": 1
+      },
+      {
+        "name": "T. Laurent",
+        "papers": 1
+      },
+      {
+        "name": "Kostya S. Novoselov",
+        "papers": 1
+      },
+      {
+        "name": "X. Bresson",
+        "papers": 1
+      },
+      {
+        "name": "N. Timor",
+        "papers": 1
+      },
+      {
+        "name": "David Harel",
+        "papers": 1
+      },
+      {
         "name": "Soham Chitnis",
         "papers": 1
       },
@@ -2377,7 +3699,159 @@
         "papers": 1
       },
       {
+        "name": "Jitendra Malik",
+        "papers": 1
+      },
+      {
         "name": "Lorenzo Mur-Labadia",
+        "papers": 1
+      },
+      {
+        "name": "Helen Qu",
+        "papers": 1
+      },
+      {
+        "name": "Rudy Morel",
+        "papers": 1
+      },
+      {
+        "name": "Michael McCabe",
+        "papers": 1
+      },
+      {
+        "name": "Alberto Bietti",
+        "papers": 1
+      },
+      {
+        "name": "F. Lanusse",
+        "papers": 1
+      },
+      {
+        "name": "Shirley Ho",
+        "papers": 1
+      },
+      {
+        "name": "Shangwen Sun",
+        "papers": 1
+      },
+      {
+        "name": "A. Canziani",
+        "papers": 1
+      },
+      {
+        "name": "Deming Chen",
+        "papers": 1
+      },
+      {
+        "name": "Jason Cong",
+        "papers": 1
+      },
+      {
+        "name": "Azalia Mirhoseini",
+        "papers": 1
+      },
+      {
+        "name": "Christos Kozyrakis",
+        "papers": 1
+      },
+      {
+        "name": "Subhasish Mitra",
+        "papers": 1
+      },
+      {
+        "name": "Jinjun Xiong",
+        "papers": 1
+      },
+      {
+        "name": "C. Young",
+        "papers": 1
+      },
+      {
+        "name": "A. Anandkumar",
+        "papers": 1
+      },
+      {
+        "name": "Michael S. Littman",
+        "papers": 1
+      },
+      {
+        "name": "Aron Kirschen",
+        "papers": 1
+      },
+      {
+        "name": "Sophia Shao",
+        "papers": 1
+      },
+      {
+        "name": "S. Leef",
+        "papers": 1
+      },
+      {
+        "name": "Naresh Shanbhag",
+        "papers": 1
+      },
+      {
+        "name": "D. Milojicic",
+        "papers": 1
+      },
+      {
+        "name": "Michael J. Schulte",
+        "papers": 1
+      },
+      {
+        "name": "Gert Cauwenberghs",
+        "papers": 1
+      },
+      {
+        "name": "Jerry M Chow",
+        "papers": 1
+      },
+      {
+        "name": "Tri Dao",
+        "papers": 1
+      },
+      {
+        "name": "Kailash Gopalakrishnan",
+        "papers": 1
+      },
+      {
+        "name": "Richard Ho",
+        "papers": 1
+      },
+      {
+        "name": "Hoshik Kim",
+        "papers": 1
+      },
+      {
+        "name": "K. Olukotun",
+        "papers": 1
+      },
+      {
+        "name": "David Z. Pan",
+        "papers": 1
+      },
+      {
+        "name": "Mark Ren",
+        "papers": 1
+      },
+      {
+        "name": "Dan Roth",
+        "papers": 1
+      },
+      {
+        "name": "Aarti Singh",
+        "papers": 1
+      },
+      {
+        "name": "Yizhou Sun",
+        "papers": 1
+      },
+      {
+        "name": "Yusu Wang",
+        "papers": 1
+      },
+      {
+        "name": "Ruchir Puri",
         "papers": 1
       },
       {
@@ -2413,6 +3887,22 @@
         "papers": 1
       },
       {
+        "name": "P. Wyder",
+        "papers": 1
+      },
+      {
+        "name": "Hai Huang",
+        "papers": 1
+      },
+      {
+        "name": "Deep Chakraborty",
+        "papers": 1
+      },
+      {
+        "name": "Erik G. Learned-Miller",
+        "papers": 1
+      },
+      {
         "name": "Michael Psenka",
         "papers": 1
       },
@@ -2434,22 +3924,6 @@
       },
       {
         "name": "Matthieu Destrade",
-        "papers": 1
-      },
-      {
-        "name": "Oumayma Bounou",
-        "papers": 1
-      },
-      {
-        "name": "Raktim Gautam Goswami",
-        "papers": 1
-      },
-      {
-        "name": "P. Krishnamurthy",
-        "papers": 1
-      },
-      {
-        "name": "F. Khorrami",
         "papers": 1
       },
       {
@@ -2577,39 +4051,27 @@
         "papers": 1
       },
       {
-        "name": "Emmanuel Dupoux",
+        "name": "William Rudman",
+        "papers": 1
+      },
+      {
+        "name": "Michal Golovanesky",
+        "papers": 1
+      },
+      {
+        "name": "V. Palit",
+        "papers": 1
+      },
+      {
+        "name": "Carsten Eickhoff",
+        "papers": 1
+      },
+      {
+        "name": "Ritambhara Singh",
         "papers": 1
       },
       {
         "name": "Yunyang Xiong",
-        "papers": 1
-      },
-      {
-        "name": "Artem Provodin",
-        "papers": 1
-      },
-      {
-        "name": "L. Torabi",
-        "papers": 1
-      },
-      {
-        "name": "Urs Muller",
-        "papers": 1
-      },
-      {
-        "name": "B. Flepp",
-        "papers": 1
-      },
-      {
-        "name": "Michael Sergio",
-        "papers": 1
-      },
-      {
-        "name": "Jure Zbontar",
-        "papers": 1
-      },
-      {
-        "name": "L. Jackel",
         "papers": 1
       },
       {
@@ -2633,50 +4095,6 @@
         "papers": 1
       },
       {
-        "name": "Zeyu Yun",
-        "papers": 1
-      },
-      {
-        "name": "Juexiao Zhang",
-        "papers": 1
-      },
-      {
-        "name": "B. Olshausen",
-        "papers": 1
-      },
-      {
-        "name": "Yubei Chen",
-        "papers": 1
-      },
-      {
-        "name": "Jacob Browning",
-        "papers": 1
-      },
-      {
-        "name": "Florian Bordes",
-        "papers": 1
-      },
-      {
-        "name": "Assaf Shocher",
-        "papers": 1
-      },
-      {
-        "name": "Trevor Darrell",
-        "papers": 1
-      },
-      {
-        "name": "A. Globerson",
-        "papers": 1
-      },
-      {
-        "name": "J. Ponce",
-        "papers": 1
-      },
-      {
-        "name": "G. Mialon",
-        "papers": 1
-      },
-      {
         "name": "Hannah Lawrence",
         "papers": 1
       },
@@ -2686,6 +4104,54 @@
       },
       {
         "name": "B. Kiani",
+        "papers": 1
+      },
+      {
+        "name": "Mark Ibrahim",
+        "papers": 1
+      },
+      {
+        "name": "Vlad Sobal",
+        "papers": 1
+      },
+      {
+        "name": "Ari S. Morcos",
+        "papers": 1
+      },
+      {
+        "name": "Shashank Shekhar",
+        "papers": 1
+      },
+      {
+        "name": "T. Goldstein",
+        "papers": 1
+      },
+      {
+        "name": "Florian Bordes",
+        "papers": 1
+      },
+      {
+        "name": "Yuandong Tian",
+        "papers": 1
+      },
+      {
+        "name": "Avi Schwarzschild",
+        "papers": 1
+      },
+      {
+        "name": "A. Wilson",
+        "papers": 1
+      },
+      {
+        "name": "Jonas Geiping",
+        "papers": 1
+      },
+      {
+        "name": "Pierre Fernandez",
+        "papers": 1
+      },
+      {
+        "name": "H. Pirsiavash",
         "papers": 1
       },
       {

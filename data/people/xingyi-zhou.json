@@ -13,7 +13,9 @@
     "scholar": "https://scholar.google.com/citations?user=47n-0mwAAAAJ&hl=en",
     "website": "https://xingyizhou.github.io/"
   },
-  "semanticScholarId": "1390555183",
+  "semanticScholarId": [
+    "1390555183"
+  ],
   "careerHistory": [
     {
       "org": "Meta AI (FAIR)",
@@ -242,7 +244,7 @@
       "year": 2022,
       "venue": "European Conference on Computer Vision",
       "url": "https://doi.org/10.1007/978-3-031-20077-9_21",
-      "citationCount": 891,
+      "citationCount": 892,
       "coAuthors": [
         {
           "slug": "rohit-girdhar",
@@ -259,6 +261,342 @@
         {
           "slug": null,
           "name": "Ishan Misra"
+        }
+      ]
+    },
+    {
+      "paperId": "9eaf5cc6f632b456e1d2959a93965c91f5c91fae",
+      "title": "Multimodal Virtual Point 3D Detection",
+      "year": 2021,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/9eaf5cc6f632b456e1d2959a93965c91f5c91fae",
+      "citationCount": 367,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tianwei Yin"
+        },
+        {
+          "slug": null,
+          "name": "Philipp Krähenbühl"
+        }
+      ]
+    },
+    {
+      "paperId": "a9492c323562d31fe1d26ab8bdac1112dfdee9fe",
+      "title": "Probabilistic two-stage detection",
+      "year": 2021,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/a9492c323562d31fe1d26ab8bdac1112dfdee9fe",
+      "citationCount": 272,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "V. Koltun"
+        },
+        {
+          "slug": null,
+          "name": "Philipp Krähenbühl"
+        }
+      ]
+    },
+    {
+      "paperId": "1200ce0e0f604f742db6d7fb05c97a8efbc8a8d4",
+      "title": "Simple Multi-dataset Detection",
+      "year": 2021,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52688.2022.00742",
+      "citationCount": 160,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "V. Koltun"
+        },
+        {
+          "slug": null,
+          "name": "Philipp Krähenbühl"
+        }
+      ]
+    },
+    {
+      "paperId": "d686707aff5620e8788a63ba5cbb6aa100a34fdf",
+      "title": "Tracking Objects as Points — Supplementary Materials",
+      "year": 2020,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/d686707aff5620e8788a63ba5cbb6aa100a34fdf",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "V. Koltun"
+        },
+        {
+          "slug": null,
+          "name": "Philipp Krähenbühl"
+        }
+      ]
+    },
+    {
+      "paperId": "22d40963e633e1b4af4a9fefda68e1b8dc96ba63",
+      "title": "Center-based 3D Object Detection and Tracking",
+      "year": 2020,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR46437.2021.01161",
+      "citationCount": 2323,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tianwei Yin"
+        },
+        {
+          "slug": null,
+          "name": "Philipp Krähenbühl"
+        }
+      ]
+    },
+    {
+      "paperId": "d58f07bab3ff01a002d139062ad83d5818c23864",
+      "title": "Tracking Objects as Points",
+      "year": 2020,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-030-58548-8_28",
+      "citationCount": 1390,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "V. Koltun"
+        },
+        {
+          "slug": null,
+          "name": "Philipp Krähenbühl"
+        }
+      ]
+    },
+    {
+      "paperId": "6a2e2fd1b5bb11224daef98b3fb6d029f68a73f2",
+      "title": "Objects as Points",
+      "year": 2019,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/6a2e2fd1b5bb11224daef98b3fb6d029f68a73f2",
+      "citationCount": 3779,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Dequan Wang"
+        },
+        {
+          "slug": null,
+          "name": "Philipp Krähenbühl"
+        }
+      ]
+    },
+    {
+      "paperId": "92a368ae1c4602f90f1ef931432f8eaba981c868",
+      "title": "Bottom-Up Object Detection by Grouping Extreme and Center Points",
+      "year": 2019,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR.2019.00094",
+      "citationCount": 927,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jiacheng Zhuo"
+        },
+        {
+          "slug": null,
+          "name": "Philipp Krähenbühl"
+        }
+      ]
+    },
+    {
+      "paperId": "8b6afef69b14b97a272c667b6b9004e441085c89",
+      "title": "StarMap for Category-Agnostic Keypoint and Viewpoint Estimation",
+      "year": 2018,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-030-01246-5_20",
+      "citationCount": 93,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Arjun Karpur"
+        },
+        {
+          "slug": null,
+          "name": "Linjie Luo"
+        },
+        {
+          "slug": null,
+          "name": "Qi-Xing Huang"
+        }
+      ]
+    },
+    {
+      "paperId": "93cd7ace6c756d4ef9765fdea80e94c12601ae40",
+      "title": "Unsupervised Domain Adaptation for 3D Keypoint Prediction from a Single Depth Scan",
+      "year": 2017,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/93cd7ace6c756d4ef9765fdea80e94c12601ae40",
+      "citationCount": 11,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Arjun Karpur"
+        },
+        {
+          "slug": null,
+          "name": "Chuang Gan"
+        },
+        {
+          "slug": null,
+          "name": "Linjie Luo"
+        },
+        {
+          "slug": null,
+          "name": "Qi-Xing Huang"
+        }
+      ]
+    },
+    {
+      "paperId": "ca2d92d717461d7689f3638b08f36119e317e6ea",
+      "title": "Unsupervised Domain Adaptation for 3D Keypoint Estimation via View Consistency",
+      "year": 2017,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-030-01258-8_9",
+      "citationCount": 39,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Arjun Karpur"
+        },
+        {
+          "slug": null,
+          "name": "Chuang Gan"
+        },
+        {
+          "slug": null,
+          "name": "Linjie Luo"
+        },
+        {
+          "slug": null,
+          "name": "Qi-Xing Huang"
+        }
+      ]
+    },
+    {
+      "paperId": "5a97dbd14958386aa0d969b5a926bb64cfd01b4a",
+      "title": "Weakly-supervised Transfer for 3D Human Pose Estimation in the Wild",
+      "year": 2017,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/5a97dbd14958386aa0d969b5a926bb64cfd01b4a",
+      "citationCount": 52,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Qi-Xing Huang"
+        },
+        {
+          "slug": null,
+          "name": "Xiao Sun"
+        },
+        {
+          "slug": null,
+          "name": "X. Xue"
+        },
+        {
+          "slug": null,
+          "name": "Yichen Wei"
+        }
+      ]
+    },
+    {
+      "paperId": "e77e7e8c090609627ff1a7ca9d27846169c15076",
+      "title": "Towards 3D Human Pose Estimation in the Wild: A Weakly-Supervised Approach",
+      "year": 2017,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV.2017.51",
+      "citationCount": 611,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Qi-Xing Huang"
+        },
+        {
+          "slug": null,
+          "name": "Xiao Sun"
+        },
+        {
+          "slug": null,
+          "name": "X. Xue"
+        },
+        {
+          "slug": null,
+          "name": "Yichen Wei"
+        }
+      ]
+    },
+    {
+      "paperId": "c6499f53402e68ecf4bbd4410cb8816fee3d6398",
+      "title": "Deep Kinematic Pose Regression",
+      "year": 2016,
+      "venue": "ECCV Workshops",
+      "url": "https://doi.org/10.1007/978-3-319-49409-8_17",
+      "citationCount": 277,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Xiao Sun"
+        },
+        {
+          "slug": null,
+          "name": "Wei Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Shuang Liang"
+        },
+        {
+          "slug": null,
+          "name": "Yichen Wei"
+        }
+      ]
+    },
+    {
+      "paperId": "35354535eb126c70abc07b072e3fe39d7e9bff1e",
+      "title": "Model-Based Deep Hand Pose Estimation",
+      "year": 2016,
+      "venue": "International Joint Conference on Artificial Intelligence",
+      "url": "https://www.semanticscholar.org/paper/35354535eb126c70abc07b072e3fe39d7e9bff1e",
+      "citationCount": 201,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Qingfu Wan"
+        },
+        {
+          "slug": null,
+          "name": "Wei Zhang"
+        },
+        {
+          "slug": null,
+          "name": "X. Xue"
+        },
+        {
+          "slug": null,
+          "name": "Yichen Wei"
+        }
+      ]
+    },
+    {
+      "paperId": "f1a07a4325b8a5f4f9399c9e156bdea91020fb31",
+      "title": "Detecting Simple Objects in RGB-D Data",
+      "year": 2013,
+      "venue": null,
+      "url": "https://doi.org/10.21236/ada606150",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "J. Kosecka"
         }
       ]
     }
@@ -318,6 +656,22 @@
     ],
     "externalCoAuthors": [
       {
+        "name": "Philipp Krähenbühl",
+        "papers": 9
+      },
+      {
+        "name": "V. Koltun",
+        "papers": 5
+      },
+      {
+        "name": "Qi-Xing Huang",
+        "papers": 5
+      },
+      {
+        "name": "Yichen Wei",
+        "papers": 4
+      },
+      {
         "name": "Chen Sun",
         "papers": 3
       },
@@ -328,6 +682,34 @@
       {
         "name": "C. Schmid",
         "papers": 3
+      },
+      {
+        "name": "Tianwei Yin",
+        "papers": 3
+      },
+      {
+        "name": "Arjun Karpur",
+        "papers": 3
+      },
+      {
+        "name": "Linjie Luo",
+        "papers": 3
+      },
+      {
+        "name": "Xiao Sun",
+        "papers": 3
+      },
+      {
+        "name": "X. Xue",
+        "papers": 3
+      },
+      {
+        "name": "Chuang Gan",
+        "papers": 2
+      },
+      {
+        "name": "Wei Zhang",
+        "papers": 2
       },
       {
         "name": "Calvin Luo",
@@ -414,18 +796,6 @@
         "papers": 1
       },
       {
-        "name": "Tianwei Yin",
-        "papers": 1
-      },
-      {
-        "name": "V. Koltun",
-        "papers": 1
-      },
-      {
-        "name": "Philipp Krähenbühl",
-        "papers": 1
-      },
-      {
         "name": "Armand Joulin",
         "papers": 1
       },
@@ -435,6 +805,26 @@
       },
       {
         "name": "Ishan Misra",
+        "papers": 1
+      },
+      {
+        "name": "Dequan Wang",
+        "papers": 1
+      },
+      {
+        "name": "Jiacheng Zhuo",
+        "papers": 1
+      },
+      {
+        "name": "Shuang Liang",
+        "papers": 1
+      },
+      {
+        "name": "Qingfu Wan",
+        "papers": 1
+      },
+      {
+        "name": "J. Kosecka",
         "papers": 1
       }
     ],

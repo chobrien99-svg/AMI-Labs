@@ -15,7 +15,9 @@
     "twitter": "https://x.com/__JohnNguyen__",
     "website": "https://johnlnguyen.com/"
   },
-  "semanticScholarId": "2384120102",
+  "semanticScholarId": [
+    "2384120102"
+  ],
   "careerHistory": [
     {
       "org": "Meta",
@@ -32,15 +34,15 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276",
-      "citationCount": 20,
+      "citationCount": 21,
       "coAuthors": [
-        {
-          "slug": "amir-bar",
-          "name": "Amir Bar"
-        },
         {
           "slug": "david-fan",
           "name": "David Fan"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": "michael-rabbat",
@@ -245,6 +247,210 @@
           "name": "Ricky T. Q. Chen"
         }
       ]
+    },
+    {
+      "paperId": "fc721f4fd6260ed3b86c64eaa204375e18863aad",
+      "title": "Where to Begin? On the Impact of Pre-Training and Initialization in Federated Learning",
+      "year": 2022,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2210.08090",
+      "citationCount": 105,
+      "coAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Jianyu Wang"
+        },
+        {
+          "slug": null,
+          "name": "Kshitiz Malik"
+        },
+        {
+          "slug": null,
+          "name": "Maziar Sanjabi"
+        }
+      ]
+    },
+    {
+      "paperId": "f42cb48e487171e7408b9f2ebf2d7dd5b5a4d675",
+      "title": "Where to Begin? Exploring the Impact of Pre-Training and Initialization in Federated Learning",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2206.15387",
+      "citationCount": 47,
+      "coAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Kshitiz Malik"
+        },
+        {
+          "slug": null,
+          "name": "Maziar Sanjabi"
+        }
+      ]
+    },
+    {
+      "paperId": "ae8598ad1b4a1828f9d4042b16c388565423542e",
+      "title": "Where to Begin? On the Impact of Pre-Training and Initialization in Federated Learning",
+      "year": 2022,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/ae8598ad1b4a1828f9d4042b16c388565423542e",
+      "citationCount": 19,
+      "coAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Jianyu Wang"
+        },
+        {
+          "slug": null,
+          "name": "Kshitiz Malik"
+        },
+        {
+          "slug": null,
+          "name": "Maziar Sanjabi"
+        },
+        {
+          "slug": null,
+          "name": "AI Meta"
+        }
+      ]
+    },
+    {
+      "paperId": "fc98ec17f28a06a2c3e283296494844eccba816f",
+      "title": "Towards Fair Federated Recommendation Learning: Characterizing the Inter-Dependence of System and Data Heterogeneity",
+      "year": 2022,
+      "venue": "ACM Conference on Recommender Systems",
+      "url": "https://doi.org/10.1145/3523227.3546759",
+      "citationCount": 41,
+      "coAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Kiwan Maeng"
+        },
+        {
+          "slug": null,
+          "name": "Haiyu Lu"
+        },
+        {
+          "slug": null,
+          "name": "Luca Melis"
+        },
+        {
+          "slug": null,
+          "name": "Carole-Jean Wu"
+        }
+      ]
+    },
+    {
+      "paperId": "b87b5797b661d6137301dd3167d573a94493936e",
+      "title": "Papaya: Practical, Private, and Scalable Federated Learning",
+      "year": 2021,
+      "venue": "Conference on Machine Learning and Systems",
+      "url": "https://www.semanticscholar.org/paper/b87b5797b661d6137301dd3167d573a94493936e",
+      "citationCount": 172,
+      "coAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Dzmitry Huba"
+        },
+        {
+          "slug": null,
+          "name": "Kshitiz Malik"
+        },
+        {
+          "slug": null,
+          "name": "Ruiyu Zhu"
+        },
+        {
+          "slug": null,
+          "name": "Ashkan Yousefpour"
+        },
+        {
+          "slug": null,
+          "name": "Carole-Jean Wu"
+        },
+        {
+          "slug": null,
+          "name": "Hongyuan Zhan"
+        },
+        {
+          "slug": null,
+          "name": "Pavel Ustinov"
+        },
+        {
+          "slug": null,
+          "name": "H. Srinivas"
+        },
+        {
+          "slug": null,
+          "name": "Kaikai Wang"
+        },
+        {
+          "slug": null,
+          "name": "Anthony Shoumikhin"
+        },
+        {
+          "slug": null,
+          "name": "Jesik Min"
+        },
+        {
+          "slug": null,
+          "name": "Mani Malek"
+        }
+      ]
+    },
+    {
+      "paperId": "38fca90fef15b226dbae8db408c5efe8066dde1c",
+      "title": "Federated Learning with Buffered Asynchronous Aggregation",
+      "year": 2021,
+      "venue": "International Conference on Artificial Intelligence and Statistics",
+      "url": "https://www.semanticscholar.org/paper/38fca90fef15b226dbae8db408c5efe8066dde1c",
+      "citationCount": 476,
+      "coAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Kshitiz Malik"
+        },
+        {
+          "slug": null,
+          "name": "Hongyuan Zhan"
+        },
+        {
+          "slug": null,
+          "name": "Ashkan Yousefpour"
+        },
+        {
+          "slug": null,
+          "name": "Mani Malek"
+        },
+        {
+          "slug": null,
+          "name": "Dzmitry Huba"
+        }
+      ]
     }
   ],
   "topPublications": [
@@ -288,6 +494,11 @@
   "connections": {
     "coAuthors": [
       {
+        "slug": "michael-rabbat",
+        "name": "Michael Rabbat",
+        "sharedPapers": 7
+      },
+      {
         "slug": "amir-bar",
         "name": "Amir Bar",
         "sharedPapers": 2
@@ -295,11 +506,6 @@
       {
         "slug": "david-fan",
         "name": "David Fan",
-        "sharedPapers": 1
-      },
-      {
-        "slug": "michael-rabbat",
-        "name": "Michael Rabbat",
         "sharedPapers": 1
       },
       {
@@ -320,6 +526,10 @@
     ],
     "externalCoAuthors": [
       {
+        "name": "Kshitiz Malik",
+        "papers": 5
+      },
+      {
         "name": "Jakob Verbeek",
         "papers": 3
       },
@@ -328,11 +538,39 @@
         "papers": 3
       },
       {
+        "name": "Maziar Sanjabi",
+        "papers": 3
+      },
+      {
         "name": "Marjan Ghazvininejad",
         "papers": 2
       },
       {
         "name": "Ricky T. Q. Chen",
+        "papers": 2
+      },
+      {
+        "name": "Jianyu Wang",
+        "papers": 2
+      },
+      {
+        "name": "Carole-Jean Wu",
+        "papers": 2
+      },
+      {
+        "name": "Dzmitry Huba",
+        "papers": 2
+      },
+      {
+        "name": "Ashkan Yousefpour",
+        "papers": 2
+      },
+      {
+        "name": "Hongyuan Zhan",
+        "papers": 2
+      },
+      {
+        "name": "Mani Malek",
         "papers": 2
       },
       {
@@ -445,6 +683,46 @@
       },
       {
         "name": "Tariq Berrada",
+        "papers": 1
+      },
+      {
+        "name": "AI Meta",
+        "papers": 1
+      },
+      {
+        "name": "Kiwan Maeng",
+        "papers": 1
+      },
+      {
+        "name": "Haiyu Lu",
+        "papers": 1
+      },
+      {
+        "name": "Luca Melis",
+        "papers": 1
+      },
+      {
+        "name": "Ruiyu Zhu",
+        "papers": 1
+      },
+      {
+        "name": "Pavel Ustinov",
+        "papers": 1
+      },
+      {
+        "name": "H. Srinivas",
+        "papers": 1
+      },
+      {
+        "name": "Kaikai Wang",
+        "papers": 1
+      },
+      {
+        "name": "Anthony Shoumikhin",
+        "papers": 1
+      },
+      {
+        "name": "Jesik Min",
         "papers": 1
       }
     ],

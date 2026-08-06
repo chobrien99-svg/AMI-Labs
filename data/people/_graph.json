@@ -11,6 +11,18 @@
       ]
     },
     {
+      "a": "li-jing",
+      "b": "rohit-girdhar",
+      "paperCount": 5,
+      "papers": [
+        "Understanding LLMs’ summarization capabilities: an analysis of biomedical abstract and lay summary generation",
+        "From KMMLU-Redux to Pro: A Professional Korean Benchmark Suite for LLM Evaluation",
+        "Balancing Knowledge Delivery and Emotional Comfort in Healthcare Conversational Systems",
+        "Dialect Normalization using Large Language Models and Morphological Rules",
+        "Jailbreak Distillation: Renewable Safety Benchmarking"
+      ]
+    },
+    {
       "a": "quentin-le-lidec",
       "b": "yann-lecun",
       "paperCount": 6,
@@ -21,15 +33,6 @@
         "Causal-JEPA: Learning World Models through Object-Level Latent Masking",
         "stable-worldmodel-v1: Reproducible World Modeling Research and Evaluation",
         "Value-guided action planning with JEPA world models"
-      ]
-    },
-    {
-      "a": "li-jing",
-      "b": "rohit-girdhar",
-      "paperCount": 2,
-      "papers": [
-        "Understanding LLMs’ summarization capabilities: an analysis of biomedical abstract and lay summary generation",
-        "From KMMLU-Redux to Pro: A Professional Korean Benchmark Suite for LLM Evaluation"
       ]
     },
     {
@@ -91,16 +94,17 @@
     {
       "a": "adrien-bardes",
       "b": "amir-bar",
-      "paperCount": 2,
+      "paperCount": 3,
       "papers": [
         "Hierarchical Planning with Latent World Models",
-        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning"
+        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+        "A Cookbook of Self-Supervised Learning"
       ]
     },
     {
       "a": "amir-bar",
       "b": "yann-lecun",
-      "paperCount": 8,
+      "paperCount": 9,
       "papers": [
         "Hierarchical Planning with Latent World Models",
         "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
@@ -109,13 +113,14 @@
         "Parallel Stochastic Gradient-Based Planning for World Models",
         "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
         "Scaling Language-Free Visual Representation Learning",
-        "Stochastic positional embeddings improve masked image modeling"
+        "Forgotten Polygons: Multimodal Large Language Models are Shape-Blind",
+        "A Cookbook of Self-Supervised Learning"
       ]
     },
     {
       "a": "adrien-bardes",
       "b": "yann-lecun",
-      "paperCount": 9,
+      "paperCount": 15,
       "papers": [
         "Hierarchical Planning with Latent World Models",
         "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
@@ -125,6 +130,12 @@
         "Learning and Leveraging World Models in Visual Representation Learning",
         "Revisiting Feature Prediction for Learning Visual Representations from Video",
         "MC-JEPA: A Joint-Embedding Predictive Architecture for Self-Supervised Learning of Motion and Content Features",
+        "A Cookbook of Self-Supervised Learning",
+        "VICRegL: Self-Supervised Learning of Local Visual Features",
+        "Intra-Instance VICReg: Bag of Self-Supervised Image Patch Embedding",
+        "Bag of Image Patch Embedding Behind the Success of Self-Supervised Learning",
+        "On the duality between contrastive and non-contrastive self-supervised learning",
+        "VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning",
         "The Diashow Paradox: Stronger 3D-Aware Representations Emerge from Image Sets, Not Videos Anonymous ICCV submission"
       ]
     },
@@ -139,10 +150,15 @@
     {
       "a": "matthew-muckley",
       "b": "michael-rabbat",
-      "paperCount": 2,
+      "paperCount": 7,
       "papers": [
         "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
-        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+        "Using Deep Learning to Accelerate Knee MRI at 3 T: Results of an Interchangeability Study",
+        "Dataset of Knee Images for Accelerated MR Image Reconstruction Using Machine Learning",
+        "fastMRI: A Publicly Available Raw k-Space and DICOM Dataset of Knee Images for Accelerated MR Image Reconstruction Using Machine Learning.",
+        "Advancing machine learning for MR image reconstruction with an open competition: Overview of the 2019 fastMRI challenge",
+        "fastMRI: An Open Dataset and Benchmarks for Accelerated MRI"
       ]
     },
     {
@@ -197,6 +213,14 @@
       ]
     },
     {
+      "a": "david-fan",
+      "b": "john-nguyen",
+      "paperCount": 1,
+      "papers": [
+        "Beyond Language Modeling: An Exploration of Multimodal Pretraining"
+      ]
+    },
+    {
       "a": "amir-bar",
       "b": "david-fan",
       "paperCount": 4,
@@ -205,32 +229,6 @@
         "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
         "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
         "Scaling Language-Free Visual Representation Learning"
-      ]
-    },
-    {
-      "a": "amir-bar",
-      "b": "john-nguyen",
-      "paperCount": 2,
-      "papers": [
-        "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
-        "TV2TV: A Unified Framework for Interleaved Language and Video Generation"
-      ]
-    },
-    {
-      "a": "amir-bar",
-      "b": "saining-xie",
-      "paperCount": 2,
-      "papers": [
-        "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
-        "Scaling Language-Free Visual Representation Learning"
-      ]
-    },
-    {
-      "a": "david-fan",
-      "b": "john-nguyen",
-      "paperCount": 1,
-      "papers": [
-        "Beyond Language Modeling: An Exploration of Multimodal Pretraining"
       ]
     },
     {
@@ -272,11 +270,26 @@
       ]
     },
     {
+      "a": "amir-bar",
+      "b": "john-nguyen",
+      "paperCount": 2,
+      "papers": [
+        "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+        "TV2TV: A Unified Framework for Interleaved Language and Video Generation"
+      ]
+    },
+    {
       "a": "john-nguyen",
       "b": "michael-rabbat",
-      "paperCount": 1,
+      "paperCount": 7,
       "papers": [
-        "Beyond Language Modeling: An Exploration of Multimodal Pretraining"
+        "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+        "Where to Begin? On the Impact of Pre-Training and Initialization in Federated Learning",
+        "Where to Begin? Exploring the Impact of Pre-Training and Initialization in Federated Learning",
+        "Where to Begin? On the Impact of Pre-Training and Initialization in Federated Learning",
+        "Towards Fair Federated Recommendation Learning: Characterizing the Inter-Dependence of System and Data Heterogeneity",
+        "Papaya: Practical, Private, and Scalable Federated Learning",
+        "Federated Learning with Buffered Asynchronous Aggregation"
       ]
     },
     {
@@ -293,6 +306,15 @@
       "paperCount": 1,
       "papers": [
         "Beyond Language Modeling: An Exploration of Multimodal Pretraining"
+      ]
+    },
+    {
+      "a": "amir-bar",
+      "b": "saining-xie",
+      "paperCount": 2,
+      "papers": [
+        "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+        "Scaling Language-Free Visual Representation Learning"
       ]
     },
     {
@@ -321,7 +343,7 @@
     {
       "a": "chao-du",
       "b": "min-lin",
-      "paperCount": 9,
+      "paperCount": 36,
       "papers": [
         "Rethinking the Trust Region in LLM Reinforcement Learning",
         "Defeating the Training-Inference Mismatch via FP16",
@@ -331,7 +353,34 @@
         "Continual Reinforcement Learning by Planning with Online World Models",
         "Reinforcing General Reasoning without Verifiers",
         "Lifelong Safety Alignment for Language Models",
-        "Bag of Tricks for Training Data Extraction from Language Models"
+        "Optimizing Anytime Reasoning via Budget Relative Policy Optimization",
+        "FlowReasoner: Reinforcing Query-Level Meta-Agents",
+        "Understanding R1-Zero-Like Training: A Critical Perspective",
+        "Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs",
+        "Improving Your Model Ranking on Chatbot Arena by Vote Rigging",
+        "Sample-Efficient Alignment for LLMs",
+        "Scaling up Masked Diffusion Models on Text",
+        "LightTransfer: Your Long-Context LLM is Secretly a Hybrid Model with Effortless Adaptation",
+        "Meta-Unlearning on Diffusion Models: Preventing Relearning Unlearned Concepts",
+        "Denial-of-Service Poisoning Attacks against Large Language Models",
+        "When Attention Sink Emerges in Language Models: An Empirical View",
+        "A Closer Look at Machine Unlearning for Large Language Models",
+        "Cheating Automatic LLM Benchmarks: Null Models Achieve High Win Rates",
+        "Bootstrapping Language Models with DPO Implicit Rewards",
+        "Chain of Preference Optimization: Improving Chain-of-Thought Reasoning in LLMs",
+        "Improved Few-Shot Jailbreaking Can Circumvent Aligned Language Models and Their Defenses",
+        "Improved Techniques for Optimization-Based Jailbreaking on Large Language Models",
+        "Graph Diffusion Policy Optimization",
+        "Purifying Large Language Models by Ensembling a Small Language Model",
+        "Test-Time Backdoor Attacks on Multimodal Large Language Models",
+        "Agent Smith: A Single Image Can Jailbreak One Million Multimodal LLM Agents Exponentially Fast",
+        "Locality Sensitive Sparse Encoding for Learning World Models Online",
+        "Benchmarking Large Multimodal Models against Common Corruptions",
+        "Finetuning Text-to-Image Diffusion Models for Fairness",
+        "Intriguing Properties of Data Attribution on Diffusion Models",
+        "On Memorization in Diffusion Models",
+        "Bag of Tricks for Training Data Extraction from Language Models",
+        "Infecting LLM-based Multi-Agents via Self-propagating Adversarial Attacks"
       ]
     },
     {
@@ -350,7 +399,7 @@
     },
     {
       "a": "basile-terver",
-      "b": "david-fan",
+      "b": "megi-dervishi",
       "paperCount": 1,
       "papers": [
         "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures"
@@ -358,7 +407,7 @@
     },
     {
       "a": "basile-terver",
-      "b": "megi-dervishi",
+      "b": "david-fan",
       "paperCount": 1,
       "papers": [
         "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures"
@@ -384,6 +433,30 @@
     },
     {
       "a": "david-fan",
+      "b": "megi-dervishi",
+      "paperCount": 1,
+      "papers": [
+        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures"
+      ]
+    },
+    {
+      "a": "megi-dervishi",
+      "b": "quentin-garrido",
+      "paperCount": 1,
+      "papers": [
+        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures"
+      ]
+    },
+    {
+      "a": "megi-dervishi",
+      "b": "michael-rabbat",
+      "paperCount": 1,
+      "papers": [
+        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures"
+      ]
+    },
+    {
+      "a": "amir-bar",
       "b": "megi-dervishi",
       "paperCount": 1,
       "papers": [
@@ -400,33 +473,9 @@
       ]
     },
     {
-      "a": "megi-dervishi",
-      "b": "quentin-garrido",
-      "paperCount": 1,
-      "papers": [
-        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures"
-      ]
-    },
-    {
-      "a": "megi-dervishi",
-      "b": "michael-rabbat",
-      "paperCount": 1,
-      "papers": [
-        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures"
-      ]
-    },
-    {
-      "a": "amir-bar",
-      "b": "megi-dervishi",
-      "paperCount": 1,
-      "papers": [
-        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures"
-      ]
-    },
-    {
       "a": "quentin-garrido",
       "b": "yann-lecun",
-      "paperCount": 7,
+      "paperCount": 11,
       "papers": [
         "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
         "Learning Latent Action World Models In The Wild",
@@ -434,23 +483,34 @@
         "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
         "Learning and Leveraging World Models in Visual Representation Learning",
         "Revisiting Feature Prediction for Learning Visual Representations from Video",
-        "Self-Supervised Learning with Lie Symmetries for Partial Differential Equations"
+        "Self-Supervised Learning with Lie Symmetries for Partial Differential Equations",
+        "A Cookbook of Self-Supervised Learning",
+        "Self-supervised learning of Split Invariant Equivariant representations",
+        "RankMe: Assessing the downstream performance of pretrained self-supervised representations by their rank",
+        "On the duality between contrastive and non-contrastive self-supervised learning"
       ]
     },
     {
       "a": "amir-bar",
       "b": "quentin-garrido",
-      "paperCount": 1,
+      "paperCount": 2,
       "papers": [
-        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures"
+        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
+        "A Cookbook of Self-Supervised Learning"
       ]
     },
     {
       "a": "min-lin",
       "b": "xinyi-wan",
-      "paperCount": 1,
+      "paperCount": 7,
       "papers": [
-        "Revisiting Parameter Server in LLM Post-Training"
+        "Revisiting Parameter Server in LLM Post-Training",
+        "PipeOffload: Improving Scalability of Pipeline Parallelism with Memory Optimization",
+        "Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs",
+        "Balancing Pipeline Parallelism with Vocabulary Parallelism",
+        "Zero Bubble (Almost) Pipeline Parallelism",
+        "Pipeline Parallelism with Controllable Memory",
+        "Zero Bubble Pipeline Parallelism"
       ]
     },
     {
@@ -486,24 +546,9 @@
       ]
     },
     {
-      "a": "pascale-fung",
-      "b": "willy-chung",
-      "paperCount": 8,
-      "papers": [
-        "Action100M: A Large-scale Video Action Dataset",
-        "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language",
-        "Planning with Reasoning using Vision Language World Model",
-        "Embodied AI Agents: Modeling the World",
-        "WorldPrediction: A Benchmark for High-level World Modeling and Long-horizon Procedural Planning",
-        "Contrastive Learning for Inference in Dialogue",
-        "InstructTODS: Large Language Models for End-to-End Task-Oriented Dialogue Systems",
-        "PICK: Polished & Informed Candidate Scoring for Knowledge-Grounded Dialogue Systems"
-      ]
-    },
-    {
       "a": "delong-chen",
       "b": "pascale-fung",
-      "paperCount": 9,
+      "paperCount": 10,
       "papers": [
         "Action100M: A Large-scale Video Action Dataset",
         "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language",
@@ -513,7 +558,39 @@
         "What Makes for Good Image Captions?",
         "High-Dimension Human Value Representation in Large Language Models",
         "Measuring Political Bias in Large Language Models: What Is Said and How It Is Said",
-        "Subobject-level Image Tokenization"
+        "Subobject-level Image Tokenization",
+        "Survey of Hallucination in Natural Language Generation"
+      ]
+    },
+    {
+      "a": "pascale-fung",
+      "b": "willy-chung",
+      "paperCount": 16,
+      "papers": [
+        "Action100M: A Large-scale Video Action Dataset",
+        "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language",
+        "Planning with Reasoning using Vision Language World Model",
+        "Embodied AI Agents: Modeling the World",
+        "WorldPrediction: A Benchmark for High-level World Modeling and Long-horizon Procedural Planning",
+        "Contrastive Learning for Inference in Dialogue",
+        "InstructTODS: Large Language Models for End-to-End Task-Oriented Dialogue Systems",
+        "PICK: Polished & Informed Candidate Scoring for Knowledge-Grounded Dialogue Systems",
+        "Cross-Lingual Cross-Age Adaptation for Low-Resource Elderly Speech Emotion Recognition",
+        "Instruct-Align: Teaching Novel Languages with to LLMs through Alignment-based Cross-Lingual Instruction",
+        "Cross-Lingual Cross-Age Group Adaptation for Low-Resource Elderly Speech Emotion Recognition",
+        "InstructAlign: High-and-Low Resource Language Alignment via Continual Crosslingual Instruction Tuning",
+        "Learn What NOT to Learn: Towards Generative Safety in Chatbots",
+        "A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity",
+        "Every picture tells a story: Image-grounded controllable stylistic story generation",
+        "Clozer”:\" Adaptable Data Augmentation for Cloze-style Reading Comprehension"
+      ]
+    },
+    {
+      "a": "delong-chen",
+      "b": "yann-lecun",
+      "paperCount": 1,
+      "papers": [
+        "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language"
       ]
     },
     {
@@ -525,27 +602,11 @@
       ]
     },
     {
-      "a": "delong-chen",
-      "b": "yann-lecun",
-      "paperCount": 1,
-      "papers": [
-        "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language"
-      ]
-    },
-    {
       "a": "pascale-fung",
       "b": "yann-lecun",
       "paperCount": 1,
       "papers": [
         "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language"
-      ]
-    },
-    {
-      "a": "amir-bar",
-      "b": "delong-chen",
-      "paperCount": 1,
-      "papers": [
-        "TV2TV: A Unified Framework for Interleaved Language and Video Generation"
       ]
     },
     {
@@ -557,11 +618,11 @@
       ]
     },
     {
-      "a": "basile-terver",
-      "b": "willy-chung",
+      "a": "amir-bar",
+      "b": "delong-chen",
       "paperCount": 1,
       "papers": [
-        "Embodied AI Agents: Modeling the World"
+        "TV2TV: A Unified Framework for Interleaved Language and Video Generation"
       ]
     },
     {
@@ -575,6 +636,14 @@
     {
       "a": "basile-terver",
       "b": "delong-chen",
+      "paperCount": 1,
+      "papers": [
+        "Embodied AI Agents: Modeling the World"
+      ]
+    },
+    {
+      "a": "basile-terver",
+      "b": "willy-chung",
       "paperCount": 1,
       "papers": [
         "Embodied AI Agents: Modeling the World"
@@ -592,12 +661,17 @@
     {
       "a": "adrien-bardes",
       "b": "quentin-garrido",
-      "paperCount": 4,
+      "paperCount": 9,
       "papers": [
         "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
         "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
+        "An Introduction to Vision-Language Modeling",
         "Learning and Leveraging World Models in Visual Representation Learning",
-        "Revisiting Feature Prediction for Learning Visual Representations from Video"
+        "Revisiting Feature Prediction for Learning Visual Representations from Video",
+        "A Cookbook of Self-Supervised Learning",
+        "Guillotine Regularization: Improving Deep Networks Generalization by Removing their Head",
+        "Guillotine Regularization: Why removing layers is needed to improve generalization in Self-Supervised Learning",
+        "On the duality between contrastive and non-contrastive self-supervised learning"
       ]
     },
     {
@@ -614,6 +688,14 @@
       "paperCount": 1,
       "papers": [
         "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
+      ]
+    },
+    {
+      "a": "chao-du",
+      "b": "xinyi-wan",
+      "paperCount": 1,
+      "papers": [
+        "Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs"
       ]
     },
     {
@@ -662,11 +744,36 @@
       ]
     },
     {
+      "a": "jihan-yang",
+      "b": "sanghyun-woo",
+      "paperCount": 1,
+      "papers": [
+        "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
+      ]
+    },
+    {
       "a": "adithya-iyer",
       "b": "sanghyun-woo",
       "paperCount": 1,
       "papers": [
         "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
+      ]
+    },
+    {
+      "a": "sanghyun-woo",
+      "b": "yann-lecun",
+      "paperCount": 1,
+      "papers": [
+        "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
+      ]
+    },
+    {
+      "a": "saining-xie",
+      "b": "sanghyun-woo",
+      "paperCount": 2,
+      "papers": [
+        "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
+        "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders"
       ]
     },
     {
@@ -694,36 +801,12 @@
       ]
     },
     {
-      "a": "jihan-yang",
-      "b": "sanghyun-woo",
-      "paperCount": 1,
-      "papers": [
-        "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
-      ]
-    },
-    {
-      "a": "sanghyun-woo",
-      "b": "yann-lecun",
-      "paperCount": 1,
-      "papers": [
-        "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
-      ]
-    },
-    {
-      "a": "saining-xie",
-      "b": "sanghyun-woo",
-      "paperCount": 2,
-      "papers": [
-        "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
-        "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders"
-      ]
-    },
-    {
       "a": "li-jing",
       "b": "michael-rabbat",
-      "paperCount": 1,
+      "paperCount": 2,
       "papers": [
-        "Contrastive Positive Unlabeled Learning"
+        "Contrastive Positive Unlabeled Learning",
+        "Positive Unlabeled Contrastive Learning"
       ]
     },
     {
@@ -738,17 +821,19 @@
     {
       "a": "bingyi-kang",
       "b": "min-lin",
-      "paperCount": 1,
+      "paperCount": 2,
       "papers": [
-        "Bag of Tricks for Training Data Extraction from Language Models"
+        "Bag of Tricks for Training Data Extraction from Language Models",
+        "Mutual Information Regularized Offline Reinforcement Learning"
       ]
     },
     {
       "a": "michael-rabbat",
       "b": "quentin-duval",
-      "paperCount": 2,
+      "paperCount": 3,
       "papers": [
         "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+        "The Hidden Uniform Cluster Prior in Self-Supervised Learning",
         "The Diashow Paradox: Stronger 3D-Aware Representations Emerge from Image Sets, Not Videos Anonymous ICCV submission"
       ]
     },
@@ -770,7 +855,16 @@
       ]
     },
     {
-      "a": "david-fan",
+      "a": "bingyi-kang",
+      "b": "saining-xie",
+      "paperCount": 2,
+      "papers": [
+        "Rethinking Class-Balanced Methods for Long-Tailed Visual Recognition from a Domain Adaptation Perspective",
+        "Decoupling Representation and Classifier for Long-Tailed Recognition"
+      ]
+    },
+    {
+      "a": "adrien-bardes",
       "b": "quentin-duval",
       "paperCount": 1,
       "papers": [
@@ -778,7 +872,7 @@
       ]
     },
     {
-      "a": "adrien-bardes",
+      "a": "david-fan",
       "b": "quentin-duval",
       "paperCount": 1,
       "papers": [

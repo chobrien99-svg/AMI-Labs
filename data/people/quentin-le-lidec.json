@@ -14,7 +14,9 @@
     "twitter": "https://x.com/quentinlldc",
     "website": "https://quentinll.github.io/"
   },
-  "semanticScholarId": "2133323688",
+  "semanticScholarId": [
+    "2133323688"
+  ],
   "careerHistory": [],
   "reportsTo": "pascale-fung",
   "reports": [],
@@ -127,7 +129,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.19312",
-      "citationCount": 116,
+      "citationCount": 121,
       "coAuthors": [
         {
           "slug": "yann-lecun",
@@ -153,7 +155,7 @@
       "year": 2026,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/bed6ecff103c1a6f3a516d9b9d4847be8aff5294",
-      "citationCount": 4,
+      "citationCount": 5,
       "coAuthors": [
         {
           "slug": "yann-lecun",
@@ -254,6 +256,285 @@
           "name": "J. Carpentier"
         }
       ]
+    },
+    {
+      "paperId": "76d2cb7f08cbe125d86ca3afb428c3473cf2ae95",
+      "title": "End-to-End and Highly-Efficient Differentiable Simulation for Robotics",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2409.07107",
+      "citationCount": 14,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Louis Montaut"
+        },
+        {
+          "slug": null,
+          "name": "Y. Mont-Marin"
+        },
+        {
+          "slug": null,
+          "name": "J. Carpentier"
+        }
+      ]
+    },
+    {
+      "paperId": "155b480a52c1ef5bed03a2d1f78765767c0c5987",
+      "title": "GJK++: Leveraging Acceleration Methods for Faster Collision Detection",
+      "year": 2024,
+      "venue": "IEEE Transactions on robotics",
+      "url": "https://doi.org/10.1109/TRO.2024.3386370",
+      "citationCount": 32,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Louis Montaut"
+        },
+        {
+          "slug": null,
+          "name": "Vladimír Petrík"
+        },
+        {
+          "slug": null,
+          "name": "Josef Sivic"
+        },
+        {
+          "slug": null,
+          "name": "Justin Carpentier"
+        }
+      ]
+    },
+    {
+      "paperId": "fe649a1abaed4836a0148f1903a2b7a015de5012",
+      "title": "Differentiable optimization for robotics: simulation, learning and control. (Optimisation différentiable pour la robotique: simulation, apprentissage et contrôle)",
+      "year": 2024,
+      "venue": null,
+      "url": "https://doi.org/10.70675/a275b5f4z31a4z4fb2z92fez14f53226db61",
+      "citationCount": 0,
+      "coAuthors": []
+    },
+    {
+      "paperId": "dfe007b6fc8f97aebaf6000341a868c55225c777",
+      "title": "From Compliant to Rigid Contact Simulation: a Unified and Efficient Approach",
+      "year": 2024,
+      "venue": "Robotics: Science and Systems Conference",
+      "url": "https://doi.org/10.48550/arXiv.2405.17020",
+      "citationCount": 22,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Justin Carpentier"
+        },
+        {
+          "slug": null,
+          "name": "Louis Montaut"
+        }
+      ]
+    },
+    {
+      "paperId": "7f82a6339a1302ecc84c5bad5528ca8a9a0582bf",
+      "title": "Contact Models in Robotics: A Comparative Analysis",
+      "year": 2023,
+      "venue": "IEEE Transactions on robotics",
+      "url": "https://doi.org/10.1109/TRO.2024.3434208",
+      "citationCount": 66,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Wilson Jallet"
+        },
+        {
+          "slug": null,
+          "name": "Louis Montaut"
+        },
+        {
+          "slug": null,
+          "name": "I. Laptev"
+        },
+        {
+          "slug": null,
+          "name": "C. Schmid"
+        },
+        {
+          "slug": null,
+          "name": "Justin Carpentier"
+        }
+      ]
+    },
+    {
+      "paperId": "b3b8c4b3c63486084c745da90693341ec2bc930f",
+      "title": "Enforcing the consensus between Trajectory Optimization and Policy Learning for precise robot control",
+      "year": 2022,
+      "venue": "IEEE International Conference on Robotics and Automation",
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160387",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Wilson Jallet"
+        },
+        {
+          "slug": null,
+          "name": "I. Laptev"
+        },
+        {
+          "slug": null,
+          "name": "C. Schmid"
+        },
+        {
+          "slug": null,
+          "name": "Justin Carpentier"
+        }
+      ]
+    },
+    {
+      "paperId": "c2156c76b102a15b2b83900cce21874026440119",
+      "title": "Differentiable Collision Detection: a Randomized Smoothing Approach",
+      "year": 2022,
+      "venue": "IEEE International Conference on Robotics and Automation",
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160251",
+      "citationCount": 47,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Louis Montaut"
+        },
+        {
+          "slug": null,
+          "name": "Antoine Bambade"
+        },
+        {
+          "slug": null,
+          "name": "V. Petrík"
+        },
+        {
+          "slug": null,
+          "name": "Josef Sivic"
+        },
+        {
+          "slug": null,
+          "name": "Justin Carpentier"
+        }
+      ]
+    },
+    {
+      "paperId": "3915cf02d5419cf9a630e3fd7d5389cd24794244",
+      "title": "Augmenting differentiable physics with randomized smoothing",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2206.11884",
+      "citationCount": 5,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Louis Montaut"
+        },
+        {
+          "slug": null,
+          "name": "C. Schmid"
+        },
+        {
+          "slug": null,
+          "name": "I. Laptev"
+        },
+        {
+          "slug": null,
+          "name": "Justin Carpentier"
+        }
+      ]
+    },
+    {
+      "paperId": "cf929aee6ef8a4092290badb58328bc79286bba0",
+      "title": "Collision Detection Accelerated: An Optimization Perspective",
+      "year": 2022,
+      "venue": "Robotics: Science and Systems Conference",
+      "url": "https://doi.org/10.48550/arXiv.2205.09663",
+      "citationCount": 31,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Louis Montaut"
+        },
+        {
+          "slug": null,
+          "name": "Josef Sivic"
+        },
+        {
+          "slug": null,
+          "name": "Justin Carpentier"
+        }
+      ]
+    },
+    {
+      "paperId": "bbae3152eba0608df85d9a37eed90a83157dacda",
+      "title": "Leveraging Randomized Smoothing for Optimal Control of Nonsmooth Dynamical Systems",
+      "year": 2022,
+      "venue": "Nonlinear Analysis. Hybrid Systems",
+      "url": "https://doi.org/10.48550/arXiv.2203.03986",
+      "citationCount": 30,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Louis Montaut"
+        },
+        {
+          "slug": null,
+          "name": "C. Schmid"
+        },
+        {
+          "slug": null,
+          "name": "I. Laptev"
+        },
+        {
+          "slug": null,
+          "name": "Justin Carpentier"
+        }
+      ]
+    },
+    {
+      "paperId": "6c1f449ef6d45116092d9c9370fd55a642a0902c",
+      "title": "Differentiable Rendering with Perturbed Optimizers",
+      "year": 2021,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/6c1f449ef6d45116092d9c9370fd55a642a0902c",
+      "citationCount": 18,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "I. Laptev"
+        },
+        {
+          "slug": null,
+          "name": "C. Schmid"
+        },
+        {
+          "slug": null,
+          "name": "Justin Carpentier"
+        }
+      ]
+    },
+    {
+      "paperId": "7b95fe26f6a0287ed7aaaf6e8567b61a49829c29",
+      "title": "End-to-End and Highly-Eﬀicient Differentiable Simulation for Robotics",
+      "year": null,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/7b95fe26f6a0287ed7aaaf6e8567b61a49829c29",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Louis Montaut"
+        },
+        {
+          "slug": null,
+          "name": "Y. Mont-Marin"
+        },
+        {
+          "slug": null,
+          "name": "J. Carpentier"
+        }
+      ]
     }
   ],
   "topPublications": [
@@ -281,7 +562,7 @@
     {
       "title": "End-to-End and Highly-Efficient Differentiable Simulation for Robotics",
       "year": 2024,
-      "citationCount": 13,
+      "citationCount": 14,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2409.07107"
     },
@@ -324,6 +605,14 @@
     ],
     "externalCoAuthors": [
       {
+        "name": "Justin Carpentier",
+        "papers": 10
+      },
+      {
+        "name": "Louis Montaut",
+        "papers": 10
+      },
+      {
         "name": "Lucas Maes",
         "papers": 5
       },
@@ -332,7 +621,23 @@
         "papers": 5
       },
       {
+        "name": "I. Laptev",
+        "papers": 5
+      },
+      {
+        "name": "C. Schmid",
+        "papers": 5
+      },
+      {
         "name": "Damien Scieur",
+        "papers": 3
+      },
+      {
+        "name": "J. Carpentier",
+        "papers": 3
+      },
+      {
+        "name": "Josef Sivic",
         "papers": 3
       },
       {
@@ -345,6 +650,14 @@
       },
       {
         "name": "Dan Haramati",
+        "papers": 2
+      },
+      {
+        "name": "Y. Mont-Marin",
+        "papers": 2
+      },
+      {
+        "name": "Wilson Jallet",
         "papers": 2
       },
       {
@@ -376,10 +689,6 @@
         "papers": 1
       },
       {
-        "name": "Justin Carpentier",
-        "papers": 1
-      },
-      {
         "name": "Matthieu Destrade",
         "papers": 1
       },
@@ -396,11 +705,15 @@
         "papers": 1
       },
       {
-        "name": "Louis Montaut",
+        "name": "Vladimír Petrík",
         "papers": 1
       },
       {
-        "name": "J. Carpentier",
+        "name": "Antoine Bambade",
+        "papers": 1
+      },
+      {
+        "name": "V. Petrík",
         "papers": 1
       }
     ],

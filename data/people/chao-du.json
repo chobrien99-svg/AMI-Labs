@@ -13,7 +13,9 @@
     "twitter": "https://twitter.com/duchao0726",
     "website": "https://duchao0726.github.io/"
   },
-  "semanticScholarId": "2325201427",
+  "semanticScholarId": [
+    "2325201427"
+  ],
   "careerHistory": [
     {
       "org": "Sea AI Lab (SAIL)",
@@ -69,7 +71,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2510.26788",
-      "citationCount": 51,
+      "citationCount": 52,
       "coAuthors": [
         {
           "slug": "min-lin",
@@ -307,7 +309,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2505.20259",
-      "citationCount": 13,
+      "citationCount": 14,
       "coAuthors": [
         {
           "slug": "min-lin",
@@ -358,6 +360,1276 @@
         {
           "slug": null,
           "name": "Wenhu Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "44c733e11c1de985f9cc31102a7e3d1a284421a2",
+      "title": "BanditSpec: Adaptive Speculative Decoding via Bandit Algorithms",
+      "year": 2025,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2505.15141",
+      "citationCount": 13,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yunlong Hou"
+        },
+        {
+          "slug": null,
+          "name": "Fengzhuo Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Cunxiao Du"
+        },
+        {
+          "slug": null,
+          "name": "Xuan Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Jiachun Pan"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Vincent Y. F. Tan"
+        },
+        {
+          "slug": null,
+          "name": "Zhuoran Yang"
+        }
+      ]
+    },
+    {
+      "paperId": "682e200b367a63eb5444d5bb1e86eb797f5215ed",
+      "title": "Towards Learning on Vertically Partitioned Data with Distributed Differential Privacy",
+      "year": 2025,
+      "venue": "IEEE International Conference on Data Engineering",
+      "url": "https://doi.org/10.1109/ICDE65448.2025.00161",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ergute Bao"
+        },
+        {
+          "slug": null,
+          "name": "Fei Wei"
+        },
+        {
+          "slug": null,
+          "name": "Yin Yang"
+        },
+        {
+          "slug": null,
+          "name": "Xiaokui Xiao"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        }
+      ]
+    },
+    {
+      "paperId": "9102b58c727577172e6c0cf53c9b928b752a33aa",
+      "title": "Optimizing Anytime Reasoning via Budget Relative Policy Optimization",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2505.13438",
+      "citationCount": 26,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Penghui Qi"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Yan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Wee Sun Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "0bcc3208ee89b533fbe7e3bbed00b6ac2ef68b09",
+      "title": "FlowReasoner: Reinforcing Query-Level Meta-Agents",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2504.15257",
+      "citationCount": 48,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Hongcheng Gao"
+        },
+        {
+          "slug": null,
+          "name": "Yue Liu"
+        },
+        {
+          "slug": null,
+          "name": "Yufei He"
+        },
+        {
+          "slug": null,
+          "name": "Longxu Dou"
+        },
+        {
+          "slug": null,
+          "name": "Zhijie Deng"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Hooi"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        }
+      ]
+    },
+    {
+      "paperId": "de23d38bc2604dcf334dcc46aff217eb6bcd1fe1",
+      "title": "Understanding R1-Zero-Like Training: A Critical Perspective",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2503.20783",
+      "citationCount": 1213,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Yan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Changyu Chen"
+        },
+        {
+          "slug": null,
+          "name": "Wenjun Li"
+        },
+        {
+          "slug": null,
+          "name": "Penghui Qi"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Wee Sun Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "713ee89befe350a88e3de0c0183fca27284ca5ef",
+      "title": "Error Analyses of Auto-Regressive Video Diffusion Models: A Unified Framework",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2503.10704",
+      "citationCount": 19,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jing Wang"
+        },
+        {
+          "slug": null,
+          "name": "Fengzhuo Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Xiaoli Li"
+        },
+        {
+          "slug": null,
+          "name": "Vincent Y. F. Tan"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Aixin Sun"
+        },
+        {
+          "slug": null,
+          "name": "Zhuoran Yang"
+        }
+      ]
+    },
+    {
+      "paperId": "f173c5ecd081f24d80d78a1e318c0bd85c35a5d6",
+      "title": "LongSpec: Long-Context Lossless Speculative Decoding with Efficient Drafting and Verification",
+      "year": 2025,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.18653/v1/2026.acl-long.83",
+      "citationCount": 14,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Penghui Yang"
+        },
+        {
+          "slug": null,
+          "name": "Cunxiao Du"
+        },
+        {
+          "slug": null,
+          "name": "Fengzhuo Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Haonan Wang"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Bo An"
+        }
+      ]
+    },
+    {
+      "paperId": "eee206d70a225d5726a0421263717049727253f6",
+      "title": "Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2502.12982",
+      "citationCount": 19,
+      "coAuthors": [
+        {
+          "slug": "xinyi-wan",
+          "name": "Xinyi Wan"
+        },
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Longxu Dou"
+        },
+        {
+          "slug": null,
+          "name": "Qian Liu"
+        },
+        {
+          "slug": null,
+          "name": "Fan Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Changyu Chen"
+        },
+        {
+          "slug": null,
+          "name": "Zili Wang"
+        },
+        {
+          "slug": null,
+          "name": "Ziqi Jin"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Yan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Tongyao Zhu"
+        },
+        {
+          "slug": null,
+          "name": "Cunxiao Du"
+        },
+        {
+          "slug": null,
+          "name": "Penghui Yang"
+        },
+        {
+          "slug": null,
+          "name": "Haonan Wang"
+        },
+        {
+          "slug": null,
+          "name": "Jiaheng Liu"
+        },
+        {
+          "slug": null,
+          "name": "Yongchi Zhao"
+        },
+        {
+          "slug": null,
+          "name": "Xiachong Feng"
+        },
+        {
+          "slug": null,
+          "name": "Xin Mao"
+        },
+        {
+          "slug": null,
+          "name": "Man Tsung Yeung"
+        },
+        {
+          "slug": null,
+          "name": "Kunat Pipatanakul"
+        },
+        {
+          "slug": null,
+          "name": "Fajri Koto"
+        },
+        {
+          "slug": null,
+          "name": "M. Thu"
+        },
+        {
+          "slug": null,
+          "name": "Hynek Kydl'ivcek"
+        },
+        {
+          "slug": null,
+          "name": "Ze-Xuan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Qunshu Lin"
+        },
+        {
+          "slug": null,
+          "name": "Sittipong Sripaisarnmongkol"
+        },
+        {
+          "slug": null,
+          "name": "Kridtaphad Sae-Khow"
+        },
+        {
+          "slug": null,
+          "name": "Nirattisai Thongchim"
+        },
+        {
+          "slug": null,
+          "name": "Taechawat Konkaew"
+        },
+        {
+          "slug": null,
+          "name": "Narong Borijindargoon"
+        },
+        {
+          "slug": null,
+          "name": "Anh Dao"
+        },
+        {
+          "slug": null,
+          "name": "Matichon Maneegard"
+        },
+        {
+          "slug": null,
+          "name": "Phakphum Artkaew"
+        },
+        {
+          "slug": null,
+          "name": "Zheng-Xin Yong"
+        },
+        {
+          "slug": null,
+          "name": "Quan Nguyen"
+        },
+        {
+          "slug": null,
+          "name": "Wannaphong Phatthiyaphaibun"
+        },
+        {
+          "slug": null,
+          "name": "Hoang H. Tran"
+        },
+        {
+          "slug": null,
+          "name": "Mike Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Shi-qiang Chen"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Wei Lu"
+        }
+      ]
+    },
+    {
+      "paperId": "7bb70c705fe877973650929afceb3d8c0dedce74",
+      "title": "Improving Your Model Ranking on Chatbot Arena by Vote Rigging",
+      "year": 2025,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2501.17858",
+      "citationCount": 15,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Rui Min"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Qian Liu"
+        },
+        {
+          "slug": null,
+          "name": "Minhao Cheng"
+        }
+      ]
+    },
+    {
+      "paperId": "32ba79c6efb9cc16183f3df79c9f29877c049b9e",
+      "title": "Orient Anything: Learning Robust Object Orientation Estimation from Rendering 3D Models",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2412.18605",
+      "citationCount": 50,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Zehan Wang"
+        },
+        {
+          "slug": null,
+          "name": "Ziang Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Hengshuang Zhao"
+        },
+        {
+          "slug": null,
+          "name": "Zhou Zhao"
+        }
+      ]
+    },
+    {
+      "paperId": "e7831297d028f75191a7d13eaae79e5579600957",
+      "title": "Real-time Identity Defenses against Malicious Personalization of Diffusion Models",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2412.09844",
+      "citationCount": 4,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Hanzhong Guo"
+        },
+        {
+          "slug": null,
+          "name": "Shen Nie"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Hao Sun"
+        },
+        {
+          "slug": null,
+          "name": "Chongxuan Li"
+        }
+      ]
+    },
+    {
+      "paperId": "1fc9a4dacd756a8c0b5f1f3a19d361cdd05e3f52",
+      "title": "When Precision Meets Position: BFloat16 Breaks Down RoPE in Long-Context Training",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2411.13476",
+      "citationCount": 17,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Haonan Wang"
+        },
+        {
+          "slug": null,
+          "name": "Qian Liu"
+        },
+        {
+          "slug": null,
+          "name": "Tongyao Zhu"
+        },
+        {
+          "slug": null,
+          "name": "Cunxiao Du"
+        },
+        {
+          "slug": null,
+          "name": "Kenji Kawaguchi"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        }
+      ]
+    },
+    {
+      "paperId": "8430ea2921172c7c07e5286f19ffdf4a43d1d4b0",
+      "title": "Sample-Efficient Alignment for LLMs",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2411.01493",
+      "citationCount": 15,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Yan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Changyu Chen"
+        },
+        {
+          "slug": null,
+          "name": "Wee Sun Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "b5c4c2f88fac2ca41854bbe8ae9740b9b03a0d3a",
+      "title": "Scaling up Masked Diffusion Models on Text",
+      "year": 2024,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2410.18514",
+      "citationCount": 191,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Shen Nie"
+        },
+        {
+          "slug": null,
+          "name": "Fengqi Zhu"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Qian Liu"
+        },
+        {
+          "slug": null,
+          "name": "Guangtao Zeng"
+        },
+        {
+          "slug": null,
+          "name": "Chongxuan Li"
+        }
+      ]
+    },
+    {
+      "paperId": "dd1643f983aaa8b41a1bd41756d17c64a89a47be",
+      "title": "LightTransfer: Your Long-Context LLM is Secretly a Hybrid Model with Effortless Adaptation",
+      "year": 2024,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://www.semanticscholar.org/paper/dd1643f983aaa8b41a1bd41756d17c64a89a47be",
+      "citationCount": 12,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Xuan Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Cunxiao Du"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Wei Gao"
+        }
+      ]
+    },
+    {
+      "paperId": "490766d1570d97f8f945bb626779e16850013035",
+      "title": "Meta-Unlearning on Diffusion Models: Preventing Relearning Unlearned Concepts",
+      "year": 2024,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV51701.2025.00206",
+      "citationCount": 44,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Hongcheng Gao"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Taihang Hu"
+        },
+        {
+          "slug": null,
+          "name": "Zhijie Deng"
+        }
+      ]
+    },
+    {
+      "paperId": "f66ba22d14a9833ed502c6fbfd884232f44fdc87",
+      "title": "Improving Long-Text Alignment for Text-to-Image Diffusion Models",
+      "year": 2024,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2410.11817",
+      "citationCount": 20,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Luping Liu"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Zehan Wang"
+        },
+        {
+          "slug": null,
+          "name": "Chongxuan Li"
+        },
+        {
+          "slug": null,
+          "name": "Dong Xu"
+        }
+      ]
+    },
+    {
+      "paperId": "5eb113b55526fd73249c47bfb544b9db959bdc22",
+      "title": "Denial-of-Service Poisoning Attacks against Large Language Models",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2410.10760",
+      "citationCount": 37,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Kuofeng Gao"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Yong Yang"
+        },
+        {
+          "slug": null,
+          "name": "Shu-Tao Xia"
+        }
+      ]
+    },
+    {
+      "paperId": "c4b1a89de59602a3a2728f2705be6dcd4bfaa77f",
+      "title": "When Attention Sink Emerges in Language Models: An Empirical View",
+      "year": 2024,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2410.10781",
+      "citationCount": 194,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Xiangming Gu"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Qian Liu"
+        },
+        {
+          "slug": null,
+          "name": "Fengzhuo Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Cunxiao Du"
+        },
+        {
+          "slug": null,
+          "name": "Ye Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "3ee7b090c1371801f5e7e7480d2282c1d87b7730",
+      "title": "A Closer Look at Machine Unlearning for Large Language Models",
+      "year": 2024,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2410.08109",
+      "citationCount": 50,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Xiaojian \\ Yuan"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Kejiang Chen"
+        },
+        {
+          "slug": null,
+          "name": "Weiming Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "9eb6cd5a12b37b717061f0060987492e82fecba6",
+      "title": "Cheating Automatic LLM Benchmarks: Null Models Achieve High Win Rates",
+      "year": 2024,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2410.07137",
+      "citationCount": 43,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Xiaosen Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Qian Liu"
+        },
+        {
+          "slug": null,
+          "name": "Jing Jiang"
+        }
+      ]
+    },
+    {
+      "paperId": "a86fd3b9e30262095dfa4bb17c2fccbd819a9a63",
+      "title": "Revisiting Backdoor Attacks against Large Vision-Language Models",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2406.18844",
+      "citationCount": 31,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Siyuan Liang"
+        },
+        {
+          "slug": null,
+          "name": "Jiawei Liang"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Aishan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Ee-Chien Chang"
+        },
+        {
+          "slug": null,
+          "name": "Xiaochun Cao"
+        }
+      ]
+    },
+    {
+      "paperId": "d3dd08e86a6c9a175385a3b4d282c5c754f4f51d",
+      "title": "Bootstrapping Language Models with DPO Implicit Rewards",
+      "year": 2024,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2406.09760",
+      "citationCount": 56,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Changyu Chen"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Yan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Qian Liu"
+        },
+        {
+          "slug": null,
+          "name": "Arunesh Sinha"
+        },
+        {
+          "slug": null,
+          "name": "Pradeep Varakantham"
+        }
+      ]
+    },
+    {
+      "paperId": "3fb26c0cf930b04635540e4815c4b8ca0581155c",
+      "title": "Chain of Preference Optimization: Improving Chain-of-Thought Reasoning in LLMs",
+      "year": 2024,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2406.09136",
+      "citationCount": 164,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Xuan Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Qian Liu"
+        },
+        {
+          "slug": null,
+          "name": "Wei Gao"
+        }
+      ]
+    },
+    {
+      "paperId": "3637afb75e5b83803aff08a3ffdd35b02fa93775",
+      "title": "Improved Few-Shot Jailbreaking Can Circumvent Aligned Language Models and Their Defenses",
+      "year": 2024,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2406.01288",
+      "citationCount": 92,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Xiaosen Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Qian Liu"
+        },
+        {
+          "slug": null,
+          "name": "Jing Jiang"
+        }
+      ]
+    },
+    {
+      "paperId": "5b5601a55d0acb6a341149c22db982412082608c",
+      "title": "Improved Techniques for Optimization-Based Jailbreaking on Large Language Models",
+      "year": 2024,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2405.21018",
+      "citationCount": 126,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Xiaojun Jia"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Yihao Huang"
+        },
+        {
+          "slug": null,
+          "name": "Jindong Gu"
+        },
+        {
+          "slug": null,
+          "name": "Yang Liu"
+        },
+        {
+          "slug": null,
+          "name": "Xiaochun Cao"
+        }
+      ]
+    },
+    {
+      "paperId": "bd859c34e172d6cb59d0a07e37ebdc10a4d5dd21",
+      "title": "Graph Diffusion Policy Optimization",
+      "year": 2024,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2402.16302",
+      "citationCount": 23,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Yijing Liu"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Chongxuan Li"
+        },
+        {
+          "slug": null,
+          "name": "Wei Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "8287fbf2c520f7604aae19a590ea9494d356aae7",
+      "title": "Purifying Large Language Models by Ensembling a Small Language Model",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2402.14845",
+      "citationCount": 32,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Tianlin Li"
+        },
+        {
+          "slug": null,
+          "name": "Qian Liu"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Qing Guo"
+        },
+        {
+          "slug": null,
+          "name": "Yang Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "9f12a20f62238f5206520e52e83e2ccd1da17f03",
+      "title": "Test-Time Backdoor Attacks on Multimodal Large Language Models",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2402.08577",
+      "citationCount": 53,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Dong Lu"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Qian Liu"
+        },
+        {
+          "slug": null,
+          "name": "Xianjun Yang"
+        }
+      ]
+    },
+    {
+      "paperId": "b0ada492ba48e85016cbbfd95ec7180fb7e79648",
+      "title": "Agent Smith: A Single Image Can Jailbreak One Million Multimodal LLM Agents Exponentially Fast",
+      "year": 2024,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2402.08567",
+      "citationCount": 152,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Xiangming Gu"
+        },
+        {
+          "slug": null,
+          "name": "Xiaosen Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Qian Liu"
+        },
+        {
+          "slug": null,
+          "name": "Ye Wang"
+        },
+        {
+          "slug": null,
+          "name": "Jing Jiang"
+        }
+      ]
+    },
+    {
+      "paperId": "534363ddcdddb15decdaf9f8e6c277545518f775",
+      "title": "Locality Sensitive Sparse Encoding for Learning World Models Online",
+      "year": 2024,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2401.13034",
+      "citationCount": 17,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Yan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Wee Sun Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "9dad4d7c6da4f3bb56a24742998c76a2629ac9fd",
+      "title": "Benchmarking Large Multimodal Models against Common Corruptions",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2401.11943",
+      "citationCount": 23,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Jiawei Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Yi Ren"
+        },
+        {
+          "slug": null,
+          "name": "Bo Li"
+        }
+      ]
+    },
+    {
+      "paperId": "3f3356d2f6755b7191aec00b0e9f6717ae81ca4b",
+      "title": "Finetuning Text-to-Image Diffusion Models for Fairness",
+      "year": 2023,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2311.07604",
+      "citationCount": 115,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Xudong Shen"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Yongkang Wong"
+        },
+        {
+          "slug": null,
+          "name": "Mohan Kankanhalli"
+        }
+      ]
+    },
+    {
+      "paperId": "ffef0a5be0aeebd4adf4a99a0da62c21ad09ed46",
+      "title": "Intriguing Properties of Data Attribution on Diffusion Models",
+      "year": 2023,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2311.00500",
+      "citationCount": 50,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Xiaosen Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Jing Jiang"
+        }
+      ]
+    },
+    {
+      "paperId": "122a7e217fe70d5a1a44a6e2b67e859d1fc8e28d",
+      "title": "On Memorization in Diffusion Models",
+      "year": 2023,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2310.02664",
+      "citationCount": 126,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Xiangming Gu"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Chongxuan Li"
+        },
+        {
+          "slug": null,
+          "name": "Ye Wang"
         }
       ]
     },
@@ -424,13 +1696,43 @@
           "name": "Shuicheng Yan"
         }
       ]
+    },
+    {
+      "paperId": "28dc53e76ede84d5c108752341c72519ef705405",
+      "title": "Infecting LLM-based Multi-Agents via Self-propagating Adversarial Attacks",
+      "year": null,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/28dc53e76ede84d5c108752341c72519ef705405",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Weicheng Yu"
+        },
+        {
+          "slug": null,
+          "name": "Kai Hu"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Matt Fredrikson"
+        }
+      ]
     }
   ],
   "topPublications": [
     {
       "title": "Defeating the Training-Inference Mismatch via FP16",
       "year": 2025,
-      "citationCount": 51,
+      "citationCount": 52,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2510.26788"
     },
@@ -451,7 +1753,7 @@
     {
       "title": "Error Analyses of Auto-Regressive Video Diffusion Models: A Unified Framework",
       "year": 2025,
-      "citationCount": 18,
+      "citationCount": 19,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2503.10704"
     },
@@ -479,42 +1781,87 @@
       {
         "slug": "min-lin",
         "name": "Min Lin",
-        "sharedPapers": 9
+        "sharedPapers": 36
       },
       {
         "slug": "bingyi-kang",
         "name": "Bingyi Kang",
         "sharedPapers": 2
+      },
+      {
+        "slug": "xinyi-wan",
+        "name": "Xinyi Wan",
+        "sharedPapers": 1
       }
     ],
     "externalCoAuthors": [
       {
         "name": "Tianyu Pang",
-        "papers": 11
+        "papers": 45
+      },
+      {
+        "name": "Qian Liu",
+        "papers": 14
       },
       {
         "name": "Zi-Yan Liu",
+        "papers": 12
+      },
+      {
+        "name": "Wee Sun Lee",
+        "papers": 7
+      },
+      {
+        "name": "Chongxuan Li",
+        "papers": 7
+      },
+      {
+        "name": "Cunxiao Du",
+        "papers": 7
+      },
+      {
+        "name": "Haonan Wang",
         "papers": 6
+      },
+      {
+        "name": "Xiaosen Zheng",
+        "papers": 5
+      },
+      {
+        "name": "Penghui Qi",
+        "papers": 4
       },
       {
         "name": "Xiangxin Zhou",
         "papers": 4
       },
       {
-        "name": "Wee Sun Lee",
+        "name": "Fengzhuo Zhang",
+        "papers": 4
+      },
+      {
+        "name": "Changyu Chen",
+        "papers": 4
+      },
+      {
+        "name": "Jing Jiang",
+        "papers": 4
+      },
+      {
+        "name": "Tongyao Zhu",
         "papers": 3
       },
       {
-        "name": "Haonan Wang",
+        "name": "Xuan Zhang",
         "papers": 3
       },
       {
-        "name": "Penghui Qi",
-        "papers": 2
+        "name": "Xiangming Gu",
+        "papers": 3
       },
       {
-        "name": "Chongxuan Li",
-        "papers": 2
+        "name": "Ye Wang",
+        "papers": 3
       },
       {
         "name": "Liang Wang",
@@ -525,7 +1872,55 @@
         "papers": 2
       },
       {
-        "name": "Qian Liu",
+        "name": "Wei Lu",
+        "papers": 2
+      },
+      {
+        "name": "Kenji Kawaguchi",
+        "papers": 2
+      },
+      {
+        "name": "Vincent Y. F. Tan",
+        "papers": 2
+      },
+      {
+        "name": "Zhuoran Yang",
+        "papers": 2
+      },
+      {
+        "name": "Hongcheng Gao",
+        "papers": 2
+      },
+      {
+        "name": "Longxu Dou",
+        "papers": 2
+      },
+      {
+        "name": "Zhijie Deng",
+        "papers": 2
+      },
+      {
+        "name": "Penghui Yang",
+        "papers": 2
+      },
+      {
+        "name": "Zehan Wang",
+        "papers": 2
+      },
+      {
+        "name": "Shen Nie",
+        "papers": 2
+      },
+      {
+        "name": "Wei Gao",
+        "papers": 2
+      },
+      {
+        "name": "Xiaochun Cao",
+        "papers": 2
+      },
+      {
+        "name": "Yang Liu",
         "papers": 2
       },
       {
@@ -537,10 +1932,6 @@
         "papers": 1
       },
       {
-        "name": "Xiaosen Zheng",
-        "papers": 1
-      },
-      {
         "name": "Renjie Luo",
         "papers": 1
       },
@@ -549,23 +1940,7 @@
         "papers": 1
       },
       {
-        "name": "Wei Lu",
-        "papers": 1
-      },
-      {
         "name": "Guoji Fu",
-        "papers": 1
-      },
-      {
-        "name": "Tongyao Zhu",
-        "papers": 1
-      },
-      {
-        "name": "Cunxiao Du",
-        "papers": 1
-      },
-      {
-        "name": "Kenji Kawaguchi",
         "papers": 1
       },
       {
@@ -597,6 +1972,330 @@
         "papers": 1
       },
       {
+        "name": "Yunlong Hou",
+        "papers": 1
+      },
+      {
+        "name": "Jiachun Pan",
+        "papers": 1
+      },
+      {
+        "name": "Ergute Bao",
+        "papers": 1
+      },
+      {
+        "name": "Fei Wei",
+        "papers": 1
+      },
+      {
+        "name": "Yin Yang",
+        "papers": 1
+      },
+      {
+        "name": "Xiaokui Xiao",
+        "papers": 1
+      },
+      {
+        "name": "Yue Liu",
+        "papers": 1
+      },
+      {
+        "name": "Yufei He",
+        "papers": 1
+      },
+      {
+        "name": "Bryan Hooi",
+        "papers": 1
+      },
+      {
+        "name": "Wenjun Li",
+        "papers": 1
+      },
+      {
+        "name": "Jing Wang",
+        "papers": 1
+      },
+      {
+        "name": "Xiaoli Li",
+        "papers": 1
+      },
+      {
+        "name": "Aixin Sun",
+        "papers": 1
+      },
+      {
+        "name": "Bo An",
+        "papers": 1
+      },
+      {
+        "name": "Fan Zhou",
+        "papers": 1
+      },
+      {
+        "name": "Zili Wang",
+        "papers": 1
+      },
+      {
+        "name": "Ziqi Jin",
+        "papers": 1
+      },
+      {
+        "name": "Jiaheng Liu",
+        "papers": 1
+      },
+      {
+        "name": "Yongchi Zhao",
+        "papers": 1
+      },
+      {
+        "name": "Xiachong Feng",
+        "papers": 1
+      },
+      {
+        "name": "Xin Mao",
+        "papers": 1
+      },
+      {
+        "name": "Man Tsung Yeung",
+        "papers": 1
+      },
+      {
+        "name": "Kunat Pipatanakul",
+        "papers": 1
+      },
+      {
+        "name": "Fajri Koto",
+        "papers": 1
+      },
+      {
+        "name": "M. Thu",
+        "papers": 1
+      },
+      {
+        "name": "Hynek Kydl'ivcek",
+        "papers": 1
+      },
+      {
+        "name": "Ze-Xuan Liu",
+        "papers": 1
+      },
+      {
+        "name": "Qunshu Lin",
+        "papers": 1
+      },
+      {
+        "name": "Sittipong Sripaisarnmongkol",
+        "papers": 1
+      },
+      {
+        "name": "Kridtaphad Sae-Khow",
+        "papers": 1
+      },
+      {
+        "name": "Nirattisai Thongchim",
+        "papers": 1
+      },
+      {
+        "name": "Taechawat Konkaew",
+        "papers": 1
+      },
+      {
+        "name": "Narong Borijindargoon",
+        "papers": 1
+      },
+      {
+        "name": "Anh Dao",
+        "papers": 1
+      },
+      {
+        "name": "Matichon Maneegard",
+        "papers": 1
+      },
+      {
+        "name": "Phakphum Artkaew",
+        "papers": 1
+      },
+      {
+        "name": "Zheng-Xin Yong",
+        "papers": 1
+      },
+      {
+        "name": "Quan Nguyen",
+        "papers": 1
+      },
+      {
+        "name": "Wannaphong Phatthiyaphaibun",
+        "papers": 1
+      },
+      {
+        "name": "Hoang H. Tran",
+        "papers": 1
+      },
+      {
+        "name": "Mike Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Shi-qiang Chen",
+        "papers": 1
+      },
+      {
+        "name": "Rui Min",
+        "papers": 1
+      },
+      {
+        "name": "Minhao Cheng",
+        "papers": 1
+      },
+      {
+        "name": "Ziang Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Hengshuang Zhao",
+        "papers": 1
+      },
+      {
+        "name": "Zhou Zhao",
+        "papers": 1
+      },
+      {
+        "name": "Hanzhong Guo",
+        "papers": 1
+      },
+      {
+        "name": "Hao Sun",
+        "papers": 1
+      },
+      {
+        "name": "Fengqi Zhu",
+        "papers": 1
+      },
+      {
+        "name": "Guangtao Zeng",
+        "papers": 1
+      },
+      {
+        "name": "Taihang Hu",
+        "papers": 1
+      },
+      {
+        "name": "Luping Liu",
+        "papers": 1
+      },
+      {
+        "name": "Dong Xu",
+        "papers": 1
+      },
+      {
+        "name": "Kuofeng Gao",
+        "papers": 1
+      },
+      {
+        "name": "Yong Yang",
+        "papers": 1
+      },
+      {
+        "name": "Shu-Tao Xia",
+        "papers": 1
+      },
+      {
+        "name": "Xiaojian \\ Yuan",
+        "papers": 1
+      },
+      {
+        "name": "Kejiang Chen",
+        "papers": 1
+      },
+      {
+        "name": "Weiming Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Siyuan Liang",
+        "papers": 1
+      },
+      {
+        "name": "Jiawei Liang",
+        "papers": 1
+      },
+      {
+        "name": "Aishan Liu",
+        "papers": 1
+      },
+      {
+        "name": "Ee-Chien Chang",
+        "papers": 1
+      },
+      {
+        "name": "Arunesh Sinha",
+        "papers": 1
+      },
+      {
+        "name": "Pradeep Varakantham",
+        "papers": 1
+      },
+      {
+        "name": "Xiaojun Jia",
+        "papers": 1
+      },
+      {
+        "name": "Yihao Huang",
+        "papers": 1
+      },
+      {
+        "name": "Jindong Gu",
+        "papers": 1
+      },
+      {
+        "name": "Yijing Liu",
+        "papers": 1
+      },
+      {
+        "name": "Wei Chen",
+        "papers": 1
+      },
+      {
+        "name": "Tianlin Li",
+        "papers": 1
+      },
+      {
+        "name": "Qing Guo",
+        "papers": 1
+      },
+      {
+        "name": "Dong Lu",
+        "papers": 1
+      },
+      {
+        "name": "Xianjun Yang",
+        "papers": 1
+      },
+      {
+        "name": "Jiawei Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Yi Ren",
+        "papers": 1
+      },
+      {
+        "name": "Bo Li",
+        "papers": 1
+      },
+      {
+        "name": "Xudong Shen",
+        "papers": 1
+      },
+      {
+        "name": "Yongkang Wong",
+        "papers": 1
+      },
+      {
+        "name": "Mohan Kankanhalli",
+        "papers": 1
+      },
+      {
         "name": "Xiao Ma",
         "papers": 1
       },
@@ -606,6 +2305,18 @@
       },
       {
         "name": "Yan Huang",
+        "papers": 1
+      },
+      {
+        "name": "Weicheng Yu",
+        "papers": 1
+      },
+      {
+        "name": "Kai Hu",
+        "papers": 1
+      },
+      {
+        "name": "Matt Fredrikson",
         "papers": 1
       }
     ],

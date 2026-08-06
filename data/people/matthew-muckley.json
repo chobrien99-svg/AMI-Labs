@@ -14,7 +14,9 @@
     "twitter": "https://x.com/mattmucklm",
     "website": "https://mmuckley.github.io/"
   },
-  "semanticScholarId": "2954796",
+  "semanticScholarId": [
+    "2954796"
+  ],
   "careerHistory": [
     {
       "org": "Meta",
@@ -78,7 +80,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 572,
+      "citationCount": 573,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -246,7 +248,7 @@
       "year": 2024,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2406.16829",
-      "citationCount": 18,
+      "citationCount": 19,
       "coAuthors": [
         {
           "slug": null,
@@ -365,13 +367,1616 @@
           "name": "Brian Karrer"
         }
       ]
+    },
+    {
+      "paperId": "77dc9a78b3a570d9e8c7bd024a1fc306426a9b5a",
+      "title": "Improving Statistical Fidelity for Neural Image Compression with Implicit Local Likelihood Models",
+      "year": 2023,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2301.11189",
+      "citationCount": 130,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Alaaeldin El-Nouby"
+        },
+        {
+          "slug": null,
+          "name": "Karen Ullrich"
+        },
+        {
+          "slug": null,
+          "name": "Hervé Jégou"
+        },
+        {
+          "slug": null,
+          "name": "Jakob Verbeek"
+        }
+      ]
+    },
+    {
+      "paperId": "be7bf23506e9251dfb48700bfca3c20a59be905f",
+      "title": "Deep Learning Reconstruction Enables Prospectively Accelerated Clinical Knee MRI.",
+      "year": 2023,
+      "venue": "Radiology",
+      "url": "https://doi.org/10.1148/radiol.220425",
+      "citationCount": 114,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Patricia M. Johnson"
+        },
+        {
+          "slug": null,
+          "name": "Dana J. Lin"
+        },
+        {
+          "slug": null,
+          "name": "Jure Zbontar"
+        },
+        {
+          "slug": null,
+          "name": "C. L. Zitnick"
+        },
+        {
+          "slug": null,
+          "name": "Anuroop Sriram"
+        },
+        {
+          "slug": null,
+          "name": "J. Babb"
+        },
+        {
+          "slug": null,
+          "name": "Mitchell Kline"
+        },
+        {
+          "slug": null,
+          "name": "G. Ciavarra"
+        },
+        {
+          "slug": null,
+          "name": "Erin F. Alaia"
+        },
+        {
+          "slug": null,
+          "name": "Mohammad M. Samim"
+        },
+        {
+          "slug": null,
+          "name": "William R. Walter"
+        },
+        {
+          "slug": null,
+          "name": "Liz Calderon"
+        },
+        {
+          "slug": null,
+          "name": "T. Pock"
+        },
+        {
+          "slug": null,
+          "name": "D. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "M. Recht"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        }
+      ]
+    },
+    {
+      "paperId": "445c00c6c37d1171ebeefe9edef8aa43fa672465",
+      "title": "Latent Discretization for Continuous-time Sequence Compression",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2212.13659",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ricky T. Q. Chen"
+        },
+        {
+          "slug": null,
+          "name": "Matt Le"
+        },
+        {
+          "slug": null,
+          "name": "Maximilian Nickel"
+        },
+        {
+          "slug": null,
+          "name": "Karen Ullrich"
+        }
+      ]
+    },
+    {
+      "paperId": "dd77326d15fc524de4c0686237c9e9fafe5a511c",
+      "title": "Image Compression with Product Quantized Masked Image Modeling",
+      "year": 2022,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2212.07372",
+      "citationCount": 44,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Alaaeldin El-Nouby"
+        },
+        {
+          "slug": null,
+          "name": "Karen Ullrich"
+        },
+        {
+          "slug": null,
+          "name": "I. Laptev"
+        },
+        {
+          "slug": null,
+          "name": "Jakob Verbeek"
+        },
+        {
+          "slug": null,
+          "name": "Hervé Jégou"
+        }
+      ]
+    },
+    {
+      "paperId": "ac34ff3f547c942066ecc3b90f5db062a40432a8",
+      "title": "Exploring the Acceleration Limits of Deep Learning Variational Network-based Two-dimensional Brain MRI.",
+      "year": 2022,
+      "venue": "Radiology: Artificial Intelligence",
+      "url": "https://doi.org/10.1148/ryai.210313",
+      "citationCount": 35,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Alireza Radmanesh"
+        },
+        {
+          "slug": null,
+          "name": "Tullie Murrell"
+        },
+        {
+          "slug": null,
+          "name": "Emma Lindsey"
+        },
+        {
+          "slug": null,
+          "name": "Anuroop Sriram"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        },
+        {
+          "slug": null,
+          "name": "D. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "Y. Lui"
+        }
+      ]
+    },
+    {
+      "paperId": "3c23bbf381c182c9b89af845ddce6bfc66c8cec7",
+      "title": "On learning adaptive acquisition policies for undersampled multi-coil MRI reconstruction",
+      "year": 2022,
+      "venue": "International Conference on Medical Imaging with Deep Learning",
+      "url": "https://doi.org/10.48550/arXiv.2203.16392",
+      "citationCount": 20,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Timothy C. Bakker"
+        },
+        {
+          "slug": null,
+          "name": "Adriana Romero-Soriano"
+        },
+        {
+          "slug": null,
+          "name": "M. Drozdzal"
+        },
+        {
+          "slug": null,
+          "name": "L. Pineda"
+        }
+      ]
+    },
+    {
+      "paperId": "744702eddf5a0851e1f74af5525666109e730d53",
+      "title": "Evaluation of the Robustness of Learned MR Image Reconstruction to Systematic Deviations Between Training and Test Data for the Models from the fastMRI Challenge",
+      "year": 2021,
+      "venue": "MLMIR@MICCAI",
+      "url": "https://doi.org/10.1007/978-3-030-88552-6_3",
+      "citationCount": 19,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Patricia M. Johnson"
+        },
+        {
+          "slug": null,
+          "name": "Geunu Jeong"
+        },
+        {
+          "slug": null,
+          "name": "K. Hammernik"
+        },
+        {
+          "slug": null,
+          "name": "Jo Schlemper"
+        },
+        {
+          "slug": null,
+          "name": "Chen Qin"
+        },
+        {
+          "slug": null,
+          "name": "J. Duan"
+        },
+        {
+          "slug": null,
+          "name": "D. Rueckert"
+        },
+        {
+          "slug": null,
+          "name": "Jingu Lee"
+        },
+        {
+          "slug": null,
+          "name": "Nicola Pezzotti"
+        },
+        {
+          "slug": null,
+          "name": "E. Weerdt"
+        },
+        {
+          "slug": null,
+          "name": "Sahar Yousefi"
+        },
+        {
+          "slug": null,
+          "name": "M. Elmahdy"
+        },
+        {
+          "slug": null,
+          "name": "J. V. Gemert"
+        },
+        {
+          "slug": null,
+          "name": "C. Schülke"
+        },
+        {
+          "slug": null,
+          "name": "M. Doneva"
+        },
+        {
+          "slug": null,
+          "name": "T. Nielsen"
+        },
+        {
+          "slug": null,
+          "name": "Sergey Kastryulin"
+        },
+        {
+          "slug": null,
+          "name": "B. Lelieveldt"
+        },
+        {
+          "slug": null,
+          "name": "M. Osch"
+        },
+        {
+          "slug": null,
+          "name": "M. Staring"
+        },
+        {
+          "slug": null,
+          "name": "Eric Z. Chen"
+        },
+        {
+          "slug": null,
+          "name": "Puyang Wang"
+        },
+        {
+          "slug": null,
+          "name": "Xiao Chen"
+        },
+        {
+          "slug": null,
+          "name": "Terrence Chen"
+        },
+        {
+          "slug": null,
+          "name": "Vishal M. Patel"
+        },
+        {
+          "slug": null,
+          "name": "Shanhui Sun"
+        },
+        {
+          "slug": null,
+          "name": "Hyungseob Shin"
+        },
+        {
+          "slug": null,
+          "name": "Yohan Jun"
+        },
+        {
+          "slug": null,
+          "name": "Taejoon Eo"
+        },
+        {
+          "slug": null,
+          "name": "Sewon Kim"
+        },
+        {
+          "slug": null,
+          "name": "Taeseong Kim"
+        },
+        {
+          "slug": null,
+          "name": "D. Hwang"
+        },
+        {
+          "slug": null,
+          "name": "P. Putzky"
+        },
+        {
+          "slug": null,
+          "name": "D. Karkalousos"
+        },
+        {
+          "slug": null,
+          "name": "J. Teuwen"
+        },
+        {
+          "slug": null,
+          "name": "Nikita Miriakov"
+        },
+        {
+          "slug": null,
+          "name": "B. Bakker"
+        },
+        {
+          "slug": null,
+          "name": "M. Caan"
+        },
+        {
+          "slug": null,
+          "name": "Max Welling"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        }
+      ]
+    },
+    {
+      "paperId": "3253fcdd6ab3cb43f828ba9f08b974193ad1fe16",
+      "title": "Results of the 2020 fastMRI Challenge for Machine Learning MR Image Reconstruction",
+      "year": 2021,
+      "venue": "IEEE Transactions on Medical Imaging",
+      "url": "https://doi.org/10.1109/TMI.2021.3075856",
+      "citationCount": 301,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Bruno Riemenschneider"
+        },
+        {
+          "slug": null,
+          "name": "A. Radmanesh"
+        },
+        {
+          "slug": null,
+          "name": "Sunwoo Kim"
+        },
+        {
+          "slug": null,
+          "name": "Geunu Jeong"
+        },
+        {
+          "slug": null,
+          "name": "Jingyu Ko"
+        },
+        {
+          "slug": null,
+          "name": "Yohan Jun"
+        },
+        {
+          "slug": null,
+          "name": "Hyungseob Shin"
+        },
+        {
+          "slug": null,
+          "name": "D. Hwang"
+        },
+        {
+          "slug": null,
+          "name": "Mahmoud Mostapha"
+        },
+        {
+          "slug": null,
+          "name": "S. Arberet"
+        },
+        {
+          "slug": null,
+          "name": "D. Nickel"
+        },
+        {
+          "slug": null,
+          "name": "Zaccharie Ramzi"
+        },
+        {
+          "slug": null,
+          "name": "P. Ciuciu"
+        },
+        {
+          "slug": null,
+          "name": "Jean-Luc Starck"
+        },
+        {
+          "slug": null,
+          "name": "J. Teuwen"
+        },
+        {
+          "slug": null,
+          "name": "D. Karkalousos"
+        },
+        {
+          "slug": null,
+          "name": "Chaoping Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Anuroop Sriram"
+        },
+        {
+          "slug": null,
+          "name": "Zhengnan Huang"
+        },
+        {
+          "slug": null,
+          "name": "N. Yakubova"
+        },
+        {
+          "slug": null,
+          "name": "Y. Lui"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        }
+      ]
+    },
+    {
+      "paperId": "63936fe9d0c6c7e87e1f939c926412349ced5716",
+      "title": "COVID-19 Prognosis via Self-Supervised Representation Learning and Multi-Image Prediction",
+      "year": 2021,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/63936fe9d0c6c7e87e1f939c926412349ced5716",
+      "citationCount": 73,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Anuroop Sriram"
+        },
+        {
+          "slug": null,
+          "name": "Koustuv Sinha"
+        },
+        {
+          "slug": null,
+          "name": "Farah E. Shamout"
+        },
+        {
+          "slug": null,
+          "name": "Joelle Pineau"
+        },
+        {
+          "slug": null,
+          "name": "Krzysztof J. Geras"
+        },
+        {
+          "slug": null,
+          "name": "Lea Azour"
+        },
+        {
+          "slug": null,
+          "name": "Y. Aphinyanaphongs"
+        },
+        {
+          "slug": null,
+          "name": "N. Yakubova"
+        },
+        {
+          "slug": null,
+          "name": "W. Moore"
+        }
+      ]
+    },
+    {
+      "paperId": "d232043934430b5cd674b77595d0d6b37211ea50",
+      "title": "COVID-19 Deterioration Prediction via Self-Supervised Representation Learning and Multi-Image Prediction.",
+      "year": 2021,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/d232043934430b5cd674b77595d0d6b37211ea50",
+      "citationCount": 10,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Anuroop Sriram"
+        },
+        {
+          "slug": null,
+          "name": "Koustuv Sinha"
+        },
+        {
+          "slug": null,
+          "name": "Farah E. Shamout"
+        },
+        {
+          "slug": null,
+          "name": "Joelle Pineau"
+        },
+        {
+          "slug": null,
+          "name": "Krzysztof J. Geras"
+        },
+        {
+          "slug": null,
+          "name": "Lea Azour"
+        },
+        {
+          "slug": null,
+          "name": "Y. Aphinyanaphongs"
+        },
+        {
+          "slug": null,
+          "name": "N. Yakubova"
+        },
+        {
+          "slug": null,
+          "name": "W. Moore"
+        }
+      ]
+    },
+    {
+      "paperId": "926fe98caca0db9cef3d065f90b19ace24dedc76",
+      "title": "State-of-the-Art Machine Learning MRI Reconstruction in 2020: Results of the Second fastMRI Challenge",
+      "year": 2020,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/926fe98caca0db9cef3d065f90b19ace24dedc76",
+      "citationCount": 49,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Bruno Riemenschneider"
+        },
+        {
+          "slug": null,
+          "name": "A. Radmanesh"
+        },
+        {
+          "slug": null,
+          "name": "Sunwoo Kim"
+        },
+        {
+          "slug": null,
+          "name": "Geunu Jeong"
+        },
+        {
+          "slug": null,
+          "name": "Jingyu Ko"
+        },
+        {
+          "slug": null,
+          "name": "Yohan Jun"
+        },
+        {
+          "slug": null,
+          "name": "Hyungseob Shin"
+        },
+        {
+          "slug": null,
+          "name": "D. Hwang"
+        },
+        {
+          "slug": null,
+          "name": "Mahmoud Mostapha"
+        },
+        {
+          "slug": null,
+          "name": "S. Arberet"
+        },
+        {
+          "slug": null,
+          "name": "D. Nickel"
+        },
+        {
+          "slug": null,
+          "name": "Zaccharie Ramzi"
+        },
+        {
+          "slug": null,
+          "name": "P. Ciuciu"
+        },
+        {
+          "slug": null,
+          "name": "Jean-Luc Starck"
+        },
+        {
+          "slug": null,
+          "name": "J. Teuwen"
+        },
+        {
+          "slug": null,
+          "name": "D. Karkalousos"
+        },
+        {
+          "slug": null,
+          "name": "Chaoping Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Anuroop Sriram"
+        },
+        {
+          "slug": null,
+          "name": "Zhengnan Huang"
+        },
+        {
+          "slug": null,
+          "name": "N. Yakubova"
+        },
+        {
+          "slug": null,
+          "name": "Y. Lui"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        }
+      ]
+    },
+    {
+      "paperId": "448e077fc6cc9d05b5c1dffc9b02f12253273651",
+      "title": "Using Deep Learning to Accelerate Knee MRI at 3 T: Results of an Interchangeability Study",
+      "year": 2020,
+      "venue": "AJR. American journal of roentgenology",
+      "url": "https://doi.org/10.2214/ajr.20.23313",
+      "citationCount": 130,
+      "coAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "M. Recht"
+        },
+        {
+          "slug": null,
+          "name": "Jure Zbontar"
+        },
+        {
+          "slug": null,
+          "name": "D. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        },
+        {
+          "slug": null,
+          "name": "N. Yakubova"
+        },
+        {
+          "slug": null,
+          "name": "Anuroop Sriram"
+        },
+        {
+          "slug": null,
+          "name": "Tullie Murrell"
+        },
+        {
+          "slug": null,
+          "name": "Aaron Defazio"
+        },
+        {
+          "slug": null,
+          "name": "L. Rybak"
+        },
+        {
+          "slug": null,
+          "name": "M. Kline"
+        },
+        {
+          "slug": null,
+          "name": "G. Ciavarra"
+        },
+        {
+          "slug": null,
+          "name": "Erin F. Alaia"
+        },
+        {
+          "slug": null,
+          "name": "Mohammad M. Samim"
+        },
+        {
+          "slug": null,
+          "name": "William R. Walter"
+        },
+        {
+          "slug": null,
+          "name": "Dana J. Lin"
+        },
+        {
+          "slug": null,
+          "name": "Y. Lui"
+        },
+        {
+          "slug": null,
+          "name": "Zhengnan Huang"
+        },
+        {
+          "slug": null,
+          "name": "Patricia M. Johnson"
+        },
+        {
+          "slug": null,
+          "name": "Ruben Stern"
+        },
+        {
+          "slug": null,
+          "name": "C. L. Zitnick"
+        }
+      ]
+    },
+    {
+      "paperId": "6eaf6ecc07862ed2339d43d93f1cc8fb127c4222",
+      "title": "Dataset of Knee Images for Accelerated MR Image Reconstruction Using Machine Learning",
+      "year": 2020,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/6eaf6ecc07862ed2339d43d93f1cc8fb127c4222",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        },
+        {
+          "slug": null,
+          "name": "Jure Zbontar"
+        },
+        {
+          "slug": null,
+          "name": "Anuroop Sriram"
+        },
+        {
+          "slug": null,
+          "name": "M. Bruno"
+        },
+        {
+          "slug": null,
+          "name": "Aaron Defazio"
+        },
+        {
+          "slug": null,
+          "name": "Marc Parente"
+        },
+        {
+          "slug": null,
+          "name": "Krzysztof J. Geras"
+        },
+        {
+          "slug": null,
+          "name": "Joe Katsnelson"
+        },
+        {
+          "slug": null,
+          "name": "H. Chandarana"
+        },
+        {
+          "slug": null,
+          "name": "Zizhao Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Michal Drozdzalv"
+        },
+        {
+          "slug": null,
+          "name": "A. Romero"
+        },
+        {
+          "slug": null,
+          "name": "Pascal Vincent"
+        },
+        {
+          "slug": null,
+          "name": "James Pinkerton"
+        },
+        {
+          "slug": null,
+          "name": "Duo Wang"
+        },
+        {
+          "slug": null,
+          "name": "N. Yakubova"
+        },
+        {
+          "slug": null,
+          "name": "Erich Owens"
+        },
+        {
+          "slug": null,
+          "name": "C. L. Zitnick"
+        },
+        {
+          "slug": null,
+          "name": "M. Recht"
+        },
+        {
+          "slug": null,
+          "name": "D. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "Y. Lui"
+        }
+      ]
+    },
+    {
+      "paperId": "025e77d28d5554d2e49de25f047f1a93341d0766",
+      "title": "fastMRI: A Publicly Available Raw k-Space and DICOM Dataset of Knee Images for Accelerated MR Image Reconstruction Using Machine Learning.",
+      "year": 2020,
+      "venue": "Radiology: Artificial Intelligence",
+      "url": "https://doi.org/10.1148/ryai.2020190007",
+      "citationCount": 523,
+      "coAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        },
+        {
+          "slug": null,
+          "name": "Jure Zbontar"
+        },
+        {
+          "slug": null,
+          "name": "Anuroop Sriram"
+        },
+        {
+          "slug": null,
+          "name": "M. Bruno"
+        },
+        {
+          "slug": null,
+          "name": "Aaron Defazio"
+        },
+        {
+          "slug": null,
+          "name": "Marc Parente"
+        },
+        {
+          "slug": null,
+          "name": "Krzysztof J. Geras"
+        },
+        {
+          "slug": null,
+          "name": "Joe Katsnelson"
+        },
+        {
+          "slug": null,
+          "name": "H. Chandarana"
+        },
+        {
+          "slug": null,
+          "name": "Zizhao Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Michal Drozdzalv"
+        },
+        {
+          "slug": null,
+          "name": "Adriana Romero"
+        },
+        {
+          "slug": null,
+          "name": "Pascal Vincent"
+        },
+        {
+          "slug": null,
+          "name": "James Pinkerton"
+        },
+        {
+          "slug": null,
+          "name": "Duo Wang"
+        },
+        {
+          "slug": null,
+          "name": "N. Yakubova"
+        },
+        {
+          "slug": null,
+          "name": "Erich Owens"
+        },
+        {
+          "slug": null,
+          "name": "C. L. Zitnick"
+        },
+        {
+          "slug": null,
+          "name": "M. Recht"
+        },
+        {
+          "slug": null,
+          "name": "D. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "Y. Lui"
+        }
+      ]
+    },
+    {
+      "paperId": "516511ea09ee736dced455253dfd961ab8d7d00f",
+      "title": "Advancing machine learning for MR image reconstruction with an open competition: Overview of the 2019 fastMRI challenge",
+      "year": 2020,
+      "venue": "Magnetic Resonance in Medicine",
+      "url": "https://doi.org/10.1002/mrm.28338",
+      "citationCount": 245,
+      "coAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        },
+        {
+          "slug": null,
+          "name": "Tullie Murrell"
+        },
+        {
+          "slug": null,
+          "name": "Anuroop Sriram"
+        },
+        {
+          "slug": null,
+          "name": "N. Yakubova"
+        },
+        {
+          "slug": null,
+          "name": "Jure Zbontar"
+        },
+        {
+          "slug": null,
+          "name": "Aaron Defazio"
+        },
+        {
+          "slug": null,
+          "name": "D. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "C. L. Zitnick"
+        },
+        {
+          "slug": null,
+          "name": "M. Recht"
+        }
+      ]
+    },
+    {
+      "paperId": "36eb73d2a722de2f82bf3bd07493dea2ea1c4e10",
+      "title": "Joint Multi-anatomy Training of a Variational Network for Reconstruction of Accelerated Magnetic Resonance Image Acquisitions",
+      "year": 2019,
+      "venue": "MLMIR@MICCAI",
+      "url": "https://doi.org/10.1007/978-3-030-33843-5_7",
+      "citationCount": 7,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Patricia M. Johnson"
+        },
+        {
+          "slug": null,
+          "name": "M. Bruno"
+        },
+        {
+          "slug": null,
+          "name": "Erich Kobler"
+        },
+        {
+          "slug": null,
+          "name": "Kerstin Hammernik"
+        },
+        {
+          "slug": null,
+          "name": "T. Pock"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        }
+      ]
+    },
+    {
+      "paperId": "bfba23c642da07a0a82ffaa306f7707374383a7c",
+      "title": "Image reconstruction for interrupted-beam x-ray CT on diagnostic clinical scanners",
+      "year": 2019,
+      "venue": "Physics in Medicine and Biology",
+      "url": "https://doi.org/10.1088/1361-6560/ab2df1",
+      "citationCount": 9,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Baiyu Chen"
+        },
+        {
+          "slug": null,
+          "name": "T. Vahle"
+        },
+        {
+          "slug": null,
+          "name": "T. O’Donnell"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        },
+        {
+          "slug": null,
+          "name": "A. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "D. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "R. Otazo"
+        }
+      ]
+    },
+    {
+      "paperId": "d78af753319e673f393281ae17d63c0f2d0f35aa",
+      "title": "Training a neural network for Gibbs and noise removal in diffusion MRI",
+      "year": 2019,
+      "venue": "Magnetic Resonance in Medicine",
+      "url": "https://doi.org/10.1002/mrm.28395",
+      "citationCount": 53,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "B. Ades-aron"
+        },
+        {
+          "slug": null,
+          "name": "A. Papaioannou"
+        },
+        {
+          "slug": null,
+          "name": "G. Lemberskiy"
+        },
+        {
+          "slug": null,
+          "name": "E. Solomon"
+        },
+        {
+          "slug": null,
+          "name": "Y. Lui"
+        },
+        {
+          "slug": null,
+          "name": "D. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "E. Fieremans"
+        },
+        {
+          "slug": null,
+          "name": "D. Novikov"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        }
+      ]
+    },
+    {
+      "paperId": "e4691f82b52af72c81d853c5808fb014f081e52b",
+      "title": "SparseCT: System Concept and Design of Multi-slit Collimators",
+      "year": 2019,
+      "venue": "Medical Physics (Lancaster)",
+      "url": "https://doi.org/10.1002/mp.13544",
+      "citationCount": 10,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Baiyu Chen"
+        },
+        {
+          "slug": null,
+          "name": "Erich Kobler"
+        },
+        {
+          "slug": null,
+          "name": "A. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "T. O’Donnell"
+        },
+        {
+          "slug": null,
+          "name": "T. Flohr"
+        },
+        {
+          "slug": null,
+          "name": "B. Schmidt"
+        },
+        {
+          "slug": null,
+          "name": "D. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "R. Otazo"
+        }
+      ]
+    },
+    {
+      "paperId": "d5cd0d1861f54341f2a6b08876162b9bbabd9bf5",
+      "title": "Pancreas Deformation in the Presence of Tumors Using Feature Tracking From Free-Breathing XD-GRASP MRI",
+      "year": 2019,
+      "venue": "Journal of Magnetic Resonance Imaging",
+      "url": "https://doi.org/10.1002/jmri.26714",
+      "citationCount": 11,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Teodora Chitiboi"
+        },
+        {
+          "slug": null,
+          "name": "B. Dane"
+        },
+        {
+          "slug": null,
+          "name": "Chenchan Huang"
+        },
+        {
+          "slug": null,
+          "name": "Li Feng"
+        },
+        {
+          "slug": null,
+          "name": "H. Chandarana"
+        }
+      ]
+    },
+    {
+      "paperId": "fa247c6200a672fd190766cee2ec3fb155652f5c",
+      "title": "Reducing Uncertainty in Undersampled MRI Reconstruction With Active Acquisition",
+      "year": 2019,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR.2019.00215",
+      "citationCount": 120,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Zizhao Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Adriana Romero"
+        },
+        {
+          "slug": null,
+          "name": "P. Vincent"
+        },
+        {
+          "slug": null,
+          "name": "Lin Yang"
+        },
+        {
+          "slug": null,
+          "name": "M. Drozdzal"
+        }
+      ]
+    },
+    {
+      "paperId": "65d3e7fa7b452611aa729ac789d4373d6ee505b0",
+      "title": "fastMRI: An Open Dataset and Benchmarks for Accelerated MRI",
+      "year": 2018,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/65d3e7fa7b452611aa729ac789d4373d6ee505b0",
+      "citationCount": 1079,
+      "coAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Jure Zbontar"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        },
+        {
+          "slug": null,
+          "name": "Anuroop Sriram"
+        },
+        {
+          "slug": null,
+          "name": "M. Bruno"
+        },
+        {
+          "slug": null,
+          "name": "Aaron Defazio"
+        },
+        {
+          "slug": null,
+          "name": "Marc Parente"
+        },
+        {
+          "slug": null,
+          "name": "Krzysztof J. Geras"
+        },
+        {
+          "slug": null,
+          "name": "Joe Katsnelson"
+        },
+        {
+          "slug": null,
+          "name": "H. Chandarana"
+        },
+        {
+          "slug": null,
+          "name": "Zizhao Zhang"
+        },
+        {
+          "slug": null,
+          "name": "M. Drozdzal"
+        },
+        {
+          "slug": null,
+          "name": "Adriana Romero"
+        },
+        {
+          "slug": null,
+          "name": "P. Vincent"
+        },
+        {
+          "slug": null,
+          "name": "James Pinkerton"
+        },
+        {
+          "slug": null,
+          "name": "Duo Wang"
+        },
+        {
+          "slug": null,
+          "name": "N. Yakubova"
+        },
+        {
+          "slug": null,
+          "name": "Erich Owens"
+        },
+        {
+          "slug": null,
+          "name": "C. L. Zitnick"
+        },
+        {
+          "slug": null,
+          "name": "M. Recht"
+        },
+        {
+          "slug": null,
+          "name": "D. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "Y. Lui"
+        }
+      ]
+    },
+    {
+      "paperId": "9bf53b5d0464a102bba4c653e43a897567368e17",
+      "title": "Variational Deep Learning for Low-Dose Computed Tomography",
+      "year": 2018,
+      "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "url": "https://doi.org/10.1109/ICASSP.2018.8462312",
+      "citationCount": 9,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Erich Kobler"
+        },
+        {
+          "slug": null,
+          "name": "Baiyu Chen"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        },
+        {
+          "slug": null,
+          "name": "Kerstin Hammernik"
+        },
+        {
+          "slug": null,
+          "name": "T. Pock"
+        },
+        {
+          "slug": null,
+          "name": "D. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "R. Otazo"
+        }
+      ]
+    },
+    {
+      "paperId": "c31bac308ccd316fe9a4423d2e517e109d4f5de7",
+      "title": "Evaluation of SparseCT on patient data using realistic undersampling models",
+      "year": 2018,
+      "venue": "Medical Imaging",
+      "url": "https://doi.org/10.1117/12.2294243",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Baiyu Chen"
+        },
+        {
+          "slug": null,
+          "name": "A. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "T. O’Donnell"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        },
+        {
+          "slug": null,
+          "name": "D. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "R. Otazo"
+        }
+      ]
+    },
+    {
+      "paperId": "b268a7ad9c9e83e9234beb1a37baf941c291036c",
+      "title": "Regularizer Performance for SparseCT Image Reconstruction With Practical Subsampling",
+      "year": 2017,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/b268a7ad9c9e83e9234beb1a37baf941c291036c",
+      "citationCount": 4,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Baiyu Chen"
+        },
+        {
+          "slug": null,
+          "name": "T. Vahle"
+        },
+        {
+          "slug": null,
+          "name": "A. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        },
+        {
+          "slug": null,
+          "name": "D. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "R. Otazo"
+        }
+      ]
+    },
+    {
+      "paperId": "e4aa44d88567cfc38083f075d50a57b6ea1fd5e0",
+      "title": "Estrogen depletion and drug treatment alter the microstructure of type I collagen in bone",
+      "year": 2016,
+      "venue": "Bone Reports",
+      "url": "https://doi.org/10.1016/j.bonr.2016.08.003",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Meagan A Cauble"
+        },
+        {
+          "slug": null,
+          "name": "Ming Fang"
+        },
+        {
+          "slug": null,
+          "name": "J. Fessler"
+        },
+        {
+          "slug": null,
+          "name": "K. Welch"
+        },
+        {
+          "slug": null,
+          "name": "E. Rothman"
+        },
+        {
+          "slug": null,
+          "name": "B. Orr"
+        },
+        {
+          "slug": null,
+          "name": "L. Duong"
+        },
+        {
+          "slug": null,
+          "name": "M. Holl"
+        }
+      ]
+    },
+    {
+      "paperId": "df9dce57cafe733d94189afe1ac7fb1fd51e99c6",
+      "title": "Acceleration Methods for MRI",
+      "year": 2016,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/df9dce57cafe733d94189afe1ac7fb1fd51e99c6",
+      "citationCount": 1,
+      "coAuthors": []
+    },
+    {
+      "paperId": "42ffc02d5fc249aaf3393f83c41e3a24e810924b",
+      "title": "Artifacts in Functional MRI and How to Mitigate Them",
+      "year": 2015,
+      "venue": null,
+      "url": "https://doi.org/10.1016/B978-0-12-397025-1.00290-6",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "L. Hernandez-Garcia"
+        }
+      ]
+    },
+    {
+      "paperId": "22bf23027a7db433c5f04aa838ce22113171b910",
+      "title": "Fast Parallel MR Image Reconstruction via B1-based, Adaptive Restart, Iterative Soft Thresholding Algorithms (BARISTA)",
+      "year": 2014,
+      "venue": "IEEE Transactions on Medical Imaging",
+      "url": "https://doi.org/10.1109/TMI.2014.2363034",
+      "citationCount": 36,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "D. Noll"
+        },
+        {
+          "slug": null,
+          "name": "J. Fessler"
+        }
+      ]
+    },
+    {
+      "paperId": "44b2dabe456ecbf6b1c6dd59db4df18892a384be",
+      "title": "Fast MR image reconstruction with orthogonal wavelet regularization via shift-variant shrinkage",
+      "year": 2014,
+      "venue": "International Conference on Information Photonics",
+      "url": "https://doi.org/10.1109/ICIP.2014.7025741",
+      "citationCount": 3,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "J. Fessler"
+        }
+      ]
+    },
+    {
+      "paperId": "1ce617b8736ad7f0097ef9798cba43e66feb8d0b",
+      "title": "The morphological, material-level, and ash properties of turkey femurs from 3 different genetic strains during production.",
+      "year": 2012,
+      "venue": "Poultry Science",
+      "url": "https://doi.org/10.3382/ps.2012-02322",
+      "citationCount": 12,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Z. Zhong"
+        },
+        {
+          "slug": null,
+          "name": "S. Agcaoglu"
+        },
+        {
+          "slug": null,
+          "name": "M. Grisham"
+        },
+        {
+          "slug": null,
+          "name": "H. Zhao"
+        },
+        {
+          "slug": null,
+          "name": "M. Orth"
+        },
+        {
+          "slug": null,
+          "name": "M. Lilburn"
+        },
+        {
+          "slug": null,
+          "name": "O. Akkus"
+        },
+        {
+          "slug": null,
+          "name": "D. Karcher"
+        }
+      ]
+    },
+    {
+      "paperId": "4b61039f3f336fe631b67d0010d5696388d877c3",
+      "title": "Group sparsity reconstruction for physiological noise correction in functional MRI",
+      "year": 2012,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/4b61039f3f336fe631b67d0010d5696388d877c3",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "S. Peltier"
+        },
+        {
+          "slug": null,
+          "name": "J. Fessler"
+        },
+        {
+          "slug": null,
+          "name": "D. Noll"
+        }
+      ]
     }
   ],
   "topPublications": [
     {
       "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
-      "citationCount": 572,
+      "citationCount": 573,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985"
     },
@@ -424,7 +2029,7 @@
       {
         "slug": "michael-rabbat",
         "name": "Michael Rabbat",
-        "sharedPapers": 2
+        "sharedPapers": 7
       },
       {
         "slug": "yann-lecun",
@@ -454,8 +2059,160 @@
     ],
     "externalCoAuthors": [
       {
+        "name": "F. Knoll",
+        "papers": 16
+      },
+      {
+        "name": "D. Sodickson",
+        "papers": 13
+      },
+      {
+        "name": "Anuroop Sriram",
+        "papers": 11
+      },
+      {
+        "name": "N. Yakubova",
+        "papers": 9
+      },
+      {
+        "name": "Y. Lui",
+        "papers": 8
+      },
+      {
+        "name": "Jure Zbontar",
+        "papers": 6
+      },
+      {
+        "name": "C. L. Zitnick",
+        "papers": 6
+      },
+      {
+        "name": "M. Recht",
+        "papers": 6
+      },
+      {
+        "name": "Karen Ullrich",
+        "papers": 5
+      },
+      {
+        "name": "Krzysztof J. Geras",
+        "papers": 5
+      },
+      {
+        "name": "Aaron Defazio",
+        "papers": 5
+      },
+      {
+        "name": "Baiyu Chen",
+        "papers": 5
+      },
+      {
+        "name": "R. Otazo",
+        "papers": 5
+      },
+      {
         "name": "Koustuv Sinha",
-        "papers": 2
+        "papers": 4
+      },
+      {
+        "name": "Jakob Verbeek",
+        "papers": 4
+      },
+      {
+        "name": "Patricia M. Johnson",
+        "papers": 4
+      },
+      {
+        "name": "M. Bruno",
+        "papers": 4
+      },
+      {
+        "name": "H. Chandarana",
+        "papers": 4
+      },
+      {
+        "name": "Zizhao Zhang",
+        "papers": 4
+      },
+      {
+        "name": "A. Sodickson",
+        "papers": 4
+      },
+      {
+        "name": "J. Fessler",
+        "papers": 4
+      },
+      {
+        "name": "T. Pock",
+        "papers": 3
+      },
+      {
+        "name": "Tullie Murrell",
+        "papers": 3
+      },
+      {
+        "name": "M. Drozdzal",
+        "papers": 3
+      },
+      {
+        "name": "Geunu Jeong",
+        "papers": 3
+      },
+      {
+        "name": "Hyungseob Shin",
+        "papers": 3
+      },
+      {
+        "name": "Yohan Jun",
+        "papers": 3
+      },
+      {
+        "name": "D. Hwang",
+        "papers": 3
+      },
+      {
+        "name": "D. Karkalousos",
+        "papers": 3
+      },
+      {
+        "name": "J. Teuwen",
+        "papers": 3
+      },
+      {
+        "name": "Zhengnan Huang",
+        "papers": 3
+      },
+      {
+        "name": "Marc Parente",
+        "papers": 3
+      },
+      {
+        "name": "Joe Katsnelson",
+        "papers": 3
+      },
+      {
+        "name": "James Pinkerton",
+        "papers": 3
+      },
+      {
+        "name": "Duo Wang",
+        "papers": 3
+      },
+      {
+        "name": "Erich Owens",
+        "papers": 3
+      },
+      {
+        "name": "Adriana Romero",
+        "papers": 3
+      },
+      {
+        "name": "Erich Kobler",
+        "papers": 3
+      },
+      {
+        "name": "T. O’Donnell",
+        "papers": 3
       },
       {
         "name": "Nicolas Ballas",
@@ -470,11 +2227,123 @@
         "papers": 2
       },
       {
-        "name": "Karen Ullrich",
+        "name": "Ricky T. Q. Chen",
         "papers": 2
       },
       {
-        "name": "Jakob Verbeek",
+        "name": "Alaaeldin El-Nouby",
+        "papers": 2
+      },
+      {
+        "name": "Hervé Jégou",
+        "papers": 2
+      },
+      {
+        "name": "Dana J. Lin",
+        "papers": 2
+      },
+      {
+        "name": "G. Ciavarra",
+        "papers": 2
+      },
+      {
+        "name": "Erin F. Alaia",
+        "papers": 2
+      },
+      {
+        "name": "Mohammad M. Samim",
+        "papers": 2
+      },
+      {
+        "name": "William R. Walter",
+        "papers": 2
+      },
+      {
+        "name": "Bruno Riemenschneider",
+        "papers": 2
+      },
+      {
+        "name": "A. Radmanesh",
+        "papers": 2
+      },
+      {
+        "name": "Sunwoo Kim",
+        "papers": 2
+      },
+      {
+        "name": "Jingyu Ko",
+        "papers": 2
+      },
+      {
+        "name": "Mahmoud Mostapha",
+        "papers": 2
+      },
+      {
+        "name": "S. Arberet",
+        "papers": 2
+      },
+      {
+        "name": "D. Nickel",
+        "papers": 2
+      },
+      {
+        "name": "Zaccharie Ramzi",
+        "papers": 2
+      },
+      {
+        "name": "P. Ciuciu",
+        "papers": 2
+      },
+      {
+        "name": "Jean-Luc Starck",
+        "papers": 2
+      },
+      {
+        "name": "Chaoping Zhang",
+        "papers": 2
+      },
+      {
+        "name": "Farah E. Shamout",
+        "papers": 2
+      },
+      {
+        "name": "Joelle Pineau",
+        "papers": 2
+      },
+      {
+        "name": "Lea Azour",
+        "papers": 2
+      },
+      {
+        "name": "Y. Aphinyanaphongs",
+        "papers": 2
+      },
+      {
+        "name": "W. Moore",
+        "papers": 2
+      },
+      {
+        "name": "Michal Drozdzalv",
+        "papers": 2
+      },
+      {
+        "name": "Pascal Vincent",
+        "papers": 2
+      },
+      {
+        "name": "Kerstin Hammernik",
+        "papers": 2
+      },
+      {
+        "name": "T. Vahle",
+        "papers": 2
+      },
+      {
+        "name": "P. Vincent",
+        "papers": 2
+      },
+      {
+        "name": "D. Noll",
         "papers": 2
       },
       {
@@ -642,11 +2511,315 @@
         "papers": 1
       },
       {
-        "name": "Ricky T. Q. Chen",
+        "name": "Brian Karrer",
         "papers": 1
       },
       {
-        "name": "Brian Karrer",
+        "name": "J. Babb",
+        "papers": 1
+      },
+      {
+        "name": "Mitchell Kline",
+        "papers": 1
+      },
+      {
+        "name": "Liz Calderon",
+        "papers": 1
+      },
+      {
+        "name": "Matt Le",
+        "papers": 1
+      },
+      {
+        "name": "Maximilian Nickel",
+        "papers": 1
+      },
+      {
+        "name": "I. Laptev",
+        "papers": 1
+      },
+      {
+        "name": "Alireza Radmanesh",
+        "papers": 1
+      },
+      {
+        "name": "Emma Lindsey",
+        "papers": 1
+      },
+      {
+        "name": "Timothy C. Bakker",
+        "papers": 1
+      },
+      {
+        "name": "Adriana Romero-Soriano",
+        "papers": 1
+      },
+      {
+        "name": "L. Pineda",
+        "papers": 1
+      },
+      {
+        "name": "K. Hammernik",
+        "papers": 1
+      },
+      {
+        "name": "Jo Schlemper",
+        "papers": 1
+      },
+      {
+        "name": "Chen Qin",
+        "papers": 1
+      },
+      {
+        "name": "J. Duan",
+        "papers": 1
+      },
+      {
+        "name": "D. Rueckert",
+        "papers": 1
+      },
+      {
+        "name": "Jingu Lee",
+        "papers": 1
+      },
+      {
+        "name": "Nicola Pezzotti",
+        "papers": 1
+      },
+      {
+        "name": "E. Weerdt",
+        "papers": 1
+      },
+      {
+        "name": "Sahar Yousefi",
+        "papers": 1
+      },
+      {
+        "name": "M. Elmahdy",
+        "papers": 1
+      },
+      {
+        "name": "J. V. Gemert",
+        "papers": 1
+      },
+      {
+        "name": "C. Schülke",
+        "papers": 1
+      },
+      {
+        "name": "M. Doneva",
+        "papers": 1
+      },
+      {
+        "name": "T. Nielsen",
+        "papers": 1
+      },
+      {
+        "name": "Sergey Kastryulin",
+        "papers": 1
+      },
+      {
+        "name": "B. Lelieveldt",
+        "papers": 1
+      },
+      {
+        "name": "M. Osch",
+        "papers": 1
+      },
+      {
+        "name": "M. Staring",
+        "papers": 1
+      },
+      {
+        "name": "Eric Z. Chen",
+        "papers": 1
+      },
+      {
+        "name": "Puyang Wang",
+        "papers": 1
+      },
+      {
+        "name": "Xiao Chen",
+        "papers": 1
+      },
+      {
+        "name": "Terrence Chen",
+        "papers": 1
+      },
+      {
+        "name": "Vishal M. Patel",
+        "papers": 1
+      },
+      {
+        "name": "Shanhui Sun",
+        "papers": 1
+      },
+      {
+        "name": "Taejoon Eo",
+        "papers": 1
+      },
+      {
+        "name": "Sewon Kim",
+        "papers": 1
+      },
+      {
+        "name": "Taeseong Kim",
+        "papers": 1
+      },
+      {
+        "name": "P. Putzky",
+        "papers": 1
+      },
+      {
+        "name": "Nikita Miriakov",
+        "papers": 1
+      },
+      {
+        "name": "B. Bakker",
+        "papers": 1
+      },
+      {
+        "name": "M. Caan",
+        "papers": 1
+      },
+      {
+        "name": "Max Welling",
+        "papers": 1
+      },
+      {
+        "name": "L. Rybak",
+        "papers": 1
+      },
+      {
+        "name": "M. Kline",
+        "papers": 1
+      },
+      {
+        "name": "Ruben Stern",
+        "papers": 1
+      },
+      {
+        "name": "A. Romero",
+        "papers": 1
+      },
+      {
+        "name": "B. Ades-aron",
+        "papers": 1
+      },
+      {
+        "name": "A. Papaioannou",
+        "papers": 1
+      },
+      {
+        "name": "G. Lemberskiy",
+        "papers": 1
+      },
+      {
+        "name": "E. Solomon",
+        "papers": 1
+      },
+      {
+        "name": "E. Fieremans",
+        "papers": 1
+      },
+      {
+        "name": "D. Novikov",
+        "papers": 1
+      },
+      {
+        "name": "T. Flohr",
+        "papers": 1
+      },
+      {
+        "name": "B. Schmidt",
+        "papers": 1
+      },
+      {
+        "name": "Teodora Chitiboi",
+        "papers": 1
+      },
+      {
+        "name": "B. Dane",
+        "papers": 1
+      },
+      {
+        "name": "Chenchan Huang",
+        "papers": 1
+      },
+      {
+        "name": "Li Feng",
+        "papers": 1
+      },
+      {
+        "name": "Lin Yang",
+        "papers": 1
+      },
+      {
+        "name": "Meagan A Cauble",
+        "papers": 1
+      },
+      {
+        "name": "Ming Fang",
+        "papers": 1
+      },
+      {
+        "name": "K. Welch",
+        "papers": 1
+      },
+      {
+        "name": "E. Rothman",
+        "papers": 1
+      },
+      {
+        "name": "B. Orr",
+        "papers": 1
+      },
+      {
+        "name": "L. Duong",
+        "papers": 1
+      },
+      {
+        "name": "M. Holl",
+        "papers": 1
+      },
+      {
+        "name": "L. Hernandez-Garcia",
+        "papers": 1
+      },
+      {
+        "name": "Z. Zhong",
+        "papers": 1
+      },
+      {
+        "name": "S. Agcaoglu",
+        "papers": 1
+      },
+      {
+        "name": "M. Grisham",
+        "papers": 1
+      },
+      {
+        "name": "H. Zhao",
+        "papers": 1
+      },
+      {
+        "name": "M. Orth",
+        "papers": 1
+      },
+      {
+        "name": "M. Lilburn",
+        "papers": 1
+      },
+      {
+        "name": "O. Akkus",
+        "papers": 1
+      },
+      {
+        "name": "D. Karcher",
+        "papers": 1
+      },
+      {
+        "name": "S. Peltier",
         "papers": 1
       }
     ],

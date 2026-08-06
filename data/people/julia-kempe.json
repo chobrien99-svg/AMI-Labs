@@ -13,7 +13,9 @@
     "twitter": "https://x.com/KempeLab",
     "website": "https://cims.nyu.edu/~kempe/"
   },
-  "semanticScholarId": "2372953497",
+  "semanticScholarId": [
+    "2372953497"
+  ],
   "careerHistory": [
     {
       "org": "New York University",
@@ -239,6 +241,40 @@
           "name": "Olivier Teytaud"
         }
       ]
+    },
+    {
+      "paperId": "e73b7ee48a1b4375b4bb2fdaa0021df1b9c8d1a1",
+      "title": "Tuning without Peeking: Provable Privacy and Generalization Bounds for LLM Post-Training",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2507.01752",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ismail Labiad"
+        },
+        {
+          "slug": null,
+          "name": "Mathurin Videau"
+        },
+        {
+          "slug": null,
+          "name": "M. Kowalski"
+        },
+        {
+          "slug": null,
+          "name": "Marc Schoenauer"
+        },
+        {
+          "slug": null,
+          "name": "A. Leite"
+        },
+        {
+          "slug": null,
+          "name": "Olivier Teytaud"
+        }
+      ]
     }
   ],
   "topPublications": [
@@ -286,11 +322,11 @@
     "coAuthors": [],
     "externalCoAuthors": [
       {
-        "name": "Ariel Kwiatkowski",
-        "papers": 3
+        "name": "Ismail Labiad",
+        "papers": 4
       },
       {
-        "name": "Ismail Labiad",
+        "name": "Ariel Kwiatkowski",
         "papers": 3
       },
       {
@@ -303,6 +339,26 @@
       },
       {
         "name": "Natasha Butt",
+        "papers": 2
+      },
+      {
+        "name": "Mathurin Videau",
+        "papers": 2
+      },
+      {
+        "name": "M. Kowalski",
+        "papers": 2
+      },
+      {
+        "name": "Marc Schoenauer",
+        "papers": 2
+      },
+      {
+        "name": "A. Leite",
+        "papers": 2
+      },
+      {
+        "name": "Olivier Teytaud",
         "papers": 2
       },
       {
@@ -355,26 +411,6 @@
       },
       {
         "name": "Yuda Song",
-        "papers": 1
-      },
-      {
-        "name": "Mathurin Videau",
-        "papers": 1
-      },
-      {
-        "name": "M. Kowalski",
-        "papers": 1
-      },
-      {
-        "name": "Marc Schoenauer",
-        "papers": 1
-      },
-      {
-        "name": "A. Leite",
-        "papers": 1
-      },
-      {
-        "name": "Olivier Teytaud",
         "papers": 1
       }
     ],

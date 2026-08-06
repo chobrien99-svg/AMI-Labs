@@ -14,7 +14,9 @@
     "twitter": "https://x.com/pascalefung",
     "website": "https://pascale.home.ece.ust.hk/"
   },
-  "semanticScholarId": "2057151752",
+  "semanticScholarId": [
+    "2057151752"
+  ],
   "careerHistory": [
     {
       "org": "Meta AI (FAIR)",
@@ -53,12 +55,12 @@
       "citationCount": 8,
       "coAuthors": [
         {
-          "slug": "willy-chung",
-          "name": "Willy Chung"
-        },
-        {
           "slug": "delong-chen",
           "name": "Delong Chen"
+        },
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
         },
         {
           "slug": null,
@@ -95,12 +97,12 @@
       "citationCount": 46,
       "coAuthors": [
         {
-          "slug": "willy-chung",
-          "name": "Willy Chung"
-        },
-        {
           "slug": "delong-chen",
           "name": "Delong Chen"
+        },
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
         },
         {
           "slug": "yann-lecun",
@@ -134,15 +136,15 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2509.02722",
-      "citationCount": 31,
+      "citationCount": 34,
       "coAuthors": [
-        {
-          "slug": "willy-chung",
-          "name": "Willy Chung"
-        },
         {
           "slug": "delong-chen",
           "name": "Delong Chen"
+        },
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
         },
         {
           "slug": null,
@@ -171,16 +173,16 @@
       "citationCount": 79,
       "coAuthors": [
         {
-          "slug": "basile-terver",
-          "name": "Basile Terver"
+          "slug": "delong-chen",
+          "name": "Delong Chen"
         },
         {
           "slug": "willy-chung",
           "name": "Willy Chung"
         },
         {
-          "slug": "delong-chen",
-          "name": "Delong Chen"
+          "slug": "basile-terver",
+          "name": "Basile Terver"
         },
         {
           "slug": null,
@@ -249,12 +251,12 @@
       "citationCount": 14,
       "coAuthors": [
         {
-          "slug": "willy-chung",
-          "name": "Willy Chung"
-        },
-        {
           "slug": "delong-chen",
           "name": "Delong Chen"
+        },
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
         },
         {
           "slug": null,
@@ -410,7 +412,7 @@
       "year": 2024,
       "venue": "Annual Meeting of the Association for Computational Linguistics",
       "url": "https://doi.org/10.48550/arXiv.2403.18932",
-      "citationCount": 133,
+      "citationCount": 134,
       "coAuthors": [
         {
           "slug": "delong-chen",
@@ -615,13 +617,1329 @@
           "name": "Holy Lovenia"
         }
       ]
+    },
+    {
+      "paperId": "5c112d7afee764a1466755417aa02e11bbec7c9c",
+      "title": "Cross-Lingual Cross-Age Adaptation for Low-Resource Elderly Speech Emotion Recognition",
+      "year": 2023,
+      "venue": "Interspeech",
+      "url": "https://doi.org/10.21437/interspeech.2023-327",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Rita Frieske"
+        },
+        {
+          "slug": null,
+          "name": "Zihan Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "811b2a0677fda94ec1bf655ff9d3958d62474139",
+      "title": "Generating Hashtags for Short-form Videos with Guided Signals",
+      "year": 2023,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.18653/v1/2023.acl-long.527",
+      "citationCount": 6,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        },
+        {
+          "slug": null,
+          "name": "Hanchao Yu"
+        },
+        {
+          "slug": null,
+          "name": "Davis Liang"
+        },
+        {
+          "slug": null,
+          "name": "Yuning Mao"
+        },
+        {
+          "slug": null,
+          "name": "Shaoliang Nie"
+        },
+        {
+          "slug": null,
+          "name": "Po-Yao (Bernie) Huang"
+        },
+        {
+          "slug": null,
+          "name": "Madian Khabsa"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Chia Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "b555fbe8d4e30fc1312c615ab7dfe6ac030dbcff",
+      "title": "Instruct-Align: Teaching Novel Languages with to LLMs through Alignment-based Cross-Lingual Instruction",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2305.13627",
+      "citationCount": 14,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "8f6f58da9011023c044a42bffa92310a5c55467c",
+      "title": "Cross-Lingual Cross-Age Group Adaptation for Low-Resource Elderly Speech Emotion Recognition",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2306.14517",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Rita Frieske"
+        },
+        {
+          "slug": null,
+          "name": "Zihan Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "79bb31af3b7bf51569adde031ded4e832bc02d8d",
+      "title": "Diverse and Faithful Knowledge-Grounded Dialogue Generation via Sequential Posterior Inference",
+      "year": 2023,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2306.01153",
+      "citationCount": 9,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yan Xu"
+        },
+        {
+          "slug": null,
+          "name": "Deqian Kong"
+        },
+        {
+          "slug": null,
+          "name": "Dehong Xu"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Ji"
+        },
+        {
+          "slug": null,
+          "name": "Bo Pang"
+        },
+        {
+          "slug": null,
+          "name": "Yingting Wu"
+        }
+      ]
+    },
+    {
+      "paperId": "cbff55da4255cf523bf028e9faf8508f039a92e7",
+      "title": "InstructAlign: High-and-Low Resource Language Alignment via Continual Crosslingual Instruction Tuning",
+      "year": 2023,
+      "venue": "SEALP",
+      "url": "https://doi.org/10.18653/v1/2023.sealp-1.5",
+      "citationCount": 24,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "8bd6a2a89503be083176f2cc26fabedb79238cbd",
+      "title": "InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning",
+      "year": 2023,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2305.06500",
+      "citationCount": 3787,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Wenliang Dai"
+        },
+        {
+          "slug": null,
+          "name": "Junnan Li"
+        },
+        {
+          "slug": null,
+          "name": "Dongxu Li"
+        },
+        {
+          "slug": null,
+          "name": "A. Tiong"
+        },
+        {
+          "slug": null,
+          "name": "Junqi Zhao"
+        },
+        {
+          "slug": null,
+          "name": "Weisheng Wang"
+        },
+        {
+          "slug": null,
+          "name": "Boyang Albert Li"
+        },
+        {
+          "slug": null,
+          "name": "Steven C. H. Hoi"
+        }
+      ]
+    },
+    {
+      "paperId": "7e0b582f10af855c7a2e2a6320939bd7dd82ef62",
+      "title": "Learn What NOT to Learn: Towards Generative Safety in Chatbots",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2304.11220",
+      "citationCount": 12,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": null,
+          "name": "Leila Khalatbari"
+        },
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Dan Su"
+        },
+        {
+          "slug": null,
+          "name": "Saeedeh Ghadimi"
+        },
+        {
+          "slug": null,
+          "name": "H. Sameti"
+        }
+      ]
+    },
+    {
+      "paperId": "d5a952d3938e496af0ac67bc0e3d6a34f7040566",
+      "title": "Which One Are You Referring To? Multimodal Object Identification in Situated Dialogue",
+      "year": 2023,
+      "venue": "Conference of the European Chapter of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2302.14680",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        }
+      ]
+    },
+    {
+      "paperId": "bf8491bef353df126e2306ad2fe4b898697b906a",
+      "title": "A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity",
+      "year": 2023,
+      "venue": "International Joint Conference on Natural Language Processing",
+      "url": "https://doi.org/10.18653/v1/2023.ijcnlp-main.45",
+      "citationCount": 1793,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Nayeon Lee"
+        },
+        {
+          "slug": null,
+          "name": "Wenliang Dai"
+        },
+        {
+          "slug": null,
+          "name": "Dan Su"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Wilie"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Ji"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        },
+        {
+          "slug": null,
+          "name": "Quyet V. Do"
+        },
+        {
+          "slug": null,
+          "name": "Yan Xu"
+        }
+      ]
+    },
+    {
+      "paperId": "03c19ddaa26068f23e27ba94b10f08160e87f668",
+      "title": "NusaCrowd: Open Source Initiative for Indonesian NLP Resources",
+      "year": 2022,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2212.09648",
+      "citationCount": 83,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Alham Fikri Aji"
+        },
+        {
+          "slug": null,
+          "name": "Genta Indra Winata"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Wilie"
+        },
+        {
+          "slug": null,
+          "name": "Rahmad Mahendra"
+        },
+        {
+          "slug": null,
+          "name": "Christian Wibisono"
+        },
+        {
+          "slug": null,
+          "name": "Ade Romadhony"
+        },
+        {
+          "slug": null,
+          "name": "Karissa Vincentio"
+        },
+        {
+          "slug": null,
+          "name": "Fajri Koto"
+        },
+        {
+          "slug": null,
+          "name": "Jennifer Santoso"
+        },
+        {
+          "slug": null,
+          "name": "David Moeljadi"
+        },
+        {
+          "slug": null,
+          "name": "Cahya Wirawan"
+        },
+        {
+          "slug": null,
+          "name": "Frederikus Hudi"
+        },
+        {
+          "slug": null,
+          "name": "I. Parmonangan"
+        },
+        {
+          "slug": null,
+          "name": "Ika Alfina"
+        },
+        {
+          "slug": null,
+          "name": "Muham-mad Satrio Wicaksono"
+        },
+        {
+          "slug": null,
+          "name": "Ilham Firdausi Putra"
+        },
+        {
+          "slug": null,
+          "name": "Samsul Rahmadani"
+        },
+        {
+          "slug": null,
+          "name": "Yulianti Oenang"
+        },
+        {
+          "slug": null,
+          "name": "A. Septiandri"
+        },
+        {
+          "slug": null,
+          "name": "James Jaya"
+        },
+        {
+          "slug": null,
+          "name": "Kaustubh D. Dhole"
+        },
+        {
+          "slug": null,
+          "name": "A. Suryani"
+        },
+        {
+          "slug": null,
+          "name": "Rifki Afina Putri"
+        },
+        {
+          "slug": null,
+          "name": "Dan Su"
+        },
+        {
+          "slug": null,
+          "name": "K. Stevens"
+        },
+        {
+          "slug": null,
+          "name": "Made Nindyatama Nityasya"
+        },
+        {
+          "slug": null,
+          "name": "Farid Adilazuarda"
+        },
+        {
+          "slug": null,
+          "name": "Ryan Ignatius"
+        },
+        {
+          "slug": null,
+          "name": "Ryandito Diandaru"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        },
+        {
+          "slug": null,
+          "name": "Vito Ghifari"
+        },
+        {
+          "slug": null,
+          "name": "Wenliang Dai"
+        },
+        {
+          "slug": null,
+          "name": "Yan Xu"
+        },
+        {
+          "slug": null,
+          "name": "Dyah Damapuspita"
+        },
+        {
+          "slug": null,
+          "name": "C. Tho"
+        },
+        {
+          "slug": null,
+          "name": "I. M. K. Karo"
+        },
+        {
+          "slug": null,
+          "name": "Tirana Noor Fatyanosa"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Ji"
+        },
+        {
+          "slug": null,
+          "name": "Graham Neubig"
+        },
+        {
+          "slug": null,
+          "name": "Timothy Baldwin"
+        },
+        {
+          "slug": null,
+          "name": "Sebastian Ruder"
+        },
+        {
+          "slug": null,
+          "name": "Herry Sujaini"
+        },
+        {
+          "slug": null,
+          "name": "S. Sakti"
+        },
+        {
+          "slug": null,
+          "name": "A. Purwarianti"
+        }
+      ]
+    },
+    {
+      "paperId": "4e53b481beabba42aac027e5a8c69fed26ab4062",
+      "title": "RHO ($ρ$): Reducing Hallucination in Open-domain Dialogues with Knowledge Grounding",
+      "year": 2022,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2212.01588",
+      "citationCount": 83,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ziwei Ji"
+        },
+        {
+          "slug": null,
+          "name": "Zihan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Nayeon Lee"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Wilie"
+        },
+        {
+          "slug": null,
+          "name": "Mini Zeng"
+        }
+      ]
+    },
+    {
+      "paperId": "34feea048b3a7a8643f32ae37bc0dda2442d9459",
+      "title": "Casual Conversations v2: Designing a large consent-driven dataset to measure algorithmic bias and robustness",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2211.05809",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "C. Hazirbas"
+        },
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        },
+        {
+          "slug": null,
+          "name": "Parisa Assar"
+        },
+        {
+          "slug": null,
+          "name": "Bilal Porgali"
+        },
+        {
+          "slug": null,
+          "name": "Vítor Albiero"
+        },
+        {
+          "slug": null,
+          "name": "Stefan Hermanek"
+        },
+        {
+          "slug": null,
+          "name": "Jacqueline Pan"
+        },
+        {
+          "slug": null,
+          "name": "Emily McReynolds"
+        },
+        {
+          "slug": null,
+          "name": "Miranda Bogen"
+        },
+        {
+          "slug": null,
+          "name": "Cristian Canton Ferrer"
+        }
+      ]
+    },
+    {
+      "paperId": "5cc2001af252e89b106b2ecb781270cc36f2b408",
+      "title": "How Long Is Enough? Exploring the Optimal Intervals of Long-Range Clinical Note Language Modeling",
+      "year": 2022,
+      "venue": "International Workshop on Health Text Mining and Information Analysis",
+      "url": "https://doi.org/10.48550/arXiv.2211.07713",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Wilie"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Huang Zhong"
+        },
+        {
+          "slug": null,
+          "name": "Mingqian Zhong"
+        },
+        {
+          "slug": null,
+          "name": "Yuk-Yu Nancy Ip"
+        }
+      ]
+    },
+    {
+      "paperId": "7cfbd36c0043098589cbaf18dca2b41d8dc24abe",
+      "title": "Plausible May Not Be Faithful: Probing Object Hallucination in Vision-Language Pre-training",
+      "year": 2022,
+      "venue": "Conference of the European Chapter of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2210.07688",
+      "citationCount": 87,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Wenliang Dai"
+        },
+        {
+          "slug": null,
+          "name": "Zihan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Ji"
+        },
+        {
+          "slug": null,
+          "name": "Dan Su"
+        }
+      ]
+    },
+    {
+      "paperId": "9c36c8f398a074801d6098287c4353bcf87a1d6c",
+      "title": "Enabling Classifiers to Make Judgements Explicitly Aligned with Human Values",
+      "year": 2022,
+      "venue": "TRUSTNLP",
+      "url": "https://doi.org/10.48550/arXiv.2210.07652",
+      "citationCount": 15,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        },
+        {
+          "slug": null,
+          "name": "Andrea Madotto"
+        },
+        {
+          "slug": null,
+          "name": "Zhaojiang Lin"
+        },
+        {
+          "slug": null,
+          "name": "Mona T. Diab"
+        }
+      ]
+    },
+    {
+      "paperId": "b16855a3338052be6202eeea3a18b5496a67cef2",
+      "title": "Context Generation Improves Open Domain Question Answering",
+      "year": 2022,
+      "venue": "Findings",
+      "url": "https://doi.org/10.48550/arXiv.2210.06349",
+      "citationCount": 13,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Dan Su"
+        },
+        {
+          "slug": null,
+          "name": "M. Patwary"
+        },
+        {
+          "slug": null,
+          "name": "Shrimai Prabhumoye"
+        },
+        {
+          "slug": null,
+          "name": "Peng Xu"
+        },
+        {
+          "slug": null,
+          "name": "R. Prenger"
+        },
+        {
+          "slug": null,
+          "name": "M. Shoeybi"
+        },
+        {
+          "slug": null,
+          "name": "Anima Anandkumar"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Catanzaro"
+        }
+      ]
+    },
+    {
+      "paperId": "609ec8e18b8128e2474b5c96132b63105a5a5e73",
+      "title": "Every picture tells a story: Image-grounded controllable stylistic story generation",
+      "year": 2022,
+      "venue": "LATECHCLFL",
+      "url": "https://doi.org/10.48550/arXiv.2209.01638",
+      "citationCount": 9,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Wilie"
+        },
+        {
+          "slug": null,
+          "name": "Romain Barraud"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        }
+      ]
+    },
+    {
+      "paperId": "d0ed8be702a3a10a91ea3661859ec6f1d5b26cd5",
+      "title": "Kaggle Competition: Cantonese Audio-Visual Speech Recognition for In-car Commands",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2207.02663",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Wenliang Dai"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        },
+        {
+          "slug": null,
+          "name": "Elham J. Barezi"
+        }
+      ]
+    },
+    {
+      "paperId": "bb775023683e0909a47f680850bb04a8cabf962f",
+      "title": "Integrating Question Rewrites in Conversational Question Answering: A Reinforcement Learning Approach",
+      "year": 2022,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.18653/v1/2022.acl-srw.6",
+      "citationCount": 5,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Etsuko Ishii"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Wilie"
+        },
+        {
+          "slug": null,
+          "name": "Yan Xu"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        }
+      ]
+    },
+    {
+      "paperId": "e17d250eca28e6256a8f3b07442eb2b5ed3cabac",
+      "title": "AiSocrates: Towards Answering Ethical Quandary Questions",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2205.05989",
+      "citationCount": 9,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Nayeon Lee"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        },
+        {
+          "slug": null,
+          "name": "Leila Khalatbari"
+        },
+        {
+          "slug": null,
+          "name": "Yan Xu"
+        },
+        {
+          "slug": null,
+          "name": "Dan Su"
+        },
+        {
+          "slug": null,
+          "name": "Elham J. Barezi"
+        },
+        {
+          "slug": null,
+          "name": "Andrea Madotto"
+        },
+        {
+          "slug": null,
+          "name": "Hayden Kee"
+        }
+      ]
+    },
+    {
+      "paperId": "8f4e732131e10b1df25ed7b7786f36a0886e86c5",
+      "title": "ToKen: Task Decomposition and Knowledge Infusion for Few-Shot Hate Speech Detection",
+      "year": 2022,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.48550/arXiv.2205.12495",
+      "citationCount": 27,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Badr AlKhamissi"
+        },
+        {
+          "slug": null,
+          "name": "Faisal Ladhak"
+        },
+        {
+          "slug": null,
+          "name": "Srini Iyer"
+        },
+        {
+          "slug": null,
+          "name": "Ves Stoyanov"
+        },
+        {
+          "slug": null,
+          "name": "Zornitsa Kozareva"
+        },
+        {
+          "slug": null,
+          "name": "Xian Li"
+        },
+        {
+          "slug": null,
+          "name": "Lambert Mathias"
+        },
+        {
+          "slug": null,
+          "name": "Asli Celikyilmaz"
+        },
+        {
+          "slug": null,
+          "name": "Mona T. Diab"
+        }
+      ]
+    },
+    {
+      "paperId": "0376b7ff6bd5fd3df5dc766cb24f9ca8736ea34e",
+      "title": "Towards Answering Open-ended Ethical Quandary Questions",
+      "year": 2022,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/0376b7ff6bd5fd3df5dc766cb24f9ca8736ea34e",
+      "citationCount": 7,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Nayeon Lee"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        },
+        {
+          "slug": null,
+          "name": "Leila Khalatbari"
+        },
+        {
+          "slug": null,
+          "name": "Yan Xu"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Dan Su"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Wilie"
+        },
+        {
+          "slug": null,
+          "name": "Romain Barraud"
+        },
+        {
+          "slug": null,
+          "name": "Elham J. Barezi"
+        },
+        {
+          "slug": null,
+          "name": "Andrea Madotto"
+        },
+        {
+          "slug": null,
+          "name": "Hayden Kee"
+        }
+      ]
+    },
+    {
+      "paperId": "aaedb51c8bfdc2517aec2eff796204b7a7c6d120",
+      "title": "SNP2Vec: Scalable Self-Supervised Pre-Training for Genome-Wide Association Study",
+      "year": 2022,
+      "venue": "Workshop on Biomedical Natural Language Processing",
+      "url": "https://doi.org/10.48550/arXiv.2204.06699",
+      "citationCount": 18,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        },
+        {
+          "slug": null,
+          "name": "Zihan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Tiffany Mak"
+        },
+        {
+          "slug": null,
+          "name": "Xiaopu Zhou"
+        },
+        {
+          "slug": null,
+          "name": "N. Ip"
+        }
+      ]
+    },
+    {
+      "paperId": "7a8923ebf3c9168037951f078eed21b07239cac3",
+      "title": "Clozer”:\" Adaptable Data Augmentation for Cloze-style Reading Comprehension",
+      "year": 2022,
+      "venue": "Workshop on Representation Learning for NLP",
+      "url": "https://doi.org/10.18653/v1/2022.repl4nlp-1.7",
+      "citationCount": 3,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Wilie"
+        },
+        {
+          "slug": null,
+          "name": "Mini Zeng"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Su Dan"
+        }
+      ]
+    },
+    {
+      "paperId": "7f71875f8214dffa4f3276da123c4990a6d437cc",
+      "title": "Enabling Multimodal Generation on CLIP via Vision-Language Knowledge Distillation",
+      "year": 2022,
+      "venue": "Findings",
+      "url": "https://doi.org/10.48550/arXiv.2203.06386",
+      "citationCount": 114,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Wenliang Dai"
+        },
+        {
+          "slug": null,
+          "name": "Lu Hou"
+        },
+        {
+          "slug": null,
+          "name": "Lifeng Shang"
+        },
+        {
+          "slug": null,
+          "name": "Xin Jiang"
+        },
+        {
+          "slug": null,
+          "name": "Qun Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "37297ac9b85129f8483078bcef6bcb519fb71b1b",
+      "title": "Read before Generate! Faithful Long Form Question Answering with Machine Reading",
+      "year": 2022,
+      "venue": "Findings",
+      "url": "https://doi.org/10.48550/arXiv.2203.00343",
+      "citationCount": 77,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Dan Su"
+        },
+        {
+          "slug": null,
+          "name": "Xiaoguang Li"
+        },
+        {
+          "slug": null,
+          "name": "Jindi Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Lifeng Shang"
+        },
+        {
+          "slug": null,
+          "name": "Xin Jiang"
+        },
+        {
+          "slug": null,
+          "name": "Qun Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "f2d1fdd17e4891824a67664ea53d14aa88885672",
+      "title": "QA4QG: Using Question Answering to Constrain Multi-Hop Question Generation",
+      "year": 2022,
+      "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "url": "https://doi.org/10.1109/ICASSP43922.2022.9747008",
+      "citationCount": 10,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Dan Su"
+        },
+        {
+          "slug": null,
+          "name": "Peng Xu"
+        }
+      ]
+    },
+    {
+      "paperId": "3def68bd0f856886d34272840a7f81588f2bc082",
+      "title": "Survey of Hallucination in Natural Language Generation",
+      "year": 2022,
+      "venue": "ACM Computing Surveys",
+      "url": "https://doi.org/10.1145/3571730",
+      "citationCount": 5342,
+      "coAuthors": [
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Ji"
+        },
+        {
+          "slug": null,
+          "name": "Nayeon Lee"
+        },
+        {
+          "slug": null,
+          "name": "Rita Frieske"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        },
+        {
+          "slug": null,
+          "name": "D. Su"
+        },
+        {
+          "slug": null,
+          "name": "Yan Xu"
+        },
+        {
+          "slug": null,
+          "name": "Etsuko Ishii"
+        },
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Wenliang Dai"
+        },
+        {
+          "slug": null,
+          "name": "Andrea Madotto"
+        }
+      ]
+    },
+    {
+      "paperId": "da91ccd44cb0ccf82b75cb448e2ed40ba9454306",
+      "title": "Automatic Speech Recognition Datasets in Cantonese: A Survey and New Dataset",
+      "year": 2022,
+      "venue": "International Conference on Language Resources and Evaluation",
+      "url": "https://doi.org/10.63317/2ddbp3qgk6fd",
+      "citationCount": 20,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        },
+        {
+          "slug": null,
+          "name": "Rita Frieske"
+        },
+        {
+          "slug": null,
+          "name": "Peng Xu"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Cheuk Tung Shadow Yiu"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Wenliang Dai"
+        },
+        {
+          "slug": null,
+          "name": "Elham J. Barezi"
+        },
+        {
+          "slug": null,
+          "name": "Qifeng Chen"
+        },
+        {
+          "slug": null,
+          "name": "Xiaojuan Ma"
+        },
+        {
+          "slug": null,
+          "name": "Bertram E. Shi"
+        }
+      ]
+    },
+    {
+      "paperId": "ec33756aa312a33a5979d4d542da2eeabaa8d1a0",
+      "title": "Vision Guided Generative Pre-trained Language Models for Multimodal Abstractive Summarization",
+      "year": 2021,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.18653/v1/2021.emnlp-main.326",
+      "citationCount": 85,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        },
+        {
+          "slug": null,
+          "name": "Wenliang Dai"
+        },
+        {
+          "slug": null,
+          "name": "Zihan Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "8e5eea5f255edac257bb00e893dd02d942a84df2",
+      "title": "Fight for 4230 at CheckThat! 2021: Domain-Specific Preprocessing and Pretrained Model for Ranking Claims by Check-Worthiness",
+      "year": 2021,
+      "venue": "Conference and Labs of the Evaluation Forum",
+      "url": "https://www.semanticscholar.org/paper/8e5eea5f255edac257bb00e893dd02d942a84df2",
+      "citationCount": 15,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Xinrui Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Bo Wu"
+        }
+      ]
+    },
+    {
+      "paperId": "62e08a6e155fe0fe223d802cdf5bf49fefb6df2e",
+      "title": "Improve Query Focused Abstractive Summarization by Incorporating Answer Relevance",
+      "year": 2021,
+      "venue": "Findings",
+      "url": "https://doi.org/10.18653/v1/2021.findings-acl.275",
+      "citationCount": 34,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Dan Su"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "62cab48c7e143e3156ff3a706c667de9929eb6ee",
+      "title": "Effects and modeling of phonetic and acoustic confusions in accented speech.",
+      "year": 2005,
+      "venue": "Journal of the Acoustical Society of America",
+      "url": "https://doi.org/10.1121/1.2035588",
+      "citationCount": 18,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yi Y. Liu"
+        }
+      ]
     }
   ],
   "topPublications": [
     {
       "title": "InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning",
       "year": 2023,
-      "citationCount": 3780,
+      "citationCount": 3787,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2305.06500"
     },
@@ -672,14 +1990,14 @@
   "connections": {
     "coAuthors": [
       {
-        "slug": "delong-chen",
-        "name": "Delong Chen",
-        "sharedPapers": 9
-      },
-      {
         "slug": "willy-chung",
         "name": "Willy Chung",
-        "sharedPapers": 8
+        "sharedPapers": 16
+      },
+      {
+        "slug": "delong-chen",
+        "name": "Delong Chen",
+        "sharedPapers": 10
       },
       {
         "slug": "yann-lecun",
@@ -695,22 +2013,54 @@
     "externalCoAuthors": [
       {
         "name": "Samuel Cahyawijaya",
-        "papers": 8
-      },
-      {
-        "name": "Yejin Bang",
-        "papers": 6
-      },
-      {
-        "name": "Ziwei Ji",
-        "papers": 6
+        "papers": 23
       },
       {
         "name": "Holy Lovenia",
-        "papers": 6
+        "papers": 17
+      },
+      {
+        "name": "Tiezheng Yu",
+        "papers": 17
+      },
+      {
+        "name": "Yejin Bang",
+        "papers": 13
       },
       {
         "name": "Bryan Wilie",
+        "papers": 13
+      },
+      {
+        "name": "Ziwei Ji",
+        "papers": 12
+      },
+      {
+        "name": "Yan Xu",
+        "papers": 10
+      },
+      {
+        "name": "Wenliang Dai",
+        "papers": 10
+      },
+      {
+        "name": "Dan Su",
+        "papers": 10
+      },
+      {
+        "name": "Nayeon Lee",
+        "papers": 7
+      },
+      {
+        "name": "Etsuko Ishii",
+        "papers": 6
+      },
+      {
+        "name": "Zihan Liu",
+        "papers": 6
+      },
+      {
+        "name": "Andrea Madotto",
         "papers": 5
       },
       {
@@ -718,7 +2068,15 @@
         "papers": 4
       },
       {
-        "name": "Etsuko Ishii",
+        "name": "Leila Khalatbari",
+        "papers": 4
+      },
+      {
+        "name": "Rita Frieske",
+        "papers": 4
+      },
+      {
+        "name": "Elham J. Barezi",
         "papers": 4
       },
       {
@@ -726,7 +2084,7 @@
         "papers": 3
       },
       {
-        "name": "Yan Xu",
+        "name": "Peng Xu",
         "papers": 3
       },
       {
@@ -742,15 +2100,55 @@
         "papers": 2
       },
       {
-        "name": "Nayeon Lee",
+        "name": "Asli Celikyilmaz",
+        "papers": 2
+      },
+      {
+        "name": "Fajri Koto",
+        "papers": 2
+      },
+      {
+        "name": "Rifki Afina Putri",
+        "papers": 2
+      },
+      {
+        "name": "Genta Indra Winata",
+        "papers": 2
+      },
+      {
+        "name": "Alham Fikri Aji",
+        "papers": 2
+      },
+      {
+        "name": "Mini Zeng",
+        "papers": 2
+      },
+      {
+        "name": "Mona T. Diab",
+        "papers": 2
+      },
+      {
+        "name": "Romain Barraud",
+        "papers": 2
+      },
+      {
+        "name": "Hayden Kee",
+        "papers": 2
+      },
+      {
+        "name": "Lifeng Shang",
+        "papers": 2
+      },
+      {
+        "name": "Xin Jiang",
+        "papers": 2
+      },
+      {
+        "name": "Qun Liu",
         "papers": 2
       },
       {
         "name": "Yoram Bachrach",
-        "papers": 1
-      },
-      {
-        "name": "Asli Celikyilmaz",
         "papers": 1
       },
       {
@@ -771,10 +2169,6 @@
       },
       {
         "name": "Arjun Majumdar",
-        "papers": 1
-      },
-      {
-        "name": "Andrea Madotto",
         "papers": 1
       },
       {
@@ -799,18 +2193,6 @@
       },
       {
         "name": "Ho Shu Chan",
-        "papers": 1
-      },
-      {
-        "name": "Leila Khalatbari",
-        "papers": 1
-      },
-      {
-        "name": "Fajri Koto",
-        "papers": 1
-      },
-      {
-        "name": "Rifki Afina Putri",
         "papers": 1
       },
       {
@@ -842,14 +2224,6 @@
         "papers": 1
       },
       {
-        "name": "Genta Indra Winata",
-        "papers": 1
-      },
-      {
-        "name": "Alham Fikri Aji",
-        "papers": 1
-      },
-      {
         "name": "Ayu Purwarianti",
         "papers": 1
       },
@@ -862,11 +2236,387 @@
         "papers": 1
       },
       {
-        "name": "Tiezheng Yu",
+        "name": "Hanchao Yu",
         "papers": 1
       },
       {
-        "name": "Wenliang Dai",
+        "name": "Davis Liang",
+        "papers": 1
+      },
+      {
+        "name": "Yuning Mao",
+        "papers": 1
+      },
+      {
+        "name": "Shaoliang Nie",
+        "papers": 1
+      },
+      {
+        "name": "Po-Yao (Bernie) Huang",
+        "papers": 1
+      },
+      {
+        "name": "Madian Khabsa",
+        "papers": 1
+      },
+      {
+        "name": "Yi-Chia Wang",
+        "papers": 1
+      },
+      {
+        "name": "Deqian Kong",
+        "papers": 1
+      },
+      {
+        "name": "Dehong Xu",
+        "papers": 1
+      },
+      {
+        "name": "Bo Pang",
+        "papers": 1
+      },
+      {
+        "name": "Yingting Wu",
+        "papers": 1
+      },
+      {
+        "name": "Junnan Li",
+        "papers": 1
+      },
+      {
+        "name": "Dongxu Li",
+        "papers": 1
+      },
+      {
+        "name": "A. Tiong",
+        "papers": 1
+      },
+      {
+        "name": "Junqi Zhao",
+        "papers": 1
+      },
+      {
+        "name": "Weisheng Wang",
+        "papers": 1
+      },
+      {
+        "name": "Boyang Albert Li",
+        "papers": 1
+      },
+      {
+        "name": "Steven C. H. Hoi",
+        "papers": 1
+      },
+      {
+        "name": "Saeedeh Ghadimi",
+        "papers": 1
+      },
+      {
+        "name": "H. Sameti",
+        "papers": 1
+      },
+      {
+        "name": "Quyet V. Do",
+        "papers": 1
+      },
+      {
+        "name": "Rahmad Mahendra",
+        "papers": 1
+      },
+      {
+        "name": "Christian Wibisono",
+        "papers": 1
+      },
+      {
+        "name": "Ade Romadhony",
+        "papers": 1
+      },
+      {
+        "name": "Karissa Vincentio",
+        "papers": 1
+      },
+      {
+        "name": "Jennifer Santoso",
+        "papers": 1
+      },
+      {
+        "name": "David Moeljadi",
+        "papers": 1
+      },
+      {
+        "name": "Cahya Wirawan",
+        "papers": 1
+      },
+      {
+        "name": "Frederikus Hudi",
+        "papers": 1
+      },
+      {
+        "name": "I. Parmonangan",
+        "papers": 1
+      },
+      {
+        "name": "Ika Alfina",
+        "papers": 1
+      },
+      {
+        "name": "Muham-mad Satrio Wicaksono",
+        "papers": 1
+      },
+      {
+        "name": "Ilham Firdausi Putra",
+        "papers": 1
+      },
+      {
+        "name": "Samsul Rahmadani",
+        "papers": 1
+      },
+      {
+        "name": "Yulianti Oenang",
+        "papers": 1
+      },
+      {
+        "name": "A. Septiandri",
+        "papers": 1
+      },
+      {
+        "name": "James Jaya",
+        "papers": 1
+      },
+      {
+        "name": "Kaustubh D. Dhole",
+        "papers": 1
+      },
+      {
+        "name": "A. Suryani",
+        "papers": 1
+      },
+      {
+        "name": "K. Stevens",
+        "papers": 1
+      },
+      {
+        "name": "Made Nindyatama Nityasya",
+        "papers": 1
+      },
+      {
+        "name": "Farid Adilazuarda",
+        "papers": 1
+      },
+      {
+        "name": "Ryan Ignatius",
+        "papers": 1
+      },
+      {
+        "name": "Ryandito Diandaru",
+        "papers": 1
+      },
+      {
+        "name": "Vito Ghifari",
+        "papers": 1
+      },
+      {
+        "name": "Dyah Damapuspita",
+        "papers": 1
+      },
+      {
+        "name": "C. Tho",
+        "papers": 1
+      },
+      {
+        "name": "I. M. K. Karo",
+        "papers": 1
+      },
+      {
+        "name": "Tirana Noor Fatyanosa",
+        "papers": 1
+      },
+      {
+        "name": "Graham Neubig",
+        "papers": 1
+      },
+      {
+        "name": "Timothy Baldwin",
+        "papers": 1
+      },
+      {
+        "name": "Sebastian Ruder",
+        "papers": 1
+      },
+      {
+        "name": "Herry Sujaini",
+        "papers": 1
+      },
+      {
+        "name": "S. Sakti",
+        "papers": 1
+      },
+      {
+        "name": "A. Purwarianti",
+        "papers": 1
+      },
+      {
+        "name": "C. Hazirbas",
+        "papers": 1
+      },
+      {
+        "name": "Parisa Assar",
+        "papers": 1
+      },
+      {
+        "name": "Bilal Porgali",
+        "papers": 1
+      },
+      {
+        "name": "Vítor Albiero",
+        "papers": 1
+      },
+      {
+        "name": "Stefan Hermanek",
+        "papers": 1
+      },
+      {
+        "name": "Jacqueline Pan",
+        "papers": 1
+      },
+      {
+        "name": "Emily McReynolds",
+        "papers": 1
+      },
+      {
+        "name": "Miranda Bogen",
+        "papers": 1
+      },
+      {
+        "name": "Cristian Canton Ferrer",
+        "papers": 1
+      },
+      {
+        "name": "Huang Zhong",
+        "papers": 1
+      },
+      {
+        "name": "Mingqian Zhong",
+        "papers": 1
+      },
+      {
+        "name": "Yuk-Yu Nancy Ip",
+        "papers": 1
+      },
+      {
+        "name": "Zhaojiang Lin",
+        "papers": 1
+      },
+      {
+        "name": "M. Patwary",
+        "papers": 1
+      },
+      {
+        "name": "Shrimai Prabhumoye",
+        "papers": 1
+      },
+      {
+        "name": "R. Prenger",
+        "papers": 1
+      },
+      {
+        "name": "M. Shoeybi",
+        "papers": 1
+      },
+      {
+        "name": "Anima Anandkumar",
+        "papers": 1
+      },
+      {
+        "name": "Bryan Catanzaro",
+        "papers": 1
+      },
+      {
+        "name": "Badr AlKhamissi",
+        "papers": 1
+      },
+      {
+        "name": "Faisal Ladhak",
+        "papers": 1
+      },
+      {
+        "name": "Srini Iyer",
+        "papers": 1
+      },
+      {
+        "name": "Ves Stoyanov",
+        "papers": 1
+      },
+      {
+        "name": "Zornitsa Kozareva",
+        "papers": 1
+      },
+      {
+        "name": "Xian Li",
+        "papers": 1
+      },
+      {
+        "name": "Lambert Mathias",
+        "papers": 1
+      },
+      {
+        "name": "Tiffany Mak",
+        "papers": 1
+      },
+      {
+        "name": "Xiaopu Zhou",
+        "papers": 1
+      },
+      {
+        "name": "N. Ip",
+        "papers": 1
+      },
+      {
+        "name": "Su Dan",
+        "papers": 1
+      },
+      {
+        "name": "Lu Hou",
+        "papers": 1
+      },
+      {
+        "name": "Xiaoguang Li",
+        "papers": 1
+      },
+      {
+        "name": "Jindi Zhang",
+        "papers": 1
+      },
+      {
+        "name": "D. Su",
+        "papers": 1
+      },
+      {
+        "name": "Cheuk Tung Shadow Yiu",
+        "papers": 1
+      },
+      {
+        "name": "Qifeng Chen",
+        "papers": 1
+      },
+      {
+        "name": "Xiaojuan Ma",
+        "papers": 1
+      },
+      {
+        "name": "Bertram E. Shi",
+        "papers": 1
+      },
+      {
+        "name": "Xinrui Zhou",
+        "papers": 1
+      },
+      {
+        "name": "Bo Wu",
+        "papers": 1
+      },
+      {
+        "name": "Yi Y. Liu",
         "papers": 1
       }
     ],

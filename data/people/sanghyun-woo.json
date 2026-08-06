@@ -14,7 +14,9 @@
     "twitter": "https://x.com/sanghyunwoo1219",
     "website": "https://sites.google.com/view/sanghyunwoo/"
   },
-  "semanticScholarId": "2262209",
+  "semanticScholarId": [
+    "2262209"
+  ],
   "careerHistory": [
     {
       "org": "Google DeepMind",
@@ -36,15 +38,15 @@
       "year": 2024,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2406.16860",
-      "citationCount": 913,
+      "citationCount": 917,
       "coAuthors": [
-        {
-          "slug": "adithya-iyer",
-          "name": "Adithya Iyer"
-        },
         {
           "slug": "jihan-yang",
           "name": "Jihan Yang"
+        },
+        {
+          "slug": "adithya-iyer",
+          "name": "Adithya Iyer"
         },
         {
           "slug": "yann-lecun",
@@ -214,7 +216,7 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548",
-      "citationCount": 1894,
+      "citationCount": 1895,
       "coAuthors": [
         {
           "slug": "saining-xie",
@@ -319,13 +321,789 @@
           "name": "In-So Kweon"
         }
       ]
+    },
+    {
+      "paperId": "b77df10c62c7df924e9fe7ede66f3fd2c6cd15ce",
+      "title": "Test-Time Adaptation in the Dynamic World With Compound Domain Knowledge Management",
+      "year": 2022,
+      "venue": "IEEE Robotics and Automation Letters",
+      "url": "https://doi.org/10.1109/LRA.2023.3308063",
+      "citationCount": 9,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jun S. Song"
+        },
+        {
+          "slug": null,
+          "name": "Kwanyong Park"
+        },
+        {
+          "slug": null,
+          "name": "Inkyu Shin"
+        },
+        {
+          "slug": null,
+          "name": "Chaoning Zhang"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "9583c43171c2f4605790def9d54a488a0e250aa9",
+      "title": "CD-TTA: Compound Domain Test-time Adaptation for Semantic Segmentation",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2212.08356",
+      "citationCount": 10,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jun S. Song"
+        },
+        {
+          "slug": null,
+          "name": "Kwanyong Park"
+        },
+        {
+          "slug": null,
+          "name": "Inkyu Shin"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "c5f3e781e49937113d59f96ecf85482eb319458e",
+      "title": "Dense Pixel-Level Interpretation of Dynamic Scenes With Video Panoptic Segmentation",
+      "year": 2022,
+      "venue": "IEEE Transactions on Image Processing",
+      "url": "https://doi.org/10.1109/TIP.2022.3183440",
+      "citationCount": 5,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Dahun Kim"
+        },
+        {
+          "slug": null,
+          "name": "Joon-Young Lee"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "bca020e402056657f4021904a748ee75b91e4fc9",
+      "title": "Per-Clip Video Object Segmentation",
+      "year": 2022,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52688.2022.00141",
+      "citationCount": 64,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Kwanyong Park"
+        },
+        {
+          "slug": null,
+          "name": "Seoung Wug Oh"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        },
+        {
+          "slug": null,
+          "name": "Joon-Young Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "c41c6cddb9326335ac1efcf84bab083a96a26aac",
+      "title": "Talking Face Generation with Multilingual TTS",
+      "year": 2022,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52688.2022.02074",
+      "citationCount": 29,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Hyoung-Kyu Song"
+        },
+        {
+          "slug": null,
+          "name": "Junhyeok Lee"
+        },
+        {
+          "slug": null,
+          "name": "S. Yang"
+        },
+        {
+          "slug": null,
+          "name": "Hyunjae Cho"
+        },
+        {
+          "slug": null,
+          "name": "Youseong Lee"
+        },
+        {
+          "slug": null,
+          "name": "Dongho Choi"
+        },
+        {
+          "slug": null,
+          "name": "Kang-Wook Kim"
+        }
+      ]
+    },
+    {
+      "paperId": "e07890cf7e92ef8bac0b124ba2ecbe28bf488b65",
+      "title": "Heterogeneous Target Speech Separation",
+      "year": 2022,
+      "venue": "Interspeech",
+      "url": "https://doi.org/10.21437/Interspeech.2022-46",
+      "citationCount": 33,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Hyunjae Cho"
+        },
+        {
+          "slug": null,
+          "name": "Wonbin Jung"
+        },
+        {
+          "slug": null,
+          "name": "Junhyeok Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "dfda660925452210c39f6c64a377112da2b74e80",
+      "title": "Discover, Hallucinate, and Adapt: Open Compound Domain Adaptation for Semantic Segmentation",
+      "year": 2021,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/dfda660925452210c39f6c64a377112da2b74e80",
+      "citationCount": 41,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Kwanyong Park"
+        },
+        {
+          "slug": null,
+          "name": "Inkyu Shin"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "1c88fe5413fee6bfdc39b885851f4a5d9b08b811",
+      "title": "Studying the Effects of Self-Attention for Medical Image Analysis",
+      "year": 2021,
+      "venue": "2021 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)",
+      "url": "https://doi.org/10.1109/ICCVW54120.2021.00381",
+      "citationCount": 34,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Adrit Rao"
+        },
+        {
+          "slug": null,
+          "name": "Jongchan Park"
+        },
+        {
+          "slug": null,
+          "name": "Joon-Young Lee"
+        },
+        {
+          "slug": null,
+          "name": "Oliver O. Aalami"
+        }
+      ]
+    },
+    {
+      "paperId": "bfc3ed9955c5cd8676b2ec6a74cbc598ef5d751b",
+      "title": "LabOR: Labeling Only if Required for Domain Adaptive Semantic Segmentation",
+      "year": 2021,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV48922.2021.00847",
+      "citationCount": 70,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Inkyu Shin"
+        },
+        {
+          "slug": null,
+          "name": "Dong-Jin Kim"
+        },
+        {
+          "slug": null,
+          "name": "Jae-Won Cho"
+        },
+        {
+          "slug": null,
+          "name": "Kwanyong Park"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "c07b4f146416fab95548b42cf3d9acb482e1e5a5",
+      "title": "Deep Multi-Image Steganography with Private Keys",
+      "year": 2021,
+      "venue": "Electronics",
+      "url": "https://doi.org/10.3390/electronics10161906",
+      "citationCount": 10,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "H. Kweon"
+        },
+        {
+          "slug": null,
+          "name": "Jinsun Park"
+        },
+        {
+          "slug": null,
+          "name": "Donghyeon Cho"
+        }
+      ]
+    },
+    {
+      "paperId": "fb04891d44f81cd3ae9e13886f0a8adaff3dd75c",
+      "title": "Unsupervised Domain Adaptation for Video Semantic Segmentation",
+      "year": 2021,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/fb04891d44f81cd3ae9e13886f0a8adaff3dd75c",
+      "citationCount": 12,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Inkyu Shin"
+        },
+        {
+          "slug": null,
+          "name": "Kwanyong Park"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "9fc8cbfa2bacd9933f7f50460db1627faeaa1a4f",
+      "title": "Global Context and Geometric Priors for Effective Non-Local Self-Attention",
+      "year": 2021,
+      "venue": "British Machine Vision Conference",
+      "url": "https://doi.org/10.5244/c.35.258",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Dahun Kim"
+        },
+        {
+          "slug": null,
+          "name": "Joon-Young Lee"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "90d1b79984a79a88dbd931a829029b171e57ca9e",
+      "title": "Learning to Associate Every Segment for Video Panoptic Segmentation",
+      "year": 2021,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR46437.2021.00273",
+      "citationCount": 40,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Dahun Kim"
+        },
+        {
+          "slug": null,
+          "name": "Joon-Young Lee"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "e21cc9de85542465e0723f3f175c2938e4eed5b6",
+      "title": "Two-Phase Pseudo Label Densification for Self-training Based Domain Adaptation",
+      "year": 2020,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-030-58601-0_32",
+      "citationCount": 126,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Inkyu Shin"
+        },
+        {
+          "slug": null,
+          "name": "Fei Pan"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "831561a02369128fcd31b2aa1b4c12f4d09109b2",
+      "title": "The Devil is in the Boundary: Exploiting Boundary Representation for Basis-based Instance Segmentation",
+      "year": 2020,
+      "venue": "IEEE Workshop/Winter Conference on Applications of Computer Vision",
+      "url": "https://doi.org/10.1109/WACV48630.2021.00097",
+      "citationCount": 20,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Myungchul Kim"
+        },
+        {
+          "slug": null,
+          "name": "Dahun Kim"
+        },
+        {
+          "slug": null,
+          "name": "I. Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "96424fde14891eb15709fab65577b2b8b146c4ce",
+      "title": "Global-and-Local Relative Position Embedding for Unsupervised Video Summarization",
+      "year": 2020,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-030-58595-2_11",
+      "citationCount": 69,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yunjae Jung"
+        },
+        {
+          "slug": null,
+          "name": "Donghyeon Cho"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "02ebf1827a1cb08eea241e2fc80f8269f4d5a041",
+      "title": "Video Panoptic Segmentation",
+      "year": 2020,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/cvpr42600.2020.00988",
+      "citationCount": 206,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Dahun Kim"
+        },
+        {
+          "slug": null,
+          "name": "Joon-Young Lee"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "def96bfeac699862edaa76e3041e5a5c9f0c8c46",
+      "title": "Hide-and-Tell: Learning to Bridge Photo Streams for Visual Storytelling",
+      "year": 2020,
+      "venue": "AAAI Conference on Artificial Intelligence",
+      "url": "https://doi.org/10.1609/aaai.v34i07.6780",
+      "citationCount": 35,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yunjae Jung"
+        },
+        {
+          "slug": null,
+          "name": "Dahun Kim"
+        },
+        {
+          "slug": null,
+          "name": "Kyungsu Kim"
+        },
+        {
+          "slug": null,
+          "name": "Sungjin Kim"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "1d2b7ababd0ba4ca98d9a9970209948389fff446",
+      "title": "A Simple and Light-Weight Attention Module for Convolutional Neural Networks",
+      "year": 2020,
+      "venue": "International Journal of Computer Vision",
+      "url": "https://doi.org/10.1007/s11263-019-01283-0",
+      "citationCount": 142,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jongchan Park"
+        },
+        {
+          "slug": null,
+          "name": "Joon-Young Lee"
+        },
+        {
+          "slug": null,
+          "name": "I. Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "ab6d2e28f51012b1968b8b460624178d1cf47a5f",
+      "title": "Recurrent Temporal Aggregation Framework for Deep Video Inpainting",
+      "year": 2019,
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "url": "https://doi.org/10.1109/TPAMI.2019.2958083",
+      "citationCount": 46,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Dahun Kim"
+        },
+        {
+          "slug": null,
+          "name": "Joon-Young Lee"
+        },
+        {
+          "slug": null,
+          "name": "I. Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "844c7955f70beee9b4ccf08d27f41cd873d2116d",
+      "title": "Video Retargeting: Trade-off between Content Preservation and Spatio-temporal Consistency",
+      "year": 2019,
+      "venue": "ACM Multimedia",
+      "url": "https://doi.org/10.1145/3343031.3350895",
+      "citationCount": 4,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Donghyeon Cho"
+        },
+        {
+          "slug": null,
+          "name": "Yunjae Jung"
+        },
+        {
+          "slug": null,
+          "name": "François Rameau"
+        },
+        {
+          "slug": null,
+          "name": "Dahun Kim"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "e12184b519c14d6964d1ab45ff13fd87f24891c5",
+      "title": "Preserving Semantic and Temporal Consistency for Unpaired Video-to-Video Translation",
+      "year": 2019,
+      "venue": "ACM Multimedia",
+      "url": "https://doi.org/10.1145/3343031.3350864",
+      "citationCount": 47,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Kwanyong Park"
+        },
+        {
+          "slug": null,
+          "name": "Dahun Kim"
+        },
+        {
+          "slug": null,
+          "name": "Donghyeon Cho"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "862e96bd075ac44c9e4a172efd7a636fe9d03f83",
+      "title": "Propose-and-Attend Single Shot Detector",
+      "year": 2019,
+      "venue": "IEEE Workshop/Winter Conference on Applications of Computer Vision",
+      "url": "https://doi.org/10.1109/WACV45572.2020.9093364",
+      "citationCount": 16,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Hoyong Jang"
+        },
+        {
+          "slug": null,
+          "name": "Philipp Benz"
+        },
+        {
+          "slug": null,
+          "name": "Jinsun Park"
+        },
+        {
+          "slug": null,
+          "name": "I. Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "794a1f2939e886a6c1ef7ef600ac43bc5414a416",
+      "title": "Align-and-Attend Network for Globally and Locally Coherent Video Inpainting",
+      "year": 2019,
+      "venue": "British Machine Vision Conference",
+      "url": "https://doi.org/10.5244/c.34.113",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Dahun Kim"
+        },
+        {
+          "slug": null,
+          "name": "Kwanyong Park"
+        },
+        {
+          "slug": null,
+          "name": "Joon-Young Lee"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "d6671a8f5c5ed906501f9c441fda64942a682800",
+      "title": "Deep Blind Video Decaptioning by Temporal Aggregation and Recurrence",
+      "year": 2019,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR.2019.00439",
+      "citationCount": 27,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Dahun Kim"
+        },
+        {
+          "slug": null,
+          "name": "Joon-Young Lee"
+        },
+        {
+          "slug": null,
+          "name": "I. Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "5f0c8b5be40518b0ce7876ab152c2b9696ef713e",
+      "title": "Deep Video Inpainting",
+      "year": 2019,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR.2019.00594",
+      "citationCount": 236,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Dahun Kim"
+        },
+        {
+          "slug": null,
+          "name": "Joon-Young Lee"
+        },
+        {
+          "slug": null,
+          "name": "I. Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "ae5d5e5c40b208e21f6f0c18bc453310bf9cb297",
+      "title": "Gated bidirectional feature pyramid network for accurate one-shot detection",
+      "year": 2019,
+      "venue": "Machine Vision and Applications",
+      "url": "https://doi.org/10.1007/s00138-019-01017-9",
+      "citationCount": 26,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Soonmin Hwang"
+        },
+        {
+          "slug": null,
+          "name": "Hoyong Jang"
+        },
+        {
+          "slug": null,
+          "name": "I. Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "69b3b29c6fabaea88d382922346d9157395a3226",
+      "title": "Discriminative Feature Learning for Unsupervised Video Summarization",
+      "year": 2018,
+      "venue": "AAAI Conference on Artificial Intelligence",
+      "url": "https://doi.org/10.1609/aaai.v33i01.33018537",
+      "citationCount": 160,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yunjae Jung"
+        },
+        {
+          "slug": null,
+          "name": "Donghyeon Cho"
+        },
+        {
+          "slug": null,
+          "name": "Dahun Kim"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "b1d67fc92db00421840af6f157e2d9e67a7154db",
+      "title": "LinkNet: Relational Embedding for Scene Graph",
+      "year": 2018,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/b1d67fc92db00421840af6f157e2d9e67a7154db",
+      "citationCount": 158,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Dahun Kim"
+        },
+        {
+          "slug": null,
+          "name": "Donghyeon Cho"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "10bb4ef7a6719ea132e00f0ab5680919a4131d99",
+      "title": "BAM: Bottleneck Attention Module",
+      "year": 2018,
+      "venue": "British Machine Vision Conference",
+      "url": "https://www.semanticscholar.org/paper/10bb4ef7a6719ea132e00f0ab5680919a4131d99",
+      "citationCount": 1319,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jongchan Park"
+        },
+        {
+          "slug": null,
+          "name": "Joon-Young Lee"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "de95601d9e3b20ec51aa33e1f27b1880d2c44ef2",
+      "title": "CBAM: Convolutional Block Attention Module",
+      "year": 2018,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-030-01234-2_1",
+      "citationCount": 24891,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jongchan Park"
+        },
+        {
+          "slug": null,
+          "name": "Joon-Young Lee"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        }
+      ]
+    },
+    {
+      "paperId": "b44af04a88739af6c452871cd9feed6eabe1d2d2",
+      "title": "StairNet: Top-Down Semantic Aggregation for Accurate One Shot Detection",
+      "year": 2017,
+      "venue": "IEEE Workshop/Winter Conference on Applications of Computer Vision",
+      "url": "https://doi.org/10.1109/WACV.2018.00125",
+      "citationCount": 101,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Soonmin Hwang"
+        },
+        {
+          "slug": null,
+          "name": "In-So Kweon"
+        }
+      ]
     }
   ],
   "topPublications": [
     {
       "title": "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders",
       "year": 2023,
-      "citationCount": 1894,
+      "citationCount": 1895,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548"
     },
@@ -374,13 +1152,13 @@
         "sharedPapers": 2
       },
       {
-        "slug": "adithya-iyer",
-        "name": "Adithya Iyer",
+        "slug": "jihan-yang",
+        "name": "Jihan Yang",
         "sharedPapers": 1
       },
       {
-        "slug": "jihan-yang",
-        "name": "Jihan Yang",
+        "slug": "adithya-iyer",
+        "name": "Adithya Iyer",
         "sharedPapers": 1
       },
       {
@@ -392,23 +1170,75 @@
     "externalCoAuthors": [
       {
         "name": "In-So Kweon",
-        "papers": 8
-      },
-      {
-        "name": "Kwanyong Park",
-        "papers": 7
-      },
-      {
-        "name": "Inkyu Shin",
-        "papers": 4
-      },
-      {
-        "name": "Seoung Wug Oh",
-        "papers": 3
+        "papers": 29
       },
       {
         "name": "Joon-Young Lee",
+        "papers": 16
+      },
+      {
+        "name": "Kwanyong Park",
+        "papers": 15
+      },
+      {
+        "name": "Dahun Kim",
+        "papers": 14
+      },
+      {
+        "name": "Inkyu Shin",
+        "papers": 10
+      },
+      {
+        "name": "I. Kweon",
+        "papers": 7
+      },
+      {
+        "name": "Donghyeon Cho",
+        "papers": 6
+      },
+      {
+        "name": "Seoung Wug Oh",
+        "papers": 4
+      },
+      {
+        "name": "Jongchan Park",
+        "papers": 4
+      },
+      {
+        "name": "Yunjae Jung",
+        "papers": 4
+      },
+      {
+        "name": "Jun S. Song",
         "papers": 3
+      },
+      {
+        "name": "Myungchul Kim",
+        "papers": 2
+      },
+      {
+        "name": "Chaoning Zhang",
+        "papers": 2
+      },
+      {
+        "name": "Junhyeok Lee",
+        "papers": 2
+      },
+      {
+        "name": "Hyunjae Cho",
+        "papers": 2
+      },
+      {
+        "name": "Jinsun Park",
+        "papers": 2
+      },
+      {
+        "name": "Hoyong Jang",
+        "papers": 2
+      },
+      {
+        "name": "Soonmin Hwang",
+        "papers": 2
       },
       {
         "name": "Shengbang Tong",
@@ -447,18 +1277,6 @@
         "papers": 1
       },
       {
-        "name": "Myungchul Kim",
-        "papers": 1
-      },
-      {
-        "name": "Jun S. Song",
-        "papers": 1
-      },
-      {
-        "name": "Chaoning Zhang",
-        "papers": 1
-      },
-      {
         "name": "Daehan Kim",
         "papers": 1
       },
@@ -488,6 +1306,70 @@
       },
       {
         "name": "S. Hur",
+        "papers": 1
+      },
+      {
+        "name": "Hyoung-Kyu Song",
+        "papers": 1
+      },
+      {
+        "name": "S. Yang",
+        "papers": 1
+      },
+      {
+        "name": "Youseong Lee",
+        "papers": 1
+      },
+      {
+        "name": "Dongho Choi",
+        "papers": 1
+      },
+      {
+        "name": "Kang-Wook Kim",
+        "papers": 1
+      },
+      {
+        "name": "Wonbin Jung",
+        "papers": 1
+      },
+      {
+        "name": "Adrit Rao",
+        "papers": 1
+      },
+      {
+        "name": "Oliver O. Aalami",
+        "papers": 1
+      },
+      {
+        "name": "Dong-Jin Kim",
+        "papers": 1
+      },
+      {
+        "name": "Jae-Won Cho",
+        "papers": 1
+      },
+      {
+        "name": "H. Kweon",
+        "papers": 1
+      },
+      {
+        "name": "Fei Pan",
+        "papers": 1
+      },
+      {
+        "name": "Kyungsu Kim",
+        "papers": 1
+      },
+      {
+        "name": "Sungjin Kim",
+        "papers": 1
+      },
+      {
+        "name": "François Rameau",
+        "papers": 1
+      },
+      {
+        "name": "Philipp Benz",
         "papers": 1
       }
     ],

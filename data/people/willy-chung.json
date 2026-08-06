@@ -11,7 +11,9 @@
     "linkedin": "https://www.linkedin.com/in/willyhcchung/",
     "scholar": "https://scholar.google.com/citations?user=y02ojzsAAAAJ&hl=fr"
   },
-  "semanticScholarId": "2160716372",
+  "semanticScholarId": [
+    "2160716372"
+  ],
   "careerHistory": [
     {
       "org": "Meta",
@@ -112,7 +114,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2509.02722",
-      "citationCount": 31,
+      "citationCount": 34,
       "coAuthors": [
         {
           "slug": "delong-chen",
@@ -149,16 +151,16 @@
       "citationCount": 79,
       "coAuthors": [
         {
-          "slug": "basile-terver",
-          "name": "Basile Terver"
-        },
-        {
           "slug": "pascale-fung",
           "name": "Pascale Fung"
         },
         {
           "slug": "delong-chen",
           "name": "Delong Chen"
+        },
+        {
+          "slug": "basile-terver",
+          "name": "Basile Terver"
         },
         {
           "slug": null,
@@ -333,6 +335,404 @@
           "name": "Holy Lovenia"
         }
       ]
+    },
+    {
+      "paperId": "5c112d7afee764a1466755417aa02e11bbec7c9c",
+      "title": "Cross-Lingual Cross-Age Adaptation for Low-Resource Elderly Speech Emotion Recognition",
+      "year": 2023,
+      "venue": "Interspeech",
+      "url": "https://doi.org/10.21437/interspeech.2023-327",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Rita Frieske"
+        },
+        {
+          "slug": null,
+          "name": "Zihan Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "b555fbe8d4e30fc1312c615ab7dfe6ac030dbcff",
+      "title": "Instruct-Align: Teaching Novel Languages with to LLMs through Alignment-based Cross-Lingual Instruction",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2305.13627",
+      "citationCount": 14,
+      "coAuthors": [
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "8f6f58da9011023c044a42bffa92310a5c55467c",
+      "title": "Cross-Lingual Cross-Age Group Adaptation for Low-Resource Elderly Speech Emotion Recognition",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2306.14517",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Rita Frieske"
+        },
+        {
+          "slug": null,
+          "name": "Zihan Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "cbff55da4255cf523bf028e9faf8508f039a92e7",
+      "title": "InstructAlign: High-and-Low Resource Language Alignment via Continual Crosslingual Instruction Tuning",
+      "year": 2023,
+      "venue": "SEALP",
+      "url": "https://doi.org/10.18653/v1/2023.sealp-1.5",
+      "citationCount": 24,
+      "coAuthors": [
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "7e0b582f10af855c7a2e2a6320939bd7dd82ef62",
+      "title": "Learn What NOT to Learn: Towards Generative Safety in Chatbots",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2304.11220",
+      "citationCount": 12,
+      "coAuthors": [
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        },
+        {
+          "slug": null,
+          "name": "Leila Khalatbari"
+        },
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Dan Su"
+        },
+        {
+          "slug": null,
+          "name": "Saeedeh Ghadimi"
+        },
+        {
+          "slug": null,
+          "name": "H. Sameti"
+        }
+      ]
+    },
+    {
+      "paperId": "bf8491bef353df126e2306ad2fe4b898697b906a",
+      "title": "A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity",
+      "year": 2023,
+      "venue": "International Joint Conference on Natural Language Processing",
+      "url": "https://doi.org/10.18653/v1/2023.ijcnlp-main.45",
+      "citationCount": 1793,
+      "coAuthors": [
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        },
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Nayeon Lee"
+        },
+        {
+          "slug": null,
+          "name": "Wenliang Dai"
+        },
+        {
+          "slug": null,
+          "name": "Dan Su"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Wilie"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Ji"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        },
+        {
+          "slug": null,
+          "name": "Quyet V. Do"
+        },
+        {
+          "slug": null,
+          "name": "Yan Xu"
+        }
+      ]
+    },
+    {
+      "paperId": "609ec8e18b8128e2474b5c96132b63105a5a5e73",
+      "title": "Every picture tells a story: Image-grounded controllable stylistic story generation",
+      "year": 2022,
+      "venue": "LATECHCLFL",
+      "url": "https://doi.org/10.48550/arXiv.2209.01638",
+      "citationCount": 9,
+      "coAuthors": [
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Wilie"
+        },
+        {
+          "slug": null,
+          "name": "Romain Barraud"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        }
+      ]
+    },
+    {
+      "paperId": "7a8923ebf3c9168037951f078eed21b07239cac3",
+      "title": "Clozer”:\" Adaptable Data Augmentation for Cloze-style Reading Comprehension",
+      "year": 2022,
+      "venue": "Workshop on Representation Learning for NLP",
+      "url": "https://doi.org/10.18653/v1/2022.repl4nlp-1.7",
+      "citationCount": 3,
+      "coAuthors": [
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Wilie"
+        },
+        {
+          "slug": null,
+          "name": "Mini Zeng"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Su Dan"
+        }
+      ]
+    },
+    {
+      "paperId": "4e45ac10580841b22471dd37d45f478fdaa1efa0",
+      "title": "DEBATE: Devil’s Advocate-Based Assessment and Text Evaluation",
+      "year": null,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/4e45ac10580841b22471dd37d45f478fdaa1efa0",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Alex G. Kim"
+        },
+        {
+          "slug": null,
+          "name": "Keonwoo Kim"
+        },
+        {
+          "slug": null,
+          "name": "Sangwon Yoon"
+        },
+        {
+          "slug": null,
+          "name": "Josh Achiam"
+        },
+        {
+          "slug": null,
+          "name": "Steven Adler"
+        },
+        {
+          "slug": null,
+          "name": "S. Agarwal"
+        },
+        {
+          "slug": null,
+          "name": "L. Ahmad"
+        },
+        {
+          "slug": null,
+          "name": "Ilge Akkaya"
+        },
+        {
+          "slug": null,
+          "name": "Florencia Leoni Aleman"
+        },
+        {
+          "slug": null,
+          "name": "D. Almeida"
+        },
+        {
+          "slug": null,
+          "name": "Janko Altenschmidt"
+        },
+        {
+          "slug": null,
+          "name": "Shyamal Sam Altman"
+        },
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawĳaya"
+        },
+        {
+          "slug": null,
+          "name": "Nayeon Lee"
+        },
+        {
+          "slug": null,
+          "name": "Wen-liang Dai"
+        },
+        {
+          "slug": null,
+          "name": "Dan Su"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Wilie"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Ji"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        },
+        {
+          "slug": null,
+          "name": "Tom Brown"
+        },
+        {
+          "slug": null,
+          "name": "Benjamin Mann"
+        },
+        {
+          "slug": null,
+          "name": "N. Ryder"
+        },
+        {
+          "slug": null,
+          "name": "Melanie Subbiah"
+        },
+        {
+          "slug": null,
+          "name": "Jared Kaplan"
+        },
+        {
+          "slug": null,
+          "name": "Prafulla Dhariwal"
+        },
+        {
+          "slug": null,
+          "name": "Arvind Neelakantan"
+        },
+        {
+          "slug": null,
+          "name": "Pranav Shyam"
+        },
+        {
+          "slug": null,
+          "name": "G. Sastry"
+        }
+      ]
     }
   ],
   "topPublications": [
@@ -353,7 +753,7 @@
     {
       "title": "Planning with Reasoning using Vision Language World Model",
       "year": 2025,
-      "citationCount": 32,
+      "citationCount": 34,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2509.02722"
     },
@@ -388,7 +788,7 @@
       {
         "slug": "pascale-fung",
         "name": "Pascale Fung",
-        "sharedPapers": 8
+        "sharedPapers": 16
       },
       {
         "slug": "delong-chen",
@@ -408,27 +808,43 @@
     ],
     "externalCoAuthors": [
       {
+        "name": "Holy Lovenia",
+        "papers": 11
+      },
+      {
+        "name": "Samuel Cahyawijaya",
+        "papers": 9
+      },
+      {
+        "name": "Bryan Wilie",
+        "papers": 7
+      },
+      {
+        "name": "Yejin Bang",
+        "papers": 6
+      },
+      {
+        "name": "Ziwei Ji",
+        "papers": 5
+      },
+      {
         "name": "Théo Moutakanni",
         "papers": 4
       },
       {
-        "name": "Yejin Bang",
-        "papers": 3
+        "name": "Tiezheng Yu",
+        "papers": 4
       },
       {
         "name": "A. Bolourchi",
         "papers": 3
       },
       {
-        "name": "Ziwei Ji",
+        "name": "Yan Xu",
         "papers": 3
       },
       {
-        "name": "Bryan Wilie",
-        "papers": 3
-      },
-      {
-        "name": "Holy Lovenia",
+        "name": "Dan Su",
         "papers": 3
       },
       {
@@ -444,11 +860,15 @@
         "papers": 2
       },
       {
-        "name": "Yan Xu",
+        "name": "Rita Frieske",
         "papers": 2
       },
       {
-        "name": "Samuel Cahyawijaya",
+        "name": "Zihan Liu",
+        "papers": 2
+      },
+      {
+        "name": "Nayeon Lee",
         "papers": 2
       },
       {
@@ -505,6 +925,130 @@
       },
       {
         "name": "Etsuko Ishii",
+        "papers": 1
+      },
+      {
+        "name": "Leila Khalatbari",
+        "papers": 1
+      },
+      {
+        "name": "Saeedeh Ghadimi",
+        "papers": 1
+      },
+      {
+        "name": "H. Sameti",
+        "papers": 1
+      },
+      {
+        "name": "Wenliang Dai",
+        "papers": 1
+      },
+      {
+        "name": "Quyet V. Do",
+        "papers": 1
+      },
+      {
+        "name": "Romain Barraud",
+        "papers": 1
+      },
+      {
+        "name": "Mini Zeng",
+        "papers": 1
+      },
+      {
+        "name": "Su Dan",
+        "papers": 1
+      },
+      {
+        "name": "Alex G. Kim",
+        "papers": 1
+      },
+      {
+        "name": "Keonwoo Kim",
+        "papers": 1
+      },
+      {
+        "name": "Sangwon Yoon",
+        "papers": 1
+      },
+      {
+        "name": "Josh Achiam",
+        "papers": 1
+      },
+      {
+        "name": "Steven Adler",
+        "papers": 1
+      },
+      {
+        "name": "S. Agarwal",
+        "papers": 1
+      },
+      {
+        "name": "L. Ahmad",
+        "papers": 1
+      },
+      {
+        "name": "Ilge Akkaya",
+        "papers": 1
+      },
+      {
+        "name": "Florencia Leoni Aleman",
+        "papers": 1
+      },
+      {
+        "name": "D. Almeida",
+        "papers": 1
+      },
+      {
+        "name": "Janko Altenschmidt",
+        "papers": 1
+      },
+      {
+        "name": "Shyamal Sam Altman",
+        "papers": 1
+      },
+      {
+        "name": "Samuel Cahyawĳaya",
+        "papers": 1
+      },
+      {
+        "name": "Wen-liang Dai",
+        "papers": 1
+      },
+      {
+        "name": "Tom Brown",
+        "papers": 1
+      },
+      {
+        "name": "Benjamin Mann",
+        "papers": 1
+      },
+      {
+        "name": "N. Ryder",
+        "papers": 1
+      },
+      {
+        "name": "Melanie Subbiah",
+        "papers": 1
+      },
+      {
+        "name": "Jared Kaplan",
+        "papers": 1
+      },
+      {
+        "name": "Prafulla Dhariwal",
+        "papers": 1
+      },
+      {
+        "name": "Arvind Neelakantan",
+        "papers": 1
+      },
+      {
+        "name": "Pranav Shyam",
+        "papers": 1
+      },
+      {
+        "name": "G. Sastry",
         "papers": 1
       }
     ],

@@ -13,7 +13,9 @@
     "scholar": "https://scholar.google.com/citations?user=7m8JVusAAAAJ&hl=en",
     "website": "https://bw-shi.github.io/"
   },
-  "semanticScholarId": "2261676061",
+  "semanticScholarId": [
+    "2261676061"
+  ],
   "careerHistory": [
     {
       "org": "Meta",
@@ -346,12 +348,278 @@
       ]
     },
     {
+      "paperId": "b3bc3238dace58739b32a17cc55ba1428c0a62a0",
+      "title": "Meta Audiobox Aesthetics: Unified Automatic Quality Assessment for Speech, Music, and Sound",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2502.05139",
+      "citationCount": 174,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Andros Tjandra"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Chiao Wu"
+        },
+        {
+          "slug": null,
+          "name": "Baishan Guo"
+        },
+        {
+          "slug": null,
+          "name": "John Hoffman"
+        },
+        {
+          "slug": null,
+          "name": "Brian Ellis"
+        },
+        {
+          "slug": null,
+          "name": "Apoorv Vyas"
+        },
+        {
+          "slug": null,
+          "name": "Sanyuan Chen"
+        },
+        {
+          "slug": null,
+          "name": "Matt Le"
+        },
+        {
+          "slug": null,
+          "name": "N. Zacharov"
+        },
+        {
+          "slug": null,
+          "name": "Carleigh Wood"
+        },
+        {
+          "slug": null,
+          "name": "Ann Lee"
+        },
+        {
+          "slug": null,
+          "name": "Wei-Ning Hsu"
+        }
+      ]
+    },
+    {
+      "paperId": "4c6bf9459b8a14ee3bfbc1ac41366c7e41c15b63",
+      "title": "A Dynamic Measurement System Based on Adaptive Clustering and Multi-Classifier",
+      "year": 2024,
+      "venue": "Applied Sciences",
+      "url": "https://doi.org/10.3390/app15010081",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Hongjian You"
+        },
+        {
+          "slug": null,
+          "name": "Huixian Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "56bb50c242752d35ea0f668860410620cd2c47cf",
+      "title": "Human-like Behavior Strategy for Autonomous Vehicles Considering\n Driving Styles",
+      "year": 2024,
+      "venue": "SAE technical paper series",
+      "url": "https://doi.org/10.4271/2024-01-7046",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chuanliang Shen"
+        },
+        {
+          "slug": null,
+          "name": "Longxu Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Xiaoyuan Ma"
+        },
+        {
+          "slug": null,
+          "name": "Yi Li"
+        },
+        {
+          "slug": null,
+          "name": "Hongyu Hu"
+        }
+      ]
+    },
+    {
+      "paperId": "7eb573a63d04cc85fa2f3b84042bb766240c7690",
+      "title": "Data Efficient Reflow for Few Step Audio Generation",
+      "year": 2024,
+      "venue": "Spoken Language Technology Workshop",
+      "url": "https://doi.org/10.1109/SLT61566.2024.10832165",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Lemeng Wu"
+        },
+        {
+          "slug": null,
+          "name": "Zhaoheng Ni"
+        },
+        {
+          "slug": null,
+          "name": "Gaël Le Lan"
+        },
+        {
+          "slug": null,
+          "name": "Anurag Kumar"
+        },
+        {
+          "slug": null,
+          "name": "Varun Nagaraja"
+        },
+        {
+          "slug": null,
+          "name": "Xinhao Mei"
+        },
+        {
+          "slug": null,
+          "name": "Yunyang Xiong"
+        },
+        {
+          "slug": null,
+          "name": "Bilge Soran"
+        },
+        {
+          "slug": null,
+          "name": "Raghuraman Krishnamoorthi"
+        },
+        {
+          "slug": null,
+          "name": "Wei-Ning Hsu"
+        },
+        {
+          "slug": null,
+          "name": "Yangyang Shi"
+        },
+        {
+          "slug": null,
+          "name": "Vikas Chandra"
+        }
+      ]
+    },
+    {
+      "paperId": "c3cf634c0d3eb772ed8273e2d4d908e5d82e0b89",
+      "title": "Audiobox TTA-RAG: Improving Zero-Shot and Few-Shot Text-To-Audio with Retrieval-Augmented Generation",
+      "year": 2024,
+      "venue": "Interspeech",
+      "url": "https://doi.org/10.48550/arXiv.2411.05141",
+      "citationCount": 5,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Mu Yang"
+        },
+        {
+          "slug": null,
+          "name": "Matt Le"
+        },
+        {
+          "slug": null,
+          "name": "Wei-Ning Hsu"
+        },
+        {
+          "slug": null,
+          "name": "Andros Tjandra"
+        }
+      ]
+    },
+    {
+      "paperId": "6e31b451f0d06c59b142537626375a5579533495",
+      "title": "MDCure: A Scalable Pipeline for Multi-Document Instruction-Following",
+      "year": 2024,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2410.23463",
+      "citationCount": 14,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Gabrielle Kaili-May Liu"
+        },
+        {
+          "slug": null,
+          "name": "Avi Caciularu"
+        },
+        {
+          "slug": null,
+          "name": "Idan Szpektor"
+        },
+        {
+          "slug": null,
+          "name": "Arman Cohan"
+        }
+      ]
+    },
+    {
+      "paperId": "ac2d302e041b603bc972627c92e2fa8f14ba1ac3",
+      "title": "MusicFlow: Cascaded Flow Matching for Text Guided Music Generation",
+      "year": 2024,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2410.20478",
+      "citationCount": 26,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Prajwal K R"
+        },
+        {
+          "slug": null,
+          "name": "Matt Le"
+        },
+        {
+          "slug": null,
+          "name": "Apoorv Vyas"
+        },
+        {
+          "slug": null,
+          "name": "Andros Tjandra"
+        },
+        {
+          "slug": null,
+          "name": "Mahi Luthra"
+        },
+        {
+          "slug": null,
+          "name": "Baishan Guo"
+        },
+        {
+          "slug": null,
+          "name": "Huiyu Wang"
+        },
+        {
+          "slug": null,
+          "name": "Triantafyllos Afouras"
+        },
+        {
+          "slug": null,
+          "name": "David Kant"
+        },
+        {
+          "slug": null,
+          "name": "Wei-Ning Hsu"
+        }
+      ]
+    },
+    {
       "paperId": "ed92a7be6b2acc36baf0ed43454a97dbade0c893",
       "title": "Movie Gen: A Cast of Media Foundation Models",
       "year": 2024,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/ed92a7be6b2acc36baf0ed43454a97dbade0c893",
-      "citationCount": 608,
+      "citationCount": 611,
       "coAuthors": [
         {
           "slug": "andrew-brown",
@@ -702,6 +970,676 @@
           "name": "Yuming Du"
         }
       ]
+    },
+    {
+      "paperId": "64be86e931507429e2b6ea9b368c5f3a89e86d42",
+      "title": "Using Voicebox-based Synthetic Speech for ASR Adaptation",
+      "year": 2024,
+      "venue": "Synthetic Data’s Transformative Role in Foundational Speech Models",
+      "url": "https://doi.org/10.21437/syndata4genai.2024-8",
+      "citationCount": 3,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Hira Dhamyal"
+        },
+        {
+          "slug": null,
+          "name": "Leda Sari"
+        },
+        {
+          "slug": null,
+          "name": "Vimal Manohar"
+        },
+        {
+          "slug": null,
+          "name": "Nayan Singhal"
+        },
+        {
+          "slug": null,
+          "name": "Chunyang Wu"
+        },
+        {
+          "slug": null,
+          "name": "Jay Mahadeokar"
+        },
+        {
+          "slug": null,
+          "name": "Matt Le"
+        },
+        {
+          "slug": null,
+          "name": "Apoorv Vyas"
+        },
+        {
+          "slug": null,
+          "name": "Wei-Ning Hsu"
+        },
+        {
+          "slug": null,
+          "name": "Suyoun Kim"
+        },
+        {
+          "slug": null,
+          "name": "Ozlem Kalinli"
+        }
+      ]
+    },
+    {
+      "paperId": "e5a00acd40e7dd770f8d62227e58a2020077a45a",
+      "title": "Employee Ratings and Reviews Data from Glassdoor",
+      "year": 2024,
+      "venue": "The Journal of Information Systems",
+      "url": "https://doi.org/10.2308/isys-2023-003",
+      "citationCount": 3,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Mi Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Yaxuan Li"
+        },
+        {
+          "slug": null,
+          "name": "Zhilei Qiao"
+        }
+      ]
+    },
+    {
+      "paperId": "1d2af7a1415566e6251f1270428c15e75d0096a0",
+      "title": "High Fidelity Text-Guided Music Editing via Single-Stage Flow Matching",
+      "year": 2024,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/1d2af7a1415566e6251f1270428c15e75d0096a0",
+      "citationCount": 16,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Gaël Le Lan"
+        },
+        {
+          "slug": null,
+          "name": "Zhaoheng Ni"
+        },
+        {
+          "slug": null,
+          "name": "Sidd Srinivasan"
+        },
+        {
+          "slug": null,
+          "name": "Anurag Kumar"
+        },
+        {
+          "slug": null,
+          "name": "Brian Ellis"
+        },
+        {
+          "slug": null,
+          "name": "David Kant"
+        },
+        {
+          "slug": null,
+          "name": "Varun Nagaraja"
+        },
+        {
+          "slug": null,
+          "name": "Ernie Chang"
+        },
+        {
+          "slug": null,
+          "name": "Wei-Ning Hsu"
+        },
+        {
+          "slug": null,
+          "name": "Yangyang Shi"
+        },
+        {
+          "slug": null,
+          "name": "Vikas Chandra"
+        }
+      ]
+    },
+    {
+      "paperId": "66902fbf339ca56ba96e352e95c0ecf9faa29840",
+      "title": "High Fidelity Text-Guided Music Generation and Editing via Single-Stage Flow Matching",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2407.03648",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Gaël Le Lan"
+        },
+        {
+          "slug": null,
+          "name": "Zhaoheng Ni"
+        },
+        {
+          "slug": null,
+          "name": "Sidd Srinivasan"
+        },
+        {
+          "slug": null,
+          "name": "Anurag Kumar"
+        },
+        {
+          "slug": null,
+          "name": "Brian Ellis"
+        },
+        {
+          "slug": null,
+          "name": "David Kant"
+        },
+        {
+          "slug": null,
+          "name": "Varun Nagaraja"
+        },
+        {
+          "slug": null,
+          "name": "Ernie Chang"
+        },
+        {
+          "slug": null,
+          "name": "Wei-Ning Hsu"
+        },
+        {
+          "slug": null,
+          "name": "Yangyang Shi"
+        },
+        {
+          "slug": null,
+          "name": "Vikas Chandra"
+        }
+      ]
+    },
+    {
+      "paperId": "fa271d807d020dc844d7e99e539f8b2e6745b952",
+      "title": "Learning Fine-Grained Controllability on Speech Generation via Efficient Fine-Tuning",
+      "year": 2024,
+      "venue": "Interspeech",
+      "url": "https://doi.org/10.48550/arXiv.2406.06251",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chung-Ming Chien"
+        },
+        {
+          "slug": null,
+          "name": "Andros Tjandra"
+        },
+        {
+          "slug": null,
+          "name": "Apoorv Vyas"
+        },
+        {
+          "slug": null,
+          "name": "Matt Le"
+        },
+        {
+          "slug": null,
+          "name": "Wei-Ning Hsu"
+        }
+      ]
+    },
+    {
+      "paperId": "0537178340f0772c6529bb41400475ed7752399a",
+      "title": "M2BART: Multilingual and Multimodal Encoder-Decoder Pre-Training for Any-to-Any Machine Translation",
+      "year": 2024,
+      "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "url": "https://doi.org/10.1109/ICASSP48485.2024.10446620",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Peng-Jen Chen"
+        },
+        {
+          "slug": null,
+          "name": "Kelvin Niu"
+        },
+        {
+          "slug": null,
+          "name": "Ann Lee"
+        },
+        {
+          "slug": null,
+          "name": "Wei-Ning Hsu"
+        }
+      ]
+    },
+    {
+      "paperId": "2accffa2c7073b1a513f97da7c58a2ef1d7c0ec6",
+      "title": "XLAVS-R: Cross-Lingual Audio-Visual Speech Representation Learning for Noise-Robust Speech Perception",
+      "year": 2024,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2403.14402",
+      "citationCount": 18,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "HyoJung Han"
+        },
+        {
+          "slug": null,
+          "name": "Mohamed Anwar"
+        },
+        {
+          "slug": null,
+          "name": "J. Pino"
+        },
+        {
+          "slug": null,
+          "name": "Wei-Ning Hsu"
+        },
+        {
+          "slug": null,
+          "name": "Marine Carpuat"
+        },
+        {
+          "slug": null,
+          "name": "Changhan Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "e8dd2e6a9f155fb17b153594f71deb91a29f5b07",
+      "title": "Towards Privacy-Aware Sign Language Translation at Scale",
+      "year": 2024,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2402.09611",
+      "citationCount": 56,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Phillip Rust"
+        },
+        {
+          "slug": null,
+          "name": "Skyler Wang"
+        },
+        {
+          "slug": null,
+          "name": "N. C. Camgoz"
+        },
+        {
+          "slug": null,
+          "name": "Jean Maillard"
+        }
+      ]
+    },
+    {
+      "paperId": "5f56c867f8bdad7203cbbd7af19b125788da8089",
+      "title": "Highly confined, low-loss plasmonics based on two-dimensional solid-state defect lattices",
+      "year": 2024,
+      "venue": "PHYSICAL REVIEW MATERIALS",
+      "url": "https://doi.org/10.1103/physrevmaterials.8.l011001",
+      "citationCount": 6,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ali Ghorashi"
+        },
+        {
+          "slug": null,
+          "name": "Nicholas Rivera"
+        },
+        {
+          "slug": null,
+          "name": "R. Sundararaman"
+        },
+        {
+          "slug": null,
+          "name": "E. Kaxiras"
+        },
+        {
+          "slug": null,
+          "name": "J. Joannopoulos"
+        },
+        {
+          "slug": null,
+          "name": "Marin Soljačić"
+        }
+      ]
+    },
+    {
+      "paperId": "f124ae1e4663359193be32adb37b07b3252d5329",
+      "title": "Audiobox: Unified Audio Generation with Natural Language Prompts",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2312.15821",
+      "citationCount": 177,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Apoorv Vyas"
+        },
+        {
+          "slug": null,
+          "name": "Matt Le"
+        },
+        {
+          "slug": null,
+          "name": "Andros Tjandra"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Chiao Wu"
+        },
+        {
+          "slug": null,
+          "name": "Baishan Guo"
+        },
+        {
+          "slug": null,
+          "name": "Jiemin Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Xinyue Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Robert H. Adkins"
+        },
+        {
+          "slug": null,
+          "name": "W.K.F. Ngan"
+        },
+        {
+          "slug": null,
+          "name": "Jeff Wang"
+        },
+        {
+          "slug": null,
+          "name": "Ivan Cruz"
+        },
+        {
+          "slug": null,
+          "name": "Bapi Akula"
+        },
+        {
+          "slug": null,
+          "name": "Akinniyi Akinyemi"
+        },
+        {
+          "slug": null,
+          "name": "Brian Ellis"
+        },
+        {
+          "slug": null,
+          "name": "Rashel Moritz"
+        },
+        {
+          "slug": null,
+          "name": "Yael Yungster"
+        },
+        {
+          "slug": null,
+          "name": "A. Rakotoarison"
+        },
+        {
+          "slug": null,
+          "name": "Liang Tan"
+        },
+        {
+          "slug": null,
+          "name": "C. Summers"
+        },
+        {
+          "slug": null,
+          "name": "Carleigh Wood"
+        },
+        {
+          "slug": null,
+          "name": "Joshua Lane"
+        },
+        {
+          "slug": null,
+          "name": "Mary Williamson"
+        },
+        {
+          "slug": null,
+          "name": "Wei-Ning Hsu"
+        }
+      ]
+    },
+    {
+      "paperId": "2f5b235bc24565358fcee6c32b1a16e12f5548aa",
+      "title": "Visible light-excited full-color phosphorescent material realized by carbon dots dispersed in polyacrylamide and applied to anti-counterfeiting",
+      "year": 2023,
+      "venue": "Materials Today Advances",
+      "url": "https://doi.org/10.1016/j.mtadv.2023.100429",
+      "citationCount": 38,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Huiyong Wang"
+        },
+        {
+          "slug": null,
+          "name": "Hongmei Yu"
+        },
+        {
+          "slug": null,
+          "name": "Shu Yang"
+        },
+        {
+          "slug": null,
+          "name": "Guochao Nie"
+        },
+        {
+          "slug": null,
+          "name": "Shaoyan Wang"
+        },
+        {
+          "slug": null,
+          "name": "Wei Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "659fc260876482abdda27be624d9ca9debb0f9a9",
+      "title": "Generative Pre-training for Speech with Flow Matching",
+      "year": 2023,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2310.16338",
+      "citationCount": 73,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Alexander H. Liu"
+        },
+        {
+          "slug": null,
+          "name": "Matt Le"
+        },
+        {
+          "slug": null,
+          "name": "Apoorv Vyas"
+        },
+        {
+          "slug": null,
+          "name": "Andros Tjandra"
+        },
+        {
+          "slug": null,
+          "name": "Wei-Ning Hsu"
+        }
+      ]
+    },
+    {
+      "paperId": "1a735015a1f7ef4f2ba2273ce5fcaaacfa9d1ea2",
+      "title": "Scaling Autoregressive Multi-Modal Models: Pretraining and Instruction Tuning",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2309.02591",
+      "citationCount": 179,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "L. Yu"
+        },
+        {
+          "slug": null,
+          "name": "Ramakanth Pasunuru"
+        },
+        {
+          "slug": null,
+          "name": "Benjamin Muller"
+        },
+        {
+          "slug": null,
+          "name": "O. Yu. Golovneva"
+        },
+        {
+          "slug": null,
+          "name": "Tianlu Wang"
+        },
+        {
+          "slug": null,
+          "name": "A. Babu"
+        },
+        {
+          "slug": null,
+          "name": "Binh Tang"
+        },
+        {
+          "slug": null,
+          "name": "Brian Karrer"
+        },
+        {
+          "slug": null,
+          "name": "Shelly Sheynin"
+        },
+        {
+          "slug": null,
+          "name": "Candace Ross"
+        },
+        {
+          "slug": null,
+          "name": "Adam Polyak"
+        },
+        {
+          "slug": null,
+          "name": "Russell Howes"
+        },
+        {
+          "slug": null,
+          "name": "Vasu Sharma"
+        },
+        {
+          "slug": null,
+          "name": "Puxin Xu"
+        },
+        {
+          "slug": null,
+          "name": "Hovhannes Tamoyan"
+        },
+        {
+          "slug": null,
+          "name": "Oron Ashual"
+        },
+        {
+          "slug": null,
+          "name": "Uriel Singer"
+        },
+        {
+          "slug": null,
+          "name": "Shang-Wen Li"
+        },
+        {
+          "slug": null,
+          "name": "Susan Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Rich James"
+        },
+        {
+          "slug": null,
+          "name": "Gargi Ghosh"
+        },
+        {
+          "slug": null,
+          "name": "Yaniv Taigman"
+        },
+        {
+          "slug": null,
+          "name": "Maryam Fazel-Zarandi"
+        },
+        {
+          "slug": null,
+          "name": "Asli Celikyilmaz"
+        },
+        {
+          "slug": null,
+          "name": "Luke Zettlemoyer"
+        },
+        {
+          "slug": null,
+          "name": "Armen Aghajanyan"
+        }
+      ]
+    },
+    {
+      "paperId": "81c03a26af98522bacd6cf566807fc08d596dada",
+      "title": "TTIC’s Submission to WMT-SLT 23",
+      "year": 2023,
+      "venue": "Conference on Machine Translation",
+      "url": "https://doi.org/10.18653/v1/2023.wmt-1.35",
+      "citationCount": 4,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Marcelo Sandoval-Castañeda"
+        },
+        {
+          "slug": null,
+          "name": "Yanhong Li"
+        },
+        {
+          "slug": null,
+          "name": "Diane Brentari"
+        },
+        {
+          "slug": null,
+          "name": "Karen Livescu"
+        },
+        {
+          "slug": null,
+          "name": "Gregory Shakhnarovich"
+        }
+      ]
+    },
+    {
+      "paperId": "7251e6d031e44aa932256e3a3a096f1e3202ca64",
+      "title": "Effects of Smile Myopia Correction on Stereo Vision and Ocular Biological Parameters",
+      "year": null,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/7251e6d031e44aa932256e3a3a096f1e3202ca64",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Zhanhao Gu"
+        },
+        {
+          "slug": null,
+          "name": "Cong Ren"
+        },
+        {
+          "slug": null,
+          "name": "Bin Guo"
+        },
+        {
+          "slug": null,
+          "name": "Nannan Ju"
+        }
+      ]
     }
   ],
   "topPublications": [
@@ -769,35 +1707,75 @@
     ],
     "externalCoAuthors": [
       {
-        "name": "Andros Tjandra",
-        "papers": 5
-      },
-      {
         "name": "Wei-Ning Hsu",
-        "papers": 5
+        "papers": 17
       },
       {
-        "name": "John Hoffman",
-        "papers": 4
-      },
-      {
-        "name": "Yi-Chiao Wu",
-        "papers": 4
+        "name": "Andros Tjandra",
+        "papers": 11
       },
       {
         "name": "Apoorv Vyas",
-        "papers": 4
-      },
-      {
-        "name": "Ann Lee",
-        "papers": 4
-      },
-      {
-        "name": "Sanyuan Chen",
-        "papers": 4
+        "papers": 10
       },
       {
         "name": "Matt Le",
+        "papers": 10
+      },
+      {
+        "name": "Yi-Chiao Wu",
+        "papers": 6
+      },
+      {
+        "name": "Ann Lee",
+        "papers": 6
+      },
+      {
+        "name": "John Hoffman",
+        "papers": 5
+      },
+      {
+        "name": "Sanyuan Chen",
+        "papers": 5
+      },
+      {
+        "name": "Baishan Guo",
+        "papers": 5
+      },
+      {
+        "name": "Brian Ellis",
+        "papers": 5
+      },
+      {
+        "name": "Carleigh Wood",
+        "papers": 4
+      },
+      {
+        "name": "Zhaoheng Ni",
+        "papers": 3
+      },
+      {
+        "name": "Gaël Le Lan",
+        "papers": 3
+      },
+      {
+        "name": "Anurag Kumar",
+        "papers": 3
+      },
+      {
+        "name": "Varun Nagaraja",
+        "papers": 3
+      },
+      {
+        "name": "Yangyang Shi",
+        "papers": 3
+      },
+      {
+        "name": "Vikas Chandra",
+        "papers": 3
+      },
+      {
+        "name": "David Kant",
         "papers": 3
       },
       {
@@ -809,11 +1787,35 @@
         "papers": 2
       },
       {
-        "name": "Baishan Guo",
+        "name": "N. Zacharov",
         "papers": 2
       },
       {
-        "name": "Carleigh Wood",
+        "name": "Adam Polyak",
+        "papers": 2
+      },
+      {
+        "name": "Mary Williamson",
+        "papers": 2
+      },
+      {
+        "name": "Shelly Sheynin",
+        "papers": 2
+      },
+      {
+        "name": "Yaniv Taigman",
+        "papers": 2
+      },
+      {
+        "name": "Rashel Moritz",
+        "papers": 2
+      },
+      {
+        "name": "Sidd Srinivasan",
+        "papers": 2
+      },
+      {
+        "name": "Ernie Chang",
         "papers": 2
       },
       {
@@ -909,14 +1911,6 @@
         "papers": 1
       },
       {
-        "name": "Brian Ellis",
-        "papers": 1
-      },
-      {
-        "name": "N. Zacharov",
-        "papers": 1
-      },
-      {
         "name": "T. Qin",
         "papers": 1
       },
@@ -933,7 +1927,87 @@
         "papers": 1
       },
       {
-        "name": "Adam Polyak",
+        "name": "Hongjian You",
+        "papers": 1
+      },
+      {
+        "name": "Huixian Wang",
+        "papers": 1
+      },
+      {
+        "name": "Chuanliang Shen",
+        "papers": 1
+      },
+      {
+        "name": "Longxu Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Xiaoyuan Ma",
+        "papers": 1
+      },
+      {
+        "name": "Yi Li",
+        "papers": 1
+      },
+      {
+        "name": "Hongyu Hu",
+        "papers": 1
+      },
+      {
+        "name": "Lemeng Wu",
+        "papers": 1
+      },
+      {
+        "name": "Xinhao Mei",
+        "papers": 1
+      },
+      {
+        "name": "Yunyang Xiong",
+        "papers": 1
+      },
+      {
+        "name": "Bilge Soran",
+        "papers": 1
+      },
+      {
+        "name": "Raghuraman Krishnamoorthi",
+        "papers": 1
+      },
+      {
+        "name": "Mu Yang",
+        "papers": 1
+      },
+      {
+        "name": "Gabrielle Kaili-May Liu",
+        "papers": 1
+      },
+      {
+        "name": "Avi Caciularu",
+        "papers": 1
+      },
+      {
+        "name": "Idan Szpektor",
+        "papers": 1
+      },
+      {
+        "name": "Arman Cohan",
+        "papers": 1
+      },
+      {
+        "name": "Prajwal K R",
+        "papers": 1
+      },
+      {
+        "name": "Mahi Luthra",
+        "papers": 1
+      },
+      {
+        "name": "Huiyu Wang",
+        "papers": 1
+      },
+      {
+        "name": "Triantafyllos Afouras",
         "papers": 1
       },
       {
@@ -1005,10 +2079,6 @@
         "papers": 1
       },
       {
-        "name": "Mary Williamson",
-        "papers": 1
-      },
-      {
         "name": "Matthew Yu",
         "papers": 1
       },
@@ -1053,10 +2123,6 @@
         "papers": 1
       },
       {
-        "name": "Shelly Sheynin",
-        "papers": 1
-      },
-      {
         "name": "Siddharth Bhattacharya",
         "papers": 1
       },
@@ -1082,10 +2148,6 @@
       },
       {
         "name": "Xiaoliang Dai",
-        "papers": 1
-      },
-      {
-        "name": "Yaniv Taigman",
         "papers": 1
       },
       {
@@ -1193,10 +2255,6 @@
         "papers": 1
       },
       {
-        "name": "Rashel Moritz",
-        "papers": 1
-      },
-      {
         "name": "S. Sampson",
         "papers": 1
       },
@@ -1222,6 +2280,330 @@
       },
       {
         "name": "Yuming Du",
+        "papers": 1
+      },
+      {
+        "name": "Hira Dhamyal",
+        "papers": 1
+      },
+      {
+        "name": "Leda Sari",
+        "papers": 1
+      },
+      {
+        "name": "Vimal Manohar",
+        "papers": 1
+      },
+      {
+        "name": "Nayan Singhal",
+        "papers": 1
+      },
+      {
+        "name": "Chunyang Wu",
+        "papers": 1
+      },
+      {
+        "name": "Jay Mahadeokar",
+        "papers": 1
+      },
+      {
+        "name": "Suyoun Kim",
+        "papers": 1
+      },
+      {
+        "name": "Ozlem Kalinli",
+        "papers": 1
+      },
+      {
+        "name": "Mi Zhou",
+        "papers": 1
+      },
+      {
+        "name": "Yaxuan Li",
+        "papers": 1
+      },
+      {
+        "name": "Zhilei Qiao",
+        "papers": 1
+      },
+      {
+        "name": "Chung-Ming Chien",
+        "papers": 1
+      },
+      {
+        "name": "Peng-Jen Chen",
+        "papers": 1
+      },
+      {
+        "name": "Kelvin Niu",
+        "papers": 1
+      },
+      {
+        "name": "HyoJung Han",
+        "papers": 1
+      },
+      {
+        "name": "Mohamed Anwar",
+        "papers": 1
+      },
+      {
+        "name": "J. Pino",
+        "papers": 1
+      },
+      {
+        "name": "Marine Carpuat",
+        "papers": 1
+      },
+      {
+        "name": "Changhan Wang",
+        "papers": 1
+      },
+      {
+        "name": "Phillip Rust",
+        "papers": 1
+      },
+      {
+        "name": "Skyler Wang",
+        "papers": 1
+      },
+      {
+        "name": "N. C. Camgoz",
+        "papers": 1
+      },
+      {
+        "name": "Jean Maillard",
+        "papers": 1
+      },
+      {
+        "name": "Ali Ghorashi",
+        "papers": 1
+      },
+      {
+        "name": "Nicholas Rivera",
+        "papers": 1
+      },
+      {
+        "name": "R. Sundararaman",
+        "papers": 1
+      },
+      {
+        "name": "E. Kaxiras",
+        "papers": 1
+      },
+      {
+        "name": "J. Joannopoulos",
+        "papers": 1
+      },
+      {
+        "name": "Marin Soljačić",
+        "papers": 1
+      },
+      {
+        "name": "Jiemin Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Xinyue Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Robert H. Adkins",
+        "papers": 1
+      },
+      {
+        "name": "W.K.F. Ngan",
+        "papers": 1
+      },
+      {
+        "name": "Jeff Wang",
+        "papers": 1
+      },
+      {
+        "name": "Ivan Cruz",
+        "papers": 1
+      },
+      {
+        "name": "Bapi Akula",
+        "papers": 1
+      },
+      {
+        "name": "Akinniyi Akinyemi",
+        "papers": 1
+      },
+      {
+        "name": "Yael Yungster",
+        "papers": 1
+      },
+      {
+        "name": "A. Rakotoarison",
+        "papers": 1
+      },
+      {
+        "name": "Liang Tan",
+        "papers": 1
+      },
+      {
+        "name": "C. Summers",
+        "papers": 1
+      },
+      {
+        "name": "Joshua Lane",
+        "papers": 1
+      },
+      {
+        "name": "Huiyong Wang",
+        "papers": 1
+      },
+      {
+        "name": "Hongmei Yu",
+        "papers": 1
+      },
+      {
+        "name": "Shu Yang",
+        "papers": 1
+      },
+      {
+        "name": "Guochao Nie",
+        "papers": 1
+      },
+      {
+        "name": "Shaoyan Wang",
+        "papers": 1
+      },
+      {
+        "name": "Wei Chen",
+        "papers": 1
+      },
+      {
+        "name": "Alexander H. Liu",
+        "papers": 1
+      },
+      {
+        "name": "L. Yu",
+        "papers": 1
+      },
+      {
+        "name": "Ramakanth Pasunuru",
+        "papers": 1
+      },
+      {
+        "name": "Benjamin Muller",
+        "papers": 1
+      },
+      {
+        "name": "O. Yu. Golovneva",
+        "papers": 1
+      },
+      {
+        "name": "Tianlu Wang",
+        "papers": 1
+      },
+      {
+        "name": "A. Babu",
+        "papers": 1
+      },
+      {
+        "name": "Binh Tang",
+        "papers": 1
+      },
+      {
+        "name": "Brian Karrer",
+        "papers": 1
+      },
+      {
+        "name": "Candace Ross",
+        "papers": 1
+      },
+      {
+        "name": "Russell Howes",
+        "papers": 1
+      },
+      {
+        "name": "Vasu Sharma",
+        "papers": 1
+      },
+      {
+        "name": "Puxin Xu",
+        "papers": 1
+      },
+      {
+        "name": "Hovhannes Tamoyan",
+        "papers": 1
+      },
+      {
+        "name": "Oron Ashual",
+        "papers": 1
+      },
+      {
+        "name": "Uriel Singer",
+        "papers": 1
+      },
+      {
+        "name": "Shang-Wen Li",
+        "papers": 1
+      },
+      {
+        "name": "Susan Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Rich James",
+        "papers": 1
+      },
+      {
+        "name": "Gargi Ghosh",
+        "papers": 1
+      },
+      {
+        "name": "Maryam Fazel-Zarandi",
+        "papers": 1
+      },
+      {
+        "name": "Asli Celikyilmaz",
+        "papers": 1
+      },
+      {
+        "name": "Luke Zettlemoyer",
+        "papers": 1
+      },
+      {
+        "name": "Armen Aghajanyan",
+        "papers": 1
+      },
+      {
+        "name": "Marcelo Sandoval-Castañeda",
+        "papers": 1
+      },
+      {
+        "name": "Yanhong Li",
+        "papers": 1
+      },
+      {
+        "name": "Diane Brentari",
+        "papers": 1
+      },
+      {
+        "name": "Karen Livescu",
+        "papers": 1
+      },
+      {
+        "name": "Gregory Shakhnarovich",
+        "papers": 1
+      },
+      {
+        "name": "Zhanhao Gu",
+        "papers": 1
+      },
+      {
+        "name": "Cong Ren",
+        "papers": 1
+      },
+      {
+        "name": "Bin Guo",
+        "papers": 1
+      },
+      {
+        "name": "Nannan Ju",
         "papers": 1
       }
     ],

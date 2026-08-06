@@ -13,7 +13,9 @@
     "twitter": "https://x.com/bingyikang",
     "website": "https://bingyikang.com/"
   },
-  "semanticScholarId": "2064621368",
+  "semanticScholarId": [
+    "2064621368"
+  ],
   "careerHistory": [
     {
       "org": "ByteDance",
@@ -284,6 +286,948 @@
           "name": "Shuicheng Yan"
         }
       ]
+    },
+    {
+      "paperId": "9e577715225c8a0023a7fef8dd364cc6701d96d1",
+      "title": "PointTAD: Multi-Label Temporal Action Detection with Learnable Query Points",
+      "year": 2022,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2210.11035",
+      "citationCount": 41,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jing Tan"
+        },
+        {
+          "slug": null,
+          "name": "Xiaotong Zhao"
+        },
+        {
+          "slug": null,
+          "name": "Xintian Shi"
+        },
+        {
+          "slug": null,
+          "name": "Limin Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "5ad26b8d3043578ede5625d40f877cf980023338",
+      "title": "Boosting Offline Reinforcement Learning via Data Rebalancing",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2210.09241",
+      "citationCount": 30,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yang Yue"
+        },
+        {
+          "slug": null,
+          "name": "Xiao Ma"
+        },
+        {
+          "slug": null,
+          "name": "Zhongwen Xu"
+        },
+        {
+          "slug": null,
+          "name": "Gao Huang"
+        },
+        {
+          "slug": null,
+          "name": "Shuicheng Yan"
+        }
+      ]
+    },
+    {
+      "paperId": "2b23a0e5c1709d4a82e1bd09a83e2cef83d8dfe8",
+      "title": "Mutual Information Regularized Offline Reinforcement Learning",
+      "year": 2022,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2210.07484",
+      "citationCount": 13,
+      "coAuthors": [
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        },
+        {
+          "slug": null,
+          "name": "Xiao Ma"
+        },
+        {
+          "slug": null,
+          "name": "Zhongwen Xu"
+        },
+        {
+          "slug": null,
+          "name": "Shuicheng Yan"
+        }
+      ]
+    },
+    {
+      "paperId": "e3c598f5233d91f887edb626bb02ba86010a69c0",
+      "title": "Value-Consistent Representation Learning for Data-Efficient Reinforcement Learning",
+      "year": 2022,
+      "venue": "AAAI Conference on Artificial Intelligence",
+      "url": "https://doi.org/10.48550/arXiv.2206.12542",
+      "citationCount": 20,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yang Yue"
+        },
+        {
+          "slug": null,
+          "name": "Zhongwen Xu"
+        },
+        {
+          "slug": null,
+          "name": "Gao Huang"
+        },
+        {
+          "slug": null,
+          "name": "Shuicheng Yan"
+        }
+      ]
+    },
+    {
+      "paperId": "071f5565484ee844fe69b0e32e502e86ceb5196a",
+      "title": "Deep Long-Tailed Learning: A Survey",
+      "year": 2021,
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "url": "https://doi.org/10.1109/TPAMI.2023.3268118",
+      "citationCount": 943,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yifan Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Bryan Hooi"
+        },
+        {
+          "slug": null,
+          "name": "Shuicheng Yan"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        }
+      ]
+    },
+    {
+      "paperId": "b65bc8bd4e8900c38eb09bc1cbccea2499a86627",
+      "title": "Exploring Balanced Feature Spaces for Representation Learning",
+      "year": 2021,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/b65bc8bd4e8900c38eb09bc1cbccea2499a86627",
+      "citationCount": 303,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yu Li"
+        },
+        {
+          "slug": null,
+          "name": "S. Xie"
+        },
+        {
+          "slug": null,
+          "name": "Zehuan Yuan"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        }
+      ]
+    },
+    {
+      "paperId": "8602fd5b0ac73bb422f238b265479f363c0ffe61",
+      "title": "Refiner: Refining Self-attention for Vision Transformers",
+      "year": 2021,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/8602fd5b0ac73bb422f238b265479f363c0ffe61",
+      "citationCount": 69,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Daquan Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Yujun Shi"
+        },
+        {
+          "slug": null,
+          "name": "Weihao Yu"
+        },
+        {
+          "slug": null,
+          "name": "Zihang Jiang"
+        },
+        {
+          "slug": null,
+          "name": "Yuan Li"
+        },
+        {
+          "slug": null,
+          "name": "Xiaojie Jin"
+        },
+        {
+          "slug": null,
+          "name": "Qibin Hou"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        }
+      ]
+    },
+    {
+      "paperId": "96da196d6f8c947db03d13759f030642f8234abf",
+      "title": "DeepViT: Towards Deeper Vision Transformer",
+      "year": 2021,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/96da196d6f8c947db03d13759f030642f8234abf",
+      "citationCount": 639,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Daquan Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Xiaojie Jin"
+        },
+        {
+          "slug": null,
+          "name": "Linjie Yang"
+        },
+        {
+          "slug": null,
+          "name": "Xiaochen Lian"
+        },
+        {
+          "slug": null,
+          "name": "Qibin Hou"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        }
+      ]
+    },
+    {
+      "paperId": "3caf26a81f8b8be27b8ebc09bdb93416b4c40fe6",
+      "title": "Improving Generalization in Reinforcement Learning with Mixture Regularization",
+      "year": 2020,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/3caf26a81f8b8be27b8ebc09bdb93416b4c40fe6",
+      "citationCount": 140,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Kaixin Wang"
+        },
+        {
+          "slug": null,
+          "name": "Jie Shao"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        }
+      ]
+    },
+    {
+      "paperId": "975e33347fd841ded9ebcd77d928b243ea786a8c",
+      "title": "Regularization Matters in Policy Optimization - An Empirical Study on Continuous Control",
+      "year": 2020,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/975e33347fd841ded9ebcd77d928b243ea786a8c",
+      "citationCount": 60,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Zhuang Liu"
+        },
+        {
+          "slug": null,
+          "name": "Xuanlin Li"
+        },
+        {
+          "slug": null,
+          "name": "Trevor Darrell"
+        }
+      ]
+    },
+    {
+      "paperId": "6e42bc2519fd5a3752eb27e69a83f560cce75e6a",
+      "title": "Few-shot Classification via Adaptive Attention",
+      "year": 2020,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/6e42bc2519fd5a3752eb27e69a83f560cce75e6a",
+      "citationCount": 24,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Zihang Jiang"
+        },
+        {
+          "slug": null,
+          "name": "Kuangqi Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        }
+      ]
+    },
+    {
+      "paperId": "596637f664b6fc1a5ad694378bb555598fac40ac",
+      "title": "The Devil is in Classification: A Simple Framework for Long-tail Instance Segmentation",
+      "year": 2020,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-030-58568-6_43",
+      "citationCount": 211,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tao Wang"
+        },
+        {
+          "slug": null,
+          "name": "Yu Li"
+        },
+        {
+          "slug": null,
+          "name": "Junnan Li"
+        },
+        {
+          "slug": null,
+          "name": "J. Liew"
+        },
+        {
+          "slug": null,
+          "name": "Sheng Tang"
+        },
+        {
+          "slug": null,
+          "name": "S. Hoi"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        }
+      ]
+    },
+    {
+      "paperId": "e475f45193d34e09713cbe5f4c6981c365d0ea50",
+      "title": "The Devil is in Classification: A Simple Framework for Long-tail Object Detection and Instance Segmentation",
+      "year": 2020,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/e475f45193d34e09713cbe5f4c6981c365d0ea50",
+      "citationCount": 7,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tao Wang"
+        },
+        {
+          "slug": null,
+          "name": "Yu Li"
+        },
+        {
+          "slug": null,
+          "name": "Junnan Li"
+        },
+        {
+          "slug": null,
+          "name": "J. Liew"
+        },
+        {
+          "slug": null,
+          "name": "Sheng Tang"
+        },
+        {
+          "slug": null,
+          "name": "S. Hoi"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        }
+      ]
+    },
+    {
+      "paperId": "fd986d9988067df491604b1ae8152ade9b624053",
+      "title": "Rethinking Class-Balanced Methods for Long-Tailed Visual Recognition from a Domain Adaptation Perspective",
+      "year": 2020,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/fd986d9988067df491604b1ae8152ade9b624053",
+      "citationCount": 15,
+      "coAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
+          "slug": null,
+          "name": "Kaidi Cao"
+        },
+        {
+          "slug": null,
+          "name": "Colin Wei"
+        },
+        {
+          "slug": null,
+          "name": "Adrien Gaidon"
+        },
+        {
+          "slug": null,
+          "name": "Nikos Aréchiga"
+        },
+        {
+          "slug": null,
+          "name": "Yin Cui"
+        },
+        {
+          "slug": null,
+          "name": "Menglin Jia"
+        },
+        {
+          "slug": null,
+          "name": "Tsung-Yi Lin"
+        },
+        {
+          "slug": null,
+          "name": "Yang Song"
+        },
+        {
+          "slug": null,
+          "name": "Marcus Rohrbach"
+        },
+        {
+          "slug": null,
+          "name": "Zhicheng Yan"
+        },
+        {
+          "slug": null,
+          "name": "Albert Gordo"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        },
+        {
+          "slug": null,
+          "name": "Priya Goyal"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Liu"
+        },
+        {
+          "slug": null,
+          "name": "Zhongqi Miao"
+        },
+        {
+          "slug": null,
+          "name": "Xiaohang Zhan"
+        },
+        {
+          "slug": null,
+          "name": "Jiayun Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "5d25110b71e8f3ddb54aceabeb274dfc187c2991",
+      "title": "Overcoming Classifier Imbalance for Long-Tail Object Detection With Balanced Group Softmax",
+      "year": 2020,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/cvpr42600.2020.01100",
+      "citationCount": 307,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yu Li"
+        },
+        {
+          "slug": null,
+          "name": "Tao Wang"
+        },
+        {
+          "slug": null,
+          "name": "Sheng Tang"
+        },
+        {
+          "slug": null,
+          "name": "Chunfeng Wang"
+        },
+        {
+          "slug": null,
+          "name": "Jintao Li"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        }
+      ]
+    },
+    {
+      "paperId": "2f67c5259b1c4bf82c82e312df33037d053c856a",
+      "title": "Online Meta Adaptation for Fast Video Object Segmentation",
+      "year": 2020,
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "url": "https://doi.org/10.1109/TPAMI.2018.2890659",
+      "citationCount": 42,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Huaxin Xiao"
+        },
+        {
+          "slug": null,
+          "name": "Yu Liu"
+        },
+        {
+          "slug": null,
+          "name": "Maojun Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        }
+      ]
+    },
+    {
+      "paperId": "382985a1996a22221b4eb6178c55772bd4f740c2",
+      "title": "Classification Calibration for Long-tail Instance Segmentation",
+      "year": 2019,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/382985a1996a22221b4eb6178c55772bd4f740c2",
+      "citationCount": 16,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tao Wang"
+        },
+        {
+          "slug": null,
+          "name": "Yu Li"
+        },
+        {
+          "slug": null,
+          "name": "Junnan Li"
+        },
+        {
+          "slug": null,
+          "name": "J. Liew"
+        },
+        {
+          "slug": null,
+          "name": "Sheng Tang"
+        },
+        {
+          "slug": null,
+          "name": "S. Hoi"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        }
+      ]
+    },
+    {
+      "paperId": "aa35ec679c4ef5007655be655b1cc57020a73314",
+      "title": "Exploring Simple and Transferable Recognition-Aware Image Processing",
+      "year": 2019,
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "url": "https://doi.org/10.1109/TPAMI.2022.3183243",
+      "citationCount": 13,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Zhuang Liu"
+        },
+        {
+          "slug": null,
+          "name": "H. Wang"
+        },
+        {
+          "slug": null,
+          "name": "Tinghui Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Zhiqiang Shen"
+        },
+        {
+          "slug": null,
+          "name": "Evan Shelhamer"
+        },
+        {
+          "slug": null,
+          "name": "Trevor Darrell"
+        }
+      ]
+    },
+    {
+      "paperId": "dcc4c760c3f1cb17f953c487190b735030c33b78",
+      "title": "Decoupling Representation and Classifier for Long-Tailed Recognition",
+      "year": 2019,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/dcc4c760c3f1cb17f953c487190b735030c33b78",
+      "citationCount": 1583,
+      "coAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
+          "slug": null,
+          "name": "Marcus Rohrbach"
+        },
+        {
+          "slug": null,
+          "name": "Zhicheng Yan"
+        },
+        {
+          "slug": null,
+          "name": "Albert Gordo"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        },
+        {
+          "slug": null,
+          "name": "Yannis Kalantidis"
+        }
+      ]
+    },
+    {
+      "paperId": "bb797edf7556c57fe255d29a6c0647d6815f02b9",
+      "title": "Regularization Matters in Policy Optimization",
+      "year": 2019,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/bb797edf7556c57fe255d29a6c0647d6815f02b9",
+      "citationCount": 39,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Zhuang Liu"
+        },
+        {
+          "slug": null,
+          "name": "Xuanlin Li"
+        },
+        {
+          "slug": null,
+          "name": "Trevor Darrell"
+        }
+      ]
+    },
+    {
+      "paperId": "f78f1e25a5a3dcb4745d31a27a15c87d246ec4c3",
+      "title": "Transferable Recognition-Aware Image Processing",
+      "year": 2019,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/f78f1e25a5a3dcb4745d31a27a15c87d246ec4c3",
+      "citationCount": 9,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Zhuang Liu"
+        },
+        {
+          "slug": null,
+          "name": "Tinghui Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Zhiqiang Shen"
+        },
+        {
+          "slug": null,
+          "name": "Trevor Darrell"
+        }
+      ]
+    },
+    {
+      "paperId": "3b9728e8de5739d5dc62fe4576c3d4115070313a",
+      "title": "C V ] 2 9 O ct 2 01 9 Joint COCO and Mapillary Workshop at ICCV 2019 : LVIS Challenge Track Technical Report : Classification Calibration for Long-tail Instance Segmentation",
+      "year": 2019,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/3b9728e8de5739d5dc62fe4576c3d4115070313a",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tao Wang"
+        },
+        {
+          "slug": null,
+          "name": "Yu Li"
+        },
+        {
+          "slug": null,
+          "name": "Junnan Li"
+        },
+        {
+          "slug": null,
+          "name": "J. Liew"
+        },
+        {
+          "slug": null,
+          "name": "Sheng Tang"
+        },
+        {
+          "slug": null,
+          "name": "S. Hoi"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        }
+      ]
+    },
+    {
+      "paperId": "12479dcd4808b96d6a149919183ef15afcf6a89e",
+      "title": "Similarity R-C3D for Few-shot Temporal Activity Detection",
+      "year": 2018,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/12479dcd4808b96d6a149919183ef15afcf6a89e",
+      "citationCount": 11,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Huijuan Xu"
+        },
+        {
+          "slug": null,
+          "name": "Ximeng Sun"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        },
+        {
+          "slug": null,
+          "name": "Kate Saenko"
+        },
+        {
+          "slug": null,
+          "name": "Trevor Darrell"
+        }
+      ]
+    },
+    {
+      "paperId": "ffee06fc96777365de5da386aa316bc88a3020c2",
+      "title": "Few-Shot Object Detection via Feature Reweighting",
+      "year": 2018,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV.2019.00851",
+      "citationCount": 866,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Zhuang Liu"
+        },
+        {
+          "slug": null,
+          "name": "Xin Wang"
+        },
+        {
+          "slug": null,
+          "name": "F. Yu"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        },
+        {
+          "slug": null,
+          "name": "Trevor Darrell"
+        }
+      ]
+    },
+    {
+      "paperId": "c979efe1f0a8b0b343ea332368e5b51dc153c522",
+      "title": "Policy Optimization with Demonstrations",
+      "year": 2018,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/c979efe1f0a8b0b343ea332368e5b51dc153c522",
+      "citationCount": 175,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Zequn Jie"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        }
+      ]
+    },
+    {
+      "paperId": "9ed6f03f6822d3761da1a6811bfb54e28c919072",
+      "title": "Transferable Meta Learning Across Domains",
+      "year": 2018,
+      "venue": "Conference on Uncertainty in Artificial Intelligence",
+      "url": "https://www.semanticscholar.org/paper/9ed6f03f6822d3761da1a6811bfb54e28c919072",
+      "citationCount": 32,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        }
+      ]
+    },
+    {
+      "paperId": "d8c941f049a1850191c41ee5aa6ed2333d786334",
+      "title": "Sharing Residual Units Through Collective Tensor Factorization To Improve Deep Neural Networks",
+      "year": 2018,
+      "venue": "International Joint Conference on Artificial Intelligence",
+      "url": "https://doi.org/10.24963/ijcai.2018/88",
+      "citationCount": 41,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yunpeng Chen"
+        },
+        {
+          "slug": null,
+          "name": "Xiaojie Jin"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        },
+        {
+          "slug": null,
+          "name": "Shuicheng Yan"
+        }
+      ]
+    },
+    {
+      "paperId": "e17681fdc7de08e38c06a236507210116a7f46b6",
+      "title": "STOCHASTIC DEEP LEARNING ALGORITHMS",
+      "year": 2018,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/e17681fdc7de08e38c06a236507210116a7f46b6",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tom Zahavy"
+        },
+        {
+          "slug": null,
+          "name": "Alex Sivak"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        },
+        {
+          "slug": null,
+          "name": "Huan Xu"
+        },
+        {
+          "slug": null,
+          "name": "Shie Mannor"
+        }
+      ]
+    },
+    {
+      "paperId": "7455328416a138a6fdd32a4a2059edd7ea7df48e",
+      "title": "Sharing Residual Units Through Collective Tensor Factorization in Deep Neural Networks",
+      "year": 2017,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/7455328416a138a6fdd32a4a2059edd7ea7df48e",
+      "citationCount": 38,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yunpeng Chen"
+        },
+        {
+          "slug": null,
+          "name": "Xiaojie Jin"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        },
+        {
+          "slug": null,
+          "name": "Shuicheng Yan"
+        }
+      ]
+    },
+    {
+      "paperId": "ac318166e1f2ce0c9e4786830c4effdf6101d073",
+      "title": "Ensemble Robustness of Deep Learning Algorithms",
+      "year": 2016,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/ac318166e1f2ce0c9e4786830c4effdf6101d073",
+      "citationCount": 12,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        },
+        {
+          "slug": null,
+          "name": "Tom Zahavy"
+        },
+        {
+          "slug": null,
+          "name": "Huan Xu"
+        },
+        {
+          "slug": null,
+          "name": "Shie Mannor"
+        }
+      ]
+    },
+    {
+      "paperId": "f51dfbf134e413af37e82c74a719aeefed63edc8",
+      "title": "Ensemble Robustness and Generalization of Stochastic Deep Learning Algorithms",
+      "year": 2016,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/f51dfbf134e413af37e82c74a719aeefed63edc8",
+      "citationCount": 30,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tom Zahavy"
+        },
+        {
+          "slug": null,
+          "name": "Alex Sivak"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        },
+        {
+          "slug": null,
+          "name": "Huan Xu"
+        },
+        {
+          "slug": null,
+          "name": "Shie Mannor"
+        }
+      ]
     }
   ],
   "topPublications": [
@@ -344,25 +1288,90 @@
       {
         "slug": "min-lin",
         "name": "Min Lin",
-        "sharedPapers": 1
+        "sharedPapers": 2
+      },
+      {
+        "slug": "saining-xie",
+        "name": "Saining Xie",
+        "sharedPapers": 2
       }
     ],
     "externalCoAuthors": [
       {
-        "name": "Shuicheng Yan",
-        "papers": 4
+        "name": "Jiashi Feng",
+        "papers": 26
       },
       {
-        "name": "Jiashi Feng",
-        "papers": 3
+        "name": "Shuicheng Yan",
+        "papers": 10
+      },
+      {
+        "name": "Yu Li",
+        "papers": 6
+      },
+      {
+        "name": "Trevor Darrell",
+        "papers": 6
       },
       {
         "name": "Xiao Ma",
-        "papers": 3
+        "papers": 5
+      },
+      {
+        "name": "Zhuang Liu",
+        "papers": 5
+      },
+      {
+        "name": "Tao Wang",
+        "papers": 5
+      },
+      {
+        "name": "Sheng Tang",
+        "papers": 5
       },
       {
         "name": "Daquan Zhou",
-        "papers": 2
+        "papers": 4
+      },
+      {
+        "name": "Yang Yue",
+        "papers": 4
+      },
+      {
+        "name": "Xiaojie Jin",
+        "papers": 4
+      },
+      {
+        "name": "Junnan Li",
+        "papers": 4
+      },
+      {
+        "name": "J. Liew",
+        "papers": 4
+      },
+      {
+        "name": "S. Hoi",
+        "papers": 4
+      },
+      {
+        "name": "Gao Huang",
+        "papers": 3
+      },
+      {
+        "name": "Zhongwen Xu",
+        "papers": 3
+      },
+      {
+        "name": "Tom Zahavy",
+        "papers": 3
+      },
+      {
+        "name": "Huan Xu",
+        "papers": 3
+      },
+      {
+        "name": "Shie Mannor",
+        "papers": 3
       },
       {
         "name": "Zhijie Lin",
@@ -377,11 +1386,47 @@
         "papers": 2
       },
       {
-        "name": "Yang Yue",
+        "name": "Tianyu Pang",
         "papers": 2
       },
       {
-        "name": "Tianyu Pang",
+        "name": "Zihang Jiang",
+        "papers": 2
+      },
+      {
+        "name": "Qibin Hou",
+        "papers": 2
+      },
+      {
+        "name": "Xuanlin Li",
+        "papers": 2
+      },
+      {
+        "name": "Marcus Rohrbach",
+        "papers": 2
+      },
+      {
+        "name": "Zhicheng Yan",
+        "papers": 2
+      },
+      {
+        "name": "Albert Gordo",
+        "papers": 2
+      },
+      {
+        "name": "Tinghui Zhou",
+        "papers": 2
+      },
+      {
+        "name": "Zhiqiang Shen",
+        "papers": 2
+      },
+      {
+        "name": "Yunpeng Chen",
+        "papers": 2
+      },
+      {
+        "name": "Alex Sivak",
         "papers": 2
       },
       {
@@ -406,10 +1451,6 @@
       },
       {
         "name": "Qisen Yang",
-        "papers": 1
-      },
-      {
-        "name": "Gao Huang",
         "papers": 1
       },
       {
@@ -458,6 +1499,178 @@
       },
       {
         "name": "Yan Huang",
+        "papers": 1
+      },
+      {
+        "name": "Jing Tan",
+        "papers": 1
+      },
+      {
+        "name": "Xiaotong Zhao",
+        "papers": 1
+      },
+      {
+        "name": "Xintian Shi",
+        "papers": 1
+      },
+      {
+        "name": "Limin Wang",
+        "papers": 1
+      },
+      {
+        "name": "Yifan Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Bryan Hooi",
+        "papers": 1
+      },
+      {
+        "name": "S. Xie",
+        "papers": 1
+      },
+      {
+        "name": "Zehuan Yuan",
+        "papers": 1
+      },
+      {
+        "name": "Yujun Shi",
+        "papers": 1
+      },
+      {
+        "name": "Weihao Yu",
+        "papers": 1
+      },
+      {
+        "name": "Yuan Li",
+        "papers": 1
+      },
+      {
+        "name": "Linjie Yang",
+        "papers": 1
+      },
+      {
+        "name": "Xiaochen Lian",
+        "papers": 1
+      },
+      {
+        "name": "Kaixin Wang",
+        "papers": 1
+      },
+      {
+        "name": "Jie Shao",
+        "papers": 1
+      },
+      {
+        "name": "Kuangqi Zhou",
+        "papers": 1
+      },
+      {
+        "name": "Kaidi Cao",
+        "papers": 1
+      },
+      {
+        "name": "Colin Wei",
+        "papers": 1
+      },
+      {
+        "name": "Adrien Gaidon",
+        "papers": 1
+      },
+      {
+        "name": "Nikos Aréchiga",
+        "papers": 1
+      },
+      {
+        "name": "Yin Cui",
+        "papers": 1
+      },
+      {
+        "name": "Menglin Jia",
+        "papers": 1
+      },
+      {
+        "name": "Tsung-Yi Lin",
+        "papers": 1
+      },
+      {
+        "name": "Yang Song",
+        "papers": 1
+      },
+      {
+        "name": "Priya Goyal",
+        "papers": 1
+      },
+      {
+        "name": "Ziwei Liu",
+        "papers": 1
+      },
+      {
+        "name": "Zhongqi Miao",
+        "papers": 1
+      },
+      {
+        "name": "Xiaohang Zhan",
+        "papers": 1
+      },
+      {
+        "name": "Jiayun Wang",
+        "papers": 1
+      },
+      {
+        "name": "Chunfeng Wang",
+        "papers": 1
+      },
+      {
+        "name": "Jintao Li",
+        "papers": 1
+      },
+      {
+        "name": "Huaxin Xiao",
+        "papers": 1
+      },
+      {
+        "name": "Yu Liu",
+        "papers": 1
+      },
+      {
+        "name": "Maojun Zhang",
+        "papers": 1
+      },
+      {
+        "name": "H. Wang",
+        "papers": 1
+      },
+      {
+        "name": "Evan Shelhamer",
+        "papers": 1
+      },
+      {
+        "name": "Yannis Kalantidis",
+        "papers": 1
+      },
+      {
+        "name": "Huijuan Xu",
+        "papers": 1
+      },
+      {
+        "name": "Ximeng Sun",
+        "papers": 1
+      },
+      {
+        "name": "Kate Saenko",
+        "papers": 1
+      },
+      {
+        "name": "Xin Wang",
+        "papers": 1
+      },
+      {
+        "name": "F. Yu",
+        "papers": 1
+      },
+      {
+        "name": "Zequn Jie",
         "papers": 1
       }
     ],

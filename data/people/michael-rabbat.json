@@ -12,7 +12,9 @@
     "linkedin": "https://www.linkedin.com/in/michael-rabbat-66a00b7",
     "scholar": "https://scholar.google.com/citations?user=cMPKe9UAAAAJ&hl=en&oi=ao"
   },
-  "semanticScholarId": "2066127975",
+  "semanticScholarId": [
+    "2066127975"
+  ],
   "careerHistory": [
     {
       "org": "Meta AI (FAIR)",
@@ -108,12 +110,8 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276",
-      "citationCount": 20,
+      "citationCount": 21,
       "coAuthors": [
-        {
-          "slug": "amir-bar",
-          "name": "Amir Bar"
-        },
         {
           "slug": "david-fan",
           "name": "David Fan"
@@ -121,6 +119,10 @@
         {
           "slug": "john-nguyen",
           "name": "John Nguyen"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": "yann-lecun",
@@ -236,19 +238,19 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.03604",
-      "citationCount": 8,
+      "citationCount": 9,
       "coAuthors": [
         {
           "slug": "basile-terver",
           "name": "Basile Terver"
         },
         {
-          "slug": "david-fan",
-          "name": "David Fan"
-        },
-        {
           "slug": "megi-dervishi",
           "name": "Megi Dervishi"
+        },
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
         },
         {
           "slug": "quentin-garrido",
@@ -289,12 +291,12 @@
       "citationCount": 7,
       "coAuthors": [
         {
-          "slug": "amir-bar",
-          "name": "Amir Bar"
-        },
-        {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": null,
@@ -315,12 +317,12 @@
       "citationCount": 33,
       "coAuthors": [
         {
-          "slug": "basile-terver",
-          "name": "Basile Terver"
-        },
-        {
           "slug": "quentin-garrido",
           "name": "Quentin Garrido"
+        },
+        {
+          "slug": "basile-terver",
+          "name": "Basile Terver"
         },
         {
           "slug": "yann-lecun",
@@ -384,7 +386,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 572,
+      "citationCount": 573,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -640,7 +642,7 @@
       "year": 2024,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.01579",
-      "citationCount": 219,
+      "citationCount": 220,
       "coAuthors": [
         {
           "slug": "david-fan",
@@ -860,7 +862,7 @@
       "year": 2023,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2304.07193",
-      "citationCount": 9616,
+      "citationCount": 9631,
       "coAuthors": [
         {
           "slug": null,
@@ -1016,7 +1018,7 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01499",
-      "citationCount": 1068,
+      "citationCount": 1072,
       "coAuthors": [
         {
           "slug": "quentin-duval",
@@ -1049,6 +1051,1238 @@
       ]
     },
     {
+      "paperId": "32de8d5e2c38506227300691ca07a56f640017fd",
+      "title": "Privacy-Aware Compression for Federated Learning Through Numerical Mechanism Design",
+      "year": 2022,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/32de8d5e2c38506227300691ca07a56f640017fd",
+      "citationCount": 9,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chuan Guo"
+        },
+        {
+          "slug": null,
+          "name": "Kamalika Chaudhuri"
+        },
+        {
+          "slug": null,
+          "name": "Pierre Stock"
+        }
+      ]
+    },
+    {
+      "paperId": "5ecf91d9f3bcc5dee65e3a8ac1ab65dacf777de6",
+      "title": "Lo-fi: Distributed Fine-tuning without Communication",
+      "year": 2022,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2210.11948",
+      "citationCount": 24,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Mitchell Wortsman"
+        },
+        {
+          "slug": null,
+          "name": "Suchin Gururangan"
+        },
+        {
+          "slug": null,
+          "name": "Shen Li"
+        },
+        {
+          "slug": null,
+          "name": "Ali Farhadi"
+        },
+        {
+          "slug": null,
+          "name": "Ludwig Schmidt"
+        },
+        {
+          "slug": null,
+          "name": "Ari S. Morcos"
+        }
+      ]
+    },
+    {
+      "paperId": "fc721f4fd6260ed3b86c64eaa204375e18863aad",
+      "title": "Where to Begin? On the Impact of Pre-Training and Initialization in Federated Learning",
+      "year": 2022,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2210.08090",
+      "citationCount": 105,
+      "coAuthors": [
+        {
+          "slug": "john-nguyen",
+          "name": "John Nguyen"
+        },
+        {
+          "slug": null,
+          "name": "Jianyu Wang"
+        },
+        {
+          "slug": null,
+          "name": "Kshitiz Malik"
+        },
+        {
+          "slug": null,
+          "name": "Maziar Sanjabi"
+        }
+      ]
+    },
+    {
+      "paperId": "8be831a07abe8c5475c2bd91cc41bf4c1c2be771",
+      "title": "The Hidden Uniform Cluster Prior in Self-Supervised Learning",
+      "year": 2022,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2210.07277",
+      "citationCount": 69,
+      "coAuthors": [
+        {
+          "slug": "quentin-duval",
+          "name": "Quentin Duval"
+        },
+        {
+          "slug": null,
+          "name": "Mahmoud Assran"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Florian Bordes"
+        },
+        {
+          "slug": null,
+          "name": "Ishan Misra"
+        },
+        {
+          "slug": null,
+          "name": "Piotr Bojanowski"
+        },
+        {
+          "slug": null,
+          "name": "P. Vincent"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        }
+      ]
+    },
+    {
+      "paperId": "0c00e81e73bdcfcad82ff3a11e66b48b5012e0f8",
+      "title": "The Interpolated MVU Mechanism For Communication-efficient Private Federated Learning",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2211.03942",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chuan Guo"
+        },
+        {
+          "slug": null,
+          "name": "Kamalika Chaudhuri"
+        },
+        {
+          "slug": null,
+          "name": "Pierre Stock"
+        }
+      ]
+    },
+    {
+      "paperId": "f42cb48e487171e7408b9f2ebf2d7dd5b5a4d675",
+      "title": "Where to Begin? Exploring the Impact of Pre-Training and Initialization in Federated Learning",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2206.15387",
+      "citationCount": 47,
+      "coAuthors": [
+        {
+          "slug": "john-nguyen",
+          "name": "John Nguyen"
+        },
+        {
+          "slug": null,
+          "name": "Kshitiz Malik"
+        },
+        {
+          "slug": null,
+          "name": "Maziar Sanjabi"
+        }
+      ]
+    },
+    {
+      "paperId": "ae8598ad1b4a1828f9d4042b16c388565423542e",
+      "title": "Where to Begin? On the Impact of Pre-Training and Initialization in Federated Learning",
+      "year": 2022,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/ae8598ad1b4a1828f9d4042b16c388565423542e",
+      "citationCount": 19,
+      "coAuthors": [
+        {
+          "slug": "john-nguyen",
+          "name": "John Nguyen"
+        },
+        {
+          "slug": null,
+          "name": "Jianyu Wang"
+        },
+        {
+          "slug": null,
+          "name": "Kshitiz Malik"
+        },
+        {
+          "slug": null,
+          "name": "Maziar Sanjabi"
+        },
+        {
+          "slug": null,
+          "name": "AI Meta"
+        }
+      ]
+    },
+    {
+      "paperId": "1d8f5fc168cfa4f62a0b59fb5dece866d36ffe61",
+      "title": "Positive Unlabeled Contrastive Learning",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2206.01206",
+      "citationCount": 17,
+      "coAuthors": [
+        {
+          "slug": "li-jing",
+          "name": "Li Jing"
+        },
+        {
+          "slug": null,
+          "name": "Anish Acharya"
+        },
+        {
+          "slug": null,
+          "name": "Sujay Sanghavi"
+        },
+        {
+          "slug": null,
+          "name": "Bhargav Bhushanam"
+        },
+        {
+          "slug": null,
+          "name": "Dhruv Choudhary"
+        },
+        {
+          "slug": null,
+          "name": "I. Dhillon"
+        }
+      ]
+    },
+    {
+      "paperId": "fc98ec17f28a06a2c3e283296494844eccba816f",
+      "title": "Towards Fair Federated Recommendation Learning: Characterizing the Inter-Dependence of System and Data Heterogeneity",
+      "year": 2022,
+      "venue": "ACM Conference on Recommender Systems",
+      "url": "https://doi.org/10.1145/3523227.3546759",
+      "citationCount": 41,
+      "coAuthors": [
+        {
+          "slug": "john-nguyen",
+          "name": "John Nguyen"
+        },
+        {
+          "slug": null,
+          "name": "Kiwan Maeng"
+        },
+        {
+          "slug": null,
+          "name": "Haiyu Lu"
+        },
+        {
+          "slug": null,
+          "name": "Luca Melis"
+        },
+        {
+          "slug": null,
+          "name": "Carole-Jean Wu"
+        }
+      ]
+    },
+    {
+      "paperId": "1f571c8b972540370b6fb9b48564fd2d8069901f",
+      "title": "FedShuffle: Recipes for Better Use of Local Work in Federated Learning",
+      "year": 2022,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2204.13169",
+      "citationCount": 23,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Samuel Horváth"
+        },
+        {
+          "slug": null,
+          "name": "Maziar Sanjabi"
+        },
+        {
+          "slug": null,
+          "name": "Lin Xiao"
+        },
+        {
+          "slug": null,
+          "name": "Peter Richtárik"
+        }
+      ]
+    },
+    {
+      "paperId": "a6e231db70a6774abc995afc0201671e0dab4d3a",
+      "title": "Masked Siamese Networks for Label-Efficient Learning",
+      "year": 2022,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.48550/arXiv.2204.07141",
+      "citationCount": 430,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Mahmoud Assran"
+        },
+        {
+          "slug": null,
+          "name": "Mathilde Caron"
+        },
+        {
+          "slug": null,
+          "name": "Ishan Misra"
+        },
+        {
+          "slug": null,
+          "name": "Piotr Bojanowski"
+        },
+        {
+          "slug": null,
+          "name": "Florian Bordes"
+        },
+        {
+          "slug": null,
+          "name": "Pascal Vincent"
+        },
+        {
+          "slug": null,
+          "name": "Armand Joulin"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        }
+      ]
+    },
+    {
+      "paperId": "134e5566cc2d542039414c0de88e5e2f10dc8704",
+      "title": "Federated Learning with Partial Model Personalization",
+      "year": 2022,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2204.03809",
+      "citationCount": 244,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Krishna Pillutla"
+        },
+        {
+          "slug": null,
+          "name": "Kshitiz Malik"
+        },
+        {
+          "slug": null,
+          "name": "Abdel-rahman Mohamed"
+        },
+        {
+          "slug": null,
+          "name": "Maziar Sanjabi"
+        },
+        {
+          "slug": null,
+          "name": "Lin Xiao"
+        }
+      ]
+    },
+    {
+      "paperId": "b87b5797b661d6137301dd3167d573a94493936e",
+      "title": "Papaya: Practical, Private, and Scalable Federated Learning",
+      "year": 2021,
+      "venue": "Conference on Machine Learning and Systems",
+      "url": "https://www.semanticscholar.org/paper/b87b5797b661d6137301dd3167d573a94493936e",
+      "citationCount": 172,
+      "coAuthors": [
+        {
+          "slug": "john-nguyen",
+          "name": "John Nguyen"
+        },
+        {
+          "slug": null,
+          "name": "Dzmitry Huba"
+        },
+        {
+          "slug": null,
+          "name": "Kshitiz Malik"
+        },
+        {
+          "slug": null,
+          "name": "Ruiyu Zhu"
+        },
+        {
+          "slug": null,
+          "name": "Ashkan Yousefpour"
+        },
+        {
+          "slug": null,
+          "name": "Carole-Jean Wu"
+        },
+        {
+          "slug": null,
+          "name": "Hongyuan Zhan"
+        },
+        {
+          "slug": null,
+          "name": "Pavel Ustinov"
+        },
+        {
+          "slug": null,
+          "name": "H. Srinivas"
+        },
+        {
+          "slug": null,
+          "name": "Kaikai Wang"
+        },
+        {
+          "slug": null,
+          "name": "Anthony Shoumikhin"
+        },
+        {
+          "slug": null,
+          "name": "Jesik Min"
+        },
+        {
+          "slug": null,
+          "name": "Mani Malek"
+        }
+      ]
+    },
+    {
+      "paperId": "4c188c99cb75e065e025a74e87a68dd0f3ff0f84",
+      "title": "Trade-offs of Local SGD at Scale: An Empirical Study",
+      "year": 2021,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/4c188c99cb75e065e025a74e87a68dd0f3ff0f84",
+      "citationCount": 22,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "J. J. Ortiz"
+        },
+        {
+          "slug": null,
+          "name": "Jonathan Frankle"
+        },
+        {
+          "slug": null,
+          "name": "Ari S. Morcos"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        }
+      ]
+    },
+    {
+      "paperId": "e491775da2a28dd522c3b441d6ab57ad86ef3a3d",
+      "title": "Stochastic Polyak Stepsize with a Moving Target",
+      "year": 2021,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/e491775da2a28dd522c3b441d6ab57ad86ef3a3d",
+      "citationCount": 21,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Robert Mansel Gower"
+        },
+        {
+          "slug": null,
+          "name": "Aaron Defazio"
+        }
+      ]
+    },
+    {
+      "paperId": "38fca90fef15b226dbae8db408c5efe8066dde1c",
+      "title": "Federated Learning with Buffered Asynchronous Aggregation",
+      "year": 2021,
+      "venue": "International Conference on Artificial Intelligence and Statistics",
+      "url": "https://www.semanticscholar.org/paper/38fca90fef15b226dbae8db408c5efe8066dde1c",
+      "citationCount": 476,
+      "coAuthors": [
+        {
+          "slug": "john-nguyen",
+          "name": "John Nguyen"
+        },
+        {
+          "slug": null,
+          "name": "Kshitiz Malik"
+        },
+        {
+          "slug": null,
+          "name": "Hongyuan Zhan"
+        },
+        {
+          "slug": null,
+          "name": "Ashkan Yousefpour"
+        },
+        {
+          "slug": null,
+          "name": "Mani Malek"
+        },
+        {
+          "slug": null,
+          "name": "Dzmitry Huba"
+        }
+      ]
+    },
+    {
+      "paperId": "57119dde4f6c45b195d9768e00e441032da7a650",
+      "title": "Semi-Supervised Learning of Visual Features by Non-Parametrically Predicting View Assignments with Support Samples",
+      "year": 2021,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV48922.2021.00833",
+      "citationCount": 176,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Mahmoud Assran"
+        },
+        {
+          "slug": null,
+          "name": "Mathilde Caron"
+        },
+        {
+          "slug": null,
+          "name": "Ishan Misra"
+        },
+        {
+          "slug": null,
+          "name": "Piotr Bojanowski"
+        },
+        {
+          "slug": null,
+          "name": "Armand Joulin"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        }
+      ]
+    },
+    {
+      "paperId": "737a9dbb44e4ff1525d6be30eecb977317d5793d",
+      "title": "Learning with Gradient Descent and Weakly Convex Losses",
+      "year": 2021,
+      "venue": "International Conference on Artificial Intelligence and Statistics",
+      "url": "https://www.semanticscholar.org/paper/737a9dbb44e4ff1525d6be30eecb977317d5793d",
+      "citationCount": 19,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Dominic Richards"
+        }
+      ]
+    },
+    {
+      "paperId": "b063020be00405c8f7c0d05d02a214a103f2a8d8",
+      "title": "CPR: Understanding and Improving Failure Tolerant Training for Deep Learning Recommendation with Partial Recovery",
+      "year": 2020,
+      "venue": "Conference on Machine Learning and Systems",
+      "url": "https://www.semanticscholar.org/paper/b063020be00405c8f7c0d05d02a214a103f2a8d8",
+      "citationCount": 47,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Kiwan Maeng"
+        },
+        {
+          "slug": null,
+          "name": "Shivam Bharuka"
+        },
+        {
+          "slug": null,
+          "name": "Isabel Gao"
+        },
+        {
+          "slug": null,
+          "name": "M. C. Jeffrey"
+        },
+        {
+          "slug": null,
+          "name": "V. Saraph"
+        },
+        {
+          "slug": null,
+          "name": "Bor-Yiing Su"
+        },
+        {
+          "slug": null,
+          "name": "Caroline Trippel"
+        },
+        {
+          "slug": null,
+          "name": "Jiyan Yang"
+        },
+        {
+          "slug": null,
+          "name": "Brandon Lucia"
+        },
+        {
+          "slug": null,
+          "name": "Carole-Jean Wu"
+        }
+      ]
+    },
+    {
+      "paperId": "b090cfc2179a789e7aeb684ee8c85e71bcbd4aa0",
+      "title": "A Closer Look at Codistillation for Distributed Training",
+      "year": 2020,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/b090cfc2179a789e7aeb684ee8c85e71bcbd4aa0",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Shagun Sodhani"
+        },
+        {
+          "slug": null,
+          "name": "Olivier Delalleau"
+        },
+        {
+          "slug": null,
+          "name": "Mahmoud Assran"
+        },
+        {
+          "slug": null,
+          "name": "Koustuv Sinha"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        }
+      ]
+    },
+    {
+      "paperId": "448e077fc6cc9d05b5c1dffc9b02f12253273651",
+      "title": "Using Deep Learning to Accelerate Knee MRI at 3 T: Results of an Interchangeability Study",
+      "year": 2020,
+      "venue": "AJR. American journal of roentgenology",
+      "url": "https://doi.org/10.2214/ajr.20.23313",
+      "citationCount": 130,
+      "coAuthors": [
+        {
+          "slug": "matthew-muckley",
+          "name": "Matthew Muckley"
+        },
+        {
+          "slug": null,
+          "name": "M. Recht"
+        },
+        {
+          "slug": null,
+          "name": "Jure Zbontar"
+        },
+        {
+          "slug": null,
+          "name": "D. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        },
+        {
+          "slug": null,
+          "name": "N. Yakubova"
+        },
+        {
+          "slug": null,
+          "name": "Anuroop Sriram"
+        },
+        {
+          "slug": null,
+          "name": "Tullie Murrell"
+        },
+        {
+          "slug": null,
+          "name": "Aaron Defazio"
+        },
+        {
+          "slug": null,
+          "name": "L. Rybak"
+        },
+        {
+          "slug": null,
+          "name": "M. Kline"
+        },
+        {
+          "slug": null,
+          "name": "G. Ciavarra"
+        },
+        {
+          "slug": null,
+          "name": "Erin F. Alaia"
+        },
+        {
+          "slug": null,
+          "name": "Mohammad M. Samim"
+        },
+        {
+          "slug": null,
+          "name": "William R. Walter"
+        },
+        {
+          "slug": null,
+          "name": "Dana J. Lin"
+        },
+        {
+          "slug": null,
+          "name": "Y. Lui"
+        },
+        {
+          "slug": null,
+          "name": "Zhengnan Huang"
+        },
+        {
+          "slug": null,
+          "name": "Patricia M. Johnson"
+        },
+        {
+          "slug": null,
+          "name": "Ruben Stern"
+        },
+        {
+          "slug": null,
+          "name": "C. L. Zitnick"
+        }
+      ]
+    },
+    {
+      "paperId": "6eaf6ecc07862ed2339d43d93f1cc8fb127c4222",
+      "title": "Dataset of Knee Images for Accelerated MR Image Reconstruction Using Machine Learning",
+      "year": 2020,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/6eaf6ecc07862ed2339d43d93f1cc8fb127c4222",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "matthew-muckley",
+          "name": "Matthew Muckley"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        },
+        {
+          "slug": null,
+          "name": "Jure Zbontar"
+        },
+        {
+          "slug": null,
+          "name": "Anuroop Sriram"
+        },
+        {
+          "slug": null,
+          "name": "M. Bruno"
+        },
+        {
+          "slug": null,
+          "name": "Aaron Defazio"
+        },
+        {
+          "slug": null,
+          "name": "Marc Parente"
+        },
+        {
+          "slug": null,
+          "name": "Krzysztof J. Geras"
+        },
+        {
+          "slug": null,
+          "name": "Joe Katsnelson"
+        },
+        {
+          "slug": null,
+          "name": "H. Chandarana"
+        },
+        {
+          "slug": null,
+          "name": "Zizhao Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Michal Drozdzalv"
+        },
+        {
+          "slug": null,
+          "name": "A. Romero"
+        },
+        {
+          "slug": null,
+          "name": "Pascal Vincent"
+        },
+        {
+          "slug": null,
+          "name": "James Pinkerton"
+        },
+        {
+          "slug": null,
+          "name": "Duo Wang"
+        },
+        {
+          "slug": null,
+          "name": "N. Yakubova"
+        },
+        {
+          "slug": null,
+          "name": "Erich Owens"
+        },
+        {
+          "slug": null,
+          "name": "C. L. Zitnick"
+        },
+        {
+          "slug": null,
+          "name": "M. Recht"
+        },
+        {
+          "slug": null,
+          "name": "D. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "Y. Lui"
+        }
+      ]
+    },
+    {
+      "paperId": "41b063eb7e078479b267a4410b280dce753f4fab",
+      "title": "Recovering Petaflops in Contrastive Semi-Supervised Learning of Visual Representations",
+      "year": 2020,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/41b063eb7e078479b267a4410b280dce753f4fab",
+      "citationCount": 3,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Mahmoud Assran"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Lluís Castrejón"
+        }
+      ]
+    },
+    {
+      "paperId": "e97b7c5a7e25d53bfe3880a0f44b2e98e9eda4f5",
+      "title": "Supervision Accelerates Pre-training in Contrastive Semi-Supervised Learning of Visual Representations.",
+      "year": 2020,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/e97b7c5a7e25d53bfe3880a0f44b2e98e9eda4f5",
+      "citationCount": 18,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Mahmoud Assran"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Lluís Castrejón"
+        }
+      ]
+    },
+    {
+      "paperId": "7689f638e7d48fb391dd579baf3e8e360a0fe578",
+      "title": "Lookahead Converges to Stationary Points of Smooth Non-convex Functions",
+      "year": 2020,
+      "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "url": "https://doi.org/10.1109/ICASSP40776.2020.9054014",
+      "citationCount": 12,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jianyu Wang"
+        },
+        {
+          "slug": null,
+          "name": "Vinayak Tantia"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        }
+      ]
+    },
+    {
+      "paperId": "317cfe2959f01af336dde41473de7894b83e3a07",
+      "title": "On the Convergence of Nesterov's Accelerated Gradient Method in Stochastic Settings",
+      "year": 2020,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/317cfe2959f01af336dde41473de7894b83e3a07",
+      "citationCount": 74,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Mahmoud Assran"
+        }
+      ]
+    },
+    {
+      "paperId": "025e77d28d5554d2e49de25f047f1a93341d0766",
+      "title": "fastMRI: A Publicly Available Raw k-Space and DICOM Dataset of Knee Images for Accelerated MR Image Reconstruction Using Machine Learning.",
+      "year": 2020,
+      "venue": "Radiology: Artificial Intelligence",
+      "url": "https://doi.org/10.1148/ryai.2020190007",
+      "citationCount": 523,
+      "coAuthors": [
+        {
+          "slug": "matthew-muckley",
+          "name": "Matthew Muckley"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        },
+        {
+          "slug": null,
+          "name": "Jure Zbontar"
+        },
+        {
+          "slug": null,
+          "name": "Anuroop Sriram"
+        },
+        {
+          "slug": null,
+          "name": "M. Bruno"
+        },
+        {
+          "slug": null,
+          "name": "Aaron Defazio"
+        },
+        {
+          "slug": null,
+          "name": "Marc Parente"
+        },
+        {
+          "slug": null,
+          "name": "Krzysztof J. Geras"
+        },
+        {
+          "slug": null,
+          "name": "Joe Katsnelson"
+        },
+        {
+          "slug": null,
+          "name": "H. Chandarana"
+        },
+        {
+          "slug": null,
+          "name": "Zizhao Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Michal Drozdzalv"
+        },
+        {
+          "slug": null,
+          "name": "Adriana Romero"
+        },
+        {
+          "slug": null,
+          "name": "Pascal Vincent"
+        },
+        {
+          "slug": null,
+          "name": "James Pinkerton"
+        },
+        {
+          "slug": null,
+          "name": "Duo Wang"
+        },
+        {
+          "slug": null,
+          "name": "N. Yakubova"
+        },
+        {
+          "slug": null,
+          "name": "Erich Owens"
+        },
+        {
+          "slug": null,
+          "name": "C. L. Zitnick"
+        },
+        {
+          "slug": null,
+          "name": "M. Recht"
+        },
+        {
+          "slug": null,
+          "name": "D. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "Y. Lui"
+        }
+      ]
+    },
+    {
+      "paperId": "516511ea09ee736dced455253dfd961ab8d7d00f",
+      "title": "Advancing machine learning for MR image reconstruction with an open competition: Overview of the 2019 fastMRI challenge",
+      "year": 2020,
+      "venue": "Magnetic Resonance in Medicine",
+      "url": "https://doi.org/10.1002/mrm.28338",
+      "citationCount": 245,
+      "coAuthors": [
+        {
+          "slug": "matthew-muckley",
+          "name": "Matthew Muckley"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        },
+        {
+          "slug": null,
+          "name": "Tullie Murrell"
+        },
+        {
+          "slug": null,
+          "name": "Anuroop Sriram"
+        },
+        {
+          "slug": null,
+          "name": "N. Yakubova"
+        },
+        {
+          "slug": null,
+          "name": "Jure Zbontar"
+        },
+        {
+          "slug": null,
+          "name": "Aaron Defazio"
+        },
+        {
+          "slug": null,
+          "name": "D. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "C. L. Zitnick"
+        },
+        {
+          "slug": null,
+          "name": "M. Recht"
+        }
+      ]
+    },
+    {
+      "paperId": "1a0d93034215411c8227dedaf5fa18d5929b448c",
+      "title": "MVFST-RL: An Asynchronous RL Framework for Congestion Control with Delayed Actions",
+      "year": 2019,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/1a0d93034215411c8227dedaf5fa18d5929b448c",
+      "citationCount": 39,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "V. Sivakumar"
+        },
+        {
+          "slug": null,
+          "name": "Tim Rocktäschel"
+        },
+        {
+          "slug": null,
+          "name": "Alexander H. Miller"
+        },
+        {
+          "slug": null,
+          "name": "Heinrich Küttler"
+        },
+        {
+          "slug": null,
+          "name": "Nantas Nardelli"
+        },
+        {
+          "slug": null,
+          "name": "Joelle Pineau"
+        },
+        {
+          "slug": null,
+          "name": "Sebastian Riedel"
+        }
+      ]
+    },
+    {
+      "paperId": "e20848622d5145744127b82367f9b671c7ddb08e",
+      "title": "SlowMo: Improving Communication-Efficient Distributed SGD with Slow Momentum",
+      "year": 2019,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/e20848622d5145744127b82367f9b671c7ddb08e",
+      "citationCount": 226,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jianyu Wang"
+        },
+        {
+          "slug": null,
+          "name": "Vinayak Tantia"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        }
+      ]
+    },
+    {
+      "paperId": "511a22cfbb3ea1a3328f65f6549bbfe60d64c85d",
+      "title": "Gossip-based Actor-Learner Architectures for Deep Reinforcement Learning",
+      "year": 2019,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/511a22cfbb3ea1a3328f65f6549bbfe60d64c85d",
+      "citationCount": 40,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Mahmoud Assran"
+        },
+        {
+          "slug": null,
+          "name": "Joshua Romoff"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Joelle Pineau"
+        }
+      ]
+    },
+    {
+      "paperId": "65d3e7fa7b452611aa729ac789d4373d6ee505b0",
+      "title": "fastMRI: An Open Dataset and Benchmarks for Accelerated MRI",
+      "year": 2018,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/65d3e7fa7b452611aa729ac789d4373d6ee505b0",
+      "citationCount": 1079,
+      "coAuthors": [
+        {
+          "slug": "matthew-muckley",
+          "name": "Matthew Muckley"
+        },
+        {
+          "slug": null,
+          "name": "Jure Zbontar"
+        },
+        {
+          "slug": null,
+          "name": "F. Knoll"
+        },
+        {
+          "slug": null,
+          "name": "Anuroop Sriram"
+        },
+        {
+          "slug": null,
+          "name": "M. Bruno"
+        },
+        {
+          "slug": null,
+          "name": "Aaron Defazio"
+        },
+        {
+          "slug": null,
+          "name": "Marc Parente"
+        },
+        {
+          "slug": null,
+          "name": "Krzysztof J. Geras"
+        },
+        {
+          "slug": null,
+          "name": "Joe Katsnelson"
+        },
+        {
+          "slug": null,
+          "name": "H. Chandarana"
+        },
+        {
+          "slug": null,
+          "name": "Zizhao Zhang"
+        },
+        {
+          "slug": null,
+          "name": "M. Drozdzal"
+        },
+        {
+          "slug": null,
+          "name": "Adriana Romero"
+        },
+        {
+          "slug": null,
+          "name": "P. Vincent"
+        },
+        {
+          "slug": null,
+          "name": "James Pinkerton"
+        },
+        {
+          "slug": null,
+          "name": "Duo Wang"
+        },
+        {
+          "slug": null,
+          "name": "N. Yakubova"
+        },
+        {
+          "slug": null,
+          "name": "Erich Owens"
+        },
+        {
+          "slug": null,
+          "name": "C. L. Zitnick"
+        },
+        {
+          "slug": null,
+          "name": "M. Recht"
+        },
+        {
+          "slug": null,
+          "name": "D. Sodickson"
+        },
+        {
+          "slug": null,
+          "name": "Y. Lui"
+        }
+      ]
+    },
+    {
       "paperId": "be2bd2ca84460ab58c5563789b8cd482e977ee76",
       "title": "The Diashow Paradox: Stronger 3D-Aware Representations Emerge from Image Sets, Not Videos Anonymous ICCV submission",
       "year": null,
@@ -1056,10 +2290,6 @@
       "url": "https://www.semanticscholar.org/paper/be2bd2ca84460ab58c5563789b8cd482e977ee76",
       "citationCount": 0,
       "coAuthors": [
-        {
-          "slug": "david-fan",
-          "name": "David Fan"
-        },
         {
           "slug": "quentin-duval",
           "name": "Quentin Duval"
@@ -1071,6 +2301,10 @@
         {
           "slug": "adrien-bardes",
           "name": "Adrien Bardes"
+        },
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
         },
         {
           "slug": null,
@@ -1255,14 +2489,14 @@
     {
       "title": "DINOv2: Learning Robust Visual Features without Supervision",
       "year": 2023,
-      "citationCount": 9616,
+      "citationCount": 9631,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2304.07193"
     },
     {
       "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
       "year": 2023,
-      "citationCount": 1068,
+      "citationCount": 1072,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01499"
     },
@@ -1300,8 +2534,18 @@
         "sharedPapers": 13
       },
       {
+        "slug": "matthew-muckley",
+        "name": "Matthew Muckley",
+        "sharedPapers": 7
+      },
+      {
         "slug": "david-fan",
         "name": "David Fan",
+        "sharedPapers": 7
+      },
+      {
+        "slug": "john-nguyen",
+        "name": "John Nguyen",
         "sharedPapers": 7
       },
       {
@@ -1325,9 +2569,9 @@
         "sharedPapers": 3
       },
       {
-        "slug": "matthew-muckley",
-        "name": "Matthew Muckley",
-        "sharedPapers": 2
+        "slug": "quentin-duval",
+        "name": "Quentin Duval",
+        "sharedPapers": 3
       },
       {
         "slug": "basile-terver",
@@ -1335,45 +2579,99 @@
         "sharedPapers": 2
       },
       {
-        "slug": "quentin-duval",
-        "name": "Quentin Duval",
+        "slug": "li-jing",
+        "name": "Li Jing",
         "sharedPapers": 2
-      },
-      {
-        "slug": "john-nguyen",
-        "name": "John Nguyen",
-        "sharedPapers": 1
       },
       {
         "slug": "megi-dervishi",
         "name": "Megi Dervishi",
-        "sharedPapers": 1
-      },
-      {
-        "slug": "li-jing",
-        "name": "Li Jing",
         "sharedPapers": 1
       }
     ],
     "externalCoAuthors": [
       {
         "name": "Nicolas Ballas",
-        "papers": 10
-      },
-      {
-        "name": "Koustuv Sinha",
-        "papers": 6
+        "papers": 20
       },
       {
         "name": "Mahmoud Assran",
-        "papers": 6
+        "papers": 14
+      },
+      {
+        "name": "Koustuv Sinha",
+        "papers": 7
       },
       {
         "name": "Piotr Bojanowski",
+        "papers": 7
+      },
+      {
+        "name": "Ishan Misra",
+        "papers": 6
+      },
+      {
+        "name": "Kshitiz Malik",
+        "papers": 6
+      },
+      {
+        "name": "Aaron Defazio",
+        "papers": 6
+      },
+      {
+        "name": "Pascal Vincent",
+        "papers": 5
+      },
+      {
+        "name": "Maziar Sanjabi",
+        "papers": 5
+      },
+      {
+        "name": "M. Recht",
+        "papers": 5
+      },
+      {
+        "name": "Jure Zbontar",
+        "papers": 5
+      },
+      {
+        "name": "D. Sodickson",
+        "papers": 5
+      },
+      {
+        "name": "F. Knoll",
+        "papers": 5
+      },
+      {
+        "name": "N. Yakubova",
+        "papers": 5
+      },
+      {
+        "name": "Anuroop Sriram",
+        "papers": 5
+      },
+      {
+        "name": "C. L. Zitnick",
+        "papers": 5
+      },
+      {
+        "name": "Carole-Jean Wu",
+        "papers": 4
+      },
+      {
+        "name": "Jianyu Wang",
+        "papers": 4
+      },
+      {
+        "name": "Y. Lui",
         "papers": 4
       },
       {
         "name": "Shengbang Tong",
+        "papers": 3
+      },
+      {
+        "name": "Randall Balestriero",
         "papers": 3
       },
       {
@@ -1389,19 +2687,71 @@
         "papers": 3
       },
       {
+        "name": "Florian Bordes",
+        "papers": 3
+      },
+      {
         "name": "Xinlei Chen",
         "papers": 3
       },
       {
-        "name": "Ishan Misra",
+        "name": "Armand Joulin",
+        "papers": 3
+      },
+      {
+        "name": "Ashkan Yousefpour",
+        "papers": 3
+      },
+      {
+        "name": "Pierre Stock",
+        "papers": 3
+      },
+      {
+        "name": "Kiwan Maeng",
+        "papers": 3
+      },
+      {
+        "name": "Mathilde Caron",
+        "papers": 3
+      },
+      {
+        "name": "M. Bruno",
+        "papers": 3
+      },
+      {
+        "name": "Marc Parente",
+        "papers": 3
+      },
+      {
+        "name": "Krzysztof J. Geras",
+        "papers": 3
+      },
+      {
+        "name": "Joe Katsnelson",
+        "papers": 3
+      },
+      {
+        "name": "H. Chandarana",
+        "papers": 3
+      },
+      {
+        "name": "Zizhao Zhang",
+        "papers": 3
+      },
+      {
+        "name": "James Pinkerton",
+        "papers": 3
+      },
+      {
+        "name": "Duo Wang",
+        "papers": 3
+      },
+      {
+        "name": "Erich Owens",
         "papers": 3
       },
       {
         "name": "Gaoyue Zhou",
-        "papers": 2
-      },
-      {
-        "name": "Randall Balestriero",
         "papers": 2
       },
       {
@@ -1441,11 +2791,79 @@
         "papers": 2
       },
       {
+        "name": "Anish Acharya",
+        "papers": 2
+      },
+      {
+        "name": "Sujay Sanghavi",
+        "papers": 2
+      },
+      {
+        "name": "Bhargav Bhushanam",
+        "papers": 2
+      },
+      {
+        "name": "I. Dhillon",
+        "papers": 2
+      },
+      {
         "name": "Hervé Jégou",
         "papers": 2
       },
       {
-        "name": "Pascal Vincent",
+        "name": "Chuan Guo",
+        "papers": 2
+      },
+      {
+        "name": "Kamalika Chaudhuri",
+        "papers": 2
+      },
+      {
+        "name": "Ari S. Morcos",
+        "papers": 2
+      },
+      {
+        "name": "P. Vincent",
+        "papers": 2
+      },
+      {
+        "name": "Lin Xiao",
+        "papers": 2
+      },
+      {
+        "name": "Dzmitry Huba",
+        "papers": 2
+      },
+      {
+        "name": "Hongyuan Zhan",
+        "papers": 2
+      },
+      {
+        "name": "Mani Malek",
+        "papers": 2
+      },
+      {
+        "name": "Tullie Murrell",
+        "papers": 2
+      },
+      {
+        "name": "Michal Drozdzalv",
+        "papers": 2
+      },
+      {
+        "name": "Lluís Castrejón",
+        "papers": 2
+      },
+      {
+        "name": "Vinayak Tantia",
+        "papers": 2
+      },
+      {
+        "name": "Adriana Romero",
+        "papers": 2
+      },
+      {
+        "name": "Joelle Pineau",
         "papers": 2
       },
       {
@@ -1621,10 +3039,6 @@
         "papers": 1
       },
       {
-        "name": "Florian Bordes",
-        "papers": 1
-      },
-      {
         "name": "Justine T Kao",
         "papers": 1
       },
@@ -1642,22 +3056,6 @@
       },
       {
         "name": "Jean Ponce",
-        "papers": 1
-      },
-      {
-        "name": "Anish Acharya",
-        "papers": 1
-      },
-      {
-        "name": "Sujay Sanghavi",
-        "papers": 1
-      },
-      {
-        "name": "Bhargav Bhushanam",
-        "papers": 1
-      },
-      {
-        "name": "I. Dhillon",
         "papers": 1
       },
       {
@@ -1817,14 +3215,6 @@
         "papers": 1
       },
       {
-        "name": "Armand Joulin",
-        "papers": 1
-      },
-      {
-        "name": "Ashkan Yousefpour",
-        "papers": 1
-      },
-      {
         "name": "Sheng Guo",
         "papers": 1
       },
@@ -1837,23 +3227,219 @@
         "papers": 1
       },
       {
-        "name": "Pierre Stock",
-        "papers": 1
-      },
-      {
-        "name": "Kiwan Maeng",
-        "papers": 1
-      },
-      {
         "name": "Schalk-Willem Kruger",
         "papers": 1
       },
       {
-        "name": "Carole-Jean Wu",
+        "name": "Ilya Mironov",
         "papers": 1
       },
       {
-        "name": "Ilya Mironov",
+        "name": "Mitchell Wortsman",
+        "papers": 1
+      },
+      {
+        "name": "Suchin Gururangan",
+        "papers": 1
+      },
+      {
+        "name": "Shen Li",
+        "papers": 1
+      },
+      {
+        "name": "Ali Farhadi",
+        "papers": 1
+      },
+      {
+        "name": "Ludwig Schmidt",
+        "papers": 1
+      },
+      {
+        "name": "AI Meta",
+        "papers": 1
+      },
+      {
+        "name": "Dhruv Choudhary",
+        "papers": 1
+      },
+      {
+        "name": "Haiyu Lu",
+        "papers": 1
+      },
+      {
+        "name": "Luca Melis",
+        "papers": 1
+      },
+      {
+        "name": "Samuel Horváth",
+        "papers": 1
+      },
+      {
+        "name": "Peter Richtárik",
+        "papers": 1
+      },
+      {
+        "name": "Krishna Pillutla",
+        "papers": 1
+      },
+      {
+        "name": "Abdel-rahman Mohamed",
+        "papers": 1
+      },
+      {
+        "name": "Ruiyu Zhu",
+        "papers": 1
+      },
+      {
+        "name": "Pavel Ustinov",
+        "papers": 1
+      },
+      {
+        "name": "H. Srinivas",
+        "papers": 1
+      },
+      {
+        "name": "Kaikai Wang",
+        "papers": 1
+      },
+      {
+        "name": "Anthony Shoumikhin",
+        "papers": 1
+      },
+      {
+        "name": "Jesik Min",
+        "papers": 1
+      },
+      {
+        "name": "J. J. Ortiz",
+        "papers": 1
+      },
+      {
+        "name": "Jonathan Frankle",
+        "papers": 1
+      },
+      {
+        "name": "Robert Mansel Gower",
+        "papers": 1
+      },
+      {
+        "name": "Dominic Richards",
+        "papers": 1
+      },
+      {
+        "name": "Shivam Bharuka",
+        "papers": 1
+      },
+      {
+        "name": "Isabel Gao",
+        "papers": 1
+      },
+      {
+        "name": "M. C. Jeffrey",
+        "papers": 1
+      },
+      {
+        "name": "V. Saraph",
+        "papers": 1
+      },
+      {
+        "name": "Bor-Yiing Su",
+        "papers": 1
+      },
+      {
+        "name": "Caroline Trippel",
+        "papers": 1
+      },
+      {
+        "name": "Jiyan Yang",
+        "papers": 1
+      },
+      {
+        "name": "Brandon Lucia",
+        "papers": 1
+      },
+      {
+        "name": "Shagun Sodhani",
+        "papers": 1
+      },
+      {
+        "name": "Olivier Delalleau",
+        "papers": 1
+      },
+      {
+        "name": "L. Rybak",
+        "papers": 1
+      },
+      {
+        "name": "M. Kline",
+        "papers": 1
+      },
+      {
+        "name": "G. Ciavarra",
+        "papers": 1
+      },
+      {
+        "name": "Erin F. Alaia",
+        "papers": 1
+      },
+      {
+        "name": "Mohammad M. Samim",
+        "papers": 1
+      },
+      {
+        "name": "William R. Walter",
+        "papers": 1
+      },
+      {
+        "name": "Dana J. Lin",
+        "papers": 1
+      },
+      {
+        "name": "Zhengnan Huang",
+        "papers": 1
+      },
+      {
+        "name": "Patricia M. Johnson",
+        "papers": 1
+      },
+      {
+        "name": "Ruben Stern",
+        "papers": 1
+      },
+      {
+        "name": "A. Romero",
+        "papers": 1
+      },
+      {
+        "name": "V. Sivakumar",
+        "papers": 1
+      },
+      {
+        "name": "Tim Rocktäschel",
+        "papers": 1
+      },
+      {
+        "name": "Alexander H. Miller",
+        "papers": 1
+      },
+      {
+        "name": "Heinrich Küttler",
+        "papers": 1
+      },
+      {
+        "name": "Nantas Nardelli",
+        "papers": 1
+      },
+      {
+        "name": "Sebastian Riedel",
+        "papers": 1
+      },
+      {
+        "name": "Joshua Romoff",
+        "papers": 1
+      },
+      {
+        "name": "M. Drozdzal",
         "papers": 1
       },
       {
@@ -1914,10 +3500,6 @@
       },
       {
         "name": "Ma",
-        "papers": 1
-      },
-      {
-        "name": "Mathilde Caron",
         "papers": 1
       },
       {

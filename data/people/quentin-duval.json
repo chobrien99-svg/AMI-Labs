@@ -14,7 +14,9 @@
     "twitter": "https://x.com/quduval",
     "website": "https://deque.blog/"
   },
-  "semanticScholarId": "2101830371",
+  "semanticScholarId": [
+    "2101830371"
+  ],
   "careerHistory": [
     {
       "org": "Meta",
@@ -2051,7 +2053,7 @@
       "year": 2024,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/ed92a7be6b2acc36baf0ed43454a97dbade0c893",
-      "citationCount": 608,
+      "citationCount": 611,
       "coAuthors": [
         {
           "slug": "andrew-brown",
@@ -2591,7 +2593,7 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01499",
-      "citationCount": 1068,
+      "citationCount": 1072,
       "coAuthors": [
         {
           "slug": "michael-rabbat",
@@ -2624,6 +2626,86 @@
       ]
     },
     {
+      "paperId": "8be831a07abe8c5475c2bd91cc41bf4c1c2be771",
+      "title": "The Hidden Uniform Cluster Prior in Self-Supervised Learning",
+      "year": 2022,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2210.07277",
+      "citationCount": 69,
+      "coAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Mahmoud Assran"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Florian Bordes"
+        },
+        {
+          "slug": null,
+          "name": "Ishan Misra"
+        },
+        {
+          "slug": null,
+          "name": "Piotr Bojanowski"
+        },
+        {
+          "slug": null,
+          "name": "P. Vincent"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        }
+      ]
+    },
+    {
+      "paperId": "07c6a2ccb65913f2478234e96dd50c9593989c5c",
+      "title": "Vision Models Are More Robust And Fair When Pretrained On Uncurated Images Without Supervision",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/07c6a2ccb65913f2478234e96dd50c9593989c5c",
+      "citationCount": 125,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Priya Goyal"
+        },
+        {
+          "slug": null,
+          "name": "Isaac Seessel"
+        },
+        {
+          "slug": null,
+          "name": "Mathilde Caron"
+        },
+        {
+          "slug": null,
+          "name": "Ishan Misra"
+        },
+        {
+          "slug": null,
+          "name": "Levent Sagun"
+        },
+        {
+          "slug": null,
+          "name": "Armand Joulin"
+        },
+        {
+          "slug": null,
+          "name": "Piotr Bojanowski"
+        }
+      ]
+    },
+    {
       "paperId": "be2bd2ca84460ab58c5563789b8cd482e977ee76",
       "title": "The Diashow Paradox: Stronger 3D-Aware Representations Emerge from Image Sets, Not Videos Anonymous ICCV submission",
       "year": null,
@@ -2631,10 +2713,6 @@
       "url": "https://www.semanticscholar.org/paper/be2bd2ca84460ab58c5563789b8cd482e977ee76",
       "citationCount": 0,
       "coAuthors": [
-        {
-          "slug": "david-fan",
-          "name": "David Fan"
-        },
         {
           "slug": "michael-rabbat",
           "name": "Michael Rabbat"
@@ -2646,6 +2724,10 @@
         {
           "slug": "adrien-bardes",
           "name": "Adrien Bardes"
+        },
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
         },
         {
           "slug": null,
@@ -2830,14 +2912,14 @@
     {
       "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
       "year": 2023,
-      "citationCount": 1068,
+      "citationCount": 1072,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01499"
     },
     {
       "title": "Movie Gen: A Cast of Media Foundation Models",
       "year": 2024,
-      "citationCount": 608,
+      "citationCount": 611,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/ed92a7be6b2acc36baf0ed43454a97dbade0c893"
     },
@@ -2893,7 +2975,7 @@
       {
         "slug": "michael-rabbat",
         "name": "Michael Rabbat",
-        "sharedPapers": 2
+        "sharedPapers": 3
       },
       {
         "slug": "yann-lecun",
@@ -2906,23 +2988,35 @@
         "sharedPapers": 1
       },
       {
-        "slug": "david-fan",
-        "name": "David Fan",
+        "slug": "adrien-bardes",
+        "name": "Adrien Bardes",
         "sharedPapers": 1
       },
       {
-        "slug": "adrien-bardes",
-        "name": "Adrien Bardes",
+        "slug": "david-fan",
+        "name": "David Fan",
         "sharedPapers": 1
       }
     ],
     "externalCoAuthors": [
       {
         "name": "Ishan Misra",
-        "papers": 7
+        "papers": 9
+      },
+      {
+        "name": "Piotr Bojanowski",
+        "papers": 4
       },
       {
         "name": "Mannat Singh",
+        "papers": 3
+      },
+      {
+        "name": "Nicolas Ballas",
+        "papers": 3
+      },
+      {
+        "name": "Mahmoud Assran",
         "papers": 3
       },
       {
@@ -2990,19 +3084,15 @@
         "papers": 2
       },
       {
-        "name": "Nicolas Ballas",
-        "papers": 2
-      },
-      {
-        "name": "Mahmoud Assran",
-        "papers": 2
-      },
-      {
-        "name": "Piotr Bojanowski",
+        "name": "Armand Joulin",
         "papers": 2
       },
       {
         "name": "Pascal Vincent",
+        "papers": 2
+      },
+      {
+        "name": "Mathilde Caron",
         "papers": 2
       },
       {
@@ -5270,10 +5360,6 @@
         "papers": 1
       },
       {
-        "name": "Armand Joulin",
-        "papers": 1
-      },
-      {
         "name": "Piotr Doll'ar",
         "papers": 1
       },
@@ -5291,6 +5377,30 @@
       },
       {
         "name": "Adriana Romero-Soriano",
+        "papers": 1
+      },
+      {
+        "name": "Randall Balestriero",
+        "papers": 1
+      },
+      {
+        "name": "Florian Bordes",
+        "papers": 1
+      },
+      {
+        "name": "P. Vincent",
+        "papers": 1
+      },
+      {
+        "name": "Priya Goyal",
+        "papers": 1
+      },
+      {
+        "name": "Isaac Seessel",
+        "papers": 1
+      },
+      {
+        "name": "Levent Sagun",
         "papers": 1
       },
       {
@@ -5379,10 +5489,6 @@
       },
       {
         "name": "Ma",
-        "papers": 1
-      },
-      {
-        "name": "Mathilde Caron",
         "papers": 1
       },
       {

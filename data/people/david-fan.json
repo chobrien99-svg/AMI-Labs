@@ -13,7 +13,9 @@
     "scholar": "https://scholar.google.com/citations?user=VAiqiv4AAAAJ&hl=en&oi=sra",
     "website": "https://davidfan.io/"
   },
-  "semanticScholarId": "2335871751",
+  "semanticScholarId": [
+    "2335871751"
+  ],
   "careerHistory": [
     {
       "org": "Meta",
@@ -35,15 +37,15 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276",
-      "citationCount": 20,
+      "citationCount": 21,
       "coAuthors": [
-        {
-          "slug": "amir-bar",
-          "name": "Amir Bar"
-        },
         {
           "slug": "john-nguyen",
           "name": "John Nguyen"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": "michael-rabbat",
@@ -125,7 +127,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.03604",
-      "citationCount": 8,
+      "citationCount": 9,
       "coAuthors": [
         {
           "slug": "basile-terver",
@@ -251,7 +253,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 572,
+      "citationCount": 573,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -439,7 +441,7 @@
       "year": 2024,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.01579",
-      "citationCount": 219,
+      "citationCount": 220,
       "coAuthors": [
         {
           "slug": "michael-rabbat",
@@ -686,14 +688,14 @@
     {
       "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
-      "citationCount": 572,
+      "citationCount": 573,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985"
     },
     {
       "title": "MetaMorph: Multimodal Understanding and Generation via Instruction Tuning",
       "year": 2024,
-      "citationCount": 219,
+      "citationCount": 220,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.01579"
     },

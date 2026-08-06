@@ -16,7 +16,9 @@
     "twitter": "https://x.com/Delong0_0",
     "website": "https://chendelong.world/"
   },
-  "semanticScholarId": "94210578",
+  "semanticScholarId": [
+    "94210578"
+  ],
   "careerHistory": [
     {
       "org": "Meta AI (FAIR Paris)",
@@ -125,12 +127,12 @@
       "citationCount": 2,
       "coAuthors": [
         {
-          "slug": "amir-bar",
-          "name": "Amir Bar"
-        },
-        {
           "slug": "john-nguyen",
           "name": "John Nguyen"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": null,
@@ -200,7 +202,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2509.02722",
-      "citationCount": 31,
+      "citationCount": 34,
       "coAuthors": [
         {
           "slug": "willy-chung",
@@ -237,16 +239,16 @@
       "citationCount": 79,
       "coAuthors": [
         {
-          "slug": "basile-terver",
-          "name": "Basile Terver"
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
         },
         {
           "slug": "willy-chung",
           "name": "Willy Chung"
         },
         {
-          "slug": "pascale-fung",
-          "name": "Pascale Fung"
+          "slug": "basile-terver",
+          "name": "Basile Terver"
         },
         {
           "slug": null,
@@ -372,7 +374,7 @@
       "year": 2025,
       "venue": "ACM Multimedia",
       "url": "https://doi.org/10.1145/3746027.3754950",
-      "citationCount": 59,
+      "citationCount": 60,
       "coAuthors": [
         {
           "slug": null,
@@ -474,7 +476,7 @@
       "year": 2024,
       "venue": "AAAI Conference on Artificial Intelligence",
       "url": "https://doi.org/10.48550/arXiv.2408.11297",
-      "citationCount": 8,
+      "citationCount": 9,
       "coAuthors": [
         {
           "slug": null,
@@ -572,7 +574,7 @@
       "year": 2024,
       "venue": "Annual Meeting of the Association for Computational Linguistics",
       "url": "https://doi.org/10.48550/arXiv.2403.18932",
-      "citationCount": 133,
+      "citationCount": 134,
       "coAuthors": [
         {
           "slug": "pascale-fung",
@@ -613,13 +615,409 @@
           "name": "Baoyuan Wang"
         }
       ]
+    },
+    {
+      "paperId": "f34302a575f8d225094ad451f96252c1639e34b9",
+      "title": "Few-shot adaptation of multi-modal foundation models: a survey",
+      "year": 2024,
+      "venue": "Artificial Intelligence Review",
+      "url": "https://doi.org/10.1007/s10462-024-10915-y",
+      "citationCount": 69,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Fan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Tianshu Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Wenwen Dai"
+        },
+        {
+          "slug": null,
+          "name": "Wenwen Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "6ab1d3e2e23a304fa813a0ca24bde17689674e5f",
+      "title": "Few-shot classification guided by generalization error bound",
+      "year": 2023,
+      "venue": "Pattern Recognition",
+      "url": "https://doi.org/10.1016/j.patcog.2023.109904",
+      "citationCount": 23,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Fan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Sai Yang"
+        },
+        {
+          "slug": null,
+          "name": "Huaxi Huang"
+        },
+        {
+          "slug": null,
+          "name": "Jun Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "82a9b8984e26fdf234431459bdb445fbcfc3cb76",
+      "title": "Visual Instruction Tuning with Polite Flamingo",
+      "year": 2023,
+      "venue": "AAAI Conference on Artificial Intelligence",
+      "url": "https://doi.org/10.48550/arXiv.2307.01003",
+      "citationCount": 56,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jianfeng Liu"
+        },
+        {
+          "slug": null,
+          "name": "Wenliang Dai"
+        },
+        {
+          "slug": null,
+          "name": "Baoyuan Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "d92c797f587ce7f1b001920ab9e6b7d31960bd77",
+      "title": "RemoteCLIP: A Vision Language Foundation Model for Remote Sensing",
+      "year": 2023,
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "url": "https://doi.org/10.1109/TGRS.2024.3390838",
+      "citationCount": 739,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "F. Liu"
+        },
+        {
+          "slug": null,
+          "name": "Zhan-Rong Guan"
+        },
+        {
+          "slug": null,
+          "name": "Xiaocong Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Jiale Zhu"
+        },
+        {
+          "slug": null,
+          "name": "Jun Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "8e46321b0b717bb595a8ff23f7464fab5c313919",
+      "title": "Taming Diffusion Models for Music-driven Conducting Motion Generation",
+      "year": 2023,
+      "venue": "Proceedings of the AAAI Symposium Series",
+      "url": "https://doi.org/10.48550/arXiv.2306.10065",
+      "citationCount": 15,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Zhuoran Zhao"
+        },
+        {
+          "slug": null,
+          "name": "Jinbin Bai"
+        },
+        {
+          "slug": null,
+          "name": "Debang Wang"
+        },
+        {
+          "slug": null,
+          "name": "Yubo Pan"
+        }
+      ]
+    },
+    {
+      "paperId": "17d4bb06841e7e54cec3a43dc0ca5be39d21ae4d",
+      "title": "Few-shot Classification via Ensemble Learning with Multi-Order Statistics",
+      "year": 2023,
+      "venue": "International Joint Conference on Artificial Intelligence",
+      "url": "https://doi.org/10.48550/arXiv.2305.00454",
+      "citationCount": 11,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Sai Yang"
+        },
+        {
+          "slug": null,
+          "name": "Fan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Jun Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "c982c4e0b3c91c59f1ced11f984ac20dc12b3426",
+      "title": "MEP-3M: A large-scale multi-modal E-commerce product dataset",
+      "year": 2023,
+      "venue": "Pattern Recognition",
+      "url": "https://doi.org/10.1016/j.patcog.2023.109519",
+      "citationCount": 32,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Fan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Xiaoyu Du"
+        },
+        {
+          "slug": null,
+          "name": "Ruizhuo Gao"
+        },
+        {
+          "slug": null,
+          "name": "Feng Xu"
+        }
+      ]
+    },
+    {
+      "paperId": "b616f427c041a2fc9da8e68b463df596ab1f547c",
+      "title": "Prototypical Contrastive Language Image Pretraining",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2206.10996",
+      "citationCount": 12,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Zhao Wu"
+        },
+        {
+          "slug": null,
+          "name": "Fan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Zaiquan Yang"
+        },
+        {
+          "slug": null,
+          "name": "Yixiang Huang"
+        },
+        {
+          "slug": null,
+          "name": "Yiping Bao"
+        },
+        {
+          "slug": null,
+          "name": "Erjin Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "d2b8e0e5964ed1da234c58fbf987f729f2be03cb",
+      "title": "ProtoCLIP: Prototypical Contrastive Language Image Pretraining",
+      "year": 2022,
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+      "url": "https://doi.org/10.1109/TNNLS.2023.3335859",
+      "citationCount": 30,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Zhao Wu"
+        },
+        {
+          "slug": null,
+          "name": "Fan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Zaiquan Yang"
+        },
+        {
+          "slug": null,
+          "name": "Huaxi Huang"
+        },
+        {
+          "slug": null,
+          "name": "Ying Tan"
+        },
+        {
+          "slug": null,
+          "name": "Erjin Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "6a726594b4c52b60dfa13b759347d703ada04f47",
+      "title": "Self-Supervised Music Motion Synchronization Learning for Music-Driven Conducting Motion Generation",
+      "year": 2022,
+      "venue": "Journal of Computational Science and Technology",
+      "url": "https://doi.org/10.1007/s11390-022-2030-z",
+      "citationCount": 18,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Fan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Rui-Zhi Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Sai Yang"
+        },
+        {
+          "slug": null,
+          "name": "Feng Xu"
+        }
+      ]
+    },
+    {
+      "paperId": "3def68bd0f856886d34272840a7f81588f2bc082",
+      "title": "Survey of Hallucination in Natural Language Generation",
+      "year": 2022,
+      "venue": "ACM Computing Surveys",
+      "url": "https://doi.org/10.1145/3571730",
+      "citationCount": 5342,
+      "coAuthors": [
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        },
+        {
+          "slug": null,
+          "name": "Ziwei Ji"
+        },
+        {
+          "slug": null,
+          "name": "Nayeon Lee"
+        },
+        {
+          "slug": null,
+          "name": "Rita Frieske"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        },
+        {
+          "slug": null,
+          "name": "D. Su"
+        },
+        {
+          "slug": null,
+          "name": "Yan Xu"
+        },
+        {
+          "slug": null,
+          "name": "Etsuko Ishii"
+        },
+        {
+          "slug": null,
+          "name": "Yejin Bang"
+        },
+        {
+          "slug": null,
+          "name": "Wenliang Dai"
+        },
+        {
+          "slug": null,
+          "name": "Andrea Madotto"
+        }
+      ]
+    },
+    {
+      "paperId": "4ea9b807600537af27fbb8409f5e541714030dfa",
+      "title": "VirtualConductor: Music-driven Conducting Video Generation System",
+      "year": 2021,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/4ea9b807600537af27fbb8409f5e541714030dfa",
+      "citationCount": 3,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Fan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Zewen Li"
+        },
+        {
+          "slug": null,
+          "name": "Feng Xu"
+        }
+      ]
+    },
+    {
+      "paperId": "f488bd9e631caf8c5803a5bc52ab3a36dd8e803c",
+      "title": "Paper Title (use style: paper title)",
+      "year": 2020,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/f488bd9e631caf8c5803a5bc52ab3a36dd8e803c",
+      "citationCount": 38,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Fan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Fei Wang"
+        },
+        {
+          "slug": null,
+          "name": "Zewen Li"
+        },
+        {
+          "slug": null,
+          "name": "Feng Xu"
+        }
+      ]
+    },
+    {
+      "paperId": "f7b9d5e3b398eb46088d5b49462f4d1b85c75c00",
+      "title": "Engineering Applications of Artificial Intelligence",
+      "year": null,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/f7b9d5e3b398eb46088d5b49462f4d1b85c75c00",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Fan Liu"
+        },
+        {
+          "slug": null,
+          "name": "Jun Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Feng Xu"
+        }
+      ]
     }
   ],
   "topPublications": [
     {
       "title": "Measuring Political Bias in Large Language Models: What Is Said and How It Is Said",
       "year": 2024,
-      "citationCount": 133,
+      "citationCount": 134,
       "venue": "Annual Meeting of the Association for Computational Linguistics",
       "url": "https://doi.org/10.48550/arXiv.2403.18932"
     },
@@ -633,7 +1031,7 @@
     {
       "title": "RemoteSAM: Towards Segment Anything for Earth Observation",
       "year": 2025,
-      "citationCount": 59,
+      "citationCount": 60,
       "venue": "ACM Multimedia",
       "url": "https://doi.org/10.1145/3746027.3754950"
     },
@@ -665,7 +1063,7 @@
       {
         "slug": "pascale-fung",
         "name": "Pascale Fung",
-        "sharedPapers": 9
+        "sharedPapers": 10
       },
       {
         "slug": "willy-chung",
@@ -678,13 +1076,13 @@
         "sharedPapers": 1
       },
       {
-        "slug": "amir-bar",
-        "name": "Amir Bar",
+        "slug": "john-nguyen",
+        "name": "John Nguyen",
         "sharedPapers": 1
       },
       {
-        "slug": "john-nguyen",
-        "name": "John Nguyen",
+        "slug": "amir-bar",
+        "name": "Amir Bar",
         "sharedPapers": 1
       },
       {
@@ -695,11 +1093,19 @@
     ],
     "externalCoAuthors": [
       {
-        "name": "Yejin Bang",
-        "papers": 6
+        "name": "Fan Liu",
+        "papers": 15
       },
       {
-        "name": "Fan Liu",
+        "name": "Yejin Bang",
+        "papers": 7
+      },
+      {
+        "name": "Jun Zhou",
+        "papers": 7
+      },
+      {
+        "name": "Feng Xu",
         "papers": 5
       },
       {
@@ -707,7 +1113,15 @@
         "papers": 4
       },
       {
+        "name": "Ziwei Ji",
+        "papers": 4
+      },
+      {
         "name": "Chuanyi Zhang",
+        "papers": 4
+      },
+      {
+        "name": "Sai Yang",
         "papers": 4
       },
       {
@@ -715,15 +1129,15 @@
         "papers": 3
       },
       {
-        "name": "Ziwei Ji",
-        "papers": 3
-      },
-      {
-        "name": "Jun Zhou",
+        "name": "Huaxi Huang",
         "papers": 3
       },
       {
         "name": "Samuel Cahyawijaya",
+        "papers": 3
+      },
+      {
+        "name": "Etsuko Ishii",
         "papers": 3
       },
       {
@@ -739,6 +1153,10 @@
         "papers": 2
       },
       {
+        "name": "Andrea Madotto",
+        "papers": 2
+      },
+      {
         "name": "Liang Yao",
         "papers": 2
       },
@@ -747,7 +1165,35 @@
         "papers": 2
       },
       {
-        "name": "Etsuko Ishii",
+        "name": "Nayeon Lee",
+        "papers": 2
+      },
+      {
+        "name": "Jianfeng Liu",
+        "papers": 2
+      },
+      {
+        "name": "Baoyuan Wang",
+        "papers": 2
+      },
+      {
+        "name": "Wenliang Dai",
+        "papers": 2
+      },
+      {
+        "name": "Zhao Wu",
+        "papers": 2
+      },
+      {
+        "name": "Zaiquan Yang",
+        "papers": 2
+      },
+      {
+        "name": "Erjin Zhou",
+        "papers": 2
+      },
+      {
+        "name": "Zewen Li",
         "papers": 2
       },
       {
@@ -839,10 +1285,6 @@
         "papers": 1
       },
       {
-        "name": "Andrea Madotto",
-        "papers": 1
-      },
-      {
         "name": "Franziska Meier",
         "papers": 1
       },
@@ -887,14 +1329,6 @@
         "papers": 1
       },
       {
-        "name": "Sai Yang",
-        "papers": 1
-      },
-      {
-        "name": "Huaxi Huang",
-        "papers": 1
-      },
-      {
         "name": "Shiyu Miao",
         "papers": 1
       },
@@ -927,15 +1361,91 @@
         "papers": 1
       },
       {
-        "name": "Nayeon Lee",
+        "name": "Tianshu Zhang",
         "papers": 1
       },
       {
-        "name": "Jianfeng Liu",
+        "name": "Wenwen Dai",
         "papers": 1
       },
       {
-        "name": "Baoyuan Wang",
+        "name": "Wenwen Zhou",
+        "papers": 1
+      },
+      {
+        "name": "F. Liu",
+        "papers": 1
+      },
+      {
+        "name": "Zhan-Rong Guan",
+        "papers": 1
+      },
+      {
+        "name": "Xiaocong Zhou",
+        "papers": 1
+      },
+      {
+        "name": "Jiale Zhu",
+        "papers": 1
+      },
+      {
+        "name": "Zhuoran Zhao",
+        "papers": 1
+      },
+      {
+        "name": "Jinbin Bai",
+        "papers": 1
+      },
+      {
+        "name": "Debang Wang",
+        "papers": 1
+      },
+      {
+        "name": "Yubo Pan",
+        "papers": 1
+      },
+      {
+        "name": "Xiaoyu Du",
+        "papers": 1
+      },
+      {
+        "name": "Ruizhuo Gao",
+        "papers": 1
+      },
+      {
+        "name": "Yixiang Huang",
+        "papers": 1
+      },
+      {
+        "name": "Yiping Bao",
+        "papers": 1
+      },
+      {
+        "name": "Ying Tan",
+        "papers": 1
+      },
+      {
+        "name": "Rui-Zhi Zhou",
+        "papers": 1
+      },
+      {
+        "name": "Rita Frieske",
+        "papers": 1
+      },
+      {
+        "name": "Tiezheng Yu",
+        "papers": 1
+      },
+      {
+        "name": "D. Su",
+        "papers": 1
+      },
+      {
+        "name": "Yan Xu",
+        "papers": 1
+      },
+      {
+        "name": "Fei Wang",
         "papers": 1
       }
     ],

@@ -14,7 +14,9 @@
     "twitter": "https://x.com/jihanyang13",
     "website": "https://jihanyang.com/"
   },
-  "semanticScholarId": "2362644269",
+  "semanticScholarId": [
+    "2362644269"
+  ],
   "careerHistory": [],
   "reportsTo": "saining-xie",
   "reports": [],
@@ -289,15 +291,15 @@
       "year": 2024,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2406.16860",
-      "citationCount": 913,
+      "citationCount": 917,
       "coAuthors": [
-        {
-          "slug": "adithya-iyer",
-          "name": "Adithya Iyer"
-        },
         {
           "slug": "sanghyun-woo",
           "name": "Sanghyun Woo"
+        },
+        {
+          "slug": "adithya-iyer",
+          "name": "Adithya Iyer"
         },
         {
           "slug": "yann-lecun",
@@ -411,13 +413,13 @@
         "sharedPapers": 3
       },
       {
-        "slug": "adithya-iyer",
-        "name": "Adithya Iyer",
+        "slug": "sanghyun-woo",
+        "name": "Sanghyun Woo",
         "sharedPapers": 1
       },
       {
-        "slug": "sanghyun-woo",
-        "name": "Sanghyun Woo",
+        "slug": "adithya-iyer",
+        "name": "Adithya Iyer",
         "sharedPapers": 1
       }
     ],

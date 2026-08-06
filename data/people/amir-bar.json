@@ -14,7 +14,9 @@
     "twitter": "https://x.com/_amirbar",
     "website": "https://www.amirbar.net/"
   },
-  "semanticScholarId": "2346979635",
+  "semanticScholarId": [
+    "2346979635"
+  ],
   "careerHistory": [
     {
       "org": "Imperial College London",
@@ -155,7 +157,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276",
-      "citationCount": 20,
+      "citationCount": 21,
       "coAuthors": [
         {
           "slug": "david-fan",
@@ -245,19 +247,19 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.03604",
-      "citationCount": 8,
+      "citationCount": 9,
       "coAuthors": [
         {
           "slug": "basile-terver",
           "name": "Basile Terver"
         },
         {
-          "slug": "david-fan",
-          "name": "David Fan"
-        },
-        {
           "slug": "megi-dervishi",
           "name": "Megi Dervishi"
+        },
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
         },
         {
           "slug": "quentin-garrido",
@@ -492,6 +494,36 @@
       ]
     },
     {
+      "paperId": "9568effdf3cf8b6076ca3c810d2cbc6f9b19bd51",
+      "title": "Pixels Versus Priors: Controlling Knowledge Priors in Vision-Language Models through Visual Counterfacts",
+      "year": 2025,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.48550/arXiv.2505.17127",
+      "citationCount": 23,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Michal Golovanevsky"
+        },
+        {
+          "slug": null,
+          "name": "William Rudman"
+        },
+        {
+          "slug": null,
+          "name": "Michael A. Lepori"
+        },
+        {
+          "slug": null,
+          "name": "Ritambhara Singh"
+        },
+        {
+          "slug": null,
+          "name": "Carsten Eickhoff"
+        }
+      ]
+    },
+    {
       "paperId": "aa5d0f6a14a9da689de842f6af61021e6d91aadf",
       "title": "Scaling Language-Free Visual Representation Learning",
       "year": 2025,
@@ -542,12 +574,12 @@
       ]
     },
     {
-      "paperId": "da136b4651e035c2bafd0bfd34433faf7af2619e",
-      "title": "Stochastic positional embeddings improve masked image modeling",
-      "year": 2023,
-      "venue": "International Conference on Machine Learning",
-      "url": "https://www.semanticscholar.org/paper/da136b4651e035c2bafd0bfd34433faf7af2619e",
-      "citationCount": 10,
+      "paperId": "d3e5d695737dd59d409f2e24aa96d6410734471f",
+      "title": "Forgotten Polygons: Multimodal Large Language Models are Shape-Blind",
+      "year": 2025,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.48550/arXiv.2502.15969",
+      "citationCount": 25,
       "coAuthors": [
         {
           "slug": "yann-lecun",
@@ -555,31 +587,105 @@
         },
         {
           "slug": null,
+          "name": "William Rudman"
+        },
+        {
+          "slug": null,
+          "name": "Michal Golovanesky"
+        },
+        {
+          "slug": null,
+          "name": "V. Palit"
+        },
+        {
+          "slug": null,
+          "name": "Carsten Eickhoff"
+        },
+        {
+          "slug": null,
+          "name": "Ritambhara Singh"
+        }
+      ]
+    },
+    {
+      "paperId": "6bfafb32b423c3f0456a10984814f89046def489",
+      "title": "A Cookbook of Self-Supervised Learning",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2304.12210",
+      "citationCount": 400,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": "quentin-garrido",
+          "name": "Quentin Garrido"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Mark Ibrahim"
+        },
+        {
+          "slug": null,
+          "name": "Vlad Sobal"
+        },
+        {
+          "slug": null,
+          "name": "Ari S. Morcos"
+        },
+        {
+          "slug": null,
+          "name": "Shashank Shekhar"
+        },
+        {
+          "slug": null,
+          "name": "T. Goldstein"
+        },
+        {
+          "slug": null,
           "name": "Florian Bordes"
         },
         {
           "slug": null,
-          "name": "Assaf Shocher"
+          "name": "G. Mialon"
         },
         {
           "slug": null,
-          "name": "Mahmoud Assran"
+          "name": "Yuandong Tian"
         },
         {
           "slug": null,
-          "name": "Pascal Vincent"
+          "name": "Avi Schwarzschild"
         },
         {
           "slug": null,
-          "name": "Nicolas Ballas"
+          "name": "A. Wilson"
         },
         {
           "slug": null,
-          "name": "Trevor Darrell"
+          "name": "Jonas Geiping"
         },
         {
           "slug": null,
-          "name": "A. Globerson"
+          "name": "Pierre Fernandez"
+        },
+        {
+          "slug": null,
+          "name": "H. Pirsiavash"
+        },
+        {
+          "slug": null,
+          "name": "Micah Goldblum"
         }
       ]
     }
@@ -625,7 +731,7 @@
   "githubActivity": {
     "username": "amirbar",
     "githubUrl": "https://github.com/amirbar",
-    "recentEventCount": 5
+    "recentEventCount": 1
   },
   "news": [
     {
@@ -641,7 +747,7 @@
       {
         "slug": "yann-lecun",
         "name": "Yann LeCun",
-        "sharedPapers": 8
+        "sharedPapers": 9
       },
       {
         "slug": "michael-rabbat",
@@ -654,13 +760,13 @@
         "sharedPapers": 4
       },
       {
-        "slug": "basile-terver",
-        "name": "Basile Terver",
-        "sharedPapers": 2
-      },
-      {
         "slug": "adrien-bardes",
         "name": "Adrien Bardes",
+        "sharedPapers": 3
+      },
+      {
+        "slug": "basile-terver",
+        "name": "Basile Terver",
         "sharedPapers": 2
       },
       {
@@ -674,6 +780,11 @@
         "sharedPapers": 2
       },
       {
+        "slug": "quentin-garrido",
+        "name": "Quentin Garrido",
+        "sharedPapers": 2
+      },
+      {
         "slug": "matthew-muckley",
         "name": "Matthew Muckley",
         "sharedPapers": 1
@@ -681,11 +792,6 @@
       {
         "slug": "megi-dervishi",
         "name": "Megi Dervishi",
-        "sharedPapers": 1
-      },
-      {
-        "slug": "quentin-garrido",
-        "name": "Quentin Garrido",
         "sharedPapers": 1
       },
       {
@@ -697,11 +803,15 @@
     "externalCoAuthors": [
       {
         "name": "Nicolas Ballas",
-        "papers": 5
+        "papers": 4
       },
       {
         "name": "Koustuv Sinha",
         "papers": 4
+      },
+      {
+        "name": "Randall Balestriero",
+        "papers": 3
       },
       {
         "name": "Wancong Zhang",
@@ -709,10 +819,6 @@
       },
       {
         "name": "Mido Assran",
-        "papers": 2
-      },
-      {
-        "name": "Randall Balestriero",
         "papers": 2
       },
       {
@@ -733,6 +839,18 @@
       },
       {
         "name": "Luke S. Zettlemoyer",
+        "papers": 2
+      },
+      {
+        "name": "William Rudman",
+        "papers": 2
+      },
+      {
+        "name": "Ritambhara Singh",
+        "papers": 2
+      },
+      {
+        "name": "Carsten Eickhoff",
         "papers": 2
       },
       {
@@ -908,6 +1026,14 @@
         "papers": 1
       },
       {
+        "name": "Michal Golovanevsky",
+        "papers": 1
+      },
+      {
+        "name": "Michael A. Lepori",
+        "papers": 1
+      },
+      {
         "name": "Jiacheng Zhu",
         "papers": 1
       },
@@ -920,27 +1046,67 @@
         "papers": 1
       },
       {
+        "name": "Michal Golovanesky",
+        "papers": 1
+      },
+      {
+        "name": "V. Palit",
+        "papers": 1
+      },
+      {
+        "name": "Mark Ibrahim",
+        "papers": 1
+      },
+      {
+        "name": "Vlad Sobal",
+        "papers": 1
+      },
+      {
+        "name": "Ari S. Morcos",
+        "papers": 1
+      },
+      {
+        "name": "Shashank Shekhar",
+        "papers": 1
+      },
+      {
+        "name": "T. Goldstein",
+        "papers": 1
+      },
+      {
         "name": "Florian Bordes",
         "papers": 1
       },
       {
-        "name": "Assaf Shocher",
+        "name": "G. Mialon",
         "papers": 1
       },
       {
-        "name": "Mahmoud Assran",
+        "name": "Yuandong Tian",
         "papers": 1
       },
       {
-        "name": "Pascal Vincent",
+        "name": "Avi Schwarzschild",
         "papers": 1
       },
       {
-        "name": "Trevor Darrell",
+        "name": "A. Wilson",
         "papers": 1
       },
       {
-        "name": "A. Globerson",
+        "name": "Jonas Geiping",
+        "papers": 1
+      },
+      {
+        "name": "Pierre Fernandez",
+        "papers": 1
+      },
+      {
+        "name": "H. Pirsiavash",
+        "papers": 1
+      },
+      {
+        "name": "Micah Goldblum",
         "papers": 1
       }
     ],

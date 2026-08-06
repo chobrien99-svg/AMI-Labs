@@ -14,7 +14,9 @@
     "twitter": "https://twitter.com/garridoq_",
     "website": "https://garridoq.com/"
   },
-  "semanticScholarId": "2048163343",
+  "semanticScholarId": [
+    "2048163343"
+  ],
   "careerHistory": [
     {
       "org": "Meta",
@@ -69,19 +71,19 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.03604",
-      "citationCount": 8,
+      "citationCount": 9,
       "coAuthors": [
         {
           "slug": "basile-terver",
           "name": "Basile Terver"
         },
         {
-          "slug": "david-fan",
-          "name": "David Fan"
-        },
-        {
           "slug": "megi-dervishi",
           "name": "Megi Dervishi"
+        },
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
         },
         {
           "slug": "michael-rabbat",
@@ -158,7 +160,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 572,
+      "citationCount": 573,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -296,7 +298,7 @@
       "year": 2025,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2506.09987",
-      "citationCount": 18,
+      "citationCount": 19,
       "coAuthors": [
         {
           "slug": null,
@@ -393,6 +395,206 @@
       ]
     },
     {
+      "paperId": "289c48bba6b7323e713283ee68474d43c3450166",
+      "title": "UniBench: Visual Reasoning Requires Rethinking Vision-Language Beyond Scaling",
+      "year": 2024,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2408.04810",
+      "citationCount": 33,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Haider Al-Tahan"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Diane Bouchacourt"
+        },
+        {
+          "slug": null,
+          "name": "C. Hazirbas"
+        },
+        {
+          "slug": null,
+          "name": "Mark Ibrahim"
+        }
+      ]
+    },
+    {
+      "paperId": "727262167f8fc61cce09f3a3ec602b0426e7db4d",
+      "title": "An Introduction to Vision-Language Modeling",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2405.17247",
+      "citationCount": 239,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": null,
+          "name": "Florian Bordes"
+        },
+        {
+          "slug": null,
+          "name": "Richard Yuanzhe Pang"
+        },
+        {
+          "slug": null,
+          "name": "A. Ajay"
+        },
+        {
+          "slug": null,
+          "name": "Alexander C. Li"
+        },
+        {
+          "slug": null,
+          "name": "S. Petryk"
+        },
+        {
+          "slug": null,
+          "name": "Oscar Mañas"
+        },
+        {
+          "slug": null,
+          "name": "Zhiqiu Lin"
+        },
+        {
+          "slug": null,
+          "name": "Anas Mahmoud"
+        },
+        {
+          "slug": null,
+          "name": "Bargav Jayaraman"
+        },
+        {
+          "slug": null,
+          "name": "Mark Ibrahim"
+        },
+        {
+          "slug": null,
+          "name": "Melissa Hall"
+        },
+        {
+          "slug": null,
+          "name": "Yunyang Xiong"
+        },
+        {
+          "slug": null,
+          "name": "Jonathan Lebensold"
+        },
+        {
+          "slug": null,
+          "name": "Candace Ross"
+        },
+        {
+          "slug": null,
+          "name": "Srihari Jayakumar"
+        },
+        {
+          "slug": null,
+          "name": "Chuan Guo"
+        },
+        {
+          "slug": null,
+          "name": "Diane Bouchacourt"
+        },
+        {
+          "slug": null,
+          "name": "Haider Al-Tahan"
+        },
+        {
+          "slug": null,
+          "name": "Karthik Padthe"
+        },
+        {
+          "slug": null,
+          "name": "Vasu Sharma"
+        },
+        {
+          "slug": null,
+          "name": "Hu Xu"
+        },
+        {
+          "slug": null,
+          "name": "X. Tan"
+        },
+        {
+          "slug": null,
+          "name": "Megan Richards"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Lavoie"
+        },
+        {
+          "slug": null,
+          "name": "Pietro Astolfi"
+        },
+        {
+          "slug": null,
+          "name": "Reyhane Askari Hemmat"
+        },
+        {
+          "slug": null,
+          "name": "Jun Chen"
+        },
+        {
+          "slug": null,
+          "name": "Kushal Tirumala"
+        },
+        {
+          "slug": null,
+          "name": "Rim Assouel"
+        },
+        {
+          "slug": null,
+          "name": "Mazda Moayeri"
+        },
+        {
+          "slug": null,
+          "name": "Arjang Talattof"
+        },
+        {
+          "slug": null,
+          "name": "Kamalika Chaudhuri"
+        },
+        {
+          "slug": null,
+          "name": "Zechun Liu"
+        },
+        {
+          "slug": null,
+          "name": "Xilun Chen"
+        },
+        {
+          "slug": null,
+          "name": "Karen Ullrich"
+        },
+        {
+          "slug": null,
+          "name": "Aishwarya Agrawal"
+        },
+        {
+          "slug": null,
+          "name": "Kate Saenko"
+        },
+        {
+          "slug": null,
+          "name": "Asli Celikyilmaz"
+        },
+        {
+          "slug": null,
+          "name": "Vikas Chandra"
+        }
+      ]
+    },
+    {
       "paperId": "4d1eadaa9a04e86aef2278ae13eb9fce644c9fc5",
       "title": "Learning and Leveraging World Models in Visual Representation Learning",
       "year": 2024,
@@ -401,12 +603,12 @@
       "citationCount": 70,
       "coAuthors": [
         {
-          "slug": "yann-lecun",
-          "name": "Yann LeCun"
-        },
-        {
           "slug": "adrien-bardes",
           "name": "Adrien Bardes"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
         },
         {
           "slug": null,
@@ -489,13 +691,2031 @@
           "name": "B. Kiani"
         }
       ]
+    },
+    {
+      "paperId": "6bfafb32b423c3f0456a10984814f89046def489",
+      "title": "A Cookbook of Self-Supervised Learning",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2304.12210",
+      "citationCount": 400,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Mark Ibrahim"
+        },
+        {
+          "slug": null,
+          "name": "Vlad Sobal"
+        },
+        {
+          "slug": null,
+          "name": "Ari S. Morcos"
+        },
+        {
+          "slug": null,
+          "name": "Shashank Shekhar"
+        },
+        {
+          "slug": null,
+          "name": "T. Goldstein"
+        },
+        {
+          "slug": null,
+          "name": "Florian Bordes"
+        },
+        {
+          "slug": null,
+          "name": "G. Mialon"
+        },
+        {
+          "slug": null,
+          "name": "Yuandong Tian"
+        },
+        {
+          "slug": null,
+          "name": "Avi Schwarzschild"
+        },
+        {
+          "slug": null,
+          "name": "A. Wilson"
+        },
+        {
+          "slug": null,
+          "name": "Jonas Geiping"
+        },
+        {
+          "slug": null,
+          "name": "Pierre Fernandez"
+        },
+        {
+          "slug": null,
+          "name": "H. Pirsiavash"
+        },
+        {
+          "slug": null,
+          "name": "Micah Goldblum"
+        }
+      ]
+    },
+    {
+      "paperId": "10923e416d15ab36161f4ab9ad40aa15bb91f541",
+      "title": "Self-supervised learning of Split Invariant Equivariant representations",
+      "year": 2023,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2302.10283",
+      "citationCount": 46,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Laurent Najman"
+        }
+      ]
+    },
+    {
+      "paperId": "8b1aa3a20638363be3a6d941e907df704c738dfc",
+      "title": "The Robustness Limits of SoTA Vision Models to Natural Variation",
+      "year": 2022,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2210.13604",
+      "citationCount": 20,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Mark Ibrahim"
+        },
+        {
+          "slug": null,
+          "name": "Ari S. Morcos"
+        },
+        {
+          "slug": null,
+          "name": "Diane Bouchacourt"
+        }
+      ]
+    },
+    {
+      "paperId": "127ebdb7b87fe5c8c8ff1bb9173584b75eec8f47",
+      "title": "RankMe: Assessing the downstream performance of pretrained self-supervised representations by their rank",
+      "year": 2022,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2210.02885",
+      "citationCount": 160,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Laurent Najman"
+        }
+      ]
+    },
+    {
+      "paperId": "b65daf36711e458696e91613fd65ea35d09c85c8",
+      "title": "Guillotine Regularization: Improving Deep Networks Generalization by Removing their Head",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2206.13378",
+      "citationCount": 23,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": null,
+          "name": "Florian Bordes"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "P. Vincent"
+        }
+      ]
+    },
+    {
+      "paperId": "3f60e8735f735cc84febde2340cb735e33fa1a76",
+      "title": "Guillotine Regularization: Why removing layers is needed to improve generalization in Self-Supervised Learning",
+      "year": 2022,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://www.semanticscholar.org/paper/3f60e8735f735cc84febde2340cb735e33fa1a76",
+      "citationCount": 34,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": null,
+          "name": "Florian Bordes"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "P. Vincent"
+        }
+      ]
+    },
+    {
+      "paperId": "11c16254f7b61687b5d9b7637de032461a6ebb5f",
+      "title": "On the duality between contrastive and non-contrastive self-supervised learning",
+      "year": 2022,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2206.02574",
+      "citationCount": 132,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Yubei Chen"
+        },
+        {
+          "slug": null,
+          "name": "Laurent Najman"
+        }
+      ]
+    },
+    {
+      "paperId": "8424db67dc7fc95ffbf3f04d1bfac4c9ed09caed",
+      "title": "Visualizing hierarchies in scRNA-seq data using a density tree-biased autoencoder",
+      "year": 2021,
+      "venue": "Bioinform.",
+      "url": "https://doi.org/10.1093/bioinformatics/btac249",
+      "citationCount": 6,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Sebastian Damrich"
+        },
+        {
+          "slug": null,
+          "name": "Alexander Jäger"
+        },
+        {
+          "slug": null,
+          "name": "Dario Cerletti"
+        },
+        {
+          "slug": null,
+          "name": "M. Claassen"
+        },
+        {
+          "slug": null,
+          "name": "Laurent Najman"
+        },
+        {
+          "slug": null,
+          "name": "F. Hamprecht"
+        }
+      ]
+    },
+    {
+      "paperId": "8475b1f933146a79e761bacde67418a9107d88ba",
+      "title": "Combined performance studies for electrons at the",
+      "year": 2015,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/8475b1f933146a79e761bacde67418a9107d88ba",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "L. Kudin"
+        },
+        {
+          "slug": null,
+          "name": "E. Abat"
+        },
+        {
+          "slug": null,
+          "name": "A. Abdesselam"
+        },
+        {
+          "slug": null,
+          "name": "Amanda Addy"
+        },
+        {
+          "slug": null,
+          "name": "S. Åkesson"
+        },
+        {
+          "slug": null,
+          "name": "ab P. P. Allport"
+        },
+        {
+          "slug": null,
+          "name": "Y. L. Andricek"
+        },
+        {
+          "slug": null,
+          "name": "ah F. Anghinolfi"
+        },
+        {
+          "slug": null,
+          "name": "I. R. Apsimon"
+        },
+        {
+          "slug": null,
+          "name": "A. Arık"
+        },
+        {
+          "slug": null,
+          "name": "M. Arik"
+        },
+        {
+          "slug": null,
+          "name": "E. Austin"
+        },
+        {
+          "slug": null,
+          "name": "Y. K. Baker"
+        },
+        {
+          "slug": null,
+          "name": "B. Banas"
+        },
+        {
+          "slug": null,
+          "name": "L. Bangert"
+        },
+        {
+          "slug": null,
+          "name": "A. Barbier"
+        },
+        {
+          "slug": null,
+          "name": "O. Baron"
+        },
+        {
+          "slug": null,
+          "name": "I. Barr"
+        },
+        {
+          "slug": null,
+          "name": "am S. Basiladze"
+        },
+        {
+          "slug": null,
+          "name": "Ag L E Batchelor"
+        },
+        {
+          "slug": null,
+          "name": "A. Bates"
+        },
+        {
+          "slug": null,
+          "name": "Q. J. R. Batley"
+        },
+        {
+          "slug": null,
+          "name": "H. M. Battistin"
+        },
+        {
+          "slug": null,
+          "name": "I. Beck"
+        },
+        {
+          "slug": null,
+          "name": "A. Beddall"
+        },
+        {
+          "slug": null,
+          "name": "A. Beddall"
+        },
+        {
+          "slug": null,
+          "name": "P. Bell"
+        },
+        {
+          "slug": null,
+          "name": "A. Bell"
+        },
+        {
+          "slug": null,
+          "name": "Q. A. Belymam"
+        },
+        {
+          "slug": null,
+          "name": "A. D. Benjamin"
+        },
+        {
+          "slug": null,
+          "name": "M. Bernabeu"
+        },
+        {
+          "slug": null,
+          "name": "A. Bertelsen"
+        },
+        {
+          "slug": null,
+          "name": "J. Bethke"
+        },
+        {
+          "slug": null,
+          "name": "A. Bingul"
+        },
+        {
+          "slug": null,
+          "name": "A. Bitadze"
+        },
+        {
+          "slug": null,
+          "name": "I. J. P. Bizzell"
+        },
+        {
+          "slug": null,
+          "name": "as J. Blocki"
+        },
+        {
+          "slug": null,
+          "name": "L. Bocci"
+        },
+        {
+          "slug": null,
+          "name": "M. Bochenek"
+        },
+        {
+          "slug": null,
+          "name": "K. Bohm"
+        },
+        {
+          "slug": null,
+          "name": "A. V. Bondarenko"
+        },
+        {
+          "slug": null,
+          "name": "A. Bonneau"
+        },
+        {
+          "slug": null,
+          "name": "I. Booth"
+        },
+        {
+          "slug": null,
+          "name": "A. Brandt"
+        },
+        {
+          "slug": null,
+          "name": "A. Brochu"
+        },
+        {
+          "slug": null,
+          "name": "H. Z. Broklova"
+        },
+        {
+          "slug": null,
+          "name": "A. Broz"
+        },
+        {
+          "slug": null,
+          "name": "A. Renstrom"
+        },
+        {
+          "slug": null,
+          "name": "S. Burdin"
+        },
+        {
+          "slug": null,
+          "name": "Y. C. M. Buttar"
+        },
+        {
+          "slug": null,
+          "name": "I. Sas"
+        },
+        {
+          "slug": null,
+          "name": "I. Carpentieri"
+        },
+        {
+          "slug": null,
+          "name": "N. A. Carter"
+        },
+        {
+          "slug": null,
+          "name": "A. J. Carter"
+        },
+        {
+          "slug": null,
+          "name": "H. A. Catinaccio"
+        },
+        {
+          "slug": null,
+          "name": "I. Cetin"
+        },
+        {
+          "slug": null,
+          "name": "M. Llatas"
+        },
+        {
+          "slug": null,
+          "name": "O. Charlton"
+        },
+        {
+          "slug": null,
+          "name": "D. A. Cheplakov"
+        },
+        {
+          "slug": null,
+          "name": "Q. S. Chouridou"
+        },
+        {
+          "slug": null,
+          "name": "A. Chu"
+        },
+        {
+          "slug": null,
+          "name": "A. V. Cindro"
+        },
+        {
+          "slug": null,
+          "name": "Z. A. Ciocio"
+        },
+        {
+          "slug": null,
+          "name": "C. Civera"
+        },
+        {
+          "slug": null,
+          "name": "A. Clark"
+        },
+        {
+          "slug": null,
+          "name": "O. A. P. Colijn"
+        },
+        {
+          "slug": null,
+          "name": "Ai T Cornelissen"
+        },
+        {
+          "slug": null,
+          "name": "I. M. Costa"
+        },
+        {
+          "slug": null,
+          "name": "A. D. Costanzo"
+        },
+        {
+          "slug": null,
+          "name": "A. J. Cox"
+        },
+        {
+          "slug": null,
+          "name": "am P. Cwetanski"
+        },
+        {
+          "slug": null,
+          "name": "T. Dabrowski"
+        },
+        {
+          "slug": null,
+          "name": "K. J. Dalmau"
+        },
+        {
+          "slug": null,
+          "name": "A. M. Dam"
+        },
+        {
+          "slug": null,
+          "name": "J. Danielsen"
+        },
+        {
+          "slug": null,
+          "name": "A. Danielsson"
+        },
+        {
+          "slug": null,
+          "name": "I. D’Auria"
+        },
+        {
+          "slug": null,
+          "name": "Q. I. Dawson"
+        },
+        {
+          "slug": null,
+          "name": "A. D. Jong"
+        },
+        {
+          "slug": null,
+          "name": "ai M. D. Dehchar"
+        },
+        {
+          "slug": null,
+          "name": "am B. Demirkoz"
+        },
+        {
+          "slug": null,
+          "name": "I. P. Dervan"
+        },
+        {
+          "slug": null,
+          "name": "Y. B. D. Girolamo"
+        },
+        {
+          "slug": null,
+          "name": "I. S. Cornell"
+        },
+        {
+          "slug": null,
+          "name": "ay F. Dittus"
+        },
+        {
+          "slug": null,
+          "name": "I. S. Dixon"
+        },
+        {
+          "slug": null,
+          "name": "A. Dobson"
+        },
+        {
+          "slug": null,
+          "name": "Am Dogan"
+        },
+        {
+          "slug": null,
+          "name": "Z. Doležal"
+        },
+        {
+          "slug": null,
+          "name": "aq B. A. Dolgoshein"
+        },
+        {
+          "slug": null,
+          "name": "A. Donegá"
+        },
+        {
+          "slug": null,
+          "name": "I. D'Onofrio"
+        },
+        {
+          "slug": null,
+          "name": "O. T. Donszelmann"
+        },
+        {
+          "slug": null,
+          "name": "au O. Dorholt"
+        },
+        {
+          "slug": null,
+          "name": "A. Dowell"
+        },
+        {
+          "slug": null,
+          "name": "D. Z. Drasal"
+        },
+        {
+          "slug": null,
+          "name": "aq N. Dressnandt"
+        },
+        {
+          "slug": null,
+          "name": "An C Driouchi"
+        },
+        {
+          "slug": null,
+          "name": "J. Duxfield"
+        },
+        {
+          "slug": null,
+          "name": "Au M Dwuznik"
+        },
+        {
+          "slug": null,
+          "name": "K. W. L. Ebenstein"
+        },
+        {
+          "slug": null,
+          "name": "M. Eckert"
+        },
+        {
+          "slug": null,
+          "name": "N. P. Eerola"
+        },
+        {
+          "slug": null,
+          "name": "A. Egede"
+        },
+        {
+          "slug": null,
+          "name": "A. K. Egorov"
+        },
+        {
+          "slug": null,
+          "name": "T. Eklund"
+        },
+        {
+          "slug": null,
+          "name": "I. M. Elsing"
+        },
+        {
+          "slug": null,
+          "name": "I. Ely"
+        },
+        {
+          "slug": null,
+          "name": "C. V. Eremin"
+        },
+        {
+          "slug": null,
+          "name": "A. C. Escobar"
+        },
+        {
+          "slug": null,
+          "name": "A. Evans"
+        },
+        {
+          "slug": null,
+          "name": "T. P. Farthouat"
+        },
+        {
+          "slug": null,
+          "name": "I. Fasching"
+        },
+        {
+          "slug": null,
+          "name": "ba O. L. Fedin"
+        },
+        {
+          "slug": null,
+          "name": "Ao L Feld"
+        },
+        {
+          "slug": null,
+          "name": "N. D. Ferguson"
+        },
+        {
+          "slug": null,
+          "name": "Barbara Ferrari"
+        },
+        {
+          "slug": null,
+          "name": "I. D. Ferrere"
+        },
+        {
+          "slug": null,
+          "name": "O. Fiorini"
+        },
+        {
+          "slug": null,
+          "name": "H. J. Fopma"
+        },
+        {
+          "slug": null,
+          "name": "am A. J. Fowler"
+        },
+        {
+          "slug": null,
+          "name": "M. Fox"
+        },
+        {
+          "slug": null,
+          "name": "N. French"
+        },
+        {
+          "slug": null,
+          "name": "A. Froidevaux"
+        },
+        {
+          "slug": null,
+          "name": "I. Frost"
+        },
+        {
+          "slug": null,
+          "name": "H. Fuster"
+        },
+        {
+          "slug": null,
+          "name": "A. Gadomski"
+        },
+        {
+          "slug": null,
+          "name": "P. Gagnon"
+        },
+        {
+          "slug": null,
+          "name": "T. Gallop"
+        },
+        {
+          "slug": null,
+          "name": "as F. C. Gannaway"
+        },
+        {
+          "slug": null,
+          "name": "AA García"
+        },
+        {
+          "slug": null,
+          "name": "A. Navarro"
+        },
+        {
+          "slug": null,
+          "name": "A. I. Gavrilenko"
+        },
+        {
+          "slug": null,
+          "name": "A. Ghodbane"
+        },
+        {
+          "slug": null,
+          "name": "A. Gibson"
+        },
+        {
+          "slug": null,
+          "name": "As Gibson"
+        },
+        {
+          "slug": null,
+          "name": "am K. G. Gnanvo"
+        },
+        {
+          "slug": null,
+          "name": "A. Godlewski"
+        },
+        {
+          "slug": null,
+          "name": "I. T. Göttfert"
+        },
+        {
+          "slug": null,
+          "name": "Ahtziri González"
+        },
+        {
+          "slug": null,
+          "name": "Barbara Sevilla"
+        },
+        {
+          "slug": null,
+          "name": "A. Goodrick"
+        },
+        {
+          "slug": null,
+          "name": "H. A. Gorišek"
+        },
+        {
+          "slug": null,
+          "name": "Z. Górnicki"
+        },
+        {
+          "slug": null,
+          "name": "L. Goulette"
+        },
+        {
+          "slug": null,
+          "name": "I. Y. Grishkevich"
+        },
+        {
+          "slug": null,
+          "name": "Ag J Grognuz"
+        },
+        {
+          "slug": null,
+          "name": "I. J. G. Knetter"
+        },
+        {
+          "slug": null,
+          "name": "F. C. Haber"
+        },
+        {
+          "slug": null,
+          "name": "C. Härtel"
+        },
+        {
+          "slug": null,
+          "name": "A. Hajduk"
+        },
+        {
+          "slug": null,
+          "name": "L. Hance"
+        },
+        {
+          "slug": null,
+          "name": "an F. H. Hansen"
+        },
+        {
+          "slug": null,
+          "name": "J. Hansen"
+        },
+        {
+          "slug": null,
+          "name": "J. D. Hansen"
+        },
+        {
+          "slug": null,
+          "name": "J. P. Hansen"
+        },
+        {
+          "slug": null,
+          "name": "J. Hara"
+        },
+        {
+          "slug": null,
+          "name": "A. Harvey"
+        },
+        {
+          "slug": null,
+          "name": "M. Hauschild"
+        },
+        {
+          "slug": null,
+          "name": "I. C. Hauviller"
+        },
+        {
+          "slug": null,
+          "name": "I. Hawes"
+        },
+        {
+          "slug": null,
+          "name": "am R. J. Hawkings"
+        },
+        {
+          "slug": null,
+          "name": "I. Hayward"
+        },
+        {
+          "slug": null,
+          "name": "Y. S. J. Haywood"
+        },
+        {
+          "slug": null,
+          "name": "A. Heinemann"
+        },
+        {
+          "slug": null,
+          "name": "am N. P. Hessey"
+        },
+        {
+          "slug": null,
+          "name": "A. Hill"
+        },
+        {
+          "slug": null,
+          "name": "H. Hodgkinson"
+        },
+        {
+          "slug": null,
+          "name": "A. P. Hodgson"
+        },
+        {
+          "slug": null,
+          "name": "A. Hollins"
+        },
+        {
+          "slug": null,
+          "name": "D. Holmes"
+        },
+        {
+          "slug": null,
+          "name": "A. R. Holt"
+        },
+        {
+          "slug": null,
+          "name": "A. S. Hou"
+        },
+        {
+          "slug": null,
+          "name": "A. Howell"
+        },
+        {
+          "slug": null,
+          "name": "A. Hulsbergen"
+        },
+        {
+          "slug": null,
+          "name": "I. Huse"
+        },
+        {
+          "slug": null,
+          "name": "Al Y Ikegami"
+        },
+        {
+          "slug": null,
+          "name": "W. Y. Ilyushenka"
+        },
+        {
+          "slug": null,
+          "name": "V. C. Issever"
+        },
+        {
+          "slug": null,
+          "name": "A. Jackson"
+        },
+        {
+          "slug": null,
+          "name": "Y. Jain"
+        },
+        {
+          "slug": null,
+          "name": "T. Jakobs"
+        },
+        {
+          "slug": null,
+          "name": "N. Jared"
+        },
+        {
+          "slug": null,
+          "name": "ba G. Jarlskog"
+        },
+        {
+          "slug": null,
+          "name": "ab P. Jarron"
+        },
+        {
+          "slug": null,
+          "name": "I. L. Johansen"
+        },
+        {
+          "slug": null,
+          "name": "B. Johansson"
+        },
+        {
+          "slug": null,
+          "name": "Autumn M Jones"
+        },
+        {
+          "slug": null,
+          "name": "Am Jones"
+        },
+        {
+          "slug": null,
+          "name": "Y. Joos"
+        },
+        {
+          "slug": null,
+          "name": "N. Joseph"
+        },
+        {
+          "slug": null,
+          "name": "Barbara Jovanovic"
+        },
+        {
+          "slug": null,
+          "name": "D. V. A. Kantserov"
+        },
+        {
+          "slug": null,
+          "name": "A. Kaplon"
+        },
+        {
+          "slug": null,
+          "name": "I. M. K. Unel"
+        },
+        {
+          "slug": null,
+          "name": "A. Kayumov"
+        },
+        {
+          "slug": null,
+          "name": "ae P. T. Keener"
+        },
+        {
+          "slug": null,
+          "name": "an G. D. Kekelidze"
+        },
+        {
+          "slug": null,
+          "name": "V. N. Kerschen"
+        },
+        {
+          "slug": null,
+          "name": "A. Ketterer"
+        },
+        {
+          "slug": null,
+          "name": "N. S. Kim"
+        },
+        {
+          "slug": null,
+          "name": "aw D. Kisielewska"
+        },
+        {
+          "slug": null,
+          "name": "K. Kisielewski"
+        },
+        {
+          "slug": null,
+          "name": "L. Kittelmann"
+        },
+        {
+          "slug": null,
+          "name": "J. Klinkby"
+        },
+        {
+          "slug": null,
+          "name": "J. P. Kluit"
+        },
+        {
+          "slug": null,
+          "name": "Ai S Kluth"
+        },
+        {
+          "slug": null,
+          "name": "A. Ko"
+        },
+        {
+          "slug": null,
+          "name": "M. Kodyš"
+        },
+        {
+          "slug": null,
+          "name": "A. Koffas"
+        },
+        {
+          "slug": null,
+          "name": "I. E. Koffeman"
+        },
+        {
+          "slug": null,
+          "name": "Ai T Kohriki"
+        },
+        {
+          "slug": null,
+          "name": "W. Kondo"
+        },
+        {
+          "slug": null,
+          "name": "W. N. V. Kondratieva"
+        },
+        {
+          "slug": null,
+          "name": "A. S. Konovalov"
+        },
+        {
+          "slug": null,
+          "name": "ae S. Koperny"
+        },
+        {
+          "slug": null,
+          "name": "K. Korsmo"
+        },
+        {
+          "slug": null,
+          "name": "A. S. Kovalenko"
+        },
+        {
+          "slug": null,
+          "name": "A. Kowalski"
+        },
+        {
+          "slug": null,
+          "name": "K. Kruger"
+        },
+        {
+          "slug": null,
+          "name": "I. Kramarenko"
+        },
+        {
+          "slug": null,
+          "name": "Ag G Kramberger"
+        },
+        {
+          "slug": null,
+          "name": "Z. Kruse"
+        },
+        {
+          "slug": null,
+          "name": "M. Kubík"
+        },
+        {
+          "slug": null,
+          "name": "A. Kudin"
+        },
+        {
+          "slug": null,
+          "name": "A. Kundu"
+        },
+        {
+          "slug": null,
+          "name": "A. Lacasta"
+        },
+        {
+          "slug": null,
+          "name": "ay V. R. Lacuesta"
+        },
+        {
+          "slug": null,
+          "name": "A. W. Lau"
+        },
+        {
+          "slug": null,
+          "name": "A. Bihan"
+        },
+        {
+          "slug": null,
+          "name": "I. Lee"
+        },
+        {
+          "slug": null,
+          "name": "A. Lefevre"
+        },
+        {
+          "slug": null,
+          "name": "O. B. C. LeGeyt"
+        },
+        {
+          "slug": null,
+          "name": "Aneika C. Leney"
+        },
+        {
+          "slug": null,
+          "name": "Y. Lester"
+        },
+        {
+          "slug": null,
+          "name": "H. Liang"
+        },
+        {
+          "slug": null,
+          "name": "av P. Lichard"
+        },
+        {
+          "slug": null,
+          "name": "I. W. Liebig"
+        },
+        {
+          "slug": null,
+          "name": "Ai M Limper"
+        },
+        {
+          "slug": null,
+          "name": "A. Lindahl"
+        },
+        {
+          "slug": null,
+          "name": "J. Lindsay"
+        },
+        {
+          "slug": null,
+          "name": "Y. A. Lipniacka"
+        },
+        {
+          "slug": null,
+          "name": "B. Llácer"
+        },
+        {
+          "slug": null,
+          "name": "A. S. Lloyd"
+        },
+        {
+          "slug": null,
+          "name": "A. Loginov"
+        },
+        {
+          "slug": null,
+          "name": "B. C. W. Loh"
+        },
+        {
+          "slug": null,
+          "name": "az M. Lozano Fantoba"
+        },
+        {
+          "slug": null,
+          "name": "A. Lucas"
+        },
+        {
+          "slug": null,
+          "name": "I. A. Lucotte"
+        },
+        {
+          "slug": null,
+          "name": "R. Ludwig"
+        },
+        {
+          "slug": null,
+          "name": "N. Ludwig"
+        },
+        {
+          "slug": null,
+          "name": "N. F. Luehring"
+        },
+        {
+          "slug": null,
+          "name": "T. Luisa"
+        },
+        {
+          "slug": null,
+          "name": "A. J. Lynn"
+        },
+        {
+          "slug": null,
+          "name": "A. Maaßen"
+        },
+        {
+          "slug": null,
+          "name": "N. Macina"
+        },
+        {
+          "slug": null,
+          "name": "O. R. Mackeprang"
+        },
+        {
+          "slug": null,
+          "name": "J. Macpherson"
+        },
+        {
+          "slug": null,
+          "name": "A. Magrath"
+        },
+        {
+          "slug": null,
+          "name": "A. Majewski"
+        },
+        {
+          "slug": null,
+          "name": "A. Malecki"
+        },
+        {
+          "slug": null,
+          "name": "L. V. P. Maleev"
+        },
+        {
+          "slug": null,
+          "name": "ao I. Mandi ´c"
+        },
+        {
+          "slug": null,
+          "name": "Z. M. Mandl"
+        },
+        {
+          "slug": null,
+          "name": "I. M. M. Brinet"
+        },
+        {
+          "slug": null,
+          "name": "O. S. Garcia"
+        },
+        {
+          "slug": null,
+          "name": "Ayelen Martin"
+        },
+        {
+          "slug": null,
+          "name": "B. Martin"
+        },
+        {
+          "slug": null,
+          "name": "An T Maruyama"
+        },
+        {
+          "slug": null,
+          "name": "Aw R Mashinistov"
+        },
+        {
+          "slug": null,
+          "name": "A. Mayne"
+        },
+        {
+          "slug": null,
+          "name": "A. McFarlane"
+        },
+        {
+          "slug": null,
+          "name": "S. McMahon"
+        },
+        {
+          "slug": null,
+          "name": "as T. J. McMahon"
+        },
+        {
+          "slug": null,
+          "name": "D. Meinhardt"
+        },
+        {
+          "slug": null,
+          "name": "N. Garcia"
+        },
+        {
+          "slug": null,
+          "name": "ba C. Menot"
+        },
+        {
+          "slug": null,
+          "name": "I. Messmer"
+        },
+        {
+          "slug": null,
+          "name": "N. Mikulec"
+        },
+        {
+          "slug": null,
+          "name": "O. M. Mikuž"
+        },
+        {
+          "slug": null,
+          "name": "Z. Mima"
+        },
+        {
+          "slug": null,
+          "name": "A. Miñano"
+        },
+        {
+          "slug": null,
+          "name": "ay B. Mindur"
+        },
+        {
+          "slug": null,
+          "name": "K. Mitsou"
+        },
+        {
+          "slug": null,
+          "name": "ay P. Modesto"
+        },
+        {
+          "slug": null,
+          "name": "ay S. Moed"
+        },
+        {
+          "slug": null,
+          "name": "O. B. Mohn"
+        },
+        {
+          "slug": null,
+          "name": "B. Valls"
+        },
+        {
+          "slug": null,
+          "name": "A. J. Morin"
+        },
+        {
+          "slug": null,
+          "name": "A. Morone"
+        },
+        {
+          "slug": null,
+          "name": "O. Morozov"
+        },
+        {
+          "slug": null,
+          "name": "A. Morris"
+        },
+        {
+          "slug": null,
+          "name": "A. Moser"
+        },
+        {
+          "slug": null,
+          "name": "A. Moszczynski"
+        },
+        {
+          "slug": null,
+          "name": "L. S. V. Mouraviev"
+        },
+        {
+          "slug": null,
+          "name": "A. Munar"
+        },
+        {
+          "slug": null,
+          "name": "Angus Murray"
+        },
+        {
+          "slug": null,
+          "name": "Astushi Nagai"
+        },
+        {
+          "slug": null,
+          "name": "A. Nagai"
+        },
+        {
+          "slug": null,
+          "name": "A. Naito"
+        },
+        {
+          "slug": null,
+          "name": "A. Nakamura"
+        },
+        {
+          "slug": null,
+          "name": "A. Nakano"
+        },
+        {
+          "slug": null,
+          "name": "A. Nesterov"
+        },
+        {
+          "slug": null,
+          "name": "A. Newcomer"
+        },
+        {
+          "slug": null,
+          "name": "Antony Nicholson"
+        },
+        {
+          "slug": null,
+          "name": "A. Nickerson"
+        },
+        {
+          "slug": null,
+          "name": "A. Niinikoski"
+        },
+        {
+          "slug": null,
+          "name": "I. Nikitin"
+        },
+        {
+          "slug": null,
+          "name": "A. Nisius"
+        },
+        {
+          "slug": null,
+          "name": "A. Ogren"
+        },
+        {
+          "slug": null,
+          "name": "T. H. Oh"
+        },
+        {
+          "slug": null,
+          "name": "M. Olcese"
+        },
+        {
+          "slug": null,
+          "name": "P. J. Olszowska"
+        },
+        {
+          "slug": null,
+          "name": "L. M. Orphanides"
+        },
+        {
+          "slug": null,
+          "name": "au V. O’Shea"
+        },
+        {
+          "slug": null,
+          "name": "Q. W. Ostrowicz"
+        },
+        {
+          "slug": null,
+          "name": "L. Ottewell"
+        },
+        {
+          "slug": null,
+          "name": "A. Oye"
+        },
+        {
+          "slug": null,
+          "name": "B. E. Paganis"
+        },
+        {
+          "slug": null,
+          "name": "Autumn M Palmer"
+        },
+        {
+          "slug": null,
+          "name": "H. A. Parker"
+        },
+        {
+          "slug": null,
+          "name": "H. Parzefall"
+        },
+        {
+          "slug": null,
+          "name": "N. Passmore"
+        },
+        {
+          "slug": null,
+          "name": "I. S. Pataraia"
+        },
+        {
+          "slug": null,
+          "name": "A. Pellegrini"
+        },
+        {
+          "slug": null,
+          "name": "ay H. Pernegger"
+        },
+        {
+          "slug": null,
+          "name": "I. Perrin"
+        },
+        {
+          "slug": null,
+          "name": "O. V. D. Peshekhonov"
+        },
+        {
+          "slug": null,
+          "name": "V. Petersen"
+        },
+        {
+          "slug": null,
+          "name": "I. R. Petti"
+        },
+        {
+          "slug": null,
+          "name": "G. Phillips"
+        },
+        {
+          "slug": null,
+          "name": "H. Phillips"
+        },
+        {
+          "slug": null,
+          "name": "A. Placci"
+        },
+        {
+          "slug": null,
+          "name": "I. Poltorak"
+        },
+        {
+          "slug": null,
+          "name": "K. Poppleton"
+        },
+        {
+          "slug": null,
+          "name": "I. M. Price"
+        },
+        {
+          "slug": null,
+          "name": "I. Prokofiev"
+        },
+        {
+          "slug": null,
+          "name": "au O. Røhne"
+        },
+        {
+          "slug": null,
+          "name": "Al C Rembser"
+        },
+        {
+          "slug": null,
+          "name": "I. Reznícek"
+        },
+        {
+          "slug": null,
+          "name": "A. Richter"
+        },
+        {
+          "slug": null,
+          "name": "A. A. Veronneau"
+        },
+        {
+          "slug": null,
+          "name": "O. D. Robinson"
+        },
+        {
+          "slug": null,
+          "name": "H. Roe"
+        },
+        {
+          "slug": null,
+          "name": "I. Rohne"
+        },
+        {
+          "slug": null,
+          "name": "A. Romaniouk"
+        },
+        {
+          "slug": null,
+          "name": "A. F. Rossi"
+        },
+        {
+          "slug": null,
+          "name": "P. Rousseau"
+        },
+        {
+          "slug": null,
+          "name": "A. Ruggiero"
+        },
+        {
+          "slug": null,
+          "name": "I. Runge"
+        },
+        {
+          "slug": null,
+          "name": "N. Ryabov"
+        },
+        {
+          "slug": null,
+          "name": "A. Salzburger"
+        },
+        {
+          "slug": null,
+          "name": "U. Sanchez"
+        },
+        {
+          "slug": null,
+          "name": "ay H. Sandaker"
+        },
+        {
+          "slug": null,
+          "name": "B. Santander"
+        },
+        {
+          "slug": null,
+          "name": "ay V. A. Schegelsky"
+        },
+        {
+          "slug": null,
+          "name": "Ao D Scheirich"
+        },
+        {
+          "slug": null,
+          "name": "A. Schieck"
+        },
+        {
+          "slug": null,
+          "name": "A. Schmidt"
+        },
+        {
+          "slug": null,
+          "name": "Bb"
+        },
+        {
+          "slug": null,
+          "name": "C. Schmitt"
+        },
+        {
+          "slug": null,
+          "name": "I. Sedykh"
+        },
+        {
+          "slug": null,
+          "name": "A. Seliverstov"
+        },
+        {
+          "slug": null,
+          "name": "A. Sfyrla"
+        },
+        {
+          "slug": null,
+          "name": "O. T. Shin"
+        },
+        {
+          "slug": null,
+          "name": "S. A. Shmeleva"
+        },
+        {
+          "slug": null,
+          "name": "ae S. Sivoklokov"
+        },
+        {
+          "slug": null,
+          "name": "A. Smirnov"
+        },
+        {
+          "slug": null,
+          "name": "A. Smirnova"
+        },
+        {
+          "slug": null,
+          "name": "A. Smirnova"
+        },
+        {
+          "slug": null,
+          "name": "ab M. Söderberg"
+        },
+        {
+          "slug": null,
+          "name": "A. O. Solberg"
+        },
+        {
+          "slug": null,
+          "name": "B. V. V. Sosnovtsev"
+        },
+        {
+          "slug": null,
+          "name": "A. Suay"
+        },
+        {
+          "slug": null,
+          "name": "A. Spieler"
+        },
+        {
+          "slug": null,
+          "name": "C. G. Sprachmann"
+        },
+        {
+          "slug": null,
+          "name": "I. E. Stanecka"
+        },
+        {
+          "slug": null,
+          "name": "L. S. Stapnes"
+        },
+        {
+          "slug": null,
+          "name": "Al J Stastny"
+        },
+        {
+          "slug": null,
+          "name": "ap M. Stodulski"
+        },
+        {
+          "slug": null,
+          "name": "L. Stradling"
+        },
+        {
+          "slug": null,
+          "name": "B. Stugu"
+        },
+        {
+          "slug": null,
+          "name": "B. S. Subramania"
+        },
+        {
+          "slug": null,
+          "name": "T. S. I. Suchkov"
+        },
+        {
+          "slug": null,
+          "name": "A. Sulin"
+        },
+        {
+          "slug": null,
+          "name": "A. Szczy-Giel"
+        },
+        {
+          "slug": null,
+          "name": "L. Takashima"
+        },
+        {
+          "slug": null,
+          "name": "X. R. Tanaka"
+        },
+        {
+          "slug": null,
+          "name": "A. Tartarelli"
+        },
+        {
+          "slug": null,
+          "name": "A. Teng"
+        },
+        {
+          "slug": null,
+          "name": "A. S. Terada"
+        },
+        {
+          "slug": null,
+          "name": "W. V. O. Tikhomirov"
+        },
+        {
+          "slug": null,
+          "name": "A. Tipton"
+        },
+        {
+          "slug": null,
+          "name": "B. P. Titov"
+        },
+        {
+          "slug": null,
+          "name": "N. Toms"
+        },
+        {
+          "slug": null,
+          "name": "A. Tonoyan"
+        },
+        {
+          "slug": null,
+          "name": "B. Tovey"
+        },
+        {
+          "slug": null,
+          "name": "A. Tricoli"
+        },
+        {
+          "slug": null,
+          "name": "as M. Turala"
+        },
+        {
+          "slug": null,
+          "name": "L. M. Tyndel"
+        },
+        {
+          "slug": null,
+          "name": "as F. Ukegawa"
+        },
+        {
+          "slug": null,
+          "name": "aw M. Ullan Comes"
+        },
+        {
+          "slug": null,
+          "name": "A. Unno"
+        },
+        {
+          "slug": null,
+          "name": "W. V. Vacek"
+        },
+        {
+          "slug": null,
+          "name": "ar S. Valkar"
+        },
+        {
+          "slug": null,
+          "name": "A. Ferrer"
+        },
+        {
+          "slug": null,
+          "name": "A. V. Kraaij"
+        },
+        {
+          "slug": null,
+          "name": "A. Vanberg"
+        },
+        {
+          "slug": null,
+          "name": "an V. I. Vassilakopoulos"
+        },
+        {
+          "slug": null,
+          "name": "S. Vassilieva"
+        },
+        {
+          "slug": null,
+          "name": "ae T. Vickey"
+        },
+        {
+          "slug": null,
+          "name": "ba G. H. A. Viehhauser"
+        },
+        {
+          "slug": null,
+          "name": "Ambra Villani"
+        },
+        {
+          "slug": null,
+          "name": "as J. H. Vossebeld"
+        },
+        {
+          "slug": null,
+          "name": "Y. T. V. Anh"
+        },
+        {
+          "slug": null,
+          "name": "O. Wall"
+        },
+        {
+          "slug": null,
+          "name": "bb R. S. Wallny"
+        },
+        {
+          "slug": null,
+          "name": "I. Wang"
+        },
+        {
+          "slug": null,
+          "name": "M. Ward"
+        },
+        {
+          "slug": null,
+          "name": "H. R. Wastie"
+        },
+        {
+          "slug": null,
+          "name": "am M. Webel"
+        },
+        {
+          "slug": null,
+          "name": "N. M. Weber"
+        },
+        {
+          "slug": null,
+          "name": "A. R. Weidberg"
+        },
+        {
+          "slug": null,
+          "name": "am P. M. Weilhammer"
+        },
+        {
+          "slug": null,
+          "name": "I. Weiser"
+        },
+        {
+          "slug": null,
+          "name": "N. Wells"
+        },
+        {
+          "slug": null,
+          "name": "I. P. Werneke"
+        },
+        {
+          "slug": null,
+          "name": "Aimee White"
+        },
+        {
+          "slug": null,
+          "name": "H. D. Whittington"
+        },
+        {
+          "slug": null,
+          "name": "T. A. Wildauer"
+        },
+        {
+          "slug": null,
+          "name": "I. Wilhelm"
+        },
+        {
+          "slug": null,
+          "name": "Aquino Williams"
+        },
+        {
+          "slug": null,
+          "name": "an J. A. Wilson"
+        },
+        {
+          "slug": null,
+          "name": "D. Wolter"
+        },
+        {
+          "slug": null,
+          "name": "L. S. Wu"
+        },
+        {
+          "slug": null,
+          "name": "ba A. Zhelezko"
+        },
+        {
+          "slug": null,
+          "name": "A. F. H. Z. Zhuau"
+        },
+        {
+          "slug": null,
+          "name": "A. Zseneio"
+        }
+      ]
     }
   ],
   "topPublications": [
     {
       "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
-      "citationCount": 572,
+      "citationCount": 573,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985"
     },
@@ -546,19 +2766,19 @@
   "connections": {
     "coAuthors": [
       {
-        "slug": "michael-rabbat",
-        "name": "Michael Rabbat",
-        "sharedPapers": 7
-      },
-      {
         "slug": "yann-lecun",
         "name": "Yann LeCun",
-        "sharedPapers": 7
+        "sharedPapers": 11
       },
       {
         "slug": "adrien-bardes",
         "name": "Adrien Bardes",
-        "sharedPapers": 4
+        "sharedPapers": 9
+      },
+      {
+        "slug": "michael-rabbat",
+        "name": "Michael Rabbat",
+        "sharedPapers": 7
       },
       {
         "slug": "basile-terver",
@@ -571,13 +2791,13 @@
         "sharedPapers": 2
       },
       {
-        "slug": "megi-dervishi",
-        "name": "Megi Dervishi",
-        "sharedPapers": 1
-      },
-      {
         "slug": "amir-bar",
         "name": "Amir Bar",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "megi-dervishi",
+        "name": "Megi Dervishi",
         "sharedPapers": 1
       },
       {
@@ -588,7 +2808,15 @@
     ],
     "externalCoAuthors": [
       {
+        "name": "Randall Balestriero",
+        "papers": 7
+      },
+      {
         "name": "Nicolas Ballas",
+        "papers": 6
+      },
+      {
+        "name": "Laurent Najman",
         "papers": 6
       },
       {
@@ -596,12 +2824,20 @@
         "papers": 5
       },
       {
+        "name": "Florian Bordes",
+        "papers": 5
+      },
+      {
+        "name": "Mark Ibrahim",
+        "papers": 4
+      },
+      {
         "name": "Koustuv Sinha",
         "papers": 3
       },
       {
-        "name": "Randall Balestriero",
-        "papers": 2
+        "name": "Diane Bouchacourt",
+        "papers": 3
       },
       {
         "name": "Tushar Nagarajan",
@@ -612,11 +2848,35 @@
         "papers": 2
       },
       {
+        "name": "Candace Ross",
+        "papers": 2
+      },
+      {
         "name": "Emmanuel Dupoux",
         "papers": 2
       },
       {
-        "name": "Laurent Najman",
+        "name": "Haider Al-Tahan",
+        "papers": 2
+      },
+      {
+        "name": "G. Mialon",
+        "papers": 2
+      },
+      {
+        "name": "Ari S. Morcos",
+        "papers": 2
+      },
+      {
+        "name": "P. Vincent",
+        "papers": 2
+      },
+      {
+        "name": "A. Beddall",
+        "papers": 2
+      },
+      {
+        "name": "A. Smirnova",
         "papers": 2
       },
       {
@@ -740,14 +3000,6 @@
         "papers": 1
       },
       {
-        "name": "Candace Ross",
-        "papers": 1
-      },
-      {
-        "name": "Florian Bordes",
-        "papers": 1
-      },
-      {
         "name": "Justine T Kao",
         "papers": 1
       },
@@ -756,15 +3008,151 @@
         "papers": 1
       },
       {
+        "name": "C. Hazirbas",
+        "papers": 1
+      },
+      {
+        "name": "Richard Yuanzhe Pang",
+        "papers": 1
+      },
+      {
+        "name": "A. Ajay",
+        "papers": 1
+      },
+      {
+        "name": "Alexander C. Li",
+        "papers": 1
+      },
+      {
+        "name": "S. Petryk",
+        "papers": 1
+      },
+      {
+        "name": "Oscar Mañas",
+        "papers": 1
+      },
+      {
+        "name": "Zhiqiu Lin",
+        "papers": 1
+      },
+      {
+        "name": "Anas Mahmoud",
+        "papers": 1
+      },
+      {
+        "name": "Bargav Jayaraman",
+        "papers": 1
+      },
+      {
+        "name": "Melissa Hall",
+        "papers": 1
+      },
+      {
+        "name": "Yunyang Xiong",
+        "papers": 1
+      },
+      {
+        "name": "Jonathan Lebensold",
+        "papers": 1
+      },
+      {
+        "name": "Srihari Jayakumar",
+        "papers": 1
+      },
+      {
+        "name": "Chuan Guo",
+        "papers": 1
+      },
+      {
+        "name": "Karthik Padthe",
+        "papers": 1
+      },
+      {
+        "name": "Vasu Sharma",
+        "papers": 1
+      },
+      {
+        "name": "Hu Xu",
+        "papers": 1
+      },
+      {
+        "name": "X. Tan",
+        "papers": 1
+      },
+      {
+        "name": "Megan Richards",
+        "papers": 1
+      },
+      {
+        "name": "Samuel Lavoie",
+        "papers": 1
+      },
+      {
+        "name": "Pietro Astolfi",
+        "papers": 1
+      },
+      {
+        "name": "Reyhane Askari Hemmat",
+        "papers": 1
+      },
+      {
+        "name": "Jun Chen",
+        "papers": 1
+      },
+      {
+        "name": "Kushal Tirumala",
+        "papers": 1
+      },
+      {
+        "name": "Rim Assouel",
+        "papers": 1
+      },
+      {
+        "name": "Mazda Moayeri",
+        "papers": 1
+      },
+      {
+        "name": "Arjang Talattof",
+        "papers": 1
+      },
+      {
+        "name": "Kamalika Chaudhuri",
+        "papers": 1
+      },
+      {
+        "name": "Zechun Liu",
+        "papers": 1
+      },
+      {
+        "name": "Xilun Chen",
+        "papers": 1
+      },
+      {
+        "name": "Karen Ullrich",
+        "papers": 1
+      },
+      {
+        "name": "Aishwarya Agrawal",
+        "papers": 1
+      },
+      {
+        "name": "Kate Saenko",
+        "papers": 1
+      },
+      {
+        "name": "Asli Celikyilmaz",
+        "papers": 1
+      },
+      {
+        "name": "Vikas Chandra",
+        "papers": 1
+      },
+      {
         "name": "Jean Ponce",
         "papers": 1
       },
       {
         "name": "Xinlei Chen",
-        "papers": 1
-      },
-      {
-        "name": "G. Mialon",
         "papers": 1
       },
       {
@@ -777,6 +3165,1806 @@
       },
       {
         "name": "B. Kiani",
+        "papers": 1
+      },
+      {
+        "name": "Vlad Sobal",
+        "papers": 1
+      },
+      {
+        "name": "Shashank Shekhar",
+        "papers": 1
+      },
+      {
+        "name": "T. Goldstein",
+        "papers": 1
+      },
+      {
+        "name": "Yuandong Tian",
+        "papers": 1
+      },
+      {
+        "name": "Avi Schwarzschild",
+        "papers": 1
+      },
+      {
+        "name": "A. Wilson",
+        "papers": 1
+      },
+      {
+        "name": "Jonas Geiping",
+        "papers": 1
+      },
+      {
+        "name": "Pierre Fernandez",
+        "papers": 1
+      },
+      {
+        "name": "H. Pirsiavash",
+        "papers": 1
+      },
+      {
+        "name": "Micah Goldblum",
+        "papers": 1
+      },
+      {
+        "name": "Yubei Chen",
+        "papers": 1
+      },
+      {
+        "name": "Sebastian Damrich",
+        "papers": 1
+      },
+      {
+        "name": "Alexander Jäger",
+        "papers": 1
+      },
+      {
+        "name": "Dario Cerletti",
+        "papers": 1
+      },
+      {
+        "name": "M. Claassen",
+        "papers": 1
+      },
+      {
+        "name": "F. Hamprecht",
+        "papers": 1
+      },
+      {
+        "name": "L. Kudin",
+        "papers": 1
+      },
+      {
+        "name": "E. Abat",
+        "papers": 1
+      },
+      {
+        "name": "A. Abdesselam",
+        "papers": 1
+      },
+      {
+        "name": "Amanda Addy",
+        "papers": 1
+      },
+      {
+        "name": "S. Åkesson",
+        "papers": 1
+      },
+      {
+        "name": "ab P. P. Allport",
+        "papers": 1
+      },
+      {
+        "name": "Y. L. Andricek",
+        "papers": 1
+      },
+      {
+        "name": "ah F. Anghinolfi",
+        "papers": 1
+      },
+      {
+        "name": "I. R. Apsimon",
+        "papers": 1
+      },
+      {
+        "name": "A. Arık",
+        "papers": 1
+      },
+      {
+        "name": "M. Arik",
+        "papers": 1
+      },
+      {
+        "name": "E. Austin",
+        "papers": 1
+      },
+      {
+        "name": "Y. K. Baker",
+        "papers": 1
+      },
+      {
+        "name": "B. Banas",
+        "papers": 1
+      },
+      {
+        "name": "L. Bangert",
+        "papers": 1
+      },
+      {
+        "name": "A. Barbier",
+        "papers": 1
+      },
+      {
+        "name": "O. Baron",
+        "papers": 1
+      },
+      {
+        "name": "I. Barr",
+        "papers": 1
+      },
+      {
+        "name": "am S. Basiladze",
+        "papers": 1
+      },
+      {
+        "name": "Ag L E Batchelor",
+        "papers": 1
+      },
+      {
+        "name": "A. Bates",
+        "papers": 1
+      },
+      {
+        "name": "Q. J. R. Batley",
+        "papers": 1
+      },
+      {
+        "name": "H. M. Battistin",
+        "papers": 1
+      },
+      {
+        "name": "I. Beck",
+        "papers": 1
+      },
+      {
+        "name": "P. Bell",
+        "papers": 1
+      },
+      {
+        "name": "A. Bell",
+        "papers": 1
+      },
+      {
+        "name": "Q. A. Belymam",
+        "papers": 1
+      },
+      {
+        "name": "A. D. Benjamin",
+        "papers": 1
+      },
+      {
+        "name": "M. Bernabeu",
+        "papers": 1
+      },
+      {
+        "name": "A. Bertelsen",
+        "papers": 1
+      },
+      {
+        "name": "J. Bethke",
+        "papers": 1
+      },
+      {
+        "name": "A. Bingul",
+        "papers": 1
+      },
+      {
+        "name": "A. Bitadze",
+        "papers": 1
+      },
+      {
+        "name": "I. J. P. Bizzell",
+        "papers": 1
+      },
+      {
+        "name": "as J. Blocki",
+        "papers": 1
+      },
+      {
+        "name": "L. Bocci",
+        "papers": 1
+      },
+      {
+        "name": "M. Bochenek",
+        "papers": 1
+      },
+      {
+        "name": "K. Bohm",
+        "papers": 1
+      },
+      {
+        "name": "A. V. Bondarenko",
+        "papers": 1
+      },
+      {
+        "name": "A. Bonneau",
+        "papers": 1
+      },
+      {
+        "name": "I. Booth",
+        "papers": 1
+      },
+      {
+        "name": "A. Brandt",
+        "papers": 1
+      },
+      {
+        "name": "A. Brochu",
+        "papers": 1
+      },
+      {
+        "name": "H. Z. Broklova",
+        "papers": 1
+      },
+      {
+        "name": "A. Broz",
+        "papers": 1
+      },
+      {
+        "name": "A. Renstrom",
+        "papers": 1
+      },
+      {
+        "name": "S. Burdin",
+        "papers": 1
+      },
+      {
+        "name": "Y. C. M. Buttar",
+        "papers": 1
+      },
+      {
+        "name": "I. Sas",
+        "papers": 1
+      },
+      {
+        "name": "I. Carpentieri",
+        "papers": 1
+      },
+      {
+        "name": "N. A. Carter",
+        "papers": 1
+      },
+      {
+        "name": "A. J. Carter",
+        "papers": 1
+      },
+      {
+        "name": "H. A. Catinaccio",
+        "papers": 1
+      },
+      {
+        "name": "I. Cetin",
+        "papers": 1
+      },
+      {
+        "name": "M. Llatas",
+        "papers": 1
+      },
+      {
+        "name": "O. Charlton",
+        "papers": 1
+      },
+      {
+        "name": "D. A. Cheplakov",
+        "papers": 1
+      },
+      {
+        "name": "Q. S. Chouridou",
+        "papers": 1
+      },
+      {
+        "name": "A. Chu",
+        "papers": 1
+      },
+      {
+        "name": "A. V. Cindro",
+        "papers": 1
+      },
+      {
+        "name": "Z. A. Ciocio",
+        "papers": 1
+      },
+      {
+        "name": "C. Civera",
+        "papers": 1
+      },
+      {
+        "name": "A. Clark",
+        "papers": 1
+      },
+      {
+        "name": "O. A. P. Colijn",
+        "papers": 1
+      },
+      {
+        "name": "Ai T Cornelissen",
+        "papers": 1
+      },
+      {
+        "name": "I. M. Costa",
+        "papers": 1
+      },
+      {
+        "name": "A. D. Costanzo",
+        "papers": 1
+      },
+      {
+        "name": "A. J. Cox",
+        "papers": 1
+      },
+      {
+        "name": "am P. Cwetanski",
+        "papers": 1
+      },
+      {
+        "name": "T. Dabrowski",
+        "papers": 1
+      },
+      {
+        "name": "K. J. Dalmau",
+        "papers": 1
+      },
+      {
+        "name": "A. M. Dam",
+        "papers": 1
+      },
+      {
+        "name": "J. Danielsen",
+        "papers": 1
+      },
+      {
+        "name": "A. Danielsson",
+        "papers": 1
+      },
+      {
+        "name": "I. D’Auria",
+        "papers": 1
+      },
+      {
+        "name": "Q. I. Dawson",
+        "papers": 1
+      },
+      {
+        "name": "A. D. Jong",
+        "papers": 1
+      },
+      {
+        "name": "ai M. D. Dehchar",
+        "papers": 1
+      },
+      {
+        "name": "am B. Demirkoz",
+        "papers": 1
+      },
+      {
+        "name": "I. P. Dervan",
+        "papers": 1
+      },
+      {
+        "name": "Y. B. D. Girolamo",
+        "papers": 1
+      },
+      {
+        "name": "I. S. Cornell",
+        "papers": 1
+      },
+      {
+        "name": "ay F. Dittus",
+        "papers": 1
+      },
+      {
+        "name": "I. S. Dixon",
+        "papers": 1
+      },
+      {
+        "name": "A. Dobson",
+        "papers": 1
+      },
+      {
+        "name": "Am Dogan",
+        "papers": 1
+      },
+      {
+        "name": "Z. Doležal",
+        "papers": 1
+      },
+      {
+        "name": "aq B. A. Dolgoshein",
+        "papers": 1
+      },
+      {
+        "name": "A. Donegá",
+        "papers": 1
+      },
+      {
+        "name": "I. D'Onofrio",
+        "papers": 1
+      },
+      {
+        "name": "O. T. Donszelmann",
+        "papers": 1
+      },
+      {
+        "name": "au O. Dorholt",
+        "papers": 1
+      },
+      {
+        "name": "A. Dowell",
+        "papers": 1
+      },
+      {
+        "name": "D. Z. Drasal",
+        "papers": 1
+      },
+      {
+        "name": "aq N. Dressnandt",
+        "papers": 1
+      },
+      {
+        "name": "An C Driouchi",
+        "papers": 1
+      },
+      {
+        "name": "J. Duxfield",
+        "papers": 1
+      },
+      {
+        "name": "Au M Dwuznik",
+        "papers": 1
+      },
+      {
+        "name": "K. W. L. Ebenstein",
+        "papers": 1
+      },
+      {
+        "name": "M. Eckert",
+        "papers": 1
+      },
+      {
+        "name": "N. P. Eerola",
+        "papers": 1
+      },
+      {
+        "name": "A. Egede",
+        "papers": 1
+      },
+      {
+        "name": "A. K. Egorov",
+        "papers": 1
+      },
+      {
+        "name": "T. Eklund",
+        "papers": 1
+      },
+      {
+        "name": "I. M. Elsing",
+        "papers": 1
+      },
+      {
+        "name": "I. Ely",
+        "papers": 1
+      },
+      {
+        "name": "C. V. Eremin",
+        "papers": 1
+      },
+      {
+        "name": "A. C. Escobar",
+        "papers": 1
+      },
+      {
+        "name": "A. Evans",
+        "papers": 1
+      },
+      {
+        "name": "T. P. Farthouat",
+        "papers": 1
+      },
+      {
+        "name": "I. Fasching",
+        "papers": 1
+      },
+      {
+        "name": "ba O. L. Fedin",
+        "papers": 1
+      },
+      {
+        "name": "Ao L Feld",
+        "papers": 1
+      },
+      {
+        "name": "N. D. Ferguson",
+        "papers": 1
+      },
+      {
+        "name": "Barbara Ferrari",
+        "papers": 1
+      },
+      {
+        "name": "I. D. Ferrere",
+        "papers": 1
+      },
+      {
+        "name": "O. Fiorini",
+        "papers": 1
+      },
+      {
+        "name": "H. J. Fopma",
+        "papers": 1
+      },
+      {
+        "name": "am A. J. Fowler",
+        "papers": 1
+      },
+      {
+        "name": "M. Fox",
+        "papers": 1
+      },
+      {
+        "name": "N. French",
+        "papers": 1
+      },
+      {
+        "name": "A. Froidevaux",
+        "papers": 1
+      },
+      {
+        "name": "I. Frost",
+        "papers": 1
+      },
+      {
+        "name": "H. Fuster",
+        "papers": 1
+      },
+      {
+        "name": "A. Gadomski",
+        "papers": 1
+      },
+      {
+        "name": "P. Gagnon",
+        "papers": 1
+      },
+      {
+        "name": "T. Gallop",
+        "papers": 1
+      },
+      {
+        "name": "as F. C. Gannaway",
+        "papers": 1
+      },
+      {
+        "name": "AA García",
+        "papers": 1
+      },
+      {
+        "name": "A. Navarro",
+        "papers": 1
+      },
+      {
+        "name": "A. I. Gavrilenko",
+        "papers": 1
+      },
+      {
+        "name": "A. Ghodbane",
+        "papers": 1
+      },
+      {
+        "name": "A. Gibson",
+        "papers": 1
+      },
+      {
+        "name": "As Gibson",
+        "papers": 1
+      },
+      {
+        "name": "am K. G. Gnanvo",
+        "papers": 1
+      },
+      {
+        "name": "A. Godlewski",
+        "papers": 1
+      },
+      {
+        "name": "I. T. Göttfert",
+        "papers": 1
+      },
+      {
+        "name": "Ahtziri González",
+        "papers": 1
+      },
+      {
+        "name": "Barbara Sevilla",
+        "papers": 1
+      },
+      {
+        "name": "A. Goodrick",
+        "papers": 1
+      },
+      {
+        "name": "H. A. Gorišek",
+        "papers": 1
+      },
+      {
+        "name": "Z. Górnicki",
+        "papers": 1
+      },
+      {
+        "name": "L. Goulette",
+        "papers": 1
+      },
+      {
+        "name": "I. Y. Grishkevich",
+        "papers": 1
+      },
+      {
+        "name": "Ag J Grognuz",
+        "papers": 1
+      },
+      {
+        "name": "I. J. G. Knetter",
+        "papers": 1
+      },
+      {
+        "name": "F. C. Haber",
+        "papers": 1
+      },
+      {
+        "name": "C. Härtel",
+        "papers": 1
+      },
+      {
+        "name": "A. Hajduk",
+        "papers": 1
+      },
+      {
+        "name": "L. Hance",
+        "papers": 1
+      },
+      {
+        "name": "an F. H. Hansen",
+        "papers": 1
+      },
+      {
+        "name": "J. Hansen",
+        "papers": 1
+      },
+      {
+        "name": "J. D. Hansen",
+        "papers": 1
+      },
+      {
+        "name": "J. P. Hansen",
+        "papers": 1
+      },
+      {
+        "name": "J. Hara",
+        "papers": 1
+      },
+      {
+        "name": "A. Harvey",
+        "papers": 1
+      },
+      {
+        "name": "M. Hauschild",
+        "papers": 1
+      },
+      {
+        "name": "I. C. Hauviller",
+        "papers": 1
+      },
+      {
+        "name": "I. Hawes",
+        "papers": 1
+      },
+      {
+        "name": "am R. J. Hawkings",
+        "papers": 1
+      },
+      {
+        "name": "I. Hayward",
+        "papers": 1
+      },
+      {
+        "name": "Y. S. J. Haywood",
+        "papers": 1
+      },
+      {
+        "name": "A. Heinemann",
+        "papers": 1
+      },
+      {
+        "name": "am N. P. Hessey",
+        "papers": 1
+      },
+      {
+        "name": "A. Hill",
+        "papers": 1
+      },
+      {
+        "name": "H. Hodgkinson",
+        "papers": 1
+      },
+      {
+        "name": "A. P. Hodgson",
+        "papers": 1
+      },
+      {
+        "name": "A. Hollins",
+        "papers": 1
+      },
+      {
+        "name": "D. Holmes",
+        "papers": 1
+      },
+      {
+        "name": "A. R. Holt",
+        "papers": 1
+      },
+      {
+        "name": "A. S. Hou",
+        "papers": 1
+      },
+      {
+        "name": "A. Howell",
+        "papers": 1
+      },
+      {
+        "name": "A. Hulsbergen",
+        "papers": 1
+      },
+      {
+        "name": "I. Huse",
+        "papers": 1
+      },
+      {
+        "name": "Al Y Ikegami",
+        "papers": 1
+      },
+      {
+        "name": "W. Y. Ilyushenka",
+        "papers": 1
+      },
+      {
+        "name": "V. C. Issever",
+        "papers": 1
+      },
+      {
+        "name": "A. Jackson",
+        "papers": 1
+      },
+      {
+        "name": "Y. Jain",
+        "papers": 1
+      },
+      {
+        "name": "T. Jakobs",
+        "papers": 1
+      },
+      {
+        "name": "N. Jared",
+        "papers": 1
+      },
+      {
+        "name": "ba G. Jarlskog",
+        "papers": 1
+      },
+      {
+        "name": "ab P. Jarron",
+        "papers": 1
+      },
+      {
+        "name": "I. L. Johansen",
+        "papers": 1
+      },
+      {
+        "name": "B. Johansson",
+        "papers": 1
+      },
+      {
+        "name": "Autumn M Jones",
+        "papers": 1
+      },
+      {
+        "name": "Am Jones",
+        "papers": 1
+      },
+      {
+        "name": "Y. Joos",
+        "papers": 1
+      },
+      {
+        "name": "N. Joseph",
+        "papers": 1
+      },
+      {
+        "name": "Barbara Jovanovic",
+        "papers": 1
+      },
+      {
+        "name": "D. V. A. Kantserov",
+        "papers": 1
+      },
+      {
+        "name": "A. Kaplon",
+        "papers": 1
+      },
+      {
+        "name": "I. M. K. Unel",
+        "papers": 1
+      },
+      {
+        "name": "A. Kayumov",
+        "papers": 1
+      },
+      {
+        "name": "ae P. T. Keener",
+        "papers": 1
+      },
+      {
+        "name": "an G. D. Kekelidze",
+        "papers": 1
+      },
+      {
+        "name": "V. N. Kerschen",
+        "papers": 1
+      },
+      {
+        "name": "A. Ketterer",
+        "papers": 1
+      },
+      {
+        "name": "N. S. Kim",
+        "papers": 1
+      },
+      {
+        "name": "aw D. Kisielewska",
+        "papers": 1
+      },
+      {
+        "name": "K. Kisielewski",
+        "papers": 1
+      },
+      {
+        "name": "L. Kittelmann",
+        "papers": 1
+      },
+      {
+        "name": "J. Klinkby",
+        "papers": 1
+      },
+      {
+        "name": "J. P. Kluit",
+        "papers": 1
+      },
+      {
+        "name": "Ai S Kluth",
+        "papers": 1
+      },
+      {
+        "name": "A. Ko",
+        "papers": 1
+      },
+      {
+        "name": "M. Kodyš",
+        "papers": 1
+      },
+      {
+        "name": "A. Koffas",
+        "papers": 1
+      },
+      {
+        "name": "I. E. Koffeman",
+        "papers": 1
+      },
+      {
+        "name": "Ai T Kohriki",
+        "papers": 1
+      },
+      {
+        "name": "W. Kondo",
+        "papers": 1
+      },
+      {
+        "name": "W. N. V. Kondratieva",
+        "papers": 1
+      },
+      {
+        "name": "A. S. Konovalov",
+        "papers": 1
+      },
+      {
+        "name": "ae S. Koperny",
+        "papers": 1
+      },
+      {
+        "name": "K. Korsmo",
+        "papers": 1
+      },
+      {
+        "name": "A. S. Kovalenko",
+        "papers": 1
+      },
+      {
+        "name": "A. Kowalski",
+        "papers": 1
+      },
+      {
+        "name": "K. Kruger",
+        "papers": 1
+      },
+      {
+        "name": "I. Kramarenko",
+        "papers": 1
+      },
+      {
+        "name": "Ag G Kramberger",
+        "papers": 1
+      },
+      {
+        "name": "Z. Kruse",
+        "papers": 1
+      },
+      {
+        "name": "M. Kubík",
+        "papers": 1
+      },
+      {
+        "name": "A. Kudin",
+        "papers": 1
+      },
+      {
+        "name": "A. Kundu",
+        "papers": 1
+      },
+      {
+        "name": "A. Lacasta",
+        "papers": 1
+      },
+      {
+        "name": "ay V. R. Lacuesta",
+        "papers": 1
+      },
+      {
+        "name": "A. W. Lau",
+        "papers": 1
+      },
+      {
+        "name": "A. Bihan",
+        "papers": 1
+      },
+      {
+        "name": "I. Lee",
+        "papers": 1
+      },
+      {
+        "name": "A. Lefevre",
+        "papers": 1
+      },
+      {
+        "name": "O. B. C. LeGeyt",
+        "papers": 1
+      },
+      {
+        "name": "Aneika C. Leney",
+        "papers": 1
+      },
+      {
+        "name": "Y. Lester",
+        "papers": 1
+      },
+      {
+        "name": "H. Liang",
+        "papers": 1
+      },
+      {
+        "name": "av P. Lichard",
+        "papers": 1
+      },
+      {
+        "name": "I. W. Liebig",
+        "papers": 1
+      },
+      {
+        "name": "Ai M Limper",
+        "papers": 1
+      },
+      {
+        "name": "A. Lindahl",
+        "papers": 1
+      },
+      {
+        "name": "J. Lindsay",
+        "papers": 1
+      },
+      {
+        "name": "Y. A. Lipniacka",
+        "papers": 1
+      },
+      {
+        "name": "B. Llácer",
+        "papers": 1
+      },
+      {
+        "name": "A. S. Lloyd",
+        "papers": 1
+      },
+      {
+        "name": "A. Loginov",
+        "papers": 1
+      },
+      {
+        "name": "B. C. W. Loh",
+        "papers": 1
+      },
+      {
+        "name": "az M. Lozano Fantoba",
+        "papers": 1
+      },
+      {
+        "name": "A. Lucas",
+        "papers": 1
+      },
+      {
+        "name": "I. A. Lucotte",
+        "papers": 1
+      },
+      {
+        "name": "R. Ludwig",
+        "papers": 1
+      },
+      {
+        "name": "N. Ludwig",
+        "papers": 1
+      },
+      {
+        "name": "N. F. Luehring",
+        "papers": 1
+      },
+      {
+        "name": "T. Luisa",
+        "papers": 1
+      },
+      {
+        "name": "A. J. Lynn",
+        "papers": 1
+      },
+      {
+        "name": "A. Maaßen",
+        "papers": 1
+      },
+      {
+        "name": "N. Macina",
+        "papers": 1
+      },
+      {
+        "name": "O. R. Mackeprang",
+        "papers": 1
+      },
+      {
+        "name": "J. Macpherson",
+        "papers": 1
+      },
+      {
+        "name": "A. Magrath",
+        "papers": 1
+      },
+      {
+        "name": "A. Majewski",
+        "papers": 1
+      },
+      {
+        "name": "A. Malecki",
+        "papers": 1
+      },
+      {
+        "name": "L. V. P. Maleev",
+        "papers": 1
+      },
+      {
+        "name": "ao I. Mandi ´c",
+        "papers": 1
+      },
+      {
+        "name": "Z. M. Mandl",
+        "papers": 1
+      },
+      {
+        "name": "I. M. M. Brinet",
+        "papers": 1
+      },
+      {
+        "name": "O. S. Garcia",
+        "papers": 1
+      },
+      {
+        "name": "Ayelen Martin",
+        "papers": 1
+      },
+      {
+        "name": "B. Martin",
+        "papers": 1
+      },
+      {
+        "name": "An T Maruyama",
+        "papers": 1
+      },
+      {
+        "name": "Aw R Mashinistov",
+        "papers": 1
+      },
+      {
+        "name": "A. Mayne",
+        "papers": 1
+      },
+      {
+        "name": "A. McFarlane",
+        "papers": 1
+      },
+      {
+        "name": "S. McMahon",
+        "papers": 1
+      },
+      {
+        "name": "as T. J. McMahon",
+        "papers": 1
+      },
+      {
+        "name": "D. Meinhardt",
+        "papers": 1
+      },
+      {
+        "name": "N. Garcia",
+        "papers": 1
+      },
+      {
+        "name": "ba C. Menot",
+        "papers": 1
+      },
+      {
+        "name": "I. Messmer",
+        "papers": 1
+      },
+      {
+        "name": "N. Mikulec",
+        "papers": 1
+      },
+      {
+        "name": "O. M. Mikuž",
+        "papers": 1
+      },
+      {
+        "name": "Z. Mima",
+        "papers": 1
+      },
+      {
+        "name": "A. Miñano",
+        "papers": 1
+      },
+      {
+        "name": "ay B. Mindur",
+        "papers": 1
+      },
+      {
+        "name": "K. Mitsou",
+        "papers": 1
+      },
+      {
+        "name": "ay P. Modesto",
+        "papers": 1
+      },
+      {
+        "name": "ay S. Moed",
+        "papers": 1
+      },
+      {
+        "name": "O. B. Mohn",
+        "papers": 1
+      },
+      {
+        "name": "B. Valls",
+        "papers": 1
+      },
+      {
+        "name": "A. J. Morin",
+        "papers": 1
+      },
+      {
+        "name": "A. Morone",
+        "papers": 1
+      },
+      {
+        "name": "O. Morozov",
+        "papers": 1
+      },
+      {
+        "name": "A. Morris",
+        "papers": 1
+      },
+      {
+        "name": "A. Moser",
+        "papers": 1
+      },
+      {
+        "name": "A. Moszczynski",
+        "papers": 1
+      },
+      {
+        "name": "L. S. V. Mouraviev",
+        "papers": 1
+      },
+      {
+        "name": "A. Munar",
+        "papers": 1
+      },
+      {
+        "name": "Angus Murray",
+        "papers": 1
+      },
+      {
+        "name": "Astushi Nagai",
+        "papers": 1
+      },
+      {
+        "name": "A. Nagai",
+        "papers": 1
+      },
+      {
+        "name": "A. Naito",
+        "papers": 1
+      },
+      {
+        "name": "A. Nakamura",
+        "papers": 1
+      },
+      {
+        "name": "A. Nakano",
+        "papers": 1
+      },
+      {
+        "name": "A. Nesterov",
+        "papers": 1
+      },
+      {
+        "name": "A. Newcomer",
+        "papers": 1
+      },
+      {
+        "name": "Antony Nicholson",
+        "papers": 1
+      },
+      {
+        "name": "A. Nickerson",
+        "papers": 1
+      },
+      {
+        "name": "A. Niinikoski",
+        "papers": 1
+      },
+      {
+        "name": "I. Nikitin",
+        "papers": 1
+      },
+      {
+        "name": "A. Nisius",
+        "papers": 1
+      },
+      {
+        "name": "A. Ogren",
+        "papers": 1
+      },
+      {
+        "name": "T. H. Oh",
+        "papers": 1
+      },
+      {
+        "name": "M. Olcese",
+        "papers": 1
+      },
+      {
+        "name": "P. J. Olszowska",
+        "papers": 1
+      },
+      {
+        "name": "L. M. Orphanides",
+        "papers": 1
+      },
+      {
+        "name": "au V. O’Shea",
+        "papers": 1
+      },
+      {
+        "name": "Q. W. Ostrowicz",
+        "papers": 1
+      },
+      {
+        "name": "L. Ottewell",
+        "papers": 1
+      },
+      {
+        "name": "A. Oye",
+        "papers": 1
+      },
+      {
+        "name": "B. E. Paganis",
+        "papers": 1
+      },
+      {
+        "name": "Autumn M Palmer",
+        "papers": 1
+      },
+      {
+        "name": "H. A. Parker",
+        "papers": 1
+      },
+      {
+        "name": "H. Parzefall",
+        "papers": 1
+      },
+      {
+        "name": "N. Passmore",
+        "papers": 1
+      },
+      {
+        "name": "I. S. Pataraia",
+        "papers": 1
+      },
+      {
+        "name": "A. Pellegrini",
+        "papers": 1
+      },
+      {
+        "name": "ay H. Pernegger",
+        "papers": 1
+      },
+      {
+        "name": "I. Perrin",
+        "papers": 1
+      },
+      {
+        "name": "O. V. D. Peshekhonov",
+        "papers": 1
+      },
+      {
+        "name": "V. Petersen",
+        "papers": 1
+      },
+      {
+        "name": "I. R. Petti",
+        "papers": 1
+      },
+      {
+        "name": "G. Phillips",
+        "papers": 1
+      },
+      {
+        "name": "H. Phillips",
+        "papers": 1
+      },
+      {
+        "name": "A. Placci",
+        "papers": 1
+      },
+      {
+        "name": "I. Poltorak",
+        "papers": 1
+      },
+      {
+        "name": "K. Poppleton",
+        "papers": 1
+      },
+      {
+        "name": "I. M. Price",
+        "papers": 1
+      },
+      {
+        "name": "I. Prokofiev",
+        "papers": 1
+      },
+      {
+        "name": "au O. Røhne",
+        "papers": 1
+      },
+      {
+        "name": "Al C Rembser",
+        "papers": 1
+      },
+      {
+        "name": "I. Reznícek",
+        "papers": 1
+      },
+      {
+        "name": "A. Richter",
+        "papers": 1
+      },
+      {
+        "name": "A. A. Veronneau",
+        "papers": 1
+      },
+      {
+        "name": "O. D. Robinson",
+        "papers": 1
+      },
+      {
+        "name": "H. Roe",
+        "papers": 1
+      },
+      {
+        "name": "I. Rohne",
+        "papers": 1
+      },
+      {
+        "name": "A. Romaniouk",
+        "papers": 1
+      },
+      {
+        "name": "A. F. Rossi",
+        "papers": 1
+      },
+      {
+        "name": "P. Rousseau",
+        "papers": 1
+      },
+      {
+        "name": "A. Ruggiero",
+        "papers": 1
+      },
+      {
+        "name": "I. Runge",
+        "papers": 1
+      },
+      {
+        "name": "N. Ryabov",
+        "papers": 1
+      },
+      {
+        "name": "A. Salzburger",
+        "papers": 1
+      },
+      {
+        "name": "U. Sanchez",
+        "papers": 1
+      },
+      {
+        "name": "ay H. Sandaker",
+        "papers": 1
+      },
+      {
+        "name": "B. Santander",
+        "papers": 1
+      },
+      {
+        "name": "ay V. A. Schegelsky",
+        "papers": 1
+      },
+      {
+        "name": "Ao D Scheirich",
+        "papers": 1
+      },
+      {
+        "name": "A. Schieck",
+        "papers": 1
+      },
+      {
+        "name": "A. Schmidt",
+        "papers": 1
+      },
+      {
+        "name": "Bb",
+        "papers": 1
+      },
+      {
+        "name": "C. Schmitt",
+        "papers": 1
+      },
+      {
+        "name": "I. Sedykh",
+        "papers": 1
+      },
+      {
+        "name": "A. Seliverstov",
+        "papers": 1
+      },
+      {
+        "name": "A. Sfyrla",
+        "papers": 1
+      },
+      {
+        "name": "O. T. Shin",
+        "papers": 1
+      },
+      {
+        "name": "S. A. Shmeleva",
+        "papers": 1
+      },
+      {
+        "name": "ae S. Sivoklokov",
+        "papers": 1
+      },
+      {
+        "name": "A. Smirnov",
+        "papers": 1
+      },
+      {
+        "name": "ab M. Söderberg",
+        "papers": 1
+      },
+      {
+        "name": "A. O. Solberg",
+        "papers": 1
+      },
+      {
+        "name": "B. V. V. Sosnovtsev",
+        "papers": 1
+      },
+      {
+        "name": "A. Suay",
+        "papers": 1
+      },
+      {
+        "name": "A. Spieler",
+        "papers": 1
+      },
+      {
+        "name": "C. G. Sprachmann",
+        "papers": 1
+      },
+      {
+        "name": "I. E. Stanecka",
+        "papers": 1
+      },
+      {
+        "name": "L. S. Stapnes",
+        "papers": 1
+      },
+      {
+        "name": "Al J Stastny",
+        "papers": 1
+      },
+      {
+        "name": "ap M. Stodulski",
+        "papers": 1
+      },
+      {
+        "name": "L. Stradling",
+        "papers": 1
+      },
+      {
+        "name": "B. Stugu",
+        "papers": 1
+      },
+      {
+        "name": "B. S. Subramania",
+        "papers": 1
+      },
+      {
+        "name": "T. S. I. Suchkov",
+        "papers": 1
+      },
+      {
+        "name": "A. Sulin",
+        "papers": 1
+      },
+      {
+        "name": "A. Szczy-Giel",
+        "papers": 1
+      },
+      {
+        "name": "L. Takashima",
+        "papers": 1
+      },
+      {
+        "name": "X. R. Tanaka",
+        "papers": 1
+      },
+      {
+        "name": "A. Tartarelli",
+        "papers": 1
+      },
+      {
+        "name": "A. Teng",
+        "papers": 1
+      },
+      {
+        "name": "A. S. Terada",
+        "papers": 1
+      },
+      {
+        "name": "W. V. O. Tikhomirov",
+        "papers": 1
+      },
+      {
+        "name": "A. Tipton",
+        "papers": 1
+      },
+      {
+        "name": "B. P. Titov",
+        "papers": 1
+      },
+      {
+        "name": "N. Toms",
+        "papers": 1
+      },
+      {
+        "name": "A. Tonoyan",
+        "papers": 1
+      },
+      {
+        "name": "B. Tovey",
+        "papers": 1
+      },
+      {
+        "name": "A. Tricoli",
+        "papers": 1
+      },
+      {
+        "name": "as M. Turala",
+        "papers": 1
+      },
+      {
+        "name": "L. M. Tyndel",
+        "papers": 1
+      },
+      {
+        "name": "as F. Ukegawa",
+        "papers": 1
+      },
+      {
+        "name": "aw M. Ullan Comes",
+        "papers": 1
+      },
+      {
+        "name": "A. Unno",
+        "papers": 1
+      },
+      {
+        "name": "W. V. Vacek",
+        "papers": 1
+      },
+      {
+        "name": "ar S. Valkar",
+        "papers": 1
+      },
+      {
+        "name": "A. Ferrer",
+        "papers": 1
+      },
+      {
+        "name": "A. V. Kraaij",
+        "papers": 1
+      },
+      {
+        "name": "A. Vanberg",
+        "papers": 1
+      },
+      {
+        "name": "an V. I. Vassilakopoulos",
+        "papers": 1
+      },
+      {
+        "name": "S. Vassilieva",
+        "papers": 1
+      },
+      {
+        "name": "ae T. Vickey",
+        "papers": 1
+      },
+      {
+        "name": "ba G. H. A. Viehhauser",
+        "papers": 1
+      },
+      {
+        "name": "Ambra Villani",
+        "papers": 1
+      },
+      {
+        "name": "as J. H. Vossebeld",
+        "papers": 1
+      },
+      {
+        "name": "Y. T. V. Anh",
+        "papers": 1
+      },
+      {
+        "name": "O. Wall",
+        "papers": 1
+      },
+      {
+        "name": "bb R. S. Wallny",
+        "papers": 1
+      },
+      {
+        "name": "I. Wang",
+        "papers": 1
+      },
+      {
+        "name": "M. Ward",
+        "papers": 1
+      },
+      {
+        "name": "H. R. Wastie",
+        "papers": 1
+      },
+      {
+        "name": "am M. Webel",
+        "papers": 1
+      },
+      {
+        "name": "N. M. Weber",
+        "papers": 1
+      },
+      {
+        "name": "A. R. Weidberg",
+        "papers": 1
+      },
+      {
+        "name": "am P. M. Weilhammer",
+        "papers": 1
+      },
+      {
+        "name": "I. Weiser",
+        "papers": 1
+      },
+      {
+        "name": "N. Wells",
+        "papers": 1
+      },
+      {
+        "name": "I. P. Werneke",
+        "papers": 1
+      },
+      {
+        "name": "Aimee White",
+        "papers": 1
+      },
+      {
+        "name": "H. D. Whittington",
+        "papers": 1
+      },
+      {
+        "name": "T. A. Wildauer",
+        "papers": 1
+      },
+      {
+        "name": "I. Wilhelm",
+        "papers": 1
+      },
+      {
+        "name": "Aquino Williams",
+        "papers": 1
+      },
+      {
+        "name": "an J. A. Wilson",
+        "papers": 1
+      },
+      {
+        "name": "D. Wolter",
+        "papers": 1
+      },
+      {
+        "name": "L. S. Wu",
+        "papers": 1
+      },
+      {
+        "name": "ba A. Zhelezko",
+        "papers": 1
+      },
+      {
+        "name": "A. F. H. Z. Zhuau",
+        "papers": 1
+      },
+      {
+        "name": "A. Zseneio",
         "papers": 1
       }
     ],
