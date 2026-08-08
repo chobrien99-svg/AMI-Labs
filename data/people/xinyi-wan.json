@@ -37,6 +37,48 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "bf756e911ebcc9b21f77395bb68e0a85db975e53",
+      "title": "StarVerus: LLM-Powered Multi-Agent Collaboration for Industrial Rust Code Verification Automation",
+      "year": 2026,
+      "venue": null,
+      "url": "https://doi.org/10.1145/3770855.3818485",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chao Jiang"
+        },
+        {
+          "slug": null,
+          "name": "Ding Wang"
+        },
+        {
+          "slug": null,
+          "name": "Dugang Liu"
+        },
+        {
+          "slug": null,
+          "name": "Zhiwu Xu"
+        },
+        {
+          "slug": null,
+          "name": "Cheng Wen"
+        },
+        {
+          "slug": null,
+          "name": "Zhong Ming"
+        },
+        {
+          "slug": null,
+          "name": "Yuwei Liu"
+        },
+        {
+          "slug": null,
+          "name": "Lin Huang"
+        }
+      ]
+    },
+    {
       "paperId": "220a20b046af83f448b405111d76c45168ae2421",
       "title": "KVerus: Scalable and Resilient Formal Verification Proof Generation for Rust Code",
       "year": 2026,
@@ -672,7 +714,7 @@
       "year": 2024,
       "venue": "International Conference on Learning Representations",
       "url": "https://www.semanticscholar.org/paper/fb48bffe6610ad544cb713af85b1579694dc4478",
-      "citationCount": 45,
+      "citationCount": 47,
       "coAuthors": [
         {
           "slug": "min-lin",
@@ -817,6 +859,10 @@
       },
       {
         "name": "Lin Huang",
+        "papers": 3
+      },
+      {
+        "name": "Yuwei Liu",
         "papers": 2
       },
       {
@@ -840,7 +886,27 @@
         "papers": 2
       },
       {
-        "name": "Yuwei Liu",
+        "name": "Chao Jiang",
+        "papers": 1
+      },
+      {
+        "name": "Ding Wang",
+        "papers": 1
+      },
+      {
+        "name": "Dugang Liu",
+        "papers": 1
+      },
+      {
+        "name": "Zhiwu Xu",
+        "papers": 1
+      },
+      {
+        "name": "Cheng Wen",
+        "papers": 1
+      },
+      {
+        "name": "Zhong Ming",
         "papers": 1
       },
       {

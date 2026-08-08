@@ -32,12 +32,46 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "211a73f11a8722d61f7cea91b2c52fd4f9aa2ff6",
+      "title": "Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/211a73f11a8722d61f7cea91b2c52fd4f9aa2ff6",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Junlin Han"
+        },
+        {
+          "slug": null,
+          "name": "Shengbang Tong"
+        },
+        {
+          "slug": null,
+          "name": "Minghao Chen"
+        },
+        {
+          "slug": null,
+          "name": "Philip H. S. Torr"
+        },
+        {
+          "slug": null,
+          "name": "Filippos Kokkinos"
+        },
+        {
+          "slug": null,
+          "name": "Mike Lewis"
+        }
+      ]
+    },
+    {
       "paperId": "acb718a8659640ac1258d3bd391ddd9f1f2d7251",
       "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276",
-      "citationCount": 21,
+      "citationCount": 22,
       "coAuthors": [
         {
           "slug": "john-nguyen",
@@ -219,7 +253,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2509.26625",
-      "citationCount": 23,
+      "citationCount": 24,
       "coAuthors": [
         {
           "slug": null,
@@ -253,7 +287,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 573,
+      "citationCount": 582,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -391,7 +425,7 @@
       "year": 2025,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.00042",
-      "citationCount": 66,
+      "citationCount": 67,
       "coAuthors": [
         {
           "slug": "michael-rabbat",
@@ -441,7 +475,7 @@
       "year": 2024,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.01579",
-      "citationCount": 220,
+      "citationCount": 221,
       "coAuthors": [
         {
           "slug": "michael-rabbat",
@@ -688,35 +722,35 @@
     {
       "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
-      "citationCount": 573,
+      "citationCount": 582,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985"
     },
     {
       "title": "MetaMorph: Multimodal Understanding and Generation via Instruction Tuning",
       "year": 2024,
-      "citationCount": 220,
+      "citationCount": 221,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.01579"
     },
     {
       "title": "Scaling Language-Free Visual Representation Learning",
       "year": 2025,
-      "citationCount": 66,
+      "citationCount": 67,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.00042"
     },
     {
       "title": "Learning to See Before Seeing: Demystifying LLM Visual Priors from Language Pre-training",
       "year": 2025,
-      "citationCount": 23,
+      "citationCount": 24,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2509.26625"
     },
     {
       "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
       "year": 2026,
-      "citationCount": 21,
+      "citationCount": 22,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276"
     }
@@ -801,18 +835,30 @@
       },
       {
         "name": "Shengbang Tong",
-        "papers": 4
+        "papers": 5
+      },
+      {
+        "name": "Junlin Han",
+        "papers": 3
       },
       {
         "name": "Nicolas Ballas",
         "papers": 3
       },
       {
-        "name": "Gaoyue Zhou",
+        "name": "Philip H. S. Torr",
         "papers": 2
       },
       {
-        "name": "Junlin Han",
+        "name": "Filippos Kokkinos",
+        "papers": 2
+      },
+      {
+        "name": "Mike Lewis",
+        "papers": 2
+      },
+      {
+        "name": "Gaoyue Zhou",
         "papers": 2
       },
       {
@@ -864,6 +910,10 @@
         "papers": 2
       },
       {
+        "name": "Minghao Chen",
+        "papers": 1
+      },
+      {
         "name": "Ellis Brown",
         "papers": 1
       },
@@ -889,10 +939,6 @@
       },
       {
         "name": "Marjan Ghazvininejad",
-        "papers": 1
-      },
-      {
-        "name": "Mike Lewis",
         "papers": 1
       },
       {
@@ -933,14 +979,6 @@
       },
       {
         "name": "Yufan Ren",
-        "papers": 1
-      },
-      {
-        "name": "Philip H. S. Torr",
-        "papers": 1
-      },
-      {
-        "name": "Filippos Kokkinos",
         "papers": 1
       },
       {
