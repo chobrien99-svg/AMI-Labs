@@ -116,6 +116,61 @@ async function fetchSanityArticles() {
   }
 }
 
+// ── new research (diff since last digest) ─────────────────────────────────────
+// research.json is a rolling, de-duplicated corpus keyed by Semantic Scholar
+// paperId. To surface "what's new since last week" we keep a small state file of
+// paperIds we've already reported and diff against it — this is robust to the
+// fetch pipeline back-filling old papers (which have old publicationDates but
+// only just entered the corpus) in a way a pure date-window filter is not.
+const SEEN_PATH = path.resolve(__dirname, "../data/research-digest-seen.json");
+const NEW_RESEARCH_MAX = 18; // cap how many we render; ALL current ids are still recorded as seen
+
+function loadResearchPapers() {
+  try {
+    const raw = JSON.parse(fs.readFileSync(path.resolve(__dirname, "../data/research.json"), "utf8"));
+    const papers = Array.isArray(raw) ? raw : raw.papers || raw.items || [];
+    return papers.filter((p) => p && p.paperId);
+  } catch (e) {
+    console.warn("Could not read research.json:", e.message);
+    return [];
+  }
+}
+
+function loadSeenIds(seenPath) {
+  try {
+    const raw = JSON.parse(fs.readFileSync(seenPath, "utf8"));
+    const ids = Array.isArray(raw) ? raw : raw.seenPaperIds || [];
+    return new Set(ids.filter(Boolean));
+  } catch {
+    return null; // no state file yet → first run
+  }
+}
+
+// Diff the corpus against the seen-set. First run seeds a baseline and reports
+// nothing (so the first real digest isn't a 600-paper dump). Every run returns
+// the union of previously-seen ids + all current ids to persist, so a paper is
+// never reported twice even if only a subset was rendered.
+function computeNewResearch(papers, seenPath, max = NEW_RESEARCH_MAX) {
+  const currentIds = papers.map((p) => p.paperId);
+  const seen = loadSeenIds(seenPath);
+  const isFirstRun = seen === null;
+  const nextSeen = new Set([...(seen || []), ...currentIds]);
+
+  let newResearch = [];
+  if (!isFirstRun) {
+    newResearch = papers
+      .filter((p) => !seen.has(p.paperId))
+      .sort((a, b) => String(b.publicationDate || "").localeCompare(String(a.publicationDate || "")))
+      .slice(0, max);
+  }
+  return { newResearch, nextSeen: [...nextSeen], isFirstRun };
+}
+
+function persistSeen(seenPath, ids) {
+  const payload = { seenPaperIds: [...ids].sort(), updatedAt: new Date().toISOString() };
+  fs.writeFileSync(seenPath, JSON.stringify(payload, null, 2));
+}
+
 // ── build HTML email ──────────────────────────────────────────────────────────
 // Palette + fonts mirror the site's "Instrument" design (app/instrument-theme.css,
 // app/home-instrument.css): ink canvas, paper body, blue + clay accents, serif
@@ -159,6 +214,32 @@ function articleRow(a) {
               <span style="font-family:${FZ.mono};color:${DZ.muted};font-size:11px;">${a.source || ""}${a.publishedAt ? ` &middot; ${a.publishedAt}` : ""}</span>${chip}
             </div>
             ${a.summary ? `<p style="color:${DZ.body};font-size:13px;line-height:1.55;margin:8px 0 0;">${a.summary.slice(0, 180)}${a.summary.length > 180 ? "…" : ""}</p>` : ""}
+          </td>
+        </tr></table>
+      </td>
+    </tr>`;
+}
+
+function researchRow(p) {
+  const accent = CAT.research || DZ.blue;
+  const team = (Array.isArray(p.teamAuthors) ? p.teamAuthors : [])
+    .map((t) => (t && t.name) || "")
+    .filter(Boolean);
+  const authorLine = team.length
+    ? team.slice(0, 4).join(", ") + (team.length > 4 ? ` +${team.length - 4}` : "")
+    : "";
+  const date = p.publicationDate || (p.year ? String(p.year) : "");
+  const meta = [authorLine, [p.venue, date].filter(Boolean).join(" · ")].filter(Boolean).join("  ·  ");
+  const tldr = p.tldr || "";
+  return `
+    <tr>
+      <td style="padding:14px 0;border-bottom:1px solid ${DZ.line};">
+        <table width="100%" cellpadding="0" cellspacing="0"><tr>
+          <td width="3" valign="top" style="padding-top:5px;"><div style="width:3px;height:34px;background:${accent};border-radius:2px;"></div></td>
+          <td style="padding-left:13px;">
+            <a href="${p.url}" style="font-family:${FZ.serif};color:${DZ.text};font-weight:500;text-decoration:none;font-size:15px;line-height:1.35;">${p.title}</a>
+            ${meta ? `<div style="margin-top:6px;"><span style="font-family:${FZ.mono};color:${DZ.muted};font-size:11px;">${meta}</span></div>` : ""}
+            ${tldr ? `<p style="color:${DZ.body};font-size:13px;line-height:1.55;margin:8px 0 0;">${tldr.slice(0, 200)}${tldr.length > 200 ? "…" : ""}</p>` : ""}
           </td>
         </tr></table>
       </td>
@@ -245,7 +326,7 @@ function briefingSection(b) {
 
 // ── fetch subscribers and send ────────────────────────────────────────────────
 
-function buildHtml(briefing, newArticles, newJobs) {
+function buildHtml(briefing, newArticles, newJobs, newResearch = []) {
   const weekLabel = new Date().toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
   return `<!DOCTYPE html>
 <html lang="en">
@@ -282,6 +363,14 @@ function buildHtml(briefing, newArticles, newJobs) {
         <tr><td style="padding:8px 36px 0;">
 
           ${briefing ? `<table width="100%" cellpadding="0" cellspacing="0">${briefingSection(briefing)}</table>` : ""}
+
+          ${newResearch.length > 0 ? `
+          <table width="100%" cellpadding="0" cellspacing="0">
+            <tr><td style="padding:26px 0 4px;">${sectionLabel("New Research")}</td></tr>
+            <tr><td style="padding:0 0 8px;"><p style="margin:0;font-family:${FZ.mono};font-size:11px;color:${DZ.muted};line-height:1.5;">Papers added to the research index this week, co-authored by AMI team members.</p></td></tr>
+            ${newResearch.map(researchRow).join("")}
+            <tr><td style="padding:12px 0 0;"><a href="${SITE_URL}/research" style="font-family:${FZ.mono};color:${DZ.blue};font-weight:600;text-decoration:none;font-size:12.5px;">Browse the full research index &rarr;</a></td></tr>
+          </table>` : ""}
 
           ${newArticles.length > 0 ? `
           <table width="100%" cellpadding="0" cellspacing="0">
@@ -341,14 +430,30 @@ async function main() {
   const newJobs = recentItems("jobs.json", "postedAt");
   const briefing = loadBriefing();
 
-  console.log(`Briefing: ${briefing ? "yes" : "no"}, Sanity articles: ${sanityArticles.length}, JSON articles: ${jsonArticles.length}, Jobs: ${newJobs.length}`);
+  // New research is best-effort: any failure yields an empty section and never
+  // blocks the digest, since this email goes to real subscribers.
+  let research = { newResearch: [], nextSeen: null, isFirstRun: false };
+  try {
+    research = computeNewResearch(loadResearchPapers(), SEEN_PATH);
+  } catch (e) {
+    console.warn("New-research diff failed:", e.message);
+  }
+  const newResearch = research.newResearch;
 
-  if (!briefing && newArticles.length === 0 && newJobs.length === 0) {
+  console.log(`Briefing: ${briefing ? "yes" : "no"}, Sanity articles: ${sanityArticles.length}, JSON articles: ${jsonArticles.length}, Jobs: ${newJobs.length}, New research: ${newResearch.length}${research.isFirstRun ? " (first run — baseline seeded)" : ""}`);
+
+  if (!briefing && newArticles.length === 0 && newJobs.length === 0 && newResearch.length === 0) {
+    // Even when skipping the email, persist the baseline on the very first run so
+    // the first real digest isn't a backfill dump of the entire corpus.
+    if (research.isFirstRun && research.nextSeen) {
+      try { persistSeen(SEEN_PATH, research.nextSeen); console.log("Seeded research baseline."); }
+      catch (e) { console.warn("Could not seed research baseline:", e.message); }
+    }
     console.log("Nothing new this week — skipping digest.");
     process.exit(0);
   }
 
-  const html = buildHtml(briefing, newArticles, newJobs);
+  const html = buildHtml(briefing, newArticles, newJobs, newResearch);
 
   // Fetch all contacts
   const contactsRes = await resend("GET", `/audiences/${AUDIENCE_ID}/contacts`);
@@ -386,6 +491,13 @@ async function main() {
     }
   }
 
+  // Record every current paperId as seen only after the send succeeded, so a
+  // failed send doesn't silently swallow this week's new papers.
+  if (research.nextSeen) {
+    try { persistSeen(SEEN_PATH, research.nextSeen); console.log(`Recorded ${research.nextSeen.length} seen paperIds.`); }
+    catch (e) { console.warn("Could not persist research state:", e.message); }
+  }
+
   console.log("Digest complete.");
 }
 
@@ -393,4 +505,4 @@ if (require.main === module) {
   main().catch((e) => { console.error(e); process.exit(1); });
 }
 
-module.exports = { buildHtml, articleRow, jobRow };
+module.exports = { buildHtml, articleRow, jobRow, researchRow, computeNewResearch, loadResearchPapers };

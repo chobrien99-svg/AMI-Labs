@@ -5,6 +5,9 @@ on:
     - cron: "0 9 * * 1"   # Every Monday at 9am UTC
   workflow_dispatch:        # Allow manual trigger
 
+permissions:
+  contents: write   # to commit data/research-digest-seen.json (the new-research diff state)
+
 jobs:
   send-digest:
     runs-on: ubuntu-latest
@@ -23,3 +26,15 @@ jobs:
           DIGEST_REPLY_TO: ${{ vars.DIGEST_REPLY_TO }}
           SANITY_API_READ_TOKEN: ${{ secrets.SANITY_API_READ_TOKEN }}
         run: node scripts/send-digest.js
+
+      - name: Commit new-research digest state
+        run: |
+          git config user.name "ami-news-bot"
+          git config user.email "bot@ami-labs.vercel.app"
+          git add data/research-digest-seen.json
+          if git diff --staged --quiet; then
+            echo "No research-state changes to commit."
+          else
+            git commit -m "chore: update weekly-digest research state [$(date -u +%Y-%m-%d)]"
+            git push
+          fi
