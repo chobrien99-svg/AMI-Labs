@@ -1066,21 +1066,21 @@
         }
       ]
     },
+   {
+  "title": "Brian Li's agentic evaluation work points to an emerging benchmark priority",
+  "category": "research",
+  "narrative": "The most technically specific GitHub signal comes from Brian Li, who contributed the majority of AMI-attributable commits. His activity in `EvolvingLMMs-Lab/lmms-eval` is notable for what he named the branches: `brian/feat/agentic-env-interface` and `brian/feat/agentic-game-minimal`. These are not incremental patches; they suggest Li is building out evaluation infrastructure for agentic, interactive environments within a multimodal LLM benchmark framework. That work sits at the intersection of evaluation methodology and the kind of embodied, action-taking AI that world-model approaches are meant to enable.\n\nThis is a thin signal — branch names and pull requests, not published results — but it is directionally consistent with the rest of the week's picture. If AMI's research agenda centers on world models and embodied agents, having team members actively developing the evaluation tooling for agentic multimodal systems is exactly the kind of preparatory infrastructure work you would expect to see.",
+  "evidence": [
     {
-      "title": "Brian Li's agentic evaluation work points to an emerging benchmark priority",
-      "category": "research",
-      "narrative": "The most technically specific GitHub signal comes from Brian Li, who contributed the majority of AMI-attributable commits. His activity in `EvolvingLMMs-Lab/lmms-eval` is notable for what he named the branches: `brian/feat/agentic-env-interface` and `brian/feat/agentic-game-minimal`. These are not incremental patches; they suggest Li is building out evaluation infrastructure for agentic, interactive environments within a multimodal LLM benchmark framework. That work sits at the intersection of evaluation methodology and the kind of embodied, action-taking AI that world-model approaches are meant to enable.\n\nThis is a thin signal — branch names and pull requests, not published results — but it is directionally consistent with the rest of the week's picture. If AMI's research agenda centers on world models and embodied agents, having team members actively developing the evaluation tooling for agentic multimodal systems is exactly the kind of preparatory infrastructure work you would expect to see.",
-      "evidence": [
-        {
-          "label": "Brian Li — agentic env interface branch",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval"
-        },
-        {
-          "label": "Brian Li — PR comment",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval/pull/1368#issuecomment-5143886462"
-        }
-        ]
+      "label": "Brian Li — agentic env interface branch",
+      "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval"
     },
+    {
+      "label": "Brian Li — PR comment",
+      "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval/pull/1368#issuecomment-5143886462"
+    }
+  ]
+},
     {
       "title": "The 'pure LLM' reframe is a rhetorical repositioning, not a retreat",
       "category": "research",
