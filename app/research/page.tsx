@@ -7,6 +7,7 @@ import ResearchClient, {
   type ResearchHighlight,
 } from "@/components/ResearchClient";
 import type { Briefing } from "@/components/ObservatoryBriefing";
+import { stripBriefingScaffolding } from "@/scripts/lib/strip-scaffolding";
 import { client } from "@/sanity/lib/client";
 import { researchHighlightsQuery } from "@/sanity/lib/queries";
 
@@ -51,15 +52,27 @@ export default async function ResearchPage() {
   const allPapers = (researchData as { papers?: ResearchPaper[] }).papers ?? [];
   const papers = allPapers.filter((p) => !isCoveredByHighlight(p, highlights)).slice(0, FEED_CAP);
 
-  // Attach the synthesis's "why it matters" notes to papers by matching evidence URLs.
+  // Attach the synthesis's "why it matters" notes to papers.
+  //
+  // A briefing thread's `evidence` is "sources that support this thread's
+  // argument", not "papers this narrative explains". So we only borrow a
+  // thread's narrative for a paper when the thread is genuinely *about that one
+  // paper* — i.e. it cites exactly one source and that source resolves to the
+  // paper. Thematic threads that cite several papers (or cite a paper only as
+  // tangential evidence) are left alone, so a paper never inherits a narrative
+  // that isn't specifically about it, and the same narrative is never duplicated
+  // across every paper a thread happens to touch. Any editorial scaffolding
+  // (e.g. an "Administrative note: …" preamble) is stripped before display.
   const briefing = synthesisData as unknown as Briefing;
   const notesByUrl: Record<string, string> = {};
   for (const thread of briefing.threads ?? []) {
     if (thread.category !== "research" || !thread.narrative) continue;
-    for (const e of thread.evidence ?? []) {
-      const key = normalizeUrl(e.url);
-      if (key && !notesByUrl[key]) notesByUrl[key] = thread.narrative;
-    }
+    const evidence = thread.evidence ?? [];
+    if (evidence.length !== 1) continue;
+    const key = normalizeUrl(evidence[0].url);
+    if (!key || notesByUrl[key]) continue;
+    const note = stripBriefingScaffolding(thread.narrative);
+    if (note) notesByUrl[key] = note;
   }
 
   return (

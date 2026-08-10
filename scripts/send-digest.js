@@ -10,6 +10,7 @@
 const https = require("https");
 const fs = require("fs");
 const path = require("path");
+const { stripBriefingScaffolding } = require("./lib/strip-scaffolding");
 
 const API_KEY = process.env.RESEND_API_KEY;
 const AUDIENCE_ID = process.env.RESEND_AUDIENCE_ID;
@@ -288,7 +289,7 @@ function briefingThread(t) {
   const ev = (t.evidence || [])
     .map((e) => `<a href="${e.url}" style="font-family:${FZ.mono};color:${DZ.blue};text-decoration:none;">${e.label}</a>`)
     .join(` <span style="color:${DZ.border};">&middot;</span> `);
-  const paras = String(t.narrative || "")
+  const paras = stripBriefingScaffolding(t.narrative)
     .split(/\n{2,}/)
     .map((p) => p.trim())
     .filter(Boolean)

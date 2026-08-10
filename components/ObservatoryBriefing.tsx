@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { stripBriefingScaffolding } from "@/scripts/lib/strip-scaffolding";
 
 export interface BriefingEvidence {
   label: string;
@@ -73,7 +74,7 @@ function Thread({ thread }: { thread: BriefingThread }) {
           {thread.category}
         </span>
       </div>
-      {thread.narrative
+      {stripBriefingScaffolding(thread.narrative)
         .split(/\n{2,}/)
         .map((para) => para.trim())
         .filter(Boolean)
