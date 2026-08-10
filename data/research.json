@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T03:22:35.588Z",
+  "generatedAt": "2026-08-10T05:19:48.653Z",
   "papers": [
     {
       "paperId": "bf756e911ebcc9b21f77395bb68e0a85db975e53",
@@ -13,7 +13,7 @@
       "authors": [
         {
           "name": "Chao Jiang",
-          "authorId": null,
+          "authorId": "145755239",
           "slug": null
         },
         {
@@ -28,7 +28,7 @@
         },
         {
           "name": "Zhiwu Xu",
-          "authorId": null,
+          "authorId": "2290622075",
           "slug": null
         },
         {
@@ -43,7 +43,7 @@
         },
         {
           "name": "Yuwei Liu",
-          "authorId": null,
+          "authorId": "2108398591",
           "slug": null
         },
         {
@@ -59,13 +59,13 @@
       ],
       "memberSlug": "xinyi-wan",
       "memberName": "Xinyi Wan",
-      "publicationDate": "2026-08-09",
+      "publicationDate": "2026-08-08",
       "year": 2026,
-      "venue": null,
+      "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
       "url": "https://doi.org/10.1145/3770855.3818485",
       "citationCount": 0,
       "tldr": "A multi-agent collaborative framework, StarVerus, to automate the verification of industrial Rust code and introduces a planner-repairer-actor-rewriter multi-agent paradigm to further enhance the proof repair capabilities.",
-      "abstract": null
+      "abstract": "Creating code specifications is a crucial measure to improve the trustworthiness of many industrial systems implemented in Rust with high security requirements. Because writing specifications requires highly specialized professionals and is time-consuming, the automatic generation of specifications, enabled by large language models (LLMs), has received increasing attention and shown promising results. However, these methods typically focus on partial specification generation (generating proofs after the contract is known) and on extracting dependencies between code modules using predefined relations. This is not suitable for real-world industrial systems where the goal is to generate complete specifications from scratch and where the complex dependencies between code modules are variable. To address this, we propose a multi-agent collaborative framework, StarVerus, to automate the verification of industrial Rust code. Specifically, StarVerus addresses the aforementioned limitations in two ways: 1) In the generation phase, it instructs the LLM to generate all specifications for a given code, and in the repair phase, it uses a cascaded two-stage process of contract alignment and proo"
     },
     {
       "paperId": "211a73f11a8722d61f7cea91b2c52fd4f9aa2ff6",
@@ -599,6 +599,56 @@
       "citationCount": 2,
       "tldr": null,
       "abstract": ","
+    },
+    {
+      "paperId": "7d909170d91e1b35b4b9a8ac01731d7aed2cd53e",
+      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
+      "teamAuthors": [
+        {
+          "slug": "quentin-le-lidec",
+          "name": "Quentin Le Lidec"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Heejeong Nam",
+          "authorId": "2331777662",
+          "slug": null
+        },
+        {
+          "name": "Quentin Le Lidec",
+          "authorId": "2133323688",
+          "slug": "quentin-le-lidec"
+        },
+        {
+          "name": "Lucas Maes",
+          "authorId": "2394164966",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Randall Balestriero",
+          "authorId": "2277741253",
+          "slug": null
+        }
+      ],
+      "memberSlug": "quentin-le-lidec",
+      "memberName": "Quentin Le Lidec",
+      "publicationDate": null,
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.11389",
+      "citationCount": 22,
+      "tldr": "C-JEPA is a simple and flexible object-centric world model that extends masked joint embedding prediction from image patches to object-centric representations and induces latent interventions with counterfactual-like effects and prevents shortcut solutions, making interaction reasoning essential.",
+      "abstract": null
     },
     {
       "paperId": "d503a7f08b8333f96cb6298085b96cb87f3fea4c",
@@ -3126,56 +3176,6 @@
       "abstract": "Scientific abstracts and lay summaries serve distinct but critical roles in research communication. Abstracts use technical language for academic audiences, while lay summaries aim to make findings accessible to non-specialists. With the rise of large language models (LLMs), there is increasing interest in automating the generation of both types of sum-maries—especially in the biomedical domain, where clarity and factual accuracy are essential. This study evaluates the performance of lightweight LLMs (under 8B parameters) in generating biomedical abstracts and lay summaries in a zero-shot setting. We assess outputs across three key dimensions: relevance, read-ability, and factuality. Additionally, we introduce a novel analysis of the sectional origin and desirability of information—where desirability reflects the utility of content from the reader’s perspective. We further compare human and LLM preferences using an objective ranking task. Our results show that LLM-generated summaries often contain comparable levels of desirable information to gold-standard human references. In several cases, LLM outputs are preferred by human evaluators and occasionally mistaken for human-authored "
     },
     {
-      "paperId": "7d909170d91e1b35b4b9a8ac01731d7aed2cd53e",
-      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
-      "teamAuthors": [
-        {
-          "slug": "quentin-le-lidec",
-          "name": "Quentin Le Lidec"
-        },
-        {
-          "slug": "yann-lecun",
-          "name": "Yann LeCun"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Heejeong Nam",
-          "authorId": "2331777662",
-          "slug": null
-        },
-        {
-          "name": "Quentin Le Lidec",
-          "authorId": "2133323688",
-          "slug": "quentin-le-lidec"
-        },
-        {
-          "name": "Lucas Maes",
-          "authorId": "2394164966",
-          "slug": null
-        },
-        {
-          "name": "Yann LeCun",
-          "authorId": "2270469816",
-          "slug": "yann-lecun"
-        },
-        {
-          "name": "Randall Balestriero",
-          "authorId": "2277741253",
-          "slug": null
-        }
-      ],
-      "memberSlug": "quentin-le-lidec",
-      "memberName": "Quentin Le Lidec",
-      "publicationDate": null,
-      "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.11389",
-      "citationCount": 22,
-      "tldr": "C-JEPA is a simple and flexible object-centric world model that extends masked joint embedding prediction from image patches to object-centric representations and induces latent interventions with counterfactual-like effects and prevents shortcut solutions, making interaction reasoning essential.",
-      "abstract": null
-    },
-    {
       "paperId": "35f8de974adebb5e036af5f4524d8358ef1f0171",
       "title": "An investigation of ultraviolet-induced degradation: Kinetics and interface evolution in TOPCon solar cells",
       "teamAuthors": [
@@ -3331,8 +3331,8 @@
       "memberName": "Yann LeCun",
       "publicationDate": "2026-06-30",
       "year": 2026,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/6a2f658d6ea2d3a1f2d03b11d0cce65e9881bd96",
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2606.32026",
       "citationCount": 1,
       "tldr": "AdaJEPA is an adaptive latent world model that performs test-time adaptation within the closed loop of model predictive control (MPC), and substantially improves planning success with as few as one gradient step per MPC replanning step.",
       "abstract": "Latent world models enable planning from high-dimensional observations by predicting future states in a compact latent space. However, these models are typically kept frozen at test time: when their predictions become inaccurate, planning can fail, especially under test-time distribution shift. To address this, we propose AdaJEPA, an adaptive latent world model that performs test-time adaptation within the closed loop of model predictive control (MPC). After training, AdaJEPA plans and executes the first action chunk, uses the observed next-state transition as a self-supervised adaptation signal, and replans with the updated model. This closed-loop update continuously recalibrates the world model without additional expert demonstrations. Across a range of goal-reaching tasks, AdaJEPA substantially improves planning success with as few as one gradient step per MPC replanning step."
@@ -3386,8 +3386,8 @@
       "memberName": "Adrien Bardes",
       "publicationDate": "2026-06-23",
       "year": 2026,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/bbb2fba52c4d7d3b29f58a5e136d012acdc2010d",
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2606.25225",
       "citationCount": 0,
       "tldr": "This work introduces MJEPA, a joint-embedding predictive architecture for audio-visual learning that uses a single, unified encoder for both modalities, and shows that cross-modal prediction is critical: without it, a shared encoder degrades below unimodal baselines; with it, each modality's representation benefits from the other.",
       "abstract": "Self-supervised learning from large-scale video data has emerged as a dominant paradigm for visual representation learning. Since audio and visual streams naturally co-occur in video data, extending this success to jointly learn from both modalities is a natural next step, yet it remains challenging. Existing audio-visual self-supervised methods rely on modality-specific encoders and complex combinations of contrastive or reconstruction objectives, limiting cross-modal synergy and scalability. Joint Embedding Predictive Architectures (JEPAs) offer a simple, modality-agnostic alternative, but have to date been applied primarily to individual modalities. We introduce MJEPA, a joint-embedding predictive architecture for audio-visual learning that uses a single, unified encoder for both modalities. Our approach uses only a single predictive objective, applied both within and across modalities. We show that cross-modal prediction is critical: without it, a shared encoder degrades below unimodal baselines; with it, each modality's representation benefits from the other. Our frozen ViT-g model outperforms the best prior frozen baseline by over 6.8 mAP on AudioSet-20K, surpasses fully fine"
@@ -3432,8 +3432,8 @@
       "memberName": "Yann LeCun",
       "publicationDate": "2026-06-22",
       "year": 2026,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/41620e8f40ae6f6103a3c1d4eab59f5830c963dd",
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2606.23444",
       "citationCount": 5,
       "tldr": "The JEPA-style model for real-time quadrotor control is introduced, which combines a latent dynamics model with a novel physics-inspired prober that maps frozen latents to interpretable state, enabling physically grounded long-horizon prediction.",
       "abstract": "Accurate dynamics models are critical for informed decision-making in robotic systems, particularly for agile aerial vehicles operating under uncertainty. Neural network dynamics models are attractive for capturing complex nonlinear effects, but existing predictive approaches struggle with long-horizon forecasting because their autoregressive rollout mechanism amplifies errors over time. Joint Embedding Predictive Architectures (JEPAs) offer a compelling alternative by modeling dynamics in latent space, yet prior JEPA-style methods for robot navigation have been studied primarily for kinematic-level planning, with limited investigation in high-frequency control. In this work, we introduce the JEPA-style model for real-time quadrotor control. The proposed approach combines a latent dynamics model with a novel physics-inspired prober that maps frozen latents to interpretable state, enabling physically grounded long-horizon prediction. Additionally, we combine the learned model with a sampling-based optimal control solution to take advantage of its predictive capabilities for real-time control on embedded hardware. Finally, to reduce the dependence on expensive and unsafe real-world d"
@@ -3469,8 +3469,8 @@
           "slug": "julia-kempe"
         },
         {
-          "name": "Nati Srebro",
-          "authorId": "123763200",
+          "name": "Nathan Srebro",
+          "authorId": "2305597463",
           "slug": null
         }
       ],
@@ -3478,8 +3478,8 @@
       "memberName": "Julia Kempe",
       "publicationDate": "2026-06-18",
       "year": 2026,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/31e6e9e341f8e8152c9f633b5838c585853feb1b",
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2606.20937",
       "citationCount": 0,
       "tldr": "This work provides the first provable analysis of successful internalization: for the task of learning parities, it is shown that a simplified one-layer transformer provably first learns the target with explicit CoT supervision and then internalizes the autoregressive generation as CoT tokens are progressively removed, learning to directly compute the parity.",
       "abstract": "We study internalization processes, by which neural-network-based systems absorb an explicit computational procedure into their own weights, and how they facilitate learning. We investigate how transformers internalize the simulation of semiautomata by internalizing chain-of-thought (CoT) tokens, which classes of semiautomata are harder to internalize, and expose the flip side of internalization, that is, a progressive degradation of out-of-distribution performance. We then provide the first provable analysis of successful internalization: for the task of learning parities, we show that a simplified one-layer transformer provably first learns the target with explicit CoT supervision and then internalizes the autoregressive generation as CoT tokens are progressively removed, learning to directly compute the parity. This task is computationally hard to learn from data without CoT supervision. Finally, we discuss how learning through internalization relates to the \\textit{Positive Distribution Shift} phenomenon recently introduced by~\\citet{Med+26}."
@@ -3539,8 +3539,8 @@
       "memberName": "Yann LeCun",
       "publicationDate": "2026-06-17",
       "year": 2026,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/54f505d19d73e12d3642a9a82cd4851235edf043",
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2606.19398",
       "citationCount": 0,
       "tldr": "S-JEPA is introduced, a JEPA-style encoder-predictor pair trained to match the soft posteriors of a Gaussian Mixture Model at masked positions via KL divergence, establishing a new Pareto frontier without offline re-clustering or teacher distillation.",
       "abstract": "Self-supervised speech encoders are predominantly trained by predicting discrete hard cluster IDs at masked positions, a recipe that collapses acoustic ambiguity at category boundaries and requires interrupting training to re-cluster the entire corpus between iterations. We introduce S-JEPA, a JEPA-style encoder-predictor pair trained to match the soft posteriors of a Gaussian Mixture Model at masked positions via KL divergence. Training runs as one continuous optimization trajectory in two phases: a fixed GMM over MFCC features, then an online GMM over encoder features, with the input layer selected adaptively from a label-free signal, removing both the offline re-cluster step and the hand-tuned choice of which transformer layer to cluster on. Under the SUPERB protocol, S-JEPA achieves the lowest WER among evaluated SSL methods below 90M parameters and matches HuBERT-Base on emotion recognition at roughly half its parameter count, establishing a new Pareto frontier without offline re-clustering or teacher distillation. An analysis of the predictor's per-frame entropy on held-out speech reveals a bimodal distribution with a substantial minority of frames near the entropy of a perfe"
@@ -3585,8 +3585,8 @@
       "memberName": "Tengyu Ma",
       "publicationDate": "2026-06-15",
       "year": 2026,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/d90159d04db78db63e04ebd03a8d65f985b5eb85",
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2606.16899",
       "citationCount": 4,
       "tldr": "Hyperball is a simple optimizer wrapper that improves learning rate transfer across widths and depths compared to decoupled weight decay, motivated by prior theory showing that training with weight decay leads to an equilibrium weight norm that only depends on the training hyperparameters.",
       "abstract": "Matrix based optimizers such as Muon can substantially speed up language model pretraining, but their gains over AdamW are observed to shrink as model size and data scale grow when using standard constant decoupled weight decay. We propose Hyperball, a simple optimizer wrapper that addresses this issue. Given a base optimizer such as Adam or Muon, Hyperball sets the Frobenius norms of weight matrices and their corresponding optimizer updates to fixed constants. On Qwen3 style models up to 1.2B parameters, Muon Hyperball achieves 20--30% token equivalent speedup over weight decay baselines. Hyperball also improves learning rate transfer across widths and depths compared to decoupled weight decay. This method is motivated by prior theory showing that training with weight decay leads to an equilibrium weight norm that only depends on the training hyperparameters. Through this mechanism, the weight decay then decides the angular learning rate, i.e. how fast the direction of the weight matrix changes."
@@ -3626,8 +3626,8 @@
       "memberName": "Yann LeCun",
       "publicationDate": "2026-06-14",
       "year": 2026,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/69b2f3313b31ea5592f6242f2a517b84011f9f24",
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2606.15956",
       "citationCount": 3,
       "tldr": "Temporal Difference in Vision (TDV) is introduced, a new paradigm for self-supervised learning from video that avoids existing inductive biases, relying instead on a causal assumption that the past causes the future.",
       "abstract": "Progress in AI has largely been driven by methods that assume less. As compute and data increase, approaches with weaker inductive biases generally outperform those with stronger assumptions. This is particularly characteristic of the field of Visual Representation Learning, where approaches have gone from being dominated by Supervised Learning, to Weakly Supervised Learning, to the now widespread success of Self-Supervised Learning without human labels. Yet, even modern Self-Supervised Learning approaches still depend on strong inductive biases such as augmentations, masking, or cropping. If this trend holds, even these remaining biases should become bottlenecks at scale -- and our experiments confirm this: the optimal strength of inductive biases decreases as data grows. This motivates the search for approaches that rely on fewer assumptions. To this end, we introduce Temporal Difference in Vision (TDV), a new paradigm for self-supervised learning from video that avoids existing inductive biases, relying instead on a causal assumption that the past causes the future. TDV functions by jointly training an image encoder and a motion encoder so that the current frame's representation"
@@ -3667,8 +3667,8 @@
       "memberName": "Yann LeCun",
       "publicationDate": "2026-06-07",
       "year": 2026,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/e218c1a1fcba59c463082f9a1824ebeecae50f65",
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2606.08775",
       "citationCount": 1,
       "tldr": "Evaluated across several robotics benchmarks, WorldDP consistently outperforms existing baselines, validating that coupling the world model's physically grounded planning with diffusion policy's efficient execution yields superior multi-stage performance.",
       "abstract": "Visual world models have shown great potential in learning complex system dynamics. Recent advancements leverage these models as transition functions within Model Predictive Control (MPC) frameworks to solve various control tasks. When applied to robotics, however, they are limited to single-stage tasks such as reaching or grasping, and struggle with multi-stage ones that demand complex sequential planning. In this work, we introduce WorldDP, a world model framework designed for multi-stage robotic manipulation. Our hierarchical approach utilizes a high-level world model as a transition function to optimize for feasible subgoals during runtime, which are subsequently reached by a low-level Diffusion Policy. To further aid in learning dynamics and planning, we incorporate object-centric representations that decouple environmental entities and enable us to plan sequentially with respect to each. Evaluated across several robotics benchmarks, WorldDP consistently outperforms existing baselines, validating that coupling the world model's physically grounded planning with diffusion policy's efficient execution yields superior multi-stage performance."
@@ -3812,6 +3812,67 @@
       "abstract": "Despite remarkable progress in Multimodal Large Language Models (MLLMs), these models still struggle with fine-grained understanding tasks. In this work, we propose Procedurally Generated Tasks (PGT), a simple data-driven framework that serves a dual purpose: inducing fine-grained visual understanding and acting as a low-cost diagnostic tool to identify the source of perception failures. By overlaying unambiguous geometric primitives on images, PGT generate additional dense supervision that disentangles visual grounding capability from semantic priors. Extensive experiments on relational, quantitative, and 3D/depth understanding benchmarks show that PGT yields remarkable gains across diverse architectures. Instruction tuning MLLMs on LLaVA-v1.5-Instruct augmented with PGT data results in improvements of up to +20% on the What'sUp benchmark and +13.3% on CV-Bench-2D, while maintaining general perception capabilities. Moreover, finetuning state-of-the-art MLLMs on PGT data leads to boosts of up to +5.5% on What'sUp and +8.3% on CV-Bench-2D. These findings demonstrate that PGT effectively address the bottleneck of fine-grained perception, revealing that many spatial reasoning deficits"
     },
     {
+      "paperId": "20ba4363b7275178aaca520f9f16b39dad3a87d0",
+      "title": "Announcing the Shaw Prize in Computer Science",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Jennifer T. Chayes",
+          "authorId": "2374227632",
+          "slug": null
+        },
+        {
+          "name": "T. F. Chan",
+          "authorId": "2067967062",
+          "slug": null
+        },
+        {
+          "name": "Jack J. Dongarra",
+          "authorId": "2267216686",
+          "slug": null
+        },
+        {
+          "name": "John L. Hennessy",
+          "authorId": "2328138947",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "1688882",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Harry Shum",
+          "authorId": "2342287808",
+          "slug": null
+        },
+        {
+          "name": "Joseph Sifakis",
+          "authorId": "2256520183",
+          "slug": null
+        },
+        {
+          "name": "Jeannette M. Wing",
+          "authorId": "2272152313",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-05-21",
+      "year": 2026,
+      "venue": "Communications of the ACM",
+      "url": "https://doi.org/10.1145/3811413",
+      "citationCount": 0,
+      "tldr": null,
+      "abstract": "Nominations for this new prize will be invited September to November 2026."
+    },
+    {
       "paperId": "98bfd032ec0208cadd3a5deb9f34d4b228736599",
       "title": "Cambrian-P: Pose-Grounded Video Understanding",
       "teamAuthors": [
@@ -3875,67 +3936,6 @@
       "citationCount": 0,
       "tldr": "Cambrian-P is revisited as a lightweight supervisory signal and Cambrian-P, a video MLLM augmented with per-frame learnable camera tokens and a pose regression head is introduced, which achieves substantial gains on spatial reasoning benchmarks and achieves state of the art streaming pose estimation on ScanNet.",
       "abstract": "Camera pose matters. The position and orientation of each viewpoint define a shared spatial coordinate frame that relates observations across video frames. Yet this signal is largely absent from multimodal LLMs (MLLMs) for video understanding, which process frames as isolated 2D snapshots, instead of the persistent scene humans perceive. We revisit pose as a lightweight supervisory signal and introduce Cambrian-P, a video MLLM augmented with per-frame learnable camera tokens and a pose regression head. With a carefully designed sampling scheme, the model achieves substantial gains of 4.5-6.5% on spatial reasoning benchmarks such as VSI-Bench, generalizes across eight additional spatial and general video QA benchmarks, and, as a byproduct, achieves state of the art streaming pose estimation on ScanNet. Surprisingly, training on pseudo-annotated poses from in-the-wild video further improves general video QA benchmarks, showing pose helps beyond spatial reasoning. Together, these results position camera pose as a fundamental signal for video models that reason about the physical world."
-    },
-    {
-      "paperId": "20ba4363b7275178aaca520f9f16b39dad3a87d0",
-      "title": "Announcing the Shaw Prize in Computer Science",
-      "teamAuthors": [
-        {
-          "slug": "yann-lecun",
-          "name": "Yann LeCun"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Jennifer T. Chayes",
-          "authorId": "2374227632",
-          "slug": null
-        },
-        {
-          "name": "T. F. Chan",
-          "authorId": "2067967062",
-          "slug": null
-        },
-        {
-          "name": "Jack J. Dongarra",
-          "authorId": "2267216686",
-          "slug": null
-        },
-        {
-          "name": "John L. Hennessy",
-          "authorId": "2328138947",
-          "slug": null
-        },
-        {
-          "name": "Yann LeCun",
-          "authorId": "1688882",
-          "slug": "yann-lecun"
-        },
-        {
-          "name": "Harry Shum",
-          "authorId": "2342287808",
-          "slug": null
-        },
-        {
-          "name": "Joseph Sifakis",
-          "authorId": "2256520183",
-          "slug": null
-        },
-        {
-          "name": "Jeannette M. Wing",
-          "authorId": "2272152313",
-          "slug": null
-        }
-      ],
-      "memberSlug": "yann-lecun",
-      "memberName": "Yann LeCun",
-      "publicationDate": "2026-05-21",
-      "year": 2026,
-      "venue": "Communications of the ACM",
-      "url": "https://doi.org/10.1145/3811413",
-      "citationCount": 0,
-      "tldr": null,
-      "abstract": "Nominations for this new prize will be invited September to November 2026."
     },
     {
       "paperId": "8d62bb68ffa636edd5b72a8fc8fcd99f37aeb836",
@@ -5623,7 +5623,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.15922",
-      "citationCount": 238,
+      "citationCount": 237,
       "tldr": "DreamZero, a World Action Model (WAM) built upon a pretrained video diffusion backbone, is introduced, a World Action Model (WAM) built upon a pretrained video diffusion backbone that enables few-shot embodiment adaptation and enables few-shot embodiment adaptation.",
       "abstract": "State-of-the-art Vision-Language-Action (VLA) models excel at semantic generalization but struggle to generalize to unseen physical motions in novel environments. We introduce DreamZero, a World Action Model (WAM) built upon a pretrained video diffusion backbone. Unlike VLAs, WAMs learn physical dynamics by predicting future world states and actions, using video as a dense representation of how the world evolves. By jointly modeling video and action, DreamZero learns diverse skills effectively from heterogeneous robot data without relying on repetitive demonstrations. This results in over 2x improvement in generalization to new tasks and environments compared to state-of-the-art VLAs in real robot experiments. Crucially, through model and system optimizations, we enable a 14B autoregressive video diffusion model to perform real-time closed-loop control at 7Hz. Finally, we demonstrate two forms of cross-embodiment transfer: video-only demonstrations from other robots or humans yield a relative improvement of over 42% on unseen task performance with just 10-20 minutes of data. More surprisingly, DreamZero enables few-shot embodiment adaptation, transferring to a new embodiment with o"
     },
@@ -6886,8 +6886,8 @@
           "slug": "saining-xie"
         }
       ],
-      "memberSlug": "jihan-yang",
-      "memberName": "Jihan Yang",
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
       "publicationDate": "2026-01-22",
       "year": 2026,
       "venue": "arXiv.org",
@@ -9615,7 +9615,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.05230",
-      "citationCount": 33,
+      "citationCount": 34,
       "tldr": "This work is able to train a controller that maps known actions to latent ones, allowing us to use latent actions as a universal interface and solve planning tasks with the authors' world model with similar performance as action-conditioned baselines.",
       "abstract": "Agents capable of reasoning and planning in the real world require the ability of predicting the consequences of their actions. While world models possess this capability, they most often require action labels, that can be complex to obtain at scale. This motivates the learning of latent action models, that can learn an action space from videos alone. Our work addresses the problem of learning latent actions world models on in-the-wild videos, expanding the scope of existing works that focus on simple robotics simulations, video games, or manipulation data. While this allows us to capture richer actions, it also introduces challenges stemming from the video diversity, such as environmental noise, or the lack of a common embodiment across videos. To address some of the challenges, we discuss properties that actions should follow as well as relevant architectural choices and evaluations. We find that continuous, but constrained, latent actions are able to capture the complexity of actions from in-the-wild videos, something that the common vector quantization does not. We for example find that changes in the environment coming from agents, such as humans entering the room, can be tran"
     },
@@ -12350,7 +12350,7 @@
       "year": 2025,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/088a45338d45f05f6a7460fb152615fb96150f6e",
-      "citationCount": 15,
+      "citationCount": 16,
       "tldr": "DexWM, a Dexterous Interaction World Model that predicts future latent states of the environment conditioned on past states and dexterous actions, is introduced and demonstrates strong zero-shot transfer to unseen skills on a Franka Panda arm with an Allegro gripper.",
       "abstract": "Modeling dexterous hand-object interactions is challenging as it requires understanding how subtle finger motions influence the environment through contact with objects. While recent world models address interaction modeling, they typically rely on coarse action spaces that fail to capture fine-grained dexterity. We, therefore, introduce DexWM, a Dexterous Interaction World Model that predicts future latent states of the environment conditioned on past states and dexterous actions. To overcome the scarcity of finely annotated dexterous datasets, DexWM represents actions using finger keypoints extracted from egocentric videos, enabling training on over 900 hours of human and non-dexterous robot data. Further, to accurately model dexterity, we find that predicting visual features alone is insufficient; therefore, we incorporate an auxiliary hand consistency loss that enforces accurate hand configurations. DexWM outperforms prior world models conditioned on text, navigation, or full-body actions in future-state prediction and demonstrates strong zero-shot transfer to unseen skills on a Franka Panda arm with an Allegro gripper, surpassing Diffusion Policy by over 50% on average across "
     },
@@ -13284,7 +13284,7 @@
       "year": 2025,
       "venue": "Symposium on Operating Systems Principles",
       "url": "https://doi.org/10.1145/3731569.3764836",
-      "citationCount": 6,
+      "citationCount": 7,
       "tldr": "The key insight is that most OSes no longer need the software-level abstraction, since mainstream ISAs use nearly identical hardware MMU formats, and therefore, departing from prior designs, CortenMM eliminates the software-level abstraction to achieve sweeping simplicity.",
       "abstract": "Modern memory management systems suffer from poor performance and subtle concurrency bugs, slowing down applications while introducing security vulnerabilities. We observe that both issues stem from the conventional design of memory management systems with two levels of abstraction: a software-level abstraction (e.g., VMA trees in Linux) and a hardware-level abstraction (typically, page tables). This design increases portability but requires correctly and efficiently synchronizing two drastically different and complex data structures, which is generally challenging. We present CortenMM, a memory management system with a clean-slate design to achieve both high performance and synchronization correctness. Our key insight is that most OSes no longer need the software-level abstraction, since mainstream ISAs use nearly identical hardware MMU formats. Therefore, departing from prior designs, CortenMM eliminates the software-level abstraction to achieve sweeping simplicity. Exploiting this simplicity, CortenMM proposes a transactional interface with scalable locking protocols to program the MMU, achieving high performance by avoiding the extra contention in the software-level abstraction"
     },
@@ -16784,6 +16784,194 @@
       "citationCount": 0,
       "tldr": null,
       "abstract": null
+    },
+    {
+      "paperId": "2268d5094a7baad2fb680584465c5584fb195587",
+      "title": "Training compute-optimal transformer encoder models",
+      "teamAuthors": [
+        {
+          "slug": "megi-dervishi",
+          "name": "Megi Dervishi"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Megi Dervishi",
+          "authorId": "2113964327",
+          "slug": "megi-dervishi"
+        },
+        {
+          "name": "Alexandre Allauzen",
+          "authorId": "2260025800",
+          "slug": null
+        },
+        {
+          "name": "Gabriel Synnaeve",
+          "authorId": "2282478",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2265899558",
+          "slug": "yann-lecun"
+        }
+      ],
+      "memberSlug": "megi-dervishi",
+      "memberName": "Megi Dervishi",
+      "publicationDate": null,
+      "year": 2025,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.18653/v1/2025.emnlp-main.1804",
+      "citationCount": 6,
+      "tldr": null,
+      "abstract": ","
+    },
+    {
+      "paperId": "927498a8ccc57dc94e9654099c64d060aba5f4f8",
+      "title": "Self-supervised learning beyond invariant image representations. (Apprentissage auto-supervisé au-delà de représentations invariantes d'images)",
+      "teamAuthors": [
+        {
+          "slug": "quentin-garrido",
+          "name": "Quentin Garrido"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Q. Garrido",
+          "authorId": "2048163343",
+          "slug": "quentin-garrido"
+        }
+      ],
+      "memberSlug": "quentin-garrido",
+      "memberName": "Quentin Garrido",
+      "publicationDate": null,
+      "year": 2025,
+      "venue": null,
+      "url": "https://doi.org/10.70675/ac2d4d52z596fz4742z8a22zbc1504a44a90",
+      "citationCount": 0,
+      "tldr": null,
+      "abstract": "\n Afin de construire des systèmes d'intelligence artificielle puissants, les chercheurs se sont inspirés de systèmes intelligents existants, à savoir les humains et les animaux. Cela peut être fait architecturalement ou en essayant de reproduire certaines capacités. Par exemple, les humains peuvent s'adapter à de nouvelles tâches rapidement ou apprendre sans supervision. Cependant, les systèmes d'apprentissage profond échouent souvent de manière spectaculaire dans des tâches qui sont faciles pour les humains, comme illustré par le paradoxe de Moravec. Au cours des dernières années, le domaine de l'apprentissage auto-supervisé a fait des progrès dans l'apprentissage de systèmes d'IA capables d'apprendre à partir d'observations seules et de s'adapter à de nouvelles tâches, deux propriétés très souhaitables. Cela est réalisé en apprenant un espace de représentation abstrait le plus sémantique possible. Cependant, la plupart des progrès ont été faits avec des architectures siamoises pour apprendre des représentations d'images invariantes à un ensemble de transformations. Cette thèse vise à étudier trois aspects de l'apprentissage auto-supervisé. Dans une première partie, nous étudions "
+    },
+    {
+      "paperId": "751ef04264d661f6a59e49f3fbd181ac46ef5eed",
+      "title": "Asteria: Semantic-Aware Cross-Region Caching for Agentic LLM Tool Access",
+      "teamAuthors": [
+        {
+          "slug": "xinyi-wan",
+          "name": "Xinyi Wan"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Chaoyi Ruan",
+          "authorId": "51510890",
+          "slug": null
+        },
+        {
+          "name": "Chao Bi",
+          "authorId": "2187312290",
+          "slug": null
+        },
+        {
+          "name": "Kaiwen Zheng",
+          "authorId": "2329191804",
+          "slug": null
+        },
+        {
+          "name": "Ziji Shi",
+          "authorId": "2110010038",
+          "slug": null
+        },
+        {
+          "name": "Xinyi Wan",
+          "authorId": "2280067114",
+          "slug": "xinyi-wan"
+        },
+        {
+          "name": "Jialin Li",
+          "authorId": "2381557755",
+          "slug": null
+        }
+      ],
+      "memberSlug": "xinyi-wan",
+      "memberName": "Xinyi Wan",
+      "publicationDate": null,
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.17360",
+      "citationCount": 2,
+      "tldr": "Asteria is introduced, a novel cross-region knowledge caching architecture for LLM agents that achieves up to a 3.6 × increase in throughput by maintaining cache hit rates of over 85%, while preserving accuracy virtually identical to non-cached baselines.",
+      "abstract": null
+    },
+    {
+      "paperId": "a990b37c970a48b71533db1f49f51310a07755cb",
+      "title": "ZeCO: Zero Communication Overhead Sequence Parallelism for Linear Attention",
+      "teamAuthors": [
+        {
+          "slug": "xinyi-wan",
+          "name": "Xinyi Wan"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Yuhong Chou",
+          "authorId": "2372426938",
+          "slug": null
+        },
+        {
+          "name": "Zehao Liu",
+          "authorId": "2373703992",
+          "slug": null
+        },
+        {
+          "name": "Ruijie Zhu",
+          "authorId": "2331769907",
+          "slug": null
+        },
+        {
+          "name": "Xinyi Wan",
+          "authorId": "2280067114",
+          "slug": "xinyi-wan"
+        },
+        {
+          "name": "Tianjian Li",
+          "authorId": "2372466776",
+          "slug": null
+        },
+        {
+          "name": "Congying Chu",
+          "authorId": "2374409019",
+          "slug": null
+        },
+        {
+          "name": "Qian Liu",
+          "authorId": "2378199472",
+          "slug": null
+        },
+        {
+          "name": "Jibin Wu",
+          "authorId": "47876444",
+          "slug": null
+        },
+        {
+          "name": "Zejun Ma",
+          "authorId": "2356479376",
+          "slug": null
+        }
+      ],
+      "memberSlug": "xinyi-wan",
+      "memberName": "Xinyi Wan",
+      "publicationDate": "2025-07-01",
+      "year": 2025,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2507.01004",
+      "citationCount": 1,
+      "tldr": "ZeCO (Zero Communication Overhead) sequence parallelism for linear attention models, a new SP method designed to overcome limitations and achieve end-to-end near-linear scalability for long sequence training, is introduced.",
+      "abstract": "Linear attention mechanisms deliver significant advantages for Large Language Models (LLMs) by providing linear computational complexity, enabling efficient processing of ultra-long sequences (e.g., 1M context). However, existing Sequence Parallelism (SP) methods, essential for distributing these workloads across devices, become the primary bottleneck due to substantial communication overhead. In this paper, we introduce ZeCO (Zero Communication Overhead) sequence parallelism for linear attention models, a new SP method designed to overcome these limitations and achieve end-to-end near-linear scalability for long sequence training. For example, training a model with a 1M sequence length across 64 devices using ZeCO takes roughly the same time as training with an 16k sequence on a single device. At the heart of ZeCO lies All-Scan, a new collective communication primitive. All-Scan provides each SP rank with precisely the initial operator state it requires while maintaining a minimal communication footprint, effectively eliminating communication overhead. Theoretically, we prove the optimaity of ZeCO, showing that it introduces only negligible time and space overhead. Empirically, we"
     },
     {
       "paperId": "7fef3016487f62db760ac776d90034370e151467",
@@ -22704,194 +22892,6 @@
       "abstract": ","
     },
     {
-      "paperId": "2268d5094a7baad2fb680584465c5584fb195587",
-      "title": "Training compute-optimal transformer encoder models",
-      "teamAuthors": [
-        {
-          "slug": "megi-dervishi",
-          "name": "Megi Dervishi"
-        },
-        {
-          "slug": "yann-lecun",
-          "name": "Yann LeCun"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Megi Dervishi",
-          "authorId": "2113964327",
-          "slug": "megi-dervishi"
-        },
-        {
-          "name": "Alexandre Allauzen",
-          "authorId": "2260025800",
-          "slug": null
-        },
-        {
-          "name": "Gabriel Synnaeve",
-          "authorId": "2282478",
-          "slug": null
-        },
-        {
-          "name": "Yann LeCun",
-          "authorId": "2265899558",
-          "slug": "yann-lecun"
-        }
-      ],
-      "memberSlug": "megi-dervishi",
-      "memberName": "Megi Dervishi",
-      "publicationDate": null,
-      "year": 2025,
-      "venue": "Conference on Empirical Methods in Natural Language Processing",
-      "url": "https://doi.org/10.18653/v1/2025.emnlp-main.1804",
-      "citationCount": 6,
-      "tldr": null,
-      "abstract": ","
-    },
-    {
-      "paperId": "927498a8ccc57dc94e9654099c64d060aba5f4f8",
-      "title": "Self-supervised learning beyond invariant image representations. (Apprentissage auto-supervisé au-delà de représentations invariantes d'images)",
-      "teamAuthors": [
-        {
-          "slug": "quentin-garrido",
-          "name": "Quentin Garrido"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Q. Garrido",
-          "authorId": "2048163343",
-          "slug": "quentin-garrido"
-        }
-      ],
-      "memberSlug": "quentin-garrido",
-      "memberName": "Quentin Garrido",
-      "publicationDate": null,
-      "year": 2025,
-      "venue": null,
-      "url": "https://doi.org/10.70675/ac2d4d52z596fz4742z8a22zbc1504a44a90",
-      "citationCount": 0,
-      "tldr": null,
-      "abstract": "\n Afin de construire des systèmes d'intelligence artificielle puissants, les chercheurs se sont inspirés de systèmes intelligents existants, à savoir les humains et les animaux. Cela peut être fait architecturalement ou en essayant de reproduire certaines capacités. Par exemple, les humains peuvent s'adapter à de nouvelles tâches rapidement ou apprendre sans supervision. Cependant, les systèmes d'apprentissage profond échouent souvent de manière spectaculaire dans des tâches qui sont faciles pour les humains, comme illustré par le paradoxe de Moravec. Au cours des dernières années, le domaine de l'apprentissage auto-supervisé a fait des progrès dans l'apprentissage de systèmes d'IA capables d'apprendre à partir d'observations seules et de s'adapter à de nouvelles tâches, deux propriétés très souhaitables. Cela est réalisé en apprenant un espace de représentation abstrait le plus sémantique possible. Cependant, la plupart des progrès ont été faits avec des architectures siamoises pour apprendre des représentations d'images invariantes à un ensemble de transformations. Cette thèse vise à étudier trois aspects de l'apprentissage auto-supervisé. Dans une première partie, nous étudions "
-    },
-    {
-      "paperId": "751ef04264d661f6a59e49f3fbd181ac46ef5eed",
-      "title": "Asteria: Semantic-Aware Cross-Region Caching for Agentic LLM Tool Access",
-      "teamAuthors": [
-        {
-          "slug": "xinyi-wan",
-          "name": "Xinyi Wan"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Chaoyi Ruan",
-          "authorId": "51510890",
-          "slug": null
-        },
-        {
-          "name": "Chao Bi",
-          "authorId": "2187312290",
-          "slug": null
-        },
-        {
-          "name": "Kaiwen Zheng",
-          "authorId": "2329191804",
-          "slug": null
-        },
-        {
-          "name": "Ziji Shi",
-          "authorId": "2110010038",
-          "slug": null
-        },
-        {
-          "name": "Xinyi Wan",
-          "authorId": "2280067114",
-          "slug": "xinyi-wan"
-        },
-        {
-          "name": "Jialin Li",
-          "authorId": "2381557755",
-          "slug": null
-        }
-      ],
-      "memberSlug": "xinyi-wan",
-      "memberName": "Xinyi Wan",
-      "publicationDate": null,
-      "year": 2025,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2509.17360",
-      "citationCount": 2,
-      "tldr": "Asteria is introduced, a novel cross-region knowledge caching architecture for LLM agents that achieves up to a 3.6 × increase in throughput by maintaining cache hit rates of over 85%, while preserving accuracy virtually identical to non-cached baselines.",
-      "abstract": null
-    },
-    {
-      "paperId": "a990b37c970a48b71533db1f49f51310a07755cb",
-      "title": "ZeCO: Zero Communication Overhead Sequence Parallelism for Linear Attention",
-      "teamAuthors": [
-        {
-          "slug": "xinyi-wan",
-          "name": "Xinyi Wan"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Yuhong Chou",
-          "authorId": "2372426938",
-          "slug": null
-        },
-        {
-          "name": "Zehao Liu",
-          "authorId": "2373703992",
-          "slug": null
-        },
-        {
-          "name": "Ruijie Zhu",
-          "authorId": "2331769907",
-          "slug": null
-        },
-        {
-          "name": "Xinyi Wan",
-          "authorId": "2280067114",
-          "slug": "xinyi-wan"
-        },
-        {
-          "name": "Tianjian Li",
-          "authorId": "2372466776",
-          "slug": null
-        },
-        {
-          "name": "Congying Chu",
-          "authorId": "2374409019",
-          "slug": null
-        },
-        {
-          "name": "Qian Liu",
-          "authorId": "2378199472",
-          "slug": null
-        },
-        {
-          "name": "Jibin Wu",
-          "authorId": "47876444",
-          "slug": null
-        },
-        {
-          "name": "Zejun Ma",
-          "authorId": "2356479376",
-          "slug": null
-        }
-      ],
-      "memberSlug": "xinyi-wan",
-      "memberName": "Xinyi Wan",
-      "publicationDate": "2025-07-01",
-      "year": 2025,
-      "venue": "Neural Information Processing Systems",
-      "url": "https://doi.org/10.48550/arXiv.2507.01004",
-      "citationCount": 1,
-      "tldr": "ZeCO (Zero Communication Overhead) sequence parallelism for linear attention models, a new SP method designed to overcome limitations and achieve end-to-end near-linear scalability for long sequence training, is introduced.",
-      "abstract": "Linear attention mechanisms deliver significant advantages for Large Language Models (LLMs) by providing linear computational complexity, enabling efficient processing of ultra-long sequences (e.g., 1M context). However, existing Sequence Parallelism (SP) methods, essential for distributing these workloads across devices, become the primary bottleneck due to substantial communication overhead. In this paper, we introduce ZeCO (Zero Communication Overhead) sequence parallelism for linear attention models, a new SP method designed to overcome these limitations and achieve end-to-end near-linear scalability for long sequence training. For example, training a model with a 1M sequence length across 64 devices using ZeCO takes roughly the same time as training with an 16k sequence on a single device. At the heart of ZeCO lies All-Scan, a new collective communication primitive. All-Scan provides each SP rank with precisely the initial operator state it requires while maintaining a minimal communication footprint, effectively eliminating communication overhead. Theoretically, we prove the optimaity of ZeCO, showing that it introduces only negligible time and space overhead. Empirically, we"
-    },
-    {
       "paperId": "466e5de3b198c25211d5bd154beb8df6a86e2e60",
       "title": "Multi-Frequency Aware Reconstruction Model For Unsupervised Graph Anomaly Detection",
       "teamAuthors": [
@@ -25849,7 +25849,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 582,
+      "citationCount": 586,
       "tldr": "This work demonstrates how self-supervised learning from web-scale data and a small amount of robot interaction data can yield a world model capable of planning in the physical world.",
       "abstract": "A major challenge for modern AI is to learn to understand the world and learn to act largely by observation. This paper explores a self-supervised approach that combines internet-scale video data with a small amount of interaction data (robot trajectories), to develop models capable of understanding, predicting, and planning in the physical world. We first pre-train an action-free joint-embedding-predictive architecture, V-JEPA 2, on a video and image dataset comprising over 1 million hours of internet video. V-JEPA 2 achieves strong performance on motion understanding (77.3 top-1 accuracy on Something-Something v2) and state-of-the-art performance on human action anticipation (39.7 recall-at-5 on Epic-Kitchens-100) surpassing previous task-specific models. Additionally, after aligning V-JEPA 2 with a large language model, we demonstrate state-of-the-art performance on multiple video question-answering tasks at the 8 billion parameter scale (e.g., 84.0 on PerceptionTest, 76.9 on TempCompass). Finally, we show how self-supervised learning can be applied to robotic planning tasks by post-training a latent action-conditioned world model, V-JEPA 2-AC, using less than 62 hours of unlabe"
     },
@@ -32232,7 +32232,7 @@
       "memberName": "Chao Du",
       "publicationDate": "2025-05-19",
       "year": 2025,
-      "venue": "arXiv.org",
+      "venue": "Advances in Neural Information Processing Systems 38",
       "url": "https://doi.org/10.48550/arXiv.2505.13438",
       "citationCount": 26,
       "tldr": "A novel framework, AnytimeReasoner, to optimize anytime reasoning performance, which aims to improve token efficiency and the flexibility of reasoning under varying token budget constraints and introduces verifiable dense rewards into the reasoning process.",
@@ -32497,7 +32497,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2503.20783",
-      "citationCount": 1220,
+      "citationCount": 1223,
       "tldr": "This work critically examine R1-Zero-like training by analyzing its two core components: base models and RL, and introduces Dr. GRPO, an unbiased optimization method that improves token efficiency while maintaining reasoning performance.",
       "abstract": "DeepSeek-R1-Zero has shown that reinforcement learning (RL) at scale can directly enhance the reasoning capabilities of LLMs without supervised fine-tuning. In this work, we critically examine R1-Zero-like training by analyzing its two core components: base models and RL. We investigate a wide range of base models, including DeepSeek-V3-Base, to understand how pretraining characteristics influence RL performance. Our analysis reveals that DeepSeek-V3-Base already exhibit''Aha moment'', while Qwen2.5 base models demonstrate strong reasoning capabilities even without prompt templates, suggesting potential pretraining biases. Additionally, we identify an optimization bias in Group Relative Policy Optimization (GRPO), which artificially increases response length (especially for incorrect outputs) during training. To address this, we introduce Dr. GRPO, an unbiased optimization method that improves token efficiency while maintaining reasoning performance. Leveraging these insights, we present a minimalist R1-Zero recipe that achieves 43.3% accuracy on AIME 2024 with a 7B base model, establishing a new state-of-the-art. Our code is available at https://github.com/sail-sg/understand-r1-ze"
     },
@@ -33453,7 +33453,7 @@
       "year": 2024,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2412.18605",
-      "citationCount": 51,
+      "citationCount": 50,
       "tldr": "Orient Anything is introduced, the first expert and foundational model designed to estimate object orientation in a single- and free-view image and achieves state-of-the-art orientation estimation accuracy in both rendered and real images and exhibits impressive zero-shot ability in various scenarios.",
       "abstract": "Orientation is a key attribute of objects, crucial for understanding their spatial pose and arrangement in images. However, practical solutions for accurate orientation estimation from a single image remain underexplored. In this work, we introduce Orient Anything, the first expert and foundational model designed to estimate object orientation in a single- and free-view image. Due to the scarcity of labeled data, we propose extracting knowledge from the 3D world. By developing a pipeline to annotate the front face of 3D objects and render images from random views, we collect 2M images with precise orientation annotations. To fully leverage the dataset, we design a robust training objective that models the 3D orientation as probability distributions of three angles and predicts the object orientation by fitting these distributions. Besides, we employ several strategies to improve synthetic-to-real transfer. Our model achieves state-of-the-art orientation estimation accuracy in both rendered and real images and exhibits impressive zero-shot ability in various scenarios. More importantly, our model enhances many applications, such as comprehension and generation of complex spatial con"
     },
@@ -33536,7 +33536,7 @@
       "year": 2024,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.01579",
-      "citationCount": 221,
+      "citationCount": 222,
       "tldr": "The proposed Visual-Predictive Instruction Tuning (VPiT) suggests that LLMs may have strong “prior” vision capabilities that can be efficiently adapted to both visual understanding and generation with a relatively simple instruction tuning process.",
       "abstract": "In this work, we propose Visual-Predictive Instruction Tuning (VPiT)-a simple and effective extension to visual instruction tuning that enables a pretrained LLM to quickly morph into an unified autoregressive model capable of generating both text and visual tokens. VPiT teaches an LLM to predict discrete text tokens and continuous visual tokens from any input sequence of image and text data curated in an instruction-following format. Our empirical investigation reveals several intriguing properties of VPiT: (1) visual generation ability emerges as a natural byproduct of improved visual understanding, and can be unlocked efficiently with a small amount of generation data; (2) while we find understanding and generation to be mutually beneficial, understanding data contributes to both capabilities more effectively than generation data. Building upon these findings, we train our MetaMorph model and achieve competitive performance on both visual understanding and generation. In visual generation, MetaMorph can leverage the world knowledge and reasoning abilities gained from LLM pretraining, and overcome common failure modes exhibited by other generation models. Our results suggest that "
     },
@@ -33913,7 +33913,7 @@
       "year": 2024,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2411.15296",
-      "citationCount": 77,
+      "citationCount": 78,
       "tldr": "This work aims to offer researchers an easy grasp of how to effectively evaluate MLLMs according to different needs and to inspire better evaluation methods, thereby driving the progress of MLLM research.",
       "abstract": "As a prominent direction of Artificial General Intelligence (AGI), Multimodal Large Language Models (MLLMs) have garnered increased attention from both industry and academia. Building upon pre-trained LLMs, this family of models further develops multimodal perception and reasoning capabilities that are impressive, such as writing code given a flow chart or creating stories based on an image. In the development process, evaluation is critical since it provides intuitive feedback and guidance on improving models. Distinct from the traditional train-eval-test paradigm that only favors a single task like image classification, the versatility of MLLMs has spurred the rise of various new benchmarks and evaluation methods. In this paper, we aim to present a comprehensive survey of MLLM evaluation, discussing four key aspects: 1) the summarised benchmarks types divided by the evaluation capabilities, including foundation capabilities, model self-analysis, and extented applications; 2) the typical process of benchmark counstruction, consisting of data collection, annotation, and precautions; 3) the systematic evaluation manner composed of judge, metric, and toolkit; 4) the outlook for the n"
     },
@@ -37009,7 +37009,7 @@
       "year": 2024,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/ed92a7be6b2acc36baf0ed43454a97dbade0c893",
-      "citationCount": 614,
+      "citationCount": 616,
       "tldr": "Movie Gen is presented, a cast of foundation models that generates high-quality, 1080p HD videos with different aspect ratios and synchronized audio and set a new state-of-the-art on multiple tasks: text-to-video synthesis, video personalization, video editing, video-to-audio generation, and text-to-audio generation.",
       "abstract": "We present Movie Gen, a cast of foundation models that generates high-quality, 1080p HD videos with different aspect ratios and synchronized audio. We also show additional capabilities such as precise instruction-based video editing and generation of personalized videos based on a user's image. Our models set a new state-of-the-art on multiple tasks: text-to-video synthesis, video personalization, video editing, video-to-audio generation, and text-to-audio generation. Our largest video generation model is a 30B parameter transformer trained with a maximum context length of 73K video tokens, corresponding to a generated video of 16 seconds at 16 frames-per-second. We show multiple technical innovations and simplifications on the architecture, latent spaces, training objectives and recipes, data curation, evaluation protocols, parallelization techniques, and inference optimizations that allow us to reap the benefits of scaling pre-training data, model size, and training compute for training large scale media generation models. We hope this paper helps the research community to accelerate progress and innovation in media generation models. All videos from this paper are available at h"
     },
@@ -37568,7 +37568,7 @@
       "year": 2024,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2410.02757",
-      "citationCount": 103,
+      "citationCount": 104,
       "tldr": "This work proposes Loong, a new autoregressive LLM-based video generator that can generate minute-long videos and proposes progressive short-to-long training with a loss re-weighting scheme to mitigate the loss imbalance problem for long video training.",
       "abstract": "It is desirable but challenging to generate content-rich long videos in the scale of minutes. Autoregressive large language models (LLMs) have achieved great success in generating coherent and long sequences of tokens in the domain of natural language processing, while the exploration of autoregressive LLMs for video generation is limited to generating short videos of several seconds. In this work, we conduct a deep analysis of the challenges that prevent autoregressive LLM-based video generators from generating long videos. Based on the observations and analysis, we propose Loong, a new autoregressive LLM-based video generator that can generate minute-long videos. Specifically, we model the text tokens and video tokens as a unified sequence for autoregressive LLMs and train the model from scratch. We propose progressive short-to-long training with a loss re-weighting scheme to mitigate the loss imbalance problem for long video training. We further investigate inference strategies, including video token re-encoding and sampling strategies, to diminish error accumulation during inference. Our proposed Loong can be trained on 10-second videos and be extended to generate minute-level "
     },
@@ -37919,7 +37919,7 @@
       "year": 2024,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2408.03326",
-      "citationCount": 2837,
+      "citationCount": 2842,
       "tldr": "LLaVA-OneVision is the first single model that can simultaneously push the performance boundaries of open LMMs in three important computer vision scenarios: single-image, multi-image, and video scenarios.",
       "abstract": "We present LLaVA-OneVision, a family of open large multimodal models (LMMs) developed by consolidating our insights into data, models, and visual representations in the LLaVA-NeXT blog series. Our experimental results demonstrate that LLaVA-OneVision is the first single model that can simultaneously push the performance boundaries of open LMMs in three important computer vision scenarios: single-image, multi-image, and video scenarios. Importantly, the design of LLaVA-OneVision allows strong transfer learning across different modalities/scenarios, yielding new emerging capabilities. In particular, strong video understanding and cross-scenario capabilities are demonstrated through task transfer from images to videos."
     },
@@ -38041,7 +38041,7 @@
       "year": 2024,
       "venue": "North American Chapter of the Association for Computational Linguistics",
       "url": "https://doi.org/10.18653/v1/2025.findings-naacl.51",
-      "citationCount": 338,
+      "citationCount": 339,
       "tldr": "This work introduces LMMS-EVAL, a unified and standardized multimodal benchmark framework with over 50 tasks and more than 10 models to promote transparent and reproducible evaluations, and introduces LMMS-EVAL LITE, a pruned evaluation toolkit that emphasizes both coverage and efficiency.",
       "abstract": "The advances of large foundation models necessitate wide-coverage, low-cost, and zero-contamination benchmarks. Despite continuous exploration of language model evaluations, comprehensive studies on the evaluation of Large Multi-modal Models (LMMs) remain limited. In this work, we introduce LMMS-EVAL, a unified and standardized multimodal benchmark framework with over 50 tasks and more than 10 models to promote transparent and reproducible evaluations. Although LMMS-EVAL offers comprehensive coverage, we find it still falls short in achieving low cost and zero contamination. To approach this evaluation trilemma, we further introduce LMMS-EVAL LITE, a pruned evaluation toolkit that emphasizes both coverage and efficiency. Additionally, we present Multimodal LIVEBENCH that utilizes continuously updating news and online forums to assess models'generalization abilities in the wild, featuring a low-cost and zero-contamination evaluation approach. In summary, our work highlights the importance of considering the evaluation trilemma and provides practical solutions to navigate the trade-offs in evaluating large multi-modal models, paving the way for more effective and reliable benchmarkin"
     },
@@ -38662,7 +38662,7 @@
       "year": 2024,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2406.16860",
-      "citationCount": 922,
+      "citationCount": 924,
       "tldr": "This study uses LLMs and visual instruction tuning as an interface to evaluate various visual representations, offering new insights into different models and architectures -- self-supervised, strongly supervised, or combinations thereof -- based on experiments with over 20 vision encoders.",
       "abstract": "We introduce Cambrian-1, a family of multimodal LLMs (MLLMs) designed with a vision-centric approach. While stronger language models can enhance multimodal capabilities, the design choices for vision components are often insufficiently explored and disconnected from visual representation learning research. This gap hinders accurate sensory grounding in real-world scenarios. Our study uses LLMs and visual instruction tuning as an interface to evaluate various visual representations, offering new insights into different models and architectures -- self-supervised, strongly supervised, or combinations thereof -- based on experiments with over 20 vision encoders. We critically examine existing MLLM benchmarks, address the difficulties involved in consolidating and interpreting results from various tasks, and introduce a new vision-centric benchmark, CV-Bench. To further improve visual grounding, we propose the Spatial Vision Aggregator (SVA), a dynamic and spatially-aware connector that integrates high-resolution vision features with LLMs while reducing the number of tokens. Additionally, we discuss the curation of high-quality visual instruction-tuning data from publicly available sou"
     },
@@ -38970,7 +38970,7 @@
       "year": 2024,
       "venue": "Value in Health",
       "url": "https://doi.org/10.1016/j.jval.2024.03.1461",
-      "citationCount": 2,
+      "citationCount": 3,
       "tldr": null,
       "abstract": null
     },
@@ -39265,7 +39265,7 @@
       "year": 2024,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2405.17247",
-      "citationCount": 240,
+      "citationCount": 243,
       "tldr": "This introduction to VLMs is presented which will help anyone who would like to enter the field and introduces what VLMs are, how they work, and how to train them.",
       "abstract": "Following the recent popularity of Large Language Models (LLMs), several attempts have been made to extend them to the visual domain. From having a visual assistant that could guide us through unfamiliar environments to generative models that produce images using only a high-level text description, the vision-language model (VLM) applications will significantly impact our relationship with technology. However, there are many challenges that need to be addressed to improve the reliability of those models. While language is discrete, vision evolves in a much higher dimensional space in which concepts cannot always be easily discretized. To better understand the mechanics behind mapping vision to language, we present this introduction to VLMs which we hope will help anyone who would like to enter the field. First, we introduce what VLMs are, how they work, and how to train them. Then, we present and discuss approaches to evaluate VLMs. Although this work primarily focuses on mapping images to language, we also discuss extending VLMs to videos."
     },
@@ -40266,7 +40266,7 @@
       "year": 2024,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2404.08471",
-      "citationCount": 421,
+      "citationCount": 422,
       "tldr": null,
       "abstract": "This paper explores feature prediction as a stand-alone objective for unsupervised learning from video and introduces V-JEPA, a collection of vision models trained solely using a feature prediction objective, without the use of pretrained image encoders, text, negative examples, reconstruction, or other sources of supervision. The models are trained on 2 million videos collected from public datasets and are evaluated on downstream image and video tasks. Our results show that learning by predicting video features leads to versatile visual representations that perform well on both motion and appearance-based tasks, without adaption of the model's parameters; e.g., using a frozen backbone. Our largest model, a ViT-H/16 trained only on videos, obtains 81.9% on Kinetics-400, 72.2% on Something-Something-v2, and 77.9% on ImageNet1K."
     },
@@ -41456,7 +41456,7 @@
       "year": 2023,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2310.19909",
-      "citationCount": 123,
+      "citationCount": 124,
       "tldr": "Battle of the Backbones benchmarks a diverse suite of pretrained models, including vision-language models, those trained via self-supervised learning, and the Stable Diffusion backbone, across a diverse set of computer vision tasks ranging from classification to object detection to OOD generalization.",
       "abstract": "Neural network based computer vision systems are typically built on a backbone, a pretrained or randomly initialized feature extractor. Several years ago, the default option was an ImageNet-trained convolutional neural network. However, the recent past has seen the emergence of countless backbones pretrained using various algorithms and datasets. While this abundance of choice has led to performance increases for a range of systems, it is difficult for practitioners to make informed decisions about which backbone to choose. Battle of the Backbones (BoB) makes this choice easier by benchmarking a diverse suite of pretrained models, including vision-language models, those trained via self-supervised learning, and the Stable Diffusion backbone, across a diverse set of computer vision tasks ranging from classification to object detection to OOD generalization and more. Furthermore, BoB sheds light on promising directions for the research community to advance computer vision by illuminating strengths and weakness of existing approaches through a comprehensive analysis conducted on more than 1500 training runs. While vision transformers (ViTs) and self-supervised learning (SSL) are incre"
     },
@@ -43853,7 +43853,7 @@
       "year": 2023,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2305.17330",
-      "citationCount": 101,
+      "citationCount": 102,
       "tldr": "MADiff is the first diffusion-based multi-agent learning framework, functioning as both a decentralized policy and a centralized controller, and it outperforms baseline algorithms across various multi-agent learning tasks, highlighting its effectiveness in modeling complex multi-agent interactions.",
       "abstract": "Offline reinforcement learning (RL) aims to learn policies from pre-existing datasets without further interactions, making it a challenging task. Q-learning algorithms struggle with extrapolation errors in offline settings, while supervised learning methods are constrained by model expressiveness. Recently, diffusion models (DMs) have shown promise in overcoming these limitations in single-agent learning, but their application in multi-agent scenarios remains unclear. Generating trajectories for each agent with independent DMs may impede coordination, while concatenating all agents' information can lead to low sample efficiency. Accordingly, we propose MADiff, which is realized with an attention-based diffusion model to model the complex coordination among behaviors of multiple agents. To our knowledge, MADiff is the first diffusion-based multi-agent learning framework, functioning as both a decentralized policy and a centralized controller. During decentralized executions, MADiff simultaneously performs teammate modeling, and the centralized controller can also be applied in multi-agent trajectory predictions. Our experiments demonstrate that MADiff outperforms baseline algorithms"
     },
@@ -43899,9 +43899,55 @@
       "year": 2023,
       "venue": "International Conference on Learning Representations",
       "url": "https://doi.org/10.48550/arXiv.2305.17126",
-      "citationCount": 326,
+      "citationCount": 327,
       "tldr": "This work introduces a closed-loop framework, referred to as LLMs A s Tool Makers (LATM), where LLMs create their own reusable tools for problem-solving, and offers a functional cache through the caching and reuse of tools, which stores the functionality of a class of requests instead of the natural language responses from LLMs, thus extending the applicability of the conventional cache mechanism.",
       "abstract": "Recent research has highlighted the potential of large language models (LLMs) to improve their problem-solving capabilities with the aid of suitable external tools. In our work, we further advance this concept by introducing a closed-loop framework, referred to as LLMs A s Tool Makers (LATM), where LLMs create their own reusable tools for problem-solving. Our approach consists of two phases: 1) tool making: an LLM acts as the tool maker that crafts tools for a set of tasks. 2) tool using: another LLM acts as the tool user, which applies the tool built by the tool maker for problem-solving. On the problem-solving server side, tool-making enables continual tool generation and caching as new requests emerge. This framework enables subsequent requests to access cached tools via their corresponding APIs, enhancing the efficiency of task resolution. Recognizing that tool-making requires more sophisticated capabilities, we assign this task to a powerful, albeit resource-intensive, model. Conversely, the simpler tool-using phase is delegated to a lightweight model. This strategic division of labor allows the once-off cost of tool-making to be spread over multiple instances of tool-using, s"
+    },
+    {
+      "paperId": "6cb35dd6e1338faa0c3d6a6b0020bbcbcc18653d",
+      "title": "Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training",
+      "teamAuthors": [
+        {
+          "slug": "tengyu-ma",
+          "name": "Tengyu Ma"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Hong Liu",
+          "authorId": "2118903632",
+          "slug": null
+        },
+        {
+          "name": "Zhiyuan Li",
+          "authorId": "46947755",
+          "slug": null
+        },
+        {
+          "name": "David Leo Wright Hall",
+          "authorId": "145385471",
+          "slug": null
+        },
+        {
+          "name": "Percy Liang",
+          "authorId": "145419642",
+          "slug": null
+        },
+        {
+          "name": "Tengyu Ma",
+          "authorId": "2114186424",
+          "slug": "tengyu-ma"
+        }
+      ],
+      "memberSlug": "tengyu-ma",
+      "memberName": "Tengyu Ma",
+      "publicationDate": "2023-05-23",
+      "year": 2023,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2305.14342",
+      "citationCount": 307,
+      "tldr": "S Sophia, Second-order Clipped Stochastic Optimization is proposed, a simple scalable second-order optimizer that uses a light-weight estimate of the diagonal Hessian as the pre-conditioner and has a run-time bound that does not depend on the condition number of the loss.",
+      "abstract": "Given the massive cost of language model pre-training, a non-trivial improvement of the optimization algorithm would lead to a material reduction on the time and cost of training. Adam and its variants have been state-of-the-art for years, and more sophisticated second-order (Hessian-based) optimizers often incur too much per-step overhead. In this paper, we propose Sophia, Second-order Clipped Stochastic Optimization, a simple scalable second-order optimizer that uses a light-weight estimate of the diagonal Hessian as the pre-conditioner. The update is the moving average of the gradients divided by the moving average of the estimated Hessian, followed by element-wise clipping. The clipping controls the worst-case update size and tames the negative impact of non-convexity and rapid change of Hessian along the trajectory. Sophia only estimates the diagonal Hessian every handful of iterations, which has negligible average per-step time and memory overhead. On language modeling with GPT models of sizes ranging from 125M to 1.5B, Sophia achieves a 2x speed-up compared to Adam in the number of steps, total compute, and wall-clock time, achieving the same perplexity with 50% fewer steps,"
     },
     {
       "paperId": "cbff55da4255cf523bf028e9faf8508f039a92e7",
@@ -43952,52 +43998,6 @@
       "citationCount": 24,
       "tldr": "This work proposes InstructAlign which uses continual crosslingual instruction tuning to enable LLMs to align new unseen languages with previously learned high-resource languages.",
       "abstract": "Large language models (LLMs) that are tuned with instructions have demonstrated remarkable capabilities in various tasks and languages. However, their ability to generalize to underrepresented languages is limited due to the scarcity of available data. Additionally, directly adapting new languages to instruction-tuned LLMs can result in catastrophic forgetting, which leads to the loss of multitasking ability. To address this issue, we propose InstructAlign which uses continual crosslingual instruction tuning to enable LLMs to align new unseen languages with previously learned high-resource languages. Our results demonstrate the effectiveness of InstructAlign in enabling the model to understand low-resource languages with limited parallel data while preventing catastrophic forgetting. Our work contributes to the advancement of language adaptation methods, particularly for adapting instruction-tuned LLMs to underrepresented languages. Our code is released on https://github.com/HLTCHKUST/InstructAlign"
-    },
-    {
-      "paperId": "6cb35dd6e1338faa0c3d6a6b0020bbcbcc18653d",
-      "title": "Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training",
-      "teamAuthors": [
-        {
-          "slug": "tengyu-ma",
-          "name": "Tengyu Ma"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Hong Liu",
-          "authorId": "2118903632",
-          "slug": null
-        },
-        {
-          "name": "Zhiyuan Li",
-          "authorId": "46947755",
-          "slug": null
-        },
-        {
-          "name": "David Leo Wright Hall",
-          "authorId": "145385471",
-          "slug": null
-        },
-        {
-          "name": "Percy Liang",
-          "authorId": "145419642",
-          "slug": null
-        },
-        {
-          "name": "Tengyu Ma",
-          "authorId": "2114186424",
-          "slug": "tengyu-ma"
-        }
-      ],
-      "memberSlug": "tengyu-ma",
-      "memberName": "Tengyu Ma",
-      "publicationDate": "2023-05-23",
-      "year": 2023,
-      "venue": "International Conference on Learning Representations",
-      "url": "https://doi.org/10.48550/arXiv.2305.14342",
-      "citationCount": 306,
-      "tldr": "S Sophia, Second-order Clipped Stochastic Optimization is proposed, a simple scalable second-order optimizer that uses a light-weight estimate of the diagonal Hessian as the pre-conditioner and has a run-time bound that does not depend on the condition number of the loss.",
-      "abstract": "Given the massive cost of language model pre-training, a non-trivial improvement of the optimization algorithm would lead to a material reduction on the time and cost of training. Adam and its variants have been state-of-the-art for years, and more sophisticated second-order (Hessian-based) optimizers often incur too much per-step overhead. In this paper, we propose Sophia, Second-order Clipped Stochastic Optimization, a simple scalable second-order optimizer that uses a light-weight estimate of the diagonal Hessian as the pre-conditioner. The update is the moving average of the gradients divided by the moving average of the estimated Hessian, followed by element-wise clipping. The clipping controls the worst-case update size and tames the negative impact of non-convexity and rapid change of Hessian along the trajectory. Sophia only estimates the diagonal Hessian every handful of iterations, which has negligible average per-step time and memory overhead. On language modeling with GPT models of sizes ranging from 125M to 1.5B, Sophia achieves a 2x speed-up compared to Adam in the number of steps, total compute, and wall-clock time, achieving the same perplexity with 50% fewer steps,"
     },
     {
       "paperId": "1bdd5fc17cc580efe998304692639c57c857cc84",
@@ -44122,7 +44122,7 @@
       "year": 2023,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2305.10429",
-      "citationCount": 404,
+      "citationCount": 405,
       "tldr": "This paper proposes Domain Reweighting with Minimax Optimization (DoReMi), which first trains a small proxy model using group distributionally robust optimization (Group DRO) over domains to produce domain weights (mixture proportions) without knowledge of downstream tasks.",
       "abstract": "The mixture proportions of pretraining data domains (e.g., Wikipedia, books, web text) greatly affect language model (LM) performance. In this paper, we propose Domain Reweighting with Minimax Optimization (DoReMi), which first trains a small proxy model using group distributionally robust optimization (Group DRO) over domains to produce domain weights (mixture proportions) without knowledge of downstream tasks. We then resample a dataset with these domain weights and train a larger, full-sized model. In our experiments, we use DoReMi on a 280M-parameter proxy model to set the domain weights for training an 8B-parameter model (30x larger) more efficiently. On The Pile, DoReMi improves perplexity across all domains, even when it downweights a domain. DoReMi improves average few-shot downstream accuracy by 6.5% points over a baseline model trained using The Pile's default domain weights and reaches the baseline accuracy with 2.6x fewer training steps. On the GLaM dataset, DoReMi, which has no knowledge of downstream tasks, even matches the performance of using domain weights tuned on downstream tasks."
     },
@@ -44305,7 +44305,7 @@
       "year": 2023,
       "venue": "International Symposium on Mathematical Foundations of Computer Science",
       "url": "https://doi.org/10.48550/arXiv.2305.02458",
-      "citationCount": 6,
+      "citationCount": 5,
       "tldr": "An algorithm solving stochastic mean-payoff games is analysed, combining the ideas of relative value iteration and of Krasnoselskii-Mann damping with respect to Hilbert's semi-norm, and parameterized complexity bounds for several classes of games satisfying irreducibility conditions are derived.",
       "abstract": "We analyse an algorithm solving stochastic mean-payoff games, combining the ideas of relative value iteration and of Krasnoselskii-Mann damping. We derive parameterized complexity bounds for several classes of games satisfying irreducibility conditions. We show in particular that an $\\epsilon$-approximation of the value of an irreducible concurrent stochastic game can be computed in a number of iterations in $O(|\\log\\epsilon|)$ where the constant in the $O(\\cdot)$ is explicit, depending on the smallest non-zero transition probabilities. This should be compared with a bound in $O(|\\epsilon|^{-1}|\\log(\\epsilon)|)$ obtained by Chatterjee and Ibsen-Jensen (ICALP 2014) for the same class of games, and to a $O(|\\epsilon|^{-1})$ bound by Allamigeon, Gaubert, Katz and Skomra (ICALP 2022) for turn-based games. We also establish parameterized complexity bounds for entropy games, a class of matrix multiplication games introduced by Asarin, Cervelle, Degorre, Dima, Horn and Kozyakin. We derive these results by methods of variational analysis, establishing contraction properties of the relative Krasnoselskii-Mann iteration with respect to Hilbert's semi-norm."
     },
@@ -44505,7 +44505,7 @@
       "year": 2023,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2304.12210",
-      "citationCount": 401,
+      "citationCount": 402,
       "tldr": "The curious researcher is empowered to navigate the terrain of methods, understand the role of the various knobs, and gain the know-how required to explore how delicious SSL can be by laying the foundations and latest SSL recipes in the style of a cookbook.",
       "abstract": "Self-supervised learning, dubbed the dark matter of intelligence, is a promising path to advance machine learning. Yet, much like cooking, training SSL methods is a delicate art with a high barrier to entry. While many components are familiar, successfully training a SSL method involves a dizzying set of choices from the pretext tasks to training hyper-parameters. Our goal is to lower the barrier to entry into SSL research by laying the foundations and latest SSL recipes in the style of a cookbook. We hope to empower the curious researcher to navigate the terrain of methods, understand the role of the various knobs, and gain the know-how required to explore how delicious SSL can be."
     },
@@ -44767,7 +44767,7 @@
       "year": 2023,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2304.07193",
-      "citationCount": 9686,
+      "citationCount": 9707,
       "tldr": "This work revisits existing approaches and combines different techniques to scale the pretraining in terms of data and model size, and proposes an automatic pipeline to build a dedicated, diverse, and curated image dataset instead of uncurated data, as typically done in the self-supervised literature.",
       "abstract": "The recent breakthroughs in natural language processing for model pretraining on large quantities of data have opened the way for similar foundation models in computer vision. These models could greatly simplify the use of images in any system by producing all-purpose visual features, i.e., features that work across image distributions and tasks without finetuning. This work shows that existing pretraining methods, especially self-supervised methods, can produce such features if trained on enough curated data from diverse sources. We revisit existing approaches and combine different techniques to scale our pretraining in terms of data and model size. Most of the technical contributions aim at accelerating and stabilizing the training at scale. In terms of data, we propose an automatic pipeline to build a dedicated, diverse, and curated image dataset instead of uncurated data, as typically done in the self-supervised literature. In terms of models, we train a ViT model (Dosovitskiy et al., 2020) with 1B parameters and distill it into a series of smaller models that surpass the best available all-purpose features, OpenCLIP (Ilharco et al., 2021) on most of the benchmarks at image and"
     },
@@ -44802,7 +44802,7 @@
           "slug": null
         },
         {
-          "name": "C. Schmid",
+          "name": "Cordelia Schmid",
           "authorId": "2462253",
           "slug": null
         },
@@ -45177,7 +45177,7 @@
       "year": 2023,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2303.03846",
-      "citationCount": 490,
+      "citationCount": 492,
       "tldr": "Evaluated instruction-tuned models are evaluated and it is found that instruction tuning strengthens both the use of semantic priors and the capacity to learn input-label mappings, but more of the former.",
       "abstract": "We study how in-context learning (ICL) in language models is affected by semantic priors versus input-label mappings. We investigate two setups-ICL with flipped labels and ICL with semantically-unrelated labels-across various model families (GPT-3, InstructGPT, Codex, PaLM, and Flan-PaLM). First, experiments on ICL with flipped labels show that overriding semantic priors is an emergent ability of model scale. While small language models ignore flipped labels presented in-context and thus rely primarily on semantic priors from pretraining, large models can override semantic priors when presented with in-context exemplars that contradict priors, despite the stronger semantic priors that larger models may hold. We next study semantically-unrelated label ICL (SUL-ICL), in which labels are semantically unrelated to their inputs (e.g., foo/bar instead of negative/positive), thereby forcing language models to learn the input-label mappings shown in in-context exemplars in order to perform the task. The ability to do SUL-ICL also emerges primarily with scale, and large-enough language models can even perform linear classification in a SUL-ICL setting. Finally, we evaluate instruction-tuned"
     },
@@ -45549,7 +45549,7 @@
       "year": 2023,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2302.03169",
-      "citationCount": 358,
+      "citationCount": 359,
       "tldr": "Data Selection with Importance Resampling (DSIR) is proposed, an efficient and scalable framework that estimates importance weights in a reduced feature space for tractability and selects data with importance resampling according to these weights.",
       "abstract": "Selecting a suitable pretraining dataset is crucial for both general-domain (e.g., GPT-3) and domain-specific (e.g., Codex) language models (LMs). We formalize this problem as selecting a subset of a large raw unlabeled dataset to match a desired target distribution given unlabeled target samples. Due to the scale and dimensionality of the raw text data, existing methods use simple heuristics or require human experts to manually curate data. Instead, we extend the classic importance resampling approach used in low-dimensions for LM data selection. We propose Data Selection with Importance Resampling (DSIR), an efficient and scalable framework that estimates importance weights in a reduced feature space for tractability and selects data with importance resampling according to these weights. We instantiate the DSIR framework with hashed n-gram features for efficiency, enabling the selection of 100M documents from the full Pile dataset in 4.5 hours. To measure whether hashed n-gram features preserve the aspects of the data that are relevant to the target, we define KL reduction, a data metric that measures the proximity between the selected pretraining data and the target on some feat"
     },
@@ -45700,7 +45700,7 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01499",
-      "citationCount": 1083,
+      "citationCount": 1088,
       "tldr": null,
       "abstract": "This paper demonstrates an approach for learning highly semantic image representations without relying on hand-crafted data-augmentations. We introduce the Image-based Joint-Embedding Predictive Architecture (I-JEPA), a non-generative approach for self-supervised learning from images. The idea behind I-JEPA is simple: from a single context block, predict the representations of various target blocks in the same image. A core design choice to guide I-JEPA towards producing semantic representations is the masking strategy; specifically, it is crucial to (a) sample target blocks with sufficiently large scale (semantic), and to (b) use a sufficiently informative (spatially distributed) context block. Empirically, when combined with Vision Transformers, we find I-JEPA to be highly scalable. For instance, we train a ViT-Huge/14 on ImageNet using 16 A100 GPUs in under 72 hours to achieve strong downstream performance across a wide range of tasks, from linear classification to object counting and depth prediction."
     },
@@ -45806,7 +45806,7 @@
       "year": 2023,
       "venue": "Radiology",
       "url": "https://doi.org/10.1148/radiol.220425",
-      "citationCount": 114,
+      "citationCount": 115,
       "tldr": "In a clinical setting, deep learning reconstruction enabled a nearly twofold reduction in scan time for a knee MRI and was diagnostically equivalent with the conventional protocol.",
       "abstract": "Background MRI is a powerful diagnostic tool with a long acquisition time. Recently, deep learning (DL) methods have provided accelerated high-quality image reconstructions from undersampled data, but it is unclear if DL image reconstruction can be reliably translated to everyday clinical practice. Purpose To determine the diagnostic equivalence of prospectively accelerated DL-reconstructed knee MRI compared with conventional accelerated MRI for evaluating internal derangement of the knee in a clinical setting. Materials and Methods A DL reconstruction model was trained with images from 298 clinical 3-T knee examinations. In a prospective analysis, patients clinically referred for knee MRI underwent a conventional accelerated knee MRI protocol at 3 T followed by an accelerated DL protocol between January 2020 and February 2021. The equivalence of the DL reconstruction of the images relative to the conventional images for the detection of an abnormality was assessed in terms of interchangeability. Each examination was reviewed by six musculoskeletal radiologists. Analyses pertaining to the detection of meniscal or ligament tears and bone marrow or cartilage abnormalities were based "
     },
@@ -45988,7 +45988,7 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548",
-      "citationCount": 1903,
+      "citationCount": 1913,
       "tldr": "This paper proposes a fully convolutional masked autoencoder framework and a new Global Response Normalization (GRN) layer that can be added to the ConvNeXt architecture to enhance inter-channel feature competition and significantly improves the performance of pure ConvNets on various recognition benchmarks.",
       "abstract": "Driven by improved architectures and better representation learning frameworks, the field of visual recognition has enjoyed rapid modernization and performance boost in the early 2020s. For example, modern ConvNets, represented by ConvNeXt [33], have demonstrated strong performance in various scenarios. While these models were originally designed for supervised learning with ImageNet labels, they can also potentially benefit from self-supervised learning techniques such as masked autoencoders (MAE) [14]. However, we found that simply combining these two approaches leads to subpar performance. In this paper, we propose a fully convolutional masked autoencoder framework and a new Global Response Normalization (GRN) layer that can be added to the ConvNeXt architecture to enhance inter-channel feature competition. This co-design of self-supervised learning techniques and architectural improvement results in a new model family called ConvNeXt V2, which significantly improves the performance of pure ConvNets on various recognition benchmarks, including ImageNet classification, COCO detection, and ADE20K segmentation. We also provide pre-trained ConvNeXt V2 models of various sizes, rangin"
     },
@@ -46129,6 +46129,37 @@
       "citationCount": 7,
       "tldr": "A simple but effective learning framework that takes full advantage of all available training data to learn detection and tracking while not losing any LVIS categories to recognize is presented.",
       "abstract": ". Scaling object taxonomies is one of the important steps toward a robust real-world deployment of recognition systems. We have faced remarkable progress in images since the introduction of the LVIS benchmark. To continue this success in videos, a new video benchmark, TAO, was recently presented. Given the recent encouraging results from both detection and tracking communities, we are interested in marrying those two advances and building a strong large vocabulary video tracker. However, supervisions in LVIS and TAO are inherently sparse or even missing, posing two new challenges for training the large vocabulary trackers. First, no tracking supervisions are in LVIS, which leads to inconsistent learning of detection (with LVIS and TAO) and tracking (only with TAO). Second, the detection supervisions in TAO are partial, which results in catastrophic forgetting of absent LVIS categories during video fine-tuning. To resolve these challenges, we present a simple but effective learning framework that takes full advantage of all available training data to learn detection and tracking while not losing any LVIS categories to recognize. With this new learning scheme, we show that consistent"
+    },
+    {
+      "paperId": "736973165f98105fec3729b7db414ae4d80fcbeb",
+      "title": "Scalable Diffusion Models with Transformers",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "William S. Peebles",
+          "authorId": "35235273",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2022-12-19",
+      "year": 2022,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV51070.2023.00387",
+      "citationCount": 6841,
+      "tldr": "A new class of diffusion models based on the transformer architecture is explored, replacing the commonly-used U-Net backbone with a transformer that operates on latent patches that outperform all prior diffusion models on the class-conditional ImageNet 512×512 and 256×256 benchmarks.",
+      "abstract": "We explore a new class of diffusion models based on the transformer architecture. We train latent diffusion models of images, replacing the commonly-used U-Net backbone with a transformer that operates on latent patches. We analyze the scalability of our Diffusion Transformers (DiTs) through the lens of forward pass complexity as measured by Gflops. We find that DiTs with higher Gflops—through increased transformer depth/width or increased number of input tokens—consistently have lower FID. In addition to possessing good scalability properties, our largest DiT-XL/2 models outperform all prior diffusion models on the class-conditional ImageNet 512×512 and 256×256 benchmarks, achieving a state-of-the-art FID of 2.27 on the latter."
     },
     {
       "paperId": "03c19ddaa26068f23e27ba94b10f08160e87f668",
@@ -46385,37 +46416,6 @@
       "citationCount": 83,
       "tldr": "NusaCrowd's data collection enables the creation of the first zero-shot benchmarks for natural language understanding and generation in Indonesian and the local languages of Indonesia, including opening access to previously non-public resources.",
       "abstract": "We present NusaCrowd, a collaborative initiative to collect and unify existing resources for Indonesian languages, including opening access to previously non-public resources. Through this initiative, we have brought together 137 datasets and 118 standardized data loaders. The quality of the datasets has been assessed manually and automatically, and their value is demonstrated through multiple experiments. NusaCrowd's data collection enables the creation of the first zero-shot benchmarks for natural language understanding and generation in Indonesian and the local languages of Indonesia. Furthermore, NusaCrowd brings the creation of the first multilingual automatic speech recognition benchmark in Indonesian and the local languages of Indonesia. Our work strives to advance natural language processing (NLP) research for languages that are under-represented despite being widely spoken."
-    },
-    {
-      "paperId": "736973165f98105fec3729b7db414ae4d80fcbeb",
-      "title": "Scalable Diffusion Models with Transformers",
-      "teamAuthors": [
-        {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
-        }
-      ],
-      "authors": [
-        {
-          "name": "William S. Peebles",
-          "authorId": "35235273",
-          "slug": null
-        },
-        {
-          "name": "Saining Xie",
-          "authorId": "1817030",
-          "slug": "saining-xie"
-        }
-      ],
-      "memberSlug": "saining-xie",
-      "memberName": "Saining Xie",
-      "publicationDate": "2022-12-19",
-      "year": 2022,
-      "venue": "IEEE International Conference on Computer Vision",
-      "url": "https://doi.org/10.1109/ICCV51070.2023.00387",
-      "citationCount": 6831,
-      "tldr": "A new class of diffusion models based on the transformer architecture is explored, replacing the commonly-used U-Net backbone with a transformer that operates on latent patches that outperform all prior diffusion models on the class-conditional ImageNet 512×512 and 256×256 benchmarks.",
-      "abstract": "We explore a new class of diffusion models based on the transformer architecture. We train latent diffusion models of images, replacing the commonly-used U-Net backbone with a transformer that operates on latent patches. We analyze the scalability of our Diffusion Transformers (DiTs) through the lens of forward pass complexity as measured by Gflops. We find that DiTs with higher Gflops—through increased transformer depth/width or increased number of input tokens—consistently have lower FID. In addition to possessing good scalability properties, our largest DiT-XL/2 models outperform all prior diffusion models on the class-conditional ImageNet 512×512 and 256×256 benchmarks, achieving a state-of-the-art FID of 2.27 on the latter."
     },
     {
       "paperId": "5f7a1992ce7bfab7ee2dfd1a6cb5494d4c55135d",
@@ -46740,6 +46740,42 @@
       "abstract": "Understanding self-supervised learning is important but challenging. Previous theoretical works study the role of pretraining losses, and view neural networks as general black boxes. However, the recent work of Saunshi et al. argues that the model architecture -- a component largely ignored by previous works -- also has significant influences on the downstream performance of self-supervised learning. In this work, we provide the first theoretical analysis of self-supervised learning that incorporates the effect of inductive biases originating from the model class. In particular, we focus on contrastive learning -- a popular self-supervised learning method that is widely used in the vision domain. We show that when the model has limited capacity, contrastive representations would recover certain special clustering structures that are compatible with the model architecture, but ignore many other clustering structures in the data distribution. As a result, our theory can capture the more realistic setting where contrastive representations have much lower dimensionality than the number of clusters in the data distribution. We instantiate our theory on several synthetic data distributio"
     },
     {
+      "paperId": "07dbbb95eff2640e07ade6e42e666c14ae5d1d19",
+      "title": "How Does Sharpness-Aware Minimization Minimize Sharpness?",
+      "teamAuthors": [
+        {
+          "slug": "tengyu-ma",
+          "name": "Tengyu Ma"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Kaiyue Wen",
+          "authorId": "2163583830",
+          "slug": null
+        },
+        {
+          "name": "Tengyu Ma",
+          "authorId": "2114186424",
+          "slug": "tengyu-ma"
+        },
+        {
+          "name": "Zhiyuan Li",
+          "authorId": "46947755",
+          "slug": null
+        }
+      ],
+      "memberSlug": "tengyu-ma",
+      "memberName": "Tengyu Ma",
+      "publicationDate": "2022-11-10",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2211.05729",
+      "citationCount": 76,
+      "tldr": "This paper rigorously nails down the exact sharpness notion that SAM regularizes and clarifies the underlying mechanism, and proves that the stochastic version of SAM in fact regularizes another notion of sharpness, which is most likely to be the preferred notion for practical performance.",
+      "abstract": "Sharpness-Aware Minimization (SAM) is a highly effective regularization technique for improving the generalization of deep neural networks for various settings. However, the underlying working of SAM remains elusive because of various intriguing approximations in the theoretical characterizations. SAM intends to penalize a notion of sharpness of the model but implements a computationally efficient variant; moreover, a third notion of sharpness was used for proving generalization guarantees. The subtle differences in these notions of sharpness can indeed lead to significantly different empirical results. This paper rigorously nails down the exact sharpness notion that SAM regularizes and clarifies the underlying mechanism. We also show that the two steps of approximations in the original motivation of SAM individually lead to inaccurate local conclusions, but their combination accidentally reveals the correct effect, when full-batch gradients are applied. Furthermore, we also prove that the stochastic version of SAM in fact regularizes another notion of sharpness, which is most likely to be the preferred notion for practical performance. The key mechanism behind this intriguing phen"
+    },
+    {
       "paperId": "34feea048b3a7a8643f32ae37bc0dda2442d9459",
       "title": "Casual Conversations v2: Designing a large consent-driven dataset to measure algorithmic bias and robustness",
       "teamAuthors": [
@@ -46819,42 +46855,6 @@
       "citationCount": 8,
       "tldr": "The proposed design of such categories and subcategories for Casual Conversations v2.0 are described, which are robust to regional diversities and inclusive of as many subgroups as possible.",
       "abstract": "Developing robust and fair AI systems require datasets with comprehensive set of labels that can help ensure the validity and legitimacy of relevant measurements. Recent efforts, therefore, focus on collecting person-related datasets that have carefully selected labels, including sensitive characteristics, and consent forms in place to use those attributes for model testing and development. Responsible data collection involves several stages, including but not limited to determining use-case scenarios, selecting categories (annotations) such that the data are fit for the purpose of measuring algorithmic bias for subgroups and most importantly ensure that the selected categories/subcategories are robust to regional diversities and inclusive of as many subgroups as possible. Meta, in a continuation of our efforts to measure AI algorithmic bias and robustness (https://ai.facebook.com/blog/shedding-light-on-fairness-in-ai-with-a-new-data-set), is working on collecting a large consent-driven dataset with a comprehensive list of categories. This paper describes our proposed design of such categories and subcategories for Casual Conversations v2."
-    },
-    {
-      "paperId": "07dbbb95eff2640e07ade6e42e666c14ae5d1d19",
-      "title": "How Does Sharpness-Aware Minimization Minimize Sharpness?",
-      "teamAuthors": [
-        {
-          "slug": "tengyu-ma",
-          "name": "Tengyu Ma"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Kaiyue Wen",
-          "authorId": "2163583830",
-          "slug": null
-        },
-        {
-          "name": "Tengyu Ma",
-          "authorId": "2114186424",
-          "slug": "tengyu-ma"
-        },
-        {
-          "name": "Zhiyuan Li",
-          "authorId": "46947755",
-          "slug": null
-        }
-      ],
-      "memberSlug": "tengyu-ma",
-      "memberName": "Tengyu Ma",
-      "publicationDate": "2022-11-10",
-      "year": 2022,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2211.05729",
-      "citationCount": 76,
-      "tldr": "This paper rigorously nails down the exact sharpness notion that SAM regularizes and clarifies the underlying mechanism, and proves that the stochastic version of SAM in fact regularizes another notion of sharpness, which is most likely to be the preferred notion for practical performance.",
-      "abstract": "Sharpness-Aware Minimization (SAM) is a highly effective regularization technique for improving the generalization of deep neural networks for various settings. However, the underlying working of SAM remains elusive because of various intriguing approximations in the theoretical characterizations. SAM intends to penalize a notion of sharpness of the model but implements a computationally efficient variant; moreover, a third notion of sharpness was used for proving generalization guarantees. The subtle differences in these notions of sharpness can indeed lead to significantly different empirical results. This paper rigorously nails down the exact sharpness notion that SAM regularizes and clarifies the underlying mechanism. We also show that the two steps of approximations in the original motivation of SAM individually lead to inaccurate local conclusions, but their combination accidentally reveals the correct effect, when full-batch gradients are applied. Furthermore, we also prove that the stochastic version of SAM in fact regularizes another notion of sharpness, which is most likely to be the preferred notion for practical performance. The key mechanism behind this intriguing phen"
     },
     {
       "paperId": "32de8d5e2c38506227300691ca07a56f640017fd",
@@ -46959,6 +46959,47 @@
       "abstract": "Purpose\nTo explore the limits of deep learning-based brain MRI reconstruction and identify useful acceleration ranges for general-purpose imaging and potential screening.\n\n\nMaterials and Methods\nIn this retrospective study conducted from 2019 through 2021, a model was trained for reconstruction on 5847 brain MR images. Performance was evaluated across a wide range of accelerations (up to 100-fold along a single phase-encoded direction for two-dimensional [2D] sections) on the fastMRI test set collected at New York University, consisting of 558 image volumes. In a sample of 69 volumes, reconstructions were classified by radiologists for identification of two clinical thresholds: (a) general-purpose diagnostic imaging and (b) potential use in a screening protocol. A Monte Carlo procedure was developed to estimate reconstruction error with only undersampled data. The model was evaluated on both in-domain and out-of-domain data. The 95% CIs were calculated using the percentile bootstrap method.\n\n\nResults\nRadiologists rated 100% of 69 volumes as having sufficient image quality for general-purpose imaging at up to 4× acceleration and 65 of 69 volumes (94%) as having sufficient image qual"
     },
     {
+      "paperId": "8a4e2828777c9b3703e8e2b68ac27d9af496261a",
+      "title": "Same Pre-training Loss, Better Downstream: Implicit Bias Matters for Language Models",
+      "teamAuthors": [
+        {
+          "slug": "tengyu-ma",
+          "name": "Tengyu Ma"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Hong Liu",
+          "authorId": "2118903632",
+          "slug": null
+        },
+        {
+          "name": "Sang Michael Xie",
+          "authorId": "46215055",
+          "slug": null
+        },
+        {
+          "name": "Zhiyuan Li",
+          "authorId": "46947755",
+          "slug": null
+        },
+        {
+          "name": "Tengyu Ma",
+          "authorId": "2114186424",
+          "slug": "tengyu-ma"
+        }
+      ],
+      "memberSlug": "tengyu-ma",
+      "memberName": "Tengyu Ma",
+      "publicationDate": "2022-10-25",
+      "year": 2022,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2210.14199",
+      "citationCount": 92,
+      "tldr": "It is proved that SGD with standard mini-batch noise implicitly prefers flatter minima in language models, and a strong correlation between flatness and downstream performance among models with the same minimal pre-training loss is observed.",
+      "abstract": "Language modeling on large-scale datasets leads to impressive performance gains on various downstream language tasks. The validation pre-training loss (or perplexity in autoregressive language modeling) is often used as the evaluation metric when developing language models since the pre-training loss tends to be well-correlated with downstream performance (which is itself difficult to evaluate comprehensively). Contrary to this conventional wisdom, this paper shows that 1) pre-training loss cannot fully explain downstream performance and 2) flatness of the model is well-correlated with downstream performance where pre-training loss is not. On simplified datasets, we identify three ways to produce models with the same (statistically optimal) pre-training loss but different downstream performance: continue pre-training after convergence, increasing the model size, and changing the training algorithm. These experiments demonstrate the existence of implicit bias of pre-training algorithms/optimizers -- among models with the same minimal pre-training loss, they implicitly prefer more transferable ones. Toward understanding this implicit bias, we prove that SGD with standard mini-batch n"
+    },
+    {
       "paperId": "5cc2001af252e89b106b2ecb781270cc36f2b408",
       "title": "How Long Is Enough? Exploring the Optimal Intervals of Long-Range Clinical Note Language Modeling",
       "teamAuthors": [
@@ -47013,47 +47054,6 @@
       "citationCount": 2,
       "tldr": "This work explores long-range adaptation from large pre-trained language models with Longformer, allowing the LMs to capture longer clinical notes context and concludes that capturing a longer clinical note interval is beneficial to the model performance.",
       "abstract": "Large pre-trained language models (LMs) have been widely adopted in biomedical and clinical domains, introducing many powerful LMs such as bio-lm and BioELECTRA. However, the applicability of these methods to real clinical use cases is hindered, due to the limitation of pre-trained LMs in processing long textual data with thousands of words, which is a common length for a clinical note. In this work, we explore long-range adaptation from such LMs with Longformer, allowing the LMs to capture longer clinical notes context. We conduct experiments on three n2c2 challenges datasets and a longitudinal clinical dataset from Hong Kong Hospital Authority electronic health record (EHR) system to show the effectiveness and generalizability of this concept, achieving ~10% F1-score improvement. Based on our experiments, we conclude that capturing a longer clinical note interval is beneficial to the model performance, but there are different cut-off intervals to achieve the optimal performance for different target variables."
-    },
-    {
-      "paperId": "8a4e2828777c9b3703e8e2b68ac27d9af496261a",
-      "title": "Same Pre-training Loss, Better Downstream: Implicit Bias Matters for Language Models",
-      "teamAuthors": [
-        {
-          "slug": "tengyu-ma",
-          "name": "Tengyu Ma"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Hong Liu",
-          "authorId": "2118903632",
-          "slug": null
-        },
-        {
-          "name": "Sang Michael Xie",
-          "authorId": "46215055",
-          "slug": null
-        },
-        {
-          "name": "Zhiyuan Li",
-          "authorId": "46947755",
-          "slug": null
-        },
-        {
-          "name": "Tengyu Ma",
-          "authorId": "2114186424",
-          "slug": "tengyu-ma"
-        }
-      ],
-      "memberSlug": "tengyu-ma",
-      "memberName": "Tengyu Ma",
-      "publicationDate": "2022-10-25",
-      "year": 2022,
-      "venue": "International Conference on Machine Learning",
-      "url": "https://doi.org/10.48550/arXiv.2210.14199",
-      "citationCount": 92,
-      "tldr": "It is proved that SGD with standard mini-batch noise implicitly prefers flatter minima in language models, and a strong correlation between flatness and downstream performance among models with the same minimal pre-training loss is observed.",
-      "abstract": "Language modeling on large-scale datasets leads to impressive performance gains on various downstream language tasks. The validation pre-training loss (or perplexity in autoregressive language modeling) is often used as the evaluation metric when developing language models since the pre-training loss tends to be well-correlated with downstream performance (which is itself difficult to evaluate comprehensively). Contrary to this conventional wisdom, this paper shows that 1) pre-training loss cannot fully explain downstream performance and 2) flatness of the model is well-correlated with downstream performance where pre-training loss is not. On simplified datasets, we identify three ways to produce models with the same (statistically optimal) pre-training loss but different downstream performance: continue pre-training after convergence, increasing the model size, and changing the training algorithm. These experiments demonstrate the existence of implicit bias of pre-training algorithms/optimizers -- among models with the same minimal pre-training loss, they implicitly prefer more transferable ones. Toward understanding this implicit bias, we prove that SGD with standard mini-batch n"
     },
     {
       "paperId": "8b1aa3a20638363be3a6d941e907df704c738dfc",
@@ -47821,7 +47821,7 @@
           "slug": null
         },
         {
-          "name": "C. Schmid",
+          "name": "Cordelia Schmid",
           "authorId": "2462253",
           "slug": null
         },
@@ -48292,6 +48292,118 @@
       "abstract": null
     },
     {
+      "paperId": "4fca50ab80e278f7210b632e501e3616dd3eb2a1",
+      "title": "Can we train vision and language zero-shot classiﬁcation models without syntax?",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Ajinkya Tejankar",
+          "authorId": "1471776526",
+          "slug": null
+        },
+        {
+          "name": "Maziar Sanjabi",
+          "authorId": "2095979",
+          "slug": null
+        },
+        {
+          "name": "Bichen Wu",
+          "authorId": "3130257",
+          "slug": null
+        },
+        {
+          "name": "Madian Khabsa",
+          "authorId": "2072010",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "H. Pirsiavash",
+          "authorId": "2367683",
+          "slug": null
+        },
+        {
+          "name": "Hamed Firooz",
+          "authorId": "22593971",
+          "slug": null
+        },
+        {
+          "name": "U. Davis",
+          "authorId": "102802643",
+          "slug": null
+        },
+        {
+          "name": "AI Meta",
+          "authorId": "2149781051",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": null,
+      "year": 2022,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/4fca50ab80e278f7210b632e501e3616dd3eb2a1",
+      "citationCount": 0,
+      "tldr": "Through extensive and careful experiments, it is shown that replacing intact captions with Bag-of-Words (BoW) does not signiﬁcantly degrade the zero-shot performance and can even slightly improve the performance on some datasets by balancing the frequency of words in BoW.",
+      "abstract": null
+    },
+    {
+      "paperId": "cbaeb612e208eac2723f6d7a3e7f66350c10c801",
+      "title": "Supplemental Materials: Toward Fast, Flexible, and Robust Low-Light Image Enhancement",
+      "teamAuthors": [
+        {
+          "slug": "tengyu-ma",
+          "name": "Tengyu Ma"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Long Ma",
+          "authorId": "1732160",
+          "slug": null
+        },
+        {
+          "name": "Tengyu Ma",
+          "authorId": "2114186424",
+          "slug": "tengyu-ma"
+        },
+        {
+          "name": "Risheng Liu",
+          "authorId": "34469457",
+          "slug": null
+        },
+        {
+          "name": "Xin Fan",
+          "authorId": "144309189",
+          "slug": null
+        },
+        {
+          "name": "Zhongxuan Luo",
+          "authorId": "2140289547",
+          "slug": null
+        }
+      ],
+      "memberSlug": "tengyu-ma",
+      "memberName": "Tengyu Ma",
+      "publicationDate": null,
+      "year": 2022,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/cbaeb612e208eac2723f6d7a3e7f66350c10c801",
+      "citationCount": 315,
+      "tldr": "The visual results of different settings for self-calibrated module Kθ showed the visual results of different settings for self-calibrated module Kθ to show that the method always generated stable outputs no matter how the number of convolutions.",
+      "abstract": null
+    },
+    {
       "paperId": "bb775023683e0909a47f680850bb04a8cabf962f",
       "title": "Integrating Question Rewrites in Conversational Question Answering: A Reinforcement Learning Approach",
       "teamAuthors": [
@@ -48409,72 +48521,6 @@
       "abstract": null
     },
     {
-      "paperId": "4fca50ab80e278f7210b632e501e3616dd3eb2a1",
-      "title": "Can we train vision and language zero-shot classiﬁcation models without syntax?",
-      "teamAuthors": [
-        {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Ajinkya Tejankar",
-          "authorId": "1471776526",
-          "slug": null
-        },
-        {
-          "name": "Maziar Sanjabi",
-          "authorId": "2095979",
-          "slug": null
-        },
-        {
-          "name": "Bichen Wu",
-          "authorId": "3130257",
-          "slug": null
-        },
-        {
-          "name": "Madian Khabsa",
-          "authorId": "2072010",
-          "slug": null
-        },
-        {
-          "name": "Saining Xie",
-          "authorId": "1817030",
-          "slug": "saining-xie"
-        },
-        {
-          "name": "H. Pirsiavash",
-          "authorId": "2367683",
-          "slug": null
-        },
-        {
-          "name": "Hamed Firooz",
-          "authorId": "22593971",
-          "slug": null
-        },
-        {
-          "name": "U. Davis",
-          "authorId": "102802643",
-          "slug": null
-        },
-        {
-          "name": "AI Meta",
-          "authorId": "2149781051",
-          "slug": null
-        }
-      ],
-      "memberSlug": "saining-xie",
-      "memberName": "Saining Xie",
-      "publicationDate": null,
-      "year": 2022,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/4fca50ab80e278f7210b632e501e3616dd3eb2a1",
-      "citationCount": 0,
-      "tldr": "Through extensive and careful experiments, it is shown that replacing intact captions with Bag-of-Words (BoW) does not signiﬁcantly degrade the zero-shot performance and can even slightly improve the performance on some datasets by balancing the frequency of words in BoW.",
-      "abstract": null
-    },
-    {
       "paperId": "9583c43171c2f4605790def9d54a488a0e250aa9",
       "title": "CD-TTA: Compound Domain Test-time Adaptation for Semantic Segmentation",
       "teamAuthors": [
@@ -48518,52 +48564,6 @@
       "url": "https://doi.org/10.48550/arXiv.2212.08356",
       "citationCount": 10,
       "tldr": "The key contribution of this work lies in proposing a highly signiﬁcant new task compound domain test-time adaptation (CD-TTA) on semantic segmentation as well as providing a strong baseline to facilitate future works to benchmark.",
-      "abstract": null
-    },
-    {
-      "paperId": "cbaeb612e208eac2723f6d7a3e7f66350c10c801",
-      "title": "Supplemental Materials: Toward Fast, Flexible, and Robust Low-Light Image Enhancement",
-      "teamAuthors": [
-        {
-          "slug": "tengyu-ma",
-          "name": "Tengyu Ma"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Long Ma",
-          "authorId": "1732160",
-          "slug": null
-        },
-        {
-          "name": "Tengyu Ma",
-          "authorId": "2114186424",
-          "slug": "tengyu-ma"
-        },
-        {
-          "name": "Risheng Liu",
-          "authorId": "34469457",
-          "slug": null
-        },
-        {
-          "name": "Xin Fan",
-          "authorId": "144309189",
-          "slug": null
-        },
-        {
-          "name": "Zhongxuan Luo",
-          "authorId": "2140289547",
-          "slug": null
-        }
-      ],
-      "memberSlug": "tengyu-ma",
-      "memberName": "Tengyu Ma",
-      "publicationDate": null,
-      "year": 2022,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/cbaeb612e208eac2723f6d7a3e7f66350c10c801",
-      "citationCount": 315,
-      "tldr": "The visual results of different settings for self-calibrated module Kθ showed the visual results of different settings for self-calibrated module Kθ to show that the method always generated stable outputs no matter how the number of convolutions.",
       "abstract": null
     },
     {
@@ -48779,7 +48779,7 @@
           "slug": null
         },
         {
-          "name": "C. Schmid",
+          "name": "Cordelia Schmid",
           "authorId": "2462253",
           "slug": null
         },
@@ -49218,7 +49218,7 @@
       "year": 2022,
       "venue": "ACM Conference on Recommender Systems",
       "url": "https://doi.org/10.1145/3523227.3546759",
-      "citationCount": 41,
+      "citationCount": 42,
       "tldr": "A data-driven approach is taken to show the inter-dependence of data and system heterogeneity in real-world data and quantifies its impact on the overall model quality and fairness and shows that modeling realistic system-induced data heterogeneity is essential to achieving fair federated recommendation learning.",
       "abstract": "Federated learning (FL) is an effective mechanism for data privacy in recommender systems that runs machine learning model training on-device. While prior FL optimizations tackled the data and system heterogeneity challenges, they assume the two are independent of each other. This fundamental assumption is not reflective of real-world, large-scale recommender systems — data and system heterogeneity are tightly intertwined. This paper takes a data-driven approach to show the inter-dependence of data and system heterogeneity in real-world data and quantifies its impact on the overall model quality and fairness. We design a framework, RF2, to model the inter-dependence and evaluate its impact on state-of-the-art model optimization techniques for federated recommendation tasks. We demonstrate that the impact on fairness can be severe under realistic heterogeneity scenarios, by up to 15.8–41 × compared to a simple setup assumed in most (if not all) prior work. The result shows that modeling realistic system-induced data heterogeneity is essential to achieving fair federated recommendation learning."
     },
@@ -49589,7 +49589,7 @@
       "year": 2022,
       "venue": "European Conference on Computer Vision",
       "url": "https://doi.org/10.48550/arXiv.2204.07141",
-      "citationCount": 430,
+      "citationCount": 431,
       "tldr": "This work proposes Masked Siamese Networks, a self-supervised learning framework for learning image representations that improves the scalability of joint-embedding architectures, while producing representations of a high semantic level that perform competitively on low-shot image classification.",
       "abstract": "We propose Masked Siamese Networks (MSN), a self-supervised learning framework for learning image representations. Our approach matches the representation of an image view containing randomly masked patches to the representation of the original unmasked image. This self-supervised pre-training strategy is particularly scalable when applied to Vision Transformers since only the unmasked patches are processed by the network. As a result, MSNs improve the scalability of joint-embedding architectures, while producing representations of a high semantic level that perform competitively on low-shot image classification. For instance, on ImageNet-1K, with only 5,000 annotated images, our base MSN model achieves 72.4% top-1 accuracy, and with 1% of ImageNet-1K labels, we achieve 75.7% top-1 accuracy, setting a new state-of-the-art for self-supervised learning on this benchmark. Our code is publicly available."
     },
@@ -49696,7 +49696,7 @@
       "year": 2022,
       "venue": "International Conference on Machine Learning",
       "url": "https://doi.org/10.48550/arXiv.2204.03809",
-      "citationCount": 244,
+      "citationCount": 245,
       "tldr": "Partial personalization can obtain most of the benefits of full model personalization with a small fraction of personal parameters and the alternating update algorithm often outperforms the simultaneous update algorithm by a small but consistent margin.",
       "abstract": "We consider two federated learning algorithms for training partially personalized models, where the shared and personal parameters are updated either simultaneously or alternately on the devices. Both algorithms have been proposed in the literature, but their convergence properties are not fully understood, especially for the alternating variant. We provide convergence analyses of both algorithms in the general nonconvex setting with partial participation and delineate the regime where one dominates the other. Our experiments on real-world image, text, and speech datasets demonstrate that (a) partial personalization can obtain most of the benefits of full model personalization with a small fraction of personal parameters, and, (b) the alternating update algorithm often outperforms the simultaneous update algorithm by a small but consistent margin."
     },
@@ -50098,7 +50098,7 @@
           "slug": null
         },
         {
-          "name": "C. Schmid",
+          "name": "Cordelia Schmid",
           "authorId": "2462253",
           "slug": null
         },
@@ -50221,7 +50221,7 @@
       "year": 2022,
       "venue": "International Conference on Learning Representations",
       "url": "https://www.semanticscholar.org/paper/29b77089a0a40f46372ce2dca9c3bb2dd5d46b1d",
-      "citationCount": 980,
+      "citationCount": 981,
       "tldr": "It is found that fine-tuning can achieve worse accuracy than linear probing out-of-distribution (OOD) when the pretrained features are good and the distribution shift is large, and suggests that the easy two-step strategy of linear probing then full fine- Tuning (LP-FT) combines the benefits of both fine- tuning and linear probing.",
       "abstract": "When transferring a pretrained model to a downstream task, two popular methods are full fine-tuning (updating all the model parameters) and linear probing (updating only the last linear layer—the “head”). It is well known that fine-tuning leads to better accuracy in-distribution (ID). However, in this paper, we find that fine-tuning can achieve worse accuracy than linear probing out-of-distribution (OOD) when the pretrained features are good and the distribution shift is large. On 10 distribution shift datasets (Breeds-Living17, Breeds-Entity30, DomainNet, CIFAR → STL, CIFAR10.1, FMoW, ImageNetV2, ImageNet-R, ImageNet-A, ImageNet-Sketch), fine-tuning obtains on average 2% higher accuracy ID but 7% lower accuracy OOD than linear probing. We show theoretically that this tradeoff between ID and OOD accuracy arises even in a simple setting: fine-tuning overparameterized two-layer linear networks. We prove that the OOD error of fine-tuning is high when we initialize with a fixed or random head—this is because while fine-tuning learns the head, the lower layers of the neural network change simultaneously and distort the pretrained features. Our analysis suggests that the easy two-step st"
     },
@@ -50490,7 +50490,7 @@
       "year": 2022,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01167",
-      "citationCount": 8966,
+      "citationCount": 9000,
       "tldr": "This work gradually “modernize” a standard ResNet toward the design of a vision Transformer, and discovers several key components that contribute to the performance difference along the way, leading to a family of pure ConvNet models dubbed ConvNeXt.",
       "abstract": "The “Roaring 20s” of visual recognition began with the introduction of Vision Transformers (ViTs), which quickly superseded ConvNets as the state-of-the-art image classification model. A vanilla ViT, on the other hand, faces difficulties when applied to general computer vision tasks such as object detection and semantic segmentation. It is the hierarchical Transformers (e.g., Swin Transformers) that reintroduced several ConvNet priors, making Transformers practically viable as a generic vision backbone and demonstrating remarkable performance on a wide variety of vision tasks. However, the effectiveness of such hybrid approaches is still largely credited to the intrinsic superiority of Transformers, rather than the inherent inductive biases of convolutions. In this work, we reexamine the design spaces and test the limits of what a pure ConvNet can achieve. We gradually “modernize” a standard ResNet toward the design of a vision Transformer, and discover several key components that contribute to the performance difference along the way. The outcome of this exploration is a family of pure ConvNet models dubbed ConvNeXt. Constructed entirely from standard ConvNet modules, ConvNeXts co"
     },
@@ -50713,7 +50713,7 @@
       "year": 2021,
       "venue": "European Conference on Computer Vision",
       "url": "https://doi.org/10.1007/978-3-031-19809-0_30",
-      "citationCount": 643,
+      "citationCount": 644,
       "tldr": "This work introduces SLIP, a multi-task learning framework for combining self-supervised learning and CLIP pre-training and finds that SLIP enjoys the best of both worlds: better performance than self- supervision and language supervision.",
       "abstract": "Recent work has shown that self-supervised pre-training leads to improvements over supervised learning on challenging visual recognition tasks. CLIP, an exciting new approach to learning with language supervision, demonstrates promising performance on a wide variety of benchmarks. In this work, we explore whether self-supervised learning can aid in the use of language supervision for visual representation learning. We introduce SLIP, a multi-task learning framework for combining self-supervised learning and CLIP pre-training. After pre-training with Vision Transformers, we thoroughly evaluate representation quality and compare performance to both CLIP and self-supervised learning under three distinct settings: zero-shot transfer, linear classification, and end-to-end finetuning. Across ImageNet and a battery of additional datasets, we find that SLIP improves accuracy by a large margin. We validate our results further with experiments on different model sizes, training schedules, and pre-training datasets. Our findings show that SLIP enjoys the best of both worlds: better performance than self-supervision (+8.1% linear accuracy) and language supervision (+5.2% zero-shot accuracy)."
     },
@@ -50764,7 +50764,7 @@
       "year": 2021,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01426",
-      "citationCount": 872,
+      "citationCount": 874,
       "tldr": "This work presents Masked Feature Prediction (MaskFeat), a self-supervised pre-training of video models that randomly masks out a portion of the input sequence and then predicts the feature of the masked regions, and finds Histograms of Oriented Gradients (HOG), a hand-crafted feature descriptor, works particularly well in terms of both performance and efficiency.",
       "abstract": "We present Masked Feature Prediction (MaskFeat) for self-supervised pre-training of video models. Our approach first randomly masks out a portion of the input sequence and then predicts the feature of the masked regions. We study five different types of features and find Histograms of Oriented Gradients (HOG), a hand-crafted feature descriptor, works particularly well in terms of both performance and efficiency. We observe that the local contrast normalization in HOG is essential for good results, which is in line with earlier work using HOG for visual recognition. Our approach can learn abundant visual knowledge and drive large-scale Transformer based models. Without using extra model weights or supervision, MaskFeat pretrained on unlabeled videos achieves unprecedented results of 86.7% with MViTv2-L on Kinetics-400, 88.3% on Kinetics 600, 80.4% on Kinetics-700, 38.8 mAP on AVA, and 75.0% on SSv2. MaskFeat further generalizes to image input, which can be interpreted as a video with a single frame and obtains competitive results on ImageN et."
     },
@@ -51040,7 +51040,7 @@
       "year": 2021,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01553",
-      "citationCount": 12384,
+      "citationCount": 12405,
       "tldr": "This paper develops an asymmetric encoder-decoder architecture, with an encoder that operates only on the visible subset of patches (without mask tokens), along with a lightweight decoder that reconstructs the original image from the latent representation and mask tokens.",
       "abstract": "This paper shows that masked autoencoders (MAE) are scalable self-supervised learners for computer vision. Our MAE approach is simple: we mask random patches of the input image and reconstruct the missing pixels. It is based on two core designs. First, we develop an asymmetric encoder-decoder architecture, with an encoder that operates only on the visible subset of patches (without mask tokens), along with a lightweight decoder that reconstructs the original image from the latent representation and mask tokens. Second, we find that masking a high proportion of the input image, e.g., 75%, yields a nontrivial and meaningful self-supervisory task. Coupling these two designs enables us to train large models efficiently and effectively: we accelerate training (by 3× or more) and improve accuracy. Our scalable approach allows for learning high-capacity models that generalize well: e.g., a vanilla ViT-Huge model achieves the best accuracy (87.8%) among methods that use only ImageNet-1K data. Transfer performance in downstream tasks outperforms supervised pretraining and shows promising scaling behavior."
     },
@@ -51212,7 +51212,7 @@
       "year": 2021,
       "venue": "International Conference on Learning Representations",
       "url": "https://www.semanticscholar.org/paper/10bd4160b44803ada6a3d2e366c44b7e2a4ffe90",
-      "citationCount": 1128,
+      "citationCount": 1131,
       "tldr": "This paper studies how in-context learning can emerge when pretraining documents have long-range coherence, and proves when this occurs despite a distribution mismatch between prompts and pretraining data in a setting where the pretraining distribution is a mixture of HMMs.",
       "abstract": "Large language models (LMs) such as GPT-3 have the surprising ability to do in-context learning, where the model learns to do a downstream task simply by conditioning on a prompt consisting of input-output examples. The LM learns from these examples without being explicitly pretrained to learn. Thus, it is unclear what enables in-context learning. In this paper, we study how in-context learning can emerge when pretraining documents have long-range coherence. Here, the LM must infer a latent document-level concept to generate coherent next tokens during pretraining. At test time, in-context learning occurs when the LM also infers a shared latent concept between examples in a prompt. We prove when this occurs despite a distribution mismatch between prompts and pretraining data in a setting where the pretraining distribution is a mixture of HMMs. In contrast to messy large-scale datasets used to train LMs capable of in-context learning, we generate a small-scale synthetic dataset (GINC) where Transformers and LSTMs both exhibit in-context learning. Beyond the theory, experiments on GINC exhibit large-scale real-world phenomena including improved in-context performance with model scali"
     },
@@ -51293,7 +51293,7 @@
           "slug": null
         },
         {
-          "name": "C. Schmid",
+          "name": "Cordelia Schmid",
           "authorId": "2462253",
           "slug": null
         },
@@ -51442,7 +51442,7 @@
       "year": 2021,
       "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
       "url": "https://doi.org/10.1109/TPAMI.2023.3268118",
-      "citationCount": 946,
+      "citationCount": 952,
       "tldr": "This article groups existing deep long-tailed learning studies into three main categories (i.e., class re-balancing, information augmentation and module improvement), and examines several state-of-the-art methods following this taxonomy in detail.",
       "abstract": "Deep long-tailed learning, one of the most challenging problems in visual recognition, aims to train well-performing deep models from a large number of images that follow a long-tailed class distribution. In the last decade, deep learning has emerged as a powerful recognition model for learning high-quality image representations and has led to remarkable breakthroughs in generic visual recognition. However, long-tailed class imbalance, a common problem in practical visual recognition tasks, often limits the practicality of deep network based recognition models in real-world applications, since they can be easily biased towards dominant classes and perform poorly on tail classes. To address this problem, a large number of studies have been conducted in recent years, making promising progress in the field of deep long-tailed learning. Considering the rapid evolution of this field, this article aims to provide a comprehensive survey on recent advances in deep long-tailed learning. To be specific, we group existing deep long-tailed learning studies into three main categories (i.e., class re-balancing, information augmentation and module improvement), and review these methods following "
     },
@@ -52161,7 +52161,7 @@
       "year": 2021,
       "venue": "arXiv.org",
       "url": "https://www.semanticscholar.org/paper/76e9e2ec3de437ffb30d8b7b629f7fe3e61de5c2",
-      "citationCount": 7077,
+      "citationCount": 7090,
       "tldr": "This report provides a thorough account of the opportunities and risks of foundation models, ranging from their capabilities, to their applications, and what they are even capable of due to their emergent properties.",
       "abstract": "AI is undergoing a paradigm shift with the rise of models (e.g., BERT, DALL-E, GPT-3) that are trained on broad data at scale and are adaptable to a wide range of downstream tasks. We call these models foundation models to underscore their critically central yet incomplete character. This report provides a thorough account of the opportunities and risks of foundation models, ranging from their capabilities (e.g., language, vision, robotics, reasoning, human interaction) and technical principles(e.g., model architectures, training procedures, data, systems, security, evaluation, theory) to their applications (e.g., law, healthcare, education) and societal impact (e.g., inequity, misuse, economic and environmental impact, legal and ethical considerations). Though foundation models are based on standard deep learning and transfer learning, their scale results in new emergent capabilities,and their effectiveness across so many tasks incentivizes homogenization. Homogenization provides powerful leverage but demands caution, as the defects of the foundation model are inherited by all the adapted models downstream. Despite the impending widespread deployment of foundation models, we curre"
     },
@@ -52289,6 +52289,42 @@
       "abstract": "Training-time safety violations have been a major concern when we deploy reinforcement learning algorithms in the real world. This paper explores the possibility of safe RL algorithms with zero training-time safety violations in the challenging setting where we are only given a safe but trivial-reward initial policy without any prior knowledge of the dynamics model and additional offline data. We propose an algorithm, Co-trained Barrier Certificate for Safe RL (CRABS), which iteratively learns barrier certificates, dynamics models, and policies. The barrier certificates, learned via adversarial training, ensure the policy's safety assuming calibrated learned dynamics model. We also add a regularization term to encourage larger certified regions to enable better exploration. Empirical simulations show that zero safety violations are already challenging for a suite of simple environments with only 2-4 dimensional state space, especially if high-reward policies have to visit regions near the safety boundary. Prior methods require hundreds of violations to achieve decent rewards on these tasks, whereas our proposed algorithms incur zero violations."
     },
     {
+      "paperId": "0e9ac2cfc5a3ecb66eeace720901390f7809ba0a",
+      "title": "Statistically Meaningful Approximation: a Case Study on Approximating Turing Machines with Transformers",
+      "teamAuthors": [
+        {
+          "slug": "tengyu-ma",
+          "name": "Tengyu Ma"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Colin Wei",
+          "authorId": "3460405",
+          "slug": null
+        },
+        {
+          "name": "Yining Chen",
+          "authorId": "2145262885",
+          "slug": null
+        },
+        {
+          "name": "Tengyu Ma",
+          "authorId": "2114186424",
+          "slug": "tengyu-ma"
+        }
+      ],
+      "memberSlug": "tengyu-ma",
+      "memberName": "Tengyu Ma",
+      "publicationDate": "2021-07-28",
+      "year": 2021,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.52202/068431-0877",
+      "citationCount": 117,
+      "tldr": "This work proposes a formal definition of statistically meaningful (SM) approximation which requires the approximating network to exhibit good statistical learnability and introduces new tools for analyzing generalization which provide much tighter sample complexities than the typical VC-dimension or norm-based bounds.",
+      "abstract": "A common lens to theoretically study neural net architectures is to analyze the functions they can approximate. However, constructions from approximation theory may be unrealistic and therefore less meaningful. For example, a common unrealistic trick is to encode target function values using infinite precision. To address these issues, this work proposes a formal definition of statistically meaningful (SM) approximation which requires the approximating network to exhibit good statistical learnability. We study SM approximation for two function classes: boolean circuits and Turing machines. We show that overparameterized feedforward neural nets can SM approximate boolean circuits with sample complexity depending only polynomially on the circuit size, not the size of the network. In addition, we show that transformers can SM approximate Turing machines with computation time bounded by $T$ with sample complexity polynomial in the alphabet size, state space size, and $\\log (T)$. We also introduce new tools for analyzing generalization which provide much tighter sample complexities than the typical VC-dimension or norm-based bounds, which may be of independent interest."
+    },
+    {
       "paperId": "4ea9b807600537af27fbb8409f5e541714030dfa",
       "title": "VirtualConductor: Music-driven Conducting Video Generation System",
       "teamAuthors": [
@@ -52328,42 +52364,6 @@
       "citationCount": 3,
       "tldr": "This work combines 3D animation rendering and a pose transfer model to synthesize conducting video from a single given user's image and proposes Audio Motion Correspondence Network and adversarial-perceptual learning to learn the cross-modal relationship and generate diverse, plausible, music-synchronized motion.",
       "abstract": "In this demo, we present VirtualConductor, a system that can generate conducting video from any given music and a single user's image. First, a large-scale conductor motion dataset is collected and constructed. Then, we propose Audio Motion Correspondence Network (AMCNet) and adversarial-perceptual learning to learn the cross-modal relationship and generate diverse, plausible, music-synchronized motion. Finally, we combine 3D animation rendering and a pose transfer model to synthesize conducting video from a single given user's image. Therefore, any user can become a virtual conductor through the system."
-    },
-    {
-      "paperId": "0e9ac2cfc5a3ecb66eeace720901390f7809ba0a",
-      "title": "Statistically Meaningful Approximation: a Case Study on Approximating Turing Machines with Transformers",
-      "teamAuthors": [
-        {
-          "slug": "tengyu-ma",
-          "name": "Tengyu Ma"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Colin Wei",
-          "authorId": "3460405",
-          "slug": null
-        },
-        {
-          "name": "Yining Chen",
-          "authorId": "2145262885",
-          "slug": null
-        },
-        {
-          "name": "Tengyu Ma",
-          "authorId": "2114186424",
-          "slug": "tengyu-ma"
-        }
-      ],
-      "memberSlug": "tengyu-ma",
-      "memberName": "Tengyu Ma",
-      "publicationDate": "2021-07-28",
-      "year": 2021,
-      "venue": "Neural Information Processing Systems",
-      "url": "https://doi.org/10.52202/068431-0877",
-      "citationCount": 117,
-      "tldr": "This work proposes a formal definition of statistically meaningful (SM) approximation which requires the approximating network to exhibit good statistical learnability and introduces new tools for analyzing generalization which provide much tighter sample complexities than the typical VC-dimension or norm-based bounds.",
-      "abstract": "A common lens to theoretically study neural net architectures is to analyze the functions they can approximate. However, constructions from approximation theory may be unrealistic and therefore less meaningful. For example, a common unrealistic trick is to encode target function values using infinite precision. To address these issues, this work proposes a formal definition of statistically meaningful (SM) approximation which requires the approximating network to exhibit good statistical learnability. We study SM approximation for two function classes: boolean circuits and Turing machines. We show that overparameterized feedforward neural nets can SM approximate boolean circuits with sample complexity depending only polynomially on the circuit size, not the size of the network. In addition, we show that transformers can SM approximate Turing machines with computation time bounded by $T$ with sample complexity polynomial in the alphabet size, state space size, and $\\log (T)$. We also introduce new tools for analyzing generalization which provide much tighter sample complexities than the typical VC-dimension or norm-based bounds, which may be of independent interest."
     },
     {
       "paperId": "fb04891d44f81cd3ae9e13886f0a8adaff3dd75c",
@@ -52745,6 +52745,52 @@
       "abstract": "Y.A"
     },
     {
+      "paperId": "e4179bf0963012f9f13ce0ca61d3cdd12a87b336",
+      "title": "Entity and Evidence Guided Document-Level Relation Extraction",
+      "teamAuthors": [
+        {
+          "slug": "tengyu-ma",
+          "name": "Tengyu Ma"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Kevin Huang",
+          "authorId": "152530947",
+          "slug": null
+        },
+        {
+          "name": "Peng Qi",
+          "authorId": "2121382930",
+          "slug": null
+        },
+        {
+          "name": "Guangtao Wang",
+          "authorId": "2148300",
+          "slug": null
+        },
+        {
+          "name": "Tengyu Ma",
+          "authorId": "2114186424",
+          "slug": "tengyu-ma"
+        },
+        {
+          "name": "Jing Huang",
+          "authorId": "30768523",
+          "slug": null
+        }
+      ],
+      "memberSlug": "tengyu-ma",
+      "memberName": "Tengyu Ma",
+      "publicationDate": null,
+      "year": 2021,
+      "venue": "Workshop on Representation Learning for NLP",
+      "url": "https://doi.org/10.18653/v1/2021.repl4nlp-1.30",
+      "citationCount": 37,
+      "tldr": "A novel framework E2GRE (Entity and Evidence Guided Relation Extraction) that jointly extracts relations and the underlying evidence sentences by using large pretrained language model (LM) as input encoder and concatenate document text with head entities to help LMs concentrate on parts of the document that are more related to the head entity.",
+      "abstract": "Document-level relation extraction is a challenging task, requiring reasoning over multiple sentences to predict a set of relations in a document. In this paper, we propose a novel framework E2GRE (Entity and Evidence Guided Relation Extraction) that jointly extracts relations and the underlying evidence sentences by using large pretrained language model (LM) as input encoder. First, we propose to guide the pretrained LM’s attention mechanism to focus on relevant context by using attention probabilities as additional features for evidence prediction. Furthermore, instead of feeding the whole document into pretrained LMs to obtain entity representation, we concatenate document text with head entities to help LMs concentrate on parts of the document that are more related to the head entity. Our E2GRE jointly learns relation extraction and evidence prediction effectively, showing large gains on both these tasks, which we find are highly correlated."
+    },
+    {
       "paperId": "8e5eea5f255edac257bb00e893dd02d942a84df2",
       "title": "Fight for 4230 at CheckThat! 2021: Domain-Specific Preprocessing and Pretrained Model for Ranking Claims by Check-Worthiness",
       "teamAuthors": [
@@ -52820,52 +52866,6 @@
       "citationCount": 2,
       "tldr": "This paper proposes a new relational reasoning module, that incorporates a contextualized diagonal matrix and 2D relative position representations, that allows the relational representation of a feature point to encode the whole image context and its relative position information.",
       "abstract": "Capturing relationships among local and global features in an image is crucial for proper visual understanding. However, the convolution operation is inherently limited at utilizing long-range information due to its small receptive ﬁeld. Existing approaches thus heavily rely on non-local network strategies to make up for the locality of convolutional features. Despite their successful applications in various tasks, we propose there is still considerable room for improvement, by exploring the effectiveness of global image context and position-aware representations. Notably, the concept of the relative position is surprisingly under-explored in the vision domain, whereas it has proven to be useful for modeling dependencies in machine translation tasks. In this paper, we propose a new relational reasoning module, that incorporates a contextualized diagonal matrix and 2D relative position representations. While being simple and ﬂexible, our module allows the relational representation of a feature point to encode the whole image context and its relative position information. We also explore multi-head and dropout strategies to improve the relation learning further. Extensive experiments"
-    },
-    {
-      "paperId": "e4179bf0963012f9f13ce0ca61d3cdd12a87b336",
-      "title": "Entity and Evidence Guided Document-Level Relation Extraction",
-      "teamAuthors": [
-        {
-          "slug": "tengyu-ma",
-          "name": "Tengyu Ma"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Kevin Huang",
-          "authorId": "152530947",
-          "slug": null
-        },
-        {
-          "name": "Peng Qi",
-          "authorId": "2121382930",
-          "slug": null
-        },
-        {
-          "name": "Guangtao Wang",
-          "authorId": "2148300",
-          "slug": null
-        },
-        {
-          "name": "Tengyu Ma",
-          "authorId": "2114186424",
-          "slug": "tengyu-ma"
-        },
-        {
-          "name": "Jing Huang",
-          "authorId": "30768523",
-          "slug": null
-        }
-      ],
-      "memberSlug": "tengyu-ma",
-      "memberName": "Tengyu Ma",
-      "publicationDate": null,
-      "year": 2021,
-      "venue": "Workshop on Representation Learning for NLP",
-      "url": "https://doi.org/10.18653/v1/2021.repl4nlp-1.30",
-      "citationCount": 37,
-      "tldr": "A novel framework E2GRE (Entity and Evidence Guided Relation Extraction) that jointly extracts relations and the underlying evidence sentences by using large pretrained language model (LM) as input encoder and concatenate document text with head entities to help LMs concentrate on parts of the document that are more related to the head entity.",
-      "abstract": "Document-level relation extraction is a challenging task, requiring reasoning over multiple sentences to predict a set of relations in a document. In this paper, we propose a novel framework E2GRE (Entity and Evidence Guided Relation Extraction) that jointly extracts relations and the underlying evidence sentences by using large pretrained language model (LM) as input encoder. First, we propose to guide the pretrained LM’s attention mechanism to focus on relevant context by using attention probabilities as additional features for evidence prediction. Furthermore, instead of feeding the whole document into pretrained LMs to obtain entity representation, we concatenate document text with head entities to help LMs concentrate on parts of the document that are more related to the head entity. Our E2GRE jointly learns relation extraction and evidence prediction effectively, showing large gains on both these tasks, which we find are highly correlated."
     },
     {
       "paperId": "e491775da2a28dd522c3b441d6ab57ad86ef3a3d",
@@ -53087,7 +53087,7 @@
       "year": 2021,
       "venue": "International Conference on Artificial Intelligence and Statistics",
       "url": "https://www.semanticscholar.org/paper/38fca90fef15b226dbae8db408c5efe8066dde1c",
-      "citationCount": 478,
+      "citationCount": 479,
       "tldr": "This work proposes a novel buffered asynchronous aggregation method, FedBuff, that is agnostic to the choice of optimizer, and combines the best properties of synchronous and asynchronous FL, while being compatible with privacy-preserving technologies such as Secure Aggregation and differential privacy.",
       "abstract": "Scalability and privacy are two critical concerns for cross-device federated learning (FL) systems. In this work, we identify that synchronous FL - synchronized aggregation of client updates in FL - cannot scale efficiently beyond a few hundred clients training in parallel. It leads to diminishing returns in model performance and training speed, analogous to large-batch training. On the other hand, asynchronous aggregation of client updates in FL (i.e., asynchronous FL) alleviates the scalability issue. However, aggregating individual client updates is incompatible with Secure Aggregation, which could result in an undesirable level of privacy for the system. To address these concerns, we propose a novel buffered asynchronous aggregation method, FedBuff, that is agnostic to the choice of optimizer, and combines the best properties of synchronous and asynchronous FL. We empirically demonstrate that FedBuff is 3.3x more efficient than synchronous FL and up to 2.5x more efficient than asynchronous FL, while being compatible with privacy-preserving technologies such as Secure Aggregation and differential privacy. We provide theoretical convergence guarantees in a smooth non-convex setti"
     },
@@ -53316,7 +53316,7 @@
       "year": 2021,
       "venue": "International Conference on Learning Representations",
       "url": "https://www.semanticscholar.org/paper/0d0cf5f64c052aa7edc5bb638203616a620557f6",
-      "citationCount": 1364,
+      "citationCount": 1365,
       "tldr": "This paper introduces VICReg (Variance-Invariance-Covariance Regularization), a method that explicitly avoids the collapse problem with a simple regularization term on the variance of the embeddings along each dimension individually.",
       "abstract": "Recent self-supervised methods for image representation learning are based on maximizing the agreement between embedding vectors from different views of the same image. A trivial solution is obtained when the encoder outputs constant vectors. This collapse problem is often avoided through implicit biases in the learning architecture, that often lack a clear justification or interpretation. In this paper, we introduce VICReg (Variance-Invariance-Covariance Regularization), a method that explicitly avoids the collapse problem with a simple regularization term on the variance of the embeddings along each dimension individually. VICReg combines the variance term with a decorrelation mechanism based on redundancy reduction and covariance regularization, and achieves results on par with the state of the art on several downstream tasks. In addition, we show that incorporating our new variance term into other methods helps stabilize the training and leads to performance improvements."
     },
@@ -53452,7 +53452,7 @@
       "year": 2021,
       "venue": "IEEE Transactions on Medical Imaging",
       "url": "https://doi.org/10.1109/TMI.2021.3075856",
-      "citationCount": 303,
+      "citationCount": 302,
       "tldr": "This paper hosts the second fastMRI competition targeted towards reconstructing MR images with subsampled k-space data and identifies common failure modes across the submissions, highlighting areas of need for future research in the MRI reconstruction community.",
       "abstract": "Accelerating MRI scans is one of the principal outstanding problems in the MRI research community. Towards this goal, we hosted the second fastMRI competition targeted towards reconstructing MR images with subsampled k-space data. We provided participants with data from 7,299 clinical brain scans (de-identified via a HIPAA-compliant procedure by NYU Langone Health), holding back the fully-sampled data from 894 of these scans for challenge evaluation purposes. In contrast to the 2019 challenge, we focused our radiologist evaluations on pathological assessment in brain images. We also debuted a new Transfer track that required participants to submit models evaluated on MRI scanners from outside the training set. We received 19 submissions from eight different groups. Results showed one team scoring best in both SSIM scores and qualitative radiologist evaluations. We also performed analysis on alternative metrics to mitigate the effects of background noise and collected feedback from the participants to inform future challenges. Lastly, we identify common failure modes across the submissions, highlighting areas of need for future research in the MRI reconstruction community."
     },
@@ -53677,7 +53677,7 @@
       "year": 2021,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV48922.2021.00950",
-      "citationCount": 2447,
+      "citationCount": 2449,
       "tldr": "This work investigates the effects of several fundamental components for training self-supervised ViT, and reveals that these results are indeed partial failure, and they can be improved when training is made more stable.",
       "abstract": "This paper does not describe a novel method. Instead, it studies a straightforward, incremental, yet must-know baseline given the recent progress in computer vision: self-supervised learning for Vision Transformers (ViT). While the training recipes for standard convolutional networks have been highly mature and robust, the recipes for ViT are yet to be built, especially in the self-supervised scenarios where training becomes more challenging. In this work, we go back to basics and investigate the effects of several fundamental components for training self-supervised ViT. We observe that instability is a major issue that degrades accuracy, and it can be hidden by apparently good results. We reveal that these results are indeed partial failure, and they can be improved when training is made more stable. We benchmark ViT results in MoCo v3 and several other self-supervised frameworks, with ablations in various aspects. We discuss the currently positive evidence as well as challenges and open questions. We hope that this work will provide useful data points and experience for future research."
     },
@@ -53774,7 +53774,7 @@
       "year": 2021,
       "venue": "arXiv.org",
       "url": "https://www.semanticscholar.org/paper/96da196d6f8c947db03d13759f030642f8234abf",
-      "citationCount": 639,
+      "citationCount": 642,
       "tldr": "This paper proposes a simple yet effective method, named Re-attention, to re-generate the attention maps to increase their diversity at different layers with negligible computation and memory cost and makes it feasible to train deeper ViTs with consistent performance improvements via minor modification to existing ViT models.",
       "abstract": "Vision transformers (ViTs) have been successfully applied in image classification tasks recently. In this paper, we show that, unlike convolution neural networks (CNNs)that can be improved by stacking more convolutional layers, the performance of ViTs saturate fast when scaled to be deeper. More specifically, we empirically observe that such scaling difficulty is caused by the attention collapse issue: as the transformer goes deeper, the attention maps gradually become similar and even much the same after certain layers. In other words, the feature maps tend to be identical in the top layers of deep ViT models. This fact demonstrates that in deeper layers of ViTs, the self-attention mechanism fails to learn effective concepts for representation learning and hinders the model from getting expected performance gain. Based on above observation, we propose a simple yet effective method, named Re-attention, to re-generate the attention maps to increase their diversity at different layers with negligible computation and memory cost. The pro-posed method makes it feasible to train deeper ViT models with consistent performance improvements via minor modification to existing ViT models. Not"
     },
@@ -53882,7 +53882,7 @@
       "year": 2021,
       "venue": "Neural Information Processing Systems",
       "url": "https://www.semanticscholar.org/paper/6af5cdb1c6d54ed75a32353f3c31097eca6cb35e",
-      "citationCount": 132,
+      "citationCount": 133,
       "tldr": "A feature space for image transforms is developed, and a new measure in this space between augmentations and corruptions called the Minimal Sample Distance is used to demonstrate a strong correlation between similarity and performance.",
       "abstract": "Invariance to a broad array of image corruptions, such as warping, noise, or color shifts, is an important aspect of building robust models in computer vision. Recently, several new data augmentations have been proposed that significantly improve performance on ImageNet-C, a benchmark of such corruptions. However, there is still a lack of basic understanding on the relationship between data augmentations and test-time corruptions. To this end, we develop a feature space for image transforms, and then use a new measure in this space between augmentations and corruptions called the Minimal Sample Distance to demonstrate a strong correlation between similarity and performance. We then investigate recent data augmentations and observe a significant degradation in corruption robustness when the test-time corruptions are sampled to be perceptually dissimilar from ImageNet-C in this feature space. Our results suggest that test error can be improved by training on perceptually similar augmentations, and data augmentations may not generalize well beyond the existing benchmark. We hope our results and tools will allow for more robust progress towards improving robustness to image corruptions"
     },
@@ -54844,7 +54844,7 @@
       "year": 2020,
       "venue": "European Conference on Computer Vision",
       "url": "https://doi.org/10.1007/978-3-030-58580-8_34",
-      "citationCount": 846,
+      "citationCount": 845,
       "tldr": "This work aims at facilitating research on 3D representation learning by selecting a suite of diverse datasets and tasks to measure the effect of unsupervised pre-training on a large source set of 3D scenes and achieving improvement over recent best results in segmentation and detection across 6 different benchmarks.",
       "abstract": "Arguably one of the top success stories of deep learning is transfer learning. The finding that pre-training a network on a rich source set (eg., ImageNet) can help boost performance once fine-tuned on a usually much smaller target set, has been instrumental to many applications in language and vision. Yet, very little is known about its usefulness in 3D point cloud understanding. We see this as an opportunity considering the effort required for annotating data in 3D. In this work, we aim at facilitating research on 3D representation learning. Different from previous works, we focus on high-level scene understanding tasks. To this end, we select a suite of diverse datasets and tasks to measure the effect of unsupervised pre-training on a large source set of 3D scenes. Our findings are extremely encouraging: using a unified triplet of architecture, source dataset, and contrastive loss for pre-training, we achieve improvement over recent best results in segmentation and detection across 6 different benchmarks for indoor and outdoor, real and synthetic datasets -- demonstrating that the learned representation can generalize across domains. Furthermore, the improvement was similar to s"
     },
@@ -55145,52 +55145,6 @@
       "abstract": null
     },
     {
-      "paperId": "f488bd9e631caf8c5803a5bc52ab3a36dd8e803c",
-      "title": "Paper Title (use style: paper title)",
-      "teamAuthors": [
-        {
-          "slug": "delong-chen",
-          "name": "Delong Chen"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Fan Liu",
-          "authorId": "2170733045",
-          "slug": null
-        },
-        {
-          "name": "Delong Chen",
-          "authorId": "94210578",
-          "slug": "delong-chen"
-        },
-        {
-          "name": "Fei Wang",
-          "authorId": "1682816",
-          "slug": null
-        },
-        {
-          "name": "Zewen Li",
-          "authorId": "2109963918",
-          "slug": null
-        },
-        {
-          "name": "Feng Xu",
-          "authorId": "2152477706",
-          "slug": null
-        }
-      ],
-      "memberSlug": "delong-chen",
-      "memberName": "Delong Chen",
-      "publicationDate": null,
-      "year": 2020,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/f488bd9e631caf8c5803a5bc52ab3a36dd8e803c",
-      "citationCount": 38,
-      "tldr": "The semantic gap is regarded as an important future issue that needs to be considered in deep SSPP methods and efforts of traditional methods and deep feature combining, loss function improving and network structure improving are involved in the analysis in the generic learning methods section.",
-      "abstract": null
-    },
-    {
       "paperId": "6eaf6ecc07862ed2339d43d93f1cc8fb127c4222",
       "title": "Dataset of Knee Images for Accelerated MR Image Reconstruction Using Machine Learning",
       "teamAuthors": [
@@ -55328,6 +55282,52 @@
       "url": "https://www.semanticscholar.org/paper/6eaf6ecc07862ed2339d43d93f1cc8fb127c4222",
       "citationCount": 0,
       "tldr": "The purpose of the fastMRI dataset is to provide the first large-scale dataset tailored to the problem of image reconstruction using machine learning techniques, and to enable accelerated MRI acquisitions of two-dimensional (2D) fastspin-echo sequences that are commonly used in musculoskeletal examinations.",
+      "abstract": null
+    },
+    {
+      "paperId": "f488bd9e631caf8c5803a5bc52ab3a36dd8e803c",
+      "title": "Paper Title (use style: paper title)",
+      "teamAuthors": [
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Fan Liu",
+          "authorId": "2170733045",
+          "slug": null
+        },
+        {
+          "name": "Delong Chen",
+          "authorId": "94210578",
+          "slug": "delong-chen"
+        },
+        {
+          "name": "Fei Wang",
+          "authorId": "1682816",
+          "slug": null
+        },
+        {
+          "name": "Zewen Li",
+          "authorId": "2109963918",
+          "slug": null
+        },
+        {
+          "name": "Feng Xu",
+          "authorId": "2152477706",
+          "slug": null
+        }
+      ],
+      "memberSlug": "delong-chen",
+      "memberName": "Delong Chen",
+      "publicationDate": null,
+      "year": 2020,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/f488bd9e631caf8c5803a5bc52ab3a36dd8e803c",
+      "citationCount": 38,
+      "tldr": "The semantic gap is regarded as an important future issue that needs to be considered in deep SSPP methods and efforts of traditional methods and deep feature combining, loss function improving and network structure improving are involved in the analysis in the generic learning methods section.",
       "abstract": null
     },
     {
@@ -55577,7 +55577,7 @@
       "year": 2020,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/cvpr42600.2020.01100",
-      "citationCount": 307,
+      "citationCount": 309,
       "tldr": "This work provides the first systematic analysis on the underperformance of state-of-the-art models in front of long-tail distribution and proposes a novel balanced group softmax (BAGS) module for balancing the classifiers within the detection frameworks through group-wise training.",
       "abstract": "Solving long-tail large vocabulary object detection with deep learning based models is a challenging and demanding task, which is however under-explored. In this work, we provide the first systematic analysis on the underperformance of state-of-the-art models in front of long-tail distribution. We find existing detection methods are unable to model few-shot classes when the dataset is extremely skewed, which can result in classifier imbalance in terms of parameter magnitude. Directly adapting long-tail classification models to detection frameworks can not solve this problem due to the intrinsic difference between detection and classification. In this work, we propose a novel balanced group softmax (BAGS) module for balancing the classifiers within the detection frameworks through group-wise training. It implicitly modulates the training process for the head and tail classes and ensures they are both sufficiently trained, without requiring any extra sampling for the instances from the tail classes. Extensive experiments on the very recent long-tail large vocabulary object recognition benchmark LVIS show that our proposed BAGS significantly improves the performance of detectors with "
     },
@@ -55786,7 +55786,7 @@
       "year": 2020,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/cvpr42600.2020.01298",
-      "citationCount": 334,
+      "citationCount": 335,
       "tldr": "This work proposes a memory and computationally efficient DNAS variant, DMaskingNAS, that expands the search space by up to 10^14x over conventional DNAS, supporting searches over spatial and channel dimensions that are otherwise prohibitively expensive: input resolution and number of filters.",
       "abstract": "Differentiable Neural Architecture Search (DNAS) has demonstrated great success in designing state-of-the-art, efficient neural networks. However, DARTS-based DNAS's search space is small when compared to other search methods', since all candidate network layers must be explicitly instantiated in memory. To address this bottleneck, we propose a memory and computationally efficient DNAS variant: DMaskingNAS. This algorithm expands the search space by up to 10^14x over conventional DNAS, supporting searches over spatial and channel dimensions that are otherwise prohibitively expensive: input resolution and number of filters. We propose a masking mechanism for feature map reuse, so that memory and computational costs stay nearly constant as the search space expands. Furthermore, we employ effective shape propagation to maximize per-FLOP or per-parameter accuracy. The searched FBNetV2s yield state-of-the-art performance when compared with all previous architectures. With up to 421x less search cost, DMaskingNAS finds models with 0.9% higher accuracy, 15% fewer FLOPs than MobileNetV3-Small; and with similar accuracy but 20% fewer FLOPs than Efficient-B0. Furthermore, our FBNetV2 outperf"
     },
@@ -56095,7 +56095,7 @@
       "year": 2020,
       "venue": "Radiology: Artificial Intelligence",
       "url": "https://doi.org/10.1148/ryai.2020190007",
-      "citationCount": 524,
+      "citationCount": 525,
       "tldr": "A publicly available dataset containing k-space data as well as Digital Imaging and Communications in Medicine image data of knee images for accelerated MR image reconstruction using machine learning is presented.",
       "abstract": "A publicly available dataset containing k-space data as well as Digital Imaging and Communications in Medicine image data of knee images for accelerated MR image reconstruction using machine learning is presented."
     },
@@ -56303,7 +56303,7 @@
       "year": 2019,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/cvpr42600.2020.00975",
-      "citationCount": 15474,
+      "citationCount": 15489,
       "tldr": null,
       "abstract": "We present Momentum Contrast (MoCo) for unsupervised visual representation learning. From a perspective on contrastive learning as dictionary look-up, we build a dynamic dictionary with a queue and a moving-averaged encoder. This enables building a large and consistent dictionary on-the-fly that facilitates contrastive unsupervised learning. MoCo provides competitive results under the common linear protocol on ImageNet classification. More importantly, the representations learned by MoCo transfer well to downstream tasks. MoCo can outperform its supervised pre-training counterpart in 7 detection/segmentation tasks on PASCAL VOC, COCO, and other datasets, sometimes surpassing it by large margins. This suggests that the gap between unsupervised and supervised representation learning has been largely closed in many vision tasks."
     },
@@ -56480,7 +56480,7 @@
       "year": 2019,
       "venue": "International Conference on Learning Representations",
       "url": "https://www.semanticscholar.org/paper/dcc4c760c3f1cb17f953c487190b735030c33b78",
-      "citationCount": 1584,
+      "citationCount": 1588,
       "tldr": "It is shown that it is possible to outperform carefully designed losses, sampling strategies, even complex modules with memory, by using a straightforward approach that decouples representation and classification.",
       "abstract": "The long-tail distribution of the visual world poses great challenges for deep learning based classification models on how to handle the class imbalance problem. Existing solutions usually involve class-balancing strategies, e.g., by loss re-weighting, data re-sampling, or transfer learning from head- to tail-classes, but most of them adhere to the scheme of jointly learning representations and classifiers. In this work, we decouple the learning procedure into representation learning and classification, and systematically explore how different balancing strategies affect them for long-tailed recognition. The findings are surprising: (1) data imbalance might not be an issue in learning high-quality representations; (2) with representations learned with the simplest instance-balanced (natural) sampling, it is also possible to achieve strong long-tailed recognition ability by adjusting only the classifier. We conduct extensive experiments and set new state-of-the-art performance on common long-tailed benchmarks like ImageNet-LT, Places-LT and iNaturalist, showing that it is possible to outperform carefully designed losses, sampling strategies, even complex modules with memory, by usin"
     },
@@ -57525,7 +57525,7 @@
       "year": 2019,
       "venue": "Magnetic Resonance in Medicine",
       "url": "https://doi.org/10.1002/mrm.28395",
-      "citationCount": 53,
+      "citationCount": 54,
       "tldr": "To develop and evaluate a neural network–based method for Gibbs artifact and noise removal, a network-based approach is developed and evaluated.",
       "abstract": "To develop and evaluate a neural network–based method for Gibbs artifact and noise removal."
     },
@@ -57750,7 +57750,7 @@
       "year": 2019,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV.2019.00137",
-      "citationCount": 390,
+      "citationCount": 391,
       "tldr": "The results suggest that new efforts focusing on designing better network generators may lead to new breakthroughs by exploring less constrained search spaces with more room for novel design.",
       "abstract": "Neural networks for image recognition have evolved through extensive manual design from simple chain-like models to structures with multiple wiring paths. The success of ResNets and DenseNets is due in large part to their innovative wiring plans. Now, neural architecture search (NAS) studies are exploring the joint optimization of wiring and operation types, however, the space of possible wirings is constrained and still driven by manual design despite being searched. In this paper, we explore a more diverse set of connectivity patterns through the lens of randomly wired neural networks. To do this, we first define the concept of a stochastic network generator that encapsulates the entire network generation process. Encapsulation provides a unified view of NAS and randomly wired networks. Then, we use three classical random graph models to generate randomly wired graphs for networks. The results are surprising: several variants of these random generators yield network instances that have competitive accuracy on the ImageNet benchmark. These results suggest that new efforts focusing on designing better network generators may lead to new breakthroughs by exploring less constrained se"
     },
@@ -57842,7 +57842,7 @@
       "year": 2019,
       "venue": "Journal of Magnetic Resonance Imaging",
       "url": "https://doi.org/10.1002/jmri.26714",
-      "citationCount": 11,
+      "citationCount": 12,
       "tldr": "Quantifying the biomechanical properties of pancreatic tumors could potentially help with assessment of tumor aggressiveness, prognosis, and prediction of therapy response.",
       "abstract": "Quantifying the biomechanical properties of pancreatic tumors could potentially help with assessment of tumor aggressiveness, prognosis, and prediction of therapy response."
     },
@@ -58072,7 +58072,7 @@
       "year": 2018,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV.2019.00851",
-      "citationCount": 866,
+      "citationCount": 867,
       "tldr": "This work develops a few-shot object detector that can learn to detect novel objects from only a few annotated examples, using a meta feature learner and a reweighting module within a one-stage detection architecture.",
       "abstract": "Conventional training of a deep CNN based object detector demands a large number of bounding box annotations, which may be unavailable for rare categories. In this work we develop a few-shot object detector that can learn to detect novel objects from only a few annotated examples. Our proposed model leverages fully labeled base classes and quickly adapts to novel classes, using a meta feature learner and a reweighting module within a one-stage detection architecture. The feature learner extracts meta features that are generalizable to detect novel object classes, using training data from base classes with sufficient samples. The reweighting module transforms a few support examples from the novel classes to a global vector that indicates the importance or relevance of meta features for detecting the corresponding objects. These two modules, together with a detection prediction module, are trained end-to-end based on an episodic few-shot learning scheme and a carefully designed loss function. Through extensive experiments we demonstrate that our model outperforms well-established baselines by a large margin for few-shot object detection, on multiple datasets and settings. We also pre"
     },
@@ -58478,7 +58478,7 @@
       "year": 2018,
       "venue": "International Conference on Machine Learning",
       "url": "https://www.semanticscholar.org/paper/c979efe1f0a8b0b343ea332368e5b51dc153c522",
-      "citationCount": 175,
+      "citationCount": 176,
       "tldr": "It is shown that POfD induces implicit dynamic reward shaping and brings provable beneﬁts for policy improvement, and can be combined with policy gradient methods to produce state-of-the-art results, as demonstrated experimentally on a range of popular benchmark sparse-reward tasks.",
       "abstract": null
     },
@@ -59327,7 +59327,7 @@
       "year": 2016,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR.2017.634",
-      "citationCount": 11825,
+      "citationCount": 11836,
       "tldr": "On the ImageNet-1K dataset, it is empirically show that even under the restricted condition of maintaining complexity, increasing cardinality is able to improve classification accuracy and is more effective than going deeper or wider when the authors increase the capacity.",
       "abstract": "We present a simple, highly modularized network architecture for image classification. Our network is constructed by repeating a building block that aggregates a set of transformations with the same topology. Our simple design results in a homogeneous, multi-branch architecture that has only a few hyper-parameters to set. This strategy exposes a new dimension, which we call cardinality (the size of the set of transformations), as an essential factor in addition to the dimensions of depth and width. On the ImageNet-1K dataset, we empirically show that even under the restricted condition of maintaining complexity, increasing cardinality is able to improve classification accuracy. Moreover, increasing cardinality is more effective than going deeper or wider when we increase the capacity. Our models, named ResNeXt, are the foundations of our entry to the ILSVRC 2016 classification task in which we secured 2nd place. We further investigate ResNeXt on an ImageNet-5K set and the COCO detection set, also showing better results than its ResNet counterpart. The code and models are publicly available online."
     },
@@ -62060,7 +62060,7 @@
       "year": 2015,
       "venue": "International Journal of Computer Vision",
       "url": "https://doi.org/10.1007/s11263-017-1004-z",
-      "citationCount": 3935,
+      "citationCount": 3938,
       "tldr": "HED performs image-to-image prediction by means of a deep learning model that leverages fully convolutional neural networks and deeply-supervised nets, and automatically learns rich hierarchical representations that are important in order to resolve the challenging ambiguity in edge and object boundary detection.",
       "abstract": "We develop a new edge detection algorithm that addresses two important issues in this long-standing vision problem: (1) holistic image training and prediction; and (2) multi-scale and multi-level feature learning. Our proposed method, holistically-nested edge detection (HED), performs image-to-image prediction by means of a deep learning model that leverages fully convolutional neural networks and deeply-supervised nets. HED automatically learns rich hierarchical representations (guided by deep supervision on side responses) that are important in order to resolve the challenging ambiguity in edge and object boundary detection. We significantly advance the state-of-the-art on the BSDS500 dataset (ODS F-score of 0.790) and the NYU Depth dataset (ODS F-score of 0.746), and do so with an improved speed (0.4 s per image) that is orders of magnitude faster than some CNN-based edge detection algorithms developed before HED. We also observe encouraging results on other boundary detection benchmark datasets such as Multicue and PASCAL-Context."
     },
@@ -65400,6 +65400,47 @@
       "abstract": null
     },
     {
+      "paperId": "7b95fe26f6a0287ed7aaaf6e8567b61a49829c29",
+      "title": "End-to-End and Highly-Eﬀicient Differentiable Simulation for Robotics",
+      "teamAuthors": [
+        {
+          "slug": "quentin-le-lidec",
+          "name": "Quentin Le Lidec"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Quentin Le Lidec",
+          "authorId": "2133323688",
+          "slug": "quentin-le-lidec"
+        },
+        {
+          "name": "Louis Montaut",
+          "authorId": "1475784171",
+          "slug": null
+        },
+        {
+          "name": "Y. Mont-Marin",
+          "authorId": "1753860825",
+          "slug": null
+        },
+        {
+          "name": "J. Carpentier",
+          "authorId": "2262063906",
+          "slug": null
+        }
+      ],
+      "memberSlug": "quentin-le-lidec",
+      "memberName": "Quentin Le Lidec",
+      "publicationDate": null,
+      "year": null,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/7b95fe26f6a0287ed7aaaf6e8567b61a49829c29",
+      "citationCount": 0,
+      "tldr": "This paper introduces a unifying framework for robotic simulation that comprehensively considers all the factors in simulation, including dynamics, collisions, and friction, and results in an efficient algorithm that leverages implicit differentiation to compute the analytical derivatives of the simulation.",
+      "abstract": null
+    },
+    {
       "paperId": "f7b9d5e3b398eb46088d5b49462f4d1b85c75c00",
       "title": "Engineering Applications of Artificial Intelligence",
       "teamAuthors": [
@@ -68517,47 +68558,6 @@
       "url": "https://www.semanticscholar.org/paper/7315ecd4d32bfce02c0c911550a1a59ebbfeb202",
       "citationCount": 1,
       "tldr": "S2L-RM is introduced, an approach that leverages short context reward models to assess the responses of long context tasks and can accurately provide preference annotations in long-context scenarios.",
-      "abstract": null
-    },
-    {
-      "paperId": "7b95fe26f6a0287ed7aaaf6e8567b61a49829c29",
-      "title": "End-to-End and Highly-Eﬀicient Differentiable Simulation for Robotics",
-      "teamAuthors": [
-        {
-          "slug": "quentin-le-lidec",
-          "name": "Quentin Le Lidec"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Quentin Le Lidec",
-          "authorId": "2133323688",
-          "slug": "quentin-le-lidec"
-        },
-        {
-          "name": "Louis Montaut",
-          "authorId": "1475784171",
-          "slug": null
-        },
-        {
-          "name": "Y. Mont-Marin",
-          "authorId": "1753860825",
-          "slug": null
-        },
-        {
-          "name": "J. Carpentier",
-          "authorId": "2262063906",
-          "slug": null
-        }
-      ],
-      "memberSlug": "quentin-le-lidec",
-      "memberName": "Quentin Le Lidec",
-      "publicationDate": null,
-      "year": null,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/7b95fe26f6a0287ed7aaaf6e8567b61a49829c29",
-      "citationCount": 0,
-      "tldr": "This paper introduces a unifying framework for robotic simulation that comprehensively considers all the factors in simulation, including dynamics, collisions, and friction, and results in an efficient algorithm that leverages implicit differentiation to compute the analytical derivatives of the simulation.",
       "abstract": null
     },
     {
