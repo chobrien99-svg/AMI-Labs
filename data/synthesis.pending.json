@@ -979,13 +979,13 @@
     "dessinKeys": []
   },
   "status": "ok",
-  "headline": "LeCun bets on the ecosystem, not just the lab: 224 Ventures signals a strategic pivot from researcher to AI investor",
-  "stateOfPlay": "The defining event of this week for AMI's orbit is not a paper or a product — it is Yann LeCun's formal emergence as a venture capitalist. The launch of 224 Ventures, a $100 million fund co-founded with AIX Ventures' Shaun Johnson and newly-minted Oriol Vinyals (who departed DeepMind this week to co-found Discovery Loop), repositions LeCun from lone theorist to ecosystem builder. That move, read alongside a steady drumbeat of JEPA-variant papers bearing his name, suggests a figure who believes the architectural bets are largely placed and the next phase is about who gets to build on them. AMI the company remains administratively quiet — no new hires, no IP filings, no site changes — making the venture story the week's clearest signal about where LeCun's institutional energy is flowing.",
+  "headline": "LeCun bets on the ecosystem, not just the lab with launch of 224 Ventures",
+  "stateOfPlay": "The defining event of this week for AMI's orbit is Yann LeCun's big formal step as a venture capitalist. The launch of 224 Ventures, a $100 million fund co-founded with AIX Ventures' Shaun Johnson and the newly minted Oriol Vinyals (who departed DeepMind this week to co-found Discovery Loop), raises LeCun's profile as an ecosystem builder. It's important to note that LeCun is already an active Business Angel and has additional VC affiliations. Still, read alongside a steady drumbeat of JEPA-variant papers bearing his name, the move suggests someone who is expanding his architectural bets.",
   "threads": [
     {
       "title": "224 Ventures is LeCun staking a claim on the post-LLM investment landscape",
       "category": "funding",
-      "narrative": "Three separate outlets confirmed the launch of 224 Ventures this week, with LeCun, Johnson, and Vinyals named as principals. The fund opens with $100 million in assets under management and a stated focus on 'deeply technical and GTM-focused' AI-native teams. The name itself — 224 — is a nod to the number of neurons in a specific early neural network layer, a piece of branding that signals the fund intends to wear its technical credentials conspicuously.\n\nThe timing is pointed. Vinyals left DeepMind on the same day the fund was announced, joining simultaneously as a 224 Ventures partner and as co-founder of his own new venture, Discovery Loop. That dual role, combined with LeCun's parallel involvement with AMI, suggests 224 Ventures is conceived less as a full-time operating firm and more as a network node — a vehicle through which a cluster of senior researchers can back and advise the next generation of non-LLM AI startups. For AMI, the implication is worth watching: LeCun's credibility and deal flow are now formally attached to an external vehicle, which could funnel aligned companies and researchers into AMI's orbit, or simply compete for his attention.",
+      "narrative": "224 Ventures opens with $100 million in assets under management and a stated focus on 'deeply technical and GTM-focused' AI-native teams. The name itself — 224 — is a nod to the number of neurons in a specific early neural network layer, a piece of branding that signals the fund intends to wear its technical credentials conspicuously.\n\nVinyals left DeepMind on the same day the fund was announced, joining 224 Ventures as a partner and co-founding his own new venture, Discovery Loop. That dual role, combined with LeCun's parallel involvement with AMI, suggests 224 Ventures is conceived less as a full-time operating firm and more as a network node, a vehicle through which a cluster of senior researchers can back and advise the next generation of non-LLM AI startups. For AMI, the implication is worth watching: LeCun's credibility and deal flow are now formally attached to an external vehicle, which could funnel aligned companies and researchers into AMI's orbit, or simply compete for his attention.",
       "evidence": [
         {
           "label": "224 Ventures launch post (Shaun Johnson)",
@@ -1002,9 +1002,32 @@
       ]
     },
     {
-      "title": "JEPA proliferates across domains — the architecture is becoming a platform",
+      "title": "Three hires in three cities reveal an infrastructure and multimodal agenda beneath the world-model rhetoric",
+      "category": "hiring",
+      "narrative": "There were several hiring signals we surfaced. Amir Bar, an assistant professor at Imperial College London and a former Meta researcher, brings serious computer vision and multimodal credentials to AMI's London footprint. Ayaan Naveed Malik, a recent Stanford graduate joining in New York, arrives with a background in robotics and multimodal AI, exactly the domains where JEPA-style world models need to prove themselves. Together they suggest AMI is assembling the technical bench to move from theory to working systems.\n\nThe third hire is Haoyi Li, who is joining in Singapore. He is not a machine-learning researcher, but rather a large-scale developer infrastructure engineer known for work at Databricks and Dropbox, and the author of the Mill build tool. His GitHub activity this week — closing issues in his own `com-lihaoyi/mill` repo and commenting on a Scala 3 pull request — confirms he is already active on infrastructure concerns. Hiring someone of Li's profile at this stage signals that AMI is taking the underlying engineering platform seriously, not just the research layer above it.",
+      "evidence": [
+        {
+          "label": "Amir Bar profile",
+          "url": "https://ami.frenchtechjournal.com/team/amir-bar"
+        },
+        {
+          "label": "Ayaan Naveed Malik profile",
+          "url": "https://ami.frenchtechjournal.com/team/ayaan-naveed-malik"
+        },
+        {
+          "label": "Haoyi Li profile",
+          "url": "https://ami.frenchtechjournal.com/team/haoyi-li"
+        },
+        {
+          "label": "Haoyi Li — Mill issue",
+          "url": "https://github.com/com-lihaoyi/mill/issues/7324"
+        }
+      ]
+    },
+    {
+      "title": "JEPA proliferates across domains. The architecture is becoming a platform",
       "category": "research",
-      "narrative": "The publication flush this week — 444 new items attributed to the team since the last window — is partly a backlog artefact, but the directional signal is hard to miss: JEPA-style architectures are spreading into domains far beyond the vision tasks where they originated. Among the newly surfaced papers bearing LeCun's name: LeDXA applies a joint-embedding predictive architecture to whole-body DXA medical scans, learning representations of systemic health from just 11,540 unlabeled scans with 'relatively little data and modest compute.' HP-JEPA extends the paradigm to graph-structured data, using hierarchical multi-resolution partitioning to overcome the single-granularity limitation of prior graph JEPAs. Music-JEPA frames piano sound as an action-conditioned world model. SkyJEPA applies it to quadrotor drone control for zero-shot sim-to-real transfer. AdaJEPA adds test-time adaptation inside a model-predictive-control loop.\n\nTaken together, these papers — spanning medical imaging, graphs, audio, and robotics — are less a scatter of independent projects and more a coordinated demonstration that JEPA is a general-purpose representational substrate. LeDXA is particularly notable because it is the first paper in this cluster to show the paradigm working on clinical data with real health outcomes, which broadens the argument for JEPA well beyond the AI research community. Whether LeCun is the intellectual originator of each paper or a senior author lending imprimatur, the cumulative effect is the same: JEPA is being positioned as a platform, not a paper.",
+      "narrative": "Administrative note: We revamped the backend in terms of the way publications of AMI team members are captured, so the filter is more comprehensive. That means we digested 444 new items (woof!) attributed to the team since the last window. But the directional signal is hard to miss: JEPA-style architectures are spreading into domains far beyond the vision tasks where they originated. Among the newly surfaced papers bearing LeCun's name: LeDXA applies a joint-embedding predictive architecture to whole-body DXA medical scans, learning representations of systemic health from just 11,540 unlabeled scans with 'relatively little data and modest compute.' HP-JEPA extends the paradigm to graph-structured data, using hierarchical multi-resolution partitioning to overcome the single-granularity limitation of prior graph JEPAs. Music-JEPA frames piano sound as an action-conditioned world model. SkyJEPA applies it to quadrotor drone control for zero-shot sim-to-real transfer. AdaJEPA adds test-time adaptation inside a model-predictive-control loop.\n\nTaken together, these papers — spanning medical imaging, graphs, audio, and robotics — are less a scatter of independent projects and more a coordinated demonstration that JEPA is a general-purpose representational substrate. LeDXA is particularly notable because it is the first paper in this cluster to demonstrate the paradigm working on clinical data with real health outcomes, thereby broadening the argument for JEPA well beyond the AI research community. Whether LeCun is the intellectual originator of each paper or a senior author lending imprimatur, the cumulative effect is the same: JEPA is being positioned as a platform, not a paper.",
       "evidence": [
         {
           "label": "LeDXA — JEPA for medical DXA imaging",
@@ -1029,6 +1052,34 @@
       ]
     },
     {
+      "title": "A talent-sourcing hire and newly surfaced investors signal AMI is preparing for a larger recruiting push",
+      "category": "administrative",
+      "narrative": "The one new recent job posting is not a researcher or engineer: it is a Talent Intelligence & Sourcing Partner, based in Paris, sitting inside General and Administration. Hiring dedicated recruiting infrastructure at this stage is a forward-looking signal. A new in-house recruiter suggests AMI's leadership expects the headcount curve to steepen materially in the months ahead.",
+      "evidence": [
+        {
+          "label": "Talent Intelligence & Sourcing Partner posting",
+          "url": "https://jobs.ashbyhq.com/ami/e1b64e18-74f3-458c-a7e4-2720e50823de"
+        },
+        {
+          "label": "Surfaced seed investors",
+          "url": "/news/surfaced-7-additional-ami-seed-round-investors"
+        }
+      ]
+    },
+    {
+      "title": "Brian Li's agentic evaluation work points to an emerging benchmark priority",
+      "category": "research",
+      "narrative": "The most technically specific GitHub signal comes from Brian Li, who contributed the majority of AMI-attributable commits. His activity in `EvolvingLMMs-Lab/lmms-eval` is notable for what he named the branches: `brian/feat/agentic-env-interface` and `brian/feat/agentic-game-minimal`. These are not incremental patches; they suggest Li is building out evaluation infrastructure for agentic, interactive environments within a multimodal LLM benchmark framework. That work sits at the intersection of evaluation methodology and the kind of embodied, action-taking AI that world-model approaches are meant to enable.\n\nThis is a thin signal — branch names and pull requests, not published results — but it is directionally consistent with the rest of the week's picture. If AMI's research agenda centers on world models and embodied agents, having team members actively developing the evaluation tooling for agentic multimodal systems is exactly the kind of preparatory infrastructure work you would expect to see.",
+      "evidence": [
+        {
+          "label": "Brian Li — agentic env interface branch",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval"
+        },
+        {
+          "label": "Brian Li — PR comment",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval/pull/1368#issuecomment-5143886462"
+        }
+    {
       "title": "The 'pure LLM' reframe is a rhetorical repositioning, not a retreat",
       "category": "research",
       "narrative": "A brief but telling news item this week: OfficeChai reported that LeCun and Gary Marcus have begun distinguishing between 'LLMs' and 'pure LLMs' when discussing architectural limitations, after recent LLM capability gains attracted criticism of their earlier skepticism. This is a subtle but meaningful move. Rather than conceding the argument, the reframe carves out a narrower target — the 'pure' autoregressive text predictor — while leaving room to argue that systems augmented with world models, planning, or other non-LLM components are a different and more defensible category.\n\nFor AMI, this matters because LeCun's public credibility as the alternative-to-LLMs voice is part of the company's implicit positioning. If the framing holds, it preserves the intellectual case for JEPA-based architectures even as LLM benchmarks continue to improve. It also maps cleanly onto 224 Ventures' stated thesis of backing 'AI-native teams' — which, read charitably, means teams building beyond the pure-LLM paradigm.",
@@ -1051,20 +1102,27 @@
       "url": "https://www.semanticscholar.org/paper/211a73f11a8722d61f7cea91b2c52fd4f9aa2ff6",
       "linkLabel": "Paper"
     },
-    {
-      "text": "AMI's corporate record remains unchanged: capital fixed at €12,449, no new directors, no IP filings, no site changes. The company's formal structure is dormant relative to the activity around its co-founder.",
-      "category": "administrative"
-    }
-  ],
-  "whatToWatch": "The central question for the coming weeks is how LeCun manages the attention economics between AMI, 224 Ventures, and his continuing role as a public intellectual — and whether 224 Ventures begins to make investments that reveal which JEPA-adjacent bets he considers commercially viable. On the research side, watch whether LeDXA's clinical framing attracts follow-on collaborators in health or pharma, which would be AMI's clearest path to a domain with both data moats and willingness to pay.",
-  "whatToWatchLinks": [
-    {
-      "url": "https://thenextweb.com/news/yann-lecun-224-ventures-oriol-vinyals-ai-fund",
-      "linkLabel": "224 Ventures coverage"
+   {
+      "text": "AMI board member Pascale Fung publicly called on NVIDIA to expand free or subsidized compute for academic researchers — a pointed reminder that even well-funded AI startups outside the hyperscaler tier face GPU access as a structural constraint.",
+      "category": "research",
+      "url": "https://x.com/pascalefung/status/2082097765648048260",
+      "linkLabel": "Tweet"
     },
     {
-      "url": "https://www.semanticscholar.org/paper/1006651b762e229b32cc001bb287c3f607749447",
-      "linkLabel": "LeDXA paper"
+      "text": "AMI's intern cohort across Paris and New York was quietly reported this week. Building a bench through internships at this stage is consistent with the university-pipeline cultivation visible in LeCun's academic speaking circuit.",
+      "category": "hiring",
+      "url": "/news/ami-labs-builds-its-next-research-bench-through-internships"
+    }
+  ],
+ "whatToWatch": "With a dedicated talent-sourcing hire now in place and seven additional seed investors surfaced, the structural conditions for an accelerated hiring wave are present — watch whether the open-role count grows sharply over the next month. On the research side, Brian Li's agentic evaluation branches in lmms-eval are worth tracking: if those PRs merge and expand, they may foreshadow AMI's first public benchmark contributions in the agentic multimodal space.",
+  "whatToWatchLinks": [
+    {
+      "url": "https://jobs.ashbyhq.com/ami/e1b64e18-74f3-458c-a7e4-2720e50823de",
+      "linkLabel": "Talent sourcing role"
+    },
+    {
+      "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+      "linkLabel": "lmms-eval repo"
     }
   ]
 }
