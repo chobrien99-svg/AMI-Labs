@@ -66,6 +66,44 @@
       ]
     },
     {
+      "paperId": "225c1956cb19dabaa9ec35e9d951f683971c8349",
+      "title": "Formalizing Mathematics at Scale",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.29955",
+      "citationCount": 4,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "A. Rammal"
+        },
+        {
+          "slug": null,
+          "name": "Niket Patel"
+        },
+        {
+          "slug": null,
+          "name": "Fabian Gloeckle"
+        },
+        {
+          "slug": null,
+          "name": "Amaury Hayat"
+        },
+        {
+          "slug": null,
+          "name": "R'emi Munos"
+        },
+        {
+          "slug": null,
+          "name": "Charles Arnal"
+        },
+        {
+          "slug": null,
+          "name": "Vivien Cabannes"
+        }
+      ]
+    },
+    {
       "paperId": "8c08f6f5b52f6d80116b1dc6b542f63b564b07c2",
       "title": "Efficient RL Training for LLMs with Experience Replay",
       "year": 2026,
@@ -88,6 +126,20 @@
         {
           "slug": null,
           "name": "Rémi Munos"
+        }
+      ]
+    },
+    {
+      "paperId": "f274a1bce813c2bb358ed7b6fbd54c08c17bac1a",
+      "title": "Formalization of De Giorgi--Nash--Moser Theory in Lean",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/f274a1bce813c2bb358ed7b6fbd54c08c17bac1a",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Scott Armstrong"
         }
       ]
     },
@@ -276,6 +328,29 @@
           "name": "Olivier Teytaud"
         }
       ]
+    },
+    {
+      "paperId": "bb4616d5b5049aaade6b1f9a9c477086bb71c0ea",
+      "title": "Emergent properties with repeated examples",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2410.07041",
+      "citationCount": 12,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Franccois Charton"
+        }
+      ]
+    },
+    {
+      "paperId": "8a289c7171c78422726186339f1dd35726bfe3cc",
+      "title": "Repeated examples help learn arithmetic",
+      "year": null,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/8a289c7171c78422726186339f1dd35726bfe3cc",
+      "citationCount": 0,
+      "coAuthors": []
     }
   ],
   "topPublications": [
@@ -301,18 +376,18 @@
       "url": "https://doi.org/10.48550/arXiv.2601.18778"
     },
     {
-      "title": "Likelihood-Based Reward Designs for General LLM Reasoning",
-      "year": 2026,
-      "citationCount": 5,
+      "title": "Emergent properties with repeated examples",
+      "year": 2024,
+      "citationCount": 12,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.03979"
+      "url": "https://doi.org/10.48550/arXiv.2410.07041"
     },
     {
-      "title": "Efficient RL Training for LLMs with Experience Replay",
+      "title": "Formalization of De Giorgi--Nash--Moser Theory in Lean",
       "year": 2026,
-      "citationCount": 4,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2604.08706"
+      "citationCount": 8,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/f274a1bce813c2bb358ed7b6fbd54c08c17bac1a"
     }
   ],
   "githubProjects": [],
@@ -333,6 +408,14 @@
       {
         "name": "Yann Ollivier",
         "papers": 3
+      },
+      {
+        "name": "Charles Arnal",
+        "papers": 2
+      },
+      {
+        "name": "Vivien Cabannes",
+        "papers": 2
       },
       {
         "name": "Rémi Munos",
@@ -379,15 +462,31 @@
         "papers": 1
       },
       {
-        "name": "Charles Arnal",
+        "name": "A. Rammal",
         "papers": 1
       },
       {
-        "name": "Vivien Cabannes",
+        "name": "Niket Patel",
+        "papers": 1
+      },
+      {
+        "name": "Fabian Gloeckle",
+        "papers": 1
+      },
+      {
+        "name": "Amaury Hayat",
+        "papers": 1
+      },
+      {
+        "name": "R'emi Munos",
         "papers": 1
       },
       {
         "name": "Taco Cohen",
+        "papers": 1
+      },
+      {
+        "name": "Scott Armstrong",
         "papers": 1
       },
       {
@@ -412,6 +511,10 @@
       },
       {
         "name": "Yuda Song",
+        "papers": 1
+      },
+      {
+        "name": "Franccois Charton",
         "papers": 1
       }
     ],

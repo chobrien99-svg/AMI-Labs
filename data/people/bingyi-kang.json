@@ -671,7 +671,7 @@
       "year": 2020,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/fd986d9988067df491604b1ae8152ade9b624053",
-      "citationCount": 15,
+      "citationCount": 14,
       "coAuthors": [
         {
           "slug": "saining-xie",
@@ -846,6 +846,40 @@
       ]
     },
     {
+      "paperId": "dcc4c760c3f1cb17f953c487190b735030c33b78",
+      "title": "Decoupling Representation and Classifier for Long-Tailed Recognition",
+      "year": 2019,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/dcc4c760c3f1cb17f953c487190b735030c33b78",
+      "citationCount": 1592,
+      "coAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
+          "slug": null,
+          "name": "Marcus Rohrbach"
+        },
+        {
+          "slug": null,
+          "name": "Zhicheng Yan"
+        },
+        {
+          "slug": null,
+          "name": "Albert Gordo"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        },
+        {
+          "slug": null,
+          "name": "Yannis Kalantidis"
+        }
+      ]
+    },
+    {
       "paperId": "aa35ec679c4ef5007655be655b1cc57020a73314",
       "title": "Exploring Simple and Transferable Recognition-Aware Image Processing",
       "year": 2019,
@@ -876,40 +910,6 @@
         {
           "slug": null,
           "name": "Trevor Darrell"
-        }
-      ]
-    },
-    {
-      "paperId": "dcc4c760c3f1cb17f953c487190b735030c33b78",
-      "title": "Decoupling Representation and Classifier for Long-Tailed Recognition",
-      "year": 2019,
-      "venue": "International Conference on Learning Representations",
-      "url": "https://www.semanticscholar.org/paper/dcc4c760c3f1cb17f953c487190b735030c33b78",
-      "citationCount": 1588,
-      "coAuthors": [
-        {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
-        },
-        {
-          "slug": null,
-          "name": "Marcus Rohrbach"
-        },
-        {
-          "slug": null,
-          "name": "Zhicheng Yan"
-        },
-        {
-          "slug": null,
-          "name": "Albert Gordo"
-        },
-        {
-          "slug": null,
-          "name": "Jiashi Feng"
-        },
-        {
-          "slug": null,
-          "name": "Yannis Kalantidis"
         }
       ]
     },
@@ -1234,7 +1234,7 @@
     {
       "title": "Efficient Diffusion Policies for Offline Reinforcement Learning",
       "year": 2023,
-      "citationCount": 187,
+      "citationCount": 188,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2305.20081"
     },
@@ -1248,14 +1248,14 @@
     {
       "title": "Loong: Generating Minute-level Long Videos with Autoregressive Language Models",
       "year": 2024,
-      "citationCount": 104,
+      "citationCount": 105,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2410.02757"
     },
     {
       "title": "MADiff: Offline Multi-agent Learning with Diffusion Models",
       "year": 2023,
-      "citationCount": 102,
+      "citationCount": 105,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2305.17330"
     },
@@ -1638,15 +1638,15 @@
         "papers": 1
       },
       {
+        "name": "Yannis Kalantidis",
+        "papers": 1
+      },
+      {
         "name": "H. Wang",
         "papers": 1
       },
       {
         "name": "Evan Shelhamer",
-        "papers": 1
-      },
-      {
-        "name": "Yannis Kalantidis",
         "papers": 1
       },
       {
