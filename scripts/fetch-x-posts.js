@@ -6,6 +6,11 @@
  *   query = `list:<X_LIST_ID> -is:retweet -is:reply`  → original posts + quotes only
  *   since_id = last seen post                          → only genuinely new posts
  *
+ * Recent-search only reaches back 7 days, so `since_id` is used only while the post
+ * it points at is still in that window; once it isn't (a quiet week leaves the cursor
+ * stranded), the run falls back to `start_time` at the window edge. Merging dedupes
+ * by id, so the overlap that fallback re-fetches is harmless.
+ *
  * Env:
  *   X_BEARER_TOKEN     required (app-only bearer; same secret as monitor-sites.js)
  *   X_LIST_ID          required — numeric ID of your AMI Team List (repo variable)
@@ -25,6 +30,14 @@ const { loadResolver } = require("./lib/resolve-identity");
 const OUT_FILE = path.resolve(__dirname, "../data/x-posts.json");
 const RETRY_MS = 3000;
 const MAX_PAGES = 5; // cap pages per run (each page ≤100 posts) to bound cost
+
+// Recent-search only indexes the last 7 days. A `since_id` pointing at a tweet older
+// than that is rejected with HTTP 400, which is exactly what happens after a quiet
+// week: no new posts → lastSeenId never advances → it eventually ages out of the
+// window and every subsequent run fails. Keep a margin inside the boundary so a slow
+// run can't drift past it mid-flight.
+const RECENT_WINDOW_MS = 7 * 24 * 60 * 60 * 1000;
+const WINDOW_MARGIN_MS = 30 * 60 * 1000;
 
 const BEARER = process.env.X_BEARER_TOKEN;
 // Accept either a bare numeric List ID or a full list URL (e.g. x.com/i/lists/<id>) —
@@ -88,8 +101,15 @@ function maxId(a, b) {
   return BigInt(a) >= BigInt(b) ? a : b;
 }
 
+// Oldest timestamp recent-search will accept, as a seconds-precision ISO string.
+function windowStart() {
+  return new Date(Date.now() - RECENT_WINDOW_MS + WINDOW_MARGIN_MS)
+    .toISOString()
+    .replace(/\.\d{3}Z$/, "Z");
+}
+
 // Build one page URL for the filtered recent-search endpoint.
-function searchUrl(sinceId, nextToken) {
+function searchUrl({ sinceId, startTime, nextToken }) {
   const query = `list:${LIST_ID} -is:retweet -is:reply`;
   const params = new URLSearchParams({
     query,
@@ -99,8 +119,25 @@ function searchUrl(sinceId, nextToken) {
     "user.fields": "username,name",
   });
   if (sinceId) params.set("since_id", sinceId);
+  else if (startTime) params.set("start_time", startTime);
   if (nextToken) params.set("next_token", nextToken);
   return `https://api.twitter.com/2/tweets/search/recent?${params.toString()}`;
+}
+
+// Walk up to MAX_PAGES of results for one (sinceId | startTime) cursor.
+async function fetchPages({ sinceId, startTime }) {
+  const fresh = [];
+  const usersById = {};
+  let nextToken = null;
+  for (let page = 0; page < MAX_PAGES; page++) {
+    const res = await getJson(searchUrl({ sinceId, startTime, nextToken }));
+    (res.includes?.users || []).forEach((u) => (usersById[u.id] = u));
+    const data = res.data || [];
+    fresh.push(...data);
+    nextToken = res.meta?.next_token || null;
+    if (!nextToken || data.length === 0) break;
+  }
+  return { fresh, usersById };
 }
 
 function mapPost(t, usersById, resolver) {
@@ -145,30 +182,47 @@ async function main() {
     ? JSON.parse(fs.readFileSync(OUT_FILE, "utf8"))
     : { lastSeenId: null, posts: [] };
 
-  const sinceId = existing.lastSeenId || null;
-  const fresh = [];
-  const usersById = {};
-  let nextToken = null;
+  // `lastSeenAt` is recorded alongside lastSeenId; fall back to the stored post for
+  // files written before that field existed.
+  const lastSeenAt = existing.lastSeenAt
+    || (existing.posts || []).find((p) => p.id === existing.lastSeenId)?.createdAt
+    || null;
+  const startTime = windowStart();
+  // Only use since_id while the post it points at is still inside the search window.
+  const sinceUsable = Boolean(existing.lastSeenId && lastSeenAt
+    && new Date(lastSeenAt).getTime() >= new Date(startTime).getTime());
+  let sinceId = sinceUsable ? existing.lastSeenId : null;
+  if (existing.lastSeenId && !sinceUsable) {
+    console.log(`[x] since_id ${existing.lastSeenId} (${lastSeenAt || "unknown date"}) is outside the 7-day window — querying from ${startTime} instead.`);
+  }
 
+  let fresh, usersById;
   try {
-    for (let page = 0; page < MAX_PAGES; page++) {
-      const res = await getJson(searchUrl(sinceId, nextToken));
-      (res.includes?.users || []).forEach((u) => (usersById[u.id] = u));
-      const data = res.data || [];
-      fresh.push(...data);
-      nextToken = res.meta?.next_token || null;
-      if (!nextToken || data.length === 0) break;
-    }
+    ({ fresh, usersById } = await fetchPages({ sinceId, startTime }));
   } catch (e) {
-    console.error(`[x] Fetch failed: ${e.message}`);
-    // Preserve whatever we already had; don't clobber on a transient failure.
-    if (!existing.posts?.length) process.exit(1);
-    return;
+    // Safety net for the same staleness, in case our own date bookkeeping is off:
+    // X rejects an out-of-window since_id with a 400 naming the parameter.
+    if (sinceId && /since_id/i.test(e.message)) {
+      console.warn(`[x] since_id rejected (${e.message}) — retrying from ${startTime}.`);
+      sinceId = null;
+      try {
+        ({ fresh, usersById } = await fetchPages({ sinceId, startTime }));
+      } catch (e2) {
+        console.error(`[x] Fetch failed: ${e2.message}`);
+        if (!existing.posts?.length) process.exit(1);
+        return;
+      }
+    } else {
+      console.error(`[x] Fetch failed: ${e.message}`);
+      // Preserve whatever we already had; don't clobber on a transient failure.
+      if (!existing.posts?.length) process.exit(1);
+      return;
+    }
   }
 
   const resolver = loadResolver(); // maps X handles → person slug
   const newPosts = fresh.map((t) => mapPost(t, usersById, resolver));
-  console.log(`[x] ${newPosts.length} new post(s) since ${sinceId || "(first run)"}.`);
+  console.log(`[x] ${newPosts.length} new post(s) since ${sinceId ? `id ${sinceId}` : startTime}.`);
 
   // Merge + dedupe by id, newest first.
   const byId = new Map();
@@ -183,12 +237,21 @@ async function main() {
   const cutoff = Date.now() - WINDOW_DAYS * 24 * 60 * 60 * 1000;
   posts = posts.filter((p) => !p.createdAt || new Date(p.createdAt).getTime() >= cutoff).slice(0, MAX_POSTS);
 
+  // Track the newest id *and* its timestamp, so the next run can tell whether the
+  // cursor is still inside the 7-day window without depending on the pruned posts.
   let lastSeenId = existing.lastSeenId || null;
-  for (const p of newPosts) lastSeenId = maxId(lastSeenId, p.id);
+  let lastSeenCreatedAt = lastSeenAt;
+  for (const p of newPosts) {
+    if (maxId(lastSeenId, p.id) === p.id && p.id !== lastSeenId) {
+      lastSeenId = p.id;
+      lastSeenCreatedAt = p.createdAt || null;
+    }
+  }
 
   fs.writeFileSync(OUT_FILE, JSON.stringify({
     lastChecked: new Date().toISOString(),
     lastSeenId,
+    lastSeenAt: lastSeenCreatedAt,
     listId: LIST_ID,
     posts,
   }, null, 2) + "\n");
