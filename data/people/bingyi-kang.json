@@ -37,7 +37,7 @@
       "year": 2024,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2410.02757",
-      "citationCount": 104,
+      "citationCount": 105,
       "coAuthors": [
         {
           "slug": null,
@@ -191,7 +191,7 @@
       "year": 2023,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2305.20081",
-      "citationCount": 187,
+      "citationCount": 188,
       "coAuthors": [
         {
           "slug": "chao-du",
@@ -217,7 +217,7 @@
       "year": 2023,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2305.17330",
-      "citationCount": 102,
+      "citationCount": 105,
       "coAuthors": [
         {
           "slug": null,
@@ -319,7 +319,7 @@
       "year": 2022,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2210.09241",
-      "citationCount": 30,
+      "citationCount": 31,
       "coAuthors": [
         {
           "slug": null,
@@ -401,7 +401,7 @@
       "year": 2021,
       "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
       "url": "https://doi.org/10.1109/TPAMI.2023.3268118",
-      "citationCount": 952,
+      "citationCount": 957,
       "coAuthors": [
         {
           "slug": null,
@@ -427,7 +427,7 @@
       "year": 2021,
       "venue": "International Conference on Learning Representations",
       "url": "https://www.semanticscholar.org/paper/b65bc8bd4e8900c38eb09bc1cbccea2499a86627",
-      "citationCount": 303,
+      "citationCount": 305,
       "coAuthors": [
         {
           "slug": null,
@@ -495,7 +495,7 @@
       "year": 2021,
       "venue": "arXiv.org",
       "url": "https://www.semanticscholar.org/paper/96da196d6f8c947db03d13759f030642f8234abf",
-      "citationCount": 642,
+      "citationCount": 643,
       "coAuthors": [
         {
           "slug": null,
@@ -551,7 +551,7 @@
       "year": 2020,
       "venue": "International Conference on Learning Representations",
       "url": "https://www.semanticscholar.org/paper/975e33347fd841ded9ebcd77d928b243ea786a8c",
-      "citationCount": 60,
+      "citationCount": 61,
       "coAuthors": [
         {
           "slug": null,
@@ -595,7 +595,7 @@
       "year": 2020,
       "venue": "European Conference on Computer Vision",
       "url": "https://doi.org/10.1007/978-3-030-58568-6_43",
-      "citationCount": 212,
+      "citationCount": 214,
       "coAuthors": [
         {
           "slug": null,
@@ -846,40 +846,6 @@
       ]
     },
     {
-      "paperId": "dcc4c760c3f1cb17f953c487190b735030c33b78",
-      "title": "Decoupling Representation and Classifier for Long-Tailed Recognition",
-      "year": 2019,
-      "venue": "International Conference on Learning Representations",
-      "url": "https://www.semanticscholar.org/paper/dcc4c760c3f1cb17f953c487190b735030c33b78",
-      "citationCount": 1592,
-      "coAuthors": [
-        {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
-        },
-        {
-          "slug": null,
-          "name": "Marcus Rohrbach"
-        },
-        {
-          "slug": null,
-          "name": "Zhicheng Yan"
-        },
-        {
-          "slug": null,
-          "name": "Albert Gordo"
-        },
-        {
-          "slug": null,
-          "name": "Jiashi Feng"
-        },
-        {
-          "slug": null,
-          "name": "Yannis Kalantidis"
-        }
-      ]
-    },
-    {
       "paperId": "aa35ec679c4ef5007655be655b1cc57020a73314",
       "title": "Exploring Simple and Transferable Recognition-Aware Image Processing",
       "year": 2019,
@@ -910,6 +876,40 @@
         {
           "slug": null,
           "name": "Trevor Darrell"
+        }
+      ]
+    },
+    {
+      "paperId": "dcc4c760c3f1cb17f953c487190b735030c33b78",
+      "title": "Decoupling Representation and Classifier for Long-Tailed Recognition",
+      "year": 2019,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/dcc4c760c3f1cb17f953c487190b735030c33b78",
+      "citationCount": 1594,
+      "coAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
+          "slug": null,
+          "name": "Marcus Rohrbach"
+        },
+        {
+          "slug": null,
+          "name": "Zhicheng Yan"
+        },
+        {
+          "slug": null,
+          "name": "Albert Gordo"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        },
+        {
+          "slug": null,
+          "name": "Yannis Kalantidis"
         }
       ]
     },
@@ -1035,7 +1035,7 @@
       "year": 2018,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV.2019.00851",
-      "citationCount": 867,
+      "citationCount": 868,
       "coAuthors": [
         {
           "slug": null,
@@ -1638,15 +1638,15 @@
         "papers": 1
       },
       {
-        "name": "Yannis Kalantidis",
-        "papers": 1
-      },
-      {
         "name": "H. Wang",
         "papers": 1
       },
       {
         "name": "Evan Shelhamer",
+        "papers": 1
+      },
+      {
+        "name": "Yannis Kalantidis",
         "papers": 1
       },
       {
