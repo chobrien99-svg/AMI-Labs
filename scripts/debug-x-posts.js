@@ -12,6 +12,13 @@
  * is cross-checked against the real filtered count — a mismatch is itself a
  * finding and is reported as one.
  *
+ * Two things keep the two counts genuinely comparable:
+ *   - the window (start_time + end_time) is frozen once and reused for every page
+ *     of both queries, so a post arriving mid-run cannot land in one and not the
+ *     other and masquerade as a filter effect;
+ *   - if either query hits the page cap the two no longer reach equally far back,
+ *     so all comparisons are restricted to the interval both cover completely.
+ *
  * Writes nothing to data/. Prints to stdout, and to the job summary under Actions.
  *
  * Env:
@@ -27,6 +34,8 @@ const https = require("https");
 const RETRY_MS = 3000;
 const RECENT_WINDOW_MS = 7 * 24 * 60 * 60 * 1000;
 const WINDOW_MARGIN_MS = 30 * 60 * 1000;
+// The API rejects an `end_time` within ~10s of the request; keep well clear of that.
+const END_LAG_MS = 60 * 1000;
 
 const BEARER = process.env.X_BEARER_TOKEN;
 const LIST_ID = (process.env.X_LIST_ID || "").match(/\d{5,}/)?.[0] || null;
@@ -72,6 +81,33 @@ function authorBreakdown(posts, usersById) {
 
 const pct = (n, total) => (total ? `${Math.round((n / total) * 100)}%` : "0%");
 
+// Oldest post in a result set. Recent-search returns newest-first, so for a query
+// that hit the page cap this is the point past which its results are incomplete.
+function oldestTimestamp(posts) {
+  let oldest = null;
+  for (const t of posts) {
+    if (!t.created_at) continue;
+    const ms = new Date(t.created_at).getTime();
+    if (oldest === null || ms < oldest) oldest = ms;
+  }
+  return oldest;
+}
+
+// The floor of the interval over which *both* result sets are complete, and so the
+// only interval their counts may be compared over. An untruncated query covers the
+// whole window; a truncated one only reaches back to its oldest retrieved post, so
+// the shared floor is the latest of those.
+function comparisonFloor({ unfiltered, production, windowStartMs }) {
+  const floors = [];
+  for (const r of [unfiltered, production]) {
+    if (r.truncated) floors.push(oldestTimestamp(r.posts) ?? windowStartMs);
+  }
+  return floors.length ? Math.max(...floors) : windowStartMs;
+}
+
+const atOrAfter = (floorMs) => (t) =>
+  !t.created_at || new Date(t.created_at).getTime() >= floorMs;
+
 // ── API ──────────────────────────────────────────────────────────────────────
 
 function getJson(url, tries = 2) {
@@ -103,14 +139,22 @@ function getJson(url, tries = 2) {
   });
 }
 
-function startTime() {
+const isoSeconds = (ms) => new Date(ms).toISOString().replace(/\.\d{3}Z$/, "Z");
+
+// One window, computed once and reused for every page of both queries. Recomputing
+// it per request would give the two searches different bounds, so a post arriving
+// between them could show up in one and not the other — reporting a filter gap that
+// is really just elapsed time.
+function windowBounds() {
+  const end = Date.now() - END_LAG_MS;
   const span = Math.min(DAYS * 24 * 60 * 60 * 1000, RECENT_WINDOW_MS - WINDOW_MARGIN_MS);
-  return new Date(Date.now() - span).toISOString().replace(/\.\d{3}Z$/, "Z");
+  const startMs = end - span;
+  return { start: isoSeconds(startMs), end: isoSeconds(end), startMs };
 }
 
 // Collect up to MAX_PAGES for one query. `truncated` flags that the cap was hit,
 // which makes the count a floor rather than a total.
-async function collect(query) {
+async function collect(query, win) {
   const posts = [];
   const usersById = {};
   let nextToken = null;
@@ -119,7 +163,8 @@ async function collect(query) {
     const params = new URLSearchParams({
       query,
       max_results: "100",
-      start_time: startTime(),
+      start_time: win.start,
+      end_time: win.end,
       "tweet.fields": "created_at,author_id,referenced_tweets,in_reply_to_user_id,public_metrics",
       expansions: "author_id",
       "user.fields": "username,name",
@@ -138,18 +183,47 @@ async function collect(query) {
 
 // ── report ───────────────────────────────────────────────────────────────────
 
-function buildReport({ unfiltered, production, usersById, truncated }) {
-  const total = unfiltered.length;
-  const counts = bucketCounts(unfiltered);
+function buildReport({ unfiltered, production, usersById, win }) {
+  const truncated = unfiltered.truncated || production.truncated;
+  const floorMs = comparisonFloor({ unfiltered, production, windowStartMs: win.startMs });
+  // Compare only where both result sets are complete; outside that, a difference in
+  // counts measures how far each query happened to paginate, not the filter.
+  const inScope = atOrAfter(floorMs);
+  const unfilteredCmp = unfiltered.posts.filter(inScope);
+  const productionCmp = production.posts.filter(inScope);
+
+  const total = unfilteredCmp.length;
+  const counts = bucketCounts(unfilteredCmp);
   const modelledKeep = counts.original + counts.quote;
   const lines = [];
 
-  lines.push(`Window: last ${DAYS} day(s), from ${startTime()}`);
+  lines.push(`Window: ${win.start} → ${win.end} (last ${DAYS} day(s), frozen for both queries)`);
   lines.push(`List:   ${LIST_ID}`);
   lines.push("");
-  lines.push(`  unfiltered  list:${LIST_ID}                        ${total} post(s)`);
-  lines.push(`  production  ... -is:retweet -is:reply              ${production.length} post(s)`);
-  lines.push(`  excluded by the filter                             ${total - production.length} post(s)`);
+  const LABEL_W = 44;
+  const row = (label, n, note = "") =>
+    `  ${label.padEnd(LABEL_W)}${String(n).padStart(5)} post(s)${note}`;
+
+  lines.push("Retrieved:");
+  lines.push(row(`unfiltered  list:${LIST_ID}`, unfiltered.posts.length,
+    unfiltered.truncated ? "  [page cap hit — a floor]" : ""));
+  lines.push(row("production  ... -is:retweet -is:reply", production.posts.length,
+    production.truncated ? "  [page cap hit — a floor]" : ""));
+  lines.push("");
+
+  if (truncated) {
+    lines.push(`Hit the ${MAX_PAGES}-page cap (${MAX_PAGES * 100} posts) on at least one query, so the`);
+    lines.push(`retrieved counts above are floors, not totals — and the two queries paginate`);
+    lines.push(`independently, so they do not reach equally far back. Everything below is`);
+    lines.push(`therefore restricted to ${isoSeconds(floorMs)} → ${win.end}, the interval both`);
+    lines.push(`queries cover completely. Raise X_DEBUG_PAGES to widen it.`);
+    lines.push("");
+  }
+
+  lines.push(`Comparison over ${isoSeconds(floorMs)} → ${win.end}:`);
+  lines.push(row("unfiltered", total));
+  lines.push(row("production (-is:retweet -is:reply)", productionCmp.length));
+  lines.push(row("excluded by the filter", total - productionCmp.length));
   lines.push("");
   lines.push("Composition of the unfiltered set:");
   for (const b of ["original", "quote", "reply", "retweet"]) {
@@ -158,32 +232,27 @@ function buildReport({ unfiltered, production, usersById, truncated }) {
   }
   lines.push("");
 
-  // Cross-check: local classification vs what the API actually returned.
-  if (modelledKeep === production.length) {
+  // Cross-check: local classification vs what the API actually returned. Valid only
+  // because both sides are now measured over the same fully-covered interval.
+  if (modelledKeep === productionCmp.length) {
     lines.push(`Cross-check: originals + quotes = ${modelledKeep}, matches the filtered count.`);
   } else {
     lines.push(`Cross-check MISMATCH: originals + quotes = ${modelledKeep}, but the filtered`);
-    lines.push(`  query returned ${production.length}. The filter is not behaving as modelled —`);
+    lines.push(`  query returned ${productionCmp.length}. The filter is not behaving as modelled —`);
     lines.push(`  worth inspecting before drawing conclusions from the buckets above.`);
-  }
-
-  if (truncated) {
-    lines.push("");
-    lines.push(`NOTE: hit the ${MAX_PAGES}-page cap (${MAX_PAGES * 100} posts) on at least one query.`);
-    lines.push("  Counts are a floor, not a total. Raise X_DEBUG_PAGES for the full picture.");
   }
 
   if (total) {
     lines.push("");
     lines.push("Per author (unfiltered):");
     lines.push(`  ${"author".padEnd(20)} ${"tot".padStart(4)} ${"orig".padStart(5)} ${"quote".padStart(6)} ${"reply".padStart(6)} ${"RT".padStart(5)}`);
-    for (const r of authorBreakdown(unfiltered, usersById)) {
+    for (const r of authorBreakdown(unfilteredCmp, usersById)) {
       lines.push(`  @${r.author.padEnd(19)} ${String(r.total).padStart(4)} ${String(r.original).padStart(5)} ${String(r.quote).padStart(6)} ${String(r.reply).padStart(6)} ${String(r.retweet).padStart(5)}`);
     }
   }
 
   // Show what is being thrown away, so the trade-off is concrete.
-  const dropped = unfiltered.filter((t) => !keptByProductionQuery(classifyPost(t)));
+  const dropped = unfilteredCmp.filter((t) => !keptByProductionQuery(classifyPost(t)));
   if (dropped.length) {
     lines.push("");
     lines.push("Sample of excluded posts:");
@@ -209,21 +278,22 @@ async function main() {
   if (!LIST_ID) { console.log("[x-debug] No X_LIST_ID set — skipping."); return; }
 
   const base = `list:${LIST_ID}`;
+  const win = windowBounds(); // frozen once, shared by both queries and every page
   let unfiltered;
   let production;
   try {
-    unfiltered = await collect(base);
-    production = await collect(`${base} -is:retweet -is:reply`);
+    unfiltered = await collect(base, win);
+    production = await collect(`${base} -is:retweet -is:reply`, win);
   } catch (e) {
     console.error(`[x-debug] Fetch failed: ${e.message}`);
     process.exit(1);
   }
 
   const report = buildReport({
-    unfiltered: unfiltered.posts,
-    production: production.posts,
+    unfiltered,
+    production,
     usersById: { ...unfiltered.usersById, ...production.usersById },
-    truncated: unfiltered.truncated || production.truncated,
+    win,
   });
 
   console.log(report);
@@ -241,4 +311,7 @@ if (require.main === module) {
   main().catch((e) => { console.error("[x-debug] Fatal:", e); process.exit(1); });
 }
 
-module.exports = { classifyPost, keptByProductionQuery, bucketCounts, authorBreakdown };
+module.exports = {
+  classifyPost, keptByProductionQuery, bucketCounts, authorBreakdown,
+  oldestTimestamp, comparisonFloor,
+};

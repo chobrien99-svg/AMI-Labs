@@ -2,7 +2,10 @@
 // No test framework — plain asserts so it runs anywhere with just node.
 
 const assert = require("assert");
-const { classifyPost, keptByProductionQuery, bucketCounts, authorBreakdown } = require("./debug-x-posts");
+const {
+  classifyPost, keptByProductionQuery, bucketCounts, authorBreakdown,
+  oldestTimestamp, comparisonFloor,
+} = require("./debug-x-posts");
 
 let passed = 0;
 const test = (name, fn) => { fn(); passed++; console.log(`  ✓ ${name}`); };
@@ -72,6 +75,63 @@ test("authorBreakdown groups by username, busiest first", () => {
 test("authorBreakdown falls back to author_id when the user is not expanded", () => {
   const rows = authorBreakdown([{ author_id: "zz", text: "x" }], {});
   assert.strictEqual(rows[0].author, "zz");
+});
+
+// ── comparable interval when a query truncates ───────────────────────────────
+const ts = (iso) => new Date(iso).getTime();
+const WINDOW_START = ts("2026-08-10T00:00:00Z");
+
+test("oldestTimestamp finds the earliest created_at, ignoring posts without one", () => {
+  assert.strictEqual(
+    oldestTimestamp([
+      { created_at: "2026-08-14T00:00:00Z" },
+      { created_at: "2026-08-12T00:00:00Z" },
+      { id: "no-date" },
+    ]),
+    ts("2026-08-12T00:00:00Z")
+  );
+  assert.strictEqual(oldestTimestamp([]), null);
+  assert.strictEqual(oldestTimestamp([{ id: "x" }]), null);
+});
+
+test("no truncation → compare over the whole window", () => {
+  const floor = comparisonFloor({
+    unfiltered: { posts: [{ created_at: "2026-08-11T00:00:00Z" }], truncated: false },
+    production: { posts: [{ created_at: "2026-08-11T00:00:00Z" }], truncated: false },
+    windowStartMs: WINDOW_START,
+  });
+  assert.strictEqual(floor, WINDOW_START);
+});
+
+test("one query truncates → floor is its oldest retrieved post", () => {
+  const floor = comparisonFloor({
+    unfiltered: {
+      posts: [{ created_at: "2026-08-16T00:00:00Z" }, { created_at: "2026-08-15T00:00:00Z" }],
+      truncated: true,
+    },
+    production: { posts: [{ created_at: "2026-08-11T00:00:00Z" }], truncated: false },
+    windowStartMs: WINDOW_START,
+  });
+  // The unfiltered query only reaches back to the 15th, so the 11th is not comparable.
+  assert.strictEqual(floor, ts("2026-08-15T00:00:00Z"));
+});
+
+test("both truncate → floor is the later of the two, not the earlier", () => {
+  const floor = comparisonFloor({
+    unfiltered: { posts: [{ created_at: "2026-08-15T00:00:00Z" }], truncated: true },
+    production: { posts: [{ created_at: "2026-08-13T00:00:00Z" }], truncated: true },
+    windowStartMs: WINDOW_START,
+  });
+  assert.strictEqual(floor, ts("2026-08-15T00:00:00Z"));
+});
+
+test("a truncated query with no dated posts falls back to the window start", () => {
+  const floor = comparisonFloor({
+    unfiltered: { posts: [], truncated: true },
+    production: { posts: [], truncated: false },
+    windowStartMs: WINDOW_START,
+  });
+  assert.strictEqual(floor, WINDOW_START);
 });
 
 console.log(`\n${passed} test(s) passed.`);
