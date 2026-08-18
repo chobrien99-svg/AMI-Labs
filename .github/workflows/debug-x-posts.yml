@@ -1,0 +1,37 @@
+name: Debug X Posts
+
+# Manual diagnostic only — never scheduled, never commits. Runs the List query
+# with and without `-is:retweet -is:reply` and reports both counts, so it is
+# visible whether the filter is dropping more than intended.
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Lookback in days (max 7 — the recent-search limit)"
+        required: false
+        default: "7"
+      pages:
+        description: "Page cap per query (100 posts each; 2 queries per run)"
+        required: false
+        default: "3"
+
+permissions:
+  contents: read
+
+jobs:
+  debug-x-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Report filtered vs unfiltered List volume
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          X_LIST_ID: ${{ vars.X_LIST_ID }}
+          X_DEBUG_DAYS: ${{ inputs.days }}
+          X_DEBUG_PAGES: ${{ inputs.pages }}
+        run: node scripts/debug-x-posts.js
