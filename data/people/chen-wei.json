@@ -1,30 +1,51 @@
 {
-  "slug": "sean-nguyen",
-  "name": "Sean Nguyen",
-  "role": "Director of Operations",
-  "department": "Operations",
-  "location": "New York",
+  "slug": "chen-wei",
+  "name": "Chen Wei",
+  "role": "Member of Technical Staff",
+  "department": "Science & Research Leadership",
+  "location": "New York City",
   "tags": [
-    "New York"
+    "New York City"
   ],
   "links": {
-    "linkedin": "https://www.linkedin.com/in/sean-nguyen-74350b26/"
+    "github": "https://github.com/weichen582",
+    "linkedin": "https://www.linkedin.com/in/chen-wei-252532247/",
+    "scholar": "https://scholar.google.com/citations?hl=en&user=LHQGpBUAAAAJ",
+    "website": "https://weichen582.github.io/"
   },
-  "semanticScholarId": null,
+  "semanticScholarId": [
+    "2356491805"
+  ],
   "careerHistory": [
     {
-      "org": "Meta AI",
-      "title": "Executive Administrative Partner",
-      "years": "2018–2024"
+      "org": "Rice University",
+      "title": "Assistant Professor",
+      "years": "2025-present"
+    },
+    {
+      "org": "Meta",
+      "title": "Postdoctoral Researcher",
+      "years": "2024-2025"
     }
   ],
-  "reportsTo": "yann-lecun",
+  "reportsTo": "saining-xie",
   "reports": [],
   "papers": [],
   "topPublications": [],
   "githubProjects": [],
-  "githubActivity": null,
-  "news": [],
+  "githubActivity": {
+    "username": "weichen582",
+    "githubUrl": "https://github.com/weichen582",
+    "recentEventCount": 0
+  },
+  "news": [
+    {
+      "title": "New Hire: Chen Wei, Member of Technical Staff, New York City",
+      "url": "https://ami.frenchtechjournal.com/team/chen-wei",
+      "source": "The AMI Observatory",
+      "publishedAt": "2026-08-18"
+    }
+  ],
   "xPosts": [],
   "connections": {
     "coAuthors": [],
@@ -35,17 +56,17 @@
         "name": "Adrien Bardes",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
-          2024
+          2024,
+          2025
         ]
       },
       {
-        "slug": "alexandre-lebrun",
-        "name": "Alexandre LeBrun",
+        "slug": "amir-bar",
+        "name": "Amir Bar",
         "org": "Meta (FAIR)",
         "years": [
-          2018,
-          2018
+          2025,
+          2025
         ]
       },
       {
@@ -53,8 +74,8 @@
         "name": "Andrew Brown",
         "org": "Meta (FAIR)",
         "years": [
-          2021,
-          2024
+          2024,
+          2025
         ]
       },
       {
@@ -63,16 +84,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2024,
-          2024
-        ]
-      },
-      {
-        "slug": "bingyi-kang",
-        "name": "Bingyi Kang",
-        "org": "Meta (FAIR)",
-        "years": [
-          2019,
-          2019
+          2025
         ]
       },
       {
@@ -80,17 +92,8 @@
         "name": "Bowen Shi",
         "org": "Meta (FAIR)",
         "years": [
-          2021,
-          2024
-        ]
-      },
-      {
-        "slug": "chen-wei",
-        "name": "Chen Wei",
-        "org": "Meta (FAIR)",
-        "years": [
           2024,
-          2024
+          2025
         ]
       },
       {
@@ -98,8 +101,8 @@
         "name": "Christophe Tcheng",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
-          2024
+          2024,
+          2025
         ]
       },
       {
@@ -108,7 +111,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2024,
-          2024
+          2025
         ]
       },
       {
@@ -116,7 +119,7 @@
         "name": "Delong Chen",
         "org": "Meta (FAIR)",
         "years": [
-          2023,
+          2024,
           2024
         ]
       },
@@ -125,8 +128,8 @@
         "name": "John Nguyen",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
-          2024
+          2024,
+          2025
         ]
       },
       {
@@ -134,17 +137,8 @@
         "name": "Laurent Solly",
         "org": "Meta (FAIR)",
         "years": [
-          2018,
-          2024
-        ]
-      },
-      {
-        "slug": "li-jing",
-        "name": "Li Jing",
-        "org": "Meta (FAIR)",
-        "years": [
-          2020,
-          2022
+          2024,
+          2025
         ]
       },
       {
@@ -152,8 +146,8 @@
         "name": "Matthew Muckley",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
-          2024
+          2024,
+          2025
         ]
       },
       {
@@ -161,8 +155,8 @@
         "name": "Megi Dervishi",
         "org": "Meta (FAIR)",
         "years": [
-          2021,
-          2024
+          2024,
+          2025
         ]
       },
       {
@@ -170,7 +164,7 @@
         "name": "Michael Rabbat",
         "org": "Meta (FAIR)",
         "years": [
-          2018,
+          2024,
           2024
         ]
       },
@@ -179,8 +173,8 @@
         "name": "Mikael Henaff",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
-          2024
+          2024,
+          2025
         ]
       },
       {
@@ -188,7 +182,7 @@
         "name": "Pascale Fung",
         "org": "Meta (FAIR)",
         "years": [
-          2022,
+          2024,
           2024
         ]
       },
@@ -197,8 +191,8 @@
         "name": "Quentin Duval",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
-          2024
+          2024,
+          2025
         ]
       },
       {
@@ -207,7 +201,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2024,
-          2024
+          2025
         ]
       },
       {
@@ -215,22 +209,22 @@
         "name": "Rohit Girdhar",
         "org": "Meta (FAIR)",
         "years": [
-          2019,
-          2024
-        ]
-      },
-      {
-        "slug": "saining-xie",
-        "name": "Saining Xie",
-        "org": "Meta (FAIR)",
-        "years": [
-          2018,
-          2021
+          2024,
+          2025
         ]
       },
       {
         "slug": "scott-fujimoto",
         "name": "Scott Fujimoto",
+        "org": "Meta (FAIR)",
+        "years": [
+          2024,
+          2025
+        ]
+      },
+      {
+        "slug": "sean-nguyen",
+        "name": "Sean Nguyen",
         "org": "Meta (FAIR)",
         "years": [
           2024,
@@ -242,8 +236,8 @@
         "name": "Tengyu Ma",
         "org": "Meta (FAIR)",
         "years": [
-          2021,
-          2024
+          2024,
+          2025
         ]
       },
       {
@@ -252,7 +246,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2024,
-          2024
+          2025
         ]
       },
       {
@@ -260,7 +254,7 @@
         "name": "Xingyi Zhou",
         "org": "Meta (FAIR)",
         "years": [
-          2021,
+          2024,
           2024
         ]
       },
@@ -269,8 +263,8 @@
         "name": "Yann LeCun",
         "org": "Meta (FAIR)",
         "years": [
-          2018,
-          2024
+          2024,
+          2025
         ]
       }
     ]

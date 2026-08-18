@@ -1,30 +1,53 @@
 {
-  "slug": "sean-nguyen",
-  "name": "Sean Nguyen",
-  "role": "Director of Operations",
-  "department": "Operations",
-  "location": "New York",
+  "slug": "mikael-henaff",
+  "name": "Mikael Henaff",
+  "role": "Member of Technical Staff",
+  "department": "Science & Research Leadership",
+  "location": "New York City",
   "tags": [
-    "New York"
+    "New York City"
   ],
   "links": {
-    "linkedin": "https://www.linkedin.com/in/sean-nguyen-74350b26/"
+    "github": "https://github.com/mbhenaff",
+    "linkedin": "https://www.linkedin.com/in/mikael-henaff-628a9021/",
+    "scholar": "https://scholar.google.com/citations?user=bX__wkYAAAAJ&hl=en&oi=ao",
+    "twitter": "https://x.com/HenaffMikael",
+    "website": "https://www.mikaelhenaff.net/"
   },
-  "semanticScholarId": null,
+  "semanticScholarId": [
+    "39713408",
+    "2249760477"
+  ],
   "careerHistory": [
     {
-      "org": "Meta AI",
-      "title": "Executive Administrative Partner",
-      "years": "2018–2024"
+      "org": " Meta AI",
+      "title": "Research Scientist",
+      "years": "2020-2026"
+    },
+    {
+      "org": "Microsoft",
+      "title": "Postdoctoral Researcher",
+      "years": "2018-2020"
     }
   ],
-  "reportsTo": "yann-lecun",
+  "reportsTo": "saining-xie",
   "reports": [],
   "papers": [],
   "topPublications": [],
   "githubProjects": [],
-  "githubActivity": null,
-  "news": [],
+  "githubActivity": {
+    "username": "mbhenaff",
+    "githubUrl": "https://github.com/mbhenaff",
+    "recentEventCount": 0
+  },
+  "news": [
+    {
+      "title": "New Hire: Mikael Henaff, Member of Technical Staff, New York City",
+      "url": "https://ami.frenchtechjournal.com/team/mikael-henaff",
+      "source": "The AMI Observatory",
+      "publishedAt": "2026-08-18"
+    }
+  ],
   "xPosts": [],
   "connections": {
     "coAuthors": [],
@@ -36,16 +59,16 @@
         "org": "Meta (FAIR)",
         "years": [
           2020,
-          2024
+          2026
         ]
       },
       {
-        "slug": "alexandre-lebrun",
-        "name": "Alexandre LeBrun",
+        "slug": "amir-bar",
+        "name": "Amir Bar",
         "org": "Meta (FAIR)",
         "years": [
-          2018,
-          2018
+          2025,
+          2026
         ]
       },
       {
@@ -54,7 +77,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2021,
-          2024
+          2026
         ]
       },
       {
@@ -63,16 +86,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2024,
-          2024
-        ]
-      },
-      {
-        "slug": "bingyi-kang",
-        "name": "Bingyi Kang",
-        "org": "Meta (FAIR)",
-        "years": [
-          2019,
-          2019
+          2026
         ]
       },
       {
@@ -81,7 +95,16 @@
         "org": "Meta (FAIR)",
         "years": [
           2021,
-          2024
+          2026
+        ]
+      },
+      {
+        "slug": "brian-li",
+        "name": "Brian Li",
+        "org": "Microsoft",
+        "years": [
+          2020,
+          2020
         ]
       },
       {
@@ -90,7 +113,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2024,
-          2024
+          2025
         ]
       },
       {
@@ -99,7 +122,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2020,
-          2024
+          2026
         ]
       },
       {
@@ -108,7 +131,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2024,
-          2024
+          2026
         ]
       },
       {
@@ -126,7 +149,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2020,
-          2024
+          2026
         ]
       },
       {
@@ -134,8 +157,8 @@
         "name": "Laurent Solly",
         "org": "Meta (FAIR)",
         "years": [
-          2018,
-          2024
+          2020,
+          2025
         ]
       },
       {
@@ -153,7 +176,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2020,
-          2024
+          2026
         ]
       },
       {
@@ -162,21 +185,12 @@
         "org": "Meta (FAIR)",
         "years": [
           2021,
-          2024
+          2026
         ]
       },
       {
         "slug": "michael-rabbat",
         "name": "Michael Rabbat",
-        "org": "Meta (FAIR)",
-        "years": [
-          2018,
-          2024
-        ]
-      },
-      {
-        "slug": "mikael-henaff",
-        "name": "Mikael Henaff",
         "org": "Meta (FAIR)",
         "years": [
           2020,
@@ -198,7 +212,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2020,
-          2024
+          2026
         ]
       },
       {
@@ -207,7 +221,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2024,
-          2024
+          2026
         ]
       },
       {
@@ -215,8 +229,8 @@
         "name": "Rohit Girdhar",
         "org": "Meta (FAIR)",
         "years": [
-          2019,
-          2024
+          2020,
+          2026
         ]
       },
       {
@@ -224,7 +238,7 @@
         "name": "Saining Xie",
         "org": "Meta (FAIR)",
         "years": [
-          2018,
+          2020,
           2021
         ]
       },
@@ -234,6 +248,15 @@
         "org": "Meta (FAIR)",
         "years": [
           2024,
+          2026
+        ]
+      },
+      {
+        "slug": "sean-nguyen",
+        "name": "Sean Nguyen",
+        "org": "Meta (FAIR)",
+        "years": [
+          2020,
           2024
         ]
       },
@@ -243,7 +266,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2021,
-          2024
+          2026
         ]
       },
       {
@@ -252,7 +275,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2024,
-          2024
+          2026
         ]
       },
       {
@@ -269,8 +292,8 @@
         "name": "Yann LeCun",
         "org": "Meta (FAIR)",
         "years": [
-          2018,
-          2024
+          2020,
+          2025
         ]
       }
     ]
