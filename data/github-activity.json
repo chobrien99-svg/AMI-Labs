@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-08-20T18:38:50.013Z",
+  "lastFetched": "2026-08-21T01:02:35.031Z",
   "members": [
     {
       "slug": "adithya-iyer",
@@ -478,14 +478,6 @@
           "description": "Closed issue #7326 in com-lihaoyi/mill",
           "url": "https://github.com/com-lihaoyi/mill/issues/7326",
           "timestamp": "2026-07-22T16:24:51Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "scala/scala3",
-          "repoUrl": "https://github.com/scala/scala3",
-          "description": "merged PR #24935 in scala/scala3",
-          "url": "https://github.com/scala/scala3",
-          "timestamp": "2026-07-21T17:58:19Z"
         }
       ]
     },
@@ -800,6 +792,30 @@
       "username": "rohitgirdhar",
       "githubUrl": "https://github.com/rohitgirdhar",
       "events": [
+        {
+          "type": "IssuesEvent",
+          "repo": "pingdotgg/t3code",
+          "repoUrl": "https://github.com/pingdotgg/t3code",
+          "description": "labeled issue #7733 in pingdotgg/t3code",
+          "url": "https://github.com/pingdotgg/t3code/issues/7733",
+          "timestamp": "2026-08-20T23:09:33Z"
+        },
+        {
+          "type": "IssuesEvent",
+          "repo": "pingdotgg/t3code",
+          "repoUrl": "https://github.com/pingdotgg/t3code",
+          "description": "labeled issue #7733 in pingdotgg/t3code",
+          "url": "https://github.com/pingdotgg/t3code/issues/7733",
+          "timestamp": "2026-08-20T23:09:32Z"
+        },
+        {
+          "type": "IssuesEvent",
+          "repo": "pingdotgg/t3code",
+          "repoUrl": "https://github.com/pingdotgg/t3code",
+          "description": "Opened issue #7733 in pingdotgg/t3code",
+          "url": "https://github.com/pingdotgg/t3code/issues/7733",
+          "timestamp": "2026-08-20T23:09:32Z"
+        },
         {
           "type": "WatchEvent",
           "repo": "cursor/plugins",
