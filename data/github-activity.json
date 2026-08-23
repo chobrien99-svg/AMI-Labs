@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-08-23T01:03:45.716Z",
+  "lastFetched": "2026-08-23T06:33:29.153Z",
   "members": [
     {
       "slug": "adithya-iyer",
@@ -259,92 +259,124 @@
       "githubUrl": "https://github.com/luodian",
       "events": [
         {
-          "type": "PushEvent",
+          "type": "PullRequestEvent",
           "repo": "EvolvingLMMs-Lab/lmms-eval",
           "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Pushed 0 commits to brian/docs/modular-eval-pipeline-rfc on EvolvingLMMs-Lab/lmms-eval",
+          "description": "Opened PR #1450 in EvolvingLMMs-Lab/lmms-eval",
           "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-08-23T01:02:11Z"
+          "timestamp": "2026-08-23T03:43:46Z"
         },
         {
           "type": "PullRequestEvent",
           "repo": "EvolvingLMMs-Lab/lmms-eval",
           "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Opened PR #1439 in EvolvingLMMs-Lab/lmms-eval",
+          "description": "Opened PR #1449 in EvolvingLMMs-Lab/lmms-eval",
           "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-08-22T10:32:44Z"
+          "timestamp": "2026-08-23T03:43:25Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Opened PR #1448 in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-08-23T03:43:06Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Opened PR #1447 in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-08-23T03:42:45Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Opened PR #1446 in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-08-23T03:42:27Z"
         },
         {
           "type": "CreateEvent",
           "repo": "EvolvingLMMs-Lab/lmms-eval",
           "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Created branch brian/docs/modular-eval-pipeline-rfc in EvolvingLMMs-Lab/lmms-eval",
+          "description": "Created branch brian/refactor/model-registry-legacy-views in EvolvingLMMs-Lab/lmms-eval",
           "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-08-22T10:31:51Z"
+          "timestamp": "2026-08-23T03:42:01Z"
         },
         {
-          "type": "IssueCommentEvent",
-          "repo": "ghostty-org/ghostty",
-          "repoUrl": "https://github.com/ghostty-org/ghostty",
-          "description": "Commented on issue #9932 in ghostty-org/ghostty",
-          "url": "https://github.com/ghostty-org/ghostty/issues/9932#issuecomment-5377652217",
-          "timestamp": "2026-08-22T03:37:47Z"
-        },
-        {
-          "type": "WatchEvent",
-          "repo": "EvolvingLMMs-Lab/GenAI-Caption-Pipeline",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/GenAI-Caption-Pipeline",
-          "description": "Starred EvolvingLMMs-Lab/GenAI-Caption-Pipeline",
-          "url": "https://github.com/EvolvingLMMs-Lab/GenAI-Caption-Pipeline",
-          "timestamp": "2026-08-04T12:26:28Z"
-        },
-        {
-          "type": "IssueCommentEvent",
+          "type": "CreateEvent",
           "repo": "EvolvingLMMs-Lab/lmms-eval",
           "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Commented on issue #1368 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval/pull/1368#issuecomment-5143886462",
-          "timestamp": "2026-07-31T14:19:56Z"
+          "description": "Created branch brian/refactor/model-registry-transactions in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-08-23T03:42:00Z"
+        },
+        {
+          "type": "CreateEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Created branch brian/docs/model-registry-guidance in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-08-23T03:42:01Z"
+        },
+        {
+          "type": "CreateEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Created branch brian/refactor/model-registry-collector in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-08-23T03:42:01Z"
+        },
+        {
+          "type": "CreateEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Created branch brian/refactor/model-registry-consumers in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-08-23T03:42:01Z"
+        },
+        {
+          "type": "PushEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Pushed 0 commits to brian/docs/modular-eval-pipeline-rfc on EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-08-23T03:39:15Z"
+        },
+        {
+          "type": "PushEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Pushed 0 commits to brian/docs/modular-eval-pipeline-rfc on EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-08-23T03:30:41Z"
         },
         {
           "type": "PullRequestEvent",
           "repo": "EvolvingLMMs-Lab/lmms-eval",
           "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Opened PR #1419 in EvolvingLMMs-Lab/lmms-eval",
+          "description": "Opened PR #1445 in EvolvingLMMs-Lab/lmms-eval",
           "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-07-31T14:02:38Z"
+          "timestamp": "2026-08-23T03:27:05Z"
         },
         {
           "type": "PullRequestEvent",
           "repo": "EvolvingLMMs-Lab/lmms-eval",
           "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Opened PR #1418 in EvolvingLMMs-Lab/lmms-eval",
+          "description": "Opened PR #1444 in EvolvingLMMs-Lab/lmms-eval",
           "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-07-31T11:06:18Z"
+          "timestamp": "2026-08-23T03:26:41Z"
         },
         {
-          "type": "PullRequestReviewEvent",
+          "type": "PullRequestEvent",
           "repo": "EvolvingLMMs-Lab/lmms-eval",
           "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Reviewed PR #1417 in EvolvingLMMs-Lab/lmms-eval",
+          "description": "Opened PR #1443 in EvolvingLMMs-Lab/lmms-eval",
           "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-07-31T06:02:36Z"
-        },
-        {
-          "type": "WatchEvent",
-          "repo": "next-state/open-dreamer",
-          "repoUrl": "https://github.com/next-state/open-dreamer",
-          "description": "Starred next-state/open-dreamer",
-          "url": "https://github.com/next-state/open-dreamer",
-          "timestamp": "2026-07-26T13:32:15Z"
-        },
-        {
-          "type": "WatchEvent",
-          "repo": "showlab/videollm-online",
-          "repoUrl": "https://github.com/showlab/videollm-online",
-          "description": "Starred showlab/videollm-online",
-          "url": "https://github.com/showlab/videollm-online",
-          "timestamp": "2026-07-25T16:16:24Z"
+          "timestamp": "2026-08-23T03:26:20Z"
         }
       ]
     },
