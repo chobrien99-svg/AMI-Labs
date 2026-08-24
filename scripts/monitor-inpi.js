@@ -116,12 +116,16 @@ async function authenticate(username, password) {
 
 // ── Search ────────────────────────────────────────────────────────────────────
 
+// DIFFUSION already ends in `/api`, so the domain hangs directly off it. Appending
+// another `/api` produced `/api/api/<domain>/search`, which the gateway 404s.
+const searchPath = (domain) => `${DIFFUSION}/${domain}/search`;
+
 async function search(domain, query, cookies) {
   // domain: "marques" | "brevets" | "dm"
   const payload = JSON.stringify({ query, rang: 1, nombre: 50 });
   const res = await requestWithRetry({
     hostname: BASE,
-    path: `${DIFFUSION}/api/${domain}/search`,
+    path: searchPath(domain),
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -134,9 +138,12 @@ async function search(domain, query, cookies) {
   }, payload);
 
   if (res.status === 204 || res.body.trim() === "") return [];
+  // Throw rather than return []: an unreachable API is not the same as "no filings",
+  // and silently conflating them is what let a 404 on every search sit unnoticed.
   if (res.status >= 400) {
-    console.warn(`[inpi] ${domain} search returned HTTP ${res.status}: ${res.body.slice(0, 200)}`);
-    return [];
+    throw new Error(
+      `${domain} search failed (HTTP ${res.status}) at ${searchPath(domain)}: ${res.body.slice(0, 200)}`
+    );
   }
 
   try {
@@ -144,8 +151,7 @@ async function search(domain, query, cookies) {
     // The API returns either { results: [...] } or a top-level array
     return Array.isArray(data) ? data : (data.results ?? data.items ?? data[domain] ?? []);
   } catch {
-    console.warn(`[inpi] Could not parse ${domain} response: ${res.body.slice(0, 100)}`);
-    return [];
+    throw new Error(`Could not parse ${domain} response: ${res.body.slice(0, 100)}`);
   }
 }
 
@@ -260,19 +266,30 @@ async function main() {
   // The INPI query DSL: [SIREN=994675254] searches the deposant SIREN field
   const sirenQuery = `[SIREN=${SIREN}]`;
 
-  console.log("[inpi] Searching marques...");
-  const rawMarques = await search("marques", sirenQuery, cookies);
-  const marques = rawMarques.map(extractMarque);
+  // A failed domain keeps its previous entries rather than collapsing to []. Writing
+  // [] would erase known filings, and every one of them would then resurface as "new"
+  // once the API recovered, firing a burst of false issues.
+  const failures = [];
+  async function searchDomain(domain, label, extract, previous) {
+    console.log(`[inpi] Searching ${label}...`);
+    try {
+      return (await search(domain, sirenQuery, cookies)).map(extract);
+    } catch (err) {
+      console.error(`[inpi] ${err.message}`);
+      failures.push(`${label}: ${err.message}`);
+      console.warn(`[inpi] Carrying forward ${previous.length} previously known ${label} rather than treating this domain as empty.`);
+      return previous;
+    }
+  }
 
-  console.log("[inpi] Searching brevets...");
-  const rawBrevets = await search("brevets", sirenQuery, cookies);
-  const brevets = rawBrevets.map(extractBrevet);
+  const marques = await searchDomain("marques", "marques", extractMarque, prev.marques ?? []);
+  const brevets = await searchDomain("brevets", "brevets", extractBrevet, prev.brevets ?? []);
+  const dessinsModeles = await searchDomain("dm", "dessins & modèles", extractDessin, prev.dessinsModeles ?? []);
 
-  console.log("[inpi] Searching dessins & modèles...");
-  const rawDM = await search("dm", sirenQuery, cookies);
-  const dessinsModeles = rawDM.map(extractDessin);
-
-  console.log(`[inpi] Found: ${marques.length} marques, ${brevets.length} brevets, ${dessinsModeles.length} dessins & modèles`);
+  const tally = `${marques.length} marques, ${brevets.length} brevets, ${dessinsModeles.length} dessins & modèles`;
+  console.log(failures.length > 0
+    ? `[inpi] Holding: ${tally} (includes carried-forward data — ${failures.length} of 3 searches failed)`
+    : `[inpi] Found: ${tally}`);
 
   // Detect new items
   const newMarques = newItems(prev.marques ?? [], marques, (m) => m.id);
@@ -332,16 +349,25 @@ async function main() {
     console.log(`[inpi] ${issues.length} new filing type(s) detected and reported.`);
   }
 
-  // Save updated state
+  // Save updated state. `lastSuccessfulCheck` only advances when every domain
+  // answered, so a run that could not reach the API cannot masquerade as a clean one.
+  const now = new Date().toISOString();
   const next = {
-    lastChecked: new Date().toISOString(),
+    lastChecked: now,
+    lastSuccessfulCheck: failures.length === 0 ? now : (prev.lastSuccessfulCheck ?? null),
     siren: SIREN,
     marques,
     brevets,
     dessinsModeles,
   };
+  if (failures.length > 0) next.lastErrors = failures;
   fs.writeFileSync(STATE_FILE, JSON.stringify(next, null, 2) + "\n");
   console.log("[inpi] State saved to " + STATE_FILE);
+
+  if (failures.length > 0) {
+    console.error(`[inpi] ${failures.length} of 3 searches failed — the monitor did not actually check for filings.`);
+    process.exit(1);
+  }
 }
 
 main().catch((err) => {
