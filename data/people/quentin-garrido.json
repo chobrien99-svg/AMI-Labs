@@ -160,7 +160,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 610,
+      "citationCount": 621,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -173,6 +173,10 @@
         {
           "slug": "matthew-muckley",
           "name": "Matthew Muckley"
+        },
+        {
+          "slug": "artem-zholus",
+          "name": "Artem Zholus"
         },
         {
           "slug": "yann-lecun",
@@ -205,10 +209,6 @@
         {
           "slug": null,
           "name": "Koustuv Sinha"
-        },
-        {
-          "slug": null,
-          "name": "Artem Zholus"
         },
         {
           "slug": null,
@@ -2715,7 +2715,7 @@
     {
       "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
-      "citationCount": 610,
+      "citationCount": 621,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985"
     },
@@ -2729,21 +2729,21 @@
     {
       "title": "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
       "year": 2025,
-      "citationCount": 69,
+      "citationCount": 71,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2502.11831"
     },
     {
       "title": "Learning Latent Action World Models In The Wild",
       "year": 2026,
-      "citationCount": 35,
+      "citationCount": 38,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.05230"
     },
     {
       "title": "IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments",
       "year": 2025,
-      "citationCount": 35,
+      "citationCount": 36,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09849"
     }
@@ -2803,6 +2803,11 @@
       {
         "slug": "matthew-muckley",
         "name": "Matthew Muckley",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "artem-zholus",
+        "name": "Artem Zholus",
         "sharedPapers": 1
       }
     ],
@@ -2913,10 +2918,6 @@
       },
       {
         "name": "Claire Roberts",
-        "papers": 1
-      },
-      {
-        "name": "Artem Zholus",
         "papers": 1
       },
       {

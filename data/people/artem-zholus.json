@@ -36,8 +36,1705 @@
   ],
   "reportsTo": "michael-rabbat",
   "reports": [],
-  "papers": [],
-  "topPublications": [],
+  "papers": [
+    {
+      "paperId": "e075577f6009b707439792696fd4f6a7ddc39145",
+      "title": "Reconstruction or Semantics? What Makes a Latent Space Useful for Robotic World Models",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.06388",
+      "citationCount": 12,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Nilaksh"
+        },
+        {
+          "slug": null,
+          "name": "Saurav Jha"
+        },
+        {
+          "slug": null,
+          "name": "Sarath Chandar"
+        },
+        {
+          "slug": null,
+          "name": "Chandar Research Lab"
+        },
+        {
+          "slug": null,
+          "name": "M. Québec"
+        },
+        {
+          "slug": null,
+          "name": "AI Institute"
+        },
+        {
+          "slug": null,
+          "name": "P. Montr'eal"
+        },
+        {
+          "slug": null,
+          "name": "Canada Cifar"
+        },
+        {
+          "slug": null,
+          "name": "AI Chair"
+        }
+      ]
+    },
+    {
+      "paperId": "450fbc821abdb7b5d1c5e332ff0bbd98f5eb5674",
+      "title": "TAPNext++: What's Next for Tracking Any Point (TAP)?",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2604.10582",
+      "citationCount": 4,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Sebastian Jung"
+        },
+        {
+          "slug": null,
+          "name": "M. Sundermeyer"
+        },
+        {
+          "slug": null,
+          "name": "Carl Doersch"
+        },
+        {
+          "slug": null,
+          "name": "Ross Goroshin"
+        },
+        {
+          "slug": null,
+          "name": "D. Tan"
+        },
+        {
+          "slug": null,
+          "name": "Sarath Chandar"
+        },
+        {
+          "slug": null,
+          "name": "Rudolph Triebel"
+        },
+        {
+          "slug": null,
+          "name": "Federico Tombari"
+        }
+      ]
+    },
+    {
+      "paperId": "477e20594635eb0ced89bbf2dd9ec873278cf48d",
+      "title": "Hierarchical Planning with Latent World Models",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2604.03208",
+      "citationCount": 19,
+      "coAuthors": [
+        {
+          "slug": "basile-terver",
+          "name": "Basile Terver"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
+        },
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Wancong Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Soham Chitnis"
+        },
+        {
+          "slug": null,
+          "name": "Harsh Sutaria"
+        },
+        {
+          "slug": null,
+          "name": "Mido Assran"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        }
+      ]
+    },
+    {
+      "paperId": "b202faf38efbffcb26470c702e1140b047d6f6e7",
+      "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.09985",
+      "citationCount": 621,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
+        },
+        {
+          "slug": "quentin-garrido",
+          "name": "Quentin Garrido"
+        },
+        {
+          "slug": "matthew-muckley",
+          "name": "Matthew Muckley"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Mahmoud Assran"
+        },
+        {
+          "slug": null,
+          "name": "Russell Howes"
+        },
+        {
+          "slug": null,
+          "name": "Mojtaba Komeili"
+        },
+        {
+          "slug": null,
+          "name": "Ammar Rizvi"
+        },
+        {
+          "slug": null,
+          "name": "Claire Roberts"
+        },
+        {
+          "slug": null,
+          "name": "Koustuv Sinha"
+        },
+        {
+          "slug": null,
+          "name": "Sergio Arnaud"
+        },
+        {
+          "slug": null,
+          "name": "Abha Gejji"
+        },
+        {
+          "slug": null,
+          "name": "Ada Martin"
+        },
+        {
+          "slug": null,
+          "name": "Francois Hogan"
+        },
+        {
+          "slug": null,
+          "name": "Daniel Dugas"
+        },
+        {
+          "slug": null,
+          "name": "Piotr Bojanowski"
+        },
+        {
+          "slug": null,
+          "name": "Vasil Khalidov"
+        },
+        {
+          "slug": null,
+          "name": "Patrick Labatut"
+        },
+        {
+          "slug": null,
+          "name": "Francisco Massa"
+        },
+        {
+          "slug": null,
+          "name": "Marc Szafraniec"
+        },
+        {
+          "slug": null,
+          "name": "K. Krishnakumar"
+        },
+        {
+          "slug": null,
+          "name": "Yong Li"
+        },
+        {
+          "slug": null,
+          "name": "Xiaodong Ma"
+        },
+        {
+          "slug": null,
+          "name": "Sarath Chandar"
+        },
+        {
+          "slug": null,
+          "name": "Franziska Meier"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Fair at Meta"
+        },
+        {
+          "slug": null,
+          "name": "M. Québec"
+        },
+        {
+          "slug": null,
+          "name": "AI Institute"
+        },
+        {
+          "slug": null,
+          "name": "P. Montr'eal"
+        }
+      ]
+    },
+    {
+      "paperId": "c490787518185bf04a2f76dd9d7fa4b35bbfd5ff",
+      "title": "Tapnext: Tracking Any Point (Tap) as Next Token Prediction",
+      "year": 2025,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV51701.2025.00904",
+      "citationCount": 39,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Carl Doersch"
+        },
+        {
+          "slug": null,
+          "name": "Yi Yang"
+        },
+        {
+          "slug": null,
+          "name": "Skanda Koppula"
+        },
+        {
+          "slug": null,
+          "name": "Viorica Patraucean"
+        },
+        {
+          "slug": null,
+          "name": "X. He"
+        },
+        {
+          "slug": null,
+          "name": "Ignacio Rocco"
+        },
+        {
+          "slug": null,
+          "name": "Mehdi S. M. Sajjadi"
+        },
+        {
+          "slug": null,
+          "name": "Sarath Chandar"
+        },
+        {
+          "slug": null,
+          "name": "Ross Goroshin"
+        }
+      ]
+    },
+    {
+      "paperId": "9d18a9d397a6beabf4b09128dd382d10fc989cf3",
+      "title": "TRecViT: A Recurrent Video Transformer",
+      "year": 2024,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2412.14294",
+      "citationCount": 7,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Viorica Puatruaucean"
+        },
+        {
+          "slug": null,
+          "name": "X. He"
+        },
+        {
+          "slug": null,
+          "name": "Joseph Heyward"
+        },
+        {
+          "slug": null,
+          "name": "Chuhan Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Mehdi S. M. Sajjadi"
+        },
+        {
+          "slug": null,
+          "name": "G. Muraru"
+        },
+        {
+          "slug": null,
+          "name": "Mahdi Karami"
+        },
+        {
+          "slug": null,
+          "name": "Ross Goroshin"
+        },
+        {
+          "slug": null,
+          "name": "Yutian Chen"
+        },
+        {
+          "slug": null,
+          "name": "Simon Osindero"
+        },
+        {
+          "slug": null,
+          "name": "João Carreira"
+        },
+        {
+          "slug": null,
+          "name": "Razvan Pascanu"
+        }
+      ]
+    },
+    {
+      "paperId": "892537d8ee88fd0e46e83fc52c5c45377ec2ec92",
+      "title": "Unraveling the Complexity of Memory in RL Agents: an Approach for Classification and Evaluation",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2412.06531",
+      "citationCount": 4,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "E. Cherepanov"
+        },
+        {
+          "slug": null,
+          "name": "Nikita Kachaev"
+        },
+        {
+          "slug": null,
+          "name": "A. Kovalev"
+        },
+        {
+          "slug": null,
+          "name": "Aleksandr I. Panov"
+        }
+      ]
+    },
+    {
+      "paperId": "a7f5d373dbbb5dffe53538e0e87264f26373887a",
+      "title": "Interpretability in Action: Exploratory Analysis of VPT, a Minecraft Agent",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2407.12161",
+      "citationCount": 4,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Karolis Jucys"
+        },
+        {
+          "slug": null,
+          "name": "George Adamopoulos"
+        },
+        {
+          "slug": null,
+          "name": "Mehrab Hamidi"
+        },
+        {
+          "slug": null,
+          "name": "Stephanie Milani"
+        },
+        {
+          "slug": null,
+          "name": "Mohammad Reza Samsami"
+        },
+        {
+          "slug": null,
+          "name": "Sonia Joseph"
+        },
+        {
+          "slug": null,
+          "name": "Blake Richards"
+        },
+        {
+          "slug": null,
+          "name": "Irina Rish"
+        },
+        {
+          "slug": null,
+          "name": "Özgür Şimşek"
+        }
+      ]
+    },
+    {
+      "paperId": "047915e8b35841ad02e81d1eec11f4d4a5c6330b",
+      "title": "IDAT: A Multi-Modal Dataset and Toolkit for Building and Evaluating Interactive Task-Solving Agents",
+      "year": 2024,
+      "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "url": "https://doi.org/10.1145/3726302.3730300",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Shrestha Mohanty"
+        },
+        {
+          "slug": null,
+          "name": "Negar Arabzadeh"
+        },
+        {
+          "slug": null,
+          "name": "Andrea Tupini"
+        },
+        {
+          "slug": null,
+          "name": "Yuxuan Sun"
+        },
+        {
+          "slug": null,
+          "name": "Alexey Skrynnik"
+        },
+        {
+          "slug": null,
+          "name": "Marc-Alexandre Côté"
+        },
+        {
+          "slug": null,
+          "name": "Julia Kiseleva"
+        }
+      ]
+    },
+    {
+      "paperId": "1196cd4aa938a34105755feb47ce1610b58ea5de",
+      "title": "BindGPT: A Scalable Framework for 3D Molecular Design via Language Modeling and Reinforcement Learning",
+      "year": 2024,
+      "venue": "AAAI Conference on Artificial Intelligence",
+      "url": "https://doi.org/10.48550/arXiv.2406.03686",
+      "citationCount": 27,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Maksim Kuznetsov"
+        },
+        {
+          "slug": null,
+          "name": "Roman Schutski"
+        },
+        {
+          "slug": null,
+          "name": "Shayakhmetov Rim"
+        },
+        {
+          "slug": null,
+          "name": "Daniil Polykovskiy"
+        },
+        {
+          "slug": null,
+          "name": "Sarath Chandar"
+        },
+        {
+          "slug": null,
+          "name": "A. Zhavoronkov"
+        }
+      ]
+    },
+    {
+      "paperId": "e34868427f607bd35f11576963c36b95673e5a75",
+      "title": "Mastering Memory Tasks with World Models",
+      "year": 2024,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2403.04253",
+      "citationCount": 47,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Mohammad Reza Samsami"
+        },
+        {
+          "slug": null,
+          "name": "Janarthanan Rajendran"
+        },
+        {
+          "slug": null,
+          "name": "Sarath Chandar"
+        }
+      ]
+    },
+    {
+      "paperId": "eba383558d36e6cacb23b3f477a2125c4b7d5043",
+      "title": "From Words to Blocks: Building Objects by Grounding Language Models with Reinforcement Learning",
+      "year": 2023,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/eba383558d36e6cacb23b3f477a2125c4b7d5043",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Michael Ahn"
+        },
+        {
+          "slug": null,
+          "name": "Anthony Brohan"
+        },
+        {
+          "slug": null,
+          "name": "Noah Brown"
+        },
+        {
+          "slug": null,
+          "name": "Liang Dai"
+        },
+        {
+          "slug": null,
+          "name": "Dan Su"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia Ziwei Bryan Wilie"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        },
+        {
+          "slug": null,
+          "name": "W. Chung"
+        },
+        {
+          "slug": null,
+          "name": "Quyet V. Do"
+        },
+        {
+          "slug": null,
+          "name": "Paul Barde"
+        },
+        {
+          "slug": null,
+          "name": "Tristan Karch"
+        },
+        {
+          "slug": null,
+          "name": "Derek Nowrouzezahrai"
+        },
+        {
+          "slug": null,
+          "name": "C. Bonial"
+        },
+        {
+          "slug": null,
+          "name": "Mitchell Abrams"
+        },
+        {
+          "slug": null,
+          "name": "David R. Traum"
+        },
+        {
+          "slug": null,
+          "name": "H. Won"
+        },
+        {
+          "slug": null,
+          "name": "Le Hou"
+        },
+        {
+          "slug": null,
+          "name": "Shayne Longpre"
+        },
+        {
+          "slug": null,
+          "name": "Yi Zoph"
+        },
+        {
+          "slug": null,
+          "name": "William Tay"
+        },
+        {
+          "slug": null,
+          "name": "Eric Fedus"
+        },
+        {
+          "slug": null,
+          "name": "Xuezhi Li"
+        },
+        {
+          "slug": null,
+          "name": "L. Espeholt"
+        },
+        {
+          "slug": null,
+          "name": "Hubert Soyer"
+        },
+        {
+          "slug": null,
+          "name": "R. Munos"
+        },
+        {
+          "slug": null,
+          "name": "Karen Si-801"
+        },
+        {
+          "slug": null,
+          "name": "Vlad Mnih"
+        },
+        {
+          "slug": null,
+          "name": "T. Ward"
+        },
+        {
+          "slug": null,
+          "name": "Yotam Doron"
+        },
+        {
+          "slug": null,
+          "name": "Wenlong Huang"
+        },
+        {
+          "slug": null,
+          "name": "Pieter Abbeel"
+        },
+        {
+          "slug": null,
+          "name": "Deepak Pathak"
+        },
+        {
+          "slug": null,
+          "name": "Julia Kiseleva"
+        },
+        {
+          "slug": null,
+          "name": "Ziming Li"
+        },
+        {
+          "slug": null,
+          "name": "Mohammad Aliannejadi"
+        },
+        {
+          "slug": null,
+          "name": "Shrestha Mohanty"
+        },
+        {
+          "slug": null,
+          "name": "Maartje ter Hoeve"
+        },
+        {
+          "slug": null,
+          "name": "M. Burtsev"
+        },
+        {
+          "slug": null,
+          "name": "Alexey Skrynnik"
+        },
+        {
+          "slug": null,
+          "name": "A. Panov"
+        },
+        {
+          "slug": null,
+          "name": "Kavya Srinet"
+        },
+        {
+          "slug": null,
+          "name": "A. Szlam"
+        },
+        {
+          "slug": null,
+          "name": "Yuxuan Sun"
+        },
+        {
+          "slug": null,
+          "name": "Katja Hofmann"
+        },
+        {
+          "slug": null,
+          "name": "Marc-Alexandre Côté"
+        },
+        {
+          "slug": null,
+          "name": "Ahmed Awadallah"
+        },
+        {
+          "slug": null,
+          "name": "Linar Abdrazakov"
+        },
+        {
+          "slug": null,
+          "name": "I. Churin"
+        },
+        {
+          "slug": null,
+          "name": "Putra Manggala"
+        },
+        {
+          "slug": null,
+          "name": "Kata Naszádi"
+        },
+        {
+          "slug": null,
+          "name": "M. V. D. Meer"
+        }
+      ]
+    },
+    {
+      "paperId": "9e00b821c5434e30e526e8b5cdefea77be3e6658",
+      "title": "Transforming Human-Centered AI Collaboration: Redefining Embodied Agents Capabilities through Interactive Grounded Language Instructions",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2305.10783",
+      "citationCount": 16,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Shrestha Mohanty"
+        },
+        {
+          "slug": null,
+          "name": "Negar Arabzadeh"
+        },
+        {
+          "slug": null,
+          "name": "Julia Kiseleva"
+        },
+        {
+          "slug": null,
+          "name": "Milagro Teruel"
+        },
+        {
+          "slug": null,
+          "name": "A. Awadallah"
+        },
+        {
+          "slug": null,
+          "name": "Yuxuan Sun"
+        },
+        {
+          "slug": null,
+          "name": "Kavya Srinet"
+        },
+        {
+          "slug": null,
+          "name": "Arthur Szlam"
+        }
+      ]
+    },
+    {
+      "paperId": "351ede318e91c96843870b784017ab2f84fa6036",
+      "title": "Collecting Interactive Multi-modal Datasets for Grounded Language Understanding",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2211.06552",
+      "citationCount": 16,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Shrestha Mohanty"
+        },
+        {
+          "slug": null,
+          "name": "Negar Arabzadeh"
+        },
+        {
+          "slug": null,
+          "name": "Milagro Teruel"
+        },
+        {
+          "slug": null,
+          "name": "Yuxuan Sun"
+        },
+        {
+          "slug": null,
+          "name": "Alexey Skrynnik"
+        },
+        {
+          "slug": null,
+          "name": "M. Burtsev"
+        },
+        {
+          "slug": null,
+          "name": "Kavya Srinet"
+        },
+        {
+          "slug": null,
+          "name": "A. Panov"
+        },
+        {
+          "slug": null,
+          "name": "Arthur Szlam"
+        },
+        {
+          "slug": null,
+          "name": "Marc-Alexandre Côté"
+        },
+        {
+          "slug": null,
+          "name": "Julia Kiseleva"
+        }
+      ]
+    },
+    {
+      "paperId": "d7d6701a0c6a252c950f1d046c277157da5a463d",
+      "title": "Learning to Solve Voxel Building Embodied Tasks from Pixels and Natural Language Instructions",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2211.00688",
+      "citationCount": 12,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Alexey Skrynnik"
+        },
+        {
+          "slug": null,
+          "name": "Z. Volovikova"
+        },
+        {
+          "slug": null,
+          "name": "Marc-Alexandre Côté"
+        },
+        {
+          "slug": null,
+          "name": "Anton Voronov"
+        },
+        {
+          "slug": null,
+          "name": "Negar Arabzadeh"
+        },
+        {
+          "slug": null,
+          "name": "Shrestha Mohanty"
+        },
+        {
+          "slug": null,
+          "name": "Milagro Teruel"
+        },
+        {
+          "slug": null,
+          "name": "A. Awadallah"
+        },
+        {
+          "slug": null,
+          "name": "A. Panov"
+        },
+        {
+          "slug": null,
+          "name": "M. Burtsev"
+        },
+        {
+          "slug": null,
+          "name": "Julia Kiseleva"
+        }
+      ]
+    },
+    {
+      "paperId": "e796eadea7ccf76934ff0c1f196600aa88b5f717",
+      "title": "F ACTORIZED W ORLD M ODELS FOR L EARNING C AUSAL R ELATIONSHIPS",
+      "year": 2022,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/e796eadea7ccf76934ff0c1f196600aa88b5f717",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yaroslav Ivchenkov"
+        },
+        {
+          "slug": null,
+          "name": "A. Panov"
+        }
+      ]
+    },
+    {
+      "paperId": "7cc1ef5aca31db5641fd2f09f2b07207fd1d37e6",
+      "title": "IGLU Gridworld: Simple and Fast Environment for Embodied Dialog Agents",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2206.00142",
+      "citationCount": 13,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Alexey Skrynnik"
+        },
+        {
+          "slug": null,
+          "name": "Shrestha Mohanty"
+        },
+        {
+          "slug": null,
+          "name": "Z. Volovikova"
+        },
+        {
+          "slug": null,
+          "name": "Julia Kiseleva"
+        },
+        {
+          "slug": null,
+          "name": "Artur Szlam"
+        },
+        {
+          "slug": null,
+          "name": "Marc-Alexandre Côté"
+        },
+        {
+          "slug": null,
+          "name": "A. Panov"
+        }
+      ]
+    },
+    {
+      "paperId": "89ed6b381aeb81715172f0ff60163f2ea3a3abc4",
+      "title": "IGLU 2022: Interactive Grounded Language Understanding in a Collaborative Environment at NeurIPS 2022",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2205.13771",
+      "citationCount": 24,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Julia Kiseleva"
+        },
+        {
+          "slug": null,
+          "name": "Alexey Skrynnik"
+        },
+        {
+          "slug": null,
+          "name": "Shrestha Mohanty"
+        },
+        {
+          "slug": null,
+          "name": "Negar Arabzadeh"
+        },
+        {
+          "slug": null,
+          "name": "Marc-Alexandre Côté"
+        },
+        {
+          "slug": null,
+          "name": "Mohammad Aliannejadi"
+        },
+        {
+          "slug": null,
+          "name": "Milagro Teruel"
+        },
+        {
+          "slug": null,
+          "name": "Ziming Li"
+        },
+        {
+          "slug": null,
+          "name": "M. Burtsev"
+        },
+        {
+          "slug": null,
+          "name": "Maartje ter Hoeve"
+        },
+        {
+          "slug": null,
+          "name": "Z. Volovikova"
+        },
+        {
+          "slug": null,
+          "name": "A. Panov"
+        },
+        {
+          "slug": null,
+          "name": "Yuxuan Sun"
+        },
+        {
+          "slug": null,
+          "name": "Kavya Srinet"
+        },
+        {
+          "slug": null,
+          "name": "Arthur Szlam"
+        },
+        {
+          "slug": null,
+          "name": "A. Awadallah"
+        }
+      ]
+    },
+    {
+      "paperId": "11c2e98be11a39c36a15499f9fac9c3b9e68c061",
+      "title": "Interactive Grounded Language Understanding in a Collaborative Environment: IGLU 2021",
+      "year": 2022,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2205.02388",
+      "citationCount": 37,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Julia Kiseleva"
+        },
+        {
+          "slug": null,
+          "name": "Ziming Li"
+        },
+        {
+          "slug": null,
+          "name": "Mohammad Aliannejadi"
+        },
+        {
+          "slug": null,
+          "name": "Shrestha Mohanty"
+        },
+        {
+          "slug": null,
+          "name": "Maartje ter Hoeve"
+        },
+        {
+          "slug": null,
+          "name": "M. Burtsev"
+        },
+        {
+          "slug": null,
+          "name": "Alexey Skrynnik"
+        },
+        {
+          "slug": null,
+          "name": "A. Panov"
+        },
+        {
+          "slug": null,
+          "name": "Kavya Srinet"
+        },
+        {
+          "slug": null,
+          "name": "Arthur Szlam"
+        },
+        {
+          "slug": null,
+          "name": "Yuxuan Sun"
+        },
+        {
+          "slug": null,
+          "name": "M. Hofmann"
+        },
+        {
+          "slug": null,
+          "name": "A. Awadallah"
+        },
+        {
+          "slug": null,
+          "name": "Linar Abdrazakov"
+        },
+        {
+          "slug": null,
+          "name": "I. Churin"
+        },
+        {
+          "slug": null,
+          "name": "Putra Manggala"
+        },
+        {
+          "slug": null,
+          "name": "Kata Naszádi"
+        },
+        {
+          "slug": null,
+          "name": "Michiel van der Meer"
+        },
+        {
+          "slug": null,
+          "name": "Taewoon Kim"
+        }
+      ]
+    },
+    {
+      "paperId": "9291fab6800d152955c813331ef9465efad3d07f",
+      "title": "Multitask Adaptation by Retrospective Exploration with Learned World Models",
+      "year": 2021,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/9291fab6800d152955c813331ef9465efad3d07f",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "A. Panov"
+        }
+      ]
+    },
+    {
+      "paperId": "99cafaec5f1936d388c23077872ac5589bbfca1d",
+      "title": "NeurIPS 2021 Competition IGLU: Interactive Grounded Language Understanding in a Collaborative Environment",
+      "year": 2021,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/99cafaec5f1936d388c23077872ac5589bbfca1d",
+      "citationCount": 17,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Julia Kiseleva"
+        },
+        {
+          "slug": null,
+          "name": "Ziming Li"
+        },
+        {
+          "slug": null,
+          "name": "Mohammad Aliannejadi"
+        },
+        {
+          "slug": null,
+          "name": "Shrestha Mohanty"
+        },
+        {
+          "slug": null,
+          "name": "Maartje ter Hoeve"
+        },
+        {
+          "slug": null,
+          "name": "M. Burtsev"
+        },
+        {
+          "slug": null,
+          "name": "Alexey Skrynnik"
+        },
+        {
+          "slug": null,
+          "name": "A. Panov"
+        },
+        {
+          "slug": null,
+          "name": "Kavya Srinet"
+        },
+        {
+          "slug": null,
+          "name": "Arthur Szlam"
+        },
+        {
+          "slug": null,
+          "name": "Yuxuan Sun"
+        },
+        {
+          "slug": null,
+          "name": "Katja Hofmann"
+        },
+        {
+          "slug": null,
+          "name": "Michel Galley"
+        },
+        {
+          "slug": null,
+          "name": "A. Awadallah"
+        }
+      ]
+    },
+    {
+      "paperId": "04f6c77abfa457d546f07c1fdc59d47241720591",
+      "title": "Case-Based Task Generalization in Model-Based Reinforcement Learning",
+      "year": 2021,
+      "venue": "Artificial General Intelligence",
+      "url": "https://doi.org/10.1007/978-3-030-93758-4_35",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "A. Panov"
+        }
+      ]
+    },
+    {
+      "paperId": "d5adb5323818b0f73403ab2509f5dea7e8e8401c",
+      "title": "Interactive Grounded Language Understanding in a Collaborative Environment: Retrospective on Iglu 2022 Competition",
+      "year": 2021,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/d5adb5323818b0f73403ab2509f5dea7e8e8401c",
+      "citationCount": 12,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Julia Kiseleva"
+        },
+        {
+          "slug": null,
+          "name": "Alexey Skrynnik"
+        },
+        {
+          "slug": null,
+          "name": "Shrestha Mohanty"
+        },
+        {
+          "slug": null,
+          "name": "Negar Arabzadeh"
+        },
+        {
+          "slug": null,
+          "name": "Marc-Alexandre Côté"
+        },
+        {
+          "slug": null,
+          "name": "Mohammad Aliannejadi"
+        },
+        {
+          "slug": null,
+          "name": "Milagro Teruel"
+        },
+        {
+          "slug": null,
+          "name": "Ziming Li"
+        },
+        {
+          "slug": null,
+          "name": "M. Burtsev"
+        },
+        {
+          "slug": null,
+          "name": "Maartje ter Hoeve"
+        },
+        {
+          "slug": null,
+          "name": "Z. Volovikova"
+        },
+        {
+          "slug": null,
+          "name": "Aleksandr Panov"
+        },
+        {
+          "slug": null,
+          "name": "Yuxuan Sun"
+        },
+        {
+          "slug": null,
+          "name": "Kavya Srinet"
+        },
+        {
+          "slug": null,
+          "name": "Arthur Szlam"
+        },
+        {
+          "slug": null,
+          "name": "Ahmed Awadallah"
+        },
+        {
+          "slug": null,
+          "name": "S. Rho"
+        },
+        {
+          "slug": null,
+          "name": "Taehwan Kwon"
+        },
+        {
+          "slug": null,
+          "name": "D. W. Nam"
+        },
+        {
+          "slug": null,
+          "name": "F. B. Haiek"
+        },
+        {
+          "slug": null,
+          "name": "Edwin Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Linar Abdrazakov"
+        },
+        {
+          "slug": null,
+          "name": "Guo Qingyam"
+        },
+        {
+          "slug": null,
+          "name": "Jason Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Zhibin Guo"
+        }
+      ]
+    },
+    {
+      "paperId": "d37e125c272c1349b486b94804a5df6d9eb5ab34",
+      "title": "Continuous Histogram Loss: Beyond Neural Similarity",
+      "year": 2020,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/d37e125c272c1349b486b94804a5df6d9eb5ab34",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "E. Putin"
+        }
+      ]
+    },
+    {
+      "paperId": "d44ac0a7fd4734187bccafc4a2771027b8bb595e",
+      "title": "Deep learning enables rapid identification of potent DDR1 kinase inhibitors",
+      "year": 2019,
+      "venue": "Nature Biotechnology",
+      "url": "https://doi.org/10.1038/s41587-019-0224-x",
+      "citationCount": 1282,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Alex Zhavoronkov"
+        },
+        {
+          "slug": null,
+          "name": "Y. Ivanenkov"
+        },
+        {
+          "slug": null,
+          "name": "Alex Aliper"
+        },
+        {
+          "slug": null,
+          "name": "M. Veselov"
+        },
+        {
+          "slug": null,
+          "name": "V. Aladinskiy"
+        },
+        {
+          "slug": null,
+          "name": "Anastasiya V Aladinskaya"
+        },
+        {
+          "slug": null,
+          "name": "V. Terentiev"
+        },
+        {
+          "slug": null,
+          "name": "Daniil Polykovskiy"
+        },
+        {
+          "slug": null,
+          "name": "Maksim Kuznetsov"
+        },
+        {
+          "slug": null,
+          "name": "Arip Asadulaev"
+        },
+        {
+          "slug": null,
+          "name": "Y. Volkov"
+        },
+        {
+          "slug": null,
+          "name": "Shayakhmetov Rim"
+        },
+        {
+          "slug": null,
+          "name": "Alexander Zhebrak"
+        },
+        {
+          "slug": null,
+          "name": "L. Minaeva"
+        },
+        {
+          "slug": null,
+          "name": "B. Zagribelnyy"
+        },
+        {
+          "slug": null,
+          "name": "L. Lee"
+        },
+        {
+          "slug": null,
+          "name": "R. Soll"
+        },
+        {
+          "slug": null,
+          "name": "D. Madge"
+        },
+        {
+          "slug": null,
+          "name": "Li Xing"
+        },
+        {
+          "slug": null,
+          "name": "Tao Guo"
+        },
+        {
+          "slug": null,
+          "name": "Alán Aspuru-Guzik"
+        }
+      ]
+    },
+    {
+      "paperId": "559708856adda90d9946716ca4ea8573b8cd4cb6",
+      "title": "Human in the Loop Learning through Grounded Interaction in Games",
+      "year": null,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/559708856adda90d9946716ca4ea8573b8cd4cb6",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "∗. RaffaellaBernardi"
+        },
+        {
+          "slug": null,
+          "name": "∗. JuliaHockenmaier"
+        },
+        {
+          "slug": null,
+          "name": "∗. UdoKruschwitz"
+        },
+        {
+          "slug": null,
+          "name": "4. PrashantJayannavar†"
+        },
+        {
+          "slug": null,
+          "name": "∗. MassimoPoesio"
+        },
+        {
+          "slug": null,
+          "name": "Julia Kiseleva"
+        },
+        {
+          "slug": null,
+          "name": "Alexey Skrynnik"
+        },
+        {
+          "slug": null,
+          "name": "Shrestha Mohanty"
+        },
+        {
+          "slug": null,
+          "name": "Negar Arabzadeh"
+        },
+        {
+          "slug": null,
+          "name": "Marc-Alexandre Côté"
+        },
+        {
+          "slug": null,
+          "name": "Mohammad Aliannejadi"
+        },
+        {
+          "slug": null,
+          "name": "Milagro Teruel"
+        },
+        {
+          "slug": null,
+          "name": "Ziming Li"
+        },
+        {
+          "slug": null,
+          "name": "Mikhail Burtsev Maartje ter Hoeve"
+        },
+        {
+          "slug": null,
+          "name": "Z. Volovikova"
+        },
+        {
+          "slug": null,
+          "name": "A. Panov"
+        },
+        {
+          "slug": null,
+          "name": "Yuxuan Sun"
+        },
+        {
+          "slug": null,
+          "name": "Kavya Srinet"
+        },
+        {
+          "slug": null,
+          "name": "Arthur Szlam"
+        },
+        {
+          "slug": null,
+          "name": "Ahmed Awadallah"
+        },
+        {
+          "slug": null,
+          "name": "S. Rho"
+        },
+        {
+          "slug": null,
+          "name": "Taehwan Kwon"
+        },
+        {
+          "slug": null,
+          "name": "Daniel Wontae"
+        },
+        {
+          "slug": null,
+          "name": "F. B. Haiek"
+        },
+        {
+          "slug": null,
+          "name": "Edwin Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Linar Abdrazakov"
+        },
+        {
+          "slug": null,
+          "name": "Guo Qingyam"
+        },
+        {
+          "slug": null,
+          "name": "Jason Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Zhibin Guo"
+        },
+        {
+          "slug": null,
+          "name": "Diego Perez Liebana"
+        },
+        {
+          "slug": null,
+          "name": "D. Schlangen"
+        },
+        {
+          "slug": null,
+          "name": "Raquel Fernández"
+        },
+        {
+          "slug": null,
+          "name": "Alessandro Suglia"
+        },
+        {
+          "slug": null,
+          "name": "Malihe Alikhani"
+        },
+        {
+          "slug": null,
+          "name": "Alexander Koller"
+        },
+        {
+          "slug": null,
+          "name": "Edwin Simpson"
+        },
+        {
+          "slug": null,
+          "name": "E. André"
+        },
+        {
+          "slug": null,
+          "name": "Jonathan Ginzburg"
+        },
+        {
+          "slug": null,
+          "name": "Matthew Purver"
+        },
+        {
+          "slug": null,
+          "name": "Ryuichiro Higashinaka"
+        },
+        {
+          "slug": null,
+          "name": "S. Loáiciga"
+        },
+        {
+          "slug": null,
+          "name": "CA Microsoft – Montreal"
+        },
+        {
+          "slug": null,
+          "name": "Alessandro Sordoni"
+        },
+        {
+          "slug": null,
+          "name": "Lucas Page-Caccia"
+        },
+        {
+          "slug": null,
+          "name": "Xingdi Yuan"
+        },
+        {
+          "slug": null,
+          "name": "Sina Zarrieß"
+        },
+        {
+          "slug": null,
+          "name": "Alane Suhr"
+        },
+        {
+          "slug": null,
+          "name": "Albert Gatt"
+        },
+        {
+          "slug": null,
+          "name": "Simeon Junker"
+        },
+        {
+          "slug": null,
+          "name": "Albert Gatt License"
+        },
+        {
+          "slug": null,
+          "name": "Simon Dobnik"
+        },
+        {
+          "slug": null,
+          "name": "Haishuo Fang"
+        },
+        {
+          "slug": null,
+          "name": "Andrew Zhu"
+        }
+      ]
+    }
+  ],
+  "topPublications": [
+    {
+      "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+      "year": 2025,
+      "citationCount": 621,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.09985"
+    },
+    {
+      "title": "Tapnext: Tracking Any Point (Tap) as Next Token Prediction",
+      "year": 2025,
+      "citationCount": 39,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV51701.2025.00904"
+    },
+    {
+      "title": "BindGPT: A Scalable Framework for 3D Molecular Design via Language Modeling and Reinforcement Learning",
+      "year": 2024,
+      "citationCount": 27,
+      "venue": "AAAI Conference on Artificial Intelligence",
+      "url": "https://doi.org/10.48550/arXiv.2406.03686"
+    },
+    {
+      "title": "Hierarchical Planning with Latent World Models",
+      "year": 2026,
+      "citationCount": 19,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2604.03208"
+    },
+    {
+      "title": "Reconstruction or Semantics? What Makes a Latent Space Useful for Robotic World Models",
+      "year": 2026,
+      "citationCount": 12,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.06388"
+    }
+  ],
   "githubProjects": [],
   "githubActivity": {
     "username": "artemZholus",
@@ -65,8 +1762,850 @@
     }
   ],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "adrien-bardes",
+        "name": "Adrien Bardes",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "yann-lecun",
+        "name": "Yann LeCun",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "basile-terver",
+        "name": "Basile Terver",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "amir-bar",
+        "name": "Amir Bar",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "david-fan",
+        "name": "David Fan",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "quentin-garrido",
+        "name": "Quentin Garrido",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "matthew-muckley",
+        "name": "Matthew Muckley",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "michael-rabbat",
+        "name": "Michael Rabbat",
+        "sharedPapers": 1
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "Shrestha Mohanty",
+        "papers": 11
+      },
+      {
+        "name": "Julia Kiseleva",
+        "papers": 11
+      },
+      {
+        "name": "A. Panov",
+        "papers": 11
+      },
+      {
+        "name": "Alexey Skrynnik",
+        "papers": 10
+      },
+      {
+        "name": "Yuxuan Sun",
+        "papers": 9
+      },
+      {
+        "name": "Marc-Alexandre Côté",
+        "papers": 8
+      },
+      {
+        "name": "Kavya Srinet",
+        "papers": 8
+      },
+      {
+        "name": "Negar Arabzadeh",
+        "papers": 7
+      },
+      {
+        "name": "M. Burtsev",
+        "papers": 7
+      },
+      {
+        "name": "Arthur Szlam",
+        "papers": 7
+      },
+      {
+        "name": "Sarath Chandar",
+        "papers": 6
+      },
+      {
+        "name": "Ziming Li",
+        "papers": 6
+      },
+      {
+        "name": "Mohammad Aliannejadi",
+        "papers": 6
+      },
+      {
+        "name": "Milagro Teruel",
+        "papers": 6
+      },
+      {
+        "name": "Maartje ter Hoeve",
+        "papers": 5
+      },
+      {
+        "name": "A. Awadallah",
+        "papers": 5
+      },
+      {
+        "name": "Z. Volovikova",
+        "papers": 5
+      },
+      {
+        "name": "Linar Abdrazakov",
+        "papers": 4
+      },
+      {
+        "name": "Ross Goroshin",
+        "papers": 3
+      },
+      {
+        "name": "Ahmed Awadallah",
+        "papers": 3
+      },
+      {
+        "name": "M. Québec",
+        "papers": 2
+      },
+      {
+        "name": "AI Institute",
+        "papers": 2
+      },
+      {
+        "name": "P. Montr'eal",
+        "papers": 2
+      },
+      {
+        "name": "Carl Doersch",
+        "papers": 2
+      },
+      {
+        "name": "Nicolas Ballas",
+        "papers": 2
+      },
+      {
+        "name": "X. He",
+        "papers": 2
+      },
+      {
+        "name": "Mehdi S. M. Sajjadi",
+        "papers": 2
+      },
+      {
+        "name": "Mohammad Reza Samsami",
+        "papers": 2
+      },
+      {
+        "name": "Maksim Kuznetsov",
+        "papers": 2
+      },
+      {
+        "name": "Shayakhmetov Rim",
+        "papers": 2
+      },
+      {
+        "name": "Daniil Polykovskiy",
+        "papers": 2
+      },
+      {
+        "name": "Katja Hofmann",
+        "papers": 2
+      },
+      {
+        "name": "I. Churin",
+        "papers": 2
+      },
+      {
+        "name": "Putra Manggala",
+        "papers": 2
+      },
+      {
+        "name": "Kata Naszádi",
+        "papers": 2
+      },
+      {
+        "name": "S. Rho",
+        "papers": 2
+      },
+      {
+        "name": "Taehwan Kwon",
+        "papers": 2
+      },
+      {
+        "name": "F. B. Haiek",
+        "papers": 2
+      },
+      {
+        "name": "Edwin Zhang",
+        "papers": 2
+      },
+      {
+        "name": "Guo Qingyam",
+        "papers": 2
+      },
+      {
+        "name": "Jason Zhang",
+        "papers": 2
+      },
+      {
+        "name": "Zhibin Guo",
+        "papers": 2
+      },
+      {
+        "name": "Nilaksh",
+        "papers": 1
+      },
+      {
+        "name": "Saurav Jha",
+        "papers": 1
+      },
+      {
+        "name": "Chandar Research Lab",
+        "papers": 1
+      },
+      {
+        "name": "Canada Cifar",
+        "papers": 1
+      },
+      {
+        "name": "AI Chair",
+        "papers": 1
+      },
+      {
+        "name": "Sebastian Jung",
+        "papers": 1
+      },
+      {
+        "name": "M. Sundermeyer",
+        "papers": 1
+      },
+      {
+        "name": "D. Tan",
+        "papers": 1
+      },
+      {
+        "name": "Rudolph Triebel",
+        "papers": 1
+      },
+      {
+        "name": "Federico Tombari",
+        "papers": 1
+      },
+      {
+        "name": "Wancong Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Soham Chitnis",
+        "papers": 1
+      },
+      {
+        "name": "Harsh Sutaria",
+        "papers": 1
+      },
+      {
+        "name": "Mido Assran",
+        "papers": 1
+      },
+      {
+        "name": "Randall Balestriero",
+        "papers": 1
+      },
+      {
+        "name": "Mahmoud Assran",
+        "papers": 1
+      },
+      {
+        "name": "Russell Howes",
+        "papers": 1
+      },
+      {
+        "name": "Mojtaba Komeili",
+        "papers": 1
+      },
+      {
+        "name": "Ammar Rizvi",
+        "papers": 1
+      },
+      {
+        "name": "Claire Roberts",
+        "papers": 1
+      },
+      {
+        "name": "Koustuv Sinha",
+        "papers": 1
+      },
+      {
+        "name": "Sergio Arnaud",
+        "papers": 1
+      },
+      {
+        "name": "Abha Gejji",
+        "papers": 1
+      },
+      {
+        "name": "Ada Martin",
+        "papers": 1
+      },
+      {
+        "name": "Francois Hogan",
+        "papers": 1
+      },
+      {
+        "name": "Daniel Dugas",
+        "papers": 1
+      },
+      {
+        "name": "Piotr Bojanowski",
+        "papers": 1
+      },
+      {
+        "name": "Vasil Khalidov",
+        "papers": 1
+      },
+      {
+        "name": "Patrick Labatut",
+        "papers": 1
+      },
+      {
+        "name": "Francisco Massa",
+        "papers": 1
+      },
+      {
+        "name": "Marc Szafraniec",
+        "papers": 1
+      },
+      {
+        "name": "K. Krishnakumar",
+        "papers": 1
+      },
+      {
+        "name": "Yong Li",
+        "papers": 1
+      },
+      {
+        "name": "Xiaodong Ma",
+        "papers": 1
+      },
+      {
+        "name": "Franziska Meier",
+        "papers": 1
+      },
+      {
+        "name": "Fair at Meta",
+        "papers": 1
+      },
+      {
+        "name": "Yi Yang",
+        "papers": 1
+      },
+      {
+        "name": "Skanda Koppula",
+        "papers": 1
+      },
+      {
+        "name": "Viorica Patraucean",
+        "papers": 1
+      },
+      {
+        "name": "Ignacio Rocco",
+        "papers": 1
+      },
+      {
+        "name": "Viorica Puatruaucean",
+        "papers": 1
+      },
+      {
+        "name": "Joseph Heyward",
+        "papers": 1
+      },
+      {
+        "name": "Chuhan Zhang",
+        "papers": 1
+      },
+      {
+        "name": "G. Muraru",
+        "papers": 1
+      },
+      {
+        "name": "Mahdi Karami",
+        "papers": 1
+      },
+      {
+        "name": "Yutian Chen",
+        "papers": 1
+      },
+      {
+        "name": "Simon Osindero",
+        "papers": 1
+      },
+      {
+        "name": "João Carreira",
+        "papers": 1
+      },
+      {
+        "name": "Razvan Pascanu",
+        "papers": 1
+      },
+      {
+        "name": "E. Cherepanov",
+        "papers": 1
+      },
+      {
+        "name": "Nikita Kachaev",
+        "papers": 1
+      },
+      {
+        "name": "A. Kovalev",
+        "papers": 1
+      },
+      {
+        "name": "Aleksandr I. Panov",
+        "papers": 1
+      },
+      {
+        "name": "Karolis Jucys",
+        "papers": 1
+      },
+      {
+        "name": "George Adamopoulos",
+        "papers": 1
+      },
+      {
+        "name": "Mehrab Hamidi",
+        "papers": 1
+      },
+      {
+        "name": "Stephanie Milani",
+        "papers": 1
+      },
+      {
+        "name": "Sonia Joseph",
+        "papers": 1
+      },
+      {
+        "name": "Blake Richards",
+        "papers": 1
+      },
+      {
+        "name": "Irina Rish",
+        "papers": 1
+      },
+      {
+        "name": "Özgür Şimşek",
+        "papers": 1
+      },
+      {
+        "name": "Andrea Tupini",
+        "papers": 1
+      },
+      {
+        "name": "Roman Schutski",
+        "papers": 1
+      },
+      {
+        "name": "A. Zhavoronkov",
+        "papers": 1
+      },
+      {
+        "name": "Janarthanan Rajendran",
+        "papers": 1
+      },
+      {
+        "name": "Michael Ahn",
+        "papers": 1
+      },
+      {
+        "name": "Anthony Brohan",
+        "papers": 1
+      },
+      {
+        "name": "Noah Brown",
+        "papers": 1
+      },
+      {
+        "name": "Liang Dai",
+        "papers": 1
+      },
+      {
+        "name": "Dan Su",
+        "papers": 1
+      },
+      {
+        "name": "Holy Lovenia Ziwei Bryan Wilie",
+        "papers": 1
+      },
+      {
+        "name": "Tiezheng Yu",
+        "papers": 1
+      },
+      {
+        "name": "W. Chung",
+        "papers": 1
+      },
+      {
+        "name": "Quyet V. Do",
+        "papers": 1
+      },
+      {
+        "name": "Paul Barde",
+        "papers": 1
+      },
+      {
+        "name": "Tristan Karch",
+        "papers": 1
+      },
+      {
+        "name": "Derek Nowrouzezahrai",
+        "papers": 1
+      },
+      {
+        "name": "C. Bonial",
+        "papers": 1
+      },
+      {
+        "name": "Mitchell Abrams",
+        "papers": 1
+      },
+      {
+        "name": "David R. Traum",
+        "papers": 1
+      },
+      {
+        "name": "H. Won",
+        "papers": 1
+      },
+      {
+        "name": "Le Hou",
+        "papers": 1
+      },
+      {
+        "name": "Shayne Longpre",
+        "papers": 1
+      },
+      {
+        "name": "Yi Zoph",
+        "papers": 1
+      },
+      {
+        "name": "William Tay",
+        "papers": 1
+      },
+      {
+        "name": "Eric Fedus",
+        "papers": 1
+      },
+      {
+        "name": "Xuezhi Li",
+        "papers": 1
+      },
+      {
+        "name": "L. Espeholt",
+        "papers": 1
+      },
+      {
+        "name": "Hubert Soyer",
+        "papers": 1
+      },
+      {
+        "name": "R. Munos",
+        "papers": 1
+      },
+      {
+        "name": "Karen Si-801",
+        "papers": 1
+      },
+      {
+        "name": "Vlad Mnih",
+        "papers": 1
+      },
+      {
+        "name": "T. Ward",
+        "papers": 1
+      },
+      {
+        "name": "Yotam Doron",
+        "papers": 1
+      },
+      {
+        "name": "Wenlong Huang",
+        "papers": 1
+      },
+      {
+        "name": "Pieter Abbeel",
+        "papers": 1
+      },
+      {
+        "name": "Deepak Pathak",
+        "papers": 1
+      },
+      {
+        "name": "A. Szlam",
+        "papers": 1
+      },
+      {
+        "name": "M. V. D. Meer",
+        "papers": 1
+      },
+      {
+        "name": "Anton Voronov",
+        "papers": 1
+      },
+      {
+        "name": "Yaroslav Ivchenkov",
+        "papers": 1
+      },
+      {
+        "name": "Artur Szlam",
+        "papers": 1
+      },
+      {
+        "name": "M. Hofmann",
+        "papers": 1
+      },
+      {
+        "name": "Michiel van der Meer",
+        "papers": 1
+      },
+      {
+        "name": "Taewoon Kim",
+        "papers": 1
+      },
+      {
+        "name": "Michel Galley",
+        "papers": 1
+      },
+      {
+        "name": "Aleksandr Panov",
+        "papers": 1
+      },
+      {
+        "name": "D. W. Nam",
+        "papers": 1
+      },
+      {
+        "name": "E. Putin",
+        "papers": 1
+      },
+      {
+        "name": "Alex Zhavoronkov",
+        "papers": 1
+      },
+      {
+        "name": "Y. Ivanenkov",
+        "papers": 1
+      },
+      {
+        "name": "Alex Aliper",
+        "papers": 1
+      },
+      {
+        "name": "M. Veselov",
+        "papers": 1
+      },
+      {
+        "name": "V. Aladinskiy",
+        "papers": 1
+      },
+      {
+        "name": "Anastasiya V Aladinskaya",
+        "papers": 1
+      },
+      {
+        "name": "V. Terentiev",
+        "papers": 1
+      },
+      {
+        "name": "Arip Asadulaev",
+        "papers": 1
+      },
+      {
+        "name": "Y. Volkov",
+        "papers": 1
+      },
+      {
+        "name": "Alexander Zhebrak",
+        "papers": 1
+      },
+      {
+        "name": "L. Minaeva",
+        "papers": 1
+      },
+      {
+        "name": "B. Zagribelnyy",
+        "papers": 1
+      },
+      {
+        "name": "L. Lee",
+        "papers": 1
+      },
+      {
+        "name": "R. Soll",
+        "papers": 1
+      },
+      {
+        "name": "D. Madge",
+        "papers": 1
+      },
+      {
+        "name": "Li Xing",
+        "papers": 1
+      },
+      {
+        "name": "Tao Guo",
+        "papers": 1
+      },
+      {
+        "name": "Alán Aspuru-Guzik",
+        "papers": 1
+      },
+      {
+        "name": "∗. RaffaellaBernardi",
+        "papers": 1
+      },
+      {
+        "name": "∗. JuliaHockenmaier",
+        "papers": 1
+      },
+      {
+        "name": "∗. UdoKruschwitz",
+        "papers": 1
+      },
+      {
+        "name": "4. PrashantJayannavar†",
+        "papers": 1
+      },
+      {
+        "name": "∗. MassimoPoesio",
+        "papers": 1
+      },
+      {
+        "name": "Mikhail Burtsev Maartje ter Hoeve",
+        "papers": 1
+      },
+      {
+        "name": "Daniel Wontae",
+        "papers": 1
+      },
+      {
+        "name": "Diego Perez Liebana",
+        "papers": 1
+      },
+      {
+        "name": "D. Schlangen",
+        "papers": 1
+      },
+      {
+        "name": "Raquel Fernández",
+        "papers": 1
+      },
+      {
+        "name": "Alessandro Suglia",
+        "papers": 1
+      },
+      {
+        "name": "Malihe Alikhani",
+        "papers": 1
+      },
+      {
+        "name": "Alexander Koller",
+        "papers": 1
+      },
+      {
+        "name": "Edwin Simpson",
+        "papers": 1
+      },
+      {
+        "name": "E. André",
+        "papers": 1
+      },
+      {
+        "name": "Jonathan Ginzburg",
+        "papers": 1
+      },
+      {
+        "name": "Matthew Purver",
+        "papers": 1
+      },
+      {
+        "name": "Ryuichiro Higashinaka",
+        "papers": 1
+      },
+      {
+        "name": "S. Loáiciga",
+        "papers": 1
+      },
+      {
+        "name": "CA Microsoft – Montreal",
+        "papers": 1
+      },
+      {
+        "name": "Alessandro Sordoni",
+        "papers": 1
+      },
+      {
+        "name": "Lucas Page-Caccia",
+        "papers": 1
+      },
+      {
+        "name": "Xingdi Yuan",
+        "papers": 1
+      },
+      {
+        "name": "Sina Zarrieß",
+        "papers": 1
+      },
+      {
+        "name": "Alane Suhr",
+        "papers": 1
+      },
+      {
+        "name": "Albert Gatt",
+        "papers": 1
+      },
+      {
+        "name": "Simeon Junker",
+        "papers": 1
+      },
+      {
+        "name": "Albert Gatt License",
+        "papers": 1
+      },
+      {
+        "name": "Simon Dobnik",
+        "papers": 1
+      },
+      {
+        "name": "Haishuo Fang",
+        "papers": 1
+      },
+      {
+        "name": "Andrew Zhu",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "adrien-bardes",

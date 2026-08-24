@@ -68,11 +68,15 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2604.03208",
-      "citationCount": 18,
+      "citationCount": 19,
       "coAuthors": [
         {
           "slug": "basile-terver",
           "name": "Basile Terver"
+        },
+        {
+          "slug": "artem-zholus",
+          "name": "Artem Zholus"
         },
         {
           "slug": "amir-bar",
@@ -85,10 +89,6 @@
         {
           "slug": null,
           "name": "Wancong Zhang"
-        },
-        {
-          "slug": null,
-          "name": "Artem Zholus"
         },
         {
           "slug": null,
@@ -118,7 +118,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.14482",
-      "citationCount": 56,
+      "citationCount": 59,
       "coAuthors": [
         {
           "slug": "matthew-muckley",
@@ -186,7 +186,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 610,
+      "citationCount": 621,
       "coAuthors": [
         {
           "slug": "david-fan",
@@ -199,6 +199,10 @@
         {
           "slug": "matthew-muckley",
           "name": "Matthew Muckley"
+        },
+        {
+          "slug": "artem-zholus",
+          "name": "Artem Zholus"
         },
         {
           "slug": "yann-lecun",
@@ -231,10 +235,6 @@
         {
           "slug": null,
           "name": "Koustuv Sinha"
-        },
-        {
-          "slug": null,
-          "name": "Artem Zholus"
         },
         {
           "slug": null,
@@ -1186,7 +1186,7 @@
     {
       "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
-      "citationCount": 610,
+      "citationCount": 621,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985"
     },
@@ -1207,14 +1207,14 @@
     {
       "title": "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
       "year": 2025,
-      "citationCount": 69,
+      "citationCount": 71,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2502.11831"
     },
     {
       "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
       "year": 2026,
-      "citationCount": 56,
+      "citationCount": 59,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.14482"
     }
@@ -1259,6 +1259,11 @@
       {
         "slug": "basile-terver",
         "name": "Basile Terver",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "artem-zholus",
+        "name": "Artem Zholus",
         "sharedPapers": 2
       },
       {
@@ -1309,10 +1314,6 @@
       {
         "name": "Yubei Chen",
         "papers": 3
-      },
-      {
-        "name": "Artem Zholus",
-        "papers": 2
       },
       {
         "name": "Mido Assran",

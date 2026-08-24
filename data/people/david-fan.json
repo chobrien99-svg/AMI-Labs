@@ -287,7 +287,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 610,
+      "citationCount": 621,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -300,6 +300,10 @@
         {
           "slug": "matthew-muckley",
           "name": "Matthew Muckley"
+        },
+        {
+          "slug": "artem-zholus",
+          "name": "Artem Zholus"
         },
         {
           "slug": "yann-lecun",
@@ -332,10 +336,6 @@
         {
           "slug": null,
           "name": "Koustuv Sinha"
-        },
-        {
-          "slug": null,
-          "name": "Artem Zholus"
         },
         {
           "slug": null,
@@ -722,14 +722,14 @@
     {
       "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
-      "citationCount": 610,
+      "citationCount": 621,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985"
     },
     {
       "title": "MetaMorph: Multimodal Understanding and Generation via Instruction Tuning",
       "year": 2024,
-      "citationCount": 223,
+      "citationCount": 224,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.01579"
     },
@@ -741,18 +741,18 @@
       "url": "https://doi.org/10.1109/ICCV51701.2025.00042"
     },
     {
+      "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+      "year": 2026,
+      "citationCount": 26,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.03276"
+    },
+    {
       "title": "Learning to See Before Seeing: Demystifying LLM Visual Priors from Language Pre-training",
       "year": 2025,
       "citationCount": 24,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2509.26625"
-    },
-    {
-      "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
-      "year": 2026,
-      "citationCount": 23,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2603.03276"
     }
   ],
   "githubProjects": [],
@@ -820,6 +820,11 @@
       {
         "slug": "matthew-muckley",
         "name": "Matthew Muckley",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "artem-zholus",
+        "name": "Artem Zholus",
         "sharedPapers": 1
       },
       {
@@ -979,10 +984,6 @@
       },
       {
         "name": "Yufan Ren",
-        "papers": 1
-      },
-      {
-        "name": "Artem Zholus",
         "papers": 1
       },
       {

@@ -50,8 +50,12 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2604.03208",
-      "citationCount": 18,
+      "citationCount": 19,
       "coAuthors": [
+        {
+          "slug": "artem-zholus",
+          "name": "Artem Zholus"
+        },
         {
           "slug": "amir-bar",
           "name": "Amir Bar"
@@ -67,10 +71,6 @@
         {
           "slug": null,
           "name": "Wancong Zhang"
-        },
-        {
-          "slug": null,
-          "name": "Artem Zholus"
         },
         {
           "slug": null,
@@ -399,7 +399,7 @@
     {
       "title": "Embodied AI Agents: Modeling the World",
       "year": 2025,
-      "citationCount": 79,
+      "citationCount": 80,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.22355"
     },
@@ -413,21 +413,21 @@
     {
       "title": "Learning Latent Action World Models In The Wild",
       "year": 2026,
-      "citationCount": 35,
+      "citationCount": 38,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.05230"
     },
     {
       "title": "What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?",
       "year": 2025,
-      "citationCount": 26,
+      "citationCount": 27,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2512.24497"
     },
     {
       "title": "Hierarchical Planning with Latent World Models",
       "year": 2026,
-      "citationCount": 18,
+      "citationCount": 19,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2604.03208"
     }
@@ -481,6 +481,11 @@
         "sharedPapers": 2
       },
       {
+        "slug": "artem-zholus",
+        "name": "Artem Zholus",
+        "sharedPapers": 1
+      },
+      {
         "slug": "megi-dervishi",
         "name": "Megi Dervishi",
         "sharedPapers": 1
@@ -529,10 +534,6 @@
       },
       {
         "name": "Michael Arbel",
-        "papers": 1
-      },
-      {
-        "name": "Artem Zholus",
         "papers": 1
       },
       {

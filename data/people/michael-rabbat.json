@@ -70,7 +70,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.14482",
-      "citationCount": 56,
+      "citationCount": 59,
       "coAuthors": [
         {
           "slug": "matthew-muckley",
@@ -388,7 +388,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 610,
+      "citationCount": 621,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -405,6 +405,10 @@
         {
           "slug": "matthew-muckley",
           "name": "Matthew Muckley"
+        },
+        {
+          "slug": "artem-zholus",
+          "name": "Artem Zholus"
         },
         {
           "slug": "yann-lecun",
@@ -433,10 +437,6 @@
         {
           "slug": null,
           "name": "Koustuv Sinha"
-        },
-        {
-          "slug": null,
-          "name": "Artem Zholus"
         },
         {
           "slug": null,
@@ -1020,7 +1020,7 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01499",
-      "citationCount": 1112,
+      "citationCount": 1140,
       "coAuthors": [
         {
           "slug": "quentin-duval",
@@ -1958,7 +1958,7 @@
       "year": 2020,
       "venue": "Radiology: Artificial Intelligence",
       "url": "https://doi.org/10.1148/ryai.2020190007",
-      "citationCount": 527,
+      "citationCount": 528,
       "coAuthors": [
         {
           "slug": "matthew-muckley",
@@ -2192,7 +2192,7 @@
       "year": 2018,
       "venue": "arXiv.org",
       "url": "https://www.semanticscholar.org/paper/65d3e7fa7b452611aa729ac789d4373d6ee505b0",
-      "citationCount": 1081,
+      "citationCount": 1086,
       "coAuthors": [
         {
           "slug": "matthew-muckley",
@@ -2491,21 +2491,21 @@
     {
       "title": "DINOv2: Learning Robust Visual Features without Supervision",
       "year": 2023,
-      "citationCount": 9837,
+      "citationCount": 9963,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2304.07193"
     },
     {
       "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
       "year": 2023,
-      "citationCount": 1112,
+      "citationCount": 1140,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01499"
     },
     {
       "title": "Revisiting Feature Prediction for Learning Visual Representations from Video",
       "year": 2024,
-      "citationCount": 439,
+      "citationCount": 454,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2404.08471"
     },
@@ -2519,7 +2519,7 @@
     {
       "title": "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
       "year": 2025,
-      "citationCount": 69,
+      "citationCount": 71,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2502.11831"
     }
@@ -2588,6 +2588,11 @@
       {
         "slug": "megi-dervishi",
         "name": "Megi Dervishi",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "artem-zholus",
+        "name": "Artem Zholus",
         "sharedPapers": 1
       }
     ],
@@ -2978,10 +2983,6 @@
       },
       {
         "name": "F. Khorrami",
-        "papers": 1
-      },
-      {
-        "name": "Artem Zholus",
         "papers": 1
       },
       {

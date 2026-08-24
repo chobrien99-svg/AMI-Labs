@@ -17,7 +17,8 @@
   "semanticScholarId": [
     "1688882",
     "2265899558",
-    "2270469816"
+    "2270469816",
+    "2252537770"
   ],
   "careerHistory": [
     {
@@ -446,7 +447,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2605.21800",
-      "citationCount": 3,
+      "citationCount": 5,
       "coAuthors": [
         {
           "slug": "quentin-le-lidec",
@@ -590,11 +591,15 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2604.03208",
-      "citationCount": 18,
+      "citationCount": 19,
       "coAuthors": [
         {
           "slug": "basile-terver",
           "name": "Basile Terver"
+        },
+        {
+          "slug": "artem-zholus",
+          "name": "Artem Zholus"
         },
         {
           "slug": "amir-bar",
@@ -607,10 +612,6 @@
         {
           "slug": null,
           "name": "Wancong Zhang"
-        },
-        {
-          "slug": null,
-          "name": "Artem Zholus"
         },
         {
           "slug": null,
@@ -658,7 +659,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.14482",
-      "citationCount": 56,
+      "citationCount": 59,
       "coAuthors": [
         {
           "slug": "matthew-muckley",
@@ -700,7 +701,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.19312",
-      "citationCount": 135,
+      "citationCount": 146,
       "coAuthors": [
         {
           "slug": "quentin-le-lidec",
@@ -1408,7 +1409,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.00844",
-      "citationCount": 10,
+      "citationCount": 13,
       "coAuthors": [
         {
           "slug": "quentin-le-lidec",
@@ -1722,7 +1723,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 610,
+      "citationCount": 621,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -1739,6 +1740,10 @@
         {
           "slug": "matthew-muckley",
           "name": "Matthew Muckley"
+        },
+        {
+          "slug": "artem-zholus",
+          "name": "Artem Zholus"
         },
         {
           "slug": "michael-rabbat",
@@ -1767,10 +1772,6 @@
         {
           "slug": null,
           "name": "Koustuv Sinha"
-        },
-        {
-          "slug": null,
-          "name": "Artem Zholus"
         },
         {
           "slug": null,
@@ -2306,7 +2307,7 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01499",
-      "citationCount": 1112,
+      "citationCount": 1140,
       "coAuthors": [
         {
           "slug": "quentin-duval",
@@ -2671,16 +2672,9 @@
   ],
   "topPublications": [
     {
-      "title": "Augmented Language Models: a Survey",
-      "year": 2023,
-      "citationCount": 592,
-      "venue": "Trans. Mach. Learn. Res.",
-      "url": "https://www.semanticscholar.org/paper/2029349c55c1dba3493c5b3bd25152f18ba21ae2"
-    },
-    {
       "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
       "year": 2026,
-      "citationCount": 135,
+      "citationCount": 146,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.19312"
     },
@@ -2694,9 +2688,16 @@
     {
       "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
       "year": 2026,
-      "citationCount": 56,
+      "citationCount": 59,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.14482"
+    },
+    {
+      "title": "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language",
+      "year": 2025,
+      "citationCount": 52,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2512.10942"
     },
     {
       "title": "The SSL Interplay: Augmentations, Inductive Bias, and Generalization",
@@ -3230,6 +3231,11 @@
         "sharedPapers": 3
       },
       {
+        "slug": "artem-zholus",
+        "name": "Artem Zholus",
+        "sharedPapers": 2
+      },
+      {
         "slug": "matthew-muckley",
         "name": "Matthew Muckley",
         "sharedPapers": 2
@@ -3425,10 +3431,6 @@
       },
       {
         "name": "Micah Goldblum",
-        "papers": 2
-      },
-      {
-        "name": "Artem Zholus",
         "papers": 2
       },
       {
