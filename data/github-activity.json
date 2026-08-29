@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-08-29T12:12:00.602Z",
+  "lastFetched": "2026-08-29T20:20:24.295Z",
   "members": [
     {
       "slug": "adithya-iyer",
@@ -328,100 +328,124 @@
       "githubUrl": "https://github.com/lihaoyi",
       "events": [
         {
-          "type": "PullRequestEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "merged PR #7470 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-29T08:42:55Z"
-        },
-        {
-          "type": "PushEvent",
+          "type": "CreateEvent",
           "repo": "lihaoyi/mill-1",
           "repoUrl": "https://github.com/lihaoyi/mill-1",
-          "description": "Pushed 0 commits to update-moduledefs-0.13.4-scala-3.9.0 on lihaoyi/mill-1",
+          "description": "Created branch fix-7376-semanticdb-jvm-paths in lihaoyi/mill-1",
           "url": "https://github.com/lihaoyi/mill-1",
-          "timestamp": "2026-08-29T06:55:33Z"
+          "timestamp": "2026-08-29T12:29:16Z"
+        },
+        {
+          "type": "CreateEvent",
+          "repo": "lihaoyi/mill-1",
+          "repoUrl": "https://github.com/lihaoyi/mill-1",
+          "description": "Created branch fix-6719-scala-sc-scripts in lihaoyi/mill-1",
+          "url": "https://github.com/lihaoyi/mill-1",
+          "timestamp": "2026-08-29T12:28:31Z"
+        },
+        {
+          "type": "CreateEvent",
+          "repo": "lihaoyi/mill-1",
+          "repoUrl": "https://github.com/lihaoyi/mill-1",
+          "description": "Created branch fix-6888-early-system-properties in lihaoyi/mill-1",
+          "url": "https://github.com/lihaoyi/mill-1",
+          "timestamp": "2026-08-29T12:28:23Z"
         },
         {
           "type": "PullRequestEvent",
           "repo": "com-lihaoyi/mill",
           "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Opened PR #7470 in com-lihaoyi/mill",
+          "description": "Opened PR #7480 in com-lihaoyi/mill",
           "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-29T05:02:21Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Pushed 0 commits to main on com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-24T13:44:35Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Pushed 0 commits to main on com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-08T03:24:00Z"
-        },
-        {
-          "type": "IssuesEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Closed issue #7407 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill/issues/7407",
-          "timestamp": "2026-08-08T03:24:00Z"
+          "timestamp": "2026-08-29T12:31:41Z"
         },
         {
           "type": "PullRequestEvent",
-          "repo": "scala/improvement-proposals",
-          "repoUrl": "https://github.com/scala/improvement-proposals",
-          "description": "merged PR #113 in scala/improvement-proposals",
-          "url": "https://github.com/scala/improvement-proposals",
-          "timestamp": "2026-08-05T15:31:31Z"
-        },
-        {
-          "type": "PushEvent",
           "repo": "com-lihaoyi/mill",
           "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Pushed 0 commits to main on com-lihaoyi/mill",
+          "description": "Opened PR #7479 in com-lihaoyi/mill",
           "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-01T08:16:54Z"
+          "timestamp": "2026-08-29T12:31:31Z"
         },
         {
-          "type": "IssuesEvent",
+          "type": "PullRequestEvent",
           "repo": "com-lihaoyi/mill",
           "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Closed issue #7324 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill/issues/7324",
-          "timestamp": "2026-08-01T08:16:54Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Pushed 0 commits to main on com-lihaoyi/mill",
+          "description": "Opened PR #7478 in com-lihaoyi/mill",
           "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-07-31T10:40:28Z"
+          "timestamp": "2026-08-29T12:31:26Z"
         },
         {
-          "type": "IssueCommentEvent",
-          "repo": "scala/scala3",
-          "repoUrl": "https://github.com/scala/scala3",
-          "description": "Commented on issue #25034 in scala/scala3",
-          "url": "https://github.com/scala/scala3/pull/25034#issuecomment-5139759635",
-          "timestamp": "2026-07-31T05:50:07Z"
+          "type": "PullRequestEvent",
+          "repo": "com-lihaoyi/mill",
+          "repoUrl": "https://github.com/com-lihaoyi/mill",
+          "description": "Opened PR #7477 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-08-29T12:31:21Z"
         },
         {
-          "type": "IssueCommentEvent",
-          "repo": "scala/scala3",
-          "repoUrl": "https://github.com/scala/scala3",
-          "description": "Commented on issue #25034 in scala/scala3",
-          "url": "https://github.com/scala/scala3/pull/25034#issuecomment-5139749279",
-          "timestamp": "2026-07-31T05:48:21Z"
+          "type": "PullRequestEvent",
+          "repo": "com-lihaoyi/mill",
+          "repoUrl": "https://github.com/com-lihaoyi/mill",
+          "description": "Opened PR #7476 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-08-29T12:31:13Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "com-lihaoyi/mill",
+          "repoUrl": "https://github.com/com-lihaoyi/mill",
+          "description": "Opened PR #7475 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-08-29T12:31:07Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "com-lihaoyi/mill",
+          "repoUrl": "https://github.com/com-lihaoyi/mill",
+          "description": "Opened PR #7474 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-08-29T12:30:59Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "com-lihaoyi/mill",
+          "repoUrl": "https://github.com/com-lihaoyi/mill",
+          "description": "Opened PR #7473 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-08-29T12:30:35Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "com-lihaoyi/mill",
+          "repoUrl": "https://github.com/com-lihaoyi/mill",
+          "description": "Opened PR #7472 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-08-29T12:30:27Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "com-lihaoyi/mill",
+          "repoUrl": "https://github.com/com-lihaoyi/mill",
+          "description": "Opened PR #7471 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-08-29T12:30:21Z"
+        },
+        {
+          "type": "CreateEvent",
+          "repo": "lihaoyi/mill-1",
+          "repoUrl": "https://github.com/lihaoyi/mill-1",
+          "description": "Created branch fix-7331-quarkus-protoc-classifier in lihaoyi/mill-1",
+          "url": "https://github.com/lihaoyi/mill-1",
+          "timestamp": "2026-08-29T12:29:26Z"
+        },
+        {
+          "type": "CreateEvent",
+          "repo": "lihaoyi/mill-1",
+          "repoUrl": "https://github.com/lihaoyi/mill-1",
+          "description": "Created branch fix-4481-inspect-submodules in lihaoyi/mill-1",
+          "url": "https://github.com/lihaoyi/mill-1",
+          "timestamp": "2026-08-29T12:28:56Z"
         }
       ]
     },
