@@ -19,8 +19,45 @@ const TEAM_FILE = path.resolve(__dirname, "../data/team.json");
 const PUBS_FILE = path.resolve(__dirname, "../data/publications.json");
 const RESEARCH_FILE = path.resolve(__dirname, "../data/research.json");
 const SANITY = { projectId: "k8hl9hed", dataset: "production", apiVersion: "2024-01-01" };
-const DELAY_MS = 1500; // be polite to the API
-const RETRY_MS = 3000; // backoff on 429 / 5xx
+const DELAY_MS = 1500; // floor for spacing between requests
+const RETRY_MS = 3000; // first backoff step on 429 / 5xx
+const MAX_TRIES = 5;   // 429s are the norm on the shared unauthenticated pool, so retry properly
+const MAX_BACKOFF_MS = 60000;
+const MAX_DELAY_MS = 15000; // ceiling for the adaptive inter-request delay
+// Wall-clock budget. Retries and widened pacing both trade time for completeness, and
+// under a sustained rate limit that trade can run for hours. Past this point the run stops
+// starting new members and keeps their existing data rather than dragging on.
+const RUN_BUDGET_MS = Number(process.env.S2_RUN_BUDGET_MS || 45 * 60 * 1000);
+
+// Semantic Scholar's unauthenticated quota is a pool shared with every other anonymous
+// caller, so a run competes with the whole internet and 429s arrive in bursts. An API key
+// (free from https://www.semanticscholar.org/product/api) moves the run onto its own quota
+// and is the real fix; without one the adaptive pacing below keeps the run mostly alive.
+const API_KEY = process.env.S2_API_KEY || process.env.SEMANTIC_SCHOLAR_API_KEY || "";
+
+// Adaptive pacing: every 429 widens the gap between requests for the rest of the run, and
+// success narrows it back gradually. A fixed delay cannot do this — it either runs too slow
+// always, or too fast exactly when the API is telling us to back off.
+let currentDelay = DELAY_MS;
+let rateLimitHits = 0;
+function noteRateLimited() {
+  rateLimitHits++;
+  currentDelay = Math.min(Math.round(currentDelay * 1.5), MAX_DELAY_MS);
+}
+function noteSuccess() {
+  currentDelay = Math.max(DELAY_MS, Math.round(currentDelay * 0.9));
+}
+// Wait the current adaptive interval before the next request.
+function pace() { return sleep(currentDelay); }
+
+// How long to wait before retrying: the server's own Retry-After when it sends one,
+// otherwise exponential backoff. Jitter stops parallel jobs retrying in lockstep.
+function retryDelayMs(headers, attempt) {
+  const ra = Number(headers?.["retry-after"]);
+  if (Number.isFinite(ra) && ra > 0) return Math.min(ra * 1000, MAX_BACKOFF_MS);
+  const exp = Math.min(RETRY_MS * 2 ** attempt, MAX_BACKOFF_MS);
+  return exp + Math.floor(Math.random() * 1000);
+}
 
 // Top-cited pass keeps profiles' "greatest hits". paperId added so the non-DOI fallback URL resolves.
 const CITE_FIELDS = "title,year,citationCount,venue,externalIds,url,paperId,publicationDate";
@@ -39,10 +76,13 @@ const MAX_PAGES = 10; // cap per author profile (up to 1000 papers)
 const RECENT_KEEP = 40;
 const ABSTRACT_MAX = 1200; // store a bounded abstract; the synthesis truncates further
 
-function requestJson(method, url, body, tries = 2, extraHeaders = {}) {
+function requestJson(method, url, body, tries = MAX_TRIES, extraHeaders = {}) {
   return new Promise((resolve, reject) => {
     const payload = body ? JSON.stringify(body) : null;
     const u = new URL(url);
+    const attempt = MAX_TRIES - tries;
+    // Scope the key to Semantic Scholar: this helper also talks to Sanity.
+    const isS2 = u.hostname.endsWith("semanticscholar.org");
     const req = https.request(
       {
         method,
@@ -50,6 +90,7 @@ function requestJson(method, url, body, tries = 2, extraHeaders = {}) {
         path: u.pathname + u.search,
         headers: {
           "User-Agent": "AMI-Labs-Site/1.0",
+          ...(isS2 && API_KEY ? { "x-api-key": API_KEY } : {}),
           ...extraHeaders,
           ...(payload ? { "Content-Type": "application/json", "Content-Length": Buffer.byteLength(payload) } : {}),
         },
@@ -60,19 +101,24 @@ function requestJson(method, url, body, tries = 2, extraHeaders = {}) {
         res.on("end", () => {
           const status = res.statusCode;
           if (status === 200) {
+            if (isS2) noteSuccess();
             try { resolve(JSON.parse(data)); }
             catch { reject(new Error(`Bad JSON for ${method} ${url}`)); }
           } else if ((status === 429 || status >= 500) && tries > 0) {
-            setTimeout(() => requestJson(method, url, body, tries - 1, extraHeaders).then(resolve, reject), RETRY_MS);
+            if (status === 429 && isS2) noteRateLimited();
+            const wait = retryDelayMs(res.headers, attempt);
+            setTimeout(() => requestJson(method, url, body, tries - 1, extraHeaders).then(resolve, reject), wait);
           } else {
+            if (status === 429 && isS2) noteRateLimited();
             reject(new Error(`HTTP ${status} for ${method} ${url}`));
           }
         });
       }
     );
     req.on("error", (err) => {
-      if (tries > 0) setTimeout(() => requestJson(method, url, body, tries - 1, extraHeaders).then(resolve, reject), RETRY_MS);
-      else reject(err);
+      if (tries > 0) {
+        setTimeout(() => requestJson(method, url, body, tries - 1, extraHeaders).then(resolve, reject), retryDelayMs(null, attempt));
+      } else reject(err);
     });
     req.setTimeout(20000, () => { req.destroy(); reject(new Error(`Timeout: ${url}`)); });
     if (payload) req.write(payload);
@@ -80,7 +126,7 @@ function requestJson(method, url, body, tries = 2, extraHeaders = {}) {
   });
 }
 
-function get(url, extraHeaders) { return requestJson("GET", url, null, 2, extraHeaders); }
+function get(url, extraHeaders) { return requestJson("GET", url, null, MAX_TRIES, extraHeaders); }
 function postJson(url, body) { return requestJson("POST", url, body); }
 
 function sleep(ms) {
@@ -146,7 +192,7 @@ async function fetchTopCited(ids) {
       anyError = true;
       console.error(`\n  ⚠ top-cited profile ${ids[i]} failed: ${e.message}`);
     }
-    if (i < ids.length - 1) await sleep(DELAY_MS);
+    if (i < ids.length - 1) await pace();
   }
   if (!anyOk && anyError) throw new Error("all author profiles failed");
   return [...seen.values()]
@@ -184,7 +230,7 @@ async function fetchAuthorPaperDates(id) {
     out.push(...batch);
     if (data.next == null || batch.length === 0) break;
     offset = data.next;
-    await sleep(DELAY_MS);
+    await pace();
   }
   return out;
 }
@@ -206,7 +252,7 @@ async function fetchRecent(ids) {
       anyError = true;
       console.error(`\n  ⚠ profile ${ids[i]} failed: ${e.message}`);
     }
-    if (i < ids.length - 1) await sleep(DELAY_MS);
+    if (i < ids.length - 1) await pace();
   }
   // Only surface a failure (so the caller preserves the member's prior papers via carry-over)
   // when EVERY profile errored — a partial failure still uses whatever succeeded.
@@ -214,7 +260,7 @@ async function fetchRecent(ids) {
   const topIds = [...seen.values()].sort(byDateDesc).slice(0, RECENT_KEEP).map((p) => p.paperId);
   if (!topIds.length) return [];
 
-  await sleep(DELAY_MS);
+  await pace();
   const url = `https://api.semanticscholar.org/graph/v1/paper/batch?fields=${BATCH_FIELDS}`;
   const details = await postJson(url, { ids: topIds });
   const byId = new Map();
@@ -312,9 +358,24 @@ async function main() {
   const pubs = { ...existingPubs };
   const researchMap = new Map();
   const failedMembers = [];
+  const degraded = new Set(); // members where at least one pass could not be refreshed
+
+  const startedAt = Date.now();
+  let budgetExhausted = false;
 
   for (let i = 0; i < members.length; i++) {
     const member = members[i];
+    if (Date.now() - startedAt > RUN_BUDGET_MS) {
+      // Everyone left keeps their previous entries; better a partial refresh than a job
+      // that runs for hours against a rate limiter.
+      budgetExhausted = true;
+      for (const m of members.slice(i)) {
+        degraded.add(m.slug);
+        failedMembers.push(m.slug);
+      }
+      console.log(`\nRun budget of ${Math.round(RUN_BUDGET_MS / 60000)} min reached — skipping ${members.length - i} remaining member(s).`);
+      break;
+    }
     const ids = idsOf(member);
     process.stdout.write(`[${member.name}] `);
 
@@ -323,10 +384,11 @@ async function main() {
       pubs[member.slug] = await fetchTopCited(ids);
       process.stdout.write(`top-cited ${pubs[member.slug].length} · `);
     } catch (e) {
+      degraded.add(member.slug);
       process.stdout.write(`top-cited FAILED (${e.message}) · `);
     }
 
-    await sleep(DELAY_MS);
+    await pace();
 
     // pass 2 — most-recent across all of the member's profiles (research feed)
     try {
@@ -335,10 +397,11 @@ async function main() {
       console.log(`recent ${recent.length}`);
     } catch (e) {
       failedMembers.push(member.slug);
+      degraded.add(member.slug);
       console.log(`recent FAILED (${e.message})`);
     }
 
-    if (i < members.length - 1) await sleep(DELAY_MS);
+    if (i < members.length - 1) await pace();
   }
 
   // Carry over papers we couldn't refresh this run, so a transient failure never deletes data:
@@ -371,6 +434,39 @@ async function main() {
   fs.writeFileSync(RESEARCH_FILE, JSON.stringify({ generatedAt: new Date().toISOString(), papers }, null, 2));
   console.log(`\nWrote ${PUBS_FILE}`);
   console.log(`Wrote ${RESEARCH_FILE} (${papers.length} papers)`);
+
+  // Data is never lost — unrefreshed members keep their previous entries — but a run where
+  // half the team hit the rate limit is not a healthy run, and saying so beats leaving it
+  // to be inferred from the per-member lines above.
+  if (rateLimitHits > 0 || degraded.size > 0) {
+    if (degraded.size === 0) {
+      console.log(
+        `\nAll ${members.length} member(s) refreshed. Absorbed ${rateLimitHits} rate-limit ` +
+        `response(s) by backing off; final pacing ${currentDelay}ms.`
+      );
+    } else {
+      console.log(
+        `\nDegraded: ${degraded.size}/${members.length} member(s) not fully refreshed; ` +
+        `${rateLimitHits} rate-limit response(s); final pacing ${currentDelay}ms.`
+      );
+      console.log(`  Not refreshed: ${[...degraded].join(", ")}`);
+      if (budgetExhausted) console.log(`  (run budget reached — raise S2_RUN_BUDGET_MS, or set an API key, to get through everyone)`);
+      console.log(`  Their previous data was carried over, so nothing was dropped.`);
+    }
+    if (!API_KEY && rateLimitHits > 0) {
+      console.log(
+        `  No S2_API_KEY set — this run shared the anonymous quota with every other caller.\n` +
+        `  A free key (https://www.semanticscholar.org/product/api) gives the job its own quota.`
+      );
+    }
+  }
+
+  // Only fail the job if nothing at all came back: a partial run still carries real data
+  // that the commit step should publish.
+  if (degraded.size === members.length && members.length > 0) {
+    console.error(`\nEvery member failed to refresh — treating this run as a failure.`);
+    process.exit(1);
+  }
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

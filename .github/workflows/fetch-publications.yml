@@ -22,6 +22,10 @@ jobs:
         env:
           # Optional — only needed if the Sanity dataset isn't public-read. Public reads work without it.
           SANITY_API_READ_TOKEN: ${{ secrets.SANITY_API_READ_TOKEN }}
+          # Optional but strongly recommended: without it the run shares the anonymous
+          # Semantic Scholar quota with every other caller and gets 429s in bursts.
+          # Free key: https://www.semanticscholar.org/product/api
+          S2_API_KEY: ${{ secrets.S2_API_KEY }}
         run: node scripts/fetch-publications.js
 
       - name: Commit updated publications
