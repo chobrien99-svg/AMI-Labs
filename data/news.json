@@ -1,5 +1,81 @@
 [
   {
+    "id": "6b51c171-8fad-4ccc-ae03-eacaf8c856ea",
+    "sanityId": "6b51c171-8fad-4ccc-ae03-eacaf8c856ea",
+    "title": "New Research — LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics",
+    "source": "arXivLabs",
+    "url": "/news/new-research-levjepa-efficient-and-scalable-video-pretraining-without-the-heuristics",
+    "publishedAt": "2026-08-30",
+    "summary": "LeVJEPA shows that high-quality video representations can be learned with a radically simpler JEPA-style system — one encoder, one objective, and no target network, predictor, or stop-gradient — while matching or beating V-JEPA 2 with as much as 20.8× less pretraining compute and producing causal representations suited to future world models",
+    "tags": [
+      "research"
+    ],
+    "score": null,
+    "status": "approved",
+    "addedAt": "2026-08-30T13:17:38.448Z",
+    "image": null,
+    "people": [
+      "yann-lecun",
+      "quentin-le-lidec",
+      "lucas-maes"
+    ]
+  },
+  {
+    "id": "82907ba6-a699-4cbe-9531-f42317bf0a2c",
+    "sanityId": "82907ba6-a699-4cbe-9531-f42317bf0a2c",
+    "title": "New Hire: Lucas Maes, Member of Technical Staff, Montreal",
+    "source": "The AMI Observatory",
+    "url": "https://ami.frenchtechjournal.com/team/lucas-maes",
+    "publishedAt": "2026-08-30",
+    "summary": "PhD student at Mila focused on improving Joint Embedding Predictive Architectures (JEPAs) and world models through planning, temporal abstraction, goal specification, and physical reasoning.",
+    "tags": [
+      "hiring"
+    ],
+    "score": null,
+    "status": "approved",
+    "addedAt": "2026-08-30T13:17:38.448Z",
+    "image": null,
+    "people": [
+      "lucas-maes"
+    ]
+  },
+  {
+    "id": "7ead255f-b845-41a5-808f-adf96f7ec9ac",
+    "sanityId": "7ead255f-b845-41a5-808f-adf96f7ec9ac",
+    "title": "New Research — LpWM: A Case for Sparse Representations in World Models",
+    "source": "arXiv",
+    "url": "/news/new-research-lpwm-a-case-for-sparse-representations-in-world-models",
+    "publishedAt": "2026-08-29",
+    "summary": "AMI Labs’ new LpWorldModel (LpWM) research shows that making a JEPA world model’s internal representation sparse rather than dense can shift complexity out of the predictor, allowing simpler dynamics models to plan successfully while revealing more interpretable structure in how the world changes.",
+    "tags": [
+      "research"
+    ],
+    "score": null,
+    "status": "approved",
+    "addedAt": "2026-08-30T13:17:38.448Z",
+    "image": null,
+    "people": [
+      "quentin-le-lidec",
+      "yann-lecun"
+    ]
+  },
+  {
+    "id": "34a859ff-e174-4ffb-9cd8-f05bea825f38",
+    "sanityId": "34a859ff-e174-4ffb-9cd8-f05bea825f38",
+    "title": "New Job Posting: AMI Scientist/Interns - Geometry and 3D Vision",
+    "source": "AMI Labs",
+    "url": "https://jobs.ashbyhq.com/ami/0d7332d8-b8e7-40d3-89b6-dfc02b40bfa2",
+    "publishedAt": "2026-08-29",
+    "summary": "We believe that video is a rich and abundant source of data reflecting how the world works, and that in general models need to be able to process continuous, high-dimensional data from a variety of sensors to: (a) understand context about the current state of the physical world, (b) make predictions about how the world will evolve, possibly as a result of actions taken, and (c) plan and adapt sequences of actions to complete complex tasks, possibly in dynamic, complex environments.",
+    "tags": [
+      "hiring"
+    ],
+    "score": null,
+    "status": "approved",
+    "addedAt": "2026-08-30T13:17:38.448Z",
+    "image": null
+  },
+  {
     "id": "85b70a09-a063-4e05-ae3b-985ca0b159e6",
     "title": "3 VinFuture scientists in Time's Top 100 most influential figures in the field of AI in 2026 - Laodong.vn",
     "source": "Google News",
