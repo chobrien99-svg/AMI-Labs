@@ -88,8 +88,8 @@
           "venue": "arXiv.org",
           "url": "https://doi.org/10.48550/arXiv.2605.06388",
           "citationCount": 12,
-          "tldr": "This study advocates semantic latent space as stronger foundation for policy-relevant robotics diffusion world models by comparing six reconstruction and semantic encoders to train world model variants under a fixed protocol on BridgeV2 dataset, and shows effective world model training in high-dimensional representation spaces with and without dimension compression.",
-          "abstract": "World model-based policy evaluation is a practical proxy for testing real-world robot control by rolling out candidate actions in action-conditioned video diffusion models. As these models increasingly adopt latent diffusion modeling (LDM), choosing the right latent space becomes critical. While the status quo uses autoencoding latent spaces like VAEs that are primarily trained for pixel reconstruction, recent work suggests benefits from pretrained encoders with representation-aligned semantic latent spaces. We systematically evaluate these latent spaces for action-conditioned LDM by comparing"
+          "tldr": "This study advocates semantic latent space as a stronger foundation for policy-relevant robotics diffusion world models by comparing six reconstruction and semantic encoders to train world model variants under a fixed protocol on BridgeV2 dataset, and shows effective world model training in high-dimensional representation spaces with and without dimension compression.",
+          "abstract": "World model-based policy evaluation is a practical proxy for testing real-world robot control by rolling out candidate actions in action-conditioned video diffusion models. As these models increasingly adopt latent diffusion modeling (LDM), choosing the right latent space becomes critical. While the status quo uses autoencoding latent spaces like VAEs that are primarily trained for pixel reconstruction, recent work suggests benefits from pretrained encoders with representation-aligned semantic latent spaces. We systematically evaluate these latent spaces for action-conditioned LDM by comparing."
         },
         {
           "memberName": "Artem Zholus",
@@ -103,7 +103,7 @@
           "url": "https://doi.org/10.48550/arXiv.2604.10582",
           "citationCount": 4,
           "tldr": "This work presents TAPNext++, a model that tracks points in sequences that are orders of magnitude longer while preserving the low memory and compute footprint of the architecture and demonstrates that recurrent transformers can be substantially improved for point tracking and set a new state-of-the-art on multiple benchmarks.",
-          "abstract": "Tracking-Any-Point (TAP) models aim to track any point through a video which is a crucial task in AR/XR and robotics applications. The recently introduced TAPNext approach proposes an end-to-end, recurrent transformer architecture to track points frame-by-frame in a purely online fashion -- demonstrating competitive performance at minimal latency. However, we show that TAPNext struggles with longer video sequences and also frequently fails to re-detect query points that reappear after being occluded or leaving the frame. In this work, we present TAPNext++, a model that tracks points in sequenc"
+          "abstract": "Tracking-Any-Point (TAP) models aim to track any point through a video, which is a crucial task in AR/XR and robotics applications. The recently introduced TAPNext approach proposes an end-to-end, recurrent transformer architecture to track points frame-by-frame in a purely online fashion -- demonstrating competitive performance at minimal latency. However, we show that TAPNext struggles with longer video sequences and also frequently fails to re-detect query points that reappear after being occluded or leaving the frame. In this work, we present TAPNext++, a model that tracks points in sequence."
         },
         {
           "memberName": "Artem Zholus",
@@ -116,8 +116,8 @@
           "venue": "IEEE International Conference on Computer Vision",
           "url": "https://doi.org/10.1109/ICCV51701.2025.00904",
           "citationCount": 39,
-          "tldr": "The TAPNext model is causal, tracks in a purely online fashion, and removes tracking-specific inductive biases, which enables TAPNext to run with minimal latency, and removes the temporal windowing required by many existing state of art trackers.",
-          "abstract": "Tracking Any Point (TAP) in a video is a challenging computer vision problem with many demonstrated applications in robotics, video editing, and 3D reconstruction. Existing methods for TAP rely heavily on complex tracking-specific inductive biases and heuristics, limiting their generality and potential for scaling. To address these challenges, we present TAPNext, a new approach that casts TAP as sequential masked token decoding. Our model is causal, tracks in a purely online fashion, and removes tracking-specific inductive biases. This enables TAPNext to run with minimal latency, and removes t"
+          "tldr": "The TAPNext model is causal, tracks in a purely online fashion, and removes tracking-specific inductive biases, which enables TAPNext to run with minimal latency and removes the temporal windowing required by many existing state-of-the-art trackers.",
+          "abstract": "Tracking Any Point (TAP) in a video is a challenging computer vision problem with many demonstrated applications in robotics, video editing, and 3D reconstruction. Existing TAP methods rely heavily on complex tracking-specific inductive biases and heuristics, limiting their generality and scalability. To address these challenges, we present TAPNext, a new approach that casts TAP as sequential masked token decoding. Our model is causal, tracks purely online, and removes tracking-specific inductive biases. This enables TAPNext to run with minimal latency."
         },
         {
           "memberName": "Artem Zholus",
@@ -131,7 +131,7 @@
           "url": "https://doi.org/10.48550/arXiv.2412.14294",
           "citationCount": 7,
           "tldr": "The proposed novel block, TRecViT, is causal and shows strong performance on sparse and dense tasks, trained in supervised or self-supervised regimes, being the first causal video model in the state-space models family.",
-          "abstract": "We propose a novel block for \\emph{causal} video modelling. It relies on a time-space-channel factorisation with dedicated blocks for each dimension: gated linear recurrent units (LRUs) perform information mixing over time, self-attention layers perform mixing over space, and MLPs over channels. The resulting architecture \\emph{TRecViT} is causal and shows strong performance on sparse and dense tasks, trained in supervised or self-supervised regimes, being the first causal video model in the state-space models family. Notably, our model outperforms or is on par with the popular (non-causal) Vi"
+          "abstract": "We propose a novel block for \\emph{causal} video modeling. It relies on a time-space-channel factorization with dedicated blocks for each dimension: gated linear recurrent units (LRUs) perform information mixing over time, self-attention layers perform mixing over space, and MLPs over channels. The resulting architecture \\emph{TRecViT} is causal and shows strong performance on sparse and dense tasks, trained in supervised or self-supervised regimes, being the first causal video model in the state-space models family. Notably, our model outperforms or is on par with the popular (non-causal) Vi."
         },
         {
           "memberName": "Artem Zholus",
@@ -144,8 +144,8 @@
           "venue": "arXiv.org",
           "url": "https://doi.org/10.48550/arXiv.2412.06531",
           "citationCount": 4,
-          "tldr": "This paper provides practical precise definitions of agent memory types, such as long-term vs. short-term memory and declarative vs. procedural memory, inspired by cognitive science, and proposes a robust experimental methodology for evaluating the memory capabilities of RL agents.",
-          "abstract": "The incorporation of memory into agents is essential for numerous tasks within the domain of Reinforcement Learning (RL). In particular, memory is paramount for tasks that require the use of past information, adaptation to novel environments, and improved sample efficiency. However, the term\"memory\"encompasses a wide range of concepts, which, coupled with the lack of a unified methodology for validating an agent's memory, leads to erroneous judgments about agents'memory capabilities and prevents objective comparison with other memory-enhanced agents. This paper aims to streamline the concept o"
+          "tldr": "This paper provides practical, precise definitions of agent memory types, such as long-term vs. short-term memory and declarative vs. procedural memory, inspired by cognitive science, and proposes a robust experimental methodology for evaluating the memory capabilities of RL agents.",
+          "abstract": "The incorporation of memory into agents is essential for numerous tasks within the domain of Reinforcement Learning (RL). In particular, memory is paramount for tasks that require the use of past information, adaptation to novel environments, and improved sample efficiency. However, the term\"memory\"encompasses a wide range of concepts, which, coupled with the lack of a unified methodology for validating an agent's memory, leads to erroneous judgments about agents'memory capabilities and prevents objective comparison with other memory-enhanced agents. This paper aims to streamline the concept o..."
         },
         {
           "memberName": "Artem Zholus",
@@ -159,7 +159,7 @@
           "url": "https://doi.org/10.48550/arXiv.2407.12161",
           "citationCount": 4,
           "tldr": "This work performs exploratory analysis on the Video PreTraining (VPT) Minecraft playing agent, one of the largest open-source vision-based agents, and aims to illuminate its reasoning mechanisms by applying various interpretability techniques.",
-          "abstract": "Understanding the mechanisms behind decisions taken by large foundation models in sequential decision making tasks is critical to ensuring that such systems operate transparently and safely. In this work, we perform exploratory analysis on the Video PreTraining (VPT) Minecraft playing agent, one of the largest open-source vision-based agents. We aim to illuminate its reasoning mechanisms by applying various interpretability techniques. First, we analyze the attention mechanism while the agent solves its training task - crafting a diamond pickaxe. The agent pays attention to the last four frame"
+          "abstract": "Understanding the mechanisms behind decisions taken by large foundation models in sequential decision-making tasks is critical to ensuring that such systems operate transparently and safely. In this work, we perform exploratory analysis on the Video PreTraining (VPT) Minecraft playing agent, one of the largest open-source vision-based agents. We aim to illuminate its reasoning mechanisms by applying various interpretability techniques. First, we analyze the attention mechanism while the agent solves its training task - crafting a diamond pickaxe. The agent pays attention to the last four frames..."
         },
         {
           "memberName": "Artem Zholus",
@@ -173,7 +173,7 @@
           "url": "https://doi.org/10.1145/3726302.3730300",
           "citationCount": 2,
           "tldr": "A scalable data collection tool for gathering interactive grounded language instructions within a Minecraft-like environment, resulting in a Multi-Modal dataset and a Human-in-the-Loop interactive evaluation platform for qualitative analysis and comparison of agent performance through multi-turn communication with human annotators.",
-          "abstract": "Seamless interaction between AI agents and humans using natural language remains a key goal in AI research. This paper addresses the challenges of developing interactive agents capable of understanding and executing grounded natural language instructions through the IGLU competition. Despite advancements, challenges such as a scarcity of appropriate datasets and the need for effective evaluation platforms persist. We introduce a scalable data collection tool for gathering interactive grounded language instructions within a Minecraft-like environment, resulting in a Multi-Modal dataset with aro"
+          "abstract": "Seamless interaction between AI agents and humans using natural language remains a key goal in AI research. This paper addresses the challenges of developing interactive agents that can understand and execute grounded natural language instructions through the IGLU competition. Despite advancements, challenges such as a scarcity of appropriate datasets and the need for effective evaluation platforms persist. We introduce a scalable data collection tool for gathering interactive grounded language instructions within a Minecraft-like environment, resulting in a Multi-Modal dataset with aro..."
         },
         {
           "memberName": "Artem Zholus",
@@ -187,7 +187,7 @@
           "url": "https://doi.org/10.48550/arXiv.2406.03686",
           "citationCount": 27,
           "tldr": "A novel generative model, BindGPT, which uses a conceptually simple but powerful approach to create 3D molecules within the protein's binding site, and shows how such a simple conceptual approach combined with pre-training and scaling can perform on par or better than the current best-specialized diffusion models, language models, and graph neural networks while being two orders of magnitude cheaper to sample.",
-          "abstract": "Generating novel active molecules for a given protein is an extremely challenging task for generative models that requires an understanding of the complex physical interactions between the molecule and its environment. This paper presents a novel generative model, BindGPT, which uses a conceptually simple but powerful approach to create 3D molecules within the protein's binding site. Our model produces molecular graphs and conformations jointly, eliminating the need for an extra graph reconstruction step. We pre-train BindGPT on a large-scale dataset and fine-tune it with reinforcement learnin"
+          "abstract": "Generating novel active molecules for a given protein is an extremely challenging task for generative models that requires an understanding of the complex physical interactions between the molecule and its environment. This paper presents a novel generative model, BindGPT, which uses a conceptually simple but powerful approach to create 3D molecules within the protein's binding site. Our model jointly produces molecular graphs and conformations, eliminating the need for an extra graph reconstruction step. We pre-train BindGPT on a large-scale dataset and fine-tune it with reinforcement learning..."
         },
         {
           "memberName": "Artem Zholus",
@@ -201,7 +201,7 @@
           "url": "https://doi.org/10.48550/arXiv.2403.04253",
           "citationCount": 47,
           "tldr": "This work integrates a new family of state space models (SSMs) in world models of MBRL agents to present a new method, Recall to Imagine (R2I), which aims to enhance both long-term memory and long-horizon credit assignment.",
-          "abstract": "Current model-based reinforcement learning (MBRL) agents struggle with long-term dependencies. This limits their ability to effectively solve tasks involving extended time gaps between actions and outcomes, or tasks demanding the recalling of distant observations to inform current actions. To improve temporal coherence, we integrate a new family of state space models (SSMs) in world models of MBRL agents to present a new method, Recall to Imagine (R2I). This integration aims to enhance both long-term memory and long-horizon credit assignment. Through a diverse set of illustrative tasks, we sys"
+          "abstract": "Current model-based reinforcement learning (MBRL) agents struggle with long-term dependencies. This limits their ability to solve tasks with extended time gaps between actions and outcomes, or tasks that require recalling distant observations to inform current actions. To improve temporal coherence, we integrate a new family of state space models (SSMs) into world models for MBRL agents, presenting a new method, Recall to Imagine (R2I). This integration aims to enhance both long-term memory and long-horizon credit assignment. Through a diverse set of illustrative tasks, we sys"
         },
         {
           "memberName": "Artem Zholus",
@@ -214,7 +214,7 @@
           "venue": null,
           "url": "https://www.semanticscholar.org/paper/eba383558d36e6cacb23b3f477a2125c4b7d5043",
           "citationCount": 0,
-          "tldr": "A novel method that tegrates a language model and reinforcement learning for constructing objects in a Minecraft-009 like environment, based on natural language 010 instructions and outperforms existing solutions in terms of both the quality of the language model 020 and the quality of the structures built within the IGLU environment.",
+          "tldr": "A novel method that integrates a language model and reinforcement learning for constructing objects in a Minecraft-009-like environment, based on natural language 010 instructions and outperforms existing solutions in terms of both the quality of the language model 020 and the quality of the structures built within the IGLU environment.",
           "abstract": null
         },
         {
@@ -228,8 +228,8 @@
           "venue": "arXiv.org",
           "url": "https://doi.org/10.48550/arXiv.2305.10783",
           "citationCount": 16,
-          "tldr": "A crowd-sourcing tool for collecting groundedlanguage instructions; the largest dataset of grounded language instructions; and several state-of-the-art baselines are made, suitable as a foundation for further research.",
-          "abstract": "Human intelligence's adaptability is remarkable, allowing us to adjust to new tasks and multi-modal environments swiftly. This skill is evident from a young age as we acquire new abilities and solve problems by imitating others or following natural language instructions. The research community is actively pursuing the development of interactive\"embodied agents\"that can engage in natural conversations with humans and assist them with real-world tasks. These agents must possess the ability to promptly request feedback in case communication breaks down or instructions are unclear. Additionally, t"
+          "tldr": "A crowdsourcing tool for collecting grounded language instructions; the largest dataset of grounded language instructions; and several state-of-the-art baselines are made, suitable as a foundation for further research.",
+          "abstract": "Human intelligence's adaptability is remarkable, allowing us to adjust to new tasks and multi-modal environments swiftly. This skill is evident from a young age as we acquire new abilities and solve problems by imitating others or following natural language instructions. The research community is actively pursuing the development of interactive \" embodied agents\" that can engage in natural conversations with humans and assist them with real-world tasks. These agents must be able to promptly request feedback if communication breaks down or instructions are unclear. Additionally, t"
         },
         {
           "memberName": "Artem Zholus",
@@ -1045,28 +1045,28 @@
     "dessinKeys": []
   },
   "status": "ok",
-  "headline": "AMI is building the scaffolding for causal world models — and the week's research, hiring, and code all point the same direction",
-  "stateOfPlay": "Two papers, one new hire, one job posting, and a burst of evaluation-framework commits landed this week — and they are not as scattered as they appear. Taken together, they reveal a lab systematically attacking the same problem from multiple angles: how to build video representations that are not merely descriptive but causal, predictive, and cheap enough to scale. LeVJEPA strips JEPA-style video pretraining to its essentials and achieves up to 20.8× compute reduction versus V-JEPA 2; LpWM argues that sparse internal representations make world-model dynamics simpler and more interpretable; and the new Mila hire, Lucas Maes, was recruited precisely for his work on planning and temporal abstraction inside JEPAs. The throughline is unmistakable: AMI is not just doing world-model research — it is engineering the components that would let a world model actually work in practice.",
+  "headline": "AMI is building the scaffolding for causal world models",
+  "stateOfPlay": "This week we highlight two papers, one new hire, one job posting, and a burst of evaluation-framework commits. Overall, they reveal a lab systematically attacking the same problem from multiple angles: how to build video representations that are not merely descriptive but causal, predictive, and cheap enough to scale. LeVJEPA strips JEPA-style video pretraining to its essentials and achieves up to 20.8× compute reduction versus V-JEPA 2; LpWM argues that sparse internal representations make world-model dynamics simpler and more interpretable; and the new Mila hire, Lucas Maes, the lead author on the LeWorldModel research paper, was recruited precisely for his work on planning and temporal abstraction inside JEPAs.",
   "threads": [
     {
       "title": "LeVJEPA and LpWM together sketch AMI's architectural thesis: simpler is scalable",
       "category": "research",
-      "narrative": "The most telling moment of the week is the simultaneous appearance of LeVJEPA and LpWM, which address consecutive layers of the same problem. LeVJEPA — described by AMI as matching or beating V-JEPA 2 with as much as 20.8× less pretraining compute — achieves this by eliminating the target network, predictor, and stop-gradient that have become standard JEPA scaffolding. A single encoder, a single objective. The implication is architectural: AMI believes the complexity that earlier JEPA variants offloaded onto training heuristics can instead be absorbed into representation quality. Crucially, the paper also claims the resulting representations are causal — suited to future world models, not just frozen embeddings.\n\nLpWM picks up exactly where LeVJEPA leaves off. If you want to build a planning system on top of video representations, what should those representations look like? AMI's answer, per the LpWorldModel paper, is sparse rather than dense. Sparsity shifts complexity out of the predictor — the dynamics model that forecasts how the world evolves — and yields more interpretable structure in how state changes. The two papers are complementary by design: one argues for simplicity in learning representations, the other argues for sparsity in using them for planning. Together they constitute something close to a design manifesto for AMI's world-model stack.",
+      "narrative": "The release of the LeVJEPA and LpWM research papers addresses consecutive layers of the same problem. LeVJEPA — described by AMI as matching or beating V-JEPA 2 with as much as 20.8× less pretraining compute — achieves this by eliminating the target network, predictor, and stop-gradient that have become standard JEPA scaffolding. A single encoder, a single objective. The implication is architectural: AMI believes the complexity that earlier JEPA variants offloaded onto training heuristics can instead be absorbed into representation quality. Crucially, the paper also claims the resulting representations are causal — suited to future world models, not just frozen embeddings.\n\nLpWM picks up exactly where LeVJEPA leaves off. If you want to build a planning system on top of video representations, what should those representations look like? AMI's answer, per the LpWorldModel paper, is sparse rather than dense. Sparsity shifts complexity out of the predictor — the dynamics model that forecasts how the world evolves — and yields more interpretable structure in how state changes. The two papers are complementary by design: one argues for simplicity in learning representations, the other argues for sparsity in using them for planning. Together they constitute something close to a design manifesto for AMI's world-model stack.",
       "evidence": [
         {
-          "label": "LeVJEPA paper announcement",
+          "label": "LeVJEPA paper",
           "url": "/news/new-research-levjepa-efficient-and-scalable-video-pretraining-without-the-heuristics"
         },
         {
-          "label": "LpWM paper announcement",
+          "label": "LpWM paper",
           "url": "/news/new-research-lpwm-a-case-for-sparse-representations-in-world-models"
         }
       ]
     },
     {
-      "title": "The Lucas Maes hire closes the loop from representation to planning",
+      "title": "Lucas Maes hire closes the loop from research to planning",
       "category": "hiring",
-      "narrative": "AMI's recruitment of Lucas Maes, a Mila PhD student whose work centres on improving JEPAs through planning, temporal abstraction, goal specification, and physical reasoning, is not incidental to the research week — it is the personnel counterpart to LpWM's theoretical argument. Planning inside a world model is precisely what the sparse-representation paper is designed to enable, and Maes's expertise sits at that junction. His first visible GitHub action was a comment on an issue in the galilai-group/stable-worldmodel repository, suggesting he is already engaging with world-model infrastructure rather than waiting for an onboarding period to pass.\n\nThe open Geometry and 3D Vision scientist/intern posting in Paris adds a further dimension. Its job description frames video as the primary data source for understanding physical-world state, predicting how the world evolves, and planning action sequences — language that maps directly onto the three-capability agenda visible in LpWM and LeVJEPA. Hiring for 3D geometry suggests AMI intends to ground these video representations spatially, which would be a prerequisite for any robotics or embodied application of the world models the team is building.",
+      "narrative": "AMI's recruitment of Lucas Maes, a Mila PhD student whose work centers on improving JEPAs through planning, temporal abstraction, goal specification, and physical reasoning, is not incidental to the research week. Maes was the lead author on LeWorldModel, a research paper co-authored with several other AMI Labs researchers and considered a breakthrough by making JEPA more stable. In that respect, his joining AMI seems somewhat inevitable. His first visible GitHub action was a comment on an issue in the galilai-group/stable-worldmodel repository, suggesting he is already engaging with world-model infrastructure.\n\nThe open Geometry and 3D Vision scientist/intern job posting in Paris adds a further dimension. Its job description frames video as the primary data source for understanding physical-world state, predicting how the world evolves, and planning action sequences — language that maps directly onto the three-capability agenda visible in LpWM and LeVJEPA. Hiring for 3D geometry suggests AMI intends to ground these video representations spatially, which would be a prerequisite for any robotics or embodied application of the world models the team is building.",
       "evidence": [
         {
           "label": "Lucas Maes hire profile",
@@ -1085,7 +1085,7 @@
     {
       "title": "Brian Li's evaluation push signals AMI is preparing to benchmark its own models rigorously",
       "category": "research",
-      "narrative": "Brian Li accounted for 15 of the week's 36 GitHub events, almost entirely concentrated in EvolvingLMMs-Lab/lmms-eval — a community evaluation framework for large multimodal models. He opened at least six pull requests and merged one in the same week. The volume and clustering of this activity suggests it is not routine maintenance but a structured effort to extend or adapt the eval suite, possibly to cover video or world-model outputs that AMI's own systems will need to be measured against.\n\nThis matters because AMI's research credibility depends on reproducible, externally legible benchmarking. LeVJEPA's headline claim — 20.8× compute savings against V-JEPA 2 — requires a trustworthy measurement apparatus. Li's sustained engagement with lmms-eval points to a team that is investing in the infrastructure of verification, not just in the models themselves.",
+      "narrative": "Brian Li accounted for 15 of the week's 36 GitHub events, almost entirely concentrated in EvolvingLMMs-Lab/lmms-eval — a community evaluation framework for large multimodal models. He opened at least six pull requests and merged one that week. The volume and clustering of this activity suggests it is not routine maintenance but a structured effort to extend or adapt the eval suite, possibly to cover video or world-model outputs that AMI's own systems will need to be measured against.\n\nThis matters because AMI's research credibility depends on reproducible, externally legible benchmarking. LeVJEPA's headline claim — 20.8× compute savings against V-JEPA 2 — requires a trustworthy measurement apparatus. Li's sustained engagement with lmms-eval points to a team that is investing in the infrastructure of verification, not just in the models themselves.",
       "evidence": [
         {
           "label": "Brian Li merged PR in lmms-eval",
@@ -1107,7 +1107,7 @@
       "url": "https://doi.org/10.48550/arXiv.2605.06388"
     }
   ],
-  "whatToWatch": "The convergence of LeVJEPA, LpWM, the Maes hire, and the 3D Vision opening suggests AMI is approaching a moment where its component pieces — efficient video pretraining, sparse world-model dynamics, planning expertise, and spatial grounding — could be integrated into a single demonstrable system. Watch for a unified world-model release or a robotics-adjacent benchmark result in the next one to two months. Brian Li's eval infrastructure work may be the leading indicator of when AMI considers its models ready for external comparison.",
+  "whatToWatch": "The convergence of LeVJEPA, LpWM, the Maes hire, and the 3D Vision opening suggests AMI continues to make progress on components such as efficient video pretraining, sparse world-model dynamics, planning expertise, and spatial grounding. How long it takes for this to be integrated into a single demonstrable system in terms of a unified world-model release or a robotics-adjacent benchmark result remains to be seen.",
   "whatToWatchLinks": [
     {
       "url": "/news/new-research-levjepa-efficient-and-scalable-video-pretraining-without-the-heuristics",
