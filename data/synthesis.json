@@ -1,123 +1,287 @@
 {
-  "generatedAt": "2026-08-23T20:12:36.896Z",
+  "generatedAt": "2026-08-30T22:14:49.898Z",
   "window": {
     "days": 7,
-    "since": "2026-08-16",
-    "until": "2026-08-23"
+    "since": "2026-08-23",
+    "until": "2026-08-30"
   },
   "model": "claude-sonnet-4-6",
   "facts": {
     "news": {
-      "windowCount": 6,
+      "windowCount": 4,
       "byTag": {
-        "hiring": 6
+        "research": 2,
+        "hiring": 2
       },
       "items": [
         {
-          "title": "New Hire: Artem Zholus, Member of Technical Staff, Montreal",
-          "url": "https://ami.frenchtechjournal.com/team/artem-zholus",
-          "source": "The AMI Observatory",
-          "publishedAt": "2026-08-18",
+          "title": "New Research — LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics",
+          "url": "/news/new-research-levjepa-efficient-and-scalable-video-pretraining-without-the-heuristics",
+          "source": "arXivLabs",
+          "publishedAt": "2026-08-30",
           "tags": [
-            "hiring"
+            "research"
           ],
-          "summary": "Machine learning researcher specializing in world models, robotics, computer vision, deep learning, and reinforcement learning, with prior experience at Meta, Google DeepMind, EPFL, and Insilico Medicine."
+          "summary": "LeVJEPA shows that high-quality video representations can be learned with a radically simpler JEPA-style system — one encoder, one objective, and no target network, predictor, or stop-gradient — while matching or beating V-JEPA 2 with as much as 20.8× less pretraining compute and producing causal representations suited to future world models"
         },
         {
-          "title": "New Hire: Chenxia Tang, Member of Technical Staff, Singapore",
-          "url": "https://ami.frenchtechjournal.com/team/chenxia-tang",
+          "title": "New Hire: Lucas Maes, Member of Technical Staff, Montreal",
+          "url": "https://ami.frenchtechjournal.com/team/lucas-maes",
           "source": "The AMI Observatory",
-          "publishedAt": "2026-08-18",
+          "publishedAt": "2026-08-30",
           "tags": [
             "hiring"
           ],
-          "summary": "Specializing in infrastructure engineering and system optimization, with previous algorithm-engineering experience at ByteDance."
+          "summary": "PhD student at Mila focused on improving Joint Embedding Predictive Architectures (JEPAs) and world models through planning, temporal abstraction, goal specification, and physical reasoning."
         },
         {
-          "title": "New Hire: Chen Wei, Member of Technical Staff, New York City",
-          "url": "https://ami.frenchtechjournal.com/team/chen-wei",
-          "source": "The AMI Observatory",
-          "publishedAt": "2026-08-18",
+          "title": "New Research — LpWM: A Case for Sparse Representations in World Models",
+          "url": "/news/new-research-lpwm-a-case-for-sparse-representations-in-world-models",
+          "source": "arXiv",
+          "publishedAt": "2026-08-29",
           "tags": [
-            "hiring"
+            "research"
           ],
-          "summary": "An Assistant Professor of Computer Science at Rice University and a Member of Technical Staff at AMI Labs, with research experience across Meta, Google DeepMind, Google, and Facebook."
+          "summary": "AMI Labs’ new LpWorldModel (LpWM) research shows that making a JEPA world model’s internal representation sparse rather than dense can shift complexity out of the predictor, allowing simpler dynamics models to plan successfully while revealing more interpretable structure in how the world changes."
         },
         {
-          "title": "New Hire: Yuexiang Zhai, Member of Technical Staff, New York City",
-          "url": "https://ami.frenchtechjournal.com/team/yuexiang-zhai",
-          "source": "The AMI Observatory",
-          "publishedAt": "2026-08-18",
+          "title": "New Job Posting: AMI Scientist/Interns - Geometry and 3D Vision",
+          "url": "https://jobs.ashbyhq.com/ami/0d7332d8-b8e7-40d3-89b6-dfc02b40bfa2",
+          "source": "AMI Labs",
+          "publishedAt": "2026-08-29",
           "tags": [
             "hiring"
           ],
-          "summary": "An artificial intelligence researcher whose work spans reasoning and computer-use agents, reinforcement learning, optimization, multimodal models, and large-scale agent systems."
-        },
-        {
-          "title": "New Hire: Mikael Henaff, Member of Technical Staff, New York City",
-          "url": "https://ami.frenchtechjournal.com/team/mikael-henaff",
-          "source": "The AMI Observatory",
-          "publishedAt": "2026-08-18",
-          "tags": [
-            "hiring"
-          ],
-          "summary": "Former machine learning researcher at Facebook AI specializing in deep learning and reinforcement learning, with work spanning sequential reasoning, memory, imitation learning, and model-based control."
-        },
-        {
-          "title": "New Hire: Scott Fujimoto, Member of Technical Staff, Montreal",
-          "url": "https://ami.frenchtechjournal.com/team/scott-fujimoto",
-          "source": "The AMI Observatory",
-          "publishedAt": "2026-08-18",
-          "tags": [
-            "hiring"
-          ],
-          "summary": "Deep reinforcement learning researcher whose career spans research roles at Meta, Mila, Google, Facebook, and McGill University."
+          "summary": "We believe that video is a rich and abundant source of data reflecting how the world works, and that in general models need to be able to process continuous, high-dimensional data from a variety of sensors to: (a) understand context about the current state of the physical world, (b) make predictions about how the world will evolve, possibly as a result of actions taken, and (c) plan and adapt sequences of actions to complete complex tasks, possibly in dynamic, complex environments."
         }
       ]
     },
     "jobs": {
-      "total": 6,
-      "newSinceLast": 0,
-      "newItems": [],
+      "total": 7,
+      "newSinceLast": 1,
+      "newItems": [
+        {
+          "title": "AMI Scientist/Interns - Geometry and 3D Vision",
+          "department": "Technical Staff",
+          "location": "Paris",
+          "url": "https://jobs.ashbyhq.com/ami/0d7332d8-b8e7-40d3-89b6-dfc02b40bfa2"
+        }
+      ],
       "byDepartment": {
         "All Departments": 1,
-        "Technical Staff": 4,
+        "Technical Staff": 5,
         "General and Administration": 1
       }
     },
     "publications": {
-      "total": 617,
-      "newSinceLast": 1,
+      "total": 641,
+      "newSinceLast": 24,
       "newItems": [
         {
-          "memberName": "Yann LeCun",
+          "memberName": "Artem Zholus",
           "teamAuthors": [
-            "Yann LeCun"
+            "Artem Zholus"
           ],
-          "title": "SpidR-Adapt: A Universal Speech Representation Model for Few-Shot Adaptation",
+          "title": "Reconstruction or Semantics? What Makes a Latent Space Useful for Robotic World Models",
+          "year": 2026,
+          "publicationDate": "2026-05-07",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2605.06388",
+          "citationCount": 12,
+          "tldr": "This study advocates semantic latent space as a stronger foundation for policy-relevant robotics diffusion world models by comparing six reconstruction and semantic encoders to train world model variants under a fixed protocol on BridgeV2 dataset, and shows effective world model training in high-dimensional representation spaces with and without dimension compression.",
+          "abstract": "World model-based policy evaluation is a practical proxy for testing real-world robot control by rolling out candidate actions in action-conditioned video diffusion models. As these models increasingly adopt latent diffusion modeling (LDM), choosing the right latent space becomes critical. While the status quo uses autoencoding latent spaces like VAEs that are primarily trained for pixel reconstruction, recent work suggests benefits from pretrained encoders with representation-aligned semantic latent spaces. We systematically evaluate these latent spaces for action-conditioned LDM by comparing."
+        },
+        {
+          "memberName": "Artem Zholus",
+          "teamAuthors": [
+            "Artem Zholus"
+          ],
+          "title": "TAPNext++: What's Next for Tracking Any Point (TAP)?",
+          "year": 2026,
+          "publicationDate": "2026-04-12",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2604.10582",
+          "citationCount": 4,
+          "tldr": "This work presents TAPNext++, a model that tracks points in sequences that are orders of magnitude longer while preserving the low memory and compute footprint of the architecture and demonstrates that recurrent transformers can be substantially improved for point tracking and set a new state-of-the-art on multiple benchmarks.",
+          "abstract": "Tracking-Any-Point (TAP) models aim to track any point through a video, which is a crucial task in AR/XR and robotics applications. The recently introduced TAPNext approach proposes an end-to-end, recurrent transformer architecture to track points frame-by-frame in a purely online fashion -- demonstrating competitive performance at minimal latency. However, we show that TAPNext struggles with longer video sequences and also frequently fails to re-detect query points that reappear after being occluded or leaving the frame. In this work, we present TAPNext++, a model that tracks points in sequence."
+        },
+        {
+          "memberName": "Artem Zholus",
+          "teamAuthors": [
+            "Artem Zholus"
+          ],
+          "title": "Tapnext: Tracking Any Point (Tap) as Next Token Prediction",
           "year": 2025,
-          "publicationDate": "2025-12-24",
-          "venue": "Annual Meeting of the Association for Computational Linguistics",
-          "url": "https://doi.org/10.48550/arXiv.2512.21204",
-          "citationCount": 1,
-          "tldr": "This paper introduces SpidR-Adapt for rapid adaptation of speech units to new languages using minimal unlabeled data and proposes a novel heuristic solution, first-order bi-level optimization (FOBLO), avoiding heavy computation costs.",
-          "abstract": "Human infants, with only a few hundred hours of speech exposure, acquire basic units of new languages, highlighting a striking efficiency gap compared to the data-hungry self-supervised speech models. To address this gap, this paper introduces SpidR-Adapt for rapid adaptation of speech units to new languages using minimal unlabeled data. We cast such low-resource speech representation learning as a meta-learning problem and construct a multi-task adaptive pre-training (MAdaPT) protocol which formulates the adaptation process as a bi-level optimization framework. To enable scalable meta-trainin"
+          "publicationDate": "2025-04-08",
+          "venue": "IEEE International Conference on Computer Vision",
+          "url": "https://doi.org/10.1109/ICCV51701.2025.00904",
+          "citationCount": 39,
+          "tldr": "The TAPNext model is causal, tracks in a purely online fashion, and removes tracking-specific inductive biases, which enables TAPNext to run with minimal latency and removes the temporal windowing required by many existing state-of-the-art trackers.",
+          "abstract": "Tracking Any Point (TAP) in a video is a challenging computer vision problem with many demonstrated applications in robotics, video editing, and 3D reconstruction. Existing TAP methods rely heavily on complex tracking-specific inductive biases and heuristics, limiting their generality and scalability. To address these challenges, we present TAPNext, a new approach that casts TAP as sequential masked token decoding. Our model is causal, tracks purely online, and removes tracking-specific inductive biases. This enables TAPNext to run with minimal latency."
+        },
+        {
+          "memberName": "Artem Zholus",
+          "teamAuthors": [
+            "Artem Zholus"
+          ],
+          "title": "TRecViT: A Recurrent Video Transformer",
+          "year": 2024,
+          "publicationDate": "2024-12-18",
+          "venue": "Trans. Mach. Learn. Res.",
+          "url": "https://doi.org/10.48550/arXiv.2412.14294",
+          "citationCount": 7,
+          "tldr": "The proposed novel block, TRecViT, is causal and shows strong performance on sparse and dense tasks, trained in supervised or self-supervised regimes, being the first causal video model in the state-space models family.",
+          "abstract": "We propose a novel block for \\emph{causal} video modeling. It relies on a time-space-channel factorization with dedicated blocks for each dimension: gated linear recurrent units (LRUs) perform information mixing over time, self-attention layers perform mixing over space, and MLPs over channels. The resulting architecture \\emph{TRecViT} is causal and shows strong performance on sparse and dense tasks, trained in supervised or self-supervised regimes, being the first causal video model in the state-space models family. Notably, our model outperforms or is on par with the popular (non-causal) Vi."
+        },
+        {
+          "memberName": "Artem Zholus",
+          "teamAuthors": [
+            "Artem Zholus"
+          ],
+          "title": "Unraveling the Complexity of Memory in RL Agents: an Approach for Classification and Evaluation",
+          "year": 2024,
+          "publicationDate": "2024-12-09",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2412.06531",
+          "citationCount": 4,
+          "tldr": "This paper provides practical, precise definitions of agent memory types, such as long-term vs. short-term memory and declarative vs. procedural memory, inspired by cognitive science, and proposes a robust experimental methodology for evaluating the memory capabilities of RL agents.",
+          "abstract": "The incorporation of memory into agents is essential for numerous tasks within the domain of Reinforcement Learning (RL). In particular, memory is paramount for tasks that require the use of past information, adaptation to novel environments, and improved sample efficiency. However, the term\"memory\"encompasses a wide range of concepts, which, coupled with the lack of a unified methodology for validating an agent's memory, leads to erroneous judgments about agents'memory capabilities and prevents objective comparison with other memory-enhanced agents. This paper aims to streamline the concept o..."
+        },
+        {
+          "memberName": "Artem Zholus",
+          "teamAuthors": [
+            "Artem Zholus"
+          ],
+          "title": "Interpretability in Action: Exploratory Analysis of VPT, a Minecraft Agent",
+          "year": 2024,
+          "publicationDate": "2024-07-16",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2407.12161",
+          "citationCount": 4,
+          "tldr": "This work performs exploratory analysis on the Video PreTraining (VPT) Minecraft playing agent, one of the largest open-source vision-based agents, and aims to illuminate its reasoning mechanisms by applying various interpretability techniques.",
+          "abstract": "Understanding the mechanisms behind decisions taken by large foundation models in sequential decision-making tasks is critical to ensuring that such systems operate transparently and safely. In this work, we perform exploratory analysis on the Video PreTraining (VPT) Minecraft playing agent, one of the largest open-source vision-based agents. We aim to illuminate its reasoning mechanisms by applying various interpretability techniques. First, we analyze the attention mechanism while the agent solves its training task - crafting a diamond pickaxe. The agent pays attention to the last four frames..."
+        },
+        {
+          "memberName": "Artem Zholus",
+          "teamAuthors": [
+            "Artem Zholus"
+          ],
+          "title": "IDAT: A Multi-Modal Dataset and Toolkit for Building and Evaluating Interactive Task-Solving Agents",
+          "year": 2024,
+          "publicationDate": "2024-07-12",
+          "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+          "url": "https://doi.org/10.1145/3726302.3730300",
+          "citationCount": 2,
+          "tldr": "A scalable data collection tool for gathering interactive grounded language instructions within a Minecraft-like environment, resulting in a Multi-Modal dataset and a Human-in-the-Loop interactive evaluation platform for qualitative analysis and comparison of agent performance through multi-turn communication with human annotators.",
+          "abstract": "Seamless interaction between AI agents and humans using natural language remains a key goal in AI research. This paper addresses the challenges of developing interactive agents that can understand and execute grounded natural language instructions through the IGLU competition. Despite advancements, challenges such as a scarcity of appropriate datasets and the need for effective evaluation platforms persist. We introduce a scalable data collection tool for gathering interactive grounded language instructions within a Minecraft-like environment, resulting in a Multi-Modal dataset with aro..."
+        },
+        {
+          "memberName": "Artem Zholus",
+          "teamAuthors": [
+            "Artem Zholus"
+          ],
+          "title": "BindGPT: A Scalable Framework for 3D Molecular Design via Language Modeling and Reinforcement Learning",
+          "year": 2024,
+          "publicationDate": "2024-06-06",
+          "venue": "AAAI Conference on Artificial Intelligence",
+          "url": "https://doi.org/10.48550/arXiv.2406.03686",
+          "citationCount": 27,
+          "tldr": "A novel generative model, BindGPT, which uses a conceptually simple but powerful approach to create 3D molecules within the protein's binding site, and shows how such a simple conceptual approach combined with pre-training and scaling can perform on par or better than the current best-specialized diffusion models, language models, and graph neural networks while being two orders of magnitude cheaper to sample.",
+          "abstract": "Generating novel active molecules for a given protein is an extremely challenging task for generative models that requires an understanding of the complex physical interactions between the molecule and its environment. This paper presents a novel generative model, BindGPT, which uses a conceptually simple but powerful approach to create 3D molecules within the protein's binding site. Our model jointly produces molecular graphs and conformations, eliminating the need for an extra graph reconstruction step. We pre-train BindGPT on a large-scale dataset and fine-tune it with reinforcement learning..."
+        },
+        {
+          "memberName": "Artem Zholus",
+          "teamAuthors": [
+            "Artem Zholus"
+          ],
+          "title": "Mastering Memory Tasks with World Models",
+          "year": 2024,
+          "publicationDate": "2024-03-07",
+          "venue": "International Conference on Learning Representations",
+          "url": "https://doi.org/10.48550/arXiv.2403.04253",
+          "citationCount": 47,
+          "tldr": "This work integrates a new family of state space models (SSMs) in world models of MBRL agents to present a new method, Recall to Imagine (R2I), which aims to enhance both long-term memory and long-horizon credit assignment.",
+          "abstract": "Current model-based reinforcement learning (MBRL) agents struggle with long-term dependencies. This limits their ability to solve tasks with extended time gaps between actions and outcomes, or tasks that require recalling distant observations to inform current actions. To improve temporal coherence, we integrate a new family of state space models (SSMs) into world models for MBRL agents, presenting a new method, Recall to Imagine (R2I). This integration aims to enhance both long-term memory and long-horizon credit assignment. Through a diverse set of illustrative tasks, we sys"
+        },
+        {
+          "memberName": "Artem Zholus",
+          "teamAuthors": [
+            "Artem Zholus"
+          ],
+          "title": "From Words to Blocks: Building Objects by Grounding Language Models with Reinforcement Learning",
+          "year": 2023,
+          "publicationDate": null,
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/eba383558d36e6cacb23b3f477a2125c4b7d5043",
+          "citationCount": 0,
+          "tldr": "A novel method that integrates a language model and reinforcement learning for constructing objects in a Minecraft-009-like environment, based on natural language 010 instructions and outperforms existing solutions in terms of both the quality of the language model 020 and the quality of the structures built within the IGLU environment.",
+          "abstract": null
+        },
+        {
+          "memberName": "Artem Zholus",
+          "teamAuthors": [
+            "Artem Zholus"
+          ],
+          "title": "Transforming Human-Centered AI Collaboration: Redefining Embodied Agents Capabilities through Interactive Grounded Language Instructions",
+          "year": 2023,
+          "publicationDate": "2023-05-18",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2305.10783",
+          "citationCount": 16,
+          "tldr": "A crowdsourcing tool for collecting grounded language instructions; the largest dataset of grounded language instructions; and several state-of-the-art baselines are made, suitable as a foundation for further research.",
+          "abstract": "Human intelligence's adaptability is remarkable, allowing us to adjust to new tasks and multi-modal environments swiftly. This skill is evident from a young age as we acquire new abilities and solve problems by imitating others or following natural language instructions. The research community is actively pursuing the development of interactive \" embodied agents\" that can engage in natural conversations with humans and assist them with real-world tasks. These agents must be able to promptly request feedback if communication breaks down or instructions are unclear. Additionally, t"
+        },
+        {
+          "memberName": "Artem Zholus",
+          "teamAuthors": [
+            "Artem Zholus"
+          ],
+          "title": "Collecting Interactive Multi-modal Datasets for Grounded Language Understanding",
+          "year": 2022,
+          "publicationDate": "2022-11-12",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2211.06552",
+          "citationCount": 16,
+          "tldr": "The collaborative embodied agent is formalized using natural language task, a tool for extensive and scalable data collection is developed, and the first dataset for interactive grounded language understanding is collected.",
+          "abstract": "Human intelligence can remarkably adapt quickly to new tasks and environments. Starting from a very young age, humans acquire new skills and learn how to solve new tasks either by imitating the behavior of others or by following provided natural language instructions. To facilitate research which can enable similar capabilities in machines, we made the following contributions (1) formalized the collaborative embodied agent using natural language task; (2) developed a tool for extensive and scalable data collection; and (3) collected the first dataset for interactive grounded language understan"
         }
       ],
       "recent": []
     },
     "github": {
-      "windowEventCount": 48,
+      "windowEventCount": 36,
       "byMember": {
-        "Amir Bar": 10,
         "Brian Li": 15,
-        "Jihan Yang": 1,
-        "Min Lin": 1,
-        "Quentin Le Lidec": 14,
-        "Rohit Girdhar": 5,
-        "Xingyi Zhou": 2
+        "Haoyi Li": 15,
+        "Lucas Maes": 2,
+        "Matthew Muckley": 1,
+        "Min Lin": 3
       },
       "notable": [
+        {
+          "member": "Haoyi Li",
+          "type": "CreateEvent",
+          "repo": "lihaoyi/mill-1",
+          "description": "Created branch fix-6811-stderr-color in lihaoyi/mill-1",
+          "url": "https://github.com/lihaoyi/mill-1",
+          "timestamp": "2026-08-29T22:43:03Z"
+        },
+        {
+          "member": "Brian Li",
+          "type": "PullRequestEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "description": "merged PR #1271 in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-08-27T15:01:45Z"
+        },
+        {
+          "member": "Lucas Maes",
+          "type": "IssueCommentEvent",
+          "repo": "galilai-group/stable-worldmodel",
+          "description": "Commented on issue #320 in galilai-group/stable-worldmodel",
+          "url": "https://github.com/galilai-group/stable-worldmodel/pull/320#issuecomment-5404634219",
+          "timestamp": "2026-08-25T03:22:42Z"
+        },
         {
           "member": "Brian Li",
           "type": "PullRequestEvent",
@@ -125,14 +289,6 @@
           "description": "Opened PR #1460 in EvolvingLMMs-Lab/lmms-eval",
           "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
           "timestamp": "2026-08-23T08:17:25Z"
-        },
-        {
-          "member": "Brian Li",
-          "type": "CreateEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "description": "Created branch brian/perf/reproducible-benchmark-harness in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-08-23T08:17:24Z"
         },
         {
           "member": "Brian Li",
@@ -144,27 +300,11 @@
         },
         {
           "member": "Brian Li",
-          "type": "CreateEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "description": "Created branch brian/perf/eval-phase-instrumentation in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-08-23T07:48:25Z"
-        },
-        {
-          "member": "Brian Li",
           "type": "PullRequestEvent",
           "repo": "EvolvingLMMs-Lab/lmms-eval",
           "description": "Opened PR #1457 in EvolvingLMMs-Lab/lmms-eval",
           "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
           "timestamp": "2026-08-23T07:19:31Z"
-        },
-        {
-          "member": "Brian Li",
-          "type": "CreateEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "description": "Created branch brian/perf/baseline-atomic-writer in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-08-23T07:19:29Z"
         },
         {
           "member": "Brian Li",
@@ -176,14 +316,6 @@
         },
         {
           "member": "Brian Li",
-          "type": "CreateEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "description": "Created branch brian/perf/baseline-recorder in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-08-23T07:19:25Z"
-        },
-        {
-          "member": "Brian Li",
           "type": "PullRequestEvent",
           "repo": "EvolvingLMMs-Lab/lmms-eval",
           "description": "Opened PR #1455 in EvolvingLMMs-Lab/lmms-eval",
@@ -192,11 +324,19 @@
         },
         {
           "member": "Brian Li",
-          "type": "CreateEvent",
+          "type": "PullRequestEvent",
           "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "description": "Created branch brian/perf/baseline-provenance in EvolvingLMMs-Lab/lmms-eval",
+          "description": "Opened PR #1454 in EvolvingLMMs-Lab/lmms-eval",
           "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-08-23T07:19:20Z"
+          "timestamp": "2026-08-23T07:19:18Z"
+        },
+        {
+          "member": "Brian Li",
+          "type": "PullRequestEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "description": "Opened PR #1453 in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-08-23T07:19:13Z"
         }
       ]
     },
@@ -220,42 +360,23 @@
       "recentMilestones": []
     },
     "social": {
-      "windowCount": 3,
-      "byTag": {
-        "research": 1
-      },
+      "windowCount": 6,
+      "byTag": {},
       "notable": [
         {
-          "author": "Yann LeCun",
-          "handle": "ylecun",
-          "text": "Only in America. \nTired of winning? https://t.co/agqlEf7bTO",
-          "url": "https://x.com/ylecun/status/2088924354604040368",
-          "createdAt": "2026-08-16T09:42:31.000Z",
+          "author": "Saining Xie",
+          "handle": "sainingxie",
+          "text": "great to see RAE extending to video! https://t.co/5D2njzS07n",
+          "url": "https://x.com/sainingxie/status/2092720774268301417",
+          "createdAt": "2026-08-26T21:08:08.000Z",
           "tags": [],
           "metrics": {
-            "likes": 739,
-            "retweets": 31,
-            "replies": 82,
-            "quotes": 6
+            "likes": 122,
+            "retweets": 6,
+            "replies": 1,
+            "quotes": 1
           },
           "highEngagement": true
-        },
-        {
-          "author": "Artem Zholus @ RLC",
-          "handle": "artemZholus",
-          "text": "I am attending #RLC2026 this week! The first weekend of it was 🚀! Please reach out if you'd like to chat about world models!",
-          "url": "https://x.com/artemZholus/status/2089211753766801746",
-          "createdAt": "2026-08-17T04:44:32.000Z",
-          "tags": [
-            "research"
-          ],
-          "metrics": {
-            "likes": 20,
-            "retweets": 0,
-            "replies": 0,
-            "quotes": 0
-          },
-          "highEngagement": false
         }
       ]
     }
@@ -267,6 +388,7 @@
       "df8b17c5-97e6-49e7-abb9-c21a39e4162a",
       "e1b64e18-74f3-458c-a7e4-2720e50823de",
       "7d58ea84-fd76-4ac7-ad6e-1424f76c42f9",
+      "0d7332d8-b8e7-40d3-89b6-dfc02b40bfa2",
       "9f59ac61-f20b-4d33-9343-9603f693523f"
     ],
     "publicationKeys": [
@@ -279,9 +401,9 @@
       "41401cb47d98892ae37b7a12d2a125afea245e76",
       "4f890d8373b93892ce2a50d87415653fc225a5a8",
       "1231876b4c92c7a26d4e0cbea9cac388d6dafefb",
+      "d503a7f08b8333f96cb6298085b96cb87f3fea4c",
       "7d909170d91e1b35b4b9a8ac01731d7aed2cd53e",
       "ef00907321ce5dd241f55a24fcdf49267320dd09",
-      "d503a7f08b8333f96cb6298085b96cb87f3fea4c",
       "35f8de974adebb5e036af5f4524d8358ef1f0171",
       "6a2f658d6ea2d3a1f2d03b11d0cce65e9881bd96",
       "bbb2fba52c4d7d3b29f58a5e136d012acdc2010d",
@@ -301,6 +423,7 @@
       "8d62bb68ffa636edd5b72a8fc8fcd99f37aeb836",
       "101274838d26060ebdbed1949b7a7b82c23cd9c2",
       "1692a95688453760a46c2f073574bf8a6c45173d",
+      "e075577f6009b707439792696fd4f6a7ddc39145",
       "7f012be3704ebd1ffaa7571f179368a7db8703f7",
       "a410289d9adea1f9047373cd7d924daaf63a575d",
       "220a20b046af83f448b405111d76c45168ae2421",
@@ -308,6 +431,7 @@
       "8f486c09cffd1d848db6da66591c430d683dae0f",
       "d48730481633499ce3ef5341c852c6439a5cae00",
       "f1a7a798e6ac2298f5f140d19ee25031e4f8e1d2",
+      "450fbc821abdb7b5d1c5e332ff0bbd98f5eb5674",
       "8c08f6f5b52f6d80116b1dc6b542f63b564b07c2",
       "f274a1bce813c2bb358ed7b6fbd54c08c17bac1a",
       "477e20594635eb0ced89bbf2dd9ec873278cf48d",
@@ -330,17 +454,17 @@
       "bed6ecff103c1a6f3a516d9b9d4847be8aff5294",
       "952a89a0add88d80674c0554aa116a83d82763df",
       "ca524f499028275f21776ea4b1fd41fd2ff7844b",
+      "6547a3550964ce49ee9d57c995959a7743f3fa03",
       "3f633672ef74063e9c894659dca604c79434b3b1",
       "81bd51aa553cdf24a4e5713a3d4562d310aa9ed3",
-      "6547a3550964ce49ee9d57c995959a7743f3fa03",
       "7e65d820f13cf94be083495fd2c433c0886f5a9b",
       "0571686b5b6a838759a3219cd8e8684a1992c0aa",
       "c20bfd9d9af460157201ad786e5f6b1898a292a0",
       "2e8ccd5997437eeb8001e58204e2b66eaad02142",
       "6209c4ab686552f9d644f56ff962018a67978e27",
       "b02857368ab8aae447e7856eda66d0d926603792",
-      "9ddc2b3cc7e2a165ada3ea880da3b7936c498122",
       "307fd51e30ef676c96a065122e2a4fb8696cc3f8",
+      "9ddc2b3cc7e2a165ada3ea880da3b7936c498122",
       "9d317102e82a43db4c461976c4ec914a1e423e90",
       "281539c8c28178f1b9badfc97649824f9b278806",
       "0b457a087fa7c01f37de67065be19f3aa8583aa8",
@@ -352,13 +476,13 @@
       "b60df2ce1466758f91eb0f1163845aadf37431b9",
       "f2b50aa84f10b0f89293fc116e91f8a93f7f40e7",
       "d7bbb7d6e5c0d8a12a1ca83aec3e99a0e8dc9070",
-      "6f9e6a47b8c2a65d3fa758bb4062f096b4afd34d",
       "8e8195f6706bc07c7fdf0707df640caee5b35079",
+      "6f9e6a47b8c2a65d3fa758bb4062f096b4afd34d",
       "088a45338d45f05f6a7460fb152615fb96150f6e",
       "ff6752c7461f1a6bdeef485efa93cec0db788945",
+      "ae403792b0fa5eb2cd27162567eab8e61cefdab0",
       "4214cfd60b1925f738ac728fa4a5c8feaa489db0",
       "6e82aaa7a4fb2e062a2b41d447a4bf82ab08dc52",
-      "ae403792b0fa5eb2cd27162567eab8e61cefdab0",
       "d8121b539e7499bc153358663d975d2b22ac66fd",
       "9ed9abb407371ff86811ec0cb97e6c6097c8f217",
       "d957fc669a5c32fb2a7f7e5f3f703a12b9040395",
@@ -386,13 +510,13 @@
       "5577066b9b69301f6fd61d9b6949fbdd2aed68d7",
       "c5c1eea3338ffaf46b548cd7e6678c2118393e47",
       "c70ea55cb8740b8260bca874d9f0921c6a8aa319",
+      "7fef3016487f62db760ac776d90034370e151467",
+      "9259321c507460c5a9989d3b5fff910d99469159",
+      "cda6bcc164e17138700b1cf10e572aa28c3fea1b",
       "e73b7ee48a1b4375b4bb2fdaa0021df1b9c8d1a1",
       "a59bd4c20088d57ea27eb51f860996fa58caf2a3",
       "42793a3ad8f3d0ec9ad613417c1e7a2ed2999ece",
       "853e540102e92f8150e14be5f7daf943f0a88194",
-      "7fef3016487f62db760ac776d90034370e151467",
-      "9259321c507460c5a9989d3b5fff910d99469159",
-      "cda6bcc164e17138700b1cf10e572aa28c3fea1b",
       "927498a8ccc57dc94e9654099c64d060aba5f4f8",
       "751ef04264d661f6a59e49f3fbd181ac46ef5eed",
       "a990b37c970a48b71533db1f49f51310a07755cb",
@@ -409,22 +533,23 @@
       "a8edca7e5b3e56e679ea0ccc9431cf37a42dcf4c",
       "bffdca2a8f44e13e7144527799bb9077d06259fe",
       "a146342d109a0802304ef99a863bcd893aa887c7",
-      "ef2cb2427e5b6768a809f1da243ae00a0d2ee0ea",
       "57d7977bb8ae533de61a317d907d8fa505ed1af3",
+      "ef2cb2427e5b6768a809f1da243ae00a0d2ee0ea",
       "24d9d00b91f99dde3c9a0ea5c79e63f2ed26151c",
-      "3452df196f838dc17667bd416d2eb6fc3f246e08",
       "97c44c9f6fa8da32dea71a7b593fe627a2e6748b",
+      "3452df196f838dc17667bd416d2eb6fc3f246e08",
       "ef03e180f8e0d46b9d5044a889103d8bb680e899",
       "cce911c13b5f83db5a73252f78a4f82883e1ff5a",
       "3f3ae1e2a30297c0fcbc14b48aa0229ecf444341",
       "dc008a333ac4aaf69ca9715c05741de40b18630a",
       "44c733e11c1de985f9cc31102a7e3d1a284421a2",
       "9568effdf3cf8b6076ca3c810d2cbc6f9b19bd51",
-      "682e200b367a63eb5444d5bb1e86eb797f5215ed",
       "9102b58c727577172e6c0cf53c9b928b752a33aa",
+      "682e200b367a63eb5444d5bb1e86eb797f5215ed",
       "0bcc3208ee89b533fbe7e3bbed00b6ac2ef68b09",
       "1089cd13b3005369a0fbac5f4b8e6269b4cfcefe",
       "27a028c9ad4145d52d5e00619a7672ca0429aac2",
+      "c490787518185bf04a2f76dd9d7fa4b35bbfd5ff",
       "aa5d0f6a14a9da689de842f6af61021e6d91aadf",
       "de23d38bc2604dcf334dcc46aff217eb6bcd1fe1",
       "713ee89befe350a88e3de0c0183fca27284ca5ef",
@@ -442,9 +567,11 @@
       "9fbc7f2053763bdbaabf04a8ccd463123931ed11",
       "4c6bf9459b8a14ee3bfbc1ac41366c7e41c15b63",
       "32ba79c6efb9cc16183f3df79c9f29877c049b9e",
+      "9d18a9d397a6beabf4b09128dd382d10fc989cf3",
       "af548607b73fcd51683842d2fbefb3f97205e885",
-      "e7831297d028f75191a7d13eaae79e5579600957",
       "56bb50c242752d35ea0f668860410620cd2c47cf",
+      "e7831297d028f75191a7d13eaae79e5579600957",
+      "892537d8ee88fd0e46e83fc52c5c45377ec2ec92",
       "7eb573a63d04cc85fa2f3b84042bb766240c7690",
       "464065726dbe1be51b32f05b4e33f0f66de20538",
       "671752289ffefa5b84bfae014c5bf1585756c932",
@@ -458,8 +585,8 @@
       "4d44f9ce850fd1ad976af1a7cf8a4a0d80de4334",
       "8430ea2921172c7c07e5286f19ffdf4a43d1d4b0",
       "6e31b451f0d06c59b142537626375a5579533495",
-      "b0d3b4be56a559305328e176a1ccf3ba4be56850",
       "ac2d302e041b603bc972627c92e2fa8f14ba1ac3",
+      "b0d3b4be56a559305328e176a1ccf3ba4be56850",
       "7943ec4a67151a559b25cd34369e661c9a7924c8",
       "b5c4c2f88fac2ca41854bbe8ae9740b9b03a0d3a",
       "ed92a7be6b2acc36baf0ed43454a97dbade0c893",
@@ -470,9 +597,9 @@
       "c4b1a89de59602a3a2728f2705be6dcd4bfaa77f",
       "a59f06bdda22df7474e93428239be38f2cdaf6ac",
       "3ee7b090c1371801f5e7e7480d2282c1d87b7730",
+      "9eb6cd5a12b37b717061f0060987492e82fecba6",
       "bb4616d5b5049aaade6b1f9a9c477086bb71c0ea",
       "f5ac95fa58815a35622a60f42a5729f518e57cdf",
-      "9eb6cd5a12b37b717061f0060987492e82fecba6",
       "7a2dfea68ce49dbab042bb29a890a4e357ebda6f",
       "f7135dca58bf8c6131ff2fbb708eac887a262640",
       "1ac7fc5a55ce5843fb8a19d9f62b623e822bb7de",
@@ -484,9 +611,12 @@
       "1a71f7b216b710b936da666027014adb83af8e7a",
       "e5a00acd40e7dd770f8d62227e58a2020077a45a",
       "84da5687bdb173c1ca00078c17317f1532e7a033",
+      "a7f5d373dbbb5dffe53538e0e87264f26373887a",
+      "047915e8b35841ad02e81d1eec11f4d4a5c6330b",
       "15c6406a50be8333b6a1de1aed46e19174eee6a8",
       "2e230519ef242e592b3c19765639008c7046424f",
       "1d2af7a1415566e6251f1270428c15e75d0096a0",
+      "66902fbf339ca56ba96e352e95c0ecf9faa29840",
       "155b480a52c1ef5bed03a2d1f78765767c0c5987",
       "fe649a1abaed4836a0148f1903a2b7a015de5012",
       "a86fd3b9e30262095dfa4bb17c2fccbd819a9a63",
@@ -494,12 +624,12 @@
       "168eb6d00131b2b2718bbc6c227c7d40ffdfa929",
       "fb48bffe6610ad544cb713af85b1579694dc4478",
       "8400b197d2647e79b4bf8cb8d020b90f6ddf7ca1",
-      "66902fbf339ca56ba96e352e95c0ecf9faa29840",
-      "94773f22b5befd0e167a7de525d29bec2b09937a",
       "5990dd4e00ab8d29d8942a953fa109716126b635",
+      "94773f22b5befd0e167a7de525d29bec2b09937a",
       "d3dd08e86a6c9a175385a3b4d282c5c754f4f51d",
       "3fb26c0cf930b04635540e4815c4b8ca0581155c",
       "fa271d807d020dc844d7e99e539f8b2e6745b952",
+      "1196cd4aa938a34105755feb47ce1610b58ea5de",
       "3637afb75e5b83803aff08a3ffdd35b02fa93775",
       "1c6ec21869e57a3756453b9d8c3e61e79c12c69f",
       "5b5601a55d0acb6a341149c22db982412082608c",
@@ -515,6 +645,7 @@
       "8f77307a394f006633c27cca56a345c0879eb67c",
       "4c01dfec69f5d55daae00b668665e94eb9da7f39",
       "2accffa2c7073b1a513f97da7c58a2ef1d7c0ec6",
+      "e34868427f607bd35f11576963c36b95673e5a75",
       "3f93e52c7f855d98a451b100cf9f292d6667420c",
       "4d1eadaa9a04e86aef2278ae13eb9fce644c9fc5",
       "bd859c34e172d6cb59d0a07e37ebdc10a4d5dd21",
@@ -533,8 +664,8 @@
       "f124ae1e4663359193be32adb37b07b3252d5329",
       "466134a53cd65ded957ce2d102a10eed3170e0e7",
       "3af8e9671eafa1d86ef914ff30f14a1e4d96e1d4",
-      "47bb105aeade86fd82ae22573cb77709d42760a9",
       "2f5b235bc24565358fcee6c32b1a16e12f5548aa",
+      "47bb105aeade86fd82ae22573cb77709d42760a9",
       "fc9994f5d0b966b16cbe61e6393b9f8be65bc416",
       "7e88160ab2b3c9224ce0b9a66bec1740728984bf",
       "44ffd3cd333bb41b900926556edb1c452759c398",
@@ -562,6 +693,8 @@
       "5dc01119b2e4911b0c1ae61233e36efe78588aed",
       "cbec8bf16a459b0ae38856f604a6a14cd1343477",
       "82a9b8984e26fdf234431459bdb445fbcfc3cb76",
+      "eba383558d36e6cacb23b3f477a2125c4b7d5043",
+      "81c03a26af98522bacd6cf566807fc08d596dada",
       "3fd9b536f0055114b7edd4cd99bf4886c537ebcf",
       "70e96aa193f6d11661ddae6c3f8350831bd5965b",
       "942c856469a6feee06c6c90c1571d6f4d3ebc65b",
@@ -569,7 +702,6 @@
       "b555fbe8d4e30fc1312c615ab7dfe6ac030dbcff",
       "d2b6db657204b8505ee6c7cf4833cb7811b6f162",
       "a24d6ccacda9b9dd62c66eb81cac000eae32dda2",
-      "81c03a26af98522bacd6cf566807fc08d596dada",
       "8a9b4df61a3099b33417d05fe37bba32def45b9a",
       "8f6f58da9011023c044a42bffa92310a5c55467c",
       "7c7687d5539d28c65560b6946ade6a6a6bda2226",
@@ -588,6 +720,7 @@
       "32dcd0887537cece54e214f531d2c384470b023f",
       "6cb35dd6e1338faa0c3d6a6b0020bbcbcc18653d",
       "cbff55da4255cf523bf028e9faf8508f039a92e7",
+      "9e00b821c5434e30e526e8b5cdefea77be3e6658",
       "1bdd5fc17cc580efe998304692639c57c857cc84",
       "9b4f7c97c0b83a80c32bc0b93595cbcfb4ecb16d",
       "3db1219429c3f04e88347d41269bdc83c457fbf9",
@@ -631,9 +764,11 @@
       "4e53b481beabba42aac027e5a8c69fed26ab4062",
       "7aa801b907b59b8ee4cfb1296d9dac22c5164c5d",
       "88788d73eb81dc0a1134f30a1ff815c727376681",
+      "351ede318e91c96843870b784017ab2f84fa6036",
       "07dbbb95eff2640e07ade6e42e666c14ae5d1d19",
       "34feea048b3a7a8643f32ae37bc0dda2442d9459",
       "32de8d5e2c38506227300691ca07a56f640017fd",
+      "d7d6701a0c6a252c950f1d046c277157da5a463d",
       "ac34ff3f547c942066ecc3b90f5db062a40432a8",
       "8a4e2828777c9b3703e8e2b68ac27d9af496261a",
       "5cc2001af252e89b106b2ecb781270cc36f2b408",
@@ -658,6 +793,7 @@
       "6153e4a228e3aa353cc970a1d01872d030a04297",
       "e979dd7efc96d742cb8a0adfe17bc4acc9f7201b",
       "d0ed8be702a3a10a91ea3661859ec6f1d5b26cd5",
+      "e796eadea7ccf76934ff0c1f196600aa88b5f717",
       "4fca50ab80e278f7210b632e501e3616dd3eb2a1",
       "cbaeb612e208eac2723f6d7a3e7f66350c10c801",
       "0c00e81e73bdcfcad82ff3a11e66b48b5012e0f8",
@@ -678,12 +814,15 @@
       "11c16254f7b61687b5d9b7637de032461a6ebb5f",
       "1d8f5fc168cfa4f62a0b59fb5dece866d36ffe61",
       "bca020e402056657f4021904a748ee75b91e4fc9",
+      "7cc1ef5aca31db5641fd2f09f2b07207fd1d37e6",
       "6a726594b4c52b60dfa13b759347d703ada04f47",
       "fc98ec17f28a06a2c3e283296494844eccba816f",
+      "89ed6b381aeb81715172f0ff60163f2ea3a3abc4",
       "8f4e732131e10b1df25ed7b7786f36a0886e86c5",
       "cf929aee6ef8a4092290badb58328bc79286bba0",
       "c41c6cddb9326335ac1efcf84bab083a96a26aac",
       "0376b7ff6bd5fd3df5dc766cb24f9ca8736ea34e",
+      "11c2e98be11a39c36a15499f9fac9c3b9e68c061",
       "1f571c8b972540370b6fb9b48564fd2d8069901f",
       "a6e231db70a6774abc995afc0201671e0dab4d3a",
       "aaedb51c8bfdc2517aec2eff796204b7a7c6d120",
@@ -717,9 +856,11 @@
       "b87b5797b661d6137301dd3167d573a94493936e",
       "31ba311a2fb22bcb575bedc73d5a80e620157276",
       "10bd4160b44803ada6a3d2e366c44b7e2a4ffe90",
+      "9291fab6800d152955c813331ef9465efad3d07f",
       "7d57c581e2c38dc23ed8256574575aaac8675810",
       "6c1f449ef6d45116092d9c9370fd55a642a0902c",
       "4c188c99cb75e065e025a74e87a68dd0f3ff0f84",
+      "99cafaec5f1936d388c23077872ac5589bbfca1d",
       "a01ac66f5f66a2b23152f631b920972e4407275c",
       "071f5565484ee844fe69b0e32e502e86ceb5196a",
       "dfda660925452210c39f6c64a377112da2b74e80",
@@ -731,8 +872,10 @@
       "0e9ac2cfc5a3ecb66eeace720901390f7809ba0a",
       "4ea9b807600537af27fbb8409f5e541714030dfa",
       "fb04891d44f81cd3ae9e13886f0a8adaff3dd75c",
-      "b65bc8bd4e8900c38eb09bc1cbccea2499a86627",
+      "04f6c77abfa457d546f07c1fdc59d47241720591",
+      "d5adb5323818b0f73403ab2509f5dea7e8e8401c",
       "744702eddf5a0851e1f74af5525666109e730d53",
+      "b65bc8bd4e8900c38eb09bc1cbccea2499a86627",
       "e4179bf0963012f9f13ce0ca61d3cdd12a87b336",
       "9fc8cbfa2bacd9933f7f50460db1627faeaa1a4f",
       "ff5f70c925be95dce6fb766a085beae66ab7fbbb",
@@ -775,8 +918,8 @@
       "491188ac198663094537cb4c38ac1c8808ef7440",
       "ccbd7f5f7aaa7a50e35ff3de41f718861de790c4",
       "448e077fc6cc9d05b5c1dffc9b02f12253273651",
-      "fd986d9988067df491604b1ae8152ade9b624053",
       "6eaf6ecc07862ed2339d43d93f1cc8fb127c4222",
+      "fd986d9988067df491604b1ae8152ade9b624053",
       "d686707aff5620e8788a63ba5cbb6aa100a34fdf",
       "f488bd9e631caf8c5803a5bc52ab3a36dd8e803c",
       "96424fde14891eb15709fab65577b2b8b146c4ce",
@@ -788,6 +931,7 @@
       "2f67c5259b1c4bf82c82e312df33037d053c856a",
       "7689f638e7d48fb391dd579baf3e8e360a0fe578",
       "e4afee97378ce41c703b9c4ee88ca442347d81c1",
+      "d37e125c272c1349b486b94804a5df6d9eb5ab34",
       "d58f07bab3ff01a002d139062ad83d5818c23864",
       "55edd0f014553e9faa2a9567f1323863f7e08410",
       "317cfe2959f01af336dde41473de7894b83e3a07",
@@ -808,6 +952,7 @@
       "bb797edf7556c57fe255d29a6c0647d6815f02b9",
       "f78f1e25a5a3dcb4745d31a27a15c87d246ec4c3",
       "51d4f2aec59da6d150932e03e7a45eac8c2945f8",
+      "d44ac0a7fd4734187bccafc4a2771027b8bb595e",
       "e12184b519c14d6964d1ab45ff13fd87f24891c5",
       "bfba23c642da07a0a82ffaa306f7707374383a7c",
       "862e96bd075ac44c9e4a172efd7a636fe9d03f83",
@@ -875,18 +1020,19 @@
       "43a6503308bc5c7156596c0246da39394b2eceb4",
       "551b369fd1e22ca354bb1d2a1853f79e20932e95",
       "07e6ee0c7df507e2ceb3b2393243284f1d9cf469",
-      "8a289c7171c78422726186339f1dd35726bfe3cc",
-      "be2bd2ca84460ab58c5563789b8cd482e977ee76",
-      "7b95fe26f6a0287ed7aaaf6e8567b61a49829c29",
-      "8cb7405a75657fa6f5774066bcb1c76b436e0e59",
-      "28dc53e76ede84d5c108752341c72519ef705405",
-      "f7b9d5e3b398eb46088d5b49462f4d1b85c75c00",
+      "559708856adda90d9946716ca4ea8573b8cd4cb6",
+      "7251e6d031e44aa932256e3a3a096f1e3202ca64",
       "6b2f415b612c59f4f1eed6445806aa6f5874137a",
       "8da0a421f8f7b3a6cff6d691a7f9f38dc25218eb",
       "cfee1826dd4743eab44c6e27a0cc5970effa4d80",
+      "28dc53e76ede84d5c108752341c72519ef705405",
       "7315ecd4d32bfce02c0c911550a1a59ebbfeb202",
-      "4e45ac10580841b22471dd37d45f478fdaa1efa0",
-      "7251e6d031e44aa932256e3a3a096f1e3202ca64"
+      "be2bd2ca84460ab58c5563789b8cd482e977ee76",
+      "7b95fe26f6a0287ed7aaaf6e8567b61a49829c29",
+      "8a289c7171c78422726186339f1dd35726bfe3cc",
+      "8cb7405a75657fa6f5774066bcb1c76b436e0e59",
+      "f7b9d5e3b398eb46088d5b49462f4d1b85c75c00",
+      "4e45ac10580841b22471dd37d45f478fdaa1efa0"
     ],
     "capital": 12449.43,
     "dirigeantKeys": [
@@ -899,81 +1045,82 @@
     "dessinKeys": []
   },
   "status": "ok",
-  "headline": "AMI continues expansion with wave of specialist hires",
-  "stateOfPlay": "We added 6 new members to our AMI Labs roster this week. The Technical Staff cohort clusters tightly around reinforcement learning, world models, model-based control, and multimodal agents, signaling that AMI continues to actively build the research muscle to pursue its core thesis. Taken together with GitHub activity focused on rigorous multimodal evaluation infrastructure, the week suggests a team that is quietly hardening both its scientific staff and its measurement tools.",
+  "headline": "AMI is building the scaffolding for causal world models",
+  "stateOfPlay": "This week we highlight two papers, one new hire, one job posting, and a burst of evaluation-framework commits. Overall, they reveal a lab systematically attacking the same problem from multiple angles: how to build video representations that are not merely descriptive but causal, predictive, and cheap enough to scale. LeVJEPA strips JEPA-style video pretraining to its essentials and achieves up to 20.8× compute reduction versus V-JEPA 2; LpWM argues that sparse internal representations make world-model dynamics simpler and more interpretable; and the new Mila hire, Lucas Maes, the lead author on the LeWorldModel research paper, was recruited precisely for his work on planning and temporal abstraction inside JEPAs.",
   "threads": [
     {
-      "title": "Six hires offer clues to AMI's technical roadmap",
+      "title": "LeVJEPA and LpWM together sketch AMI's architectural thesis: simpler is scalable",
+      "category": "research",
+      "narrative": "The release of the LeVJEPA and LpWM research papers addresses consecutive layers of the same problem. LeVJEPA — described by AMI as matching or beating V-JEPA 2 with as much as 20.8× less pretraining compute — achieves this by eliminating the target network, predictor, and stop-gradient that have become standard JEPA scaffolding. A single encoder, a single objective. The implication is architectural: AMI believes the complexity that earlier JEPA variants offloaded onto training heuristics can instead be absorbed into representation quality. Crucially, the paper also claims the resulting representations are causal — suited to future world models, not just frozen embeddings.\n\nLpWM picks up exactly where LeVJEPA leaves off. If you want to build a planning system on top of video representations, what should those representations look like? AMI's answer, per the LpWorldModel paper, is sparse rather than dense. Sparsity shifts complexity out of the predictor — the dynamics model that forecasts how the world evolves — and yields more interpretable structure in how state changes. The two papers are complementary by design: one argues for simplicity in learning representations, the other argues for sparsity in using them for planning. Together they constitute something close to a design manifesto for AMI's world-model stack.",
+      "evidence": [
+        {
+          "label": "LeVJEPA paper",
+          "url": "/news/new-research-levjepa-efficient-and-scalable-video-pretraining-without-the-heuristics"
+        },
+        {
+          "label": "LpWM paper",
+          "url": "/news/new-research-lpwm-a-case-for-sparse-representations-in-world-models"
+        }
+      ]
+    },
+    {
+      "title": "Lucas Maes hire closes the loop from research to planning",
       "category": "hiring",
-      "narrative": "The six new Members of Technical Staff brought on board over the past few weeks bring an interesting composition of backgrounds. Scott Fujimoto is one of the more recognized names in offline and deep Reinforcement Learning, with roots at Mila, Meta, and McGill. Mikael Henaff brings sequential reasoning, memory, and model-based control from Facebook AI Research. Artem Zholus — who arrived from Meta, Google DeepMind, and EPFL — lists world models and robotics as his specialisms, and recently attended RLC 2026 representing AMI and soliciting conversations on world models. Yuexiang Zhai rounds out the RL cluster with work on reasoning agents and large-scale agent systems.\n\nThe two remaining hires fill complementary roles. Chen Wei, who maintains an active faculty position at Rice University while joining as MTS in New York, brings broad experience across Meta and Google DeepMind and suggests AMI is comfortable with an academic-affiliate model that may accelerate research output without requiring full-time relocation. Chenxia Tang, joining in Singapore on infrastructure and system optimization from ByteDance, points to the engineering substrate those research ambitions will need. Collectively, the cohort spans Montreal, New York, and Singapore. This geographic spread reinforces AMI's positioning as a distributed, internationally composed lab rather than a Paris-centric operation.",
+      "narrative": "AMI's recruitment of Lucas Maes, a Mila PhD student whose work centers on improving JEPAs through planning, temporal abstraction, goal specification, and physical reasoning, is not incidental to the research week. Maes was the lead author on LeWorldModel, a research paper co-authored with several other AMI Labs researchers and considered a breakthrough by making JEPA more stable. In that respect, his joining AMI seems somewhat inevitable. His first visible GitHub action was a comment on an issue in the galilai-group/stable-worldmodel repository, suggesting he is already engaging with world-model infrastructure.\n\nThe open Geometry and 3D Vision scientist/intern job posting in Paris adds a further dimension. Its job description frames video as the primary data source for understanding physical-world state, predicting how the world evolves, and planning action sequences — language that maps directly onto the three-capability agenda visible in LpWM and LeVJEPA. Hiring for 3D geometry suggests AMI intends to ground these video representations spatially, which would be a prerequisite for any robotics or embodied application of the world models the team is building.",
       "evidence": [
         {
-          "label": "Artem Zholus profile",
-          "url": "https://ami.frenchtechjournal.com/team/artem-zholus"
+          "label": "Lucas Maes hire profile",
+          "url": "https://ami.frenchtechjournal.com/team/lucas-maes"
         },
         {
-          "label": "Scott Fujimoto profile",
-          "url": "https://ami.frenchtechjournal.com/team/scott-fujimoto"
+          "label": "Lucas Maes on stable-worldmodel repo",
+          "url": "https://github.com/galilai-group/stable-worldmodel/pull/320#issuecomment-5404634219"
         },
         {
-          "label": "Mikael Henaff profile",
-          "url": "https://ami.frenchtechjournal.com/team/mikael-henaff"
-        },
-        {
-          "label": "Yuexiang Zhai profile",
-          "url": "https://ami.frenchtechjournal.com/team/yuexiang-zhai"
-        },
-        {
-          "label": "Chen Wei profile",
-          "url": "https://ami.frenchtechjournal.com/team/chen-wei"
-        },
-        {
-          "label": "Chenxia Tang profile",
-          "url": "https://ami.frenchtechjournal.com/team/chenxia-tang"
+          "label": "Geometry and 3D Vision job posting",
+          "url": "https://jobs.ashbyhq.com/ami/0d7332d8-b8e7-40d3-89b6-dfc02b40bfa2"
         }
       ]
     },
     {
-      "title": "Brian Li's evaluation push signals AMI is investing in measurement before publication",
+      "title": "Brian Li's evaluation push signals AMI is preparing to benchmark its own models rigorously",
       "category": "research",
-      "narrative": "The most concentrated GitHub activity this week came from Brian Li, who opened multiple pull requests against the `EvolvingLMMs-Lab/lmms-eval` repository — a widely used harness for evaluating large multimodal models — with branch names including: `reproducible-benchmark-harness`, `eval-phase-instrumentation`, `baseline-atomic-writer`, `baseline-recorder`, `baseline-provenance`. Each name points to a different layer of evaluation reliability: reproducibility, observability, atomicity of writes, result recording, and data provenance. This appears to be a systematic effort to make a benchmark framework trustworthy at scale.\n\nThe inference is that AMI is preparing to run serious, reportable evaluations of multimodal models and wants the scaffolding to be airtight before results go public. Labs that are about to publish or release models invest in exactly this kind of evaluation infrastructure. Quentin Le Lidec's 14 events and Amir Bar's 10 events round out a week with 48 total GitHub events across seven contributors. This healthy cadence that suggests active, distributed engineering work, even if the specific repos for those contributors are not detailed in this window.",
+      "narrative": "Brian Li accounted for 15 of the week's 36 GitHub events, almost entirely concentrated in EvolvingLMMs-Lab/lmms-eval — a community evaluation framework for large multimodal models. He opened at least six pull requests and merged one that week. The volume and clustering of this activity suggests it is not routine maintenance but a structured effort to extend or adapt the eval suite, possibly to cover video or world-model outputs that AMI's own systems will need to be measured against.\n\nThis matters because AMI's research credibility depends on reproducible, externally legible benchmarking. LeVJEPA's headline claim — 20.8× compute savings against V-JEPA 2 — requires a trustworthy measurement apparatus. Li's sustained engagement with lmms-eval points to a team that is investing in the infrastructure of verification, not just in the models themselves.",
       "evidence": [
         {
-          "label": "lmms-eval repo (Brian Li PRs)",
+          "label": "Brian Li merged PR in lmms-eval",
           "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval"
-        }
-      ]
-    },
-    {
-      "title": "A low-citation speech paper surfaces under LeCun's name — peripheral, but worth noting",
-      "category": "research",
-      "narrative": "The sole new publication indexed this week is SpidR-Adapt, a speech representation model for few-shot cross-lingual adaptation, credited to Yann LeCun and dated December 2025, presented at ACL. The paper frames low-resource speech learning as a meta-learning problem and introduces a first-order bi-level optimization scheme (FOBLO) to avoid the computational cost of standard meta-training. With a citation count of one, it is clearly early-stage in its community impact.\n\nThis sits at some distance from AMI's core world-model and visual intelligence agenda — speech is not a prominent strand of the lab's public positioning. LeCun's name appearing on a speech paper is not unusual given his broad collaborative footprint, and the facts do not support reading this as a strategic pivot. It is worth logging as part of the publication record, but it does not materially alter the picture the hiring wave and GitHub activity paint for the week.",
-      "evidence": [
-        {
-          "label": "SpidR-Adapt (arXiv)",
-          "url": "https://doi.org/10.48550/arXiv.2512.21204"
         }
       ]
     }
   ],
   "signals": [
     {
-      "text": "Newly hired Artem Zholus was publicly representing AMI at RLC 2026 the week he joined, explicitly soliciting conversations on world models — a small but telling sign of how quickly new hires are being put into the research community as AMI's faces.",
-      "category": "hiring",
-      "url": "https://x.com/artemZholus/status/2089211753766801746",
+      "text": "Saining Xie publicly endorsed what he described as RAE extending to video, attracting 122 likes — a rare instance of a senior AMI figure amplifying external video-representation work in a week dominated by AMI's own video papers. It reinforces that the team is watching the broader field closely even as it publishes.",
+      "category": "research",
+      "url": "https://x.com/sainingxie/status/2092720774268301417",
       "linkLabel": "Tweet"
-    }
-  ],
-  "whatToWatch": "The latest arrivals of specialists, combined with a systematic push to harden multimodal evaluation infrastructure. Does this suggest AMI may be approaching a point where it publishes or releases something more substantial?",
-  "whatToWatchLinks": [
-    {
-      "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-      "linkLabel": "lmms-eval repo"
     },
     {
-      "url": "https://ami.frenchtechjournal.com/team/artem-zholus",
-      "linkLabel": "Artem Zholus profile"
+      "text": "The bulk of the week's newly surfaced publications belong to Artem Zholus, whose prior work spans causal video transformers (TRecViT), point tracking (TAPNext, TAPNext++), and semantic latent spaces for robotic world models — a portfolio that aligns tightly with AMI's current agenda and suggests his research history was a significant factor in his recruitment.",
+      "category": "research",
+      "url": "https://doi.org/10.48550/arXiv.2605.06388"
     }
   ],
-  "publishedAt": "2026-08-24T00:58:49.532Z"
+  "whatToWatch": "The convergence of LeVJEPA, LpWM, the Maes hire, and the 3D Vision opening suggests AMI continues to make progress on components such as efficient video pretraining, sparse world-model dynamics, planning expertise, and spatial grounding. How long it takes for this to be integrated into a single demonstrable system in terms of a unified world-model release or a robotics-adjacent benchmark result remains to be seen.",
+  "whatToWatchLinks": [
+    {
+      "url": "/news/new-research-levjepa-efficient-and-scalable-video-pretraining-without-the-heuristics",
+      "linkLabel": "LeVJEPA paper"
+    },
+    {
+      "url": "/news/new-research-lpwm-a-case-for-sparse-representations-in-world-models",
+      "linkLabel": "LpWM paper"
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/ami/0d7332d8-b8e7-40d3-89b6-dfc02b40bfa2",
+      "linkLabel": "3D Vision posting"
+    }
+  ],
+  "publishedAt": "2026-08-30T23:22:04.532Z"
 }
