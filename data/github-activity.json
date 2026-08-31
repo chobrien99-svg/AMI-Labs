@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-08-31T12:33:14.412Z",
+  "lastFetched": "2026-08-31T22:21:39.472Z",
   "members": [
     {
       "slug": "adithya-iyer",
@@ -320,74 +320,114 @@
       "githubUrl": "https://github.com/lihaoyi",
       "events": [
         {
+          "type": "CreateEvent",
+          "repo": "lihaoyi/mill-1",
+          "repoUrl": "https://github.com/lihaoyi/mill-1",
+          "description": "Created branch fix-7039-forked-test-queue-duplicates in lihaoyi/mill-1",
+          "url": "https://github.com/lihaoyi/mill-1",
+          "timestamp": "2026-08-31T13:39:02Z"
+        },
+        {
+          "type": "CreateEvent",
+          "repo": "lihaoyi/mill-1",
+          "repoUrl": "https://github.com/lihaoyi/mill-1",
+          "description": "Created branch fix-6812-utest-custom-framework-setup in lihaoyi/mill-1",
+          "url": "https://github.com/lihaoyi/mill-1",
+          "timestamp": "2026-08-31T13:38:49Z"
+        },
+        {
           "type": "PushEvent",
-          "repo": "com-lihaoyi/mill-moduledefs",
-          "repoUrl": "https://github.com/com-lihaoyi/mill-moduledefs",
-          "description": "Pushed 0 commits to main on com-lihaoyi/mill-moduledefs",
-          "url": "https://github.com/com-lihaoyi/mill-moduledefs",
-          "timestamp": "2026-08-29T01:11:04Z"
+          "repo": "com-lihaoyi/mill",
+          "repoUrl": "https://github.com/com-lihaoyi/mill",
+          "description": "Pushed 0 commits to main on com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-08-31T13:35:42Z"
         },
         {
           "type": "PushEvent",
           "repo": "lihaoyi/mill-1",
           "repoUrl": "https://github.com/lihaoyi/mill-1",
-          "description": "Pushed 0 commits to fix-7409-idea-new-project on lihaoyi/mill-1",
+          "description": "Pushed 0 commits to fix-6811-stderr-color on lihaoyi/mill-1",
           "url": "https://github.com/lihaoyi/mill-1",
-          "timestamp": "2026-08-31T00:04:09Z"
+          "timestamp": "2026-08-31T13:39:53Z"
         },
         {
-          "type": "PullRequestEvent",
+          "type": "PushEvent",
+          "repo": "lihaoyi/mill-1",
+          "repoUrl": "https://github.com/lihaoyi/mill-1",
+          "description": "Pushed 0 commits to fix-7299-script-relative-paths on lihaoyi/mill-1",
+          "url": "https://github.com/lihaoyi/mill-1",
+          "timestamp": "2026-08-31T13:36:50Z"
+        },
+        {
+          "type": "CreateEvent",
+          "repo": "lihaoyi/mill-1",
+          "repoUrl": "https://github.com/lihaoyi/mill-1",
+          "description": "Created branch fix-6788-custom-framework-sandbox-dir in lihaoyi/mill-1",
+          "url": "https://github.com/lihaoyi/mill-1",
+          "timestamp": "2026-08-31T13:38:44Z"
+        },
+        {
+          "type": "PushEvent",
+          "repo": "lihaoyi/mill-1",
+          "repoUrl": "https://github.com/lihaoyi/mill-1",
+          "description": "Pushed 0 commits to fix-7142-prepare-offline on lihaoyi/mill-1",
+          "url": "https://github.com/lihaoyi/mill-1",
+          "timestamp": "2026-08-31T13:37:03Z"
+        },
+        {
+          "type": "PushEvent",
+          "repo": "lihaoyi/mill-1",
+          "repoUrl": "https://github.com/lihaoyi/mill-1",
+          "description": "Pushed 0 commits to fix-7066-test-classloader-shutdown on lihaoyi/mill-1",
+          "url": "https://github.com/lihaoyi/mill-1",
+          "timestamp": "2026-08-31T13:36:40Z"
+        },
+        {
+          "type": "PushEvent",
           "repo": "com-lihaoyi/mill",
           "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Opened PR #7521 in com-lihaoyi/mill",
+          "description": "Pushed 0 commits to main on com-lihaoyi/mill",
           "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-31T00:23:27Z"
+          "timestamp": "2026-08-31T13:31:46Z"
         },
         {
           "type": "PullRequestEvent",
           "repo": "com-lihaoyi/mill",
           "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Opened PR #7520 in com-lihaoyi/mill",
+          "description": "Opened PR #7524 in com-lihaoyi/mill",
           "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-31T00:22:34Z"
+          "timestamp": "2026-08-31T14:08:18Z"
         },
         {
-          "type": "PullRequestEvent",
+          "type": "PushEvent",
+          "repo": "lihaoyi/mill-1",
+          "repoUrl": "https://github.com/lihaoyi/mill-1",
+          "description": "Pushed 0 commits to fix-6888-early-system-properties on lihaoyi/mill-1",
+          "url": "https://github.com/lihaoyi/mill-1",
+          "timestamp": "2026-08-31T13:36:35Z"
+        },
+        {
+          "type": "CreateEvent",
+          "repo": "lihaoyi/mill-1",
+          "repoUrl": "https://github.com/lihaoyi/mill-1",
+          "description": "Created branch fix-6333-ksp-resources in lihaoyi/mill-1",
+          "url": "https://github.com/lihaoyi/mill-1",
+          "timestamp": "2026-08-31T13:38:36Z"
+        },
+        {
+          "type": "PushEvent",
           "repo": "com-lihaoyi/mill",
           "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Opened PR #7519 in com-lihaoyi/mill",
+          "description": "Pushed 0 commits to main on com-lihaoyi/mill",
           "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-31T00:22:23Z"
+          "timestamp": "2026-08-31T13:31:56Z"
         },
         {
           "type": "PullRequestEvent",
           "repo": "com-lihaoyi/mill",
           "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Opened PR #7518 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-31T00:21:47Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "closed PR #7471 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-30T04:02:43Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Opened PR #7517 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-31T00:20:55Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Opened PR #7516 in com-lihaoyi/mill",
+          "description": "closed PR #7516 in com-lihaoyi/mill",
           "url": "https://github.com/com-lihaoyi/mill",
           "timestamp": "2026-08-31T00:20:41Z"
         },
@@ -395,49 +435,9 @@
           "type": "PullRequestEvent",
           "repo": "com-lihaoyi/mill",
           "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "closed PR #7515 in com-lihaoyi/mill",
+          "description": "Opened PR #7523 in com-lihaoyi/mill",
           "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-31T00:19:17Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Opened PR #7515 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-31T00:19:17Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Opened PR #7514 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-31T00:18:18Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "closed PR #7473 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-31T00:03:45Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Opened PR #7513 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-31T00:17:14Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "closed PR #7511 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-31T00:14:10Z"
+          "timestamp": "2026-08-31T13:48:41Z"
         }
       ]
     },
