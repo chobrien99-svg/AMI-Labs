@@ -25,6 +25,9 @@ jobs:
           DIGEST_FROM_EMAIL: ${{ vars.DIGEST_FROM_EMAIL }}
           DIGEST_REPLY_TO: ${{ vars.DIGEST_REPLY_TO }}
           SANITY_API_READ_TOKEN: ${{ secrets.SANITY_API_READ_TOKEN }}
+          # Signs the per-recipient unsubscribe links. Must match the value the site
+          # uses for /api/confirm and /api/unsubscribe, or the links will not verify.
+          CONFIRM_SECRET: ${{ secrets.CONFIRM_SECRET }}
         run: node scripts/send-digest.js
 
       - name: Commit new-research digest state

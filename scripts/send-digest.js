@@ -8,6 +8,7 @@
  */
 
 const https = require("https");
+const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
 const { stripBriefingScaffolding } = require("./lib/strip-scaffolding");
@@ -20,6 +21,17 @@ const SANITY_TOKEN = process.env.SANITY_API_READ_TOKEN || "";
 const SANITY_PROJECT_ID = "k8hl9hed";
 const SANITY_DATASET = "production";
 const SITE_URL = "https://ami.frenchtechjournal.com";
+// Same secret and HMAC scheme as /api/subscribe and /api/confirm, so the unsubscribe
+// endpoint can verify links this script signs.
+const CONFIRM_SECRET = process.env.CONFIRM_SECRET || "";
+
+// Signed over the address alone — no expiry, because an unsubscribe link has to keep
+// working in a digest opened months from now. "unsubscribe:" is domain separation from
+// the confirmation token, which signs `email:expires` with the same secret.
+function unsubscribeUrlFor(email) {
+  const token = crypto.createHmac("sha256", CONFIRM_SECRET).update(`unsubscribe:${email}`).digest("hex");
+  return `${SITE_URL}/api/unsubscribe?email=${encodeURIComponent(email)}&token=${token}`;
+}
 
 // ── helpers ──────────────────────────────────────────────────────────────────
 
@@ -327,7 +339,11 @@ function briefingSection(b) {
 
 // ── fetch subscribers and send ────────────────────────────────────────────────
 
-function buildHtml(briefing, newArticles, newJobs, newResearch = []) {
+// `unsubscribeUrl` is per recipient. It was previously the literal Resend broadcast
+// merge tag {{unsubscribe_url}}, which /emails/batch never substitutes — so every digest
+// shipped with a dead link in the footer. Taking it as an argument means a missing URL is
+// a visible failure at the call site rather than a placeholder that mails out unnoticed.
+function buildHtml(briefing, newArticles, newJobs, newResearch = [], unsubscribeUrl = "") {
   const weekLabel = new Date().toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
   return `<!DOCTYPE html>
 <html lang="en">
@@ -399,7 +415,7 @@ function buildHtml(briefing, newArticles, newJobs, newResearch = []) {
                 You&rsquo;re receiving this because you subscribed at
                 <a href="https://frenchtechjournal.com" style="color:${DZ.blue};text-decoration:none;">frenchtechjournal.com</a>.
                 &nbsp;&middot;&nbsp;
-                <a href="{{unsubscribe_url}}" style="color:${DZ.blue};text-decoration:none;">Unsubscribe</a>
+                <a href="${unsubscribeUrl}" style="color:${DZ.blue};text-decoration:none;">Unsubscribe</a>
               </p>
             </td>
           </tr></table>
@@ -416,6 +432,13 @@ function buildHtml(briefing, newArticles, newJobs, newResearch = []) {
 async function main() {
   // Credentials are required only to actually send — checked here so importing
   // buildHtml (for previews/tests) doesn't terminate the caller.
+  if (!CONFIRM_SECRET) {
+    console.error(
+      "Missing CONFIRM_SECRET — unsubscribe links cannot be signed, and sending without a " +
+      "working unsubscribe is not something to do quietly. Set it to the same value the site uses."
+    );
+    process.exit(1);
+  }
   if (!API_KEY || !AUDIENCE_ID) {
     console.error("Missing RESEND_API_KEY or RESEND_AUDIENCE_ID");
     process.exit(1);
@@ -454,8 +477,6 @@ async function main() {
     process.exit(0);
   }
 
-  const html = buildHtml(briefing, newArticles, newJobs, newResearch);
-
   // Fetch all contacts
   const contactsRes = await resend("GET", `/audiences/${AUDIENCE_ID}/contacts`);
   if (contactsRes.status !== 200) {
@@ -476,13 +497,22 @@ async function main() {
   const BATCH_SIZE = 100;
 
   for (let i = 0; i < contacts.length; i += BATCH_SIZE) {
-    const batch = contacts.slice(i, i + BATCH_SIZE).map((c) => ({
-      from: FROM_EMAIL,
-      to: [c.email],
-      subject,
-      html,
-      ...(REPLY_TO ? { reply_to: REPLY_TO } : {}),
-    }));
+    const batch = contacts.slice(i, i + BATCH_SIZE).map((c) => {
+      const unsubUrl = unsubscribeUrlFor(c.email);
+      return {
+        from: FROM_EMAIL,
+        to: [c.email],
+        subject,
+        html: buildHtml(briefing, newArticles, newJobs, newResearch, unsubUrl),
+        // RFC 8058 one-click: gives Gmail and Apple Mail their native unsubscribe
+        // control, which bulk-sender rules now expect alongside the in-body link.
+        headers: {
+          "List-Unsubscribe": `<${unsubUrl}>`,
+          "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+        },
+        ...(REPLY_TO ? { reply_to: REPLY_TO } : {}),
+      };
+    });
 
     const res = await resend("POST", "/emails/batch", batch);
     if (res.status !== 200 && res.status !== 201) {
