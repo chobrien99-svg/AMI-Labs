@@ -1,9 +1,137 @@
 {
-  "lastChecked": "2026-08-30T10:19:53.605Z",
-  "lastSeenId": "2092720774268301417",
-  "lastSeenAt": "2026-08-26T21:08:08.000Z",
+  "lastChecked": "2026-08-31T11:25:41.814Z",
+  "lastSeenId": "2094381442188923358",
+  "lastSeenAt": "2026-08-31T11:07:02.000Z",
   "listId": "2068355339636887579",
   "posts": [
+    {
+      "id": "2094381442188923358",
+      "authorId": "714135850934734849",
+      "authorUsername": "_amirbar",
+      "authorSlug": "amir-bar",
+      "authorName": "Amir Bar",
+      "createdAt": "2026-08-31T11:07:02.000Z",
+      "text": "and to think we used to complain about the em dash… https://t.co/sFAQr9jLwz",
+      "url": "https://x.com/_amirbar/status/2094381442188923358",
+      "isQuote": true,
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "engagementScore": 0,
+      "highEngagement": false,
+      "tags": [],
+      "urls": [
+        "https://twitter.com/_amirbar/status/2094376007415320965"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2094376007415320965",
+      "authorId": "714135850934734849",
+      "authorUsername": "_amirbar",
+      "authorSlug": "amir-bar",
+      "authorName": "Amir Bar",
+      "createdAt": "2026-08-31T10:45:26.000Z",
+      "text": "I can finally root out the annoying Claude Code language “Arm A/B”, “The incumbent” …. Only to find out new students adopted it 🤦‍♂️",
+      "url": "https://x.com/_amirbar/status/2094376007415320965",
+      "isQuote": false,
+      "metrics": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 1
+      },
+      "engagementScore": 4,
+      "highEngagement": false,
+      "tags": [],
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2094157380972061165",
+      "authorId": "1246070462679040000",
+      "authorUsername": "randall_balestr",
+      "authorSlug": null,
+      "authorName": "Randall Balestriero",
+      "createdAt": "2026-08-30T20:16:41.000Z",
+      "text": "We are 18 hours away from the World Modeling Workshop! \nQuick things:\n- https://t.co/ux6MFRVKU1 for the latest infos and the YouTube livestream link (free and open to everyone)\n- &gt;= 2 annoucements during opening remarks\n- amazing lineup of speakers/attendees\n\nSee you soon!",
+      "url": "https://x.com/randall_balestr/status/2094157380972061165",
+      "isQuote": false,
+      "metrics": {
+        "likes": 99,
+        "retweets": 16,
+        "replies": 4,
+        "quotes": 2
+      },
+      "engagementScore": 135,
+      "highEngagement": true,
+      "tags": [
+        "research"
+      ],
+      "urls": [
+        "https://wm-booth.org"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2093334930822402274",
+      "authorId": "1246070462679040000",
+      "authorUsername": "randall_balestr",
+      "authorSlug": null,
+      "authorName": "Randall Balestriero",
+      "createdAt": "2026-08-28T13:48:34.000Z",
+      "text": "Forgot to mention, it is fully causal in time (pretraining and inference)! A more natural and efficient setup than bidirectional, especially for low latency on device applications! Hope you will try it on your data and share feeebacks! https://t.co/oU90sE7HuM",
+      "url": "https://x.com/randall_balestr/status/2093334930822402274",
+      "isQuote": true,
+      "metrics": {
+        "likes": 112,
+        "retweets": 3,
+        "replies": 2,
+        "quotes": 0
+      },
+      "engagementScore": 118,
+      "highEngagement": true,
+      "tags": [],
+      "urls": [
+        "https://twitter.com/lukaskuhn77/status/2093318310779613563"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2093322239529652671",
+      "authorId": "1246070462679040000",
+      "authorUsername": "randall_balestr",
+      "authorSlug": null,
+      "authorName": "Randall Balestriero",
+      "createdAt": "2026-08-28T12:58:08.000Z",
+      "text": "SIGReg for pretraining Video Foundation Models! Our LeVJEPA opens many doors...\n- stable recipe with a simple loss (sigreg + prediction)\n- no tubelet, frame aggregation, EMA, stop-gradient, ....\n- 20X more FLOP efficient than VJEPA1/2 pretraining\n- open source + reproducible https://t.co/rCwJRx2Dim https://t.co/oU90sE7HuM",
+      "url": "https://x.com/randall_balestr/status/2093322239529652671",
+      "isQuote": true,
+      "metrics": {
+        "likes": 281,
+        "retweets": 33,
+        "replies": 9,
+        "quotes": 2
+      },
+      "engagementScore": 351,
+      "highEngagement": true,
+      "tags": [
+        "research"
+      ],
+      "urls": [
+        "https://x.com/randall_balestr/status/2093322239529652671/photo/1",
+        "https://twitter.com/lukaskuhn77/status/2093318310779613563"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
     {
       "id": "2092720774268301417",
       "authorId": "1283081795890626560",
