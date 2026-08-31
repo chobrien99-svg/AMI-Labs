@@ -1,21 +1,6 @@
 import Link from "next/link";
 
-interface Document {
-  id: string;
-  title: string;
-  description: string;
-  category: string;
-  date: string;
-  filename: string;
-  label: string;
-  access: string;
-}
-
-interface ExplainersClientProps {
-  pitchdeck: Document | null;
-}
-
-export default function ExplainersClient({ pitchdeck }: ExplainersClientProps) {
+export default function ExplainersClient() {
   return (
     <>
       <div className="page-header">
@@ -26,36 +11,6 @@ export default function ExplainersClient({ pitchdeck }: ExplainersClientProps) {
       </div>
 
       <main>
-        {/* ── Pitchdeck embed ── */}
-        {pitchdeck && (
-          <section className="explainer-embed-section">
-            <div className="section-header" style={{ marginTop: 0 }}>
-              <div className="section-icon" style={{ background: "var(--accent-dim)" }}>📄</div>
-              <h2>Pitchdeck</h2>
-              <span className="section-count">{pitchdeck.label}</span>
-            </div>
-
-            <div className="explainer-embed">
-              <div className="explainer-embed-bar">
-                <span className="explainer-embed-title">{pitchdeck.title}</span>
-                <span className="explainer-embed-label">{pitchdeck.label}</span>
-                <a
-                  href={`/documents/${pitchdeck.filename}`}
-                  download
-                  className="explainer-embed-dl"
-                >
-                  ↓ Download PDF
-                </a>
-              </div>
-              <iframe
-                src={`/documents/${pitchdeck.filename}`}
-                className="explainer-embed-iframe"
-                title={pitchdeck.title}
-              />
-            </div>
-          </section>
-        )}
-
         {/* ── Editorial cards ── */}
         <div className="section-header">
           <div className="section-icon" style={{ background: "var(--electric-dim)" }}>🧠</div>
