@@ -26,8 +26,383 @@
   ],
   "reportsTo": "michael-rabbat",
   "reports": [],
-  "papers": [],
-  "topPublications": [],
+  "papers": [
+    {
+      "paperId": "437cb869d42d536ad1b2f35399c99ab79ec65d5a",
+      "title": "LeVJEPA: Efficient&Scalable Video Pretraining without the Heuristics",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/437cb869d42d536ad1b2f35399c99ab79ec65d5a",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "quentin-le-lidec",
+          "name": "Quentin Le Lidec"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Lukas Kuhn"
+        },
+        {
+          "slug": null,
+          "name": "Giuseppe Serra"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Florian Buettner"
+        }
+      ]
+    },
+    {
+      "paperId": "302343f7676e209391f3d5e3409a1b157c9df45a",
+      "title": "LpWM: A Case for Sparse Representations in World Models",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/302343f7676e209391f3d5e3409a1b157c9df45a",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": "quentin-le-lidec",
+          "name": "Quentin Le Lidec"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Yilun Kuang"
+        },
+        {
+          "slug": null,
+          "name": "Yash Dagade"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        }
+      ]
+    },
+    {
+      "paperId": "7d909170d91e1b35b4b9a8ac01731d7aed2cd53e",
+      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.11389",
+      "citationCount": 24,
+      "coAuthors": [
+        {
+          "slug": "quentin-le-lidec",
+          "name": "Quentin Le Lidec"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Heejeong Nam"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        }
+      ]
+    },
+    {
+      "paperId": "8d62bb68ffa636edd5b72a8fc8fcd99f37aeb836",
+      "title": "stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.21800",
+      "citationCount": 6,
+      "coAuthors": [
+        {
+          "slug": "quentin-le-lidec",
+          "name": "Quentin Le Lidec"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Luiz Facury"
+        },
+        {
+          "slug": null,
+          "name": "Nassim Massaudi"
+        },
+        {
+          "slug": null,
+          "name": "Ayush Chaurasia"
+        },
+        {
+          "slug": null,
+          "name": "Francesco Capuano"
+        },
+        {
+          "slug": null,
+          "name": "Richard Gao"
+        },
+        {
+          "slug": null,
+          "name": "Taj Gillin"
+        },
+        {
+          "slug": null,
+          "name": "Dan Haramati"
+        },
+        {
+          "slug": null,
+          "name": "Damien Scieur"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        }
+      ]
+    },
+    {
+      "paperId": "530dab86cb8034bc12a32d21508aaa3f2cc00aa1",
+      "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.19312",
+      "citationCount": 159,
+      "coAuthors": [
+        {
+          "slug": "quentin-le-lidec",
+          "name": "Quentin Le Lidec"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Damien Scieur"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        }
+      ]
+    },
+    {
+      "paperId": "bed6ecff103c1a6f3a516d9b9d4847be8aff5294",
+      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Masking",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/bed6ecff103c1a6f3a516d9b9d4847be8aff5294",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": "quentin-le-lidec",
+          "name": "Quentin Le Lidec"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Heejeong Nam"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        }
+      ]
+    },
+    {
+      "paperId": "952a89a0add88d80674c0554aa116a83d82763df",
+      "title": "stable-worldmodel-v1: Reproducible World Modeling Research and Evaluation",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.08968",
+      "citationCount": 5,
+      "coAuthors": [
+        {
+          "slug": "quentin-le-lidec",
+          "name": "Quentin Le Lidec"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Dan Haramati"
+        },
+        {
+          "slug": null,
+          "name": "Nassim Massaudi"
+        },
+        {
+          "slug": null,
+          "name": "Damien Scieur"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        }
+      ]
+    },
+    {
+      "paperId": "4fb6af36c41fbf5f34be30b0112a139bc3e9ad72",
+      "title": "stable-pretraining-v1: Foundation Model Research Made Simple",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2511.19484",
+      "citationCount": 10,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Hugues van Assel"
+        },
+        {
+          "slug": null,
+          "name": "Sami BuGhanem"
+        }
+      ]
+    },
+    {
+      "paperId": "ce414ee6bb8ad8f31d3dbce1748fccecbcc7c678",
+      "title": "On the Importance of Embedding Norms in Self-Supervised Learning",
+      "year": 2025,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2502.09252",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Andrew Draganov"
+        },
+        {
+          "slug": null,
+          "name": "Sharvaree P. Vadgama"
+        },
+        {
+          "slug": null,
+          "name": "Sebastian Damrich"
+        },
+        {
+          "slug": null,
+          "name": "J. Böhm"
+        },
+        {
+          "slug": null,
+          "name": "Dmitry Kobak"
+        },
+        {
+          "slug": null,
+          "name": "Erik J. Bekkers"
+        }
+      ]
+    },
+    {
+      "paperId": "35fdb14f2b9ef61cc6876d33ec0f4ce6c20b0dc9",
+      "title": "Understanding Adam Requires Better Rotation Dependent Assumptions",
+      "year": 2024,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2410.19964",
+      "citationCount": 11,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tianyue H. Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Alexia Jolicoeur-Martineau"
+        },
+        {
+          "slug": null,
+          "name": "Ioannis Mitliagkas"
+        },
+        {
+          "slug": null,
+          "name": "Damien Scieur"
+        },
+        {
+          "slug": null,
+          "name": "Simon Lacoste-Julien"
+        },
+        {
+          "slug": null,
+          "name": "Charles Guille-Escuret"
+        }
+      ]
+    },
+    {
+      "paperId": "132dadc4c62c74a7174aa21ccaaa0fc2d7d92fc0",
+      "title": "Unity is Strength: Cross-Task Knowledge Distillation to Improve Code Review Generation",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2309.03362",
+      "citationCount": 4,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "O. Sghaier"
+        },
+        {
+          "slug": null,
+          "name": "H. Sahraoui"
+        }
+      ]
+    }
+  ],
+  "topPublications": [
+    {
+      "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
+      "year": 2026,
+      "citationCount": 159,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.19312"
+    },
+    {
+      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
+      "year": 2026,
+      "citationCount": 24,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.11389"
+    },
+    {
+      "title": "Understanding Adam Requires Better Rotation Dependent Assumptions",
+      "year": 2024,
+      "citationCount": 11,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2410.19964"
+    },
+    {
+      "title": "stable-pretraining-v1: Foundation Model Research Made Simple",
+      "year": 2025,
+      "citationCount": 10,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2511.19484"
+    },
+    {
+      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Masking",
+      "year": 2026,
+      "citationCount": 8,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/bed6ecff103c1a6f3a516d9b9d4847be8aff5294"
+    }
+  ],
   "githubProjects": [],
   "githubActivity": {
     "username": "lucas-maes",
@@ -50,8 +425,140 @@
   ],
   "xPosts": [],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "quentin-le-lidec",
+        "name": "Quentin Le Lidec",
+        "sharedPapers": 7
+      },
+      {
+        "slug": "yann-lecun",
+        "name": "Yann LeCun",
+        "sharedPapers": 7
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "Randall Balestriero",
+        "papers": 8
+      },
+      {
+        "name": "Damien Scieur",
+        "papers": 4
+      },
+      {
+        "name": "Heejeong Nam",
+        "papers": 2
+      },
+      {
+        "name": "Nassim Massaudi",
+        "papers": 2
+      },
+      {
+        "name": "Dan Haramati",
+        "papers": 2
+      },
+      {
+        "name": "Lukas Kuhn",
+        "papers": 1
+      },
+      {
+        "name": "Giuseppe Serra",
+        "papers": 1
+      },
+      {
+        "name": "Florian Buettner",
+        "papers": 1
+      },
+      {
+        "name": "Yilun Kuang",
+        "papers": 1
+      },
+      {
+        "name": "Yash Dagade",
+        "papers": 1
+      },
+      {
+        "name": "Luiz Facury",
+        "papers": 1
+      },
+      {
+        "name": "Ayush Chaurasia",
+        "papers": 1
+      },
+      {
+        "name": "Francesco Capuano",
+        "papers": 1
+      },
+      {
+        "name": "Richard Gao",
+        "papers": 1
+      },
+      {
+        "name": "Taj Gillin",
+        "papers": 1
+      },
+      {
+        "name": "Hugues van Assel",
+        "papers": 1
+      },
+      {
+        "name": "Sami BuGhanem",
+        "papers": 1
+      },
+      {
+        "name": "Andrew Draganov",
+        "papers": 1
+      },
+      {
+        "name": "Sharvaree P. Vadgama",
+        "papers": 1
+      },
+      {
+        "name": "Sebastian Damrich",
+        "papers": 1
+      },
+      {
+        "name": "J. Böhm",
+        "papers": 1
+      },
+      {
+        "name": "Dmitry Kobak",
+        "papers": 1
+      },
+      {
+        "name": "Erik J. Bekkers",
+        "papers": 1
+      },
+      {
+        "name": "Tianyue H. Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Alexia Jolicoeur-Martineau",
+        "papers": 1
+      },
+      {
+        "name": "Ioannis Mitliagkas",
+        "papers": 1
+      },
+      {
+        "name": "Simon Lacoste-Julien",
+        "papers": 1
+      },
+      {
+        "name": "Charles Guille-Escuret",
+        "papers": 1
+      },
+      {
+        "name": "O. Sghaier",
+        "papers": 1
+      },
+      {
+        "name": "H. Sahraoui",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "adrien-bardes",

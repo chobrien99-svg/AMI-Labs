@@ -30,12 +30,291 @@
   ],
   "reportsTo": "saining-xie",
   "reports": [],
-  "papers": [],
+  "papers": [
+    {
+      "paperId": "0b1fcfc3cf056b07c8860b5878cad1c06639d373",
+      "title": "Taming Outlier Tokens in Diffusion Transformers",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.05206",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Xiaoyu Wu"
+        },
+        {
+          "slug": null,
+          "name": "Yifei Wang"
+        },
+        {
+          "slug": null,
+          "name": "Tsu-Jui Fu"
+        },
+        {
+          "slug": null,
+          "name": "Liang-Chieh Chen"
+        },
+        {
+          "slug": null,
+          "name": "Zhe Gan"
+        }
+      ]
+    },
+    {
+      "paperId": "1f60e96ea724b35c7a8797ecdc9af4e96230508f",
+      "title": "Learning Rate Engineering: From Coarse Single Parameter to Layered Evolution",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2604.27295",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Mingshuai Yao"
+        },
+        {
+          "slug": null,
+          "name": "Di Wang"
+        },
+        {
+          "slug": null,
+          "name": "Jianqiao Cui"
+        },
+        {
+          "slug": null,
+          "name": "Jinyao Chen"
+        },
+        {
+          "slug": null,
+          "name": "Zihui Cui"
+        },
+        {
+          "slug": null,
+          "name": "Fa Wang"
+        },
+        {
+          "slug": null,
+          "name": "Qiuxia Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "25adcd394d203051b18136fcbd4b409a3a8d47be",
+      "title": "SRSplat: Feed-Forward Super-Resolution Gaussian Splatting from Sparse Multi-View Images",
+      "year": 2025,
+      "venue": "AAAI Conference on Artificial Intelligence",
+      "url": "https://doi.org/10.48550/arXiv.2511.12040",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Xinyuan Hu"
+        },
+        {
+          "slug": null,
+          "name": "Changyue Shi"
+        },
+        {
+          "slug": null,
+          "name": "Chuxiao Yang"
+        },
+        {
+          "slug": null,
+          "name": "Minghao Chen"
+        },
+        {
+          "slug": null,
+          "name": "Jiajun Ding"
+        },
+        {
+          "slug": null,
+          "name": "Tao Wei"
+        },
+        {
+          "slug": null,
+          "name": "Zhou Yu"
+        },
+        {
+          "slug": null,
+          "name": "Min Tan"
+        }
+      ]
+    },
+    {
+      "paperId": "81b81f2149b5aa5f556c4db01e5366384087c196",
+      "title": "Vision-Language-Vision Auto-Encoder: Scalable Knowledge Distillation from Diffusion Models",
+      "year": 2025,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2507.07104",
+      "citationCount": 3,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tiezheng Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Yitong Li"
+        },
+        {
+          "slug": null,
+          "name": "Yu-Cheng Chou"
+        },
+        {
+          "slug": null,
+          "name": "Jieneng Chen"
+        },
+        {
+          "slug": null,
+          "name": "Alan L. Yuille"
+        },
+        {
+          "slug": null,
+          "name": "Junfei Xiao"
+        }
+      ]
+    },
+    {
+      "paperId": "9ea340b113ff0681eb9bbaa2c002f86c54c7b85e",
+      "title": "Perception Encoder: The best visual embeddings are not at the output of the network",
+      "year": 2025,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2504.13181",
+      "citationCount": 322,
+      "coAuthors": [
+        {
+          "slug": "tengyu-ma",
+          "name": "Tengyu Ma"
+        },
+        {
+          "slug": null,
+          "name": "Daniel Bolya"
+        },
+        {
+          "slug": null,
+          "name": "Po-Yao Huang"
+        },
+        {
+          "slug": null,
+          "name": "Peize Sun"
+        },
+        {
+          "slug": null,
+          "name": "J. Cho"
+        },
+        {
+          "slug": null,
+          "name": "Andrea Madotto"
+        },
+        {
+          "slug": null,
+          "name": "Jiale Zhi"
+        },
+        {
+          "slug": null,
+          "name": "Jathushan Rajasegaran"
+        },
+        {
+          "slug": null,
+          "name": "H. Rasheed"
+        },
+        {
+          "slug": null,
+          "name": "Junke Wang"
+        },
+        {
+          "slug": null,
+          "name": "M. Monteiro"
+        },
+        {
+          "slug": null,
+          "name": "Hu Xu"
+        },
+        {
+          "slug": null,
+          "name": "Shiyu Dong"
+        },
+        {
+          "slug": null,
+          "name": "Nikhila Ravi"
+        },
+        {
+          "slug": null,
+          "name": "Shang-Wen Li"
+        },
+        {
+          "slug": null,
+          "name": "Piotr Doll'ar"
+        },
+        {
+          "slug": null,
+          "name": "Christoph Feichtenhofer"
+        }
+      ]
+    },
+    {
+      "paperId": "67967d95ad790941a477291cc07d94ca15ddf5ac",
+      "title": "Prompt-Based Invertible Mapping Alignment for Unsupervised Domain Adaptation",
+      "year": 2025,
+      "venue": "ACM Trans. Multim. Comput. Commun. Appl.",
+      "url": "https://doi.org/10.1145/3725735",
+      "citationCount": 5,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chao Wen"
+        },
+        {
+          "slug": null,
+          "name": "Yuhua Qian"
+        },
+        {
+          "slug": null,
+          "name": "Xiaodan Song"
+        },
+        {
+          "slug": null,
+          "name": "Xuemei Xie"
+        }
+      ]
+    },
+    {
+      "paperId": "008a428e049003fe768068a0f1fa1416af5c4982",
+      "title": "Masked Feature Prediction for Self-Supervised Visual Pre-Training",
+      "year": 2021,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52688.2022.01426",
+      "citationCount": 880,
+      "coAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
+          "slug": null,
+          "name": "Haoqi Fan"
+        },
+        {
+          "slug": null,
+          "name": "Chaoxia Wu"
+        },
+        {
+          "slug": null,
+          "name": "A. Yuille"
+        },
+        {
+          "slug": null,
+          "name": "Christoph Feichtenhofer"
+        }
+      ]
+    }
+  ],
   "topPublications": [
     {
       "title": "Perception Encoder: The best visual embeddings are not at the output of the network",
       "year": 2025,
-      "citationCount": 318,
+      "citationCount": 322,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2504.13181"
     },
@@ -84,8 +363,216 @@
   ],
   "xPosts": [],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "tengyu-ma",
+        "name": "Tengyu Ma",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "saining-xie",
+        "name": "Saining Xie",
+        "sharedPapers": 1
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "Christoph Feichtenhofer",
+        "papers": 2
+      },
+      {
+        "name": "Xiaoyu Wu",
+        "papers": 1
+      },
+      {
+        "name": "Yifei Wang",
+        "papers": 1
+      },
+      {
+        "name": "Tsu-Jui Fu",
+        "papers": 1
+      },
+      {
+        "name": "Liang-Chieh Chen",
+        "papers": 1
+      },
+      {
+        "name": "Zhe Gan",
+        "papers": 1
+      },
+      {
+        "name": "Mingshuai Yao",
+        "papers": 1
+      },
+      {
+        "name": "Di Wang",
+        "papers": 1
+      },
+      {
+        "name": "Jianqiao Cui",
+        "papers": 1
+      },
+      {
+        "name": "Jinyao Chen",
+        "papers": 1
+      },
+      {
+        "name": "Zihui Cui",
+        "papers": 1
+      },
+      {
+        "name": "Fa Wang",
+        "papers": 1
+      },
+      {
+        "name": "Qiuxia Yu",
+        "papers": 1
+      },
+      {
+        "name": "Xinyuan Hu",
+        "papers": 1
+      },
+      {
+        "name": "Changyue Shi",
+        "papers": 1
+      },
+      {
+        "name": "Chuxiao Yang",
+        "papers": 1
+      },
+      {
+        "name": "Minghao Chen",
+        "papers": 1
+      },
+      {
+        "name": "Jiajun Ding",
+        "papers": 1
+      },
+      {
+        "name": "Tao Wei",
+        "papers": 1
+      },
+      {
+        "name": "Zhou Yu",
+        "papers": 1
+      },
+      {
+        "name": "Min Tan",
+        "papers": 1
+      },
+      {
+        "name": "Tiezheng Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Yitong Li",
+        "papers": 1
+      },
+      {
+        "name": "Yu-Cheng Chou",
+        "papers": 1
+      },
+      {
+        "name": "Jieneng Chen",
+        "papers": 1
+      },
+      {
+        "name": "Alan L. Yuille",
+        "papers": 1
+      },
+      {
+        "name": "Junfei Xiao",
+        "papers": 1
+      },
+      {
+        "name": "Daniel Bolya",
+        "papers": 1
+      },
+      {
+        "name": "Po-Yao Huang",
+        "papers": 1
+      },
+      {
+        "name": "Peize Sun",
+        "papers": 1
+      },
+      {
+        "name": "J. Cho",
+        "papers": 1
+      },
+      {
+        "name": "Andrea Madotto",
+        "papers": 1
+      },
+      {
+        "name": "Jiale Zhi",
+        "papers": 1
+      },
+      {
+        "name": "Jathushan Rajasegaran",
+        "papers": 1
+      },
+      {
+        "name": "H. Rasheed",
+        "papers": 1
+      },
+      {
+        "name": "Junke Wang",
+        "papers": 1
+      },
+      {
+        "name": "M. Monteiro",
+        "papers": 1
+      },
+      {
+        "name": "Hu Xu",
+        "papers": 1
+      },
+      {
+        "name": "Shiyu Dong",
+        "papers": 1
+      },
+      {
+        "name": "Nikhila Ravi",
+        "papers": 1
+      },
+      {
+        "name": "Shang-Wen Li",
+        "papers": 1
+      },
+      {
+        "name": "Piotr Doll'ar",
+        "papers": 1
+      },
+      {
+        "name": "Chao Wen",
+        "papers": 1
+      },
+      {
+        "name": "Yuhua Qian",
+        "papers": 1
+      },
+      {
+        "name": "Xiaodan Song",
+        "papers": 1
+      },
+      {
+        "name": "Xuemei Xie",
+        "papers": 1
+      },
+      {
+        "name": "Haoqi Fan",
+        "papers": 1
+      },
+      {
+        "name": "Chaoxia Wu",
+        "papers": 1
+      },
+      {
+        "name": "A. Yuille",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "adrien-bardes",

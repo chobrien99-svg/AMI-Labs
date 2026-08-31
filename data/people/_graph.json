@@ -1,6 +1,49 @@
 {
   "coAuthorship": [
     {
+      "a": "lucas-maes",
+      "b": "quentin-le-lidec",
+      "paperCount": 7,
+      "papers": [
+        "LeVJEPA: Efficient&Scalable Video Pretraining without the Heuristics",
+        "LpWM: A Case for Sparse Representations in World Models",
+        "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
+        "stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation",
+        "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
+        "Causal-JEPA: Learning World Models through Object-Level Latent Masking",
+        "stable-worldmodel-v1: Reproducible World Modeling Research and Evaluation"
+      ]
+    },
+    {
+      "a": "lucas-maes",
+      "b": "yann-lecun",
+      "paperCount": 7,
+      "papers": [
+        "LeVJEPA: Efficient&Scalable Video Pretraining without the Heuristics",
+        "LpWM: A Case for Sparse Representations in World Models",
+        "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
+        "stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation",
+        "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
+        "Causal-JEPA: Learning World Models through Object-Level Latent Masking",
+        "stable-worldmodel-v1: Reproducible World Modeling Research and Evaluation"
+      ]
+    },
+    {
+      "a": "quentin-le-lidec",
+      "b": "yann-lecun",
+      "paperCount": 8,
+      "papers": [
+        "LeVJEPA: Efficient&Scalable Video Pretraining without the Heuristics",
+        "LpWM: A Case for Sparse Representations in World Models",
+        "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
+        "stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation",
+        "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
+        "Causal-JEPA: Learning World Models through Object-Level Latent Masking",
+        "stable-worldmodel-v1: Reproducible World Modeling Research and Evaluation",
+        "Value-guided action planning with JEPA world models"
+      ]
+    },
+    {
       "a": "megi-dervishi",
       "b": "yann-lecun",
       "paperCount": 3,
@@ -23,19 +66,6 @@
       ]
     },
     {
-      "a": "quentin-le-lidec",
-      "b": "yann-lecun",
-      "paperCount": 6,
-      "papers": [
-        "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
-        "stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation",
-        "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
-        "Causal-JEPA: Learning World Models through Object-Level Latent Masking",
-        "stable-worldmodel-v1: Reproducible World Modeling Research and Evaluation",
-        "Value-guided action planning with JEPA world models"
-      ]
-    },
-    {
       "a": "adrien-bardes",
       "b": "michael-rabbat",
       "paperCount": 6,
@@ -51,14 +81,23 @@
     {
       "a": "jihan-yang",
       "b": "saining-xie",
-      "paperCount": 6,
+      "paperCount": 7,
       "papers": [
         "Cambrian-P: Pose-Grounded Video Understanding",
         "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
         "Benchmark Designers Should \"Train on the Test Set\" to Expose Exploitable Non-Visual Shortcuts",
         "Cambrian-S: Towards Spatial Supersensing in Video",
         "Traveling Across Languages: Benchmarking Cross-Lingual Consistency in Multimodal LLMs",
+        "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training",
         "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
+      ]
+    },
+    {
+      "a": "mikael-henaff",
+      "b": "scott-fujimoto",
+      "paperCount": 1,
+      "papers": [
+        "Hierarchical Behaviour Spaces"
       ]
     },
     {
@@ -382,14 +421,16 @@
     {
       "a": "saining-xie",
       "b": "yann-lecun",
-      "paperCount": 6,
+      "paperCount": 8,
       "papers": [
         "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
         "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
         "Cambrian-S: Towards Spatial Supersensing in Video",
         "Scaling Language-Free Visual Representation Learning",
         "MetaMorph: Multimodal Understanding and Generation via Instruction Tuning",
-        "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
+        "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
+        "Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning",
+        "Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs"
       ]
     },
     {
@@ -661,6 +702,14 @@
       ]
     },
     {
+      "a": "xingyi-zhou",
+      "b": "yuexiang-zhai",
+      "paperCount": 1,
+      "papers": [
+        "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities"
+      ]
+    },
+    {
       "a": "basile-terver",
       "b": "pascale-fung",
       "paperCount": 1,
@@ -758,11 +807,37 @@
       ]
     },
     {
+      "a": "chen-wei",
+      "b": "tengyu-ma",
+      "paperCount": 1,
+      "papers": [
+        "Perception Encoder: The best visual embeddings are not at the output of the network"
+      ]
+    },
+    {
       "a": "chao-du",
       "b": "xinyi-wan",
       "paperCount": 1,
       "papers": [
         "Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs"
+      ]
+    },
+    {
+      "a": "jihan-yang",
+      "b": "yuexiang-zhai",
+      "paperCount": 1,
+      "papers": [
+        "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training"
+      ]
+    },
+    {
+      "a": "saining-xie",
+      "b": "yuexiang-zhai",
+      "paperCount": 3,
+      "papers": [
+        "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training",
+        "Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning",
+        "Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs"
       ]
     },
     {
@@ -868,6 +943,15 @@
       ]
     },
     {
+      "a": "yann-lecun",
+      "b": "yuexiang-zhai",
+      "paperCount": 2,
+      "papers": [
+        "Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning",
+        "Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs"
+      ]
+    },
+    {
       "a": "li-jing",
       "b": "michael-rabbat",
       "paperCount": 2,
@@ -922,12 +1006,40 @@
       ]
     },
     {
+      "a": "chen-wei",
+      "b": "saining-xie",
+      "paperCount": 1,
+      "papers": [
+        "Masked Feature Prediction for Self-Supervised Visual Pre-Training"
+      ]
+    },
+    {
       "a": "bingyi-kang",
       "b": "saining-xie",
       "paperCount": 2,
       "papers": [
         "Rethinking Class-Balanced Methods for Long-Tailed Visual Recognition from a Domain Adaptation Perspective",
         "Decoupling Representation and Classifier for Long-Tailed Recognition"
+      ]
+    },
+    {
+      "a": "mikael-henaff",
+      "b": "yann-lecun",
+      "paperCount": 13,
+      "papers": [
+        "Model-Predictive Policy Learning with Uncertainty Regularization for Driving in Dense Traffic",
+        "Prediction Under Uncertainty with Error-Encoding Networks",
+        "+ YY ’ Z X-Residual Prediction Error TargetPredictionObservation Latent 0 State φ f 1 f 2",
+        "Model-Based Planning with Discrete and Continuous Actions",
+        "Model-Based Planning in Discrete Action Spaces",
+        "Tracking the World State with Recurrent Entity Networks",
+        "Orthogonal RNNs and Long-Memory Tasks",
+        "Recurrent Orthogonal Networks and Long-Memory Tasks",
+        "Deep Convolutional Networks on Graph-Structured Data",
+        "The Loss Surface of Multilayer Networks",
+        "The Loss Surfaces of Multilayer Networks",
+        "Fast Training of Convolutional Networks through FFTs",
+        "Unsupervised Learning of Sparse Features for Scalable Audio Classification"
       ]
     },
     {

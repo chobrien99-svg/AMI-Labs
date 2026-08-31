@@ -24,7 +24,187 @@
   ],
   "reportsTo": "min-lin",
   "reports": [],
-  "papers": [],
+  "papers": [
+    {
+      "paperId": "a49c857a193eb6eb5c7c8dcfe2dc25927d6ec081",
+      "title": "Toward Communication-Efficient Decentralized Federated Graph Learning Over Non-IID Data",
+      "year": 2025,
+      "venue": "IEEE Transactions on Mobile Computing",
+      "url": "https://doi.org/10.1109/TMC.2025.3641696",
+      "citationCount": 6,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Shilong Wang"
+        },
+        {
+          "slug": null,
+          "name": "Jianchun Liu"
+        },
+        {
+          "slug": null,
+          "name": "Hongli Xu"
+        },
+        {
+          "slug": null,
+          "name": "Qianpiao Ma"
+        },
+        {
+          "slug": null,
+          "name": "Liusheng Huang"
+        }
+      ]
+    },
+    {
+      "paperId": "7dbbd73a2bad6200a94b3ed9077d720398794d80",
+      "title": "Adaptive KV-Cache Compression without Manually Setting Budget",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.03136",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jianchun Liu"
+        },
+        {
+          "slug": null,
+          "name": "Hongli Xu"
+        },
+        {
+          "slug": null,
+          "name": "Liusheng Huang"
+        }
+      ]
+    },
+    {
+      "paperId": "235d09c83de3b9e36a5aba57e99e604e4336770a",
+      "title": "Top-n𝜎: Eliminating Noise in Logit Space for Robust Token Sampling of LLM",
+      "year": 2025,
+      "venue": "Volume 1",
+      "url": "https://doi.org/10.18653/v1/2025.acl-long.528",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jianchun Liu"
+        },
+        {
+          "slug": null,
+          "name": "Hongli Xu"
+        },
+        {
+          "slug": null,
+          "name": "Liusheng Huang"
+        }
+      ]
+    },
+    {
+      "paperId": "8ed00582f7a027dd5af73f01ae82ac867702673b",
+      "title": "Top-nσ: Eliminating Noise in Logit Space for Robust Token Sampling of LLM",
+      "year": 2025,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://www.semanticscholar.org/paper/8ed00582f7a027dd5af73f01ae82ac867702673b",
+      "citationCount": 13,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jianchun Liu"
+        },
+        {
+          "slug": null,
+          "name": "Hongli Xu"
+        },
+        {
+          "slug": null,
+          "name": "Liusheng Huang"
+        }
+      ]
+    },
+    {
+      "paperId": "bd6b0500e260cc54698afb464d5f2ec99455ace2",
+      "title": "Top-$n\\sigma$: Not All Logits Are You Need",
+      "year": 2024,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/bd6b0500e260cc54698afb464d5f2ec99455ace2",
+      "citationCount": 3,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jianchun Liu"
+        },
+        {
+          "slug": null,
+          "name": "Hong-Ze Xu"
+        },
+        {
+          "slug": null,
+          "name": "Liusheng Huang"
+        }
+      ]
+    },
+    {
+      "paperId": "1b6143c334860fe08d21d70f82c8a11a6cb7951b",
+      "title": "Top-nσ: Not All Logits Are You Need",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2411.07641",
+      "citationCount": 13,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jianchun Liu"
+        },
+        {
+          "slug": null,
+          "name": "Hongli Xu"
+        },
+        {
+          "slug": null,
+          "name": "Liusheng Huang"
+        }
+      ]
+    },
+    {
+      "paperId": "b7d6274c7126026c81a6f5babc7524fc9837e760",
+      "title": "Heterogeneous Learning Rate Scheduling for Neural Architecture Search on Long-Tailed Datasets",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2406.07028",
+      "citationCount": 1,
+      "coAuthors": []
+    },
+    {
+      "paperId": "5d9262570e5c805b37304802f623c3d99cb83fca",
+      "title": "Is Trastuzumab Chemotherapy-Induced Cardiomyopathy Always Reversible?",
+      "year": 2012,
+      "venue": null,
+      "url": "https://doi.org/10.1016/J.CARDFAIL.2012.06.356",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "E. Tsui"
+        },
+        {
+          "slug": null,
+          "name": "V. Beggs"
+        },
+        {
+          "slug": null,
+          "name": "Jeremiah R. Brown"
+        },
+        {
+          "slug": null,
+          "name": "G. Schwartz"
+        },
+        {
+          "slug": null,
+          "name": "A. Kono"
+        }
+      ]
+    }
+  ],
   "topPublications": [
     {
       "title": "Top-nσ: Eliminating Noise in Logit Space for Robust Token Sampling of LLM",
@@ -79,7 +259,52 @@
   "xPosts": [],
   "connections": {
     "coAuthors": [],
-    "externalCoAuthors": [],
+    "externalCoAuthors": [
+      {
+        "name": "Jianchun Liu",
+        "papers": 6
+      },
+      {
+        "name": "Liusheng Huang",
+        "papers": 6
+      },
+      {
+        "name": "Hongli Xu",
+        "papers": 5
+      },
+      {
+        "name": "Shilong Wang",
+        "papers": 1
+      },
+      {
+        "name": "Qianpiao Ma",
+        "papers": 1
+      },
+      {
+        "name": "Hong-Ze Xu",
+        "papers": 1
+      },
+      {
+        "name": "E. Tsui",
+        "papers": 1
+      },
+      {
+        "name": "V. Beggs",
+        "papers": 1
+      },
+      {
+        "name": "Jeremiah R. Brown",
+        "papers": 1
+      },
+      {
+        "name": "G. Schwartz",
+        "papers": 1
+      },
+      {
+        "name": "A. Kono",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "xuefeng-hu",

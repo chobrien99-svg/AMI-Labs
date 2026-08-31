@@ -199,7 +199,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2511.04670",
-      "citationCount": 120,
+      "citationCount": 122,
       "coAuthors": [
         {
           "slug": "yann-lecun",
@@ -286,12 +286,54 @@
       ]
     },
     {
+      "paperId": "a99dee9602e21a71526b9681d8dba37c55b66941",
+      "title": "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training",
+      "year": 2025,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2501.17161",
+      "citationCount": 694,
+      "coAuthors": [
+        {
+          "slug": "yuexiang-zhai",
+          "name": "Yuexiang Zhai"
+        },
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
+          "slug": null,
+          "name": "Tianzhe Chu"
+        },
+        {
+          "slug": null,
+          "name": "Shengbang Tong"
+        },
+        {
+          "slug": null,
+          "name": "Dale Schuurmans"
+        },
+        {
+          "slug": null,
+          "name": "Quoc V. Le"
+        },
+        {
+          "slug": null,
+          "name": "Sergey Levine"
+        },
+        {
+          "slug": null,
+          "name": "Yi Ma"
+        }
+      ]
+    },
+    {
       "paperId": "94773f22b5befd0e167a7de525d29bec2b09937a",
       "title": "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
       "year": 2024,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2406.16860",
-      "citationCount": 937,
+      "citationCount": 948,
       "coAuthors": [
         {
           "slug": "sanghyun-woo",
@@ -352,7 +394,7 @@
     {
       "title": "Cambrian-S: Towards Spatial Supersensing in Video",
       "year": 2025,
-      "citationCount": 120,
+      "citationCount": 122,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2511.04670"
     },
@@ -405,12 +447,17 @@
       {
         "slug": "saining-xie",
         "name": "Saining Xie",
-        "sharedPapers": 6
+        "sharedPapers": 7
       },
       {
         "slug": "yann-lecun",
         "name": "Yann LeCun",
         "sharedPapers": 3
+      },
+      {
+        "slug": "yuexiang-zhai",
+        "name": "Yuexiang Zhai",
+        "sharedPapers": 1
       },
       {
         "slug": "sanghyun-woo",
@@ -429,16 +476,16 @@
         "papers": 4
       },
       {
+        "name": "Shengbang Tong",
+        "papers": 4
+      },
+      {
         "name": "Ellis Brown",
         "papers": 4
       },
       {
         "name": "Rob Fergus",
         "papers": 4
-      },
-      {
-        "name": "Shengbang Tong",
-        "papers": 3
       },
       {
         "name": "Xichen Pan",
@@ -566,6 +613,26 @@
       },
       {
         "name": "Daisuke Kawahara",
+        "papers": 1
+      },
+      {
+        "name": "Tianzhe Chu",
+        "papers": 1
+      },
+      {
+        "name": "Dale Schuurmans",
+        "papers": 1
+      },
+      {
+        "name": "Quoc V. Le",
+        "papers": 1
+      },
+      {
+        "name": "Sergey Levine",
+        "papers": 1
+      },
+      {
+        "name": "Yi Ma",
         "papers": 1
       },
       {

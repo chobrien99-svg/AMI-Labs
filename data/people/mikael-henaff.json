@@ -32,7 +32,778 @@
   ],
   "reportsTo": "saining-xie",
   "reports": [],
-  "papers": [],
+  "papers": [
+    {
+      "paperId": "7278d56b454459534245fead6774f698cd3a3c44",
+      "title": "Hierarchical Behaviour Spaces",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2604.24558",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "scott-fujimoto",
+          "name": "Scott Fujimoto"
+        },
+        {
+          "slug": null,
+          "name": "M. Matthews"
+        },
+        {
+          "slug": null,
+          "name": "A. Kanervisto"
+        },
+        {
+          "slug": null,
+          "name": "J. Foerster"
+        },
+        {
+          "slug": null,
+          "name": "P. D'Oro"
+        }
+      ]
+    },
+    {
+      "paperId": "2d2be33626a55a25a762031f89cabb4a9a6825de",
+      "title": "MaestroMotif: Skill Design from Artificial Intelligence Feedback",
+      "year": 2024,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2412.08542",
+      "citationCount": 20,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Martin Klissarov"
+        },
+        {
+          "slug": null,
+          "name": "R. Raileanu"
+        },
+        {
+          "slug": null,
+          "name": "Shagun Sodhani"
+        },
+        {
+          "slug": null,
+          "name": "Pascal Vincent"
+        },
+        {
+          "slug": null,
+          "name": "Amy Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Pierre-Luc Bacon"
+        },
+        {
+          "slug": null,
+          "name": "D. Precup"
+        },
+        {
+          "slug": null,
+          "name": "Marlos C. Machado"
+        },
+        {
+          "slug": null,
+          "name": "P. D'Oro"
+        }
+      ]
+    },
+    {
+      "paperId": "74abb1a62b70e7f9019c7209ea4e65b72867a574",
+      "title": "Online Intrinsic Rewards for Decision Making Agents from Large Language Model Feedback",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2410.23022",
+      "citationCount": 11,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Qinqing Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Amy Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Aditya Grover"
+        },
+        {
+          "slug": null,
+          "name": "Brandon Amos"
+        }
+      ]
+    },
+    {
+      "paperId": "fa1e3a5c9f6e269d2a1ddbfe768a85b19ad94cf8",
+      "title": "Generalization to New Sequential Decision Making Tasks with In-Context Learning",
+      "year": 2023,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2312.03801",
+      "citationCount": 45,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "S. Raparthy"
+        },
+        {
+          "slug": null,
+          "name": "Eric Hambro"
+        },
+        {
+          "slug": null,
+          "name": "Robert Kirk"
+        },
+        {
+          "slug": null,
+          "name": "R. Raileanu"
+        }
+      ]
+    },
+    {
+      "paperId": "c3e2bec83b9105b7925aa76c0f38b88d2e337b31",
+      "title": "Motif: Intrinsic Motivation from Artificial Intelligence Feedback",
+      "year": 2023,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2310.00166",
+      "citationCount": 113,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Martin Klissarov"
+        },
+        {
+          "slug": null,
+          "name": "P. D'Oro"
+        },
+        {
+          "slug": null,
+          "name": "Shagun Sodhani"
+        },
+        {
+          "slug": null,
+          "name": "R. Raileanu"
+        },
+        {
+          "slug": null,
+          "name": "Pierre-Luc Bacon"
+        },
+        {
+          "slug": null,
+          "name": "Pascal Vincent"
+        },
+        {
+          "slug": null,
+          "name": "Amy Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "d16feddfeca2617ca2127b7d134ceb78ce8a8b40",
+      "title": "A Study of Global and Episodic Bonuses for Exploration in Contextual MDPs",
+      "year": 2023,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2306.03236",
+      "citationCount": 21,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Minqi Jiang"
+        },
+        {
+          "slug": null,
+          "name": "R. Raileanu"
+        }
+      ]
+    },
+    {
+      "paperId": "3aea4d8765e5677ce38d5d35b35b5ef82b7e5277",
+      "title": "Semi-Supervised Offline Reinforcement Learning with Action-Free Trajectories",
+      "year": 2022,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2210.06518",
+      "citationCount": 31,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Qinqing Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Brandon Amos"
+        },
+        {
+          "slug": null,
+          "name": "Aditya Grover"
+        }
+      ]
+    },
+    {
+      "paperId": "0351a103915d2f10d1915b4892a988d9b15df406",
+      "title": "Exploration via Elliptical Episodic Bonuses",
+      "year": 2022,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2210.05805",
+      "citationCount": 71,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "R. Raileanu"
+        },
+        {
+          "slug": null,
+          "name": "Minqi Jiang"
+        },
+        {
+          "slug": null,
+          "name": "Tim Rocktäschel"
+        }
+      ]
+    },
+    {
+      "paperId": "5da1b4e1ddc612970530e5bb29470fe43bfcf2d6",
+      "title": "PC-PG: Policy Cover Directed Exploration for Provable Policy Gradient Learning",
+      "year": 2020,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/5da1b4e1ddc612970530e5bb29470fe43bfcf2d6",
+      "citationCount": 126,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Alekh Agarwal"
+        },
+        {
+          "slug": null,
+          "name": "S. Kakade"
+        },
+        {
+          "slug": null,
+          "name": "Wen Sun"
+        }
+      ]
+    },
+    {
+      "paperId": "913e9384a1440dbf860f6d8597953187237fa1b4",
+      "title": "Disagreement-Regularized Imitation Learning",
+      "year": 2020,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/913e9384a1440dbf860f6d8597953187237fa1b4",
+      "citationCount": 115,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Kianté Brantley"
+        },
+        {
+          "slug": null,
+          "name": "Wen Sun"
+        }
+      ]
+    },
+    {
+      "paperId": "9d01ca964043a52b265534e94abc37210a50cc5a",
+      "title": "Kinematic State Abstraction and Provably Efficient Rich-Observation Reinforcement Learning",
+      "year": 2019,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/9d01ca964043a52b265534e94abc37210a50cc5a",
+      "citationCount": 159,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Dipendra Kumar Misra"
+        },
+        {
+          "slug": null,
+          "name": "A. Krishnamurthy"
+        },
+        {
+          "slug": null,
+          "name": "John Langford"
+        }
+      ]
+    },
+    {
+      "paperId": "648d2cd200584f790bd6d07ba875eabc21710d6d",
+      "title": "Explicit Explore-Exploit Algorithms in Continuous State Spaces",
+      "year": 2019,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/648d2cd200584f790bd6d07ba875eabc21710d6d",
+      "citationCount": 33,
+      "coAuthors": []
+    },
+    {
+      "paperId": "2eeace98cf3c105a8d37884dc8d33c50ae4b7ddb",
+      "title": "Model-Predictive Policy Learning with Uncertainty Regularization for Driving in Dense Traffic",
+      "year": 2019,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/2eeace98cf3c105a8d37884dc8d33c50ae4b7ddb",
+      "citationCount": 129,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "A. Canziani"
+        }
+      ]
+    },
+    {
+      "paperId": "4ff9176f02af3f66c4bbb0449ec1eb2d4a3a2d13",
+      "title": "Deep Networks for Forward Prediction and Planning",
+      "year": 2018,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/4ff9176f02af3f66c4bbb0449ec1eb2d4a3a2d13",
+      "citationCount": 0,
+      "coAuthors": []
+    },
+    {
+      "paperId": "bfdb693df3a04fa9645233c444ccd8ec16c6c477",
+      "title": "Prediction Under Uncertainty with Error-Encoding Networks",
+      "year": 2017,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/bfdb693df3a04fa9645233c444ccd8ec16c6c477",
+      "citationCount": 26,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "J. Zhao"
+        }
+      ]
+    },
+    {
+      "paperId": "f85ea632dc79e779a6a1b3170013288f55af0d52",
+      "title": "+ YY ’ Z X-Residual Prediction Error TargetPredictionObservation Latent 0 State φ f 1 f 2",
+      "year": 2017,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/f85ea632dc79e779a6a1b3170013288f55af0d52",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "J. Zhao"
+        }
+      ]
+    },
+    {
+      "paperId": "c6d78e818b0585144578d80b4d42585cd616709b",
+      "title": "Model-Based Planning with Discrete and Continuous Actions",
+      "year": 2017,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/c6d78e818b0585144578d80b4d42585cd616709b",
+      "citationCount": 55,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "William F. Whitney"
+        }
+      ]
+    },
+    {
+      "paperId": "d86d17f6459978084320d7d313f38f234cf8b899",
+      "title": "Model-Based Planning in Discrete Action Spaces",
+      "year": 2017,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/d86d17f6459978084320d7d313f38f234cf8b899",
+      "citationCount": 17,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "William F. Whitney"
+        }
+      ]
+    },
+    {
+      "paperId": "033dd6cf61a6017e9aa9b46068d3c89082849cf3",
+      "title": "Tracking the World State with Recurrent Entity Networks",
+      "year": 2016,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/033dd6cf61a6017e9aa9b46068d3c89082849cf3",
+      "citationCount": 236,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "J. Weston"
+        },
+        {
+          "slug": null,
+          "name": "Arthur Szlam"
+        },
+        {
+          "slug": null,
+          "name": "Antoine Bordes"
+        }
+      ]
+    },
+    {
+      "paperId": "4ca151307e3be93c6cd14ed403f6162892e7fbed",
+      "title": "Orthogonal RNNs and Long-Memory Tasks",
+      "year": 2016,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/4ca151307e3be93c6cd14ed403f6162892e7fbed",
+      "citationCount": 44,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Arthur Szlam"
+        }
+      ]
+    },
+    {
+      "paperId": "ef3152106e7f4d05ad8d32a5b90d3790c5cdef24",
+      "title": "Recurrent Orthogonal Networks and Long-Memory Tasks",
+      "year": 2016,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/ef3152106e7f4d05ad8d32a5b90d3790c5cdef24",
+      "citationCount": 147,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Arthur Szlam"
+        }
+      ]
+    },
+    {
+      "paperId": "e465923498ffc9ffc133a3262b6bb292df16e666",
+      "title": "Ultra-scalable and efficient methods for hybrid observational and experimental local causal pathway discovery",
+      "year": 2015,
+      "venue": "Journal of machine learning research",
+      "url": "https://doi.org/10.5555/2789272.2912102",
+      "citationCount": 27,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "A. Statnikov"
+        },
+        {
+          "slug": null,
+          "name": "Sisi Ma"
+        },
+        {
+          "slug": null,
+          "name": "N. Lytkin"
+        },
+        {
+          "slug": null,
+          "name": "Efstratios Efstathiadis"
+        },
+        {
+          "slug": null,
+          "name": "E. Peskin"
+        },
+        {
+          "slug": null,
+          "name": "C. Aliferis"
+        }
+      ]
+    },
+    {
+      "paperId": "e49ff72d420c8d72e62a9353e3abc053445e59bd",
+      "title": "Deep Convolutional Networks on Graph-Structured Data",
+      "year": 2015,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/e49ff72d420c8d72e62a9353e3abc053445e59bd",
+      "citationCount": 1678,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Joan Bruna"
+        }
+      ]
+    },
+    {
+      "paperId": "6d9cb3d3c0330a6c2f42d159a3a706b6b49744b2",
+      "title": "The Loss Surface of Multilayer Networks",
+      "year": 2014,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/6d9cb3d3c0330a6c2f42d159a3a706b6b49744b2",
+      "citationCount": 149,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "A. Choromańska"
+        },
+        {
+          "slug": null,
+          "name": "Michaël Mathieu"
+        },
+        {
+          "slug": null,
+          "name": "G. B. Arous"
+        }
+      ]
+    },
+    {
+      "paperId": "ad8a12a19e74d9788f8fe92f5c0dfea7b6a52aba",
+      "title": "The Loss Surfaces of Multilayer Networks",
+      "year": 2014,
+      "venue": "International Conference on Artificial Intelligence and Statistics",
+      "url": "https://www.semanticscholar.org/paper/ad8a12a19e74d9788f8fe92f5c0dfea7b6a52aba",
+      "citationCount": 1323,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "A. Choromańska"
+        },
+        {
+          "slug": null,
+          "name": "Michaël Mathieu"
+        },
+        {
+          "slug": null,
+          "name": "G. B. Arous"
+        }
+      ]
+    },
+    {
+      "paperId": "8b3d68d098bb1b141e327ec08ff98b46d7bb480b",
+      "title": "Information content and analysis methods for Multi-Modal High-Throughput Biomedical Data",
+      "year": 2014,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/srep04411",
+      "citationCount": 33,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Bisakha Ray"
+        },
+        {
+          "slug": null,
+          "name": "Sisi Ma"
+        },
+        {
+          "slug": null,
+          "name": "Efstratios Efstathiadis"
+        },
+        {
+          "slug": null,
+          "name": "E. Peskin"
+        },
+        {
+          "slug": null,
+          "name": "Marco Picone"
+        },
+        {
+          "slug": null,
+          "name": "T. Poli"
+        },
+        {
+          "slug": null,
+          "name": "C. Aliferis"
+        },
+        {
+          "slug": null,
+          "name": "A. Statnikov"
+        }
+      ]
+    },
+    {
+      "paperId": "a7621b4ec18719b08f3a2a444b6d37a2e20227b7",
+      "title": "Fast Training of Convolutional Networks through FFTs",
+      "year": 2013,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/a7621b4ec18719b08f3a2a444b6d37a2e20227b7",
+      "citationCount": 665,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Michaël Mathieu"
+        }
+      ]
+    },
+    {
+      "paperId": "f2ccaa27288cb788d3bb5c4b2b724b5c335609f0",
+      "title": "Microbiomic Signatures of Psoriasis: Feasibility and Methodology Comparison",
+      "year": 2013,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/srep02620",
+      "citationCount": 80,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "A. Statnikov"
+        },
+        {
+          "slug": null,
+          "name": "A. Alekseyenko"
+        },
+        {
+          "slug": null,
+          "name": "Zhiguo Li"
+        },
+        {
+          "slug": null,
+          "name": "G. Perez-Perez"
+        },
+        {
+          "slug": null,
+          "name": "M. Blaser"
+        },
+        {
+          "slug": null,
+          "name": "C. Aliferis"
+        }
+      ]
+    },
+    {
+      "paperId": "bf53409d44de1f6087d12e7953a27f536f8faf1c",
+      "title": "Microbiomic Signatures of Psoriasis: Feasibility and Methodology",
+      "year": 2013,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/bf53409d44de1f6087d12e7953a27f536f8faf1c",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Comparison Statnikov"
+        },
+        {
+          "slug": null,
+          "name": "A. Alekseyenko"
+        },
+        {
+          "slug": null,
+          "name": "Zhiguo Li"
+        }
+      ]
+    },
+    {
+      "paperId": "c7456f5a2e2c707ae4dcccfaf6fa64e8d3cfad28",
+      "title": "A comprehensive evaluation of multicategory classification methods for microbiomic data",
+      "year": 2013,
+      "venue": "Microbiome",
+      "url": "https://doi.org/10.1186/2049-2618-1-11",
+      "citationCount": 195,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "A. Statnikov"
+        },
+        {
+          "slug": null,
+          "name": "V. Narendra"
+        },
+        {
+          "slug": null,
+          "name": "Kranti Konganti"
+        },
+        {
+          "slug": null,
+          "name": "Zhiguo Li"
+        },
+        {
+          "slug": null,
+          "name": "Liying Yang"
+        },
+        {
+          "slug": null,
+          "name": "Zhiheng Pei"
+        },
+        {
+          "slug": null,
+          "name": "M. Blaser"
+        },
+        {
+          "slug": null,
+          "name": "C. Aliferis"
+        },
+        {
+          "slug": null,
+          "name": "A. Alekseyenko"
+        }
+      ]
+    },
+    {
+      "paperId": "018b51aa7821c2ac441f2abe1e70277ea31dca69",
+      "title": "New methods for separating causes from effects in genomics data",
+      "year": 2012,
+      "venue": "BMC Genomics",
+      "url": "https://doi.org/10.1186/1471-2164-13-S8-S22",
+      "citationCount": 37,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "A. Statnikov"
+        },
+        {
+          "slug": null,
+          "name": "N. Lytkin"
+        },
+        {
+          "slug": null,
+          "name": "C. Aliferis"
+        }
+      ]
+    },
+    {
+      "paperId": "34642631a6ef8130b98ce73e61298bb9c89b0c71",
+      "title": "Unsupervised Learning of Sparse Features for Scalable Audio Classification",
+      "year": 2011,
+      "venue": "International Society for Music Information Retrieval Conference",
+      "url": "https://www.semanticscholar.org/paper/34642631a6ef8130b98ce73e61298bb9c89b0c71",
+      "citationCount": 137,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Kevin Jarrett"
+        },
+        {
+          "slug": null,
+          "name": "K. Kavukcuoglu"
+        }
+      ]
+    }
+  ],
   "topPublications": [
     {
       "title": "Kinematic State Abstraction and Provably Efficient Rich-Observation Reinforcement Learning",
@@ -86,8 +857,248 @@
   ],
   "xPosts": [],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "yann-lecun",
+        "name": "Yann LeCun",
+        "sharedPapers": 13
+      },
+      {
+        "slug": "scott-fujimoto",
+        "name": "Scott Fujimoto",
+        "sharedPapers": 1
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "R. Raileanu",
+        "papers": 5
+      },
+      {
+        "name": "A. Statnikov",
+        "papers": 5
+      },
+      {
+        "name": "C. Aliferis",
+        "papers": 5
+      },
+      {
+        "name": "P. D'Oro",
+        "papers": 3
+      },
+      {
+        "name": "Amy Zhang",
+        "papers": 3
+      },
+      {
+        "name": "Arthur Szlam",
+        "papers": 3
+      },
+      {
+        "name": "Michaël Mathieu",
+        "papers": 3
+      },
+      {
+        "name": "A. Alekseyenko",
+        "papers": 3
+      },
+      {
+        "name": "Zhiguo Li",
+        "papers": 3
+      },
+      {
+        "name": "Martin Klissarov",
+        "papers": 2
+      },
+      {
+        "name": "Shagun Sodhani",
+        "papers": 2
+      },
+      {
+        "name": "Pascal Vincent",
+        "papers": 2
+      },
+      {
+        "name": "Pierre-Luc Bacon",
+        "papers": 2
+      },
+      {
+        "name": "Qinqing Zheng",
+        "papers": 2
+      },
+      {
+        "name": "Aditya Grover",
+        "papers": 2
+      },
+      {
+        "name": "Brandon Amos",
+        "papers": 2
+      },
+      {
+        "name": "Minqi Jiang",
+        "papers": 2
+      },
+      {
+        "name": "Wen Sun",
+        "papers": 2
+      },
+      {
+        "name": "J. Zhao",
+        "papers": 2
+      },
+      {
+        "name": "William F. Whitney",
+        "papers": 2
+      },
+      {
+        "name": "Sisi Ma",
+        "papers": 2
+      },
+      {
+        "name": "N. Lytkin",
+        "papers": 2
+      },
+      {
+        "name": "Efstratios Efstathiadis",
+        "papers": 2
+      },
+      {
+        "name": "E. Peskin",
+        "papers": 2
+      },
+      {
+        "name": "A. Choromańska",
+        "papers": 2
+      },
+      {
+        "name": "G. B. Arous",
+        "papers": 2
+      },
+      {
+        "name": "M. Blaser",
+        "papers": 2
+      },
+      {
+        "name": "M. Matthews",
+        "papers": 1
+      },
+      {
+        "name": "A. Kanervisto",
+        "papers": 1
+      },
+      {
+        "name": "J. Foerster",
+        "papers": 1
+      },
+      {
+        "name": "D. Precup",
+        "papers": 1
+      },
+      {
+        "name": "Marlos C. Machado",
+        "papers": 1
+      },
+      {
+        "name": "S. Raparthy",
+        "papers": 1
+      },
+      {
+        "name": "Eric Hambro",
+        "papers": 1
+      },
+      {
+        "name": "Robert Kirk",
+        "papers": 1
+      },
+      {
+        "name": "Tim Rocktäschel",
+        "papers": 1
+      },
+      {
+        "name": "Alekh Agarwal",
+        "papers": 1
+      },
+      {
+        "name": "S. Kakade",
+        "papers": 1
+      },
+      {
+        "name": "Kianté Brantley",
+        "papers": 1
+      },
+      {
+        "name": "Dipendra Kumar Misra",
+        "papers": 1
+      },
+      {
+        "name": "A. Krishnamurthy",
+        "papers": 1
+      },
+      {
+        "name": "John Langford",
+        "papers": 1
+      },
+      {
+        "name": "A. Canziani",
+        "papers": 1
+      },
+      {
+        "name": "J. Weston",
+        "papers": 1
+      },
+      {
+        "name": "Antoine Bordes",
+        "papers": 1
+      },
+      {
+        "name": "Joan Bruna",
+        "papers": 1
+      },
+      {
+        "name": "Bisakha Ray",
+        "papers": 1
+      },
+      {
+        "name": "Marco Picone",
+        "papers": 1
+      },
+      {
+        "name": "T. Poli",
+        "papers": 1
+      },
+      {
+        "name": "G. Perez-Perez",
+        "papers": 1
+      },
+      {
+        "name": "Comparison Statnikov",
+        "papers": 1
+      },
+      {
+        "name": "V. Narendra",
+        "papers": 1
+      },
+      {
+        "name": "Kranti Konganti",
+        "papers": 1
+      },
+      {
+        "name": "Liying Yang",
+        "papers": 1
+      },
+      {
+        "name": "Zhiheng Pei",
+        "papers": 1
+      },
+      {
+        "name": "Kevin Jarrett",
+        "papers": 1
+      },
+      {
+        "name": "K. Kavukcuoglu",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "adrien-bardes",

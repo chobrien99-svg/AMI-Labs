@@ -22,13 +22,81 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "437cb869d42d536ad1b2f35399c99ab79ec65d5a",
+      "title": "LeVJEPA: Efficient&Scalable Video Pretraining without the Heuristics",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/437cb869d42d536ad1b2f35399c99ab79ec65d5a",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "lucas-maes",
+          "name": "Lucas Maes"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Lukas Kuhn"
+        },
+        {
+          "slug": null,
+          "name": "Giuseppe Serra"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Florian Buettner"
+        }
+      ]
+    },
+    {
+      "paperId": "302343f7676e209391f3d5e3409a1b157c9df45a",
+      "title": "LpWM: A Case for Sparse Representations in World Models",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/302343f7676e209391f3d5e3409a1b157c9df45a",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": "lucas-maes",
+          "name": "Lucas Maes"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Yilun Kuang"
+        },
+        {
+          "slug": null,
+          "name": "Yash Dagade"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        }
+      ]
+    },
+    {
       "paperId": "7d909170d91e1b35b4b9a8ac01731d7aed2cd53e",
       "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.11389",
-      "citationCount": 23,
+      "citationCount": 24,
       "coAuthors": [
+        {
+          "slug": "lucas-maes",
+          "name": "Lucas Maes"
+        },
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
@@ -36,10 +104,6 @@
         {
           "slug": null,
           "name": "Heejeong Nam"
-        },
-        {
-          "slug": null,
-          "name": "Lucas Maes"
         },
         {
           "slug": null,
@@ -53,15 +117,15 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2605.21800",
-      "citationCount": 5,
+      "citationCount": 6,
       "coAuthors": [
+        {
+          "slug": "lucas-maes",
+          "name": "Lucas Maes"
+        },
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
-        },
-        {
-          "slug": null,
-          "name": "Lucas Maes"
         },
         {
           "slug": null,
@@ -129,15 +193,15 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.19312",
-      "citationCount": 146,
+      "citationCount": 159,
       "coAuthors": [
+        {
+          "slug": "lucas-maes",
+          "name": "Lucas Maes"
+        },
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
-        },
-        {
-          "slug": null,
-          "name": "Lucas Maes"
         },
         {
           "slug": null,
@@ -155,8 +219,12 @@
       "year": 2026,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/bed6ecff103c1a6f3a516d9b9d4847be8aff5294",
-      "citationCount": 7,
+      "citationCount": 8,
       "coAuthors": [
+        {
+          "slug": "lucas-maes",
+          "name": "Lucas Maes"
+        },
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
@@ -164,10 +232,6 @@
         {
           "slug": null,
           "name": "Heejeong Nam"
-        },
-        {
-          "slug": null,
-          "name": "Lucas Maes"
         },
         {
           "slug": null,
@@ -184,12 +248,12 @@
       "citationCount": 5,
       "coAuthors": [
         {
-          "slug": "yann-lecun",
-          "name": "Yann LeCun"
+          "slug": "lucas-maes",
+          "name": "Lucas Maes"
         },
         {
-          "slug": null,
-          "name": "Lucas Maes"
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
         },
         {
           "slug": null,
@@ -338,7 +402,7 @@
       "year": 2023,
       "venue": "IEEE Transactions on robotics",
       "url": "https://doi.org/10.1109/TRO.2024.3434208",
-      "citationCount": 67,
+      "citationCount": 68,
       "coAuthors": [
         {
           "slug": null,
@@ -394,7 +458,7 @@
       "year": 2022,
       "venue": "IEEE International Conference on Robotics and Automation",
       "url": "https://doi.org/10.1109/ICRA48891.2023.10160251",
-      "citationCount": 47,
+      "citationCount": 48,
       "coAuthors": [
         {
           "slug": null,
@@ -535,13 +599,35 @@
           "name": "J. Carpentier"
         }
       ]
+    },
+    {
+      "paperId": "ad92ee2cfce84e9de73ff01ff79f8f155512f2f1",
+      "title": "Sobolev Diffusion Policy",
+      "year": null,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/ad92ee2cfce84e9de73ff01ff79f8f155512f2f1",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Th´eotime Le Hellard"
+        },
+        {
+          "slug": null,
+          "name": "Franki Nguimatsia Tiofack"
+        },
+        {
+          "slug": null,
+          "name": "Justin Carpentier"
+        }
+      ]
     }
   ],
   "topPublications": [
     {
       "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
       "year": 2026,
-      "citationCount": 146,
+      "citationCount": 159,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.19312"
     },
@@ -555,16 +641,9 @@
     {
       "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
       "year": 2026,
-      "citationCount": 23,
+      "citationCount": 24,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.11389"
-    },
-    {
-      "title": "End-to-End and Highly-Efficient Differentiable Simulation for Robotics",
-      "year": 2024,
-      "citationCount": 14,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2409.07107"
     },
     {
       "title": "Value-guided action planning with JEPA world models",
@@ -572,6 +651,13 @@
       "citationCount": 13,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.00844"
+    },
+    {
+      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Masking",
+      "year": 2026,
+      "citationCount": 8,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/bed6ecff103c1a6f3a516d9b9d4847be8aff5294"
     }
   ],
   "githubProjects": [],
@@ -612,25 +698,26 @@
       {
         "slug": "yann-lecun",
         "name": "Yann LeCun",
-        "sharedPapers": 6
+        "sharedPapers": 8
+      },
+      {
+        "slug": "lucas-maes",
+        "name": "Lucas Maes",
+        "sharedPapers": 7
       }
     ],
     "externalCoAuthors": [
       {
         "name": "Justin Carpentier",
-        "papers": 10
+        "papers": 11
       },
       {
         "name": "Louis Montaut",
         "papers": 10
       },
       {
-        "name": "Lucas Maes",
-        "papers": 5
-      },
-      {
         "name": "Randall Balestriero",
-        "papers": 5
+        "papers": 7
       },
       {
         "name": "I. Laptev",
@@ -665,12 +752,36 @@
         "papers": 2
       },
       {
+        "name": "Franki Nguimatsia Tiofack",
+        "papers": 2
+      },
+      {
         "name": "Y. Mont-Marin",
         "papers": 2
       },
       {
         "name": "Wilson Jallet",
         "papers": 2
+      },
+      {
+        "name": "Lukas Kuhn",
+        "papers": 1
+      },
+      {
+        "name": "Giuseppe Serra",
+        "papers": 1
+      },
+      {
+        "name": "Florian Buettner",
+        "papers": 1
+      },
+      {
+        "name": "Yilun Kuang",
+        "papers": 1
+      },
+      {
+        "name": "Yash Dagade",
+        "papers": 1
       },
       {
         "name": "Luiz Facury",
@@ -694,10 +805,6 @@
       },
       {
         "name": "Th'eotime Le Hellard",
-        "papers": 1
-      },
-      {
-        "name": "Franki Nguimatsia Tiofack",
         "papers": 1
       },
       {
@@ -726,6 +833,10 @@
       },
       {
         "name": "V. Petrík",
+        "papers": 1
+      },
+      {
+        "name": "Th´eotime Le Hellard",
         "papers": 1
       }
     ],

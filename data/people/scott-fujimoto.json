@@ -29,12 +29,475 @@
   ],
   "reportsTo": "michael-rabbat",
   "reports": [],
-  "papers": [],
+  "papers": [
+    {
+      "paperId": "7278d56b454459534245fead6774f698cd3a3c44",
+      "title": "Hierarchical Behaviour Spaces",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2604.24558",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "mikael-henaff",
+          "name": "Mikael Henaff"
+        },
+        {
+          "slug": null,
+          "name": "M. Matthews"
+        },
+        {
+          "slug": null,
+          "name": "A. Kanervisto"
+        },
+        {
+          "slug": null,
+          "name": "J. Foerster"
+        },
+        {
+          "slug": null,
+          "name": "P. D'Oro"
+        }
+      ]
+    },
+    {
+      "paperId": "4f8e6c36ff27dfc3d116d2eed48d79a8d0609622",
+      "title": "Sparse-Reg: Improving Sample Complexity in Offline Reinforcement Learning using Sparsity",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.17155",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Samin Yeasar Arnob"
+        },
+        {
+          "slug": null,
+          "name": "D. Precup"
+        }
+      ]
+    },
+    {
+      "paperId": "8b5a505643f7935d2210e95a5685062230b54f6e",
+      "title": "Fairness in Reinforcement Learning with Bisimulation Metrics",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2412.17123",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "S. Rezaei-Shoshtari"
+        },
+        {
+          "slug": null,
+          "name": "Hanna Yurchyk"
+        },
+        {
+          "slug": null,
+          "name": "D. Precup"
+        },
+        {
+          "slug": null,
+          "name": "D. Meger"
+        }
+      ]
+    },
+    {
+      "paperId": "79e8b821bb175f889e76565b61666961c030ef7a",
+      "title": "Imitation Learning from Observation through Optimal Transport",
+      "year": 2023,
+      "venue": "RLJ",
+      "url": "https://doi.org/10.48550/arXiv.2310.01632",
+      "citationCount": 6,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Wei-Di Chang"
+        },
+        {
+          "slug": null,
+          "name": "D. Meger"
+        },
+        {
+          "slug": null,
+          "name": "Gregory Dudek"
+        }
+      ]
+    },
+    {
+      "paperId": "487b7090af70989dde3a0e16bc5d014eb5dfd498",
+      "title": "For SALE: State-Action Representation Learning for Deep Reinforcement Learning",
+      "year": 2023,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2306.02451",
+      "citationCount": 125,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Wei-Di Chang"
+        },
+        {
+          "slug": null,
+          "name": "Edward James Smith"
+        },
+        {
+          "slug": null,
+          "name": "S. Gu"
+        },
+        {
+          "slug": null,
+          "name": "Doina Precup"
+        },
+        {
+          "slug": null,
+          "name": "D. Meger"
+        }
+      ]
+    },
+    {
+      "paperId": "580d40a8847897886193c31e2eec0947978e42fb",
+      "title": "IL-flOw: Imitation Learning from Observation using Normalizing Flows",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2205.09251",
+      "citationCount": 10,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Wei-Di Chang"
+        },
+        {
+          "slug": null,
+          "name": "J. A. G. Higuera"
+        },
+        {
+          "slug": null,
+          "name": "D. Meger"
+        },
+        {
+          "slug": null,
+          "name": "Gregory Dudek"
+        }
+      ]
+    },
+    {
+      "paperId": "f7fa5e6899abbe0108277e54e1c4141f740767a0",
+      "title": "Why Should I Trust You, Bellman? The Bellman Error is a Poor Replacement for Value Error",
+      "year": 2022,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/f7fa5e6899abbe0108277e54e1c4141f740767a0",
+      "citationCount": 48,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "D. Meger"
+        },
+        {
+          "slug": null,
+          "name": "Doina Precup"
+        },
+        {
+          "slug": null,
+          "name": "Ofir Nachum"
+        },
+        {
+          "slug": null,
+          "name": "S. Gu"
+        }
+      ]
+    },
+    {
+      "paperId": "c879b25308026d6538e52b27bcf4fd3cb60855f3",
+      "title": "A Minimalist Approach to Offline Reinforcement Learning",
+      "year": 2021,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/c879b25308026d6538e52b27bcf4fd3cb60855f3",
+      "citationCount": 1238,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "S. Gu"
+        }
+      ]
+    },
+    {
+      "paperId": "d8ec33f0920f307fea837609b1c223dd07b7d0aa",
+      "title": "A Deep Reinforcement Learning Approach to Marginalized Importance Sampling with the Successor Representation",
+      "year": 2021,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/d8ec33f0920f307fea837609b1c223dd07b7d0aa",
+      "citationCount": 19,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "D. Meger"
+        },
+        {
+          "slug": null,
+          "name": "Doina Precup"
+        }
+      ]
+    },
+    {
+      "paperId": "a425c6d74273cb9d2ad958273429cd0e8b0f13ba",
+      "title": "An Equivalence between Loss Functions and Non-Uniform Sampling in Experience Replay",
+      "year": 2020,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/a425c6d74273cb9d2ad958273429cd0e8b0f13ba",
+      "citationCount": 83,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "D. Meger"
+        },
+        {
+          "slug": null,
+          "name": "Doina Precup"
+        }
+      ]
+    },
+    {
+      "paperId": "1534d860ab98b64d23ffa741d0ae52b6cadbf503",
+      "title": "Benchmarking Batch Deep Reinforcement Learning Algorithms",
+      "year": 2019,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/1534d860ab98b64d23ffa741d0ae52b6cadbf503",
+      "citationCount": 219,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Edoardo Conti"
+        },
+        {
+          "slug": null,
+          "name": "M. Ghavamzadeh"
+        },
+        {
+          "slug": null,
+          "name": "Joelle Pineau"
+        }
+      ]
+    },
+    {
+      "paperId": "42a5fdade21b448e20574d18452694d229b4675d",
+      "title": "GEOMetrics: Exploiting Geometric Structure for Graph-Encoded Objects",
+      "year": 2019,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/42a5fdade21b448e20574d18452694d229b4675d",
+      "citationCount": 96,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Edward James Smith"
+        },
+        {
+          "slug": null,
+          "name": "Adriana Romero"
+        },
+        {
+          "slug": null,
+          "name": "D. Meger"
+        }
+      ]
+    },
+    {
+      "paperId": "5285cb8faada5de8a92a47622950f6cfd476ac1d",
+      "title": "Off-Policy Deep Reinforcement Learning without Exploration",
+      "year": 2018,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/5285cb8faada5de8a92a47622950f6cfd476ac1d",
+      "citationCount": 2149,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "D. Meger"
+        },
+        {
+          "slug": null,
+          "name": "Doina Precup"
+        }
+      ]
+    },
+    {
+      "paperId": "82ef41d2065e366ce1130d36b53881e06f1af2ed",
+      "title": "Horizon: Facebook's Open Source Applied Reinforcement Learning Platform",
+      "year": 2018,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/82ef41d2065e366ce1130d36b53881e06f1af2ed",
+      "citationCount": 147,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "J. Gauci"
+        },
+        {
+          "slug": null,
+          "name": "Edoardo Conti"
+        },
+        {
+          "slug": null,
+          "name": "Yitao Liang"
+        },
+        {
+          "slug": null,
+          "name": "Kittipat Virochsiri"
+        },
+        {
+          "slug": null,
+          "name": "Yuchen He"
+        },
+        {
+          "slug": null,
+          "name": "Zachary Kaden"
+        },
+        {
+          "slug": null,
+          "name": "Vivek Narayanan"
+        },
+        {
+          "slug": null,
+          "name": "Xiaohui Ye"
+        }
+      ]
+    },
+    {
+      "paperId": "45371436c11e5f6f42bb2b8524a1c663794ff1fe",
+      "title": "Where Off-Policy Deep Reinforcement Learning Fails",
+      "year": 2018,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/45371436c11e5f6f42bb2b8524a1c663794ff1fe",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "D. Meger"
+        },
+        {
+          "slug": null,
+          "name": "Doina Precup"
+        }
+      ]
+    },
+    {
+      "paperId": "fb3affc0fcaa1d03a086efe5bead15017b7af63a",
+      "title": "Sentiment Analysis: It’s Complicated!",
+      "year": 2018,
+      "venue": "North American Chapter of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.18653/v1/N18-1171",
+      "citationCount": 72,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Kian Kenyon-Dean"
+        },
+        {
+          "slug": null,
+          "name": "Eisha Ahmed"
+        },
+        {
+          "slug": null,
+          "name": "Jeremy Georges-Filteau"
+        },
+        {
+          "slug": null,
+          "name": "Chris Glasz"
+        },
+        {
+          "slug": null,
+          "name": "Barleen Kaur"
+        },
+        {
+          "slug": null,
+          "name": "Auguste Lalande"
+        },
+        {
+          "slug": null,
+          "name": "S. Bhanderi"
+        },
+        {
+          "slug": null,
+          "name": "Robert Belfer"
+        },
+        {
+          "slug": null,
+          "name": "N. Kanagasabai"
+        },
+        {
+          "slug": null,
+          "name": "Roman Sarrazingendron"
+        },
+        {
+          "slug": null,
+          "name": "Rohit Verma"
+        },
+        {
+          "slug": null,
+          "name": "D. Ruths"
+        }
+      ]
+    },
+    {
+      "paperId": "8a5ab044ce82bda4ddaa045e588221b762afa797",
+      "title": "3D Object Super-Resolution",
+      "year": 2018,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/8a5ab044ce82bda4ddaa045e588221b762afa797",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Edward James Smith"
+        },
+        {
+          "slug": null,
+          "name": "D. Meger"
+        }
+      ]
+    },
+    {
+      "paperId": "4debb99c0c63bfaa97dd433bc2828e4dac81c48b",
+      "title": "Addressing Function Approximation Error in Actor-Critic Methods",
+      "year": 2018,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/4debb99c0c63bfaa97dd433bc2828e4dac81c48b",
+      "citationCount": 7359,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "H. V. Hoof"
+        },
+        {
+          "slug": null,
+          "name": "D. Meger"
+        }
+      ]
+    },
+    {
+      "paperId": "8aa51889a5e4ce2f3ecef47729348be41b2f6d6e",
+      "title": "Multi-View Silhouette and Depth Decomposition for High Resolution 3D Object Representation",
+      "year": 2018,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/8aa51889a5e4ce2f3ecef47729348be41b2f6d6e",
+      "citationCount": 56,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Edward James Smith"
+        },
+        {
+          "slug": null,
+          "name": "D. Meger"
+        }
+      ]
+    }
+  ],
   "topPublications": [
     {
       "title": "A Minimalist Approach to Offline Reinforcement Learning",
       "year": 2021,
-      "citationCount": 1232,
+      "citationCount": 1238,
       "venue": "Neural Information Processing Systems",
       "url": "https://www.semanticscholar.org/paper/c879b25308026d6538e52b27bcf4fd3cb60855f3"
     },
@@ -62,7 +525,7 @@
     {
       "title": "Why Should I Trust You, Bellman? The Bellman Error is a Poor Replacement for Value Error",
       "year": 2022,
-      "citationCount": 46,
+      "citationCount": 48,
       "venue": "International Conference on Machine Learning",
       "url": "https://www.semanticscholar.org/paper/f7fa5e6899abbe0108277e54e1c4141f740767a0"
     }
@@ -83,8 +546,175 @@
   ],
   "xPosts": [],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "mikael-henaff",
+        "name": "Mikael Henaff",
+        "sharedPapers": 1
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "D. Meger",
+        "papers": 13
+      },
+      {
+        "name": "Doina Precup",
+        "papers": 6
+      },
+      {
+        "name": "Edward James Smith",
+        "papers": 4
+      },
+      {
+        "name": "Wei-Di Chang",
+        "papers": 3
+      },
+      {
+        "name": "S. Gu",
+        "papers": 3
+      },
+      {
+        "name": "D. Precup",
+        "papers": 2
+      },
+      {
+        "name": "Gregory Dudek",
+        "papers": 2
+      },
+      {
+        "name": "Edoardo Conti",
+        "papers": 2
+      },
+      {
+        "name": "M. Matthews",
+        "papers": 1
+      },
+      {
+        "name": "A. Kanervisto",
+        "papers": 1
+      },
+      {
+        "name": "J. Foerster",
+        "papers": 1
+      },
+      {
+        "name": "P. D'Oro",
+        "papers": 1
+      },
+      {
+        "name": "Samin Yeasar Arnob",
+        "papers": 1
+      },
+      {
+        "name": "S. Rezaei-Shoshtari",
+        "papers": 1
+      },
+      {
+        "name": "Hanna Yurchyk",
+        "papers": 1
+      },
+      {
+        "name": "J. A. G. Higuera",
+        "papers": 1
+      },
+      {
+        "name": "Ofir Nachum",
+        "papers": 1
+      },
+      {
+        "name": "M. Ghavamzadeh",
+        "papers": 1
+      },
+      {
+        "name": "Joelle Pineau",
+        "papers": 1
+      },
+      {
+        "name": "Adriana Romero",
+        "papers": 1
+      },
+      {
+        "name": "J. Gauci",
+        "papers": 1
+      },
+      {
+        "name": "Yitao Liang",
+        "papers": 1
+      },
+      {
+        "name": "Kittipat Virochsiri",
+        "papers": 1
+      },
+      {
+        "name": "Yuchen He",
+        "papers": 1
+      },
+      {
+        "name": "Zachary Kaden",
+        "papers": 1
+      },
+      {
+        "name": "Vivek Narayanan",
+        "papers": 1
+      },
+      {
+        "name": "Xiaohui Ye",
+        "papers": 1
+      },
+      {
+        "name": "Kian Kenyon-Dean",
+        "papers": 1
+      },
+      {
+        "name": "Eisha Ahmed",
+        "papers": 1
+      },
+      {
+        "name": "Jeremy Georges-Filteau",
+        "papers": 1
+      },
+      {
+        "name": "Chris Glasz",
+        "papers": 1
+      },
+      {
+        "name": "Barleen Kaur",
+        "papers": 1
+      },
+      {
+        "name": "Auguste Lalande",
+        "papers": 1
+      },
+      {
+        "name": "S. Bhanderi",
+        "papers": 1
+      },
+      {
+        "name": "Robert Belfer",
+        "papers": 1
+      },
+      {
+        "name": "N. Kanagasabai",
+        "papers": 1
+      },
+      {
+        "name": "Roman Sarrazingendron",
+        "papers": 1
+      },
+      {
+        "name": "Rohit Verma",
+        "papers": 1
+      },
+      {
+        "name": "D. Ruths",
+        "papers": 1
+      },
+      {
+        "name": "H. V. Hoof",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "adrien-bardes",

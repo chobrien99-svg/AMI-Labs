@@ -132,7 +132,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.22275",
-      "citationCount": 5,
+      "citationCount": 7,
       "coAuthors": [
         {
           "slug": null,
@@ -170,7 +170,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276",
-      "citationCount": 23,
+      "citationCount": 27,
       "coAuthors": [
         {
           "slug": "david-fan",
@@ -306,7 +306,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2512.10794",
-      "citationCount": 63,
+      "citationCount": 64,
       "coAuthors": [
         {
           "slug": null,
@@ -366,7 +366,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2511.04670",
-      "citationCount": 120,
+      "citationCount": 122,
       "coAuthors": [
         {
           "slug": "jihan-yang",
@@ -432,7 +432,7 @@
       "year": 2025,
       "venue": "International Conference on Learning Representations",
       "url": "https://doi.org/10.48550/arXiv.2410.05694",
-      "citationCount": 34,
+      "citationCount": 35,
       "coAuthors": [
         {
           "slug": null,
@@ -488,7 +488,7 @@
       "year": 2025,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.01697",
-      "citationCount": 195,
+      "citationCount": 198,
       "coAuthors": [
         {
           "slug": null,
@@ -563,12 +563,54 @@
       ]
     },
     {
+      "paperId": "a99dee9602e21a71526b9681d8dba37c55b66941",
+      "title": "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training",
+      "year": 2025,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2501.17161",
+      "citationCount": 694,
+      "coAuthors": [
+        {
+          "slug": "yuexiang-zhai",
+          "name": "Yuexiang Zhai"
+        },
+        {
+          "slug": "jihan-yang",
+          "name": "Jihan Yang"
+        },
+        {
+          "slug": null,
+          "name": "Tianzhe Chu"
+        },
+        {
+          "slug": null,
+          "name": "Shengbang Tong"
+        },
+        {
+          "slug": null,
+          "name": "Dale Schuurmans"
+        },
+        {
+          "slug": null,
+          "name": "Quoc V. Le"
+        },
+        {
+          "slug": null,
+          "name": "Sergey Levine"
+        },
+        {
+          "slug": null,
+          "name": "Yi Ma"
+        }
+      ]
+    },
+    {
       "paperId": "af548607b73fcd51683842d2fbefb3f97205e885",
       "title": "MetaMorph: Multimodal Understanding and Generation via Instruction Tuning",
       "year": 2024,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.01579",
-      "citationCount": 223,
+      "citationCount": 225,
       "coAuthors": [
         {
           "slug": "david-fan",
@@ -614,7 +656,7 @@
       "year": 2024,
       "venue": "International Conference on Learning Representations",
       "url": "https://doi.org/10.48550/arXiv.2410.06940",
-      "citationCount": 653,
+      "citationCount": 661,
       "coAuthors": [
         {
           "slug": null,
@@ -678,7 +720,7 @@
       "year": 2024,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2406.16860",
-      "citationCount": 937,
+      "citationCount": 948,
       "coAuthors": [
         {
           "slug": "sanghyun-woo",
@@ -735,12 +777,92 @@
       ]
     },
     {
+      "paperId": "f7749635a5fc0492ef4705bee963ffa887bb2865",
+      "title": "Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning",
+      "year": 2024,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2405.10292",
+      "citationCount": 210,
+      "coAuthors": [
+        {
+          "slug": "yuexiang-zhai",
+          "name": "Yuexiang Zhai"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Hao Bai"
+        },
+        {
+          "slug": null,
+          "name": "Zipeng Lin"
+        },
+        {
+          "slug": null,
+          "name": "Jiayi Pan"
+        },
+        {
+          "slug": null,
+          "name": "Shengbang Tong"
+        },
+        {
+          "slug": null,
+          "name": "Yifei Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Alane Suhr"
+        },
+        {
+          "slug": null,
+          "name": "Yi Ma"
+        },
+        {
+          "slug": null,
+          "name": "Sergey Levine"
+        }
+      ]
+    },
+    {
+      "paperId": "ca00f4056f9039d3c1a4c3a113f5ee0527149b66",
+      "title": "Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs",
+      "year": 2024,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52733.2024.00914",
+      "citationCount": 862,
+      "coAuthors": [
+        {
+          "slug": "yuexiang-zhai",
+          "name": "Yuexiang Zhai"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Shengbang Tong"
+        },
+        {
+          "slug": null,
+          "name": "Zhuang Liu"
+        },
+        {
+          "slug": null,
+          "name": "Yi Ma"
+        }
+      ]
+    },
+    {
       "paperId": "1bdd5fc17cc580efe998304692639c57c857cc84",
       "title": "Going Denser with Open-Vocabulary Part Segmentation",
       "year": 2023,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51070.2023.01417",
-      "citationCount": 95,
+      "citationCount": 96,
       "coAuthors": [
         {
           "slug": null,
@@ -812,7 +934,7 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548",
-      "citationCount": 1939,
+      "citationCount": 1976,
       "coAuthors": [
         {
           "slug": "sanghyun-woo",
@@ -846,7 +968,7 @@
       "year": 2022,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51070.2023.00387",
-      "citationCount": 6891,
+      "citationCount": 7007,
       "coAuthors": [
         {
           "slug": null,
@@ -924,7 +1046,7 @@
       "year": 2022,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01167",
-      "citationCount": 9077,
+      "citationCount": 9203,
       "coAuthors": [
         {
           "slug": null,
@@ -984,7 +1106,7 @@
       "year": 2021,
       "venue": "European Conference on Computer Vision",
       "url": "https://doi.org/10.1007/978-3-031-19809-0_30",
-      "citationCount": 644,
+      "citationCount": 649,
       "coAuthors": [
         {
           "slug": null,
@@ -1006,10 +1128,10 @@
       "year": 2021,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01426",
-      "citationCount": 878,
+      "citationCount": 880,
       "coAuthors": [
         {
-          "slug": null,
+          "slug": "chen-wei",
           "name": "Chen Wei"
         },
         {
@@ -1066,7 +1188,7 @@
       "year": 2021,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01553",
-      "citationCount": 12490,
+      "citationCount": 12615,
       "coAuthors": [
         {
           "slug": null,
@@ -1170,7 +1292,7 @@
       "year": 2021,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV48922.2021.00950",
-      "citationCount": 2457,
+      "citationCount": 2469,
       "coAuthors": [
         {
           "slug": null,
@@ -1188,7 +1310,7 @@
       "year": 2021,
       "venue": "Neural Information Processing Systems",
       "url": "https://www.semanticscholar.org/paper/6af5cdb1c6d54ed75a32353f3c31097eca6cb35e",
-      "citationCount": 134,
+      "citationCount": 136,
       "coAuthors": [
         {
           "slug": null,
@@ -1228,7 +1350,7 @@
       "year": 2020,
       "venue": "European Conference on Computer Vision",
       "url": "https://doi.org/10.1007/978-3-030-58580-8_34",
-      "citationCount": 849,
+      "citationCount": 858,
       "coAuthors": [
         {
           "slug": null,
@@ -1446,7 +1568,7 @@
       "year": 2019,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/cvpr42600.2020.00975",
-      "citationCount": 15532,
+      "citationCount": 15630,
       "coAuthors": [
         {
           "slug": null,
@@ -1472,7 +1594,7 @@
       "year": 2019,
       "venue": "International Conference on Learning Representations",
       "url": "https://www.semanticscholar.org/paper/dcc4c760c3f1cb17f953c487190b735030c33b78",
-      "citationCount": 1594,
+      "citationCount": 1610,
       "coAuthors": [
         {
           "slug": "bingyi-kang",
@@ -1620,7 +1742,7 @@
       "year": 2019,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV.2019.00197",
-      "citationCount": 152,
+      "citationCount": 153,
       "coAuthors": [
         {
           "slug": null,
@@ -1646,7 +1768,7 @@
       "year": 2019,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV.2019.00137",
-      "citationCount": 393,
+      "citationCount": 394,
       "coAuthors": [
         {
           "slug": null,
@@ -1732,35 +1854,35 @@
     {
       "title": "Masked Autoencoders Are Scalable Vision Learners",
       "year": 2021,
-      "citationCount": 12553,
+      "citationCount": 12615,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01553"
     },
     {
       "title": "A ConvNet for the 2020s",
       "year": 2022,
-      "citationCount": 9141,
+      "citationCount": 9203,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01167"
     },
     {
       "title": "Scalable Diffusion Models with Transformers",
       "year": 2022,
-      "citationCount": 6951,
+      "citationCount": 7007,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51070.2023.00387"
     },
     {
       "title": "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders",
       "year": 2023,
-      "citationCount": 1956,
+      "citationCount": 1976,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548"
     },
     {
       "title": "Masked Feature Prediction for Self-Supervised Visual Pre-Training",
       "year": 2021,
-      "citationCount": 879,
+      "citationCount": 880,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01426"
     }
@@ -1789,14 +1911,14 @@
   "connections": {
     "coAuthors": [
       {
-        "slug": "jihan-yang",
-        "name": "Jihan Yang",
-        "sharedPapers": 6
-      },
-      {
         "slug": "yann-lecun",
         "name": "Yann LeCun",
-        "sharedPapers": 6
+        "sharedPapers": 8
+      },
+      {
+        "slug": "jihan-yang",
+        "name": "Jihan Yang",
+        "sharedPapers": 7
       },
       {
         "slug": "david-fan",
@@ -1806,6 +1928,11 @@
       {
         "slug": "michael-rabbat",
         "name": "Michael Rabbat",
+        "sharedPapers": 3
+      },
+      {
+        "slug": "yuexiang-zhai",
+        "name": "Yuexiang Zhai",
         "sharedPapers": 3
       },
       {
@@ -1832,9 +1959,18 @@
         "slug": "adithya-iyer",
         "name": "Adithya Iyer",
         "sharedPapers": 1
+      },
+      {
+        "slug": "chen-wei",
+        "name": "Chen Wei",
+        "sharedPapers": 1
       }
     ],
     "externalCoAuthors": [
+      {
+        "name": "Shengbang Tong",
+        "papers": 9
+      },
       {
         "name": "Xinlei Chen",
         "papers": 8
@@ -1842,10 +1978,6 @@
       {
         "name": "Kaiming He",
         "papers": 7
-      },
-      {
-        "name": "Shengbang Tong",
-        "papers": 6
       },
       {
         "name": "Ellis Brown",
@@ -1856,15 +1988,15 @@
         "papers": 5
       },
       {
+        "name": "Zhuang Liu",
+        "papers": 5
+      },
+      {
         "name": "Ross B. Girshick",
         "papers": 5
       },
       {
         "name": "Shusheng Yang",
-        "papers": 4
-      },
-      {
-        "name": "Zhuang Liu",
         "papers": 4
       },
       {
@@ -1885,6 +2017,10 @@
       },
       {
         "name": "Jinwoo Shin",
+        "papers": 3
+      },
+      {
+        "name": "Yi Ma",
         "papers": 3
       },
       {
@@ -1961,6 +2097,10 @@
       },
       {
         "name": "Jiacheng Zhu",
+        "papers": 2
+      },
+      {
+        "name": "Sergey Levine",
         "papers": 2
       },
       {
@@ -2196,6 +2336,18 @@
         "papers": 1
       },
       {
+        "name": "Tianzhe Chu",
+        "papers": 1
+      },
+      {
+        "name": "Dale Schuurmans",
+        "papers": 1
+      },
+      {
+        "name": "Quoc V. Le",
+        "papers": 1
+      },
+      {
         "name": "Yunyang Xiong",
         "papers": 1
       },
@@ -2229,6 +2381,26 @@
       },
       {
         "name": "Austin Wang",
+        "papers": 1
+      },
+      {
+        "name": "Hao Bai",
+        "papers": 1
+      },
+      {
+        "name": "Zipeng Lin",
+        "papers": 1
+      },
+      {
+        "name": "Jiayi Pan",
+        "papers": 1
+      },
+      {
+        "name": "Yifei Zhou",
+        "papers": 1
+      },
+      {
+        "name": "Alane Suhr",
         "papers": 1
       },
       {
@@ -2309,10 +2481,6 @@
       },
       {
         "name": "David A. Wagner",
-        "papers": 1
-      },
-      {
-        "name": "Chen Wei",
         "papers": 1
       },
       {
