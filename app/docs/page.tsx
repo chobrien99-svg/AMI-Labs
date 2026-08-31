@@ -5,7 +5,7 @@ import DocsClient from "@/components/DocsClient";
 export const metadata: Metadata = {
   title: "Documents — AMI Labs Intelligence Hub",
   description:
-    "Official AMI Labs documents — pitchdeck, reports, and public filings.",
+    "Official AMI Labs documents — presentations, reports, and public filings.",
 };
 
 export default function DocsPage() {
