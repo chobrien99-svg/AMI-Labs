@@ -1238,47 +1238,13 @@
     "dessinKeys": []
   },
   "status": "ok",
-  "headline": "AMI doubles down on world models: new JEPA research, a key Mila hire, and a conference co-organiser role signal a coordinated strategic push",
-  "stateOfPlay": "This week's signals converge on a single unmistakable theme: AMI is moving from world-model theory to world-model infrastructure. Two new papers from the same Montreal-linked trio — Lucas Maes, Quentin Le Lidec, and Yann LeCun — attack foundational problems in JEPA-style video and latent-space learning simultaneously, while the hiring of Maes himself formalises what the research already implied. Layered on top, AMI's public co-organisation of a dedicated World Modeling Workshop and a forthcoming World Modeling Conference signals that the lab is not just doing this research in private — it is actively shaping the community around it.",
+  "headline": "AMI's quiet signal: World Models conference co-organizer role",
+  "stateOfPlay": "This week's main signal is AMI's public co-organization of a dedicated World Modeling Workshop as the lab is actively shaping the community around it.",
   "threads": [
-    {
-      "title": "LeVJEPA and LpWM together define AMI's JEPA research agenda for the year",
-      "category": "research",
-      "narrative": "The two most significant papers this week are best read as a pair. LeVJEPA, published on August 27 by Maes, Le Lidec, and LeCun, strips the standard V-JEPA architecture down to a single encoder trained with a collapse-free objective — no exponential-moving-average target network, no stop-gradient, no capacity-limited predictor. According to its abstract, it matches or beats V-JEPA 2 while using as much as 20.8× less pretraining compute, and produces causal representations explicitly suited to future world models. That last detail matters: the efficiency gain is presented not as the end goal but as a means toward the harder problem of world modelling from video.\n\nLpWM, published three days earlier by the same authors in reverse order, attacks a different but adjacent question: what geometry should the latent space of a JEPA world model actually have? The paper argues against the standard isotropic Gaussian (dense representations) and for sparse representations, introducing a regulariser — Rectified Distribution Matching — that pushes encoder features toward a Rectified Generalised Gaussian distribution. The claim is that sparse, 'mode-factored' codes make action-conditioned latent dynamics easier to model. Together, the two papers sketch a coherent programme: LeVJEPA provides a cheaper, causally-structured video encoder; LpWM proposes a principled latent geometry for the world model that sits on top of it. The convergence of two papers, one hire, and a public workshop announcement in a single week suggests this is not coincidental — it looks like a coordinated research sprint.",
-      "evidence": [
-        {
-          "label": "LeVJEPA paper (Semantic Scholar)",
-          "url": "https://www.semanticscholar.org/paper/437cb869d42d536ad1b2f35399c99ab79ec65d5a"
-        },
-        {
-          "label": "LpWM paper (Semantic Scholar)",
-          "url": "https://www.semanticscholar.org/paper/302343f7676e209391f3d5e3409a1b157c9df45a"
-        },
-        {
-          "label": "AMI Observatory news item on LeVJEPA",
-          "url": "/news/new-research-levjepa-efficient-and-scalable-video-pretraining-without-the-heuristics"
-        }
-      ]
-    },
-    {
-      "title": "Hiring Lucas Maes is an acquisition of the research itself, not just a researcher",
-      "category": "hiring",
-      "narrative": "AMI's addition of Lucas Maes as Member of Technical Staff in Montreal is notable because Maes is not a peripheral contributor to the lab's agenda — he is a co-author on both papers published this week, and his Mila PhD focused specifically on improving JEPAs through planning, temporal abstraction, goal specification, and physical reasoning. Hiring him is effectively bringing the intellectual continuity of this research programme in-house.\n\nThe Montreal placement is also worth noting. AMI already lists roles across NYC, Paris, and Singapore, but the Mila ecosystem — home to Bengio's group and a dense concentration of JEPA-adjacent researchers — represents a particular talent pool for this strand of work. His prior paper, stable-pretraining-v1 (2025), which built a modular SSL research library on PyTorch and Hugging Face, further suggests he brings not just ideas but engineering infrastructure for foundation model experimentation. That combination of research depth and tooling capability fits AMI's evident need to run JEPA experiments at scale without the compute overhead that LeVJEPA is explicitly designed to reduce.",
-      "evidence": [
-        {
-          "label": "Lucas Maes hire profile",
-          "url": "https://ami.frenchtechjournal.com/team/lucas-maes"
-        },
-        {
-          "label": "stable-pretraining-v1 paper",
-          "url": "https://doi.org/10.48550/arXiv.2511.19484"
-        }
-      ]
-    },
     {
       "title": "The World Modeling Workshop marks AMI's shift from participant to convener",
       "category": "research",
-      "narrative": "Randall Balestriero's posts this week announced that AMI Labs is a named co-organiser of both a 4th World Modeling Workshop (Aspen, February) focused on physics, and a inaugural World Modeling Conference (Bay Area, May). These are not peripheral sponsorships — Balestriero's announcement explicitly names @amilabs alongside @ylecun and Lambda API as co-organisers, and the posts generated meaningful engagement (111 likes, 14 retweets on the announcement post). Organising the first standalone conference in this space is a community-positioning move: it signals that AMI sees world modelling not as one research thread among many but as a field-defining bet worth institutionalising.\n\nThis is consistent with Li Haoyi's public blog post — announced on X with 262 likes — titled 'Joining AMI to work on World Models,' which reads as both a personal announcement and an implicit recruiting signal. The combination of a high-profile hire announcing his reasons publicly and a co-organised conference suggests AMI is deliberately building gravity around the world-model research programme, attracting both talent and community legitimacy simultaneously.",
+      "narrative": "Randall Balestriero (who may or may not be working for AMI!) posted this week, announcing that AMI Labs is a named co-organizer of both a 4th World Modeling Workshop (Aspen, February) focused on physics and an inaugural World Modeling Conference (Bay Area, May). These are not peripheral sponsorships — Balestriero's announcement explicitly names @amilabs alongside @ylecun and Lambda API as co-organizers, and the posts generated meaningful engagement (111 likes, 14 retweets on the announcement post). Organising the first standalone conference in this space is a community-positioning move: it signals that AMI sees world modelling not as one research thread among many but as a field-defining bet worth institutionalising.\n\nThis is consistent with Li Haoyi's public blog post — announced on X with 262 likes — titled 'Joining AMI to work on World Models,' which reads as both a personal announcement and an implicit recruiting signal. The combination of a high-profile hire announcing his reasons publicly and a co-organized conference suggests AMI is deliberately building gravity around the world-model research program, attracting both talent and community legitimacy at the same time. Although not to burst his bubble, we broke the news of his hiring back in June.",
       "evidence": [
         {
           "label": "Balestriero workshop/conference announcement",
@@ -1291,13 +1257,17 @@
         {
           "label": "Li Haoyi joining AMI post",
           "url": "https://x.com/li_haoyi/status/2094416691291988131"
+        },
+        {
+          "label": "Li Haoyi, Member of Technical Staff, Singapore",
+          "url": "https://ami.frenchtechjournal.com/team/haoyi-li"
         }
       ]
     },
     {
-      "title": "AMI is actively recruiting in 3D vision and geometry — a capability gap the current team doesn't obviously fill",
+      "title": "AMI is actively recruiting in 3D vision and geometry, a capability gap the current team doesn't obviously fill",
       "category": "hiring",
-      "narrative": "Jihan Yang's high-engagement post (469 likes) soliciting full-time researchers and interns in geometry and 3D vision — across all four of AMI's hubs — points to a deliberate effort to fill a capability that the lab's current public research profile doesn't prominently feature. The existing publication record is weighted toward JEPA-style representation learning, video, and reinforcement learning; 3D spatial understanding is a logical next layer if AMI intends its world models to reason about physical scenes rather than just predict patch-level video features.\n\nThe breadth of locations (NYC, Paris, Montreal, Singapore) for a single specialised role suggests AMI is prioritising finding the right person over geography — an indicator of how seriously the lab is taking this capability. Bingyi Kang's parallel hiring call the same day reinforces that this was a coordinated push, not a single researcher acting independently.",
+      "narrative": "As we noted last week, the company posted a job listing for Geometry and 3D Vision scientist/interns. Now it's added one specifically for an AMI Scientist. Jihan Yang's high-engagement post (469 likes) soliciting full-time researchers and interns in geometry and 3D vision—across all four of AMI's hubs—points to a deliberate effort to fill a capability the lab's current public research profile doesn't prominently feature. The existing publication record is weighted toward JEPA-style representation learning, video, and reinforcement learning; 3D spatial understanding is a logical next layer if AMI intends its world models to reason about physical scenes rather than just predict patch-level video features.\n\nThe breadth of locations (NYC, Paris, Montreal, Singapore) for a single specialized role suggests AMI is prioritizing finding the right person over geography — an indicator of how seriously the lab is taking this capability. Bingyi Kang's parallel hiring call the same day reinforces that this was a coordinated push, not a single researcher acting independently.",
       "evidence": [
         {
           "label": "Jihan Yang hiring post",
@@ -1306,6 +1276,14 @@
         {
           "label": "Bingyi Kang hiring post",
           "url": "https://x.com/bingyikang/status/2094526530231632279"
+        },
+        {
+          "label": "Hiring: AMI Scientist",
+          "url": "https://jobs.ashbyhq.com/ami/da976389-9875-4eb6-b866-8097baed3178"
+        },
+        {
+          "label": "Hiring: AMI Scientist/Interns - Geometry and 3D Vision",
+          "url": "https://jobs.ashbyhq.com/ami/0d7332d8-b8e7-40d3-89b6-dfc02b40bfa2?locationId=13f12f86-724f-4402-9a9f-dbaeb635b9d7"
         }
       ]
     }
@@ -1318,13 +1296,13 @@
       "linkLabel": "GitHub comment"
     },
     {
-      "text": "LeCun appeared as sole AMI-credited author on a Nature Communications paper (RayDINO) applying self-supervised visual encoding to chest X-rays at scale — a medical application of DINO-style SSL that predates AMI's current JEPA focus but signals continued breadth in LeCun's collaborative output.",
+      "text": "LeCun appeared as sole AMI-credited author on a Nature Communications paper (RayDINO) applying self-supervised visual encoding to chest X-rays at scale — a medical application of DINO-style SSL that predates AMI's current JEPA focus, but signals continued breadth in LeCun's collaborative output.",
       "category": "research",
       "url": "https://doi.org/10.1038/s41467-026-76076-4",
       "linkLabel": "RayDINO paper"
     }
   ],
-  "whatToWatch": "The World Modeling Conference in May is the clearest near-term milestone to track: what AMI chooses to present or announce there will reveal how far the LeVJEPA/LpWM programme has matured. In the interim, watch whether the 3D vision hiring push yields visible new team members or a paper connecting spatial geometry to the JEPA latent-space work — that link would confirm whether AMI is building toward embodied world models or keeping its scope closer to video representation.",
+  "whatToWatch": "The World Modeling Conference could be an interesting opportunity to see if AMI chooses to present or announce something that reveals how far the LeVJEPA/LpWM program has matured. In the interim, watch whether the 3D vision hiring push yields visible new team members or a paper connecting spatial geometry to the JEPA latent-space work — that link would confirm whether AMI is building toward embodied world models or keeping its scope closer to video representation.",
   "whatToWatchLinks": [
     {
       "url": "https://x.com/randall_balestr/status/2094453717084901539",
