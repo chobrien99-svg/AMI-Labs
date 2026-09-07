@@ -105,6 +105,32 @@
       ]
     },
     {
+      "paperId": "794fbee87765a8c2bdef78e0330b125bba5db919",
+      "title": "Generalizable Imitation Learning Through Pre-Trained Representations",
+      "year": 2023,
+      "venue": "IEEE International Conference on Robotics and Automation",
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127800",
+      "citationCount": 6,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Wei-Di Chang"
+        },
+        {
+          "slug": null,
+          "name": "F. Hogan"
+        },
+        {
+          "slug": null,
+          "name": "D. Meger"
+        },
+        {
+          "slug": null,
+          "name": "Gregory Dudek"
+        }
+      ]
+    },
+    {
       "paperId": "79e8b821bb175f889e76565b61666961c030ef7a",
       "title": "Imitation Learning from Observation through Optimal Transport",
       "year": 2023,
@@ -214,7 +240,7 @@
       "year": 2021,
       "venue": "Neural Information Processing Systems",
       "url": "https://www.semanticscholar.org/paper/c879b25308026d6538e52b27bcf4fd3cb60855f3",
-      "citationCount": 1238,
+      "citationCount": 1248,
       "coAuthors": [
         {
           "slug": null,
@@ -246,7 +272,7 @@
       "year": 2020,
       "venue": "Neural Information Processing Systems",
       "url": "https://www.semanticscholar.org/paper/a425c6d74273cb9d2ad958273429cd0e8b0f13ba",
-      "citationCount": 83,
+      "citationCount": 84,
       "coAuthors": [
         {
           "slug": null,
@@ -308,7 +334,7 @@
       "year": 2018,
       "venue": "International Conference on Machine Learning",
       "url": "https://www.semanticscholar.org/paper/5285cb8faada5de8a92a47622950f6cfd476ac1d",
-      "citationCount": 2149,
+      "citationCount": 2162,
       "coAuthors": [
         {
           "slug": null,
@@ -462,7 +488,7 @@
       "year": 2018,
       "venue": "International Conference on Machine Learning",
       "url": "https://www.semanticscholar.org/paper/4debb99c0c63bfaa97dd433bc2828e4dac81c48b",
-      "citationCount": 7359,
+      "citationCount": 7392,
       "coAuthors": [
         {
           "slug": null,
@@ -497,16 +523,9 @@
     {
       "title": "A Minimalist Approach to Offline Reinforcement Learning",
       "year": 2021,
-      "citationCount": 1238,
+      "citationCount": 1248,
       "venue": "Neural Information Processing Systems",
       "url": "https://www.semanticscholar.org/paper/c879b25308026d6538e52b27bcf4fd3cb60855f3"
-    },
-    {
-      "title": "Benchmarking Batch Deep Reinforcement Learning Algorithms",
-      "year": 2019,
-      "citationCount": 219,
-      "venue": "arXiv.org",
-      "url": "https://www.semanticscholar.org/paper/1534d860ab98b64d23ffa741d0ae52b6cadbf503"
     },
     {
       "title": "For SALE: State-Action Representation Learning for Deep Reinforcement Learning",
@@ -518,7 +537,7 @@
     {
       "title": "An Equivalence between Loss Functions and Non-Uniform Sampling in Experience Replay",
       "year": 2020,
-      "citationCount": 83,
+      "citationCount": 84,
       "venue": "Neural Information Processing Systems",
       "url": "https://www.semanticscholar.org/paper/a425c6d74273cb9d2ad958273429cd0e8b0f13ba"
     },
@@ -528,6 +547,13 @@
       "citationCount": 48,
       "venue": "International Conference on Machine Learning",
       "url": "https://www.semanticscholar.org/paper/f7fa5e6899abbe0108277e54e1c4141f740767a0"
+    },
+    {
+      "title": "A Deep Reinforcement Learning Approach to Marginalized Importance Sampling with the Successor Representation",
+      "year": 2021,
+      "citationCount": 19,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/d8ec33f0920f307fea837609b1c223dd07b7d0aa"
     }
   ],
   "githubProjects": [],
@@ -556,18 +582,22 @@
     "externalCoAuthors": [
       {
         "name": "D. Meger",
-        "papers": 13
+        "papers": 14
       },
       {
         "name": "Doina Precup",
         "papers": 6
       },
       {
+        "name": "Wei-Di Chang",
+        "papers": 4
+      },
+      {
         "name": "Edward James Smith",
         "papers": 4
       },
       {
-        "name": "Wei-Di Chang",
+        "name": "Gregory Dudek",
         "papers": 3
       },
       {
@@ -576,10 +606,6 @@
       },
       {
         "name": "D. Precup",
-        "papers": 2
-      },
-      {
-        "name": "Gregory Dudek",
         "papers": 2
       },
       {
@@ -612,6 +638,10 @@
       },
       {
         "name": "Hanna Yurchyk",
+        "papers": 1
+      },
+      {
+        "name": "F. Hogan",
         "papers": 1
       },
       {

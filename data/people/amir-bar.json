@@ -115,7 +115,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.14482",
-      "citationCount": 62,
+      "citationCount": 67,
       "coAuthors": [
         {
           "slug": "matthew-muckley",
@@ -157,7 +157,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276",
-      "citationCount": 27,
+      "citationCount": 29,
       "coAuthors": [
         {
           "slug": "david-fan",
@@ -341,7 +341,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.18923",
-      "citationCount": 3,
+      "citationCount": 4,
       "coAuthors": [
         {
           "slug": null,
@@ -379,7 +379,7 @@
       "year": 2025,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/088a45338d45f05f6a7460fb152615fb96150f6e",
-      "citationCount": 16,
+      "citationCount": 17,
       "coAuthors": [
         {
           "slug": "david-fan",
@@ -570,6 +570,10 @@
         {
           "slug": null,
           "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Sai-Ning Xie"
         }
       ]
     },
@@ -579,7 +583,7 @@
       "year": 2025,
       "venue": "Annual Meeting of the Association for Computational Linguistics",
       "url": "https://doi.org/10.48550/arXiv.2502.15969",
-      "citationCount": 25,
+      "citationCount": 26,
       "coAuthors": [
         {
           "slug": "yann-lecun",
@@ -613,7 +617,7 @@
       "year": 2023,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2304.12210",
-      "citationCount": 405,
+      "citationCount": 406,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -692,6 +696,13 @@
   ],
   "topPublications": [
     {
+      "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+      "year": 2026,
+      "citationCount": 67,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.14482"
+    },
+    {
       "title": "Scaling Language-Free Visual Representation Learning",
       "year": 2025,
       "citationCount": 67,
@@ -699,16 +710,9 @@
       "url": "https://doi.org/10.1109/ICCV51701.2025.00042"
     },
     {
-      "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
-      "year": 2026,
-      "citationCount": 62,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2603.14482"
-    },
-    {
       "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
       "year": 2026,
-      "citationCount": 27,
+      "citationCount": 29,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276"
     },
@@ -722,7 +726,7 @@
     {
       "title": "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
       "year": 2025,
-      "citationCount": 16,
+      "citationCount": 17,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/088a45338d45f05f6a7460fb152615fb96150f6e"
     }
@@ -1055,6 +1059,10 @@
       },
       {
         "name": "Xinlei Chen",
+        "papers": 1
+      },
+      {
+        "name": "Sai-Ning Xie",
         "papers": 1
       },
       {

@@ -61,7 +61,7 @@
       "year": 2026,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/302343f7676e209391f3d5e3409a1b157c9df45a",
-      "citationCount": 1,
+      "citationCount": 2,
       "coAuthors": [
         {
           "slug": "lucas-maes",
@@ -193,7 +193,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.19312",
-      "citationCount": 159,
+      "citationCount": 172,
       "coAuthors": [
         {
           "slug": "lucas-maes",
@@ -279,7 +279,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.00844",
-      "citationCount": 13,
+      "citationCount": 14,
       "coAuthors": [
         {
           "slug": "yann-lecun",
@@ -314,28 +314,6 @@
         {
           "slug": null,
           "name": "Louis Montaut"
-        },
-        {
-          "slug": null,
-          "name": "J. Carpentier"
-        }
-      ]
-    },
-    {
-      "paperId": "76d2cb7f08cbe125d86ca3afb428c3473cf2ae95",
-      "title": "End-to-End and Highly-Efficient Differentiable Simulation for Robotics",
-      "year": 2024,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2409.07107",
-      "citationCount": 14,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Louis Montaut"
-        },
-        {
-          "slug": null,
-          "name": "Y. Mont-Marin"
         },
         {
           "slug": null,
@@ -579,28 +557,6 @@
       ]
     },
     {
-      "paperId": "7b95fe26f6a0287ed7aaaf6e8567b61a49829c29",
-      "title": "End-to-End and Highly-Eﬀicient Differentiable Simulation for Robotics",
-      "year": null,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/7b95fe26f6a0287ed7aaaf6e8567b61a49829c29",
-      "citationCount": 0,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Louis Montaut"
-        },
-        {
-          "slug": null,
-          "name": "Y. Mont-Marin"
-        },
-        {
-          "slug": null,
-          "name": "J. Carpentier"
-        }
-      ]
-    },
-    {
       "paperId": "ad92ee2cfce84e9de73ff01ff79f8f155512f2f1",
       "title": "Sobolev Diffusion Policy",
       "year": null,
@@ -625,13 +581,6 @@
   ],
   "topPublications": [
     {
-      "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
-      "year": 2026,
-      "citationCount": 159,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2603.19312"
-    },
-    {
       "title": "GJK++: Leveraging Acceleration Methods for Faster Collision Detection",
       "year": 2024,
       "citationCount": 33,
@@ -646,9 +595,16 @@
       "url": "https://doi.org/10.48550/arXiv.2602.11389"
     },
     {
+      "title": "From Compliant to Rigid Contact Simulation: a Unified and Efficient Approach",
+      "year": 2024,
+      "citationCount": 22,
+      "venue": "Robotics: Science and Systems Conference",
+      "url": "https://doi.org/10.48550/arXiv.2405.17020"
+    },
+    {
       "title": "Value-guided action planning with JEPA world models",
       "year": 2025,
-      "citationCount": 13,
+      "citationCount": 14,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.00844"
     },
@@ -713,7 +669,7 @@
       },
       {
         "name": "Louis Montaut",
-        "papers": 10
+        "papers": 8
       },
       {
         "name": "Randall Balestriero",
@@ -729,10 +685,6 @@
       },
       {
         "name": "Damien Scieur",
-        "papers": 3
-      },
-      {
-        "name": "J. Carpentier",
         "papers": 3
       },
       {
@@ -753,10 +705,6 @@
       },
       {
         "name": "Franki Nguimatsia Tiofack",
-        "papers": 2
-      },
-      {
-        "name": "Y. Mont-Marin",
         "papers": 2
       },
       {
@@ -821,6 +769,10 @@
       },
       {
         "name": "Etienne M'enager",
+        "papers": 1
+      },
+      {
+        "name": "J. Carpentier",
         "papers": 1
       },
       {
