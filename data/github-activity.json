@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-09-08T02:50:34.340Z",
+  "lastFetched": "2026-09-08T10:30:17.957Z",
   "members": [
     {
       "slug": "adithya-iyer",
@@ -328,6 +328,22 @@
       "githubUrl": "https://github.com/lihaoyi",
       "events": [
         {
+          "type": "IssueCommentEvent",
+          "repo": "com-lihaoyi/requests-scala",
+          "repoUrl": "https://github.com/com-lihaoyi/requests-scala",
+          "description": "Commented on issue #156 in com-lihaoyi/requests-scala",
+          "url": "https://github.com/com-lihaoyi/requests-scala/issues/156#issuecomment-5582676469",
+          "timestamp": "2026-09-08T09:28:17Z"
+        },
+        {
+          "type": "IssuesEvent",
+          "repo": "com-lihaoyi/requests-scala",
+          "repoUrl": "https://github.com/com-lihaoyi/requests-scala",
+          "description": "Closed issue #156 in com-lihaoyi/requests-scala",
+          "url": "https://github.com/com-lihaoyi/requests-scala/issues/156",
+          "timestamp": "2026-09-08T09:28:18Z"
+        },
+        {
           "type": "PushEvent",
           "repo": "com-lihaoyi/mill",
           "repoUrl": "https://github.com/com-lihaoyi/mill",
@@ -430,22 +446,6 @@
           "description": "merged PR #7517 in com-lihaoyi/mill",
           "url": "https://github.com/com-lihaoyi/mill",
           "timestamp": "2026-08-31T23:43:39Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "merged PR #7508 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-31T23:43:19Z"
-        },
-        {
-          "type": "IssuesEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Closed issue #6669 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill/issues/6669",
-          "timestamp": "2026-08-31T23:42:56Z"
         }
       ]
     },
