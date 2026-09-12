@@ -9,7 +9,6 @@ const links = [
   { href: "/timeline", label: "Timeline" },
   { href: "/investors", label: "Investors" },
   { href: "/team", label: "Team" },
-  { href: "/org-chart", label: "Org Chart" },
   { href: "/activity", label: "Activity" },
   { href: "/docs", label: "Docs" },
 ];

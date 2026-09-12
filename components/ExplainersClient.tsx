@@ -38,7 +38,7 @@ export default function ExplainersClient() {
               </p>
             </div>
             <div className="explainer-article-links">
-              <Link href="/org-chart" className="card-link">👥 Meet the team →</Link>
+              <Link href="/team" className="card-link">👥 Meet the team →</Link>
               <Link href="/investors" className="card-link">💼 Investors →</Link>
               <Link href="/timeline" className="card-link">📅 Timeline →</Link>
             </div>
