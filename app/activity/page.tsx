@@ -1,6 +1,6 @@
 import activityData from "@/data/github-activity.json";
 import analysisData from "@/data/github-analysis.json";
-import ActivityFeedClient, { type MemberActivity } from "@/components/ActivityFeedClient";
+import type { MemberActivity } from "@/components/ActivityFeedClient";
 import ActivityCharts, {
   type ProjectBar,
   type ContributorBar,
@@ -121,7 +121,6 @@ export default function ActivityPage() {
 
       <main className="actv-main">
         <ActivityCharts projects={projects} contributors={contributors} stats={stats} />
-        <ActivityFeedClient members={members} lastFetched={data.lastFetched ?? null} />
       </main>
     </>
   );
