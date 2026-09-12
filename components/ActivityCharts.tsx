@@ -46,7 +46,7 @@ function Bar({
   tip,
 }: {
   label: React.ReactNode;
-  href: string;
+  href?: string;
   external?: boolean;
   pct: number;
   value: number;
@@ -56,7 +56,9 @@ function Bar({
   return (
     <div className="actv-bar-row" title={tip}>
       <div className="actv-bar-label">
-        {external ? (
+        {!href ? (
+          label
+        ) : external ? (
           <a href={href} target="_blank" rel="noopener noreferrer">{label}</a>
         ) : (
           <Link href={href}>{label}</Link>
@@ -151,8 +153,6 @@ export default function ActivityCharts({
                       {c.name}
                     </span>
                   }
-                  href={c.slug ? `/team/${c.slug}` : c.url}
-                  external={!c.slug}
                   pct={(c.count / maxContributor) * 100}
                   value={c.count}
                   hue="clay"
