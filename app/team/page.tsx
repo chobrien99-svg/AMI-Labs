@@ -21,7 +21,7 @@ export const revalidate = 300;
 
 export const metadata: Metadata = {
   title: "Team — AMI Labs Intelligence Hub",
-  description: "Meet the AMI Labs team — founders, researchers, and engineers building advanced machine intelligence.",
+  description: "Meet the co-founders of AMI Labs, the team building advanced machine intelligence.",
 };
 
 type SanityPerson = {
