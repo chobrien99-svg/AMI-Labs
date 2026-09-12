@@ -22,7 +22,7 @@ const explainers = [
     title: "The Team",
     description:
       "AMI Labs has assembled researchers, engineers, and operators across Paris, New York, Montreal, and Singapore. We track every key hire and leadership change as the team grows.",
-    href: "/org-chart",
+    href: "/team",
     linkLabel: "Meet the team →",
   },
 ];

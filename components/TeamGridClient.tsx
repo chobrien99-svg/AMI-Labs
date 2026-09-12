@@ -133,10 +133,7 @@ export default function TeamGridClient({ team }: { team: TeamMember[] }) {
         <div className="page-header-inner">
           <h1>Team</h1>
           <p>
-            {team.length} members across Paris, New York, Montreal, and Singapore.{" "}
-            <Link href="/org-chart" style={{ color: "var(--accent)", textDecoration: "underline", textDecorationColor: "var(--border)" }}>
-              View org chart →
-            </Link>
+            {team.length} members across Paris, New York, Montreal, and Singapore.
           </p>
         </div>
       </div>

@@ -104,7 +104,7 @@ export default function HomepageClient({ news, milestones, briefing }: HomepageC
             <a href="/explainers">Explainers</a>
             <a href="/timeline">Timeline</a>
             <a href="/investors">Investors</a>
-            <a href="/org-chart">Team</a>
+            <a href="/team">Team</a>
             <a href="/activity">Activity</a>
           </div>
           <div className="footer-powered">
