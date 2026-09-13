@@ -1,38 +1,23 @@
 {
-  "generatedAt": "2026-09-06T21:51:53.917Z",
+  "generatedAt": "2026-09-13T21:57:00.352Z",
   "window": {
     "days": 7,
-    "since": "2026-08-30",
-    "until": "2026-09-06"
+    "since": "2026-09-06",
+    "until": "2026-09-13"
   },
   "model": "claude-sonnet-4-6",
   "facts": {
     "news": {
-      "windowCount": 2,
-      "byTag": {
-        "research": 1,
-        "hiring": 1
-      },
+      "windowCount": 1,
+      "byTag": {},
       "items": [
         {
-          "title": "New Research — LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics",
-          "url": "/news/new-research-levjepa-efficient-and-scalable-video-pretraining-without-the-heuristics",
-          "source": "arXivLabs",
-          "publishedAt": "2026-08-30",
-          "tags": [
-            "research"
-          ],
-          "summary": "LeVJEPA shows that high-quality video representations can be learned with a radically simpler JEPA-style system — one encoder, one objective, and no target network, predictor, or stop-gradient — while matching or beating V-JEPA 2 with as much as 20.8× less pretraining compute and producing causal representations suited to future world models"
-        },
-        {
-          "title": "New Hire: Lucas Maes, Member of Technical Staff, Montreal",
-          "url": "https://ami.frenchtechjournal.com/team/lucas-maes",
-          "source": "The AMI Observatory",
-          "publishedAt": "2026-08-30",
-          "tags": [
-            "hiring"
-          ],
-          "summary": "PhD student at Mila focused on improving Joint Embedding Predictive Architectures (JEPAs) and world models through planning, temporal abstraction, goal specification, and physical reasoning."
+          "title": "Mistral AI, AMI Labs… L'appétit grandissant de Samsung pour la French Tech",
+          "url": "https://www.lesechos.fr/start-up/ecosysteme/mistral-ai-ami-labs-lappetit-grandissant-de-samsung-pour-la-french-tech-2250326",
+          "source": "Les Echos",
+          "publishedAt": "2026-09-08",
+          "tags": [],
+          "summary": "Samsung is increasing its investment in French technology companies, including partnerships with AI firms Mistral AI and AMI Labs. This expansion reflects Samsung's growing appetite for acquiring stakes in promising French tech startups focused on advanced machine intelligence and artificial intelligence development."
         }
       ]
     },
@@ -47,275 +32,104 @@
       }
     },
     "publications": {
-      "total": 744,
-      "newSinceLast": 111,
+      "total": 740,
+      "newSinceLast": 3,
       "newItems": [
         {
-          "memberName": "Lucas Maes",
+          "memberName": "Xinyi Wan",
           "teamAuthors": [
-            "Lucas Maes",
-            "Quentin Le Lidec",
-            "Yann LeCun"
+            "Xinyi Wan"
           ],
-          "title": "LeVJEPA: Efficient&Scalable Video Pretraining without the Heuristics",
+          "title": "StarVerus: LLM-Powered Multi-Agent Collaboration for Industrial Rust Code Verification Automation",
           "year": 2026,
-          "publicationDate": "2026-08-27",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/437cb869d42d536ad1b2f35399c99ab79ec65d5a",
+          "publicationDate": "2026-08-08",
+          "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+          "url": "https://doi.org/10.1145/3770855.3818485",
           "citationCount": 0,
-          "tldr": "LeVJEPA is introduced, the first video encoder trained under LeJEPA's collapse-free objective, which indicates that video becomes a viable and in several respects preferable substrate for general-purpose visual pretraining.",
-          "abstract": "Video carries the temporal structure of the physical world, yet learning representations from it has remained computationally expensive: prevailing self-supervised methods either prevent representation collapse through architectural asymmetries, coupling an exponential-moving-average target encoder, a stop-gradient, and a capacity-limited predictor, or circumvent it by reconstructing masked content in pixel space. We introduce LeVJEPA, the first video encoder trained under LeJEPA's collapse-free objective, which dispenses with both. A single encoder is trained with an invariance loss over glob"
+          "tldr": "A multi-agent collaborative framework, StarVerus, to automate the verification of industrial Rust code and introduces a planner-repairer-actor-rewriter multi-agent paradigm to further enhance the proof repair capabilities.",
+          "abstract": "Creating code specifications is a crucial measure to improve the trustworthiness of many industrial systems implemented in Rust with high security requirements. Because writing specifications requires highly specialized professionals and is time-consuming, the automatic generation of specifications, enabled by large language models (LLMs), has received increasing attention and shown promising results. However, these methods typically focus on partial specification generation (generating proofs after the contract is known) and on extracting dependencies between code modules using predefined rel"
         },
         {
-          "memberName": "Lucas Maes",
+          "memberName": "Scott Fujimoto",
           "teamAuthors": [
-            "Quentin Le Lidec",
-            "Lucas Maes",
-            "Yann LeCun"
+            "Scott Fujimoto"
           ],
-          "title": "LpWM: A Case for Sparse Representations in World Models",
-          "year": 2026,
-          "publicationDate": "2026-08-24",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/302343f7676e209391f3d5e3409a1b157c9df45a",
-          "citationCount": 1,
-          "tldr": "This work introduces LpWorldModel, a JEPA model regularized with Rectified Distribution Matching Regularization to match encoder features to a Rectified Generalized Gaussian distribution, yielding non-negative sparse codes, and finds that the learned sparse representations are mode-factored.",
-          "abstract": "Joint-embedding predictive architectures (JEPAs) learn latent dynamics for planning and avoid representation collapse by matching features to maximum-entropy distributions such as isotropic Gaussians, yielding dense representations. However, it is unclear whether dense representations are the most favorable geometry for modeling dynamics. In this work, we ask whether a different geometry, sparse representations, can make action-conditioned latent dynamics easier to model, and what dynamical structure emerges from such representations. We first show that nonlinear Lipschitz dynamics can be appr"
+          "title": "Generalizable Imitation Learning Through Pre-Trained Representations",
+          "year": 2023,
+          "publicationDate": "2023-11-15",
+          "venue": "IEEE International Conference on Robotics and Automation",
+          "url": "https://doi.org/10.1109/ICRA55743.2025.11127800",
+          "citationCount": 6,
+          "tldr": "DVK, an imitation learning algorithm that leverages rich pre-trained Visual Transformer patch-level embeddings to obtain better generalization when learning through demonstrations is introduced.",
+          "abstract": "In this paper, we leverage self-supervised vision transformer models and their emergent semantic abilities to improve the generalization abilities of imitation learning policies. We introduce DVK, an imitation learning algorithm that leverages rich pre-trained Visual Transformer patch-level embeddings to obtain better generalization when learning through demonstrations. Our learner sees the world by clustering appearance features into groups associated with semantic concepts, forming stable keypoints that generalize across a wide range of appearance variations and object types. We demonstrate "
         },
         {
-          "memberName": "Yann LeCun",
+          "memberName": "Michael Rabbat",
           "teamAuthors": [
-            "Yann LeCun"
+            "Michael Rabbat"
           ],
-          "title": "Advancing human-centric AI for robust X-ray analysis through holistic self-supervised learning",
-          "year": 2026,
-          "publicationDate": "2026-08-20",
-          "venue": "Nature Communications",
-          "url": "https://doi.org/10.1038/s41467-026-76076-4",
-          "citationCount": 0,
-          "tldr": "RayDINO, a large-scale self-supervised visual encoder for chest X-rays trained on 840,000 images and evaluated on 82,000 images sourced from 12 publicly available datasets, is introduced, suggesting that self-supervision enables patient-centric analysis useful in clinical workflows, allowing for a more holistic interpretation of X-rays.",
-          "abstract": "\n Foundational artificial intelligence models are gaining traction in various applications, including medical fields like radiology. However, medical foundation models are often tested on limited tasks, leaving their generalisability and biases unexplored. Here we introduce RayDINO, a large-scale self-supervised visual encoder for chest X-rays trained on 840,000 images and evaluated on 82,000 images sourced from 12 publicly available datasets. We compare RayDINO to previous state-of-the-art models across nine radiology tasks, from classification and dense segmentation to text generation, and p"
-        },
-        {
-          "memberName": "Yann LeCun",
-          "teamAuthors": [
-            "Yann LeCun"
-          ],
-          "title": "Advancing Open and Reproducible Relational Learning: RelArena-$\\alpha$, TabPFN-Rel and RPI",
-          "year": 2026,
-          "publicationDate": "2026-08-17",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/f587565885eaa432dda4a0bfd55fa20019b56dee",
-          "citationCount": 0,
-          "tldr": "This first release of Prior Labs in relational learning opens-source three pieces of software that expect to accelerate research in the field towards meaningful real-world impact and releases an initial version of RPI, an open-source, model-agnostic interface that enables early adopters to easily define problems on new databases and apply any model implemented in RelArena, including TabPFN-Rel, to these problems.",
-          "abstract": "This first release of Prior Labs in relational learning shows our continued commitment to open science. We open-source three pieces of software that we expect to accelerate research in the field towards meaningful real-world impact. We aim to steer further development based on feedback from, and in collaboration with, the community. Given the early stage of development, our $\\alpha$-release targets researchers and early-adopting practitioners. Over the past years, a variety of datasets and tasks for relational learning have emerged, but the community has not converged on a reliable, reproducib"
-        },
-        {
-          "memberName": "Yann LeCun",
-          "teamAuthors": [
-            "Yann LeCun"
-          ],
-          "title": "Learning Abstractions: A Conversation with Yann LeCun",
-          "year": 2026,
-          "publicationDate": null,
-          "venue": "Daedalus",
-          "url": "https://doi.org/10.1162/daed.a.972",
-          "citationCount": 0,
-          "tldr": null,
-          "abstract": null
-        },
-        {
-          "memberName": "Yann LeCun",
-          "teamAuthors": [
-            "Yann LeCun"
-          ],
-          "title": "Announcing the Shaw Prize in Computer Science",
-          "year": 2026,
-          "publicationDate": "2026-05-21",
-          "venue": "Communications of the ACM",
-          "url": "https://doi.org/10.1145/3811413",
-          "citationCount": 0,
-          "tldr": null,
-          "abstract": "Nominations for this new prize will be invited September to November 2026."
-        },
-        {
-          "memberName": "Yuexiang Zhai",
-          "teamAuthors": [
-            "Yuexiang Zhai"
-          ],
-          "title": "DexHoldem: Playing Texas Hold'em with Dexterous Embodied System",
-          "year": 2026,
-          "publicationDate": "2026-05-18",
-          "venue": "arXiv.org",
-          "url": "https://doi.org/10.48550/arXiv.2605.18727",
-          "citationCount": 0,
-          "tldr": "DexHoldem, a real-world system-level benchmark built around Texas Hold'em dexterous manipulation with a ShadowHand, is introduced, which evaluates dexterous tabletop execution, agentic perception, and embodied decision routing in a shared physical setting.",
-          "abstract": "Evaluating embodied systems on real dexterous hardware requires more than isolated primitive skills: an agent must perceive a changing tabletop scene, choose a context-appropriate action, execute it with a dexterous hand, and leave the scene usable for later decisions. We introduce DexHoldem, a real-world system-level benchmark built around Texas Hold'em dexterous manipulation with a ShadowHand. DexHoldem provides 1,470 teleoperated demonstrations across 14 Texas Hold'em manipulation primitives, a standardized physical policy benchmark, and an agentic perception benchmark that tests whether ag"
-        },
-        {
-          "memberName": "Chen Wei",
-          "teamAuthors": [
-            "Chen Wei"
-          ],
-          "title": "Taming Outlier Tokens in Diffusion Transformers",
-          "year": 2026,
-          "publicationDate": "2026-05-06",
-          "venue": "arXiv.org",
-          "url": "https://doi.org/10.48550/arXiv.2605.05206",
-          "citationCount": 0,
-          "tldr": "Dual-Stage Registers (DSR) are introduced, a register-based intervention for both components: trained registers when available, recursive test-time registers otherwise, and diffusion registers for the denoiser that consistently reduce outlier artifacts and improve generation quality.",
-          "abstract": "We study outlier tokens in Diffusion Transformers (DiTs) for image generation. Prior work has shown that Vision Transformers (ViTs) can produce a small number of high-norm tokens that attract disproportionate attention while carrying limited local information, but their role in generative models remains underexplored. We show that this phenomenon appears in both the encoder and denoiser of modern Representation Autoencoder (RAE)-DiT pipelines: pretrained ViT encoders can produce outlier representations, and DiTs themselves can develop internal outlier tokens, especially in intermediate layers."
-        },
-        {
-          "memberName": "Chen Wei",
-          "teamAuthors": [
-            "Chen Wei"
-          ],
-          "title": "Learning Rate Engineering: From Coarse Single Parameter to Layered Evolution",
-          "year": 2026,
-          "publicationDate": "2026-04-30",
-          "venue": "arXiv.org",
-          "url": "https://doi.org/10.48550/arXiv.2604.27295",
-          "citationCount": 0,
-          "tldr": "DALS is proposed, a unified framework that integrates phase-adaptive cosine scheduling, depth-aware Grokfast gradient filtering, and LARS-style trust ratios into a single coherent optimizer that achieves the best synthetic result while maintaining competitive fine-tuning performance.",
-          "abstract": "Learning rate scheduling has evolved from the single global fixed rate of early SGD to sophisticated layer-wise adaptive strategies. We systematize this evolution into five generations: (Gen1) global fixed learning rates, (Gen2) global scheduling, (Gen3) parameter-level adaptation, (Gen4) layer-level differentiation, and (Gen5) joint layer-time scheduling. We trace the fundamental motivation behind each transition, showing how the shift from one-size-fits-all to tailoring by layer and time addresses the impossible trinity of transfer learning: lower layers require small updates to preserve gen"
-        },
-        {
-          "memberName": "Mikael Henaff",
-          "teamAuthors": [
-            "Scott Fujimoto",
-            "Mikael Henaff"
-          ],
-          "title": "Hierarchical Behaviour Spaces",
-          "year": 2026,
-          "publicationDate": "2026-04-27",
-          "venue": "arXiv.org",
-          "url": "https://doi.org/10.48550/arXiv.2604.24558",
-          "citationCount": 0,
-          "tldr": "It is shown that, instead of using a single reward function per option, the reward functions can be effectively used to induce a space of behaviours, by letting the controller specify linear combinations over reward functions, allowing a more expressive set of policies to be represented.",
-          "abstract": "Recent work in hierarchical reinforcement learning has shown success in scaling to billions of timesteps when learning over a set of predefined option reward functions. We show that, instead of using a single reward function per option, the reward functions can be effectively used to induce a space of behaviours, by letting the controller specify linear combinations over reward functions, allowing a more expressive set of policies to be represented. We call this method Hierarchical Behaviour Spaces (HBS). We evaluate HBS on the NetHack Learning Environment, demonstrating strong performance. We"
-        },
-        {
-          "memberName": "Yuexiang Zhai",
-          "teamAuthors": [
-            "Yuexiang Zhai"
-          ],
-          "title": "Seeing from Another Perspective: Evaluating Multi-View Understanding in MLLMs",
-          "year": 2026,
-          "publicationDate": "2026-03-14",
-          "venue": "AAAI Conference on Artificial Intelligence",
-          "url": "https://doi.org/10.1609/aaai.v40i14.38188",
-          "citationCount": 63,
-          "tldr": "This work introduces All-Angles Bench, a human carefully benchmark with over 2,100 question-answer pairs from 90 diverse, real-world scenes, and identifies two root failure modes: cross-view object mismatch and cross-view spatial misalignment.",
-          "abstract": "Multi-view understanding, the ability to reconcile visual information across diverse viewpoints for effective navigation, manipulation, and 3D scene comprehension, is a fundamental challenge in Multi-Modal Large Language Models (MLLMs) to be used as embodied agents. While recent MLLMs have shown impressive advances in high-level reasoning and planning, they frequently fall short when confronted with multi-view geometric consistency and cross-view correspondence. To comprehensively evaluate the challenges of MLLMs in multi-view scene reasoning, we introduce All-Angles Bench, a human carefully b"
-        },
-        {
-          "memberName": "Lucas Maes",
-          "teamAuthors": [
-            "Lucas Maes"
-          ],
-          "title": "stable-pretraining-v1: Foundation Model Research Made Simple",
-          "year": 2025,
-          "publicationDate": "2025-11-23",
-          "venue": "arXiv.org",
-          "url": "https://doi.org/10.48550/arXiv.2511.19484",
-          "citationCount": 10,
-          "tldr": "Stable-pretraining is presented, a modular, extensible, and performance-optimized library built on top of PyTorch, Lightning, Hugging Face, and TorchMetrics that aims to accelerate discovery and expand the possibilities of foundation model research.",
-          "abstract": "Foundation models and self-supervised learning (SSL) have become central to modern AI, yet research in this area remains hindered by complex codebases, redundant re-implementations, and the heavy engineering burden of scaling experiments. We present stable-pretraining, a modular, extensible, and performance-optimized library built on top of PyTorch, Lightning, Hugging Face, and TorchMetrics. Unlike prior toolkits focused narrowly on reproducing state-of-the-art results, stable-pretraining is designed for flexibility and iteration speed: it unifies essential SSL utilities--including probes, col"
+          "title": "Stochastic Gradient Push for Distributed Deep Learning",
+          "year": 2018,
+          "publicationDate": "2018-09-27",
+          "venue": "International Conference on Machine Learning",
+          "url": "https://www.semanticscholar.org/paper/b42c38975f3d3f8bfe4b0c1a6e576c3e297cec38",
+          "citationCount": 414,
+          "tldr": "Stochastic Gradient Push is studied, it is proved that SGP converges to a stationary point of smooth, non-convex objectives at the same sub-linear rate as SGD, and that all nodes achieve consensus.",
+          "abstract": "Distributed data-parallel algorithms aim to accelerate the training of deep neural networks by parallelizing the computation of large mini-batch gradient updates across multiple nodes. Approaches that synchronize nodes using exact distributed averaging (e.g., via AllReduce) are sensitive to stragglers and communication delays. The PushSum gossip algorithm is robust to these issues, but only performs approximate distributed averaging. This paper studies Stochastic Gradient Push (SGP), which combines PushSum with stochastic gradient updates. We prove that SGP converges to a stationary point of s"
         }
       ],
       "recent": []
     },
     "github": {
-      "windowEventCount": 35,
+      "windowEventCount": 23,
       "byMember": {
-        "Adithya Iyer": 1,
-        "Amir Bar": 1,
-        "Brian Li": 15,
-        "Haoyi Li": 15,
-        "Lucas Maes": 1,
-        "Min Lin": 2
+        "Brian Li": 1,
+        "Jihan Yang": 11,
+        "Li Haoyi": 2,
+        "Min Lin": 6,
+        "Quentin Le Lidec": 2,
+        "Rohit Girdhar": 1
       },
       "notable": [
         {
-          "member": "Brian Li",
-          "type": "PullRequestEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "description": "Opened PR #1514 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-09-05T07:40:07Z"
-        },
-        {
-          "member": "Brian Li",
-          "type": "CreateEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "description": "Created branch brian/fix/request-cache-lifecycle in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-09-05T07:39:42Z"
-        },
-        {
-          "member": "Brian Li",
-          "type": "CreateEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "description": "Created branch brian/dev in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-09-05T07:22:51Z"
-        },
-        {
-          "member": "Brian Li",
-          "type": "CreateEvent",
-          "repo": "Luodian/luodian.github.io",
-          "description": "Created branch brian/dev in Luodian/luodian.github.io",
-          "url": "https://github.com/Luodian/luodian.github.io",
-          "timestamp": "2026-09-05T07:03:57Z"
-        },
-        {
-          "member": "Brian Li",
-          "type": "CreateEvent",
-          "repo": "Luodian/luodian.github.io",
-          "description": "Created branch brian/feat/site-rework in Luodian/luodian.github.io",
-          "url": "https://github.com/Luodian/luodian.github.io",
-          "timestamp": "2026-09-05T07:03:56Z"
-        },
-        {
-          "member": "Adithya Iyer",
-          "type": "IssueCommentEvent",
-          "repo": "morphicfilms/video-to-video",
-          "description": "Commented on issue #3 in morphicfilms/video-to-video",
-          "url": "https://github.com/morphicfilms/video-to-video/issues/3#issuecomment-5495921813",
-          "timestamp": "2026-09-01T14:58:44Z"
-        },
-        {
           "member": "Min Lin",
+          "type": "CreateEvent",
+          "repo": "mavenlin/torch2jax",
+          "description": "Created branch codex/lazy-module-constructor in mavenlin/torch2jax",
+          "url": "https://github.com/mavenlin/torch2jax",
+          "timestamp": "2026-09-09T04:40:02Z"
+        },
+        {
+          "member": "Quentin Le Lidec",
+          "type": "PullRequestReviewEvent",
+          "repo": "galilai-group/stable-worldmodel",
+          "description": "Reviewed PR #324 in galilai-group/stable-worldmodel",
+          "url": "https://github.com/galilai-group/stable-worldmodel",
+          "timestamp": "2026-09-08T16:08:17Z"
+        },
+        {
+          "member": "Li Haoyi",
+          "type": "IssuesEvent",
+          "repo": "com-lihaoyi/requests-scala",
+          "description": "Closed issue #156 in com-lihaoyi/requests-scala",
+          "url": "https://github.com/com-lihaoyi/requests-scala/issues/156",
+          "timestamp": "2026-09-08T09:28:18Z"
+        },
+        {
+          "member": "Li Haoyi",
           "type": "IssueCommentEvent",
-          "repo": "meta-pytorch/torchcodec",
-          "description": "Commented on issue #1627 in meta-pytorch/torchcodec",
-          "url": "https://github.com/meta-pytorch/torchcodec/pull/1627#issuecomment-5488778811",
-          "timestamp": "2026-09-01T04:13:03Z"
+          "repo": "com-lihaoyi/requests-scala",
+          "description": "Commented on issue #156 in com-lihaoyi/requests-scala",
+          "url": "https://github.com/com-lihaoyi/requests-scala/issues/156#issuecomment-5582676469",
+          "timestamp": "2026-09-08T09:28:17Z"
         },
         {
-          "member": "Haoyi Li",
+          "member": "Brian Li",
           "type": "PullRequestEvent",
-          "repo": "com-lihaoyi/mill",
-          "description": "merged PR #7521 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-31T23:45:00Z"
-        },
-        {
-          "member": "Haoyi Li",
-          "type": "PullRequestEvent",
-          "repo": "com-lihaoyi/mill",
-          "description": "merged PR #7520 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-31T23:44:47Z"
-        },
-        {
-          "member": "Haoyi Li",
-          "type": "PullRequestEvent",
-          "repo": "com-lihaoyi/mill",
-          "description": "merged PR #7519 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-08-31T23:44:23Z"
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "description": "merged PR #1513 in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-09-07T06:16:02Z"
         }
       ]
     },
@@ -339,134 +153,42 @@
       "recentMilestones": []
     },
     "social": {
-      "windowCount": 9,
+      "windowCount": 4,
       "byTag": {
-        "product": 1,
-        "hiring": 4,
-        "research": 5
+        "research": 1
       },
       "notable": [
         {
-          "author": "Jihan Yang",
-          "handle": "jihanyang13",
-          "text": "New positions open! We’re looking for full-time researchers and interns with backgrounds in geometry and 3D vision to join our team at AMI Labs.\nThe roles can be based in NYC, Paris, Montreal, or Singapore. \n\nIf you’re interested, apply through the link below:",
-          "url": "https://x.com/jihanyang13/status/2094502545049915739",
-          "createdAt": "2026-08-31T19:08:15.000Z",
-          "tags": [
-            "research",
-            "hiring"
-          ],
+          "author": "Julia Kempe",
+          "handle": "KempeLab",
+          "text": "Congratulations to Tristan Buckmaster and Levent Alpöge for developing the AI assisted techniques for solving an important math problem. Congratulations to OpenAI for not letting any good customer transcripts go unmined.\nhttps://t.co/oFrmiDZr81 https://t.co/gpyvmPVqoZ",
+          "url": "https://x.com/KempeLab/status/2097478220241142115",
+          "createdAt": "2026-09-09T00:12:31.000Z",
+          "tags": [],
           "metrics": {
-            "likes": 469,
-            "retweets": 35,
-            "replies": 14,
+            "likes": 295,
+            "retweets": 17,
+            "replies": 6,
             "quotes": 2
-          },
-          "highEngagement": true
-        },
-        {
-          "author": "Li Haoyi",
-          "handle": "li_haoyi",
-          "text": "I published a new post on my personal blog! \n\nJoining AMI to work on World Models\n\nhttps://t.co/4JAiyav3K5",
-          "url": "https://x.com/li_haoyi/status/2094416691291988131",
-          "createdAt": "2026-08-31T13:27:06.000Z",
-          "tags": [
-            "research",
-            "hiring"
-          ],
-          "metrics": {
-            "likes": 262,
-            "retweets": 21,
-            "replies": 4,
-            "quotes": 1
           },
           "highEngagement": true
         },
         {
           "author": "Randall Balestriero",
           "handle": "randall_balestr",
-          "text": "If you missed our opening remarks:\n- 4th world modeling workshop: Aspen, CO, February, world models for physics, https://t.co/mrnm5cwQqC\n- 1st world modeling conference: Bay Area, CA, May, https://t.co/v8KSoNBKqM\n\nIn collaboration with @ylecun @LambdaAPI @amilabs and more TBA! https://t.co/Q2y0R7dNbl",
-          "url": "https://x.com/randall_balestr/status/2094453717084901539",
-          "createdAt": "2026-08-31T15:54:13.000Z",
+          "text": "Will be speaking at Harvard today at 9:45 about world models, Le* family and why we need more theory and mathematics to advance JEPAs!\nCome say hi if you are around!\nhttps://t.co/4rZIs9Zlvk",
+          "url": "https://x.com/randall_balestr/status/2098396510199152773",
+          "createdAt": "2026-09-11T13:01:29.000Z",
           "tags": [
             "research"
           ],
           "metrics": {
-            "likes": 111,
-            "retweets": 14,
+            "likes": 67,
+            "retweets": 7,
             "replies": 1,
             "quotes": 0
           },
           "highEngagement": true
-        },
-        {
-          "author": "Randall Balestriero",
-          "handle": "randall_balestr",
-          "text": "We are 18 hours away from the World Modeling Workshop! \nQuick things:\n- https://t.co/ux6MFRVKU1 for the latest infos and the YouTube livestream link (free and open to everyone)\n- &gt;= 2 annoucements during opening remarks\n- amazing lineup of speakers/attendees\n\nSee you soon!",
-          "url": "https://x.com/randall_balestr/status/2094157380972061165",
-          "createdAt": "2026-08-30T20:16:41.000Z",
-          "tags": [
-            "research"
-          ],
-          "metrics": {
-            "likes": 99,
-            "retweets": 16,
-            "replies": 4,
-            "quotes": 2
-          },
-          "highEngagement": true
-        },
-        {
-          "author": "Bingyi Kang",
-          "handle": "bingyikang",
-          "text": "Welcome to apply and drop me a note if interested! https://t.co/w9gpHC6KFb",
-          "url": "https://x.com/bingyikang/status/2094526530231632279",
-          "createdAt": "2026-08-31T20:43:33.000Z",
-          "tags": [
-            "hiring"
-          ],
-          "metrics": {
-            "likes": 75,
-            "retweets": 1,
-            "replies": 2,
-            "quotes": 0
-          },
-          "highEngagement": true
-        },
-        {
-          "author": "ayaan naveed malik",
-          "handle": "ayaannmalik",
-          "text": "high signal launch days: then vs now https://t.co/0LWyPfK1jf",
-          "url": "https://x.com/ayaannmalik/status/2095648061338865928",
-          "createdAt": "2026-09-03T23:00:07.000Z",
-          "tags": [
-            "product"
-          ],
-          "metrics": {
-            "likes": 2,
-            "retweets": 0,
-            "replies": 0,
-            "quotes": 0
-          },
-          "highEngagement": false
-        },
-        {
-          "author": "Jihan Yang",
-          "handle": "jihanyang13",
-          "text": "New positions open! We’re looking for full-time researchers and interns with backgrounds in geometry and 3D vision to join our team at AMI Labs.\nThe roles can be based in NYC, Paris, Montreal, or Singapore. \nIf you’re interested, apply through the link below:",
-          "url": "https://x.com/jihanyang13/status/2094502477739499964",
-          "createdAt": "2026-08-31T19:07:59.000Z",
-          "tags": [
-            "research",
-            "hiring"
-          ],
-          "metrics": {
-            "likes": 0,
-            "retweets": 0,
-            "replies": 0,
-            "quotes": 0
-          },
-          "highEngagement": false
         }
       ]
     }
@@ -486,7 +208,7 @@
       "302343f7676e209391f3d5e3409a1b157c9df45a",
       "e458aafe935b5e47025ee444134515455ec5b121",
       "f587565885eaa432dda4a0bfd55fa20019b56dee",
-      "bf756e911ebcc9b21f77395bb68e0a85db975e53",
+      "2b1d8926a978f468ce80781baac50661a44a851f",
       "211a73f11a8722d61f7cea91b2c52fd4f9aa2ff6",
       "1006651b762e229b32cc001bb287c3f607749447",
       "f4578e2fa551e6b991125e5f8770212337476fee",
@@ -574,7 +296,6 @@
       "50509dcc04f3972ba0e10f4fe635aa92cbfac9fc",
       "35fc38884dacfaf54e87d739fdb4104bc49b63e5",
       "b60df2ce1466758f91eb0f1163845aadf37431b9",
-      "f2b50aa84f10b0f89293fc116e91f8a93f7f40e7",
       "8e8195f6706bc07c7fdf0707df640caee5b35079",
       "6f9e6a47b8c2a65d3fa758bb4062f096b4afd34d",
       "088a45338d45f05f6a7460fb152615fb96150f6e",
@@ -722,7 +443,6 @@
       "7a2dfea68ce49dbab042bb29a890a4e357ebda6f",
       "1ac7fc5a55ce5843fb8a19d9f62b623e822bb7de",
       "ed44571dd9de3654b84ee1fea63015ecb67e6e63",
-      "76d2cb7f08cbe125d86ca3afb428c3473cf2ae95",
       "64be86e931507429e2b6ea9b368c5f3a89e86d42",
       "697aad9ef06add41b7f25e7bc671976c48ac68ad",
       "289c48bba6b7323e713283ee68474d43c3450166",
@@ -740,7 +460,6 @@
       "1b6143c334860fe08d21d70f82c8a11a6cb7951b",
       "d75e16896cc50b720cea864d50b3173a2d053524",
       "155b480a52c1ef5bed03a2d1f78765767c0c5987",
-      "fe649a1abaed4836a0148f1903a2b7a015de5012",
       "168eb6d00131b2b2718bbc6c227c7d40ffdfa929",
       "fb48bffe6610ad544cb713af85b1579694dc4478",
       "444f39b9b3414003b39ee1c6da4141aae979e3de",
@@ -801,6 +520,7 @@
       "75974dcb2b3fdd3143e341227f2bc0f4047dbadb",
       "738b8695e52756833aaf4b25cf230c44f87e6e0c",
       "85b10400864187230714506412c85610c786b5c3",
+      "794fbee87765a8c2bdef78e0330b125bba5db919",
       "3f3356d2f6755b7191aec00b0e9f6717ae81ca4b",
       "ffef0a5be0aeebd4adf4a99a0da62c21ad09ed46",
       "f1c6aaf4a01c859eb3dcd1c66b8397a643fbcf11",
@@ -910,13 +630,11 @@
       "34feea048b3a7a8643f32ae37bc0dda2442d9459",
       "07dbbb95eff2640e07ade6e42e666c14ae5d1d19",
       "964bd39b546f0f6625ff3b9ef1083f797807ef2e",
-      "32de8d5e2c38506227300691ca07a56f640017fd",
       "d7d6701a0c6a252c950f1d046c277157da5a463d",
       "ac34ff3f547c942066ecc3b90f5db062a40432a8",
       "5cc2001af252e89b106b2ecb781270cc36f2b408",
       "8a4e2828777c9b3703e8e2b68ac27d9af496261a",
       "8b1aa3a20638363be3a6d941e907df704c738dfc",
-      "9e577715225c8a0023a7fef8dd364cc6701d96d1",
       "5ecf91d9f3bcc5dee65e3a8ac1ab65dacf777de6",
       "d730cf22de923601140c7c435ef915d398997388",
       "203a1c0e5025489a52c030adbbc102a787685ee6",
@@ -950,6 +668,7 @@
       "7e72ccb32491711fcf3b59ac77359a57c2ff52de",
       "4fca50ab80e278f7210b632e501e3616dd3eb2a1",
       "9583c43171c2f4605790def9d54a488a0e250aa9",
+      "cbaeb612e208eac2723f6d7a3e7f66350c10c801",
       "ae8598ad1b4a1828f9d4042b16c388565423542e",
       "3f60e8735f735cc84febde2340cb735e33fa1a76",
       "e3c598f5233d91f887edb626bb02ba86010a69c0",
@@ -970,7 +689,6 @@
       "c41c6cddb9326335ac1efcf84bab083a96a26aac",
       "11c2e98be11a39c36a15499f9fac9c3b9e68c061",
       "1f571c8b972540370b6fb9b48564fd2d8069901f",
-      "cbaeb612e208eac2723f6d7a3e7f66350c10c801",
       "a6e231db70a6774abc995afc0201671e0dab4d3a",
       "134e5566cc2d542039414c0de88e5e2f10dc8704",
       "e07890cf7e92ef8bac0b124ba2ecbe28bf488b65",
@@ -1145,6 +863,7 @@
       "65d3e7fa7b452611aa729ac789d4373d6ee505b0",
       "b1d67fc92db00421840af6f157e2d9e67a7154db",
       "82ef41d2065e366ce1130d36b53881e06f1af2ed",
+      "b42c38975f3d3f8bfe4b0c1a6e576c3e297cec38",
       "45371436c11e5f6f42bb2b8524a1c663794ff1fe",
       "9bf53b5d0464a102bba4c653e43a897567368e17",
       "10bb4ef7a6719ea132e00f0ab5680919a4131d99",
@@ -1221,7 +940,6 @@
       "8da0a421f8f7b3a6cff6d691a7f9f38dc25218eb",
       "cfee1826dd4743eab44c6e27a0cc5970effa4d80",
       "7315ecd4d32bfce02c0c911550a1a59ebbfeb202",
-      "7b95fe26f6a0287ed7aaaf6e8567b61a49829c29",
       "ad92ee2cfce84e9de73ff01ff79f8f155512f2f1",
       "4e45ac10580841b22471dd37d45f478fdaa1efa0",
       "470359a9416926371a7d1a104ca84e6eeef35def",
@@ -1238,79 +956,70 @@
     "dessinKeys": []
   },
   "status": "ok",
-  "headline": "AMI's quiet signal: World Models conference co-organizer role",
-  "stateOfPlay": "This week's main signal is AMI's public co-organization of a dedicated World Modeling Workshop as the lab is actively shaping the community around it.",
+  "headline": "Samsung's bet and a Harvard podium: AMI's world-model thesis is gaining external validation",
+  "stateOfPlay": "Two signals this week, coming from opposite directions, converge on the same conclusion: AMI's JEPA-centred research agenda is attracting serious outside attention. Samsung's growing stake in French AI — with AMI Labs named alongside Mistral AI as a key target — suggests the Korean giant sees strategic value in the lab's approach. Simultaneously, researcher Randall Balestriero took the JEPA framework to Harvard, arguing publicly that the field needs more mathematical rigour to advance world models. Together, these moments suggest AMI is moving from a Paris-based research bet into something with broader institutional and commercial traction.",
   "threads": [
     {
-      "title": "The World Modeling Workshop marks AMI's shift from participant to convener",
-      "category": "research",
-      "narrative": "Randall Balestriero (who may or may not be working for AMI!) posted this week, announcing that AMI Labs is a named co-organizer of both a 4th World Modeling Workshop (Aspen, February) focused on physics and an inaugural World Modeling Conference (Bay Area, May). These are not peripheral sponsorships — Balestriero's announcement explicitly names @amilabs alongside @ylecun and Lambda API as co-organizers, and the posts generated meaningful engagement (111 likes, 14 retweets on the announcement post). Organising the first standalone conference in this space is a community-positioning move: it signals that AMI sees world modelling not as one research thread among many but as a field-defining bet worth institutionalising.\n\nThis is consistent with Li Haoyi's public blog post — announced on X with 262 likes — titled 'Joining AMI to work on World Models,' which reads as both a personal announcement and an implicit recruiting signal. The combination of a high-profile hire announcing his reasons publicly and a co-organized conference suggests AMI is deliberately building gravity around the world-model research program, attracting both talent and community legitimacy at the same time. Although not to burst his bubble, we broke the news of his hiring back in June.",
+      "title": "Samsung's attention signals that AMI's architecture bets are becoming commercially legible",
+      "category": "funding",
+      "narrative": "Les Echos reported on 8 September that Samsung is deepening its engagement with French AI companies, naming AMI Labs alongside Mistral AI as targets of the conglomerate's expanding appetite. Being bracketed with Mistral — France's most-funded AI startup — is itself a signal of AMI's perceived standing, but the more interesting inference is about what Samsung is buying into. Samsung's AI hardware and software ambitions make JEPA-style self-supervised learning, which reduces dependence on labelled data at scale, a natural strategic fit. A partnership or stake here would not be a passive financial play; it would reflect a hardware manufacturer's desire to be close to a next-generation training paradigm before it becomes mainstream.\n\nThe corporate record shows no change in AMI's registered capital (€12,449.43) and no new IP filings this week, so the Samsung relationship has not yet produced a visible structural footprint. That restraint is itself informative: whatever is being discussed remains at the partnership or pre-investment stage, not yet a formal injection of capital. Worth watching whether a capital event follows in the next reporting window.",
       "evidence": [
         {
-          "label": "Balestriero workshop/conference announcement",
-          "url": "https://x.com/randall_balestr/status/2094453717084901539"
-        },
-        {
-          "label": "Balestriero pre-workshop post",
-          "url": "https://x.com/randall_balestr/status/2094157380972061165"
-        },
-        {
-          "label": "Li Haoyi joining AMI post",
-          "url": "https://x.com/li_haoyi/status/2094416691291988131"
-        },
-        {
-          "label": "Li Haoyi, Member of Technical Staff, Singapore",
-          "url": "https://ami.frenchtechjournal.com/team/haoyi-li"
+          "label": "Les Echos: Samsung et la French Tech",
+          "url": "https://www.lesechos.fr/start-up/ecosysteme/mistral-ai-ami-labs-lappetit-grandissant-de-samsung-pour-la-french-tech-2250326"
         }
       ]
     },
     {
-      "title": "AMI is actively recruiting in 3D vision and geometry, a capability gap the current team doesn't obviously fill",
-      "category": "hiring",
-      "narrative": "As we noted last week, the company posted a job listing for Geometry and 3D Vision scientist/interns. Now it's added one specifically for an AMI Scientist. Jihan Yang's high-engagement post (469 likes) soliciting full-time researchers and interns in geometry and 3D vision—across all four of AMI's hubs—points to a deliberate effort to fill a capability the lab's current public research profile doesn't prominently feature. The existing publication record is weighted toward JEPA-style representation learning, video, and reinforcement learning; 3D spatial understanding is a logical next layer if AMI intends its world models to reason about physical scenes rather than just predict patch-level video features.\n\nThe breadth of locations (NYC, Paris, Montreal, Singapore) for a single specialized role suggests AMI is prioritizing finding the right person over geography — an indicator of how seriously the lab is taking this capability. Bingyi Kang's parallel hiring call the same day reinforces that this was a coordinated push, not a single researcher acting independently.",
+      "title": "Balestriero at Harvard: AMI is actively evangelising JEPA theory, not just building it",
+      "category": "research",
+      "narrative": "Randall Balestriero's post on 11 September announcing a Harvard talk on \"world models, the Le* family and why we need more theory and mathematics to advance JEPAs\" is a compact statement of AMI's current intellectual stance. The framing — that the community needs more rigorous theory — is a positioning move as much as a research claim: it implicitly critiques the empirical-first, scale-first approach that dominates the LLM mainstream, and reasserts the JEPA programme as a principled alternative. A Harvard venue gives that argument academic weight at exactly the moment Samsung is circling the company commercially.\n\nThis public advocacy role for Balestriero complements what the GitHub record shows: Quentin Le Lidec reviewed a pull request in the `galilai-group/stable-worldmodel` repository this week, suggesting active engineering work on world-model infrastructure is running in parallel with the theoretical outreach. The combination — a researcher on stage arguing for the mathematical foundations of JEPAs while an engineer reviews world-model code — points to a team that is simultaneously building and recruiting intellectual consensus around its approach.",
       "evidence": [
         {
-          "label": "Jihan Yang hiring post",
-          "url": "https://x.com/jihanyang13/status/2094502545049915739"
+          "label": "Balestriero Harvard talk tweet",
+          "url": "https://x.com/randall_balestr/status/2098396510199152773"
         },
         {
-          "label": "Bingyi Kang hiring post",
-          "url": "https://x.com/bingyikang/status/2094526530231632279"
-        },
+          "label": "stable-worldmodel repo (Le Lidec review)",
+          "url": "https://github.com/galilai-group/stable-worldmodel"
+        }
+      ]
+    },
+    {
+      "title": "Scott Fujimoto's robotics paper surfaces a meaningful technical thread",
+      "category": "research",
+      "narrative": "Among the three publications logged this week, the one worth examining is Scott Fujimoto's DVK paper, presented at ICRA 2025. DVK uses pre-trained Vision Transformer patch-level embeddings to improve generalisation in imitation learning: the agent clusters appearance features into semantic keypoints that remain stable across visual variation. The relevance to AMI's agenda is direct — this is precisely the kind of representation learning that JEPA-style architectures are designed to produce, applied to robotic policy learning. The paper has accumulated six citations, modest but non-trivial for a robotics conference paper, and its appearance in this week's log (despite a 2023 original date) likely reflects a recent IEEE proceedings publication.\n\nThe other two new entries — a Rust code verification framework from Xinyi Wan at KDD, and Michael Rabbat's 2018 distributed SGD paper — are less directly tied to AMI's core agenda. Rabbat's older work on decentralised training is foundational infrastructure research, and its appearance here is archival rather than directional. Fujimoto's DVK is the piece that connects to the live engineering: self-supervised visual representations being stress-tested in robotic generalisation tasks.",
+      "evidence": [
         {
-          "label": "Hiring: AMI Scientist",
-          "url": "https://jobs.ashbyhq.com/ami/da976389-9875-4eb6-b866-8097baed3178"
-        },
-        {
-          "label": "Hiring: AMI Scientist/Interns - Geometry and 3D Vision",
-          "url": "https://jobs.ashbyhq.com/ami/0d7332d8-b8e7-40d3-89b6-dfc02b40bfa2?locationId=13f12f86-724f-4402-9a9f-dbaeb635b9d7"
+          "label": "DVK paper (Fujimoto, ICRA)",
+          "url": "https://doi.org/10.1109/ICRA55743.2025.11127800"
         }
       ]
     }
   ],
   "signals": [
     {
-      "text": "Min Lin engaged with a Meta PyTorch torchcodec issue this week, a minor but consistent indicator that AMI's video infrastructure work interfaces closely with Meta's tooling — unsurprising given LeCun's dual role, but worth tracking as video pretraining scales up.",
+      "text": "Julia Kempe's wry congratulations to OpenAI for \"not letting any good customer transcripts go unmined\" — alongside praise for AI-assisted mathematics — drew 295 likes, suggesting her commentary on AI ethics and capability trade-offs resonates well beyond AMI's immediate research circle.",
       "category": "research",
-      "url": "https://github.com/meta-pytorch/torchcodec/pull/1627#issuecomment-5488778811",
-      "linkLabel": "GitHub comment"
+      "url": "https://x.com/KempeLab/status/2097478220241142115",
+      "linkLabel": "Tweet"
     },
     {
-      "text": "LeCun appeared as sole AMI-credited author on a Nature Communications paper (RayDINO) applying self-supervised visual encoding to chest X-rays at scale — a medical application of DINO-style SSL that predates AMI's current JEPA focus, but signals continued breadth in LeCun's collaborative output.",
+      "text": "Min Lin opened a new branch in the `torch2jax` repository focused on a lazy module constructor, a low-level bridging tool between PyTorch and JAX. Sustained work here would suggest AMI is hedging its framework dependencies — or building infrastructure for more efficient JEPA training pipelines.",
       "category": "research",
-      "url": "https://doi.org/10.1038/s41467-026-76076-4",
-      "linkLabel": "RayDINO paper"
+      "url": "https://github.com/mavenlin/torch2jax",
+      "linkLabel": "torch2jax repo"
     }
   ],
-  "whatToWatch": "The World Modeling Conference could be an interesting opportunity to see if AMI chooses to present or announce something that reveals how far the LeVJEPA/LpWM program has matured. In the interim, watch whether the 3D vision hiring push yields visible new team members or a paper connecting spatial geometry to the JEPA latent-space work — that link would confirm whether AMI is building toward embodied world models or keeping its scope closer to video representation.",
+  "whatToWatch": "The Samsung relationship is the most consequential open question: if a capital event or formal partnership announcement follows in the next few weeks, it would mark AMI's first major industrial anchor and shift the lab from research outfit to something with product-market obligations. Separately, the cadence of commits to `stable-worldmodel` and the `torch2jax` bridging work are worth tracking together — sustained activity on both would suggest AMI is approaching a phase where its theoretical world-model arguments need to be backed by demonstrable, scalable engineering.",
   "whatToWatchLinks": [
     {
-      "url": "https://x.com/randall_balestr/status/2094453717084901539",
-      "linkLabel": "World Modeling Conference announcement"
+      "url": "https://github.com/galilai-group/stable-worldmodel",
+      "linkLabel": "stable-worldmodel repo"
     },
     {
-      "url": "https://x.com/jihanyang13/status/2094502545049915739",
-      "linkLabel": "3D vision hiring call"
+      "url": "https://www.lesechos.fr/start-up/ecosysteme/mistral-ai-ami-labs-lappetit-grandissant-de-samsung-pour-la-french-tech-2250326",
+      "linkLabel": "Les Echos Samsung piece"
     }
   ]
 }
