@@ -91,7 +91,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.11389",
-      "citationCount": 24,
+      "citationCount": 25,
       "coAuthors": [
         {
           "slug": "lucas-maes",
@@ -117,7 +117,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2605.21800",
-      "citationCount": 6,
+      "citationCount": 7,
       "coAuthors": [
         {
           "slug": "lucas-maes",
@@ -193,7 +193,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.19312",
-      "citationCount": 172,
+      "citationCount": 177,
       "coAuthors": [
         {
           "slug": "lucas-maes",
@@ -274,32 +274,6 @@
       ]
     },
     {
-      "paperId": "f2b50aa84f10b0f89293fc116e91f8a93f7f40e7",
-      "title": "Value-guided action planning with JEPA world models",
-      "year": 2025,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2601.00844",
-      "citationCount": 14,
-      "coAuthors": [
-        {
-          "slug": "yann-lecun",
-          "name": "Yann LeCun"
-        },
-        {
-          "slug": null,
-          "name": "Matthieu Destrade"
-        },
-        {
-          "slug": null,
-          "name": "Oumayma Bounou"
-        },
-        {
-          "slug": null,
-          "name": "Jean Ponce"
-        }
-      ]
-    },
-    {
       "paperId": "0f5d44bc261459ea10e91b62f0bc1a9f6cb07270",
       "title": "Differentiable Simulation of Soft Robots with Frictional Contacts",
       "year": 2025,
@@ -327,7 +301,7 @@
       "year": 2024,
       "venue": "IEEE Transactions on robotics",
       "url": "https://doi.org/10.1109/TRO.2024.3386370",
-      "citationCount": 33,
+      "citationCount": 34,
       "coAuthors": [
         {
           "slug": null,
@@ -346,15 +320,6 @@
           "name": "Justin Carpentier"
         }
       ]
-    },
-    {
-      "paperId": "fe649a1abaed4836a0148f1903a2b7a015de5012",
-      "title": "Differentiable optimization for robotics: simulation, learning and control. (Optimisation différentiable pour la robotique: simulation, apprentissage et contrôle)",
-      "year": 2024,
-      "venue": null,
-      "url": "https://doi.org/10.70675/a275b5f4z31a4z4fb2z92fez14f53226db61",
-      "citationCount": 0,
-      "coAuthors": []
     },
     {
       "paperId": "dfe007b6fc8f97aebaf6000341a868c55225c777",
@@ -581,18 +546,18 @@
   ],
   "topPublications": [
     {
-      "title": "GJK++: Leveraging Acceleration Methods for Faster Collision Detection",
-      "year": 2024,
-      "citationCount": 33,
+      "title": "Contact Models in Robotics: A Comparative Analysis",
+      "year": 2023,
+      "citationCount": 68,
       "venue": "IEEE Transactions on robotics",
-      "url": "https://doi.org/10.1109/TRO.2024.3386370"
+      "url": "https://doi.org/10.1109/TRO.2024.3434208"
     },
     {
-      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
-      "year": 2026,
-      "citationCount": 24,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.11389"
+      "title": "GJK++: Leveraging Acceleration Methods for Faster Collision Detection",
+      "year": 2024,
+      "citationCount": 34,
+      "venue": "IEEE Transactions on robotics",
+      "url": "https://doi.org/10.1109/TRO.2024.3386370"
     },
     {
       "title": "From Compliant to Rigid Contact Simulation: a Unified and Efficient Approach",
@@ -602,18 +567,18 @@
       "url": "https://doi.org/10.48550/arXiv.2405.17020"
     },
     {
-      "title": "Value-guided action planning with JEPA world models",
-      "year": 2025,
-      "citationCount": 14,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2601.00844"
-    },
-    {
       "title": "Causal-JEPA: Learning World Models through Object-Level Latent Masking",
       "year": 2026,
       "citationCount": 8,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/bed6ecff103c1a6f3a516d9b9d4847be8aff5294"
+    },
+    {
+      "title": "Enforcing the consensus between Trajectory Optimization and Policy Learning for precise robot control",
+      "year": 2022,
+      "citationCount": 8,
+      "venue": "IEEE International Conference on Robotics and Automation",
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160387"
     }
   ],
   "githubProjects": [],
@@ -652,13 +617,13 @@
   "connections": {
     "coAuthors": [
       {
-        "slug": "yann-lecun",
-        "name": "Yann LeCun",
-        "sharedPapers": 8
-      },
-      {
         "slug": "lucas-maes",
         "name": "Lucas Maes",
+        "sharedPapers": 7
+      },
+      {
+        "slug": "yann-lecun",
+        "name": "Yann LeCun",
         "sharedPapers": 7
       }
     ],
@@ -753,18 +718,6 @@
       },
       {
         "name": "Th'eotime Le Hellard",
-        "papers": 1
-      },
-      {
-        "name": "Matthieu Destrade",
-        "papers": 1
-      },
-      {
-        "name": "Oumayma Bounou",
-        "papers": 1
-      },
-      {
-        "name": "Jean Ponce",
         "papers": 1
       },
       {

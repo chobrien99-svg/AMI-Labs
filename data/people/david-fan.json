@@ -37,7 +37,7 @@
       "year": 2026,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/211a73f11a8722d61f7cea91b2c52fd4f9aa2ff6",
-      "citationCount": 0,
+      "citationCount": 2,
       "coAuthors": [
         {
           "slug": null,
@@ -71,7 +71,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276",
-      "citationCount": 29,
+      "citationCount": 31,
       "coAuthors": [
         {
           "slug": "john-nguyen",
@@ -161,7 +161,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.03604",
-      "citationCount": 11,
+      "citationCount": 12,
       "coAuthors": [
         {
           "slug": "basile-terver",
@@ -287,7 +287,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 657,
+      "citationCount": 679,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -425,7 +425,7 @@
       "year": 2025,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.00042",
-      "citationCount": 67,
+      "citationCount": 68,
       "coAuthors": [
         {
           "slug": "michael-rabbat",
@@ -438,10 +438,6 @@
         {
           "slug": "amir-bar",
           "name": "Amir Bar"
-        },
-        {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
         },
         {
           "slug": null,
@@ -479,7 +475,7 @@
       "year": 2024,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.01579",
-      "citationCount": 225,
+      "citationCount": 229,
       "coAuthors": [
         {
           "slug": "michael-rabbat",
@@ -488,10 +484,6 @@
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
-        },
-        {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
         },
         {
           "slug": null,
@@ -512,6 +504,10 @@
         {
           "slug": null,
           "name": "Koustuv Sinha"
+        },
+        {
+          "slug": null,
+          "name": "Sai-Ning Xie"
         },
         {
           "slug": null,
@@ -726,28 +722,28 @@
     {
       "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
-      "citationCount": 657,
+      "citationCount": 679,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985"
     },
     {
       "title": "MetaMorph: Multimodal Understanding and Generation via Instruction Tuning",
       "year": 2024,
-      "citationCount": 227,
+      "citationCount": 229,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.01579"
     },
     {
       "title": "Scaling Language-Free Visual Representation Learning",
       "year": 2025,
-      "citationCount": 67,
+      "citationCount": 68,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.00042"
     },
     {
       "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
       "year": 2026,
-      "citationCount": 29,
+      "citationCount": 31,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276"
     },
@@ -792,11 +788,6 @@
         "sharedPapers": 4
       },
       {
-        "slug": "saining-xie",
-        "name": "Saining Xie",
-        "sharedPapers": 3
-      },
-      {
         "slug": "quentin-garrido",
         "name": "Quentin Garrido",
         "sharedPapers": 2
@@ -809,6 +800,11 @@
       {
         "slug": "john-nguyen",
         "name": "John Nguyen",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "saining-xie",
+        "name": "Saining Xie",
         "sharedPapers": 1
       },
       {
@@ -916,6 +912,10 @@
       },
       {
         "name": "Xinlei Chen",
+        "papers": 2
+      },
+      {
+        "name": "Sai-Ning Xie",
         "papers": 2
       },
       {
@@ -1048,10 +1048,6 @@
       },
       {
         "name": "P. Montr'eal",
-        "papers": 1
-      },
-      {
-        "name": "Sai-Ning Xie",
         "papers": 1
       },
       {

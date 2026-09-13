@@ -31,7 +31,7 @@
     {
       "a": "quentin-le-lidec",
       "b": "yann-lecun",
-      "paperCount": 8,
+      "paperCount": 7,
       "papers": [
         "LeVJEPA: Efficient&Scalable Video Pretraining without the Heuristics",
         "LpWM: A Case for Sparse Representations in World Models",
@@ -39,8 +39,7 @@
         "stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation",
         "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
         "Causal-JEPA: Learning World Models through Object-Level Latent Masking",
-        "stable-worldmodel-v1: Reproducible World Modeling Research and Evaluation",
-        "Value-guided action planning with JEPA world models"
+        "stable-worldmodel-v1: Reproducible World Modeling Research and Evaluation"
       ]
     },
     {
@@ -81,10 +80,9 @@
     {
       "a": "jihan-yang",
       "b": "saining-xie",
-      "paperCount": 7,
+      "paperCount": 6,
       "papers": [
         "Cambrian-P: Pose-Grounded Video Understanding",
-        "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
         "Benchmark Designers Should \"Train on the Test Set\" to Expose Exploitable Non-Visual Shortcuts",
         "Cambrian-S: Towards Spatial Supersensing in Video",
         "Traveling Across Languages: Benchmarking Cross-Lingual Consistency in Multimodal LLMs",
@@ -353,11 +351,9 @@
     {
       "a": "david-fan",
       "b": "saining-xie",
-      "paperCount": 3,
+      "paperCount": 1,
       "papers": [
-        "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
-        "Scaling Language-Free Visual Representation Learning",
-        "MetaMorph: Multimodal Understanding and Generation via Instruction Tuning"
+        "Beyond Language Modeling: An Exploration of Multimodal Pretraining"
       ]
     },
     {
@@ -402,32 +398,26 @@
     {
       "a": "amir-bar",
       "b": "saining-xie",
-      "paperCount": 2,
+      "paperCount": 1,
       "papers": [
-        "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
-        "Scaling Language-Free Visual Representation Learning"
+        "Beyond Language Modeling: An Exploration of Multimodal Pretraining"
       ]
     },
     {
       "a": "michael-rabbat",
       "b": "saining-xie",
-      "paperCount": 3,
+      "paperCount": 1,
       "papers": [
-        "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
-        "Scaling Language-Free Visual Representation Learning",
-        "MetaMorph: Multimodal Understanding and Generation via Instruction Tuning"
+        "Beyond Language Modeling: An Exploration of Multimodal Pretraining"
       ]
     },
     {
       "a": "saining-xie",
       "b": "yann-lecun",
-      "paperCount": 6,
+      "paperCount": 3,
       "papers": [
         "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
-        "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
         "Cambrian-S: Towards Spatial Supersensing in Video",
-        "Scaling Language-Free Visual Representation Learning",
-        "MetaMorph: Multimodal Understanding and Generation via Instruction Tuning",
         "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
       ]
     },
@@ -4609,10 +4599,6 @@
       "manager": "christophe-tcheng"
     },
     {
-      "person": "haoyi-li",
-      "manager": "min-lin"
-    },
-    {
       "person": "jihan-yang",
       "manager": "saining-xie"
     },
@@ -4627,6 +4613,10 @@
     {
       "person": "laurent-solly",
       "manager": "alexandre-lebrun"
+    },
+    {
+      "person": "haoyi-li",
+      "manager": "min-lin"
     },
     {
       "person": "li-jing",
