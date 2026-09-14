@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T14:10:18.471Z",
+  "generatedAt": "2026-09-14T09:49:43.646Z",
   "papers": [
     {
       "paperId": "437cb869d42d536ad1b2f35399c99ab79ec65d5a",
@@ -36,7 +36,7 @@
         },
         {
           "name": "Quentin Le Lidec",
-          "authorId": "2460115990",
+          "authorId": null,
           "slug": "quentin-le-lidec"
         },
         {
@@ -50,8 +50,8 @@
           "slug": null
         },
         {
-          "name": "Florian Buettner",
-          "authorId": "2303655270",
+          "name": "F. Buettner",
+          "authorId": "2315845",
           "slug": null
         }
       ],
@@ -95,7 +95,7 @@
         },
         {
           "name": "Quentin Le Lidec",
-          "authorId": "2133323688",
+          "authorId": null,
           "slug": "quentin-le-lidec"
         },
         {
@@ -381,7 +381,7 @@
           "slug": null
         },
         {
-          "name": "Marie Salmon",
+          "name": "M. Salmon",
           "authorId": "2465959466",
           "slug": null
         },
@@ -411,8 +411,8 @@
           "slug": "yann-lecun"
         },
         {
-          "name": "Bernhard Schölkopf",
-          "authorId": "2261483511",
+          "name": "B. Schölkopf",
+          "authorId": "1707625",
           "slug": null
         },
         {
@@ -488,7 +488,7 @@
         },
         {
           "name": "Zhong Ming",
-          "authorId": "2304455592",
+          "authorId": "2106680008",
           "slug": null
         },
         {
@@ -639,7 +639,7 @@
           "slug": null
         },
         {
-          "name": "Eran Segal",
+          "name": "E. Segal",
           "authorId": "2316700433",
           "slug": null
         }
@@ -964,7 +964,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         },
@@ -990,6 +990,42 @@
       "abstract": "Code repair is an important capability for language models (LMs): given a buggy program and unit tests, an LM must produce a fixed program that passes the tests. Because code repair data is limited, we aim to scale supervision by using an LM to generate bug--fix tasks. We propose __generator--fixer self-play__, in which a single model is trained with reinforcement learning to generate bugs and fix them. As the fixer improves, the generator adapts to produce more difficult bugs, yielding an automatic curriculum. To test whether this curriculum generalizes, we introduce BugSourceBench, a repair benchmark spanning realistic bug sources: bugs in human-written code, LM-generated code, and human-edited LM-generated code. On BugSourceBench, we find that self-play drifts toward difficult but unrealistic bugs, improving on synthetic bugs but degrading on human-authored ones. We propose Anchored Self-Play (ASP), which anchors self-play with a small reference set by adding a code-embedding similarity reward for generation and mixing reference bugs into fixer training. Across bug sources, ASP achieves the best fix rates, improving average fix rate over standard self-play by $+24\\%$ relative / "
     },
     {
+      "paperId": "e853967245079e097de13475b229d16988065719",
+      "title": "The Tale of the Broken Clock: How LLMs Evaluate Requirement Quality and Where They Fail",
+      "teamAuthors": [
+        {
+          "slug": "adithya-iyer",
+          "name": "Adithya Iyer"
+        }
+      ],
+      "authors": [
+        {
+          "name": "J. Shefa",
+          "authorId": "2141817729",
+          "slug": null
+        },
+        {
+          "name": "Adithya Iyer",
+          "authorId": "2393205310",
+          "slug": "adithya-iyer"
+        },
+        {
+          "name": "Taylan G. Topcu",
+          "authorId": "101082843",
+          "slug": null
+        }
+      ],
+      "memberSlug": "adithya-iyer",
+      "memberName": "Adithya Iyer",
+      "publicationDate": "2026-07-01",
+      "year": 2026,
+      "venue": null,
+      "url": "https://doi.org/10.1002/iis2.70245",
+      "citationCount": 0,
+      "tldr": "Off‐the‐shelf LLMs are not yet suitable for autonomous requirement quality evaluation; yet could be more suitable to assist human experts or serve specialized roles in agentic AI frameworks.",
+      "abstract": null
+    },
+    {
       "paperId": "ef00907321ce5dd241f55a24fcdf49267320dd09",
       "title": "Video-MMMU: Evaluating Knowledge Acquisition from Multidisciplinary Professional Videos",
       "teamAuthors": [
@@ -1005,7 +1041,7 @@
           "slug": null
         },
         {
-          "name": "Penghao Wu",
+          "name": "Peng-Hao Wu",
           "authorId": "2342516482",
           "slug": null
         },
@@ -1620,7 +1656,7 @@
           "slug": null
         },
         {
-          "name": "Keqian Li",
+          "name": "Ke Li",
           "authorId": "2313920868",
           "slug": null
         },
@@ -2150,7 +2186,7 @@
           "slug": null
         },
         {
-          "name": "Ali Kamali",
+          "name": "A. Kamali",
           "authorId": "2275169038",
           "slug": null
         },
@@ -2760,7 +2796,7 @@
           "slug": null
         },
         {
-          "name": "O. Pinto",
+          "name": "Oliveira Pinto",
           "authorId": "2286067275",
           "slug": null
         },
@@ -2891,7 +2927,7 @@
         },
         {
           "name": "Jason Phang",
-          "authorId": "2351462808",
+          "authorId": "80842917",
           "slug": null
         },
         {
@@ -2936,7 +2972,7 @@
         },
         {
           "name": "Ji Lin",
-          "authorId": "2328261167",
+          "authorId": "2110385919",
           "slug": null
         },
         {
@@ -3150,7 +3186,7 @@
           "slug": null
         },
         {
-          "name": "Larry Kai",
+          "name": "L. Kai",
           "authorId": "2328089844",
           "slug": null
         },
@@ -3685,7 +3721,7 @@
           "slug": null
         },
         {
-          "name": "Hongping Jiang",
+          "name": "Hong-Ping Jiang",
           "authorId": "47067735",
           "slug": null
         },
@@ -3705,12 +3741,12 @@
           "slug": null
         },
         {
-          "name": "Wusong Tao",
+          "name": "Wu-Song Tao",
           "authorId": "72331618",
           "slug": null
         },
         {
-          "name": "Mingdun Liao",
+          "name": "Ming-Dun Liao",
           "authorId": "34215920",
           "slug": null
         },
@@ -3730,7 +3766,7 @@
           "slug": null
         },
         {
-          "name": "Yuheng Zeng",
+          "name": "Yu-Heng Zeng",
           "authorId": "28008780",
           "slug": null
         },
@@ -4056,7 +4092,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         },
@@ -4116,57 +4152,6 @@
       "citationCount": 3,
       "tldr": "Temporal Difference in Vision (TDV) is introduced, a new paradigm for self-supervised learning from video that avoids existing inductive biases, relying instead on a causal assumption that the past causes the future.",
       "abstract": "Progress in AI has largely been driven by methods that assume less. As compute and data increase, approaches with weaker inductive biases generally outperform those with stronger assumptions. This is particularly characteristic of the field of Visual Representation Learning, where approaches have gone from being dominated by Supervised Learning, to Weakly Supervised Learning, to the now widespread success of Self-Supervised Learning without human labels. Yet, even modern Self-Supervised Learning approaches still depend on strong inductive biases such as augmentations, masking, or cropping. If this trend holds, even these remaining biases should become bottlenecks at scale -- and our experiments confirm this: the optimal strength of inductive biases decreases as data grows. This motivates the search for approaches that rely on fewer assumptions. To this end, we introduce Temporal Difference in Vision (TDV), a new paradigm for self-supervised learning from video that avoids existing inductive biases, relying instead on a causal assumption that the past causes the future. TDV functions by jointly training an image encoder and a motion encoder so that the current frame's representation"
-    },
-    {
-      "paperId": "53ea2e04a11011cc0c05e4b704c6d3f379c1645b",
-      "title": "RepFusion: Leveraging Multimodal Priors for Denoising in Representation Space",
-      "teamAuthors": [
-        {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Xichen Pan",
-          "authorId": "2158877024",
-          "slug": null
-        },
-        {
-          "name": "Aashu Singh",
-          "authorId": "2334435503",
-          "slug": null
-        },
-        {
-          "name": "Satya Narayan Shukla",
-          "authorId": "35194054",
-          "slug": null
-        },
-        {
-          "name": "Xiangjun Fan",
-          "authorId": "2384864888",
-          "slug": null
-        },
-        {
-          "name": "S. Mishra",
-          "authorId": "2338803688",
-          "slug": null
-        },
-        {
-          "name": "Saining Xie",
-          "authorId": "2325817465",
-          "slug": "saining-xie"
-        }
-      ],
-      "memberSlug": "saining-xie",
-      "memberName": "Saining Xie",
-      "publicationDate": "2026-06-12",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2606.14700",
-      "citationCount": 2,
-      "tldr": "It is demonstrated that MLLMs provide strong priors for denoising visual representations and that, by conditioning on evolving noisy representations, test-time compute can be productively spent on repeated MLLM conditioning in modern T2I systems.",
-      "abstract": "Large language models (LLMs) are widely used in text-to-image (T2I) systems, but they are typically limited to text encoding, while denoising is handled by newly trained generative backbones. The emergence of representation autoencoders (RAEs) shifts the generation target toward semantically structured visual representations, creating a latent space that is more compatible with pretrained LLM priors. Inspired by multimodal LLMs (MLLMs), where an MLP projector is sufficient to align clean visual representations with a pretrained LLM, we repurpose the MLLM itself as a noisy representation encoder, extending this mechanism from clean to noisy inputs. We present RepFusion, which uses the resulting MLLM outputs as the conditioning signal for a diffusion transformer. In controlled comparisons at similar inference budgets, RepFusion outperforms baselines that devote comparable capacity to newly initialized denoisers. These results demonstrate that MLLMs provide strong priors for denoising visual representations and that, by conditioning on evolving noisy representations, test-time compute can be productively spent on repeated MLLM conditioning in modern T2I systems."
     },
     {
       "paperId": "e218c1a1fcba59c463082f9a1824ebeecae50f65",
@@ -4331,17 +4316,17 @@
           "slug": null
         },
         {
-          "name": "Huangshui Ma",
+          "name": "Huang-Shui Ma",
           "authorId": "2279964468",
           "slug": null
         },
         {
-          "name": "Chuke Zhao",
+          "name": "Chu-Ke Zhao",
           "authorId": "2152873169",
           "slug": null
         },
         {
-          "name": "Zijian Lin",
+          "name": "Zi-Jian Lin",
           "authorId": "2382729234",
           "slug": null
         },
@@ -4357,7 +4342,7 @@
         },
         {
           "name": "Ang Ran",
-          "authorId": null,
+          "authorId": "2460633307",
           "slug": null
         }
       ],
@@ -4560,7 +4545,7 @@
         },
         {
           "name": "Saining Xie",
-          "authorId": "2249884026",
+          "authorId": "2282918539",
           "slug": "saining-xie"
         }
       ],
@@ -4611,7 +4596,7 @@
         },
         {
           "name": "Harry Shum",
-          "authorId": "2342287808",
+          "authorId": "144154486",
           "slug": null
         },
         {
@@ -4674,8 +4659,8 @@
           "slug": null
         },
         {
-          "name": "Ayush Chaurasia",
-          "authorId": "2324112050",
+          "name": "Ayushi Chaurasia",
+          "authorId": "51181604",
           "slug": null
         },
         {
@@ -4948,7 +4933,7 @@
           "slug": null
         },
         {
-          "name": "P. Montr'eal",
+          "name": "Polytechnique Montr'eal",
           "authorId": "2102129911",
           "slug": null
         },
@@ -5081,7 +5066,7 @@
           "slug": null
         },
         {
-          "name": "Yifei Wang",
+          "name": "Yi-Fei Wang",
           "authorId": "2309210532",
           "slug": null
         },
@@ -5376,7 +5361,7 @@
         },
         {
           "name": "J. Foerster",
-          "authorId": "1412004702",
+          "authorId": "2275156099",
           "slug": null
         },
         {
@@ -5452,47 +5437,6 @@
       "abstract": "Precise camera control for reshooting dynamic videos is bottlenecked by the severe scarcity of paired multi-view data for non-rigid scenes. We overcome this limitation with a highly scalable self-supervised framework capable of leveraging internet-scale monocular videos. Our core contribution is the generation of pseudo multi-view training triplets, consisting of a source video, a geometric anchor, and a target video. We achieve this by extracting distinct smooth random-walk crop trajectories from a single input video to serve as the source and target views. The anchor is synthetically generated by forward-warping the first frame of the source with a dense tracking field, which effectively simulates the distorted point-cloud inputs expected at inference. Because our independent cropping strategy introduces spatial misalignment and artificial occlusions, the model cannot simply copy information from the current source frame. Instead, it is forced to implicitly learn 4D spatiotemporal structures by actively routing and re-projecting missing high-fidelity textures across distinct times and viewpoints from the source video to reconstruct the target. At inference, our minimally adapted "
     },
     {
-      "paperId": "f1a7a798e6ac2298f5f140d19ee25031e4f8e1d2",
-      "title": "Accelerating trajectory optimization with Sobolev-trained diffusion policies",
-      "teamAuthors": [
-        {
-          "slug": "quentin-le-lidec",
-          "name": "Quentin Le Lidec"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Th'eotime Le Hellard",
-          "authorId": "2221130135",
-          "slug": null
-        },
-        {
-          "name": "Franki Nguimatsia Tiofack",
-          "authorId": "2395892813",
-          "slug": null
-        },
-        {
-          "name": "Quentin Le Lidec",
-          "authorId": "2133323688",
-          "slug": "quentin-le-lidec"
-        },
-        {
-          "name": "Justin Carpentier",
-          "authorId": "2276961614",
-          "slug": null
-        }
-      ],
-      "memberSlug": "quentin-le-lidec",
-      "memberName": "Quentin Le Lidec",
-      "publicationDate": "2026-04-21",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2604.19011",
-      "citationCount": 0,
-      "tldr": "This work derives a first-order loss for Sobolev learning of diffusion-based policies using both trajectories and feedback gains for gradient-based TO solvers that also provide feedback gains, andorporating first-order information enables predictions with fewer diffusion steps, reducing inference latency.",
-      "abstract": "Trajectory Optimization (TO) solvers exploit known system dynamics to compute locally optimal trajectories through iterative improvements. A downside is that each new problem instance is solved independently; therefore, convergence speed and quality of the solution found depend on the initial trajectory proposed. To improve efficiency, a natural approach is to warm-start TO with initial guesses produced by a learned policy trained on trajectories previously generated by the solver. Diffusion-based policies have recently emerged as expressive imitation learning models, making them promising candidates for this role. Yet, a counterintuitive challenge comes from the local optimality of TO demonstrations: when a policy is rolled out, small non-optimal deviations may push it into situations not represented in the training data, triggering compounding errors over long horizons. In this work, we focus on learning-based warm-starting for gradient-based TO solvers that also provide feedback gains. Exploiting this specificity, we derive a first-order loss for Sobolev learning of diffusion-based policies using both trajectories and feedback gains. Through comprehensive experiments, we demonst"
-    },
-    {
       "paperId": "450fbc821abdb7b5d1c5e332ff0bbd98f5eb5674",
       "title": "TAPNext++: What's Next for Tracking Any Point (TAP)?",
       "teamAuthors": [
@@ -5533,8 +5477,8 @@
           "slug": null
         },
         {
-          "name": "Sarath Chandar",
-          "authorId": "123607932",
+          "name": "A. P. Sarath Chandar",
+          "authorId": "2486642835",
           "slug": null
         },
         {
@@ -5726,67 +5670,6 @@
       "citationCount": 20,
       "tldr": "HWM learns world models at multiple temporal scales within a shared latent space, so predictions from the long-horizon model serve as subgoals for the short-horizon model via latent matching, without task-specific rewards, skill learning, or hierarchical policies.",
       "abstract": "World models are a promising path to zero-shot embodied control through planning. However, existing world model planners struggle on long-horizon, multi-stage tasks: prediction errors compound and naive search is exponential in the planning horizon. Hierarchy mitigates both by decomposing tasks into shorter, tractable subproblems; yet prior hierarchical approaches either amortize control into task-specific policies (hierarchical RL) or assume low-dimensional states and known dynamics (classical hierarchical MPC). We present Hierarchical Planning with Latent World Models (HWM), an architecture and planning paradigm for hierarchical model predictive control (MPC) directly on visual world models trained solely via next-latent prediction. HWM learns world models at multiple temporal scales within a shared latent space, so predictions from the long-horizon model serve as subgoals for the short-horizon model via latent matching, without task-specific rewards, skill learning, or hierarchical policies. To keep long-horizon search tractable, HWM learns an action encoder that compresses primitive action chunks into latent macro-actions. On real-world Franka manipulation, HWM solves pick-and-"
-    },
-    {
-      "paperId": "7272e854e744fda37757fed2557612c820792de3",
-      "title": "Repurposing Geometric Foundation Models for Multi-view Diffusion",
-      "teamAuthors": [
-        {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Wooseok Jang",
-          "authorId": "8310837",
-          "slug": null
-        },
-        {
-          "name": "Seonghu Jeon",
-          "authorId": "2379610947",
-          "slug": null
-        },
-        {
-          "name": "Jisang Han",
-          "authorId": "2269685274",
-          "slug": null
-        },
-        {
-          "name": "Jinhyeok Choi",
-          "authorId": "2379239431",
-          "slug": null
-        },
-        {
-          "name": "Minkyung Kwon",
-          "authorId": "2395770745",
-          "slug": null
-        },
-        {
-          "name": "Seungryong Kim",
-          "authorId": "2257312084",
-          "slug": null
-        },
-        {
-          "name": "Saining Xie",
-          "authorId": "2325817465",
-          "slug": "saining-xie"
-        },
-        {
-          "name": "Sainan Liu",
-          "authorId": "2277749253",
-          "slug": null
-        }
-      ],
-      "memberSlug": "saining-xie",
-      "memberName": "Saining Xie",
-      "publicationDate": "2026-03-23",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2603.22275",
-      "citationCount": 7,
-      "tldr": "This paper proposes Geometric Latent Diffusion (GLD), a framework that repurposes the geometrically consistent feature space of geometric foundation models as the latent space for multi-view diffusion, and shows that these features not only support high-fidelity RGB reconstruction but also encode strong cross-view geometric correspondences, providing a well-suited latent space for NVS.",
-      "abstract": "While recent advances in generative latent spaces have driven substantial progress in single-image generation, the optimal latent space for novel view synthesis (NVS) remains largely unexplored. In particular, NVS requires geometrically consistent generation across viewpoints, but existing approaches typically operate in a view-independent VAE latent space. In this paper, we propose Geometric Latent Diffusion (GLD), a framework that repurposes the geometrically consistent feature space of geometric foundation models as the latent space for multi-view diffusion. We show that these features not only support high-fidelity RGB reconstruction but also encode strong cross-view geometric correspondences, providing a well-suited latent space for NVS. Our experiments demonstrate that GLD outperforms both VAE and RAE on 2D image quality and 3D consistency metrics, while accelerating training by more than 4.4x compared to the VAE latent space. Notably, GLD remains competitive with state-of-the-art methods that leverage large-scale text-to-image pretraining, despite training its diffusion model from scratch without such generative pretraining."
     },
     {
       "paperId": "4353f9b78c972e37273c1b77a440c3812215ca91",
@@ -6173,7 +6056,7 @@
           "slug": null
         },
         {
-          "name": "Jiaming Mi",
+          "name": "Jia-Ming Mi",
           "authorId": "7005475",
           "slug": null
         },
@@ -6270,8 +6153,8 @@
           "slug": null
         },
         {
-          "name": "Christos Kozyrakis",
-          "authorId": "2392869567",
+          "name": "Christoforos E. Kozyrakis",
+          "authorId": "2285635652",
           "slug": null
         },
         {
@@ -6481,7 +6364,7 @@
           "slug": null
         },
         {
-          "name": "Th'eophane Vallaeys",
+          "name": "Théophane Vallaeys",
           "authorId": "2292257227",
           "slug": null
         },
@@ -6547,7 +6430,7 @@
         },
         {
           "name": "Saining Xie",
-          "authorId": "2249884026",
+          "authorId": "2282918539",
           "slug": "saining-xie"
         }
       ],
@@ -6572,7 +6455,7 @@
       ],
       "authors": [
         {
-          "name": "Zimo Wen",
+          "name": "Zi-Mo Wen",
           "authorId": "2392914761",
           "slug": null
         },
@@ -6632,7 +6515,7 @@
           "slug": null
         },
         {
-          "name": "Yifan Yang",
+          "name": "Yi-Fan Yang",
           "authorId": "2299103574",
           "slug": null
         },
@@ -6780,7 +6663,7 @@
           "slug": null
         },
         {
-          "name": "Chuning Zhu",
+          "name": "Chu-Ning Zhu",
           "authorId": "2118160513",
           "slug": null
         },
@@ -6926,7 +6809,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.15922",
-      "citationCount": 308,
+      "citationCount": 311,
       "tldr": "DreamZero, a World Action Model (WAM) built upon a pretrained video diffusion backbone, is introduced, a World Action Model (WAM) built upon a pretrained video diffusion backbone that enables few-shot embodiment adaptation and enables few-shot embodiment adaptation.",
       "abstract": "State-of-the-art Vision-Language-Action (VLA) models excel at semantic generalization but struggle to generalize to unseen physical motions in novel environments. We introduce DreamZero, a World Action Model (WAM) built upon a pretrained video diffusion backbone. Unlike VLAs, WAMs learn physical dynamics by predicting future world states and actions, using video as a dense representation of how the world evolves. By jointly modeling video and action, DreamZero learns diverse skills effectively from heterogeneous robot data without relying on repetitive demonstrations. This results in over 2x improvement in generalization to new tasks and environments compared to state-of-the-art VLAs in real robot experiments. Crucially, through model and system optimizations, we enable a 14B autoregressive video diffusion model to perform real-time closed-loop control at 7Hz. Finally, we demonstrate two forms of cross-embodiment transfer: video-only demonstrations from other robots or humans yield a relative improvement of over 42% on unseen task performance with just 10-20 minutes of data. More surprisingly, DreamZero enables few-shot embodiment adaptation, transferring to a new embodiment with o"
     },
@@ -7107,7 +6990,7 @@
         },
         {
           "name": "Quentin Le Lidec",
-          "authorId": "2133323688",
+          "authorId": null,
           "slug": "quentin-le-lidec"
         },
         {
@@ -7347,7 +7230,7 @@
         },
         {
           "name": "Yuke Zhu",
-          "authorId": "2253507326",
+          "authorId": "2258068214",
           "slug": null
         },
         {
@@ -7452,7 +7335,7 @@
           "slug": null
         },
         {
-          "name": "Zi-Yan Liu",
+          "name": "Zichen Liu",
           "authorId": "2117943295",
           "slug": null
         },
@@ -8078,6 +7961,10 @@
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
+        },
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
         }
       ],
       "authors": [
@@ -8127,9 +8014,9 @@
           "slug": "yann-lecun"
         },
         {
-          "name": "Sai-Ning Xie",
-          "authorId": "2275940976",
-          "slug": null
+          "name": "Saining Xie",
+          "authorId": "2282918539",
+          "slug": "saining-xie"
         }
       ],
       "memberSlug": "jihan-yang",
@@ -8628,7 +8515,7 @@
         },
         {
           "name": "Antonia Sheng",
-          "authorId": "2405808314",
+          "authorId": "2487828592",
           "slug": null
         },
         {
@@ -8657,7 +8544,7 @@
           "slug": null
         },
         {
-          "name": "Apara-jita Saraf",
+          "name": "Aparajita Saraf",
           "authorId": "2335573717",
           "slug": null
         },
@@ -8908,7 +8795,7 @@
         },
         {
           "name": "Boduo Li",
-          "authorId": "2146319",
+          "authorId": "2491990309",
           "slug": null
         },
         {
@@ -9032,7 +8919,7 @@
           "slug": null
         },
         {
-          "name": "C. Diaz",
+          "name": "Caro Diaz",
           "authorId": "23307560",
           "slug": null
         },
@@ -9142,8 +9029,8 @@
           "slug": null
         },
         {
-          "name": "Chen Hua",
-          "authorId": "2057560024",
+          "name": "Chenheli Hua",
+          "authorId": "2434946189",
           "slug": null
         },
         {
@@ -9277,7 +9164,7 @@
           "slug": null
         },
         {
-          "name": "C. Sung",
+          "name": "Chun-Yi Sung",
           "authorId": "92725293",
           "slug": null
         },
@@ -10132,7 +10019,7 @@
           "slug": null
         },
         {
-          "name": "Haiping Wu",
+          "name": "Hai-Ping Wu",
           "authorId": "2119020278",
           "slug": null
         },
@@ -10238,7 +10125,7 @@
         },
         {
           "name": "Hejia Zhang",
-          "authorId": "2248727777",
+          "authorId": "3268248",
           "slug": null
         },
         {
@@ -10427,7 +10314,7 @@
           "slug": null
         },
         {
-          "name": "J. R. Vertino",
+          "name": "Jacqueline R. Vertino",
           "authorId": "2405808798",
           "slug": null
         },
@@ -10467,8 +10354,8 @@
           "slug": null
         },
         {
-          "name": "J. Zeng",
-          "authorId": "2254991563",
+          "name": "James Hongyi Zeng",
+          "authorId": "2482955077",
           "slug": null
         },
         {
@@ -10772,7 +10659,7 @@
           "slug": null
         },
         {
-          "name": "Ruofan Li",
+          "name": "Ruo-Fan Li",
           "authorId": "2398976108",
           "slug": null
         },
@@ -11562,7 +11449,7 @@
           "slug": null
         },
         {
-          "name": "D.P Goldberg",
+          "name": "D. Goldberg",
           "authorId": "2412397218",
           "slug": null
         },
@@ -11648,12 +11535,12 @@
         },
         {
           "name": "DJ Strouse",
-          "authorId": "2256995024",
+          "authorId": "69925460",
           "slug": null
         },
         {
-          "name": "D. Williams",
-          "authorId": "2109342961",
+          "name": "Drew Williams",
+          "authorId": "2309868735",
           "slug": null
         },
         {
@@ -11662,7 +11549,7 @@
           "slug": null
         },
         {
-          "name": "Edward Bayes",
+          "name": "E. Bayes",
           "authorId": "2333358009",
           "slug": null
         },
@@ -12093,7 +11980,7 @@
         },
         {
           "name": "Ji Lin",
-          "authorId": "2328261167",
+          "authorId": "2110385919",
           "slug": null
         },
         {
@@ -12143,7 +12030,7 @@
         },
         {
           "name": "J. Fishbein",
-          "authorId": "2312590864",
+          "authorId": "2448683430",
           "slug": null
         },
         {
@@ -12307,8 +12194,8 @@
           "slug": null
         },
         {
-          "name": "Kristen Ying",
-          "authorId": "2343853380",
+          "name": "K. Ying",
+          "authorId": "2264828499",
           "slug": null
         },
         {
@@ -12418,7 +12305,7 @@
         },
         {
           "name": "Lin Yang",
-          "authorId": "2376185916",
+          "authorId": "2451745083",
           "slug": null
         },
         {
@@ -12872,7 +12759,7 @@
           "slug": null
         },
         {
-          "name": "Rohan Kshirsagar",
+          "name": "R. Kshirsagar",
           "authorId": "2339479700",
           "slug": null
         },
@@ -13012,7 +12899,7 @@
           "slug": null
         },
         {
-          "name": "Shiyu Zhao",
+          "name": "Shi-Yu Zhao",
           "authorId": "2276267931",
           "slug": null
         },
@@ -13133,11 +13020,11 @@
         },
         {
           "name": "Tao Wang",
-          "authorId": "2403120325",
+          "authorId": "2334694490",
           "slug": null
         },
         {
-          "name": "Tao Xin",
+          "name": "T. Xin",
           "authorId": "2280919891",
           "slug": null
         },
@@ -13217,8 +13104,8 @@
           "slug": null
         },
         {
-          "name": "T. Zhao",
-          "authorId": "2286082482",
+          "name": "Tony Zhao",
+          "authorId": "2483018996",
           "slug": null
         },
         {
@@ -13237,7 +13124,7 @@
           "slug": null
         },
         {
-          "name": "Vineet Kosaraju",
+          "name": "V. Kosaraju",
           "authorId": "13622184",
           "slug": null
         },
@@ -13648,62 +13535,6 @@
       "abstract": "A key challenge in music generation models is their lack of direct alignment with human preferences, as music evaluation is inherently subjective and varies widely across individuals. We introduce MR-FlowDPO, a novel approach that enhances flow-matching-based music generation models - a major class of modern music generative models, using Direct Preference Optimization (DPO) with multiple musical rewards. The rewards are crafted to assess music quality across three key dimensions: text alignment, audio production quality, and semantic consistency, utilizing scalable off-the-shelf models for each reward prediction. We employ these rewards in two ways: (i) By constructing preference data for DPO and (ii) by integrating the rewards into text prompting. To address the ambiguity in musicality evaluation, we propose a novel scoring mechanism leveraging semantic self-supervised representations, which significantly improves the rhythmic stability of generated music. We conduct an extensive evaluation using a variety of music-specific objective metrics as well as a human study. Results show that MR-FlowDPO significantly enhances overall music generation quality and is consistently preferred"
     },
     {
-      "paperId": "4214cfd60b1925f738ac728fa4a5c8feaa489db0",
-      "title": "What matters for Representation Alignment: Global Information or Spatial Structure?",
-      "teamAuthors": [
-        {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Jaskirat Singh",
-          "authorId": "2112713578",
-          "slug": null
-        },
-        {
-          "name": "Xingjian Leng",
-          "authorId": "2257003916",
-          "slug": null
-        },
-        {
-          "name": "Zongze Wu",
-          "authorId": "34815981",
-          "slug": null
-        },
-        {
-          "name": "Liang Zheng",
-          "authorId": "2256947210",
-          "slug": null
-        },
-        {
-          "name": "Richard Zhang",
-          "authorId": "2268806125",
-          "slug": null
-        },
-        {
-          "name": "Eli Shechtman",
-          "authorId": "2268760396",
-          "slug": null
-        },
-        {
-          "name": "Saining Xie",
-          "authorId": "2325817465",
-          "slug": "saining-xie"
-        }
-      ],
-      "memberSlug": "saining-xie",
-      "memberName": "Saining Xie",
-      "publicationDate": "2025-12-11",
-      "year": 2025,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2512.10794",
-      "citationCount": 66,
-      "tldr": "Surprisingly, the simple method, termed iREPA, consistently improves convergence speed of REPA, across a diverse set of vision encoders, model sizes, and training variants (such as REPA, REPA-E, Meanflow, JiT etc).",
-      "abstract": "Representation alignment (REPA) guides generative training by distilling representations from a strong, pretrained vision encoder to intermediate diffusion features. We investigate a fundamental question: what aspect of the target representation matters for generation, its \\textit{global} \\revision{semantic} information (e.g., measured by ImageNet-1K accuracy) or its spatial structure (i.e. pairwise cosine similarity between patch tokens)? Prevalent wisdom holds that stronger global semantic performance leads to better generation as a target representation. To study this, we first perform a large-scale empirical analysis across 27 different vision encoders and different model scales. The results are surprising; spatial structure, rather than global performance, drives the generation performance of a target representation. To further study this, we introduce two straightforward modifications, which specifically accentuate the transfer of \\emph{spatial} information. We replace the standard MLP projection layer in REPA with a simple convolution layer and introduce a spatial normalization layer for the external representation. Surprisingly, our simple method (implemented in $<$4 lines "
-    },
-    {
       "paperId": "6e82aaa7a4fb2e062a2b41d447a4bf82ab08dc52",
       "title": "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language",
       "teamAuthors": [
@@ -14048,8 +13879,8 @@
           "slug": "ayaan-naveed-malik"
         },
         {
-          "name": "Dr Rizwana Gul",
-          "authorId": "2401610737",
+          "name": "Rizwana Gul",
+          "authorId": "2198243396",
           "slug": null
         },
         {
@@ -14405,7 +14236,7 @@
           "slug": null
         },
         {
-          "name": "Zi-Yan Liu",
+          "name": "Zichen Liu",
           "authorId": "2117943295",
           "slug": null
         },
@@ -14496,7 +14327,7 @@
       ],
       "authors": [
         {
-          "name": "Yutian Zhao",
+          "name": "Yu-Tian Zhao",
           "authorId": "2256024437",
           "slug": null
         },
@@ -14542,7 +14373,7 @@
       ],
       "authors": [
         {
-          "name": "Junyang Zhang",
+          "name": "Jun-Yang Zhang",
           "authorId": "2365260167",
           "slug": null
         },
@@ -14552,7 +14383,7 @@
           "slug": null
         },
         {
-          "name": "Yonghao Zou",
+          "name": "Yong-Hao Zou",
           "authorId": "2324710202",
           "slug": null
         },
@@ -14632,7 +14463,7 @@
           "slug": null
         },
         {
-          "name": "Diyu Zhou",
+          "name": "Di-Yu Zhou",
           "authorId": "2311633767",
           "slug": null
         }
@@ -14769,7 +14600,7 @@
           "slug": null
         },
         {
-          "name": "Zi-Yan Liu",
+          "name": "Zichen Liu",
           "authorId": "2117943295",
           "slug": null
         },
@@ -14834,7 +14665,7 @@
           "slug": null
         },
         {
-          "name": "Zi-Yan Liu",
+          "name": "Zichen Liu",
           "authorId": "2117943295",
           "slug": null
         },
@@ -15043,7 +14874,7 @@
           "slug": null
         },
         {
-          "name": "Hongli Xu",
+          "name": "Hong-Li Xu",
           "authorId": "2359879147",
           "slug": null
         },
@@ -15058,7 +14889,7 @@
           "slug": null
         },
         {
-          "name": "Liusheng Huang",
+          "name": "Liu-Sheng Huang",
           "authorId": "2316094384",
           "slug": null
         }
@@ -15084,7 +14915,7 @@
       ],
       "authors": [
         {
-          "name": "Yuda Song",
+          "name": "Yu-Da Song",
           "authorId": "2346053434",
           "slug": null
         },
@@ -15105,7 +14936,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2509.06941",
-      "citationCount": 82,
+      "citationCount": 83,
       "tldr": "This study highlights two central findings: a transfer of diversity degradation, where reduced diversity on solved problems propagates to unsolved ones, and the tractability of the outcome space, since reasoning tasks admit only a limited set of distinct answers.",
       "abstract": "Reinforcement learning (RL) has emerged as a powerful method for improving the reasoning abilities of large language models (LLMs). Outcome-based RL, which rewards policies solely for the correctness of the final answer, yields substantial accuracy gains but also induces a systematic loss in generation diversity. This collapse undermines real-world performance, where diversity is critical for test-time scaling. We analyze this phenomenon by viewing RL post-training as a sampling process and show that, strikingly, RL can reduce effective diversity even on the training set relative to the base model. Our study highlights two central findings: (i) a transfer of diversity degradation, where reduced diversity on solved problems propagates to unsolved ones, and (ii) the tractability of the outcome space, since reasoning tasks admit only a limited set of distinct answers. Motivated by these insights, we propose outcome-based exploration, which assigns exploration bonuses according to final outcomes. We introduce two complementary algorithms: historical exploration, which encourages rarely observed answers via UCB-style bonuses, and batch exploration, which penalizes within-batch repetitio"
     },
@@ -15130,12 +14961,12 @@
           "slug": null
         },
         {
-          "name": "Hongli Xu",
+          "name": "Hong-Li Xu",
           "authorId": "2359879147",
           "slug": null
         },
         {
-          "name": "Liusheng Huang",
+          "name": "Liu-Sheng Huang",
           "authorId": "2316094384",
           "slug": null
         }
@@ -15780,7 +15611,7 @@
           "slug": null
         },
         {
-          "name": "Yaohui Li",
+          "name": "Yao-Hui Li",
           "authorId": "2374330170",
           "slug": null
         },
@@ -15795,7 +15626,7 @@
           "slug": null
         },
         {
-          "name": "Yaohui Li",
+          "name": "Yao-Hui Li",
           "authorId": "2374330170",
           "slug": null
         },
@@ -15950,8 +15781,8 @@
           "slug": null
         },
         {
-          "name": "Z. Ren",
-          "authorId": "2278430558",
+          "name": "Zehui Ren",
+          "authorId": "2484207935",
           "slug": null
         },
         {
@@ -16045,8 +15876,8 @@
           "slug": null
         },
         {
-          "name": "Zilin Liu",
-          "authorId": "2342433888",
+          "name": "Zi-Li Liu",
+          "authorId": "2479382569",
           "slug": null
         },
         {
@@ -16670,7 +16501,7 @@
           "slug": null
         },
         {
-          "name": "Keqian Li",
+          "name": "Ke Li",
           "authorId": "2313920868",
           "slug": null
         },
@@ -17365,7 +17196,7 @@
           "slug": null
         },
         {
-          "name": "Apara-jita Saraf",
+          "name": "Aparajita Saraf",
           "authorId": "2335573717",
           "slug": null
         },
@@ -17926,8 +17757,8 @@
           "slug": null
         },
         {
-          "name": "Jieneng Chen",
-          "authorId": "2331406019",
+          "name": "Jie-Neng Chen",
+          "authorId": "2482143449",
           "slug": null
         },
         {
@@ -18038,8 +17869,8 @@
           "slug": null
         },
         {
-          "name": "L. Zhou",
-          "authorId": "2372317096",
+          "name": "Li Zhou",
+          "authorId": "2302284366",
           "slug": null
         },
         {
@@ -18053,8 +17884,8 @@
           "slug": "li-jing"
         },
         {
-          "name": "Jingsong Lan",
-          "authorId": "2322098698",
+          "name": "Jinsong Lan",
+          "authorId": "2269146046",
           "slug": null
         },
         {
@@ -18254,7 +18085,7 @@
         },
         {
           "name": "Ya Xu",
-          "authorId": "2177018597",
+          "authorId": "2492565193",
           "slug": null
         },
         {
@@ -18298,8 +18129,8 @@
           "slug": null
         },
         {
-          "name": "Sagar M. Waghmare",
-          "authorId": "2243335607",
+          "name": "Sagar Waghmare",
+          "authorId": "40612048",
           "slug": null
         },
         {
@@ -18493,8 +18324,8 @@
           "slug": null
         },
         {
-          "name": "S. Lokhande",
-          "authorId": "2265975898",
+          "name": "Swachhand Lokhande",
+          "authorId": "2491281374",
           "slug": null
         },
         {
@@ -18743,7 +18574,7 @@
           "slug": null
         },
         {
-          "name": "Guanyu Wang",
+          "name": "Guan-Yu Wang",
           "authorId": "2285787162",
           "slug": null
         },
@@ -19163,7 +18994,7 @@
           "slug": null
         },
         {
-          "name": "Nina D'souza",
+          "name": "Nina D'Souza",
           "authorId": "2373042884",
           "slug": null
         },
@@ -19348,7 +19179,7 @@
           "slug": null
         },
         {
-          "name": "Jay Hartford",
+          "name": "J. Hartford",
           "authorId": "2098504",
           "slug": null
         },
@@ -19599,7 +19430,7 @@
         },
         {
           "name": "Pidong Wang",
-          "authorId": "2164862499",
+          "authorId": "2478730678",
           "slug": null
         },
         {
@@ -19608,8 +19439,8 @@
           "slug": null
         },
         {
-          "name": "Ming Yang",
-          "authorId": "2228360903",
+          "name": "Ming-Hsuan Yang",
+          "authorId": "2484828354",
           "slug": null
         },
         {
@@ -19748,8 +19579,8 @@
           "slug": null
         },
         {
-          "name": "Zheng Yang",
-          "authorId": "2454981467",
+          "name": "Zhen Yang",
+          "authorId": "2313915769",
           "slug": null
         },
         {
@@ -19799,7 +19630,7 @@
         },
         {
           "name": "W. Kan",
-          "authorId": "2372998708",
+          "authorId": "145342517",
           "slug": null
         },
         {
@@ -20073,7 +19904,7 @@
           "slug": null
         },
         {
-          "name": "Sebastian Gerlach",
+          "name": "S. Gerlach",
           "authorId": "12588585",
           "slug": null
         },
@@ -20198,8 +20029,8 @@
           "slug": null
         },
         {
-          "name": "Ilia Akolzin",
-          "authorId": "2373042232",
+          "name": "I. Akol'zin",
+          "authorId": "2085536881",
           "slug": null
         },
         {
@@ -20483,7 +20314,7 @@
           "slug": null
         },
         {
-          "name": "Douglas DeCarlo",
+          "name": "Doug DeCarlo",
           "authorId": "2245226118",
           "slug": null
         },
@@ -20599,7 +20430,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://www.semanticscholar.org/paper/39d9c3f1cd4bd5069713e50dc7301570575fc055",
-      "citationCount": 4051,
+      "citationCount": 4054,
       "tldr": "The Gemini 2.X model generation spans the full Pareto frontier of model capability vs cost, allowing users to explore the boundaries of what is possible with complex agentic problem solving.",
       "abstract": "In this report, we introduce the Gemini 2.X model family: Gemini 2.5 Pro and Gemini 2.5 Flash, as well as our earlier Gemini 2.0 Flash and Flash-Lite models. Gemini 2.5 Pro is our most capable model yet, achieving SoTA performance on frontier coding and reasoning benchmarks. In addition to its incredible coding and reasoning skills, Gemini 2.5 Pro is a thinking model that excels at multimodal understanding and it is now able to process up to 3 hours of video content. Its unique combination of long context, multimodal and reasoning capabilities can be combined to unlock new agentic workflows. Gemini 2.5 Flash provides excellent reasoning abilities at a fraction of the compute and latency requirements and Gemini 2.0 Flash and Flash-Lite provide high performance at low latency and cost. Taken together, the Gemini 2.X model generation spans the full Pareto frontier of model capability vs cost, allowing users to explore the boundaries of what is possible with complex agentic problem solving."
     },
@@ -20706,62 +20537,6 @@
       "abstract": null
     },
     {
-      "paperId": "853e540102e92f8150e14be5f7daf943f0a88194",
-      "title": "When Precision Meets Position: BFloat16 Breaks Down RoPE in Long-Context Training",
-      "teamAuthors": [
-        {
-          "slug": "chao-du",
-          "name": "Chao Du"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Haonan Wang",
-          "authorId": "2346019960",
-          "slug": null
-        },
-        {
-          "name": "Qian Liu",
-          "authorId": "2284062049",
-          "slug": null
-        },
-        {
-          "name": "Chao Du",
-          "authorId": "2325201427",
-          "slug": "chao-du"
-        },
-        {
-          "name": "Tongyao Zhu",
-          "authorId": "2291015783",
-          "slug": null
-        },
-        {
-          "name": "Cunxiao Du",
-          "authorId": "2325980280",
-          "slug": null
-        },
-        {
-          "name": "Kenji Kawaguchi",
-          "authorId": "2286306688",
-          "slug": null
-        },
-        {
-          "name": "Tianyu Pang",
-          "authorId": "2348451895",
-          "slug": null
-        }
-      ],
-      "memberSlug": "chao-du",
-      "memberName": "Chao Du",
-      "publicationDate": null,
-      "year": 2025,
-      "venue": "Trans. Mach. Learn. Res.",
-      "url": "https://www.semanticscholar.org/paper/853e540102e92f8150e14be5f7daf943f0a88194",
-      "citationCount": 2,
-      "tldr": null,
-      "abstract": null
-    },
-    {
       "paperId": "235d09c83de3b9e36a5aba57e99e604e4336770a",
       "title": "Top-n𝜎: Eliminating Noise in Logit Space for Robust Token Sampling of LLM",
       "teamAuthors": [
@@ -20782,12 +20557,12 @@
           "slug": null
         },
         {
-          "name": "Hongli Xu",
+          "name": "Hong-Li Xu",
           "authorId": "2359879147",
           "slug": null
         },
         {
-          "name": "Liusheng Huang",
+          "name": "Liu-Sheng Huang",
           "authorId": "2316094384",
           "slug": null
         }
@@ -20823,12 +20598,12 @@
           "slug": null
         },
         {
-          "name": "Hongli Xu",
+          "name": "Hong-Li Xu",
           "authorId": "2359879147",
           "slug": null
         },
         {
-          "name": "Liusheng Huang",
+          "name": "Liu-Sheng Huang",
           "authorId": "2316094384",
           "slug": null
         }
@@ -21040,7 +20815,7 @@
           "slug": null
         },
         {
-          "name": "Ali Kamali",
+          "name": "A. Kamali",
           "authorId": "2275169038",
           "slug": null
         },
@@ -21650,7 +21425,7 @@
           "slug": null
         },
         {
-          "name": "O. Pinto",
+          "name": "Oliveira Pinto",
           "authorId": "2286067275",
           "slug": null
         },
@@ -21810,7 +21585,7 @@
           "slug": null
         },
         {
-          "name": "Larry Kai",
+          "name": "L. Kai",
           "authorId": "2328089844",
           "slug": null
         },
@@ -22736,7 +22511,7 @@
         },
         {
           "name": "Yu Cheng",
-          "authorId": "2359132429",
+          "authorId": "2393447612",
           "slug": null
         },
         {
@@ -23181,7 +22956,7 @@
           "slug": null
         },
         {
-          "name": "O. Pinto",
+          "name": "Oliveira Pinto",
           "authorId": "2286067275",
           "slug": null
         },
@@ -23312,7 +23087,7 @@
         },
         {
           "name": "Jason Phang",
-          "authorId": "2351462808",
+          "authorId": "80842917",
           "slug": null
         },
         {
@@ -23357,7 +23132,7 @@
         },
         {
           "name": "Ji Lin",
-          "authorId": "2328261167",
+          "authorId": "2110385919",
           "slug": null
         },
         {
@@ -23571,7 +23346,7 @@
           "slug": null
         },
         {
-          "name": "Larry Kai",
+          "name": "L. Kai",
           "authorId": "2328089844",
           "slug": null
         },
@@ -24837,7 +24612,7 @@
           "slug": null
         },
         {
-          "name": "Keqian Li",
+          "name": "Ke Li",
           "authorId": "2313920868",
           "slug": null
         },
@@ -25207,7 +24982,7 @@
           "slug": null
         },
         {
-          "name": "Ali Kamali",
+          "name": "A. Kamali",
           "authorId": "2275169038",
           "slug": null
         },
@@ -25817,7 +25592,7 @@
           "slug": null
         },
         {
-          "name": "O. Pinto",
+          "name": "Oliveira Pinto",
           "authorId": "2286067275",
           "slug": null
         },
@@ -25948,7 +25723,7 @@
         },
         {
           "name": "Jason Phang",
-          "authorId": "2351462808",
+          "authorId": "80842917",
           "slug": null
         },
         {
@@ -26072,7 +25847,7 @@
           "slug": null
         },
         {
-          "name": "Larry Kai",
+          "name": "L. Kai",
           "authorId": "2328089844",
           "slug": null
         },
@@ -26889,57 +26664,6 @@
       "abstract": "\n Afin de construire des systèmes d'intelligence artificielle puissants, les chercheurs se sont inspirés de systèmes intelligents existants, à savoir les humains et les animaux. Cela peut être fait architecturalement ou en essayant de reproduire certaines capacités. Par exemple, les humains peuvent s'adapter à de nouvelles tâches rapidement ou apprendre sans supervision. Cependant, les systèmes d'apprentissage profond échouent souvent de manière spectaculaire dans des tâches qui sont faciles pour les humains, comme illustré par le paradoxe de Moravec. Au cours des dernières années, le domaine de l'apprentissage auto-supervisé a fait des progrès dans l'apprentissage de systèmes d'IA capables d'apprendre à partir d'observations seules et de s'adapter à de nouvelles tâches, deux propriétés très souhaitables. Cela est réalisé en apprenant un espace de représentation abstrait le plus sémantique possible. Cependant, la plupart des progrès ont été faits avec des architectures siamoises pour apprendre des représentations d'images invariantes à un ensemble de transformations. Cette thèse vise à étudier trois aspects de l'apprentissage auto-supervisé. Dans une première partie, nous étudions "
     },
     {
-      "paperId": "a59bd4c20088d57ea27eb51f860996fa58caf2a3",
-      "title": "DiffusionGuard: A Robust Defense Against Malicious Diffusion-based Image Editing",
-      "teamAuthors": [
-        {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
-        }
-      ],
-      "authors": [
-        {
-          "name": "June Suk Choi",
-          "authorId": "2160075234",
-          "slug": null
-        },
-        {
-          "name": "Kyungmin Lee",
-          "authorId": "2273317578",
-          "slug": null
-        },
-        {
-          "name": "Jongheon Jeong",
-          "authorId": "83125078",
-          "slug": null
-        },
-        {
-          "name": "Saining Xie",
-          "authorId": "2325817465",
-          "slug": "saining-xie"
-        },
-        {
-          "name": "Jinwoo Shin",
-          "authorId": "2273036795",
-          "slug": null
-        },
-        {
-          "name": "Kimin Lee",
-          "authorId": "2295928448",
-          "slug": null
-        }
-      ],
-      "memberSlug": "saining-xie",
-      "memberName": "Saining Xie",
-      "publicationDate": null,
-      "year": 2025,
-      "venue": "International Conference on Learning Representations",
-      "url": "https://doi.org/10.48550/arXiv.2410.05694",
-      "citationCount": 36,
-      "tldr": "This work proposes DiffusionGuard, a robust and effective defense method against unauthorized edits by diffusion-based image editing models, even in challenging setups, and introduces a novel objective that generates adversarial noise targeting the early stage of the diffusion process.",
-      "abstract": null
-    },
-    {
       "paperId": "751ef04264d661f6a59e49f3fbd181ac46ef5eed",
       "title": "Asteria: Semantic-Aware Cross-Region Caching for Agentic LLM Tool Access",
       "teamAuthors": [
@@ -27344,7 +27068,7 @@
         },
         {
           "name": "Yun-Nung Chen",
-          "authorId": "2289944267",
+          "authorId": "2479244887",
           "slug": null
         },
         {
@@ -27353,8 +27077,8 @@
           "slug": null
         },
         {
-          "name": "Garcia Contr-eras",
-          "authorId": "2359277482",
+          "name": "Garcia R. Contreras",
+          "authorId": "2411191315",
           "slug": null
         },
         {
@@ -27403,7 +27127,7 @@
           "slug": null
         },
         {
-          "name": "A. Köpf",
+          "name": "Andreas Köpf",
           "authorId": "1473151134",
           "slug": null
         },
@@ -27978,7 +27702,7 @@
           "slug": null
         },
         {
-          "name": "Keqian Li",
+          "name": "Ke Li",
           "authorId": "2313920868",
           "slug": null
         },
@@ -28538,7 +28262,7 @@
           "slug": null
         },
         {
-          "name": "Ali Kamali",
+          "name": "A. Kamali",
           "authorId": "2275169038",
           "slug": null
         },
@@ -29148,7 +28872,7 @@
           "slug": null
         },
         {
-          "name": "O. Pinto",
+          "name": "Oliveira Pinto",
           "authorId": "2286067275",
           "slug": null
         },
@@ -29308,7 +29032,7 @@
           "slug": null
         },
         {
-          "name": "Larry Kai",
+          "name": "L. Kai",
           "authorId": "2328089844",
           "slug": null
         },
@@ -30043,7 +29767,7 @@
           "slug": null
         },
         {
-          "name": "P. Montr'eal",
+          "name": "Polytechnique Montr'eal",
           "authorId": "2102129911",
           "slug": null
         }
@@ -30054,7 +29778,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 679,
+      "citationCount": 683,
       "tldr": "This work demonstrates how self-supervised learning from web-scale data and a small amount of robot interaction data can yield a world model capable of planning in the physical world.",
       "abstract": "A major challenge for modern AI is to learn to understand the world and learn to act largely by observation. This paper explores a self-supervised approach that combines internet-scale video data with a small amount of interaction data (robot trajectories), to develop models capable of understanding, predicting, and planning in the physical world. We first pre-train an action-free joint-embedding-predictive architecture, V-JEPA 2, on a video and image dataset comprising over 1 million hours of internet video. V-JEPA 2 achieves strong performance on motion understanding (77.3 top-1 accuracy on Something-Something v2) and state-of-the-art performance on human action anticipation (39.7 recall-at-5 on Epic-Kitchens-100) surpassing previous task-specific models. Additionally, after aligning V-JEPA 2 with a large language model, we demonstrate state-of-the-art performance on multiple video question-answering tasks at the 8 billion parameter scale (e.g., 84.0 on PerceptionTest, 76.9 on TempCompass). Finally, we show how self-supervised learning can be applied to robotic planning tasks by post-training a latent action-conditioned world model, V-JEPA 2-AC, using less than 62 hours of unlabe"
     },
@@ -30724,7 +30448,7 @@
           "slug": null
         },
         {
-          "name": "Keqian Li",
+          "name": "Ke Li",
           "authorId": "2313920868",
           "slug": null
         },
@@ -31464,7 +31188,7 @@
           "slug": null
         },
         {
-          "name": "Apara-jita Saraf",
+          "name": "Aparajita Saraf",
           "authorId": "2335573717",
           "slug": null
         },
@@ -31924,7 +31648,7 @@
           "slug": null
         },
         {
-          "name": "Jingyi Yang",
+          "name": "Jing-Yi Yang",
           "authorId": "2314170063",
           "slug": null
         },
@@ -32164,7 +31888,7 @@
           "slug": null
         },
         {
-          "name": "Mike Wang",
+          "name": "M. Wang",
           "authorId": "2314078208",
           "slug": null
         },
@@ -32609,8 +32333,8 @@
           "slug": null
         },
         {
-          "name": "Tianjun Li",
-          "authorId": "2335657854",
+          "name": "Tian-jun Li",
+          "authorId": "2491540813",
           "slug": null
         },
         {
@@ -32760,7 +32484,7 @@
           "slug": null
         },
         {
-          "name": "Przemysław A Pękala",
+          "name": "Przemysław A. Pękala",
           "authorId": "2290047392",
           "slug": null
         }
@@ -32922,7 +32646,7 @@
         },
         {
           "name": "Fan Liu",
-          "authorId": "2303303690",
+          "authorId": "2482092547",
           "slug": null
         },
         {
@@ -33036,7 +32760,7 @@
           "slug": null
         },
         {
-          "name": "S. Gunasekar",
+          "name": "Suriya Gunasekar",
           "authorId": "2281352409",
           "slug": null
         },
@@ -33216,7 +32940,7 @@
           "slug": null
         },
         {
-          "name": "F. Tramèr",
+          "name": "Florian Tramèr",
           "authorId": "2267733649",
           "slug": null
         },
@@ -33261,7 +32985,7 @@
           "slug": null
         },
         {
-          "name": "Lev E McKinney",
+          "name": "Lev McKinney",
           "authorId": "2344759596",
           "slug": null
         },
@@ -33472,7 +33196,7 @@
         },
         {
           "name": "Guanting Chen",
-          "authorId": "2278589675",
+          "authorId": "2478630732",
           "slug": null
         },
         {
@@ -33546,7 +33270,7 @@
           "slug": null
         },
         {
-          "name": "Junjie Qiu",
+          "name": "Jun-Jie Qiu",
           "authorId": "2278355944",
           "slug": null
         },
@@ -33621,7 +33345,7 @@
           "slug": null
         },
         {
-          "name": "Litong Wang",
+          "name": "Li-Tong Wang",
           "authorId": "15068726",
           "slug": null
         },
@@ -33676,8 +33400,8 @@
           "slug": null
         },
         {
-          "name": "Panpan Huang",
-          "authorId": "2278251752",
+          "name": "Pan-Pan Huang",
+          "authorId": "2485004212",
           "slug": null
         },
         {
@@ -33741,7 +33465,7 @@
           "slug": null
         },
         {
-          "name": "Shangyan Zhou",
+          "name": "Shang-Yan Zhou",
           "authorId": "2278397391",
           "slug": null
         },
@@ -33892,7 +33616,7 @@
         },
         {
           "name": "Xingchao Liu",
-          "authorId": "2326998908",
+          "authorId": "46521757",
           "slug": null
         },
         {
@@ -33921,7 +33645,7 @@
           "slug": null
         },
         {
-          "name": "Xi-Cheng Shen",
+          "name": "Xiaojin Shen",
           "authorId": "2262432943",
           "slug": null
         },
@@ -34001,7 +33725,7 @@
           "slug": null
         },
         {
-          "name": "Yaohui Wang",
+          "name": "Yao-Hui Wang",
           "authorId": "2278432120",
           "slug": null
         },
@@ -34117,7 +33841,7 @@
         },
         {
           "name": "Yanping Huang",
-          "authorId": "2349831834",
+          "authorId": "2145438541",
           "slug": null
         },
         {
@@ -34141,7 +33865,7 @@
           "slug": null
         },
         {
-          "name": "Y. Zha",
+          "name": "Yukun Zha",
           "authorId": "2337687962",
           "slug": null
         },
@@ -34177,7 +33901,7 @@
         },
         {
           "name": "Zhengyan Zhang",
-          "authorId": "2346149696",
+          "authorId": "2485088783",
           "slug": null
         },
         {
@@ -34926,7 +34650,7 @@
           "slug": null
         },
         {
-          "name": "Keqian Li",
+          "name": "Ke Li",
           "authorId": "2313920868",
           "slug": null
         },
@@ -35501,7 +35225,7 @@
           "slug": null
         },
         {
-          "name": "Zi-Yan Liu",
+          "name": "Zichen Liu",
           "authorId": "2117943295",
           "slug": null
         },
@@ -35592,7 +35316,7 @@
           "slug": null
         },
         {
-          "name": "Xingguang Ji",
+          "name": "Xing-Guang Ji",
           "authorId": "2354288655",
           "slug": null
         },
@@ -35727,7 +35451,7 @@
           "slug": null
         },
         {
-          "name": "Marcella Cornia",
+          "name": "M. Cornia",
           "authorId": "3468983",
           "slug": null
         },
@@ -35908,7 +35632,7 @@
         },
         {
           "name": "Ji Lin",
-          "authorId": "2293042015",
+          "authorId": "2110385919",
           "slug": null
         },
         {
@@ -35918,7 +35642,7 @@
         },
         {
           "name": "Wei Ping",
-          "authorId": "2280710087",
+          "authorId": "2075423925",
           "slug": null
         },
         {
@@ -36039,7 +35763,7 @@
         },
         {
           "name": "Fan Liu",
-          "authorId": "2303303690",
+          "authorId": "2482092547",
           "slug": null
         },
         {
@@ -36363,7 +36087,7 @@
           "slug": null
         },
         {
-          "name": "Xiaokui Xiao",
+          "name": "Xiao-Kui Xiao",
           "authorId": "2294851756",
           "slug": null
         },
@@ -36408,7 +36132,7 @@
           "slug": null
         },
         {
-          "name": "Zi-Yan Liu",
+          "name": "Zichen Liu",
           "authorId": "2117943295",
           "slug": null
         },
@@ -36468,7 +36192,7 @@
           "slug": null
         },
         {
-          "name": "Yufei He",
+          "name": "Yu-Fei He",
           "authorId": "2285087612",
           "slug": null
         },
@@ -36736,57 +36460,6 @@
       "abstract": "We introduce Perception Encoder (PE), a state-of-the-art vision encoder for image and video understanding trained via simple vision-language learning. Traditionally, vision encoders have relied on a variety of pretraining objectives, each tailored to specific downstream tasks such as classification, captioning, or localization. Surprisingly, after scaling our carefully tuned image pretraining recipe and refining with our robust video data engine, we find that contrastive vision-language training alone can produce strong, general embeddings for all of these downstream tasks. There is only one caveat: these embeddings are hidden within the intermediate layers of the network. To draw them out, we introduce two alignment methods: language alignment for multimodal language modeling, and spatial alignment for dense prediction. Together, our PE family of models achieves best-in-class results on a wide variety of tasks, including (1) zero-shot image and video classification and retrieval, simultaneously obtaining 86.6 average zero-shot ImageNet robustness and 76.9 zero-shot Kinetics-400 video classification; (2) document, image, and video Q&A, enabling 94.6 DocVQA, 80.9 InfographicVQA, and"
     },
     {
-      "paperId": "27a028c9ad4145d52d5e00619a7672ca0429aac2",
-      "title": "REPA-E: Unlocking VAE for End-to-End Tuning with Latent Diffusion Transformers",
-      "teamAuthors": [
-        {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Xingjian Leng",
-          "authorId": "2257003916",
-          "slug": null
-        },
-        {
-          "name": "Jaskirat Singh",
-          "authorId": "2112713578",
-          "slug": null
-        },
-        {
-          "name": "Yunzhong Hou",
-          "authorId": "80447592",
-          "slug": null
-        },
-        {
-          "name": "Zhenchang Xing",
-          "authorId": "2341050566",
-          "slug": null
-        },
-        {
-          "name": "Saining Xie",
-          "authorId": "2325817465",
-          "slug": "saining-xie"
-        },
-        {
-          "name": "Liang Zheng",
-          "authorId": "2335549477",
-          "slug": null
-        }
-      ],
-      "memberSlug": "saining-xie",
-      "memberName": "Saining Xie",
-      "publicationDate": "2025-04-14",
-      "year": 2025,
-      "venue": "IEEE International Conference on Computer Vision",
-      "url": "https://doi.org/10.1109/ICCV51701.2025.01697",
-      "citationCount": 201,
-      "tldr": "It is shown that while diffusion loss is ineffective, end-to-end training can be unlocked through the representation-alignment (REPA) loss - allowing both VAE and diffusion model to be jointly tuned during the training process.",
-      "abstract": "In this paper we tackle a fundamental question:“Can we train latent diffusion models together with the variational auto-encoder (VAE) tokenizer in an end-to-end manner?”Traditional deep-learning wisdom dictates that end-to-end training is often preferable when possible. However, for latent diffusion transformers, it is observed that end-toend training both VAE and diffusion-model using standard diffusion-loss is ineffective, even causing a degradation in final performance. We show that while diffusion loss is ineffective, end-to-end training can be unlocked through the representation-alignment (REPA) loss - allowing both VAE and diffusion model to be jointly tuned during the training process. Despite its simplicity, the proposed training recipe (REPA-E) shows remarkable performance; speeding up diffusion model training by over $17 \\times$ and $45 \\times$ over REPA and vanilla training recipes, respectively. Interestingly, we observe that end-to-end tuning with REPA-E also improves the VAE itself; leading to improved latent space structure and downstream generation performance. In terms of final performance, our approach sets a new state-of-the-art; achieving FID of 1.26 and 1.83 wi"
-    },
-    {
       "paperId": "c490787518185bf04a2f76dd9d7fa4b35bbfd5ff",
       "title": "Tapnext: Tracking Any Point (Tap) as Next Token Prediction",
       "teamAuthors": [
@@ -36876,6 +36549,10 @@
         {
           "slug": "amir-bar",
           "name": "Amir Bar"
+        },
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
         }
       ],
       "authors": [
@@ -36930,9 +36607,9 @@
           "slug": "amir-bar"
         },
         {
-          "name": "Sai-Ning Xie",
-          "authorId": "2275940976",
-          "slug": null
+          "name": "Saining Xie",
+          "authorId": "2282918539",
+          "slug": "saining-xie"
         }
       ],
       "memberSlug": "amir-bar",
@@ -36960,7 +36637,7 @@
       ],
       "authors": [
         {
-          "name": "Zi-Yan Liu",
+          "name": "Zichen Liu",
           "authorId": "2117943295",
           "slug": null
         },
@@ -37006,7 +36683,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2503.20783",
-      "citationCount": 1309,
+      "citationCount": 1311,
       "tldr": "This work critically examine R1-Zero-like training by analyzing its two core components: base models and RL, and introduces Dr. GRPO, an unbiased optimization method that improves token efficiency while maintaining reasoning performance.",
       "abstract": "DeepSeek-R1-Zero has shown that reinforcement learning (RL) at scale can directly enhance the reasoning capabilities of LLMs without supervised fine-tuning. In this work, we critically examine R1-Zero-like training by analyzing its two core components: base models and RL. We investigate a wide range of base models, including DeepSeek-V3-Base, to understand how pretraining characteristics influence RL performance. Our analysis reveals that DeepSeek-V3-Base already exhibit''Aha moment'', while Qwen2.5 base models demonstrate strong reasoning capabilities even without prompt templates, suggesting potential pretraining biases. Additionally, we identify an optimization bias in Group Relative Policy Optimization (GRPO), which artificially increases response length (especially for incorrect outputs) during training. To address this, we introduce Dr. GRPO, an unbiased optimization method that improves token efficiency while maintaining reasoning performance. Leveraging these insights, we present a minimalist R1-Zero recipe that achieves 43.3% accuracy on AIME 2024 with a 7B base model, establishing a new state-of-the-art. Our code is available at https://github.com/sail-sg/understand-r1-ze"
     },
@@ -37183,7 +36860,7 @@
           "slug": null
         },
         {
-          "name": "Cunxiao Du",
+          "name": "Cun-Xiao Du",
           "authorId": "2325980280",
           "slug": null
         },
@@ -37332,17 +37009,17 @@
           "slug": null
         },
         {
-          "name": "Zi-Yan Liu",
+          "name": "Zichen Liu",
           "authorId": "2117943295",
           "slug": null
         },
         {
-          "name": "Tongyao Zhu",
+          "name": "Tong-Yao Zhu",
           "authorId": "2291015783",
           "slug": null
         },
         {
-          "name": "Cunxiao Du",
+          "name": "Cun-Xiao Du",
           "authorId": "2325980280",
           "slug": null
         },
@@ -37362,7 +37039,7 @@
           "slug": null
         },
         {
-          "name": "Yongchi Zhao",
+          "name": "Yong-Chi Zhao",
           "authorId": "2345960330",
           "slug": null
         },
@@ -37377,7 +37054,7 @@
           "slug": null
         },
         {
-          "name": "Man Tsung Yeung",
+          "name": "M. Yeung",
           "authorId": "2330080868",
           "slug": null
         },
@@ -37392,8 +37069,8 @@
           "slug": null
         },
         {
-          "name": "M. Thu",
-          "authorId": "2425977681",
+          "name": "Minh Thư",
+          "authorId": "2147100380",
           "slug": null
         },
         {
@@ -37438,7 +37115,7 @@
         },
         {
           "name": "Anh Dao",
-          "authorId": "2345925754",
+          "authorId": "2295671925",
           "slug": null
         },
         {
@@ -37617,7 +37294,7 @@
         },
         {
           "name": "J. Böhm",
-          "authorId": "2170081114",
+          "authorId": "2485796548",
           "slug": null
         },
         {
@@ -37789,7 +37466,7 @@
       "authors": [
         {
           "name": "Rui Min",
-          "authorId": "2292024956",
+          "authorId": "2380605195",
           "slug": null
         },
         {
@@ -38009,7 +37686,7 @@
           "slug": null
         },
         {
-          "name": "T. Dietterich",
+          "name": "Thomas G. Dietterich",
           "authorId": "2286610627",
           "slug": null
         },
@@ -38419,7 +38096,7 @@
           "slug": null
         },
         {
-          "name": "Penghao Wu",
+          "name": "Peng-Hao Wu",
           "authorId": "2342516482",
           "slug": null
         },
@@ -38501,57 +38178,6 @@
       "year": 2025,
       "venue": "IET Conference Proceedings",
       "url": "https://doi.org/10.1049/icp.2024.3519",
-      "citationCount": 0,
-      "tldr": null,
-      "abstract": null
-    },
-    {
-      "paperId": "9fbc7f2053763bdbaabf04a8ccd463123931ed11",
-      "title": "A novel stability analysis method of the clamping connection structure",
-      "teamAuthors": [
-        {
-          "slug": "li-jing",
-          "name": "Li Jing"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Jialin Hu",
-          "authorId": "2397291504",
-          "slug": null
-        },
-        {
-          "name": "Wang Wen",
-          "authorId": "2070076902",
-          "slug": null
-        },
-        {
-          "name": "Huang Wei",
-          "authorId": "2381790765",
-          "slug": null
-        },
-        {
-          "name": "Zhang Na",
-          "authorId": "2337832593",
-          "slug": null
-        },
-        {
-          "name": "Li Jing",
-          "authorId": "2260978400",
-          "slug": "li-jing"
-        },
-        {
-          "name": "Jing-Yang Chen",
-          "authorId": "2306340526",
-          "slug": null
-        }
-      ],
-      "memberSlug": "li-jing",
-      "memberName": "Li Jing",
-      "publicationDate": "2024-12-28",
-      "year": 2024,
-      "venue": "International Journal of Structural Stability and Dynamics",
-      "url": "https://doi.org/10.1142/s0219455426501312",
       "citationCount": 0,
       "tldr": null,
       "abstract": null
@@ -38716,7 +38342,7 @@
         },
         {
           "name": "Chuhan Zhang",
-          "authorId": "2336257961",
+          "authorId": "2111332521",
           "slug": null
         },
         {
@@ -38790,6 +38416,10 @@
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
+        },
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
         }
       ],
       "authors": [
@@ -38834,9 +38464,9 @@
           "slug": "yann-lecun"
         },
         {
-          "name": "Sai-Ning Xie",
-          "authorId": "2275940976",
-          "slug": null
+          "name": "Saining Xie",
+          "authorId": "2282918539",
+          "slug": "saining-xie"
         },
         {
           "name": "Zhuang Liu",
@@ -39180,7 +38810,7 @@
           "slug": "ayaan-naveed-malik"
         },
         {
-          "name": "D. Behera",
+          "name": "D. C. Behera",
           "authorId": "2276275100",
           "slug": null
         }
@@ -39517,8 +39147,8 @@
           "slug": null
         },
         {
-          "name": "Hong-Ze Xu",
-          "authorId": "2155908613",
+          "name": "Hongli Xu",
+          "authorId": "2482887660",
           "slug": null
         },
         {
@@ -39552,7 +39182,7 @@
       ],
       "authors": [
         {
-          "name": "Man Tsung Yeung",
+          "name": "M. Yeung",
           "authorId": "2330080868",
           "slug": null
         },
@@ -39744,7 +39374,7 @@
           "slug": null
         },
         {
-          "name": "T. Dietterich",
+          "name": "Thomas G. Dietterich",
           "authorId": "2286610627",
           "slug": null
         },
@@ -40264,7 +39894,7 @@
           "slug": null
         },
         {
-          "name": "Ali Kamali",
+          "name": "A. Kamali",
           "authorId": "2275169038",
           "slug": null
         },
@@ -41000,7 +40630,7 @@
         },
         {
           "name": "Jason Phang",
-          "authorId": "2241609611",
+          "authorId": "80842917",
           "slug": null
         },
         {
@@ -41045,7 +40675,7 @@
         },
         {
           "name": "Ji Lin",
-          "authorId": "2328261167",
+          "authorId": "2110385919",
           "slug": null
         },
         {
@@ -41264,7 +40894,7 @@
           "slug": null
         },
         {
-          "name": "Larry Kai",
+          "name": "L. Kai",
           "authorId": "2328089844",
           "slug": null
         },
@@ -41959,7 +41589,7 @@
           "slug": null
         },
         {
-          "name": "Shirong Wu",
+          "name": "Shi-Rong Wu",
           "authorId": "2373840933",
           "slug": null
         },
@@ -42230,7 +41860,7 @@
       "year": 2024,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/7943ec4a67151a559b25cd34369e661c9a7924c8",
-      "citationCount": 4903,
+      "citationCount": 4907,
       "tldr": "This System Card provides a detailed look at GPT-4o's capabilities, limitations, and safety evaluations across multiple categories, focusing on speech-to-speech while also evaluating text and image capabilities, and measures the authors've implemented to ensure the model is safe and aligned.",
       "abstract": "GPT-4o is an autoregressive omni model that accepts as input any combination of text, audio, image, and video, and generates any combination of text, audio, and image outputs. It's trained end-to-end across text, vision, and audio, meaning all inputs and outputs are processed by the same neural network. GPT-4o can respond to audio inputs in as little as 232 milliseconds, with an average of 320 milliseconds, which is similar to human response time in conversation. It matches GPT-4 Turbo performance on text in English and code, with significant improvement on text in non-English languages, while also being much faster and 50\\% cheaper in the API. GPT-4o is especially better at vision and audio understanding compared to existing models. In line with our commitment to building AI safely and consistent with our voluntary commitments to the White House, we are sharing the GPT-4o System Card, which includes our Preparedness Framework evaluations. In this System Card, we provide a detailed look at GPT-4o's capabilities, limitations, and safety evaluations across multiple categories, focusing on speech-to-speech while also evaluating text and image capabilities, and measures we've implement"
     },
@@ -43302,62 +42932,6 @@
       "abstract": "We study the performance of transformers as a function of the number of repetitions of training examples with algorithmically generated datasets. On three problems of mathematics: the greatest common divisor, modular multiplication, and matrix eigenvalues, we show that for a fixed number of training steps, models trained on smaller sets of repeated examples outperform models trained on larger sets of single-use examples. We also demonstrate that two-set training - repeated use of a small random subset of examples, along normal sampling on the rest of the training set - provides for faster learning and better performance. This highlights that the benefits of repetition can outweigh those of data diversity. These datasets and problems provide a controlled setting to shed light on the still poorly understood interplay between generalization and memorization in deep learning."
     },
     {
-      "paperId": "f5ac95fa58815a35622a60f42a5729f518e57cdf",
-      "title": "Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think",
-      "teamAuthors": [
-        {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Sihyun Yu",
-          "authorId": "2052088734",
-          "slug": null
-        },
-        {
-          "name": "Sangkyung Kwak",
-          "authorId": "2214766742",
-          "slug": null
-        },
-        {
-          "name": "Huiwon Jang",
-          "authorId": "2189101272",
-          "slug": null
-        },
-        {
-          "name": "Jongheon Jeong",
-          "authorId": "83125078",
-          "slug": null
-        },
-        {
-          "name": "Jonathan Huang",
-          "authorId": "2325100313",
-          "slug": null
-        },
-        {
-          "name": "Jinwoo Shin",
-          "authorId": "2273036795",
-          "slug": null
-        },
-        {
-          "name": "Saining Xie",
-          "authorId": "2325817465",
-          "slug": "saining-xie"
-        }
-      ],
-      "memberSlug": "saining-xie",
-      "memberName": "Saining Xie",
-      "publicationDate": "2024-10-09",
-      "year": 2024,
-      "venue": "International Conference on Learning Representations",
-      "url": "https://doi.org/10.48550/arXiv.2410.06940",
-      "citationCount": 671,
-      "tldr": "This work argues that one main bottleneck in training large-scale diffusion models for generation lies in effectively learning these representations, and introduces a straightforward regularization called REPresentation Alignment (REPA), which aligns the projections of noisy input hidden states in denoising networks with clean image representations obtained from external, pretrained visual encoders.",
-      "abstract": "Recent studies have shown that the denoising process in (generative) diffusion models can induce meaningful (discriminative) representations inside the model, though the quality of these representations still lags behind those learned through recent self-supervised learning methods. We argue that one main bottleneck in training large-scale diffusion models for generation lies in effectively learning these representations. Moreover, training can be made easier by incorporating high-quality external visual representations, rather than relying solely on the diffusion models to learn them independently. We study this by introducing a straightforward regularization called REPresentation Alignment (REPA), which aligns the projections of noisy input hidden states in denoising networks with clean image representations obtained from external, pretrained visual encoders. The results are striking: our simple strategy yields significant improvements in both training efficiency and generation quality when applied to popular diffusion and flow-based transformers, such as DiTs and SiTs. For instance, our method can speed up SiT training by over 17.5$\\times$, matching the performance (without clas"
-    },
-    {
       "paperId": "f7135dca58bf8c6131ff2fbb708eac887a262640",
       "title": "Prompting DirectSAM for Semantic Contour Extraction in Remote Sensing Images",
       "teamAuthors": [
@@ -43414,57 +42988,6 @@
       "abstract": "The Direct Segment Anything Model (DirectSAM) excels in class-agnostic contour extraction. In this paper, we explore its use by applying it to optical remote sensing imagery, where semantic contour extraction—such as identifying buildings, road networks, and coastlines-holds significant practical value. Those applications are currently handled via training specialized small models separately on small datasets in each domain. We introduce a foundation model derived from DirectSAM, termed DirectSAM-RS, which not only inherits the strong segmentation capability acquired from natural images, but also benefits from a large-scale dataset we created for remote sensing semantic contour extraction. This dataset comprises over 34k image-text-contour triplets, making it at least 30 times larger than individual dataset. DirectSAM-RS integrates a prompter module: a text encoder and cross-attention layers attached to the DirectSAM architecture, which allows flexible conditioning on target class labels or referring expressions. We evaluate the DirectSAM-RS in both zero-shot and fine-tuning setting, and demonstrate that it achieves state-of-the-art performance across several downstream benchmarks."
     },
     {
-      "paperId": "7a2dfea68ce49dbab042bb29a890a4e357ebda6f",
-      "title": "DiffusionGuard: A Robust Defense Against Malicious Diffusion-based Image Editing",
-      "teamAuthors": [
-        {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
-        }
-      ],
-      "authors": [
-        {
-          "name": "June Suk Choi",
-          "authorId": "2160075234",
-          "slug": null
-        },
-        {
-          "name": "Kyungmin Lee",
-          "authorId": "2273317578",
-          "slug": null
-        },
-        {
-          "name": "Jongheon Jeong",
-          "authorId": "83125078",
-          "slug": null
-        },
-        {
-          "name": "Saining Xie",
-          "authorId": "2325817465",
-          "slug": "saining-xie"
-        },
-        {
-          "name": "Jinwoo Shin",
-          "authorId": "2273036795",
-          "slug": null
-        },
-        {
-          "name": "Kimin Lee",
-          "authorId": "2295928448",
-          "slug": null
-        }
-      ],
-      "memberSlug": "saining-xie",
-      "memberName": "Saining Xie",
-      "publicationDate": "2024-10-08",
-      "year": 2024,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/7a2dfea68ce49dbab042bb29a890a4e357ebda6f",
-      "citationCount": 0,
-      "tldr": null,
-      "abstract": "Recent advances in diffusion models have introduced a new era of text-guided image manipulation, enabling users to create realistic edited images with simple textual prompts. However, there is significant concern about the potential misuse of these methods, especially in creating misleading or harmful content. Although recent defense strategies, which introduce imperceptible adversarial noise to induce model failure, have shown promise, they remain ineffective against more sophisticated manipulations, such as editing with a mask. In this work, we propose DiffusionGuard, a robust and effective defense method against unauthorized edits by diffusion-based image editing models, even in challenging setups. Through a detailed analysis of these models, we introduce a novel objective that generates adversarial noise targeting the early stage of the diffusion process. This approach significantly improves the efficiency and effectiveness of adversarial noises. We also introduce a mask-augmentation technique to enhance robustness against various masks during test time. Finally, we introduce a comprehensive benchmark designed to evaluate the effectiveness and robustness of methods in protectin"
-    },
-    {
       "paperId": "1ac7fc5a55ce5843fb8a19d9f62b623e822bb7de",
       "title": "Loong: Generating Minute-level Long Videos with Autoregressive Language Models",
       "teamAuthors": [
@@ -43511,7 +43034,7 @@
         },
         {
           "name": "Xihui Liu",
-          "authorId": "2324060196",
+          "authorId": "2233227802",
           "slug": null
         }
       ],
@@ -43577,7 +43100,7 @@
       "year": 2024,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://www.semanticscholar.org/paper/ed44571dd9de3654b84ee1fea63015ecb67e6e63",
-      "citationCount": 504,
+      "citationCount": 503,
       "tldr": "A high-quality synthetic dataset specifically for video instruction-following, namely LLaVA-Video-178K, which includes key tasks such as detailed captioning, open-ended question-answering (QA), and multiple-choice QA, and introduces LLaVA-Video, a new video LMM.",
       "abstract": "The development of video large multimodal models (LMMs) has been hindered by the difficulty of curating large amounts of high-quality raw data from the web. To address this, we propose an alternative approach by creating a high-quality synthetic dataset specifically for video instruction-following, namely LLaVA-Video-178K. This dataset includes key tasks such as detailed captioning, open-ended question-answering (QA), and multiple-choice QA. By training on this dataset, in combination with existing visual instruction tuning data, we introduce LLaVA-Video, a new video LMM. Our experiments demonstrate that LLaVA-Video achieves strong performance across various video benchmarks, highlighting the effectiveness of our dataset. We plan to release the dataset, its generation pipeline, and the model checkpoints."
     },
@@ -43836,7 +43359,7 @@
       "year": 2024,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2408.03326",
-      "citationCount": 2985,
+      "citationCount": 2986,
       "tldr": "LLaVA-OneVision is the first single model that can simultaneously push the performance boundaries of open LMMs in three important computer vision scenarios: single-image, multi-image, and video scenarios.",
       "abstract": "We present LLaVA-OneVision, a family of open large multimodal models (LMMs) developed by consolidating our insights into data, models, and visual representations in the LLaVA-NeXT blog series. Our experimental results demonstrate that LLaVA-OneVision is the first single model that can simultaneously push the performance boundaries of open LMMs in three important computer vision scenarios: single-image, multi-image, and video scenarios. Importantly, the design of LLaVA-OneVision allows strong transfer learning across different modalities/scenarios, yielding new emerging capabilities. In particular, strong video understanding and cross-scenario capabilities are demonstrated through task transfer from images to videos."
     },
@@ -43852,7 +43375,7 @@
       "authors": [
         {
           "name": "Mi Zhou",
-          "authorId": "2263505907",
+          "authorId": "2482598131",
           "slug": null
         },
         {
@@ -44330,7 +43853,7 @@
       "authors": [
         {
           "name": "Gaël Le Lan",
-          "authorId": "31635787",
+          "authorId": null,
           "slug": null
         },
         {
@@ -44481,7 +44004,7 @@
           "slug": null
         },
         {
-          "name": "Liusheng Huang",
+          "name": "Liu-Sheng Huang",
           "authorId": "2316094384",
           "slug": null
         }
@@ -44695,7 +44218,7 @@
           "slug": null
         },
         {
-          "name": "Ziyang Wu",
+          "name": "Zi-Yang Wu",
           "authorId": "2293767278",
           "slug": null
         },
@@ -44847,8 +44370,8 @@
           "slug": null
         },
         {
-          "name": "H.-Y Shum",
-          "authorId": "2250829045",
+          "name": "Harry Shum",
+          "authorId": "144154486",
           "slug": null
         },
         {
@@ -45258,8 +44781,8 @@
           "slug": null
         },
         {
-          "name": "A. Zhavoronkov",
-          "authorId": "2264824500",
+          "name": "Alex Zhavoronkov",
+          "authorId": "143865664",
           "slug": null
         }
       ],
@@ -45349,7 +44872,7 @@
           "slug": "ayaan-naveed-malik"
         },
         {
-          "name": "D. Behera",
+          "name": "D. C. Behera",
           "authorId": "2276275100",
           "slug": null
         },
@@ -45754,6 +45277,10 @@
           "name": "Yuexiang Zhai"
         },
         {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
         }
@@ -45795,9 +45322,9 @@
           "slug": null
         },
         {
-          "name": "Sai-Ning Xie",
-          "authorId": "2275940976",
-          "slug": null
+          "name": "Saining Xie",
+          "authorId": "2282918539",
+          "slug": "saining-xie"
         },
         {
           "name": "Yann LeCun",
@@ -46357,8 +45884,8 @@
           "slug": null
         },
         {
-          "name": "Sarath Chandar",
-          "authorId": "123607932",
+          "name": "A. P. Sarath Chandar",
+          "authorId": "2486642835",
           "slug": null
         }
       ],
@@ -46467,8 +45994,8 @@
           "slug": null
         },
         {
-          "name": "M. Kashif",
-          "authorId": "2284380087",
+          "name": "Muhammad Arham Bin Kashif",
+          "authorId": null,
           "slug": null
         },
         {
@@ -46787,7 +46314,7 @@
           "slug": null
         },
         {
-          "name": "Xinlei Chen",
+          "name": "Xin-Lei Chen",
           "authorId": "2296665228",
           "slug": null
         },
@@ -47030,7 +46557,7 @@
       "year": 2024,
       "venue": "International Conference on Machine Learning",
       "url": "https://doi.org/10.48550/arXiv.2401.14732",
-      "citationCount": 30,
+      "citationCount": 31,
       "tldr": "QINCo is proposed, a neural RQ variant that constructs specialized codebooks per step that depend on the approximation of the vector from previous steps that outperforms state-of-the-art methods by a large margin on several datasets and code sizes.",
       "abstract": "Vector quantization is a fundamental operation for data compression and vector search. To obtain high accuracy, multi-codebook methods represent each vector using codewords across several codebooks. Residual quantization (RQ) is one such method, which iteratively quantizes the error of the previous step. While the error distribution is dependent on previously-selected codewords, this dependency is not accounted for in conventional RQ as it uses a fixed codebook per quantization step. In this paper, we propose QINCo, a neural RQ variant that constructs specialized codebooks per step that depend on the approximation of the vector from previous steps. Experiments show that QINCo outperforms state-of-the-art methods by a large margin on several datasets and code sizes. For example, QINCo achieves better nearest-neighbor search accuracy using 12-byte codes than the state-of-the-art UNQ using 16 bytes on the BigANN1M and Deep1M datasets."
     },
@@ -47145,6 +46672,10 @@
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
+        },
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
         }
       ],
       "authors": [
@@ -47174,9 +46705,9 @@
           "slug": "yann-lecun"
         },
         {
-          "name": "Sai-Ning Xie",
-          "authorId": "2275940976",
-          "slug": null
+          "name": "Saining Xie",
+          "authorId": "2282918539",
+          "slug": "saining-xie"
         }
       ],
       "memberSlug": "yuexiang-zhai",
@@ -47262,7 +46793,7 @@
         },
         {
           "name": "Tianshu Zhang",
-          "authorId": "2274920753",
+          "authorId": "2146333995",
           "slug": null
         },
         {
@@ -47602,7 +47133,7 @@
         },
         {
           "name": "D. C. Behera",
-          "authorId": null,
+          "authorId": "2276275100",
           "slug": null
         },
         {
@@ -47652,7 +47183,7 @@
           "slug": null
         },
         {
-          "name": "Guochao Nie",
+          "name": "Guo-Chao Nie",
           "authorId": "47531871",
           "slug": null
         },
@@ -47723,7 +47254,7 @@
       "year": 2023,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2311.18827",
-      "citationCount": 23,
+      "citationCount": 24,
       "tldr": "MoCA establishes a new state-of-the-art approach for video editing, demonstrating greater human preference win-rate, and outperforming notable recent approaches including Dreamix, MasaCtrl, and Tune-A-Video, with especially significant improvements for motion edits.",
       "abstract": "We introduce MoCA, a Motion-Conditioned Image Animation approach for video editing. It leverages a simple decomposition of the video editing problem into image editing followed by motion-conditioned image animation. Furthermore, given the lack of robust evaluation datasets for video editing, we introduce a new benchmark that measures edit capability across a wide variety of tasks, such as object replacement, background changes, style changes, and motion edits. We present a comprehensive human evaluation of the latest video editing methods along with MoCA, on our proposed benchmark. MoCA establishes a new state-of-the-art, demonstrating greater human preference win-rate, and outperforming notable recent approaches including Dreamix (63%), MasaCtrl (75%), and Tune-A-Video (72%), with especially significant improvements for motion edits."
     },
@@ -48723,7 +48254,7 @@
         },
         {
           "name": "Ye Wang",
-          "authorId": "2253861922",
+          "authorId": "2291336343",
           "slug": null
         }
       ],
@@ -49114,7 +48645,7 @@
       "authors": [
         {
           "name": "Oussama Ben Sghaier",
-          "authorId": null,
+          "authorId": "2478771284",
           "slug": null
         },
         {
@@ -49781,12 +49312,12 @@
           "slug": null
         },
         {
-          "name": "Tatsunori Hashimoto",
+          "name": "Tatsunori B. Hashimoto",
           "authorId": "2117567142",
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         }
@@ -49949,7 +49480,7 @@
         },
         {
           "name": "William Tay",
-          "authorId": "2274779459",
+          "authorId": "50023829",
           "slug": null
         },
         {
@@ -50108,8 +49639,8 @@
           "slug": null
         },
         {
-          "name": "M. V. D. Meer",
-          "authorId": "2276909364",
+          "name": "Michiel van der Meer",
+          "authorId": "40418436",
           "slug": null
         }
       ],
@@ -50121,52 +49652,6 @@
       "url": "https://www.semanticscholar.org/paper/eba383558d36e6cacb23b3f477a2125c4b7d5043",
       "citationCount": 0,
       "tldr": "A novel method that tegrates a language model and reinforcement learning for constructing objects in a Minecraft-009 like environment, based on natural language 010 instructions and outperforms existing solutions in terms of both the quality of the language model 020 and the quality of the structures built within the IGLU environment.",
-      "abstract": null
-    },
-    {
-      "paperId": "3fd9b536f0055114b7edd4cd99bf4886c537ebcf",
-      "title": "Analysis of Packet to Detect Malware Files",
-      "teamAuthors": [
-        {
-          "slug": "ayaan-naveed-malik",
-          "name": "Ayaan Naveed Malik"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Lgu",
-          "authorId": "2286531682",
-          "slug": null
-        },
-        {
-          "name": "Muhammad Shairoze",
-          "authorId": "2286531676",
-          "slug": null
-        },
-        {
-          "name": "A. Malik",
-          "authorId": "2276271702",
-          "slug": "ayaan-naveed-malik"
-        },
-        {
-          "name": "F. Saad",
-          "authorId": "2379843289",
-          "slug": null
-        },
-        {
-          "name": "Waqas",
-          "authorId": "90417806",
-          "slug": null
-        }
-      ],
-      "memberSlug": "ayaan-naveed-malik",
-      "memberName": "Ayaan Naveed Malik",
-      "publicationDate": null,
-      "year": 2023,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/3fd9b536f0055114b7edd4cd99bf4886c537ebcf",
-      "citationCount": 0,
-      "tldr": "The use of perfect packet analysis software is described as well as its key features which can make the analysis simpler and the author's perspective regarding the malware analysis is concluded.",
       "abstract": null
     },
     {
@@ -50484,7 +49969,7 @@
         },
         {
           "name": "Chaoning Zhang",
-          "authorId": "31044159",
+          "authorId": "2258888709",
           "slug": null
         },
         {
@@ -50666,7 +50151,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         },
@@ -50774,7 +50259,7 @@
       "year": 2023,
       "venue": "IEEE Transactions on Geoscience and Remote Sensing",
       "url": "https://doi.org/10.1109/TGRS.2024.3390838",
-      "citationCount": 799,
+      "citationCount": 800,
       "tldr": "RemoteCLIP is proposed, the first vision-language foundation model for remote sensing that aims to learn robust visual features with rich semantics and aligned text embeddings for seamless downstream application and consistently outperforms baseline foundation models across different model scales.",
       "abstract": "General-purpose foundation models have led to recent breakthroughs in artificial intelligence (AI). In remote sensing, self-supervised learning (SSL) and masked image modeling (MIM) have been adopted to build foundation models. However, these models primarily learn low-level features and require annotated data for fine-tuning. Moreover, they are inapplicable for retrieval and zero-shot applications due to the lack of language understanding. To address these limitations, we propose RemoteCLIP, the first vision-language foundation model for remote sensing that aims to learn robust visual features with rich semantics and aligned text embeddings for seamless downstream application. To address the scarcity of pretraining data, we leverage data scaling which converts heterogeneous annotations into a unified image-caption data format based on box-to-caption (B2C) and mask-to-box (M2B) conversion. By further incorporating unmanned aerial vehicle (UAV) imagery, we produce a $12\\times $ larger pretraining dataset than the combination of all available datasets. RemoteCLIP can be applied to a variety of downstream tasks, including zero-shot image classification, linear probing, k-NN classifica"
     },
@@ -50805,7 +50290,7 @@
         },
         {
           "name": "Debang Wang",
-          "authorId": "1575966309",
+          "authorId": "2484744495",
           "slug": null
         },
         {
@@ -51510,7 +50995,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         },
@@ -51531,7 +51016,7 @@
       "year": 2023,
       "venue": "International Conference on Learning Representations",
       "url": "https://doi.org/10.48550/arXiv.2305.17126",
-      "citationCount": 338,
+      "citationCount": 339,
       "tldr": "This work introduces a closed-loop framework, referred to as LLMs A s Tool Makers (LATM), where LLMs create their own reusable tools for problem-solving, and offers a functional cache through the caching and reuse of tools, which stores the functionality of a class of requests instead of the natural language responses from LLMs, thus extending the applicability of the conventional cache mechanism.",
       "abstract": "Recent research has highlighted the potential of large language models (LLMs) to improve their problem-solving capabilities with the aid of suitable external tools. In our work, we further advance this concept by introducing a closed-loop framework, referred to as LLMs A s Tool Makers (LATM), where LLMs create their own reusable tools for problem-solving. Our approach consists of two phases: 1) tool making: an LLM acts as the tool maker that crafts tools for a set of tasks. 2) tool using: another LLM acts as the tool user, which applies the tool built by the tool maker for problem-solving. On the problem-solving server side, tool-making enables continual tool generation and caching as new requests emerge. This framework enables subsequent requests to access cached tools via their corresponding APIs, enhancing the efficiency of task resolution. Recognizing that tool-making requires more sophisticated capabilities, we assign this task to a powerful, albeit resource-intensive, model. Conversely, the simpler tool-using phase is delegated to a lightweight model. This strategic division of labor allows the once-off cost of tool-making to be spread over multiple instances of tool-using, s"
     },
@@ -51616,7 +51101,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         }
@@ -51804,7 +51289,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         },
@@ -51880,7 +51365,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         },
@@ -51931,7 +51416,7 @@
           "slug": null
         },
         {
-          "name": "Junqi Zhao",
+          "name": "Jun-Qi Zhao",
           "authorId": "7818312",
           "slug": null
         },
@@ -51962,7 +51447,7 @@
       "year": 2023,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2305.06500",
-      "citationCount": 3938,
+      "citationCount": 3940,
       "tldr": "This paper conducts a systematic and comprehensive study on vision-language instruction tuning based on the pretrained BLIP-2 models, and introduces an instruction-aware Query Transformer, which extracts informative features tailored to the given instruction.",
       "abstract": "Large-scale pre-training and instruction tuning have been successful at creating general-purpose language models with broad competence. However, building general-purpose vision-language models is challenging due to the rich input distributions and task diversity resulting from the additional visual input. Although vision-language pretraining has been widely studied, vision-language instruction tuning remains under-explored. In this paper, we conduct a systematic and comprehensive study on vision-language instruction tuning based on the pretrained BLIP-2 models. We gather 26 publicly available datasets, covering a wide variety of tasks and capabilities, and transform them into instruction tuning format. Additionally, we introduce an instruction-aware Query Transformer, which extracts informative features tailored to the given instruction. Trained on 13 held-in datasets, InstructBLIP attains state-of-the-art zero-shot performance across all 13 held-out datasets, substantially outperforming BLIP-2 and larger Flamingo models. Our models also lead to state-of-the-art performance when finetuned on individual downstream tasks (e.g., 90.7% accuracy on ScienceQA questions with image context"
     },
@@ -52064,7 +51549,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         }
@@ -52390,7 +51875,7 @@
         },
         {
           "name": "Wojciech Galuba",
-          "authorId": "2247475926",
+          "authorId": "1740364",
           "slug": null
         },
         {
@@ -52434,7 +51919,7 @@
           "slug": null
         },
         {
-          "name": "Hervé Jégou",
+          "name": "H. Jégou",
           "authorId": "1681054",
           "slug": null
         },
@@ -52465,7 +51950,7 @@
       "year": 2023,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2304.07193",
-      "citationCount": 10329,
+      "citationCount": 10335,
       "tldr": "This work revisits existing approaches and combines different techniques to scale the pretraining in terms of data and model size, and proposes an automatic pipeline to build a dedicated, diverse, and curated image dataset instead of uncurated data, as typically done in the self-supervised literature.",
       "abstract": "The recent breakthroughs in natural language processing for model pretraining on large quantities of data have opened the way for similar foundation models in computer vision. These models could greatly simplify the use of images in any system by producing all-purpose visual features, i.e., features that work across image distributions and tasks without finetuning. This work shows that existing pretraining methods, especially self-supervised methods, can produce such features if trained on enough curated data from diverse sources. We revisit existing approaches and combine different techniques to scale our pretraining in terms of data and model size. Most of the technical contributions aim at accelerating and stabilizing the training at scale. In terms of data, we propose an automatic pipeline to build a dedicated, diverse, and curated image dataset instead of uncurated data, as typically done in the self-supervised literature. In terms of models, we train a ViT model (Dosovitskiy et al., 2020) with 1B parameters and distill it into a series of smaller models that surpass the best available all-purpose features, OpenCLIP (Ilharco et al., 2021) on most of the benchmarks at image and"
     },
@@ -52925,7 +52410,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         }
@@ -53373,7 +52858,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         },
@@ -53540,7 +53025,7 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01499",
-      "citationCount": 1203,
+      "citationCount": 1206,
       "tldr": null,
       "abstract": "This paper demonstrates an approach for learning highly semantic image representations without relying on hand-crafted data-augmentations. We introduce the Image-based Joint-Embedding Predictive Architecture (I-JEPA), a non-generative approach for self-supervised learning from images. The idea behind I-JEPA is simple: from a single context block, predict the representations of various target blocks in the same image. A core design choice to guide I-JEPA towards producing semantic representations is the masking strategy; specifically, it is crucial to (a) sample target blocks with sufficiently large scale (semantic), and to (b) use a sufficiently informative (spatially distributed) context block. Empirically, when combined with Vision Transformers, we find I-JEPA to be highly scalable. For instance, we train a ViT-Huge/14 on ImageNet using 16 A100 GPUs in under 72 hours to achieve strong downstream performance across a wide range of tasks, from linear classification to object counting and depth prediction."
     },
@@ -53757,7 +53242,7 @@
           "slug": null
         },
         {
-          "name": "Lianli Wang",
+          "name": "Lian-Li Wang",
           "authorId": "2144695993",
           "slug": null
         }
@@ -53828,7 +53313,7 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548",
-      "citationCount": 2010,
+      "citationCount": 2012,
       "tldr": "This paper proposes a fully convolutional masked autoencoder framework and a new Global Response Normalization (GRN) layer that can be added to the ConvNeXt architecture to enhance inter-channel feature competition and significantly improves the performance of pure ConvNets on various recognition benchmarks.",
       "abstract": "Driven by improved architectures and better representation learning frameworks, the field of visual recognition has enjoyed rapid modernization and performance boost in the early 2020s. For example, modern ConvNets, represented by ConvNeXt [33], have demonstrated strong performance in various scenarios. While these models were originally designed for supervised learning with ImageNet labels, they can also potentially benefit from self-supervised learning techniques such as masked autoencoders (MAE) [14]. However, we found that simply combining these two approaches leads to subpar performance. In this paper, we propose a fully convolutional masked autoencoder framework and a new Global Response Normalization (GRN) layer that can be added to the ConvNeXt architecture to enhance inter-channel feature competition. This co-design of self-supervised learning techniques and architectural improvement results in a new model family called ConvNeXt V2, which significantly improves the performance of pure ConvNets on various recognition benchmarks, including ImageNet classification, COCO detection, and ADE20K segmentation. We also provide pre-trained ConvNeXt V2 models of various sizes, rangin"
     },
@@ -54294,7 +53779,7 @@
       "year": 2022,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51070.2023.00387",
-      "citationCount": 7110,
+      "citationCount": 7119,
       "tldr": "A new class of diffusion models based on the transformer architecture is explored, replacing the commonly-used U-Net backbone with a transformer that operates on latent patches that outperform all prior diffusion models on the class-conditional ImageNet 512×512 and 256×256 benchmarks.",
       "abstract": "We explore a new class of diffusion models based on the transformer architecture. We train latent diffusion models of images, replacing the commonly-used U-Net backbone with a transformer that operates on latent patches. We analyze the scalability of our Diffusion Transformers (DiTs) through the lens of forward pass complexity as measured by Gflops. We find that DiTs with higher Gflops—through increased transformer depth/width or increased number of input tokens—consistently have lower FID. In addition to possessing good scalability properties, our largest DiT-XL/2 models outperform all prior diffusion models on the class-conditional ImageNet 512×512 and 256×256 benchmarks, achieving a state-of-the-art FID of 2.27 on the latter."
     },
@@ -54329,8 +53814,8 @@
           "slug": "sanghyun-woo"
         },
         {
-          "name": "In So Kweon",
-          "authorId": null,
+          "name": "In-So Kweon",
+          "authorId": "145017151",
           "slug": null
         }
       ],
@@ -54376,7 +53861,7 @@
         },
         {
           "name": "Chaoning Zhang",
-          "authorId": "31044159",
+          "authorId": "2258888709",
           "slug": null
         },
         {
@@ -54569,7 +54054,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         },
@@ -54585,7 +54070,7 @@
       "year": 2022,
       "venue": "International Conference on Learning Representations",
       "url": "https://doi.org/10.48550/arXiv.2211.15661",
-      "citationCount": 782,
+      "citationCount": 783,
       "tldr": "This work investigates the hypothesis that transformer-based in-context learners implement standard learning algorithms implicitly, by encoding smaller models in their activations, and updating these implicit models as new examples appear in the context, and suggests that in- context learning is understandable in algorithmic terms, and that (at least in the linear case) learners may rediscover standard estimation algorithms.",
       "abstract": "Neural sequence models, especially transformers, exhibit a remarkable capacity for in-context learning. They can construct new predictors from sequences of labeled examples $(x, f(x))$ presented in the input without further parameter updates. We investigate the hypothesis that transformer-based in-context learners implement standard learning algorithms implicitly, by encoding smaller models in their activations, and updating these implicit models as new examples appear in the context. Using linear regression as a prototypical problem, we offer three sources of evidence for this hypothesis. First, we prove by construction that transformers can implement learning algorithms for linear models based on gradient descent and closed-form ridge regression. Second, we show that trained in-context learners closely match the predictors computed by gradient descent, ridge regression, and exact least-squares regression, transitioning between different predictors as transformer depth and dataset noise vary, and converging to Bayesian estimators for large widths and depths. Third, we present preliminary evidence that in-context learners share algorithmic features with these predictors: learners' "
     },
@@ -54605,7 +54090,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         }
@@ -54798,7 +54283,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         },
@@ -54849,7 +54334,7 @@
           "slug": null
         },
         {
-          "name": "Suzana Ili'c",
+          "name": "Suzana Ilic",
           "authorId": "2066663381",
           "slug": null
         },
@@ -55839,7 +55324,7 @@
           "slug": null
         },
         {
-          "name": "Aur'elie N'ev'eol",
+          "name": "Aurélie Névéol",
           "authorId": "2190281078",
           "slug": null
         },
@@ -56219,7 +55704,7 @@
           "slug": null
         },
         {
-          "name": "Lívia Dutra",
+          "name": "L. Dutra",
           "authorId": "3530609",
           "slug": null
         },
@@ -56369,7 +55854,7 @@
           "slug": null
         },
         {
-          "name": "A. Callahan",
+          "name": "Alison Callahan",
           "authorId": "2840689",
           "slug": null
         },
@@ -56399,8 +55884,8 @@
           "slug": null
         },
         {
-          "name": "C. Brito",
-          "authorId": "144972524",
+          "name": "Caio Brito",
+          "authorId": "2260078942",
           "slug": null
         },
         {
@@ -56474,7 +55959,7 @@
           "slug": null
         },
         {
-          "name": "I. Bello",
+          "name": "Imane Bello",
           "authorId": "121044523",
           "slug": null
         },
@@ -56499,7 +55984,7 @@
           "slug": null
         },
         {
-          "name": "J. Posada",
+          "name": "José D. Posada",
           "authorId": "2066514466",
           "slug": null
         },
@@ -56754,7 +56239,7 @@
           "slug": null
         },
         {
-          "name": "Z. Tan",
+          "name": "Zhe Tan",
           "authorId": "1643680733",
           "slug": null
         },
@@ -57018,7 +56503,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         }
@@ -57096,7 +56581,7 @@
         },
         {
           "name": "Shen Li",
-          "authorId": "2153698839",
+          "authorId": "2290004291",
           "slug": null
         },
         {
@@ -57735,7 +57220,7 @@
       ],
       "authors": [
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         },
@@ -58068,7 +57553,7 @@
           "slug": null
         },
         {
-          "name": "Sigamani Jayasingh Albert Chandrasekar",
+          "name": "S. J. A. Chandrasekar",
           "authorId": "2185800781",
           "slug": null
         }
@@ -58099,7 +57584,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         },
@@ -58779,7 +58264,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         },
@@ -59294,7 +58779,7 @@
         },
         {
           "name": "Dhruv Choudhary",
-          "authorId": "9728430",
+          "authorId": "2303390957",
           "slug": null
         },
         {
@@ -59491,7 +58976,7 @@
           "slug": null
         },
         {
-          "name": "Haiyu Lu",
+          "name": "Hai-Yu Lu",
           "authorId": "14760580",
           "slug": null
         },
@@ -60131,7 +59616,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         }
@@ -60182,7 +59667,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         },
@@ -60462,7 +59947,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         },
@@ -60478,7 +59963,7 @@
       "year": 2022,
       "venue": "International Conference on Learning Representations",
       "url": "https://www.semanticscholar.org/paper/29b77089a0a40f46372ce2dca9c3bb2dd5d46b1d",
-      "citationCount": 1014,
+      "citationCount": 1015,
       "tldr": "It is found that fine-tuning can achieve worse accuracy than linear probing out-of-distribution (OOD) when the pretrained features are good and the distribution shift is large, and suggests that the easy two-step strategy of linear probing then full fine- Tuning (LP-FT) combines the benefits of both fine- tuning and linear probing.",
       "abstract": "When transferring a pretrained model to a downstream task, two popular methods are full fine-tuning (updating all the model parameters) and linear probing (updating only the last linear layer—the “head”). It is well known that fine-tuning leads to better accuracy in-distribution (ID). However, in this paper, we find that fine-tuning can achieve worse accuracy than linear probing out-of-distribution (OOD) when the pretrained features are good and the distribution shift is large. On 10 distribution shift datasets (Breeds-Living17, Breeds-Entity30, DomainNet, CIFAR → STL, CIFAR10.1, FMoW, ImageNetV2, ImageNet-R, ImageNet-A, ImageNet-Sketch), fine-tuning obtains on average 2% higher accuracy ID but 7% lower accuracy OOD than linear probing. We show theoretically that this tradeoff between ID and OOD accuracy arises even in a simple setting: fine-tuning overparameterized two-layer linear networks. We prove that the OOD error of fine-tuning is high when we initialize with a fixed or random head—this is because while fine-tuning learns the head, the lower layers of the neural network change simultaneously and distort the pretrained features. Our analysis suggests that the easy two-step st"
     },
@@ -60564,7 +60049,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         }
@@ -60660,7 +60145,7 @@
       "year": 2022,
       "venue": "ACM Computing Surveys",
       "url": "https://doi.org/10.1145/3571730",
-      "citationCount": 5817,
+      "citationCount": 5824,
       "tldr": "A broad overview of the research progress and challenges in the hallucination problem in NLG is provided, including task-specific research progress on hallucinations in the following downstream tasks, namely abstractive summarization, dialogue generation, generative question answering, data-to-text generation, and machine translation.",
       "abstract": "Natural Language Generation (NLG) has improved exponentially in recent years thanks to the development of sequence-to-sequence deep learning technologies such as Transformer-based language models. This advancement has led to more fluent and coherent NLG, leading to improved development in downstream tasks such as abstractive summarization, dialogue generation, and data-to-text generation. However, it is also apparent that deep learning based generation is prone to hallucinate unintended text, which degrades the system performance and fails to meet user expectations in many real-world scenarios. To address this issue, many studies have been presented in measuring and mitigating hallucinated texts, but these have never been reviewed in a comprehensive manner before. In this survey, we thus provide a broad overview of the research progress and challenges in the hallucination problem in NLG. The survey is organized into two parts: (1) a general overview of metrics, mitigation methods, and future directions, and (2) an overview of task-specific research progress on hallucinations in the following downstream tasks, namely abstractive summarization, dialogue generation, generative questio"
     },
@@ -60757,7 +60242,7 @@
       "year": 2022,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01167",
-      "citationCount": 9309,
+      "citationCount": 9317,
       "tldr": "This work gradually “modernize” a standard ResNet toward the design of a vision Transformer, and discovers several key components that contribute to the performance difference along the way, leading to a family of pure ConvNet models dubbed ConvNeXt.",
       "abstract": "The “Roaring 20s” of visual recognition began with the introduction of Vision Transformers (ViTs), which quickly superseded ConvNets as the state-of-the-art image classification model. A vanilla ViT, on the other hand, faces difficulties when applied to general computer vision tasks such as object detection and semantic segmentation. It is the hierarchical Transformers (e.g., Swin Transformers) that reintroduced several ConvNet priors, making Transformers practically viable as a generic vision backbone and demonstrating remarkable performance on a wide variety of vision tasks. However, the effectiveness of such hybrid approaches is still largely credited to the intrinsic superiority of Transformers, rather than the inherent inductive biases of convolutions. In this work, we reexamine the design spaces and test the limits of what a pure ConvNet can achieve. We gradually “modernize” a standard ResNet toward the design of a vision Transformer, and discover several key components that contribute to the performance difference along the way. The outcome of this exploration is a family of pure ConvNet models dubbed ConvNeXt. Constructed entirely from standard ConvNet modules, ConvNeXts co"
     },
@@ -60979,7 +60464,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         },
@@ -61025,7 +60510,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         },
@@ -61067,7 +60552,7 @@
       "authors": [
         {
           "name": "Yanghao Li",
-          "authorId": "2366569281",
+          "authorId": "2359205979",
           "slug": null
         },
         {
@@ -61127,7 +60612,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         },
@@ -61179,7 +60664,7 @@
       "year": 2021,
       "venue": "Neural Information Processing Systems",
       "url": "https://www.semanticscholar.org/paper/9eaf5cc6f632b456e1d2959a93965c91f5c91fae",
-      "citationCount": 373,
+      "citationCount": 374,
       "tldr": "This work presents an approach to seamlessly fuse RGB sensors into Lidar-based 3D recognition, and shows that this framework improves a strong CenterPoint baseline by a significant 6.6 mAP, and outperforms competing fusion approaches.",
       "abstract": "Lidar-based sensing drives current autonomous vehicles. Despite rapid progress, current Lidar sensors still lag two decades behind traditional color cameras in terms of resolution and cost. For autonomous driving, this means that large objects close to the sensors are easily visible, but far-away or small objects comprise only one measurement or two. This is an issue, especially when these objects turn out to be driving hazards. On the other hand, these same objects are clearly visible in onboard RGB sensors. In this work, we present an approach to seamlessly fuse RGB sensors into Lidar-based 3D recognition. Our approach takes a set of 2D detections to generate dense 3D virtual points to augment an otherwise sparse 3D point cloud. These virtual points naturally integrate into any standard Lidar-based 3D detectors along with regular Lidar measurements. The resulting multi-modal detector is simple and effective. Experimental results on the large-scale nuScenes dataset show that our framework improves a strong CenterPoint baseline by a significant 6.6 mAP, and outperforms competing fusion approaches. Code and more visualizations are available at https://tianweiy.github.io/mvp/"
     },
@@ -61210,7 +60695,7 @@
         },
         {
           "name": "Yanghao Li",
-          "authorId": "2366569281",
+          "authorId": "2359205979",
           "slug": null
         },
         {
@@ -61230,7 +60715,7 @@
       "year": 2021,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01553",
-      "citationCount": 12730,
+      "citationCount": 12742,
       "tldr": "This paper develops an asymmetric encoder-decoder architecture, with an encoder that operates only on the visible subset of patches (without mask tokens), along with a lightweight decoder that reconstructs the original image from the latent representation and mask tokens.",
       "abstract": "This paper shows that masked autoencoders (MAE) are scalable self-supervised learners for computer vision. Our MAE approach is simple: we mask random patches of the input image and reconstruct the missing pixels. It is based on two core designs. First, we develop an asymmetric encoder-decoder architecture, with an encoder that operates only on the visible subset of patches (without mask tokens), along with a lightweight decoder that reconstructs the original image from the latent representation and mask tokens. Second, we find that masking a high proportion of the input image, e.g., 75%, yields a nontrivial and meaningful self-supervisory task. Coupling these two designs enables us to train large models efficiently and effectively: we accelerate training (by 3× or more) and improve accuracy. Our scalable approach allows for learning high-capacity models that generalize well: e.g., a vanilla ViT-Huge model achieves the best accuracy (87.8%) among methods that use only ImageNet-1K data. Transfer performance in downstream tasks outperforms supervised pretraining and shows promising scaling behavior."
     },
@@ -61290,7 +60775,7 @@
         },
         {
           "name": "Pavel Ustinov",
-          "authorId": "2139735162",
+          "authorId": "2394682860",
           "slug": null
         },
         {
@@ -61350,7 +60835,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         }
@@ -61391,7 +60876,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         }
@@ -61458,8 +60943,8 @@
           "slug": null
         },
         {
-          "name": "Si Chen",
-          "authorId": "2244132870",
+          "name": "Sirius Chen",
+          "authorId": "2479225873",
           "slug": null
         },
         {
@@ -61702,7 +61187,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         }
@@ -62016,7 +61501,7 @@
           "slug": null
         },
         {
-          "name": "S. Grossman",
+          "name": "Shelby Grossman",
           "authorId": "69487116",
           "slug": null
         },
@@ -62026,7 +61511,7 @@
           "slug": null
         },
         {
-          "name": "Tatsunori Hashimoto",
+          "name": "Tatsunori B. Hashimoto",
           "authorId": "2117567142",
           "slug": null
         },
@@ -62161,7 +61646,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         },
@@ -62301,7 +61786,7 @@
           "slug": null
         },
         {
-          "name": "Christopher R'e",
+          "name": "Christopher Ré",
           "authorId": "2061444681",
           "slug": null
         },
@@ -62437,7 +61922,7 @@
       "year": 2021,
       "venue": "arXiv.org",
       "url": "https://www.semanticscholar.org/paper/76e9e2ec3de437ffb30d8b7b629f7fe3e61de5c2",
-      "citationCount": 7311,
+      "citationCount": 7318,
       "tldr": "This report provides a thorough account of the opportunities and risks of foundation models, ranging from their capabilities, to their applications, and what they are even capable of due to their emergent properties.",
       "abstract": "AI is undergoing a paradigm shift with the rise of models (e.g., BERT, DALL-E, GPT-3) that are trained on broad data at scale and are adaptable to a wide range of downstream tasks. We call these models foundation models to underscore their critically central yet incomplete character. This report provides a thorough account of the opportunities and risks of foundation models, ranging from their capabilities (e.g., language, vision, robotics, reasoning, human interaction) and technical principles(e.g., model architectures, training procedures, data, systems, security, evaluation, theory) to their applications (e.g., law, healthcare, education) and societal impact (e.g., inequity, misuse, economic and environmental impact, legal and ethical considerations). Though foundation models are based on standard deep learning and transfer learning, their scale results in new emergent capabilities,and their effectiveness across so many tasks incentivizes homogenization. Homogenization provides powerful leverage but demands caution, as the defects of the foundation model are inherited by all the adapted models downstream. Despite the impending widespread deployment of foundation models, we curre"
     },
@@ -62549,7 +62034,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         }
@@ -62626,7 +62111,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         }
@@ -62932,7 +62417,7 @@
         },
         {
           "name": "S. Xie",
-          "authorId": "35109500",
+          "authorId": "2407771963",
           "slug": null
         },
         {
@@ -62992,7 +62477,7 @@
           "slug": null
         },
         {
-          "name": "J. Duan",
+          "name": "Jinming Duan",
           "authorId": "145111198",
           "slug": null
         },
@@ -63033,7 +62518,7 @@
         },
         {
           "name": "C. Schülke",
-          "authorId": "2363187",
+          "authorId": "2363218704",
           "slug": null
         },
         {
@@ -63057,7 +62542,7 @@
           "slug": null
         },
         {
-          "name": "M. Osch",
+          "name": "M. V. Osch",
           "authorId": "145212702",
           "slug": null
         },
@@ -63209,7 +62694,7 @@
         },
         {
           "name": "Fatima-Ezzahra El Orche",
-          "authorId": "1490752420",
+          "authorId": null,
           "slug": null
         },
         {
@@ -63315,7 +62800,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         },
@@ -63489,7 +62974,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         },
@@ -63530,7 +63015,7 @@
           "slug": null
         },
         {
-          "name": "Tengyu Ma",
+          "name": "Teng-Yu Ma",
           "authorId": "2114186424",
           "slug": "tengyu-ma"
         }
@@ -63780,52 +63265,6 @@
       "abstract": "Temporal correspondence - linking pixels or objects across frames - is a fundamental supervisory signal for the video models. For the panoptic understanding of dynamic scenes, we further extend this concept to every segment. Specifically, we aim to learn coarse segment-level matching and fine pixel-level matching together. We implement this idea by designing two novel learning objectives. To validate our proposals, we adopt a deep siamese model and train the model to learn the temporal correspondence on two different levels (i.e., segment and pixel) along with the target task. At inference time, the model processes each frame independently without any extra computation and post-processing. We show that our per-frame inference model can achieve new state-of-the-art results on Cityscapes-VPS and VIPER datasets. Moreover, due to its high efficiency, the model runs in a fraction of time (3×) compared to the previous state-of-the-art approach."
     },
     {
-      "paperId": "ee9a17ee8efadd736dd70f45c93f796c059b3318",
-      "title": "Errors of Machine Translation of terminology in the patent text from English into Chinese",
-      "teamAuthors": [
-        {
-          "slug": "li-jing",
-          "name": "Li Jing"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Cheng Ying",
-          "authorId": "2072399620",
-          "slug": null
-        },
-        {
-          "name": "Yue Shuyu",
-          "authorId": "2272120448",
-          "slug": null
-        },
-        {
-          "name": "Li Jing",
-          "authorId": "2260978400",
-          "slug": "li-jing"
-        },
-        {
-          "name": "D. Lin",
-          "authorId": "2342253335",
-          "slug": null
-        },
-        {
-          "name": "Q. Qi",
-          "authorId": "2338433943",
-          "slug": null
-        }
-      ],
-      "memberSlug": "li-jing",
-      "memberName": "Li Jing",
-      "publicationDate": "2021-05-19",
-      "year": 2021,
-      "venue": null,
-      "url": "https://doi.org/10.52810/TC.2021.100022",
-      "citationCount": 21,
-      "tldr": "This paper summarizes eight types of error of terminology in the patent text in the output of Machine Translation from English into Chinese, including term being mistranslated as a verb, term being mistaken for a common noun, and term being Mistranslated due to wrong acronym.",
-      "abstract": "This paper summarizes eight types of error of terminology in the patent text in the output of Machine Translation from English into Chinese, including term being mistranslated as a verb, term being mistranslated as a common noun, term being redundantly translated, term being mistranslated as a homophone, term being mistranslated as a wrong term, term being mistranslated due to Chinese expression, term being mistranslated without initial, and term being mistranslated due to wrong acronym. These errors can be solved by the translator before Machine Translation and the translator can identify and correct these errors by pre-editing of the source text."
-    },
-    {
       "paperId": "0d0cf5f64c052aa7edc5bb638203616a620557f6",
       "title": "VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning",
       "teamAuthors": [
@@ -63861,7 +63300,7 @@
       "year": 2021,
       "venue": "International Conference on Learning Representations",
       "url": "https://www.semanticscholar.org/paper/0d0cf5f64c052aa7edc5bb638203616a620557f6",
-      "citationCount": 1422,
+      "citationCount": 1424,
       "tldr": "This paper introduces VICReg (Variance-Invariance-Covariance Regularization), a method that explicitly avoids the collapse problem with a simple regularization term on the variance of the embeddings along each dimension individually.",
       "abstract": "Recent self-supervised methods for image representation learning are based on maximizing the agreement between embedding vectors from different views of the same image. A trivial solution is obtained when the encoder outputs constant vectors. This collapse problem is often avoided through implicit biases in the learning architecture, that often lack a clear justification or interpretation. In this paper, we introduce VICReg (Variance-Invariance-Covariance Regularization), a method that explicitly avoids the collapse problem with a simple regularization term on the variance of the embeddings along each dimension individually. VICReg combines the variance term with a decorrelation mechanism based on redundancy reduction and covariance regularization, and achieves results on par with the state of the art on several downstream tasks. In addition, we show that incorporating our new variance term into other methods helps stabilize the training and leads to performance improvements."
     },
@@ -64222,7 +63661,7 @@
       "year": 2021,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV48922.2021.00950",
-      "citationCount": 2477,
+      "citationCount": 2476,
       "tldr": "This work investigates the effects of several fundamental components for training self-supervised ViT, and reveals that these results are indeed partial failure, and they can be improved when training is made more stable.",
       "abstract": "This paper does not describe a novel method. Instead, it studies a straightforward, incremental, yet must-know baseline given the recent progress in computer vision: self-supervised learning for Vision Transformers (ViT). While the training recipes for standard convolutional networks have been highly mature and robust, the recipes for ViT are yet to be built, especially in the self-supervised scenarios where training becomes more challenging. In this work, we go back to basics and investigate the effects of several fundamental components for training self-supervised ViT. We observe that instability is a major issue that degrades accuracy, and it can be hidden by apparently good results. We reveal that these results are indeed partial failure, and they can be improved when training is made more stable. We benchmark ViT results in MoCo v3 and several other self-supervised frameworks, with ablations in various aspects. We discuss the currently positive evidence as well as challenges and open questions. We hope that this work will provide useful data points and experience for future research."
     },
@@ -64395,7 +63834,7 @@
           "slug": null
         },
         {
-          "name": "C. Fernandez‐Granda",
+          "name": "C. Fernandez-Granda",
           "authorId": "1400418223",
           "slug": null
         },
@@ -64509,7 +63948,7 @@
         },
         {
           "name": "Alexander Jäger",
-          "authorId": null,
+          "authorId": "2488624341",
           "slug": null
         },
         {
@@ -64589,7 +64028,7 @@
           "slug": null
         },
         {
-          "name": "Y. Aphinyanaphongs",
+          "name": "Yindalon Aphinyanaphongs",
           "authorId": "7174316",
           "slug": null
         },
@@ -64660,7 +64099,7 @@
           "slug": null
         },
         {
-          "name": "Y. Aphinyanaphongs",
+          "name": "Yindalon Aphinyanaphongs",
           "authorId": "7174316",
           "slug": null
         },
@@ -65200,7 +64639,7 @@
           "slug": "xuefeng-hu"
         },
         {
-          "name": "Zhihan Zhang",
+          "name": "Zhi-Han Zhang",
           "authorId": "2144436120",
           "slug": null
         },
@@ -65231,7 +64670,7 @@
       "year": 2020,
       "venue": "European Conference on Computer Vision",
       "url": "https://doi.org/10.1007/978-3-030-58589-1_19",
-      "citationCount": 323,
+      "citationCount": 324,
       "tldr": "The proposed architecture efficiently and effectively models the relationship between image patches at multiple scales by constructing a pyramid of local self-attention blocks, which includes a novel position projection to encode the spatial positions of the patches.",
       "abstract": "We present a novel framework, Spatial Pyramid Attention Network (SPAN) for detection and localization of multiple types of image manipulations. The proposed architecture efficiently and effectively models the relationship between image patches at multiple scales by constructing a pyramid of local self-attention blocks. The design includes a novel position projection to encode the spatial positions of the patches. SPAN is trained on a generic, synthetic dataset but can also be fine tuned for specific datasets; The proposed method shows significant gains in performance on standard datasets over previous state-of-the-art methods."
     },
@@ -65777,7 +65216,7 @@
           "slug": null
         },
         {
-          "name": "Albert Gordo",
+          "name": "A. Gordo",
           "authorId": "1821267",
           "slug": null
         },
@@ -67268,7 +66707,7 @@
       "year": 2019,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/cvpr42600.2020.00975",
-      "citationCount": 15687,
+      "citationCount": 15695,
       "tldr": null,
       "abstract": "We present Momentum Contrast (MoCo) for unsupervised visual representation learning. From a perspective on contrastive learning as dictionary look-up, we build a dynamic dictionary with a queue and a moving-averaged encoder. This enables building a large and consistent dictionary on-the-fly that facilitates contrastive unsupervised learning. MoCo provides competitive results under the common linear protocol on ImageNet classification. More importantly, the representations learned by MoCo transfer well to downstream tasks. MoCo can outperform its supervised pre-training counterpart in 7 detection/segmentation tasks on PASCAL VOC, COCO, and other datasets, sometimes surpassing it by large margins. This suggests that the gap between unsupervised and supervised representation learning has been largely closed in many vision tasks."
     },
@@ -67450,7 +66889,7 @@
           "slug": null
         },
         {
-          "name": "Albert Gordo",
+          "name": "A. Gordo",
           "authorId": "1821267",
           "slug": null
         },
@@ -67471,7 +66910,7 @@
       "year": 2019,
       "venue": "International Conference on Learning Representations",
       "url": "https://www.semanticscholar.org/paper/dcc4c760c3f1cb17f953c487190b735030c33b78",
-      "citationCount": 1619,
+      "citationCount": 1620,
       "tldr": "It is shown that it is possible to outperform carefully designed losses, sampling strategies, even complex modules with memory, by using a straightforward approach that decouples representation and classification.",
       "abstract": "The long-tail distribution of the visual world poses great challenges for deep learning based classification models on how to handle the class imbalance problem. Existing solutions usually involve class-balancing strategies, e.g., by loss re-weighting, data re-sampling, or transfer learning from head- to tail-classes, but most of them adhere to the scheme of jointly learning representations and classifiers. In this work, we decouple the learning procedure into representation learning and classification, and systematically explore how different balancing strategies affect them for long-tailed recognition. The findings are surprising: (1) data imbalance might not be an issue in learning high-quality representations; (2) with representations learned with the simplest instance-balanced (natural) sampling, it is also possible to achieve strong long-tailed recognition ability by adjusting only the classifier. We conduct extensive experiments and set new state-of-the-art performance on common long-tailed benchmarks like ImageNet-LT, Places-LT and iNaturalist, showing that it is possible to outperform carefully designed losses, sampling strategies, even complex modules with memory, by usin"
     },
@@ -68056,7 +67495,7 @@
         },
         {
           "name": "Li Xing",
-          "authorId": "2053892942",
+          "authorId": "2285732673",
           "slug": null
         },
         {
@@ -68232,87 +67671,6 @@
       "citationCount": 16,
       "tldr": "A simple yet effective prediction module for a one-stage detector that allows train-from-scratch without relying on any sophisticated base networks as previous methods do and achieves an accuracy comparable to that of state-of-the-art detectors while using a fraction of their model parameter and computational overheads.",
       "abstract": "We present a simple yet effective prediction module for a one-stage detector. The main process is conducted in a coarse-to-fine manner. First, the module roughly adjusts the default boxes to well capture the extent of target objects in an image. Second, given the adjusted boxes, the module aligns the receptive field of the convolution filters accordingly, not requiring any embedding layers. Both steps build a propose-and-attend mechanism, mimicking two-stage detectors in a highly efficient manner. To verify its effectiveness, we apply the proposed module to a basic one-stage detector SSD. We empirically show that our module significantly lifts the detection accuracy with marginal parameter overhead. Our final model achieves an accuracy comparable to that of state-of-the-art detectors while using a fraction of their model parameter and computational overheads. Moreover, we found that the proposed module has two strong applications. 1) The module can be successfully integrated into a lightweight backbone, further pushing the efficiency of the one-stage detector. 2) The module also allows train-from-scratch without relying on any sophisticated base networks as previous methods do."
-    },
-    {
-      "paperId": "de73fcba0145022566fb9dee3e655baa57816022",
-      "title": "University of Birmingham Towards distributed heterogeneous simulation using internet of things",
-      "teamAuthors": [
-        {
-          "slug": "ayaan-naveed-malik",
-          "name": "Ayaan Naveed Malik"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Muhammad Haseeb",
-          "authorId": "2072911859",
-          "slug": null
-        },
-        {
-          "name": "A. Malik",
-          "authorId": "2285431036",
-          "slug": null
-        },
-        {
-          "name": "Waqar",
-          "authorId": "2099609357",
-          "slug": null
-        },
-        {
-          "name": "A. Rahman",
-          "authorId": "31321802",
-          "slug": null
-        },
-        {
-          "name": "Ur",
-          "authorId": "2302531727",
-          "slug": null
-        },
-        {
-          "name": "M. Hamayun",
-          "authorId": "2864653",
-          "slug": null
-        },
-        {
-          "name": "Muhammad",
-          "authorId": "2073258754",
-          "slug": null
-        },
-        {
-          "name": "A. Waqar",
-          "authorId": "144489448",
-          "slug": null
-        },
-        {
-          "name": "A. Malik",
-          "authorId": "2276271702",
-          "slug": "ayaan-naveed-malik"
-        },
-        {
-          "name": "M. RahmanMian",
-          "authorId": "2285578106",
-          "slug": null
-        },
-        {
-          "name": "Hamayun",
-          "authorId": "2285562410",
-          "slug": null
-        },
-        {
-          "name": "A. Malik",
-          "authorId": "2285431036",
-          "slug": null
-        }
-      ],
-      "memberSlug": "ayaan-naveed-malik",
-      "memberName": "Ayaan Naveed Malik",
-      "publicationDate": null,
-      "year": 2019,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/de73fcba0145022566fb9dee3e655baa57816022",
-      "citationCount": 0,
-      "tldr": "A new simulation framework is proposed, which has been designed to work with diverse heterogeneous devices and allows these heterogeneous mobile devices to participate in a distributed simulation while managing network latency, using device proﬁles that are maintained by the simulation framework.",
-      "abstract": null
     },
     {
       "paperId": "3b9728e8de5739d5dc62fe4576c3d4115070313a",
@@ -68974,7 +68332,7 @@
       "year": 2019,
       "venue": "arXiv.org",
       "url": "https://www.semanticscholar.org/paper/6a2e2fd1b5bb11224daef98b3fb6d029f68a73f2",
-      "citationCount": 3806,
+      "citationCount": 3807,
       "tldr": "The center point based approach, CenterNet, is end-to-end differentiable, simpler, faster, and more accurate than corresponding bounding box based detectors and performs competitively with sophisticated multi-stage methods and runs in real-time.",
       "abstract": "Detection identifies objects as axis-aligned boxes in an image. Most successful object detectors enumerate a nearly exhaustive list of potential object locations and classify each. This is wasteful, inefficient, and requires additional post-processing. In this paper, we take a different approach. We model an object as a single point --- the center point of its bounding box. Our detector uses keypoint estimation to find center points and regresses to all other object properties, such as size, 3D location, orientation, and even pose. Our center point based approach, CenterNet, is end-to-end differentiable, simpler, faster, and more accurate than corresponding bounding box based detectors. CenterNet achieves the best speed-accuracy trade-off on the MS COCO dataset, with 28.1% AP at 142 FPS, 37.4% AP at 52 FPS, and 45.1% AP with multi-scale testing at 1.4 FPS. We use the same approach to estimate 3D bounding box in the KITTI benchmark and human pose on the COCO keypoint dataset. Our method performs competitively with sophisticated multi-stage methods and runs in real-time."
     },
@@ -69276,7 +68634,7 @@
       "year": 2019,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR.2019.00094",
-      "citationCount": 928,
+      "citationCount": 929,
       "tldr": "The proposed method performs on-par with the state-of-the-art region based detection methods, with a bounding box AP of 43.7% on COCO test-dev and extreme point guided segmentation further improves this to 34.6% Mask AP.",
       "abstract": "With the advent of deep learning, object detection drifted from a bottom-up to a top-down recognition problem. State of the art algorithms enumerate a near-exhaustive list of object locations and classify each into: object or not. In this paper, we show that bottom-up approaches still perform competitively. We detect four extreme points (top-most, left-most, bottom-most, right-most) and one center point of objects using a standard keypoint estimation network. We group the five keypoints into a bounding box if they are geometrically aligned. Object detection is then a purely appearance-based keypoint estimation problem, without region classification or implicit feature learning. The proposed method performs on-par with the state-of-the-art region based detection methods, with a bounding box AP of 43.7% on COCO test-dev. In addition, our estimated extreme points directly span a coarse octagonal mask, with a COCO Mask AP of 18.9%, much better than the Mask AP of vanilla bounding boxes. Extreme point guided segmentation further improves this to 34.6% Mask AP."
     },
@@ -69433,7 +68791,7 @@
           "slug": null
         },
         {
-          "name": "F. Yu",
+          "name": "Fisher Yu",
           "authorId": "1807197",
           "slug": null
         },
@@ -69926,7 +69284,7 @@
       "year": 2018,
       "venue": "British Machine Vision Conference",
       "url": "https://www.semanticscholar.org/paper/10bb4ef7a6719ea132e00f0ab5680919a4131d99",
-      "citationCount": 1340,
+      "citationCount": 1342,
       "tldr": "A simple and effective attention module, named Bottleneck Attention Module (BAM), that can be integrated with any feed-forward convolutional neural networks, that infers an attention map along two separate pathways, channel and spatial.",
       "abstract": "Recent advances in deep neural networks have been developed via architecture search for stronger representational power. In this work, we focus on the effect of attention in general deep neural networks. We propose a simple and effective attention module, named Bottleneck Attention Module (BAM), that can be integrated with any feed-forward convolutional neural networks. Our module infers an attention map along two separate pathways, channel and spatial. We place our module at each bottleneck of models where the downsampling of feature maps occurs. Our module constructs a hierarchical attention at bottlenecks with a number of parameters and it is trainable in an end-to-end manner jointly with any feed-forward models. We validate our BAM through extensive experiments on CIFAR-100, ImageNet-1K, VOC 2007 and MS COCO benchmarks. Our experiments show consistent improvement in classification and detection performances with various models, demonstrating the wide applicability of BAM. The code and models will be publicly available."
     },
@@ -69967,7 +69325,7 @@
       "year": 2018,
       "venue": "European Conference on Computer Vision",
       "url": "https://doi.org/10.1007/978-3-030-01234-2_1",
-      "citationCount": 25622,
+      "citationCount": 25647,
       "tldr": "The proposed Convolutional Block Attention Module (CBAM), a simple yet effective attention module for feed-forward convolutional neural networks, can be integrated into any CNN architectures seamlessly with negligible overheads and is end-to-end trainable along with base CNNs.",
       "abstract": "We propose Convolutional Block Attention Module (CBAM), a simple yet effective attention module for feed-forward convolutional neural networks. Given an intermediate feature map, our module sequentially infers attention maps along two separate dimensions, channel and spatial, then the attention maps are multiplied to the input feature map for adaptive feature refinement. Because CBAM is a lightweight and general module, it can be integrated into any CNN architectures seamlessly with negligible overheads and is end-to-end trainable along with base CNNs. We validate our CBAM through extensive experiments on ImageNet-1K, MS COCO detection, and VOC 2007 detection datasets. Our experiments show consistent improvements in classification and detection performances with various models, demonstrating the wide applicability of CBAM. The code and models will be publicly available."
     },
@@ -70213,7 +69571,7 @@
           "slug": null
         },
         {
-          "name": "Z. Tu",
+          "name": "Zhuowen Tu",
           "authorId": "144035504",
           "slug": null
         }
@@ -70479,7 +69837,7 @@
       "year": 2018,
       "venue": "International Conference on Machine Learning",
       "url": "https://www.semanticscholar.org/paper/4debb99c0c63bfaa97dd433bc2828e4dac81c48b",
-      "citationCount": 7418,
+      "citationCount": 7419,
       "tldr": "This paper builds on Double Q-learning, by taking the minimum value between a pair of critics to limit overestimation, and draws the connection between target networks and overestimation bias.",
       "abstract": "In value-based reinforcement learning methods such as deep Q-learning, function approximation errors are known to lead to overestimated value estimates and suboptimal policies. We show that this problem persists in an actor-critic setting and propose novel mechanisms to minimize its effects on both the actor and the critic. Our algorithm builds on Double Q-learning, by taking the minimum value between a pair of critics to limit overestimation. We draw the connection between target networks and overestimation bias, and suggest delaying policy updates to reduce per-update error and further improve performance. We evaluate our method on the suite of OpenAI gym tasks, outperforming the state of the art in every environment tested."
     },
@@ -70666,6 +70024,98 @@
       "citationCount": 39,
       "tldr": "A novel unsupervised domain adaptation technique for the task of 3D keypoint prediction from a single depth scan or image using the fact that predictions from different views of the same or similar objects should be consistent with each other is introduced.",
       "abstract": "In this paper, we introduce a novel unsupervised domain adaptation technique for the task of 3D keypoint prediction from a single depth scan or image. Our key idea is to utilize the fact that predictions from different views of the same or similar objects should be consistent with each other. Such view consistency can provide effective regularization for keypoint prediction on unlabeled instances. In addition, we introduce a geometric alignment term to regularize predictions in the target domain. The resulting loss function can be effectively optimized via alternating minimization. We demonstrate the effectiveness of our approach on real datasets and present experimental results showing that our approach is superior to state-of-the-art general-purpose domain adaptation techniques."
+    },
+    {
+      "paperId": "4fa0d73b8ba114578744c2ebaf610d2ca9694f45",
+      "title": "Rethinking Spatiotemporal Feature Learning For Video Understanding",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Chen Sun",
+          "authorId": "1491624845",
+          "slug": null
+        },
+        {
+          "name": "Jonathan Huang",
+          "authorId": "2136435893",
+          "slug": null
+        },
+        {
+          "name": "Zhuowen Tu",
+          "authorId": "144035504",
+          "slug": null
+        },
+        {
+          "name": "K. Murphy",
+          "authorId": "1702318",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2017-12-13",
+      "year": 2017,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/4fa0d73b8ba114578744c2ebaf610d2ca9694f45",
+      "citationCount": 270,
+      "tldr": "Interestingly, it was found that 3D convolutions at the top layers of the network contribute more than 3D Convolutional networks at the bottom layers, while also being computationally more efficient, indicating that I3D is better at capturing high-level temporal patterns than low-level motion signals.",
+      "abstract": null
+    },
+    {
+      "paperId": "815aa52cfc02961d82415f080384594639a21984",
+      "title": "Rethinking Spatiotemporal Feature Learning: Speed-Accuracy Trade-offs in Video Classification",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Chen Sun",
+          "authorId": "2118831303",
+          "slug": null
+        },
+        {
+          "name": "Jonathan Huang",
+          "authorId": "2136435893",
+          "slug": null
+        },
+        {
+          "name": "Zhuowen Tu",
+          "authorId": "144035504",
+          "slug": null
+        },
+        {
+          "name": "K. Murphy",
+          "authorId": "1702318",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2017-12-13",
+      "year": 2017,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-030-01267-0_19",
+      "citationCount": 1516,
+      "tldr": "It is shown that it is possible to replace many of the 3D convolutions by low-cost 2D convolution, suggesting that temporal representation learning on high-level “semantic” features is more useful.",
+      "abstract": "Despite the steady progress in video analysis led by the adoption of convolutional neural networks (CNNs), the relative improvement has been less drastic as that in 2D static image classification. Three main challenges exist including spatial (image) feature representation, temporal information representation, and model/computation complexity. It was recently shown by Carreira and Zisserman that 3D CNNs, inflated from 2D networks and pretrained on ImageNet, could be a promising way for spatial and temporal representation learning. However, as for model/computation complexity, 3D CNNs are much more expensive than 2D CNNs and prone to overfit. We seek a balance between speed and accuracy by building an effective and efficient video classification system through systematic exploration of critical network design choices. In particular, we show that it is possible to replace many of the 3D convolutions by low-cost 2D convolutions. Rather surprisingly, best result (in both speed and accuracy) is achieved when replacing the 3D convolutions at the bottom of the network, suggesting that temporal representation learning on high-level “semantic” features is more useful. Our conclusion general"
     },
     {
       "paperId": "bfdb693df3a04fa9645233c444ccd8ec16c6c477",
@@ -71097,6 +70547,52 @@
       "citationCount": 38,
       "tldr": "This work revisits the residual function in several variations of residual units and demonstrates that these residual functions can actually be explained with a unified framework based on generalized block term decomposition, and proposes a new architecture, Collective Residual Unit (CRU), which enhances the parameter efficiency of deep neural networks through collective tensor factorization.",
       "abstract": "Residual units are wildly used for alleviating optimization difficulties when building deep neural networks. However, the performance gain does not well compensate the model size increase, indicating low parameter efficiency in these residual units. In this work, we first revisit the residual function in several variations of residual units and demonstrate that these residual functions can actually be explained with a unified framework based on generalized block term decomposition. Then, based on the new explanation, we propose a new architecture, Collective Residual Unit (CRU), which enhances the parameter efficiency of deep neural networks through collective tensor factorization. CRU enables knowledge sharing across different residual units using shared factors. Experimental results show that our proposed CRU Network demonstrates outstanding parameter efficiency, achieving comparable classification performance to ResNet-200 with the model size of ResNet-50. By building a deeper network using CRU, we can achieve state-of-the-art single model classification accuracy on ImageNet-1k and Places365-Standard benchmark datasets. (Code and trained models are available on GitHub)"
+    },
+    {
+      "paperId": "f6e0856b4a9199fa968ac00da612a9407b5cb85c",
+      "title": "Aggregated Residual Transformations for Deep Neural Networks",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Ross B. Girshick",
+          "authorId": "2983898",
+          "slug": null
+        },
+        {
+          "name": "Piotr Dollár",
+          "authorId": "3127283",
+          "slug": null
+        },
+        {
+          "name": "Zhuowen Tu",
+          "authorId": "144035504",
+          "slug": null
+        },
+        {
+          "name": "Kaiming He",
+          "authorId": "39353098",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2016-11-16",
+      "year": 2016,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR.2017.634",
+      "citationCount": 11893,
+      "tldr": "On the ImageNet-1K dataset, it is empirically show that even under the restricted condition of maintaining complexity, increasing cardinality is able to improve classification accuracy and is more effective than going deeper or wider when the authors increase the capacity.",
+      "abstract": "We present a simple, highly modularized network architecture for image classification. Our network is constructed by repeating a building block that aggregates a set of transformations with the same topology. Our simple design results in a homogeneous, multi-branch architecture that has only a few hyper-parameters to set. This strategy exposes a new dimension, which we call cardinality (the size of the set of transformations), as an essential factor in addition to the dimensions of depth and width. On the ImageNet-1K dataset, we empirically show that even under the restricted condition of maintaining complexity, increasing cardinality is able to improve classification accuracy. Moreover, increasing cardinality is more effective than going deeper or wider when we increase the capacity. Our models, named ResNeXt, are the foundations of our entry to the ILSVRC 2016 classification task in which we secured 2nd place. We further investigate ResNeXt on an ImageNet-5K set and the COCO detection set, also showing better results than its ResNet counterpart. The code and models are publicly available online."
     },
     {
       "paperId": "033dd6cf61a6017e9aa9b46068d3c89082849cf3",
@@ -71602,6 +71098,119 @@
       "abstract": null
     },
     {
+      "paperId": "ce21a57ba22b9c93cc7efa1540d2589c69fdfb9f",
+      "title": "Convolutional Pseudo-Prior for Structured Labeling",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Xun Huang",
+          "authorId": "144247007",
+          "slug": null
+        },
+        {
+          "name": "Zhuowen Tu",
+          "authorId": "144035504",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2015-11-23",
+      "year": 2015,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/ce21a57ba22b9c93cc7efa1540d2589c69fdfb9f",
+      "citationCount": 9,
+      "tldr": "A new method for structured labeling by developing convolutional pseudo-prior (ConvPP) on the ground-truth labels using pseudo-likelihood approximation to the prior under a novel fixed-point network structure that facilitates an end-to-end learning process.",
+      "abstract": null
+    },
+    {
+      "paperId": "ea8640efbd4f517c57519e1b91fe8b1fdb0dc080",
+      "title": "Top-Down Learning for Structured Labeling with Convolutional Pseudoprior",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Xun Huang",
+          "authorId": "144247007",
+          "slug": null
+        },
+        {
+          "name": "Zhuowen Tu",
+          "authorId": "144035504",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2015-11-23",
+      "year": 2015,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-319-46493-0_19",
+      "citationCount": 39,
+      "tldr": "A new method for structured labeling by developing convolutional pseudo-prior (ConvPP) on the ground-truth labels using pseudo-likelihood approximation to the prior under a novel fixed-point network structure that facilitates an end-to-end learning process.",
+      "abstract": "Current practice in convolutional neural networks (CNN) remains largely bottom-up and the role of top-down process in CNN for pattern analysis and visual inference is not very clear. In this paper, we propose a new method for structured labeling by developing convolutional pseudo-prior (ConvPP) on the ground-truth labels. Our method has several interesting properties: (1) compared with classical machine learning algorithms like CRFs and Structural SVM, ConvPP automatically learns rich convolutional kernels to capture both short- and long- range contexts; (2) compared with cascade classifiers like Auto-Context, ConvPP avoids the iterative steps of learning a series of discriminative classifiers and automatically learns contextual configurations; (3) compared with recent efforts combing CNN models with CRFs and RNNs, ConvPP learns convolution in the labeling space with much improved modeling capability and less manual specification; (4) compared with Bayesian models like MRFs, ConvPP capitalizes on the rich representation power of convolution by automatically learning priors built on convolutional filters. We accomplish our task using pseudo-likelihood approximation to the prior unde"
+    },
+    {
+      "paperId": "38128302a9d3b910e4f4fb7c3e17dc98f1d735b1",
+      "title": "Hyper-class augmented and regularized deep learning for fine-grained image classification",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Tianbao Yang",
+          "authorId": "40381920",
+          "slug": null
+        },
+        {
+          "name": "Xiaoyu Wang",
+          "authorId": "2118775664",
+          "slug": null
+        },
+        {
+          "name": "Yuanqing Lin",
+          "authorId": "119916460",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2015-10-16",
+      "year": 2015,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR.2015.7298880",
+      "citationCount": 177,
+      "tldr": null,
+      "abstract": null
+    },
+    {
       "paperId": "e465923498ffc9ffc133a3262b6bb292df16e666",
       "title": "Ultra-scalable and efficient methods for hybrid observational and experimental local causal pathway discovery",
       "teamAuthors": [
@@ -72063,8 +71672,8 @@
           "slug": null
         },
         {
-          "name": "A. D. Jong",
-          "authorId": "2004131316",
+          "name": "A.-S. Jong",
+          "authorId": "2467239470",
           "slug": null
         },
         {
@@ -72533,8 +72142,8 @@
           "slug": null
         },
         {
-          "name": "A. S. Hou",
-          "authorId": "6581059",
+          "name": "A.-Q. Hou",
+          "authorId": "103837182",
           "slug": null
         },
         {
@@ -72543,7 +72152,7 @@
           "slug": null
         },
         {
-          "name": "A. Hulsbergen",
+          "name": "A. W. Hulsbergen",
           "authorId": "2307638377",
           "slug": null
         },
@@ -72813,7 +72422,7 @@
           "slug": null
         },
         {
-          "name": "A. W. Lau",
+          "name": "A.-S.-K. Lau",
           "authorId": "2053606637",
           "slug": null
         },
@@ -73008,8 +72617,8 @@
           "slug": null
         },
         {
-          "name": "B. Martin",
-          "authorId": "103717227",
+          "name": "bb F. F. Martin",
+          "authorId": "2361463613",
           "slug": null
         },
         {
@@ -73033,7 +72642,7 @@
           "slug": null
         },
         {
-          "name": "S. McMahon",
+          "name": "S. Mcmahon",
           "authorId": "2461449836",
           "slug": null
         },
@@ -73523,12 +73132,12 @@
           "slug": null
         },
         {
-          "name": "ab M. Söderberg",
+          "name": "A. Söderberg",
           "authorId": "2004131477",
           "slug": null
         },
         {
-          "name": "A. O. Solberg",
+          "name": "A. Solberg",
           "authorId": "1703597",
           "slug": null
         },
@@ -73618,8 +73227,8 @@
           "slug": null
         },
         {
-          "name": "A. Teng",
-          "authorId": "82421082",
+          "name": "A.-Y. Teng",
+          "authorId": "2488888693",
           "slug": null
         },
         {
@@ -73844,7 +73453,7 @@
         },
         {
           "name": "L. S. Wu",
-          "authorId": "2117225197",
+          "authorId": "2219025364",
           "slug": null
         },
         {
@@ -73912,6 +73521,37 @@
       "citationCount": 1679,
       "tldr": "This paper develops an extension of Spectral Networks which incorporates a Graph Estimation procedure, that is test on large-scale classification problems, matching or improving over Dropout Networks with far less parameters to estimate.",
       "abstract": "Deep Learning's recent successes have mostly relied on Convolutional Networks, which exploit fundamental statistical properties of images, sounds and video data: the local stationarity and multi-scale compositional structure, that allows expressing long range interactions in terms of shorter, localized interactions. However, there exist other important examples, such as text documents or bioinformatic data, that may lack some or all of these strong statistical regularities. \nIn this paper we consider the general question of how to construct deep architectures with small learning complexity on general non-Euclidean domains, which are typically unknown and need to be estimated from the data. In particular, we develop an extension of Spectral Networks which incorporates a Graph Estimation procedure, that we test on large-scale classification problems, matching or improving over Dropout Networks with far less parameters to estimate."
+    },
+    {
+      "paperId": "8da55e685a7bef9c897788ab519a8710c695c419",
+      "title": "Holistically-Nested Edge Detection",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Zhuowen Tu",
+          "authorId": "144035504",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2015-04-23",
+      "year": 2015,
+      "venue": "International Journal of Computer Vision",
+      "url": "https://doi.org/10.1007/s11263-017-1004-z",
+      "citationCount": 3963,
+      "tldr": "HED performs image-to-image prediction by means of a deep learning model that leverages fully convolutional neural networks and deeply-supervised nets, and automatically learns rich hierarchical representations that are important in order to resolve the challenging ambiguity in edge and object boundary detection.",
+      "abstract": "We develop a new edge detection algorithm that addresses two important issues in this long-standing vision problem: (1) holistic image training and prediction; and (2) multi-scale and multi-level feature learning. Our proposed method, holistically-nested edge detection (HED), performs image-to-image prediction by means of a deep learning model that leverages fully convolutional neural networks and deeply-supervised nets. HED automatically learns rich hierarchical representations (guided by deep supervision on side responses) that are important in order to resolve the challenging ambiguity in edge and object boundary detection. We significantly advance the state-of-the-art on the BSDS500 dataset (ODS F-score of 0.790) and the NYU Depth dataset (ODS F-score of 0.746), and do so with an improved speed (0.4 s per image) that is orders of magnitude faster than some CNN-based edge detection algorithms developed before HED. We also observe encouraging results on other boundary detection benchmark datasets such as Multicue and PASCAL-Context."
     },
     {
       "paperId": "42ffc02d5fc249aaf3393f83c41e3a24e810924b",
@@ -74815,62 +74455,6 @@
       "abstract": null
     },
     {
-      "paperId": "07e6ee0c7df507e2ceb3b2393243284f1d9cf469",
-      "title": "Low prevalence of Cryptosporidium parvum in hospitalized children in Kota Bharu, Malaysia.",
-      "teamAuthors": [
-        {
-          "slug": "ayaan-naveed-malik",
-          "name": "Ayaan Naveed Malik"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Bs Menon",
-          "authorId": "2245496908",
-          "slug": null
-        },
-        {
-          "name": "M. Abdullah",
-          "authorId": "90754573",
-          "slug": null
-        },
-        {
-          "name": "F. Mahamud",
-          "authorId": "9324073",
-          "slug": null
-        },
-        {
-          "name": "UM Morgan",
-          "authorId": "2245946310",
-          "slug": null
-        },
-        {
-          "name": "A. Malik",
-          "authorId": "2276271702",
-          "slug": "ayaan-naveed-malik"
-        },
-        {
-          "name": "K. Choo",
-          "authorId": "40066418",
-          "slug": null
-        },
-        {
-          "name": "B. Singh",
-          "authorId": "2203779563",
-          "slug": null
-        }
-      ],
-      "memberSlug": "ayaan-naveed-malik",
-      "memberName": "Ayaan Naveed Malik",
-      "publicationDate": "2001-06-01",
-      "year": 2001,
-      "venue": "Southeast Asian Journal of Tropical Medicine and Public Health",
-      "url": "https://www.semanticscholar.org/paper/07e6ee0c7df507e2ceb3b2393243284f1d9cf469",
-      "citationCount": 30,
-      "tldr": "It is found C. parvum to be an uncommon infective agent in hospitalized children with or without diarrhea in Kota Bharu, Malaysia.",
-      "abstract": null
-    },
-    {
       "paperId": "be2bd2ca84460ab58c5563789b8cd482e977ee76",
       "title": "The Diashow Paradox: Stronger 3D-Aware Representations Emerge from Image Sets, Not Videos Anonymous ICCV submission",
       "teamAuthors": [
@@ -74968,7 +74552,7 @@
         },
         {
           "name": "Artem Koustuv Sinha",
-          "authorId": "2383851528",
+          "authorId": null,
           "slug": null
         },
         {
@@ -75057,8 +74641,8 @@
           "slug": null
         },
         {
-          "name": "Hervé Jégou",
-          "authorId": "2286254894",
+          "name": "Herv'e Jegou",
+          "authorId": null,
           "slug": null
         },
         {
@@ -75545,7 +75129,7 @@
           "slug": null
         },
         {
-          "name": "Vineet Kosaraju",
+          "name": "V. Kosaraju",
           "authorId": "13622184",
           "slug": null
         },
@@ -75771,7 +75355,7 @@
         },
         {
           "name": "Guanting Chen",
-          "authorId": "2278589675",
+          "authorId": "2478630732",
           "slug": null
         },
         {
@@ -75850,12 +75434,12 @@
           "slug": null
         },
         {
-          "name": "J. Qiu",
-          "authorId": "2262395511",
+          "name": "Jun-Jie Qiu",
+          "authorId": "2278355944",
           "slug": null
         },
         {
-          "name": "Junlong Li",
+          "name": "Jun-Long Li",
           "authorId": "2278801242",
           "slug": null
         },
@@ -75920,7 +75504,7 @@
           "slug": null
         },
         {
-          "name": "Litong Wang",
+          "name": "Li-Tong Wang",
           "authorId": "15068726",
           "slug": null
         },
@@ -75975,8 +75559,8 @@
           "slug": null
         },
         {
-          "name": "Panpan Huang",
-          "authorId": "2278251752",
+          "name": "Pan-Pan Huang",
+          "authorId": "2485004212",
           "slug": null
         },
         {
@@ -76040,7 +75624,7 @@
           "slug": null
         },
         {
-          "name": "Shangyan Zhou",
+          "name": "Shang-Yan Zhou",
           "authorId": "2278397391",
           "slug": null
         },
@@ -76191,7 +75775,7 @@
         },
         {
           "name": "Xingchao Liu",
-          "authorId": "2326998908",
+          "authorId": "46521757",
           "slug": null
         },
         {
@@ -76225,7 +75809,7 @@
           "slug": null
         },
         {
-          "name": "Xi-Cheng Shen",
+          "name": "Xiaojin Shen",
           "authorId": "2262432943",
           "slug": null
         },
@@ -76305,7 +75889,7 @@
           "slug": null
         },
         {
-          "name": "Yaohui Wang",
+          "name": "Yao-Hui Wang",
           "authorId": "2278432120",
           "slug": null
         },
@@ -76320,7 +75904,7 @@
           "slug": null
         },
         {
-          "name": "Yifan Shi",
+          "name": "Yi-Fan Shi",
           "authorId": "2398836203",
           "slug": null
         },
@@ -76421,7 +76005,7 @@
         },
         {
           "name": "Yanping Huang",
-          "authorId": "2272475376",
+          "authorId": "2145438541",
           "slug": null
         },
         {
@@ -76445,18 +76029,18 @@
           "slug": null
         },
         {
-          "name": "Y. Zha",
+          "name": "Yukun Zha",
           "authorId": "2337687962",
           "slug": null
         },
         {
-          "name": "Yuting Yan",
+          "name": "Yu-Ting Yan",
           "authorId": "2297516628",
           "slug": null
         },
         {
           "name": "Z. Ren",
-          "authorId": "2287921382",
+          "authorId": "2278430558",
           "slug": null
         },
         {
@@ -76481,7 +76065,7 @@
         },
         {
           "name": "Zhengyan Zhang",
-          "authorId": "2346149696",
+          "authorId": "2485088783",
           "slug": null
         },
         {
@@ -76610,8 +76194,8 @@
           "slug": null
         },
         {
-          "name": "Hanlin Zhang",
-          "authorId": "2307629849",
+          "name": "Han Zhang",
+          "authorId": "2275207338",
           "slug": null
         },
         {
@@ -76990,7 +76574,7 @@
           "slug": null
         },
         {
-          "name": "Dawei Zhu",
+          "name": "Da-Wei Zhu",
           "authorId": "2308000644",
           "slug": null
         },
@@ -77050,7 +76634,7 @@
           "slug": null
         },
         {
-          "name": "Shibo Wang",
+          "name": "Shi-Bo Wang",
           "authorId": "2108553866",
           "slug": null
         },
@@ -77125,13 +76709,13 @@
           "slug": null
         },
         {
-          "name": "J. Love",
+          "name": "Julie Love",
           "authorId": "103237615",
           "slug": null
         },
         {
-          "name": "Paul Voigt-laender",
-          "authorId": "2421762140",
+          "name": "P. Voigtlaender",
+          "authorId": "2767859",
           "slug": null
         },
         {
@@ -77180,7 +76764,7 @@
           "slug": null
         },
         {
-          "name": "Yujie Zhang",
+          "name": "Yu-Jie Zhang",
           "authorId": "2295687137",
           "slug": null
         },
@@ -77281,7 +76865,7 @@
         },
         {
           "name": "DJ Strouse",
-          "authorId": "2256995024",
+          "authorId": "69925460",
           "slug": null
         },
         {
@@ -77315,8 +76899,8 @@
           "slug": null
         },
         {
-          "name": "X. Garcia",
-          "authorId": "2378167500",
+          "name": "Xavier García",
+          "authorId": "2275181515",
           "slug": null
         },
         {
@@ -77546,7 +77130,7 @@
         },
         {
           "name": "Chris Larkin",
-          "authorId": "2290487293",
+          "authorId": "2388208850",
           "slug": null
         },
         {
@@ -77770,7 +77354,7 @@
           "slug": null
         },
         {
-          "name": "Martin Doshi",
+          "name": "M. Doshi",
           "authorId": "2421761499",
           "slug": null
         },
@@ -77810,8 +77394,8 @@
           "slug": null
         },
         {
-          "name": "Fan Sang",
-          "authorId": "2113370876",
+          "name": "F. Sang",
+          "authorId": "114245010",
           "slug": null
         },
         {
@@ -77875,8 +77459,8 @@
           "slug": null
         },
         {
-          "name": "S. Das",
-          "authorId": "2339238727",
+          "name": "Stephan Das",
+          "authorId": "2484878575",
           "slug": null
         },
         {
@@ -77980,7 +77564,7 @@
           "slug": null
         },
         {
-          "name": "Anja Butterfield",
+          "name": "A. Butterfield",
           "authorId": "2421762351",
           "slug": null
         },
@@ -78148,7 +77732,7 @@
           "slug": null
         },
         {
-          "name": "Ali Kamali",
+          "name": "A. Kamali",
           "authorId": "2275169038",
           "slug": null
         },
@@ -78489,7 +78073,7 @@
         },
         {
           "name": "Ji Lin",
-          "authorId": "2328261167",
+          "authorId": "2110385919",
           "slug": null
         },
         {
@@ -78669,7 +78253,7 @@
         },
         {
           "name": "Lin Yang",
-          "authorId": "2376185916",
+          "authorId": "2451745083",
           "slug": null
         },
         {
@@ -78748,7 +78332,7 @@
           "slug": null
         },
         {
-          "name": "Zhuoran Liu",
+          "name": "Zhuo-Ran Liu",
           "authorId": "2303894061",
           "slug": null
         },
@@ -78843,7 +78427,7 @@
           "slug": null
         },
         {
-          "name": "O. Pinto",
+          "name": "Oliveira Pinto",
           "authorId": "2286067275",
           "slug": null
         },
@@ -79955,7 +79539,7 @@
         },
         {
           "name": "Jason Phang",
-          "authorId": "2351462808",
+          "authorId": "80842917",
           "slug": null
         },
         {
@@ -80000,7 +79584,7 @@
         },
         {
           "name": "Ji Lin",
-          "authorId": "2328261167",
+          "authorId": "2110385919",
           "slug": null
         },
         {
@@ -80214,7 +79798,7 @@
           "slug": null
         },
         {
-          "name": "Larry Kai",
+          "name": "L. Kai",
           "authorId": "2328089844",
           "slug": null
         },
@@ -80469,7 +80053,7 @@
           "slug": null
         },
         {
-          "name": "Temudo de Castro",
+          "name": "T. de Castro",
           "authorId": "2464428250",
           "slug": null
         },
@@ -81141,7 +80725,7 @@
       "year": null,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/cfee1826dd4743eab44c6e27a0cc5970effa4d80",
-      "citationCount": 1846,
+      "citationCount": 1848,
       "tldr": "It is shown that prompt following abilities of text-to-image models can be substantially improved by training on highly descriptive generated image captions, and is benchmarked on an evaluation designed to measure prompt following, coherence, and aesthetics, finding that it compares favorably to competitors.",
       "abstract": null
     },
@@ -81156,12 +80740,12 @@
       ],
       "authors": [
         {
-          "name": "∗. ChangyuChen",
-          "authorId": "2359459880",
+          "name": "ChangyuChen",
+          "authorId": null,
           "slug": null
         },
         {
-          "name": "Zi-Yan Liu",
+          "name": "Zichen Liu",
           "authorId": "2117943295",
           "slug": null
         },
@@ -81171,8 +80755,8 @@
           "slug": null
         },
         {
-          "name": "†. ChaoDu",
-          "authorId": "2359460083",
+          "name": "ChaoDu",
+          "authorId": null,
           "slug": null
         },
         {
@@ -81308,7 +80892,7 @@
           "slug": null
         },
         {
-          "name": "D. Almeida",
+          "name": "Diogo M. Almeida",
           "authorId": "2275252021",
           "slug": null
         },
@@ -81484,7 +81068,7 @@
           "slug": null
         },
         {
-          "name": "Leyang Shen",
+          "name": "Le-Yang Shen",
           "authorId": "2267647953",
           "slug": null
         },
@@ -81629,7 +81213,7 @@
           "slug": null
         },
         {
-          "name": "Xinliang Wu",
+          "name": "Xin-Liang Wu",
           "authorId": "2188345256",
           "slug": null
         },
@@ -81694,8 +81278,8 @@
           "slug": null
         },
         {
-          "name": "Panpan Huang",
-          "authorId": "2278251752",
+          "name": "Pan-Pan Huang",
+          "authorId": "2485004212",
           "slug": null
         },
         {
@@ -82004,7 +81588,7 @@
           "slug": null
         },
         {
-          "name": "Xiaojun Meng",
+          "name": "Xiao-Jun Meng",
           "authorId": "2332816459",
           "slug": null
         },
@@ -82255,7 +81839,7 @@
         },
         {
           "name": "Yuke Zhu",
-          "authorId": "2286535257",
+          "authorId": "2258068214",
           "slug": null
         },
         {
@@ -82445,7 +82029,7 @@
         },
         {
           "name": "Zhengxuan Zhang",
-          "authorId": "2191377691",
+          "authorId": "2330237899",
           "slug": null
         },
         {
@@ -82665,7 +82249,7 @@
         },
         {
           "name": "Huang Peng",
-          "authorId": "2324900462",
+          "authorId": "2293302006",
           "slug": null
         },
         {
@@ -83149,8 +82733,8 @@
           "slug": null
         },
         {
-          "name": "Jie Wang",
-          "authorId": "2358159955",
+          "name": "Jie-Ming Wang",
+          "authorId": "2177406929",
           "slug": null
         },
         {
@@ -83219,7 +82803,7 @@
           "slug": null
         },
         {
-          "name": "Xiaodan Wang",
+          "name": "Xiao-Dan Wang",
           "authorId": "2389971501",
           "slug": null
         },
@@ -83274,8 +82858,8 @@
           "slug": null
         },
         {
-          "name": "Ji Cai",
-          "authorId": "2327001537",
+          "name": "Jiong Cai",
+          "authorId": "2115669960",
           "slug": null
         },
         {
@@ -83564,7 +83148,7 @@
           "slug": null
         },
         {
-          "name": "Junwen Li",
+          "name": "Jun-Wen Li",
           "authorId": "2244686189",
           "slug": null
         },
@@ -83619,7 +83203,7 @@
           "slug": null
         },
         {
-          "name": "H. Luan",
+          "name": "Hua Luan",
           "authorId": "2263988269",
           "slug": null
         },
