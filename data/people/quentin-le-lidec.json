@@ -51,7 +51,7 @@
         },
         {
           "slug": null,
-          "name": "Florian Buettner"
+          "name": "F. Buettner"
         }
       ]
     },
@@ -137,7 +137,7 @@
         },
         {
           "slug": null,
-          "name": "Ayush Chaurasia"
+          "name": "Ayushi Chaurasia"
         },
         {
           "slug": null,
@@ -162,28 +162,6 @@
         {
           "slug": null,
           "name": "Randall Balestriero"
-        }
-      ]
-    },
-    {
-      "paperId": "f1a7a798e6ac2298f5f140d19ee25031e4f8e1d2",
-      "title": "Accelerating trajectory optimization with Sobolev-trained diffusion policies",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2604.19011",
-      "citationCount": 0,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Th'eotime Le Hellard"
-        },
-        {
-          "slug": null,
-          "name": "Franki Nguimatsia Tiofack"
-        },
-        {
-          "slug": null,
-          "name": "Justin Carpentier"
         }
       ]
     },
@@ -553,6 +531,13 @@
       "url": "https://doi.org/10.1109/TRO.2024.3434208"
     },
     {
+      "title": "Differentiable Collision Detection: a Randomized Smoothing Approach",
+      "year": 2022,
+      "citationCount": 48,
+      "venue": "IEEE International Conference on Robotics and Automation",
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160251"
+    },
+    {
       "title": "GJK++: Leveraging Acceleration Methods for Faster Collision Detection",
       "year": 2024,
       "citationCount": 34,
@@ -560,25 +545,18 @@
       "url": "https://doi.org/10.1109/TRO.2024.3386370"
     },
     {
-      "title": "From Compliant to Rigid Contact Simulation: a Unified and Efficient Approach",
-      "year": 2024,
-      "citationCount": 22,
-      "venue": "Robotics: Science and Systems Conference",
-      "url": "https://doi.org/10.48550/arXiv.2405.17020"
-    },
-    {
-      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Masking",
-      "year": 2026,
-      "citationCount": 8,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/bed6ecff103c1a6f3a516d9b9d4847be8aff5294"
-    },
-    {
-      "title": "Enforcing the consensus between Trajectory Optimization and Policy Learning for precise robot control",
+      "title": "Collision Detection Accelerated: An Optimization Perspective",
       "year": 2022,
-      "citationCount": 8,
-      "venue": "IEEE International Conference on Robotics and Automation",
-      "url": "https://doi.org/10.1109/ICRA48891.2023.10160387"
+      "citationCount": 31,
+      "venue": "Robotics: Science and Systems Conference",
+      "url": "https://doi.org/10.48550/arXiv.2205.09663"
+    },
+    {
+      "title": "Leveraging Randomized Smoothing for Optimal Control of Nonsmooth Dynamical Systems",
+      "year": 2022,
+      "citationCount": 30,
+      "venue": "Nonlinear Analysis. Hybrid Systems",
+      "url": "https://doi.org/10.48550/arXiv.2203.03986"
     }
   ],
   "githubProjects": [],
@@ -630,7 +608,7 @@
     "externalCoAuthors": [
       {
         "name": "Justin Carpentier",
-        "papers": 11
+        "papers": 10
       },
       {
         "name": "Louis Montaut",
@@ -669,10 +647,6 @@
         "papers": 2
       },
       {
-        "name": "Franki Nguimatsia Tiofack",
-        "papers": 2
-      },
-      {
         "name": "Wilson Jallet",
         "papers": 2
       },
@@ -685,7 +659,7 @@
         "papers": 1
       },
       {
-        "name": "Florian Buettner",
+        "name": "F. Buettner",
         "papers": 1
       },
       {
@@ -701,7 +675,7 @@
         "papers": 1
       },
       {
-        "name": "Ayush Chaurasia",
+        "name": "Ayushi Chaurasia",
         "papers": 1
       },
       {
@@ -714,10 +688,6 @@
       },
       {
         "name": "Taj Gillin",
-        "papers": 1
-      },
-      {
-        "name": "Th'eotime Le Hellard",
         "papers": 1
       },
       {
@@ -742,6 +712,10 @@
       },
       {
         "name": "Th´eotime Le Hellard",
+        "papers": 1
+      },
+      {
+        "name": "Franki Nguimatsia Tiofack",
         "papers": 1
       }
     ],

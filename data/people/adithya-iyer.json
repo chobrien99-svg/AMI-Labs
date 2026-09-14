@@ -32,6 +32,24 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "e853967245079e097de13475b229d16988065719",
+      "title": "The Tale of the Broken Clock: How LLMs Evaluate Requirement Quality and Where They Fail",
+      "year": 2026,
+      "venue": null,
+      "url": "https://doi.org/10.1002/iis2.70245",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "J. Shefa"
+        },
+        {
+          "slug": null,
+          "name": "Taylan G. Topcu"
+        }
+      ]
+    },
+    {
       "paperId": "d48730481633499ce3ef5341c852c6439a5cae00",
       "title": "Reshoot-Anything: A Self-Supervised Model for In-the-Wild Video Reshooting",
       "year": 2026,
@@ -236,11 +254,11 @@
       "url": "https://doi.org/10.48550/arXiv.2402.13468"
     },
     {
-      "title": "A Third Eye for Visually Impaired",
-      "year": 2023,
+      "title": "The Tale of the Broken Clock: How LLMs Evaluate Requirement Quality and Where They Fail",
+      "year": 2026,
       "citationCount": 0,
-      "venue": "2023 Intelligent Computing and Control for Engineering and Business Systems (ICCEBS)",
-      "url": "https://doi.org/10.1109/ICCEBS58601.2023.10448652"
+      "venue": null,
+      "url": "https://doi.org/10.1002/iis2.70245"
     }
   ],
   "githubProjects": [],
@@ -282,6 +300,14 @@
       }
     ],
     "externalCoAuthors": [
+      {
+        "name": "J. Shefa",
+        "papers": 1
+      },
+      {
+        "name": "Taylan G. Topcu",
+        "papers": 1
+      },
       {
         "name": "Avinash Paliwal",
         "papers": 1

@@ -59,36 +59,6 @@
   ],
   "papers": [
     {
-      "paperId": "53ea2e04a11011cc0c05e4b704c6d3f379c1645b",
-      "title": "RepFusion: Leveraging Multimodal Priors for Denoising in Representation Space",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2606.14700",
-      "citationCount": 2,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Xichen Pan"
-        },
-        {
-          "slug": null,
-          "name": "Aashu Singh"
-        },
-        {
-          "slug": null,
-          "name": "Satya Narayan Shukla"
-        },
-        {
-          "slug": null,
-          "name": "Xiangjun Fan"
-        },
-        {
-          "slug": null,
-          "name": "S. Mishra"
-        }
-      ]
-    },
-    {
       "paperId": "98bfd032ec0208cadd3a5deb9f34d4b228736599",
       "title": "Cambrian-P: Pose-Grounded Video Understanding",
       "year": 2026,
@@ -123,44 +93,6 @@
         {
           "slug": null,
           "name": "Hu Xu"
-        }
-      ]
-    },
-    {
-      "paperId": "7272e854e744fda37757fed2557612c820792de3",
-      "title": "Repurposing Geometric Foundation Models for Multi-view Diffusion",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2603.22275",
-      "citationCount": 7,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Wooseok Jang"
-        },
-        {
-          "slug": null,
-          "name": "Seonghu Jeon"
-        },
-        {
-          "slug": null,
-          "name": "Jisang Han"
-        },
-        {
-          "slug": null,
-          "name": "Jinhyeok Choi"
-        },
-        {
-          "slug": null,
-          "name": "Minkyung Kwon"
-        },
-        {
-          "slug": null,
-          "name": "Seungryong Kim"
-        },
-        {
-          "slug": null,
-          "name": "Sainan Liu"
         }
       ]
     },
@@ -214,7 +146,7 @@
         },
         {
           "slug": null,
-          "name": "Th'eophane Vallaeys"
+          "name": "Théophane Vallaeys"
         },
         {
           "slug": null,
@@ -255,36 +187,48 @@
       ]
     },
     {
-      "paperId": "4214cfd60b1925f738ac728fa4a5c8feaa489db0",
-      "title": "What matters for Representation Alignment: Global Information or Spatial Structure?",
-      "year": 2025,
+      "paperId": "0b457a087fa7c01f37de67065be19f3aa8583aa8",
+      "title": "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
+      "year": 2026,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2512.10794",
-      "citationCount": 66,
+      "url": "https://doi.org/10.48550/arXiv.2601.16208",
+      "citationCount": 43,
       "coAuthors": [
         {
-          "slug": null,
-          "name": "Jaskirat Singh"
+          "slug": "jihan-yang",
+          "name": "Jihan Yang"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
         },
         {
           "slug": null,
-          "name": "Xingjian Leng"
+          "name": "Shengbang Tong"
         },
         {
           "slug": null,
-          "name": "Zongze Wu"
+          "name": "Boyang Zheng"
         },
         {
           "slug": null,
-          "name": "Liang Zheng"
+          "name": "Ziteng Wang"
         },
         {
           "slug": null,
-          "name": "Richard Zhang"
+          "name": "Bingda Tang"
         },
         {
           "slug": null,
-          "name": "Eli Shechtman"
+          "name": "Nanye Ma"
+        },
+        {
+          "slug": null,
+          "name": "Ellis Brown"
+        },
+        {
+          "slug": null,
+          "name": "Rob Fergus"
         }
       ]
     },
@@ -381,36 +325,6 @@
       ]
     },
     {
-      "paperId": "a59bd4c20088d57ea27eb51f860996fa58caf2a3",
-      "title": "DiffusionGuard: A Robust Defense Against Malicious Diffusion-based Image Editing",
-      "year": 2025,
-      "venue": "International Conference on Learning Representations",
-      "url": "https://doi.org/10.48550/arXiv.2410.05694",
-      "citationCount": 36,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "June Suk Choi"
-        },
-        {
-          "slug": null,
-          "name": "Kyungmin Lee"
-        },
-        {
-          "slug": null,
-          "name": "Jongheon Jeong"
-        },
-        {
-          "slug": null,
-          "name": "Jinwoo Shin"
-        },
-        {
-          "slug": null,
-          "name": "Kimin Lee"
-        }
-      ]
-    },
-    {
       "paperId": "dc008a333ac4aaf69ca9715c05741de40b18630a",
       "title": "Traveling Across Languages: Benchmarking Cross-Lingual Consistency in Multimodal LLMs",
       "year": 2025,
@@ -437,32 +351,52 @@
       ]
     },
     {
-      "paperId": "27a028c9ad4145d52d5e00619a7672ca0429aac2",
-      "title": "REPA-E: Unlocking VAE for End-to-End Tuning with Latent Diffusion Transformers",
+      "paperId": "aa5d0f6a14a9da689de842f6af61021e6d91aadf",
+      "title": "Scaling Language-Free Visual Representation Learning",
       "year": 2025,
       "venue": "IEEE International Conference on Computer Vision",
-      "url": "https://doi.org/10.1109/ICCV51701.2025.01697",
-      "citationCount": 201,
+      "url": "https://doi.org/10.1109/ICCV51701.2025.00042",
+      "citationCount": 68,
       "coAuthors": [
         {
-          "slug": null,
-          "name": "Xingjian Leng"
+          "slug": "david-fan",
+          "name": "David Fan"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
         },
         {
           "slug": null,
-          "name": "Jaskirat Singh"
+          "name": "Shengbang Tong"
         },
         {
           "slug": null,
-          "name": "Yunzhong Hou"
+          "name": "Jiacheng Zhu"
         },
         {
           "slug": null,
-          "name": "Zhenchang Xing"
+          "name": "Koustuv Sinha"
         },
         {
           "slug": null,
-          "name": "Liang Zheng"
+          "name": "Zhuang Liu"
+        },
+        {
+          "slug": null,
+          "name": "Xinlei Chen"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
         }
       ]
     },
@@ -509,66 +443,48 @@
       ]
     },
     {
-      "paperId": "f5ac95fa58815a35622a60f42a5729f518e57cdf",
-      "title": "Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think",
+      "paperId": "af548607b73fcd51683842d2fbefb3f97205e885",
+      "title": "MetaMorph: Multimodal Understanding and Generation via Instruction Tuning",
       "year": 2024,
-      "venue": "International Conference on Learning Representations",
-      "url": "https://doi.org/10.48550/arXiv.2410.06940",
-      "citationCount": 671,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV51701.2025.01579",
+      "citationCount": 229,
       "coAuthors": [
         {
-          "slug": null,
-          "name": "Sihyun Yu"
+          "slug": "david-fan",
+          "name": "David Fan"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
         },
         {
           "slug": null,
-          "name": "Sangkyung Kwak"
+          "name": "Shengbang Tong"
         },
         {
           "slug": null,
-          "name": "Huiwon Jang"
+          "name": "Jiacheng Zhu"
         },
         {
           "slug": null,
-          "name": "Jongheon Jeong"
+          "name": "Yunyang Xiong"
         },
         {
           "slug": null,
-          "name": "Jonathan Huang"
+          "name": "Xinlei Chen"
         },
         {
           "slug": null,
-          "name": "Jinwoo Shin"
-        }
-      ]
-    },
-    {
-      "paperId": "7a2dfea68ce49dbab042bb29a890a4e357ebda6f",
-      "title": "DiffusionGuard: A Robust Defense Against Malicious Diffusion-based Image Editing",
-      "year": 2024,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/7a2dfea68ce49dbab042bb29a890a4e357ebda6f",
-      "citationCount": 0,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "June Suk Choi"
+          "name": "Koustuv Sinha"
         },
         {
           "slug": null,
-          "name": "Kyungmin Lee"
-        },
-        {
-          "slug": null,
-          "name": "Jongheon Jeong"
-        },
-        {
-          "slug": null,
-          "name": "Jinwoo Shin"
-        },
-        {
-          "slug": null,
-          "name": "Kimin Lee"
+          "name": "Zhuang Liu"
         }
       ]
     },
@@ -631,6 +547,86 @@
         {
           "slug": null,
           "name": "Rob Fergus"
+        }
+      ]
+    },
+    {
+      "paperId": "f7749635a5fc0492ef4705bee963ffa887bb2865",
+      "title": "Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning",
+      "year": 2024,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2405.10292",
+      "citationCount": 210,
+      "coAuthors": [
+        {
+          "slug": "yuexiang-zhai",
+          "name": "Yuexiang Zhai"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Hao Bai"
+        },
+        {
+          "slug": null,
+          "name": "Zipeng Lin"
+        },
+        {
+          "slug": null,
+          "name": "Jiayi Pan"
+        },
+        {
+          "slug": null,
+          "name": "Shengbang Tong"
+        },
+        {
+          "slug": null,
+          "name": "Yifei Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Alane Suhr"
+        },
+        {
+          "slug": null,
+          "name": "Yi Ma"
+        },
+        {
+          "slug": null,
+          "name": "Sergey Levine"
+        }
+      ]
+    },
+    {
+      "paperId": "ca00f4056f9039d3c1a4c3a113f5ee0527149b66",
+      "title": "Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs",
+      "year": 2024,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52733.2024.00914",
+      "citationCount": 880,
+      "coAuthors": [
+        {
+          "slug": "yuexiang-zhai",
+          "name": "Yuexiang Zhai"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Shengbang Tong"
+        },
+        {
+          "slug": null,
+          "name": "Zhuang Liu"
+        },
+        {
+          "slug": null,
+          "name": "Yi Ma"
         }
       ]
     },
@@ -712,7 +708,7 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548",
-      "citationCount": 2010,
+      "citationCount": 2012,
       "coAuthors": [
         {
           "slug": "sanghyun-woo",
@@ -746,7 +742,7 @@
       "year": 2022,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51070.2023.00387",
-      "citationCount": 7110,
+      "citationCount": 7119,
       "coAuthors": [
         {
           "slug": null,
@@ -824,7 +820,7 @@
       "year": 2022,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01167",
-      "citationCount": 9309,
+      "citationCount": 9317,
       "coAuthors": [
         {
           "slug": null,
@@ -966,7 +962,7 @@
       "year": 2021,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01553",
-      "citationCount": 12730,
+      "citationCount": 12742,
       "coAuthors": [
         {
           "slug": null,
@@ -1070,7 +1066,7 @@
       "year": 2021,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV48922.2021.00950",
-      "citationCount": 2477,
+      "citationCount": 2476,
       "coAuthors": [
         {
           "slug": null,
@@ -1228,7 +1224,7 @@
         },
         {
           "slug": null,
-          "name": "Albert Gordo"
+          "name": "A. Gordo"
         },
         {
           "slug": null,
@@ -1346,7 +1342,7 @@
       "year": 2019,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/cvpr42600.2020.00975",
-      "citationCount": 15687,
+      "citationCount": 15695,
       "coAuthors": [
         {
           "slug": null,
@@ -1372,7 +1368,7 @@
       "year": 2019,
       "venue": "International Conference on Learning Representations",
       "url": "https://www.semanticscholar.org/paper/dcc4c760c3f1cb17f953c487190b735030c33b78",
-      "citationCount": 1619,
+      "citationCount": 1620,
       "coAuthors": [
         {
           "slug": "bingyi-kang",
@@ -1388,7 +1384,7 @@
         },
         {
           "slug": null,
-          "name": "Albert Gordo"
+          "name": "A. Gordo"
         },
         {
           "slug": null,
@@ -1589,7 +1585,7 @@
         },
         {
           "slug": null,
-          "name": "Z. Tu"
+          "name": "Zhuowen Tu"
         }
       ]
     },
@@ -1626,34 +1622,184 @@
           "name": "Y. Teh"
         }
       ]
+    },
+    {
+      "paperId": "4fa0d73b8ba114578744c2ebaf610d2ca9694f45",
+      "title": "Rethinking Spatiotemporal Feature Learning For Video Understanding",
+      "year": 2017,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/4fa0d73b8ba114578744c2ebaf610d2ca9694f45",
+      "citationCount": 270,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chen Sun"
+        },
+        {
+          "slug": null,
+          "name": "Jonathan Huang"
+        },
+        {
+          "slug": null,
+          "name": "Zhuowen Tu"
+        },
+        {
+          "slug": null,
+          "name": "K. Murphy"
+        }
+      ]
+    },
+    {
+      "paperId": "815aa52cfc02961d82415f080384594639a21984",
+      "title": "Rethinking Spatiotemporal Feature Learning: Speed-Accuracy Trade-offs in Video Classification",
+      "year": 2017,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-030-01267-0_19",
+      "citationCount": 1516,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chen Sun"
+        },
+        {
+          "slug": null,
+          "name": "Jonathan Huang"
+        },
+        {
+          "slug": null,
+          "name": "Zhuowen Tu"
+        },
+        {
+          "slug": null,
+          "name": "K. Murphy"
+        }
+      ]
+    },
+    {
+      "paperId": "f6e0856b4a9199fa968ac00da612a9407b5cb85c",
+      "title": "Aggregated Residual Transformations for Deep Neural Networks",
+      "year": 2016,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR.2017.634",
+      "citationCount": 11893,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ross B. Girshick"
+        },
+        {
+          "slug": null,
+          "name": "Piotr Dollár"
+        },
+        {
+          "slug": null,
+          "name": "Zhuowen Tu"
+        },
+        {
+          "slug": null,
+          "name": "Kaiming He"
+        }
+      ]
+    },
+    {
+      "paperId": "ce21a57ba22b9c93cc7efa1540d2589c69fdfb9f",
+      "title": "Convolutional Pseudo-Prior for Structured Labeling",
+      "year": 2015,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/ce21a57ba22b9c93cc7efa1540d2589c69fdfb9f",
+      "citationCount": 9,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Xun Huang"
+        },
+        {
+          "slug": null,
+          "name": "Zhuowen Tu"
+        }
+      ]
+    },
+    {
+      "paperId": "ea8640efbd4f517c57519e1b91fe8b1fdb0dc080",
+      "title": "Top-Down Learning for Structured Labeling with Convolutional Pseudoprior",
+      "year": 2015,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-319-46493-0_19",
+      "citationCount": 39,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Xun Huang"
+        },
+        {
+          "slug": null,
+          "name": "Zhuowen Tu"
+        }
+      ]
+    },
+    {
+      "paperId": "38128302a9d3b910e4f4fb7c3e17dc98f1d735b1",
+      "title": "Hyper-class augmented and regularized deep learning for fine-grained image classification",
+      "year": 2015,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR.2015.7298880",
+      "citationCount": 177,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tianbao Yang"
+        },
+        {
+          "slug": null,
+          "name": "Xiaoyu Wang"
+        },
+        {
+          "slug": null,
+          "name": "Yuanqing Lin"
+        }
+      ]
+    },
+    {
+      "paperId": "8da55e685a7bef9c897788ab519a8710c695c419",
+      "title": "Holistically-Nested Edge Detection",
+      "year": 2015,
+      "venue": "International Journal of Computer Vision",
+      "url": "https://doi.org/10.1007/s11263-017-1004-z",
+      "citationCount": 3963,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Zhuowen Tu"
+        }
+      ]
     }
   ],
   "topPublications": [
     {
       "title": "Masked Autoencoders Are Scalable Vision Learners",
       "year": 2021,
-      "citationCount": 12730,
+      "citationCount": 12742,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01553"
     },
     {
       "title": "A ConvNet for the 2020s",
       "year": 2022,
-      "citationCount": 9309,
+      "citationCount": 9315,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01167"
     },
     {
       "title": "Scalable Diffusion Models with Transformers",
       "year": 2022,
-      "citationCount": 7110,
+      "citationCount": 7119,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51070.2023.00387"
     },
     {
       "title": "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders",
       "year": 2023,
-      "citationCount": 2010,
+      "citationCount": 2012,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548"
     },
@@ -1689,14 +1835,34 @@
   "connections": {
     "coAuthors": [
       {
-        "slug": "jihan-yang",
-        "name": "Jihan Yang",
-        "sharedPapers": 6
-      },
-      {
         "slug": "yann-lecun",
         "name": "Yann LeCun",
+        "sharedPapers": 8
+      },
+      {
+        "slug": "jihan-yang",
+        "name": "Jihan Yang",
+        "sharedPapers": 7
+      },
+      {
+        "slug": "david-fan",
+        "name": "David Fan",
         "sharedPapers": 3
+      },
+      {
+        "slug": "michael-rabbat",
+        "name": "Michael Rabbat",
+        "sharedPapers": 3
+      },
+      {
+        "slug": "yuexiang-zhai",
+        "name": "Yuexiang Zhai",
+        "sharedPapers": 3
+      },
+      {
+        "slug": "amir-bar",
+        "name": "Amir Bar",
+        "sharedPapers": 2
       },
       {
         "slug": "sanghyun-woo",
@@ -1709,28 +1875,8 @@
         "sharedPapers": 2
       },
       {
-        "slug": "david-fan",
-        "name": "David Fan",
-        "sharedPapers": 1
-      },
-      {
         "slug": "john-nguyen",
         "name": "John Nguyen",
-        "sharedPapers": 1
-      },
-      {
-        "slug": "amir-bar",
-        "name": "Amir Bar",
-        "sharedPapers": 1
-      },
-      {
-        "slug": "michael-rabbat",
-        "name": "Michael Rabbat",
-        "sharedPapers": 1
-      },
-      {
-        "slug": "yuexiang-zhai",
-        "name": "Yuexiang Zhai",
         "sharedPapers": 1
       },
       {
@@ -1746,15 +1892,35 @@
     ],
     "externalCoAuthors": [
       {
-        "name": "Kaiming He",
-        "papers": 7
+        "name": "Shengbang Tong",
+        "papers": 9
       },
       {
         "name": "Xinlei Chen",
-        "papers": 6
+        "papers": 8
+      },
+      {
+        "name": "Kaiming He",
+        "papers": 8
+      },
+      {
+        "name": "Zhuowen Tu",
+        "papers": 7
       },
       {
         "name": "Ross B. Girshick",
+        "papers": 6
+      },
+      {
+        "name": "Ellis Brown",
+        "papers": 5
+      },
+      {
+        "name": "Rob Fergus",
+        "papers": 5
+      },
+      {
+        "name": "Zhuang Liu",
         "papers": 5
       },
       {
@@ -1762,31 +1928,15 @@
         "papers": 4
       },
       {
-        "name": "Shengbang Tong",
-        "papers": 4
-      },
-      {
-        "name": "Ellis Brown",
-        "papers": 4
-      },
-      {
-        "name": "Rob Fergus",
-        "papers": 4
-      },
-      {
         "name": "Yuandong Tian",
         "papers": 4
       },
       {
-        "name": "Xichen Pan",
+        "name": "Koustuv Sinha",
         "papers": 3
       },
       {
-        "name": "Jongheon Jeong",
-        "papers": 3
-      },
-      {
-        "name": "Jinwoo Shin",
+        "name": "Yi Ma",
         "papers": 3
       },
       {
@@ -1806,6 +1956,10 @@
         "papers": 3
       },
       {
+        "name": "Piotr Dollár",
+        "papers": 3
+      },
+      {
         "name": "Linnan Wang",
         "papers": 3
       },
@@ -1818,23 +1972,19 @@
         "papers": 3
       },
       {
+        "name": "Xichen Pan",
+        "papers": 2
+      },
+      {
         "name": "Hu Xu",
         "papers": 2
       },
       {
-        "name": "Sainan Liu",
+        "name": "Boyang Zheng",
         "papers": 2
       },
       {
-        "name": "Jaskirat Singh",
-        "papers": 2
-      },
-      {
-        "name": "Xingjian Leng",
-        "papers": 2
-      },
-      {
-        "name": "Liang Zheng",
+        "name": "Nicolas Ballas",
         "papers": 2
       },
       {
@@ -1842,15 +1992,11 @@
         "papers": 2
       },
       {
-        "name": "June Suk Choi",
+        "name": "Jiacheng Zhu",
         "papers": 2
       },
       {
-        "name": "Kyungmin Lee",
-        "papers": 2
-      },
-      {
-        "name": "Kimin Lee",
+        "name": "Sergey Levine",
         "papers": 2
       },
       {
@@ -1859,10 +2005,6 @@
       },
       {
         "name": "Ronghang Hu",
-        "papers": 2
-      },
-      {
-        "name": "Zhuang Liu",
         "papers": 2
       },
       {
@@ -1894,10 +2036,6 @@
         "papers": 2
       },
       {
-        "name": "Piotr Dollár",
-        "papers": 2
-      },
-      {
         "name": "Piotr Doll'ar",
         "papers": 2
       },
@@ -1926,7 +2064,7 @@
         "papers": 2
       },
       {
-        "name": "Albert Gordo",
+        "name": "A. Gordo",
         "papers": 2
       },
       {
@@ -1934,20 +2072,20 @@
         "papers": 2
       },
       {
-        "name": "Aashu Singh",
-        "papers": 1
+        "name": "Chen Sun",
+        "papers": 2
       },
       {
-        "name": "Satya Narayan Shukla",
-        "papers": 1
+        "name": "Jonathan Huang",
+        "papers": 2
       },
       {
-        "name": "Xiangjun Fan",
-        "papers": 1
+        "name": "K. Murphy",
+        "papers": 2
       },
       {
-        "name": "S. Mishra",
-        "papers": 1
+        "name": "Xun Huang",
+        "papers": 2
       },
       {
         "name": "Zifan Zhao",
@@ -1962,30 +2100,6 @@
         "papers": 1
       },
       {
-        "name": "Wooseok Jang",
-        "papers": 1
-      },
-      {
-        "name": "Seonghu Jeon",
-        "papers": 1
-      },
-      {
-        "name": "Jisang Han",
-        "papers": 1
-      },
-      {
-        "name": "Jinhyeok Choi",
-        "papers": 1
-      },
-      {
-        "name": "Minkyung Kwon",
-        "papers": 1
-      },
-      {
-        "name": "Seungryong Kim",
-        "papers": 1
-      },
-      {
         "name": "Gaoyue Zhou",
         "papers": 1
       },
@@ -1994,11 +2108,7 @@
         "papers": 1
       },
       {
-        "name": "Boyang Zheng",
-        "papers": 1
-      },
-      {
-        "name": "Th'eophane Vallaeys",
+        "name": "Théophane Vallaeys",
         "papers": 1
       },
       {
@@ -2018,10 +2128,6 @@
         "papers": 1
       },
       {
-        "name": "Nicolas Ballas",
-        "papers": 1
-      },
-      {
         "name": "Jakob Verbeek",
         "papers": 1
       },
@@ -2030,19 +2136,15 @@
         "papers": 1
       },
       {
-        "name": "Koustuv Sinha",
+        "name": "Ziteng Wang",
         "papers": 1
       },
       {
-        "name": "Zongze Wu",
+        "name": "Bingda Tang",
         "papers": 1
       },
       {
-        "name": "Richard Zhang",
-        "papers": 1
-      },
-      {
-        "name": "Eli Shechtman",
+        "name": "Nanye Ma",
         "papers": 1
       },
       {
@@ -2082,14 +2184,6 @@
         "papers": 1
       },
       {
-        "name": "Yunzhong Hou",
-        "papers": 1
-      },
-      {
-        "name": "Zhenchang Xing",
-        "papers": 1
-      },
-      {
         "name": "Tianzhe Chu",
         "papers": 1
       },
@@ -2102,27 +2196,7 @@
         "papers": 1
       },
       {
-        "name": "Sergey Levine",
-        "papers": 1
-      },
-      {
-        "name": "Yi Ma",
-        "papers": 1
-      },
-      {
-        "name": "Sihyun Yu",
-        "papers": 1
-      },
-      {
-        "name": "Sangkyung Kwak",
-        "papers": 1
-      },
-      {
-        "name": "Huiwon Jang",
-        "papers": 1
-      },
-      {
-        "name": "Jonathan Huang",
+        "name": "Yunyang Xiong",
         "papers": 1
       },
       {
@@ -2139,6 +2213,26 @@
       },
       {
         "name": "Austin Wang",
+        "papers": 1
+      },
+      {
+        "name": "Hao Bai",
+        "papers": 1
+      },
+      {
+        "name": "Zipeng Lin",
+        "papers": 1
+      },
+      {
+        "name": "Jiayi Pan",
+        "papers": 1
+      },
+      {
+        "name": "Yifei Zhou",
+        "papers": 1
+      },
+      {
+        "name": "Alane Suhr",
         "papers": 1
       },
       {
@@ -2418,11 +2512,11 @@
         "papers": 1
       },
       {
-        "name": "Zeyu Chen",
+        "name": "Sainan Liu",
         "papers": 1
       },
       {
-        "name": "Z. Tu",
+        "name": "Zeyu Chen",
         "papers": 1
       },
       {
@@ -2447,6 +2541,18 @@
       },
       {
         "name": "Y. Teh",
+        "papers": 1
+      },
+      {
+        "name": "Tianbao Yang",
+        "papers": 1
+      },
+      {
+        "name": "Xiaoyu Wang",
+        "papers": 1
+      },
+      {
+        "name": "Yuanqing Lin",
         "papers": 1
       }
     ],
