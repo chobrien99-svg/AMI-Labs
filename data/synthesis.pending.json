@@ -956,24 +956,13 @@
     "dessinKeys": []
   },
   "status": "ok",
-  "headline": "Samsung's bet and a Harvard podium: AMI's world-model thesis is gaining external validation",
-  "stateOfPlay": "Two signals this week, coming from opposite directions, converge on the same conclusion: AMI's JEPA-centred research agenda is attracting serious outside attention. Samsung's growing stake in French AI — with AMI Labs named alongside Mistral AI as a key target — suggests the Korean giant sees strategic value in the lab's approach. Simultaneously, researcher Randall Balestriero took the JEPA framework to Harvard, arguing publicly that the field needs more mathematical rigour to advance world models. Together, these moments suggest AMI is moving from a Paris-based research bet into something with broader institutional and commercial traction.",
+  "headline": "AMI's world-model thesis and the search for external validation",
+  "stateOfPlay": "Researcher Randall Balestriero took the JEPA framework to Harvard, arguing publicly that the field needs more mathematical rigor to advance world models.",
   "threads": [
     {
-      "title": "Samsung's attention signals that AMI's architecture bets are becoming commercially legible",
-      "category": "funding",
-      "narrative": "Les Echos reported on 8 September that Samsung is deepening its engagement with French AI companies, naming AMI Labs alongside Mistral AI as targets of the conglomerate's expanding appetite. Being bracketed with Mistral — France's most-funded AI startup — is itself a signal of AMI's perceived standing, but the more interesting inference is about what Samsung is buying into. Samsung's AI hardware and software ambitions make JEPA-style self-supervised learning, which reduces dependence on labelled data at scale, a natural strategic fit. A partnership or stake here would not be a passive financial play; it would reflect a hardware manufacturer's desire to be close to a next-generation training paradigm before it becomes mainstream.\n\nThe corporate record shows no change in AMI's registered capital (€12,449.43) and no new IP filings this week, so the Samsung relationship has not yet produced a visible structural footprint. That restraint is itself informative: whatever is being discussed remains at the partnership or pre-investment stage, not yet a formal injection of capital. Worth watching whether a capital event follows in the next reporting window.",
-      "evidence": [
-        {
-          "label": "Les Echos: Samsung et la French Tech",
-          "url": "https://www.lesechos.fr/start-up/ecosysteme/mistral-ai-ami-labs-lappetit-grandissant-de-samsung-pour-la-french-tech-2250326"
-        }
-      ]
-    },
-    {
-      "title": "Balestriero at Harvard: AMI is actively evangelising JEPA theory, not just building it",
+      "title": "Balestriero at Harvard: AMI is actively evangelizing JEPA theory, not just building it",
       "category": "research",
-      "narrative": "Randall Balestriero's post on 11 September announcing a Harvard talk on \"world models, the Le* family and why we need more theory and mathematics to advance JEPAs\" is a compact statement of AMI's current intellectual stance. The framing — that the community needs more rigorous theory — is a positioning move as much as a research claim: it implicitly critiques the empirical-first, scale-first approach that dominates the LLM mainstream, and reasserts the JEPA programme as a principled alternative. A Harvard venue gives that argument academic weight at exactly the moment Samsung is circling the company commercially.\n\nThis public advocacy role for Balestriero complements what the GitHub record shows: Quentin Le Lidec reviewed a pull request in the `galilai-group/stable-worldmodel` repository this week, suggesting active engineering work on world-model infrastructure is running in parallel with the theoretical outreach. The combination — a researcher on stage arguing for the mathematical foundations of JEPAs while an engineer reviews world-model code — points to a team that is simultaneously building and recruiting intellectual consensus around its approach.",
+      "narrative": "Brown University's Randall Balestriero's post on 11 September announcing a Harvard talk on \"world models, the Le* family and why we need more theory and mathematics to advance JEPAs\" is a compact statement of AMI's current intellectual stance. The framing—that the community needs more rigorous theory—is a positioning move as much as a research claim: it implicitly critiques the empirical-first, scale-first approach that dominates the LLM mainstream and reasserts the JEPA program as a principled alternative.\n\nThis public advocacy role for Balestriero complements what the GitHub record shows: Quentin Le Lidec reviewed a pull request in the `galilai-group/stable-worldmodel` repository this week, suggesting active engineering work on world-model infrastructure is running in parallel with the theoretical outreach. The combination — a researcher on stage arguing for the mathematical foundations of JEPAs while an engineer reviews world-model code — points to a team that is simultaneously building and recruiting intellectual consensus around its approach.",
       "evidence": [
         {
           "label": "Balestriero Harvard talk tweet",
@@ -982,17 +971,6 @@
         {
           "label": "stable-worldmodel repo (Le Lidec review)",
           "url": "https://github.com/galilai-group/stable-worldmodel"
-        }
-      ]
-    },
-    {
-      "title": "Scott Fujimoto's robotics paper surfaces a meaningful technical thread",
-      "category": "research",
-      "narrative": "Among the three publications logged this week, the one worth examining is Scott Fujimoto's DVK paper, presented at ICRA 2025. DVK uses pre-trained Vision Transformer patch-level embeddings to improve generalisation in imitation learning: the agent clusters appearance features into semantic keypoints that remain stable across visual variation. The relevance to AMI's agenda is direct — this is precisely the kind of representation learning that JEPA-style architectures are designed to produce, applied to robotic policy learning. The paper has accumulated six citations, modest but non-trivial for a robotics conference paper, and its appearance in this week's log (despite a 2023 original date) likely reflects a recent IEEE proceedings publication.\n\nThe other two new entries — a Rust code verification framework from Xinyi Wan at KDD, and Michael Rabbat's 2018 distributed SGD paper — are less directly tied to AMI's core agenda. Rabbat's older work on decentralised training is foundational infrastructure research, and its appearance here is archival rather than directional. Fujimoto's DVK is the piece that connects to the live engineering: self-supervised visual representations being stress-tested in robotic generalisation tasks.",
-      "evidence": [
-        {
-          "label": "DVK paper (Fujimoto, ICRA)",
-          "url": "https://doi.org/10.1109/ICRA55743.2025.11127800"
         }
       ]
     }
@@ -1005,21 +983,10 @@
       "linkLabel": "Tweet"
     },
     {
-      "text": "Min Lin opened a new branch in the `torch2jax` repository focused on a lazy module constructor, a low-level bridging tool between PyTorch and JAX. Sustained work here would suggest AMI is hedging its framework dependencies — or building infrastructure for more efficient JEPA training pipelines.",
+      "text": "Min Lin opened a new branch in the `torch2jax` repository focused on a lazy module constructor, a low-level bridging tool between PyTorch and JAX. Sustained work here would suggest AMI is hedging its framework dependencies or building infrastructure for more efficient JEPA training pipelines.",
       "category": "research",
       "url": "https://github.com/mavenlin/torch2jax",
       "linkLabel": "torch2jax repo"
-    }
-  ],
-  "whatToWatch": "The Samsung relationship is the most consequential open question: if a capital event or formal partnership announcement follows in the next few weeks, it would mark AMI's first major industrial anchor and shift the lab from research outfit to something with product-market obligations. Separately, the cadence of commits to `stable-worldmodel` and the `torch2jax` bridging work are worth tracking together — sustained activity on both would suggest AMI is approaching a phase where its theoretical world-model arguments need to be backed by demonstrable, scalable engineering.",
-  "whatToWatchLinks": [
-    {
-      "url": "https://github.com/galilai-group/stable-worldmodel",
-      "linkLabel": "stable-worldmodel repo"
-    },
-    {
-      "url": "https://www.lesechos.fr/start-up/ecosysteme/mistral-ai-ami-labs-lappetit-grandissant-de-samsung-pour-la-french-tech-2250326",
-      "linkLabel": "Les Echos Samsung piece"
     }
   ]
 }
