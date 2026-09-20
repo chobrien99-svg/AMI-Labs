@@ -2,7 +2,7 @@ name: Fetch Publications
 
 on:
   schedule:
-    - cron: "0 4 * * 1"   # Every Monday at 4am UTC (before digest runs at 9am)
+    - cron: "0 6 * * 6"   # Every Saturday at 06:00 UTC (08:00 Paris) — a day before the Observatory Briefing runs on Sunday 20:00 UTC
   workflow_dispatch:        # Allow manual trigger
 
 permissions:
