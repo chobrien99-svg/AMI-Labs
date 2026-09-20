@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 6 * * 6"   # Every Saturday at 06:00 UTC (08:00 Paris) — a day before the Observatory Briefing runs on Sunday 20:00 UTC
   workflow_dispatch:        # Allow manual trigger
+    inputs:
+      full_refresh:
+        description: "Re-fetch every author and refresh citation counts, tldrs and abstracts (slow). Default: only look for new papers."
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -26,16 +31,27 @@ jobs:
           # Semantic Scholar quota with every other caller and gets 429s in bursts.
           # Free key: https://www.semanticscholar.org/product/api
           S2_API_KEY: ${{ secrets.S2_API_KEY }}
+          # Incremental by default (see scripts/fetch-publications.js); tick the box on a manual run for a full refresh.
+          S2_FULL_REFRESH: ${{ inputs.full_refresh && 'true' || 'false' }}
         run: node scripts/fetch-publications.js
 
       - name: Commit updated publications
         run: |
           git config user.name "ami-publications-bot"
           git config user.email "bot@ami-labs.vercel.app"
-          git add data/publications.json data/research.json
+          git add data/publications.json data/research.json data/publications-state.json
           if git diff --staged --quiet; then
             echo "No changes."
           else
             git commit -m "chore: refresh publications data [$(date -u +%Y-%m-%d)]"
-            git push
+            # Other bots push to main every few hours, so a plain push can be rejected as
+            # non-fast-forward. Rebase our single data commit onto whatever landed and retry.
+            for attempt in 1 2 3 4 5; do
+              if git push; then exit 0; fi
+              echo "Push rejected (attempt $attempt) — rebasing onto origin/main and retrying."
+              git pull --rebase origin main
+              sleep $((attempt * 5))
+            done
+            echo "Could not push after 5 attempts."
+            exit 1
           fi

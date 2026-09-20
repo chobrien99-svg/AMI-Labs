@@ -6,7 +6,13 @@
  *   2. Most-recent → data/research.json (team-wide, date-sorted feed with tldr/abstract;
  *                    powers the /research page and the weekly synthesis analysis).
  *
- * Run manually: node scripts/fetch-publications.js
+ * Incremental by default: data/publications-state.json remembers each author profile's
+ * paper count as of the last run. A profile whose count is unchanged is skipped entirely
+ * (its previous data is carried over), and for refreshed members only papers not already in
+ * research.json are downloaded in full. Pass --full (or S2_FULL_REFRESH=true) to re-fetch
+ * everyone and refresh citation counts, tldrs and abstracts on every stored paper.
+ *
+ * Run manually: node scripts/fetch-publications.js [--full]
  * Run via GitHub Action: .github/workflows/fetch-publications.yml
  */
 
@@ -18,6 +24,9 @@ const { buildResolver } = require("./lib/resolve-identity");
 const TEAM_FILE = path.resolve(__dirname, "../data/team.json");
 const PUBS_FILE = path.resolve(__dirname, "../data/publications.json");
 const RESEARCH_FILE = path.resolve(__dirname, "../data/research.json");
+// Per-profile paper counts from the last run — the cheap "anything new?" check.
+const STATE_FILE = path.resolve(__dirname, "../data/publications-state.json");
+const FULL_REFRESH = process.argv.includes("--full") || /^(1|true|yes)$/i.test(process.env.S2_FULL_REFRESH || "");
 const SANITY = { projectId: "k8hl9hed", dataset: "production", apiVersion: "2024-01-01" };
 const DELAY_MS = 1500; // floor for spacing between requests
 const RETRY_MS = 3000; // first backoff step on 429 / 5xx
@@ -173,6 +182,20 @@ function sortDateOf(p) {
   return null;
 }
 
+// ── change detection ─────────────────────────────────────────────────────────
+
+// One light request per profile. Returns the profile's current paper count, or null when
+// the probe fails (the caller then treats the profile as changed and refreshes it anyway).
+async function fetchPaperCount(id) {
+  try {
+    const data = await get(`https://api.semanticscholar.org/graph/v1/author/${id}?fields=paperCount`);
+    return Number.isFinite(data?.paperCount) ? data.paperCount : null;
+  } catch (e) {
+    console.error(`\n  ⚠ paper-count probe for ${id} failed: ${e.message}`);
+    return null;
+  }
+}
+
 // ── pass 1: top-cited (profiles) ─────────────────────────────────────────────
 
 // Top-cited across ALL of a member's author profiles: fetch each, merge (dedupe by paperId),
@@ -237,7 +260,9 @@ async function fetchAuthorPaperDates(id) {
 
 // Gather papers across all of a member's author profiles, rank by date, and fetch rich
 // fields for the newest RECENT_KEEP via the batch endpoint (which supports abstract/tldr/authors).
-async function fetchRecent(ids) {
+// Papers whose id is in `knownIds` are already stored in research.json and are returned by id
+// only (`reused`) instead of being downloaded again; pass an empty set to refresh everything.
+async function fetchRecent(ids, knownIds = new Set()) {
   const seen = new Map();
   let anyOk = false;
   let anyError = false;
@@ -258,14 +283,16 @@ async function fetchRecent(ids) {
   // when EVERY profile errored — a partial failure still uses whatever succeeded.
   if (!anyOk && anyError) throw new Error("all author profiles failed");
   const topIds = [...seen.values()].sort(byDateDesc).slice(0, RECENT_KEEP).map((p) => p.paperId);
-  if (!topIds.length) return [];
+  const reused = topIds.filter((id) => knownIds.has(id));
+  const toFetch = topIds.filter((id) => !knownIds.has(id));
+  if (!toFetch.length) return { fresh: [], reused };
 
   await pace();
   const url = `https://api.semanticscholar.org/graph/v1/paper/batch?fields=${BATCH_FIELDS}`;
-  const details = await postJson(url, { ids: topIds });
+  const details = await postJson(url, { ids: toFetch });
   const byId = new Map();
   for (const p of details || []) if (p && p.paperId && p.title) byId.set(p.paperId, p);
-  return topIds.map((id) => byId.get(id)).filter(Boolean); // preserve date order
+  return { fresh: toFetch.map((id) => byId.get(id)).filter(Boolean), reused }; // preserve date order
 }
 
 // Merge a member's recent paper into the team-wide map (dedupe co-authored papers by paperId).
@@ -323,6 +350,20 @@ function addRecentPaper(map, member, p, resolver) {
   });
 }
 
+// Put a paper we already hold back into the map, crediting `member` if not already listed.
+function addExistingPaper(map, member, existing) {
+  if (!existing) return;
+  if (map.has(existing.paperId)) {
+    const e = map.get(existing.paperId);
+    for (const a of existing.teamAuthors || []) if (!e.teamAuthors.some((x) => x.slug === a.slug)) e.teamAuthors.push(a);
+    if (!e.teamAuthors.some((x) => x.slug === member.slug)) e.teamAuthors.push({ slug: member.slug, name: member.name });
+    return;
+  }
+  const copy = { ...existing, teamAuthors: [...(existing.teamAuthors || [])] };
+  if (!copy.teamAuthors.some((x) => x.slug === member.slug)) copy.teamAuthors.push({ slug: member.slug, name: member.name });
+  map.set(copy.paperId, copy);
+}
+
 // ── main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -355,9 +396,20 @@ async function main() {
     ? JSON.parse(fs.readFileSync(RESEARCH_FILE, "utf8"))
     : { papers: [] };
 
+  const existingById = new Map((existingResearch.papers || []).map((p) => [p.paperId, p]));
+  // In incremental mode every stored paper is "known" and reused as-is; a full refresh
+  // re-downloads details for everything so citation counts, tldrs and abstracts update.
+  const knownIds = FULL_REFRESH ? new Set() : new Set(existingById.keys());
+  const state = fs.existsSync(STATE_FILE) ? JSON.parse(fs.readFileSync(STATE_FILE, "utf8")) : {};
+  const profileCounts = { ...(state.profiles || {}) };
+  console.log(FULL_REFRESH
+    ? "Mode: full refresh (every member re-fetched)."
+    : `Mode: incremental (${Object.keys(profileCounts).length} profile(s) with a stored paper count; ${knownIds.size} paper(s) already stored).`);
+
   const pubs = { ...existingPubs };
   const researchMap = new Map();
   const failedMembers = [];
+  const skippedMembers = []; // unchanged since last run — previous data carried over untouched
   const degraded = new Set(); // members where at least one pass could not be refreshed
 
   const startedAt = Date.now();
@@ -379,11 +431,33 @@ async function main() {
     const ids = idsOf(member);
     process.stdout.write(`[${member.name}] `);
 
+    // pass 0 — has anything changed? One light request per profile. A member whose profiles
+    // all report the same paper count as last run is skipped outright; a failed probe counts
+    // as "changed" so the member is refreshed rather than silently frozen. A full refresh
+    // still probes (it is cheap) so the state file is complete for the next incremental run.
+    const counts = {};
+    let changed = FULL_REFRESH;
+    for (let k = 0; k < ids.length; k++) {
+      const n = await fetchPaperCount(ids[k]);
+      counts[ids[k]] = n;
+      if (n === null || profileCounts[ids[k]] !== n) changed = true;
+      if (k < ids.length - 1) await pace();
+    }
+    if (!changed) {
+      skippedMembers.push(member.slug);
+      console.log(`unchanged (${ids.length} profile(s)) — skipped`);
+      if (i < members.length - 1) await pace();
+      continue;
+    }
+    await pace();
+
     // pass 1 — top-cited across all of the member's profiles (profiles' greatest hits)
+    let memberOk = true;
     try {
       pubs[member.slug] = await fetchTopCited(ids);
       process.stdout.write(`top-cited ${pubs[member.slug].length} · `);
     } catch (e) {
+      memberOk = false;
       degraded.add(member.slug);
       process.stdout.write(`top-cited FAILED (${e.message}) · `);
     }
@@ -392,24 +466,37 @@ async function main() {
 
     // pass 2 — most-recent across all of the member's profiles (research feed)
     try {
-      const recent = await fetchRecent(ids);
-      recent.forEach((p) => addRecentPaper(researchMap, member, p, resolver));
-      console.log(`recent ${recent.length}`);
+      const { fresh, reused } = await fetchRecent(ids, knownIds);
+      fresh.forEach((p) => addRecentPaper(researchMap, member, p, resolver));
+      reused.forEach((id) => addExistingPaper(researchMap, member, existingById.get(id)));
+      console.log(`recent ${fresh.length + reused.length} (${fresh.length} new)`);
     } catch (e) {
+      memberOk = false;
       failedMembers.push(member.slug);
       degraded.add(member.slug);
       console.log(`recent FAILED (${e.message})`);
     }
 
+    // Remember the counts only when the member was fully refreshed, so a failed member is
+    // retried next run instead of being treated as up to date.
+    if (memberOk) {
+      for (const id of ids) {
+        if (Number.isFinite(counts[id])) profileCounts[id] = counts[id];
+        else delete profileCounts[id]; // probe failed: re-check this profile next run
+      }
+    }
+
     if (i < members.length - 1) await pace();
   }
 
-  // Carry over papers we couldn't refresh this run, so a transient failure never deletes data:
+  // Carry over papers we didn't refresh this run, so nothing is ever deleted by accident:
+  //   • a member skipped because their profiles are unchanged since last run (skippedMembers),
   //   • a known member whose recency fetch failed (failedMembers), OR
   //   • an author missing from this run entirely because Sanity was unreachable — otherwise a
   //     Sanity-only researcher's papers would be dropped on an outage (they're never in members
   //     and so never in failedMembers). When Sanity read OK, an absent author is a real removal.
-  const unrefreshable = (a) => failedMembers.includes(a.slug) || (!sanity.ok && !knownSlugs.has(a.slug));
+  const unrefreshed = new Set([...failedMembers, ...skippedMembers]);
+  const unrefreshable = (a) => unrefreshed.has(a.slug) || (!sanity.ok && !knownSlugs.has(a.slug));
   for (const p of existingResearch.papers || []) {
     if (!p.teamAuthors?.some(unrefreshable)) continue;
     if (researchMap.has(p.paperId)) {
@@ -430,10 +517,19 @@ async function main() {
     return db.localeCompare(da);
   });
 
+  // Only stamp a new generatedAt when the corpus actually changed, so a quiet week leaves
+  // research.json byte-identical and the workflow has nothing to commit.
+  const papersChanged = JSON.stringify(papers) !== JSON.stringify(existingResearch.papers || []);
+  const generatedAt = papersChanged || !existingResearch.generatedAt ? new Date().toISOString() : existingResearch.generatedAt;
+  const newIds = papers.filter((p) => !existingById.has(p.paperId)).length;
+
   fs.writeFileSync(PUBS_FILE, JSON.stringify(pubs, null, 2));
-  fs.writeFileSync(RESEARCH_FILE, JSON.stringify({ generatedAt: new Date().toISOString(), papers }, null, 2));
+  fs.writeFileSync(RESEARCH_FILE, JSON.stringify({ generatedAt, papers }, null, 2));
+  fs.writeFileSync(STATE_FILE, JSON.stringify({ profiles: profileCounts }, null, 2) + "\n");
   console.log(`\nWrote ${PUBS_FILE}`);
-  console.log(`Wrote ${RESEARCH_FILE} (${papers.length} papers)`);
+  console.log(`Wrote ${RESEARCH_FILE} (${papers.length} papers, ${newIds} new${papersChanged ? "" : ", unchanged"})`);
+  console.log(`Wrote ${STATE_FILE} (${Object.keys(profileCounts).length} profile paper counts)`);
+  if (skippedMembers.length) console.log(`Skipped ${skippedMembers.length}/${members.length} unchanged member(s): ${skippedMembers.join(", ")}`);
 
   // Data is never lost — unrefreshed members keep their previous entries — but a run where
   // half the team hit the rate limit is not a healthy run, and saying so beats leaving it
