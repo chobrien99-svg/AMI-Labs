@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T09:49:43.646Z",
+  "generatedAt": "2026-09-20T16:51:26.763Z",
   "papers": [
     {
       "paperId": "437cb869d42d536ad1b2f35399c99ab79ec65d5a",
@@ -123,77 +123,6 @@
       "citationCount": 2,
       "tldr": "This work introduces LpWorldModel, a JEPA model regularized with Rectified Distribution Matching Regularization to match encoder features to a Rectified Generalized Gaussian distribution, yielding non-negative sparse codes, and finds that the learned sparse representations are mode-factored.",
       "abstract": "Joint-embedding predictive architectures (JEPAs) learn latent dynamics for planning and avoid representation collapse by matching features to maximum-entropy distributions such as isotropic Gaussians, yielding dense representations. However, it is unclear whether dense representations are the most favorable geometry for modeling dynamics. In this work, we ask whether a different geometry, sparse representations, can make action-conditioned latent dynamics easier to model, and what dynamical structure emerges from such representations. We first show that nonlinear Lipschitz dynamics can be approximated arbitrarily well by action-conditioned linear dynamics in a sufficiently high-dimensional one-hot latent space, with rollout error vanishing as the dimension grows. This motivates distributed sparse representations as a practical relaxation of one-hot sparsity. We introduce LpWorldModel (LpWM), a JEPA model regularized with Rectified Distribution Matching Regularization (RDMReg) to match encoder features to a Rectified Generalized Gaussian distribution, yielding non-negative sparse codes. Empirically, sparsity lowers the predictor complexity required for successful planning: on PushT,"
-    },
-    {
-      "paperId": "e458aafe935b5e47025ee444134515455ec5b121",
-      "title": "Advancing human-centric AI for robust X-ray analysis through holistic self-supervised learning",
-      "teamAuthors": [
-        {
-          "slug": "yann-lecun",
-          "name": "Yann LeCun"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Théo Moutakanni",
-          "authorId": "1752699898",
-          "slug": null
-        },
-        {
-          "name": "Piotr Bojanowski",
-          "authorId": "2329288",
-          "slug": null
-        },
-        {
-          "name": "G. Chassagnon",
-          "authorId": "15884434",
-          "slug": null
-        },
-        {
-          "name": "Céline Hudelot",
-          "authorId": "2284760855",
-          "slug": null
-        },
-        {
-          "name": "Armand Joulin",
-          "authorId": "2319608",
-          "slug": null
-        },
-        {
-          "name": "Yann LeCun",
-          "authorId": "2252537770",
-          "slug": "yann-lecun"
-        },
-        {
-          "name": "Matthew J. Muckley",
-          "authorId": "2299330438",
-          "slug": null
-        },
-        {
-          "name": "Maxime Oquab",
-          "authorId": "2248163611",
-          "slug": null
-        },
-        {
-          "name": "M. Revel",
-          "authorId": "144521148",
-          "slug": null
-        },
-        {
-          "name": "Maria Vakalopoulou",
-          "authorId": "2397374968",
-          "slug": null
-        }
-      ],
-      "memberSlug": "yann-lecun",
-      "memberName": "Yann LeCun",
-      "publicationDate": "2026-08-20",
-      "year": 2026,
-      "venue": "Nature Communications",
-      "url": "https://doi.org/10.1038/s41467-026-76076-4",
-      "citationCount": 0,
-      "tldr": "RayDINO, a large-scale self-supervised visual encoder for chest X-rays trained on 840,000 images and evaluated on 82,000 images sourced from 12 publicly available datasets, is introduced, suggesting that self-supervision enables patient-centric analysis useful in clinical workflows, allowing for a more holistic interpretation of X-rays.",
-      "abstract": "\n Foundational artificial intelligence models are gaining traction in various applications, including medical fields like radiology. However, medical foundation models are often tested on limited tasks, leaving their generalisability and biases unexplored. Here we introduce RayDINO, a large-scale self-supervised visual encoder for chest X-rays trained on 840,000 images and evaluated on 82,000 images sourced from 12 publicly available datasets. We compare RayDINO to previous state-of-the-art models across nine radiology tasks, from classification and dense segmentation to text generation, and provide an in-depth analysis of population, age and sex biases of our model. Our findings suggest that self-supervision enables patient-centric analysis useful in clinical workflows, allowing for a more holistic interpretation of X-rays. With RayDINO and small task-specific adapters, we reach state-of-the-art results and improve generalization to unseen populations while mitigating bias, illustrating the versatility and robustness of foundation models."
     },
     {
       "paperId": "f587565885eaa432dda4a0bfd55fa20019b56dee",
@@ -7718,6 +7647,67 @@
       "abstract": "World models simulate environment dynamics from raw sensory inputs like video. However, using them for planning can be challenging due to the vast and unstructured search space. We propose a robust and highly parallelizable planner that leverages the differentiability of the learned world model for efficient optimization, solving long-horizon control tasks from visual input. Our method treats states as optimization variables (\"virtual states\") with soft dynamics constraints, enabling parallel computation and easier optimization. To facilitate exploration and avoid local optima, we introduce stochasticity into the states. To mitigate sensitive gradients through high-dimensional vision-based world models, we modify the gradient structure to descend towards valid plans while only requiring action-input gradients. Our planner, which we call GRASP (Gradient RelAxed Stochastic Planner), can be viewed as a stochastic version of a non-condensed or collocation-based optimal controller. We provide theoretical justification and experiments on video-based world models, where our resulting planner outperforms existing planning algorithms like the cross-entropy method (CEM) and vanilla gradient-"
     },
     {
+      "paperId": "b02857368ab8aae447e7856eda66d0d926603792",
+      "title": "Soft Clustering Anchors for Self-Supervised Speech Representation Learning in Joint Embedding Prediction Architectures",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Georgios Ioannides",
+          "authorId": "2280137870",
+          "slug": null
+        },
+        {
+          "name": "Adrian Kieback",
+          "authorId": "2319408843",
+          "slug": null
+        },
+        {
+          "name": "Judah Goldfeder",
+          "authorId": "115246342",
+          "slug": null
+        },
+        {
+          "name": "Linsey Pang",
+          "authorId": "2397382185",
+          "slug": null
+        },
+        {
+          "name": "Aman Chadha",
+          "authorId": "2275226689",
+          "slug": null
+        },
+        {
+          "name": "Aaron Elkins",
+          "authorId": "2280135429",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2265899558",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Ravid Shwartz-Ziv",
+          "authorId": "1411405900",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-01-30",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.09040",
+      "citationCount": 1,
+      "tldr": "GMM-Anchored JEPA is proposed, which fits a Gaussian Mixture Model once on log-mel spectrograms and uses its frozen soft posteriors as auxiliary targets throughout training to achieve substantially more uniform cluster utilization.",
+      "abstract": "Joint Embedding Predictive Architectures (JEPA) offer a promising approach to self-supervised speech representation learning, but suffer from representation collapse without explicit grounding. We propose GMM-Anchored JEPA, which fits a Gaussian Mixture Model once on log-mel spectrograms and uses its frozen soft posteriors as auxiliary targets throughout training. A decaying supervision schedule allows GMM regularization to dominate early training before gradually yielding to the JEPA objective. Unlike HuBERT and WavLM, which require iterative re-clustering, our approach clusters input features once with soft rather than hard assignments. On ~50k hours of speech, GMM anchoring improves ASR (28.68% vs. 33.22% WER), emotion recognition (67.76% vs. 65.46%), and slot filling (64.7% vs. 59.1% F1) compared to a WavLM-style baseline with matched compute. Cluster analysis shows GMM-anchored representations achieve up to 98% entropy compared to 31% for WavLM-style, indicating substantially more uniform cluster utilization. Code is made available at https://github.com/gioannides/clustering-anchored-jepa."
+    },
+    {
       "paperId": "307fd51e30ef676c96a065122e2a4fb8696cc3f8",
       "title": "SAM Audio Judge: A Unified Multimodal Framework for Perceptual Evaluation of Audio Separation",
       "teamAuthors": [
@@ -10629,6 +10619,67 @@
       "abstract": "Inferring physical actions from visual observations is a fundamental capability for advancing machine intelligence in the physical world. Achieving this requires large-scale, open-vocabulary video action datasets that span broad domains. We introduce Action100M, a large-scale dataset constructed from 1.2M Internet instructional videos (14.6 years of duration), yielding O(100 million) temporally localized segments with open-vocabulary action supervision and rich captions. Action100M is generated by a fully automated pipeline that (i) performs hierarchical temporal segmentation using V-JEPA 2 embeddings, (ii) produces multi-level frame and segment captions organized as a Tree-of-Captions, and (iii) aggregates evidence with a reasoning model (GPT-OSS-120B) under a multi-round Self-Refine procedure to output structured annotations (brief/detailed action, actor, brief/detailed caption). Training VL-JEPA on Action100M demonstrates consistent data-scaling improvements and strong zero-shot performance across diverse action recognition benchmarks, establishing Action100M as a new foundation for scalable research in video understanding and world modeling."
     },
     {
+      "paperId": "ab95885caa31c40779131ec9c6fd3da49f901629",
+      "title": "Demystifying the Slash Pattern in Attention: The Role of RoPE",
+      "teamAuthors": [
+        {
+          "slug": "chao-du",
+          "name": "Chao Du"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Yuan Cheng",
+          "authorId": "2378846285",
+          "slug": null
+        },
+        {
+          "name": "Fengzhuo Zhang",
+          "authorId": "2326162492",
+          "slug": null
+        },
+        {
+          "name": "Yunlong Hou",
+          "authorId": "2151814184",
+          "slug": null
+        },
+        {
+          "name": "Cun-Xiao Du",
+          "authorId": "2324793557",
+          "slug": null
+        },
+        {
+          "name": "Chao Du",
+          "authorId": "2325201427",
+          "slug": "chao-du"
+        },
+        {
+          "name": "Tianyu Pang",
+          "authorId": "2348451895",
+          "slug": null
+        },
+        {
+          "name": "Aixin Sun",
+          "authorId": "2349260123",
+          "slug": null
+        },
+        {
+          "name": "Zhuoran Yang",
+          "authorId": "2350429943",
+          "slug": null
+        }
+      ],
+      "memberSlug": "chao-du",
+      "memberName": "Chao Du",
+      "publicationDate": "2026-01-13",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.08297",
+      "citationCount": 1,
+      "tldr": "This paper analyzes the training dynamics of a shallow Transformer equipped with RoPE under these conditions, and proves that models trained via gradient descent exhibit SDHs, which are intrinsic to models and generalize to out-of-distribution prompts.",
+      "abstract": "Large Language Models (LLMs) often exhibit slash attention patterns, where attention scores concentrate along the $\\Delta$-th sub-diagonal for some offset $\\Delta$. These patterns play a key role in passing information across tokens. But why do they emerge? In this paper, we demystify the emergence of these Slash-Dominant Heads (SDHs) from both empirical and theoretical perspectives. First, by analyzing open-source LLMs, we find that SDHs are intrinsic to models and generalize to out-of-distribution prompts. To explain the intrinsic emergence, we analyze the queries, keys, and Rotary Position Embedding (RoPE), which jointly determine attention scores. Our empirical analysis reveals two characteristic conditions of SDHs: (1) Queries and keys are almost rank-one, and (2) RoPE is dominated by medium- and high-frequency components. Under these conditions, queries and keys are nearly identical across tokens, and interactions between medium- and high-frequency components of RoPE give rise to SDHs. Beyond empirical evidence, we theoretically show that these conditions are sufficient to ensure the emergence of SDHs by formalizing them as our modeling assumptions. Particularly, we analyze t"
+    },
+    {
       "paperId": "28d1612b26e5e24af2647988e024fe3fb16420a4",
       "title": "Mosaic: Unlocking Long-Context Inference for Diffusion LLMs via Global Memory Planning and Dynamic Peak Taming",
       "teamAuthors": [
@@ -10805,32 +10856,6 @@
       "citationCount": 33,
       "tldr": "This work characterize models from this family of methods as JEPA-WMs and investigates the technical choices that make algorithms from this class work, and proposes a model that outperforms two established baselines, DINO-WM and V-JEPA-2-AC, in both navigation and manipulation tasks.",
       "abstract": "A long-standing challenge in AI is to develop agents capable of solving a wide range of physical tasks and generalizing to new, unseen tasks and environments. A popular recent approach involves training a world model from state-action trajectories and subsequently use it with a planning algorithm to solve new tasks. Planning is commonly performed in the input space, but a recent family of methods has introduced planning algorithms that optimize in the learned representation space of the world model, with the promise that abstracting irrelevant details yields more efficient planning. In this work, we characterize models from this family as JEPA-WMs and investigate the technical choices that make algorithms from this class work. We propose a comprehensive study of several key components with the objective of finding the optimal approach within the family. We conducted experiments using both simulated environments and real-world robotic data, and studied how the model architecture, the training objective, and the planning algorithm affect planning success. We combine our findings to propose a model that outperforms two established baselines, DINO-WM and V-JEPA-2-AC, in both navigation"
-    },
-    {
-      "paperId": "b60df2ce1466758f91eb0f1163845aadf37431b9",
-      "title": "Chatbots as a tool for learning foreign languages in the context of digital transformation",
-      "teamAuthors": [
-        {
-          "slug": "li-jing",
-          "name": "Li Jing"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Li Jing",
-          "authorId": "2260978400",
-          "slug": "li-jing"
-        }
-      ],
-      "memberSlug": "li-jing",
-      "memberName": "Li Jing",
-      "publicationDate": "2025-12-29",
-      "year": 2025,
-      "venue": "Vestnik of Kostroma State University. Series: Pedagogy. Psychology. Sociokinetics",
-      "url": "https://doi.org/10.34216/2073-1426-2025-31-4-82-85",
-      "citationCount": 0,
-      "tldr": "Chatbots are a promising direction in the digitalization of language education, but their potential can only be realized with an integrated approach that combines technological innovations with the professional development of teachers.",
-      "abstract": "The aim of the study is to analyze the potential of chatbots as a tool to support the study and teaching of foreign languages, identify their key advantages and limitations, and develop recommendations for the effective integration of these technologies into the educational process. Results and Conclusions: The study confirms that chatbots based on artificial intelligence (AI) can significantly improve the effectiveness of learning foreign languages due to: personalization of learning (adaptation to the student's level); development of speaking skills (imitation of live communication); 24/7 availability (learning outside the classroom); instant feedback (automatic error correction). Chatbots are a promising direction in the digitalization of language education, but their potential can only be realized with an integrated approach that combines technological innovations with the professional development of teachers. Further research should focus on creating flexible integration models that take into account the specifics of various educational contexts."
     },
     {
       "paperId": "8e8195f6706bc07c7fdf0707df640caee5b35079",
@@ -14523,6 +14548,72 @@
       "citationCount": 14,
       "tldr": "OneFlow surpasses both autoregressive and diffusion-based approaches while unlocking new capabilities for concurrent generation, iterative refinement, and natural reasoning-like generation.",
       "abstract": "We present OneFlow, the first non-autoregressive multimodal model that enables variable-length and concurrent mixed-modal generation. Unlike autoregressive models that enforce rigid causal ordering between text and image generation, OneFlow combines an insertion-based Edit Flow for discrete text tokens with Flow Matching for image latents. OneFlow enables concurrent text-image synthesis with hierarchical sampling that prioritizes content over grammar. Through controlled experiments across model sizes from 1B to 8B, we demonstrate that OneFlow outperforms autoregressive baselines on both generation and understanding tasks while using up to 50% fewer training FLOPs. OneFlow surpasses both autoregressive and diffusion-based approaches while unlocking new capabilities for concurrent generation, iterative refinement, and natural reasoning-like generation."
+    },
+    {
+      "paperId": "4d3ad37f26627d4256f20e3490491885161221dc",
+      "title": "Muon Outperforms Adam in Tail-End Associative Memory Learning",
+      "teamAuthors": [
+        {
+          "slug": "chao-du",
+          "name": "Chao Du"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Shuche Wang",
+          "authorId": "2108748320",
+          "slug": null
+        },
+        {
+          "name": "Fengzhuo Zhang",
+          "authorId": "2326162492",
+          "slug": null
+        },
+        {
+          "name": "Jiaxiang Li",
+          "authorId": "2284734081",
+          "slug": null
+        },
+        {
+          "name": "Cun-Xiao Du",
+          "authorId": "2324793557",
+          "slug": null
+        },
+        {
+          "name": "Chao Du",
+          "authorId": "2325201427",
+          "slug": "chao-du"
+        },
+        {
+          "name": "Tianyu Pang",
+          "authorId": "2348451895",
+          "slug": null
+        },
+        {
+          "name": "Zhuoran Yang",
+          "authorId": "2350429943",
+          "slug": null
+        },
+        {
+          "name": "Mingyi Hong",
+          "authorId": "2284067426",
+          "slug": null
+        },
+        {
+          "name": "Vincent Y. F. Tan",
+          "authorId": "2257345384",
+          "slug": null
+        }
+      ],
+      "memberSlug": "chao-du",
+      "memberName": "Chao Du",
+      "publicationDate": "2025-09-30",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.26030",
+      "citationCount": 37,
+      "tldr": "The empirical observations and theoretical analyses reveal Muon's core advantage: its update rule aligns with the outer-product structure of linear associative memories, enabling more balanced and effective learning of tail classes in heavy-tailed distributions than Adam.",
+      "abstract": "The Muon optimizer is consistently faster than Adam in training Large Language Models (LLMs), yet the mechanism underlying its success remains unclear. This paper demystifies this mechanism through the lens of associative memory. By ablating the transformer components optimized by Muon, we reveal that the associative memory parameters of LLMs, namely the Value and Output (VO) attention weights and Feed-Forward Networks (FFNs), are the primary contributors to Muon's superiority. Motivated by this associative memory view, we then explain Muon's superiority on real-world corpora, which are intrinsically heavy-tailed: a few classes (tail classes) appear far less frequently than others. The superiority is explained through two key properties: (i) its update rule consistently yields a more isotropic singular spectrum than Adam; and as a result, (ii) on heavy-tailed data, it optimizes tail classes more effectively than Adam. Beyond empirical evidence, we theoretically confirm these findings by analyzing a one-layer associative memory model under class-imbalanced data. We prove that Muon consistently achieves balanced learning across classes regardless of feature embeddings, whereas Adam c"
     },
     {
       "paperId": "e976fffa23249fde45b60c05cde8c98494b37ea7",
@@ -20533,6 +20624,62 @@
       "venue": "Journal of Health Inequalities",
       "url": "https://doi.org/10.5114/jhi.2025.155418",
       "citationCount": 0,
+      "tldr": null,
+      "abstract": null
+    },
+    {
+      "paperId": "853e540102e92f8150e14be5f7daf943f0a88194",
+      "title": "When Precision Meets Position: BFloat16 Breaks Down RoPE in Long-Context Training",
+      "teamAuthors": [
+        {
+          "slug": "chao-du",
+          "name": "Chao Du"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Haonan Wang",
+          "authorId": "2346019960",
+          "slug": null
+        },
+        {
+          "name": "Qian Liu",
+          "authorId": "2284062049",
+          "slug": null
+        },
+        {
+          "name": "Chao Du",
+          "authorId": "2325201427",
+          "slug": "chao-du"
+        },
+        {
+          "name": "Tong-Yao Zhu",
+          "authorId": "2291015783",
+          "slug": null
+        },
+        {
+          "name": "Cun-Xiao Du",
+          "authorId": "2325980280",
+          "slug": null
+        },
+        {
+          "name": "Kenji Kawaguchi",
+          "authorId": "2286306688",
+          "slug": null
+        },
+        {
+          "name": "Tianyu Pang",
+          "authorId": "2348451895",
+          "slug": null
+        }
+      ],
+      "memberSlug": "chao-du",
+      "memberName": "Chao Du",
+      "publicationDate": null,
+      "year": 2025,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://www.semanticscholar.org/paper/853e540102e92f8150e14be5f7daf943f0a88194",
+      "citationCount": 2,
       "tldr": null,
       "abstract": null
     },
@@ -37410,47 +37557,6 @@
       "abstract": "The quantification of audio aesthetics remains a complex challenge in audio processing, primarily due to its subjective nature, which is influenced by human perception and cultural context. Traditional methods often depend on human listeners for evaluation, leading to inconsistencies and high resource demands. This paper addresses the growing need for automated systems capable of predicting audio aesthetics without human intervention. Such systems are crucial for applications like data filtering, pseudo-labeling large datasets, and evaluating generative audio models, especially as these models become more sophisticated. In this work, we introduce a novel approach to audio aesthetic evaluation by proposing new annotation guidelines that decompose human listening perspectives into four distinct axes. We develop and train no-reference, per-item prediction models that offer a more nuanced assessment of audio quality. Our models are evaluated against human mean opinion scores (MOS) and existing methods, demonstrating comparable or superior performance. This research not only advances the field of audio aesthetics but also provides open-source models and datasets to facilitate future wor"
     },
     {
-      "paperId": "0f5d44bc261459ea10e91b62f0bc1a9f6cb07270",
-      "title": "Differentiable Simulation of Soft Robots with Frictional Contacts",
-      "teamAuthors": [
-        {
-          "slug": "quentin-le-lidec",
-          "name": "Quentin Le Lidec"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Etienne M'enager",
-          "authorId": "2284982123",
-          "slug": null
-        },
-        {
-          "name": "Louis Montaut",
-          "authorId": "1475784171",
-          "slug": null
-        },
-        {
-          "name": "Quentin Le Lidec",
-          "authorId": "2133323688",
-          "slug": "quentin-le-lidec"
-        },
-        {
-          "name": "J. Carpentier",
-          "authorId": "2262063906",
-          "slug": null
-        }
-      ],
-      "memberSlug": "quentin-le-lidec",
-      "memberName": "Quentin Le Lidec",
-      "publicationDate": "2025-01-31",
-      "year": 2025,
-      "venue": "International Conference on Soft Robotics",
-      "url": "https://doi.org/10.1109/RoboSoft63089.2025.11020844",
-      "citationCount": 6,
-      "tldr": "The proposed approach handles both collision and friction phases, accounts for their nonsmooth dynamics, and leverages the sparsity introduced by mesh-based models, including contact interactions modeled as a nonlinear complementarity problem.",
-      "abstract": "In recent years, soft robotics simulators have evolved to offer various functionalities, including the simulation of different material types (e.g., elastic, hyper-elastic) and actuation methods (e.g., pneumatic, cable-driven, servomotor). These simulators also provide tools for various tasks, such as calibration, design, and control. However, efficiently and accurately computing derivatives within these simulators remains a challenge, particularly in the presence of physical contact interactions. Incorporating these derivatives can, for instance, significantly improve the convergence speed of control methods like reinforcement learning and trajectory optimization, enable gradient-based techniques for design, or facilitate end-to-end machine-learning approaches for model reduction. This paper addresses these challenges by introducing a unified method for computing the derivatives of mechanical equations within the finite element method framework, including contact interactions modeled as a nonlinear complementarity problem. The proposed approach handles both collision and friction phases, accounts for their nonsmooth dynamics, and leverages the sparsity introduced by mesh-based mod"
-    },
-    {
       "paperId": "7bb70c705fe877973650929afceb3d8c0dedce74",
       "title": "Improving Your Model Ranking on Chatbot Arena by Vote Rigging",
       "teamAuthors": [
@@ -52004,77 +52110,6 @@
       "citationCount": 68,
       "tldr": "This article surveys the main contact models and the associated numerical methods commonly used in robotics for simulating advanced robot motions involving contact interactions, and proposes theoretically grounded quantitative criteria on which to build benchmarks assessing both the physical and computational aspects of simulation.",
       "abstract": "Physics simulation is ubiquitous in robotics. Whether in model-based approaches (e.g., trajectory optimization), or model-free algorithms (e.g., reinforcement learning), physics simulators are a central component of modern control pipelines in robotics. Over the past decades, several robotic simulators have been developed, each with dedicated contact modeling assumptions and algorithmic solutions. In this article, we survey the main contact models and the associated numerical methods commonly used in robotics for simulating advanced robot motions involving contact interactions. In particular, we recall the physical laws underlying contacts and friction (i.e., Signorini condition, Coulomb's law, and the maximum dissipation principle), and how they are transcribed in current simulators. For each physics engine, we expose their inherent physical relaxations along with their limitations due to the numerical techniques employed. Based on our study, we propose theoretically grounded quantitative criteria on which we build benchmarks assessing both the physical and computational aspects of simulation. We support our work with an open-source and efficient C++ implementation of the existing"
-    },
-    {
-      "paperId": "a93b22bf1ec97a78cd2fa4dfae0c99ab01697ab5",
-      "title": "RIGHT TO REPAIR IS A CHILD OF THE 21ST CENTURY: A CRITICAL STUDY",
-      "teamAuthors": [
-        {
-          "slug": "ayaan-naveed-malik",
-          "name": "Ayaan Naveed Malik"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Dr Kumar",
-          "authorId": "2107298082",
-          "slug": null
-        },
-        {
-          "name": "DR. Ausaf",
-          "authorId": "2226813255",
-          "slug": null
-        },
-        {
-          "name": "A. Malik",
-          "authorId": "2276271702",
-          "slug": "ayaan-naveed-malik"
-        },
-        {
-          "name": "Dr. Jageshwar",
-          "authorId": "2284171076",
-          "slug": null
-        },
-        {
-          "name": "Nath Singh",
-          "authorId": "2289307824",
-          "slug": null
-        },
-        {
-          "name": "Dr.Pradeep Kumar",
-          "authorId": "145815399",
-          "slug": null
-        },
-        {
-          "name": "DR. Mukesh",
-          "authorId": "2226813253",
-          "slug": null
-        },
-        {
-          "name": "K. Ray",
-          "authorId": "2377805407",
-          "slug": null
-        },
-        {
-          "name": "D. Srivastava",
-          "authorId": "2223896074",
-          "slug": null
-        },
-        {
-          "name": "D. Kavita",
-          "authorId": "2364758276",
-          "slug": null
-        }
-      ],
-      "memberSlug": "ayaan-naveed-malik",
-      "memberName": "Ayaan Naveed Malik",
-      "publicationDate": "2023-04-07",
-      "year": 2023,
-      "venue": "Russian Law Journal",
-      "url": "https://doi.org/10.52783/rlj.v11i3.1394",
-      "citationCount": 1,
-      "tldr": null,
-      "abstract": "The Right to Repair movement aims to empower consumers to repair and modify their products by requiring manufacturers to provide access to repair manuals, diagnostic tools, and replacement parts. In India, the lack of clear regulations around the right to repair has left consumers with limited options for repairing their electronic devices, appliances, and vehicles. This paper provides a comprehensive overview of the Right to Repair movement and the need for legislative action in India to protect the right to repair as a consumer right."
     },
     {
       "paperId": "8f5eee0ab94a613cb30722e6573585e44cdd5aee",
@@ -80793,47 +80828,6 @@
       "url": "https://www.semanticscholar.org/paper/7315ecd4d32bfce02c0c911550a1a59ebbfeb202",
       "citationCount": 1,
       "tldr": "S2L-RM is introduced, an approach that leverages short context reward models to assess the responses of long context tasks and can accurately provide preference annotations in long-context scenarios.",
-      "abstract": null
-    },
-    {
-      "paperId": "ad92ee2cfce84e9de73ff01ff79f8f155512f2f1",
-      "title": "Sobolev Diffusion Policy",
-      "teamAuthors": [
-        {
-          "slug": "quentin-le-lidec",
-          "name": "Quentin Le Lidec"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Th´eotime Le Hellard",
-          "authorId": "2382390316",
-          "slug": null
-        },
-        {
-          "name": "Franki Nguimatsia Tiofack",
-          "authorId": "2395892813",
-          "slug": null
-        },
-        {
-          "name": "Quentin Le Lidec",
-          "authorId": "2133323688",
-          "slug": "quentin-le-lidec"
-        },
-        {
-          "name": "Justin Carpentier",
-          "authorId": "2382397014",
-          "slug": null
-        }
-      ],
-      "memberSlug": "quentin-le-lidec",
-      "memberName": "Quentin Le Lidec",
-      "publicationDate": null,
-      "year": null,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/ad92ee2cfce84e9de73ff01ff79f8f155512f2f1",
-      "citationCount": 0,
-      "tldr": "SDP shows to be stable over extended horizons, with fewer diffusion steps, shrinking the overall rollout time compared to vanilla diffusion models, and when used to compute initial guesses for trajectory optimization, it reduces the solving time by a factor of 2 to 20.",
       "abstract": null
     },
     {
