@@ -108,52 +108,6 @@
       ]
     },
     {
-      "paperId": "e458aafe935b5e47025ee444134515455ec5b121",
-      "title": "Advancing human-centric AI for robust X-ray analysis through holistic self-supervised learning",
-      "year": 2026,
-      "venue": "Nature Communications",
-      "url": "https://doi.org/10.1038/s41467-026-76076-4",
-      "citationCount": 0,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Théo Moutakanni"
-        },
-        {
-          "slug": null,
-          "name": "Piotr Bojanowski"
-        },
-        {
-          "slug": null,
-          "name": "G. Chassagnon"
-        },
-        {
-          "slug": null,
-          "name": "Céline Hudelot"
-        },
-        {
-          "slug": null,
-          "name": "Armand Joulin"
-        },
-        {
-          "slug": null,
-          "name": "Matthew J. Muckley"
-        },
-        {
-          "slug": null,
-          "name": "Maxime Oquab"
-        },
-        {
-          "slug": null,
-          "name": "M. Revel"
-        },
-        {
-          "slug": null,
-          "name": "Maria Vakalopoulou"
-        }
-      ]
-    },
-    {
       "paperId": "f587565885eaa432dda4a0bfd55fa20019b56dee",
       "title": "Advancing Open and Reproducible Relational Learning: RelArena-$\\alpha$, TabPFN-Rel and RPI",
       "year": 2026,
@@ -1616,6 +1570,44 @@
         {
           "slug": null,
           "name": "Aditi Krishnapriyan"
+        }
+      ]
+    },
+    {
+      "paperId": "b02857368ab8aae447e7856eda66d0d926603792",
+      "title": "Soft Clustering Anchors for Self-Supervised Speech Representation Learning in Joint Embedding Prediction Architectures",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.09040",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Georgios Ioannides"
+        },
+        {
+          "slug": null,
+          "name": "Adrian Kieback"
+        },
+        {
+          "slug": null,
+          "name": "Judah Goldfeder"
+        },
+        {
+          "slug": null,
+          "name": "Linsey Pang"
+        },
+        {
+          "slug": null,
+          "name": "Aman Chadha"
+        },
+        {
+          "slug": null,
+          "name": "Aaron Elkins"
+        },
+        {
+          "slug": null,
+          "name": "Ravid Shwartz-Ziv"
         }
       ]
     },
@@ -3234,21 +3226,21 @@
     {
       "title": "Learning and Leveraging World Models in Visual Representation Learning",
       "year": 2024,
-      "citationCount": 76,
+      "citationCount": 78,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2403.00504"
     },
     {
       "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
       "year": 2026,
-      "citationCount": 72,
+      "citationCount": 78,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.14482"
     },
     {
       "title": "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language",
       "year": 2025,
-      "citationCount": 55,
+      "citationCount": 57,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2512.10942"
     },
@@ -3270,6 +3262,36 @@
   "githubProjects": [],
   "githubActivity": null,
   "news": [
+    {
+      "title": "At Sciences Po LeCun rejects an AI pause and warns against concentrated power",
+      "url": "/news/at-sciences-po-lecun-rejects-an-ai-pause-and-warns-against-concentrated-power",
+      "source": "YouTube",
+      "publishedAt": "2026-09-20"
+    },
+    {
+      "title": "LeCun adds mathematical and medical evidence to AMI’s world model ambitions",
+      "url": "/news/lecun-adds-mathematical-and-medical-evidence-to-ami-s-world-model-ambitions",
+      "source": "ECCV",
+      "publishedAt": "2026-09-20"
+    },
+    {
+      "title": "Moderna's Bob Langer and AMI's Yann LeCun Cellular Intelligence's board, bringing AI into medicine - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZHMyWVMtdUFvNFREVGk1aDNPZzRaUVF5REEzMzVXOF9HMHkxRE9iRUdvM3UzZDRMdlp0N01sV0pMbjhKaEVtM1M0Z0FCTU5mS1FRN1BxU1plLWFTNG9YUGpCSGVnTmdOQUZ4VlNaeEVLeXZTWGhTU1VTLUx6OTB5RUo2Sm9FQU0ycF9ycHhNY2VodW9uendQRmo2R3JnVGgtUms5OVhhbmpsMFphZzdwanZ3?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "title": "Yann LeCun, Bob Langer, Jens Nielsen and Fabian Theis Join Cellular Intelligence Scientific Advisory Board - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNaThuWVg3Wm5CbFJENFNvWW5XTDJMdnFPRDUzakNFbVVXdlRVelBVclV6TW53WTkySUh5WE11eHpCRXRaR0hFQTV3R1N5M0daRkdOcTZwcFJfa3c2ci1DbW9Ic2hoVW5tVkFNOWJJNGswT2VLQzV6Ym1ENlpyQzFuVzlSYm5ZcnZ6SHpIRTV3MThsb0lvS0tuMFpGdlFZUWlpU1RqaXU5aEJvdFlUSXRzdjlNcmtDRlY3LVJxLVF1UmNhdUJwOFloU3l0cWxzMnRqajNyVWdZVUtady0ySHd4Snp6cUotR01yREh0TWh6VXpkUQ?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "title": "Yann Le Cun, fondateur d’AMI Labs, ex-directeur scientifique de l’IA de Meta : « Il faut construire des modèles qui comprennent vraiment le monde physique et réel » - La Tribune",
+      "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxPaVpSVnB1ZHc1NXJDSWVvcGMweTFaZUgxcEJUdzFMM0pieEI2Rm9yQmE4ZlEta21xaGpjbm4wQ0JQSE1UeGt2ZzNjOXRxeDVvZUtqLWdqVlg0QXhZTHVIMFZ6LTktRGRjeEpBWG1CMXJHVlBpdWtPY2lhcTUtZG4zSUQ1bGwwdWFsdWFGUEUydzRWZVFxYWw0N1d0QWhYeG5sZ0Y0NTB0QVJQcmpHREJCcHRVRVNCNWE0RnZ5QUhHdVRDRUJqYUNPcF96cUFjZXI1cExrWURxSjFMemJWaWtjUjlEMWRnUDJTSHpReHJfdU9qY19VcTRvUmhiVnNaem5oRlVDRWZCTFozbUViWU9GNjRVN2M0RFQtaXUtVTM4Sm5GUV9oemlQMXg3UE50ODZITU00SGRTSXFyQzBmNGotaFBwYXloTzNITEphZXNtSURmNXh1d3k3OA?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-09-20"
+    },
     {
       "title": "Pour Yann Le Cun, “les LLM ne mèneront pas vers une intelligence humaine” - Alliancy",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQTg1NTRPWDc5WkM5eERuZkpoZzZncWVILVRxdG1yNDc1WTJ6MTJ2LWFDT09wYWpRRXZXRVkyWF9IaktrclRiZGlUZThVZDdsSTdlcmhfeGcwNTFWY3VuMGJPb3hQZVBYTWprSUJLaFhaRUtMcDZNczlzYkRKNlRrQkR0aEFrcDItTGJUbWZ1d1ZuOFplNExtelAtR0EweEx0SFdHdlJSaXdsVTZaTW5GMmZzQVlxX2Nwd3FBSkpKQ0NTZ2lXRjlxcHN5cw?oc=5",
@@ -3923,7 +3945,7 @@
         "papers": 6
       },
       {
-        "name": "Piotr Bojanowski",
+        "name": "Ravid Shwartz-Ziv",
         "papers": 5
       },
       {
@@ -3933,10 +3955,6 @@
       {
         "name": "Laurent Najman",
         "papers": 5
-      },
-      {
-        "name": "Ravid Shwartz-Ziv",
-        "papers": 4
       },
       {
         "name": "Gaoyue Zhou",
@@ -3951,6 +3969,10 @@
         "papers": 4
       },
       {
+        "name": "Piotr Bojanowski",
+        "papers": 4
+      },
+      {
         "name": "Yilun Kuang",
         "papers": 3
       },
@@ -3959,7 +3981,15 @@
         "papers": 3
       },
       {
+        "name": "Linsey Pang",
+        "papers": 3
+      },
+      {
         "name": "Wancong Zhang",
+        "papers": 3
+      },
+      {
+        "name": "Judah Goldfeder",
         "papers": 3
       },
       {
@@ -4011,14 +4041,6 @@
         "papers": 3
       },
       {
-        "name": "Théo Moutakanni",
-        "papers": 2
-      },
-      {
-        "name": "Linsey Pang",
-        "papers": 2
-      },
-      {
         "name": "Heejeong Nam",
         "papers": 2
       },
@@ -4035,7 +4057,19 @@
         "papers": 2
       },
       {
-        "name": "Judah Goldfeder",
+        "name": "Georgios Ioannides",
+        "papers": 2
+      },
+      {
+        "name": "Adrian Kieback",
+        "papers": 2
+      },
+      {
+        "name": "Aman Chadha",
+        "papers": 2
+      },
+      {
+        "name": "Aaron Elkins",
         "papers": 2
       },
       {
@@ -4160,34 +4194,6 @@
       },
       {
         "name": "F. Buettner",
-        "papers": 1
-      },
-      {
-        "name": "G. Chassagnon",
-        "papers": 1
-      },
-      {
-        "name": "Céline Hudelot",
-        "papers": 1
-      },
-      {
-        "name": "Armand Joulin",
-        "papers": 1
-      },
-      {
-        "name": "Matthew J. Muckley",
-        "papers": 1
-      },
-      {
-        "name": "Maxime Oquab",
-        "papers": 1
-      },
-      {
-        "name": "M. Revel",
-        "papers": 1
-      },
-      {
-        "name": "Maria Vakalopoulou",
         "papers": 1
       },
       {
@@ -4528,22 +4534,6 @@
       },
       {
         "name": "Giuseppe Loianno",
-        "papers": 1
-      },
-      {
-        "name": "Georgios Ioannides",
-        "papers": 1
-      },
-      {
-        "name": "Adrian Kieback",
-        "papers": 1
-      },
-      {
-        "name": "Aman Chadha",
-        "papers": 1
-      },
-      {
-        "name": "Aaron Elkins",
         "papers": 1
       },
       {
@@ -4888,6 +4878,10 @@
       },
       {
         "name": "Mustafa Shukor",
+        "papers": 1
+      },
+      {
+        "name": "Théo Moutakanni",
         "papers": 1
       },
       {

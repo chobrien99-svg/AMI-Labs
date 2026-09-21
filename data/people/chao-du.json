@@ -66,6 +66,44 @@
       ]
     },
     {
+      "paperId": "ab95885caa31c40779131ec9c6fd3da49f901629",
+      "title": "Demystifying the Slash Pattern in Attention: The Role of RoPE",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.08297",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yuan Cheng"
+        },
+        {
+          "slug": null,
+          "name": "Fengzhuo Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Yunlong Hou"
+        },
+        {
+          "slug": null,
+          "name": "Cun-Xiao Du"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Aixin Sun"
+        },
+        {
+          "slug": null,
+          "name": "Zhuoran Yang"
+        }
+      ]
+    },
+    {
       "paperId": "28a20096a624875ab0a182c836aabf42ead1c7fb",
       "title": "Defeating the Training-Inference Mismatch via FP16",
       "year": 2025,
@@ -122,6 +160,48 @@
         {
           "slug": null,
           "name": "Tianyu Pang"
+        }
+      ]
+    },
+    {
+      "paperId": "4d3ad37f26627d4256f20e3490491885161221dc",
+      "title": "Muon Outperforms Adam in Tail-End Associative Memory Learning",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.26030",
+      "citationCount": 37,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Shuche Wang"
+        },
+        {
+          "slug": null,
+          "name": "Fengzhuo Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Jiaxiang Li"
+        },
+        {
+          "slug": null,
+          "name": "Cun-Xiao Du"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
+        },
+        {
+          "slug": null,
+          "name": "Zhuoran Yang"
+        },
+        {
+          "slug": null,
+          "name": "Mingyi Hong"
+        },
+        {
+          "slug": null,
+          "name": "Vincent Y. F. Tan"
         }
       ]
     },
@@ -224,6 +304,40 @@
         {
           "slug": null,
           "name": "W. Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "853e540102e92f8150e14be5f7daf943f0a88194",
+      "title": "When Precision Meets Position: BFloat16 Breaks Down RoPE in Long-Context Training",
+      "year": 2025,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://www.semanticscholar.org/paper/853e540102e92f8150e14be5f7daf943f0a88194",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Haonan Wang"
+        },
+        {
+          "slug": null,
+          "name": "Qian Liu"
+        },
+        {
+          "slug": null,
+          "name": "Tong-Yao Zhu"
+        },
+        {
+          "slug": null,
+          "name": "Cun-Xiao Du"
+        },
+        {
+          "slug": null,
+          "name": "Kenji Kawaguchi"
+        },
+        {
+          "slug": null,
+          "name": "Tianyu Pang"
         }
       ]
     },
@@ -1698,23 +1812,23 @@
     {
       "title": "Defeating the Training-Inference Mismatch via FP16",
       "year": 2025,
-      "citationCount": 59,
+      "citationCount": 61,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2510.26788"
     },
     {
-      "title": "Rethinking the Trust Region in LLM Reinforcement Learning",
-      "year": 2026,
-      "citationCount": 29,
+      "title": "Muon Outperforms Adam in Tail-End Associative Memory Learning",
+      "year": 2025,
+      "citationCount": 37,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.04879"
+      "url": "https://doi.org/10.48550/arXiv.2509.26030"
     },
     {
-      "title": "Optimizing Anytime Reasoning via Budget Relative Policy Optimization",
-      "year": 2025,
-      "citationCount": 29,
-      "venue": "Neural Information Processing Systems",
-      "url": "https://doi.org/10.48550/arXiv.2505.13438"
+      "title": "Rethinking the Trust Region in LLM Reinforcement Learning",
+      "year": 2026,
+      "citationCount": 31,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.04879"
     },
     {
       "title": "Error Analyses of Auto-Regressive Video Diffusion Models: A Unified Framework",
@@ -1726,7 +1840,7 @@
     {
       "title": "BanditSpec: Adaptive Speculative Decoding via Bandit Algorithms",
       "year": 2025,
-      "citationCount": 15,
+      "citationCount": 16,
       "venue": "International Conference on Machine Learning",
       "url": "https://doi.org/10.48550/arXiv.2505.15141"
     }
@@ -1763,11 +1877,11 @@
     "externalCoAuthors": [
       {
         "name": "Tianyu Pang",
-        "papers": 44
+        "papers": 47
       },
       {
         "name": "Qian Liu",
-        "papers": 13
+        "papers": 14
       },
       {
         "name": "Zichen Liu",
@@ -1782,11 +1896,19 @@
         "papers": 7
       },
       {
-        "name": "Xiaosen Zheng",
-        "papers": 5
+        "name": "Fengzhuo Zhang",
+        "papers": 6
       },
       {
         "name": "Haonan Wang",
+        "papers": 6
+      },
+      {
+        "name": "Cun-Xiao Du",
+        "papers": 5
+      },
+      {
+        "name": "Xiaosen Zheng",
         "papers": 5
       },
       {
@@ -1798,11 +1920,11 @@
         "papers": 4
       },
       {
-        "name": "Zi-Yan Liu",
+        "name": "Zhuoran Yang",
         "papers": 4
       },
       {
-        "name": "Fengzhuo Zhang",
+        "name": "Zi-Yan Liu",
         "papers": 4
       },
       {
@@ -1818,6 +1940,10 @@
         "papers": 4
       },
       {
+        "name": "Vincent Y. F. Tan",
+        "papers": 3
+      },
+      {
         "name": "Xuan Zhang",
         "papers": 3
       },
@@ -1828,6 +1954,14 @@
       {
         "name": "Ye Wang",
         "papers": 3
+      },
+      {
+        "name": "Yunlong Hou",
+        "papers": 2
+      },
+      {
+        "name": "Aixin Sun",
+        "papers": 2
       },
       {
         "name": "Liang Wang",
@@ -1842,11 +1976,11 @@
         "papers": 2
       },
       {
-        "name": "Vincent Y. F. Tan",
+        "name": "Tong-Yao Zhu",
         "papers": 2
       },
       {
-        "name": "Zhuoran Yang",
+        "name": "Kenji Kawaguchi",
         "papers": 2
       },
       {
@@ -1863,10 +1997,6 @@
       },
       {
         "name": "Penghui Yang",
-        "papers": 2
-      },
-      {
-        "name": "Cun-Xiao Du",
         "papers": 2
       },
       {
@@ -1894,7 +2024,23 @@
         "papers": 2
       },
       {
+        "name": "Yuan Cheng",
+        "papers": 1
+      },
+      {
         "name": "Yu-Tian Zhao",
+        "papers": 1
+      },
+      {
+        "name": "Shuche Wang",
+        "papers": 1
+      },
+      {
+        "name": "Jiaxiang Li",
+        "papers": 1
+      },
+      {
+        "name": "Mingyi Hong",
         "papers": 1
       },
       {
@@ -1935,10 +2081,6 @@
       },
       {
         "name": "Dongfu Jiang",
-        "papers": 1
-      },
-      {
-        "name": "Yunlong Hou",
         "papers": 1
       },
       {
@@ -1986,10 +2128,6 @@
         "papers": 1
       },
       {
-        "name": "Aixin Sun",
-        "papers": 1
-      },
-      {
         "name": "Bo An",
         "papers": 1
       },
@@ -2003,10 +2141,6 @@
       },
       {
         "name": "Ziqi Jin",
-        "papers": 1
-      },
-      {
-        "name": "Tong-Yao Zhu",
         "papers": 1
       },
       {
@@ -2139,10 +2273,6 @@
       },
       {
         "name": "Tongyao Zhu",
-        "papers": 1
-      },
-      {
-        "name": "Kenji Kawaguchi",
         "papers": 1
       },
       {
