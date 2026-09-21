@@ -1,9 +1,61 @@
 {
-  "lastChecked": "2026-09-20T09:38:11.910Z",
-  "lastSeenId": "2101547471101194439",
-  "lastSeenAt": "2026-09-20T05:42:16.000Z",
+  "lastChecked": "2026-09-21T10:27:18.259Z",
+  "lastSeenId": "2101655379696316630",
+  "lastSeenAt": "2026-09-20T12:51:04.000Z",
   "listId": "2068355339636887579",
   "posts": [
+    {
+      "id": "2101655379696316630",
+      "authorId": "714135850934734849",
+      "authorUsername": "_amirbar",
+      "authorSlug": "amir-bar",
+      "authorName": "Amir Bar",
+      "createdAt": "2026-09-20T12:51:04.000Z",
+      "text": "Another option is to end double-blind review. It used to work well, but it removes accountability. Authors who submit AI slop should take the reputational hit, very simple.\n\nMore complex rules just lead to unintended consequences and are just too difficult to enforce. https://t.co/4ZNaU1kwML",
+      "url": "https://x.com/_amirbar/status/2101655379696316630",
+      "isQuote": true,
+      "metrics": {
+        "likes": 11,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "engagementScore": 11,
+      "highEngagement": false,
+      "tags": [],
+      "urls": [
+        "https://twitter.com/_amirbar/status/2101654188748865693"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2101654188748865693",
+      "authorId": "714135850934734849",
+      "authorUsername": "_amirbar",
+      "authorSlug": "amir-bar",
+      "authorName": "Amir Bar",
+      "createdAt": "2026-09-20T12:46:20.000Z",
+      "text": "Exactly, tokens are now cheap and like Yi reminds us, intelligent agent should be able to compress. \n\nConcretely:\n1. Desk rejection phase based on abstract only\n2. Shorter papers\n3. Cancel author-reviewer discussion phase, it’s now all AI slop anyway. https://t.co/h2P1P1cMiC",
+      "url": "https://x.com/_amirbar/status/2101654188748865693",
+      "isQuote": true,
+      "metrics": {
+        "likes": 25,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 3
+      },
+      "engagementScore": 31,
+      "highEngagement": false,
+      "tags": [
+        "research"
+      ],
+      "urls": [
+        "https://twitter.com/yimatweets/status/2101643290550710501"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
     {
       "id": "2101547471101194439",
       "authorId": "1355714771312472065",
@@ -1210,29 +1262,6 @@
       "hashtags": [],
       "mentions": [],
       "authorSlug": "yann-lecun"
-    },
-    {
-      "id": "2080194938596212941",
-      "authorId": "342578839",
-      "authorUsername": "lxbrun",
-      "authorName": "Alex LeBrun",
-      "createdAt": "2026-07-23T07:34:56.000Z",
-      "text": "I'm a bit skeptical about this narrative around an OpenAI model escaping to go hack HuggingFace servers.\n\n➡ In 2008 I was running a chatbot company. We almost rolled out a marketing stunt: pretending our agents had escaped, reached out to people on the outside, and seduced them.",
-      "url": "https://x.com/lxbrun/status/2080194938596212941",
-      "isQuote": false,
-      "metrics": {
-        "likes": 14,
-        "retweets": 1,
-        "replies": 2,
-        "quotes": 0
-      },
-      "engagementScore": 16,
-      "highEngagement": false,
-      "tags": [],
-      "urls": [],
-      "hashtags": [],
-      "mentions": [],
-      "authorSlug": "alexandre-lebrun"
     }
   ]
 }
