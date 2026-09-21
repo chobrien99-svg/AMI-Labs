@@ -1,25 +1,16 @@
 {
-  "generatedAt": "2026-09-13T21:57:00.352Z",
+  "generatedAt": "2026-09-20T22:03:11.491Z",
   "window": {
     "days": 7,
-    "since": "2026-09-06",
-    "until": "2026-09-13"
+    "since": "2026-09-13",
+    "until": "2026-09-20"
   },
   "model": "claude-sonnet-4-6",
   "facts": {
     "news": {
-      "windowCount": 1,
+      "windowCount": 0,
       "byTag": {},
-      "items": [
-        {
-          "title": "Mistral AI, AMI Labs… L'appétit grandissant de Samsung pour la French Tech",
-          "url": "https://www.lesechos.fr/start-up/ecosysteme/mistral-ai-ami-labs-lappetit-grandissant-de-samsung-pour-la-french-tech-2250326",
-          "source": "Les Echos",
-          "publishedAt": "2026-09-08",
-          "tags": [],
-          "summary": "Samsung is increasing its investment in French technology companies, including partnerships with AI firms Mistral AI and AMI Labs. This expansion reflects Samsung's growing appetite for acquiring stakes in promising French tech startups focused on advanced machine intelligence and artificial intelligence development."
-        }
-      ]
+      "items": []
     },
     "jobs": {
       "total": 7,
@@ -32,104 +23,182 @@
       }
     },
     "publications": {
-      "total": 740,
-      "newSinceLast": 3,
+      "total": 733,
+      "newSinceLast": 11,
       "newItems": [
         {
-          "memberName": "Xinyi Wan",
+          "memberName": "Adithya Iyer",
           "teamAuthors": [
-            "Xinyi Wan"
+            "Adithya Iyer"
           ],
-          "title": "StarVerus: LLM-Powered Multi-Agent Collaboration for Industrial Rust Code Verification Automation",
+          "title": "The Tale of the Broken Clock: How LLMs Evaluate Requirement Quality and Where They Fail",
           "year": 2026,
-          "publicationDate": "2026-08-08",
-          "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
-          "url": "https://doi.org/10.1145/3770855.3818485",
+          "publicationDate": "2026-07-01",
+          "venue": null,
+          "url": "https://doi.org/10.1002/iis2.70245",
           "citationCount": 0,
-          "tldr": "A multi-agent collaborative framework, StarVerus, to automate the verification of industrial Rust code and introduces a planner-repairer-actor-rewriter multi-agent paradigm to further enhance the proof repair capabilities.",
-          "abstract": "Creating code specifications is a crucial measure to improve the trustworthiness of many industrial systems implemented in Rust with high security requirements. Because writing specifications requires highly specialized professionals and is time-consuming, the automatic generation of specifications, enabled by large language models (LLMs), has received increasing attention and shown promising results. However, these methods typically focus on partial specification generation (generating proofs after the contract is known) and on extracting dependencies between code modules using predefined rel"
+          "tldr": "Off‐the‐shelf LLMs are not yet suitable for autonomous requirement quality evaluation; yet could be more suitable to assist human experts or serve specialized roles in agentic AI frameworks.",
+          "abstract": null
         },
         {
-          "memberName": "Scott Fujimoto",
+          "memberName": "Yann LeCun",
           "teamAuthors": [
-            "Scott Fujimoto"
+            "Yann LeCun"
           ],
-          "title": "Generalizable Imitation Learning Through Pre-Trained Representations",
-          "year": 2023,
-          "publicationDate": "2023-11-15",
-          "venue": "IEEE International Conference on Robotics and Automation",
-          "url": "https://doi.org/10.1109/ICRA55743.2025.11127800",
-          "citationCount": 6,
-          "tldr": "DVK, an imitation learning algorithm that leverages rich pre-trained Visual Transformer patch-level embeddings to obtain better generalization when learning through demonstrations is introduced.",
-          "abstract": "In this paper, we leverage self-supervised vision transformer models and their emergent semantic abilities to improve the generalization abilities of imitation learning policies. We introduce DVK, an imitation learning algorithm that leverages rich pre-trained Visual Transformer patch-level embeddings to obtain better generalization when learning through demonstrations. Our learner sees the world by clustering appearance features into groups associated with semantic concepts, forming stable keypoints that generalize across a wide range of appearance variations and object types. We demonstrate "
+          "title": "Soft Clustering Anchors for Self-Supervised Speech Representation Learning in Joint Embedding Prediction Architectures",
+          "year": 2026,
+          "publicationDate": "2026-01-30",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2602.09040",
+          "citationCount": 1,
+          "tldr": "GMM-Anchored JEPA is proposed, which fits a Gaussian Mixture Model once on log-mel spectrograms and uses its frozen soft posteriors as auxiliary targets throughout training to achieve substantially more uniform cluster utilization.",
+          "abstract": "Joint Embedding Predictive Architectures (JEPA) offer a promising approach to self-supervised speech representation learning, but suffer from representation collapse without explicit grounding. We propose GMM-Anchored JEPA, which fits a Gaussian Mixture Model once on log-mel spectrograms and uses its frozen soft posteriors as auxiliary targets throughout training. A decaying supervision schedule allows GMM regularization to dominate early training before gradually yielding to the JEPA objective. Unlike HuBERT and WavLM, which require iterative re-clustering, our approach clusters input feature"
         },
         {
-          "memberName": "Michael Rabbat",
+          "memberName": "Chao Du",
           "teamAuthors": [
-            "Michael Rabbat"
+            "Chao Du"
           ],
-          "title": "Stochastic Gradient Push for Distributed Deep Learning",
-          "year": 2018,
-          "publicationDate": "2018-09-27",
-          "venue": "International Conference on Machine Learning",
-          "url": "https://www.semanticscholar.org/paper/b42c38975f3d3f8bfe4b0c1a6e576c3e297cec38",
-          "citationCount": 414,
-          "tldr": "Stochastic Gradient Push is studied, it is proved that SGP converges to a stationary point of smooth, non-convex objectives at the same sub-linear rate as SGD, and that all nodes achieve consensus.",
-          "abstract": "Distributed data-parallel algorithms aim to accelerate the training of deep neural networks by parallelizing the computation of large mini-batch gradient updates across multiple nodes. Approaches that synchronize nodes using exact distributed averaging (e.g., via AllReduce) are sensitive to stragglers and communication delays. The PushSum gossip algorithm is robust to these issues, but only performs approximate distributed averaging. This paper studies Stochastic Gradient Push (SGP), which combines PushSum with stochastic gradient updates. We prove that SGP converges to a stationary point of s"
+          "title": "Demystifying the Slash Pattern in Attention: The Role of RoPE",
+          "year": 2026,
+          "publicationDate": "2026-01-13",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2601.08297",
+          "citationCount": 1,
+          "tldr": "This paper analyzes the training dynamics of a shallow Transformer equipped with RoPE under these conditions, and proves that models trained via gradient descent exhibit SDHs, which are intrinsic to models and generalize to out-of-distribution prompts.",
+          "abstract": "Large Language Models (LLMs) often exhibit slash attention patterns, where attention scores concentrate along the $\\Delta$-th sub-diagonal for some offset $\\Delta$. These patterns play a key role in passing information across tokens. But why do they emerge? In this paper, we demystify the emergence of these Slash-Dominant Heads (SDHs) from both empirical and theoretical perspectives. First, by analyzing open-source LLMs, we find that SDHs are intrinsic to models and generalize to out-of-distribution prompts. To explain the intrinsic emergence, we analyze the queries, keys, and Rotary Position "
+        },
+        {
+          "memberName": "Chao Du",
+          "teamAuthors": [
+            "Chao Du"
+          ],
+          "title": "Muon Outperforms Adam in Tail-End Associative Memory Learning",
+          "year": 2025,
+          "publicationDate": "2025-09-30",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2509.26030",
+          "citationCount": 37,
+          "tldr": "The empirical observations and theoretical analyses reveal Muon's core advantage: its update rule aligns with the outer-product structure of linear associative memories, enabling more balanced and effective learning of tail classes in heavy-tailed distributions than Adam.",
+          "abstract": "The Muon optimizer is consistently faster than Adam in training Large Language Models (LLMs), yet the mechanism underlying its success remains unclear. This paper demystifies this mechanism through the lens of associative memory. By ablating the transformer components optimized by Muon, we reveal that the associative memory parameters of LLMs, namely the Value and Output (VO) attention weights and Feed-Forward Networks (FFNs), are the primary contributors to Muon's superiority. Motivated by this associative memory view, we then explain Muon's superiority on real-world corpora, which are intrin"
+        },
+        {
+          "memberName": "Saining Xie",
+          "teamAuthors": [
+            "Saining Xie"
+          ],
+          "title": "Rethinking Spatiotemporal Feature Learning For Video Understanding",
+          "year": 2017,
+          "publicationDate": "2017-12-13",
+          "venue": "arXiv.org",
+          "url": "https://www.semanticscholar.org/paper/4fa0d73b8ba114578744c2ebaf610d2ca9694f45",
+          "citationCount": 270,
+          "tldr": "Interestingly, it was found that 3D convolutions at the top layers of the network contribute more than 3D Convolutional networks at the bottom layers, while also being computationally more efficient, indicating that I3D is better at capturing high-level temporal patterns than low-level motion signals.",
+          "abstract": null
+        },
+        {
+          "memberName": "Saining Xie",
+          "teamAuthors": [
+            "Saining Xie"
+          ],
+          "title": "Rethinking Spatiotemporal Feature Learning: Speed-Accuracy Trade-offs in Video Classification",
+          "year": 2017,
+          "publicationDate": "2017-12-13",
+          "venue": "European Conference on Computer Vision",
+          "url": "https://doi.org/10.1007/978-3-030-01267-0_19",
+          "citationCount": 1516,
+          "tldr": "It is shown that it is possible to replace many of the 3D convolutions by low-cost 2D convolution, suggesting that temporal representation learning on high-level “semantic” features is more useful.",
+          "abstract": "Despite the steady progress in video analysis led by the adoption of convolutional neural networks (CNNs), the relative improvement has been less drastic as that in 2D static image classification. Three main challenges exist including spatial (image) feature representation, temporal information representation, and model/computation complexity. It was recently shown by Carreira and Zisserman that 3D CNNs, inflated from 2D networks and pretrained on ImageNet, could be a promising way for spatial and temporal representation learning. However, as for model/computation complexity, 3D CNNs are much "
+        },
+        {
+          "memberName": "Saining Xie",
+          "teamAuthors": [
+            "Saining Xie"
+          ],
+          "title": "Aggregated Residual Transformations for Deep Neural Networks",
+          "year": 2016,
+          "publicationDate": "2016-11-16",
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/CVPR.2017.634",
+          "citationCount": 11893,
+          "tldr": "On the ImageNet-1K dataset, it is empirically show that even under the restricted condition of maintaining complexity, increasing cardinality is able to improve classification accuracy and is more effective than going deeper or wider when the authors increase the capacity.",
+          "abstract": "We present a simple, highly modularized network architecture for image classification. Our network is constructed by repeating a building block that aggregates a set of transformations with the same topology. Our simple design results in a homogeneous, multi-branch architecture that has only a few hyper-parameters to set. This strategy exposes a new dimension, which we call cardinality (the size of the set of transformations), as an essential factor in addition to the dimensions of depth and width. On the ImageNet-1K dataset, we empirically show that even under the restricted condition of main"
+        },
+        {
+          "memberName": "Saining Xie",
+          "teamAuthors": [
+            "Saining Xie"
+          ],
+          "title": "Convolutional Pseudo-Prior for Structured Labeling",
+          "year": 2015,
+          "publicationDate": "2015-11-23",
+          "venue": "arXiv.org",
+          "url": "https://www.semanticscholar.org/paper/ce21a57ba22b9c93cc7efa1540d2589c69fdfb9f",
+          "citationCount": 9,
+          "tldr": "A new method for structured labeling by developing convolutional pseudo-prior (ConvPP) on the ground-truth labels using pseudo-likelihood approximation to the prior under a novel fixed-point network structure that facilitates an end-to-end learning process.",
+          "abstract": null
+        },
+        {
+          "memberName": "Saining Xie",
+          "teamAuthors": [
+            "Saining Xie"
+          ],
+          "title": "Top-Down Learning for Structured Labeling with Convolutional Pseudoprior",
+          "year": 2015,
+          "publicationDate": "2015-11-23",
+          "venue": "European Conference on Computer Vision",
+          "url": "https://doi.org/10.1007/978-3-319-46493-0_19",
+          "citationCount": 39,
+          "tldr": "A new method for structured labeling by developing convolutional pseudo-prior (ConvPP) on the ground-truth labels using pseudo-likelihood approximation to the prior under a novel fixed-point network structure that facilitates an end-to-end learning process.",
+          "abstract": "Current practice in convolutional neural networks (CNN) remains largely bottom-up and the role of top-down process in CNN for pattern analysis and visual inference is not very clear. In this paper, we propose a new method for structured labeling by developing convolutional pseudo-prior (ConvPP) on the ground-truth labels. Our method has several interesting properties: (1) compared with classical machine learning algorithms like CRFs and Structural SVM, ConvPP automatically learns rich convolutional kernels to capture both short- and long- range contexts; (2) compared with cascade classifiers l"
+        },
+        {
+          "memberName": "Saining Xie",
+          "teamAuthors": [
+            "Saining Xie"
+          ],
+          "title": "Hyper-class augmented and regularized deep learning for fine-grained image classification",
+          "year": 2015,
+          "publicationDate": "2015-10-16",
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/CVPR.2015.7298880",
+          "citationCount": 177,
+          "tldr": null,
+          "abstract": null
+        },
+        {
+          "memberName": "Saining Xie",
+          "teamAuthors": [
+            "Saining Xie"
+          ],
+          "title": "Holistically-Nested Edge Detection",
+          "year": 2015,
+          "publicationDate": "2015-04-23",
+          "venue": "International Journal of Computer Vision",
+          "url": "https://doi.org/10.1007/s11263-017-1004-z",
+          "citationCount": 3963,
+          "tldr": "HED performs image-to-image prediction by means of a deep learning model that leverages fully convolutional neural networks and deeply-supervised nets, and automatically learns rich hierarchical representations that are important in order to resolve the challenging ambiguity in edge and object boundary detection.",
+          "abstract": "We develop a new edge detection algorithm that addresses two important issues in this long-standing vision problem: (1) holistic image training and prediction; and (2) multi-scale and multi-level feature learning. Our proposed method, holistically-nested edge detection (HED), performs image-to-image prediction by means of a deep learning model that leverages fully convolutional neural networks and deeply-supervised nets. HED automatically learns rich hierarchical representations (guided by deep supervision on side responses) that are important in order to resolve the challenging ambiguity in e"
         }
       ],
       "recent": []
     },
     "github": {
-      "windowEventCount": 23,
+      "windowEventCount": 7,
       "byMember": {
-        "Brian Li": 1,
-        "Jihan Yang": 11,
-        "Li Haoyi": 2,
-        "Min Lin": 6,
-        "Quentin Le Lidec": 2,
-        "Rohit Girdhar": 1
+        "Amir Bar": 1,
+        "Artem Zholus": 1,
+        "Brian Li": 2,
+        "Rohit Girdhar": 3
       },
       "notable": [
         {
-          "member": "Min Lin",
-          "type": "CreateEvent",
-          "repo": "mavenlin/torch2jax",
-          "description": "Created branch codex/lazy-module-constructor in mavenlin/torch2jax",
-          "url": "https://github.com/mavenlin/torch2jax",
-          "timestamp": "2026-09-09T04:40:02Z"
-        },
-        {
-          "member": "Quentin Le Lidec",
-          "type": "PullRequestReviewEvent",
-          "repo": "galilai-group/stable-worldmodel",
-          "description": "Reviewed PR #324 in galilai-group/stable-worldmodel",
-          "url": "https://github.com/galilai-group/stable-worldmodel",
-          "timestamp": "2026-09-08T16:08:17Z"
-        },
-        {
-          "member": "Li Haoyi",
-          "type": "IssuesEvent",
-          "repo": "com-lihaoyi/requests-scala",
-          "description": "Closed issue #156 in com-lihaoyi/requests-scala",
-          "url": "https://github.com/com-lihaoyi/requests-scala/issues/156",
-          "timestamp": "2026-09-08T09:28:18Z"
-        },
-        {
-          "member": "Li Haoyi",
-          "type": "IssueCommentEvent",
-          "repo": "com-lihaoyi/requests-scala",
-          "description": "Commented on issue #156 in com-lihaoyi/requests-scala",
-          "url": "https://github.com/com-lihaoyi/requests-scala/issues/156#issuecomment-5582676469",
-          "timestamp": "2026-09-08T09:28:17Z"
-        },
-        {
           "member": "Brian Li",
-          "type": "PullRequestEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "description": "merged PR #1513 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-09-07T06:16:02Z"
+          "type": "CreateEvent",
+          "repo": "Luodian/nano-hevc",
+          "description": "Created branch brian/docs/readme-flow in Luodian/nano-hevc",
+          "url": "https://github.com/Luodian/nano-hevc",
+          "timestamp": "2026-09-15T13:43:28Z"
         }
       ]
     },
@@ -153,42 +222,129 @@
       "recentMilestones": []
     },
     "social": {
-      "windowCount": 4,
+      "windowCount": 13,
       "byTag": {
-        "research": 1
+        "research": 6,
+        "hiring": 1
       },
       "notable": [
         {
-          "author": "Julia Kempe",
-          "handle": "KempeLab",
-          "text": "Congratulations to Tristan Buckmaster and Levent Alpöge for developing the AI assisted techniques for solving an important math problem. Congratulations to OpenAI for not letting any good customer transcripts go unmined.\nhttps://t.co/oFrmiDZr81 https://t.co/gpyvmPVqoZ",
-          "url": "https://x.com/KempeLab/status/2097478220241142115",
-          "createdAt": "2026-09-09T00:12:31.000Z",
+          "author": "Amir Bar",
+          "handle": "_amirbar",
+          "text": "The robotics company’s prisoner’s dilemma: don’t use GPT Astra and your competitors will show better demos and capabilities. Use it, and your data &amp; moat will be absorbed by the next version of the LLM.",
+          "url": "https://x.com/_amirbar/status/2099501855185248256",
+          "createdAt": "2026-09-14T14:13:43.000Z",
           "tags": [],
           "metrics": {
-            "likes": 295,
-            "retweets": 17,
-            "replies": 6,
-            "quotes": 2
+            "likes": 588,
+            "retweets": 43,
+            "replies": 23,
+            "quotes": 7
           },
           "highEngagement": true
         },
         {
           "author": "Randall Balestriero",
           "handle": "randall_balestr",
-          "text": "Will be speaking at Harvard today at 9:45 about world models, Le* family and why we need more theory and mathematics to advance JEPAs!\nCome say hi if you are around!\nhttps://t.co/4rZIs9Zlvk",
-          "url": "https://x.com/randall_balestr/status/2098396510199152773",
-          "createdAt": "2026-09-11T13:01:29.000Z",
+          "text": "Our 4th world modeling workshop will be looking at *Physics*! Happening at the Aspen Center for Physics end of February (https://t.co/mrnm5cwQqC)\n\nIf you are interested in presenting, submit your abstract here: https://t.co/CQVXlnDFXL\n\nDeadline on October 9th, 1 page Abstract! https://t.co/5Ejutx5OcD",
+          "url": "https://x.com/randall_balestr/status/2100649310958284951",
+          "createdAt": "2026-09-17T18:13:18.000Z",
           "tags": [
             "research"
           ],
           "metrics": {
-            "likes": 67,
-            "retweets": 7,
+            "likes": 50,
+            "retweets": 10,
             "replies": 1,
             "quotes": 0
           },
           "highEngagement": true
+        },
+        {
+          "author": "Pascale Fung",
+          "handle": "pascalefung",
+          "text": "The recording of my ICML 2026 keynote is online. I explain why real world problems can only be solved by world models not generative models in real-time.\nhttps://t.co/CierSDvUxC",
+          "url": "https://x.com/pascalefung/status/2100231591888908530",
+          "createdAt": "2026-09-16T14:33:26.000Z",
+          "tags": [
+            "research"
+          ],
+          "metrics": {
+            "likes": 44,
+            "retweets": 5,
+            "replies": 0,
+            "quotes": 0
+          },
+          "highEngagement": true
+        },
+        {
+          "author": "Julia Kempe",
+          "handle": "KempeLab",
+          "text": "Interested in World Modeling with a lens on Physics? We are organizing the World Modeling for Physics workshop at the wonderful Aspen Center 2/28-3/5/27. Apply for presentations (deadline Oct 9) or participation (by 9/30)! It will be an exciting event in a great setting bringing https://t.co/TUPnhikgFs",
+          "url": "https://x.com/KempeLab/status/2101239215769915539",
+          "createdAt": "2026-09-19T09:17:22.000Z",
+          "tags": [
+            "research"
+          ],
+          "metrics": {
+            "likes": 31,
+            "retweets": 4,
+            "replies": 0,
+            "quotes": 0
+          },
+          "highEngagement": false
+        },
+        {
+          "author": "Artem Zholus",
+          "handle": "artemZholus",
+          "text": "I am going to the robotics party today at Mila!\nhttps://t.co/vnEBPB8ZSG\nAt @amilabs , we are pushing the frontier of World Models. Please reach out to me here (or find me at the party) if you’d like to chat. We are hiring!",
+          "url": "https://x.com/artemZholus/status/2099581221625819513",
+          "createdAt": "2026-09-14T19:29:06.000Z",
+          "tags": [
+            "research",
+            "hiring"
+          ],
+          "metrics": {
+            "likes": 11,
+            "retweets": 0,
+            "replies": 1,
+            "quotes": 0
+          },
+          "highEngagement": false
+        },
+        {
+          "author": "Julia Kempe",
+          "handle": "KempeLab",
+          "text": "Interested in World Modeling with a lens on Physics? We are organizing the World Modeling fir Physics workshop at the wonderful Aspen Center 2/28-3/5/27. Apply for presentations (deadline Oct 9) or participation (by 9/30)! It will be an exciting event in a great setting bringing https://t.co/TUPnhikgFs",
+          "url": "https://x.com/KempeLab/status/2101225447920947577",
+          "createdAt": "2026-09-19T08:22:40.000Z",
+          "tags": [
+            "research"
+          ],
+          "metrics": {
+            "likes": 4,
+            "retweets": 0,
+            "replies": 0,
+            "quotes": 0
+          },
+          "highEngagement": false
+        },
+        {
+          "author": "Julia Kempe",
+          "handle": "KempeLab",
+          "text": "Interested in World Modeling with a lens on Physics? We are organizing the World Modeling fir Physics workshop at the wonderful Aspen Center 2/28-3/5/27. Apply for presentations (deadline Oct 9) or participation (by 9/30)! It will be an exciting event in a great setting bringing https://t.co/TUPnhikgFs",
+          "url": "https://x.com/KempeLab/status/2101238536452112635",
+          "createdAt": "2026-09-19T09:14:40.000Z",
+          "tags": [
+            "research"
+          ],
+          "metrics": {
+            "likes": 1,
+            "retweets": 0,
+            "replies": 0,
+            "quotes": 0
+          },
+          "highEngagement": false
         }
       ]
     }
@@ -206,7 +362,6 @@
     "publicationKeys": [
       "437cb869d42d536ad1b2f35399c99ab79ec65d5a",
       "302343f7676e209391f3d5e3409a1b157c9df45a",
-      "e458aafe935b5e47025ee444134515455ec5b121",
       "f587565885eaa432dda4a0bfd55fa20019b56dee",
       "2b1d8926a978f468ce80781baac50661a44a851f",
       "211a73f11a8722d61f7cea91b2c52fd4f9aa2ff6",
@@ -217,6 +372,7 @@
       "41401cb47d98892ae37b7a12d2a125afea245e76",
       "4f890d8373b93892ce2a50d87415653fc225a5a8",
       "1231876b4c92c7a26d4e0cbea9cac388d6dafefb",
+      "e853967245079e097de13475b229d16988065719",
       "ef00907321ce5dd241f55a24fcdf49267320dd09",
       "d503a7f08b8333f96cb6298085b96cb87f3fea4c",
       "7d909170d91e1b35b4b9a8ac01731d7aed2cd53e",
@@ -229,7 +385,6 @@
       "54f505d19d73e12d3642a9a82cd4851235edf043",
       "d90159d04db78db63e04ebd03a8d65f985b5eb85",
       "69b2f3313b31ea5592f6242f2a517b84011f9f24",
-      "53ea2e04a11011cc0c05e4b704c6d3f379c1645b",
       "e218c1a1fcba59c463082f9a1824ebeecae50f65",
       "3a638cbb42b5f388d57063059eaaae23d57b9b95",
       "8d00fe792435341ba46bd76adb34f891f46e6910",
@@ -252,12 +407,10 @@
       "1f60e96ea724b35c7a8797ecdc9af4e96230508f",
       "7278d56b454459534245fead6774f698cd3a3c44",
       "d48730481633499ce3ef5341c852c6439a5cae00",
-      "f1a7a798e6ac2298f5f140d19ee25031e4f8e1d2",
       "450fbc821abdb7b5d1c5e332ff0bbd98f5eb5674",
       "8c08f6f5b52f6d80116b1dc6b542f63b564b07c2",
       "f274a1bce813c2bb358ed7b6fbd54c08c17bac1a",
       "477e20594635eb0ced89bbf2dd9ec873278cf48d",
-      "7272e854e744fda37757fed2557612c820792de3",
       "4353f9b78c972e37273c1b77a440c3812215ca91",
       "42ca8bd0ae408eff0d3bd9f5e121f792876e83ea",
       "22cb569525194d67e964f61fa102506429cf85f4",
@@ -285,6 +438,7 @@
       "c20bfd9d9af460157201ad786e5f6b1898a292a0",
       "2e8ccd5997437eeb8001e58204e2b66eaad02142",
       "6209c4ab686552f9d644f56ff962018a67978e27",
+      "b02857368ab8aae447e7856eda66d0d926603792",
       "307fd51e30ef676c96a065122e2a4fb8696cc3f8",
       "9ddc2b3cc7e2a165ada3ea880da3b7936c498122",
       "281539c8c28178f1b9badfc97649824f9b278806",
@@ -292,16 +446,15 @@
       "0b457a087fa7c01f37de67065be19f3aa8583aa8",
       "f7cecd115a162e8b0324b3a70c61a0887e2c6192",
       "b8ed5bdadb1cd0fa2ccb329c135d5e57c3742de0",
+      "ab95885caa31c40779131ec9c6fd3da49f901629",
       "28d1612b26e5e24af2647988e024fe3fb16420a4",
       "50509dcc04f3972ba0e10f4fe635aa92cbfac9fc",
       "35fc38884dacfaf54e87d739fdb4104bc49b63e5",
-      "b60df2ce1466758f91eb0f1163845aadf37431b9",
       "8e8195f6706bc07c7fdf0707df640caee5b35079",
       "6f9e6a47b8c2a65d3fa758bb4062f096b4afd34d",
       "088a45338d45f05f6a7460fb152615fb96150f6e",
       "ff6752c7461f1a6bdeef485efa93cec0db788945",
       "ae403792b0fa5eb2cd27162567eab8e61cefdab0",
-      "4214cfd60b1925f738ac728fa4a5c8feaa489db0",
       "6e82aaa7a4fb2e062a2b41d447a4bf82ab08dc52",
       "d8121b539e7499bc153358663d975d2b22ac66fd",
       "9ed9abb407371ff86811ec0cb97e6c6097c8f217",
@@ -317,6 +470,7 @@
       "a0d2b6ff08845aa670b897f08a0d217c5e07d0f2",
       "0b17ed374bfa7bacb6834acf6cf2c6ce3e5d5d2c",
       "67315adc04c4934b4eade977be0cd4510b559d3d",
+      "4d3ad37f26627d4256f20e3490491885161221dc",
       "e976fffa23249fde45b60c05cde8c98494b37ea7",
       "51357ff32df3924f29e550aaf71c9882c2b99348",
       "df0a07beb75eea9c71ca70344726e5c822974c40",
@@ -346,7 +500,6 @@
       "cda6bcc164e17138700b1cf10e572aa28c3fea1b",
       "2268d5094a7baad2fb680584465c5584fb195587",
       "927498a8ccc57dc94e9654099c64d060aba5f4f8",
-      "a59bd4c20088d57ea27eb51f860996fa58caf2a3",
       "751ef04264d661f6a59e49f3fbd181ac46ef5eed",
       "a990b37c970a48b71533db1f49f51310a07755cb",
       "466e5de3b198c25211d5bd154beb8df6a86e2e60",
@@ -379,7 +532,6 @@
       "abf495840db5406c0cc2384d64cbd30e1fa6bf9a",
       "1089cd13b3005369a0fbac5f4b8e6269b4cfcefe",
       "9ea340b113ff0681eb9bbaa2c002f86c54c7b85e",
-      "27a028c9ad4145d52d5e00619a7672ca0429aac2",
       "c490787518185bf04a2f76dd9d7fa4b35bbfd5ff",
       "aa5d0f6a14a9da689de842f6af61021e6d91aadf",
       "de23d38bc2604dcf334dcc46aff217eb6bcd1fe1",
@@ -392,13 +544,11 @@
       "c5e7e68a6214f5f2726b5d1845968e5f93fcef1c",
       "ce414ee6bb8ad8f31d3dbce1748fccecbcc7c678",
       "b3bc3238dace58739b32a17cc55ba1428c0a62a0",
-      "0f5d44bc261459ea10e91b62f0bc1a9f6cb07270",
       "7bb70c705fe877973650929afceb3d8c0dedce74",
       "d7630a918b68e6281318e0106dfe7bdacdb7161c",
       "a99dee9602e21a71526b9681d8dba37c55b66941",
       "4e3d888abc01555feb92a60935c8e537abc4648a",
       "599abf492b7e5f97c0ab4452f86834e9a26fcbfc",
-      "9fbc7f2053763bdbaabf04a8ccd463123931ed11",
       "4c6bf9459b8a14ee3bfbc1ac41366c7e41c15b63",
       "32ba79c6efb9cc16183f3df79c9f29877c049b9e",
       "8b5a505643f7935d2210e95a5685062230b54f6e",
@@ -438,9 +588,7 @@
       "3ee7b090c1371801f5e7e7480d2282c1d87b7730",
       "9eb6cd5a12b37b717061f0060987492e82fecba6",
       "bb4616d5b5049aaade6b1f9a9c477086bb71c0ea",
-      "f5ac95fa58815a35622a60f42a5729f518e57cdf",
       "f7135dca58bf8c6131ff2fbb708eac887a262640",
-      "7a2dfea68ce49dbab042bb29a890a4e357ebda6f",
       "1ac7fc5a55ce5843fb8a19d9f62b623e822bb7de",
       "ed44571dd9de3654b84ee1fea63015ecb67e6e63",
       "64be86e931507429e2b6ea9b368c5f3a89e86d42",
@@ -551,7 +699,6 @@
       "cbec8bf16a459b0ae38856f604a6a14cd1343477",
       "82a9b8984e26fdf234431459bdb445fbcfc3cb76",
       "eba383558d36e6cacb23b3f477a2125c4b7d5043",
-      "3fd9b536f0055114b7edd4cd99bf4886c537ebcf",
       "81c03a26af98522bacd6cf566807fc08d596dada",
       "70e96aa193f6d11661ddae6c3f8350831bd5965b",
       "942c856469a6feee06c6c90c1571d6f4d3ebc65b",
@@ -592,7 +739,6 @@
       "7e0b582f10af855c7a2e2a6320939bd7dd82ef62",
       "5a9cb1b3dc4655218b3deeaf4a2417a9a8cd0891",
       "7f82a6339a1302ecc84c5bad5528ca8a9a0582bf",
-      "a93b22bf1ec97a78cd2fa4dfae0c99ab01697ab5",
       "8f5eee0ab94a613cb30722e6573585e44cdd5aee",
       "d5076534b9fa8aaa70d12f14ed87d3d63fd6acaa",
       "a3577255e136a2c38198ac240cec2921bd739cde",
@@ -752,7 +898,6 @@
       "38fca90fef15b226dbae8db408c5efe8066dde1c",
       "8602fd5b0ac73bb422f238b265479f363c0ffe61",
       "90d1b79984a79a88dbd931a829029b171e57ca9e",
-      "ee9a17ee8efadd736dd70f45c93f796c059b3318",
       "0d0cf5f64c052aa7edc5bb638203616a620557f6",
       "3253fcdd6ab3cb43f828ba9f08b974193ad1fe16",
       "57119dde4f6c45b195d9768e00e441032da7a650",
@@ -833,7 +978,6 @@
       "e12184b519c14d6964d1ab45ff13fd87f24891c5",
       "bfba23c642da07a0a82ffaa306f7707374383a7c",
       "862e96bd075ac44c9e4a172efd7a636fe9d03f83",
-      "de73fcba0145022566fb9dee3e655baa57816022",
       "3b9728e8de5739d5dc62fe4576c3d4115070313a",
       "9147121ab65d3ace2d32afe123500f1b4ee18edd",
       "c3801644100f6f7e521b3f28c2785a2d151988f4",
@@ -884,6 +1028,8 @@
       "8aa51889a5e4ce2f3ecef47729348be41b2f6d6e",
       "93cd7ace6c756d4ef9765fdea80e94c12601ae40",
       "ca2d92d717461d7689f3638b08f36119e317e6ea",
+      "4fa0d73b8ba114578744c2ebaf610d2ca9694f45",
+      "815aa52cfc02961d82415f080384594639a21984",
       "bfdb693df3a04fa9645233c444ccd8ec16c6c477",
       "b44af04a88739af6c452871cd9feed6eabe1d2d2",
       "b268a7ad9c9e83e9234beb1a37baf941c291036c",
@@ -894,6 +1040,7 @@
       "e77e7e8c090609627ff1a7ca9d27846169c15076",
       "0e806fd0cb177afe8c4522576c0639c0f05cdbe2",
       "7455328416a138a6fdd32a4a2059edd7ea7df48e",
+      "f6e0856b4a9199fa968ac00da612a9407b5cb85c",
       "033dd6cf61a6017e9aa9b46068d3c89082849cf3",
       "c6499f53402e68ecf4bbd4410cb8816fee3d6398",
       "e4aa44d88567cfc38083f075d50a57b6ea1fd5e0",
@@ -905,9 +1052,13 @@
       "ef3152106e7f4d05ad8d32a5b90d3790c5cdef24",
       "ac318166e1f2ce0c9e4786830c4effdf6101d073",
       "f51dfbf134e413af37e82c74a719aeefed63edc8",
+      "ce21a57ba22b9c93cc7efa1540d2589c69fdfb9f",
+      "ea8640efbd4f517c57519e1b91fe8b1fdb0dc080",
+      "38128302a9d3b910e4f4fb7c3e17dc98f1d735b1",
       "e465923498ffc9ffc133a3262b6bb292df16e666",
       "8475b1f933146a79e761bacde67418a9107d88ba",
       "e49ff72d420c8d72e62a9353e3abc053445e59bd",
+      "8da55e685a7bef9c897788ab519a8710c695c419",
       "42ffc02d5fc249aaf3393f83c41e3a24e810924b",
       "6d9cb3d3c0330a6c2f42d159a3a706b6b49744b2",
       "ad8a12a19e74d9788f8fe92f5c0dfea7b6a52aba",
@@ -928,7 +1079,6 @@
       "34642631a6ef8130b98ce73e61298bb9c89b0c71",
       "43a6503308bc5c7156596c0246da39394b2eceb4",
       "551b369fd1e22ca354bb1d2a1853f79e20932e95",
-      "07e6ee0c7df507e2ceb3b2393243284f1d9cf469",
       "be2bd2ca84460ab58c5563789b8cd482e977ee76",
       "559708856adda90d9946716ca4ea8573b8cd4cb6",
       "7251e6d031e44aa932256e3a3a096f1e3202ca64",
@@ -940,7 +1090,6 @@
       "8da0a421f8f7b3a6cff6d691a7f9f38dc25218eb",
       "cfee1826dd4743eab44c6e27a0cc5970effa4d80",
       "7315ecd4d32bfce02c0c911550a1a59ebbfeb202",
-      "ad92ee2cfce84e9de73ff01ff79f8f155512f2f1",
       "4e45ac10580841b22471dd37d45f478fdaa1efa0",
       "470359a9416926371a7d1a104ca84e6eeef35def",
       "e6a7d7c83ca792aad31b43ffc216d07a748041fb"
@@ -956,38 +1105,75 @@
     "dessinKeys": []
   },
   "status": "ok",
-  "headline": "AMI's world-model thesis and the search for external validation",
-  "stateOfPlay": "Researcher Randall Balestriero took the JEPA framework to Harvard, arguing publicly that the field needs more mathematical rigor to advance world models.",
+  "headline": "AMI doubles down on world models for physics; Amir Bar names the trap threatening every robotics lab",
+  "stateOfPlay": "This was a quiet week for AMI in terms of corporate moves and hiring, but the intellectual posture of the team came through clearly in what its researchers chose to say publicly. Two converging signals define the period: a concerted push to institutionalize world-model research at the physics frontier, and a comment from Amir Bar, a Member of the Technical Staff, on the strategic bind facing robotics companies that rely on foundation models they don't control. Together, they sketch a team that is both consolidating its research identity and sharpening its competitive self-awareness.",
   "threads": [
     {
-      "title": "Balestriero at Harvard: AMI is actively evangelizing JEPA theory, not just building it",
+      "title": "AMI is turning world-model research into a recurring institution — now with a physics lens",
       "category": "research",
-      "narrative": "Brown University's Randall Balestriero's post on 11 September announcing a Harvard talk on \"world models, the Le* family and why we need more theory and mathematics to advance JEPAs\" is a compact statement of AMI's current intellectual stance. The framing—that the community needs more rigorous theory—is a positioning move as much as a research claim: it implicitly critiques the empirical-first, scale-first approach that dominates the LLM mainstream and reasserts the JEPA program as a principled alternative.\n\nThis public advocacy role for Balestriero complements what the GitHub record shows: Quentin Le Lidec reviewed a pull request in the `galilai-group/stable-worldmodel` repository this week, suggesting active engineering work on world-model infrastructure is running in parallel with the theoretical outreach. The combination — a researcher on stage arguing for the mathematical foundations of JEPAs while an engineer reviews world-model code — points to a team that is simultaneously building and recruiting intellectual consensus around its approach.",
+      "narrative": "AMI researchers Julia Kempe and Pascale Fung promoted what one researcher called their \"4th world modeling workshop,\" this time oriented around physics and scheduled for the Aspen Center for Physics in late February 2027. Though the workshop obviously predates their official roles with AMI. The abstract submission deadline is October 9th. \n\nFung also shared her ICML 2026 keynote from the summer in which she argued that real-world problems require world models rather than generative models.",
       "evidence": [
         {
-          "label": "Balestriero Harvard talk tweet",
-          "url": "https://x.com/randall_balestr/status/2098396510199152773"
+          "label": "Balestriero announces 4th world modeling workshop (Aspen, physics focus)",
+          "url": "https://x.com/randall_balestr/status/2100649310958284951"
         },
         {
-          "label": "stable-worldmodel repo (Le Lidec review)",
-          "url": "https://github.com/galilai-group/stable-worldmodel"
+          "label": "Kempe co-promotes the Aspen workshop",
+          "url": "https://x.com/KempeLab/status/2101239215769915539"
+        },
+        {
+          "label": "Fung: world models over generative models for real-world problems (ICML 2026 keynote)",
+          "url": "https://x.com/pascalefung/status/2100231591888908530"
+        }
+      ]
+    },
+    {
+      "title": "Amir Bar articulates the data-moat dilemma that makes AMI's bet on proprietary world models existential",
+      "category": "research",
+      "narrative": "The week's most-engaged post came not from a paper or a product announcement but from Amir Bar's observation about the structural trap facing robotics companies: use a frontier foundation model like GPT or Astra and you get competitive demos, but your proprietary data flows into the next version of that model, eroding whatever moat you were building. Refuse, and competitors who do use it will outshine you in the short run. Bar is an assistant professor at Imperial College London, where he is establishing a new research lab, and a founding member of technical staff at AMI Labs. Bar framed this explicitly as a prisoner's dilemma, and the post drew 588 likes, which is high engagement by the team's standards.\n\nRead in the context of AMI's broader posture, this is not idle commentary. AMI's research program is premised on building world models that do not depend on extractive generative AI pipelines. Bar's framing makes the strategic stakes of that bet explicit: if robotics firms have no choice but to feed their data to closed foundation model providers, the entire premise of building a proprietary world model for embodied intelligence becomes more urgent, not less. The post suggests Bar — and by extension AMI — sees this dilemma as live and immediate, not theoretical.",
+      "evidence": [
+        {
+          "label": "Bar on the robotics prisoner's dilemma with foundation model providers",
+          "url": "https://x.com/_amirbar/status/2099501855185248256"
+        }
+      ]
+    },
+    {
+      "title": "A JEPA paper surfaces in LeCun's publication record, extending the architecture to speech",
+      "category": "research",
+      "narrative": "A paper attributed to Yann LeCun appeared in the publications tracker this week: GMM-Anchored JEPA, which adapts the Joint Embedding Predictive Architecture to self-supervised speech representation learning. The approach fits a Gaussian Mixture Model once on log-mel spectrograms and uses its frozen soft posteriors as auxiliary targets during training, with a decaying supervision schedule that lets the GMM regularise early training before the JEPA objective takes over. The authors claim this avoids the iterative re-clustering required by HuBERT and WavLM.\n\nThe paper was posted to arXiv in January 2026 and carries only one citation so far, so it is an early-stage contribution rather than a landmark result. It reveals that JEPA-style thinking is being extended beyond vision into audio, consistent with AMI's broader agenda of self-supervised learning across modalities. The architecture's resistance to representation collapse, addressed here through GMM anchoring, is a known challenge for JEPA in any modality, and seeing it tackled in speech suggests the team is stress-testing the framework broadly rather than treating vision as its only proving ground.",
+      "evidence": [
+        {
+          "label": "GMM-Anchored JEPA for self-supervised speech (arXiv, LeCun)",
+          "url": "https://doi.org/10.48550/arXiv.2602.09040"
         }
       ]
     }
   ],
   "signals": [
     {
-      "text": "Julia Kempe's wry congratulations to OpenAI for \"not letting any good customer transcripts go unmined\" — alongside praise for AI-assisted mathematics — drew 295 likes, suggesting her commentary on AI ethics and capability trade-offs resonates well beyond AMI's immediate research circle.",
-      "category": "research",
-      "url": "https://x.com/KempeLab/status/2097478220241142115",
+      "text": "Artem Zholus attended a robotics party at Mila and posted a public recruiting call for AMI's world models work — a small but real signal that the team is actively scouting in the academic robotics community.",
+      "category": "hiring",
+      "url": "https://x.com/artemZholus/status/2099581221625819513",
       "linkLabel": "Tweet"
     },
     {
-      "text": "Min Lin opened a new branch in the `torch2jax` repository focused on a lazy module constructor, a low-level bridging tool between PyTorch and JAX. Sustained work here would suggest AMI is hedging its framework dependencies or building infrastructure for more efficient JEPA training pipelines.",
-      "category": "research",
-      "url": "https://github.com/mavenlin/torch2jax",
-      "linkLabel": "torch2jax repo"
+      "text": "Rohit Girdhar led GitHub activity this week with three events; Brian Li opened a branch in the nano-hevc repo focused on documentation. Low-intensity maintenance rather than a new technical push.",
+      "category": "administrative",
+      "url": "https://github.com/Luodian/nano-hevc",
+      "linkLabel": "nano-hevc repo"
     }
   ],
-  "publishedAt": "2026-09-14T08:32:10.657Z"
+  "whatToWatch": "The October 9th abstract deadline for the Aspen physics-and-world-models workshop could be a useful gauge of how broadly the research community is engaging with AMI's framing.",
+  "whatToWatchLinks": [
+    {
+      "url": "https://x.com/randall_balestr/status/2100649310958284951",
+      "linkLabel": "Aspen workshop call for abstracts"
+    },
+    {
+      "url": "https://x.com/_amirbar/status/2099501855185248256",
+      "linkLabel": "Bar's prisoner's dilemma post"
+    }
+  ],
+  "publishedAt": "2026-09-21T08:38:37.795Z"
 }
