@@ -1,18 +1,18 @@
 {
   "yann-lecun": [
     {
-      "title": "Learning and Leveraging World Models in Visual Representation Learning",
-      "year": 2024,
-      "citationCount": 78,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2403.00504"
-    },
-    {
       "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
       "year": 2026,
-      "citationCount": 78,
+      "citationCount": 85,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.14482"
+    },
+    {
+      "title": "Learning and Leveraging World Models in Visual Representation Learning",
+      "year": 2024,
+      "citationCount": 79,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2403.00504"
     },
     {
       "title": "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language",
@@ -29,11 +29,11 @@
       "url": "https://doi.org/10.48550/arXiv.2302.02774"
     },
     {
-      "title": "Self-supervised learning of Split Invariant Equivariant representations",
-      "year": 2023,
-      "citationCount": 46,
-      "venue": "International Conference on Machine Learning",
-      "url": "https://doi.org/10.48550/arXiv.2302.10283"
+      "title": "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
+      "year": 2026,
+      "citationCount": 47,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.16208"
     }
   ],
   "saining-xie": [
@@ -1231,18 +1231,18 @@
   ],
   "chenxia-tang": [
     {
+      "title": "Top-nσ: Not All Logits Are You Need",
+      "year": 2024,
+      "citationCount": 14,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2411.07641"
+    },
+    {
       "title": "Top-nσ: Eliminating Noise in Logit Space for Robust Token Sampling of LLM",
       "year": 2025,
       "citationCount": 13,
       "venue": "Annual Meeting of the Association for Computational Linguistics",
       "url": "https://www.semanticscholar.org/paper/8ed00582f7a027dd5af73f01ae82ac867702673b"
-    },
-    {
-      "title": "Top-nσ: Not All Logits Are You Need",
-      "year": 2024,
-      "citationCount": 13,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2411.07641"
     },
     {
       "title": "Toward Communication-Efficient Decentralized Federated Graph Learning Over Non-IID Data",
@@ -1412,6 +1412,43 @@
       "citationCount": 9,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/bed6ecff103c1a6f3a516d9b9d4847be8aff5294"
+    }
+  ],
+  "pedro-o-pinheiro": [
+    {
+      "title": "Structure-based drug design by denoising voxel grids",
+      "year": 2024,
+      "citationCount": 32,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2405.03961"
+    },
+    {
+      "title": "Score-based 3D molecule generation with neural fields",
+      "year": 2024,
+      "citationCount": 9,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.52202/079017-0340"
+    },
+    {
+      "title": "DyAb: sequence-based antibody design and property prediction in a low-data regime",
+      "year": 2025,
+      "citationCount": 8,
+      "venue": "bioRxiv",
+      "url": "https://doi.org/10.1101/2025.01.28.635353"
+    },
+    {
+      "title": "NEBULA: Neural Empirical Bayes Under Latent Representations for Efficient and Controllable Design of Molecular Libraries",
+      "year": 2024,
+      "citationCount": 5,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2407.03428"
+    },
+    {
+      "title": "Unified all-atom molecule generation with neural fields",
+      "year": 2025,
+      "citationCount": 2,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2511.15906"
     }
   ]
 }

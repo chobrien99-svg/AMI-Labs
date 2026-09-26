@@ -1,6 +1,107 @@
 {
-  "generatedAt": "2026-09-20T16:51:26.763Z",
+  "generatedAt": "2026-09-26T10:49:12.154Z",
   "papers": [
+    {
+      "paperId": "d32a359821e772575e94cfe854b7c35ba63aeb00",
+      "title": "DyAb: sequence-based antibody design and property prediction in a low-data regime",
+      "teamAuthors": [
+        {
+          "slug": "pedro-o-pinheiro",
+          "name": "Pedro O. Pinheiro"
+        }
+      ],
+      "authors": [
+        {
+          "name": "J. Lin",
+          "authorId": "2343777604",
+          "slug": null
+        },
+        {
+          "name": "Jennifer L. Hofmann",
+          "authorId": "2059126425",
+          "slug": null
+        },
+        {
+          "name": "Andrew Leaver-Fay",
+          "authorId": "1400515279",
+          "slug": null
+        },
+        {
+          "name": "Wei-Ching Liang",
+          "authorId": "2253828586",
+          "slug": null
+        },
+        {
+          "name": "Stefania Vasilaki",
+          "authorId": "2141105912",
+          "slug": null
+        },
+        {
+          "name": "Edith Lee",
+          "authorId": "2313976091",
+          "slug": null
+        },
+        {
+          "name": "Pedro O. Pinheiro",
+          "authorId": "2300176183",
+          "slug": "pedro-o-pinheiro"
+        },
+        {
+          "name": "Natasa Tagasovska",
+          "authorId": "2343732455",
+          "slug": null
+        },
+        {
+          "name": "James R. Kiefer",
+          "authorId": "2343732445",
+          "slug": null
+        },
+        {
+          "name": "Yan Wu",
+          "authorId": "2344087198",
+          "slug": null
+        },
+        {
+          "name": "Franziska Seeger",
+          "authorId": "2323126455",
+          "slug": null
+        },
+        {
+          "name": "Richard Bonneau",
+          "authorId": "2067157865",
+          "slug": null
+        },
+        {
+          "name": "Vladimir Gligorijević",
+          "authorId": "2387226431",
+          "slug": null
+        },
+        {
+          "name": "A. Watkins",
+          "authorId": "2309173485",
+          "slug": null
+        },
+        {
+          "name": "Kyunghyun Cho",
+          "authorId": "2268445851",
+          "slug": null
+        },
+        {
+          "name": "Nathan C. Frey",
+          "authorId": "2301791955",
+          "slug": null
+        }
+      ],
+      "memberSlug": "pedro-o-pinheiro",
+      "memberName": "Pedro O. Pinheiro",
+      "publicationDate": "2026-08-28",
+      "year": 2026,
+      "venue": "mAbs",
+      "url": "https://doi.org/10.1080/19420862.2026.2717460",
+      "citationCount": 0,
+      "tldr": "DyAb is a pair-wise representation built on top of a pre-trained protein language model that achieves a Spearman rank correlation of up to 0.85 on binding affinity prediction across monoclonal antibodies targeting three different antigens.",
+      "abstract": "ABSTRACT Protein therapeutic design and property prediction are frequently hampered by data scarcity. Here we propose a model, DyAb, that addresses these issues by leveraging a pair-wise representation to predict differences in binding affinity, rather than absolute values. DyAb is built on top of a pre-trained protein language model and achieves a Spearman rank correlation of up to 0.85 on binding affinity prediction across monoclonal antibodies targeting three different antigens (EGFR, IL-6, and an internal target), given as few as 100 training data. We employ DyAb in two design contexts: as a ranking model to score combinations of known mutations, and combined with a genetic algorithm to generate new sequences. Our method consistently generates antibody variants with high binding rates, including designs that improve on the binding affinity of the lead molecule by more than ten-fold. DyAb represents a powerful tool for optimizing antibody binding affinity in low data regimes common in early-stage drug development."
+    },
     {
       "paperId": "437cb869d42d536ad1b2f35399c99ab79ec65d5a",
       "title": "LeVJEPA: Efficient&Scalable Video Pretraining without the Heuristics",
@@ -917,6 +1018,91 @@
       "citationCount": 1,
       "tldr": "This work proposes Anchored Self-Play (ASP), which anchors self-play with a small reference set by adding a code-embedding similarity reward for generation and mixing reference bugs into fixer training, and achieves the best fix rates across bug sources.",
       "abstract": "Code repair is an important capability for language models (LMs): given a buggy program and unit tests, an LM must produce a fixed program that passes the tests. Because code repair data is limited, we aim to scale supervision by using an LM to generate bug--fix tasks. We propose __generator--fixer self-play__, in which a single model is trained with reinforcement learning to generate bugs and fix them. As the fixer improves, the generator adapts to produce more difficult bugs, yielding an automatic curriculum. To test whether this curriculum generalizes, we introduce BugSourceBench, a repair benchmark spanning realistic bug sources: bugs in human-written code, LM-generated code, and human-edited LM-generated code. On BugSourceBench, we find that self-play drifts toward difficult but unrealistic bugs, improving on synthetic bugs but degrading on human-authored ones. We propose Anchored Self-Play (ASP), which anchors self-play with a small reference set by adding a code-embedding similarity reward for generation and mixing reference bugs into fixer training. Across bug sources, ASP achieves the best fix rates, improving average fix rate over standard self-play by $+24\\%$ relative / "
+    },
+    {
+      "paperId": "7d909170d91e1b35b4b9a8ac01731d7aed2cd53e",
+      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
+      "teamAuthors": [
+        {
+          "slug": "quentin-le-lidec",
+          "name": "Quentin Le Lidec"
+        },
+        {
+          "slug": "lucas-maes",
+          "name": "Lucas Maes"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Heejeong Nam",
+          "authorId": "2331777662",
+          "slug": null
+        },
+        {
+          "name": "Quentin Le Lidec",
+          "authorId": null,
+          "slug": "quentin-le-lidec"
+        },
+        {
+          "name": "Lucas Maes",
+          "authorId": "2394164966",
+          "slug": "lucas-maes"
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Randall Balestriero",
+          "authorId": "2277741253",
+          "slug": null
+        }
+      ],
+      "memberSlug": "lucas-maes",
+      "memberName": "Lucas Maes",
+      "publicationDate": null,
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.11389",
+      "citationCount": 25,
+      "tldr": "C-JEPA is a simple and flexible object-centric world model that extends masked joint embedding prediction from image patches to object-centric representations and induces latent interventions with counterfactual-like effects and prevents shortcut solutions, making interaction reasoning essential.",
+      "abstract": null
+    },
+    {
+      "paperId": "1fd17e33165f4509a6e0b890ecb6483b9b7d844a",
+      "title": "Learning Abstractions: A Conversation with Yann LeCun",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Yann LeCun",
+          "authorId": "2252537770",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "J. Manyika",
+          "authorId": "144605904",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": null,
+      "year": 2026,
+      "venue": "Daedalus",
+      "url": "https://doi.org/10.1162/daed.a.972",
+      "citationCount": 0,
+      "tldr": null,
+      "abstract": null
     },
     {
       "paperId": "e853967245079e097de13475b229d16988065719",
@@ -3541,60 +3727,6 @@
       "abstract": "Scientific abstracts and lay summaries serve distinct but critical roles in research communication. Abstracts use technical language for academic audiences, while lay summaries aim to make findings accessible to non-specialists. With the rise of large language models (LLMs), there is increasing interest in automating the generation of both types of sum-maries—especially in the biomedical domain, where clarity and factual accuracy are essential. This study evaluates the performance of lightweight LLMs (under 8B parameters) in generating biomedical abstracts and lay summaries in a zero-shot setting. We assess outputs across three key dimensions: relevance, read-ability, and factuality. Additionally, we introduce a novel analysis of the sectional origin and desirability of information—where desirability reflects the utility of content from the reader’s perspective. We further compare human and LLM preferences using an objective ranking task. Our results show that LLM-generated summaries often contain comparable levels of desirable information to gold-standard human references. In several cases, LLM outputs are preferred by human evaluators and occasionally mistaken for human-authored "
     },
     {
-      "paperId": "7d909170d91e1b35b4b9a8ac01731d7aed2cd53e",
-      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
-      "teamAuthors": [
-        {
-          "slug": "quentin-le-lidec",
-          "name": "Quentin Le Lidec"
-        },
-        {
-          "slug": "lucas-maes",
-          "name": "Lucas Maes"
-        },
-        {
-          "slug": "yann-lecun",
-          "name": "Yann LeCun"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Heejeong Nam",
-          "authorId": "2331777662",
-          "slug": null
-        },
-        {
-          "name": "Quentin Le Lidec",
-          "authorId": null,
-          "slug": "quentin-le-lidec"
-        },
-        {
-          "name": "Lucas Maes",
-          "authorId": "2394164966",
-          "slug": "lucas-maes"
-        },
-        {
-          "name": "Yann LeCun",
-          "authorId": "2270469816",
-          "slug": "yann-lecun"
-        },
-        {
-          "name": "Randall Balestriero",
-          "authorId": "2277741253",
-          "slug": null
-        }
-      ],
-      "memberSlug": "lucas-maes",
-      "memberName": "Lucas Maes",
-      "publicationDate": null,
-      "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.11389",
-      "citationCount": 25,
-      "tldr": "C-JEPA is a simple and flexible object-centric world model that extends masked joint embedding prediction from image patches to object-centric representations and induces latent interventions with counterfactual-like effects and prevents shortcut solutions, making interaction reasoning essential.",
-      "abstract": null
-    },
-    {
       "paperId": "35f8de974adebb5e036af5f4524d8358ef1f0171",
       "title": "An investigation of ultraviolet-induced degradation: Kinetics and interface evolution in TOPCon solar cells",
       "teamAuthors": [
@@ -3711,37 +3843,6 @@
       "year": 2026,
       "venue": "Solar Energy Materials and Solar Cells",
       "url": "https://doi.org/10.1016/j.solmat.2026.114373",
-      "citationCount": 0,
-      "tldr": null,
-      "abstract": null
-    },
-    {
-      "paperId": "1fd17e33165f4509a6e0b890ecb6483b9b7d844a",
-      "title": "Learning Abstractions: A Conversation with Yann LeCun",
-      "teamAuthors": [
-        {
-          "slug": "yann-lecun",
-          "name": "Yann LeCun"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Yann LeCun",
-          "authorId": "2252537770",
-          "slug": "yann-lecun"
-        },
-        {
-          "name": "J. Manyika",
-          "authorId": "144605904",
-          "slug": null
-        }
-      ],
-      "memberSlug": "yann-lecun",
-      "memberName": "Yann LeCun",
-      "publicationDate": null,
-      "year": 2026,
-      "venue": "Daedalus",
-      "url": "https://doi.org/10.1162/daed.a.972",
       "citationCount": 0,
       "tldr": null,
       "abstract": null
@@ -4424,6 +4525,67 @@
       "abstract": "Despite remarkable progress in Multimodal Large Language Models (MLLMs), these models still struggle with fine-grained understanding tasks. In this work, we propose Procedurally Generated Tasks (PGT), a simple data-driven framework that serves a dual purpose: inducing fine-grained visual understanding and acting as a low-cost diagnostic tool to identify the source of perception failures. By overlaying unambiguous geometric primitives on images, PGT generate additional dense supervision that disentangles visual grounding capability from semantic priors. Extensive experiments on relational, quantitative, and 3D/depth understanding benchmarks show that PGT yields remarkable gains across diverse architectures. Instruction tuning MLLMs on LLaVA-v1.5-Instruct augmented with PGT data results in improvements of up to +20% on the What'sUp benchmark and +13.3% on CV-Bench-2D, while maintaining general perception capabilities. Moreover, finetuning state-of-the-art MLLMs on PGT data leads to boosts of up to +5.5% on What'sUp and +8.3% on CV-Bench-2D. These findings demonstrate that PGT effectively address the bottleneck of fine-grained perception, revealing that many spatial reasoning deficits"
     },
     {
+      "paperId": "20ba4363b7275178aaca520f9f16b39dad3a87d0",
+      "title": "Announcing the Shaw Prize in Computer Science",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Jennifer T. Chayes",
+          "authorId": "2374227632",
+          "slug": null
+        },
+        {
+          "name": "T. F. Chan",
+          "authorId": "2067967062",
+          "slug": null
+        },
+        {
+          "name": "Jack J. Dongarra",
+          "authorId": "2267216686",
+          "slug": null
+        },
+        {
+          "name": "John L. Hennessy",
+          "authorId": "2328138947",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "1688882",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Harry Shum",
+          "authorId": "144154486",
+          "slug": null
+        },
+        {
+          "name": "Joseph Sifakis",
+          "authorId": "2256520183",
+          "slug": null
+        },
+        {
+          "name": "Jeannette M. Wing",
+          "authorId": "2272152313",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-05-21",
+      "year": 2026,
+      "venue": "Communications of the ACM",
+      "url": "https://doi.org/10.1145/3811413",
+      "citationCount": 0,
+      "tldr": null,
+      "abstract": "Nominations for this new prize will be invited September to November 2026."
+    },
+    {
       "paperId": "98bfd032ec0208cadd3a5deb9f34d4b228736599",
       "title": "Cambrian-P: Pose-Grounded Video Understanding",
       "teamAuthors": [
@@ -4487,67 +4649,6 @@
       "citationCount": 1,
       "tldr": "Cambrian-P is revisited as a lightweight supervisory signal and Cambrian-P, a video MLLM augmented with per-frame learnable camera tokens and a pose regression head is introduced, which achieves substantial gains on spatial reasoning benchmarks and achieves state of the art streaming pose estimation on ScanNet.",
       "abstract": "Camera pose matters. The position and orientation of each viewpoint define a shared spatial coordinate frame that relates observations across video frames. Yet this signal is largely absent from multimodal LLMs (MLLMs) for video understanding, which process frames as isolated 2D snapshots, instead of the persistent scene humans perceive. We revisit pose as a lightweight supervisory signal and introduce Cambrian-P, a video MLLM augmented with per-frame learnable camera tokens and a pose regression head. With a carefully designed sampling scheme, the model achieves substantial gains of 4.5-6.5% on spatial reasoning benchmarks such as VSI-Bench, generalizes across eight additional spatial and general video QA benchmarks, and, as a byproduct, achieves state of the art streaming pose estimation on ScanNet. Surprisingly, training on pseudo-annotated poses from in-the-wild video further improves general video QA benchmarks, showing pose helps beyond spatial reasoning. Together, these results position camera pose as a fundamental signal for video models that reason about the physical world."
-    },
-    {
-      "paperId": "20ba4363b7275178aaca520f9f16b39dad3a87d0",
-      "title": "Announcing the Shaw Prize in Computer Science",
-      "teamAuthors": [
-        {
-          "slug": "yann-lecun",
-          "name": "Yann LeCun"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Jennifer T. Chayes",
-          "authorId": "2374227632",
-          "slug": null
-        },
-        {
-          "name": "T. F. Chan",
-          "authorId": "2067967062",
-          "slug": null
-        },
-        {
-          "name": "Jack J. Dongarra",
-          "authorId": "2267216686",
-          "slug": null
-        },
-        {
-          "name": "John L. Hennessy",
-          "authorId": "2328138947",
-          "slug": null
-        },
-        {
-          "name": "Yann LeCun",
-          "authorId": "1688882",
-          "slug": "yann-lecun"
-        },
-        {
-          "name": "Harry Shum",
-          "authorId": "144154486",
-          "slug": null
-        },
-        {
-          "name": "Joseph Sifakis",
-          "authorId": "2256520183",
-          "slug": null
-        },
-        {
-          "name": "Jeannette M. Wing",
-          "authorId": "2272152313",
-          "slug": null
-        }
-      ],
-      "memberSlug": "yann-lecun",
-      "memberName": "Yann LeCun",
-      "publicationDate": "2026-05-21",
-      "year": 2026,
-      "venue": "Communications of the ACM",
-      "url": "https://doi.org/10.1145/3811413",
-      "citationCount": 0,
-      "tldr": null,
-      "abstract": "Nominations for this new prize will be invited September to November 2026."
     },
     {
       "paperId": "8d62bb68ffa636edd5b72a8fc8fcd99f37aeb836",
@@ -4817,6 +4918,52 @@
       "abstract": "De novo crystal generation seeks to discover materials that are not merely realistic, but also stable and novel. However, most existing generative models are trained to maximize the likelihood of observed crystals, which encourages samples to stay close to known materials yet not necessarily align with the criteria that matter in discovery. Our empirical analysis shows that current crystal generative models exhibit a clear conflict between stability and novelty: samples near the observed distribution tend to retain stability but offer limited novelty, whereas samples farther from it often lose stability rapidly. This suggests that the useful region for discovering crystals that are both stable and novel is extremely narrow. To move beyond this limitation, we introduce Crys-JEPA, a joint embedding predictive architecture for crystals that learns an energy-aware latent space preserving formation-energy differences. In this space, stability assessment can be reformulated as an embedding-based comparison against accessible training crystals, reducing the reliance on expensive energy evaluation and task-specific external references. Building on Crys-JEPA, we further develop a screening-"
     },
     {
+      "paperId": "7f012be3704ebd1ffaa7571f179368a7db8703f7",
+      "title": "On Training in Imagination",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "N. Timor",
+          "authorId": "2151790441",
+          "slug": null
+        },
+        {
+          "name": "Ravid Shwartz-Ziv",
+          "authorId": "1411405900",
+          "slug": null
+        },
+        {
+          "name": "Micah Goldblum",
+          "authorId": "2126058635",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "David Harel",
+          "authorId": "2302803517",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-05-07",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.06732",
+      "citationCount": 0,
+      "tldr": "This work extends the analysis of Asadi et al. (2018) to MDPs with learned reward models, and derives the optimal sample allocation--the ratio of dynamics samples to reward samples that minimizes a bound on return error under power-law scaling assumptions.",
+      "abstract": "State-of-the-art model-based reinforcement learning methods train policies on imagined rollouts. These rollouts are trajectories generated by a learned dynamics model and are scored by a learned reward model, but without querying the true environment during policy updates. We study this training paradigm by quantifying how errors in learned dynamics and reward models affect returns and policy optimization. First, we extend the analysis of Asadi et al. (2018) to MDPs with learned reward models, and derive the optimal sample allocation--the ratio of dynamics samples to reward samples that minimizes a bound on return error under power-law scaling assumptions. We identify lower Lipschitz constants of the learned dynamics, reward, and policy as a representation desideratum that tightens this bound, and we connect this perspective to the temporal-straightening objective of Wang et al. (2026). Second, we examine how policy optimization with REINFORCE tolerates noisy rewards, which are often cheaper to obtain. We show that zero-mean reward noise leaves the gradient estimator unbiased and adds at most a variance term that decreases with the number of rollouts. This introduces a practical tr"
+    },
+    {
       "paperId": "e075577f6009b707439792696fd4f6a7ddc39145",
       "title": "Reconstruction or Semantics? What Makes a Latent Space Useful for Robotic World Models",
       "teamAuthors": [
@@ -4886,52 +5033,6 @@
       "citationCount": 14,
       "tldr": "This study advocates semantic latent space as stronger foundation for policy-relevant robotics diffusion world models by comparing six reconstruction and semantic encoders to train world model variants under a fixed protocol on BridgeV2 dataset, and shows effective world model training in high-dimensional representation spaces with and without dimension compression.",
       "abstract": "World model-based policy evaluation is a practical proxy for testing real-world robot control by rolling out candidate actions in action-conditioned video diffusion models. As these models increasingly adopt latent diffusion modeling (LDM), choosing the right latent space becomes critical. While the status quo uses autoencoding latent spaces like VAEs that are primarily trained for pixel reconstruction, recent work suggests benefits from pretrained encoders with representation-aligned semantic latent spaces. We systematically evaluate these latent spaces for action-conditioned LDM by comparing six reconstruction and semantic encoders to train world model variants under a fixed protocol on BridgeV2 dataset, and show effective world model training in high-dimensional representation spaces with and without dimension compression. We then propose three axes to assess robotic world model performance: visual fidelity, planning and downstream policy performance, and latent representation quality. Our results show visual fidelity alone is insufficient for world model selection. While reconstruction encoders like VAE and Cosmos achieve strong pixel-level scores, semantic encoders such as V-J"
-    },
-    {
-      "paperId": "7f012be3704ebd1ffaa7571f179368a7db8703f7",
-      "title": "On Training in Imagination",
-      "teamAuthors": [
-        {
-          "slug": "yann-lecun",
-          "name": "Yann LeCun"
-        }
-      ],
-      "authors": [
-        {
-          "name": "N. Timor",
-          "authorId": "2151790441",
-          "slug": null
-        },
-        {
-          "name": "Ravid Shwartz-Ziv",
-          "authorId": "1411405900",
-          "slug": null
-        },
-        {
-          "name": "Micah Goldblum",
-          "authorId": "2126058635",
-          "slug": null
-        },
-        {
-          "name": "Yann LeCun",
-          "authorId": "2270469816",
-          "slug": "yann-lecun"
-        },
-        {
-          "name": "David Harel",
-          "authorId": "2302803517",
-          "slug": null
-        }
-      ],
-      "memberSlug": "yann-lecun",
-      "memberName": "Yann LeCun",
-      "publicationDate": "2026-05-07",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2605.06732",
-      "citationCount": 0,
-      "tldr": "This work extends the analysis of Asadi et al. (2018) to MDPs with learned reward models, and derives the optimal sample allocation--the ratio of dynamics samples to reward samples that minimizes a bound on return error under power-law scaling assumptions.",
-      "abstract": "State-of-the-art model-based reinforcement learning methods train policies on imagined rollouts. These rollouts are trajectories generated by a learned dynamics model and are scored by a learned reward model, but without querying the true environment during policy updates. We study this training paradigm by quantifying how errors in learned dynamics and reward models affect returns and policy optimization. First, we extend the analysis of Asadi et al. (2018) to MDPs with learned reward models, and derive the optimal sample allocation--the ratio of dynamics samples to reward samples that minimizes a bound on return error under power-law scaling assumptions. We identify lower Lipschitz constants of the learned dynamics, reward, and policy as a representation desideratum that tightens this bound, and we connect this perspective to the temporal-straightening objective of Wang et al. (2026). Second, we examine how policy optimization with REINFORCE tolerates noisy rewards, which are often cheaper to obtain. We show that zero-mean reward noise leaves the gradient estimator unbiased and adds at most a variance term that decreases with the number of rollouts. This introduces a practical tr"
     },
     {
       "paperId": "a410289d9adea1f9047373cd7d924daaf63a575d",
@@ -5790,60 +5891,6 @@
       "abstract": "Multi-view understanding, the ability to reconcile visual information across diverse viewpoints for effective navigation, manipulation, and 3D scene comprehension, is a fundamental challenge in Multi-Modal Large Language Models (MLLMs) to be used as embodied agents. While recent MLLMs have shown impressive advances in high-level reasoning and planning, they frequently fall short when confronted with multi-view geometric consistency and cross-view correspondence. To comprehensively evaluate the challenges of MLLMs in multi-view scene reasoning, we introduce All-Angles Bench, a human carefully benchmark with over 2,100 question-answer pairs from 90 diverse, real-world scenes. Our broad evaluation across 38 general-purpose and 3D spatial reasoning MLLMs reveals a substantial performance gap compared to humans. More critically, our analysis identifies two root failure modes: (1) cross-view object mismatch—the inability to establish consistent object correspondence across views; and (2) cross-view spatial misalignment—the failure to infer accurate camera poses and spatial layouts. These findings underscore a lack of multi-view awareness in current MLLMs, calling for architectural innova"
     },
     {
-      "paperId": "530dab86cb8034bc12a32d21508aaa3f2cc00aa1",
-      "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
-      "teamAuthors": [
-        {
-          "slug": "lucas-maes",
-          "name": "Lucas Maes"
-        },
-        {
-          "slug": "quentin-le-lidec",
-          "name": "Quentin Le Lidec"
-        },
-        {
-          "slug": "yann-lecun",
-          "name": "Yann LeCun"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Lucas Maes",
-          "authorId": "2394164966",
-          "slug": "lucas-maes"
-        },
-        {
-          "name": "Quentin Le Lidec",
-          "authorId": null,
-          "slug": "quentin-le-lidec"
-        },
-        {
-          "name": "Damien Scieur",
-          "authorId": "2328012605",
-          "slug": null
-        },
-        {
-          "name": "Yann LeCun",
-          "authorId": "2270469816",
-          "slug": "yann-lecun"
-        },
-        {
-          "name": "Randall Balestriero",
-          "authorId": "2378151189",
-          "slug": null
-        }
-      ],
-      "memberSlug": "lucas-maes",
-      "memberName": "Lucas Maes",
-      "publicationDate": "2026-03-13",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2603.19312",
-      "citationCount": 177,
-      "tldr": "LeWorldModel is introduced, the first JEPA that trains stably end-to-end from raw pixels using only two loss terms: a next-embedding prediction loss and a regularizer enforcing Gaussian-distributed latent embeddings.",
-      "abstract": "Joint Embedding Predictive Architectures (JEPAs) offer a compelling framework for learning world models in compact latent spaces, yet existing methods remain fragile, relying on complex multi-term losses, exponential moving averages, pre-trained encoders, or auxiliary supervision to avoid representation collapse. In this work, we introduce LeWorldModel (LeWM), the first JEPA that trains stably end-to-end from raw pixels using only two loss terms: a next-embedding prediction loss and a regularizer enforcing Gaussian-distributed latent embeddings. This reduces tunable loss hyperparameters from six to one compared to the only existing end-to-end alternative. With ~15M parameters trainable on a single GPU in a few hours, LeWM plans up to 48x faster than foundation-model-based world models while remaining competitive across diverse 2D and 3D control tasks. Beyond control, we show that LeWM's latent space encodes meaningful physical structure through probing of physical quantities. Surprise evaluation confirms that the model reliably detects physically implausible events."
-    },
-    {
       "paperId": "23f953773609d673caf468aeea02da9c3f496592",
       "title": "Representation Learning for Spatiotemporal Physical Systems",
       "teamAuthors": [
@@ -5898,6 +5945,60 @@
       "citationCount": 6,
       "tldr": "This work evaluates the effectiveness of general-purpose self-supervised methods in learning physics-grounded representations that are useful for downstream scientific tasks and finds that not all methods designed for physical modeling outperform generic self-supervised learning methods on these tasks.",
       "abstract": "Machine learning approaches to spatiotemporal physical systems have primarily focused on next-frame prediction, with the goal of learning an accurate emulator for the system's evolution in time. However, these emulators are computationally expensive to train and are subject to performance pitfalls, such as compounding errors during autoregressive rollout. In this work, we take a different perspective and look at scientific tasks further downstream of predicting the next frame, such as estimation of a system's governing physical parameters. Accuracy on these tasks offers a uniquely quantifiable glimpse into the physical relevance of the representations of these models. We evaluate the effectiveness of general-purpose self-supervised methods in learning physics-grounded representations that are useful for downstream scientific tasks. Surprisingly, we find that not all methods designed for physical modeling outperform generic self-supervised learning methods on these tasks, and methods that learn in the latent space (e.g., joint embedding predictive architectures, or JEPAs) outperform those optimizing pixel-level prediction objectives. Code is available at https://github.com/helenqu/p"
+    },
+    {
+      "paperId": "530dab86cb8034bc12a32d21508aaa3f2cc00aa1",
+      "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
+      "teamAuthors": [
+        {
+          "slug": "lucas-maes",
+          "name": "Lucas Maes"
+        },
+        {
+          "slug": "quentin-le-lidec",
+          "name": "Quentin Le Lidec"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Lucas Maes",
+          "authorId": "2394164966",
+          "slug": "lucas-maes"
+        },
+        {
+          "name": "Quentin Le Lidec",
+          "authorId": null,
+          "slug": "quentin-le-lidec"
+        },
+        {
+          "name": "Damien Scieur",
+          "authorId": "2328012605",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "2270469816",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Randall Balestriero",
+          "authorId": "2378151189",
+          "slug": null
+        }
+      ],
+      "memberSlug": "lucas-maes",
+      "memberName": "Lucas Maes",
+      "publicationDate": "2026-03-13",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.19312",
+      "citationCount": 177,
+      "tldr": "LeWorldModel is introduced, the first JEPA that trains stably end-to-end from raw pixels using only two loss terms: a next-embedding prediction loss and a regularizer enforcing Gaussian-distributed latent embeddings.",
+      "abstract": "Joint Embedding Predictive Architectures (JEPAs) offer a compelling framework for learning world models in compact latent spaces, yet existing methods remain fragile, relying on complex multi-term losses, exponential moving averages, pre-trained encoders, or auxiliary supervision to avoid representation collapse. In this work, we introduce LeWorldModel (LeWM), the first JEPA that trains stably end-to-end from raw pixels using only two loss terms: a next-embedding prediction loss and a regularizer enforcing Gaussian-distributed latent embeddings. This reduces tunable loss hyperparameters from six to one compared to the only existing end-to-end alternative. With ~15M parameters trainable on a single GPU in a few hours, LeWM plans up to 48x faster than foundation-model-based world models while remaining competitive across diverse 2D and 3D control tasks. Beyond control, we show that LeWM's latent space encodes meaningful physical structure through probing of physical quantities. Surprise evaluation confirms that the model reliably detects physically implausible events."
     },
     {
       "paperId": "8c9ae85bb64e6e872094065cb9c062f051c2ad1a",
@@ -13925,6 +14026,57 @@
       "abstract": "Recent military use of machine learning tools for target identification has raised concerns about how these systems affect compliance with International Humanitarian Law (IHL). Decision support systems such as Israel's Lavender have shown that operators may rely too heavily on algorithmic recommendations, especially during time pressure. This reliance can speed up strike decisions while making it harder to trace the source of errors. IHL rules on distinction, proportionality, necessity and precaution were developed for human decision makers who can understand and question the basis of an attack. However, contemporary targeting software produces recommendations that are difficult to audit and may reflect hidden biases in training data. This article highlights four gaps in current scholarship: limited analysis of non-autonomous decision support tools, the lack of behavioural research on automation bias in military contexts, weak transparency in national Article 36 weapons reviews and insufficient attention to technical safeguards that could prevent errors before they occur. The study proposes a combined legal and socio-technical approach to examine how these systems function across t"
     },
     {
+      "paperId": "4046dc07138ea5f3e04d628866b6d902af308c7c",
+      "title": "Beyond Atoms: Evaluating Electron Density Representation for 3D Molecular Learning",
+      "teamAuthors": [
+        {
+          "slug": "pedro-o-pinheiro",
+          "name": "Pedro O. Pinheiro"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Patricia Suriana",
+          "authorId": "2373365170",
+          "slug": null
+        },
+        {
+          "name": "Joshua A. Rackers",
+          "authorId": "2284317106",
+          "slug": null
+        },
+        {
+          "name": "E. Nowara",
+          "authorId": "47482125",
+          "slug": null
+        },
+        {
+          "name": "Pedro O. Pinheiro",
+          "authorId": "2300176183",
+          "slug": "pedro-o-pinheiro"
+        },
+        {
+          "name": "John M. Nicoloudis",
+          "authorId": "2395536722",
+          "slug": null
+        },
+        {
+          "name": "Vishnu Sresht",
+          "authorId": "4981867",
+          "slug": null
+        }
+      ],
+      "memberSlug": "pedro-o-pinheiro",
+      "memberName": "Pedro O. Pinheiro",
+      "publicationDate": "2025-11-26",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2511.21900",
+      "citationCount": 0,
+      "tldr": "This work compares three voxel-based input types for 3D convolutional neural networks: atom types, raw electron density, and density gradient magnitude, across two molecular tasks -- protein-ligand binding affinity prediction (PDBbind) and quantum property prediction (QM9).",
+      "abstract": "Machine learning models for 3D molecular property prediction typically rely on atom-based representations, which may overlook subtle physical information. Electron density maps -- the direct output of X-ray crystallography and cryo-electron microscopy -- offer a continuous, physically grounded alternative. We compare three voxel-based input types for 3D convolutional neural networks (CNNs): atom types, raw electron density, and density gradient magnitude, across two molecular tasks -- protein-ligand binding affinity prediction (PDBbind) and quantum property prediction (QM9). We focus on voxel-based CNNs because electron density is inherently volumetric, and voxel grids provide the most natural representation for both experimental and computed densities. On PDBbind, all representations perform similarly with full data, but in low-data regimes, density-based inputs outperform atom types, while a shape-based baseline performs comparably -- suggesting that spatial occupancy dominates this task. On QM9, where labels are derived from Density Functional Theory (DFT) but input densities from a lower-level method (XTB), density-based inputs still outperform atom-based ones at scale, reflect"
+    },
+    {
       "paperId": "4fb6af36c41fbf5f34be30b0112a139bc3e9ad72",
       "title": "stable-pretraining-v1: Foundation Model Research Made Simple",
       "teamAuthors": [
@@ -13964,6 +14116,123 @@
       "citationCount": 10,
       "tldr": "Stable-pretraining is presented, a modular, extensible, and performance-optimized library built on top of PyTorch, Lightning, Hugging Face, and TorchMetrics that aims to accelerate discovery and expand the possibilities of foundation model research.",
       "abstract": "Foundation models and self-supervised learning (SSL) have become central to modern AI, yet research in this area remains hindered by complex codebases, redundant re-implementations, and the heavy engineering burden of scaling experiments. We present stable-pretraining, a modular, extensible, and performance-optimized library built on top of PyTorch, Lightning, Hugging Face, and TorchMetrics. Unlike prior toolkits focused narrowly on reproducing state-of-the-art results, stable-pretraining is designed for flexibility and iteration speed: it unifies essential SSL utilities--including probes, collapse detection metrics, augmentation pipelines, and extensible evaluation routines--within a coherent and reliable framework. A central design principle is logging everything, enabling fine-grained visibility into training dynamics that makes debugging, monitoring, and reproducibility seamless. We validate the library by demonstrating its ability to generate new research insights with minimal overhead, including depthwise representation probing and the analysis of CLIP degradation under synthetic data finetuning. By lowering barriers to entry while remaining scalable to large experiments, sta"
+    },
+    {
+      "paperId": "166b5a44f9a20dd8ab72add744712e2b4edf2ac4",
+      "title": "Unified all-atom molecule generation with neural fields",
+      "teamAuthors": [
+        {
+          "slug": "pedro-o-pinheiro",
+          "name": "Pedro O. Pinheiro"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Matthieu Kirchmeyer",
+          "authorId": "2583878",
+          "slug": null
+        },
+        {
+          "name": "Pedro O. Pinheiro",
+          "authorId": "2300176183",
+          "slug": "pedro-o-pinheiro"
+        },
+        {
+          "name": "Emma Willett",
+          "authorId": "2393205458",
+          "slug": null
+        },
+        {
+          "name": "Karolis Martinkus",
+          "authorId": "1995092493",
+          "slug": null
+        },
+        {
+          "name": "J. Kleinhenz",
+          "authorId": "102537098",
+          "slug": null
+        },
+        {
+          "name": "Emily K. Makowski",
+          "authorId": "2347360889",
+          "slug": null
+        },
+        {
+          "name": "A. Watkins",
+          "authorId": "2309173485",
+          "slug": null
+        },
+        {
+          "name": "Vladimir Gligorijević",
+          "authorId": "2387226431",
+          "slug": null
+        },
+        {
+          "name": "Richard Bonneau",
+          "authorId": "2067157865",
+          "slug": null
+        },
+        {
+          "name": "Saeed Saremi",
+          "authorId": "2300175181",
+          "slug": null
+        }
+      ],
+      "memberSlug": "pedro-o-pinheiro",
+      "memberName": "Pedro O. Pinheiro",
+      "publicationDate": "2025-11-19",
+      "year": 2025,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2511.15906",
+      "citationCount": 2,
+      "tldr": "FuncBind, a framework based on computer vision to generate target-conditioned, all-atom molecules across atomic systems, and introduces a new dataset and benchmark for structure-conditioned macrocyclic peptide generation.",
+      "abstract": "Generative models for structure-based drug design are often limited to a specific modality, restricting their broader applicability. To address this challenge, we introduce FuncBind, a framework based on computer vision to generate target-conditioned, all-atom molecules across atomic systems. FuncBind uses neural fields to represent molecules as continuous atomic densities and employs score-based generative models with modern architectures adapted from the computer vision literature. This modality-agnostic representation allows a single unified model to be trained on diverse atomic systems, from small to large molecules, and handle variable atom/residue counts, including non-canonical amino acids. FuncBind achieves competitive in silico performance in generating small molecules, macrocyclic peptides, and antibody complementarity-determining region loops, conditioned on target structures. FuncBind also generated in vitro novel antibody binders via de novo redesign of the complementarity-determining region H3 loop of two chosen co-crystal structures. As a final contribution, we introduce a new dataset and benchmark for structure-conditioned macrocyclic peptide generation. The code is"
+    },
+    {
+      "paperId": "d5e99ee816c43d6ce262cd42fb00fe6c67646c09",
+      "title": "Pharmacophore-based design by learning on voxel grids",
+      "teamAuthors": [
+        {
+          "slug": "pedro-o-pinheiro",
+          "name": "Pedro O. Pinheiro"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Omar Mahmood",
+          "authorId": "143732391",
+          "slug": null
+        },
+        {
+          "name": "Pedro O. Pinheiro",
+          "authorId": "2300176183",
+          "slug": "pedro-o-pinheiro"
+        },
+        {
+          "name": "Richard Bonneau",
+          "authorId": "2288535414",
+          "slug": null
+        },
+        {
+          "name": "Saeed Saremi",
+          "authorId": "2300175181",
+          "slug": null
+        },
+        {
+          "name": "Vishnu Sresht",
+          "authorId": "4981867",
+          "slug": null
+        }
+      ],
+      "memberSlug": "pedro-o-pinheiro",
+      "memberName": "Pedro O. Pinheiro",
+      "publicationDate": "2025-11-19",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2512.02031",
+      "citationCount": 1,
+      "tldr": "A pharmacophore-based generative model and workflows that address the scaling and fecundity issues of conventional pharmacophore-based virtual screening are proposed and VoxCap, a voxel captioning method for generating SMILES strings from voxelised molecular representations, is introduced.",
+      "abstract": "Ligand-based drug discovery (LBDD) relies on making use of known binders to a protein target to find structurally diverse molecules similarly likely to bind. This process typically involves a brute force search of the known binder (query) against a molecular library using some metric of molecular similarity. One popular approach overlays the pharmacophore-shape profile of the known binder to 3D conformations enumerated for each of the library molecules, computes overlaps, and picks a set of diverse library molecules with high overlaps. While this virtual screening workflow has had considerable success in hit diversification, scaffold hopping, and patent busting, it scales poorly with library sizes and restricts candidate generation to existing library compounds. Leveraging recent advances in voxel-based generative modelling, we propose a pharmacophore-based generative model and workflows that address the scaling and fecundity issues of conventional pharmacophore-based virtual screening. We introduce \\emph{VoxCap}, a voxel captioning method for generating SMILES strings from voxelised molecular representations. We propose two workflows as practical use cases as well as benchmarks fo"
     },
     {
       "paperId": "6f24ecfb6232d6d239db8fa2f55dc71fcd6bfbda",
@@ -20582,6 +20851,144 @@
       "abstract": "Gradient-based optimization is the workhorse of deep learning, offering efficient and scalable training via backpropagation. However, exposing gradients during training can leak sensitive information about the underlying data, raising privacy and security concerns such as susceptibility to data poisoning attacks. In contrast, black-box optimization methods, which treat the model as an opaque function, relying solely on function evaluations to guide optimization, offer a promising alternative in scenarios where data access is restricted, adversarial risks are high, or overfitting is a concern. This paper introduces BBoxER, an evolutionary black-box method for LLM post-training that induces an information bottleneck via implicit compression of the training data. Leveraging the tractability of information flow, we provide non-vacuous generalization bounds and strong theoretical guarantees for robustness to data poisoning attacks and extraction attacks, while ensuring privacy by design. In experiments with LLMs, we demonstrate empirically that black-box optimization methods-despite the scalability and computational challenges inherent to black-box approaches-are able to learn, showing "
     },
     {
+      "paperId": "235d09c83de3b9e36a5aba57e99e604e4336770a",
+      "title": "Top-n𝜎: Eliminating Noise in Logit Space for Robust Token Sampling of LLM",
+      "teamAuthors": [
+        {
+          "slug": "chenxia-tang",
+          "name": "Chenxia Tang"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Chenxia Tang",
+          "authorId": "2330561879",
+          "slug": "chenxia-tang"
+        },
+        {
+          "name": "Jianchun Liu",
+          "authorId": "46700208",
+          "slug": null
+        },
+        {
+          "name": "Hong-Li Xu",
+          "authorId": "2359879147",
+          "slug": null
+        },
+        {
+          "name": "Liu-Sheng Huang",
+          "authorId": "2316094384",
+          "slug": null
+        }
+      ],
+      "memberSlug": "chenxia-tang",
+      "memberName": "Chenxia Tang",
+      "publicationDate": null,
+      "year": 2025,
+      "venue": "Volume 1",
+      "url": "https://doi.org/10.18653/v1/2025.acl-long.528",
+      "citationCount": 0,
+      "tldr": null,
+      "abstract": null
+    },
+    {
+      "paperId": "8ed00582f7a027dd5af73f01ae82ac867702673b",
+      "title": "Top-nσ: Eliminating Noise in Logit Space for Robust Token Sampling of LLM",
+      "teamAuthors": [
+        {
+          "slug": "chenxia-tang",
+          "name": "Chenxia Tang"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Chenxia Tang",
+          "authorId": "2330561879",
+          "slug": "chenxia-tang"
+        },
+        {
+          "name": "Jianchun Liu",
+          "authorId": "46700208",
+          "slug": null
+        },
+        {
+          "name": "Hong-Li Xu",
+          "authorId": "2359879147",
+          "slug": null
+        },
+        {
+          "name": "Liu-Sheng Huang",
+          "authorId": "2316094384",
+          "slug": null
+        }
+      ],
+      "memberSlug": "chenxia-tang",
+      "memberName": "Chenxia Tang",
+      "publicationDate": null,
+      "year": 2025,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://www.semanticscholar.org/paper/8ed00582f7a027dd5af73f01ae82ac867702673b",
+      "citationCount": 13,
+      "tldr": "This work makes two key discoveries: the pre-softmax logits exhibit a clear statistical separation between informative tokens and noise, and it proves the mathematical equivalence of min-p and top-(1-p ) under uniform distribution over logits.",
+      "abstract": null
+    },
+    {
+      "paperId": "31256700f04eb7c2dbf7e9c50b39fc83f84cee79",
+      "title": "Generative property enhancer: implicit guided generation through conditional density estimation",
+      "teamAuthors": [
+        {
+          "slug": "pedro-o-pinheiro",
+          "name": "Pedro O. Pinheiro"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Pedro O. Pinheiro",
+          "authorId": "2300176183",
+          "slug": "pedro-o-pinheiro"
+        },
+        {
+          "name": "Pan Kessel",
+          "authorId": "2290013002",
+          "slug": null
+        },
+        {
+          "name": "A. A. Ismail",
+          "authorId": "2305746061",
+          "slug": null
+        },
+        {
+          "name": "S. Mahajan",
+          "authorId": "11404542",
+          "slug": null
+        },
+        {
+          "name": "Kyunghyun Cho",
+          "authorId": "2308298208",
+          "slug": null
+        },
+        {
+          "name": "Saeed Saremi",
+          "authorId": "2300175181",
+          "slug": null
+        },
+        {
+          "name": "Natasa Tagasovska",
+          "authorId": "2343732455",
+          "slug": null
+        }
+      ],
+      "memberSlug": "pedro-o-pinheiro",
+      "memberName": "Pedro O. Pinheiro",
+      "publicationDate": null,
+      "year": 2025,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.52202/085713-2950",
+      "citationCount": 0,
+      "tldr": "This work introduces generative property enhancer (GPE), an approach that implicitly guides generation by matching samples with lower property values to higher-value ones, compelling the generative model to produce enhanced, diverse designs without auxiliary predictors.",
+      "abstract": "Generative modeling is increasingly important for data-driven computational design. Conventional approaches pair a generative model with a discriminative model to select or guide samples toward optimized designs. Yet discriminative models often struggle in data-scarce settings, common in scientific applications, and are unreliable in the tails of the distribution where optimal designs typically lie. We introduce generative property enhancer (GPE), an approach that implicitly guides generation by matching samples with lower property values to higher-value ones. Formulated as conditional density estimation, our framework defines a target distribution with improved properties, compelling the generative model to produce enhanced, diverse designs without auxiliary predictors. GPE is simple, scalable, end-to-end, modality-agnostic, and integrates seamlessly with diverse generative model architectures and losses. We demonstrate competitive empirical results on standard in silico offline (non-sequential) protein fitness optimization benchmarks. Finally, we propose iterative training on a combination of limited real data and self-generated synthetic data, enabling extrapolation beyond the o"
+    },
+    {
       "paperId": "42793a3ad8f3d0ec9ad613417c1e7a2ed2999ece",
       "title": "Types of stressors, stress-coping strategies, and personality traits as predictors of depression and anxiety among teachers in a suddenly stressful situation",
       "teamAuthors": [
@@ -20681,88 +21088,6 @@
       "url": "https://www.semanticscholar.org/paper/853e540102e92f8150e14be5f7daf943f0a88194",
       "citationCount": 2,
       "tldr": null,
-      "abstract": null
-    },
-    {
-      "paperId": "235d09c83de3b9e36a5aba57e99e604e4336770a",
-      "title": "Top-n𝜎: Eliminating Noise in Logit Space for Robust Token Sampling of LLM",
-      "teamAuthors": [
-        {
-          "slug": "chenxia-tang",
-          "name": "Chenxia Tang"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Chenxia Tang",
-          "authorId": "2330561879",
-          "slug": "chenxia-tang"
-        },
-        {
-          "name": "Jianchun Liu",
-          "authorId": "46700208",
-          "slug": null
-        },
-        {
-          "name": "Hong-Li Xu",
-          "authorId": "2359879147",
-          "slug": null
-        },
-        {
-          "name": "Liu-Sheng Huang",
-          "authorId": "2316094384",
-          "slug": null
-        }
-      ],
-      "memberSlug": "chenxia-tang",
-      "memberName": "Chenxia Tang",
-      "publicationDate": null,
-      "year": 2025,
-      "venue": "Volume 1",
-      "url": "https://doi.org/10.18653/v1/2025.acl-long.528",
-      "citationCount": 0,
-      "tldr": null,
-      "abstract": null
-    },
-    {
-      "paperId": "8ed00582f7a027dd5af73f01ae82ac867702673b",
-      "title": "Top-nσ: Eliminating Noise in Logit Space for Robust Token Sampling of LLM",
-      "teamAuthors": [
-        {
-          "slug": "chenxia-tang",
-          "name": "Chenxia Tang"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Chenxia Tang",
-          "authorId": "2330561879",
-          "slug": "chenxia-tang"
-        },
-        {
-          "name": "Jianchun Liu",
-          "authorId": "46700208",
-          "slug": null
-        },
-        {
-          "name": "Hong-Li Xu",
-          "authorId": "2359879147",
-          "slug": null
-        },
-        {
-          "name": "Liu-Sheng Huang",
-          "authorId": "2316094384",
-          "slug": null
-        }
-      ],
-      "memberSlug": "chenxia-tang",
-      "memberName": "Chenxia Tang",
-      "publicationDate": null,
-      "year": 2025,
-      "venue": "Annual Meeting of the Association for Computational Linguistics",
-      "url": "https://www.semanticscholar.org/paper/8ed00582f7a027dd5af73f01ae82ac867702673b",
-      "citationCount": 13,
-      "tldr": "This work makes two key discoveries: the pre-softmax logits exhibit a clear statistical separation between informative tokens and noise, and it proves the mathematical equivalence of min-p and top-(1-p ) under uniform distribution over logits.",
       "abstract": null
     },
     {
@@ -37557,6 +37882,107 @@
       "abstract": "The quantification of audio aesthetics remains a complex challenge in audio processing, primarily due to its subjective nature, which is influenced by human perception and cultural context. Traditional methods often depend on human listeners for evaluation, leading to inconsistencies and high resource demands. This paper addresses the growing need for automated systems capable of predicting audio aesthetics without human intervention. Such systems are crucial for applications like data filtering, pseudo-labeling large datasets, and evaluating generative audio models, especially as these models become more sophisticated. In this work, we introduce a novel approach to audio aesthetic evaluation by proposing new annotation guidelines that decompose human listening perspectives into four distinct axes. We develop and train no-reference, per-item prediction models that offer a more nuanced assessment of audio quality. Our models are evaluated against human mean opinion scores (MOS) and existing methods, demonstrating comparable or superior performance. This research not only advances the field of audio aesthetics but also provides open-source models and datasets to facilitate future wor"
     },
     {
+      "paperId": "8632eafee313aabba4705703c7e99d81bea43b4f",
+      "title": "DyAb: sequence-based antibody design and property prediction in a low-data regime",
+      "teamAuthors": [
+        {
+          "slug": "pedro-o-pinheiro",
+          "name": "Pedro O. Pinheiro"
+        }
+      ],
+      "authors": [
+        {
+          "name": "J. Lin",
+          "authorId": "2343777604",
+          "slug": null
+        },
+        {
+          "name": "Jennifer L. Hofmann",
+          "authorId": "2059126425",
+          "slug": null
+        },
+        {
+          "name": "Andrew Leaver-Fay",
+          "authorId": "1400515279",
+          "slug": null
+        },
+        {
+          "name": "Wei-Ching Liang",
+          "authorId": "79099424",
+          "slug": null
+        },
+        {
+          "name": "Stefania Vasilaki",
+          "authorId": "2141105912",
+          "slug": null
+        },
+        {
+          "name": "Edith Lee",
+          "authorId": "2313976091",
+          "slug": null
+        },
+        {
+          "name": "Pedro O. Pinheiro",
+          "authorId": "2300176183",
+          "slug": "pedro-o-pinheiro"
+        },
+        {
+          "name": "Natasa Tagasovska",
+          "authorId": "2343732455",
+          "slug": null
+        },
+        {
+          "name": "James R. Kiefer",
+          "authorId": "2343732445",
+          "slug": null
+        },
+        {
+          "name": "Yan Wu",
+          "authorId": "2344087198",
+          "slug": null
+        },
+        {
+          "name": "Franziska Seeger",
+          "authorId": "2323126455",
+          "slug": null
+        },
+        {
+          "name": "Richard Bonneau",
+          "authorId": "2284175341",
+          "slug": null
+        },
+        {
+          "name": "V. Gligorijević",
+          "authorId": "3135439",
+          "slug": null
+        },
+        {
+          "name": "A. Watkins",
+          "authorId": "2309173485",
+          "slug": null
+        },
+        {
+          "name": "Kyunghyun Cho",
+          "authorId": "2268445851",
+          "slug": null
+        },
+        {
+          "name": "Nathan C. Frey",
+          "authorId": "2301791955",
+          "slug": null
+        }
+      ],
+      "memberSlug": "pedro-o-pinheiro",
+      "memberName": "Pedro O. Pinheiro",
+      "publicationDate": "2025-02-02",
+      "year": 2025,
+      "venue": "bioRxiv",
+      "url": "https://doi.org/10.1101/2025.01.28.635353",
+      "citationCount": 8,
+      "tldr": "DyAb is a pair-wise representation built on top of a pre-trained protein language model that achieves a Spearman rank correlation of up to 0.85 on binding affinity prediction across molecules targeting three different antigens.",
+      "abstract": "Protein therapeutic design and property prediction are frequently hampered by data scarcity. Here we propose a new model, DyAb, that addresses these issues by leveraging a pair-wise representation to predict differences in protein properties, rather than absolute values. DyAb is built on top of a pre-trained protein language model and achieves a Spearman rank correlation of up to 0.85 on binding affinity prediction across molecules targeting three different antigens (EGFR, IL-6, and an internal target), given as few as 100 training data. We employ DyAb in two design contexts: as a ranking model to score combinations of known mutations, and combined with a genetic algorithm to generate new sequences. Our method consistently generates novel antibody candidates with high binding rates, including designs that improve on the binding affinity of the lead molecule by more than ten-fold. DyAb represents a powerful tool for engineering therapeutic protein properties in low data regimes common in early-stage drug development."
+    },
+    {
       "paperId": "7bb70c705fe877973650929afceb3d8c0dedce74",
       "title": "Improving Your Model Ranking on Chatbot Arena by Vote Rigging",
       "teamAuthors": [
@@ -38246,6 +38672,42 @@
       "citationCount": 230,
       "tldr": "Video-MMMU is introduced, a multi-modal, multi-disciplinary benchmark designed to assess LMMs' ability to acquire and utilize knowledge from videos, and proposes a proposed knowledge gain metric, {\\Delta}knowledge, that quantifies improvement in performance after video viewing.",
       "abstract": "Humans acquire knowledge through three cognitive stages: perceiving information, comprehending knowledge, and adapting knowledge to solve novel problems. Videos serve as an effective medium for this learning process, facilitating a progression through these cognitive stages. However, existing video benchmarks fail to systematically evaluate the knowledge acquisition capabilities in Large Multimodal Models (LMMs). To address this gap, we introduce Video-MMMU, a multi-modal, multi-disciplinary benchmark designed to assess LMMs' ability to acquire and utilize knowledge from videos. Video-MMMU features a curated collection of 300 expert-level videos and 900 human-annotated questions across six disciplines, evaluating knowledge acquisition through stage-aligned question-answer pairs: Perception, Comprehension, and Adaptation. A proposed knowledge gain metric, {\\Delta}knowledge, quantifies improvement in performance after video viewing. Evaluation of LMMs reveals a steep decline in performance as cognitive demands increase and highlights a significant gap between human and model knowledge acquisition, underscoring the need for methods to enhance LMMs' capability to learn and adapt from v"
+    },
+    {
+      "paperId": "d12103f1ad109890c8b6dafdcc44b685a60e0fb1",
+      "title": "Score-based 3D molecule generation with neural fields",
+      "teamAuthors": [
+        {
+          "slug": "pedro-o-pinheiro",
+          "name": "Pedro O. Pinheiro"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Matthieu Kirchmeyer",
+          "authorId": "2583878",
+          "slug": null
+        },
+        {
+          "name": "Pedro O. Pinheiro",
+          "authorId": "2300176183",
+          "slug": "pedro-o-pinheiro"
+        },
+        {
+          "name": "Saeed Saremi",
+          "authorId": "2300175181",
+          "slug": null
+        }
+      ],
+      "memberSlug": "pedro-o-pinheiro",
+      "memberName": "Pedro O. Pinheiro",
+      "publicationDate": "2025-01-15",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2501.08508",
+      "citationCount": 0,
+      "tldr": "A new model based on walk-jump sampling for unconditional 3D molecule generation in the continuous space using neural fields, FuncMol, which achieves competitive results on drug-like molecules and easily scales to macro-cyclic peptides, with at least one order of magnitude faster sampling.",
+      "abstract": "We introduce a new representation for 3D molecules based on their continuous atomic density fields. Using this representation, we propose a new model based on walk-jump sampling for unconditional 3D molecule generation in the continuous space using neural fields. Our model, FuncMol, encodes molecular fields into latent codes using a conditional neural field, samples noisy codes from a Gaussian-smoothed distribution with Langevin MCMC (walk), denoises these samples in a single step (jump), and finally decodes them into molecular fields. FuncMol performs all-atom generation of 3D molecules without assumptions on the molecular structure and scales well with the size of molecules, unlike most approaches. Our method achieves competitive results on drug-like molecules and easily scales to macro-cyclic peptides, with at least one order of magnitude faster sampling. The code is available at https://github.com/prescient-design/funcmol."
     },
     {
       "paperId": "599abf492b7e5f97c0ab4452f86834e9a26fcbfc",
@@ -43922,6 +44384,139 @@
       "abstract": "We introduce MelodyFlow, an efficient text-controllable high-fidelity music generation and editing model. It operates on continuous latent representations from a low frame rate 48 kHz stereo variational auto encoder codec. Based on a diffusion transformer architecture trained on a flow-matching objective the model can edit diverse high quality stereo samples of variable duration, with simple text descriptions. We adapt the ReNoise latent inversion method to flow matching and compare it with the original implementation and naive denoising diffusion implicit model (DDIM) inversion on a variety of music editing prompts. Our results indicate that our latent inversion outperforms both ReNoise and DDIM for zero-shot test-time text-guided editing on several objective metrics. Subjective evaluations exhibit a substantial improvement over previous state of the art for music editing. Code and model weights will be publicly made available. Samples are available at https://melodyflow.github.io."
     },
     {
+      "paperId": "c2278dd1325dbe58b5f281a0244eaf7024905063",
+      "title": "NEBULA: Neural Empirical Bayes Under Latent Representations for Efficient and Controllable Design of Molecular Libraries",
+      "teamAuthors": [
+        {
+          "slug": "pedro-o-pinheiro",
+          "name": "Pedro O. Pinheiro"
+        }
+      ],
+      "authors": [
+        {
+          "name": "E. Nowara",
+          "authorId": "47482125",
+          "slug": null
+        },
+        {
+          "name": "Pedro O. Pinheiro",
+          "authorId": "2300176183",
+          "slug": "pedro-o-pinheiro"
+        },
+        {
+          "name": "S. Mahajan",
+          "authorId": "11404542",
+          "slug": null
+        },
+        {
+          "name": "Omar Mahmood",
+          "authorId": "143732391",
+          "slug": null
+        },
+        {
+          "name": "Andrew M. Watkins",
+          "authorId": "2205426760",
+          "slug": null
+        },
+        {
+          "name": "Saeed Saremi",
+          "authorId": "2300175181",
+          "slug": null
+        },
+        {
+          "name": "Michael R. Maser",
+          "authorId": "2219401619",
+          "slug": null
+        }
+      ],
+      "memberSlug": "pedro-o-pinheiro",
+      "memberName": "Pedro O. Pinheiro",
+      "publicationDate": "2024-07-03",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2407.03428",
+      "citationCount": 5,
+      "tldr": "NebULA is presented, the first latent 3D generative model for scalable generation of large molecular libraries around a seed compound of interest and is expected to be highly enabling for machine learning-based drug discovery.",
+      "abstract": "We present NEBULA, the first latent 3D generative model for scalable generation of large molecular libraries around a seed compound of interest. Such libraries are crucial for scientific discovery, but it remains challenging to generate large numbers of high quality samples efficiently. 3D-voxel-based methods have recently shown great promise for generating high quality samples de novo from random noise (Pinheiro et al., 2023). However, sampling in 3D-voxel space is computationally expensive and use in library generation is prohibitively slow. Here, we instead perform neural empirical Bayes sampling (Saremi&Hyvarinen, 2019) in the learned latent space of a vector-quantized variational autoencoder. NEBULA generates large molecular libraries nearly an order of magnitude faster than existing methods without sacrificing sample quality. Moreover, NEBULA generalizes better to unseen drug-like molecules, as demonstrated on two public datasets and multiple recently released drugs. We expect the approach herein to be highly enabling for machine learning-based drug discovery. The code is available at https://github.com/prescient-design/nebula"
+    },
+    {
+      "paperId": "1b6143c334860fe08d21d70f82c8a11a6cb7951b",
+      "title": "Top-nσ: Not All Logits Are You Need",
+      "teamAuthors": [
+        {
+          "slug": "chenxia-tang",
+          "name": "Chenxia Tang"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Chenxia Tang",
+          "authorId": "2330561879",
+          "slug": "chenxia-tang"
+        },
+        {
+          "name": "Jianchun Liu",
+          "authorId": "46700208",
+          "slug": null
+        },
+        {
+          "name": "Hongli Xu",
+          "authorId": "1779748",
+          "slug": null
+        },
+        {
+          "name": "Liu-Sheng Huang",
+          "authorId": "2316094384",
+          "slug": null
+        }
+      ],
+      "memberSlug": "chenxia-tang",
+      "memberName": "Chenxia Tang",
+      "publicationDate": null,
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2411.07641",
+      "citationCount": 13,
+      "tldr": null,
+      "abstract": null
+    },
+    {
+      "paperId": "670ffe4312a1c683f060ea31f00952d16f80c605",
+      "title": "Score-based 3D molecule generation with neural fields",
+      "teamAuthors": [
+        {
+          "slug": "pedro-o-pinheiro",
+          "name": "Pedro O. Pinheiro"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Matthieu Kirchmeyer",
+          "authorId": "2583878",
+          "slug": null
+        },
+        {
+          "name": "Pedro O. Pinheiro",
+          "authorId": "2300176183",
+          "slug": "pedro-o-pinheiro"
+        },
+        {
+          "name": "Saeed Saremi",
+          "authorId": "2300175181",
+          "slug": null
+        }
+      ],
+      "memberSlug": "pedro-o-pinheiro",
+      "memberName": "Pedro O. Pinheiro",
+      "publicationDate": null,
+      "year": 2024,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.52202/079017-0340",
+      "citationCount": 9,
+      "tldr": "The model, FuncMol, encodes molecular fields into latent codes using a conditional neural field, samples noisy codes from a Gaussian-smoothed distribution with Langevin MCMC, denoises these samples in a single step, and finally decodes them into molecular fields.",
+      "abstract": "We introduce a new representation for 3D molecules based on their continuous atomic density fields. Using this representation, we propose a new model based on walk-jump sampling [1] for unconditional 3D molecule generation in the continuous space using neural fields. Our model, FuncMol, encodes molecular fields into latent codes using a conditional neural field, samples noisy codes from a Gaussian-smoothed distribution with Langevin MCMC (walk), denoises these samples in a single step (jump), and finally decodes them into molecular fields. FuncMol performs all-atom generation of 3D molecules without assumptions on the molecular structure and scales well with the size of molecules, unlike most approaches. Our method achieves competitive results on drug-like molecules and easily scales to macro-cyclic peptides, with at least one order of magnitude faster sampling. 1"
+    },
+    {
       "paperId": "8400b197d2647e79b4bf8cb8d020b90f6ddf7ca1",
       "title": "Self-Supervised Learning with Joint-Embedding Predictive Architectures. (Apprentissage auto-supervisé utilisant des architectures à représentations jointes)",
       "teamAuthors": [
@@ -44081,47 +44676,6 @@
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2406.18844",
       "citationCount": 34,
-      "tldr": null,
-      "abstract": null
-    },
-    {
-      "paperId": "1b6143c334860fe08d21d70f82c8a11a6cb7951b",
-      "title": "Top-nσ: Not All Logits Are You Need",
-      "teamAuthors": [
-        {
-          "slug": "chenxia-tang",
-          "name": "Chenxia Tang"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Chenxia Tang",
-          "authorId": "2330561879",
-          "slug": "chenxia-tang"
-        },
-        {
-          "name": "Jianchun Liu",
-          "authorId": "46700208",
-          "slug": null
-        },
-        {
-          "name": "Hongli Xu",
-          "authorId": "1779748",
-          "slug": null
-        },
-        {
-          "name": "Liu-Sheng Huang",
-          "authorId": "2316094384",
-          "slug": null
-        }
-      ],
-      "memberSlug": "chenxia-tang",
-      "memberName": "Chenxia Tang",
-      "publicationDate": null,
-      "year": 2024,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2411.07641",
-      "citationCount": 13,
       "tldr": null,
       "abstract": null
     },
@@ -45513,6 +46067,52 @@
       "citationCount": 18,
       "tldr": "The proposed FI VarNet enhances the reconstruction quality of undersampled MRI reconstructions and could enable clinically acceptable reconstructions at higher acceleration factors than currently possible.",
       "abstract": "We introduce three architecture modifications to enhance the performance of the end-to-end (E2E) variational network (VarNet) for undersampled MRI reconstructions. We first implemented the Feature VarNet, which propagates information throughout the cascades of the network in an N-channel feature-space instead of a 2-channel feature-space. Then, we add an attention layer that utilizes the spatial locations of Cartesian undersampling artifacts to further improve performance. Lastly, we combined the Feature and E2E VarNets into the Feature-Image (FI) VarNet, to facilitate cross-domain learning and boost accuracy. Reconstructions were evaluated on the fastMRI dataset using standard metrics and clinical scoring by three neuroradiologists. Feature and FI VarNets outperformed the E2E VarNet for 4×\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$\\times$$\\end{document}, 5×\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepack"
+    },
+    {
+      "paperId": "8b24792a732f53505b4f3538fc7f5c705b881deb",
+      "title": "Structure-based drug design by denoising voxel grids",
+      "teamAuthors": [
+        {
+          "slug": "pedro-o-pinheiro",
+          "name": "Pedro O. Pinheiro"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Pedro O. Pinheiro",
+          "authorId": "2300176183",
+          "slug": "pedro-o-pinheiro"
+        },
+        {
+          "name": "A. Jamasb",
+          "authorId": "2439398017",
+          "slug": null
+        },
+        {
+          "name": "Omar Mahmood",
+          "authorId": "143732391",
+          "slug": null
+        },
+        {
+          "name": "Vishnu Sresht",
+          "authorId": "4981867",
+          "slug": null
+        },
+        {
+          "name": "Saeed Saremi",
+          "authorId": "2300175181",
+          "slug": null
+        }
+      ],
+      "memberSlug": "pedro-o-pinheiro",
+      "memberName": "Pedro O. Pinheiro",
+      "publicationDate": "2024-05-07",
+      "year": 2024,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2405.03961",
+      "citationCount": 32,
+      "tldr": "Compared to the current state of the art, this model is simpler to train, significantly faster to sample from, and achieves better results on extensive in silico benchmarks -- the generated molecules are more diverse, exhibit fewer steric clashes, and bind with higher affinity to protein pockets.",
+      "abstract": "We present VoxBind, a new score-based generative model for 3D molecules conditioned on protein structures. Our approach represents molecules as 3D atomic density grids and leverages a 3D voxel-denoising network for learning and generation. We extend the neural empirical Bayes formalism (Saremi&Hyvarinen, 2019) to the conditional setting and generate structure-conditioned molecules with a two-step procedure: (i) sample noisy molecules from the Gaussian-smoothed conditional distribution with underdamped Langevin MCMC using the learned score function and (ii) estimate clean molecules from the noisy samples with single-step denoising. Compared to the current state of the art, our model is simpler to train, significantly faster to sample from, and achieves better results on extensive in silico benchmarks -- the generated molecules are more diverse, exhibit fewer steric clashes, and bind with higher affinity to protein pockets. The code is available at https://github.com/genentech/voxbind/."
     },
     {
       "paperId": "80945e0f3e60df0ee545caa665aad1b78123ff4a",
@@ -48516,6 +49116,257 @@
       "citationCount": 75,
       "tldr": "This work proposes a training-free method for solving linear inverse problems by using pretrained flow models, leveraging the simplicity and efficiency of Flow Matching models, using theoretically-justified weighting schemes, and thereby significantly reducing the amount of manual tuning.",
       "abstract": "Solving inverse problems without any training involves using a pretrained generative model and making appropriate modifications to the generation process to avoid finetuning of the generative model. While recent methods have explored the use of diffusion models, they still require the manual tuning of many hyperparameters for different inverse problems. In this work, we propose a training-free method for solving linear inverse problems by using pretrained flow models, leveraging the simplicity and efficiency of Flow Matching models, using theoretically-justified weighting schemes, and thereby significantly reducing the amount of manual tuning. In particular, we draw inspiration from two main sources: adopting prior gradient correction methods to the flow regime, and a solver scheme based on conditional Optimal Transport paths. As pretrained diffusion models are widely accessible, we also show how to practically adapt diffusion models for our method. Empirically, our approach requires no problem-specific tuning across an extensive suite of noisy linear inverse problems on high-dimensional datasets, ImageNet-64/128 and AFHQ-256, and we observe that our flow-based method for solving i"
+    },
+    {
+      "paperId": "14bae186be320b9cc0a47d02524d6078d8bdec4b",
+      "title": "An RNA foundation model enables discovery of disease mechanisms and candidate therapeutics",
+      "teamAuthors": [
+        {
+          "slug": "pedro-o-pinheiro",
+          "name": "Pedro O. Pinheiro"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Albi Celaj",
+          "authorId": "6460452",
+          "slug": null
+        },
+        {
+          "name": "Alice J. Gao",
+          "authorId": "2248086238",
+          "slug": null
+        },
+        {
+          "name": "Tammy T. Y. Lau",
+          "authorId": "2244601104",
+          "slug": null
+        },
+        {
+          "name": "Erle M. Holgersen",
+          "authorId": "40960892",
+          "slug": null
+        },
+        {
+          "name": "Alston Lo",
+          "authorId": "2161243123",
+          "slug": null
+        },
+        {
+          "name": "Varun Lodaya",
+          "authorId": "2248774969",
+          "slug": null
+        },
+        {
+          "name": "Christopher B. Cole",
+          "authorId": "80407596",
+          "slug": null
+        },
+        {
+          "name": "R. Denroche",
+          "authorId": "3945259",
+          "slug": null
+        },
+        {
+          "name": "Carl Spickett",
+          "authorId": "4290348",
+          "slug": null
+        },
+        {
+          "name": "Omar Wagih",
+          "authorId": "2244600849",
+          "slug": null
+        },
+        {
+          "name": "Pedro O. Pinheiro",
+          "authorId": "2300176183",
+          "slug": "pedro-o-pinheiro"
+        },
+        {
+          "name": "Parth Vora",
+          "authorId": "51168810",
+          "slug": null
+        },
+        {
+          "name": "P. Mohammadi-Shemirani",
+          "authorId": "1405088787",
+          "slug": null
+        },
+        {
+          "name": "S. Chan",
+          "authorId": "2107299892",
+          "slug": null
+        },
+        {
+          "name": "Zach Nussbaum",
+          "authorId": "2248795146",
+          "slug": null
+        },
+        {
+          "name": "Xi Zhang",
+          "authorId": "2329316810",
+          "slug": null
+        },
+        {
+          "name": "Helen Zhu",
+          "authorId": "2249072080",
+          "slug": null
+        },
+        {
+          "name": "Easwaran Ramamurthy",
+          "authorId": "1606048813",
+          "slug": null
+        },
+        {
+          "name": "Bhargav Kanuparthi",
+          "authorId": "40974715",
+          "slug": null
+        },
+        {
+          "name": "M. Iacocca",
+          "authorId": "11848085",
+          "slug": null
+        },
+        {
+          "name": "Diane Ly",
+          "authorId": "2248802182",
+          "slug": null
+        },
+        {
+          "name": "Ken Kron",
+          "authorId": "2105930404",
+          "slug": null
+        },
+        {
+          "name": "Marta Verby",
+          "authorId": "6767145",
+          "slug": null
+        },
+        {
+          "name": "Kahlin Cheung-Ong",
+          "authorId": "1398591399",
+          "slug": null
+        },
+        {
+          "name": "Z. Shalev",
+          "authorId": "47304833",
+          "slug": null
+        },
+        {
+          "name": "Brandon Vaz",
+          "authorId": "1932269831",
+          "slug": null
+        },
+        {
+          "name": "Sakshi Bhargava",
+          "authorId": "1513261862",
+          "slug": null
+        },
+        {
+          "name": "Farhan Yusuf",
+          "authorId": "2248783976",
+          "slug": null
+        },
+        {
+          "name": "S. Samuel",
+          "authorId": "2297898730",
+          "slug": null
+        },
+        {
+          "name": "Sabriyeh Alibai",
+          "authorId": "91820856",
+          "slug": null
+        },
+        {
+          "name": "Zahra Baghestani",
+          "authorId": "2248767640",
+          "slug": null
+        },
+        {
+          "name": "Xinwen He",
+          "authorId": "3603896",
+          "slug": null
+        },
+        {
+          "name": "Kirsten Krastel",
+          "authorId": "2248802164",
+          "slug": null
+        },
+        {
+          "name": "Oladipo Oladapo",
+          "authorId": "1693711278",
+          "slug": null
+        },
+        {
+          "name": "A. Mohan",
+          "authorId": "31851465",
+          "slug": null
+        },
+        {
+          "name": "A. Shanavas",
+          "authorId": "47195777",
+          "slug": null
+        },
+        {
+          "name": "Magdalena Bugno",
+          "authorId": "5965842",
+          "slug": null
+        },
+        {
+          "name": "Jovanka J Bogojeski",
+          "authorId": "3531056",
+          "slug": null
+        },
+        {
+          "name": "F. Schmitges",
+          "authorId": "3659060",
+          "slug": null
+        },
+        {
+          "name": "C. Kim",
+          "authorId": "144219193",
+          "slug": null
+        },
+        {
+          "name": "S. Grant",
+          "authorId": "2290305434",
+          "slug": null
+        },
+        {
+          "name": "Rachana Jayaraman",
+          "authorId": "2128626448",
+          "slug": null
+        },
+        {
+          "name": "Tehmina Masud",
+          "authorId": "2244601012",
+          "slug": null
+        },
+        {
+          "name": "A. Deshwar",
+          "authorId": "2621817",
+          "slug": null
+        },
+        {
+          "name": "Shreshth Gandhi",
+          "authorId": "51039114",
+          "slug": null
+        },
+        {
+          "name": "Brendan J. Frey",
+          "authorId": "2248143447",
+          "slug": null
+        }
+      ],
+      "memberSlug": "pedro-o-pinheiro",
+      "memberName": "Pedro O. Pinheiro",
+      "publicationDate": "2023-09-23",
+      "year": 2023,
+      "venue": "bioRxiv",
+      "url": "https://doi.org/10.1101/2023.09.20.558508",
+      "citationCount": 58,
+      "tldr": "A foundation model for RNA biology, “BigRNA” is described, which was trained on thousands of genome-matched datasets to predict tissue-specific RNA expression, splicing, microRNA sites, and RNA binding protein specificity from DNA sequence.",
+      "abstract": "Accurately modeling and predicting RNA biology has been a long-standing challenge, bearing significant clinical ramifications for variant interpretation and the formulation of tailored therapeutics. We describe a foundation model for RNA biology, “BigRNA”, which was trained on thousands of genome-matched datasets to predict tissue-specific RNA expression, splicing, microRNA sites, and RNA binding protein specificity from DNA sequence. Unlike approaches that are restricted to missense variants, BigRNA can identify pathogenic non-coding variant effects across diverse mechanisms, including polyadenylation, exon skipping and intron retention. BigRNA accurately predicted the effects of steric blocking oligonucleotides (SBOs) on increasing the expression of 4 out of 4 genes, and on splicing for 18 out of 18 exons across 14 genes, including those involved in Wilson disease and spinal muscular atrophy. We anticipate that BigRNA and foundation models like it will have widespread applications in the field of personalized RNA therapeutics."
     },
     {
       "paperId": "b210cd21ffd5e7d82daa838a844e56e35d26fe74",
@@ -71246,6 +72097,42 @@
       "abstract": null
     },
     {
+      "paperId": "015d25f66514ce0a966300944201d45968a104ba",
+      "title": "Simple Image Description Generator via a Linear Phrase-based Model",
+      "teamAuthors": [
+        {
+          "slug": "pedro-o-pinheiro",
+          "name": "Pedro O. Pinheiro"
+        }
+      ],
+      "authors": [
+        {
+          "name": "R. Lebret",
+          "authorId": "2875254",
+          "slug": null
+        },
+        {
+          "name": "Pedro O. Pinheiro",
+          "authorId": "2300176183",
+          "slug": "pedro-o-pinheiro"
+        },
+        {
+          "name": "R. Collobert",
+          "authorId": "2939803",
+          "slug": null
+        }
+      ],
+      "memberSlug": "pedro-o-pinheiro",
+      "memberName": "Pedro O. Pinheiro",
+      "publicationDate": null,
+      "year": 2015,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/015d25f66514ce0a966300944201d45968a104ba",
+      "citationCount": 4,
+      "tldr": "This paper presents a simple model that is able to generate descriptive sentences given a sample image and proposes a simple language model that can produce relevant descriptions for a given test image using the phrases inferred.",
+      "abstract": null
+    },
+    {
       "paperId": "e465923498ffc9ffc133a3262b6bb292df16e666",
       "title": "Ultra-scalable and efficient methods for hybrid observational and experimental local causal pathway discovery",
       "teamAuthors": [
@@ -74487,6 +75374,77 @@
       "url": "https://www.semanticscholar.org/paper/551b369fd1e22ca354bb1d2a1853f79e20932e95",
       "citationCount": 0,
       "tldr": "The deformation of the muscle shows the structural behavior changes after Finite Element Analysis and the construction of 3D PAM model is mainly consists of flexible, inflatable membrane for which the material type and properties are being specified as neoprene rubber.",
+      "abstract": null
+    },
+    {
+      "paperId": "6f77dd79bbe56019aaabfc3619bb1a34bb0f8abd",
+      "title": "AtoMAE: Learning Protein Structure Representations from Atomic Voxel Grids via Masked Autoencoders",
+      "teamAuthors": [
+        {
+          "slug": "pedro-o-pinheiro",
+          "name": "Pedro O. Pinheiro"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Namu Park",
+          "authorId": "2301276661",
+          "slug": null
+        },
+        {
+          "name": "Pedro O. Pinheiro",
+          "authorId": "2300176183",
+          "slug": "pedro-o-pinheiro"
+        },
+        {
+          "name": "Nathan C. Frey",
+          "authorId": "2301791955",
+          "slug": null
+        },
+        {
+          "name": "S. Lisanza",
+          "authorId": "2031068264",
+          "slug": null
+        },
+        {
+          "name": "A. Watkins",
+          "authorId": "2309173485",
+          "slug": null
+        },
+        {
+          "name": "A. Jamasb",
+          "authorId": "2439398017",
+          "slug": null
+        },
+        {
+          "name": "Matthieu Kirchmeyer",
+          "authorId": "2583878",
+          "slug": null
+        },
+        {
+          "name": "Richard Bonneau",
+          "authorId": "2288535414",
+          "slug": null
+        },
+        {
+          "name": "Saeed Saremi",
+          "authorId": "2300175181",
+          "slug": null
+        },
+        {
+          "name": "Vladimir Gligorijevi'c",
+          "authorId": null,
+          "slug": null
+        }
+      ],
+      "memberSlug": "pedro-o-pinheiro",
+      "memberName": "Pedro O. Pinheiro",
+      "publicationDate": null,
+      "year": null,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/6f77dd79bbe56019aaabfc3619bb1a34bb0f8abd",
+      "citationCount": 0,
+      "tldr": "AtoMAE can predict residue identities from backbone structures alone, achieving accuracy comparable to inverse folding models while preserving architectural simplicity, and encourages a design shift towards models that autonomously learn multi-level biological understanding.",
       "abstract": null
     },
     {
