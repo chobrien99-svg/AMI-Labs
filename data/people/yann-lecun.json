@@ -1006,32 +1006,6 @@
       ]
     },
     {
-      "paperId": "530dab86cb8034bc12a32d21508aaa3f2cc00aa1",
-      "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2603.19312",
-      "citationCount": 177,
-      "coAuthors": [
-        {
-          "slug": "lucas-maes",
-          "name": "Lucas Maes"
-        },
-        {
-          "slug": "quentin-le-lidec",
-          "name": "Quentin Le Lidec"
-        },
-        {
-          "slug": null,
-          "name": "Damien Scieur"
-        },
-        {
-          "slug": null,
-          "name": "Randall Balestriero"
-        }
-      ]
-    },
-    {
       "paperId": "23f953773609d673caf468aeea02da9c3f496592",
       "title": "Representation Learning for Spatiotemporal Physical Systems",
       "year": 2026,
@@ -1062,6 +1036,32 @@
         {
           "slug": null,
           "name": "Shirley Ho"
+        }
+      ]
+    },
+    {
+      "paperId": "530dab86cb8034bc12a32d21508aaa3f2cc00aa1",
+      "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2603.19312",
+      "citationCount": 177,
+      "coAuthors": [
+        {
+          "slug": "lucas-maes",
+          "name": "Lucas Maes"
+        },
+        {
+          "slug": "quentin-le-lidec",
+          "name": "Quentin Le Lidec"
+        },
+        {
+          "slug": null,
+          "name": "Damien Scieur"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
         }
       ]
     },
@@ -3224,18 +3224,18 @@
   ],
   "topPublications": [
     {
-      "title": "Learning and Leveraging World Models in Visual Representation Learning",
-      "year": 2024,
-      "citationCount": 78,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2403.00504"
-    },
-    {
       "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
       "year": 2026,
-      "citationCount": 78,
+      "citationCount": 85,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.14482"
+    },
+    {
+      "title": "Learning and Leveraging World Models in Visual Representation Learning",
+      "year": 2024,
+      "citationCount": 79,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2403.00504"
     },
     {
       "title": "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language",
@@ -3252,11 +3252,11 @@
       "url": "https://doi.org/10.48550/arXiv.2302.02774"
     },
     {
-      "title": "Self-supervised learning of Split Invariant Equivariant representations",
-      "year": 2023,
-      "citationCount": 46,
-      "venue": "International Conference on Machine Learning",
-      "url": "https://doi.org/10.48550/arXiv.2302.10283"
+      "title": "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
+      "year": 2026,
+      "citationCount": 47,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.16208"
     }
   ],
   "githubProjects": [],

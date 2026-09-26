@@ -20,8 +20,671 @@
   "careerHistory": [],
   "reportsTo": "saining-xie",
   "reports": [],
-  "papers": [],
-  "topPublications": [],
+  "papers": [
+    {
+      "paperId": "d32a359821e772575e94cfe854b7c35ba63aeb00",
+      "title": "DyAb: sequence-based antibody design and property prediction in a low-data regime",
+      "year": 2026,
+      "venue": "mAbs",
+      "url": "https://doi.org/10.1080/19420862.2026.2717460",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "J. Lin"
+        },
+        {
+          "slug": null,
+          "name": "Jennifer L. Hofmann"
+        },
+        {
+          "slug": null,
+          "name": "Andrew Leaver-Fay"
+        },
+        {
+          "slug": null,
+          "name": "Wei-Ching Liang"
+        },
+        {
+          "slug": null,
+          "name": "Stefania Vasilaki"
+        },
+        {
+          "slug": null,
+          "name": "Edith Lee"
+        },
+        {
+          "slug": null,
+          "name": "Natasa Tagasovska"
+        },
+        {
+          "slug": null,
+          "name": "James R. Kiefer"
+        },
+        {
+          "slug": null,
+          "name": "Yan Wu"
+        },
+        {
+          "slug": null,
+          "name": "Franziska Seeger"
+        },
+        {
+          "slug": null,
+          "name": "Richard Bonneau"
+        },
+        {
+          "slug": null,
+          "name": "Vladimir Gligorijević"
+        },
+        {
+          "slug": null,
+          "name": "A. Watkins"
+        },
+        {
+          "slug": null,
+          "name": "Kyunghyun Cho"
+        },
+        {
+          "slug": null,
+          "name": "Nathan C. Frey"
+        }
+      ]
+    },
+    {
+      "paperId": "4046dc07138ea5f3e04d628866b6d902af308c7c",
+      "title": "Beyond Atoms: Evaluating Electron Density Representation for 3D Molecular Learning",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2511.21900",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Patricia Suriana"
+        },
+        {
+          "slug": null,
+          "name": "Joshua A. Rackers"
+        },
+        {
+          "slug": null,
+          "name": "E. Nowara"
+        },
+        {
+          "slug": null,
+          "name": "John M. Nicoloudis"
+        },
+        {
+          "slug": null,
+          "name": "Vishnu Sresht"
+        }
+      ]
+    },
+    {
+      "paperId": "166b5a44f9a20dd8ab72add744712e2b4edf2ac4",
+      "title": "Unified all-atom molecule generation with neural fields",
+      "year": 2025,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2511.15906",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Matthieu Kirchmeyer"
+        },
+        {
+          "slug": null,
+          "name": "Emma Willett"
+        },
+        {
+          "slug": null,
+          "name": "Karolis Martinkus"
+        },
+        {
+          "slug": null,
+          "name": "J. Kleinhenz"
+        },
+        {
+          "slug": null,
+          "name": "Emily K. Makowski"
+        },
+        {
+          "slug": null,
+          "name": "A. Watkins"
+        },
+        {
+          "slug": null,
+          "name": "Vladimir Gligorijević"
+        },
+        {
+          "slug": null,
+          "name": "Richard Bonneau"
+        },
+        {
+          "slug": null,
+          "name": "Saeed Saremi"
+        }
+      ]
+    },
+    {
+      "paperId": "d5e99ee816c43d6ce262cd42fb00fe6c67646c09",
+      "title": "Pharmacophore-based design by learning on voxel grids",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2512.02031",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Omar Mahmood"
+        },
+        {
+          "slug": null,
+          "name": "Richard Bonneau"
+        },
+        {
+          "slug": null,
+          "name": "Saeed Saremi"
+        },
+        {
+          "slug": null,
+          "name": "Vishnu Sresht"
+        }
+      ]
+    },
+    {
+      "paperId": "31256700f04eb7c2dbf7e9c50b39fc83f84cee79",
+      "title": "Generative property enhancer: implicit guided generation through conditional density estimation",
+      "year": 2025,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.52202/085713-2950",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Pan Kessel"
+        },
+        {
+          "slug": null,
+          "name": "A. A. Ismail"
+        },
+        {
+          "slug": null,
+          "name": "S. Mahajan"
+        },
+        {
+          "slug": null,
+          "name": "Kyunghyun Cho"
+        },
+        {
+          "slug": null,
+          "name": "Saeed Saremi"
+        },
+        {
+          "slug": null,
+          "name": "Natasa Tagasovska"
+        }
+      ]
+    },
+    {
+      "paperId": "8632eafee313aabba4705703c7e99d81bea43b4f",
+      "title": "DyAb: sequence-based antibody design and property prediction in a low-data regime",
+      "year": 2025,
+      "venue": "bioRxiv",
+      "url": "https://doi.org/10.1101/2025.01.28.635353",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "J. Lin"
+        },
+        {
+          "slug": null,
+          "name": "Jennifer L. Hofmann"
+        },
+        {
+          "slug": null,
+          "name": "Andrew Leaver-Fay"
+        },
+        {
+          "slug": null,
+          "name": "Wei-Ching Liang"
+        },
+        {
+          "slug": null,
+          "name": "Stefania Vasilaki"
+        },
+        {
+          "slug": null,
+          "name": "Edith Lee"
+        },
+        {
+          "slug": null,
+          "name": "Natasa Tagasovska"
+        },
+        {
+          "slug": null,
+          "name": "James R. Kiefer"
+        },
+        {
+          "slug": null,
+          "name": "Yan Wu"
+        },
+        {
+          "slug": null,
+          "name": "Franziska Seeger"
+        },
+        {
+          "slug": null,
+          "name": "Richard Bonneau"
+        },
+        {
+          "slug": null,
+          "name": "V. Gligorijević"
+        },
+        {
+          "slug": null,
+          "name": "A. Watkins"
+        },
+        {
+          "slug": null,
+          "name": "Kyunghyun Cho"
+        },
+        {
+          "slug": null,
+          "name": "Nathan C. Frey"
+        }
+      ]
+    },
+    {
+      "paperId": "d12103f1ad109890c8b6dafdcc44b685a60e0fb1",
+      "title": "Score-based 3D molecule generation with neural fields",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2501.08508",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Matthieu Kirchmeyer"
+        },
+        {
+          "slug": null,
+          "name": "Saeed Saremi"
+        }
+      ]
+    },
+    {
+      "paperId": "c2278dd1325dbe58b5f281a0244eaf7024905063",
+      "title": "NEBULA: Neural Empirical Bayes Under Latent Representations for Efficient and Controllable Design of Molecular Libraries",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2407.03428",
+      "citationCount": 5,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "E. Nowara"
+        },
+        {
+          "slug": null,
+          "name": "S. Mahajan"
+        },
+        {
+          "slug": null,
+          "name": "Omar Mahmood"
+        },
+        {
+          "slug": null,
+          "name": "Andrew M. Watkins"
+        },
+        {
+          "slug": null,
+          "name": "Saeed Saremi"
+        },
+        {
+          "slug": null,
+          "name": "Michael R. Maser"
+        }
+      ]
+    },
+    {
+      "paperId": "670ffe4312a1c683f060ea31f00952d16f80c605",
+      "title": "Score-based 3D molecule generation with neural fields",
+      "year": 2024,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.52202/079017-0340",
+      "citationCount": 9,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Matthieu Kirchmeyer"
+        },
+        {
+          "slug": null,
+          "name": "Saeed Saremi"
+        }
+      ]
+    },
+    {
+      "paperId": "8b24792a732f53505b4f3538fc7f5c705b881deb",
+      "title": "Structure-based drug design by denoising voxel grids",
+      "year": 2024,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2405.03961",
+      "citationCount": 32,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "A. Jamasb"
+        },
+        {
+          "slug": null,
+          "name": "Omar Mahmood"
+        },
+        {
+          "slug": null,
+          "name": "Vishnu Sresht"
+        },
+        {
+          "slug": null,
+          "name": "Saeed Saremi"
+        }
+      ]
+    },
+    {
+      "paperId": "14bae186be320b9cc0a47d02524d6078d8bdec4b",
+      "title": "An RNA foundation model enables discovery of disease mechanisms and candidate therapeutics",
+      "year": 2023,
+      "venue": "bioRxiv",
+      "url": "https://doi.org/10.1101/2023.09.20.558508",
+      "citationCount": 58,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Albi Celaj"
+        },
+        {
+          "slug": null,
+          "name": "Alice J. Gao"
+        },
+        {
+          "slug": null,
+          "name": "Tammy T. Y. Lau"
+        },
+        {
+          "slug": null,
+          "name": "Erle M. Holgersen"
+        },
+        {
+          "slug": null,
+          "name": "Alston Lo"
+        },
+        {
+          "slug": null,
+          "name": "Varun Lodaya"
+        },
+        {
+          "slug": null,
+          "name": "Christopher B. Cole"
+        },
+        {
+          "slug": null,
+          "name": "R. Denroche"
+        },
+        {
+          "slug": null,
+          "name": "Carl Spickett"
+        },
+        {
+          "slug": null,
+          "name": "Omar Wagih"
+        },
+        {
+          "slug": null,
+          "name": "Parth Vora"
+        },
+        {
+          "slug": null,
+          "name": "P. Mohammadi-Shemirani"
+        },
+        {
+          "slug": null,
+          "name": "S. Chan"
+        },
+        {
+          "slug": null,
+          "name": "Zach Nussbaum"
+        },
+        {
+          "slug": null,
+          "name": "Xi Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Helen Zhu"
+        },
+        {
+          "slug": null,
+          "name": "Easwaran Ramamurthy"
+        },
+        {
+          "slug": null,
+          "name": "Bhargav Kanuparthi"
+        },
+        {
+          "slug": null,
+          "name": "M. Iacocca"
+        },
+        {
+          "slug": null,
+          "name": "Diane Ly"
+        },
+        {
+          "slug": null,
+          "name": "Ken Kron"
+        },
+        {
+          "slug": null,
+          "name": "Marta Verby"
+        },
+        {
+          "slug": null,
+          "name": "Kahlin Cheung-Ong"
+        },
+        {
+          "slug": null,
+          "name": "Z. Shalev"
+        },
+        {
+          "slug": null,
+          "name": "Brandon Vaz"
+        },
+        {
+          "slug": null,
+          "name": "Sakshi Bhargava"
+        },
+        {
+          "slug": null,
+          "name": "Farhan Yusuf"
+        },
+        {
+          "slug": null,
+          "name": "S. Samuel"
+        },
+        {
+          "slug": null,
+          "name": "Sabriyeh Alibai"
+        },
+        {
+          "slug": null,
+          "name": "Zahra Baghestani"
+        },
+        {
+          "slug": null,
+          "name": "Xinwen He"
+        },
+        {
+          "slug": null,
+          "name": "Kirsten Krastel"
+        },
+        {
+          "slug": null,
+          "name": "Oladipo Oladapo"
+        },
+        {
+          "slug": null,
+          "name": "A. Mohan"
+        },
+        {
+          "slug": null,
+          "name": "A. Shanavas"
+        },
+        {
+          "slug": null,
+          "name": "Magdalena Bugno"
+        },
+        {
+          "slug": null,
+          "name": "Jovanka J Bogojeski"
+        },
+        {
+          "slug": null,
+          "name": "F. Schmitges"
+        },
+        {
+          "slug": null,
+          "name": "C. Kim"
+        },
+        {
+          "slug": null,
+          "name": "S. Grant"
+        },
+        {
+          "slug": null,
+          "name": "Rachana Jayaraman"
+        },
+        {
+          "slug": null,
+          "name": "Tehmina Masud"
+        },
+        {
+          "slug": null,
+          "name": "A. Deshwar"
+        },
+        {
+          "slug": null,
+          "name": "Shreshth Gandhi"
+        },
+        {
+          "slug": null,
+          "name": "Brendan J. Frey"
+        }
+      ]
+    },
+    {
+      "paperId": "015d25f66514ce0a966300944201d45968a104ba",
+      "title": "Simple Image Description Generator via a Linear Phrase-based Model",
+      "year": 2015,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/015d25f66514ce0a966300944201d45968a104ba",
+      "citationCount": 4,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "R. Lebret"
+        },
+        {
+          "slug": null,
+          "name": "R. Collobert"
+        }
+      ]
+    },
+    {
+      "paperId": "6f77dd79bbe56019aaabfc3619bb1a34bb0f8abd",
+      "title": "AtoMAE: Learning Protein Structure Representations from Atomic Voxel Grids via Masked Autoencoders",
+      "year": null,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/6f77dd79bbe56019aaabfc3619bb1a34bb0f8abd",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Namu Park"
+        },
+        {
+          "slug": null,
+          "name": "Nathan C. Frey"
+        },
+        {
+          "slug": null,
+          "name": "S. Lisanza"
+        },
+        {
+          "slug": null,
+          "name": "A. Watkins"
+        },
+        {
+          "slug": null,
+          "name": "A. Jamasb"
+        },
+        {
+          "slug": null,
+          "name": "Matthieu Kirchmeyer"
+        },
+        {
+          "slug": null,
+          "name": "Richard Bonneau"
+        },
+        {
+          "slug": null,
+          "name": "Saeed Saremi"
+        },
+        {
+          "slug": null,
+          "name": "Vladimir Gligorijevi'c"
+        }
+      ]
+    }
+  ],
+  "topPublications": [
+    {
+      "title": "Structure-based drug design by denoising voxel grids",
+      "year": 2024,
+      "citationCount": 32,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2405.03961"
+    },
+    {
+      "title": "Score-based 3D molecule generation with neural fields",
+      "year": 2024,
+      "citationCount": 9,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.52202/079017-0340"
+    },
+    {
+      "title": "DyAb: sequence-based antibody design and property prediction in a low-data regime",
+      "year": 2025,
+      "citationCount": 8,
+      "venue": "bioRxiv",
+      "url": "https://doi.org/10.1101/2025.01.28.635353"
+    },
+    {
+      "title": "NEBULA: Neural Empirical Bayes Under Latent Representations for Efficient and Controllable Design of Molecular Libraries",
+      "year": 2024,
+      "citationCount": 5,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2407.03428"
+    },
+    {
+      "title": "Unified all-atom molecule generation with neural fields",
+      "year": 2025,
+      "citationCount": 2,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2511.15906"
+    }
+  ],
   "githubProjects": [],
   "githubActivity": {
     "username": "poliveirap",
@@ -39,7 +702,344 @@
   "xPosts": [],
   "connections": {
     "coAuthors": [],
-    "externalCoAuthors": [],
+    "externalCoAuthors": [
+      {
+        "name": "Saeed Saremi",
+        "papers": 8
+      },
+      {
+        "name": "Richard Bonneau",
+        "papers": 5
+      },
+      {
+        "name": "A. Watkins",
+        "papers": 4
+      },
+      {
+        "name": "Matthieu Kirchmeyer",
+        "papers": 4
+      },
+      {
+        "name": "Natasa Tagasovska",
+        "papers": 3
+      },
+      {
+        "name": "Kyunghyun Cho",
+        "papers": 3
+      },
+      {
+        "name": "Nathan C. Frey",
+        "papers": 3
+      },
+      {
+        "name": "Vishnu Sresht",
+        "papers": 3
+      },
+      {
+        "name": "Omar Mahmood",
+        "papers": 3
+      },
+      {
+        "name": "J. Lin",
+        "papers": 2
+      },
+      {
+        "name": "Jennifer L. Hofmann",
+        "papers": 2
+      },
+      {
+        "name": "Andrew Leaver-Fay",
+        "papers": 2
+      },
+      {
+        "name": "Wei-Ching Liang",
+        "papers": 2
+      },
+      {
+        "name": "Stefania Vasilaki",
+        "papers": 2
+      },
+      {
+        "name": "Edith Lee",
+        "papers": 2
+      },
+      {
+        "name": "James R. Kiefer",
+        "papers": 2
+      },
+      {
+        "name": "Yan Wu",
+        "papers": 2
+      },
+      {
+        "name": "Franziska Seeger",
+        "papers": 2
+      },
+      {
+        "name": "Vladimir Gligorijević",
+        "papers": 2
+      },
+      {
+        "name": "E. Nowara",
+        "papers": 2
+      },
+      {
+        "name": "S. Mahajan",
+        "papers": 2
+      },
+      {
+        "name": "A. Jamasb",
+        "papers": 2
+      },
+      {
+        "name": "Patricia Suriana",
+        "papers": 1
+      },
+      {
+        "name": "Joshua A. Rackers",
+        "papers": 1
+      },
+      {
+        "name": "John M. Nicoloudis",
+        "papers": 1
+      },
+      {
+        "name": "Emma Willett",
+        "papers": 1
+      },
+      {
+        "name": "Karolis Martinkus",
+        "papers": 1
+      },
+      {
+        "name": "J. Kleinhenz",
+        "papers": 1
+      },
+      {
+        "name": "Emily K. Makowski",
+        "papers": 1
+      },
+      {
+        "name": "Pan Kessel",
+        "papers": 1
+      },
+      {
+        "name": "A. A. Ismail",
+        "papers": 1
+      },
+      {
+        "name": "V. Gligorijević",
+        "papers": 1
+      },
+      {
+        "name": "Andrew M. Watkins",
+        "papers": 1
+      },
+      {
+        "name": "Michael R. Maser",
+        "papers": 1
+      },
+      {
+        "name": "Albi Celaj",
+        "papers": 1
+      },
+      {
+        "name": "Alice J. Gao",
+        "papers": 1
+      },
+      {
+        "name": "Tammy T. Y. Lau",
+        "papers": 1
+      },
+      {
+        "name": "Erle M. Holgersen",
+        "papers": 1
+      },
+      {
+        "name": "Alston Lo",
+        "papers": 1
+      },
+      {
+        "name": "Varun Lodaya",
+        "papers": 1
+      },
+      {
+        "name": "Christopher B. Cole",
+        "papers": 1
+      },
+      {
+        "name": "R. Denroche",
+        "papers": 1
+      },
+      {
+        "name": "Carl Spickett",
+        "papers": 1
+      },
+      {
+        "name": "Omar Wagih",
+        "papers": 1
+      },
+      {
+        "name": "Parth Vora",
+        "papers": 1
+      },
+      {
+        "name": "P. Mohammadi-Shemirani",
+        "papers": 1
+      },
+      {
+        "name": "S. Chan",
+        "papers": 1
+      },
+      {
+        "name": "Zach Nussbaum",
+        "papers": 1
+      },
+      {
+        "name": "Xi Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Helen Zhu",
+        "papers": 1
+      },
+      {
+        "name": "Easwaran Ramamurthy",
+        "papers": 1
+      },
+      {
+        "name": "Bhargav Kanuparthi",
+        "papers": 1
+      },
+      {
+        "name": "M. Iacocca",
+        "papers": 1
+      },
+      {
+        "name": "Diane Ly",
+        "papers": 1
+      },
+      {
+        "name": "Ken Kron",
+        "papers": 1
+      },
+      {
+        "name": "Marta Verby",
+        "papers": 1
+      },
+      {
+        "name": "Kahlin Cheung-Ong",
+        "papers": 1
+      },
+      {
+        "name": "Z. Shalev",
+        "papers": 1
+      },
+      {
+        "name": "Brandon Vaz",
+        "papers": 1
+      },
+      {
+        "name": "Sakshi Bhargava",
+        "papers": 1
+      },
+      {
+        "name": "Farhan Yusuf",
+        "papers": 1
+      },
+      {
+        "name": "S. Samuel",
+        "papers": 1
+      },
+      {
+        "name": "Sabriyeh Alibai",
+        "papers": 1
+      },
+      {
+        "name": "Zahra Baghestani",
+        "papers": 1
+      },
+      {
+        "name": "Xinwen He",
+        "papers": 1
+      },
+      {
+        "name": "Kirsten Krastel",
+        "papers": 1
+      },
+      {
+        "name": "Oladipo Oladapo",
+        "papers": 1
+      },
+      {
+        "name": "A. Mohan",
+        "papers": 1
+      },
+      {
+        "name": "A. Shanavas",
+        "papers": 1
+      },
+      {
+        "name": "Magdalena Bugno",
+        "papers": 1
+      },
+      {
+        "name": "Jovanka J Bogojeski",
+        "papers": 1
+      },
+      {
+        "name": "F. Schmitges",
+        "papers": 1
+      },
+      {
+        "name": "C. Kim",
+        "papers": 1
+      },
+      {
+        "name": "S. Grant",
+        "papers": 1
+      },
+      {
+        "name": "Rachana Jayaraman",
+        "papers": 1
+      },
+      {
+        "name": "Tehmina Masud",
+        "papers": 1
+      },
+      {
+        "name": "A. Deshwar",
+        "papers": 1
+      },
+      {
+        "name": "Shreshth Gandhi",
+        "papers": 1
+      },
+      {
+        "name": "Brendan J. Frey",
+        "papers": 1
+      },
+      {
+        "name": "R. Lebret",
+        "papers": 1
+      },
+      {
+        "name": "R. Collobert",
+        "papers": 1
+      },
+      {
+        "name": "Namu Park",
+        "papers": 1
+      },
+      {
+        "name": "S. Lisanza",
+        "papers": 1
+      },
+      {
+        "name": "Vladimir Gligorijevi'c",
+        "papers": 1
+      }
+    ],
     "formerColleagues": []
   }
 }
