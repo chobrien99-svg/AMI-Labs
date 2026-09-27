@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-09-27T16:18:20.187Z",
+  "lastFetched": "2026-09-27T20:47:15.641Z",
   "members": [
     {
       "slug": "adithya-iyer",
@@ -125,6 +125,22 @@
       "events": [
         {
           "type": "PushEvent",
+          "repo": "EvolvingLMMs-Lab/symbols-or-pixels",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/symbols-or-pixels",
+          "description": "Pushed 0 commits to main on EvolvingLMMs-Lab/symbols-or-pixels",
+          "url": "https://github.com/EvolvingLMMs-Lab/symbols-or-pixels",
+          "timestamp": "2026-09-27T19:11:53Z"
+        },
+        {
+          "type": "CreateEvent",
+          "repo": "EvolvingLMMs-Lab/symbols-or-pixels",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/symbols-or-pixels",
+          "description": "Created branch main in EvolvingLMMs-Lab/symbols-or-pixels",
+          "url": "https://github.com/EvolvingLMMs-Lab/symbols-or-pixels",
+          "timestamp": "2026-09-27T19:09:18Z"
+        },
+        {
+          "type": "PushEvent",
           "repo": "Luodian/lmms-lab-website",
           "repoUrl": "https://github.com/Luodian/lmms-lab-website",
           "description": "Pushed 0 commits to main on Luodian/lmms-lab-website",
@@ -226,22 +242,6 @@
           "description": "closed PR #1442 in EvolvingLMMs-Lab/lmms-eval",
           "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
           "timestamp": "2026-09-05T07:10:00Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "merged PR #1445 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-09-05T07:17:36Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "merged PR #1451 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-09-05T07:15:07Z"
         }
       ]
     },
@@ -721,6 +721,14 @@
       "username": "rohitgirdhar",
       "githubUrl": "https://github.com/rohitgirdhar",
       "events": [
+        {
+          "type": "DiscussionEvent",
+          "repo": "pingdotgg/t3code",
+          "repoUrl": "https://github.com/pingdotgg/t3code",
+          "description": "Activity in pingdotgg/t3code",
+          "url": "https://github.com/pingdotgg/t3code",
+          "timestamp": "2026-09-27T18:54:12Z"
+        },
         {
           "type": "PushEvent",
           "repo": "rohitgirdhar/rohitgirdhar.github.io",
