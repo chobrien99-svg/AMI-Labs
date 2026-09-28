@@ -1201,13 +1201,13 @@
     "dessinKeys": []
   },
   "status": "ok",
-  "headline": "AMI bets on computational biology — and reveals a broader platform ambition with a compute trademark",
-  "stateOfPlay": "The most consequential move AMI made this week was quiet: the addition of Pedro O. Pinheiro, a principal research scientist from Genentech's Prescient Design team, whose publication record lands AMI squarely in the frontier of generative molecular design. Read alongside the INPI trademark filing for 'Advanced Machine Intelligence Compute' — seeking protection across AI software, cloud platforms, and business services — and a picture emerges of a lab that is simultaneously deepening its scientific specialisms and laying the legal groundwork for a much broader commercial footprint. The research signals coming from the team this week reinforce a lab growing in multiple directions at once: world models, AI safety fundamentals, mathematical reasoning, and now drug discovery.",
+  "headline": "AMI's computational biology bet; Reveals a broader platform ambition with a compute trademark",
+  "stateOfPlay": "The addition of Pedro O. Pinheiro, a principal research scientist from Genentech's Prescient Design team, suggests AMI's interest in the frontier of generative molecular design, based on his publication record. In addition, an INPI trademark filing for 'Advanced Machine Intelligence Compute' seeks protection across AI software, cloud platforms, and business services. These are two more small signals that AMI is deepening its scientific specialization and laying the legal groundwork for a much broader commercial footprint. The research signals coming from the team this week reinforce a lab growing in multiple directions at once: world models, AI safety fundamentals, mathematical reasoning, and now drug discovery.",
   "threads": [
     {
       "title": "Pedro Pinheiro's hire is AMI's clearest move yet into computational biology",
       "category": "hiring",
-      "narrative": "Pinheiro arrives with a portfolio that is unusually coherent and unusually deep for a single researcher. Across NeurIPS, ICML, and journals including mAbs, he has built a distinct research programme around representing molecules not as discrete atoms but as continuous density fields — a choice that mirrors, in structural terms, the kind of continuous latent-space thinking central to JEPA-style world models. FuncMol and FuncBind treat molecule generation as a density-field problem solvable with score-based diffusion; VoxBind applies the same logic to structure-based drug design and drew 32 citations after its ICML appearance. DyAb, published in mAbs in August 2026, addresses binding affinity prediction in data-scarce regimes — a critical bottleneck in therapeutic development — and achieves a Spearman correlation of up to 0.85 from as few as 100 training examples.\n\nWhat makes this hire strategically legible rather than merely impressive is the alignment between Pinheiro's methods and AMI's known intellectual commitments. The lab has publicly pursued self-supervised, continuous representations as an alternative to discrete token-based learning. Pinheiro's work applies that same intuition to molecular space. This is not a bolt-on biotech hire; it looks like AMI extending its core representational thesis into a new domain — one with clear commercial upside and significant scientific weight.",
+      "narrative": "Pinheiro arrives with a portfolio across NeurIPS, ICML, and journals including mAbs, that indicate he has built a distinct research program around representing molecules not as discrete atoms but as continuous density fields. That choice mirrors, in structural terms, the continuous latent-space thinking central to JEPA-style world models. FuncMol and FuncBind treat molecule generation as a density-field problem solvable with score-based diffusion; VoxBind applies the same logic to structure-based drug design and drew 32 citations after its ICML appearance. DyAb, published in mAbs in August 2026, addresses binding affinity prediction in data-scarce regimes — a critical bottleneck in therapeutic development — and achieves a Spearman correlation of up to 0.85 from as few as 100 training examples.\n\nWhat makes this hire strategically legible rather than merely impressive is the alignment between Pinheiro's methods and AMI's known intellectual commitments. The lab has publicly pursued self-supervised, continuous representations as an alternative to discrete token-based learning. Pinheiro's work applies that same intuition to molecular space.",
       "evidence": [
         {
           "label": "Pedro O. Pinheiro profile — AMI Observatory",
@@ -1230,7 +1230,7 @@
     {
       "title": "The 'AMI Compute' trademark signals a platform play, not just a research lab",
       "category": "administrative",
-      "narrative": "The INPI filing for trademark 5275514 — 'Advanced Machine Intelligence Compute' — is easy to overlook but worth reading carefully. Its scope, covering AI software, research, cloud platforms, and business services, goes well beyond protecting a lab name. The explicit inclusion of compute and cloud services suggests AMI is either planning to offer infrastructure to third parties or is protecting optionality for a future commercial product line built around its AI stack.\n\nThis is the kind of filing that precedes a product announcement rather than following one. AMI has so far positioned itself primarily as a research organisation; trademarking a compute-branded variant of its name points toward a future where the lab's output is not only papers and hires but deployable services. It is worth watching whether subsequent filings narrow or expand that scope — and whether any hiring in the General and Administration department (currently one of seven open roles) reflects this ambition.",
+      "narrative": "The INPI filing for trademark 5275514 — 'Advanced Machine Intelligence Compute' — covers AI software, research, cloud platforms, and business services. The explicit inclusion of compute and cloud services suggests AMI is either planning to offer infrastructure to third parties or is protecting optionality for a future commercial product line built around its AI stack.\n\nAMI has so far positioned itself primarily as a research organization. Trademarking a compute-branded variant of its name points toward a future where the lab's output is not only papers and hires but deployable services. It is worth watching whether subsequent filings narrow or expand that scope — and whether any hiring in the General and Administration department (currently one of seven open roles) reflects this ambition.",
       "evidence": [
         {
           "label": "Trademark 5275514 — INPI",
@@ -1241,7 +1241,7 @@
     {
       "title": "Pascale Fung's hiring call reframes 'AI safety' as a fundamental research problem — and a talent magnet",
       "category": "hiring",
-      "narrative": "Fung's post on September 24 — which drew over 1,000 likes — is notable less for the positions advertised than for how she defines the work: 'fundamental research in AI model safety, not safety rules, not AI policy, not post hoc guardrails, not RLHF.' That four-part negation is a positioning statement as much as a job description. It places AMI in deliberate contrast to the compliance-oriented safety work dominating industry labs and to the policy-heavy framing of European AI governance. The call spans Paris, Singapore, New York, and Montreal, signalling that AMI's multi-site ambitions are genuine and that safety research is being treated as a first-class scientific priority, not a regulatory obligation.\n\nThis sits in productive tension with LeCun's Sciences Po appearance the same week, where he rejected an AI pause and warned that safety fears risk entrenching dominant players. The lab's public posture is that safety matters precisely because it should not be left to incumbents — and that the right response is rigorous research, not restriction.",
+      "narrative": "Fung's post on September 24 — which drew over 1,000 likes — is notable less for the positions advertised than for how she defines the work: 'fundamental research in AI model safety, not safety rules, not AI policy, not post hoc guardrails, not RLHF.' That four-part negation is as much a positioning statement as a job description. It deliberately contrasts AMI with the compliance-oriented safety work dominating industry labs and the policy-heavy framing of European AI governance. The call spans Paris, Singapore, New York, and Montreal, signaling that AMI's multi-site ambitions are genuine and that safety research is a first-class scientific priority, not a regulatory obligation.\n\nAt YannLeCun's Sciences Po appearance the same week, he rejected an AI pause and warned that safety fears risk entrenching dominant players. The lab's public posture is that safety matters precisely because it should not be left to incumbents — and that the right response is rigorous research, not restriction.",
       "evidence": [
         {
           "label": "Fung hiring tweet",
@@ -1250,29 +1250,6 @@
         {
           "label": "LeCun at Sciences Po — AMI Observatory",
           "url": "/news/at-sciences-po-lecun-rejects-an-ai-pause-and-warns-against-concentrated-power"
-        }
-      ]
-    },
-    {
-      "title": "World-model infrastructure is becoming a shared substrate across the team",
-      "category": "research",
-      "narrative": "Lucas Maes's sustained engagement with the galilai-group/stable-worldmodel repository — two issue comments in a single day — points to active development work on what appears to be a shared world-model codebase, separate from any single paper. The International Conference on World Modeling (ICWM), which Randall Balestriero publicly defended this week as a single-blind, open-access venue, is beginning to function as an institutional anchor for this agenda: a dedicated publication venue signals that the community AMI is helping build around world models is mature enough to warrant its own conference infrastructure.\n\nBrian Li's branch creation in the EvolvingLMMs-Lab/symbols-or-pixels repository, paired with a simultaneous update to the lmms-lab website, suggests a paper or technical note on the symbols-versus-pixels question in multimodal learning is imminent — a debate that sits directly at the intersection of world-model representations and vision-language systems. Julia Kempe's two public posts on AI theorem proving and test-time reasoning, both framing the goal as 'discovering mathematics' rather than producing correct outputs, extend AMI's representational agenda into formal reasoning. Taken together, these signals suggest the team is not working on isolated projects but converging on a shared question: what does a learned, structured world model look like across perception, language, and reasoning?",
-      "evidence": [
-        {
-          "label": "stable-worldmodel PR #323",
-          "url": "https://github.com/galilai-group/stable-worldmodel/pull/323#issuecomment-5783408635"
-        },
-        {
-          "label": "symbols-or-pixels repo",
-          "url": "https://github.com/EvolvingLMMs-Lab/symbols-or-pixels"
-        },
-        {
-          "label": "Balestriero on ICWM",
-          "url": "https://x.com/randall_balestr/status/2102112340753702984"
-        },
-        {
-          "label": "Kempe on theorem proving",
-          "url": "https://x.com/KempeLab/status/2103491263240585649"
         }
       ]
     }
@@ -1291,7 +1268,7 @@
       "linkLabel": "ICML coverage"
     }
   ],
-  "whatToWatch": "The Pinheiro hire makes AMI's next moves in computational biology worth tracking closely — watch for a dedicated repo, a preprint, or a collaboration announcement that signals how his molecular-design methods will be integrated with AMI's existing representational toolkit. The 'AMI Compute' trademark deserves a follow-up: any narrowing of its scope in subsequent filings, or a matching hire in infrastructure or cloud engineering, would confirm that a commercial platform is genuinely in preparation rather than defensively reserved.",
+  "whatToWatch": "The Pinheiro hire makes AMI's next moves in computational biology worth tracking closely.",
   "whatToWatchLinks": [
     {
       "url": "https://ami.frenchtechjournal.com/team/pedro-o-pinheiro",
