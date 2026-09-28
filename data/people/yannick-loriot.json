@@ -1,48 +1,62 @@
 {
-  "slug": "christophe-tcheng",
-  "name": "Christophe Tcheng",
-  "role": "VP Engineering",
-  "department": "Research & Engineering",
+  "slug": "yannick-loriot",
+  "name": "Yannick Loriot",
+  "role": "Member of Technical Staff",
+  "department": "Science & Research Leadership",
   "location": "Paris",
   "tags": [
     "Paris"
   ],
   "links": {
-    "linkedin": "https://www.linkedin.com/in/christophetcheng/",
-    "twitter": "https://x.com/christophetch"
+    "github": "https://github.com/yannickl",
+    "linkedin": "https://www.linkedin.com/in/yannickloriot/",
+    "twitter": "https://x.com/yannickloriot",
+    "website": "https://yannickl.github.io/"
   },
   "semanticScholarId": null,
   "careerHistory": [
     {
-      "org": "Meta",
+      "org": "Meta - WhatsApp",
+      "title": "Software Engineer ",
+      "years": "2026"
+    },
+    {
+      "org": "Meta - Horizon",
       "title": "Software Engineer",
-      "years": "2020-2026"
+      "years": "2023-2026"
     },
     {
-      "org": "American Express Global Business Travel",
-      "title": "Vice President Products and Platforms",
-      "years": "2015-2020"
+      "org": "Meta - Workplace",
+      "title": "Software Engineer",
+      "years": "2019-2023"
     },
     {
-      "org": "Amadeus",
-      "title": "Head of R&D Services and Ecosystem",
-      "years": "2007-2015"
+      "org": "Work & Play",
+      "title": "Co-Founder and CTO",
+      "years": "2014-2019"
+    },
+    {
+      "org": "Symetrix",
+      "title": "Lead iOS Developer",
+      "years": "2010-2014"
     }
   ],
-  "reportsTo": "alexandre-lebrun",
-  "reports": [
-    "felix-naepels"
-  ],
+  "reportsTo": "pascale-fung",
+  "reports": [],
   "papers": [],
   "topPublications": [],
   "githubProjects": [],
-  "githubActivity": null,
+  "githubActivity": {
+    "username": "yannickl",
+    "githubUrl": "https://github.com/yannickl",
+    "recentEventCount": 0
+  },
   "news": [
     {
-      "title": "New Hire: Christophe Tcheng, VP Engineering in Paris",
-      "url": "https://ami.frenchtechjournal.com/team/christophe-tcheng",
-      "source": "The AMI Observatory",
-      "publishedAt": "2026-04-19"
+      "title": "New Hire: Yannick Loriot, Member of Technical Staff, Paris",
+      "url": "https://ami.frenchtechjournal.com/team/yannick-loriot",
+      "source": "The Ami Observatory",
+      "publishedAt": "2026-09-27"
     }
   ],
   "xPosts": [],
@@ -87,6 +101,15 @@
         ]
       },
       {
+        "slug": "bingyi-kang",
+        "name": "Bingyi Kang",
+        "org": "Meta (FAIR)",
+        "years": [
+          2019,
+          2019
+        ]
+      },
+      {
         "slug": "bowen-shi",
         "name": "Bowen Shi",
         "org": "Meta (FAIR)",
@@ -102,6 +125,15 @@
         "years": [
           2024,
           2025
+        ]
+      },
+      {
+        "slug": "christophe-tcheng",
+        "name": "Christophe Tcheng",
+        "org": "Meta (FAIR)",
+        "years": [
+          2020,
+          2026
         ]
       },
       {
@@ -136,7 +168,7 @@
         "name": "Laurent Solly",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
+          2019,
           2025
         ]
       },
@@ -181,7 +213,7 @@
         "name": "Michael Rabbat",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
+          2019,
           2024
         ]
       },
@@ -226,7 +258,7 @@
         "name": "Rohit Girdhar",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
+          2019,
           2026
         ]
       },
@@ -235,7 +267,7 @@
         "name": "Saining Xie",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
+          2019,
           2021
         ]
       },
@@ -253,7 +285,7 @@
         "name": "Sean Nguyen",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
+          2019,
           2024
         ]
       },
@@ -289,17 +321,8 @@
         "name": "Yann LeCun",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
+          2019,
           2025
-        ]
-      },
-      {
-        "slug": "yannick-loriot",
-        "name": "Yannick Loriot",
-        "org": "Meta (FAIR)",
-        "years": [
-          2020,
-          2026
         ]
       }
     ]
