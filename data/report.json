@@ -1,19 +1,23 @@
 {
-  "generatedAt": "2026-07-25T11:47:25.784Z",
+  "generatedAt": "2026-10-01T14:56:27.766Z",
   "period": {
     "windowDays": 90,
-    "since": "2026-04-26",
-    "until": "2026-07-25"
+    "since": "2026-07-03",
+    "until": "2026-10-01"
   },
   "facts": {
     "period": {
       "windowDays": 90,
-      "since": "2026-04-26",
-      "until": "2026-07-25"
+      "since": "2026-07-03",
+      "until": "2026-10-01"
     },
     "roster": {
-      "total": 38,
+      "total": 54,
       "byDepartment": [
+        {
+          "key": "Science & Research Leadership",
+          "count": 18
+        },
         {
           "key": "Unassigned",
           "count": 13
@@ -29,215 +33,205 @@
         {
           "key": "Operations",
           "count": 6
-        },
-        {
-          "key": "Science & Research Leadership",
-          "count": 2
         }
       ]
     },
     "research": {
-      "totalTracked": 174,
-      "newInWindow": 14,
+      "totalTracked": 746,
+      "newInWindow": 13,
       "newPapers": [
         {
-          "title": "Separating Representation from Reconstruction Enables Scalable Text Encoders",
-          "date": "2026-07-04",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/4f890d8373b93892ce2a50d87415653fc225a5a8",
+          "title": "DyAb: sequence-based antibody design and property prediction in a low-data regime",
+          "date": "2026-08-28",
+          "venue": "mAbs",
+          "url": "https://doi.org/10.1080/19420862.2026.2717460",
           "citationCount": 0,
           "teamAuthors": [
-            "Megi Dervishi"
+            "Pedro O. Pinheiro"
           ]
         },
         {
-          "title": "Anchored Self-Play for Code Repair",
-          "date": "2026-07-03",
+          "title": "LeVJEPA: Efficient&Scalable Video Pretraining without the Heuristics",
+          "date": "2026-08-27",
           "venue": null,
-          "url": "https://www.semanticscholar.org/paper/1231876b4c92c7a26d4e0cbea9cac388d6dafefb",
+          "url": "https://www.semanticscholar.org/paper/437cb869d42d536ad1b2f35399c99ab79ec65d5a",
           "citationCount": 0,
           "teamAuthors": [
-            "Tengyu Ma"
+            "Lucas Maes",
+            "Quentin Le Lidec",
+            "Yann LeCun"
           ]
         },
         {
-          "title": "Video-MMMU: Evaluating Knowledge Acquisition from Multidisciplinary Professional Videos",
-          "date": "2026-07-01",
-          "venue": "Annual Meeting of the Association for Computational Linguistics",
-          "url": "https://doi.org/10.18653/v1/2026.acl-long.1281",
+          "title": "LpWM: A Case for Sparse Representations in World Models",
+          "date": "2026-08-24",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/302343f7676e209391f3d5e3409a1b157c9df45a",
           "citationCount": 2,
           "teamAuthors": [
-            "Brian Li"
+            "Quentin Le Lidec",
+            "Lucas Maes",
+            "Yann LeCun"
           ]
         },
         {
-          "title": "Understanding LLMs’ summarization capabilities: an analysis of biomedical abstract and lay summary generation",
-          "date": "2026-07-01",
-          "venue": "Annual Meeting of the Association for Computational Linguistics",
-          "url": "https://doi.org/10.18653/v1/2026.findings-acl.554",
+          "title": "Advancing Open and Reproducible Relational Learning: RelArena-$\\alpha$, TabPFN-Rel and RPI",
+          "date": "2026-08-17",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/f587565885eaa432dda4a0bfd55fa20019b56dee",
+          "citationCount": 1,
+          "teamAuthors": [
+            "Yann LeCun"
+          ]
+        },
+        {
+          "title": "StarVerus: LLM-Powered Multi-Agent Collaboration for Industrial Rust Code Verification Automation",
+          "date": "2026-08-08",
+          "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+          "url": "https://doi.org/10.1145/3770855.3818485",
           "citationCount": 0,
           "teamAuthors": [
-            "Li Jing"
+            "Xinyi Wan"
           ]
         },
         {
-          "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
-          "date": "2026-07-01",
-          "venue": "arXiv.org",
-          "url": "https://doi.org/10.48550/arXiv.2602.11389",
-          "citationCount": 22,
-          "teamAuthors": [
-            "Quentin Le Lidec"
-          ]
-        },
-        {
-          "title": "MJEPA: A Simple and Scalable Joint-Embedding Predictive Architecture for Audio-Visual Learning",
-          "date": "2026-06-23",
+          "title": "Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes",
+          "date": "2026-08-05",
           "venue": null,
-          "url": "https://www.semanticscholar.org/paper/bbb2fba52c4d7d3b29f58a5e136d012acdc2010d",
-          "citationCount": 0,
-          "teamAuthors": [
-            "Adrien Bardes",
-            "Michael Rabbat"
-          ]
-        },
-        {
-          "title": "Learning through Internalization",
-          "date": "2026-06-18",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/31e6e9e341f8e8152c9f633b5838c585853feb1b",
-          "citationCount": 0,
-          "teamAuthors": [
-            "Julia Kempe"
-          ]
-        },
-        {
-          "title": "Fantastic Pretraining Optimizers and Where to Find Them II: Hyperball Optimization",
-          "date": "2026-06-15",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/d90159d04db78db63e04ebd03a8d65f985b5eb85",
+          "url": "https://www.semanticscholar.org/paper/211a73f11a8722d61f7cea91b2c52fd4f9aa2ff6",
           "citationCount": 2,
           "teamAuthors": [
-            "Tengyu Ma"
+            "David Fan"
           ]
         },
         {
-          "title": "Cambrian-P: Pose-Grounded Video Understanding",
-          "date": "2026-05-21",
-          "venue": "arXiv.org",
-          "url": "https://doi.org/10.48550/arXiv.2605.22819",
-          "citationCount": 0,
-          "teamAuthors": [
-            "Jihan Yang"
-          ]
-        },
-        {
-          "title": "Announcing the Shaw Prize in Computer Science",
-          "date": "2026-05-21",
-          "venue": "Communications of the ACM",
-          "url": "https://doi.org/10.1145/3811413",
+          "title": "Self-supervised DXA representations encode multi-system disease risk, biological aging and heritability",
+          "date": "2026-08-03",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/1006651b762e229b32cc001bb287c3f607749447",
           "citationCount": 0,
           "teamAuthors": [
             "Yann LeCun"
           ]
         },
         {
-          "title": "stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation",
-          "date": "2026-05-20",
-          "venue": "arXiv.org",
-          "url": "https://doi.org/10.48550/arXiv.2605.21800",
-          "citationCount": 2,
-          "teamAuthors": [
-            "Quentin Le Lidec"
-          ]
-        },
-        {
-          "title": "PEIRA: Learning Predictive Encoders through Inter-View Regressor Alignment",
-          "date": "2026-05-17",
-          "venue": "arXiv.org",
-          "url": "https://doi.org/10.48550/arXiv.2605.17671",
+          "title": "HP-JEPA: Hierarchical Partitioning for Multi-Resolution Graph Joint-Embedding Predictive Learning",
+          "date": "2026-08-01",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/f4578e2fa551e6b991125e5f8770212337476fee",
           "citationCount": 0,
           "teamAuthors": [
-            "Basile Terver"
+            "Yann LeCun"
           ]
         },
         {
-          "title": "KVerus: Scalable and Resilient Formal Verification Proof Generation for Rust Code",
-          "date": "2026-05-05",
-          "venue": "arXiv.org",
-          "url": "https://doi.org/10.48550/arXiv.2605.03822",
-          "citationCount": 1,
+          "title": "Unpacking Open Source Artificial Intelligence: Toward a Framework for Openness in Foundation Models",
+          "date": "2026-07-29",
+          "venue": "Communications of the ACM",
+          "url": "https://doi.org/10.1145/3778264",
+          "citationCount": 0,
           "teamAuthors": [
-            "Xinyi Wan"
+            "Yann LeCun"
           ]
         },
         {
-          "title": "From Where Things Are to What They Are For: Benchmarking Spatial-Functional Intelligence in Multimodal LLMs",
-          "date": "2026-05-04",
+          "title": "Music-JEPA: Learning a World Model of Sound from Action",
+          "date": "2026-07-24",
           "venue": "arXiv.org",
-          "url": "https://doi.org/10.48550/arXiv.2605.02130",
+          "url": "https://doi.org/10.48550/arXiv.2607.22000",
+          "citationCount": 0,
+          "teamAuthors": [
+            "Yann LeCun"
+          ]
+        },
+        {
+          "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
+          "date": "2026-07-20",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2607.18236",
+          "citationCount": 0,
+          "teamAuthors": [
+            "Yann LeCun"
+          ]
+        },
+        {
+          "title": "Separating Representation from Reconstruction Enables Scalable Text Encoders",
+          "date": "2026-07-04",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2607.04011",
+          "citationCount": 0,
+          "teamAuthors": [
+            "Megi Dervishi",
+            "Yann LeCun"
+          ]
+        },
+        {
+          "title": "Anchored Self-Play for Code Repair",
+          "date": "2026-07-03",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2607.03523",
           "citationCount": 1,
           "teamAuthors": [
-            "Jihan Yang"
+            "Tengyu Ma"
           ]
         }
       ],
       "topCited": [
         {
+          "title": "CBAM: Convolutional Block Attention Module",
+          "year": 2018,
+          "venue": "European Conference on Computer Vision",
+          "url": "https://doi.org/10.1007/978-3-030-01234-2_1",
+          "citationCount": 25647
+        },
+        {
+          "title": "Momentum Contrast for Unsupervised Visual Representation Learning",
+          "year": 2019,
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/cvpr42600.2020.00975",
+          "citationCount": 15695
+        },
+        {
+          "title": "Masked Autoencoders Are Scalable Vision Learners",
+          "year": 2021,
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/CVPR52688.2022.01553",
+          "citationCount": 12742
+        },
+        {
+          "title": "Aggregated Residual Transformations for Deep Neural Networks",
+          "year": 2016,
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/CVPR.2017.634",
+          "citationCount": 11893
+        },
+        {
           "title": "DINOv2: Learning Robust Visual Features without Supervision",
           "year": 2023,
           "venue": "Trans. Mach. Learn. Res.",
           "url": "https://doi.org/10.48550/arXiv.2304.07193",
-          "citationCount": 9445
+          "citationCount": 10335
         },
         {
           "title": "A ConvNet for the 2020s",
           "year": 2022,
           "venue": "Computer Vision and Pattern Recognition",
           "url": "https://doi.org/10.1109/CVPR52688.2022.01167",
-          "citationCount": 8842
+          "citationCount": 9317
         },
         {
-          "title": "Scalable Diffusion Models with Transformers",
-          "year": 2022,
-          "venue": "IEEE International Conference on Computer Vision",
-          "url": "https://doi.org/10.1109/ICCV51070.2023.00387",
-          "citationCount": 6708
+          "title": "Addressing Function Approximation Error in Actor-Critic Methods",
+          "year": 2018,
+          "venue": "International Conference on Machine Learning",
+          "url": "https://www.semanticscholar.org/paper/4debb99c0c63bfaa97dd433bc2828e4dac81c48b",
+          "citationCount": 7419
         },
         {
-          "title": "LLaVA-OneVision: Easy Visual Task Transfer",
-          "year": 2024,
-          "venue": "Trans. Mach. Learn. Res.",
-          "url": "https://doi.org/10.48550/arXiv.2408.03326",
-          "citationCount": 2754
-        },
-        {
-          "title": "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders",
-          "year": 2023,
-          "venue": "Computer Vision and Pattern Recognition",
-          "url": "https://doi.org/10.1109/CVPR52729.2023.01548",
-          "citationCount": 1857
-        },
-        {
-          "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
-          "year": 2023,
-          "venue": "Computer Vision and Pattern Recognition",
-          "url": "https://doi.org/10.1109/CVPR52729.2023.01499",
-          "citationCount": 1034
-        },
-        {
-          "title": "Detecting Twenty-thousand Classes using Image-level Supervision",
-          "year": 2022,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.1007/978-3-031-20077-9_21",
-          "citationCount": 888
-        },
-        {
-          "title": "OpenAI GPT-5 System Card",
-          "year": 2025,
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/6f9e6a47b8c2a65d3fa758bb4062f096b4afd34d",
-          "citationCount": 683
+          "title": "On the Opportunities and Risks of Foundation Models",
+          "year": 2021,
+          "venue": "arXiv.org",
+          "url": "https://www.semanticscholar.org/paper/76e9e2ec3de437ffb30d8b7b629f7fe3e61de5c2",
+          "citationCount": 7318
         }
       ]
     },
@@ -292,7 +286,7 @@
       "overview": "Over the past 90 days, current AMI Labs members have concentrated their public activity on two intersecting research frontiers: world-model and joint-embedding predictive architectures (JEPA) for representation learning and planning, and the evaluation and training infrastructure for large multimodal models. The most heavily worked project is an external reproducibility platform for world-model research, where one member has been a dominant contributor, while a second member is actively involved in two external projects centered on multimodal model evaluation and training. A third member is contributing to an energy-based JEPA fork with ties to Meta AI Research. The through-line across all five projects is a shared investment in the machinery needed to build, train, and rigorously benchmark the next generation of learned world models and multimodal systems."
     },
     "news": {
-      "inWindow": 68,
+      "inWindow": 663,
       "notable": [
         {
           "title": "Why AMI Labs’ Alexandre LeBrun won't call his AI 'AGI' or 'superintelligence' | TechCrunch",
@@ -304,153 +298,185 @@
           ]
         },
         {
-          "title": "Meet the team helping Yann LeCun build AI startup AMI Labs - Sifted",
-          "date": "2026-07-23",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tOEZmSGd3b1dHbXJtVDJJTGd4c1lWWEJGZ2ltcDRQQ0VXUHptY0laOERDSE5ONkVndG8zX1BHZnY4YmFJQmdBODluUnAzWnNsTUczeWN1dGExazBsS3c?oc=5",
-          "people": [
-            "Yann LeCun"
-          ]
-        },
-        {
-          "title": "AMI Labs, Alan, VivaTech… : retour sur les 10 grandes actus de la French Tech depuis le début de l’année - Maddyness",
-          "date": "2026-07-23",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9sdXJTQ1lQdnN1cFhXYTZ3OHZidC1MQ3JuT0RFb3dOSk5NX1gtSHhCc2ZRQmtrWV9JSnBuTFhRWXQ2YzNhOHhsODgtb0Y?oc=5",
-          "people": []
-        },
-        {
-          "title": "890 millions d'euros, 2026, AMI Labs de Yann LeCun entre au Next40, ce que cette levée change pour l'IA française - voone-actu.com",
-          "date": "2026-07-22",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPS2E5MTZMcDE0aVo5MTdTaFNnQThHY2tab2pwUGhjNWZxX2s4d1RXMHRpZkw3UnZKekwxcG9kWGlkdjhfWWw5UDVEMm5KM3BYSGViTWplUnlCN1Jfby1lWUNYTG1POEZoRWVrX0NOTEM1MlMzOHJFV0VHZnQ1R2hqZ250SlVZUDMtbWNLejNpNnk4R3NpV1FZZUhjXzRwSWcxWGFrUzN2V1VLSGgyS20zRkJEeWN3TnRzT1ZRYlQybFkteE1jQ0JsTFlNUUQ?oc=5",
-          "people": [
-            "Yann LeCun"
-          ]
-        },
-        {
-          "title": "Alexandre Lebrun passe le flambeau à Brian Manning à la tête de Nabla",
-          "date": "2026-07-22",
-          "source": "Maddyness",
-          "url": "https://www.maddyness.com/2026/07/21/alexandre-lebrun-passe-le-flambeau-a-brian-manning-a-la-tete-de-nabla",
-          "people": [
-            "Alexandre LeBrun"
-          ]
-        },
-        {
-          "title": "AMI Labs et Yann LeCun : 1 milliard pour l'IA - Brief IA",
-          "date": "2026-07-23",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5jUWR0dnJUTHU1UTdNUkhpRlBndWh2WnlRelF6eWxMWU9fTG5ELVdBMTUyd0FyRFctdmg5LTFRZHktNTNheFh1OG85enVMODdlNWNDVFVLWk9Hck01LUNYUUpCVDJWcVY2Y2VjQmYxNlp3dWRmNExpNEZ0UzRqX3M?oc=5",
-          "people": [
-            "Yann LeCun"
-          ]
-        },
-        {
-          "title": "Yann LeCun on AMI Labs, JEPA, and the AI World of 2030",
-          "date": "2026-07-16",
+          "title": "Joining Advanced Machine Intelligence to work on world models",
+          "date": "2026-09-07",
           "source": "Hacker News",
-          "url": "https://nebius.science/stories/meet-yann-lecuns-lab-and-the-ai-world-of-2030?shem=rimspwouohc,",
+          "url": "https://www.lihaoyi.com/post/JoiningAMItoworkonWorldModels.html",
+          "people": [
+            "Li Haoyi"
+          ]
+        },
+        {
+          "title": "Ami Labs, Mistral, Gobano Robotics... Avec l’IA, les pépites françaises veulent créer les robots de demain",
+          "date": "2026-09-17",
+          "source": "L'Usine Nouvelle [FR]",
+          "url": "https://www.usinenouvelle.com/technos-et-innovations/robotique/ami-labs-mistral-gobano-robotics-avec-lia-les-pepites-francaises-veulent-creer-les-robots-de-demain.RYKM65UVRBKLBPHOPD6KUS5U5Y.html",
+          "people": []
+        },
+        {
+          "title": "World Labs and AMI Labs Have $2.3 Billion to Rethink AI: Neither Will Say How It Makes Money - The Eastern Herald",
+          "date": "2026-09-21",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTllROEE5T0cwREhWd3p1d2xIOFZGVXQ4M2dYZGg4aVVfT1F5MTluTzFJQjhOazZVLXNlZUFCaE9jc3ZadmFlbTg5ak5QVUxtaEtoaHhUV2lYZ1pEcUNTbTRCRTBobWp0dWRTemtabERPTElfTm5hdV9xOXJ1eDNjcnFXSGx5Q1U?oc=5",
+          "people": []
+        },
+        {
+          "title": "Yann Le Cun, fondateur d’AMI Labs, ex-directeur scientifique de l’IA de Meta : « Il faut construire des modèles qui comprennent vraiment le monde physique et réel » - La Tribune",
+          "date": "2026-09-20",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxPaVpSVnB1ZHc1NXJDSWVvcGMweTFaZUgxcEJUdzFMM0pieEI2Rm9yQmE4ZlEta21xaGpjbm4wQ0JQSE1UeGt2ZzNjOXRxeDVvZUtqLWdqVlg0QXhZTHVIMFZ6LTktRGRjeEpBWG1CMXJHVlBpdWtPY2lhcTUtZG4zSUQ1bGwwdWFsdWFGUEUydzRWZVFxYWw0N1d0QWhYeG5sZ0Y0NTB0QVJQcmpHREJCcHRVRVNCNWE0RnZ5QUhHdVRDRUJqYUNPcF96cUFjZXI1cExrWURxSjFMemJWaWtjUjlEMWRnUDJTSHpReHJfdU9qY19VcTRvUmhiVnNaem5oRlVDRWZCTFozbUViWU9GNjRVN2M0RFQtaXUtVTM4Sm5GUV9oemlQMXg3UE50ODZITU00SGRTSXFyQzBmNGotaFBwYXloTzNITEphZXNtSURmNXh1d3k3OA?oc=5",
           "people": [
             "Yann LeCun"
           ]
         },
         {
-          "title": "‘Godmother of AI’ and tech entrepreneurs draw investors by pivoting from chatbots to ‘world models’ saying AI has to read the room, not just books",
-          "date": "2026-06-24",
-          "source": "Fortune",
-          "url": "https://fortune.com/2026/06/24/ai-godmother-investors-chatbots/",
+          "title": "Ami Labs, Mistral, Gobano Robotics... Avec l’IA, les pépites françaises veulent créer les robots de demain - L'Usine Nouvelle",
+          "date": "2026-09-17",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOTTlfbGM4SHl5c19fWThrTjJrbVpyOF94aXUwM0xkbDRTRUh2S3Vjd2g2YkNDQ2c0QzR0OW5GTHRBV3lOYXZtckZCX0RSaFhKR0RCV0RpN1F4NFdwOUQ2THlSOTR5T2x0OThVTTZGVWZuWTlZTE05TzVIY3hybUwwRTBJdnhfMTQtSXRMSTh4dzdoSVJ0d0w3Y3RXNFNtZkY4TjJlZzAzb3Q1UGxwUkNLRlpLcTJmTS1pTkt6LXlxYTFIQ3JoUmx2a2tnSGJOU2twRW5xYmdjUmRpYXZCT0NmWm84d2xXX3JCVGg4elBTdWMxcktPSkRmTmZ4Z1VtbmJEc0tvUWZsZTV6NDQxVzRnWEhYR2VHR1FVUU1FN2R3cw?oc=5",
           "people": []
         },
         {
-          "title": "Hot French startup ZML releases free product to speed inference across lots of AI chips | TechCrunch",
-          "date": "2026-07-08",
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
+          "title": "Mistral AI, AMI Labs… L'appétit grandissant de Samsung pour la French Tech",
+          "date": "2026-09-08",
+          "source": "Les Echos",
+          "url": "https://www.lesechos.fr/start-up/ecosysteme/mistral-ai-ami-labs-lappetit-grandissant-de-samsung-pour-la-french-tech-2250326",
           "people": []
         },
         {
-          "title": "Show HN: GlycemicGPT – Open-source AI-powered diabetes management",
-          "date": "2026-05-15",
-          "source": "Hacker News",
-          "url": "https://github.com/GlycemicGPT/GlycemicGPT",
+          "title": "Mistral AI, AMI Labs… L'appétit grandissant de Samsung pour la French Tech - Les Echos",
+          "date": "2026-09-08",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc2NzcVZ1ZGphZzl6bWNHRW1taHFYNGF4SEd0UUppRGhPNlBYMzJOaG9Xd0dDMzJ6Tk1fM1pJb2h3SktQa1lvZW5UVG4yUXJSanE0Qno5SFUwSVhoYm51VGo3TDctV3QyX3VjcjQzaUtxaVpfanZpMU1KSUstM3FhbEdGQUZ3azVQQUtoSlN6YW9PNmhrTGt5TnUwWkJYTTEyZXNEcnV5ajNBYnBYVzB6MkhibUhpeFF5V1N2ZGJMY0s?oc=5",
           "people": []
         },
         {
-          "title": "Launch HN: Ardent (YC P26) – Postgres sandboxes in seconds with zero migration",
-          "date": "2026-05-13",
-          "source": "Hacker News",
-          "url": "https://www.tryardent.com/",
+          "title": "IA : Mistral AI, AMI Labs et Snowflake propulsent 10 nouveaux milliardaires français au classement 2026 - lavoixdefrance.fr",
+          "date": "2026-08-08",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVHZfQjVKMzdZMkt0LXljMmxLS2pxYWNaMEVJVzVRemxNQUxpTm9hMDQxZlJjX21OX2l2aldvRmxLc2VZaGFwQjR6TXRTREVLOGlnNUtFT1dEWElkVzdLZF9JUmNhWEl1X2ZQT1I3VUluSThVRkh4NDY2RjVQbG5iUnhZS05CS2QxZUtTMF9qVDAyXzVlcmk1TVlVV1BTNFpuLUQ4VXpNNVQtQ3E5ZWUtclVEZ2VlcWFBWXlhczlYSXFrT0pucUV4a1QxaTNCV1hHOUlWX2prNmJtcmt0ek9DMGtB?oc=5",
           "people": []
         },
         {
-          "title": "‘World models’ are AI’s latest sensation: what are they and what can they do?",
-          "date": "2026-04-28",
-          "source": "Nature.com",
-          "url": "https://www.nature.com/articles/d41586-026-00820-5",
-          "people": []
+          "title": "AMI Labs de Yann LeCun entre au Next40 trois mois après 890 millions levés, Bercy serre les critères - lavoixdefrance.fr",
+          "date": "2026-08-07",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUDV2aVh2WFBBQ1dDMVlISmdFd2VrbGw4ZVBnVHJSZ1FKQ0hKRUR2OGZpQVYyc0pJeXBWUzNHbV9WeUFKYzNZWGRxcnRPNUNQMExIM1QzZ0QxeUVldUNNNVRLbTR1WDUtNXRhcU1LbnZnNkp2WnVsZHRsM2FyRWhaOEdEZEtoQ0lLclhvaWZZOXc0bVhpbktlSkIzWENDMFBlMjgtSHhwbWltRU9JanVOX0JSaS1ua1FRUDZFeV9obTVidFJEQVUxeS1tR0FaanJlV2JRYk9hMHZPUGE4MVJ0Mg?oc=5",
+          "people": [
+            "Yann LeCun"
+          ]
+        },
+        {
+          "title": "Yann LeCun lance AMI Labs avec une levée record de 1 milliard - Le Revenu",
+          "date": "2026-08-07",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSVJDeEw1UHF2MDFiZEwzWGJtYTBta0I3SDVWekEwWDk3WTY5bXhhNVNJa1EtWWtPZlFuSFN2ejJwdjVoRFZhQzlqTjZLclFEcjlTV0s5Mmx5dDQ2OTZUVnc2UHpIdjB4TkRPem5fRGtVNEpUb1FGU19FdjBibzZTbVVOYTlyNm1aeXFFMFViVDlNOG5y?oc=5",
+          "people": [
+            "Yann LeCun"
+          ]
+        },
+        {
+          "title": "AMI Labs, startup IA de Yann LeCun, entre au Next40 après une levée de 890 millions en mars - lavoixdefrance.fr",
+          "date": "2026-08-05",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdENYemp6eW5TYzJmWXh0VWMtWE9GcUJBekdHQWlDeFAtVHltT0l1Uzl3MEFBalZlOTNZNE1qV25CeEUya3JpYUJ4UE1BMEhhbGRVN1pzRVJMTG92bG1uaWdPdUJmNXBJMDlxRnpjdlgtb3RyOGRDWkZ4QS13U2luYWxieWRGSzVkMFdZSWNmdlJiQXJCaGdJckVmejJvSWc2bTJBb2tUTlJoUm1LWG1ac0VTNW0zbkgyY005Q2pIVno4dFRLQTRTQnpuOTExZ09aaUdF?oc=5",
+          "people": [
+            "Yann LeCun"
+          ]
         }
       ],
       "aboutPeople": [
         {
           "key": "Yann LeCun",
-          "count": 8
+          "count": 45
+        },
+        {
+          "key": "Quentin Le Lidec",
+          "count": 4
+        },
+        {
+          "key": "Li Haoyi",
+          "count": 2
+        },
+        {
+          "key": "Lucas Maes",
+          "count": 2
         },
         {
           "key": "Alexandre LeBrun",
           "count": 2
+        },
+        {
+          "key": "Peter Tong",
+          "count": 1
+        },
+        {
+          "key": "Tommie Kerssies",
+          "count": 1
+        },
+        {
+          "key": "Yannick Loriot",
+          "count": 1
+        },
+        {
+          "key": "Pedro O. Pinheiro",
+          "count": 1
+        },
+        {
+          "key": "Pascale Fung",
+          "count": 1
         }
       ]
     },
     "network": {
-      "coAuthorshipEdges": 59,
+      "coAuthorshipEdges": 100,
       "topCoAuthorPairs": [
-        {
-          "a": "Michael Rabbat",
-          "b": "Yann LeCun",
-          "paperCount": 12
-        },
-        {
-          "a": "Adrien Bardes",
-          "b": "Yann LeCun",
-          "paperCount": 9
-        },
         {
           "a": "Chao Du",
           "b": "Min Lin",
-          "paperCount": 9
-        },
-        {
-          "a": "Delong Chen",
-          "b": "Pascale Fung",
-          "paperCount": 9
+          "paperCount": 36
         },
         {
           "a": "Pascale Fung",
           "b": "Willy Chung",
-          "paperCount": 8
+          "paperCount": 16
         },
         {
-          "a": "David Fan",
-          "b": "Michael Rabbat",
-          "paperCount": 7
-        },
-        {
-          "a": "David Fan",
+          "a": "Adrien Bardes",
           "b": "Yann LeCun",
-          "paperCount": 7
+          "paperCount": 15
         },
         {
           "a": "Michael Rabbat",
-          "b": "Quentin Garrido",
-          "paperCount": 7
+          "b": "Yann LeCun",
+          "paperCount": 13
+        },
+        {
+          "a": "Mikael Henaff",
+          "b": "Yann LeCun",
+          "paperCount": 13
+        },
+        {
+          "a": "Delong Chen",
+          "b": "Pascale Fung",
+          "paperCount": 11
+        },
+        {
+          "a": "Quentin Garrido",
+          "b": "Yann LeCun",
+          "paperCount": 11
+        },
+        {
+          "a": "Amir Bar",
+          "b": "Yann LeCun",
+          "paperCount": 9
         }
       ],
-      "sharedHistoryEdges": 234,
+      "sharedHistoryEdges": 415,
       "sharedHistoryByOrg": [
         {
           "key": "Meta (FAIR)",
-          "count": 212
+          "count": 386
         },
         {
           "key": "NYU",
@@ -458,127 +484,181 @@
         },
         {
           "key": "Google / DeepMind",
-          "count": 8
+          "count": 11
+        },
+        {
+          "key": "bytedance",
+          "count": 2
         },
         {
           "key": "nabla",
           "count": 1
         },
         {
-          "key": "hkust",
+          "key": "mila quebec artificial intelligence institute",
           "count": 1
         },
         {
-          "key": "sea",
+          "key": "Microsoft",
+          "count": 1
+        },
+        {
+          "key": "hkust",
           "count": 1
         }
       ],
-      "reportingEdges": 37
+      "reportingEdges": 53
     },
     "people": {
       "mostPublished": [
         {
-          "name": "Delong Chen",
-          "role": "Founding Team Member",
-          "papers": 8
-        },
-        {
-          "name": "Julia Kempe",
-          "role": "Director of Research, Paris",
-          "papers": 8
+          "name": "Yann LeCun",
+          "role": "Executive Chairman & Co-Founder",
+          "papers": 83
         },
         {
           "name": "Michael Rabbat",
           "role": "VP of World Models & Co-Founder",
-          "papers": 8
-        },
-        {
-          "name": "Sanghyun Woo",
-          "role": "Member of Technical Staff",
-          "papers": 8
-        },
-        {
-          "name": "Yann LeCun",
-          "role": "Executive Chairman & Co-Founder",
-          "papers": 8
+          "papers": 52
         },
         {
           "name": "Saining Xie",
           "role": "Chief Science Officer & Co-Founder",
-          "papers": 7
+          "papers": 52
+        },
+        {
+          "name": "Chao Du",
+          "role": "Member of the Technical Staff",
+          "papers": 50
         },
         {
           "name": "Pascale Fung",
           "role": "Chief Research & Innovation Officer & Co-Founder",
-          "papers": 5
+          "papers": 50
         },
         {
-          "name": "Adithya Iyer",
+          "name": "Min Lin",
+          "role": "Head of AMI Singapore",
+          "papers": 44
+        },
+        {
+          "name": "Sanghyun Woo",
           "role": "Member of Technical Staff",
-          "papers": 0
+          "papers": 41
+        },
+        {
+          "name": "Matthew Muckley",
+          "role": "Member of the Technical Staff",
+          "papers": 40
         }
       ],
       "mostConnected": [
         {
           "name": "Yann LeCun",
           "role": "Executive Chairman & Co-Founder",
-          "coAuthors": 0,
-          "formerColleagues": 27
-        },
-        {
-          "name": "Saining Xie",
-          "role": "Chief Science Officer & Co-Founder",
-          "coAuthors": 0,
-          "formerColleagues": 24
-        },
-        {
-          "name": "Rohit Girdhar",
-          "role": "Research Scientist",
-          "coAuthors": 0,
-          "formerColleagues": 23
-        },
-        {
-          "name": "Laurent Solly",
-          "role": "COO & Co-Founder",
-          "coAuthors": 0,
-          "formerColleagues": 22
+          "coAuthors": 22,
+          "formerColleagues": 34
         },
         {
           "name": "Michael Rabbat",
           "role": "VP of World Models & Co-Founder",
-          "coAuthors": 0,
-          "formerColleagues": 22
+          "coAuthors": 13,
+          "formerColleagues": 28
         },
         {
-          "name": "Sean Nguyen",
-          "role": "Director of Operations",
-          "coAuthors": 0,
-          "formerColleagues": 22
+          "name": "David Fan",
+          "role": "Member of Technical Staff",
+          "coAuthors": 12,
+          "formerColleagues": 26
         },
         {
-          "name": "Xingyi Zhou",
-          "role": "Scientist",
-          "coAuthors": 0,
-          "formerColleagues": 22
+          "name": "Saining Xie",
+          "role": "Chief Science Officer & Co-Founder",
+          "coAuthors": 11,
+          "formerColleagues": 27
+        },
+        {
+          "name": "Adrien Bardes",
+          "role": "Member of Technical Staff",
+          "coAuthors": 9,
+          "formerColleagues": 28
+        },
+        {
+          "name": "Artem Zholus",
+          "role": "Member of Technical Staff ",
+          "coAuthors": 8,
+          "formerColleagues": 29
         },
         {
           "name": "Matthew Muckley",
           "role": "Member of the Technical Staff",
-          "coAuthors": 0,
-          "formerColleagues": 21
+          "coAuthors": 7,
+          "formerColleagues": 29
+        },
+        {
+          "name": "Rohit Girdhar",
+          "role": "Research Scientist",
+          "coAuthors": 5,
+          "formerColleagues": 31
         }
       ],
       "mostInNews": [
         {
           "name": "Yann LeCun",
-          "mentions": 37
+          "mentions": 95
         },
         {
           "name": "Alexandre LeBrun",
+          "mentions": 6
+        },
+        {
+          "name": "Quentin Le Lidec",
           "mentions": 4
+        },
+        {
+          "name": "Li Haoyi",
+          "mentions": 2
+        },
+        {
+          "name": "Lucas Maes",
+          "mentions": 2
+        },
+        {
+          "name": "Adithya Iyer",
+          "mentions": 1
+        },
+        {
+          "name": "Adrien Bardes",
+          "mentions": 1
+        },
+        {
+          "name": "Amir Bar",
+          "mentions": 1
         }
       ]
     }
   },
-  "narration": null
+  "narration": {
+    "title": "AMI Labs Observatory: Q3 2026",
+    "subtitle": "July–October 2026: A lab of 54 consolidates around world models, JEPA architectures, and growing public scrutiny of its funding and roadmap.",
+    "overview": "In the 90-day window ending 1 October 2026, AMI Labs produced 13 new tracked papers against a cumulative catalogue of 746, with JEPA-family architectures — spanning video, graph, music, and embodied control — forming the clearest thematic thread. The period was defined less by research volume than by institutional visibility: AMI entered France's Next40 index, attracted reported Samsung interest, and drew sustained press attention tied to a fundraise reported variously as €890 million and €1 billion. Yann LeCun accounted for 45 of the roughly 663 news items tracked and appeared as a named author or co-author on seven of the thirteen new papers, underscoring how heavily the lab's external profile remains anchored to a single figure. A notable secondary signal is the arrival of Li Haoyi, whose September Hacker News post announcing he was joining AMI to work on world models generated modest but distinct coverage, suggesting the lab is beginning to recruit from software-engineering audiences beyond the traditional ML research pipeline.",
+    "sections": [
+      {
+        "heading": "Research",
+        "body": "The quarter's output clusters visibly around joint-embedding predictive architectures: LeVJEPA (efficient video pretraining, co-authored by Lucas Maes, Quentin Le Lidec, and Yann LeCun), LpWM (sparse representations in world models, same trio, 2 citations already), HP-JEPA (hierarchical graph learning), Music-JEPA (sound world models), and Patch Policy (embodied control via dense visual representations) all appeared between late July and late August. Two papers sit outside this core: Pedro O. Pinheiro's DyAb, published in mAbs on 28 August, addresses antibody design in a low-data regime — an outlier domain relative to the lab's dominant focus — and Xinyi Wan's StarVerus, presented at ACM SIGKDD, targets LLM-powered Rust code verification. A Communications of the ACM piece co-authored by LeCun on openness frameworks for foundation models is the quarter's only policy-adjacent publication. The lab's most-cited historical work remains anchored in computer vision fundamentals — CBAM (25,647 citations), MoCo (15,695), and MAE (12,742) — reflecting the FAIR-era lineage of much of the senior roster rather than AMI's current research bets."
+      },
+      {
+        "heading": "Engineering & Open Source",
+        "body": "Public GitHub activity across AMI members was modest in volume but directionally consistent with the research agenda. Quentin Le Lidec was the dominant contributor to galilai-group/stable-worldmodel (activity score 269), an external reproducibility platform for world-model research; Brian Li contributed to two external EvolvingLMMs-Lab repositories — lmms-eval (score 132) and lmms-engine (score 4) — focused on multimodal model evaluation and training infrastructure. Basile Terver contributed to Trick5t3r/eb_jepa, an energy-based JEPA fork with ties to Meta AI Research, and Min Lin maintained activity on his personal torch2jax repository. All five projects are external or personal-account repositories; none is an AMI-owned asset, and the overall public engineering footprint remains limited for a lab of 54."
+      },
+      {
+        "heading": "People & Network",
+        "body": "The roster stands at 54, distributed across Science & Research Leadership (18), an unassigned cohort (13), Research & Engineering (11), Leadership (6), and Operations (6); the 13-person unassigned group is worth monitoring as a signal of ongoing onboarding or role fluidity. The co-authorship graph records 100 edges, with the densest historical pairs being Chao Du / Min Lin (36 shared papers) and Pascale Fung / Willy Chung (16); among LeCun-anchored pairs, Adrien Bardes leads at 15 joint papers. Shared institutional history is heavily concentrated at Meta FAIR (386 of 415 shared-history edges), with NYU and Google/DeepMind each contributing 11 — a profile that is coherent but leaves the network's diversity of intellectual lineage thin. Li Haoyi's public announcement of joining to work on world models is the quarter's most visible recruitment signal."
+      },
+      {
+        "heading": "In the Press",
+        "body": "AMI Labs generated 663 tracked news items in the window, a high count driven largely by fundraising and index-entry coverage rather than research breakthroughs. French-language outlets — L'Usine Nouvelle, Les Echos, La Tribune, La Voix de France — dominated the corpus, covering AMI's entry into the Next40, reported Samsung investment interest, and LeCun's public framing that he will not describe the lab's AI as AGI or superintelligence (TechCrunch, 16 July). A September piece in The Eastern Herald noted that AMI Labs and World Labs together hold $2.3 billion without either having disclosed a revenue model — a line of scrutiny likely to recur. CEO Alexandre LeBrun registered six mentions, making him the second most-cited individual by a wide margin, though still at a fraction of LeCun's 95-mention tally."
+      }
+    ]
+  }
 }
