@@ -1,9 +1,123 @@
 {
-  "lastChecked": "2026-10-01T11:25:55.777Z",
-  "lastSeenId": "2105274808623657158",
-  "lastSeenAt": "2026-09-30T12:33:23.000Z",
+  "lastChecked": "2026-10-02T10:55:50.874Z",
+  "lastSeenId": "2105738956532846900",
+  "lastSeenAt": "2026-10-01T19:17:44.000Z",
   "listId": "2068355339636887579",
   "posts": [
+    {
+      "id": "2105738956532846900",
+      "authorId": "714135850934734849",
+      "authorUsername": "_amirbar",
+      "authorSlug": "amir-bar",
+      "authorName": "Amir Bar",
+      "createdAt": "2026-10-01T19:17:44.000Z",
+      "text": "FAR is a new memory framework for world models. Retrieval from memory utilizes different sensory cues (vision, audio, etc). Draws inspiration from recent ideas in LLMs (e.g RAG).\n\nSee 🧵👇 https://t.co/ee0aPkLlJd",
+      "url": "https://x.com/_amirbar/status/2105738956532846900",
+      "isQuote": true,
+      "metrics": {
+        "likes": 59,
+        "retweets": 5,
+        "replies": 1,
+        "quotes": 0
+      },
+      "engagementScore": 69,
+      "highEngagement": true,
+      "tags": [
+        "research"
+      ],
+      "urls": [
+        "https://twitter.com/bskim98/status/2105684752128995808"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2105727036753138101",
+      "authorId": "1246070462679040000",
+      "authorUsername": "randall_balestr",
+      "authorSlug": null,
+      "authorName": "Randall Balestriero",
+      "createdAt": "2026-10-01T18:30:22.000Z",
+      "text": "LeWM applied SIGReg per time-step, so nothing prevents temporal collapse. If your data has such slow features, simply apply SIGReg on the (N*T, D) tensor. We showed this solves your problem here: https://t.co/F09B72fprS\n\nAnd @vlad_is_ai already spoked about JEPA+Slow features 4 https://t.co/N6WWWef9UM",
+      "url": "https://x.com/randall_balestr/status/2105727036753138101",
+      "isQuote": true,
+      "metrics": {
+        "likes": 150,
+        "retweets": 18,
+        "replies": 5,
+        "quotes": 0
+      },
+      "engagementScore": 186,
+      "highEngagement": true,
+      "tags": [
+        "research"
+      ],
+      "urls": [
+        "https://arxiv.org/abs/2609.23881",
+        "https://twitter.com/hugues_va/status/2105704009042681989"
+      ],
+      "hashtags": [],
+      "mentions": [
+        "vlad_is_ai"
+      ]
+    },
+    {
+      "id": "2105726295652839627",
+      "authorId": "1246070462679040000",
+      "authorUsername": "randall_balestr",
+      "authorSlug": null,
+      "authorName": "Randall Balestriero",
+      "createdAt": "2026-10-01T18:27:26.000Z",
+      "text": "LeWM applied SIGReg per time-step, so nothing prevents temporal collapse. If you data has such slow features, simply apply a SIGReg on the (N*T, D) tensor. We showed this solves your problem here: https://t.co/F09B72eRCk\n\nAnd @vlad_is_ai already spoked about JEPA+Slow features 4 https://t.co/N6WWWeeC5e",
+      "url": "https://x.com/randall_balestr/status/2105726295652839627",
+      "isQuote": true,
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "engagementScore": 1,
+      "highEngagement": false,
+      "tags": [
+        "research"
+      ],
+      "urls": [
+        "https://arxiv.org/abs/2609.23881",
+        "https://twitter.com/hugues_va/status/2105704009042681989"
+      ],
+      "hashtags": [],
+      "mentions": [
+        "vlad_is_ai"
+      ]
+    },
+    {
+      "id": "2105622350456627466",
+      "authorId": "1246070462679040000",
+      "authorUsername": "randall_balestr",
+      "authorSlug": null,
+      "authorName": "Randall Balestriero",
+      "createdAt": "2026-10-01T11:34:23.000Z",
+      "text": "Delighted to be speaking about our recent progress on JEPAs and on the need for more principled solutions that handle data imbalance, noise, multimodality, reasoning, ...! Happening at MICCAI-FOMO26 in 5min! And thank you for having me as keynote today! https://t.co/nN98CNZF8C",
+      "url": "https://x.com/randall_balestr/status/2105622350456627466",
+      "isQuote": false,
+      "metrics": {
+        "likes": 55,
+        "retweets": 4,
+        "replies": 2,
+        "quotes": 0
+      },
+      "engagementScore": 63,
+      "highEngagement": true,
+      "tags": [
+        "research"
+      ],
+      "urls": [
+        "https://x.com/randall_balestr/status/2105622350456627466/photo/1"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
     {
       "id": "2105274808623657158",
       "authorId": "1782793458027036672",
