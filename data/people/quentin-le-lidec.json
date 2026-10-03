@@ -408,54 +408,6 @@
       ]
     },
     {
-      "paperId": "cf929aee6ef8a4092290badb58328bc79286bba0",
-      "title": "Collision Detection Accelerated: An Optimization Perspective",
-      "year": 2022,
-      "venue": "Robotics: Science and Systems Conference",
-      "url": "https://doi.org/10.48550/arXiv.2205.09663",
-      "citationCount": 31,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Louis Montaut"
-        },
-        {
-          "slug": null,
-          "name": "Josef Sivic"
-        },
-        {
-          "slug": null,
-          "name": "Justin Carpentier"
-        }
-      ]
-    },
-    {
-      "paperId": "bbae3152eba0608df85d9a37eed90a83157dacda",
-      "title": "Leveraging Randomized Smoothing for Optimal Control of Nonsmooth Dynamical Systems",
-      "year": 2022,
-      "venue": "Nonlinear Analysis. Hybrid Systems",
-      "url": "https://doi.org/10.48550/arXiv.2203.03986",
-      "citationCount": 30,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Louis Montaut"
-        },
-        {
-          "slug": null,
-          "name": "Cordelia Schmid"
-        },
-        {
-          "slug": null,
-          "name": "I. Laptev"
-        },
-        {
-          "slug": null,
-          "name": "Justin Carpentier"
-        }
-      ]
-    },
-    {
       "paperId": "6c1f449ef6d45116092d9c9370fd55a642a0902c",
       "title": "Differentiable Rendering with Perturbed Optimizers",
       "year": 2021,
@@ -482,37 +434,37 @@
     {
       "title": "Contact Models in Robotics: A Comparative Analysis",
       "year": 2023,
-      "citationCount": 68,
+      "citationCount": 72,
       "venue": "IEEE Transactions on robotics",
       "url": "https://doi.org/10.1109/TRO.2024.3434208"
     },
     {
       "title": "Differentiable Collision Detection: a Randomized Smoothing Approach",
       "year": 2022,
-      "citationCount": 48,
+      "citationCount": 50,
       "venue": "IEEE International Conference on Robotics and Automation",
       "url": "https://doi.org/10.1109/ICRA48891.2023.10160251"
     },
     {
       "title": "GJK++: Leveraging Acceleration Methods for Faster Collision Detection",
       "year": 2024,
-      "citationCount": 34,
+      "citationCount": 37,
       "venue": "IEEE Transactions on robotics",
       "url": "https://doi.org/10.1109/TRO.2024.3386370"
     },
     {
-      "title": "Collision Detection Accelerated: An Optimization Perspective",
-      "year": 2022,
-      "citationCount": 31,
+      "title": "From Compliant to Rigid Contact Simulation: a Unified and Efficient Approach",
+      "year": 2024,
+      "citationCount": 23,
       "venue": "Robotics: Science and Systems Conference",
-      "url": "https://doi.org/10.48550/arXiv.2205.09663"
+      "url": "https://doi.org/10.48550/arXiv.2405.17020"
     },
     {
-      "title": "Leveraging Randomized Smoothing for Optimal Control of Nonsmooth Dynamical Systems",
-      "year": 2022,
-      "citationCount": 30,
-      "venue": "Nonlinear Analysis. Hybrid Systems",
-      "url": "https://doi.org/10.48550/arXiv.2203.03986"
+      "title": "Differentiable Rendering with Perturbed Optimizers",
+      "year": 2021,
+      "citationCount": 19,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/6c1f449ef6d45116092d9c9370fd55a642a0902c"
     }
   ],
   "githubProjects": [],
@@ -563,31 +515,27 @@
     ],
     "externalCoAuthors": [
       {
-        "name": "Justin Carpentier",
-        "papers": 9
-      },
-      {
         "name": "Randall Balestriero",
         "papers": 7
       },
       {
-        "name": "Louis Montaut",
+        "name": "Justin Carpentier",
         "papers": 7
       },
       {
-        "name": "I. Laptev",
+        "name": "Louis Montaut",
         "papers": 5
+      },
+      {
+        "name": "I. Laptev",
+        "papers": 4
       },
       {
         "name": "Cordelia Schmid",
-        "papers": 5
+        "papers": 4
       },
       {
         "name": "Damien Scieur",
-        "papers": 3
-      },
-      {
-        "name": "Josef Sivic",
         "papers": 3
       },
       {
@@ -600,6 +548,10 @@
       },
       {
         "name": "Dan Haramati",
+        "papers": 2
+      },
+      {
+        "name": "Josef Sivic",
         "papers": 2
       },
       {

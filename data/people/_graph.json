@@ -55,13 +55,10 @@
     {
       "a": "li-jing",
       "b": "rohit-girdhar",
-      "paperCount": 5,
+      "paperCount": 2,
       "papers": [
         "Understanding LLMs' summarization capabilities: an analysis of biomedical abstract and lay summary generation",
-        "From KMMLU-Redux to Pro: A Professional Korean Benchmark Suite for LLM Evaluation",
-        "Balancing Knowledge Delivery and Emotional Comfort in Healthcare Conversational Systems",
-        "Dialect Normalization using Large Language Models and Morphological Rules",
-        "Jailbreak Distillation: Renewable Safety Benchmarking"
+        "Dialect Normalization using Large Language Models and Morphological Rules"
       ]
     },
     {
@@ -176,7 +173,7 @@
     {
       "a": "amir-bar",
       "b": "yann-lecun",
-      "paperCount": 9,
+      "paperCount": 8,
       "papers": [
         "Hierarchical Planning with Latent World Models",
         "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
@@ -185,7 +182,6 @@
         "Parallel Stochastic Gradient-Based Planning for World Models",
         "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
         "Scaling Language-Free Visual Representation Learning",
-        "Forgotten Polygons: Multimodal Large Language Models are Shape-Blind",
         "A Cookbook of Self-Supervised Learning"
       ]
     },
@@ -282,6 +278,25 @@
         "Revisiting Feature Prediction for Learning Visual Representations from Video",
         "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
         "The Diashow Paradox: Stronger 3D-Aware Representations Emerge from Image Sets, Not Videos Anonymous ICCV submission"
+      ]
+    },
+    {
+      "a": "peter-tong",
+      "b": "yuexiang-zhai",
+      "paperCount": 12,
+      "papers": [
+        "Seeing from Another Perspective: Evaluating Multi-View Understanding in MLLMs",
+        "Seeing from Another Perspective: Evaluating Multi-View Understanding in MLLMs",
+        "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training",
+        "White-Box Transformers via Sparse Rate Reduction: Compression Is All There Is?",
+        "Investigating the Catastrophic Forgetting in Multimodal Large Language Model Fine-Tuning",
+        "Closed-Loop Transcription via Convolutional Sparse Coding",
+        "Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning",
+        "Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs",
+        "White-Box Transformers via Sparse Rate Reduction: Compression Is All There Is?",
+        "Investigating the Catastrophic Forgetting in Multimodal Large Language Models",
+        "Closed-Loop Transcription via Convolutional Sparse Coding",
+        "Multi-modal Knowledge Graphs: Evolution, Methods, and Opportunities Anonymous ACL submission"
       ]
     },
     {
@@ -433,6 +448,20 @@
       ]
     },
     {
+      "a": "michael-rabbat",
+      "b": "quentin-garrido",
+      "paperCount": 7,
+      "papers": [
+        "Interpreting Physics in Video World Models",
+        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
+        "Learning Latent Action World Models In The Wild",
+        "IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments",
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+        "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
+        "Revisiting Feature Prediction for Learning Visual Representations from Video"
+      ]
+    },
+    {
       "a": "chao-du",
       "b": "min-lin",
       "paperCount": 36,
@@ -473,20 +502,6 @@
         "On Memorization in Diffusion Models",
         "Bag of Tricks for Training Data Extraction from Language Models",
         "Infecting LLM-based Multi-Agents via Self-propagating Adversarial Attacks"
-      ]
-    },
-    {
-      "a": "michael-rabbat",
-      "b": "quentin-garrido",
-      "paperCount": 7,
-      "papers": [
-        "Interpreting Physics in Video World Models",
-        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
-        "Learning Latent Action World Models In The Wild",
-        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
-        "IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments",
-        "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
-        "Revisiting Feature Prediction for Learning Visual Representations from Video"
       ]
     },
     {
@@ -616,16 +631,6 @@
       ]
     },
     {
-      "a": "andrew-brown",
-      "b": "quentin-duval",
-      "paperCount": 3,
-      "papers": [
-        "The Llama 4 Herd: Architecture, Training, Evaluation, and Deployment Notes",
-        "Movie Gen: A Cast of Media Foundation Models",
-        "Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning"
-      ]
-    },
-    {
       "a": "delong-chen",
       "b": "willy-chung",
       "paperCount": 5,
@@ -640,7 +645,7 @@
     {
       "a": "pascale-fung",
       "b": "willy-chung",
-      "paperCount": 16,
+      "paperCount": 17,
       "papers": [
         "Action100M: A Large-scale Video Action Dataset",
         "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language",
@@ -657,7 +662,18 @@
         "Learn What NOT to Learn: Towards Generative Safety in Chatbots",
         "A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity",
         "Every picture tells a story: Image-grounded controllable stylistic story generation",
-        "Clozer”:\" Adaptable Data Augmentation for Cloze-style Reading Comprehension"
+        "Clozer”:\" Adaptable Data Augmentation for Cloze-style Reading Comprehension",
+        "Enhancing LLM’s Dialogue State Tracking Performance via a Novel LoRA Finetuning Method"
+      ]
+    },
+    {
+      "a": "andrew-brown",
+      "b": "quentin-duval",
+      "paperCount": 3,
+      "papers": [
+        "The Llama 4 Herd: Architecture, Training, Evaluation, and Deployment Notes",
+        "Movie Gen: A Cast of Media Foundation Models",
+        "Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning"
       ]
     },
     {
@@ -698,6 +714,20 @@
       "paperCount": 1,
       "papers": [
         "TV2TV: A Unified Framework for Interleaved Language and Video Generation"
+      ]
+    },
+    {
+      "a": "peter-tong",
+      "b": "saining-xie",
+      "paperCount": 7,
+      "papers": [
+        "Diffusion Transformers with Representation Autoencoders",
+        "Scaling Language-Free Visual Representation Learning",
+        "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training",
+        "MetaMorph: Multimodal Understanding and Generation via Instruction Tuning",
+        "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
+        "Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning",
+        "Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs"
       ]
     },
     {
@@ -814,6 +844,46 @@
       ]
     },
     {
+      "a": "david-fan",
+      "b": "peter-tong",
+      "paperCount": 2,
+      "papers": [
+        "Scaling Language-Free Visual Representation Learning",
+        "MetaMorph: Multimodal Understanding and Generation via Instruction Tuning"
+      ]
+    },
+    {
+      "a": "michael-rabbat",
+      "b": "peter-tong",
+      "paperCount": 2,
+      "papers": [
+        "Scaling Language-Free Visual Representation Learning",
+        "MetaMorph: Multimodal Understanding and Generation via Instruction Tuning"
+      ]
+    },
+    {
+      "a": "peter-tong",
+      "b": "yann-lecun",
+      "paperCount": 7,
+      "papers": [
+        "Scaling Language-Free Visual Representation Learning",
+        "MetaMorph: Multimodal Understanding and Generation via Instruction Tuning",
+        "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
+        "Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning",
+        "Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs",
+        "EMP-SSL: Towards Self-Supervised Learning in One Training Epoch",
+        "Unsupervised Learning of Structured Representations via Closed-Loop Transcription"
+      ]
+    },
+    {
+      "a": "amir-bar",
+      "b": "peter-tong",
+      "paperCount": 1,
+      "papers": [
+        "Scaling Language-Free Visual Representation Learning"
+      ]
+    },
+    {
       "a": "chao-du",
       "b": "xinyi-wan",
       "paperCount": 1,
@@ -837,6 +907,15 @@
         "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training",
         "Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning",
         "Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs"
+      ]
+    },
+    {
+      "a": "jihan-yang",
+      "b": "peter-tong",
+      "paperCount": 2,
+      "papers": [
+        "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training",
+        "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
       ]
     },
     {
@@ -918,6 +997,14 @@
       ]
     },
     {
+      "a": "peter-tong",
+      "b": "sanghyun-woo",
+      "paperCount": 1,
+      "papers": [
+        "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
+      ]
+    },
+    {
       "a": "adithya-iyer",
       "b": "jihan-yang",
       "paperCount": 1,
@@ -936,6 +1023,14 @@
     {
       "a": "adithya-iyer",
       "b": "saining-xie",
+      "paperCount": 1,
+      "papers": [
+        "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
+      ]
+    },
+    {
+      "a": "adithya-iyer",
+      "b": "peter-tong",
       "paperCount": 1,
       "papers": [
         "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
@@ -1169,6 +1264,15 @@
     },
     {
       "a": "adrien-bardes",
+      "b": "jiatao-gu",
+      "org": "Meta (FAIR)",
+      "years": [
+        2020,
+        2022
+      ]
+    },
+    {
+      "a": "adrien-bardes",
       "b": "john-nguyen",
       "org": "Meta (FAIR)",
       "years": [
@@ -1354,6 +1458,15 @@
       "years": [
         2020,
         2021
+      ]
+    },
+    {
+      "a": "alexandre-lebrun",
+      "b": "jiatao-gu",
+      "org": "Meta (FAIR)",
+      "years": [
+        2018,
+        2018
       ]
     },
     {
@@ -1633,6 +1746,15 @@
       "years": [
         2023,
         2024
+      ]
+    },
+    {
+      "a": "andrew-brown",
+      "b": "jiatao-gu",
+      "org": "Meta (FAIR)",
+      "years": [
+        2021,
+        2022
       ]
     },
     {
@@ -2051,6 +2173,15 @@
     },
     {
       "a": "bingyi-kang",
+      "b": "jiatao-gu",
+      "org": "Meta (FAIR)",
+      "years": [
+        2019,
+        2019
+      ]
+    },
+    {
+      "a": "bingyi-kang",
       "b": "laurent-solly",
       "org": "Meta (FAIR)",
       "years": [
@@ -2146,6 +2277,15 @@
       "years": [
         2023,
         2024
+      ]
+    },
+    {
+      "a": "bowen-shi",
+      "b": "jiatao-gu",
+      "org": "Meta (FAIR)",
+      "years": [
+        2021,
+        2021
       ]
     },
     {
@@ -2536,6 +2676,15 @@
       ]
     },
     {
+      "a": "chloe-giraut-pierron",
+      "b": "felix-naepels",
+      "org": "pigment",
+      "years": [
+        2022,
+        2024
+      ]
+    },
+    {
       "a": "christophe-tcheng",
       "b": "david-fan",
       "org": "Meta (FAIR)",
@@ -2551,6 +2700,15 @@
       "years": [
         2023,
         2024
+      ]
+    },
+    {
+      "a": "christophe-tcheng",
+      "b": "jiatao-gu",
+      "org": "Meta (FAIR)",
+      "years": [
+        2020,
+        2022
       ]
     },
     {
@@ -3064,6 +3222,150 @@
       "years": [
         2023,
         2024
+      ]
+    },
+    {
+      "a": "jiatao-gu",
+      "b": "john-nguyen",
+      "org": "Meta (FAIR)",
+      "years": [
+        2020,
+        2022
+      ]
+    },
+    {
+      "a": "jiatao-gu",
+      "b": "laurent-solly",
+      "org": "Meta (FAIR)",
+      "years": [
+        2018,
+        2022
+      ]
+    },
+    {
+      "a": "jiatao-gu",
+      "b": "li-jing",
+      "org": "Meta (FAIR)",
+      "years": [
+        2020,
+        2022
+      ]
+    },
+    {
+      "a": "jiatao-gu",
+      "b": "matthew-muckley",
+      "org": "Meta (FAIR)",
+      "years": [
+        2020,
+        2022
+      ]
+    },
+    {
+      "a": "jiatao-gu",
+      "b": "megi-dervishi",
+      "org": "Meta (FAIR)",
+      "years": [
+        2021,
+        2021
+      ]
+    },
+    {
+      "a": "jiatao-gu",
+      "b": "michael-rabbat",
+      "org": "Meta (FAIR)",
+      "years": [
+        2018,
+        2022
+      ]
+    },
+    {
+      "a": "jiatao-gu",
+      "b": "mikael-henaff",
+      "org": "Meta (FAIR)",
+      "years": [
+        2020,
+        2022
+      ]
+    },
+    {
+      "a": "jiatao-gu",
+      "b": "pascale-fung",
+      "org": "Meta (FAIR)",
+      "years": [
+        2022,
+        2022
+      ]
+    },
+    {
+      "a": "jiatao-gu",
+      "b": "quentin-duval",
+      "org": "Meta (FAIR)",
+      "years": [
+        2020,
+        2022
+      ]
+    },
+    {
+      "a": "jiatao-gu",
+      "b": "rohit-girdhar",
+      "org": "Meta (FAIR)",
+      "years": [
+        2019,
+        2022
+      ]
+    },
+    {
+      "a": "jiatao-gu",
+      "b": "saining-xie",
+      "org": "Meta (FAIR)",
+      "years": [
+        2018,
+        2021
+      ]
+    },
+    {
+      "a": "jiatao-gu",
+      "b": "sean-nguyen",
+      "org": "Meta (FAIR)",
+      "years": [
+        2018,
+        2022
+      ]
+    },
+    {
+      "a": "jiatao-gu",
+      "b": "tengyu-ma",
+      "org": "Meta (FAIR)",
+      "years": [
+        2021,
+        2022
+      ]
+    },
+    {
+      "a": "jiatao-gu",
+      "b": "xingyi-zhou",
+      "org": "Meta (FAIR)",
+      "years": [
+        2021,
+        2022
+      ]
+    },
+    {
+      "a": "jiatao-gu",
+      "b": "yann-lecun",
+      "org": "Meta (FAIR)",
+      "years": [
+        2018,
+        2022
+      ]
+    },
+    {
+      "a": "jiatao-gu",
+      "b": "yannick-loriot",
+      "org": "Meta (FAIR)",
+      "years": [
+        2019,
+        2022
       ]
     },
     {
@@ -4857,6 +5159,10 @@
       "manager": "min-lin"
     },
     {
+      "person": "chloe-giraut-pierron",
+      "manager": "alexandre-lebrun"
+    },
+    {
       "person": "christophe-tcheng",
       "manager": "alexandre-lebrun"
     },
@@ -4871,6 +5177,10 @@
     {
       "person": "felix-naepels",
       "manager": "christophe-tcheng"
+    },
+    {
+      "person": "jiatao-gu",
+      "manager": "saining-xie"
     },
     {
       "person": "jihan-yang",

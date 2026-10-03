@@ -40,6 +40,58 @@
   ],
   "papers": [
     {
+      "paperId": "fe07fb55b897fa343cf1ab6f4bdea46a1b047aaf",
+      "title": "Learning to Discover Interesting Mathematics",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/fe07fb55b897fa343cf1ab6f4bdea46a1b047aaf",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Niket Patel"
+        },
+        {
+          "slug": null,
+          "name": "A. Rammal"
+        },
+        {
+          "slug": null,
+          "name": "Amaury Hayat"
+        },
+        {
+          "slug": null,
+          "name": "Rémi Munos"
+        }
+      ]
+    },
+    {
+      "paperId": "4fa80977d52f72bd8e1bf88ff93398e96f3029d1",
+      "title": "Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/4fa80977d52f72bd8e1bf88ff93398e96f3029d1",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ismail Labiad"
+        },
+        {
+          "slug": null,
+          "name": "M. Kowalski"
+        },
+        {
+          "slug": null,
+          "name": "Marc Schoenauer"
+        },
+        {
+          "slug": null,
+          "name": "Rémi Munos"
+        }
+      ]
+    },
+    {
       "paperId": "31e6e9e341f8e8152c9f633b5838c585853feb1b",
       "title": "Learning through Internalization",
       "year": 2026,
@@ -357,23 +409,30 @@
     {
       "title": "Outcome-based Exploration for LLM Reasoning",
       "year": 2025,
-      "citationCount": 83,
+      "citationCount": 84,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2509.06941"
     },
     {
+      "title": "Teaching Models to Teach Themselves: Reasoning at the Edge of Learnability",
+      "year": 2026,
+      "citationCount": 20,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.18778"
+    },
+    {
       "title": "Soft Tokens, Hard Truths",
       "year": 2025,
-      "citationCount": 17,
+      "citationCount": 20,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2509.19170"
     },
     {
-      "title": "Teaching Models to Teach Themselves: Reasoning at the Edge of Learnability",
+      "title": "Formalization of De Giorgi--Nash--Moser Theory in Lean",
       "year": 2026,
-      "citationCount": 16,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2601.18778"
+      "citationCount": 14,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/f274a1bce813c2bb358ed7b6fbd54c08c17bac1a"
     },
     {
       "title": "Emergent properties with repeated examples",
@@ -381,13 +440,6 @@
       "citationCount": 13,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2410.07041"
-    },
-    {
-      "title": "Formalization of De Giorgi--Nash--Moser Theory in Lean",
-      "year": 2026,
-      "citationCount": 9,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/f274a1bce813c2bb358ed7b6fbd54c08c17bac1a"
     }
   ],
   "githubProjects": [],
@@ -444,11 +496,19 @@
     "coAuthors": [],
     "externalCoAuthors": [
       {
-        "name": "Ismail Labiad",
-        "papers": 4
+        "name": "Rémi Munos",
+        "papers": 5
       },
       {
-        "name": "Rémi Munos",
+        "name": "Ismail Labiad",
+        "papers": 5
+      },
+      {
+        "name": "M. Kowalski",
+        "papers": 3
+      },
+      {
+        "name": "Marc Schoenauer",
         "papers": 3
       },
       {
@@ -458,6 +518,18 @@
       {
         "name": "Yann Ollivier",
         "papers": 3
+      },
+      {
+        "name": "Niket Patel",
+        "papers": 2
+      },
+      {
+        "name": "A. Rammal",
+        "papers": 2
+      },
+      {
+        "name": "Amaury Hayat",
+        "papers": 2
       },
       {
         "name": "Charles Arnal",
@@ -473,14 +545,6 @@
       },
       {
         "name": "Mathurin Videau",
-        "papers": 2
-      },
-      {
-        "name": "M. Kowalski",
-        "papers": 2
-      },
-      {
-        "name": "Marc Schoenauer",
         "papers": 2
       },
       {
@@ -508,19 +572,7 @@
         "papers": 1
       },
       {
-        "name": "A. Rammal",
-        "papers": 1
-      },
-      {
-        "name": "Niket Patel",
-        "papers": 1
-      },
-      {
         "name": "Fabian Gloeckle",
-        "papers": 1
-      },
-      {
-        "name": "Amaury Hayat",
         "papers": 1
       },
       {

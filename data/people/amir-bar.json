@@ -38,28 +38,6 @@
   "reports": [],
   "papers": [
     {
-      "paperId": "0858da5e7989e7cacdb550ca11c5ef32b49c3932",
-      "title": "PGT: Procedurally Generated Tasks for improving visual grounding in MLLMs",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2605.23883",
-      "citationCount": 0,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Rim Assouel"
-        },
-        {
-          "slug": null,
-          "name": "Michal Drozdzal"
-        },
-        {
-          "slug": null,
-          "name": "Adriana Romero-Soriano"
-        }
-      ]
-    },
-    {
       "paperId": "477e20594635eb0ced89bbf2dd9ec873278cf48d",
       "title": "Hierarchical Planning with Latent World Models",
       "year": 2026,
@@ -292,24 +270,6 @@
       ]
     },
     {
-      "paperId": "c20bfd9d9af460157201ad786e5f6b1898a292a0",
-      "title": "Grounding Generated Videos in Feasible Plans via World Models",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.01960",
-      "citationCount": 2,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Christos Ziakas"
-        },
-        {
-          "slug": null,
-          "name": "Alessandra Russo"
-        }
-      ]
-    },
-    {
       "paperId": "6209c4ab686552f9d644f56ff962018a67978e27",
       "title": "Parallel Stochastic Gradient-Based Planning for World Models",
       "year": 2026,
@@ -332,44 +292,6 @@
         {
           "slug": null,
           "name": "Aditi Krishnapriyan"
-        }
-      ]
-    },
-    {
-      "paperId": "281539c8c28178f1b9badfc97649824f9b278806",
-      "title": "DeFM: Learning Foundation Representations from Depth for Robotics",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2601.18923",
-      "citationCount": 4,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Manthan Patel"
-        },
-        {
-          "slug": null,
-          "name": "Jonas Frey"
-        },
-        {
-          "slug": null,
-          "name": "Mayank Mittal"
-        },
-        {
-          "slug": null,
-          "name": "Fan Yang"
-        },
-        {
-          "slug": null,
-          "name": "Alexander Hansson"
-        },
-        {
-          "slug": null,
-          "name": "César Cadena"
-        },
-        {
-          "slug": null,
-          "name": "Marco Hutter"
         }
       ]
     },
@@ -494,36 +416,6 @@
       ]
     },
     {
-      "paperId": "9568effdf3cf8b6076ca3c810d2cbc6f9b19bd51",
-      "title": "Pixels Versus Priors: Controlling Knowledge Priors in Vision-Language Models through Visual Counterfacts",
-      "year": 2025,
-      "venue": "Conference on Empirical Methods in Natural Language Processing",
-      "url": "https://doi.org/10.48550/arXiv.2505.17127",
-      "citationCount": 29,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Michal Golovanevsky"
-        },
-        {
-          "slug": null,
-          "name": "William Rudman"
-        },
-        {
-          "slug": null,
-          "name": "Michael A. Lepori"
-        },
-        {
-          "slug": null,
-          "name": "Ritambhara Singh"
-        },
-        {
-          "slug": null,
-          "name": "Carsten Eickhoff"
-        }
-      ]
-    },
-    {
       "paperId": "aa5d0f6a14a9da689de842f6af61021e6d91aadf",
       "title": "Scaling Language-Free Visual Representation Learning",
       "year": 2025,
@@ -548,6 +440,10 @@
           "name": "Saining Xie"
         },
         {
+          "slug": "peter-tong",
+          "name": "Peter Tong"
+        },
+        {
           "slug": null,
           "name": "Shengbang Tong"
         },
@@ -570,40 +466,6 @@
         {
           "slug": null,
           "name": "Nicolas Ballas"
-        }
-      ]
-    },
-    {
-      "paperId": "d3e5d695737dd59d409f2e24aa96d6410734471f",
-      "title": "Forgotten Polygons: Multimodal Large Language Models are Shape-Blind",
-      "year": 2025,
-      "venue": "Annual Meeting of the Association for Computational Linguistics",
-      "url": "https://doi.org/10.48550/arXiv.2502.15969",
-      "citationCount": 26,
-      "coAuthors": [
-        {
-          "slug": "yann-lecun",
-          "name": "Yann LeCun"
-        },
-        {
-          "slug": null,
-          "name": "William Rudman"
-        },
-        {
-          "slug": null,
-          "name": "Michal Golovanesky"
-        },
-        {
-          "slug": null,
-          "name": "V. Palit"
-        },
-        {
-          "slug": null,
-          "name": "Carsten Eickhoff"
-        },
-        {
-          "slug": null,
-          "name": "Ritambhara Singh"
         }
       ]
     },
@@ -690,43 +552,7 @@
       ]
     }
   ],
-  "topPublications": [
-    {
-      "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
-      "year": 2026,
-      "citationCount": 78,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2603.14482"
-    },
-    {
-      "title": "Scaling Language-Free Visual Representation Learning",
-      "year": 2025,
-      "citationCount": 68,
-      "venue": "IEEE International Conference on Computer Vision",
-      "url": "https://doi.org/10.1109/ICCV51701.2025.00042"
-    },
-    {
-      "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
-      "year": 2026,
-      "citationCount": 32,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2603.03276"
-    },
-    {
-      "title": "Pixels Versus Priors: Controlling Knowledge Priors in Vision-Language Models through Visual Counterfacts",
-      "year": 2025,
-      "citationCount": 30,
-      "venue": "Conference on Empirical Methods in Natural Language Processing",
-      "url": "https://doi.org/10.48550/arXiv.2505.17127"
-    },
-    {
-      "title": "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
-      "year": 2025,
-      "citationCount": 18,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/088a45338d45f05f6a7460fb152615fb96150f6e"
-    }
-  ],
+  "topPublications": [],
   "githubProjects": [],
   "githubActivity": {
     "username": "amirbar",
@@ -783,7 +609,7 @@
       {
         "slug": "yann-lecun",
         "name": "Yann LeCun",
-        "sharedPapers": 9
+        "sharedPapers": 8
       },
       {
         "slug": "michael-rabbat",
@@ -839,6 +665,11 @@
         "slug": "delong-chen",
         "name": "Delong Chen",
         "sharedPapers": 1
+      },
+      {
+        "slug": "peter-tong",
+        "name": "Peter Tong",
+        "sharedPapers": 1
       }
     ],
     "externalCoAuthors": [
@@ -881,30 +712,6 @@
       {
         "name": "Luke S. Zettlemoyer",
         "papers": 2
-      },
-      {
-        "name": "William Rudman",
-        "papers": 2
-      },
-      {
-        "name": "Ritambhara Singh",
-        "papers": 2
-      },
-      {
-        "name": "Carsten Eickhoff",
-        "papers": 2
-      },
-      {
-        "name": "Rim Assouel",
-        "papers": 1
-      },
-      {
-        "name": "Michal Drozdzal",
-        "papers": 1
-      },
-      {
-        "name": "Adriana Romero-Soriano",
-        "papers": 1
       },
       {
         "name": "Soham Chitnis",
@@ -955,47 +762,11 @@
         "papers": 1
       },
       {
-        "name": "Christos Ziakas",
-        "papers": 1
-      },
-      {
-        "name": "Alessandra Russo",
-        "papers": 1
-      },
-      {
         "name": "Michael Psenka",
         "papers": 1
       },
       {
         "name": "Aditi Krishnapriyan",
-        "papers": 1
-      },
-      {
-        "name": "Manthan Patel",
-        "papers": 1
-      },
-      {
-        "name": "Jonas Frey",
-        "papers": 1
-      },
-      {
-        "name": "Mayank Mittal",
-        "papers": 1
-      },
-      {
-        "name": "Fan Yang",
-        "papers": 1
-      },
-      {
-        "name": "Alexander Hansson",
-        "papers": 1
-      },
-      {
-        "name": "César Cadena",
-        "papers": 1
-      },
-      {
-        "name": "Marco Hutter",
         "papers": 1
       },
       {
@@ -1063,14 +834,6 @@
         "papers": 1
       },
       {
-        "name": "Michal Golovanevsky",
-        "papers": 1
-      },
-      {
-        "name": "Michael A. Lepori",
-        "papers": 1
-      },
-      {
         "name": "Jiacheng Zhu",
         "papers": 1
       },
@@ -1080,14 +843,6 @@
       },
       {
         "name": "Xinlei Chen",
-        "papers": 1
-      },
-      {
-        "name": "Michal Golovanesky",
-        "papers": 1
-      },
-      {
-        "name": "V. Palit",
         "papers": 1
       },
       {

@@ -45,6 +45,7 @@
     "bowen-shi",
     "chen-wei",
     "david-fan",
+    "jiatao-gu",
     "jihan-yang",
     "john-nguyen",
     "li-jing",
@@ -327,6 +328,28 @@
       ]
     },
     {
+      "paperId": "bbc8295decc782f69f94a0aa95423d7f54a93e3d",
+      "title": "Diffusion Transformers with Representation Autoencoders",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2510.11690",
+      "citationCount": 287,
+      "coAuthors": [
+        {
+          "slug": "peter-tong",
+          "name": "Peter Tong"
+        },
+        {
+          "slug": null,
+          "name": "Boyang Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Nanye Ma"
+        }
+      ]
+    },
+    {
       "paperId": "dc008a333ac4aaf69ca9715c05741de40b18630a",
       "title": "Traveling Across Languages: Benchmarking Cross-Lingual Consistency in Multimodal LLMs",
       "year": 2025,
@@ -377,6 +400,10 @@
           "name": "Amir Bar"
         },
         {
+          "slug": "peter-tong",
+          "name": "Peter Tong"
+        },
+        {
           "slug": null,
           "name": "Shengbang Tong"
         },
@@ -417,6 +444,10 @@
         {
           "slug": "jihan-yang",
           "name": "Jihan Yang"
+        },
+        {
+          "slug": "peter-tong",
+          "name": "Peter Tong"
         },
         {
           "slug": null,
@@ -463,6 +494,10 @@
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
+        },
+        {
+          "slug": "peter-tong",
+          "name": "Peter Tong"
         },
         {
           "slug": null,
@@ -513,6 +548,10 @@
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
+        },
+        {
+          "slug": "peter-tong",
+          "name": "Peter Tong"
         },
         {
           "slug": null,
@@ -569,6 +608,10 @@
           "name": "Yann LeCun"
         },
         {
+          "slug": "peter-tong",
+          "name": "Peter Tong"
+        },
+        {
           "slug": null,
           "name": "Hao Bai"
         },
@@ -617,6 +660,10 @@
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
+        },
+        {
+          "slug": "peter-tong",
+          "name": "Peter Tong"
         },
         {
           "slug": null,
@@ -1847,6 +1894,11 @@
         "sharedPapers": 7
       },
       {
+        "slug": "peter-tong",
+        "name": "Peter Tong",
+        "sharedPapers": 7
+      },
+      {
         "slug": "david-fan",
         "name": "David Fan",
         "sharedPapers": 3
@@ -1934,6 +1986,10 @@
         "papers": 4
       },
       {
+        "name": "Boyang Zheng",
+        "papers": 3
+      },
+      {
         "name": "Koustuv Sinha",
         "papers": 3
       },
@@ -1982,11 +2038,11 @@
         "papers": 2
       },
       {
-        "name": "Boyang Zheng",
+        "name": "Nicolas Ballas",
         "papers": 2
       },
       {
-        "name": "Nicolas Ballas",
+        "name": "Nanye Ma",
         "papers": 2
       },
       {
@@ -2143,10 +2199,6 @@
       },
       {
         "name": "Bingda Tang",
-        "papers": 1
-      },
-      {
-        "name": "Nanye Ma",
         "papers": 1
       },
       {
@@ -2619,6 +2671,15 @@
         "org": "Meta (FAIR)",
         "years": [
           2020,
+          2021
+        ]
+      },
+      {
+        "slug": "jiatao-gu",
+        "name": "Jiatao Gu",
+        "org": "Meta (FAIR)",
+        "years": [
+          2018,
           2021
         ]
       },

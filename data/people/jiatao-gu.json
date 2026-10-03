@@ -1,48 +1,51 @@
 {
-  "slug": "christophe-tcheng",
-  "name": "Christophe Tcheng",
-  "role": "VP Engineering",
-  "department": "Research & Engineering",
-  "location": "Paris",
+  "slug": "jiatao-gu",
+  "name": "Jiatao Gu",
+  "role": "Member of Technical Staff",
+  "department": "Science & Research Leadership",
+  "location": "New York City",
   "tags": [
-    "Paris"
+    "New York City"
   ],
   "links": {
-    "linkedin": "https://www.linkedin.com/in/christophetcheng/",
-    "twitter": "https://x.com/christophetch"
+    "github": "https://github.com/MultiPath",
+    "linkedin": "https://www.linkedin.com/in/jiatao-gu-204b2672",
+    "scholar": "https://scholar.google.com/citations?user=cB1mFBsAAAAJ",
+    "twitter": "https://x.com/thoma_gu",
+    "website": "https://jiataogu.me/"
   },
-  "semanticScholarId": null,
+  "semanticScholarId": [
+    "2287733778"
+  ],
   "careerHistory": [
     {
+      "org": "University of Pennsylvania",
+      "title": "Assistant Professor",
+      "years": "2025-present"
+    },
+    {
+      "org": "Apple",
+      "title": "Staff Research Scientist",
+      "years": "2022-2026"
+    },
+    {
       "org": "Meta",
-      "title": "Software Engineer",
-      "years": "2020-2026"
-    },
-    {
-      "org": "American Express Global Business Travel",
-      "title": "Vice President Products and Platforms",
-      "years": "2015-2020"
-    },
-    {
-      "org": "Amadeus",
-      "title": "Head of R&D Services and Ecosystem",
-      "years": "2007-2015"
+      "title": "Senior Research Scientist - Facebook AI Research (FAIR)",
+      "years": "2018-2022"
     }
   ],
-  "reportsTo": "alexandre-lebrun",
-  "reports": [
-    "felix-naepels"
-  ],
+  "reportsTo": "saining-xie",
+  "reports": [],
   "papers": [],
   "topPublications": [],
   "githubProjects": [],
   "githubActivity": null,
   "news": [
     {
-      "title": "New Hire: Christophe Tcheng, VP Engineering in Paris",
-      "url": "https://ami.frenchtechjournal.com/team/christophe-tcheng",
+      "title": "New Hire: Jiatao Gu, Member of Technical Staff, New York City",
+      "url": "https://ami.frenchtechjournal.com/team/jiatao-gu",
       "source": "The AMI Observatory",
-      "publishedAt": "2026-04-19"
+      "publishedAt": "2026-10-03"
     }
   ],
   "xPosts": [],
@@ -56,16 +59,16 @@
         "org": "Meta (FAIR)",
         "years": [
           2020,
-          2026
+          2022
         ]
       },
       {
-        "slug": "amir-bar",
-        "name": "Amir Bar",
+        "slug": "alexandre-lebrun",
+        "name": "Alexandre LeBrun",
         "org": "Meta (FAIR)",
         "years": [
-          2025,
-          2026
+          2018,
+          2018
         ]
       },
       {
@@ -74,16 +77,16 @@
         "org": "Meta (FAIR)",
         "years": [
           2021,
-          2026
+          2022
         ]
       },
       {
-        "slug": "artem-zholus",
-        "name": "Artem Zholus",
+        "slug": "bingyi-kang",
+        "name": "Bingyi Kang",
         "org": "Meta (FAIR)",
         "years": [
-          2024,
-          2026
+          2019,
+          2019
         ]
       },
       {
@@ -92,39 +95,12 @@
         "org": "Meta (FAIR)",
         "years": [
           2021,
-          2026
+          2021
         ]
       },
       {
-        "slug": "chen-wei",
-        "name": "Chen Wei",
-        "org": "Meta (FAIR)",
-        "years": [
-          2024,
-          2025
-        ]
-      },
-      {
-        "slug": "david-fan",
-        "name": "David Fan",
-        "org": "Meta (FAIR)",
-        "years": [
-          2024,
-          2026
-        ]
-      },
-      {
-        "slug": "delong-chen",
-        "name": "Delong Chen",
-        "org": "Meta (FAIR)",
-        "years": [
-          2023,
-          2024
-        ]
-      },
-      {
-        "slug": "jiatao-gu",
-        "name": "Jiatao Gu",
+        "slug": "christophe-tcheng",
+        "name": "Christophe Tcheng",
         "org": "Meta (FAIR)",
         "years": [
           2020,
@@ -137,7 +113,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2020,
-          2026
+          2022
         ]
       },
       {
@@ -145,8 +121,8 @@
         "name": "Laurent Solly",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
-          2025
+          2018,
+          2022
         ]
       },
       {
@@ -159,21 +135,12 @@
         ]
       },
       {
-        "slug": "lucas-maes",
-        "name": "Lucas Maes",
-        "org": "Meta (FAIR)",
-        "years": [
-          2026,
-          2026
-        ]
-      },
-      {
         "slug": "matthew-muckley",
         "name": "Matthew Muckley",
         "org": "Meta (FAIR)",
         "years": [
           2020,
-          2026
+          2022
         ]
       },
       {
@@ -182,7 +149,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2021,
-          2026
+          2021
         ]
       },
       {
@@ -190,8 +157,8 @@
         "name": "Michael Rabbat",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
-          2024
+          2018,
+          2022
         ]
       },
       {
@@ -200,7 +167,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2020,
-          2026
+          2022
         ]
       },
       {
@@ -209,7 +176,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2022,
-          2024
+          2022
         ]
       },
       {
@@ -218,16 +185,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2020,
-          2026
-        ]
-      },
-      {
-        "slug": "quentin-garrido",
-        "name": "Quentin Garrido",
-        "org": "Meta (FAIR)",
-        "years": [
-          2024,
-          2026
+          2022
         ]
       },
       {
@@ -235,8 +193,8 @@
         "name": "Rohit Girdhar",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
-          2026
+          2019,
+          2022
         ]
       },
       {
@@ -244,17 +202,8 @@
         "name": "Saining Xie",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
+          2018,
           2021
-        ]
-      },
-      {
-        "slug": "scott-fujimoto",
-        "name": "Scott Fujimoto",
-        "org": "Meta (FAIR)",
-        "years": [
-          2024,
-          2026
         ]
       },
       {
@@ -262,8 +211,8 @@
         "name": "Sean Nguyen",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
-          2024
+          2018,
+          2022
         ]
       },
       {
@@ -272,16 +221,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2021,
-          2026
-        ]
-      },
-      {
-        "slug": "willy-chung",
-        "name": "Willy Chung",
-        "org": "Meta (FAIR)",
-        "years": [
-          2024,
-          2026
+          2022
         ]
       },
       {
@@ -290,7 +230,7 @@
         "org": "Meta (FAIR)",
         "years": [
           2021,
-          2024
+          2022
         ]
       },
       {
@@ -298,8 +238,8 @@
         "name": "Yann LeCun",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
-          2025
+          2018,
+          2022
         ]
       },
       {
@@ -307,8 +247,8 @@
         "name": "Yannick Loriot",
         "org": "Meta (FAIR)",
         "years": [
-          2020,
-          2026
+          2019,
+          2022
         ]
       }
     ]

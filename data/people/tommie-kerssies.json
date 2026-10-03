@@ -26,8 +26,423 @@
   ],
   "reportsTo": "pascale-fung",
   "reports": [],
-  "papers": [],
-  "topPublications": [],
+  "papers": [
+    {
+      "paperId": "a9715b7ca428143a8ac8b757358ddba3ce95d050",
+      "title": "A Frame is Worth One Token: Efficient Generative World Modeling with Delta Tokens",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2604.04913",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "G. Berton"
+        },
+        {
+          "slug": null,
+          "name": "Ju He"
+        },
+        {
+          "slug": null,
+          "name": "Qi-Hang Yu"
+        },
+        {
+          "slug": null,
+          "name": "Wufei Ma"
+        },
+        {
+          "slug": null,
+          "name": "Daan de Geus"
+        },
+        {
+          "slug": null,
+          "name": "G. Dubbelman"
+        },
+        {
+          "slug": null,
+          "name": "Liang-Chieh Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "e685b1cf4404d66f8abae727583d8bf905eaebc5",
+      "title": "VidEoMT: Your ViT is Secretly Also a Video Segmentation Model",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.17807",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Narges Norouzi"
+        },
+        {
+          "slug": null,
+          "name": "Idil Esen Zulfikar"
+        },
+        {
+          "slug": null,
+          "name": "Niccolò Cavagnero"
+        },
+        {
+          "slug": null,
+          "name": "Bastian Leibe"
+        },
+        {
+          "slug": null,
+          "name": "G. Dubbelman"
+        },
+        {
+          "slug": null,
+          "name": "Daan de Geus"
+        }
+      ]
+    },
+    {
+      "paperId": "050898e50d4e4f7d2f7b2a8cd0e90f65e278addb",
+      "title": "Simplifying Traffic Anomaly Detection with Video Foundation Models",
+      "year": 2025,
+      "venue": "2025 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)",
+      "url": "https://doi.org/10.1109/ICCVW69036.2025.00094",
+      "citationCount": 6,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Svetlana Orlova"
+        },
+        {
+          "slug": null,
+          "name": "B. B. Englert"
+        },
+        {
+          "slug": null,
+          "name": "G. Dubbelman"
+        }
+      ]
+    },
+    {
+      "paperId": "7cb7ba6e0cacb40fa4cdf2d8e51504bffac7b32d",
+      "title": "Scaling Laws for Robust Comparison of Open Foundation Language-Vision Models and Datasets",
+      "year": 2025,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2506.04598",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Marianna Nezhurina"
+        },
+        {
+          "slug": null,
+          "name": "Tomer Porian"
+        },
+        {
+          "slug": null,
+          "name": "Giovanni Pucceti"
+        },
+        {
+          "slug": null,
+          "name": "R. Beaumont"
+        },
+        {
+          "slug": null,
+          "name": "M. Cherti"
+        },
+        {
+          "slug": null,
+          "name": "J. Jitsev"
+        }
+      ]
+    },
+    {
+      "paperId": "b938bbd97662527b2dfb8fe31f2fe352ac035429",
+      "title": "What is the Added Value of UDA in the VFM Era?",
+      "year": 2025,
+      "venue": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+      "url": "https://doi.org/10.1109/CVPRW67362.2025.00238",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "B. B. Englert"
+        },
+        {
+          "slug": null,
+          "name": "G. Dubbelman"
+        }
+      ]
+    },
+    {
+      "paperId": "ceb51f79621f9ba44eca435ac094a34c9ea8a46d",
+      "title": "Your ViT is Secretly an Image Segmentation Model",
+      "year": 2025,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52734.2025.02356",
+      "citationCount": 90,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Niccolò Cavagnero"
+        },
+        {
+          "slug": null,
+          "name": "Alexander Hermans"
+        },
+        {
+          "slug": null,
+          "name": "Narges Norouzi"
+        },
+        {
+          "slug": null,
+          "name": "Giuseppe Averta"
+        },
+        {
+          "slug": null,
+          "name": "Bastian Leibe"
+        },
+        {
+          "slug": null,
+          "name": "G. Dubbelman"
+        },
+        {
+          "slug": null,
+          "name": "Daan de Geus"
+        }
+      ]
+    },
+    {
+      "paperId": "6c6fc0bd6038eef6ecadb515f7597801b3938043",
+      "title": "First Place Solution to the ECCV 2024 BRAVO Challenge: Evaluating Robustness of Vision Foundation Models for Semantic Segmentation",
+      "year": 2024,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/6c6fc0bd6038eef6ecadb515f7597801b3938043",
+      "citationCount": 3,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Daan de Geus"
+        },
+        {
+          "slug": null,
+          "name": "G. Dubbelman"
+        }
+      ]
+    },
+    {
+      "paperId": "87345019a78b98484a80efb031cb9d71a70c95c9",
+      "title": "The BRAVO Semantic Segmentation Challenge Results in UNCV2024",
+      "year": 2024,
+      "venue": "ECCV Workshops",
+      "url": "https://doi.org/10.48550/arXiv.2409.15107",
+      "citationCount": 6,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tuan-Hung Vu"
+        },
+        {
+          "slug": null,
+          "name": "Eduardo Valle"
+        },
+        {
+          "slug": null,
+          "name": "Andrei Bursuc"
+        },
+        {
+          "slug": null,
+          "name": "Daan de Geus"
+        },
+        {
+          "slug": null,
+          "name": "G. Dubbelman"
+        },
+        {
+          "slug": null,
+          "name": "Long Qian"
+        },
+        {
+          "slug": null,
+          "name": "Bing-Ke Zhu"
+        },
+        {
+          "slug": null,
+          "name": "Yingying Chen"
+        },
+        {
+          "slug": null,
+          "name": "Ming Tang"
+        },
+        {
+          "slug": null,
+          "name": "Jin-Qiao Wang"
+        },
+        {
+          "slug": null,
+          "name": "Tom'avs Voj'ivr"
+        },
+        {
+          "slug": null,
+          "name": "Jan Sochman"
+        },
+        {
+          "slug": null,
+          "name": "Jivr'i Matas"
+        },
+        {
+          "slug": null,
+          "name": "Michael Smith"
+        },
+        {
+          "slug": null,
+          "name": "F. Ferrie"
+        },
+        {
+          "slug": null,
+          "name": "Shamik Basu"
+        },
+        {
+          "slug": null,
+          "name": "Christos Sakaridis"
+        },
+        {
+          "slug": null,
+          "name": "Luc Van Gool"
+        }
+      ]
+    },
+    {
+      "paperId": "1c2afb17680f5c23359845a405300231121c1bc1",
+      "title": "2024 BRAVO Challenge Track 1 1st Place Report: Evaluating Robustness of Vision Foundation Models for Semantic Segmentation",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2409.17208",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Daan de Geus"
+        },
+        {
+          "slug": null,
+          "name": "G. Dubbelman"
+        }
+      ]
+    },
+    {
+      "paperId": "b61163c25c99c9fb236ca9da20cbe5796f7140bb",
+      "title": "Exploring the Benefits of Vision Foundation Models for Unsupervised Domain Adaptation",
+      "year": 2024,
+      "venue": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+      "url": "https://doi.org/10.1109/CVPRW63382.2024.00124",
+      "citationCount": 19,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "B. B. Englert"
+        },
+        {
+          "slug": null,
+          "name": "Fabrizio J. Piva"
+        },
+        {
+          "slug": null,
+          "name": "Daan de Geus"
+        },
+        {
+          "slug": null,
+          "name": "G. Dubbelman"
+        }
+      ]
+    },
+    {
+      "paperId": "a734b8f99ea174823b3b088cea27c9c22c997032",
+      "title": "How to Benchmark Vision Foundation Models for Semantic Segmentation?",
+      "year": 2024,
+      "venue": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+      "url": "https://doi.org/10.1109/CVPRW63382.2024.00123",
+      "citationCount": 18,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Daan de Geus"
+        },
+        {
+          "slug": null,
+          "name": "G. Dubbelman"
+        }
+      ]
+    },
+    {
+      "paperId": "224671a281e5c9815df11035d732f165f98635a2",
+      "title": "Neural Architecture Search for Visual Anomaly Segmentation",
+      "year": 2023,
+      "venue": "AutoML",
+      "url": "https://doi.org/10.48550/arXiv.2304.08975",
+      "citationCount": 3,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Joaquin Vanschoren"
+        }
+      ]
+    },
+    {
+      "paperId": "88eb2e8d2349b7c4939bec1ac58c2469b4a56c64",
+      "title": "Evaluating Continual Test-Time Adaptation for Contextual and Semantic Domain Shifts",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2208.08767",
+      "citationCount": 9,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "J. Vanschoren"
+        },
+        {
+          "slug": null,
+          "name": "Mert Kilickaya"
+        }
+      ]
+    }
+  ],
+  "topPublications": [
+    {
+      "title": "Your ViT is Secretly an Image Segmentation Model",
+      "year": 2025,
+      "citationCount": 90,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52734.2025.02356"
+    },
+    {
+      "title": "How to Benchmark Vision Foundation Models for Semantic Segmentation?",
+      "year": 2024,
+      "citationCount": 18,
+      "venue": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+      "url": "https://doi.org/10.1109/CVPRW63382.2024.00123"
+    },
+    {
+      "title": "A Frame is Worth One Token: Efficient Generative World Modeling with Delta Tokens",
+      "year": 2026,
+      "citationCount": 8,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2604.04913"
+    },
+    {
+      "title": "VidEoMT: Your ViT is Secretly Also a Video Segmentation Model",
+      "year": 2026,
+      "citationCount": 8,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.17807"
+    },
+    {
+      "title": "Scaling Laws for Robust Comparison of Open Foundation Language-Vision Models and Datasets",
+      "year": 2025,
+      "citationCount": 8,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2506.04598"
+    }
+  ],
   "githubProjects": [],
   "githubActivity": {
     "username": "tommiekerssies",
@@ -45,7 +460,172 @@
   "xPosts": [],
   "connections": {
     "coAuthors": [],
-    "externalCoAuthors": [],
+    "externalCoAuthors": [
+      {
+        "name": "G. Dubbelman",
+        "papers": 10
+      },
+      {
+        "name": "Daan de Geus",
+        "papers": 8
+      },
+      {
+        "name": "B. B. Englert",
+        "papers": 3
+      },
+      {
+        "name": "Narges Norouzi",
+        "papers": 2
+      },
+      {
+        "name": "Niccolò Cavagnero",
+        "papers": 2
+      },
+      {
+        "name": "Bastian Leibe",
+        "papers": 2
+      },
+      {
+        "name": "G. Berton",
+        "papers": 1
+      },
+      {
+        "name": "Ju He",
+        "papers": 1
+      },
+      {
+        "name": "Qi-Hang Yu",
+        "papers": 1
+      },
+      {
+        "name": "Wufei Ma",
+        "papers": 1
+      },
+      {
+        "name": "Liang-Chieh Chen",
+        "papers": 1
+      },
+      {
+        "name": "Idil Esen Zulfikar",
+        "papers": 1
+      },
+      {
+        "name": "Svetlana Orlova",
+        "papers": 1
+      },
+      {
+        "name": "Marianna Nezhurina",
+        "papers": 1
+      },
+      {
+        "name": "Tomer Porian",
+        "papers": 1
+      },
+      {
+        "name": "Giovanni Pucceti",
+        "papers": 1
+      },
+      {
+        "name": "R. Beaumont",
+        "papers": 1
+      },
+      {
+        "name": "M. Cherti",
+        "papers": 1
+      },
+      {
+        "name": "J. Jitsev",
+        "papers": 1
+      },
+      {
+        "name": "Alexander Hermans",
+        "papers": 1
+      },
+      {
+        "name": "Giuseppe Averta",
+        "papers": 1
+      },
+      {
+        "name": "Tuan-Hung Vu",
+        "papers": 1
+      },
+      {
+        "name": "Eduardo Valle",
+        "papers": 1
+      },
+      {
+        "name": "Andrei Bursuc",
+        "papers": 1
+      },
+      {
+        "name": "Long Qian",
+        "papers": 1
+      },
+      {
+        "name": "Bing-Ke Zhu",
+        "papers": 1
+      },
+      {
+        "name": "Yingying Chen",
+        "papers": 1
+      },
+      {
+        "name": "Ming Tang",
+        "papers": 1
+      },
+      {
+        "name": "Jin-Qiao Wang",
+        "papers": 1
+      },
+      {
+        "name": "Tom'avs Voj'ivr",
+        "papers": 1
+      },
+      {
+        "name": "Jan Sochman",
+        "papers": 1
+      },
+      {
+        "name": "Jivr'i Matas",
+        "papers": 1
+      },
+      {
+        "name": "Michael Smith",
+        "papers": 1
+      },
+      {
+        "name": "F. Ferrie",
+        "papers": 1
+      },
+      {
+        "name": "Shamik Basu",
+        "papers": 1
+      },
+      {
+        "name": "Christos Sakaridis",
+        "papers": 1
+      },
+      {
+        "name": "Luc Van Gool",
+        "papers": 1
+      },
+      {
+        "name": "Fabrizio J. Piva",
+        "papers": 1
+      },
+      {
+        "name": "Joaquin Vanschoren",
+        "papers": 1
+      },
+      {
+        "name": "J. Vanschoren",
+        "papers": 1
+      },
+      {
+        "name": "Mert Kilickaya",
+        "papers": 1
+      }
+    ],
     "formerColleagues": []
   }
 }
