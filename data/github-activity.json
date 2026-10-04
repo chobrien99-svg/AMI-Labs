@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-04T11:43:20.063Z",
+  "lastFetched": "2026-10-04T16:22:12.762Z",
   "members": [
     {
       "slug": "adithya-iyer",
@@ -407,6 +407,38 @@
       "events": [
         {
           "type": "CreateEvent",
+          "repo": "com-lihaoyi/mill",
+          "repoUrl": "https://github.com/com-lihaoyi/mill",
+          "description": "Created branch codex/python-uv-toolchain-1.3 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-10-04T08:47:37Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "com-lihaoyi/mill",
+          "repoUrl": "https://github.com/com-lihaoyi/mill",
+          "description": "Opened PR #7665 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-10-04T12:38:29Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "com-lihaoyi/mill",
+          "repoUrl": "https://github.com/com-lihaoyi/mill",
+          "description": "Opened PR #7664 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-10-04T12:38:25Z"
+        },
+        {
+          "type": "PushEvent",
+          "repo": "com-lihaoyi/mill",
+          "repoUrl": "https://github.com/com-lihaoyi/mill",
+          "description": "Pushed 0 commits to codex/python-uv-toolchain-1.3 on com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-10-04T12:38:10Z"
+        },
+        {
+          "type": "CreateEvent",
           "repo": "lihaoyi/mill-1",
           "repoUrl": "https://github.com/lihaoyi/mill-1",
           "description": "Created branch fix-main-ci-20261004 in lihaoyi/mill-1",
@@ -492,38 +524,6 @@
           "description": "Pushed 0 commits to codex/cancel-redundant-ci-20261004 on com-lihaoyi/mill",
           "url": "https://github.com/com-lihaoyi/mill",
           "timestamp": "2026-10-04T03:41:56Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Pushed 0 commits to fix-main-ci-20261004 on com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-10-04T03:41:37Z"
-        },
-        {
-          "type": "CreateEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Created branch codex/cancel-redundant-ci-20261004 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-10-04T01:51:30Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Pushed 0 commits to fix-main-ci-20261004 on com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-10-04T01:36:49Z"
-        },
-        {
-          "type": "DeleteEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Deleted branch codex/open-ci-fix-prs-20261004 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-10-04T01:35:34Z"
         }
       ]
     },
@@ -603,14 +603,6 @@
           "description": "Commented on issue #329 in galilai-group/stable-worldmodel",
           "url": "https://github.com/galilai-group/stable-worldmodel/pull/329#issuecomment-5783396405",
           "timestamp": "2026-09-22T20:12:45Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "galilai-group/stable-worldmodel",
-          "repoUrl": "https://github.com/galilai-group/stable-worldmodel",
-          "description": "Pushed 0 commits to main on galilai-group/stable-worldmodel",
-          "url": "https://github.com/galilai-group/stable-worldmodel",
-          "timestamp": "2026-09-02T21:47:54Z"
         }
       ]
     },
