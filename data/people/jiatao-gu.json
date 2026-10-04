@@ -39,7 +39,11 @@
   "papers": [],
   "topPublications": [],
   "githubProjects": [],
-  "githubActivity": null,
+  "githubActivity": {
+    "username": "MultiPath",
+    "githubUrl": "https://github.com/MultiPath",
+    "recentEventCount": 0
+  },
   "news": [
     {
       "title": "New Hire: Jiatao Gu, Member of Technical Staff, New York City",
@@ -48,7 +52,13 @@
       "publishedAt": "2026-10-03"
     }
   ],
-  "xPosts": [],
+  "xPosts": [
+    {
+      "text": "Video benchmarks aren't saturated, they're just easy to game. We introduce Video-Index by dropping all shortcut-solvable questions across 115 benchmarks — key findings: Astra 79.3% beats humans 55%, while open models &lt;20%. Led by my incredible first-year PhD student @EnxinSong ! https://t.co/dxlP1FXzWO",
+      "url": "https://x.com/thoma_gu/status/2105855888074621156",
+      "createdAt": "2026-10-02T03:02:23.000Z"
+    }
+  ],
   "connections": {
     "coAuthors": [],
     "externalCoAuthors": [],
