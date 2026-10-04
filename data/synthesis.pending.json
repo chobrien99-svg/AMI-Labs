@@ -1,70 +1,67 @@
 {
-  "generatedAt": "2026-09-27T22:43:00.960Z",
+  "generatedAt": "2026-10-04T22:38:01.512Z",
   "window": {
     "days": 7,
-    "since": "2026-09-20",
-    "until": "2026-09-27"
+    "since": "2026-09-27",
+    "until": "2026-10-04"
   },
   "model": "claude-sonnet-4-6",
   "facts": {
     "news": {
       "windowCount": 5,
       "byTag": {
-        "hiring": 1,
-        "": 1,
-        "research": 2,
-        "administrative": 1
+        "hiring": 5
       },
       "items": [
         {
-          "title": "New Hire: Pedro O. Pinheiro, Member of the Technical Staff, New York City",
-          "url": "https://ami.frenchtechjournal.com/team/pedro-o-pinheiro",
-          "source": "The AMi Observatory",
-          "publishedAt": "2026-09-20",
+          "title": "New Hire: Chloe Giraut-Pierron, Vice President of Finance, Paris",
+          "url": "https://ami.frenchtechjournal.com/team/chloe-giraut-pierron",
+          "source": "The AMI Observatory",
+          "publishedAt": "2026-10-04",
           "tags": [
             "hiring"
           ],
-          "summary": "AI researcher at AMI Labs in New York who previously served as a principal research scientist on Genentech’s Prescient Design team."
+          "summary": "Giraut-Pierron was actually an early AMI employee from November 2025, and officially a director general. She recently updated her LinkedIn to reflect that she is VP of Finance. She previously worked at Pigment, Qonto, and Stratumn."
         },
         {
-          "title": "At Sciences Po LeCun rejects an AI pause and warns against concentrated power",
-          "url": "/news/at-sciences-po-lecun-rejects-an-ai-pause-and-warns-against-concentrated-power",
-          "source": "YouTube",
-          "publishedAt": "2026-09-20",
+          "title": "New Hire: Jiatao Gu, Member of Technical Staff, New York City",
+          "url": "https://ami.frenchtechjournal.com/team/jiatao-gu",
+          "source": "The AMI Observatory",
+          "publishedAt": "2026-10-03",
           "tags": [
-            ""
+            "hiring"
           ],
-          "summary": "At Sciences Po, Yann LeCun rejected an AI pause, backed France’s role in the data-center boom, and warned that safety fears could entrench the industry’s dominant players."
+          "summary": "Jiatao Gu is an assistant professor in the University of Pennsylvania’s Department of Computer and Information Science. Gu’s research aims to help AI agents operate in the physical world."
         },
         {
-          "title": "LeCun adds mathematical and medical evidence to AMI’s world model ambitions",
-          "url": "/news/lecun-adds-mathematical-and-medical-evidence-to-ami-s-world-model-ambitions",
-          "source": "ECCV",
-          "publishedAt": "2026-09-20",
+          "title": "New Hire: Peter Tong, Member of the Technical Staff, New York City",
+          "url": "https://ami.frenchtechjournal.com/team/peter-tong",
+          "source": "The AMI Observatory",
+          "publishedAt": "2026-09-27",
           "tags": [
-            "research"
+            "hiring"
           ],
-          "summary": ""
+          "summary": "Peter Tong, also known as Shengbang Tong, joined AMI as a member of the technical staff in September 2026. He defended his PhD in computer science at NYU Courant in April 2026, with supervision from Yann LeCun and Saining Xie. He previously graduated from UC Berkeley with a triple major in computer science, applied mathematics, and statistics."
         },
         {
-          "title": "Pascale Fung at ICML: Smart glasses and pie crusts offer clues to AMI’s future",
-          "url": "/news/pascale-fung-at-icml-smart-glasses-and-pie-crusts-offer-clues-to-ami-s-future",
-          "source": "ICML",
-          "publishedAt": "2026-09-20",
+          "title": "New Hire: Tommie Kerssies, Member of Technical Staff, Paris",
+          "url": "https://ami.frenchtechjournal.com/team/tommie-kerssies",
+          "source": "The AMI Observatory",
+          "publishedAt": "2026-09-27",
           "tags": [
-            "research"
+            "hiring"
           ],
-          "summary": "From navigating the Paris metro to making pastry, Pascale Fung’s vision of wearable assistants hints at how AMI’s world-model research could translate into everyday products."
+          "summary": "Tommie Kerssies is a member of the technical staff at AMI, bringing experience in AI research, robotics, and data science from Eindhoven University of Technology, Amazon, and ASMPT."
         },
         {
-          "title": "Trademark: 5275514 - ADVANCED MACHINE INTELLIGENCE COMPUTE",
-          "url": "/news/trademark-5275514-advanced-machine-intelligence-compute",
-          "source": "INPI",
-          "publishedAt": "2026-09-20",
+          "title": "New Hire: Yannick Loriot, Member of Technical Staff, Paris",
+          "url": "https://ami.frenchtechjournal.com/team/yannick-loriot",
+          "source": "The Ami Observatory",
+          "publishedAt": "2026-09-27",
           "tags": [
-            "administrative"
+            "hiring"
           ],
-          "summary": "The trademark filing seeks broad protection for the brand across AI software, research, cloud platforms, and business services, leaving room for future commercial expansion."
+          "summary": "Yannick Loriot joined AMI as a member of the technical staff in September 2026. He is a software engineer and product-minded technology leader whose work has spanned mobile, desktop, VR, and AI-assisted development."
         }
       ]
     },
@@ -79,239 +76,330 @@
       }
     },
     "publications": {
-      "total": 746,
-      "newSinceLast": 13,
+      "total": 764,
+      "newSinceLast": 36,
       "newItems": [
         {
-          "memberName": "Pedro O. Pinheiro",
+          "memberName": "Yann LeCun",
           "teamAuthors": [
-            "Pedro O. Pinheiro"
+            "Yann LeCun"
           ],
-          "title": "DyAb: sequence-based antibody design and property prediction in a low-data regime",
+          "title": "Learning Functional Subspaces for Neural Network Compression",
           "year": 2026,
-          "publicationDate": "2026-08-28",
-          "venue": "mAbs",
-          "url": "https://doi.org/10.1080/19420862.2026.2717460",
-          "citationCount": 0,
-          "tldr": "DyAb is a pair-wise representation built on top of a pre-trained protein language model that achieves a Spearman rank correlation of up to 0.85 on binding affinity prediction across monoclonal antibodies targeting three different antigens.",
-          "abstract": "ABSTRACT Protein therapeutic design and property prediction are frequently hampered by data scarcity. Here we propose a model, DyAb, that addresses these issues by leveraging a pair-wise representation to predict differences in binding affinity, rather than absolute values. DyAb is built on top of a pre-trained protein language model and achieves a Spearman rank correlation of up to 0.85 on binding affinity prediction across monoclonal antibodies targeting three different antigens (EGFR, IL-6, and an internal target), given as few as 100 training data. We employ DyAb in two design contexts: as"
-        },
-        {
-          "memberName": "Pedro O. Pinheiro",
-          "teamAuthors": [
-            "Pedro O. Pinheiro"
-          ],
-          "title": "Beyond Atoms: Evaluating Electron Density Representation for 3D Molecular Learning",
-          "year": 2025,
-          "publicationDate": "2025-11-26",
-          "venue": "arXiv.org",
-          "url": "https://doi.org/10.48550/arXiv.2511.21900",
-          "citationCount": 0,
-          "tldr": "This work compares three voxel-based input types for 3D convolutional neural networks: atom types, raw electron density, and density gradient magnitude, across two molecular tasks -- protein-ligand binding affinity prediction (PDBbind) and quantum property prediction (QM9).",
-          "abstract": "Machine learning models for 3D molecular property prediction typically rely on atom-based representations, which may overlook subtle physical information. Electron density maps -- the direct output of X-ray crystallography and cryo-electron microscopy -- offer a continuous, physically grounded alternative. We compare three voxel-based input types for 3D convolutional neural networks (CNNs): atom types, raw electron density, and density gradient magnitude, across two molecular tasks -- protein-ligand binding affinity prediction (PDBbind) and quantum property prediction (QM9). We focus on voxel-"
-        },
-        {
-          "memberName": "Pedro O. Pinheiro",
-          "teamAuthors": [
-            "Pedro O. Pinheiro"
-          ],
-          "title": "Unified all-atom molecule generation with neural fields",
-          "year": 2025,
-          "publicationDate": "2025-11-19",
-          "venue": "Neural Information Processing Systems",
-          "url": "https://doi.org/10.48550/arXiv.2511.15906",
-          "citationCount": 2,
-          "tldr": "FuncBind, a framework based on computer vision to generate target-conditioned, all-atom molecules across atomic systems, and introduces a new dataset and benchmark for structure-conditioned macrocyclic peptide generation.",
-          "abstract": "Generative models for structure-based drug design are often limited to a specific modality, restricting their broader applicability. To address this challenge, we introduce FuncBind, a framework based on computer vision to generate target-conditioned, all-atom molecules across atomic systems. FuncBind uses neural fields to represent molecules as continuous atomic densities and employs score-based generative models with modern architectures adapted from the computer vision literature. This modality-agnostic representation allows a single unified model to be trained on diverse atomic systems, fr"
-        },
-        {
-          "memberName": "Pedro O. Pinheiro",
-          "teamAuthors": [
-            "Pedro O. Pinheiro"
-          ],
-          "title": "Pharmacophore-based design by learning on voxel grids",
-          "year": 2025,
-          "publicationDate": "2025-11-19",
-          "venue": "arXiv.org",
-          "url": "https://doi.org/10.48550/arXiv.2512.02031",
-          "citationCount": 1,
-          "tldr": "A pharmacophore-based generative model and workflows that address the scaling and fecundity issues of conventional pharmacophore-based virtual screening are proposed and VoxCap, a voxel captioning method for generating SMILES strings from voxelised molecular representations, is introduced.",
-          "abstract": "Ligand-based drug discovery (LBDD) relies on making use of known binders to a protein target to find structurally diverse molecules similarly likely to bind. This process typically involves a brute force search of the known binder (query) against a molecular library using some metric of molecular similarity. One popular approach overlays the pharmacophore-shape profile of the known binder to 3D conformations enumerated for each of the library molecules, computes overlaps, and picks a set of diverse library molecules with high overlaps. While this virtual screening workflow has had considerable"
-        },
-        {
-          "memberName": "Pedro O. Pinheiro",
-          "teamAuthors": [
-            "Pedro O. Pinheiro"
-          ],
-          "title": "Generative property enhancer: implicit guided generation through conditional density estimation",
-          "year": 2025,
-          "publicationDate": null,
-          "venue": "Neural Information Processing Systems",
-          "url": "https://doi.org/10.52202/085713-2950",
-          "citationCount": 0,
-          "tldr": "This work introduces generative property enhancer (GPE), an approach that implicitly guides generation by matching samples with lower property values to higher-value ones, compelling the generative model to produce enhanced, diverse designs without auxiliary predictors.",
-          "abstract": "Generative modeling is increasingly important for data-driven computational design. Conventional approaches pair a generative model with a discriminative model to select or guide samples toward optimized designs. Yet discriminative models often struggle in data-scarce settings, common in scientific applications, and are unreliable in the tails of the distribution where optimal designs typically lie. We introduce generative property enhancer (GPE), an approach that implicitly guides generation by matching samples with lower property values to higher-value ones. Formulated as conditional density"
-        },
-        {
-          "memberName": "Pedro O. Pinheiro",
-          "teamAuthors": [
-            "Pedro O. Pinheiro"
-          ],
-          "title": "DyAb: sequence-based antibody design and property prediction in a low-data regime",
-          "year": 2025,
-          "publicationDate": "2025-02-02",
-          "venue": "bioRxiv",
-          "url": "https://doi.org/10.1101/2025.01.28.635353",
-          "citationCount": 8,
-          "tldr": "DyAb is a pair-wise representation built on top of a pre-trained protein language model that achieves a Spearman rank correlation of up to 0.85 on binding affinity prediction across molecules targeting three different antigens.",
-          "abstract": "Protein therapeutic design and property prediction are frequently hampered by data scarcity. Here we propose a new model, DyAb, that addresses these issues by leveraging a pair-wise representation to predict differences in protein properties, rather than absolute values. DyAb is built on top of a pre-trained protein language model and achieves a Spearman rank correlation of up to 0.85 on binding affinity prediction across molecules targeting three different antigens (EGFR, IL-6, and an internal target), given as few as 100 training data. We employ DyAb in two design contexts: as a ranking mode"
-        },
-        {
-          "memberName": "Pedro O. Pinheiro",
-          "teamAuthors": [
-            "Pedro O. Pinheiro"
-          ],
-          "title": "Score-based 3D molecule generation with neural fields",
-          "year": 2025,
-          "publicationDate": "2025-01-15",
-          "venue": "arXiv.org",
-          "url": "https://doi.org/10.48550/arXiv.2501.08508",
-          "citationCount": 0,
-          "tldr": "A new model based on walk-jump sampling for unconditional 3D molecule generation in the continuous space using neural fields, FuncMol, which achieves competitive results on drug-like molecules and easily scales to macro-cyclic peptides, with at least one order of magnitude faster sampling.",
-          "abstract": "We introduce a new representation for 3D molecules based on their continuous atomic density fields. Using this representation, we propose a new model based on walk-jump sampling for unconditional 3D molecule generation in the continuous space using neural fields. Our model, FuncMol, encodes molecular fields into latent codes using a conditional neural field, samples noisy codes from a Gaussian-smoothed distribution with Langevin MCMC (walk), denoises these samples in a single step (jump), and finally decodes them into molecular fields. FuncMol performs all-atom generation of 3D molecules witho"
-        },
-        {
-          "memberName": "Pedro O. Pinheiro",
-          "teamAuthors": [
-            "Pedro O. Pinheiro"
-          ],
-          "title": "NEBULA: Neural Empirical Bayes Under Latent Representations for Efficient and Controllable Design of Molecular Libraries",
-          "year": 2024,
-          "publicationDate": "2024-07-03",
-          "venue": "arXiv.org",
-          "url": "https://doi.org/10.48550/arXiv.2407.03428",
-          "citationCount": 5,
-          "tldr": "NebULA is presented, the first latent 3D generative model for scalable generation of large molecular libraries around a seed compound of interest and is expected to be highly enabling for machine learning-based drug discovery.",
-          "abstract": "We present NEBULA, the first latent 3D generative model for scalable generation of large molecular libraries around a seed compound of interest. Such libraries are crucial for scientific discovery, but it remains challenging to generate large numbers of high quality samples efficiently. 3D-voxel-based methods have recently shown great promise for generating high quality samples de novo from random noise (Pinheiro et al., 2023). However, sampling in 3D-voxel space is computationally expensive and use in library generation is prohibitively slow. Here, we instead perform neural empirical Bayes sa"
-        },
-        {
-          "memberName": "Pedro O. Pinheiro",
-          "teamAuthors": [
-            "Pedro O. Pinheiro"
-          ],
-          "title": "Score-based 3D molecule generation with neural fields",
-          "year": 2024,
-          "publicationDate": null,
-          "venue": "Neural Information Processing Systems",
-          "url": "https://doi.org/10.52202/079017-0340",
-          "citationCount": 9,
-          "tldr": "The model, FuncMol, encodes molecular fields into latent codes using a conditional neural field, samples noisy codes from a Gaussian-smoothed distribution with Langevin MCMC, denoises these samples in a single step, and finally decodes them into molecular fields.",
-          "abstract": "We introduce a new representation for 3D molecules based on their continuous atomic density fields. Using this representation, we propose a new model based on walk-jump sampling [1] for unconditional 3D molecule generation in the continuous space using neural fields. Our model, FuncMol, encodes molecular fields into latent codes using a conditional neural field, samples noisy codes from a Gaussian-smoothed distribution with Langevin MCMC (walk), denoises these samples in a single step (jump), and finally decodes them into molecular fields. FuncMol performs all-atom generation of 3D molecules w"
-        },
-        {
-          "memberName": "Pedro O. Pinheiro",
-          "teamAuthors": [
-            "Pedro O. Pinheiro"
-          ],
-          "title": "Structure-based drug design by denoising voxel grids",
-          "year": 2024,
-          "publicationDate": "2024-05-07",
-          "venue": "International Conference on Machine Learning",
-          "url": "https://doi.org/10.48550/arXiv.2405.03961",
-          "citationCount": 32,
-          "tldr": "Compared to the current state of the art, this model is simpler to train, significantly faster to sample from, and achieves better results on extensive in silico benchmarks -- the generated molecules are more diverse, exhibit fewer steric clashes, and bind with higher affinity to protein pockets.",
-          "abstract": "We present VoxBind, a new score-based generative model for 3D molecules conditioned on protein structures. Our approach represents molecules as 3D atomic density grids and leverages a 3D voxel-denoising network for learning and generation. We extend the neural empirical Bayes formalism (Saremi&Hyvarinen, 2019) to the conditional setting and generate structure-conditioned molecules with a two-step procedure: (i) sample noisy molecules from the Gaussian-smoothed conditional distribution with underdamped Langevin MCMC using the learned score function and (ii) estimate clean molecules from the noi"
-        },
-        {
-          "memberName": "Pedro O. Pinheiro",
-          "teamAuthors": [
-            "Pedro O. Pinheiro"
-          ],
-          "title": "An RNA foundation model enables discovery of disease mechanisms and candidate therapeutics",
-          "year": 2023,
-          "publicationDate": "2023-09-23",
-          "venue": "bioRxiv",
-          "url": "https://doi.org/10.1101/2023.09.20.558508",
-          "citationCount": 58,
-          "tldr": "A foundation model for RNA biology, “BigRNA” is described, which was trained on thousands of genome-matched datasets to predict tissue-specific RNA expression, splicing, microRNA sites, and RNA binding protein specificity from DNA sequence.",
-          "abstract": "Accurately modeling and predicting RNA biology has been a long-standing challenge, bearing significant clinical ramifications for variant interpretation and the formulation of tailored therapeutics. We describe a foundation model for RNA biology, “BigRNA”, which was trained on thousands of genome-matched datasets to predict tissue-specific RNA expression, splicing, microRNA sites, and RNA binding protein specificity from DNA sequence. Unlike approaches that are restricted to missense variants, BigRNA can identify pathogenic non-coding variant effects across diverse mechanisms, including polyad"
-        },
-        {
-          "memberName": "Pedro O. Pinheiro",
-          "teamAuthors": [
-            "Pedro O. Pinheiro"
-          ],
-          "title": "Simple Image Description Generator via a Linear Phrase-based Model",
-          "year": 2015,
-          "publicationDate": null,
+          "publicationDate": "2026-09-30",
           "venue": null,
-          "url": "https://www.semanticscholar.org/paper/015d25f66514ce0a966300944201d45968a104ba",
-          "citationCount": 4,
-          "tldr": "This paper presents a simple model that is able to generate descriptive sentences given a sample image and proposes a simple language model that can produce relevant descriptions for a given test image using the phrases inferred.",
-          "abstract": null
+          "url": "https://www.semanticscholar.org/paper/1db373b4b04de2a05cd8c1d942bd582e8ff22536",
+          "citationCount": 0,
+          "tldr": "This work introduces Learnable Subspace Projections (LSP), which instead learns the subspaces to discard end-to-end in each weight matrix, and outperforms baselines, and its advantage widens as compression increases.",
+          "abstract": "Modern transformers pair impressive capabilities with substantial memory and compute demands. Low-rank weight factorization reduces both while keeping the matrices dense, and thus efficient on standard hardware. Existing methods, however, choose the subspace to remove from each weight matrix with local closed-form criteria: activation energy, layer-wise reconstruction error, or a quadratic approximation of the loss. These criteria ignore how errors propagate through the network, so at high compression the errors compound with depth and performance collapses. We introduce Learnable Subspace Pro"
+        },
+        {
+          "memberName": "Yann LeCun",
+          "teamAuthors": [
+            "Yann LeCun"
+          ],
+          "title": "SCOPE: Observation-Conditioned Full-Target Prediction for Sparse PDE Inference",
+          "year": 2026,
+          "publicationDate": "2026-09-29",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/a8a72e2d9805feb371bb319b91e57cb05593a3d1",
+          "citationCount": 0,
+          "tldr": "SCOPE (Sparse-Context Observability-aware Predictive Embeddings) is proposed to recover complete PDE fields from sparse observations by coupling full-field latent prediction with physical reconstruction, and outperforms mask-aware neural operators on all ten forward and inverse tasks.",
+          "abstract": "Recovering complete physical fields from sparse observations is challenging because the measurements may not uniquely determine the underlying state. Diffusion-based PDE solvers address this problem through iterative sampling whereas neural operators provide deterministic one-pass predictions. We propose SCOPE (Sparse-Context Observability-aware Predictive Embeddings) to recover complete PDE fields from sparse observations by coupling full-field latent prediction with physical reconstruction. A shared decoder reconstructs fields from both predicted and complete-view representations so that rep"
+        },
+        {
+          "memberName": "Yann LeCun",
+          "teamAuthors": [
+            "Yann LeCun"
+          ],
+          "title": "PDE-OBS: Controlled Evaluation Across Observation Patterns",
+          "year": 2026,
+          "publicationDate": "2026-09-29",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/cede64a707325324571bf783bbb20e45002c1bcb",
+          "citationCount": 0,
+          "tldr": "Mixed-pattern training on five completed pairs reduces large single-pattern transfer errors, although destination-trained references usually remain more accurate, and the benchmark and findings support systematic evaluation of observation-pattern sensitivity and provide a reusable workflow for developing methods under changing measurement conditions.",
+          "abstract": "Physical-field reconstruction and forecasting depend on both measurement density and spatial layout, yet evaluation under a single observation pattern does not characterize performance when that pattern changes. We introduce PDE-OBS, an integrated benchmarking platform spanning numerical data generation, model training, and inference and evaluation under varying observation conditions. It combines 560,000 fields and trajectories from seven partial differential equation families with configurable observation operators and seven adapted baseline methods for stationary reconstruction and short-ho"
+        },
+        {
+          "memberName": "Yann LeCun",
+          "teamAuthors": [
+            "Yann LeCun"
+          ],
+          "title": "AD-E2E-JEPA: A Joint-Embedding Predictive Architecture For End-to-End Autonomous Driving",
+          "year": 2026,
+          "publicationDate": "2026-09-28",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/1cb318e4eee78c97d5ba10401b47f2d1ebc361ee",
+          "citationCount": 0,
+          "tldr": "This paper systematically evaluates existing action-conditioned joint-embedding predictive architecture (JEPA) world models, including LeWM, DINO-WM, and JEPA-WM for end-to-end autonomous driving (E2EAD), and proposes a SIGReg-regularized learnable projector applied to projected patch embeddings, which introduces a SIGReg-regularized learnable projector applied to projected patch embeddings.",
+          "abstract": "Autonomous driving requires \\textit{world models} that can understand the physical world, reason and plan, and operate safely. In this paper, we first systematically evaluate existing action-conditioned joint-embedding predictive architecture (JEPA) world models, including LeWM, DINO-WM, and JEPA-WM for end-to-end autonomous driving (E2EAD). To isolate world-model quality from policy learning, we employ a goal-conditioned zero-shot planning setting that evaluates these models using ground-truth future observations as goals, without training any driving policy. We find that existing JEPA-based "
+        },
+        {
+          "memberName": "Yuexiang Zhai",
+          "teamAuthors": [
+            "Yuexiang Zhai"
+          ],
+          "title": "Game Arena: Strategic LLM Evaluation in Competitive Environments",
+          "year": 2026,
+          "publicationDate": "2026-09-25",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/70d193672e658d3210942c731168b435786a521a",
+          "citationCount": 0,
+          "tldr": "This technical report details the infrastructure behind Game Arena and describes the three pilot game environments: Chess, Poker, and Werewolf, enabling a systematic study of models's strategic planning, adaptation, and robustness under uncertainty.",
+          "abstract": "We introduce Kaggle Game Arena, an open and ever-expanding platform to evaluate large language models (LLMs) through competitive games. Different from static benchmarks, game arena enables models to play head-to-head matchups in structured environments where the gameplay strength naturally increases as models evolve, preventing performance saturation. This technical report details the infrastructure behind Game Arena and describes the three pilot game environments: Chess, Poker, and Werewolf. These environments span perfect information, imperfect information, and multiplayer game settings, ena"
+        },
+        {
+          "memberName": "Julia Kempe",
+          "teamAuthors": [
+            "Julia Kempe"
+          ],
+          "title": "Learning to Discover Interesting Mathematics",
+          "year": 2026,
+          "publicationDate": "2026-09-23",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/fe07fb55b897fa343cf1ab6f4bdea46a1b047aaf",
+          "citationCount": 0,
+          "tldr": null,
+          "abstract": "Recently, Large Language Models (LLMs) have been increasingly able to solve advanced mathematical problems, including many that have been open for decades. This opens the door to expansion of mathematical knowledge at unprecedented scale. Yet, while LLMs may be able to conjecture and prove more and more theorems, it remains open whether this new mathematical knowledge is interesting or useful. We define intrinsic interestingness of a theorem as the ratio between the length of its proof and the length of its statement. We show that this correlates strongly with an extrinsic measure of the downs"
+        },
+        {
+          "memberName": "Julia Kempe",
+          "teamAuthors": [
+            "Julia Kempe"
+          ],
+          "title": "Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning",
+          "year": 2026,
+          "publicationDate": "2026-09-22",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/4fa80977d52f72bd8e1bf88ff93398e96f3029d1",
+          "citationCount": 0,
+          "tldr": "A small concept generator is optimized with reinforcement learning so that its concepts maximize the downstream success of a larger, frozen answer generator, and can thus be trained into an effective, reusable search policy for a much larger one.",
+          "abstract": "Large language models increasingly tackle hard reasoning problems by spending more test-time compute, yet the dominant strategy remains naive repeated sampling: draw many independent solutions and hope one is correct. Because such sampling explores only through local decoding noise, it tends to produce many near duplicate attempts rather than genuinely different ideas. We ask whether exploration can instead be steered at a semantic level, by first sampling problem specific concepts, hints, or strategies and then conditioning answer generation on them. We refine this into a simple, more explora"
+        },
+        {
+          "memberName": "Yuexiang Zhai",
+          "teamAuthors": [
+            "Yuexiang Zhai"
+          ],
+          "title": "DexHoldem: An Agentic Robotics Benchmark for Dexterous Manipulation in Texas Hold'em",
+          "year": 2026,
+          "publicationDate": "2026-05-18",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/74122b34e76b9a6c7c209da10b6da00890710910",
+          "citationCount": 0,
+          "tldr": null,
+          "abstract": "Evaluating embodied systems with real dexterous hardware requires more than isolated motor-skill tests: an agent must perceive a changing scene (e.g. a tabletop), choose a context-appropriate action, execute it with a dexterous hand, and leave the scene usable for later decisions. We introduce DexHoldem, a comprehensive real-world benchmark evaluating Texas Hold'em related dexterous manipulations with a ShadowHand. DexHoldem provides 1,470 teleoperated demonstrations across 14 Texas Hold'em manipulation primitives, a standardized physical policy benchmark, and an agentic perception benchmark t"
+        },
+        {
+          "memberName": "Tommie Kerssies",
+          "teamAuthors": [
+            "Tommie Kerssies"
+          ],
+          "title": "A Frame is Worth One Token: Efficient Generative World Modeling with Delta Tokens",
+          "year": 2026,
+          "publicationDate": "2026-04-06",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2604.04913",
+          "citationCount": 8,
+          "tldr": "This work introduces DeltaTok, a tokenizer that encodes the VFM feature difference between consecutive frames into a single continuous\"delta\"token, and DeltaWorld, a generative world model operating on these tokens to efficiently generate diverse plausible futures.",
+          "abstract": "Anticipating diverse future states is a central challenge in video world modeling. Discriminative world models produce a deterministic prediction that implicitly averages over possible futures, while existing generative world models remain computationally expensive. Recent work demonstrates that predicting the future in the feature space of a vision foundation model (VFM), rather than a latent space optimized for pixel reconstruction, requires significantly fewer world model parameters. However, most such approaches remain discriminative. In this work, we introduce DeltaTok, a tokenizer that e"
+        },
+        {
+          "memberName": "Tommie Kerssies",
+          "teamAuthors": [
+            "Tommie Kerssies"
+          ],
+          "title": "VidEoMT: Your ViT is Secretly Also a Video Segmentation Model",
+          "year": 2026,
+          "publicationDate": "2026-02-19",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2602.17807",
+          "citationCount": 8,
+          "tldr": "The Video Encoder-only Mask Transformer (VidEoMT), a simple encoder-only video segmentation model that eliminates the need for dedicated tracking modules, and introduces a lightweight query propagation mechanism that carries information across frames by reusing queries from the previous frame.",
+          "abstract": "Existing online video segmentation models typically combine a per-frame segmenter with complex specialized tracking modules. While effective, these modules introduce significant architectural complexity and computational overhead. Recent studies suggest that plain Vision Transformer (ViT) encoders, when scaled with sufficient capacity and large-scale pre-training, can conduct accurate image segmentation without requiring specialized modules. Motivated by this observation, we propose the Video Encoder-only Mask Transformer (VidEoMT), a simple encoder-only video segmentation model that eliminate"
+        },
+        {
+          "memberName": "Peter Tong",
+          "teamAuthors": [
+            "Peter Tong",
+            "Saining Xie"
+          ],
+          "title": "Diffusion Transformers with Representation Autoencoders",
+          "year": 2025,
+          "publicationDate": "2025-10-13",
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2510.11690",
+          "citationCount": 287,
+          "tldr": "This work explores replacing the VAE with pretrained representation encoders paired with trained decoders, forming what the authors term Representation Autoencoders (RAEs), which provide both high-quality reconstructions and semantically rich latent spaces, while allowing for a scalable transformer-based architecture.",
+          "abstract": "Latent generative modeling, where a pretrained autoencoder maps pixels into a latent space for the diffusion process, has become the standard strategy for Diffusion Transformers (DiT); however, the autoencoder component has barely evolved. Most DiTs continue to rely on the original VAE encoder, which introduces several limitations: outdated backbones that compromise architectural simplicity, low-dimensional latent spaces that restrict information capacity, and weak representations that result from purely reconstruction-based training and ultimately limit generative quality. In this work, we ex"
+        },
+        {
+          "memberName": "Tommie Kerssies",
+          "teamAuthors": [
+            "Tommie Kerssies"
+          ],
+          "title": "Simplifying Traffic Anomaly Detection with Video Foundation Models",
+          "year": 2025,
+          "publicationDate": "2025-07-12",
+          "venue": "2025 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)",
+          "url": "https://doi.org/10.1109/ICCVW69036.2025.00094",
+          "citationCount": 6,
+          "tldr": "This work investigates an architecturally simple encoder-only approach using plain Video Vision Trans-formers (Video ViTs) and study how pre-training enables strong TAD performance and shows that effective, ef-ficient, and scalable TAD models can be built with mini-mal architectural complexity.",
+          "abstract": "Recent methods for ego-centric Traffic Anomaly Detection (TAD) often rely on complex multi-stage or multi-representation fusion architectures, yet it remains unclear whether such complexity is necessary. Recent findings in visual perception suggest that foundation models, en-abled by advanced pre-training, allow simple yet flexible architectures to outperform specialized designs. There-fore, in this work, we investigate an architecturally simple encoder-only approach using plain Video Vision Trans-formers (Video ViTs) and study how pre-training enables strong TAD performance. We find that: (i)"
         }
       ],
-      "recent": []
+      "recent": [
+        {
+          "memberName": "Yann LeCun",
+          "teamAuthors": [
+            "Yann LeCun"
+          ],
+          "title": "Learning Functional Subspaces for Neural Network Compression",
+          "year": 2026,
+          "publicationDate": "2026-09-30",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/1db373b4b04de2a05cd8c1d942bd582e8ff22536",
+          "citationCount": 0,
+          "tldr": "This work introduces Learnable Subspace Projections (LSP), which instead learns the subspaces to discard end-to-end in each weight matrix, and outperforms baselines, and its advantage widens as compression increases.",
+          "abstract": "Modern transformers pair impressive capabilities with substantial memory and compute demands. Low-rank weight factorization reduces both while keeping the matrices dense, and thus efficient on standard hardware. Existing methods, however, choose the subspace to remove from each weight matrix with local closed-form criteria: activation energy, layer-wise reconstruction error, or a quadratic approximation of the loss. These criteria ignore how errors propagate through the network, so at high compression the errors compound with depth and performance collapses. We introduce Learnable Subspace Pro"
+        },
+        {
+          "memberName": "Yann LeCun",
+          "teamAuthors": [
+            "Yann LeCun"
+          ],
+          "title": "SCOPE: Observation-Conditioned Full-Target Prediction for Sparse PDE Inference",
+          "year": 2026,
+          "publicationDate": "2026-09-29",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/a8a72e2d9805feb371bb319b91e57cb05593a3d1",
+          "citationCount": 0,
+          "tldr": "SCOPE (Sparse-Context Observability-aware Predictive Embeddings) is proposed to recover complete PDE fields from sparse observations by coupling full-field latent prediction with physical reconstruction, and outperforms mask-aware neural operators on all ten forward and inverse tasks.",
+          "abstract": "Recovering complete physical fields from sparse observations is challenging because the measurements may not uniquely determine the underlying state. Diffusion-based PDE solvers address this problem through iterative sampling whereas neural operators provide deterministic one-pass predictions. We propose SCOPE (Sparse-Context Observability-aware Predictive Embeddings) to recover complete PDE fields from sparse observations by coupling full-field latent prediction with physical reconstruction. A shared decoder reconstructs fields from both predicted and complete-view representations so that rep"
+        },
+        {
+          "memberName": "Yann LeCun",
+          "teamAuthors": [
+            "Yann LeCun"
+          ],
+          "title": "PDE-OBS: Controlled Evaluation Across Observation Patterns",
+          "year": 2026,
+          "publicationDate": "2026-09-29",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/cede64a707325324571bf783bbb20e45002c1bcb",
+          "citationCount": 0,
+          "tldr": "Mixed-pattern training on five completed pairs reduces large single-pattern transfer errors, although destination-trained references usually remain more accurate, and the benchmark and findings support systematic evaluation of observation-pattern sensitivity and provide a reusable workflow for developing methods under changing measurement conditions.",
+          "abstract": "Physical-field reconstruction and forecasting depend on both measurement density and spatial layout, yet evaluation under a single observation pattern does not characterize performance when that pattern changes. We introduce PDE-OBS, an integrated benchmarking platform spanning numerical data generation, model training, and inference and evaluation under varying observation conditions. It combines 560,000 fields and trajectories from seven partial differential equation families with configurable observation operators and seven adapted baseline methods for stationary reconstruction and short-ho"
+        },
+        {
+          "memberName": "Yann LeCun",
+          "teamAuthors": [
+            "Yann LeCun"
+          ],
+          "title": "AD-E2E-JEPA: A Joint-Embedding Predictive Architecture For End-to-End Autonomous Driving",
+          "year": 2026,
+          "publicationDate": "2026-09-28",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/1cb318e4eee78c97d5ba10401b47f2d1ebc361ee",
+          "citationCount": 0,
+          "tldr": "This paper systematically evaluates existing action-conditioned joint-embedding predictive architecture (JEPA) world models, including LeWM, DINO-WM, and JEPA-WM for end-to-end autonomous driving (E2EAD), and proposes a SIGReg-regularized learnable projector applied to projected patch embeddings, which introduces a SIGReg-regularized learnable projector applied to projected patch embeddings.",
+          "abstract": "Autonomous driving requires \\textit{world models} that can understand the physical world, reason and plan, and operate safely. In this paper, we first systematically evaluate existing action-conditioned joint-embedding predictive architecture (JEPA) world models, including LeWM, DINO-WM, and JEPA-WM for end-to-end autonomous driving (E2EAD). To isolate world-model quality from policy learning, we employ a goal-conditioned zero-shot planning setting that evaluates these models using ground-truth future observations as goals, without training any driving policy. We find that existing JEPA-based "
+        }
+      ]
     },
     "github": {
-      "windowEventCount": 18,
+      "windowEventCount": 58,
       "byMember": {
-        "Amir Bar": 3,
         "Artem Zholus": 1,
-        "Brian Li": 6,
+        "Brian Li": 15,
         "David Fan": 1,
+        "Jihan Yang": 2,
+        "Li Haoyi": 15,
         "Lucas Maes": 4,
-        "Quentin Le Lidec": 2,
-        "Rohit Girdhar": 1
+        "Min Lin": 9,
+        "Rohit Girdhar": 11
       },
       "notable": [
         {
-          "member": "Brian Li",
+          "member": "Li Haoyi",
+          "type": "PullRequestEvent",
+          "repo": "com-lihaoyi/mill",
+          "description": "Opened PR #7665 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-10-04T12:38:29Z"
+        },
+        {
+          "member": "Li Haoyi",
+          "type": "PullRequestEvent",
+          "repo": "com-lihaoyi/mill",
+          "description": "Opened PR #7664 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-10-04T12:38:25Z"
+        },
+        {
+          "member": "Li Haoyi",
           "type": "CreateEvent",
-          "repo": "EvolvingLMMs-Lab/symbols-or-pixels",
-          "description": "Created branch main in EvolvingLMMs-Lab/symbols-or-pixels",
-          "url": "https://github.com/EvolvingLMMs-Lab/symbols-or-pixels",
-          "timestamp": "2026-09-27T19:09:18Z"
+          "repo": "com-lihaoyi/mill",
+          "description": "Created branch codex/python-uv-toolchain-1.3 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-10-04T08:47:37Z"
+        },
+        {
+          "member": "Li Haoyi",
+          "type": "DeleteEvent",
+          "repo": "com-lihaoyi/mill",
+          "description": "Deleted branch codex/fix-1.3.x-ci in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-10-04T07:01:59Z"
+        },
+        {
+          "member": "Li Haoyi",
+          "type": "DeleteEvent",
+          "repo": "com-lihaoyi/mill",
+          "description": "Deleted branch fix-main-ci-20261004 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-10-04T07:01:49Z"
+        },
+        {
+          "member": "Li Haoyi",
+          "type": "DeleteEvent",
+          "repo": "com-lihaoyi/mill",
+          "description": "Deleted branch codex/cancel-redundant-ci-20261004 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-10-04T04:31:42Z"
+        },
+        {
+          "member": "Li Haoyi",
+          "type": "CreateEvent",
+          "repo": "com-lihaoyi/mill",
+          "description": "Created branch fix-main-ci-20261004 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-10-04T01:13:49Z"
+        },
+        {
+          "member": "Li Haoyi",
+          "type": "CreateEvent",
+          "repo": "lihaoyi/mill-1",
+          "description": "Created branch fix-main-ci-20261004 in lihaoyi/mill-1",
+          "url": "https://github.com/lihaoyi/mill-1",
+          "timestamp": "2026-10-04T01:12:54Z"
         },
         {
           "member": "Rohit Girdhar",
-          "type": "DiscussionEvent",
+          "type": "IssueCommentEvent",
           "repo": "pingdotgg/t3code",
-          "description": "Activity in pingdotgg/t3code",
-          "url": "https://github.com/pingdotgg/t3code",
-          "timestamp": "2026-09-27T18:54:12Z"
+          "description": "Commented on issue #10684 in pingdotgg/t3code",
+          "url": "https://github.com/pingdotgg/t3code/issues/10684#issuecomment-5969757372",
+          "timestamp": "2026-10-03T13:45:08Z"
         },
         {
-          "member": "Brian Li",
-          "type": "CreateEvent",
-          "repo": "Luodian/lmms-lab-website",
-          "description": "Created branch brian/feat/symbols-or-pixels-note in Luodian/lmms-lab-website",
-          "url": "https://github.com/Luodian/lmms-lab-website",
-          "timestamp": "2026-09-27T16:02:36Z"
-        },
-        {
-          "member": "David Fan",
+          "member": "Rohit Girdhar",
           "type": "IssuesEvent",
-          "repo": "openai/codex",
-          "description": "Opened issue #47659 in openai/codex",
-          "url": "https://github.com/openai/codex/issues/47659",
-          "timestamp": "2026-09-23T20:41:57Z"
-        },
-        {
-          "member": "Lucas Maes",
-          "type": "IssueCommentEvent",
-          "repo": "galilai-group/stable-worldmodel",
-          "description": "Commented on issue #323 in galilai-group/stable-worldmodel",
-          "url": "https://github.com/galilai-group/stable-worldmodel/pull/323#issuecomment-5783408635",
-          "timestamp": "2026-09-22T20:13:27Z"
-        },
-        {
-          "member": "Lucas Maes",
-          "type": "IssueCommentEvent",
-          "repo": "galilai-group/stable-worldmodel",
-          "description": "Commented on issue #329 in galilai-group/stable-worldmodel",
-          "url": "https://github.com/galilai-group/stable-worldmodel/pull/329#issuecomment-5783396405",
-          "timestamp": "2026-09-22T20:12:45Z"
+          "repo": "pingdotgg/t3code",
+          "description": "Opened issue #15195 in pingdotgg/t3code",
+          "url": "https://github.com/pingdotgg/t3code/issues/15195",
+          "timestamp": "2026-10-03T13:45:03Z"
         }
       ]
     },
@@ -335,61 +423,72 @@
       "recentMilestones": []
     },
     "social": {
-      "windowCount": 11,
+      "windowCount": 12,
       "byTag": {
-        "research": 5,
-        "funding": 1,
-        "hiring": 1
+        "research": 6
       },
       "notable": [
         {
-          "author": "Pascale Fung",
-          "handle": "pascalefung",
-          "text": "I am looking to hire PhD students, post-docs, and ML researchers in our Paris office interested in collaborating on fundamental research in AI model safety, not safety rules, not AI policy, not post hoc guardrails, not RLHF. We also have offices in Singapore, NYC, and Montreal.",
-          "url": "https://x.com/pascalefung/status/2103141972936454489",
-          "createdAt": "2026-09-24T15:18:15.000Z",
-          "tags": [
-            "funding",
-            "research",
-            "hiring"
-          ],
-          "metrics": {
-            "likes": 1018,
-            "retweets": 88,
-            "replies": 32,
-            "quotes": 1
-          },
-          "highEngagement": true
-        },
-        {
-          "author": "Julia Kempe",
-          "handle": "KempeLab",
-          "text": "Automated AI theorem proving has moved the frontier: The holy grail is not an AI that can produce an endless pile of true theorems.\nIt’s an AI that can discover mathematics, and build each discovery into the foundation for the next. \nCheck out our new paper on Learning to https://t.co/jCQ5vgRXFT",
-          "url": "https://x.com/KempeLab/status/2103491263240585649",
-          "createdAt": "2026-09-25T14:26:12.000Z",
+          "author": "Randall Balestriero",
+          "handle": "randall_balestr",
+          "text": "LeWM applied SIGReg per time-step, so nothing prevents temporal collapse. If your data has such slow features, simply apply SIGReg on the (N*T, D) tensor. We showed this solves your problem here: https://t.co/F09B72fprS\n\nAnd @vlad_is_ai already spoked about JEPA+Slow features 4 https://t.co/N6WWWef9UM",
+          "url": "https://x.com/randall_balestr/status/2105727036753138101",
+          "createdAt": "2026-10-01T18:30:22.000Z",
           "tags": [
             "research"
           ],
           "metrics": {
-            "likes": 132,
+            "likes": 150,
+            "retweets": 18,
+            "replies": 5,
+            "quotes": 0
+          },
+          "highEngagement": true
+        },
+        {
+          "author": "Brian Li",
+          "handle": "Brian_Bo_Li",
+          "text": "Everyone is testing Opus 5.5 to create impressive videos. The agent's ability and outcome is even more surprising than using a video‑gen model.\n\nJust as our OneVision‑Encoder was recently accepted by NeurIPS, we would like to produce a promotional video to showcase what we https://t.co/qPorIK2vHp",
+          "url": "https://x.com/Brian_Bo_Li/status/2104784210267701355",
+          "createdAt": "2026-09-29T04:03:55.000Z",
+          "tags": [],
+          "metrics": {
+            "likes": 79,
             "retweets": 20,
-            "replies": 10,
+            "replies": 4,
+            "quotes": 5
+          },
+          "highEngagement": true
+        },
+        {
+          "author": "Jiatao Gu",
+          "handle": "thoma_gu",
+          "text": "Video benchmarks aren't saturated, they're just easy to game. We introduce Video-Index by dropping all shortcut-solvable questions across 115 benchmarks — key findings: Astra 79.3% beats humans 55%, while open models &lt;20%. Led by my incredible first-year PhD student @EnxinSong ! https://t.co/dxlP1FXzWO",
+          "url": "https://x.com/thoma_gu/status/2105855888074621156",
+          "createdAt": "2026-10-02T03:02:23.000Z",
+          "tags": [
+            "research"
+          ],
+          "metrics": {
+            "likes": 79,
+            "retweets": 4,
+            "replies": 2,
             "quotes": 1
           },
           "highEngagement": true
         },
         {
-          "author": "Julia Kempe",
-          "handle": "KempeLab",
-          "text": "More efficient test time LLM reasoning with learned concepts: Check out our new paper \"Beyond Repeated Sampling\"!\nhttps://t.co/hPBEQpLJMy https://t.co/dAcCIIuqlj",
-          "url": "https://x.com/KempeLab/status/2102762706189099106",
-          "createdAt": "2026-09-23T14:11:11.000Z",
+          "author": "Amir Bar",
+          "handle": "_amirbar",
+          "text": "FAR is a new memory framework for world models. Retrieval from memory utilizes different sensory cues (vision, audio, etc). Draws inspiration from recent ideas in LLMs (e.g RAG).\n\nSee 🧵👇 https://t.co/ee0aPkLlJd",
+          "url": "https://x.com/_amirbar/status/2105738956532846900",
+          "createdAt": "2026-10-01T19:17:44.000Z",
           "tags": [
             "research"
           ],
           "metrics": {
-            "likes": 54,
-            "retweets": 16,
+            "likes": 59,
+            "retweets": 5,
             "replies": 1,
             "quotes": 0
           },
@@ -398,34 +497,51 @@
         {
           "author": "Randall Balestriero",
           "handle": "randall_balestr",
-          "text": "The International Conference on World Modeling (ICWM) is single blind and entirely accessible to anyone (like ICLR at the beginning) for that reason. Authors doing AI slop will be publicly known to do so. Anonymous reviewers stay without peer-pressure https://t.co/v8KSoNBKqM https://t.co/bDeocRVNeF",
-          "url": "https://x.com/randall_balestr/status/2102112340753702984",
-          "createdAt": "2026-09-21T19:06:52.000Z",
+          "text": "Delighted to be speaking about our recent progress on JEPAs and on the need for more principled solutions that handle data imbalance, noise, multimodality, reasoning, ...! Happening at MICCAI-FOMO26 in 5min! And thank you for having me as keynote today! https://t.co/nN98CNZF8C",
+          "url": "https://x.com/randall_balestr/status/2105622350456627466",
+          "createdAt": "2026-10-01T11:34:23.000Z",
           "tags": [
             "research"
           ],
           "metrics": {
-            "likes": 77,
-            "retweets": 1,
-            "replies": 0,
+            "likes": 55,
+            "retweets": 4,
+            "replies": 2,
             "quotes": 0
           },
           "highEngagement": true
         },
         {
-          "author": "Amir Bar",
-          "handle": "_amirbar",
-          "text": "Exactly, tokens are now cheap and like Yi reminds us, intelligent agent should be able to compress. \n\nConcretely:\n1. Desk rejection phase based on abstract only\n2. Shorter papers\n3. Cancel author-reviewer discussion phase, it’s now all AI slop anyway. https://t.co/h2P1P1cMiC",
-          "url": "https://x.com/_amirbar/status/2101654188748865693",
-          "createdAt": "2026-09-20T12:46:20.000Z",
+          "author": "Julia Kempe",
+          "handle": "KempeLab",
+          "text": "World Modeling for Physics Workshop in Aspen:\nTo clarify: Applications to participate (deadline Oct 15) go through the Aspen Center for Physics\nhttps://t.co/NVx8zPn1cG\nLog in or create an account with ACP, then apply. https://t.co/uUZsCAbx62",
+          "url": "https://x.com/KempeLab/status/2106442257893392508",
+          "createdAt": "2026-10-03T17:52:24.000Z",
           "tags": [
             "research"
           ],
           "metrics": {
-            "likes": 25,
+            "likes": 36,
+            "retweets": 5,
+            "replies": 2,
+            "quotes": 0
+          },
+          "highEngagement": false
+        },
+        {
+          "author": "Randall Balestriero",
+          "handle": "randall_balestr",
+          "text": "LeWM applied SIGReg per time-step, so nothing prevents temporal collapse. If you data has such slow features, simply apply a SIGReg on the (N*T, D) tensor. We showed this solves your problem here: https://t.co/F09B72eRCk\n\nAnd @vlad_is_ai already spoked about JEPA+Slow features 4 https://t.co/N6WWWeeC5e",
+          "url": "https://x.com/randall_balestr/status/2105726295652839627",
+          "createdAt": "2026-10-01T18:27:26.000Z",
+          "tags": [
+            "research"
+          ],
+          "metrics": {
+            "likes": 1,
             "retweets": 0,
-            "replies": 1,
-            "quotes": 3
+            "replies": 0,
+            "quotes": 0
           },
           "highEngagement": false
         }
@@ -1200,7 +1316,7 @@
     "brevetKeys": [],
     "dessinKeys": []
   },
-  "status": "ok",
+  "status": "stale",
   "headline": "AMI's computational biology bet; Reveals a broader platform ambition with a compute trademark",
   "stateOfPlay": "The addition of Pedro O. Pinheiro, a principal research scientist from Genentech's Prescient Design team, suggests AMI's interest in the frontier of generative molecular design, based on his publication record. In addition, an INPI trademark filing for 'Advanced Machine Intelligence Compute' seeks protection across AI software, cloud platforms, and business services. These are two more small signals that AMI is deepening its scientific specialization and laying the legal groundwork for a much broader commercial footprint. The research signals coming from the team this week reinforce a lab growing in multiple directions at once: world models, AI safety fundamentals, mathematical reasoning, and now drug discovery.",
   "threads": [
@@ -1268,15 +1384,5 @@
       "linkLabel": "ICML coverage"
     }
   ],
-  "whatToWatch": "The Pinheiro hire makes AMI's next moves in computational biology worth tracking closely.",
-  "whatToWatchLinks": [
-    {
-      "url": "https://ami.frenchtechjournal.com/team/pedro-o-pinheiro",
-      "linkLabel": "Pinheiro profile"
-    },
-    {
-      "url": "/news/trademark-5275514-advanced-machine-intelligence-compute",
-      "linkLabel": "AMI Compute trademark"
-    }
-  ]
+  "whatToWatch": "The Pinheiro hire makes AMI's next moves in computational biology worth tracking closely."
 }
