@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-10-04T22:38:01.512Z",
+  "generatedAt": "2026-10-05T09:06:15.182Z",
   "window": {
     "days": 7,
-    "since": "2026-09-27",
-    "until": "2026-10-04"
+    "since": "2026-09-28",
+    "until": "2026-10-05"
   },
   "model": "claude-sonnet-4-6",
   "facts": {
     "news": {
-      "windowCount": 5,
+      "windowCount": 2,
       "byTag": {
-        "hiring": 5
+        "hiring": 2
       },
       "items": [
         {
@@ -32,36 +32,6 @@
             "hiring"
           ],
           "summary": "Jiatao Gu is an assistant professor in the University of Pennsylvania’s Department of Computer and Information Science. Gu’s research aims to help AI agents operate in the physical world."
-        },
-        {
-          "title": "New Hire: Peter Tong, Member of the Technical Staff, New York City",
-          "url": "https://ami.frenchtechjournal.com/team/peter-tong",
-          "source": "The AMI Observatory",
-          "publishedAt": "2026-09-27",
-          "tags": [
-            "hiring"
-          ],
-          "summary": "Peter Tong, also known as Shengbang Tong, joined AMI as a member of the technical staff in September 2026. He defended his PhD in computer science at NYU Courant in April 2026, with supervision from Yann LeCun and Saining Xie. He previously graduated from UC Berkeley with a triple major in computer science, applied mathematics, and statistics."
-        },
-        {
-          "title": "New Hire: Tommie Kerssies, Member of Technical Staff, Paris",
-          "url": "https://ami.frenchtechjournal.com/team/tommie-kerssies",
-          "source": "The AMI Observatory",
-          "publishedAt": "2026-09-27",
-          "tags": [
-            "hiring"
-          ],
-          "summary": "Tommie Kerssies is a member of the technical staff at AMI, bringing experience in AI research, robotics, and data science from Eindhoven University of Technology, Amazon, and ASMPT."
-        },
-        {
-          "title": "New Hire: Yannick Loriot, Member of Technical Staff, Paris",
-          "url": "https://ami.frenchtechjournal.com/team/yannick-loriot",
-          "source": "The Ami Observatory",
-          "publishedAt": "2026-09-27",
-          "tags": [
-            "hiring"
-          ],
-          "summary": "Yannick Loriot joined AMI as a member of the technical staff in September 2026. He is a software engineer and product-minded technology leader whose work has spanned mobile, desktop, VR, and AI-assisted development."
         }
       ]
     },
@@ -309,10 +279,9 @@
       ]
     },
     "github": {
-      "windowEventCount": 58,
+      "windowEventCount": 55,
       "byMember": {
-        "Artem Zholus": 1,
-        "Brian Li": 15,
+        "Brian Li": 13,
         "David Fan": 1,
         "Jihan Yang": 2,
         "Li Haoyi": 15,
@@ -321,6 +290,46 @@
         "Rohit Girdhar": 11
       },
       "notable": [
+        {
+          "member": "Li Haoyi",
+          "type": "DeleteEvent",
+          "repo": "com-lihaoyi/mill",
+          "description": "Deleted branch codex/python-uv-toolchain-1.3 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-10-05T02:50:19Z"
+        },
+        {
+          "member": "Li Haoyi",
+          "type": "PullRequestEvent",
+          "repo": "com-lihaoyi/mill",
+          "description": "merged PR #7665 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-10-05T02:50:16Z"
+        },
+        {
+          "member": "Rohit Girdhar",
+          "type": "IssuesEvent",
+          "repo": "pingdotgg/t3code",
+          "description": "Opened issue #15821 in pingdotgg/t3code",
+          "url": "https://github.com/pingdotgg/t3code/issues/15821",
+          "timestamp": "2026-10-05T01:00:45Z"
+        },
+        {
+          "member": "Li Haoyi",
+          "type": "DeleteEvent",
+          "repo": "com-lihaoyi/mill",
+          "description": "Deleted branch codex/python-uv-toolchain-main in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-10-05T00:58:45Z"
+        },
+        {
+          "member": "Li Haoyi",
+          "type": "PullRequestEvent",
+          "repo": "com-lihaoyi/mill",
+          "description": "merged PR #7664 in com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-10-05T00:58:42Z"
+        },
         {
           "member": "Li Haoyi",
           "type": "PullRequestEvent",
@@ -344,46 +353,6 @@
           "description": "Created branch codex/python-uv-toolchain-1.3 in com-lihaoyi/mill",
           "url": "https://github.com/com-lihaoyi/mill",
           "timestamp": "2026-10-04T08:47:37Z"
-        },
-        {
-          "member": "Li Haoyi",
-          "type": "DeleteEvent",
-          "repo": "com-lihaoyi/mill",
-          "description": "Deleted branch codex/fix-1.3.x-ci in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-10-04T07:01:59Z"
-        },
-        {
-          "member": "Li Haoyi",
-          "type": "DeleteEvent",
-          "repo": "com-lihaoyi/mill",
-          "description": "Deleted branch fix-main-ci-20261004 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-10-04T07:01:49Z"
-        },
-        {
-          "member": "Li Haoyi",
-          "type": "DeleteEvent",
-          "repo": "com-lihaoyi/mill",
-          "description": "Deleted branch codex/cancel-redundant-ci-20261004 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-10-04T04:31:42Z"
-        },
-        {
-          "member": "Li Haoyi",
-          "type": "CreateEvent",
-          "repo": "com-lihaoyi/mill",
-          "description": "Created branch fix-main-ci-20261004 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-10-04T01:13:49Z"
-        },
-        {
-          "member": "Li Haoyi",
-          "type": "CreateEvent",
-          "repo": "lihaoyi/mill-1",
-          "description": "Created branch fix-main-ci-20261004 in lihaoyi/mill-1",
-          "url": "https://github.com/lihaoyi/mill-1",
-          "timestamp": "2026-10-04T01:12:54Z"
         },
         {
           "member": "Rohit Girdhar",
@@ -1316,73 +1285,91 @@
     "brevetKeys": [],
     "dessinKeys": []
   },
-  "status": "stale",
-  "headline": "AMI's computational biology bet; Reveals a broader platform ambition with a compute trademark",
-  "stateOfPlay": "The addition of Pedro O. Pinheiro, a principal research scientist from Genentech's Prescient Design team, suggests AMI's interest in the frontier of generative molecular design, based on his publication record. In addition, an INPI trademark filing for 'Advanced Machine Intelligence Compute' seeks protection across AI software, cloud platforms, and business services. These are two more small signals that AMI is deepening its scientific specialization and laying the legal groundwork for a much broader commercial footprint. The research signals coming from the team this week reinforce a lab growing in multiple directions at once: world models, AI safety fundamentals, mathematical reasoning, and now drug discovery.",
+  "status": "ok",
+  "headline": "JEPA is AMI's product, not just a research agenda — and this week the team is defending and extending it on every front",
+  "stateOfPlay": "A cluster of signals this week makes clear that JEPA-style world models have moved from foundational hypothesis to active competitive terrain for AMI. A new paper directly benchmarks JEPA architectures for autonomous driving, Randall Balestriero publicly corrects a technical limitation in a rival JEPA implementation from a conference keynote stage, and Amir Bar unveils a memory framework explicitly designed for world models — all in the same 72-hour window. Meanwhile, new hire Jiatao Gu, whose research targets AI agents operating in the physical world, reinforces that the team is recruiting around this thesis. The convergence of paper, public technical debate, and hiring is not coincidental: AMI is moving from articulating the JEPA vision to contesting its execution.",
   "threads": [
     {
-      "title": "Pedro Pinheiro's hire is AMI's clearest move yet into computational biology",
-      "category": "hiring",
-      "narrative": "Pinheiro arrives with a portfolio across NeurIPS, ICML, and journals including mAbs, that indicate he has built a distinct research program around representing molecules not as discrete atoms but as continuous density fields. That choice mirrors, in structural terms, the continuous latent-space thinking central to JEPA-style world models. FuncMol and FuncBind treat molecule generation as a density-field problem solvable with score-based diffusion; VoxBind applies the same logic to structure-based drug design and drew 32 citations after its ICML appearance. DyAb, published in mAbs in August 2026, addresses binding affinity prediction in data-scarce regimes — a critical bottleneck in therapeutic development — and achieves a Spearman correlation of up to 0.85 from as few as 100 training examples.\n\nWhat makes this hire strategically legible rather than merely impressive is the alignment between Pinheiro's methods and AMI's known intellectual commitments. The lab has publicly pursued self-supervised, continuous representations as an alternative to discrete token-based learning. Pinheiro's work applies that same intuition to molecular space.",
+      "title": "JEPA for autonomous driving: benchmarking from the inside out",
+      "category": "research",
+      "narrative": "The most consequential publication this week is AD-E2E-JEPA, dated September 28, which evaluates existing action-conditioned JEPA world models — including LeWM, DINO-WM, and JEPA-WM — for end-to-end autonomous driving. The methodological choice is telling: rather than train a policy, the authors use a goal-conditioned zero-shot planning setting, isolating world-model quality from policy learning. This is a deliberate move to make world-model performance falsifiable on its own terms, and the paper's finding that existing JEPA-based approaches fall short is the kind of honest internal audit that precedes a new generation of the architecture.\n\nThis sits in direct conversation with Randall Balestriero's post on October 1, in which he publicly identifies a specific failure mode in LeWM — that applying SIGReg per time-step leaves temporal collapse unaddressed — and points to AMI's own prior work as the fix. That a senior researcher is doing this from a MICCAI-FOMO26 keynote stage, not just in a thread, signals AMI is comfortable owning both the problem and the solution publicly. The AD-E2E-JEPA paper and Balestriero's intervention are two faces of the same move: positioning AMI as the authority on where JEPA world models currently fail and what comes next.",
       "evidence": [
         {
-          "label": "Pedro O. Pinheiro profile — AMI Observatory",
-          "url": "https://ami.frenchtechjournal.com/team/pedro-o-pinheiro"
+          "label": "AD-E2E-JEPA paper",
+          "url": "https://www.semanticscholar.org/paper/1cb318e4eee78c97d5ba10401b47f2d1ebc361ee"
         },
         {
-          "label": "DyAb — mAbs (2026)",
-          "url": "https://doi.org/10.1080/19420862.2026.2717460"
+          "label": "Balestriero on temporal collapse in LeWM",
+          "url": "https://x.com/randall_balestr/status/2105727036753138101"
         },
         {
-          "label": "FuncBind — NeurIPS",
-          "url": "https://doi.org/10.48550/arXiv.2511.15906"
-        },
-        {
-          "label": "VoxBind — ICML",
-          "url": "https://doi.org/10.48550/arXiv.2405.03961"
+          "label": "Balestriero keynote at MICCAI-FOMO26",
+          "url": "https://x.com/randall_balestr/status/2105622350456627466"
         }
       ]
     },
     {
-      "title": "The 'AMI Compute' trademark signals a platform play, not just a research lab",
-      "category": "administrative",
-      "narrative": "The INPI filing for trademark 5275514 — 'Advanced Machine Intelligence Compute' — covers AI software, research, cloud platforms, and business services. The explicit inclusion of compute and cloud services suggests AMI is either planning to offer infrastructure to third parties or is protecting optionality for a future commercial product line built around its AI stack.\n\nAMI has so far positioned itself primarily as a research organization. Trademarking a compute-branded variant of its name points toward a future where the lab's output is not only papers and hires but deployable services. It is worth watching whether subsequent filings narrow or expand that scope — and whether any hiring in the General and Administration department (currently one of seven open roles) reflects this ambition.",
+      "title": "Memory and retrieval emerge as the next layer of the world-model stack",
+      "category": "research",
+      "narrative": "Amir Bar's post on October 1 introduces FAR, described as a memory framework for world models that draws on multiple sensory cues — vision, audio — and takes explicit inspiration from retrieval-augmented generation in LLMs. The framing is significant: AMI is not just asking how a world model predicts the future, but how it recalls and retrieves relevant past context to do so. This is precisely the kind of architectural extension that would be required to move JEPA-style models from short-horizon prediction toward the kind of persistent, multi-step reasoning needed for autonomous agents.\n\nPaired with Julia Kempe's announcement of a World Modeling for Physics Workshop in Aspen — with applications closing October 15 — the signal is that AMI is simultaneously pushing the research frontier and convening the community around it. The physics workshop is notable in its own right: two papers attributed to LeCun's co-authorship this week (SCOPE and PDE-OBS) address recovering complete physical fields from sparse observations, suggesting that world modeling for physical simulation is an active internal research thread, not merely a community-building gesture.",
       "evidence": [
         {
-          "label": "Trademark 5275514 — INPI",
-          "url": "/news/trademark-5275514-advanced-machine-intelligence-compute"
+          "label": "Amir Bar on FAR memory framework",
+          "url": "https://x.com/_amirbar/status/2105738956532846900"
+        },
+        {
+          "label": "Julia Kempe on World Modeling for Physics Workshop",
+          "url": "https://x.com/KempeLab/status/2106442257893392508"
+        },
+        {
+          "label": "SCOPE paper",
+          "url": "https://www.semanticscholar.org/paper/a8a72e2d9805feb371bb319b91e57cb05593a3d1"
+        },
+        {
+          "label": "PDE-OBS benchmark paper",
+          "url": "https://www.semanticscholar.org/paper/cede64a707325324571bf783bbb20e45002c1bcb"
         }
       ]
     },
     {
-      "title": "Pascale Fung's hiring call reframes 'AI safety' as a fundamental research problem — and a talent magnet",
+      "title": "Jiatao Gu's hire sharpens AMI's physical-world agent profile",
       "category": "hiring",
-      "narrative": "Fung's post on September 24 — which drew over 1,000 likes — is notable less for the positions advertised than for how she defines the work: 'fundamental research in AI model safety, not safety rules, not AI policy, not post hoc guardrails, not RLHF.' That four-part negation is as much a positioning statement as a job description. It deliberately contrasts AMI with the compliance-oriented safety work dominating industry labs and the policy-heavy framing of European AI governance. The call spans Paris, Singapore, New York, and Montreal, signaling that AMI's multi-site ambitions are genuine and that safety research is a first-class scientific priority, not a regulatory obligation.\n\nAt YannLeCun's Sciences Po appearance the same week, he rejected an AI pause and warned that safety fears risk entrenching dominant players. The lab's public posture is that safety matters precisely because it should not be left to incumbents — and that the right response is rigorous research, not restriction.",
+      "narrative": "The addition of Jiatao Gu — a University of Pennsylvania assistant professor whose stated research focus is helping AI agents operate in the physical world — fits the pattern precisely. AMI is not hiring broadly across ML; it is recruiting researchers whose work maps onto the specific gap between world-model prediction and physical-world action. Gu joins from an academic post, in New York City, suggesting AMI is willing to build a distributed technical staff rather than consolidate everyone in Paris.\n\nThe finance side of AMI's team is also quietly consolidating. Chloe Giraut-Pierron, an early employee since November 2025, updated her title to VP of Finance this week. Her background spans Pigment, Qonto, and Stratumn — a mix of SaaS financial tooling and fintech — suggesting AMI is professionalizing its financial function, likely in anticipation of the kind of capital raise or operational scale that would require it.",
       "evidence": [
         {
-          "label": "Fung hiring tweet",
-          "url": "https://x.com/pascalefung/status/2103141972936454489"
+          "label": "Jiatao Gu hire profile",
+          "url": "https://ami.frenchtechjournal.com/team/jiatao-gu"
         },
         {
-          "label": "LeCun at Sciences Po — AMI Observatory",
-          "url": "/news/at-sciences-po-lecun-rejects-an-ai-pause-and-warns-against-concentrated-power"
+          "label": "Chloe Giraut-Pierron VP of Finance",
+          "url": "https://ami.frenchtechjournal.com/team/chloe-giraut-pierron"
         }
       ]
     }
   ],
   "signals": [
     {
-      "text": "Amir Bar weighed in on AI-generated academic slop, advocating desk rejections on abstracts alone and shorter papers — a minor but telling note on how AMI researchers are thinking about research quality as LLM-assisted submissions flood venues.",
+      "text": "Brian Li notes that AMI's OneVision-Encoder was accepted to NeurIPS, and is exploring using an agent-driven workflow (via Opus 5.5) to produce a promotional video showcasing it — a small but concrete sign that the vision encoder work is reaching conference-grade validation.",
       "category": "research",
-      "url": "https://x.com/_amirbar/status/2101654188748865693",
-      "linkLabel": "Bar tweet"
+      "url": "https://x.com/Brian_Bo_Li/status/2104784210267701355",
+      "linkLabel": "Tweet"
     },
     {
-      "text": "Pascale Fung's ICML talk linking smart glasses and everyday tasks to world-model applications remains the clearest public articulation of how AMI sees its research translating into products.",
+      "text": "Jiatao Gu, now listed as AMI technical staff, posted about Video-Index — a benchmark purging shortcut-solvable questions from 115 video benchmarks — finding a large gap between proprietary models and open ones. His research output is already signalling an interest in rigorous evaluation of physical-world understanding.",
       "category": "research",
-      "url": "/news/pascale-fung-at-icml-smart-glasses-and-pie-crusts-offer-clues-to-ami-s-future",
-      "linkLabel": "ICML coverage"
+      "url": "https://x.com/thoma_gu/status/2105855888074621156",
+      "linkLabel": "Tweet"
     }
   ],
-  "whatToWatch": "The Pinheiro hire makes AMI's next moves in computational biology worth tracking closely."
+  "whatToWatch": "The October 15 deadline for the Aspen World Modeling for Physics Workshop will be a signal of how broadly AMI is convening outside researchers around its agenda. More immediately, the AD-E2E-JEPA paper's critique of current JEPA world models sets up an expectation of a follow-on architecture — watch for new preprints from the autonomous driving thread, and for whether Balestriero's SIGReg-on-full-temporal-tensor fix makes its way into a published model.",
+  "whatToWatchLinks": [
+    {
+      "url": "https://x.com/KempeLab/status/2106442257893392508",
+      "linkLabel": "Aspen Workshop application"
+    },
+    {
+      "url": "https://www.semanticscholar.org/paper/1cb318e4eee78c97d5ba10401b47f2d1ebc361ee",
+      "linkLabel": "AD-E2E-JEPA"
+    }
+  ]
 }
