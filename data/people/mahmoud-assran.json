@@ -1,71 +1,47 @@
 {
-  "slug": "yannick-loriot",
-  "name": "Yannick Loriot",
-  "role": "Member of Technical Staff",
+  "slug": "mahmoud-assran",
+  "name": "Mahmoud Assran",
+  "role": "Member of Technical Staff, Scientist (Founding Team)",
   "department": "Science & Research Leadership",
-  "location": "Paris",
+  "location": "Montreal",
   "tags": [
-    "Paris"
+    "Montreal"
   ],
   "links": {
-    "github": "https://github.com/yannickl",
-    "linkedin": "https://www.linkedin.com/in/yannickloriot/",
-    "twitter": "https://x.com/yannickloriot",
-    "website": "https://yannickl.github.io/"
+    "github": "https://github.com/MidoAssran",
+    "linkedin": "https://www.linkedin.com/in/midoassran",
+    "scholar": "https://scholar.google.com/citations?user=gcQTTvkAAAAJ&hl=en",
+    "website": "https://midoassran.ca"
   },
-  "semanticScholarId": null,
+  "semanticScholarId": [
+    "2065681534"
+  ],
   "careerHistory": [
     {
-      "org": "Meta - WhatsApp",
-      "title": "Software Engineer ",
-      "years": "2026"
-    },
-    {
-      "org": "Meta - Horizon",
-      "title": "Software Engineer",
-      "years": "2023-2026"
-    },
-    {
-      "org": "Meta - Workplace",
-      "title": "Software Engineer",
-      "years": "2019-2023"
-    },
-    {
-      "org": "Work & Play",
-      "title": "Co-Founder and CTO",
-      "years": "2014-2019"
-    },
-    {
-      "org": "Symetrix",
-      "title": "Lead iOS Developer",
-      "years": "2010-2014"
+      "org": "Meta",
+      "title": "Research Scientist",
+      "years": "2017-2026"
     }
   ],
-  "reportsTo": "pascale-fung",
+  "reportsTo": "michael-rabbat",
   "reports": [],
   "papers": [],
   "topPublications": [],
   "githubProjects": [],
   "githubActivity": {
-    "username": "yannickl",
-    "githubUrl": "https://github.com/yannickl",
-    "recentEventCount": 0
+    "username": "MidoAssran",
+    "githubUrl": "https://github.com/MidoAssran",
+    "recentEventCount": 4
   },
   "news": [
     {
-      "title": "New Hire: Yannick Loriot, Member of Technical Staff, Paris",
-      "url": "https://ami.frenchtechjournal.com/team/yannick-loriot",
-      "source": "The Ami Observatory",
-      "publishedAt": "2026-09-27"
+      "title": "New Hire: Mahmoud Assran Member of Technical Staff, Montreal",
+      "url": "https://ami.frenchtechjournal.com/team/mahmoud-assran",
+      "source": "The AMI Observatory",
+      "publishedAt": "2026-10-05"
     }
   ],
-  "xPosts": [
-    {
-      "text": "\"You offer your pupils the appearance of wisdom, not true wisdom, for they will read many things without instruction and will therefore seem to know many things, when they are for the most part ignorant and hard to get along with, since they are not wise, but only appear wise.\"",
-      "url": "https://x.com/yannickloriot/status/2106420265404203437",
-      "createdAt": "2026-10-03T16:25:01.000Z"
-    }
-  ],
+  "xPosts": [],
   "connections": {
     "coAuthors": [],
     "externalCoAuthors": [],
@@ -77,6 +53,15 @@
         "years": [
           2020,
           2026
+        ]
+      },
+      {
+        "slug": "alexandre-lebrun",
+        "name": "Alexandre LeBrun",
+        "org": "Meta (FAIR)",
+        "years": [
+          2017,
+          2018
         ]
       },
       {
@@ -165,7 +150,7 @@
         "name": "Jiatao Gu",
         "org": "Meta (FAIR)",
         "years": [
-          2019,
+          2018,
           2022
         ]
       },
@@ -183,7 +168,7 @@
         "name": "Laurent Solly",
         "org": "Meta (FAIR)",
         "years": [
-          2019,
+          2017,
           2025
         ]
       },
@@ -202,15 +187,6 @@
         "org": "Meta (FAIR)",
         "years": [
           2026,
-          2026
-        ]
-      },
-      {
-        "slug": "mahmoud-assran",
-        "name": "Mahmoud Assran",
-        "org": "Meta (FAIR)",
-        "years": [
-          2019,
           2026
         ]
       },
@@ -237,7 +213,7 @@
         "name": "Michael Rabbat",
         "org": "Meta (FAIR)",
         "years": [
-          2019,
+          2018,
           2024
         ]
       },
@@ -291,7 +267,7 @@
         "name": "Saining Xie",
         "org": "Meta (FAIR)",
         "years": [
-          2019,
+          2017,
           2021
         ]
       },
@@ -309,7 +285,7 @@
         "name": "Sean Nguyen",
         "org": "Meta (FAIR)",
         "years": [
-          2019,
+          2018,
           2024
         ]
       },
@@ -345,8 +321,17 @@
         "name": "Yann LeCun",
         "org": "Meta (FAIR)",
         "years": [
-          2019,
+          2017,
           2025
+        ]
+      },
+      {
+        "slug": "yannick-loriot",
+        "name": "Yannick Loriot",
+        "org": "Meta (FAIR)",
+        "years": [
+          2019,
+          2026
         ]
       }
     ]
