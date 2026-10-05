@@ -178,10 +178,31 @@ function extractJson(text) {
   const first = t.indexOf("{");
   const last = t.lastIndexOf("}");
   if (first === -1 || last === -1) return null;
+  const slice = t.slice(first, last + 1);
+
   try {
-    return JSON.parse(t.slice(first, last + 1));
+    return JSON.parse(slice);
   } catch (err) {
-    console.warn(`[synthesis] JSON parse failed: ${err.message}`);
+    // Cheap, safe recovery: a trailing comma before } or ] is the single most
+    // common LLM JSON slip and doesn't change meaning. Try that before giving up.
+    const repaired = slice.replace(/,(\s*[}\]])/g, "$1");
+    if (repaired !== slice) {
+      try {
+        const value = JSON.parse(repaired);
+        console.warn("[synthesis] JSON recovered after trailing-comma repair.");
+        return value;
+      } catch { /* fall through to logging */ }
+    }
+    // Log the context around the failure so the real defect is diagnosable from
+    // the Action log instead of just a bare position number.
+    const m = /position (\d+)/.exec(err.message);
+    if (m) {
+      const pos = Number(m[1]);
+      const ctx = slice.slice(Math.max(0, pos - 70), pos + 70).replace(/\n/g, "\\n");
+      console.warn(`[synthesis] JSON parse failed: ${err.message}\n[synthesis]   near: …${ctx}…`);
+    } else {
+      console.warn(`[synthesis] JSON parse failed: ${err.message}`);
+    }
     return null;
   }
 }
@@ -323,6 +344,56 @@ function openReviewIssue(briefing, window) {
   });
 }
 
+// ── model request (with one corrective retry) ─────────────────────────────────
+
+const CORRECTIVE_MSG = [
+  "Your previous response could not be used: it was not a single valid JSON object.",
+  "Return the SAME briefing content again as ONE strictly-valid JSON object and nothing else —",
+  "no markdown fences, no commentary, no trailing commas, with all keys and string values",
+  "double-quoted and any quotes or newlines inside string values properly escaped.",
+].join(" ");
+
+// Call the model, parse + validate, and on the first unusable response retry
+// once with a corrective turn. A single malformed-JSON response is a transient
+// model slip, not a reason to drop the whole week to a stale edition.
+async function requestBriefing(client, window, facts, census, allowedUrls) {
+  const messages = [{ role: "user", content: buildUserMessage(window, facts, census) }];
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    let text = "";
+    try {
+      const msg = await client.messages.create({
+        model: MODEL,
+        max_tokens: 3200,
+        system: SYSTEM_PROMPT,
+        messages,
+      });
+      text = msg.content[0]?.type === "text" ? msg.content[0].text.trim() : "";
+    } catch (err) {
+      console.error(`[synthesis] Model call failed (attempt ${attempt}): ${err.message}`);
+      return null;
+    }
+
+    // Deliberate skip / refusal / empty → caller keeps the previous edition; no retry.
+    if (!text || text === "SKIP" || text.startsWith("SKIP") || looksLikeRefusal(text)) {
+      return null;
+    }
+
+    const parsed = extractJson(text);
+    const briefing = parsed ? validate(parsed, allowedUrls) : null;
+    if (briefing) {
+      if (attempt > 1) console.log("[synthesis] Recovered a valid briefing on corrective retry.");
+      return briefing;
+    }
+
+    if (attempt === 1) {
+      console.warn(`[synthesis] Response ${parsed ? "failed validation" : "was unparseable"} — retrying once with a corrective turn.`);
+      messages.push({ role: "assistant", content: text });
+      messages.push({ role: "user", content: CORRECTIVE_MSG });
+    }
+  }
+  return null;
+}
+
 // ── main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -392,19 +463,6 @@ async function main() {
   const client = new Anthropic();
   const allowedUrls = collectAllowedUrls(facts);
 
-  let text = "";
-  try {
-    const msg = await client.messages.create({
-      model: MODEL,
-      max_tokens: 2600,
-      system: SYSTEM_PROMPT,
-      messages: [{ role: "user", content: buildUserMessage(window, facts, CENSUS) }],
-    });
-    text = msg.content[0]?.type === "text" ? msg.content[0].text.trim() : "";
-  } catch (err) {
-    console.error(`[synthesis] Model call failed: ${err.message}`);
-  }
-
   const keepStale = () => {
     // Keep the last good draft's narrative, but refresh the facts/window and
     // preserve the PRIOR snapshot so the next diff basis is unchanged.
@@ -421,13 +479,7 @@ async function main() {
     });
   };
 
-  if (!text || text === "SKIP" || text.startsWith("SKIP") || looksLikeRefusal(text)) {
-    keepStale();
-    return;
-  }
-
-  const parsed = extractJson(text);
-  const briefing = validate(parsed, allowedUrls);
+  const briefing = await requestBriefing(client, window, facts, CENSUS, allowedUrls);
   if (!briefing) {
     keepStale();
     return;
