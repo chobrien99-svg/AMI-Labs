@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-06T04:36:42.613Z",
+  "lastFetched": "2026-10-06T12:40:39.492Z",
   "members": [
     {
       "slug": "adithya-iyer",
@@ -106,6 +106,22 @@
       "username": "luodian",
       "githubUrl": "https://github.com/luodian",
       "events": [
+        {
+          "type": "PushEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Pushed 0 commits to brian/fix/request-cache-lifecycle on EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-10-05T05:28:16Z"
+        },
+        {
+          "type": "PushEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Pushed 0 commits to brian/docs/modular-eval-pipeline-rfc on EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-10-05T05:24:01Z"
+        },
         {
           "type": "PushEvent",
           "repo": "EvolvingLMMs-Lab/lmms-eval",
@@ -353,6 +369,14 @@
           "type": "PushEvent",
           "repo": "com-lihaoyi/mill",
           "repoUrl": "https://github.com/com-lihaoyi/mill",
+          "description": "Pushed 0 commits to codex/python-uv-toolchain-main on com-lihaoyi/mill",
+          "url": "https://github.com/com-lihaoyi/mill",
+          "timestamp": "2026-10-04T23:06:22Z"
+        },
+        {
+          "type": "PushEvent",
+          "repo": "com-lihaoyi/mill",
+          "repoUrl": "https://github.com/com-lihaoyi/mill",
           "description": "Pushed 0 commits to codex/python-uv-toolchain-1.3 on com-lihaoyi/mill",
           "url": "https://github.com/com-lihaoyi/mill",
           "timestamp": "2026-10-04T16:28:58Z"
@@ -460,14 +484,6 @@
           "description": "Deleted branch codex/python-uv-toolchain-main in com-lihaoyi/mill",
           "url": "https://github.com/com-lihaoyi/mill",
           "timestamp": "2026-10-05T00:58:45Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "merged PR #7664 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-10-05T00:58:42Z"
         }
       ]
     },
