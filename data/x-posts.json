@@ -1,9 +1,146 @@
 {
-  "lastChecked": "2026-10-08T11:50:27.264Z",
-  "lastSeenId": "2107933878552068519",
-  "lastSeenAt": "2026-10-07T20:39:34.000Z",
+  "lastChecked": "2026-10-09T11:42:11.006Z",
+  "lastSeenId": "2108275156158448032",
+  "lastSeenAt": "2026-10-08T19:15:41.000Z",
   "listId": "2068355339636887579",
   "posts": [
+    {
+      "id": "2108275156158448032",
+      "authorId": "1246070462679040000",
+      "authorUsername": "randall_balestr",
+      "authorSlug": null,
+      "authorName": "Randall Balestriero",
+      "createdAt": "2026-10-08T19:15:41.000Z",
+      "text": "LeJEPA already identified the world's latents--up to some mixing. There is now a very simple post-training recipe to undo that ambiguity and to recover the disentangled world's features! What a time to be Gaussian :)\n\n📄 https://t.co/YgD98TdVBJ https://t.co/1qLkGyMAkG",
+      "url": "https://x.com/randall_balestr/status/2108275156158448032",
+      "isQuote": true,
+      "metrics": {
+        "likes": 184,
+        "retweets": 18,
+        "replies": 2,
+        "quotes": 0
+      },
+      "engagementScore": 220,
+      "highEngagement": true,
+      "tags": [
+        "research"
+      ],
+      "urls": [
+        "https://arxiv.org/abs/2610.09457",
+        "https://twitter.com/YujiaZheng9/status/2108263563097719146"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2108272405236097449",
+      "authorId": "1246070462679040000",
+      "authorUsername": "randall_balestr",
+      "authorSlug": null,
+      "authorName": "Randall Balestriero",
+      "createdAt": "2026-10-08T19:04:45.000Z",
+      "text": "Financial data is RIPE for JEPAs... noise, non-stationarity, unknown ground truth states... yet data and evaluation is not readily available! We resolve that in our latest NeurIPS paper `Towards Financial World Modeling' TLDR: invest with LeJEPA ;)\n📄https://t.co/FJG3jtZuBL 🧵⬇️ https://t.co/CBUp9rLjcq",
+      "url": "https://x.com/randall_balestr/status/2108272405236097449",
+      "isQuote": false,
+      "metrics": {
+        "likes": 185,
+        "retweets": 24,
+        "replies": 2,
+        "quotes": 2
+      },
+      "engagementScore": 237,
+      "highEngagement": true,
+      "tags": [
+        "funding",
+        "research"
+      ],
+      "urls": [
+        "https://arxiv.org/abs/2610.09048",
+        "https://x.com/randall_balestr/status/2108272405236097449/photo/1"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2108237319648264694",
+      "authorId": "140184251",
+      "authorUsername": "yannickloriot",
+      "authorSlug": "yannick-loriot",
+      "authorName": "Yannick Loriot",
+      "createdAt": "2026-10-08T16:45:20.000Z",
+      "text": "With all those capable models available in the market it’s been amazing to use a lot of them as a council to co-plan/build features.\n\nThey spend hours polishing the details, challenging themselves, finding consensus, but the output is much better.",
+      "url": "https://x.com/yannickloriot/status/2108237319648264694",
+      "isQuote": false,
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "engagementScore": 0,
+      "highEngagement": false,
+      "tags": [],
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2108234352450470175",
+      "authorId": "1720741438240292864",
+      "authorUsername": "ayaannmalik",
+      "authorSlug": null,
+      "authorName": "ayaan naveed malik",
+      "createdAt": "2026-10-08T16:33:33.000Z",
+      "text": "@moritz_stephan is a killer! excited for this https://t.co/TxxRge8uR6",
+      "url": "https://x.com/ayaannmalik/status/2108234352450470175",
+      "isQuote": true,
+      "metrics": {
+        "likes": 9,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "engagementScore": 9,
+      "highEngagement": false,
+      "tags": [],
+      "urls": [
+        "https://twitter.com/hone/status/2108218574926176490"
+      ],
+      "hashtags": [],
+      "mentions": [
+        "moritz_stephan"
+      ]
+    },
+    {
+      "id": "2108183246622081039",
+      "authorId": "714135850934734849",
+      "authorUsername": "_amirbar",
+      "authorSlug": "amir-bar",
+      "authorName": "Amir Bar",
+      "createdAt": "2026-10-08T13:10:28.000Z",
+      "text": "NAVA-WAM: Can we learn latent actions for World Action Models?\n\nWe revisit a classic idea: jointly learning inverse and forward dynamics models while avoiding the identity shortcut (e.g., @SeonghyeonYe, @garridoq_, @jeffacce, @pulkitology, and others).\n\nThe twist: Both models are https://t.co/Ot1d0XuMQa",
+      "url": "https://x.com/_amirbar/status/2108183246622081039",
+      "isQuote": true,
+      "metrics": {
+        "likes": 76,
+        "retweets": 6,
+        "replies": 0,
+        "quotes": 0
+      },
+      "engagementScore": 88,
+      "highEngagement": true,
+      "tags": [],
+      "urls": [
+        "https://twitter.com/ZhaochongAn/status/2107024596105146440"
+      ],
+      "hashtags": [],
+      "mentions": [
+        "SeonghyeonYe",
+        "garridoq_",
+        "jeffacce",
+        "pulkitology"
+      ]
+    },
     {
       "id": "2107933878552068519",
       "authorId": "1720741438240292864",
