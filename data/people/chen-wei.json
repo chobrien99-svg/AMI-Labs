@@ -32,6 +32,128 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "a62cfdeb7698a1294c4f8a11683634b2bb6d6801",
+      "title": "Visualizing Distribution Coverage in Generative Diffusion Models",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/a62cfdeb7698a1294c4f8a11683634b2bb6d6801",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yi-Fei Wang"
+        },
+        {
+          "slug": null,
+          "name": "Xiao-Yu Wu"
+        },
+        {
+          "slug": null,
+          "name": "Tsu-Jui Fu"
+        },
+        {
+          "slug": null,
+          "name": "Chen Chen"
+        },
+        {
+          "slug": null,
+          "name": "Liang-Chieh Chen"
+        },
+        {
+          "slug": null,
+          "name": "Z. Gan"
+        }
+      ]
+    },
+    {
+      "paperId": "59a8c68415fffc8cf2413bd4bbcfe55965bd4754",
+      "title": "Representation by Design in Generation: Cross-View Class-Token Alignment in Diffusion Transformers",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/59a8c68415fffc8cf2413bd4bbcfe55965bd4754",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Xiao-Yu Wu"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Fei Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "2a545b668a1028328af0a546f67e4630542f75b5",
+      "title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/2a545b668a1028328af0a546f67e4630542f75b5",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Hong-Yang Du"
+        },
+        {
+          "slug": null,
+          "name": "Yun-Fei Xie"
+        },
+        {
+          "slug": null,
+          "name": "Jun-Jie Ye"
+        },
+        {
+          "slug": null,
+          "name": "Jia-Wei Yang"
+        },
+        {
+          "slug": null,
+          "name": "Xiao-Yan Cong"
+        },
+        {
+          "slug": null,
+          "name": "Hao-Dong Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Yong-Chao Huang"
+        },
+        {
+          "slug": null,
+          "name": "Hai-Yu Wu"
+        },
+        {
+          "slug": null,
+          "name": "Zong-Xia Li"
+        },
+        {
+          "slug": null,
+          "name": "Shi-Hang Gui"
+        },
+        {
+          "slug": null,
+          "name": "Dawei Liu"
+        },
+        {
+          "slug": null,
+          "name": "Run-Hao Li"
+        },
+        {
+          "slug": null,
+          "name": "J. Ni"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Yue Wang"
+        }
+      ]
+    },
+    {
       "paperId": "0b1fcfc3cf056b07c8860b5878cad1c06639d373",
       "title": "Taming Outlier Tokens in Diffusion Transformers",
       "year": 2026,
@@ -314,7 +436,7 @@
     {
       "title": "Perception Encoder: The best visual embeddings are not at the output of the network",
       "year": 2025,
-      "citationCount": 338,
+      "citationCount": 366,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2504.13181"
     },
@@ -328,14 +450,14 @@
     {
       "title": "Vision-Language-Vision Auto-Encoder: Scalable Knowledge Distillation from Diffusion Models",
       "year": 2025,
-      "citationCount": 4,
+      "citationCount": 5,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2507.07104"
     },
     {
       "title": "SRSplat: Feed-Forward Super-Resolution Gaussian Splatting from Sparse Multi-View Images",
       "year": 2025,
-      "citationCount": 2,
+      "citationCount": 3,
       "venue": "AAAI Conference on Artificial Intelligence",
       "url": "https://doi.org/10.48550/arXiv.2511.12040"
     },
@@ -377,23 +499,95 @@
     ],
     "externalCoAuthors": [
       {
+        "name": "Yi-Fei Wang",
+        "papers": 3
+      },
+      {
+        "name": "Xiao-Yu Wu",
+        "papers": 2
+      },
+      {
+        "name": "Tsu-Jui Fu",
+        "papers": 2
+      },
+      {
+        "name": "Liang-Chieh Chen",
+        "papers": 2
+      },
+      {
         "name": "Christoph Feichtenhofer",
         "papers": 2
       },
       {
+        "name": "Chen Chen",
+        "papers": 1
+      },
+      {
+        "name": "Z. Gan",
+        "papers": 1
+      },
+      {
+        "name": "Hong-Yang Du",
+        "papers": 1
+      },
+      {
+        "name": "Yun-Fei Xie",
+        "papers": 1
+      },
+      {
+        "name": "Jun-Jie Ye",
+        "papers": 1
+      },
+      {
+        "name": "Jia-Wei Yang",
+        "papers": 1
+      },
+      {
+        "name": "Xiao-Yan Cong",
+        "papers": 1
+      },
+      {
+        "name": "Hao-Dong Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Yong-Chao Huang",
+        "papers": 1
+      },
+      {
+        "name": "Hai-Yu Wu",
+        "papers": 1
+      },
+      {
+        "name": "Zong-Xia Li",
+        "papers": 1
+      },
+      {
+        "name": "Shi-Hang Gui",
+        "papers": 1
+      },
+      {
+        "name": "Dawei Liu",
+        "papers": 1
+      },
+      {
+        "name": "Run-Hao Li",
+        "papers": 1
+      },
+      {
+        "name": "J. Ni",
+        "papers": 1
+      },
+      {
+        "name": "Randall Balestriero",
+        "papers": 1
+      },
+      {
+        "name": "Yue Wang",
+        "papers": 1
+      },
+      {
         "name": "Xiaoyu Wu",
-        "papers": 1
-      },
-      {
-        "name": "Yi-Fei Wang",
-        "papers": 1
-      },
-      {
-        "name": "Tsu-Jui Fu",
-        "papers": 1
-      },
-      {
-        "name": "Liang-Chieh Chen",
         "papers": 1
       },
       {

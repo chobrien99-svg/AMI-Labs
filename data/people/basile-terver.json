@@ -27,6 +27,32 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "1b793cc81165f84d9b3fdd10b43451761b12170f",
+      "title": "H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/1b793cc81165f84d9b3fdd10b43451761b12170f",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Wan-Cong Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Michael G. Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        }
+      ]
+    },
+    {
       "paperId": "101274838d26060ebdbed1949b7a7b82c23cd9c2",
       "title": "PEIRA: Learning Predictive Encoders through Inter-View Regressor Alignment",
       "year": 2026,
@@ -67,6 +93,10 @@
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
+        },
+        {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
         },
         {
           "slug": null,
@@ -458,7 +488,7 @@
       {
         "slug": "yann-lecun",
         "name": "Yann LeCun",
-        "sharedPapers": 5
+        "sharedPapers": 6
       },
       {
         "slug": "amir-bar",
@@ -483,6 +513,11 @@
       {
         "slug": "artem-zholus",
         "name": "Artem Zholus",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "mahmoud-assran",
+        "name": "Mahmoud Assran",
         "sharedPapers": 1
       },
       {
@@ -513,15 +548,15 @@
     ],
     "externalCoAuthors": [
       {
+        "name": "Randall Balestriero",
+        "papers": 3
+      },
+      {
         "name": "Jean Ponce",
         "papers": 3
       },
       {
         "name": "Wancong Zhang",
-        "papers": 2
-      },
-      {
-        "name": "Randall Balestriero",
         "papers": 2
       },
       {
@@ -531,6 +566,14 @@
       {
         "name": "Tushar Nagarajan",
         "papers": 2
+      },
+      {
+        "name": "Wan-Cong Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Michael G. Rabbat",
+        "papers": 1
       },
       {
         "name": "Michael Arbel",

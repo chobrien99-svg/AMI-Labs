@@ -44,6 +44,88 @@
   ],
   "papers": [
     {
+      "paperId": "8b39cf2adfbecf073108ad70a67b45c0fd6bef67",
+      "title": "Preserving Unstable Modes Through Inverse Dynamics in JEPA World Models",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/8b39cf2adfbecf073108ad70a67b45c0fd6bef67",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "L. F. Toso"
+        },
+        {
+          "slug": null,
+          "name": "James Anderson"
+        },
+        {
+          "slug": null,
+          "name": "Oumayma Bounou"
+        }
+      ]
+    },
+    {
+      "paperId": "1b793cc81165f84d9b3fdd10b43451761b12170f",
+      "title": "H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/1b793cc81165f84d9b3fdd10b43451761b12170f",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "basile-terver",
+          "name": "Basile Terver"
+        },
+        {
+          "slug": null,
+          "name": "Wan-Cong Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Michael G. Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        }
+      ]
+    },
+    {
+      "paperId": "dd2746b870572a22c58e66b9c34606ee09c4d318",
+      "title": "SheetSage2: Coherent Lead-Sheet Transcription with Synthetic Supervision",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/dd2746b870572a22c58e66b9c34606ee09c4d318",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jun-Yan Jiang"
+        },
+        {
+          "slug": null,
+          "name": "Rui-Bin Yuan"
+        },
+        {
+          "slug": null,
+          "name": "Jia-Hao Pan"
+        },
+        {
+          "slug": null,
+          "name": "Wei Xue"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Ke Guo"
+        },
+        {
+          "slug": null,
+          "name": "Gus G. Xia"
+        }
+      ]
+    },
+    {
       "paperId": "1db373b4b04de2a05cd8c1d942bd582e8ff22536",
       "title": "Learning Functional Subspaces for Neural Network Compression",
       "year": 2026,
@@ -82,11 +164,11 @@
       ]
     },
     {
-      "paperId": "a8a72e2d9805feb371bb319b91e57cb05593a3d1",
+      "paperId": "ea3e758eab2563e271e030baefaa82286f4f4823",
       "title": "SCOPE: Observation-Conditioned Full-Target Prediction for Sparse PDE Inference",
       "year": 2026,
       "venue": null,
-      "url": "https://www.semanticscholar.org/paper/a8a72e2d9805feb371bb319b91e57cb05593a3d1",
+      "url": "https://www.semanticscholar.org/paper/ea3e758eab2563e271e030baefaa82286f4f4823",
       "citationCount": 0,
       "coAuthors": [
         {
@@ -1076,6 +1158,10 @@
           "name": "Adrien Bardes"
         },
         {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
+        },
+        {
           "slug": null,
           "name": "Wancong Zhang"
         },
@@ -1142,6 +1228,10 @@
         {
           "slug": "adrien-bardes",
           "name": "Adrien Bardes"
+        },
+        {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
         },
         {
           "slug": null,
@@ -1530,40 +1620,6 @@
         {
           "slug": null,
           "name": "Randall Balestriero"
-        }
-      ]
-    },
-    {
-      "paperId": "d925357d2eec7147ee3c67016854271998307323",
-      "title": "Radial-VCReg: More Informative Representation Learning Through Radial Gaussianization",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.14272",
-      "citationCount": 4,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Yilun Kuang"
-        },
-        {
-          "slug": null,
-          "name": "Yash Dagade"
-        },
-        {
-          "slug": null,
-          "name": "Deep Chakraborty"
-        },
-        {
-          "slug": null,
-          "name": "Erik G. Learned-Miller"
-        },
-        {
-          "slug": null,
-          "name": "Randall Balestriero"
-        },
-        {
-          "slug": null,
-          "name": "Tim G. J. Rudner"
         }
       ]
     },
@@ -2052,6 +2108,10 @@
           "name": "Michael Rabbat"
         },
         {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
+        },
+        {
           "slug": null,
           "name": "Mahmoud Assran"
         },
@@ -2470,6 +2530,10 @@
           "name": "Michael Rabbat"
         },
         {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
+        },
+        {
           "slug": null,
           "name": "Jean Ponce"
         },
@@ -2518,6 +2582,48 @@
         {
           "slug": null,
           "name": "Yi Ma"
+        }
+      ]
+    },
+    {
+      "paperId": "da136b4651e035c2bafd0bfd34433faf7af2619e",
+      "title": "Stochastic positional embeddings improve masked image modeling",
+      "year": 2023,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/da136b4651e035c2bafd0bfd34433faf7af2619e",
+      "citationCount": 12,
+      "coAuthors": [
+        {
+          "slug": "amir-bar",
+          "name": "Amir Bar"
+        },
+        {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
+        },
+        {
+          "slug": null,
+          "name": "Florian Bordes"
+        },
+        {
+          "slug": null,
+          "name": "A. Shocher"
+        },
+        {
+          "slug": null,
+          "name": "Pascal Vincent"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Trevor Darrell"
+        },
+        {
+          "slug": null,
+          "name": "A. Globerson"
         }
       ]
     },
@@ -3364,28 +3470,28 @@
     {
       "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
       "year": 2026,
-      "citationCount": 106,
+      "citationCount": 112,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.14482"
     },
     {
       "title": "Learning and Leveraging World Models in Visual Representation Learning",
       "year": 2024,
-      "citationCount": 81,
+      "citationCount": 83,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2403.00504"
     },
     {
       "title": "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language",
       "year": 2025,
-      "citationCount": 60,
+      "citationCount": 65,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2512.10942"
     },
     {
       "title": "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
       "year": 2026,
-      "citationCount": 53,
+      "citationCount": 54,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.16208"
     },
@@ -3400,6 +3506,12 @@
   "githubProjects": [],
   "githubActivity": null,
   "news": [
+    {
+      "title": "H-JEPA, LeCun's world model startup has delivered its debut results, with all code and weights fully open-sourced. - eu.36kr.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE54cHJTUGVVNEFvSmRZcVRmNzFFNlVrcVJBbE9Wby1XVHVnbUE2cTdfNkpkdW9tUVA4a052ajZZaDhtMFctMTBmR21fNUJEVWw5LWN3?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-10-10"
+    },
     {
       "title": "Les dirigeants de l’ombre d’AMI Labs, la start-up fondée par Yann LeCun - Cafétech",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1PUjczeEN0czV1a1VYWXdQNTJCVlU4MldySGt5d085YWlOVkVsR05IWXhOcFFXWUFVbDZuUWgybUNQWEdtYUc4VmQ5UzIxMThVcUhhYlRmYWhZWnR5V2FhbGNIejlWUF9SX0lmcVVVV2FWc3N4?oc=5",
@@ -4075,7 +4187,7 @@
       {
         "slug": "amir-bar",
         "name": "Amir Bar",
-        "sharedPapers": 8
+        "sharedPapers": 9
       },
       {
         "slug": "saining-xie",
@@ -4105,6 +4217,11 @@
       {
         "slug": "basile-terver",
         "name": "Basile Terver",
+        "sharedPapers": 6
+      },
+      {
+        "slug": "mahmoud-assran",
+        "name": "Mahmoud Assran",
         "sharedPapers": 5
       },
       {
@@ -4175,7 +4292,7 @@
       },
       {
         "name": "Nicolas Ballas",
-        "papers": 10
+        "papers": 11
       },
       {
         "name": "Shengbang Tong",
@@ -4218,6 +4335,10 @@
         "papers": 4
       },
       {
+        "name": "Oumayma Bounou",
+        "papers": 3
+      },
+      {
         "name": "Judah Goldfeder",
         "papers": 3
       },
@@ -4254,6 +4375,10 @@
         "papers": 3
       },
       {
+        "name": "Pascal Vincent",
+        "papers": 3
+      },
+      {
         "name": "J. Ponce",
         "papers": 3
       },
@@ -4272,6 +4397,10 @@
       {
         "name": "Michaël Mathieu",
         "papers": 3
+      },
+      {
+        "name": "Wan-Cong Zhang",
+        "papers": 2
       },
       {
         "name": "Rui-Chen Xu",
@@ -4298,23 +4427,11 @@
         "papers": 2
       },
       {
-        "name": "Yilun Kuang",
-        "papers": 2
-      },
-      {
-        "name": "Yash Dagade",
-        "papers": 2
-      },
-      {
         "name": "Heejeong Nam",
         "papers": 2
       },
       {
         "name": "Ying Wang",
-        "papers": 2
-      },
-      {
-        "name": "Oumayma Bounou",
         "papers": 2
       },
       {
@@ -4347,10 +4464,6 @@
       },
       {
         "name": "Emmanuel Dupoux",
-        "papers": 2
-      },
-      {
-        "name": "Tim G. J. Rudner",
         "papers": 2
       },
       {
@@ -4406,6 +4519,10 @@
         "papers": 2
       },
       {
+        "name": "Florian Bordes",
+        "papers": 2
+      },
+      {
         "name": "G. Mialon",
         "papers": 2
       },
@@ -4419,10 +4536,6 @@
       },
       {
         "name": "Ishan Misra",
-        "papers": 2
-      },
-      {
-        "name": "Pascal Vincent",
         "papers": 2
       },
       {
@@ -4440,6 +4553,42 @@
       {
         "name": "G. B. Arous",
         "papers": 2
+      },
+      {
+        "name": "L. F. Toso",
+        "papers": 1
+      },
+      {
+        "name": "James Anderson",
+        "papers": 1
+      },
+      {
+        "name": "Michael G. Rabbat",
+        "papers": 1
+      },
+      {
+        "name": "Jun-Yan Jiang",
+        "papers": 1
+      },
+      {
+        "name": "Rui-Bin Yuan",
+        "papers": 1
+      },
+      {
+        "name": "Jia-Hao Pan",
+        "papers": 1
+      },
+      {
+        "name": "Wei Xue",
+        "papers": 1
+      },
+      {
+        "name": "Yi-Ke Guo",
+        "papers": 1
+      },
+      {
+        "name": "Gus G. Xia",
+        "papers": 1
       },
       {
         "name": "Massimo Bini",
@@ -4478,10 +4627,6 @@
         "papers": 1
       },
       {
-        "name": "Wan-Cong Zhang",
-        "papers": 1
-      },
-      {
         "name": "A. Choromanska",
         "papers": 1
       },
@@ -4495,6 +4640,14 @@
       },
       {
         "name": "F. Buettner",
+        "papers": 1
+      },
+      {
+        "name": "Yilun Kuang",
+        "papers": 1
+      },
+      {
+        "name": "Yash Dagade",
         "papers": 1
       },
       {
@@ -5006,6 +5159,10 @@
         "papers": 1
       },
       {
+        "name": "Tim G. J. Rudner",
+        "papers": 1
+      },
+      {
         "name": "Shangwen Sun",
         "papers": 1
       },
@@ -5163,14 +5320,6 @@
       },
       {
         "name": "Hai Huang",
-        "papers": 1
-      },
-      {
-        "name": "Deep Chakraborty",
-        "papers": 1
-      },
-      {
-        "name": "Erik G. Learned-Miller",
         "papers": 1
       },
       {
@@ -5370,6 +5519,18 @@
         "papers": 1
       },
       {
+        "name": "A. Shocher",
+        "papers": 1
+      },
+      {
+        "name": "Trevor Darrell",
+        "papers": 1
+      },
+      {
+        "name": "A. Globerson",
+        "papers": 1
+      },
+      {
         "name": "Hannah Lawrence",
         "papers": 1
       },
@@ -5399,10 +5560,6 @@
       },
       {
         "name": "T. Goldstein",
-        "papers": 1
-      },
-      {
-        "name": "Florian Bordes",
         "papers": 1
       },
       {

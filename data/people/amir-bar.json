@@ -62,6 +62,10 @@
           "name": "Yann LeCun"
         },
         {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
+        },
+        {
           "slug": null,
           "name": "Wancong Zhang"
         },
@@ -110,6 +114,10 @@
         {
           "slug": "adrien-bardes",
           "name": "Adrien Bardes"
+        },
+        {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
         },
         {
           "slug": null,
@@ -470,6 +478,48 @@
       ]
     },
     {
+      "paperId": "da136b4651e035c2bafd0bfd34433faf7af2619e",
+      "title": "Stochastic positional embeddings improve masked image modeling",
+      "year": 2023,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/da136b4651e035c2bafd0bfd34433faf7af2619e",
+      "citationCount": 12,
+      "coAuthors": [
+        {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Florian Bordes"
+        },
+        {
+          "slug": null,
+          "name": "A. Shocher"
+        },
+        {
+          "slug": null,
+          "name": "Pascal Vincent"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Trevor Darrell"
+        },
+        {
+          "slug": null,
+          "name": "A. Globerson"
+        }
+      ]
+    },
+    {
       "paperId": "6bfafb32b423c3f0456a10984814f89046def489",
       "title": "A Cookbook of Self-Supervised Learning",
       "year": 2023,
@@ -619,7 +669,7 @@
       {
         "slug": "yann-lecun",
         "name": "Yann LeCun",
-        "sharedPapers": 8
+        "sharedPapers": 9
       },
       {
         "slug": "michael-rabbat",
@@ -634,6 +684,11 @@
       {
         "slug": "adrien-bardes",
         "name": "Adrien Bardes",
+        "sharedPapers": 3
+      },
+      {
+        "slug": "mahmoud-assran",
+        "name": "Mahmoud Assran",
         "sharedPapers": 3
       },
       {
@@ -685,7 +740,7 @@
     "externalCoAuthors": [
       {
         "name": "Nicolas Ballas",
-        "papers": 4
+        "papers": 5
       },
       {
         "name": "Koustuv Sinha",
@@ -721,6 +776,10 @@
       },
       {
         "name": "Luke S. Zettlemoyer",
+        "papers": 2
+      },
+      {
+        "name": "Florian Bordes",
         "papers": 2
       },
       {
@@ -856,6 +915,22 @@
         "papers": 1
       },
       {
+        "name": "A. Shocher",
+        "papers": 1
+      },
+      {
+        "name": "Pascal Vincent",
+        "papers": 1
+      },
+      {
+        "name": "Trevor Darrell",
+        "papers": 1
+      },
+      {
+        "name": "A. Globerson",
+        "papers": 1
+      },
+      {
         "name": "Mark Ibrahim",
         "papers": 1
       },
@@ -873,10 +948,6 @@
       },
       {
         "name": "T. Goldstein",
-        "papers": 1
-      },
-      {
-        "name": "Florian Bordes",
         "papers": 1
       },
       {

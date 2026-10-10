@@ -163,6 +163,10 @@
       "citationCount": 23,
       "coAuthors": [
         {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
+        },
+        {
           "slug": null,
           "name": "Benno Krojer"
         },
@@ -185,36 +189,6 @@
         {
           "slug": null,
           "name": "Mido Assran"
-        }
-      ]
-    },
-    {
-      "paperId": "65f3e558fa1e558caf9cd952ce41fcdd82c8ff6d",
-      "title": "IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments",
-      "year": 2025,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2506.09849",
-      "citationCount": 40,
-      "coAuthors": [
-        {
-          "slug": "michael-rabbat",
-          "name": "Michael Rabbat"
-        },
-        {
-          "slug": null,
-          "name": "Florian Bordes"
-        },
-        {
-          "slug": null,
-          "name": "Justine T Kao"
-        },
-        {
-          "slug": null,
-          "name": "Adina Williams"
-        },
-        {
-          "slug": null,
-          "name": "Emmanuel Dupoux"
         }
       ]
     },
@@ -249,6 +223,10 @@
         {
           "slug": "michael-rabbat",
           "name": "Michael Rabbat"
+        },
+        {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
         },
         {
           "slug": null,
@@ -353,6 +331,36 @@
         {
           "slug": null,
           "name": "Polytechnique Montr'eal"
+        }
+      ]
+    },
+    {
+      "paperId": "65f3e558fa1e558caf9cd952ce41fcdd82c8ff6d",
+      "title": "IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.09849",
+      "citationCount": 40,
+      "coAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Florian Bordes"
+        },
+        {
+          "slug": null,
+          "name": "Justine T Kao"
+        },
+        {
+          "slug": null,
+          "name": "Adina Williams"
+        },
+        {
+          "slug": null,
+          "name": "Emmanuel Dupoux"
         }
       ]
     },
@@ -643,6 +651,10 @@
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
+        },
+        {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
         },
         {
           "slug": null,
@@ -953,37 +965,37 @@
     {
       "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
-      "citationCount": 806,
+      "citationCount": 859,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985"
     },
     {
       "title": "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
       "year": 2025,
-      "citationCount": 81,
+      "citationCount": 84,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2502.11831"
     },
     {
       "title": "Learning and Leveraging World Models in Visual Representation Learning",
       "year": 2024,
-      "citationCount": 81,
+      "citationCount": 83,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2403.00504"
     },
     {
-      "title": "IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments",
-      "year": 2025,
-      "citationCount": 45,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2506.09849"
-    },
-    {
       "title": "Learning Latent Action World Models In The Wild",
       "year": 2026,
-      "citationCount": 44,
+      "citationCount": 48,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.05230"
+    },
+    {
+      "title": "IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments",
+      "year": 2025,
+      "citationCount": 48,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.09849"
     }
   ],
   "githubProjects": [],
@@ -1017,6 +1029,11 @@
         "slug": "michael-rabbat",
         "name": "Michael Rabbat",
         "sharedPapers": 7
+      },
+      {
+        "slug": "mahmoud-assran",
+        "name": "Mahmoud Assran",
+        "sharedPapers": 3
       },
       {
         "slug": "basile-terver",
@@ -1147,14 +1164,6 @@
         "papers": 1
       },
       {
-        "name": "Justine T Kao",
-        "papers": 1
-      },
-      {
-        "name": "Adina Williams",
-        "papers": 1
-      },
-      {
         "name": "Russell Howes",
         "papers": 1
       },
@@ -1240,6 +1249,14 @@
       },
       {
         "name": "Polytechnique Montr'eal",
+        "papers": 1
+      },
+      {
+        "name": "Justine T Kao",
+        "papers": 1
+      },
+      {
+        "name": "Adina Williams",
         "papers": 1
       },
       {

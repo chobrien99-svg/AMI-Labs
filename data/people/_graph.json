@@ -1,6 +1,19 @@
 {
   "coAuthorship": [
     {
+      "a": "basile-terver",
+      "b": "yann-lecun",
+      "paperCount": 6,
+      "papers": [
+        "H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning",
+        "Hierarchical Planning with Latent World Models",
+        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
+        "Learning Latent Action World Models In The Wild",
+        "What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?",
+        "Back to the Features: DINO as a Foundation for Video World Models"
+      ]
+    },
+    {
       "a": "lucas-maes",
       "b": "quentin-le-lidec",
       "paperCount": 7,
@@ -55,10 +68,9 @@
     {
       "a": "li-jing",
       "b": "rohit-girdhar",
-      "paperCount": 2,
+      "paperCount": 1,
       "papers": [
-        "Understanding LLMs' summarization capabilities: an analysis of biomedical abstract and lay summary generation",
-        "Dialect Normalization using Large Language Models and Morphological Rules"
+        "Understanding LLMs' summarization capabilities: an analysis of biomedical abstract and lay summary generation"
       ]
     },
     {
@@ -124,14 +136,10 @@
     },
     {
       "a": "basile-terver",
-      "b": "yann-lecun",
-      "paperCount": 5,
+      "b": "mahmoud-assran",
+      "paperCount": 1,
       "papers": [
-        "Hierarchical Planning with Latent World Models",
-        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
-        "Learning Latent Action World Models In The Wild",
-        "What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?",
-        "Back to the Features: DINO as a Foundation for Video World Models"
+        "Hierarchical Planning with Latent World Models"
       ]
     },
     {
@@ -161,6 +169,15 @@
       ]
     },
     {
+      "a": "artem-zholus",
+      "b": "mahmoud-assran",
+      "paperCount": 2,
+      "papers": [
+        "Hierarchical Planning with Latent World Models",
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
+      ]
+    },
+    {
       "a": "adrien-bardes",
       "b": "amir-bar",
       "paperCount": 3,
@@ -173,7 +190,7 @@
     {
       "a": "amir-bar",
       "b": "yann-lecun",
-      "paperCount": 8,
+      "paperCount": 9,
       "papers": [
         "Hierarchical Planning with Latent World Models",
         "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
@@ -182,7 +199,18 @@
         "Parallel Stochastic Gradient-Based Planning for World Models",
         "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
         "Scaling Language-Free Visual Representation Learning",
+        "Stochastic positional embeddings improve masked image modeling",
         "A Cookbook of Self-Supervised Learning"
+      ]
+    },
+    {
+      "a": "amir-bar",
+      "b": "mahmoud-assran",
+      "paperCount": 3,
+      "papers": [
+        "Hierarchical Planning with Latent World Models",
+        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+        "Stochastic positional embeddings improve masked image modeling"
       ]
     },
     {
@@ -205,6 +233,29 @@
         "On the duality between contrastive and non-contrastive self-supervised learning",
         "VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning",
         "The Diashow Paradox: Stronger 3D-Aware Representations Emerge from Image Sets, Not Videos Anonymous ICCV submission"
+      ]
+    },
+    {
+      "a": "adrien-bardes",
+      "b": "mahmoud-assran",
+      "paperCount": 4,
+      "papers": [
+        "Hierarchical Planning with Latent World Models",
+        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+        "Revisiting Feature Prediction for Learning Visual Representations from Video"
+      ]
+    },
+    {
+      "a": "mahmoud-assran",
+      "b": "yann-lecun",
+      "paperCount": 5,
+      "papers": [
+        "Hierarchical Planning with Latent World Models",
+        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+        "Revisiting Feature Prediction for Learning Visual Representations from Video",
+        "Stochastic positional embeddings improve masked image modeling"
       ]
     },
     {
@@ -248,6 +299,15 @@
       ]
     },
     {
+      "a": "mahmoud-assran",
+      "b": "matthew-muckley",
+      "paperCount": 2,
+      "papers": [
+        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
+      ]
+    },
+    {
       "a": "amir-bar",
       "b": "michael-rabbat",
       "paperCount": 6,
@@ -278,6 +338,17 @@
         "Revisiting Feature Prediction for Learning Visual Representations from Video",
         "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
         "The Diashow Paradox: Stronger 3D-Aware Representations Emerge from Image Sets, Not Videos Anonymous ICCV submission"
+      ]
+    },
+    {
+      "a": "mahmoud-assran",
+      "b": "michael-rabbat",
+      "paperCount": 4,
+      "papers": [
+        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+        "Revisiting Feature Prediction for Learning Visual Representations from Video",
+        "DINOv2: Learning Robust Visual Features without Supervision"
       ]
     },
     {
@@ -448,20 +519,6 @@
       ]
     },
     {
-      "a": "michael-rabbat",
-      "b": "quentin-garrido",
-      "paperCount": 7,
-      "papers": [
-        "Interpreting Physics in Video World Models",
-        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
-        "Learning Latent Action World Models In The Wild",
-        "IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments",
-        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
-        "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
-        "Revisiting Feature Prediction for Learning Visual Representations from Video"
-      ]
-    },
-    {
       "a": "chao-du",
       "b": "min-lin",
       "paperCount": 36,
@@ -502,6 +559,20 @@
         "On Memorization in Diffusion Models",
         "Bag of Tricks for Training Data Extraction from Language Models",
         "Infecting LLM-based Multi-Agents via Self-propagating Adversarial Attacks"
+      ]
+    },
+    {
+      "a": "michael-rabbat",
+      "b": "quentin-garrido",
+      "paperCount": 7,
+      "papers": [
+        "Interpreting Physics in Video World Models",
+        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
+        "Learning Latent Action World Models In The Wild",
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+        "IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments",
+        "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
+        "Revisiting Feature Prediction for Learning Visual Representations from Video"
       ]
     },
     {
@@ -763,6 +834,16 @@
       ]
     },
     {
+      "a": "mahmoud-assran",
+      "b": "quentin-garrido",
+      "paperCount": 3,
+      "papers": [
+        "A Shortcut-aware Video-QA Benchmark for Physical Understanding via Minimal Video Pairs",
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+        "Revisiting Feature Prediction for Learning Visual Representations from Video"
+      ]
+    },
+    {
       "a": "adrien-bardes",
       "b": "david-fan",
       "paperCount": 2,
@@ -804,6 +885,14 @@
       ]
     },
     {
+      "a": "david-fan",
+      "b": "mahmoud-assran",
+      "paperCount": 1,
+      "papers": [
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
+      ]
+    },
+    {
       "a": "matthew-muckley",
       "b": "quentin-garrido",
       "paperCount": 1,
@@ -833,6 +922,14 @@
       "paperCount": 1,
       "papers": [
         "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
+      ]
+    },
+    {
+      "a": "mahmoud-assran",
+      "b": "mikael-henaff",
+      "paperCount": 1,
+      "papers": [
+        "Locate 3D: Real-World Object Localization via Self-Supervised Learning in 3D"
       ]
     },
     {

@@ -36,8 +36,869 @@
   ],
   "reportsTo": "saining-xie",
   "reports": [],
-  "papers": [],
-  "topPublications": [],
+  "papers": [
+    {
+      "paperId": "8451a69b7ff0c82cbc575bc86ce46f8af29d9fc6",
+      "title": "The Lattice of Transition Laws",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/8451a69b7ff0c82cbc575bc86ce46f8af29d9fc6",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tin-Yan Tsui"
+        },
+        {
+          "slug": null,
+          "name": "Ling-Jie Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "34dac978ca1e5a5895734fdb083e0ad55bc27564",
+      "title": "Uni-LaDiR: Latent Diffusion Unifies Multimodal Reasoning",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/34dac978ca1e5a5895734fdb083e0ad55bc27564",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Haoqiang Kang"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Zhen Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Nikki Lijing Kuang"
+        },
+        {
+          "slug": null,
+          "name": "Yi-An Ma"
+        },
+        {
+          "slug": null,
+          "name": "Lian-Hui Qin"
+        }
+      ]
+    },
+    {
+      "paperId": "19ce2437e3e3dea847158f697d7442bd5388df7b",
+      "title": "Latent Reasoning with Normalizing Flows",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2606.06447",
+      "citationCount": 4,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Guancheng Tu"
+        },
+        {
+          "slug": null,
+          "name": "Xiang Fu"
+        },
+        {
+          "slug": null,
+          "name": "Su-Hao Yu"
+        },
+        {
+          "slug": null,
+          "name": "Yao-Hua Tang"
+        },
+        {
+          "slug": null,
+          "name": "Haoqiang Kang"
+        },
+        {
+          "slug": null,
+          "name": "Lian-Hui Qin"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Zhe Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "711d95689035c3d9b2a8436878590047a91d5e87",
+      "title": "Multiplex Thinking: Reasoning via Token-wise Branch-and-Merge",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.08808",
+      "citationCount": 15,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yao Tang"
+        },
+        {
+          "slug": null,
+          "name": "Li Dong"
+        },
+        {
+          "slug": null,
+          "name": "Y. Hao"
+        },
+        {
+          "slug": null,
+          "name": "Qingxiu Dong"
+        },
+        {
+          "slug": null,
+          "name": "Fu-Ru Wei"
+        }
+      ]
+    },
+    {
+      "paperId": "30db10654933c134dea70e3f43d89eef9053599d",
+      "title": "DenseAnnotate: Enabling Scalable Dense Caption Collection for Images and 3D Scenes via Spoken Descriptions",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2511.12452",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Xiao Lin"
+        },
+        {
+          "slug": null,
+          "name": "Aniket Ghorpade"
+        },
+        {
+          "slug": null,
+          "name": "Hanshen Zhu"
+        },
+        {
+          "slug": null,
+          "name": "Justin Qiu"
+        },
+        {
+          "slug": null,
+          "name": "Dea Rrozhani"
+        },
+        {
+          "slug": null,
+          "name": "Mónica Lama"
+        },
+        {
+          "slug": null,
+          "name": "Michael Yang"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Xuan Bian"
+        },
+        {
+          "slug": null,
+          "name": "Ruohan Ren"
+        },
+        {
+          "slug": null,
+          "name": "Alan B. Hong"
+        },
+        {
+          "slug": null,
+          "name": "Christopher Callison-Burch"
+        }
+      ]
+    },
+    {
+      "paperId": "b254aa651f955b0a4a0ed349752374198ffc7686",
+      "title": "Continuously Augmented Discrete Diffusion model for Categorical Generative Modeling",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2510.01329",
+      "citationCount": 32,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Huangjie Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Shansan Gong"
+        },
+        {
+          "slug": null,
+          "name": "Rui-Xiang Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Tian-Rong Chen"
+        },
+        {
+          "slug": null,
+          "name": "Mingyuan Zhou"
+        },
+        {
+          "slug": null,
+          "name": "N. Jaitly"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Zhe Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "d1a47b22d36c1747ec88686a0301626119ec83a4",
+      "title": "Denoising Autoregressive Transformers for Scalable Text-to-Image Generation",
+      "year": 2025,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/d1a47b22d36c1747ec88686a0301626119ec83a4",
+      "citationCount": 5,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yu-Yang Wang"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Zhe Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Qihang Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Dinghuai Zhang"
+        },
+        {
+          "slug": null,
+          "name": "N. Jaitly"
+        },
+        {
+          "slug": null,
+          "name": "J. Susskind"
+        },
+        {
+          "slug": null,
+          "name": "Shuangfei Zhai"
+        }
+      ]
+    },
+    {
+      "paperId": "5d261402310229304989af0b4501b3e4b3df6491",
+      "title": "Flexible Language Modeling in Continuous Space with Transformer-based Autoregressive Flows",
+      "year": 2025,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2507.00425",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Rui-Xiang Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Shuangfei Zhai"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Zhe Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Huangjie Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Tian-Rong Chen"
+        },
+        {
+          "slug": null,
+          "name": "Miguel Angel Bautista"
+        },
+        {
+          "slug": null,
+          "name": "Joshua M. Susskind"
+        },
+        {
+          "slug": null,
+          "name": "N. Jaitly"
+        }
+      ]
+    },
+    {
+      "paperId": "967998eb3d491827832d9d5d5389a242bcce2ee3",
+      "title": "TADA: Improved Diffusion Sampling with Training-free Augmented Dynamics",
+      "year": 2025,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2506.21757",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Tian-Rong Chen"
+        },
+        {
+          "slug": null,
+          "name": "Huangjie Zheng"
+        },
+        {
+          "slug": null,
+          "name": "David Berthelot"
+        },
+        {
+          "slug": null,
+          "name": "J. Susskind"
+        },
+        {
+          "slug": null,
+          "name": "Shuangfei Zhai"
+        }
+      ]
+    },
+    {
+      "paperId": "61024282f1523543a5b06326cb58c9b6ad14cdd1",
+      "title": "DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.20639",
+      "citationCount": 202,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Shansan Gong"
+        },
+        {
+          "slug": null,
+          "name": "Rui-Xiang Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Huangjie Zheng"
+        },
+        {
+          "slug": null,
+          "name": "N. Jaitly"
+        },
+        {
+          "slug": null,
+          "name": "Ling-Peng Kong"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Zhe Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "7e0c608618c37d1d82d32dc48493140908a432e5",
+      "title": "What Makes the Preferred Thinking Direction for LLMs in Multiple-choice Questions?",
+      "year": 2025,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/7e0c608618c37d1d82d32dc48493140908a432e5",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yi-Zhe Zhang"
+        },
+        {
+          "slug": null,
+          "name": "R. Bai"
+        },
+        {
+          "slug": null,
+          "name": "Zijin Gu"
+        },
+        {
+          "slug": null,
+          "name": "Rui-Xiang Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Emmanuel Abbé"
+        },
+        {
+          "slug": null,
+          "name": "Samy Bengio"
+        },
+        {
+          "slug": null,
+          "name": "N. Jaitly"
+        }
+      ]
+    },
+    {
+      "paperId": "f06c6995371d5490ee40b1d4226657e0834e34e6",
+      "title": "Normalizing Flows are Capable Generative Models",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2412.06329",
+      "citationCount": 115,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Shuangfei Zhai"
+        },
+        {
+          "slug": null,
+          "name": "Rui-Xiang Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Preetum Nakkiran"
+        },
+        {
+          "slug": null,
+          "name": "David Berthelot"
+        },
+        {
+          "slug": null,
+          "name": "Huangjie Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Tian-Rong Chen"
+        },
+        {
+          "slug": null,
+          "name": "Miguel Angel Bautista"
+        },
+        {
+          "slug": null,
+          "name": "N. Jaitly"
+        },
+        {
+          "slug": null,
+          "name": "Joshua M. Susskind"
+        }
+      ]
+    },
+    {
+      "paperId": "b1092759de1ba84e621d9bc65b6cd61a3c4a1633",
+      "title": "World-consistent Video Diffusion with Explicit 3D Modeling",
+      "year": 2024,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52734.2025.02020",
+      "citationCount": 68,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Qihang Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Shuangfei Zhai"
+        },
+        {
+          "slug": null,
+          "name": "Miguel Martin"
+        },
+        {
+          "slug": null,
+          "name": "Kevin Miao"
+        },
+        {
+          "slug": null,
+          "name": "A. Toshev"
+        },
+        {
+          "slug": null,
+          "name": "J. Susskind"
+        }
+      ]
+    },
+    {
+      "paperId": "624ec6f47dc048cc406e01073c93ccf3754e47eb",
+      "title": "TypeScore: A Text Fidelity Metric for Text-to-Image Generative Models",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2411.02437",
+      "citationCount": 5,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Georgia Gabriela Sampaio"
+        },
+        {
+          "slug": null,
+          "name": "Rui-Xiang Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Shuangfei Zhai"
+        },
+        {
+          "slug": null,
+          "name": "J. Susskind"
+        },
+        {
+          "slug": null,
+          "name": "N. Jaitly"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Zhe Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "61bfd967a6ba21e50276e52f353fa74dd68990a6",
+      "title": "DART: Denoising Autoregressive Transformer for Scalable Text-to-Image Generation",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2410.08159",
+      "citationCount": 35,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yu-Yang Wang"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Zhe Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Qihang Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Dinghuai Zhang"
+        },
+        {
+          "slug": null,
+          "name": "N. Jaitly"
+        },
+        {
+          "slug": null,
+          "name": "J. Susskind"
+        },
+        {
+          "slug": null,
+          "name": "Shuangfei Zhai"
+        }
+      ]
+    },
+    {
+      "paperId": "a9fd657b71bb70da7ae918537286e2d6b234714e",
+      "title": "Data-free Distillation of Diffusion Models with Bootstrapping",
+      "year": 2024,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/a9fd657b71bb70da7ae918537286e2d6b234714e",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chen Wang"
+        },
+        {
+          "slug": null,
+          "name": "Shuangfei Zhai"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Zhe Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Ling-Jie Liu"
+        },
+        {
+          "slug": null,
+          "name": "J. Susskind"
+        }
+      ]
+    },
+    {
+      "paperId": "4da96a97a09dab8181c90a3cb195ee0ccb7e8601",
+      "title": "Improving GFlowNets for Text-to-Image Diffusion Alignment",
+      "year": 2024,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2406.00633",
+      "citationCount": 29,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Dinghuai Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Zhe Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Rui-Xiang Zhang"
+        },
+        {
+          "slug": null,
+          "name": "J. Susskind"
+        },
+        {
+          "slug": null,
+          "name": "N. Jaitly"
+        },
+        {
+          "slug": null,
+          "name": "Shuangfei Zhai"
+        }
+      ]
+    },
+    {
+      "paperId": "f2ade71bf8cfdef0ac82d50ad9e99b6bb8aa076a",
+      "title": "Kaleido Diffusion: Improving Conditional Diffusion Models with Autoregressive Latent Modeling",
+      "year": 2024,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2405.21048",
+      "citationCount": 19,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ying Shen"
+        },
+        {
+          "slug": null,
+          "name": "Shuangfei Zhai"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Zhe Zhang"
+        },
+        {
+          "slug": null,
+          "name": "N. Jaitly"
+        },
+        {
+          "slug": null,
+          "name": "J. Susskind"
+        }
+      ]
+    },
+    {
+      "paperId": "364b0b6a5ac9748a55717bee40b0bfc6c867862d",
+      "title": "Many-to-many Image Generation with Auto-regressive Diffusion Models",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2404.03109",
+      "citationCount": 8,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ying Shen"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Zhe Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Shuangfei Zhai"
+        },
+        {
+          "slug": null,
+          "name": "Li-Fu Huang"
+        },
+        {
+          "slug": null,
+          "name": "J. Susskind"
+        }
+      ]
+    },
+    {
+      "paperId": "672ad7c1bd1a6e4e47e4748b878a448225f07a10",
+      "title": "How Far Are We from Intelligent Visual Deductive Reasoning?",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2403.04732",
+      "citationCount": 41,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yi-Zhe Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Richard He Bai"
+        },
+        {
+          "slug": null,
+          "name": "Rui-Xiang Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Shuangfei Zhai"
+        },
+        {
+          "slug": null,
+          "name": "J. Susskind"
+        },
+        {
+          "slug": null,
+          "name": "N. Jaitly"
+        }
+      ]
+    },
+    {
+      "paperId": "5e7d4bb5431bc91d0ffd1b4e1575d7227021eaf8",
+      "title": "Divide-or-Conquer? Which Part Should You Distill Your LLM?",
+      "year": 2024,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.48550/arXiv.2402.15000",
+      "citationCount": 27,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Zhuofeng Wu"
+        },
+        {
+          "slug": null,
+          "name": "Richard He Bai"
+        },
+        {
+          "slug": null,
+          "name": "Aonan Zhang"
+        },
+        {
+          "slug": null,
+          "name": "V. G. Vinod Vydiswaran"
+        },
+        {
+          "slug": null,
+          "name": "N. Jaitly"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Zhe Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "4caefad1404f5a4ec155db3799fabdf97005b93c",
+      "title": "Efficient-NeRF2NeRF: Streamlining Text-Driven 3D Editing with Multiview Correspondence-Enhanced Diffusion Models",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2312.08563",
+      "citationCount": 21,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Liangchen Song"
+        },
+        {
+          "slug": null,
+          "name": "Liangliang Cao"
+        },
+        {
+          "slug": null,
+          "name": "Yifan Jiang"
+        },
+        {
+          "slug": null,
+          "name": "Junsong Yuan"
+        },
+        {
+          "slug": null,
+          "name": "Hao Tang"
+        }
+      ]
+    },
+    {
+      "paperId": "aaaf02c44c94309ec476fc7d3df6b8acf6b7bb10",
+      "title": "Learning Controllable 3D Diffusion Models from Single-view Images",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2304.06700",
+      "citationCount": 14,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Qingzhe Gao"
+        },
+        {
+          "slug": null,
+          "name": "Shuangfei Zhai"
+        },
+        {
+          "slug": null,
+          "name": "Baoquan Chen"
+        },
+        {
+          "slug": null,
+          "name": "Ling-Jie Liu"
+        },
+        {
+          "slug": null,
+          "name": "J. Susskind"
+        }
+      ]
+    },
+    {
+      "paperId": "a91c6ad6d97d958cc0bccc11a4e02cf272cab25d",
+      "title": "PLANNER: Generating Diversiﬁed Paragraph via Latent Language Diffusion Model",
+      "year": null,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/a91c6ad6d97d958cc0bccc11a4e02cf272cab25d",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yi-Zhe Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Zhuofeng Wu"
+        },
+        {
+          "slug": null,
+          "name": "Shuangfei Zhai"
+        },
+        {
+          "slug": null,
+          "name": "J. Susskind"
+        },
+        {
+          "slug": null,
+          "name": "N. Jaitly"
+        }
+      ]
+    }
+  ],
+  "topPublications": [
+    {
+      "title": "DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation",
+      "year": 2025,
+      "citationCount": 202,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.20639"
+    },
+    {
+      "title": "Continuously Augmented Discrete Diffusion model for Categorical Generative Modeling",
+      "year": 2025,
+      "citationCount": 32,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2510.01329"
+    },
+    {
+      "title": "Multiplex Thinking: Reasoning via Token-wise Branch-and-Merge",
+      "year": 2026,
+      "citationCount": 15,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.08808"
+    },
+    {
+      "title": "Flexible Language Modeling in Continuous Space with Transformer-based Autoregressive Flows",
+      "year": 2025,
+      "citationCount": 8,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2507.00425"
+    },
+    {
+      "title": "Latent Reasoning with Normalizing Flows",
+      "year": 2026,
+      "citationCount": 4,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2606.06447"
+    }
+  ],
   "githubProjects": [],
   "githubActivity": {
     "username": "MultiPath",
@@ -71,7 +932,272 @@
   ],
   "connections": {
     "coAuthors": [],
-    "externalCoAuthors": [],
+    "externalCoAuthors": [
+      {
+        "name": "Yi-Zhe Zhang",
+        "papers": 15
+      },
+      {
+        "name": "Shuangfei Zhai",
+        "papers": 14
+      },
+      {
+        "name": "N. Jaitly",
+        "papers": 13
+      },
+      {
+        "name": "J. Susskind",
+        "papers": 12
+      },
+      {
+        "name": "Rui-Xiang Zhang",
+        "papers": 8
+      },
+      {
+        "name": "Huangjie Zheng",
+        "papers": 5
+      },
+      {
+        "name": "Tian-Rong Chen",
+        "papers": 4
+      },
+      {
+        "name": "Ling-Jie Liu",
+        "papers": 3
+      },
+      {
+        "name": "Qihang Zhang",
+        "papers": 3
+      },
+      {
+        "name": "Dinghuai Zhang",
+        "papers": 3
+      },
+      {
+        "name": "Haoqiang Kang",
+        "papers": 2
+      },
+      {
+        "name": "Lian-Hui Qin",
+        "papers": 2
+      },
+      {
+        "name": "Shansan Gong",
+        "papers": 2
+      },
+      {
+        "name": "Yu-Yang Wang",
+        "papers": 2
+      },
+      {
+        "name": "Miguel Angel Bautista",
+        "papers": 2
+      },
+      {
+        "name": "Joshua M. Susskind",
+        "papers": 2
+      },
+      {
+        "name": "David Berthelot",
+        "papers": 2
+      },
+      {
+        "name": "Ying Shen",
+        "papers": 2
+      },
+      {
+        "name": "Richard He Bai",
+        "papers": 2
+      },
+      {
+        "name": "Zhuofeng Wu",
+        "papers": 2
+      },
+      {
+        "name": "Tin-Yan Tsui",
+        "papers": 1
+      },
+      {
+        "name": "Yi-Zhen Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Nikki Lijing Kuang",
+        "papers": 1
+      },
+      {
+        "name": "Yi-An Ma",
+        "papers": 1
+      },
+      {
+        "name": "Guancheng Tu",
+        "papers": 1
+      },
+      {
+        "name": "Xiang Fu",
+        "papers": 1
+      },
+      {
+        "name": "Su-Hao Yu",
+        "papers": 1
+      },
+      {
+        "name": "Yao-Hua Tang",
+        "papers": 1
+      },
+      {
+        "name": "Yao Tang",
+        "papers": 1
+      },
+      {
+        "name": "Li Dong",
+        "papers": 1
+      },
+      {
+        "name": "Y. Hao",
+        "papers": 1
+      },
+      {
+        "name": "Qingxiu Dong",
+        "papers": 1
+      },
+      {
+        "name": "Fu-Ru Wei",
+        "papers": 1
+      },
+      {
+        "name": "Xiao Lin",
+        "papers": 1
+      },
+      {
+        "name": "Aniket Ghorpade",
+        "papers": 1
+      },
+      {
+        "name": "Hanshen Zhu",
+        "papers": 1
+      },
+      {
+        "name": "Justin Qiu",
+        "papers": 1
+      },
+      {
+        "name": "Dea Rrozhani",
+        "papers": 1
+      },
+      {
+        "name": "Mónica Lama",
+        "papers": 1
+      },
+      {
+        "name": "Michael Yang",
+        "papers": 1
+      },
+      {
+        "name": "Zi-Xuan Bian",
+        "papers": 1
+      },
+      {
+        "name": "Ruohan Ren",
+        "papers": 1
+      },
+      {
+        "name": "Alan B. Hong",
+        "papers": 1
+      },
+      {
+        "name": "Christopher Callison-Burch",
+        "papers": 1
+      },
+      {
+        "name": "Mingyuan Zhou",
+        "papers": 1
+      },
+      {
+        "name": "Ling-Peng Kong",
+        "papers": 1
+      },
+      {
+        "name": "R. Bai",
+        "papers": 1
+      },
+      {
+        "name": "Zijin Gu",
+        "papers": 1
+      },
+      {
+        "name": "Emmanuel Abbé",
+        "papers": 1
+      },
+      {
+        "name": "Samy Bengio",
+        "papers": 1
+      },
+      {
+        "name": "Preetum Nakkiran",
+        "papers": 1
+      },
+      {
+        "name": "Miguel Martin",
+        "papers": 1
+      },
+      {
+        "name": "Kevin Miao",
+        "papers": 1
+      },
+      {
+        "name": "A. Toshev",
+        "papers": 1
+      },
+      {
+        "name": "Georgia Gabriela Sampaio",
+        "papers": 1
+      },
+      {
+        "name": "Chen Wang",
+        "papers": 1
+      },
+      {
+        "name": "Li-Fu Huang",
+        "papers": 1
+      },
+      {
+        "name": "Aonan Zhang",
+        "papers": 1
+      },
+      {
+        "name": "V. G. Vinod Vydiswaran",
+        "papers": 1
+      },
+      {
+        "name": "Liangchen Song",
+        "papers": 1
+      },
+      {
+        "name": "Liangliang Cao",
+        "papers": 1
+      },
+      {
+        "name": "Yifan Jiang",
+        "papers": 1
+      },
+      {
+        "name": "Junsong Yuan",
+        "papers": 1
+      },
+      {
+        "name": "Hao Tang",
+        "papers": 1
+      },
+      {
+        "name": "Qingzhe Gao",
+        "papers": 1
+      },
+      {
+        "name": "Baoquan Chen",
+        "papers": 1
+      }
+    ],
     "formerColleagues": [
       {
         "slug": "adrien-bardes",

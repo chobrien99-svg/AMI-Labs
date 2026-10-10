@@ -91,6 +91,10 @@
           "name": "Adrien Bardes"
         },
         {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
+        },
+        {
           "slug": null,
           "name": "Lorenzo Mur-Labadia"
         },
@@ -385,36 +389,6 @@
       ]
     },
     {
-      "paperId": "65f3e558fa1e558caf9cd952ce41fcdd82c8ff6d",
-      "title": "IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments",
-      "year": 2025,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2506.09849",
-      "citationCount": 40,
-      "coAuthors": [
-        {
-          "slug": "quentin-garrido",
-          "name": "Quentin Garrido"
-        },
-        {
-          "slug": null,
-          "name": "Florian Bordes"
-        },
-        {
-          "slug": null,
-          "name": "Justine T Kao"
-        },
-        {
-          "slug": null,
-          "name": "Adina Williams"
-        },
-        {
-          "slug": null,
-          "name": "Emmanuel Dupoux"
-        }
-      ]
-    },
-    {
       "paperId": "b202faf38efbffcb26470c702e1140b047d6f6e7",
       "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
@@ -445,6 +419,10 @@
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
+        },
+        {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
         },
         {
           "slug": null,
@@ -549,6 +527,36 @@
         {
           "slug": null,
           "name": "Polytechnique Montr'eal"
+        }
+      ]
+    },
+    {
+      "paperId": "65f3e558fa1e558caf9cd952ce41fcdd82c8ff6d",
+      "title": "IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2506.09849",
+      "citationCount": 40,
+      "coAuthors": [
+        {
+          "slug": "quentin-garrido",
+          "name": "Quentin Garrido"
+        },
+        {
+          "slug": null,
+          "name": "Florian Bordes"
+        },
+        {
+          "slug": null,
+          "name": "Justine T Kao"
+        },
+        {
+          "slug": null,
+          "name": "Adina Williams"
+        },
+        {
+          "slug": null,
+          "name": "Emmanuel Dupoux"
         }
       ]
     },
@@ -715,6 +723,10 @@
           "name": "Yann LeCun"
         },
         {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
+        },
+        {
           "slug": null,
           "name": "Jean Ponce"
         },
@@ -876,6 +888,10 @@
       "url": "https://doi.org/10.48550/arXiv.2304.07193",
       "citationCount": 10335,
       "coAuthors": [
+        {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
+        },
         {
           "slug": null,
           "name": "M. Oquab"
@@ -2583,6 +2599,11 @@
         "sharedPapers": 6
       },
       {
+        "slug": "mahmoud-assran",
+        "name": "Mahmoud Assran",
+        "sharedPapers": 4
+      },
+      {
         "slug": "saining-xie",
         "name": "Saining Xie",
         "sharedPapers": 3
@@ -2704,10 +2725,6 @@
         "papers": 3
       },
       {
-        "name": "Florian Bordes",
-        "papers": 3
-      },
-      {
         "name": "Vasil Khalidov",
         "papers": 3
       },
@@ -2717,6 +2734,10 @@
       },
       {
         "name": "Francisco Massa",
+        "papers": 3
+      },
+      {
+        "name": "Florian Bordes",
         "papers": 3
       },
       {
@@ -2784,10 +2805,6 @@
         "papers": 2
       },
       {
-        "name": "Emmanuel Dupoux",
-        "papers": 2
-      },
-      {
         "name": "Russell Howes",
         "papers": 2
       },
@@ -2805,6 +2822,10 @@
       },
       {
         "name": "Marc Szafraniec",
+        "papers": 2
+      },
+      {
+        "name": "Emmanuel Dupoux",
         "papers": 2
       },
       {
@@ -2996,14 +3017,6 @@
         "papers": 1
       },
       {
-        "name": "Justine T Kao",
-        "papers": 1
-      },
-      {
-        "name": "Adina Williams",
-        "papers": 1
-      },
-      {
         "name": "Sergio Arnaud",
         "papers": 1
       },
@@ -3057,6 +3070,14 @@
       },
       {
         "name": "Polytechnique Montr'eal",
+        "papers": 1
+      },
+      {
+        "name": "Justine T Kao",
+        "papers": 1
+      },
+      {
+        "name": "Adina Williams",
         "papers": 1
       },
       {
