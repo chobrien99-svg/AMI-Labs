@@ -38,6 +38,40 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "48cb3f3103251bf435a5664b848c182c4d1a980f",
+      "title": "Purify Before You Align: Improving Representation Alignment for Diffusion Models",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/48cb3f3103251bf435a5664b848c182c4d1a980f",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yingheng Wang"
+        },
+        {
+          "slug": null,
+          "name": "Yao Li"
+        },
+        {
+          "slug": null,
+          "name": "Ya-Qin Wu"
+        },
+        {
+          "slug": null,
+          "name": "Junwen Bai"
+        },
+        {
+          "slug": null,
+          "name": "Christopher De Sa"
+        },
+        {
+          "slug": null,
+          "name": "V. Kuleshov"
+        }
+      ]
+    },
+    {
       "paperId": "8451a69b7ff0c82cbc575bc86ce46f8af29d9fc6",
       "title": "The Lattice of Transition Laws",
       "year": 2026,
@@ -866,16 +900,9 @@
     {
       "title": "DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation",
       "year": 2025,
-      "citationCount": 202,
+      "citationCount": 205,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.20639"
-    },
-    {
-      "title": "Continuously Augmented Discrete Diffusion model for Categorical Generative Modeling",
-      "year": 2025,
-      "citationCount": 32,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2510.01329"
     },
     {
       "title": "Multiplex Thinking: Reasoning via Token-wise Branch-and-Merge",
@@ -897,6 +924,13 @@
       "citationCount": 4,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2606.06447"
+    },
+    {
+      "title": "TADA: Improved Diffusion Sampling with Training-free Augmented Dynamics",
+      "year": 2025,
+      "citationCount": 2,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2506.21757"
     }
   ],
   "githubProjects": [],
@@ -1012,6 +1046,30 @@
       {
         "name": "Zhuofeng Wu",
         "papers": 2
+      },
+      {
+        "name": "Yingheng Wang",
+        "papers": 1
+      },
+      {
+        "name": "Yao Li",
+        "papers": 1
+      },
+      {
+        "name": "Ya-Qin Wu",
+        "papers": 1
+      },
+      {
+        "name": "Junwen Bai",
+        "papers": 1
+      },
+      {
+        "name": "Christopher De Sa",
+        "papers": 1
+      },
+      {
+        "name": "V. Kuleshov",
+        "papers": 1
       },
       {
         "name": "Tin-Yan Tsui",

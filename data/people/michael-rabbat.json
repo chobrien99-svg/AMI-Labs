@@ -745,6 +745,40 @@
       ]
     },
     {
+      "paperId": "65f95ff2b1ca682f960c2e6edcd3fa281b831ee8",
+      "title": "Understanding Contrastive Representation Learning from Positive Unlabeled (PU) Data",
+      "year": 2024,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/65f95ff2b1ca682f960c2e6edcd3fa281b831ee8",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Anish Acharya"
+        },
+        {
+          "slug": null,
+          "name": "Jing Li"
+        },
+        {
+          "slug": null,
+          "name": "Bhargav Bhushanam"
+        },
+        {
+          "slug": null,
+          "name": "Dhruv Choudhary"
+        },
+        {
+          "slug": null,
+          "name": "Sujay Sanghavi"
+        },
+        {
+          "slug": null,
+          "name": "Inderjit S. Dhillon"
+        }
+      ]
+    },
+    {
       "paperId": "942c856469a6feee06c6c90c1571d6f4d3ebc65b",
       "title": "Contrastive Positive Unlabeled Learning",
       "year": 2023,
@@ -1075,6 +1109,28 @@
         {
           "slug": null,
           "name": "Nicolas Ballas"
+        }
+      ]
+    },
+    {
+      "paperId": "32de8d5e2c38506227300691ca07a56f640017fd",
+      "title": "Privacy-Aware Compression for Federated Learning Through Numerical Mechanism Design",
+      "year": 2022,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/32de8d5e2c38506227300691ca07a56f640017fd",
+      "citationCount": 10,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chuan Guo"
+        },
+        {
+          "slug": null,
+          "name": "K. Chaudhuri"
+        },
+        {
+          "slug": null,
+          "name": "Pierre Stock"
         }
       ]
     },
@@ -2289,28 +2345,6 @@
       ]
     },
     {
-      "paperId": "b42c38975f3d3f8bfe4b0c1a6e576c3e297cec38",
-      "title": "Stochastic Gradient Push for Distributed Deep Learning",
-      "year": 2018,
-      "venue": "International Conference on Machine Learning",
-      "url": "https://www.semanticscholar.org/paper/b42c38975f3d3f8bfe4b0c1a6e576c3e297cec38",
-      "citationCount": 414,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Mahmoud Assran"
-        },
-        {
-          "slug": null,
-          "name": "Nicolas Loizou"
-        },
-        {
-          "slug": null,
-          "name": "Nicolas Ballas"
-        }
-      ]
-    },
-    {
       "paperId": "be2bd2ca84460ab58c5563789b8cd482e977ee76",
       "title": "The Diashow Paradox: Stronger 3D-Aware Representations Emerge from Image Sets, Not Videos Anonymous ICCV submission",
       "year": null,
@@ -2517,37 +2551,37 @@
     {
       "title": "DINOv2: Learning Robust Visual Features without Supervision",
       "year": 2023,
-      "citationCount": 10487,
+      "citationCount": 11345,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2304.07193"
     },
     {
       "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
       "year": 2023,
-      "citationCount": 1236,
+      "citationCount": 1441,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01499"
     },
     {
       "title": "Revisiting Feature Prediction for Learning Visual Representations from Video",
       "year": 2024,
-      "citationCount": 507,
+      "citationCount": 630,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2404.08471"
     },
     {
-      "title": "Federated Learning with Partial Model Personalization",
-      "year": 2022,
-      "citationCount": 247,
-      "venue": "International Conference on Machine Learning",
-      "url": "https://doi.org/10.48550/arXiv.2204.03809"
-    },
-    {
       "title": "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
       "year": 2025,
-      "citationCount": 75,
+      "citationCount": 86,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2502.11831"
+    },
+    {
+      "title": "Benchmarking Neural Network Training Algorithms",
+      "year": 2023,
+      "citationCount": 60,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2306.07179"
     }
   ],
   "githubProjects": [],
@@ -2642,11 +2676,11 @@
     "externalCoAuthors": [
       {
         "name": "Nicolas Ballas",
-        "papers": 21
+        "papers": 20
       },
       {
         "name": "Mahmoud Assran",
-        "papers": 14
+        "papers": 13
       },
       {
         "name": "Koustuv Sinha",
@@ -2741,11 +2775,27 @@
         "papers": 3
       },
       {
+        "name": "Anish Acharya",
+        "papers": 3
+      },
+      {
+        "name": "Bhargav Bhushanam",
+        "papers": 3
+      },
+      {
+        "name": "Sujay Sanghavi",
+        "papers": 3
+      },
+      {
         "name": "Armand Joulin",
         "papers": 3
       },
       {
         "name": "Ashkan Yousefpour",
+        "papers": 3
+      },
+      {
+        "name": "Pierre Stock",
         "papers": 3
       },
       {
@@ -2841,15 +2891,7 @@
         "papers": 2
       },
       {
-        "name": "Anish Acharya",
-        "papers": 2
-      },
-      {
-        "name": "Sujay Sanghavi",
-        "papers": 2
-      },
-      {
-        "name": "Bhargav Bhushanam",
+        "name": "Dhruv Choudhary",
         "papers": 2
       },
       {
@@ -2857,7 +2899,7 @@
         "papers": 2
       },
       {
-        "name": "Pierre Stock",
+        "name": "Chuan Guo",
         "papers": 2
       },
       {
@@ -3097,6 +3139,14 @@
         "papers": 1
       },
       {
+        "name": "Jing Li",
+        "papers": 1
+      },
+      {
+        "name": "Inderjit S. Dhillon",
+        "papers": 1
+      },
+      {
         "name": "George E. Dahl",
         "papers": 1
       },
@@ -3277,6 +3327,10 @@
         "papers": 1
       },
       {
+        "name": "K. Chaudhuri",
+        "papers": 1
+      },
+      {
         "name": "Mitchell Wortsman",
         "papers": 1
       },
@@ -3297,19 +3351,11 @@
         "papers": 1
       },
       {
-        "name": "Chuan Guo",
-        "papers": 1
-      },
-      {
         "name": "Kamalika Chaudhuri",
         "papers": 1
       },
       {
         "name": "AI Meta",
-        "papers": 1
-      },
-      {
-        "name": "Dhruv Choudhary",
         "papers": 1
       },
       {
@@ -3490,10 +3536,6 @@
       },
       {
         "name": "M. Drozdzal",
-        "papers": 1
-      },
-      {
-        "name": "Nicolas Loizou",
         "papers": 1
       },
       {
