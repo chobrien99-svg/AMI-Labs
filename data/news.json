@@ -1,5 +1,113 @@
 [
   {
+    "id": "da7bd6d2-c42e-43c8-a521-38a4303b20d7",
+    "title": "The death of humanity",
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/10/16/the-death-of-humanity-stephen-messer/",
+    "publishedAt": "2026-10-16",
+    "summary": "```\n```",
+    "tags": [],
+    "score": 50,
+    "status": "pending",
+    "addedAt": "2026-10-17T11:22:41.836Z",
+    "image": "https://fortune.com/img-assets/wp-content/uploads/2026/08/AWRZaZwY6s0qsQTQ8FUcAYU5k.webp?resize=1200,600"
+  },
+  {
+    "id": "1b26a91f-eac7-40d8-8081-04f76a6dd285",
+    "title": "Show HN: GmailClass – Chrome extension that labels Gmail emails",
+    "source": "Hacker News",
+    "url": "https://gmailclass.ticekralt.com/",
+    "publishedAt": "2026-10-17",
+    "summary": "GmailClass is a Chrome extension designed to automatically label Gmail emails using machine intelligence. The tool aims to help users organize their inbox by intelligently categorizing incoming messages.",
+    "tags": [],
+    "score": 42,
+    "status": "pending",
+    "addedAt": "2026-10-17T11:22:43.822Z",
+    "image": "https://gmailclass.ticekralt.com/gmailclass-og.png"
+  },
+  {
+    "id": "b8c65c96-8d8d-43d3-b109-f46247eb2b9a",
+    "title": "MAGS: Machine-checked guarantees on specified safety properties in AI code",
+    "source": "Hacker News",
+    "url": "https://arxiv.org/abs/2609.19391",
+    "publishedAt": "2026-10-17",
+    "summary": "AMI Labs researchers have developed MAGS (Machine-checked guarantees on specified safety properties), a framework for verifying AI code against specified safety properties through machine-checked methods. The approach aims to provide formal guarantees that AI systems meet defined safety requirements, addressing a critical challenge in ensuring reliable and trustworthy AI systems.",
+    "tags": [],
+    "score": 42,
+    "status": "pending",
+    "addedAt": "2026-10-17T11:22:46.318Z",
+    "image": "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+  },
+  {
+    "id": "b4fdf98e-4dc6-444f-b7cd-0e0850511205",
+    "title": "Show HN: CoastMath: (Open Source) Personal Finance and Retirement Planner",
+    "source": "Hacker News",
+    "url": "https://github.com/blank-slate-labs/coastmath",
+    "publishedAt": "2026-10-16",
+    "summary": "CoastMath is an open-source personal finance and retirement planning tool developed by Blank Slate Labs. The project was shared on Hacker News as a Show HN submission, allowing users to plan their finances and retirement goals through an accessible, community-driven software solution.",
+    "tags": [],
+    "score": 50,
+    "status": "pending",
+    "addedAt": "2026-10-17T11:22:49.580Z",
+    "image": "https://opengraph.githubassets.com/684ead4a5e497579598de9e498ded67d96d62b736de3c07b76d683d614211ac9/blank-slate-labs/coastmath"
+  },
+  {
+    "id": "a973c7de-4040-474d-868b-8d6fa8b702b3",
+    "title": "Show HN: Gondwana, a code-first C#/.NET game engine with WebGL",
+    "source": "Hacker News",
+    "url": "https://github.com/Isthimius/Gondwana",
+    "publishedAt": "2026-10-16",
+    "summary": "Gondwana is a code-first game engine for C#/.NET that compiles to WebGL, enabling developers to build games using .NET technologies for web deployment. The project was shared on Hacker News as an open-source initiative, highlighting an alternative approach to game development that prioritizes code-based workflows over visual editors.",
+    "tags": [],
+    "score": 42,
+    "status": "pending",
+    "addedAt": "2026-10-17T11:22:52.529Z",
+    "image": "https://opengraph.githubassets.com/9c54f418c5d92624b702f6160c50a0ef9630434b88a01ef8d6aef0fd74b08ce5/Isthimius/Gondwana"
+  },
+  {
+    "id": "531a236d-015f-44e6-b1b0-c98b39c63ddd",
+    "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+    "source": "Hacker News",
+    "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+    "publishedAt": "2026-10-16",
+    "summary": "According to research from AMI Labs, approximately 90% of working hours in the US involve tasks that are not adequately measured or evaluated by current AI benchmarks. This finding suggests a significant gap between what existing AI performance metrics assess and the actual scope of work performed by human workers.",
+    "tags": [],
+    "score": 57,
+    "status": "pending",
+    "addedAt": "2026-10-17T11:22:55.043Z",
+    "image": "https://www.mercor.com/mercor-logo-white.png"
+  },
+  {
+    "id": "76d17f3c-daf6-4351-8f10-a03bd378c9e6",
+    "title": "Show HN: rStation – A shared research lab for your AI agents",
+    "source": "Hacker News",
+    "url": "https://rstation.ai/",
+    "publishedAt": "2026-10-16",
+    "summary": "rStation is a shared research lab platform that enables multiple AI agents to collaborate and work together on tasks. The tool appears designed to facilitate coordination and resource-sharing among artificial intelligence systems in a research or development environment.",
+    "tags": [
+      "research"
+    ],
+    "score": 50,
+    "status": "pending",
+    "addedAt": "2026-10-17T11:22:57.243Z",
+    "image": "https://rstation.ai/assets/rstation-social-design-a-20261017.jpg"
+  },
+  {
+    "id": "6d60339b-d9b1-445b-8f22-5aa557cb4a8c",
+    "title": "Show HN: SlopGrid – Create your own oneshot AI model benchmarks",
+    "source": "Hacker News",
+    "url": "https://slopgrid.com/",
+    "publishedAt": "2026-10-16",
+    "summary": "SlopGrid is a tool that enables users to create custom one-shot AI model benchmarks for testing and evaluating machine learning models. The platform allows developers to quickly set up their own performance benchmarks without requiring extensive setup or configuration. This resource is particularly useful for those looking to assess AI model capabilities in specific use cases or domains.",
+    "tags": [
+      "research"
+    ],
+    "score": 42,
+    "status": "pending",
+    "addedAt": "2026-10-17T11:22:59.889Z",
+    "image": null
+  },
+  {
     "id": "6e8f0d76-5e4e-44ff-842d-89efb6c1fc30",
     "title": "South Korea Is Not an 'AI Big 3' Power—Global Leaders Assess Its Current Standing and Path Forward - BigGo Finance",
     "source": "Google News",
