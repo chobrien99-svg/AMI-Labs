@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T10:23:42.429Z",
+  "generatedAt": "2026-10-24T10:48:33.066Z",
   "papers": [
     {
       "paperId": "48cb3f3103251bf435a5664b848c182c4d1a980f",
@@ -1554,6 +1554,262 @@
       "abstract": "Joint-embedding predictive architectures (JEPAs) learn latent dynamics for planning and avoid representation collapse by matching features to maximum-entropy distributions such as isotropic Gaussians, yielding dense representations. However, it is unclear whether dense representations are the most favorable geometry for modeling dynamics. In this work, we ask whether a different geometry, sparse representations, can make action-conditioned latent dynamics easier to model, and what dynamical structure emerges from such representations. We first show that nonlinear Lipschitz dynamics can be approximated arbitrarily well by action-conditioned linear dynamics in a sufficiently high-dimensional one-hot latent space, with rollout error vanishing as the dimension grows. This motivates distributed sparse representations as a practical relaxation of one-hot sparsity. We introduce LpWorldModel (LpWM), a JEPA model regularized with Rectified Distribution Matching Regularization (RDMReg) to match encoder features to a Rectified Generalized Gaussian distribution, yielding non-negative sparse codes. Empirically, sparsity lowers the predictor complexity required for successful planning: on PushT,"
     },
     {
+      "paperId": "f587565885eaa432dda4a0bfd55fa20019b56dee",
+      "title": "Advancing Open and Reproducible Relational Learning: RelArena-$\\alpha$, TabPFN-Rel and RPI",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "A. Hayler",
+          "authorId": "2257033766",
+          "slug": null
+        },
+        {
+          "name": "Klemens Flöge",
+          "authorId": "2305165647",
+          "slug": null
+        },
+        {
+          "name": "Alan Arazi",
+          "authorId": "2316639885",
+          "slug": null
+        },
+        {
+          "name": "Rishabh Ranjan",
+          "authorId": "2268710645",
+          "slug": null
+        },
+        {
+          "name": "J. Leskovec",
+          "authorId": "2251205420",
+          "slug": null
+        },
+        {
+          "name": "Felix Birkel",
+          "authorId": "2391960640",
+          "slug": null
+        },
+        {
+          "name": "Brendan Roof",
+          "authorId": "144166461",
+          "slug": null
+        },
+        {
+          "name": "Anurag Garg",
+          "authorId": "2054554698",
+          "slug": null
+        },
+        {
+          "name": "Kristina Collins",
+          "authorId": "2458112134",
+          "slug": null
+        },
+        {
+          "name": "Lydia Sidhoum",
+          "authorId": "2458109526",
+          "slug": null
+        },
+        {
+          "name": "Jonas M. Kübler",
+          "authorId": "2316130157",
+          "slug": null
+        },
+        {
+          "name": "Si-Yuan Guo",
+          "authorId": "2302363710",
+          "slug": null
+        },
+        {
+          "name": "Oscar Key",
+          "authorId": "12389060",
+          "slug": null
+        },
+        {
+          "name": "J. Metzen",
+          "authorId": "2708564",
+          "slug": null
+        },
+        {
+          "name": "Rylee Grace",
+          "authorId": "2458097245",
+          "slug": null
+        },
+        {
+          "name": "David Salinas",
+          "authorId": "2323376035",
+          "slug": null
+        },
+        {
+          "name": "Arthur Cahu",
+          "authorId": "2458108634",
+          "slug": null
+        },
+        {
+          "name": "S. Bing",
+          "authorId": "2265493609",
+          "slug": null
+        },
+        {
+          "name": "Benjamin Jäger",
+          "authorId": "2500372151",
+          "slug": null
+        },
+        {
+          "name": "Tuana Celik",
+          "authorId": "66619669",
+          "slug": null
+        },
+        {
+          "name": "Mihir Manium",
+          "authorId": "2391960371",
+          "slug": null
+        },
+        {
+          "name": "V. Monteiro",
+          "authorId": "2394703498",
+          "slug": null
+        },
+        {
+          "name": "Jake Robertson",
+          "authorId": "2310345324",
+          "slug": null
+        },
+        {
+          "name": "Jerry Chen",
+          "authorId": "2329519264",
+          "slug": null
+        },
+        {
+          "name": "E. Kalfon",
+          "authorId": "13795255",
+          "slug": null
+        },
+        {
+          "name": "Tomás Pereda",
+          "authorId": "2458111795",
+          "slug": null
+        },
+        {
+          "name": "L. Wehrhahn",
+          "authorId": "2391960298",
+          "slug": null
+        },
+        {
+          "name": "Dominik Safaric",
+          "authorId": "2391960739",
+          "slug": null
+        },
+        {
+          "name": "Tobias Schroeder",
+          "authorId": "2053476879",
+          "slug": null
+        },
+        {
+          "name": "G. Grab",
+          "authorId": "97004288",
+          "slug": null
+        },
+        {
+          "name": "D. Kriuchkova",
+          "authorId": "90807123",
+          "slug": null
+        },
+        {
+          "name": "Clara Cornu",
+          "authorId": "2391960049",
+          "slug": null
+        },
+        {
+          "name": "Philipp Singer",
+          "authorId": "2047331906",
+          "slug": null
+        },
+        {
+          "name": "Nick Erickson",
+          "authorId": "2265495099",
+          "slug": null
+        },
+        {
+          "name": "Vahid Balazadeh",
+          "authorId": "2349458370",
+          "slug": null
+        },
+        {
+          "name": "M. Salmon",
+          "authorId": "2465959466",
+          "slug": null
+        },
+        {
+          "name": "Simone Alessi",
+          "authorId": "2391960043",
+          "slug": null
+        },
+        {
+          "name": "Kursat Kaya",
+          "authorId": "2456437453",
+          "slug": null
+        },
+        {
+          "name": "Philippe Jund",
+          "authorId": "2359891271",
+          "slug": null
+        },
+        {
+          "name": "Léo Grinsztajn",
+          "authorId": "1509420956",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "1688882",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "B. Schölkopf",
+          "authorId": "1707625",
+          "slug": null
+        },
+        {
+          "name": "Madelon Hulsebos",
+          "authorId": "51309767",
+          "slug": null
+        },
+        {
+          "name": "L. Purucker",
+          "authorId": "2300096908",
+          "slug": null
+        },
+        {
+          "name": "Sauraj Gambhir",
+          "authorId": "2391960348",
+          "slug": null
+        },
+        {
+          "name": "Frank Hutter",
+          "authorId": "2294612396",
+          "slug": null
+        },
+        {
+          "name": "N. Hollmann",
+          "authorId": "2073442519",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-08-17",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/f587565885eaa432dda4a0bfd55fa20019b56dee",
+      "citationCount": 4,
+      "tldr": "This first release of Prior Labs in relational learning opens-source three pieces of software that expect to accelerate research in the field towards meaningful real-world impact and releases an initial version of RPI, an open-source, model-agnostic interface that enables early adopters to easily define problems on new databases and apply any model implemented in RelArena, including TabPFN-Rel, to these problems.",
+      "abstract": "This first release of Prior Labs in relational learning shows our continued commitment to open science. We open-source three pieces of software that we expect to accelerate research in the field towards meaningful real-world impact. We aim to steer further development based on feedback from, and in collaboration with, the community. Given the early stage of development, our $\\alpha$-release targets researchers and early-adopting practitioners. Over the past years, a variety of datasets and tasks for relational learning have emerged, but the community has not converged on a reliable, reproducible way to compare different methods on these tasks. Our $\\alpha$-release, RelArena-$\\alpha$, provides a unified framework for running and comparing baselines on RelBench v1 by standardizing data loading, evaluation protocols, tuning regimes, and support for systems with custom tuning, inspired by established tabular benchmarks such as TabArena. We plan to work with the research community to further develop RelArena-$\\alpha$ into a catalyst for progress in the relational learning community. We release the initial version of TabPFN-Rel, a purpose-built relational harness for TabPFN-3. Currently "
+    },
+    {
       "paperId": "2b1d8926a978f468ce80781baac50661a44a851f",
       "title": "StarVerus: LLM-Powered Multi-Agent Collaboration for Industrial Rust Code Verification Automation",
       "teamAuthors": [
@@ -2092,6 +2348,42 @@
       "abstract": "Code repair is an important capability for language models (LMs): given a buggy program and unit tests, an LM must produce a fixed program that passes the tests. Because code repair data is limited, we aim to scale supervision by using an LM to generate bug--fix tasks. We propose __generator--fixer self-play__, in which a single model is trained with reinforcement learning to generate bugs and fix them. As the fixer improves, the generator adapts to produce more difficult bugs, yielding an automatic curriculum. To test whether this curriculum generalizes, we introduce BugSourceBench, a repair benchmark spanning realistic bug sources: bugs in human-written code, LM-generated code, and human-edited LM-generated code. On BugSourceBench, we find that self-play drifts toward difficult but unrealistic bugs, improving on synthetic bugs but degrading on human-authored ones. We propose Anchored Self-Play (ASP), which anchors self-play with a small reference set by adding a code-embedding similarity reward for generation and mixing reference bugs into fixer training. Across bug sources, ASP achieves the best fix rates, improving average fix rate over standard self-play by $+24\\%$ relative / "
     },
     {
+      "paperId": "e853967245079e097de13475b229d16988065719",
+      "title": "The Tale of the Broken Clock: How LLMs Evaluate Requirement Quality and Where They Fail",
+      "teamAuthors": [
+        {
+          "slug": "adithya-iyer",
+          "name": "Adithya Iyer"
+        }
+      ],
+      "authors": [
+        {
+          "name": "J. Shefa",
+          "authorId": "2141817729",
+          "slug": null
+        },
+        {
+          "name": "Adithya Iyer",
+          "authorId": "2393205310",
+          "slug": "adithya-iyer"
+        },
+        {
+          "name": "Taylan G. Topcu",
+          "authorId": "101082843",
+          "slug": null
+        }
+      ],
+      "memberSlug": "adithya-iyer",
+      "memberName": "Adithya Iyer",
+      "publicationDate": "2026-07-01",
+      "year": 2026,
+      "venue": null,
+      "url": "https://doi.org/10.1002/iis2.70245",
+      "citationCount": 0,
+      "tldr": "Off‐the‐shelf LLMs are not yet suitable for autonomous requirement quality evaluation; yet could be more suitable to assist human experts or serve specialized roles in agentic AI frameworks.",
+      "abstract": null
+    },
+    {
       "paperId": "7d909170d91e1b35b4b9a8ac01731d7aed2cd53e",
       "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
       "teamAuthors": [
@@ -2236,42 +2528,6 @@
       "citationCount": 9,
       "tldr": null,
       "abstract": ","
-    },
-    {
-      "paperId": "e853967245079e097de13475b229d16988065719",
-      "title": "The Tale of the Broken Clock: How LLMs Evaluate Requirement Quality and Where They Fail",
-      "teamAuthors": [
-        {
-          "slug": "adithya-iyer",
-          "name": "Adithya Iyer"
-        }
-      ],
-      "authors": [
-        {
-          "name": "J. Shefa",
-          "authorId": "2141817729",
-          "slug": null
-        },
-        {
-          "name": "Adithya Iyer",
-          "authorId": "2393205310",
-          "slug": "adithya-iyer"
-        },
-        {
-          "name": "Taylan G. Topcu",
-          "authorId": "101082843",
-          "slug": null
-        }
-      ],
-      "memberSlug": "adithya-iyer",
-      "memberName": "Adithya Iyer",
-      "publicationDate": "2026-07-01",
-      "year": 2026,
-      "venue": null,
-      "url": "https://doi.org/10.1002/iis2.70245",
-      "citationCount": 0,
-      "tldr": "Off‐the‐shelf LLMs are not yet suitable for autonomous requirement quality evaluation; yet could be more suitable to assist human experts or serve specialized roles in agentic AI frameworks.",
-      "abstract": null
     },
     {
       "paperId": "35f8de974adebb5e036af5f4524d8358ef1f0171",
@@ -3095,6 +3351,67 @@
       "citationCount": 12,
       "tldr": "It is proved that LeJEPA (alignment plus Gaussian regularization) linearly recovers the world's latent variables from nonlinear observations, a property known as linear identifiability, in a broad class of worlds where latents evolve under stationary, additive-noise transitions, and the Gaussian is the unique latent distribution for which this guarantee holds.",
       "abstract": "A representation that scrambles the true degrees of freedom of the world cannot support reliable planning or compositional generalization. We prove that LeJEPA (alignment plus Gaussian regularization) linearly recovers the world's latent variables from nonlinear observations, a property known as linear identifiability, in a broad class of worlds where latents evolve under stationary, additive-noise transitions. Our main result is that among all such worlds, the Gaussian is the unique latent distribution for which this guarantee holds. The forward direction rests on a spectral decomposition in which each degree of nonlinearity is strictly penalized by alignment, making the linear map the optimum; the converse rules out every non-Gaussian alternative. We further prove an approximate identifiability result where the guarantee degrades gracefully, and show that linear, orthogonal identifiability enables optimal latent-space planning. We validate the theory with experiments ranging from 2D examples to 1024-dimensional latents, including distributional ablations and pixel-based robotic control. Our theory turns an empirically successful recipe into a mathematical guarantee, providing the"
+    },
+    {
+      "paperId": "20ba4363b7275178aaca520f9f16b39dad3a87d0",
+      "title": "Announcing the Shaw Prize in Computer Science",
+      "teamAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Jennifer T. Chayes",
+          "authorId": "2374227632",
+          "slug": null
+        },
+        {
+          "name": "T. F. Chan",
+          "authorId": "2067967062",
+          "slug": null
+        },
+        {
+          "name": "Jack J. Dongarra",
+          "authorId": "2267216686",
+          "slug": null
+        },
+        {
+          "name": "John L. Hennessy",
+          "authorId": "2328138947",
+          "slug": null
+        },
+        {
+          "name": "Yann LeCun",
+          "authorId": "1688882",
+          "slug": "yann-lecun"
+        },
+        {
+          "name": "Harry Shum",
+          "authorId": "144154486",
+          "slug": null
+        },
+        {
+          "name": "Joseph Sifakis",
+          "authorId": "2256520183",
+          "slug": null
+        },
+        {
+          "name": "Jeannette M. Wing",
+          "authorId": "2272152313",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yann-lecun",
+      "memberName": "Yann LeCun",
+      "publicationDate": "2026-05-21",
+      "year": 2026,
+      "venue": "Communications of the ACM",
+      "url": "https://doi.org/10.1145/3811413",
+      "citationCount": 0,
+      "tldr": null,
+      "abstract": "Nominations for this new prize will be invited September to November 2026."
     },
     {
       "paperId": "98bfd032ec0208cadd3a5deb9f34d4b228736599",
@@ -5257,42 +5574,6 @@
       "abstract": "Everyone from AI executives and researchers to doomsayers, politicians, and activists is talking about Artificial General Intelligence (AGI). Yet, they often don't seem to agree on its exact definition. One common definition of AGI is an AI that can do everything a human can do, but are humans truly general? In this paper, we address what's wrong with our conception of AGI, and why, even in its most coherent formulation, it is a flawed concept to describe the future of AI. We explore whether the most widely accepted definitions are plausible, useful, and truly general. We argue that AI must embrace specialization, rather than strive for generality, and in its specialization strive for superhuman performance, and introduce Superhuman Adaptable Intelligence (SAI). SAI is defined as intelligence that can learn to exceed humans at anything important that we can do, and that can fill in the skill gaps where humans are incapable. We then lay out how SAI can help hone a discussion around AI that was blurred by an overloaded definition of AGI, and extrapolate the implications of using it as a guide for the future."
     },
     {
-      "paperId": "aef0d84ac46f451d8083a7ae7bbafdbdfdad97ca",
-      "title": "Semantic Tube Prediction: Beating LLM Data Efficiency with JEPA",
-      "teamAuthors": [
-        {
-          "slug": "yann-lecun",
-          "name": "Yann LeCun"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Hai Huang",
-          "authorId": "2266291500",
-          "slug": null
-        },
-        {
-          "name": "Yann LeCun",
-          "authorId": "2265899558",
-          "slug": "yann-lecun"
-        },
-        {
-          "name": "Randall Balestriero",
-          "authorId": "2277741253",
-          "slug": null
-        }
-      ],
-      "memberSlug": "yann-lecun",
-      "memberName": "Yann LeCun",
-      "publicationDate": "2026-02-26",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.22617",
-      "citationCount": 8,
-      "tldr": "The Geodesic Hypothesis is introduced, positing that token sequences trace geodesics on a smooth semantic manifold and are therefore locally linear, and a novel Semantic Tube Prediction (STP) task is proposed, a JEPA-style regularizer that confines hidden-state trajectories to a tubular neighborhood of the geodesic.",
-      "abstract": "Large Language Models (LLMs) obey consistent scaling laws -- empirical power-law fits that predict how loss decreases with compute, data, and parameters. While predictive, these laws are descriptive rather than prescriptive: they characterize typical training, not optimal training. Surprisingly few works have successfully challenged the data-efficiency bounds implied by these laws -- which is our primary focus. To that end, we introduce the Geodesic Hypothesis, positing that token sequences trace geodesics on a smooth semantic manifold and are therefore locally linear. Building on this principle, we propose a novel Semantic Tube Prediction (STP) task, a JEPA-style regularizer that confines hidden-state trajectories to a tubular neighborhood of the geodesic. STP generalizes JEPA to language without requiring explicit multi-view augmentations. We show this constraint improves signal-to-noise ratio, and consequently preserves diversity by preventing trajectory collisions during inference. Empirically, STP allows LLMs to match baseline accuracy with 16$\\times$ less training data on the NL-RX-SYNTH dataset, directly violating the data term of Chinchilla-style scaling laws and demonstrat"
-    },
-    {
       "paperId": "e685b1cf4404d66f8abae727583d8bf905eaebc5",
       "title": "VidEoMT: Your ViT is Secretly Also a Video Segmentation Model",
       "teamAuthors": [
@@ -5548,62 +5829,6 @@
       "citationCount": 311,
       "tldr": "DreamZero, a World Action Model (WAM) built upon a pretrained video diffusion backbone, is introduced, a World Action Model (WAM) built upon a pretrained video diffusion backbone that enables few-shot embodiment adaptation and enables few-shot embodiment adaptation.",
       "abstract": "State-of-the-art Vision-Language-Action (VLA) models excel at semantic generalization but struggle to generalize to unseen physical motions in novel environments. We introduce DreamZero, a World Action Model (WAM) built upon a pretrained video diffusion backbone. Unlike VLAs, WAMs learn physical dynamics by predicting future world states and actions, using video as a dense representation of how the world evolves. By jointly modeling video and action, DreamZero learns diverse skills effectively from heterogeneous robot data without relying on repetitive demonstrations. This results in over 2x improvement in generalization to new tasks and environments compared to state-of-the-art VLAs in real robot experiments. Crucially, through model and system optimizations, we enable a 14B autoregressive video diffusion model to perform real-time closed-loop control at 7Hz. Finally, we demonstrate two forms of cross-embodiment transfer: video-only demonstrations from other robots or humans yield a relative improvement of over 42% on unseen task performance with just 10-20 minutes of data. More surprisingly, DreamZero enables few-shot embodiment adaptation, transferring to a new embodiment with o"
-    },
-    {
-      "paperId": "d925357d2eec7147ee3c67016854271998307323",
-      "title": "Radial-VCReg: More Informative Representation Learning Through Radial Gaussianization",
-      "teamAuthors": [
-        {
-          "slug": "yann-lecun",
-          "name": "Yann LeCun"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Yilun Kuang",
-          "authorId": "2408460095",
-          "slug": null
-        },
-        {
-          "name": "Yash Dagade",
-          "authorId": "2408462621",
-          "slug": null
-        },
-        {
-          "name": "Deep Chakraborty",
-          "authorId": "2332095604",
-          "slug": null
-        },
-        {
-          "name": "Erik G. Learned-Miller",
-          "authorId": "2320519632",
-          "slug": null
-        },
-        {
-          "name": "Randall Balestriero",
-          "authorId": "2277741253",
-          "slug": null
-        },
-        {
-          "name": "Tim G. J. Rudner",
-          "authorId": "2107677984",
-          "slug": null
-        },
-        {
-          "name": "Yann LeCun",
-          "authorId": "2270469816",
-          "slug": "yann-lecun"
-        }
-      ],
-      "memberSlug": "yann-lecun",
-      "memberName": "Yann LeCun",
-      "publicationDate": "2026-02-15",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.14272",
-      "citationCount": 5,
-      "tldr": "It is proved that Radial-VCReg transforms a broader class of distributions towards normality compared to VCReg and shows on synthetic and real-world datasets that it consistently improves performance by reducing higher-order dependencies and promoting more diverse and informative representations.",
-      "abstract": "Self-supervised learning aims to learn maximally informative representations, but explicit information maximization is hindered by the curse of dimensionality. Existing methods like VCReg address this by regularizing first and second-order feature statistics, which cannot fully achieve maximum entropy. We propose Radial-VCReg, which augments VCReg with a radial Gaussianization loss that aligns feature norms with the Chi distribution-a defining property of high-dimensional Gaussians. We prove that Radial-VCReg transforms a broader class of distributions towards normality compared to VCReg and show on synthetic and real-world datasets that it consistently improves performance by reducing higher-order dependencies and promoting more diverse and informative representations."
     },
     {
       "paperId": "7d77755819ac40a7e328e0f667c81e52c0dc525b",
@@ -12747,6 +12972,62 @@
       "abstract": "Foundation models and self-supervised learning (SSL) have become central to modern AI, yet research in this area remains hindered by complex codebases, redundant re-implementations, and the heavy engineering burden of scaling experiments. We present stable-pretraining, a modular, extensible, and performance-optimized library built on top of PyTorch, Lightning, Hugging Face, and TorchMetrics. Unlike prior toolkits focused narrowly on reproducing state-of-the-art results, stable-pretraining is designed for flexibility and iteration speed: it unifies essential SSL utilities--including probes, collapse detection metrics, augmentation pipelines, and extensible evaluation routines--within a coherent and reliable framework. A central design principle is logging everything, enabling fine-grained visibility into training dynamics that makes debugging, monitoring, and reproducibility seamless. We validate the library by demonstrating its ability to generate new research insights with minimal overhead, including depthwise representation probing and the analysis of CLIP degradation under synthetic data finetuning. By lowering barriers to entry while remaining scalable to large experiments, sta"
     },
     {
+      "paperId": "6f24ecfb6232d6d239db8fa2f55dc71fcd6bfbda",
+      "title": "Rethinking Kernel Program Repair: Benchmarking and Enhancing LLMs with RGym",
+      "teamAuthors": [
+        {
+          "slug": "adithya-iyer",
+          "name": "Adithya Iyer"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Kareem Shehada",
+          "authorId": "2393207944",
+          "slug": null
+        },
+        {
+          "name": "Yifan Wu",
+          "authorId": "2382921024",
+          "slug": null
+        },
+        {
+          "name": "Wyatt D. Feng",
+          "authorId": "2396441299",
+          "slug": null
+        },
+        {
+          "name": "Adithya Iyer",
+          "authorId": "2393205310",
+          "slug": "adithya-iyer"
+        },
+        {
+          "name": "Gryphon Kumfert",
+          "authorId": "2393205254",
+          "slug": null
+        },
+        {
+          "name": "Yangruibo Ding",
+          "authorId": "2363554104",
+          "slug": null
+        },
+        {
+          "name": "Zhiyun Qian",
+          "authorId": "2238579255",
+          "slug": null
+        }
+      ],
+      "memberSlug": "adithya-iyer",
+      "memberName": "Adithya Iyer",
+      "publicationDate": "2025-11-19",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2511.15757",
+      "citationCount": 2,
+      "tldr": "This work introduces RGym, a lightweight, platform-agnostic APR evaluation framework for the Linux kernel designed to operate on local commodity hardware and proposes a simple yet effective APR pipeline leveraging specialized localization techniques to overcome the unrealistic usage of oracles in KGym.",
+      "abstract": "Large Language Models (LLMs) have revolutionized automated program repair (APR) but current benchmarks like SWE-Bench predominantly focus on userspace applications and overlook the complexities of kernel-space debugging and repair. The Linux kernel poses unique challenges due to its monolithic structure, concurrency, and low-level hardware interactions. Prior efforts such as KGym and CrashFixer have highlighted the difficulty of APR in this domain, reporting low success rates or relying on costly and complex pipelines and pricey cloud infrastructure. In this work, we introduce RGym, a lightweight, platform-agnostic APR evaluation framework for the Linux kernel designed to operate on local commodity hardware. Built on RGym, we propose a simple yet effective APR pipeline leveraging specialized localization techniques (e.g., call stacks and blamed commits) to overcome the unrealistic usage of oracles in KGym. We test on a filtered and verified dataset of 143 bugs. Our method achieves up to a 43.36% pass rate with GPT-5 Thinking while maintaining a cost of under $0.20 per bug. We further conduct an ablation study to analyze contributions from our proposed localization strategy, prompt "
+    },
+    {
       "paperId": "166b5a44f9a20dd8ab72add744712e2b4edf2ac4",
       "title": "Unified all-atom molecule generation with neural fields",
       "teamAuthors": [
@@ -12862,62 +13143,6 @@
       "citationCount": 1,
       "tldr": "A pharmacophore-based generative model and workflows that address the scaling and fecundity issues of conventional pharmacophore-based virtual screening are proposed and VoxCap, a voxel captioning method for generating SMILES strings from voxelised molecular representations, is introduced.",
       "abstract": "Ligand-based drug discovery (LBDD) relies on making use of known binders to a protein target to find structurally diverse molecules similarly likely to bind. This process typically involves a brute force search of the known binder (query) against a molecular library using some metric of molecular similarity. One popular approach overlays the pharmacophore-shape profile of the known binder to 3D conformations enumerated for each of the library molecules, computes overlaps, and picks a set of diverse library molecules with high overlaps. While this virtual screening workflow has had considerable success in hit diversification, scaffold hopping, and patent busting, it scales poorly with library sizes and restricts candidate generation to existing library compounds. Leveraging recent advances in voxel-based generative modelling, we propose a pharmacophore-based generative model and workflows that address the scaling and fecundity issues of conventional pharmacophore-based virtual screening. We introduce \\emph{VoxCap}, a voxel captioning method for generating SMILES strings from voxelised molecular representations. We propose two workflows as practical use cases as well as benchmarks fo"
-    },
-    {
-      "paperId": "6f24ecfb6232d6d239db8fa2f55dc71fcd6bfbda",
-      "title": "Rethinking Kernel Program Repair: Benchmarking and Enhancing LLMs with RGym",
-      "teamAuthors": [
-        {
-          "slug": "adithya-iyer",
-          "name": "Adithya Iyer"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Kareem Shehada",
-          "authorId": "2393207944",
-          "slug": null
-        },
-        {
-          "name": "Yifan Wu",
-          "authorId": "2382921024",
-          "slug": null
-        },
-        {
-          "name": "Wyatt D. Feng",
-          "authorId": "2396441299",
-          "slug": null
-        },
-        {
-          "name": "Adithya Iyer",
-          "authorId": "2393205310",
-          "slug": "adithya-iyer"
-        },
-        {
-          "name": "Gryphon Kumfert",
-          "authorId": "2393205254",
-          "slug": null
-        },
-        {
-          "name": "Yangruibo Ding",
-          "authorId": "2363554104",
-          "slug": null
-        },
-        {
-          "name": "Zhiyun Qian",
-          "authorId": "2238579255",
-          "slug": null
-        }
-      ],
-      "memberSlug": "adithya-iyer",
-      "memberName": "Adithya Iyer",
-      "publicationDate": "2025-11-19",
-      "year": 2025,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2511.15757",
-      "citationCount": 2,
-      "tldr": "This work introduces RGym, a lightweight, platform-agnostic APR evaluation framework for the Linux kernel designed to operate on local commodity hardware and proposes a simple yet effective APR pipeline leveraging specialized localization techniques to overcome the unrealistic usage of oracles in KGym.",
-      "abstract": "Large Language Models (LLMs) have revolutionized automated program repair (APR) but current benchmarks like SWE-Bench predominantly focus on userspace applications and overlook the complexities of kernel-space debugging and repair. The Linux kernel poses unique challenges due to its monolithic structure, concurrency, and low-level hardware interactions. Prior efforts such as KGym and CrashFixer have highlighted the difficulty of APR in this domain, reporting low success rates or relying on costly and complex pipelines and pricey cloud infrastructure. In this work, we introduce RGym, a lightweight, platform-agnostic APR evaluation framework for the Linux kernel designed to operate on local commodity hardware. Built on RGym, we propose a simple yet effective APR pipeline leveraging specialized localization techniques (e.g., call stacks and blamed commits) to overcome the unrealistic usage of oracles in KGym. We test on a filtered and verified dataset of 143 bugs. Our method achieves up to a 43.36% pass rate with GPT-5 Thinking while maintaining a cost of under $0.20 per bug. We further conduct an ablation study to analyze contributions from our proposed localization strategy, prompt "
     },
     {
       "paperId": "30db10654933c134dea70e3f43d89eef9053599d",
@@ -26780,62 +27005,6 @@
       "abstract": "Procedural video representation learning is an active research area where the objective is to learn an agent which can anticipate and forecast the future given the present video input, typically in conjunction with textual annotations. Prior works often rely on large-scale pretraining of visual encoders and prediction models with language supervision. However, the necessity and effectiveness of extending compute intensive pretraining to learn video clip sequences with noisy text supervision have not yet been fully validated by previous works. In this work, we show that a strong off-the-shelf frozen pretrained visual encoder, along with a well designed prediction model, can achieve state-of-the-art (SoTA) performance in forecasting and procedural planning without the need for pretraining the prediction model, nor requiring additional supervision from language or ASR. Instead of learning representations from pixel space, our method utilizes the latent embedding space of publicly available vision encoders. By conditioning on frozen clip-level embeddings from observed steps to predict the actions of unseen steps, our prediction model is able to learn robust representations for forecast"
     },
     {
-      "paperId": "ed44571dd9de3654b84ee1fea63015ecb67e6e63",
-      "title": "LLaVA-Video: Video Instruction Tuning With Synthetic Data",
-      "teamAuthors": [
-        {
-          "slug": "brian-li",
-          "name": "Brian Li"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Yuanhan Zhang",
-          "authorId": "2145784327",
-          "slug": null
-        },
-        {
-          "name": "Jinming Wu",
-          "authorId": "2307185864",
-          "slug": null
-        },
-        {
-          "name": "Wei Li",
-          "authorId": "2310658071",
-          "slug": null
-        },
-        {
-          "name": "Bo Li",
-          "authorId": "2310709478",
-          "slug": "brian-li"
-        },
-        {
-          "name": "Zejun Ma",
-          "authorId": "2257135061",
-          "slug": null
-        },
-        {
-          "name": "Ziwei Liu",
-          "authorId": "2315193840",
-          "slug": null
-        },
-        {
-          "name": "Chunyuan Li",
-          "authorId": "2264692022",
-          "slug": null
-        }
-      ],
-      "memberSlug": "brian-li",
-      "memberName": "Brian Li",
-      "publicationDate": "2024-10-03",
-      "year": 2024,
-      "venue": "Trans. Mach. Learn. Res.",
-      "url": "https://www.semanticscholar.org/paper/ed44571dd9de3654b84ee1fea63015ecb67e6e63",
-      "citationCount": 503,
-      "tldr": "A high-quality synthetic dataset specifically for video instruction-following, namely LLaVA-Video-178K, which includes key tasks such as detailed captioning, open-ended question-answering (QA), and multiple-choice QA, and introduces LLaVA-Video, a new video LMM.",
-      "abstract": "The development of video large multimodal models (LMMs) has been hindered by the difficulty of curating large amounts of high-quality raw data from the web. To address this, we propose an alternative approach by creating a high-quality synthetic dataset specifically for video instruction-following, namely LLaVA-Video-178K. This dataset includes key tasks such as detailed captioning, open-ended question-answering (QA), and multiple-choice QA. By training on this dataset, in combination with existing visual instruction tuning data, we introduce LLaVA-Video, a new video LMM. Our experiments demonstrate that LLaVA-Video achieves strong performance across various video benchmarks, highlighting the effectiveness of our dataset. We plan to release the dataset, its generation pipeline, and the model checkpoints."
-    },
-    {
       "paperId": "1ac7fc5a55ce5843fb8a19d9f62b623e822bb7de",
       "title": "Loong: Generating Minute-level Long Videos with Autoregressive Language Models",
       "teamAuthors": [
@@ -26895,6 +27064,62 @@
       "citationCount": 106,
       "tldr": "This work proposes Loong, a new autoregressive LLM-based video generator that can generate minute-long videos and proposes progressive short-to-long training with a loss re-weighting scheme to mitigate the loss imbalance problem for long video training.",
       "abstract": "It is desirable but challenging to generate content-rich long videos in the scale of minutes. Autoregressive large language models (LLMs) have achieved great success in generating coherent and long sequences of tokens in the domain of natural language processing, while the exploration of autoregressive LLMs for video generation is limited to generating short videos of several seconds. In this work, we conduct a deep analysis of the challenges that prevent autoregressive LLM-based video generators from generating long videos. Based on the observations and analysis, we propose Loong, a new autoregressive LLM-based video generator that can generate minute-long videos. Specifically, we model the text tokens and video tokens as a unified sequence for autoregressive LLMs and train the model from scratch. We propose progressive short-to-long training with a loss re-weighting scheme to mitigate the loss imbalance problem for long video training. We further investigate inference strategies, including video token re-encoding and sampling strategies, to diminish error accumulation during inference. Our proposed Loong can be trained on 10-second videos and be extended to generate minute-level "
+    },
+    {
+      "paperId": "ed44571dd9de3654b84ee1fea63015ecb67e6e63",
+      "title": "LLaVA-Video: Video Instruction Tuning With Synthetic Data",
+      "teamAuthors": [
+        {
+          "slug": "brian-li",
+          "name": "Brian Li"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Yuanhan Zhang",
+          "authorId": "2145784327",
+          "slug": null
+        },
+        {
+          "name": "Jinming Wu",
+          "authorId": "2307185864",
+          "slug": null
+        },
+        {
+          "name": "Wei Li",
+          "authorId": "2310658071",
+          "slug": null
+        },
+        {
+          "name": "Bo Li",
+          "authorId": "2310709478",
+          "slug": "brian-li"
+        },
+        {
+          "name": "Zejun Ma",
+          "authorId": "2257135061",
+          "slug": null
+        },
+        {
+          "name": "Ziwei Liu",
+          "authorId": "2315193840",
+          "slug": null
+        },
+        {
+          "name": "Chunyuan Li",
+          "authorId": "2264692022",
+          "slug": null
+        }
+      ],
+      "memberSlug": "brian-li",
+      "memberName": "Brian Li",
+      "publicationDate": "2024-10-03",
+      "year": 2024,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://www.semanticscholar.org/paper/ed44571dd9de3654b84ee1fea63015ecb67e6e63",
+      "citationCount": 503,
+      "tldr": "A high-quality synthetic dataset specifically for video instruction-following, namely LLaVA-Video-178K, which includes key tasks such as detailed captioning, open-ended question-answering (QA), and multiple-choice QA, and introduces LLaVA-Video, a new video LMM.",
+      "abstract": "The development of video large multimodal models (LMMs) has been hindered by the difficulty of curating large amounts of high-quality raw data from the web. To address this, we propose an alternative approach by creating a high-quality synthetic dataset specifically for video instruction-following, namely LLaVA-Video-178K. This dataset includes key tasks such as detailed captioning, open-ended question-answering (QA), and multiple-choice QA. By training on this dataset, in combination with existing visual instruction tuning data, we introduce LLaVA-Video, a new video LMM. Our experiments demonstrate that LLaVA-Video achieves strong performance across various video benchmarks, highlighting the effectiveness of our dataset. We plan to release the dataset, its generation pipeline, and the model checkpoints."
     },
     {
       "paperId": "6c6fc0bd6038eef6ecadb515f7597801b3938043",
@@ -35735,62 +35960,6 @@
       "abstract": "Training algorithms, broadly construed, are an essential part of every deep learning pipeline. Training algorithm improvements that speed up training across a wide variety of workloads (e.g., better update rules, tuning protocols, learning rate schedules, or data selection schemes) could save time, save computational resources, and lead to better, more accurate, models. Unfortunately, as a community, we are currently unable to reliably identify training algorithm improvements, or even determine the state-of-the-art training algorithm. In this work, using concrete experiments, we argue that real progress in speeding up training requires new benchmarks that resolve three basic challenges faced by empirical comparisons of training algorithms: (1) how to decide when training is complete and precisely measure training time, (2) how to handle the sensitivity of measurements to exact workload details, and (3) how to fairly compare algorithms that require hyperparameter tuning. In order to address these challenges, we introduce a new, competitive, time-to-result benchmark using multiple workloads running on fixed hardware, the AlgoPerf: Training Algorithms benchmark. Our benchmark includes"
     },
     {
-      "paperId": "ef060988cfb8e3f415c3227d80aa06e2e40619cc",
-      "title": "Image Clustering via the Principle of Rate Reduction in the Age of Pretrained Models",
-      "teamAuthors": [
-        {
-          "slug": "peter-tong",
-          "name": "Peter Tong"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Tian-Zhe Chu",
-          "authorId": "2218725693",
-          "slug": null
-        },
-        {
-          "name": "Shengbang Tong",
-          "authorId": "2143202419",
-          "slug": "peter-tong"
-        },
-        {
-          "name": "Tianjiao Ding",
-          "authorId": "4607942",
-          "slug": null
-        },
-        {
-          "name": "Xili Dai",
-          "authorId": "2978106",
-          "slug": null
-        },
-        {
-          "name": "B. Haeffele",
-          "authorId": "2663366",
-          "slug": null
-        },
-        {
-          "name": "R. Vidal",
-          "authorId": "144020730",
-          "slug": null
-        },
-        {
-          "name": "Y. Ma",
-          "authorId": "144987142",
-          "slug": null
-        }
-      ],
-      "memberSlug": "peter-tong",
-      "memberName": "Peter Tong",
-      "publicationDate": "2023-06-08",
-      "year": 2023,
-      "venue": "International Conference on Learning Representations",
-      "url": "https://doi.org/10.48550/arXiv.2306.05272",
-      "citationCount": 29,
-      "tldr": "This paper proposes a novel image clustering pipeline that leverages the powerful feature representation of large pre-trained models such as CLIP and cluster images effectively and efficiently at scale and develops a simple yet effective self-labeling algorithm that produces meaningful captions for the clusters.",
-      "abstract": "The advent of large pre-trained models has brought about a paradigm shift in both visual representation learning and natural language processing. However, clustering unlabeled images, as a fundamental and classic machine learning problem, still lacks an effective solution, particularly for large-scale datasets. In this paper, we propose a novel image clustering pipeline that leverages the powerful feature representation of large pre-trained models such as CLIP and cluster images effectively and efficiently at scale. We first developed a novel algorithm to estimate the number of clusters in a given dataset. We then show that the pre-trained features are significantly more structured by further optimizing the rate reduction objective. The resulting features may significantly improve the clustering accuracy, e.g., from 57\\% to 66\\% on ImageNet-1k. Furthermore, by leveraging CLIP's multimodality bridge between image and text, we develop a simple yet effective self-labeling algorithm that produces meaningful captions for the clusters. Through extensive experiments, we show that our pipeline works well on standard datasets such as CIFAR-10, CIFAR-100, and ImageNet-1k. It also extends to "
-    },
-    {
       "paperId": "146748b26209afac66a3c0a52fea8b72065b2b2c",
       "title": "Decoupled Prioritized Resampling for Offline RL",
       "teamAuthors": [
@@ -35845,6 +36014,62 @@
       "citationCount": 12,
       "tldr": "This article proposes offline decoupled prioritized resampling (ODPR), which designs specialized priority functions for the suboptimal policy constraint issue in offline RL and employs unique decoupled resampling for training stability.",
       "abstract": "Offline reinforcement learning (RL) is challenged by the distributional shift problem. To tackle this issue, existing works mainly focus on designing sophisticated policy constraints between the learned policy and the behavior policy. However, these constraints are applied equally to well-performing and inferior actions through uniform sampling, which might negatively affect the learned policy. In this article, we propose offline decoupled prioritized resampling (ODPR), which designs specialized priority functions for the suboptimal policy constraint issue in offline RL and employs unique decoupled resampling for training stability. Through theoretical analysis, we show that the distinctive priority functions induce a provable improved behavior policy by modifying the distribution of the original behavior policy, and when constrained to this improved policy, a policy-constrained offline RL algorithm is likely to yield a better solution. We provide two practical implementations to balance computation and performance: one estimates priorities based on a fit value network [advantage-based ODPR (ODPR-A)] and the other utilizes trajectory returns [return-based ODPR (ODPR-R)] for quick c"
+    },
+    {
+      "paperId": "ef060988cfb8e3f415c3227d80aa06e2e40619cc",
+      "title": "Image Clustering via the Principle of Rate Reduction in the Age of Pretrained Models",
+      "teamAuthors": [
+        {
+          "slug": "peter-tong",
+          "name": "Peter Tong"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Tian-Zhe Chu",
+          "authorId": "2218725693",
+          "slug": null
+        },
+        {
+          "name": "Shengbang Tong",
+          "authorId": "2143202419",
+          "slug": "peter-tong"
+        },
+        {
+          "name": "Tianjiao Ding",
+          "authorId": "4607942",
+          "slug": null
+        },
+        {
+          "name": "Xili Dai",
+          "authorId": "2978106",
+          "slug": null
+        },
+        {
+          "name": "B. Haeffele",
+          "authorId": "2663366",
+          "slug": null
+        },
+        {
+          "name": "R. Vidal",
+          "authorId": "144020730",
+          "slug": null
+        },
+        {
+          "name": "Y. Ma",
+          "authorId": "144987142",
+          "slug": null
+        }
+      ],
+      "memberSlug": "peter-tong",
+      "memberName": "Peter Tong",
+      "publicationDate": "2023-06-08",
+      "year": 2023,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2306.05272",
+      "citationCount": 29,
+      "tldr": "This paper proposes a novel image clustering pipeline that leverages the powerful feature representation of large pre-trained models such as CLIP and cluster images effectively and efficiently at scale and develops a simple yet effective self-labeling algorithm that produces meaningful captions for the clusters.",
+      "abstract": "The advent of large pre-trained models has brought about a paradigm shift in both visual representation learning and natural language processing. However, clustering unlabeled images, as a fundamental and classic machine learning problem, still lacks an effective solution, particularly for large-scale datasets. In this paper, we propose a novel image clustering pipeline that leverages the powerful feature representation of large pre-trained models such as CLIP and cluster images effectively and efficiently at scale. We first developed a novel algorithm to estimate the number of clusters in a given dataset. We then show that the pre-trained features are significantly more structured by further optimizing the rate reduction objective. The resulting features may significantly improve the clustering accuracy, e.g., from 57\\% to 66\\% on ImageNet-1k. Furthermore, by leveraging CLIP's multimodality bridge between image and text, we develop a simple yet effective self-labeling algorithm that produces meaningful captions for the clusters. Through extensive experiments, we show that our pipeline works well on standard datasets such as CIFAR-10, CIFAR-100, and ImageNet-1k. It also extends to "
     },
     {
       "paperId": "d16feddfeca2617ca2127b7d134ceb78ce8a8b40",
@@ -36010,6 +36235,52 @@
       "abstract": "Observing the close relationship among panoptic, semantic and instance segmentation tasks, we propose to train a universal multi-dataset multi-task segmentation model: DaTaSeg.We use a shared representation (mask proposals with class predictions) for all tasks. To tackle task discrepancy, we adopt different merge operations and post-processing for different tasks. We also leverage weak-supervision, allowing our segmentation model to benefit from cheaper bounding box annotations. To share knowledge across datasets, we use text embeddings from the same semantic embedding space as classifiers and share all network parameters among datasets. We train DaTaSeg on ADE semantic, COCO panoptic, and Objects365 detection datasets. DaTaSeg improves performance on all datasets, especially small-scale datasets, achieving 54.0 mIoU on ADE semantic and 53.5 PQ on COCO panoptic. DaTaSeg also enables weakly-supervised knowledge transfer on ADE panoptic and Objects365 instance segmentation. Experiments show DaTaSeg scales with the number of training datasets and enables open-vocabulary segmentation through direct transfer. In addition, we annotate an Objects365 instance segmentation set of 1,000 imag"
     },
     {
+      "paperId": "5bccb4ffcd3ea8c5d5b25adeb15366cd9579aa34",
+      "title": "Improving and Benchmarking Offline Reinforcement Learning Algorithms",
+      "teamAuthors": [
+        {
+          "slug": "bingyi-kang",
+          "name": "Bingyi Kang"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Bingyi Kang",
+          "authorId": "2064621368",
+          "slug": "bingyi-kang"
+        },
+        {
+          "name": "Xiao Ma",
+          "authorId": "2125110703",
+          "slug": null
+        },
+        {
+          "name": "Yi-Ren Wang",
+          "authorId": "2143398497",
+          "slug": null
+        },
+        {
+          "name": "Yang Yue",
+          "authorId": "2105585115",
+          "slug": null
+        },
+        {
+          "name": "Shuicheng Yan",
+          "authorId": "2186749683",
+          "slug": null
+        }
+      ],
+      "memberSlug": "bingyi-kang",
+      "memberName": "Bingyi Kang",
+      "publicationDate": "2023-06-01",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2306.00972",
+      "citationCount": 9,
+      "tldr": "This work empirically investigates 20 implementation choices using three representative algorithms and presents a guidebook for choosing implementations, finding two variants CRR+ and CQL+ , achieving new state-of-the-art on D4RL.",
+      "abstract": "Recently, Offline Reinforcement Learning (RL) has achieved remarkable progress with the emergence of various algorithms and datasets. However, these methods usually focus on algorithmic advancements, ignoring that many low-level implementation choices considerably influence or even drive the final performance. As a result, it becomes hard to attribute the progress in Offline RL as these choices are not sufficiently discussed and aligned in the literature. In addition, papers focusing on a dataset (e.g., D4RL) often ignore algorithms proposed on another dataset (e.g., RL Unplugged), causing isolation among the algorithms, which might slow down the overall progress. Therefore, this work aims to bridge the gaps caused by low-level choices and datasets. To this end, we empirically investigate 20 implementation choices using three representative algorithms (i.e., CQL, CRR, and IQL) and present a guidebook for choosing implementations. Following the guidebook, we find two variants CRR+ and CQL+ , achieving new state-of-the-art on D4RL. Moreover, we benchmark eight popular offline RL algorithms across datasets under unified training and evaluation framework. The findings are inspiring: th"
+    },
+    {
       "paperId": "79bb31af3b7bf51569adde031ded4e832bc02d8d",
       "title": "Diverse and Faithful Knowledge-Grounded Dialogue Generation via Sequential Posterior Inference",
       "teamAuthors": [
@@ -36171,52 +36442,6 @@
       "citationCount": 24,
       "tldr": null,
       "abstract": "Mask-guided matting has shown great practicality compared to traditional trimap-based methods. The mask-guided approach takes an easily-obtainable coarse mask as guidance and produces an accurate alpha matte. To extend the success toward practical usage, we tackle mask-guided matting in the wild, which covers a wide range of categories in their complex context robustly. To this end, we propose a simple yet effective learning framework based on two core insights: 1) learning a generalized matting model that can better understand the given mask guidance and 2) leveraging weak supervision datasets (e.g., instance segmentation dataset) to alleviate the limited diversity and scale of existing matting datasets. Extensive experimental results on multiple benchmarks, consisting of a newly proposed synthetic benchmark (Composition-Wild) and existing natural datasets, demonstrate the superiority of the proposed method. Moreover, we provide appealing results on new practical applications (e.g., panoptic matting and mask-guided video matting), showing the great generality and potential of our model."
-    },
-    {
-      "paperId": "5bccb4ffcd3ea8c5d5b25adeb15366cd9579aa34",
-      "title": "Improving and Benchmarking Offline Reinforcement Learning Algorithms",
-      "teamAuthors": [
-        {
-          "slug": "bingyi-kang",
-          "name": "Bingyi Kang"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Bingyi Kang",
-          "authorId": "2064621368",
-          "slug": "bingyi-kang"
-        },
-        {
-          "name": "Xiao Ma",
-          "authorId": "2125110703",
-          "slug": null
-        },
-        {
-          "name": "Yi-Ren Wang",
-          "authorId": "2143398497",
-          "slug": null
-        },
-        {
-          "name": "Yang Yue",
-          "authorId": "2105585115",
-          "slug": null
-        },
-        {
-          "name": "Shuicheng Yan",
-          "authorId": "2186749683",
-          "slug": null
-        }
-      ],
-      "memberSlug": "bingyi-kang",
-      "memberName": "Bingyi Kang",
-      "publicationDate": "2023-06-01",
-      "year": 2023,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2306.00972",
-      "citationCount": 9,
-      "tldr": "This work empirically investigates 20 implementation choices using three representative algorithms and presents a guidebook for choosing implementations, finding two variants CRR+ and CQL+ , achieving new state-of-the-art on D4RL.",
-      "abstract": "Recently, Offline Reinforcement Learning (RL) has achieved remarkable progress with the emergence of various algorithms and datasets. However, these methods usually focus on algorithmic advancements, ignoring that many low-level implementation choices considerably influence or even drive the final performance. As a result, it becomes hard to attribute the progress in Offline RL as these choices are not sufficiently discussed and aligned in the literature. In addition, papers focusing on a dataset (e.g., D4RL) often ignore algorithms proposed on another dataset (e.g., RL Unplugged), causing isolation among the algorithms, which might slow down the overall progress. Therefore, this work aims to bridge the gaps caused by low-level choices and datasets. To this end, we empirically investigate 20 implementation choices using three representative algorithms (i.e., CQL, CRR, and IQL) and present a guidebook for choosing implementations. Following the guidebook, we find two variants CRR+ and CQL+ , achieving new state-of-the-art on D4RL. Moreover, we benchmark eight popular offline RL algorithms across datasets under unified training and evaluation framework. The findings are inspiring: th"
     },
     {
       "paperId": "4f1408ca267763cb2d20e0141ac53a63d766e69e",
@@ -39013,6 +39238,37 @@
       "abstract": ". Scaling object taxonomies is one of the important steps toward a robust real-world deployment of recognition systems. We have faced remarkable progress in images since the introduction of the LVIS benchmark. To continue this success in videos, a new video benchmark, TAO, was recently presented. Given the recent encouraging results from both detection and tracking communities, we are interested in marrying those two advances and building a strong large vocabulary video tracker. However, supervisions in LVIS and TAO are inherently sparse or even missing, posing two new challenges for training the large vocabulary trackers. First, no tracking supervisions are in LVIS, which leads to inconsistent learning of detection (with LVIS and TAO) and tracking (only with TAO). Second, the detection supervisions in TAO are partial, which results in catastrophic forgetting of absent LVIS categories during video fine-tuning. To resolve these challenges, we present a simple but effective learning framework that takes full advantage of all available training data to learn detection and tracking while not losing any LVIS categories to recognize. With this new learning scheme, we show that consistent"
     },
     {
+      "paperId": "736973165f98105fec3729b7db414ae4d80fcbeb",
+      "title": "Scalable Diffusion Models with Transformers",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "William S. Peebles",
+          "authorId": "35235273",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2022-12-19",
+      "year": 2022,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV51070.2023.00387",
+      "citationCount": 7119,
+      "tldr": "A new class of diffusion models based on the transformer architecture is explored, replacing the commonly-used U-Net backbone with a transformer that operates on latent patches that outperform all prior diffusion models on the class-conditional ImageNet 512×512 and 256×256 benchmarks.",
+      "abstract": "We explore a new class of diffusion models based on the transformer architecture. We train latent diffusion models of images, replacing the commonly-used U-Net backbone with a transformer that operates on latent patches. We analyze the scalability of our Diffusion Transformers (DiTs) through the lens of forward pass complexity as measured by Gflops. We find that DiTs with higher Gflops—through increased transformer depth/width or increased number of input tokens—consistently have lower FID. In addition to possessing good scalability properties, our largest DiT-XL/2 models outperform all prior diffusion models on the class-conditional ImageNet 512×512 and 256×256 benchmarks, achieving a state-of-the-art FID of 2.27 on the latter."
+    },
+    {
       "paperId": "03c19ddaa26068f23e27ba94b10f08160e87f668",
       "title": "NusaCrowd: Open Source Initiative for Indonesian NLP Resources",
       "teamAuthors": [
@@ -39267,37 +39523,6 @@
       "citationCount": 90,
       "tldr": "NusaCrowd's data collection enables the creation of the first zero-shot benchmarks for natural language understanding and generation in Indonesian and the local languages of Indonesia, including opening access to previously non-public resources.",
       "abstract": "We present NusaCrowd, a collaborative initiative to collect and unify existing resources for Indonesian languages, including opening access to previously non-public resources. Through this initiative, we have brought together 137 datasets and 118 standardized data loaders. The quality of the datasets has been assessed manually and automatically, and their value is demonstrated through multiple experiments. NusaCrowd's data collection enables the creation of the first zero-shot benchmarks for natural language understanding and generation in Indonesian and the local languages of Indonesia. Furthermore, NusaCrowd brings the creation of the first multilingual automatic speech recognition benchmark in Indonesian and the local languages of Indonesia. Our work strives to advance natural language processing (NLP) research for languages that are under-represented despite being widely spoken."
-    },
-    {
-      "paperId": "736973165f98105fec3729b7db414ae4d80fcbeb",
-      "title": "Scalable Diffusion Models with Transformers",
-      "teamAuthors": [
-        {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
-        }
-      ],
-      "authors": [
-        {
-          "name": "William S. Peebles",
-          "authorId": "35235273",
-          "slug": null
-        },
-        {
-          "name": "Saining Xie",
-          "authorId": "1817030",
-          "slug": "saining-xie"
-        }
-      ],
-      "memberSlug": "saining-xie",
-      "memberName": "Saining Xie",
-      "publicationDate": "2022-12-19",
-      "year": 2022,
-      "venue": "IEEE International Conference on Computer Vision",
-      "url": "https://doi.org/10.1109/ICCV51070.2023.00387",
-      "citationCount": 7119,
-      "tldr": "A new class of diffusion models based on the transformer architecture is explored, replacing the commonly-used U-Net backbone with a transformer that operates on latent patches that outperform all prior diffusion models on the class-conditional ImageNet 512×512 and 256×256 benchmarks.",
-      "abstract": "We explore a new class of diffusion models based on the transformer architecture. We train latent diffusion models of images, replacing the commonly-used U-Net backbone with a transformer that operates on latent patches. We analyze the scalability of our Diffusion Transformers (DiTs) through the lens of forward pass complexity as measured by Gflops. We find that DiTs with higher Gflops—through increased transformer depth/width or increased number of input tokens—consistently have lower FID. In addition to possessing good scalability properties, our largest DiT-XL/2 models outperform all prior diffusion models on the class-conditional ImageNet 512×512 and 256×256 benchmarks, achieving a state-of-the-art FID of 2.27 on the latter."
     },
     {
       "paperId": "5f7a1992ce7bfab7ee2dfd1a6cb5494d4c55135d",
@@ -42442,6 +42667,56 @@
       "abstract": "Offline reinforcement learning (RL) is challenged by the distributional shift between learning policies and datasets. To address this problem, existing works mainly focus on designing sophisticated algorithms to explicitly or implicitly constrain the learned policy to be close to the behavior policy. The constraint applies not only to well-performing actions but also to inferior ones, which limits the performance upper bound of the learned policy. Instead of aligning the densities of two distributions, aligning the supports gives a relaxed constraint while still being able to avoid out-of-distribution actions. Therefore, we propose a simple yet effective method to boost offline RL algorithms based on the observation that resampling a dataset keeps the distribution support unchanged. More specifically, we construct a better behavior policy by resampling each transition in an old dataset according to its episodic return. We dub our method ReD (Return-based Data Rebalance), which can be implemented with less than 10 lines of code change and adds negligible running time. Extensive experiments demonstrate that ReD is effective at boosting offline RL performance and orthogonal to decoupl"
     },
     {
+      "paperId": "2b23a0e5c1709d4a82e1bd09a83e2cef83d8dfe8",
+      "title": "Mutual Information Regularized Offline Reinforcement Learning",
+      "teamAuthors": [
+        {
+          "slug": "bingyi-kang",
+          "name": "Bingyi Kang"
+        },
+        {
+          "slug": "min-lin",
+          "name": "Min Lin"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Xiao Ma",
+          "authorId": "2125110703",
+          "slug": null
+        },
+        {
+          "name": "Bingyi Kang",
+          "authorId": "2064621368",
+          "slug": "bingyi-kang"
+        },
+        {
+          "name": "Zhongwen Xu",
+          "authorId": "2351434",
+          "slug": null
+        },
+        {
+          "name": "Min Lin",
+          "authorId": "2115913164",
+          "slug": "min-lin"
+        },
+        {
+          "name": "Shuicheng Yan",
+          "authorId": "2186749683",
+          "slug": null
+        }
+      ],
+      "memberSlug": "bingyi-kang",
+      "memberName": "Bingyi Kang",
+      "publicationDate": "2022-10-14",
+      "year": 2022,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2210.07484",
+      "citationCount": 13,
+      "tldr": "MISA is a general offline RL framework that unifies conservative Q-learning (CQL) and behavior regularization methods (e.g., TD3+BC) as special cases and shows that MISA performs significantly better than existing methods and achieves new state-of-the-art on various tasks of the D4RL benchmark.",
+      "abstract": "Offline reinforcement learning (RL) aims at learning an effective policy from offline datasets without active interactions with the environment. The major challenge of offline RL is the distribution shift that appears when out-of-distribution actions are queried, which makes the policy improvement direction biased by extrapolation errors. Most existing methods address this problem by penalizing the policy for deviating from the behavior policy during policy improvement or making conservative updates for value functions during policy evaluation. In this work, we propose a novel MISA framework to approach offline RL from the perspective of Mutual Information between States and Actions in the dataset by directly constraining the policy improvement direction. Intuitively, mutual information measures the mutual dependence of actions and states, which reflects how a behavior agent reacts to certain environment states during data collection. To effectively utilize this information to facilitate policy learning, MISA constructs lower bounds of mutual information parameterized by the policy and Q-values. We show that optimizing this lower bound is equivalent to maximizing the likelihood of "
+    },
+    {
       "paperId": "fc721f4fd6260ed3b86c64eaa204375e18863aad",
       "title": "Where to Begin? On the Impact of Pre-Training and Initialization in Federated Learning",
       "teamAuthors": [
@@ -42589,54 +42864,45 @@
       "abstract": "Many NLP classification tasks, such as sexism/racism detection or toxicity detection, are based on human values. Yet, human values can vary under diverse cultural conditions. Therefore, we introduce a framework for value-aligned classification that performs prediction based on explicitly written human values in the command. Along with the task, we propose a practical approach that distills value-aligned knowledge from large-scale language models (LLMs) to construct value-aligned classifiers in two steps.First, we generate value-aligned training data from LLMs by prompt-based few-shot learning. Next, we fine-tune smaller classification models with the generated data for the task. Empirical results show that our VA-Models surpass multiple baselines by at least 15.56% on the F1-score, including few-shot learning with OPT-175B and existing text augmentation methods. We suggest that using classifiers with explicit human value input improves both inclusivity & explainability in AI."
     },
     {
-      "paperId": "2b23a0e5c1709d4a82e1bd09a83e2cef83d8dfe8",
-      "title": "Mutual Information Regularized Offline Reinforcement Learning",
+      "paperId": "77d4100d6fe291352e705147467f9acb1e308c60",
+      "title": "Exploring Long-Sequence Masked Autoencoders",
       "teamAuthors": [
         {
-          "slug": "bingyi-kang",
-          "name": "Bingyi Kang"
-        },
-        {
-          "slug": "min-lin",
-          "name": "Min Lin"
+          "slug": "saining-xie",
+          "name": "Saining Xie"
         }
       ],
       "authors": [
         {
-          "name": "Xiao Ma",
-          "authorId": "2125110703",
+          "name": "Ronghang Hu",
+          "authorId": "2874347",
           "slug": null
         },
         {
-          "name": "Bingyi Kang",
-          "authorId": "2064621368",
-          "slug": "bingyi-kang"
-        },
-        {
-          "name": "Zhongwen Xu",
-          "authorId": "2351434",
+          "name": "Shoubhik Debnath",
+          "authorId": "3256722",
           "slug": null
         },
         {
-          "name": "Min Lin",
-          "authorId": "2115913164",
-          "slug": "min-lin"
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
         },
         {
-          "name": "Shuicheng Yan",
-          "authorId": "2186749683",
+          "name": "Xinlei Chen",
+          "authorId": "39717886",
           "slug": null
         }
       ],
-      "memberSlug": "bingyi-kang",
-      "memberName": "Bingyi Kang",
-      "publicationDate": "2022-10-14",
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2022-10-13",
       "year": 2022,
-      "venue": "Neural Information Processing Systems",
-      "url": "https://doi.org/10.48550/arXiv.2210.07484",
-      "citationCount": 13,
-      "tldr": "MISA is a general offline RL framework that unifies conservative Q-learning (CQL) and behavior regularization methods (e.g., TD3+BC) as special cases and shows that MISA performs significantly better than existing methods and achieves new state-of-the-art on various tasks of the D4RL benchmark.",
-      "abstract": "Offline reinforcement learning (RL) aims at learning an effective policy from offline datasets without active interactions with the environment. The major challenge of offline RL is the distribution shift that appears when out-of-distribution actions are queried, which makes the policy improvement direction biased by extrapolation errors. Most existing methods address this problem by penalizing the policy for deviating from the behavior policy during policy improvement or making conservative updates for value functions during policy evaluation. In this work, we propose a novel MISA framework to approach offline RL from the perspective of Mutual Information between States and Actions in the dataset by directly constraining the policy improvement direction. Intuitively, mutual information measures the mutual dependence of actions and states, which reflects how a behavior agent reacts to certain environment states during data collection. To effectively utilize this information to facilitate policy learning, MISA constructs lower bounds of mutual information parameterized by the policy and Q-values. We show that optimizing this lower bound is equivalent to maximizing the likelihood of "
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2210.07224",
+      "citationCount": 23,
+      "tldr": "This study leads to a long-sequence version of MAE with minimal changes to the original recipe, by just decoupling the mask size from the patch size, and achieves strong results on ImageNet-1K classification by keeping a standard image size and only increasing the sequence length.",
+      "abstract": "Masked Autoencoding (MAE) has emerged as an effective approach for pre-training representations across multiple domains. In contrast to discrete tokens in natural languages, the input for image MAE is continuous and subject to additional specifications. We systematically study each input specification during the pre-training stage, and find sequence length is a key axis that further scales MAE. Our study leads to a long-sequence version of MAE with minimal changes to the original recipe, by just decoupling the mask size from the patch size. For object detection and semantic segmentation, our long-sequence MAE shows consistent gains across all the experimental setups without extra computation cost during the transfer. While long-sequence pre-training is discerned most beneficial for detection and segmentation, we also achieve strong results on ImageNet-1K classification by keeping a standard image size and only increasing the sequence length. We hope our findings can provide new insights and avenues for scaling in computer vision."
     },
     {
       "paperId": "8be831a07abe8c5475c2bd91cc41bf4c1c2be771",
@@ -42707,47 +42973,6 @@
       "citationCount": 69,
       "tldr": "By moving away from conventional uniformity priors and instead preferring power-law distributed feature clusters, it is shown that one can improve the quality of the learned representations on real-world class-imbalanced datasets.",
       "abstract": "A successful paradigm in representation learning is to perform self-supervised pretraining using tasks based on mini-batch statistics (e.g., SimCLR, VICReg, SwAV, MSN). We show that in the formulation of all these methods is an overlooked prior to learn features that enable uniform clustering of the data. While this prior has led to remarkably semantic representations when pretraining on class-balanced data, such as ImageNet, we demonstrate that it can hamper performance when pretraining on class-imbalanced data. By moving away from conventional uniformity priors and instead preferring power-law distributed feature clusters, we show that one can improve the quality of the learned representations on real-world class-imbalanced datasets. To demonstrate this, we develop an extension of the Masked Siamese Networks (MSN) method to support the use of arbitrary features priors."
-    },
-    {
-      "paperId": "77d4100d6fe291352e705147467f9acb1e308c60",
-      "title": "Exploring Long-Sequence Masked Autoencoders",
-      "teamAuthors": [
-        {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Ronghang Hu",
-          "authorId": "2874347",
-          "slug": null
-        },
-        {
-          "name": "Shoubhik Debnath",
-          "authorId": "3256722",
-          "slug": null
-        },
-        {
-          "name": "Saining Xie",
-          "authorId": "1817030",
-          "slug": "saining-xie"
-        },
-        {
-          "name": "Xinlei Chen",
-          "authorId": "39717886",
-          "slug": null
-        }
-      ],
-      "memberSlug": "saining-xie",
-      "memberName": "Saining Xie",
-      "publicationDate": "2022-10-13",
-      "year": 2022,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2210.07224",
-      "citationCount": 23,
-      "tldr": "This study leads to a long-sequence version of MAE with minimal changes to the original recipe, by just decoupling the mask size from the patch size, and achieves strong results on ImageNet-1K classification by keeping a standard image size and only increasing the sequence length.",
-      "abstract": "Masked Autoencoding (MAE) has emerged as an effective approach for pre-training representations across multiple domains. In contrast to discrete tokens in natural languages, the input for image MAE is continuous and subject to additional specifications. We systematically study each input specification during the pre-training stage, and find sequence length is a key axis that further scales MAE. Our study leads to a long-sequence version of MAE with minimal changes to the original recipe, by just decoupling the mask size from the patch size. For object detection and semantic segmentation, our long-sequence MAE shows consistent gains across all the experimental setups without extra computation cost during the transfer. While long-sequence pre-training is discerned most beneficial for detection and segmentation, we also achieve strong results on ImageNet-1K classification by keeping a standard image size and only increasing the sequence length. We hope our findings can provide new insights and avenues for scaling in computer vision."
     },
     {
       "paperId": "b16855a3338052be6202eeea3a18b5496a67cef2",
@@ -43380,6 +43605,72 @@
       "abstract": "With the rise of deep learning and intelligent vehicles, the smart assistant has become an essential in-car component to facilitate driving and provide extra functionalities. In-car smart assistants should be able to process general as well as car-related commands and perform corresponding actions, which eases driving and improves safety. However, in this research field, most datasets are in major languages, such as English and Chinese. There is a huge data scarcity issue for low-resource languages, hindering the development of research and applications for broader communities. Therefore, it is crucial to have more benchmarks to raise awareness and motivate the research in low-resource languages. To mitigate this problem, we collect a new dataset, namely Cantonese In-car Audio-Visual Speech Recognition (CI-AVSR), for in-car speech recognition in the Cantonese language with video and audio data. Together with it, we propose Cantonese Audio-Visual Speech Recognition for In-car Commands as a new challenge for the community to tackle low-resource speech recognition under in-car scenarios."
     },
     {
+      "paperId": "4fca50ab80e278f7210b632e501e3616dd3eb2a1",
+      "title": "Can we train vision and language zero-shot classiﬁcation models without syntax?",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Ajinkya Tejankar",
+          "authorId": "1471776526",
+          "slug": null
+        },
+        {
+          "name": "Maziar Sanjabi",
+          "authorId": "2095979",
+          "slug": null
+        },
+        {
+          "name": "Bichen Wu",
+          "authorId": "3130257",
+          "slug": null
+        },
+        {
+          "name": "Madian Khabsa",
+          "authorId": "2072010",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "H. Pirsiavash",
+          "authorId": "2367683",
+          "slug": null
+        },
+        {
+          "name": "Hamed Firooz",
+          "authorId": "22593971",
+          "slug": null
+        },
+        {
+          "name": "U. Davis",
+          "authorId": "51998396",
+          "slug": null
+        },
+        {
+          "name": "AI Meta",
+          "authorId": "2149781051",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": null,
+      "year": 2022,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/4fca50ab80e278f7210b632e501e3616dd3eb2a1",
+      "citationCount": 0,
+      "tldr": "Through extensive and careful experiments, it is shown that replacing intact captions with Bag-of-Words (BoW) does not signiﬁcantly degrade the zero-shot performance and can even slightly improve the performance on some datasets by balancing the frequency of words in BoW.",
+      "abstract": null
+    },
+    {
       "paperId": "0c00e81e73bdcfcad82ff3a11e66b48b5012e0f8",
       "title": "The Interpolated MVU Mechanism For Communication-efficient Private Federated Learning",
       "teamAuthors": [
@@ -43727,72 +44018,6 @@
       "url": "https://www.semanticscholar.org/paper/7e72ccb32491711fcf3b59ac77359a57c2ff52de",
       "citationCount": 1,
       "tldr": "This paper addresses a problem of data scarcity of Hong Kong Cantonese language by creating a new Cantonese dataset and creates a powerful and robust Cantonese ASR model by applying multi-dataset learning on MDCC and Common Voice zh-HK.",
-      "abstract": null
-    },
-    {
-      "paperId": "4fca50ab80e278f7210b632e501e3616dd3eb2a1",
-      "title": "Can we train vision and language zero-shot classiﬁcation models without syntax?",
-      "teamAuthors": [
-        {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Ajinkya Tejankar",
-          "authorId": "1471776526",
-          "slug": null
-        },
-        {
-          "name": "Maziar Sanjabi",
-          "authorId": "2095979",
-          "slug": null
-        },
-        {
-          "name": "Bichen Wu",
-          "authorId": "3130257",
-          "slug": null
-        },
-        {
-          "name": "Madian Khabsa",
-          "authorId": "2072010",
-          "slug": null
-        },
-        {
-          "name": "Saining Xie",
-          "authorId": "1817030",
-          "slug": "saining-xie"
-        },
-        {
-          "name": "H. Pirsiavash",
-          "authorId": "2367683",
-          "slug": null
-        },
-        {
-          "name": "Hamed Firooz",
-          "authorId": "22593971",
-          "slug": null
-        },
-        {
-          "name": "U. Davis",
-          "authorId": "51998396",
-          "slug": null
-        },
-        {
-          "name": "AI Meta",
-          "authorId": "2149781051",
-          "slug": null
-        }
-      ],
-      "memberSlug": "saining-xie",
-      "memberName": "Saining Xie",
-      "publicationDate": null,
-      "year": 2022,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/4fca50ab80e278f7210b632e501e3616dd3eb2a1",
-      "citationCount": 0,
-      "tldr": "Through extensive and careful experiments, it is shown that replacing intact captions with Bag-of-Words (BoW) does not signiﬁcantly degrade the zero-shot performance and can even slightly improve the performance on some datasets by balancing the frequency of words in BoW.",
       "abstract": null
     },
     {
@@ -47937,6 +48162,52 @@
       "abstract": "\n \n \nMany goal-reaching reinforcement learning (RL) tasks have empirically verified that rewarding the agent on subgoals improves convergence speed and practical performance. We attempt to provide a theoretical framework to quantify the computational benefits of rewarding the completion of subgoals, in terms of the number of synchronous value iterations. In particular, we consider subgoals as one-way intermediate states, which can only be visited once per episode and propose two settings that consider these one-way intermediate states: the one-way single-path (OWSP) and the one-way multi-path (OWMP) settings. In both OWSP and OWMP settings, we demonstrate that adding intermediate rewards to subgoals is more computationally efficient than only rewarding the agent once it completes the goal of reaching a terminal state. We also reveal a trade-off between computational complexity and the pursuit of the shortest path in the OWMP setting: adding intermediate rewards significantly reduces the computational complexity of reaching the goal but the agent may not find the shortest path, whereas with sparse terminal rewards, the agent finds the shortest path at a significantly higher computat"
     },
     {
+      "paperId": "b65bc8bd4e8900c38eb09bc1cbccea2499a86627",
+      "title": "Exploring Balanced Feature Spaces for Representation Learning",
+      "teamAuthors": [
+        {
+          "slug": "bingyi-kang",
+          "name": "Bingyi Kang"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Bingyi Kang",
+          "authorId": "2064621368",
+          "slug": "bingyi-kang"
+        },
+        {
+          "name": "Yu Li",
+          "authorId": "2116610600",
+          "slug": null
+        },
+        {
+          "name": "S. Xie",
+          "authorId": "2407771963",
+          "slug": null
+        },
+        {
+          "name": "Zehuan Yuan",
+          "authorId": "51305314",
+          "slug": null
+        },
+        {
+          "name": "Jiashi Feng",
+          "authorId": "1698982",
+          "slug": null
+        }
+      ],
+      "memberSlug": "bingyi-kang",
+      "memberName": "Bingyi Kang",
+      "publicationDate": null,
+      "year": 2021,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/b65bc8bd4e8900c38eb09bc1cbccea2499a86627",
+      "citationCount": 307,
+      "tldr": "A novel representation learning method is developed, called k -positive contrastive learning, which effectively combines strengths of the supervised method and the contrastive learning method to learn representations that are both discriminative and balanced.",
+      "abstract": null
+    },
+    {
       "paperId": "2634d753899c065f412c9b299b432cbd5b601b32",
       "title": "Computational Benefits of Intermediate Rewards for Hierarchical Planning",
       "teamAuthors": [
@@ -48203,52 +48474,6 @@
       "url": "https://www.semanticscholar.org/paper/d5adb5323818b0f73403ab2509f5dea7e8e8401c",
       "citationCount": 13,
       "tldr": "Given the complexity of this challenge, the second IGLU: Interactive Grounded Language Understanding in a Collaborative Environment competition was divided into two sub-tasks: first, deciding whether the provided grounded instruction requires clarification, and second, following a clear grounded instruction to complete the task description.",
-      "abstract": null
-    },
-    {
-      "paperId": "b65bc8bd4e8900c38eb09bc1cbccea2499a86627",
-      "title": "Exploring Balanced Feature Spaces for Representation Learning",
-      "teamAuthors": [
-        {
-          "slug": "bingyi-kang",
-          "name": "Bingyi Kang"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Bingyi Kang",
-          "authorId": "2064621368",
-          "slug": "bingyi-kang"
-        },
-        {
-          "name": "Yu Li",
-          "authorId": "2116610600",
-          "slug": null
-        },
-        {
-          "name": "S. Xie",
-          "authorId": "2407771963",
-          "slug": null
-        },
-        {
-          "name": "Zehuan Yuan",
-          "authorId": "51305314",
-          "slug": null
-        },
-        {
-          "name": "Jiashi Feng",
-          "authorId": "1698982",
-          "slug": null
-        }
-      ],
-      "memberSlug": "bingyi-kang",
-      "memberName": "Bingyi Kang",
-      "publicationDate": null,
-      "year": 2021,
-      "venue": "International Conference on Learning Representations",
-      "url": "https://www.semanticscholar.org/paper/b65bc8bd4e8900c38eb09bc1cbccea2499a86627",
-      "citationCount": 307,
-      "tldr": "A novel representation learning method is developed, called k -positive contrastive learning, which effectively combines strengths of the supervised method and the contrastive learning method to learn representations that are both discriminative and balanced.",
       "abstract": null
     },
     {
@@ -49164,6 +49389,47 @@
       "abstract": "Accelerating MRI scans is one of the principal outstanding problems in the MRI research community. Towards this goal, we hosted the second fastMRI competition targeted towards reconstructing MR images with subsampled k-space data. We provided participants with data from 7,299 clinical brain scans (de-identified via a HIPAA-compliant procedure by NYU Langone Health), holding back the fully-sampled data from 894 of these scans for challenge evaluation purposes. In contrast to the 2019 challenge, we focused our radiologist evaluations on pathological assessment in brain images. We also debuted a new Transfer track that required participants to submit models evaluated on MRI scanners from outside the training set. We received 19 submissions from eight different groups. Results showed one team scoring best in both SSIM scores and qualitative radiologist evaluations. We also performed analysis on alternative metrics to mitigate the effects of background noise and collected feedback from the participants to inform future challenges. Lastly, we identify common failure modes across the submissions, highlighting areas of need for future research in the MRI reconstruction community."
     },
     {
+      "paperId": "cb1765d399b988ec5c3bfd0dd58df5c2f6c7d130",
+      "title": "Performance Analysis of Object Detection Framework: Evolution from SIFT to Mask R - CNN",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Karen",
+          "authorId": "2060040071",
+          "slug": null
+        },
+        {
+          "name": "Simonyan",
+          "authorId": "2226793915",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Samuel Albanie",
+          "authorId": "7641268",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2021-04-28",
+      "year": 2021,
+      "venue": null,
+      "url": "https://doi.org/10.17762/TURCOMAT.V12I10.5049",
+      "citationCount": 0,
+      "tldr": "The performance of each and every method led through the evolution of objectdetection methods, its advantages and the disadvantages which has pavedway for the innovation of next technique has been discussed and representedindetail.",
+      "abstract": null
+    },
+    {
       "paperId": "57119dde4f6c45b195d9768e00e441032da7a650",
       "title": "Semi-Supervised Learning of Visual Features by Non-Parametrically Predicting View Assignments with Support Samples",
       "teamAuthors": [
@@ -49218,47 +49484,6 @@
       "citationCount": 176,
       "tldr": "Despite the simplicity of the approach, PAWS outperforms other semi-supervised methods across architectures, setting a new state-of-the-art for a ResNet-50 on ImageNet trained with either 10% or 1% of the labels, reaching 75% and 66.5% top-1 respectively.",
       "abstract": "This paper proposes a novel method of learning by predicting view assignments with support samples (PAWS). The method trains a model to minimize a consistency loss, which ensures that different views of the same unlabeled instance are assigned similar pseudo-labels. The pseudo-labels are generated non-parametrically, by comparing the representations of the image views to those of a set of randomly sampled labeled images. The distance between the view representations and labeled representations is used to provide a weighting over class labels, which we interpret as a soft pseudo-label. By non-parametrically incorporating labeled samples in this way, PAWS extends the distance-metric loss used in self-supervised methods such as BYOL and SwAV to the semi-supervised setting. Despite the simplicity of the approach, PAWS outperforms other semi-supervised methods across architectures, setting a new state-of-the-art for a ResNet-50 on ImageNet trained with either 10% or 1% of the labels, reaching 75.5% and 66.5% top-1 respectively. than the previous best methods. PAWS requires 4× to 12× less training"
-    },
-    {
-      "paperId": "cb1765d399b988ec5c3bfd0dd58df5c2f6c7d130",
-      "title": "Performance Analysis of Object Detection Framework: Evolution from SIFT to Mask R - CNN",
-      "teamAuthors": [
-        {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Karen",
-          "authorId": "2060040071",
-          "slug": null
-        },
-        {
-          "name": "Simonyan",
-          "authorId": "2226793915",
-          "slug": null
-        },
-        {
-          "name": "Saining Xie",
-          "authorId": "1817030",
-          "slug": "saining-xie"
-        },
-        {
-          "name": "Samuel Albanie",
-          "authorId": "7641268",
-          "slug": null
-        }
-      ],
-      "memberSlug": "saining-xie",
-      "memberName": "Saining Xie",
-      "publicationDate": "2021-04-28",
-      "year": 2021,
-      "venue": null,
-      "url": "https://doi.org/10.17762/TURCOMAT.V12I10.5049",
-      "citationCount": 0,
-      "tldr": "The performance of each and every method led through the evolution of objectdetection methods, its advantages and the disadvantages which has pavedway for the innovation of next technique has been discussed and representedindetail.",
-      "abstract": null
     },
     {
       "paperId": "c7dcdaafa2198b88854e364c4d7e6497a3a4f46c",
@@ -50255,6 +50480,47 @@
       "abstract": "Deep reinforcement learning (RL) agents trained in a limited set of environments tend to suffer overfitting and fail to generalize to unseen testing environments. To improve their generalizability, data augmentation approaches (e.g. cutout and random convolution) are previously explored to increase the data diversity. However, we find these approaches only locally perturb the observations regardless of the training environments, showing limited effectiveness on enhancing the data diversity and the generalization performance. In this work, we introduce a simple approach, named mixreg, which trains agents on a mixture of observations from different training environments and imposes linearity constraints on the observation interpolations and the supervision (e.g. associated reward) interpolations. Mixreg increases the data diversity more effectively and helps learn smoother policies. We verify its effectiveness on improving generalization by conducting extensive experiments on the large-scale Procgen benchmark. Results show mixreg outperforms the well-established baselines on unseen testing environments by a large margin. Mixreg is simple, effective and general. It can be applied to b"
     },
     {
+      "paperId": "975e33347fd841ded9ebcd77d928b243ea786a8c",
+      "title": "Regularization Matters in Policy Optimization - An Empirical Study on Continuous Control",
+      "teamAuthors": [
+        {
+          "slug": "bingyi-kang",
+          "name": "Bingyi Kang"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Zhuang Liu",
+          "authorId": "2109168016",
+          "slug": null
+        },
+        {
+          "name": "Xuanlin Li",
+          "authorId": "2108263986",
+          "slug": null
+        },
+        {
+          "name": "Bingyi Kang",
+          "authorId": "2064621368",
+          "slug": "bingyi-kang"
+        },
+        {
+          "name": "Trevor Darrell",
+          "authorId": "1753210",
+          "slug": null
+        }
+      ],
+      "memberSlug": "bingyi-kang",
+      "memberName": "Bingyi Kang",
+      "publicationDate": "2020-10-06",
+      "year": 2020,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/975e33347fd841ded9ebcd77d928b243ea786a8c",
+      "citationCount": 61,
+      "tldr": "This work presents the first comprehensive study of regularization techniques with multiple policy optimization algorithms on continuous control tasks and discusses and analyze why regularization may help generalization in RL from four perspectives: sample complexity, reward distribution, weight norm, and noise robustness.",
+      "abstract": null
+    },
+    {
       "paperId": "b090cfc2179a789e7aeb684ee8c85e71bcbd4aa0",
       "title": "A Closer Look at Codistillation for Distributed Training",
       "teamAuthors": [
@@ -50304,47 +50570,6 @@
       "citationCount": 8,
       "tldr": "Surprisingly, it is found that even at moderate batch sizes, models trained with codistillation can perform as well as modelstrained with synchronous data-parallel methods, despite using a much weaker synchronization mechanism.",
       "abstract": "Codistillation has been proposed as a mechanism to share knowledge among concurrently trained models by encouraging them to represent the same function through an auxiliary loss. This contrasts with the more commonly used fully-synchronous data-parallel stochastic gradient descent methods, where different model replicas average their gradients (or parameters) at every iteration and thus maintain identical parameters. We investigate codistillation in a distributed training setup, complementing previous work which focused on extremely large batch sizes. Surprisingly, we find that even at moderate batch sizes, models trained with codistillation can perform as well as models trained with synchronous data-parallel methods, despite using a much weaker synchronization mechanism. These findings hold across a range of batch sizes and learning rate schedules, as well as different kinds of models and datasets. Obtaining this level of accuracy, however, requires properly accounting for the regularization effect of codistillation, which we highlight through several empirical observations. Overall, this work contributes to a better understanding of codistillation and how to best take advantage o"
-    },
-    {
-      "paperId": "975e33347fd841ded9ebcd77d928b243ea786a8c",
-      "title": "Regularization Matters in Policy Optimization - An Empirical Study on Continuous Control",
-      "teamAuthors": [
-        {
-          "slug": "bingyi-kang",
-          "name": "Bingyi Kang"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Zhuang Liu",
-          "authorId": "2109168016",
-          "slug": null
-        },
-        {
-          "name": "Xuanlin Li",
-          "authorId": "2108263986",
-          "slug": null
-        },
-        {
-          "name": "Bingyi Kang",
-          "authorId": "2064621368",
-          "slug": "bingyi-kang"
-        },
-        {
-          "name": "Trevor Darrell",
-          "authorId": "1753210",
-          "slug": null
-        }
-      ],
-      "memberSlug": "bingyi-kang",
-      "memberName": "Bingyi Kang",
-      "publicationDate": "2020-10-06",
-      "year": 2020,
-      "venue": "International Conference on Learning Representations",
-      "url": "https://www.semanticscholar.org/paper/975e33347fd841ded9ebcd77d928b243ea786a8c",
-      "citationCount": 61,
-      "tldr": "This work presents the first comprehensive study of regularization techniques with multiple policy optimization algorithms on continuous control tasks and discusses and analyze why regularization may help generalization in RL from four perspectives: sample complexity, reward distribution, weight norm, and noise robustness.",
-      "abstract": null
     },
     {
       "paperId": "d2b9d6455bd97c8ed284cd6a638a9015cbd1f9f3",
@@ -50865,6 +51090,126 @@
       "abstract": "OBJECTIVE Deep learning (DL) image reconstruction has the potential to disrupt the current state of MRI by significantly decreasing the time required for MRI examinations. Our goal was to use DL to accelerate MRI to allow a 5-minute comprehensive examination of the knee without compromising image quality or diagnostic accuracy. MATERIALS AND METHODS. A DL model for image reconstruction using a variational network was optimized. The model was trained using dedicated multisequence training, in which a single reconstruction model was trained with data from multiple sequences with different contrast and orientations. After training, data from 108 patients were retrospectively undersampled in a manner that would correspond with a net 3.49-fold acceleration of fully sampled data acquisition and a 1.88-fold acceleration compared with our standard twofold accelerated parallel acquisition. An interchangeability study was performed, in which the ability of six readers to detect internal derangement of the knee was compared for clinical and DL-accelerated images. RESULTS. We found a high degree of interchangeability between standard and DL-accelerated images. In particular, results showed tha"
     },
     {
+      "paperId": "fd986d9988067df491604b1ae8152ade9b624053",
+      "title": "Rethinking Class-Balanced Methods for Long-Tailed Visual Recognition from a Domain Adaptation Perspective",
+      "teamAuthors": [
+        {
+          "slug": "bingyi-kang",
+          "name": "Bingyi Kang"
+        },
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Kaidi Cao",
+          "authorId": "48865984",
+          "slug": null
+        },
+        {
+          "name": "Colin Wei",
+          "authorId": "3460405",
+          "slug": null
+        },
+        {
+          "name": "Adrien Gaidon",
+          "authorId": "2143070716",
+          "slug": null
+        },
+        {
+          "name": "Nikos Aréchiga",
+          "authorId": "1802507",
+          "slug": null
+        },
+        {
+          "name": "Yin Cui",
+          "authorId": "50355189",
+          "slug": null
+        },
+        {
+          "name": "Menglin Jia",
+          "authorId": "51502783",
+          "slug": null
+        },
+        {
+          "name": "Tsung-Yi Lin",
+          "authorId": "33493200",
+          "slug": null
+        },
+        {
+          "name": "Yang Song",
+          "authorId": "2226507397",
+          "slug": null
+        },
+        {
+          "name": "Bingyi Kang",
+          "authorId": "2064621368",
+          "slug": "bingyi-kang"
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Marcus Rohrbach",
+          "authorId": "34849128",
+          "slug": null
+        },
+        {
+          "name": "Zhicheng Yan",
+          "authorId": "3305169",
+          "slug": null
+        },
+        {
+          "name": "A. Gordo",
+          "authorId": "1821267",
+          "slug": null
+        },
+        {
+          "name": "Jiashi Feng",
+          "authorId": "1698982",
+          "slug": null
+        },
+        {
+          "name": "Priya Goyal",
+          "authorId": "47316088",
+          "slug": null
+        },
+        {
+          "name": "Ziwei Liu",
+          "authorId": "2182013922",
+          "slug": null
+        },
+        {
+          "name": "Zhongqi Miao",
+          "authorId": "89139426",
+          "slug": null
+        },
+        {
+          "name": "Xiaohang Zhan",
+          "authorId": "31818765",
+          "slug": null
+        },
+        {
+          "name": "Jiayun Wang",
+          "authorId": "2035768213",
+          "slug": null
+        }
+      ],
+      "memberSlug": "bingyi-kang",
+      "memberName": "Bingyi Kang",
+      "publicationDate": null,
+      "year": 2020,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/fd986d9988067df491604b1ae8152ade9b624053",
+      "citationCount": 14,
+      "tldr": "This approach outperforms the classbalanced weighting scheme for both the cross-entropy loss and the focal loss, as well as on par with best reported ones except on ImageNet-LT.",
+      "abstract": null
+    },
+    {
       "paperId": "6eaf6ecc07862ed2339d43d93f1cc8fb127c4222",
       "title": "Dataset of Knee Images for Accelerated MR Image Reconstruction Using Machine Learning",
       "teamAuthors": [
@@ -51002,126 +51347,6 @@
       "url": "https://www.semanticscholar.org/paper/6eaf6ecc07862ed2339d43d93f1cc8fb127c4222",
       "citationCount": 0,
       "tldr": "The purpose of the fastMRI dataset is to provide the first large-scale dataset tailored to the problem of image reconstruction using machine learning techniques, and to enable accelerated MRI acquisitions of two-dimensional (2D) fastspin-echo sequences that are commonly used in musculoskeletal examinations.",
-      "abstract": null
-    },
-    {
-      "paperId": "fd986d9988067df491604b1ae8152ade9b624053",
-      "title": "Rethinking Class-Balanced Methods for Long-Tailed Visual Recognition from a Domain Adaptation Perspective",
-      "teamAuthors": [
-        {
-          "slug": "bingyi-kang",
-          "name": "Bingyi Kang"
-        },
-        {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Kaidi Cao",
-          "authorId": "48865984",
-          "slug": null
-        },
-        {
-          "name": "Colin Wei",
-          "authorId": "3460405",
-          "slug": null
-        },
-        {
-          "name": "Adrien Gaidon",
-          "authorId": "2143070716",
-          "slug": null
-        },
-        {
-          "name": "Nikos Aréchiga",
-          "authorId": "1802507",
-          "slug": null
-        },
-        {
-          "name": "Yin Cui",
-          "authorId": "50355189",
-          "slug": null
-        },
-        {
-          "name": "Menglin Jia",
-          "authorId": "51502783",
-          "slug": null
-        },
-        {
-          "name": "Tsung-Yi Lin",
-          "authorId": "33493200",
-          "slug": null
-        },
-        {
-          "name": "Yang Song",
-          "authorId": "2226507397",
-          "slug": null
-        },
-        {
-          "name": "Bingyi Kang",
-          "authorId": "2064621368",
-          "slug": "bingyi-kang"
-        },
-        {
-          "name": "Saining Xie",
-          "authorId": "1817030",
-          "slug": "saining-xie"
-        },
-        {
-          "name": "Marcus Rohrbach",
-          "authorId": "34849128",
-          "slug": null
-        },
-        {
-          "name": "Zhicheng Yan",
-          "authorId": "3305169",
-          "slug": null
-        },
-        {
-          "name": "A. Gordo",
-          "authorId": "1821267",
-          "slug": null
-        },
-        {
-          "name": "Jiashi Feng",
-          "authorId": "1698982",
-          "slug": null
-        },
-        {
-          "name": "Priya Goyal",
-          "authorId": "47316088",
-          "slug": null
-        },
-        {
-          "name": "Ziwei Liu",
-          "authorId": "2182013922",
-          "slug": null
-        },
-        {
-          "name": "Zhongqi Miao",
-          "authorId": "89139426",
-          "slug": null
-        },
-        {
-          "name": "Xiaohang Zhan",
-          "authorId": "31818765",
-          "slug": null
-        },
-        {
-          "name": "Jiayun Wang",
-          "authorId": "2035768213",
-          "slug": null
-        }
-      ],
-      "memberSlug": "bingyi-kang",
-      "memberName": "Bingyi Kang",
-      "publicationDate": null,
-      "year": 2020,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/fd986d9988067df491604b1ae8152ade9b624053",
-      "citationCount": 14,
-      "tldr": "This approach outperforms the classbalanced weighting scheme for both the cross-entropy loss and the focal loss, as well as on par with best reported ones except on ImageNet-LT.",
       "abstract": null
     },
     {
@@ -51412,47 +51637,6 @@
       "abstract": null
     },
     {
-      "paperId": "02ebf1827a1cb08eea241e2fc80f8269f4d5a041",
-      "title": "Video Panoptic Segmentation",
-      "teamAuthors": [
-        {
-          "slug": "sanghyun-woo",
-          "name": "Sanghyun Woo"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Dahun Kim",
-          "authorId": "24028009",
-          "slug": null
-        },
-        {
-          "name": "Sanghyun Woo",
-          "authorId": "2262209",
-          "slug": "sanghyun-woo"
-        },
-        {
-          "name": "Joon-Young Lee",
-          "authorId": "1576788264",
-          "slug": null
-        },
-        {
-          "name": "In-So Kweon",
-          "authorId": "145017151",
-          "slug": null
-        }
-      ],
-      "memberSlug": "sanghyun-woo",
-      "memberName": "Sanghyun Woo",
-      "publicationDate": "2020-06-01",
-      "year": 2020,
-      "venue": "Computer Vision and Pattern Recognition",
-      "url": "https://doi.org/10.1109/cvpr42600.2020.00988",
-      "citationCount": 206,
-      "tldr": "A novel video panoptic segmentation network (VPSNet) which jointly predicts object classes, bounding boxes, masks, instance id tracking, and semantic segmentation in video frames is proposed.",
-      "abstract": "Panoptic segmentation has become a new standard of visual recognition task by unifying previous semantic segmentation and instance segmentation tasks in concert. In this paper, we propose and explore a new video extension of this task, called video panoptic segmentation. The task requires generating consistent panoptic segmentation as well as an association of instance ids across video frames. To invigorate research on this new task, we present two types of video panoptic datasets. The first is a re-organization of the synthetic VIPER dataset into the video panoptic format to exploit its large-scale pixel annotations. The second is a temporal extension on the Cityscapes val. set, by providing new video panoptic annotations (Cityscapes-VPS). Moreover, we propose a novel video panoptic segmentation network (VPSNet) which jointly predicts object classes, bounding boxes, masks, instance id tracking, and semantic segmentation in video frames. To provide appropriate metrics for this task, we propose a video panoptic quality (VPQ) metric and evaluate our method and several other baselines. Experimental results demonstrate the effectiveness of the presented two datasets. We achieve state-o"
-    },
-    {
       "paperId": "5d25110b71e8f3ddb54aceabeb274dfc187c2991",
       "title": "Overcoming Classifier Imbalance for Long-Tail Object Detection With Balanced Group Softmax",
       "teamAuthors": [
@@ -51509,45 +51693,45 @@
       "abstract": "Solving long-tail large vocabulary object detection with deep learning based models is a challenging and demanding task, which is however under-explored. In this work, we provide the first systematic analysis on the underperformance of state-of-the-art models in front of long-tail distribution. We find existing detection methods are unable to model few-shot classes when the dataset is extremely skewed, which can result in classifier imbalance in terms of parameter magnitude. Directly adapting long-tail classification models to detection frameworks can not solve this problem due to the intrinsic difference between detection and classification. In this work, we propose a novel balanced group softmax (BAGS) module for balancing the classifiers within the detection frameworks through group-wise training. It implicitly modulates the training process for the head and tail classes and ensures they are both sufficiently trained, without requiring any extra sampling for the instances from the tail classes. Extensive experiments on the very recent long-tail large vocabulary object recognition benchmark LVIS show that our proposed BAGS significantly improves the performance of detectors with "
     },
     {
-      "paperId": "7689f638e7d48fb391dd579baf3e8e360a0fe578",
-      "title": "Lookahead Converges to Stationary Points of Smooth Non-convex Functions",
+      "paperId": "02ebf1827a1cb08eea241e2fc80f8269f4d5a041",
+      "title": "Video Panoptic Segmentation",
       "teamAuthors": [
         {
-          "slug": "michael-rabbat",
-          "name": "Michael Rabbat"
+          "slug": "sanghyun-woo",
+          "name": "Sanghyun Woo"
         }
       ],
       "authors": [
         {
-          "name": "Jianyu Wang",
-          "authorId": "30880777",
+          "name": "Dahun Kim",
+          "authorId": "24028009",
           "slug": null
         },
         {
-          "name": "Vinayak Tantia",
-          "authorId": "84171867",
+          "name": "Sanghyun Woo",
+          "authorId": "2262209",
+          "slug": "sanghyun-woo"
+        },
+        {
+          "name": "Joon-Young Lee",
+          "authorId": "1576788264",
           "slug": null
         },
         {
-          "name": "Nicolas Ballas",
-          "authorId": "2482072",
+          "name": "In-So Kweon",
+          "authorId": "145017151",
           "slug": null
-        },
-        {
-          "name": "Michael G. Rabbat",
-          "authorId": "2066127975",
-          "slug": "michael-rabbat"
         }
       ],
-      "memberSlug": "michael-rabbat",
-      "memberName": "Michael Rabbat",
-      "publicationDate": "2020-05-01",
+      "memberSlug": "sanghyun-woo",
+      "memberName": "Sanghyun Woo",
+      "publicationDate": "2020-06-01",
       "year": 2020,
-      "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
-      "url": "https://doi.org/10.1109/ICASSP40776.2020.9054014",
-      "citationCount": 12,
-      "tldr": null,
-      "abstract": "The Lookahead optimizer [Zhang et al., 2019] was recently proposed and demonstrated to improve performance of stochastic first-order methods for training deep neural networks. Lookahead can be viewed as a two time-scale algorithm, where the fast dynamics (inner optimizer) determine a search direction and the slow dynamics (outer optimizer) perform updates by moving along this direction. We prove that, with appropriate choice of step-sizes, Lookahead converges to a stationary point of smooth non-convex functions. Although Lookahead is described and implemented as a serial algorithm, our analysis is based on viewing Lookahead as a multi-agent optimization method with two agents communicating periodically."
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/cvpr42600.2020.00988",
+      "citationCount": 206,
+      "tldr": "A novel video panoptic segmentation network (VPSNet) which jointly predicts object classes, bounding boxes, masks, instance id tracking, and semantic segmentation in video frames is proposed.",
+      "abstract": "Panoptic segmentation has become a new standard of visual recognition task by unifying previous semantic segmentation and instance segmentation tasks in concert. In this paper, we propose and explore a new video extension of this task, called video panoptic segmentation. The task requires generating consistent panoptic segmentation as well as an association of instance ids across video frames. To invigorate research on this new task, we present two types of video panoptic datasets. The first is a re-organization of the synthetic VIPER dataset into the video panoptic format to exploit its large-scale pixel annotations. The second is a temporal extension on the Cityscapes val. set, by providing new video panoptic annotations (Cityscapes-VPS). Moreover, we propose a novel video panoptic segmentation network (VPSNet) which jointly predicts object classes, bounding boxes, masks, instance id tracking, and semantic segmentation in video frames. To provide appropriate metrics for this task, we propose a video panoptic quality (VPQ) metric and evaluate our method and several other baselines. Experimental results demonstrate the effectiveness of the presented two datasets. We achieve state-o"
     },
     {
       "paperId": "2f67c5259b1c4bf82c82e312df33037d053c856a",
@@ -51594,6 +51778,47 @@
       "citationCount": 42,
       "tldr": null,
       "abstract": "Conventional deep neural networks based video object segmentation (VOS) methods are dominated by heavily fine-tuning a segmentation model on the first frame of a given video, which is time-consuming and inefficient. In this paper, we propose a novel method which rapidly adapts a base segmentation model to new video sequences with only a couple of model-update iterations, without sacrificing performance. Such attractive efficiency benefits from the meta-learning paradigm which leads to a meta-segmentation model and a novel continuous learning approach which enables online adaptation of the segmentation model. Concretely, we train a meta-learner on multiple VOS tasks such that the meta model can capture their common knowledge and gains the ability to fast adapt the segmentation model to new video sequences. Furthermore, to deal with unique challenges of VOS tasks from temporal variations in the video, e.g., object motion and appearance changes, we propose a principled online adaptation approach that continuously adapts the segmentation model across video frames by exploiting temporal context effectively, providing robustness to annoying temporal variations. Integrating the meta-learn"
+    },
+    {
+      "paperId": "7689f638e7d48fb391dd579baf3e8e360a0fe578",
+      "title": "Lookahead Converges to Stationary Points of Smooth Non-convex Functions",
+      "teamAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Jianyu Wang",
+          "authorId": "30880777",
+          "slug": null
+        },
+        {
+          "name": "Vinayak Tantia",
+          "authorId": "84171867",
+          "slug": null
+        },
+        {
+          "name": "Nicolas Ballas",
+          "authorId": "2482072",
+          "slug": null
+        },
+        {
+          "name": "Michael G. Rabbat",
+          "authorId": "2066127975",
+          "slug": "michael-rabbat"
+        }
+      ],
+      "memberSlug": "michael-rabbat",
+      "memberName": "Michael Rabbat",
+      "publicationDate": "2020-05-01",
+      "year": 2020,
+      "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "url": "https://doi.org/10.1109/ICASSP40776.2020.9054014",
+      "citationCount": 12,
+      "tldr": null,
+      "abstract": "The Lookahead optimizer [Zhang et al., 2019] was recently proposed and demonstrated to improve performance of stochastic first-order methods for training deep neural networks. Lookahead can be viewed as a two time-scale algorithm, where the fast dynamics (inner optimizer) determine a search direction and the slow dynamics (outer optimizer) perform updates by moving along this direction. We prove that, with appropriate choice of step-sizes, Lookahead converges to a stationary point of smooth non-convex functions. Although Lookahead is described and implemented as a serial algorithm, our analysis is based on viewing Lookahead as a multi-agent optimization method with two agents communicating periodically."
     },
     {
       "paperId": "9f5526fe4553d61a6e093f8d32d0cc4e54c1abfe",
@@ -52522,6 +52747,62 @@
       "abstract": "Remarkable progress has been made in object instance detection and segmentation in recent years. However, existing state-of-the-art methods are mostly evaluated with fairly balanced and class-limited benchmarks, such as Microsoft COCO dataset [8]. In this report, we investigate the performance drop phenomenon of state-of-the-art two-stage instance segmentation models when processing extreme long-tail training data based on the LVIS [5] dataset, and find a major cause is the inaccurate classification of object proposals. Based on this observation, we propose to calibrate the prediction of classification head to improve recognition performance for the tail classes. Without much additional cost and modification of the detection model architecture, our calibration method improves the performance of the baseline by a large margin on the tail classes. Codes will be available. Importantly, after the submission, we find significant improvement can be further achieved by modifying the calibration head, which we will update later."
     },
     {
+      "paperId": "aa35ec679c4ef5007655be655b1cc57020a73314",
+      "title": "Exploring Simple and Transferable Recognition-Aware Image Processing",
+      "teamAuthors": [
+        {
+          "slug": "bingyi-kang",
+          "name": "Bingyi Kang"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Zhuang Liu",
+          "authorId": "2109168016",
+          "slug": null
+        },
+        {
+          "name": "H. Wang",
+          "authorId": "2109269975",
+          "slug": null
+        },
+        {
+          "name": "Tinghui Zhou",
+          "authorId": "1822702",
+          "slug": null
+        },
+        {
+          "name": "Zhiqiang Shen",
+          "authorId": "145314568",
+          "slug": null
+        },
+        {
+          "name": "Bingyi Kang",
+          "authorId": "2064621368",
+          "slug": "bingyi-kang"
+        },
+        {
+          "name": "Evan Shelhamer",
+          "authorId": "1782282",
+          "slug": null
+        },
+        {
+          "name": "Trevor Darrell",
+          "authorId": "1753210",
+          "slug": null
+        }
+      ],
+      "memberSlug": "bingyi-kang",
+      "memberName": "Bingyi Kang",
+      "publicationDate": "2019-10-21",
+      "year": 2019,
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "url": "https://doi.org/10.1109/TPAMI.2022.3183243",
+      "citationCount": 13,
+      "tldr": "This work examines simple approaches to improve machine recognition of processed images: optimizing the recognition loss directly on the image processing network or through an intermediate input transformation model, and shows that the accuracy gain can transfer to a black-box cloud model.",
+      "abstract": "Recent progress in image recognition has stimulated the deployment of vision systems at an unprecedented scale. As a result, visual data are now often consumed not only by humans but also by machines. Existing image processing methods only optimize for better human perception, yet the resulting images may not be accurately recognized by machines. This can be undesirable, e.g., the images can be improperly handled by search engines or recommendation systems. In this work, we examine simple approaches to improve machine recognition of processed images: optimizing the recognition loss directly on the image processing network or through an intermediate input transformation model. Interestingly, the processing model's ability to enhance recognition quality can transfer when evaluated on models of different architectures, recognized categories, tasks, and training datasets. This makes the methods applicable even when we do not have the knowledge of future recognition models, e.g., when uploading processed images to the Internet. We conduct experiments on multiple image processing tasks paired with ImageNet classification and PASCAL VOC detection as recognition tasks. With these simple ye"
+    },
+    {
       "paperId": "dcc4c760c3f1cb17f953c487190b735030c33b78",
       "title": "Decoupling Representation and Classifier for Long-Tailed Recognition",
       "teamAuthors": [
@@ -52580,62 +52861,6 @@
       "citationCount": 1620,
       "tldr": "It is shown that it is possible to outperform carefully designed losses, sampling strategies, even complex modules with memory, by using a straightforward approach that decouples representation and classification.",
       "abstract": "The long-tail distribution of the visual world poses great challenges for deep learning based classification models on how to handle the class imbalance problem. Existing solutions usually involve class-balancing strategies, e.g., by loss re-weighting, data re-sampling, or transfer learning from head- to tail-classes, but most of them adhere to the scheme of jointly learning representations and classifiers. In this work, we decouple the learning procedure into representation learning and classification, and systematically explore how different balancing strategies affect them for long-tailed recognition. The findings are surprising: (1) data imbalance might not be an issue in learning high-quality representations; (2) with representations learned with the simplest instance-balanced (natural) sampling, it is also possible to achieve strong long-tailed recognition ability by adjusting only the classifier. We conduct extensive experiments and set new state-of-the-art performance on common long-tailed benchmarks like ImageNet-LT, Places-LT and iNaturalist, showing that it is possible to outperform carefully designed losses, sampling strategies, even complex modules with memory, by usin"
-    },
-    {
-      "paperId": "aa35ec679c4ef5007655be655b1cc57020a73314",
-      "title": "Exploring Simple and Transferable Recognition-Aware Image Processing",
-      "teamAuthors": [
-        {
-          "slug": "bingyi-kang",
-          "name": "Bingyi Kang"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Zhuang Liu",
-          "authorId": "2109168016",
-          "slug": null
-        },
-        {
-          "name": "H. Wang",
-          "authorId": "2109269975",
-          "slug": null
-        },
-        {
-          "name": "Tinghui Zhou",
-          "authorId": "1822702",
-          "slug": null
-        },
-        {
-          "name": "Zhiqiang Shen",
-          "authorId": "145314568",
-          "slug": null
-        },
-        {
-          "name": "Bingyi Kang",
-          "authorId": "2064621368",
-          "slug": "bingyi-kang"
-        },
-        {
-          "name": "Evan Shelhamer",
-          "authorId": "1782282",
-          "slug": null
-        },
-        {
-          "name": "Trevor Darrell",
-          "authorId": "1753210",
-          "slug": null
-        }
-      ],
-      "memberSlug": "bingyi-kang",
-      "memberName": "Bingyi Kang",
-      "publicationDate": "2019-10-21",
-      "year": 2019,
-      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-      "url": "https://doi.org/10.1109/TPAMI.2022.3183243",
-      "citationCount": 13,
-      "tldr": "This work examines simple approaches to improve machine recognition of processed images: optimizing the recognition loss directly on the image processing network or through an intermediate input transformation model, and shows that the accuracy gain can transfer to a black-box cloud model.",
-      "abstract": "Recent progress in image recognition has stimulated the deployment of vision systems at an unprecedented scale. As a result, visual data are now often consumed not only by humans but also by machines. Existing image processing methods only optimize for better human perception, yet the resulting images may not be accurately recognized by machines. This can be undesirable, e.g., the images can be improperly handled by search engines or recommendation systems. In this work, we examine simple approaches to improve machine recognition of processed images: optimizing the recognition loss directly on the image processing network or through an intermediate input transformation model. Interestingly, the processing model's ability to enhance recognition quality can transfer when evaluated on models of different architectures, recognized categories, tasks, and training datasets. This makes the methods applicable even when we do not have the knowledge of future recognition models, e.g., when uploading processed images to the Internet. We conduct experiments on multiple image processing tasks paired with ImageNet classification and PASCAL VOC detection as recognition tasks. With these simple ye"
     },
     {
       "paperId": "36eb73d2a722de2f82bf3bd07493dea2ea1c4e10",
@@ -52847,47 +53072,6 @@
       "abstract": "Widely-used deep reinforcement learning algorithms have been shown to fail in the batch setting--learning from a fixed data set without interaction with the environment. Following this result, there have been several papers showing reasonable performances under a variety of environments and batch settings. In this paper, we benchmark the performance of recent off-policy and batch reinforcement learning algorithms under unified settings on the Atari domain, with data generated by a single partially-trained behavioral policy. We find that under these conditions, many of these algorithms underperform DQN trained online with the same amount of data, as well as the partially-trained behavioral policy. To introduce a strong baseline, we adapt the Batch-Constrained Q-learning algorithm to a discrete-action setting, and show it outperforms all existing algorithms at this task."
     },
     {
-      "paperId": "e20848622d5145744127b82367f9b671c7ddb08e",
-      "title": "SlowMo: Improving Communication-Efficient Distributed SGD with Slow Momentum",
-      "teamAuthors": [
-        {
-          "slug": "michael-rabbat",
-          "name": "Michael Rabbat"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Jianyu Wang",
-          "authorId": "30880777",
-          "slug": null
-        },
-        {
-          "name": "Vinayak Tantia",
-          "authorId": "84171867",
-          "slug": null
-        },
-        {
-          "name": "Nicolas Ballas",
-          "authorId": "2482072",
-          "slug": null
-        },
-        {
-          "name": "Michael G. Rabbat",
-          "authorId": "2066127975",
-          "slug": "michael-rabbat"
-        }
-      ],
-      "memberSlug": "michael-rabbat",
-      "memberName": "Michael Rabbat",
-      "publicationDate": "2019-10-01",
-      "year": 2019,
-      "venue": "International Conference on Learning Representations",
-      "url": "https://www.semanticscholar.org/paper/e20848622d5145744127b82367f9b671c7ddb08e",
-      "citationCount": 226,
-      "tldr": "Inspired by the BMUF method, this work proposes a slow momentum (SlowMo) framework, where workers periodically synchronize and perform a momentum update, after multiple iterations of a base optimization algorithm, and provides theoretical convergence guarantees showing that SlowMo converges to a stationary point of smooth non-convex losses.",
-      "abstract": "Distributed optimization is essential for training large models on large datasets. Multiple approaches have been proposed to reduce the communication overhead in distributed training, such as synchronizing only after performing multiple local SGD steps, and decentralized methods (e.g., using gossip algorithms) to decouple communications among workers. Although these methods run faster than AllReduce-based methods, which use blocking communication before every update, the resulting models may be less accurate after the same number of updates. Inspired by the BMUF method of Chen & Huo (2016), we propose a slow momentum (SlowMo) framework, where workers periodically synchronize and perform a momentum update, after multiple iterations of a base optimization algorithm. Experiments on image classification and machine translation tasks demonstrate that SlowMo consistently yields improvements in optimization and generalization performance relative to the base optimizer, even when the additional overhead is amortized over many updates so that the SlowMo runtime is on par with that of the base optimizer. We provide theoretical convergence guarantees showing that SlowMo converges to a station"
-    },
-    {
       "paperId": "e61854de647b65e30510ad14726a798e818651d9",
       "title": "Order-Aware Generative Modeling Using the 3D-Craft Dataset",
       "teamAuthors": [
@@ -52979,50 +53163,45 @@
       "abstract": "In this paper, we study the problem of sequentially building houses in the game of Minecraft, and demonstrate that learning the ordering can make for more effective autoregressive models. Given a partially built house made by a human player, our system tries to place additional blocks in a human-like manner to complete the house. We introduce a new dataset, HouseCraft, for this new task. HouseCraft contains the sequential order in which 2,500 Minecraft houses were built from scratch by humans. The human action sequences enable us to learn an order-aware generative model called Voxel-CNN. In contrast to many generative models where the sequential generation ordering either does not matter (e.g. holistic generation with GANs), or is manually/arbitrarily set by simple rules (e.g. raster-scan order), our focus is on an ordered generation that imitates humans. To evaluate if a generative model can accurately predict human-like actions, we propose several novel quantitative metrics. We demonstrate that our Voxel-CNN model is simple and effective at this creative task, and can serve as a strong baseline for future research in this direction. The HouseCraft dataset and code with baseline m"
     },
     {
-      "paperId": "51d4f2aec59da6d150932e03e7a45eac8c2945f8",
-      "title": "Neural Architecture Search by Learning Action Space for Monte Carlo Tree Search",
+      "paperId": "e20848622d5145744127b82367f9b671c7ddb08e",
+      "title": "SlowMo: Improving Communication-Efficient Distributed SGD with Slow Momentum",
       "teamAuthors": [
         {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
         }
       ],
       "authors": [
         {
-          "name": "Linnan Wang",
-          "authorId": "3221830",
+          "name": "Jianyu Wang",
+          "authorId": "30880777",
           "slug": null
         },
         {
-          "name": "Saining Xie",
-          "authorId": "1817030",
-          "slug": "saining-xie"
-        },
-        {
-          "name": "Teng Li",
-          "authorId": "2115646385",
+          "name": "Vinayak Tantia",
+          "authorId": "84171867",
           "slug": null
         },
         {
-          "name": "Rodrigo Fonseca",
-          "authorId": "145502789",
+          "name": "Nicolas Ballas",
+          "authorId": "2482072",
           "slug": null
         },
         {
-          "name": "Yuandong Tian",
-          "authorId": "39402399",
-          "slug": null
+          "name": "Michael G. Rabbat",
+          "authorId": "2066127975",
+          "slug": "michael-rabbat"
         }
       ],
-      "memberSlug": "saining-xie",
-      "memberName": "Saining Xie",
-      "publicationDate": "2019-09-25",
+      "memberSlug": "michael-rabbat",
+      "memberName": "Michael Rabbat",
+      "publicationDate": "2019-10-01",
       "year": 2019,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/51d4f2aec59da6d150932e03e7a45eac8c2945f8",
-      "citationCount": 3,
-      "tldr": null,
-      "abstract": null
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/e20848622d5145744127b82367f9b671c7ddb08e",
+      "citationCount": 226,
+      "tldr": "Inspired by the BMUF method, this work proposes a slow momentum (SlowMo) framework, where workers periodically synchronize and perform a momentum update, after multiple iterations of a base optimization algorithm, and provides theoretical convergence guarantees showing that SlowMo converges to a stationary point of smooth non-convex losses.",
+      "abstract": "Distributed optimization is essential for training large models on large datasets. Multiple approaches have been proposed to reduce the communication overhead in distributed training, such as synchronizing only after performing multiple local SGD steps, and decentralized methods (e.g., using gossip algorithms) to decouple communications among workers. Although these methods run faster than AllReduce-based methods, which use blocking communication before every update, the resulting models may be less accurate after the same number of updates. Inspired by the BMUF method of Chen & Huo (2016), we propose a slow momentum (SlowMo) framework, where workers periodically synchronize and perform a momentum update, after multiple iterations of a base optimization algorithm. Experiments on image classification and machine translation tasks demonstrate that SlowMo consistently yields improvements in optimization and generalization performance relative to the base optimizer, even when the additional overhead is amortized over many updates so that the SlowMo runtime is on par with that of the base optimizer. We provide theoretical convergence guarantees showing that SlowMo converges to a station"
     },
     {
       "paperId": "bb797edf7556c57fe255d29a6c0647d6815f02b9",
@@ -53109,6 +53288,52 @@
       "url": "https://www.semanticscholar.org/paper/f78f1e25a5a3dcb4745d31a27a15c87d246ec4c3",
       "citationCount": 9,
       "tldr": "This work proposes simple approaches to improve machine interpretability of processed images: optimizing the recognition loss directly on the image processing network or through an intermediate transforming model, and brings substantial accuracy improvement on both the same recognition model and when transferring to a different one, with minimal or no loss in the imageprocessing quality.",
+      "abstract": null
+    },
+    {
+      "paperId": "51d4f2aec59da6d150932e03e7a45eac8c2945f8",
+      "title": "Neural Architecture Search by Learning Action Space for Monte Carlo Tree Search",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Linnan Wang",
+          "authorId": "3221830",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Teng Li",
+          "authorId": "2115646385",
+          "slug": null
+        },
+        {
+          "name": "Rodrigo Fonseca",
+          "authorId": "145502789",
+          "slug": null
+        },
+        {
+          "name": "Yuandong Tian",
+          "authorId": "39402399",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2019-09-25",
+      "year": 2019,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/51d4f2aec59da6d150932e03e7a45eac8c2945f8",
+      "citationCount": 3,
+      "tldr": null,
       "abstract": null
     },
     {
@@ -53396,52 +53621,6 @@
       "abstract": "We present a simple yet effective prediction module for a one-stage detector. The main process is conducted in a coarse-to-fine manner. First, the module roughly adjusts the default boxes to well capture the extent of target objects in an image. Second, given the adjusted boxes, the module aligns the receptive field of the convolution filters accordingly, not requiring any embedding layers. Both steps build a propose-and-attend mechanism, mimicking two-stage detectors in a highly efficient manner. To verify its effectiveness, we apply the proposed module to a basic one-stage detector SSD. We empirically show that our module significantly lifts the detection accuracy with marginal parameter overhead. Our final model achieves an accuracy comparable to that of state-of-the-art detectors while using a fraction of their model parameter and computational overheads. Moreover, we found that the proposed module has two strong applications. 1) The module can be successfully integrated into a lightweight backbone, further pushing the efficiency of the one-stage detector. 2) The module also allows train-from-scratch without relying on any sophisticated base networks as previous methods do."
     },
     {
-      "paperId": "e2bddea12e066b33b430a0414bf70f082572326e",
-      "title": "A Fast Holistic Algorithm for Complete Dictionary Learning via (cid:96) 4 Norm Maximization",
-      "teamAuthors": [
-        {
-          "slug": "yuexiang-zhai",
-          "name": "Yuexiang Zhai"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Yuexiang Zhai",
-          "authorId": "119692515",
-          "slug": "yuexiang-zhai"
-        },
-        {
-          "name": "Zitong Yang",
-          "authorId": "150358642",
-          "slug": null
-        },
-        {
-          "name": "Zhenyu A. Liao",
-          "authorId": "1557291928",
-          "slug": null
-        },
-        {
-          "name": "John Wright",
-          "authorId": "143607492",
-          "slug": null
-        },
-        {
-          "name": "Yi Ma",
-          "authorId": "1596786698",
-          "slug": null
-        }
-      ],
-      "memberSlug": "yuexiang-zhai",
-      "memberName": "Yuexiang Zhai",
-      "publicationDate": null,
-      "year": 2019,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/e2bddea12e066b33b430a0414bf70f082572326e",
-      "citationCount": 0,
-      "tldr": "This paper considers the problem of learning a complete (orthogonal) dictionary from sparsely generated sample signals and proposes to maximize (cid:96) 4 norm to learn the entire dictionary over the orthogonal group in a holistic fashion.",
-      "abstract": null
-    },
-    {
       "paperId": "3b9728e8de5739d5dc62fe4576c3d4115070313a",
       "title": "C V ] 2 9 O ct 2 01 9 Joint COCO and Mapillary Workshop at ICCV 2019 : LVIS Challenge Track Technical Report : Classification Calibration for Long-tail Instance Segmentation",
       "teamAuthors": [
@@ -53500,6 +53679,52 @@
       "url": "https://www.semanticscholar.org/paper/3b9728e8de5739d5dc62fe4576c3d4115070313a",
       "citationCount": 0,
       "tldr": "This report investigates the performance drop phenomenon of state-of-theart two-stage instance segmentation models when processing extreme long-tail training data based on the LVIS dataset, and finds a major cause is the inaccurate classification of object proposals.",
+      "abstract": null
+    },
+    {
+      "paperId": "e2bddea12e066b33b430a0414bf70f082572326e",
+      "title": "A Fast Holistic Algorithm for Complete Dictionary Learning via (cid:96) 4 Norm Maximization",
+      "teamAuthors": [
+        {
+          "slug": "yuexiang-zhai",
+          "name": "Yuexiang Zhai"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Yuexiang Zhai",
+          "authorId": "119692515",
+          "slug": "yuexiang-zhai"
+        },
+        {
+          "name": "Zitong Yang",
+          "authorId": "150358642",
+          "slug": null
+        },
+        {
+          "name": "Zhenyu A. Liao",
+          "authorId": "1557291928",
+          "slug": null
+        },
+        {
+          "name": "John Wright",
+          "authorId": "143607492",
+          "slug": null
+        },
+        {
+          "name": "Yi Ma",
+          "authorId": "1596786698",
+          "slug": null
+        }
+      ],
+      "memberSlug": "yuexiang-zhai",
+      "memberName": "Yuexiang Zhai",
+      "publicationDate": null,
+      "year": 2019,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/e2bddea12e066b33b430a0414bf70f082572326e",
+      "citationCount": 0,
+      "tldr": "This paper considers the problem of learning a complete (orthogonal) dictionary from sparsely generated sample signals and proposes to maximize (cid:96) 4 norm to learn the entire dictionary over the orthogonal group in a holistic fashion.",
       "abstract": null
     },
     {
@@ -55048,32 +55273,6 @@
       "abstract": null
     },
     {
-      "paperId": "42ed2b05e1fb2edb1c19b6ed398285c7644e80fb",
-      "title": "Deep Representation Learning with Induced Structural Priors",
-      "teamAuthors": [
-        {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Saining Xie",
-          "authorId": "1817030",
-          "slug": "saining-xie"
-        }
-      ],
-      "memberSlug": "saining-xie",
-      "memberName": "Saining Xie",
-      "publicationDate": null,
-      "year": 2018,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/42ed2b05e1fb2edb1c19b6ed398285c7644e80fb",
-      "citationCount": 0,
-      "tldr": "This thesis focuses on two structural priors that have proven to be useful and generalizable in many different scenarios: the multi-scale prior, with an application in edge detection, and the sparse-connectivity prior implemented for generic visual recognition.",
-      "abstract": null
-    },
-    {
       "paperId": "9ed6f03f6822d3761da1a6811bfb54e28c919072",
       "title": "Transferable Meta Learning Across Domains",
       "teamAuthors": [
@@ -55199,6 +55398,32 @@
       "url": "https://www.semanticscholar.org/paper/e17681fdc7de08e38c06a236507210116a7f46b6",
       "citationCount": 0,
       "tldr": "Through the lens of ensemble robustness, this work reveals that a stochastic learning algorithm can generalize well as long as its sensitiveness to adversarial perturbations is bounded in average over training examples.",
+      "abstract": null
+    },
+    {
+      "paperId": "42ed2b05e1fb2edb1c19b6ed398285c7644e80fb",
+      "title": "Deep Representation Learning with Induced Structural Priors",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": null,
+      "year": 2018,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/42ed2b05e1fb2edb1c19b6ed398285c7644e80fb",
+      "citationCount": 0,
+      "tldr": "This thesis focuses on two structural priors that have proven to be useful and generalizable in many different scenarios: the multi-scale prior, with an application in edge detection, and the sparse-connectivity prior implemented for generic visual recognition.",
       "abstract": null
     },
     {
@@ -58011,57 +58236,6 @@
       "url": "https://www.semanticscholar.org/paper/551b369fd1e22ca354bb1d2a1853f79e20932e95",
       "citationCount": 0,
       "tldr": "The deformation of the muscle shows the structural behavior changes after Finite Element Analysis and the construction of 3D PAM model is mainly consists of flexible, inflatable membrane for which the material type and properties are being specified as neoprene rubber.",
-      "abstract": null
-    },
-    {
-      "paperId": "a91c6ad6d97d958cc0bccc11a4e02cf272cab25d",
-      "title": "PLANNER: Generating Diversiﬁed Paragraph via Latent Language Diffusion Model",
-      "teamAuthors": [
-        {
-          "slug": "jiatao-gu",
-          "name": "Jiatao Gu"
-        }
-      ],
-      "authors": [
-        {
-          "name": "Yi-Zhe Zhang",
-          "authorId": "48378494",
-          "slug": null
-        },
-        {
-          "name": "Jia-Tao Gu",
-          "authorId": "2287733778",
-          "slug": "jiatao-gu"
-        },
-        {
-          "name": "Zhuofeng Wu",
-          "authorId": "2109569304",
-          "slug": null
-        },
-        {
-          "name": "Shuangfei Zhai",
-          "authorId": "2443456",
-          "slug": null
-        },
-        {
-          "name": "J. Susskind",
-          "authorId": "49158771",
-          "slug": null
-        },
-        {
-          "name": "N. Jaitly",
-          "authorId": "3111912",
-          "slug": null
-        }
-      ],
-      "memberSlug": "jiatao-gu",
-      "memberName": "Jiatao Gu",
-      "publicationDate": null,
-      "year": null,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/a91c6ad6d97d958cc0bccc11a4e02cf272cab25d",
-      "citationCount": 2,
-      "tldr": "PANNER is proposed, a model that combines latent semantic diffusion with autoregressive generation, to generate high-quality long-form text in an efﬁcient manner and results on semantic generation, text completion and summarization show its effectiveness.",
       "abstract": null
     },
     {
@@ -61075,6 +61249,57 @@
       "url": "https://www.semanticscholar.org/paper/cfee1826dd4743eab44c6e27a0cc5970effa4d80",
       "citationCount": 1848,
       "tldr": "It is shown that prompt following abilities of text-to-image models can be substantially improved by training on highly descriptive generated image captions, and is benchmarked on an evaluation designed to measure prompt following, coherence, and aesthetics, finding that it compares favorably to competitors.",
+      "abstract": null
+    },
+    {
+      "paperId": "a91c6ad6d97d958cc0bccc11a4e02cf272cab25d",
+      "title": "PLANNER: Generating Diversiﬁed Paragraph via Latent Language Diffusion Model",
+      "teamAuthors": [
+        {
+          "slug": "jiatao-gu",
+          "name": "Jiatao Gu"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Yi-Zhe Zhang",
+          "authorId": "48378494",
+          "slug": null
+        },
+        {
+          "name": "Jia-Tao Gu",
+          "authorId": "2287733778",
+          "slug": "jiatao-gu"
+        },
+        {
+          "name": "Zhuofeng Wu",
+          "authorId": "2109569304",
+          "slug": null
+        },
+        {
+          "name": "Shuangfei Zhai",
+          "authorId": "2443456",
+          "slug": null
+        },
+        {
+          "name": "J. Susskind",
+          "authorId": "49158771",
+          "slug": null
+        },
+        {
+          "name": "N. Jaitly",
+          "authorId": "3111912",
+          "slug": null
+        }
+      ],
+      "memberSlug": "jiatao-gu",
+      "memberName": "Jiatao Gu",
+      "publicationDate": null,
+      "year": null,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/a91c6ad6d97d958cc0bccc11a4e02cf272cab25d",
+      "citationCount": 2,
+      "tldr": "PANNER is proposed, a model that combines latent semantic diffusion with autoregressive generation, to generate high-quality long-form text in an efﬁcient manner and results on semantic generation, text completion and summarization show its effectiveness.",
       "abstract": null
     },
     {
