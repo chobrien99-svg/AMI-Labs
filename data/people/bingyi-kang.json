@@ -820,40 +820,6 @@
       ]
     },
     {
-      "paperId": "dcc4c760c3f1cb17f953c487190b735030c33b78",
-      "title": "Decoupling Representation and Classifier for Long-Tailed Recognition",
-      "year": 2019,
-      "venue": "International Conference on Learning Representations",
-      "url": "https://www.semanticscholar.org/paper/dcc4c760c3f1cb17f953c487190b735030c33b78",
-      "citationCount": 1620,
-      "coAuthors": [
-        {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
-        },
-        {
-          "slug": null,
-          "name": "Marcus Rohrbach"
-        },
-        {
-          "slug": null,
-          "name": "Zhicheng Yan"
-        },
-        {
-          "slug": null,
-          "name": "A. Gordo"
-        },
-        {
-          "slug": null,
-          "name": "Jiashi Feng"
-        },
-        {
-          "slug": null,
-          "name": "Yannis Kalantidis"
-        }
-      ]
-    },
-    {
       "paperId": "aa35ec679c4ef5007655be655b1cc57020a73314",
       "title": "Exploring Simple and Transferable Recognition-Aware Image Processing",
       "year": 2019,
@@ -884,6 +850,40 @@
         {
           "slug": null,
           "name": "Trevor Darrell"
+        }
+      ]
+    },
+    {
+      "paperId": "dcc4c760c3f1cb17f953c487190b735030c33b78",
+      "title": "Decoupling Representation and Classifier for Long-Tailed Recognition",
+      "year": 2019,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/dcc4c760c3f1cb17f953c487190b735030c33b78",
+      "citationCount": 1620,
+      "coAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
+          "slug": null,
+          "name": "Marcus Rohrbach"
+        },
+        {
+          "slug": null,
+          "name": "Zhicheng Yan"
+        },
+        {
+          "slug": null,
+          "name": "A. Gordo"
+        },
+        {
+          "slug": null,
+          "name": "Jiashi Feng"
+        },
+        {
+          "slug": null,
+          "name": "Yannis Kalantidis"
         }
       ]
     },
@@ -1208,35 +1208,35 @@
     {
       "title": "Efficient Diffusion Policies for Offline Reinforcement Learning",
       "year": 2023,
-      "citationCount": 190,
+      "citationCount": 204,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2305.20081"
     },
     {
       "title": "BuboGPT: Enabling Visual Grounding in Multi-Modal LLMs",
       "year": 2023,
-      "citationCount": 136,
+      "citationCount": 138,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2307.08581"
     },
     {
-      "title": "Loong: Generating Minute-level Long Videos with Autoregressive Language Models",
-      "year": 2024,
-      "citationCount": 106,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2410.02757"
-    },
-    {
       "title": "MADiff: Offline Multi-agent Learning with Diffusion Models",
       "year": 2023,
-      "citationCount": 106,
+      "citationCount": 119,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2305.17330"
     },
     {
+      "title": "Loong: Generating Minute-level Long Videos with Autoregressive Language Models",
+      "year": 2024,
+      "citationCount": 110,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2410.02757"
+    },
+    {
       "title": "Bag of Tricks for Training Data Extraction from Language Models",
       "year": 2023,
-      "citationCount": 97,
+      "citationCount": 102,
       "venue": "International Conference on Machine Learning",
       "url": "https://doi.org/10.48550/arXiv.2302.04460"
     }
@@ -1602,15 +1602,15 @@
         "papers": 1
       },
       {
-        "name": "Yannis Kalantidis",
-        "papers": 1
-      },
-      {
         "name": "H. Wang",
         "papers": 1
       },
       {
         "name": "Evan Shelhamer",
+        "papers": 1
+      },
+      {
+        "name": "Yannis Kalantidis",
         "papers": 1
       },
       {
