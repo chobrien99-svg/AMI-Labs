@@ -1,195 +1,178 @@
 {
-  "generatedAt": "2026-10-18T22:04:10.240Z",
+  "generatedAt": "2026-10-25T22:10:52.699Z",
   "window": {
     "days": 7,
-    "since": "2026-10-11",
-    "until": "2026-10-18"
+    "since": "2026-10-18",
+    "until": "2026-10-25"
   },
   "model": "claude-sonnet-4-6",
   "facts": {
     "news": {
-      "windowCount": 0,
-      "byTag": {},
-      "items": []
+      "windowCount": 4,
+      "byTag": {
+        "": 1,
+        "research": 1
+      },
+      "items": [
+        {
+          "title": "Yann LeCun and Arthur Mensch back Zurich robotics startup in $30m pre-seed",
+          "url": "https://sifted.eu/articles/yann-lecun-arthur-mensch-zurich-robotics-startup-30m-pre-seed",
+          "source": "Sifted",
+          "publishedAt": "2026-10-22",
+          "tags": [],
+          "summary": "AMI Labs, a Zurich-based robotics startup, has secured $30 million in pre-seed funding backed by prominent AI researchers Yann LeCun and Arthur Mensch. The funding round underscores growing investment in advanced machine intelligence and robotics technologies in Europe."
+        },
+        {
+          "title": "Yann LeCun, the David Hume of Our Time",
+          "url": "https://www.europeanscientist.com/en/features/yann-lecun-the-david-hume-of-our-time/",
+          "source": "European Scientist",
+          "publishedAt": "2026-10-22",
+          "tags": [],
+          "summary": "Marc Rameaux, an AI specialist and regular contributor to The European Scientist, sees Yann LeCun as the David Hume of our time. Tracing the career of the pioneer of convolutional neural networks, from Bell Labs to Meta and on to Advanced Machine Intelligence Labs, he shows how LeCun’s empiricism led him to expose the limits of large language models and to champion “world models”."
+        },
+        {
+          "title": "G42 and Yann LeCun’s AMI Labs Partner to Explore Physical and Industrial AI Applications",
+          "url": "https://www.itp.net/ai-automation/g42-and-yann-lecuns-ami-labs-partner-to-explore-physical-and-industrial-ai-applications",
+          "source": "ITP.net",
+          "publishedAt": "2026-10-20",
+          "tags": [
+            ""
+          ],
+          "summary": "G42 and Yann LeCun's AMI Labs have announced a partnership to develop and explore applications of physical and industrial artificial intelligence. The collaboration aims to advance AI technology in manufacturing and industrial sectors, leveraging AMI Labs' expertise in machine intelligence."
+        },
+        {
+          "title": "H-JEPA teaches world models to plan at multiple levels of abstraction",
+          "url": "https://venturebeat.com/technology/h-jepa-teaches-world-models-to-plan-at-multiple-levels-of-abstraction",
+          "source": "VentureBeat",
+          "publishedAt": "2026-10-20",
+          "tags": [
+            "research"
+          ],
+          "summary": "H-JEPA, a world model developed by AMI Labs, enables AI systems to plan and reason at multiple levels of abstraction simultaneously. This approach allows the model to understand complex tasks by breaking them down into hierarchical representations, improving planning capabilities across different scales of decision-making."
+        }
+      ]
     },
     "jobs": {
-      "total": 6,
-      "newSinceLast": 0,
-      "newItems": [],
+      "total": 7,
+      "newSinceLast": 1,
+      "newItems": [
+        {
+          "title": "Office Manager/ Executive Assistant - Montreal",
+          "department": "General and Administration",
+          "location": "Montreal",
+          "url": "https://jobs.ashbyhq.com/ami/6f9b8424-f48d-4515-8ddc-3d99c0d2ddd1"
+        }
+      ],
       "byDepartment": {
         "All Departments": 1,
-        "Technical Staff": 5
+        "Technical Staff": 5,
+        "General and Administration": 1
       }
     },
     "publications": {
       "total": 802,
-      "newSinceLast": 7,
+      "newSinceLast": 2,
       "newItems": [
         {
-          "memberName": "Jiatao Gu",
+          "memberName": "Yann LeCun",
           "teamAuthors": [
-            "Jiatao Gu"
+            "Yann LeCun"
           ],
-          "title": "Purify Before You Align: Improving Representation Alignment for Diffusion Models",
+          "title": "Advancing Open and Reproducible Relational Learning: RelArena-$\\alpha$, TabPFN-Rel and RPI",
           "year": 2026,
-          "publicationDate": "2026-10-14",
+          "publicationDate": "2026-08-17",
           "venue": null,
-          "url": "https://www.semanticscholar.org/paper/48cb3f3103251bf435a5664b848c182c4d1a980f",
-          "citationCount": 0,
-          "tldr": "Local appearance purification (LAP) is introduced, which improves generation quality and makes encoders such as MAE more effective alignment targets by removing locally predictable content and aligning to the residual.",
-          "abstract": "Representation alignment improves and accelerates diffusion training by encouraging intermediate features to match a pretrained visual encoder. However, standard alignment matches pretrained representations without distinguishing what information may be more useful for generation. We introduce local appearance purification (LAP), which improves generation quality and makes encoders such as MAE more effective alignment targets by removing locally predictable content and aligning to the residual. LAP modifies only the alignment target, and requires no changes to diffusion training or inference. "
+          "url": "https://www.semanticscholar.org/paper/f587565885eaa432dda4a0bfd55fa20019b56dee",
+          "citationCount": 4,
+          "tldr": "This first release of Prior Labs in relational learning opens-source three pieces of software that expect to accelerate research in the field towards meaningful real-world impact and releases an initial version of RPI, an open-source, model-agnostic interface that enables early adopters to easily define problems on new databases and apply any model implemented in RelArena, including TabPFN-Rel, to these problems.",
+          "abstract": "This first release of Prior Labs in relational learning shows our continued commitment to open science. We open-source three pieces of software that we expect to accelerate research in the field towards meaningful real-world impact. We aim to steer further development based on feedback from, and in collaboration with, the community. Given the early stage of development, our $\\alpha$-release targets researchers and early-adopting practitioners. Over the past years, a variety of datasets and tasks for relational learning have emerged, but the community has not converged on a reliable, reproducib"
         },
         {
           "memberName": "Yann LeCun",
           "teamAuthors": [
             "Yann LeCun"
           ],
-          "title": "LeHami: Symplectic Latent Dynamics for World Models",
+          "title": "Announcing the Shaw Prize in Computer Science",
           "year": 2026,
-          "publicationDate": "2026-10-11",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/afccda846d7dbe8f1ba666043ef30586ace10557",
+          "publicationDate": "2026-05-21",
+          "venue": "Communications of the ACM",
+          "url": "https://doi.org/10.1145/3811413",
           "citationCount": 0,
-          "tldr": "Symplectic Hamiltonian JEPA (LeHami), which replaces the standard predictor with an action-conditioned Hamiltonian flow over a structured latent state integrated using an exactly symplectic leapfrog step, shows how geometric structure can provide inference-time guarantees that are complementary to representation regularization in latent world models.",
-          "abstract": "Joint-embedding predictive architectures (JEPAs) learn world models directly in latent space, but unconstrained autoregressive predictors may contract the latent distribution over long rollouts. We introduce Symplectic Hamiltonian JEPA (LeHami), which replaces the standard predictor with an action-conditioned Hamiltonian flow over a structured latent state (q, p) integrated using an exactly symplectic leapfrog step. This construction preserves phase-space volume at every rollout step and rules out uniform contraction, asymptotically stable fixed points, and merging of distinct latent states, i"
-        },
-        {
-          "memberName": "Xinyi Wan",
-          "teamAuthors": [
-            "Xinyi Wan"
-          ],
-          "title": "Beyond Benchmarks: A Case Study of LLM-Generated Verus Specification Failures on Asterinas Vostd",
-          "year": 2026,
-          "publicationDate": "2026-10-07",
-          "venue": "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering",
-          "url": "https://doi.org/10.1145/3832783.3834504",
-          "citationCount": 0,
-          "tldr": "It is shown that LLM-generated specifications fail not merely because industrial code is harder, but because failures are structured, stage-dependent, and often repaired in the wrong direction, and future evaluation and tooling should move beyond final pass/fail outcomes and account for where specifications break.",
-          "abstract": "Large language models (LLMs) have recently shown promise in automating formal specification generation, but their effectiveness has mainly been demonstrated on self-contained benchmark tasks. This paper examines the changes that occur when LLM-generated specifications are applied to an industrial verification project. To answer this question, we conducted experiments on Asterinas OSTD's Vostd repository, a Rust-based OS-kernel verification codebase built around cross-file dependencies and Entity--Model proof abstractions. We analyze six formal verification targets spanning 156 function-level t"
-        },
-        {
-          "memberName": "Pascale Fung",
-          "teamAuthors": [
-            "Pascale Fung"
-          ],
-          "title": "Plan, Watch, Recover: A Benchmark and Architectures for Proactive Procedural Assistance",
-          "year": 2026,
-          "publicationDate": "2026-06-03",
-          "venue": "arXiv.org",
-          "url": "https://doi.org/10.48550/arXiv.2606.04970",
-          "citationCount": 5,
-          "tldr": "EgoProactive is introduced, a smart-glasses dataset of procedures across four domains in which users commit step-level deviations and recover from them, paired with reference guidance, and PWR (Plan, Watch, Recover), which keeps an explicit plan state in the model's context and revises it after every intervention, including recovery steps after a deviation.",
-          "abstract": "Proactive multimodal assistants must decide when guidance is needed and what to say, while tracking progress through extended procedures and helping users recover when they depart from the expected plan. Progress is limited by benchmarks that score isolated clips, cover narrow domains, or omit realistic deviations. We introduce EgoProactive, a smart-glasses dataset of procedures across four domains in which users commit step-level deviations and recover from them, paired with reference guidance. We combine it with five re-annotated egocentric and instructional datasets to form Pro$^{2}$Bench, "
-        },
-        {
-          "memberName": "Yann LeCun",
-          "teamAuthors": [
-            "Yann LeCun"
-          ],
-          "title": "Radial-VCReg: More Informative Representation Learning Through Radial Gaussianization",
-          "year": 2026,
-          "publicationDate": "2026-02-15",
-          "venue": "arXiv.org",
-          "url": "https://doi.org/10.48550/arXiv.2602.14272",
-          "citationCount": 5,
-          "tldr": "It is proved that Radial-VCReg transforms a broader class of distributions towards normality compared to VCReg and shows on synthetic and real-world datasets that it consistently improves performance by reducing higher-order dependencies and promoting more diverse and informative representations.",
-          "abstract": "Self-supervised learning aims to learn maximally informative representations, but explicit information maximization is hindered by the curse of dimensionality. Existing methods like VCReg address this by regularizing first and second-order feature statistics, which cannot fully achieve maximum entropy. We propose Radial-VCReg, which augments VCReg with a radial Gaussianization loss that aligns feature norms with the Chi distribution-a defining property of high-dimensional Gaussians. We prove that Radial-VCReg transforms a broader class of distributions towards normality compared to VCReg and s"
-        },
-        {
-          "memberName": "Michael Rabbat",
-          "teamAuthors": [
-            "Michael Rabbat"
-          ],
-          "title": "Understanding Contrastive Representation Learning from Positive Unlabeled (PU) Data",
-          "year": 2024,
-          "publicationDate": "2024-02-08",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/65f95ff2b1ca682f960c2e6edcd3fa281b831ee8",
-          "citationCount": 0,
-          "tldr": "Positive Unlabeled Contrastive Learning (puCL), an unbiased and variance reducing contrastive objective that integrates weak supervision from labeled positives judiciously into the contrastive loss, is introduced.",
-          "abstract": "Pretext Invariant Representation Learning (PIRL) followed by Supervised Fine-Tuning (SFT) has become a standard paradigm for learning with limited labels. We extend this approach to the Positive Unlabeled (PU) setting, where only a small set of labeled positives and a large unlabeled pool -- containing both positives and negatives are available. We study this problem under two regimes: (i) without access to the class prior, and (ii) when the prior is known or can be estimated. We introduce Positive Unlabeled Contrastive Learning (puCL), an unbiased and variance reducing contrastive objective t"
-        },
-        {
-          "memberName": "Michael Rabbat",
-          "teamAuthors": [
-            "Michael Rabbat"
-          ],
-          "title": "Privacy-Aware Compression for Federated Learning Through Numerical Mechanism Design",
-          "year": 2022,
-          "publicationDate": "2022-11-08",
-          "venue": "International Conference on Machine Learning",
-          "url": "https://www.semanticscholar.org/paper/32de8d5e2c38506227300691ca07a56f640017fd",
-          "citationCount": 10,
-          "tldr": "The result is the new Interpolated MVU mechanism that is more scalable, has a better privacy-utility trade-off, and provides SOTA results on communication-efficient private FL on a variety of datasets.",
-          "abstract": "In private federated learning (FL), a server aggregates differentially private updates from a large number of clients in order to train a machine learning model. The main challenge in this setting is balancing privacy with both classification accuracy of the learnt model as well as the number of bits communicated between the clients and server. Prior work has achieved a good trade-off by designing a privacy-aware compression mechanism, called the minimum variance unbiased (MVU) mechanism, that numerically solves an optimization problem to determine the parameters of the mechanism. This paper b"
+          "tldr": null,
+          "abstract": "Nominations for this new prize will be invited September to November 2026."
         }
       ],
-      "recent": [
-        {
-          "memberName": "Jiatao Gu",
-          "teamAuthors": [
-            "Jiatao Gu"
-          ],
-          "title": "Purify Before You Align: Improving Representation Alignment for Diffusion Models",
-          "year": 2026,
-          "publicationDate": "2026-10-14",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/48cb3f3103251bf435a5664b848c182c4d1a980f",
-          "citationCount": 0,
-          "tldr": "Local appearance purification (LAP) is introduced, which improves generation quality and makes encoders such as MAE more effective alignment targets by removing locally predictable content and aligning to the residual.",
-          "abstract": "Representation alignment improves and accelerates diffusion training by encouraging intermediate features to match a pretrained visual encoder. However, standard alignment matches pretrained representations without distinguishing what information may be more useful for generation. We introduce local appearance purification (LAP), which improves generation quality and makes encoders such as MAE more effective alignment targets by removing locally predictable content and aligning to the residual. LAP modifies only the alignment target, and requires no changes to diffusion training or inference. "
-        },
-        {
-          "memberName": "Yann LeCun",
-          "teamAuthors": [
-            "Yann LeCun"
-          ],
-          "title": "LeHami: Symplectic Latent Dynamics for World Models",
-          "year": 2026,
-          "publicationDate": "2026-10-11",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/afccda846d7dbe8f1ba666043ef30586ace10557",
-          "citationCount": 0,
-          "tldr": "Symplectic Hamiltonian JEPA (LeHami), which replaces the standard predictor with an action-conditioned Hamiltonian flow over a structured latent state integrated using an exactly symplectic leapfrog step, shows how geometric structure can provide inference-time guarantees that are complementary to representation regularization in latent world models.",
-          "abstract": "Joint-embedding predictive architectures (JEPAs) learn world models directly in latent space, but unconstrained autoregressive predictors may contract the latent distribution over long rollouts. We introduce Symplectic Hamiltonian JEPA (LeHami), which replaces the standard predictor with an action-conditioned Hamiltonian flow over a structured latent state (q, p) integrated using an exactly symplectic leapfrog step. This construction preserves phase-space volume at every rollout step and rules out uniform contraction, asymptotically stable fixed points, and merging of distinct latent states, i"
-        }
-      ]
+      "recent": []
     },
     "github": {
-      "windowEventCount": 12,
+      "windowEventCount": 23,
       "byMember": {
-        "Basile Terver": 1,
-        "Jiatao Gu": 1,
-        "Mahmoud Assran": 1,
-        "Min Lin": 1,
-        "Quentin Le Lidec": 6,
-        "Tommie Kerssies": 1,
-        "Xingyi Zhou": 1
+        "Artem Zholus": 3,
+        "Brian Li": 1,
+        "Li Haoyi": 1,
+        "Lucas Maes": 1,
+        "Min Lin": 6,
+        "Quentin Garrido": 1,
+        "Quentin Le Lidec": 2,
+        "Rohit Girdhar": 5,
+        "Sanghyun Woo": 3
       },
       "notable": [
         {
+          "member": "Sanghyun Woo",
+          "type": "PullRequestEvent",
+          "repo": "mavenlin/torch2jax",
+          "description": "merged PR #6 in mavenlin/torch2jax",
+          "url": "https://github.com/mavenlin/torch2jax",
+          "timestamp": "2026-10-25T13:03:54Z"
+        },
+        {
+          "member": "Min Lin",
+          "type": "PullRequestReviewEvent",
+          "repo": "mavenlin/torch2jax",
+          "description": "Reviewed PR #6 in mavenlin/torch2jax",
+          "url": "https://github.com/mavenlin/torch2jax",
+          "timestamp": "2026-10-25T13:03:43Z"
+        },
+        {
           "member": "Quentin Le Lidec",
-          "type": "MemberEvent",
-          "repo": "coal-library/coal",
-          "description": "added member to coal-library/coal",
-          "url": "https://github.com/coal-library/coal",
-          "timestamp": "2026-10-13T13:15:19Z"
+          "type": "DeleteEvent",
+          "repo": "quentinll/coal",
+          "description": "Deleted branch topic/capsule-box-distance in quentinll/coal",
+          "url": "https://github.com/quentinll/coal",
+          "timestamp": "2026-10-23T08:00:18Z"
+        },
+        {
+          "member": "Li Haoyi",
+          "type": "IssueCommentEvent",
+          "repo": "com-lihaoyi/os-lib",
+          "description": "Commented on issue #434 in com-lihaoyi/os-lib",
+          "url": "https://github.com/com-lihaoyi/os-lib/issues/434#issuecomment-6355590757",
+          "timestamp": "2026-10-23T02:01:19Z"
+        },
+        {
+          "member": "Rohit Girdhar",
+          "type": "PublicEvent",
+          "repo": "rohitgirdhar/obsidian-worktree-switcher",
+          "description": "Made rohitgirdhar/obsidian-worktree-switcher public",
+          "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "timestamp": "2026-10-21T13:40:53Z"
+        },
+        {
+          "member": "Sanghyun Woo",
+          "type": "PullRequestEvent",
+          "repo": "mavenlin/torch2jax",
+          "description": "Opened PR #6 in mavenlin/torch2jax",
+          "url": "https://github.com/mavenlin/torch2jax",
+          "timestamp": "2026-10-20T20:33:56Z"
         },
         {
           "member": "Quentin Le Lidec",
           "type": "PullRequestEvent",
           "repo": "coal-library/coal",
-          "description": "Opened PR #905 in coal-library/coal",
+          "description": "merged PR #905 in coal-library/coal",
           "url": "https://github.com/coal-library/coal",
-          "timestamp": "2026-10-12T10:21:31Z"
-        },
-        {
-          "member": "Quentin Le Lidec",
-          "type": "CreateEvent",
-          "repo": "quentinll/coal",
-          "description": "Created branch topic/capsule-box-distance in quentinll/coal",
-          "url": "https://github.com/quentinll/coal",
-          "timestamp": "2026-10-12T10:21:26Z"
+          "timestamp": "2026-10-20T12:38:36Z"
         }
       ]
     },
@@ -213,77 +196,54 @@
       "recentMilestones": []
     },
     "social": {
-      "windowCount": 12,
+      "windowCount": 7,
       "byTag": {
-        "hiring": 1,
-        "product": 1,
-        "research": 2
+        "hiring": 1
       },
       "notable": [
         {
-          "author": "Julia Kempe",
-          "handle": "KempeLab",
-          "text": "Check out our new paper on getting a SOTA harness for Automated Theorem Proving!\n\nThe \"bitterest\" part of our lesson, perhaps, was that we wanted to demonstrate benefits of asymmetric self-play for harnesses, and each time we could improve the baseline harness to be better. This https://t.co/QKKuuXwxxv",
-          "url": "https://x.com/KempeLab/status/2109678954831376433",
-          "createdAt": "2026-10-12T16:13:53.000Z",
-          "tags": [
-            "research"
-          ],
+          "author": "Saining Xie",
+          "handle": "sainingxie",
+          "text": "congrats @jang_yoel and the team! \nwhat a time to be dreaming https://t.co/9D6HPeXlIM",
+          "url": "https://x.com/sainingxie/status/2112239537271476251",
+          "createdAt": "2026-10-19T17:48:43.000Z",
+          "tags": [],
           "metrics": {
-            "likes": 75,
-            "retweets": 10,
-            "replies": 6,
+            "likes": 74,
+            "retweets": 3,
+            "replies": 1,
             "quotes": 0
           },
           "highEngagement": true
         },
         {
-          "author": "Julia Kempe",
-          "handle": "KempeLab",
-          "text": "Check out our new Autoformalization benchmark, AutoformBench! \n341 LEAN proving tasks drawn from diverse graduate- and research-level mathematical sources and formalized by human experts. Each task requires writing a substantial amount of auxiliary code, including lemmas, https://t.co/fkYrhbXkDT",
-          "url": "https://x.com/KempeLab/status/2109684437562618155",
-          "createdAt": "2026-10-12T16:35:40.000Z",
-          "tags": [
-            "research"
-          ],
+          "author": "Jiatao Gu",
+          "handle": "thoma_gu",
+          "text": "Excited to see more cool work built on TARFlow (https://t.co/Gb7NETqEw2) for lossless invertible representations that improves training.\n\nRelated: our recent STARFlow2 also explored combining a VLM with TARFlow for unified multimodal generation https://t.co/5Sx7BB5D5A https://t.co/qd915C3zcc",
+          "url": "https://x.com/thoma_gu/status/2112318966840643785",
+          "createdAt": "2026-10-19T23:04:21.000Z",
+          "tags": [],
           "metrics": {
-            "likes": 17,
+            "likes": 46,
             "retweets": 4,
-            "replies": 1,
+            "replies": 0,
             "quotes": 0
           },
-          "highEngagement": false
+          "highEngagement": true
         },
         {
-          "author": "ayaan naveed malik",
-          "handle": "ayaannmalik",
-          "text": "congrats on the launch @omerbartal! https://t.co/B0mCiqqQjK",
-          "url": "https://x.com/ayaannmalik/status/2110490030875840908",
-          "createdAt": "2026-10-14T21:56:49.000Z",
-          "tags": [
-            "product"
-          ],
-          "metrics": {
-            "likes": 6,
-            "retweets": 0,
-            "replies": 1,
-            "quotes": 0
-          },
-          "highEngagement": false
-        },
-        {
-          "author": "Brian Li",
-          "handle": "Brian_Bo_Li",
-          "text": "I think now I am mostly using @ChatGPT the way I previously used in Openclaw. \n\nIs it what @steipete intended to do after joining OpenAI? https://t.co/u7xd2a00LA",
-          "url": "https://x.com/Brian_Bo_Li/status/2110963483932283173",
-          "createdAt": "2026-10-16T05:18:09.000Z",
+          "author": "Amir Bar",
+          "handle": "_amirbar",
+          "text": "Join Jesse's tutorial if you're attending NeurIPS! https://t.co/RuKeQP1yBK",
+          "url": "https://x.com/_amirbar/status/2113565682847674725",
+          "createdAt": "2026-10-23T09:38:21.000Z",
           "tags": [
             "hiring"
           ],
           "metrics": {
-            "likes": 4,
+            "likes": 0,
             "retweets": 0,
-            "replies": 1,
+            "replies": 0,
             "quotes": 0
           },
           "highEngagement": false
@@ -298,7 +258,8 @@
       "df8b17c5-97e6-49e7-abb9-c21a39e4162a",
       "7d58ea84-fd76-4ac7-ad6e-1424f76c42f9",
       "0d7332d8-b8e7-40d3-89b6-dfc02b40bfa2",
-      "9f59ac61-f20b-4d33-9343-9603f693523f"
+      "9f59ac61-f20b-4d33-9343-9603f693523f",
+      "6f9b8424-f48d-4515-8ddc-3d99c0d2ddd1"
     ],
     "publicationKeys": [
       "48cb3f3103251bf435a5664b848c182c4d1a980f",
@@ -323,6 +284,7 @@
       "d32a359821e772575e94cfe854b7c35ba63aeb00",
       "437cb869d42d536ad1b2f35399c99ab79ec65d5a",
       "302343f7676e209391f3d5e3409a1b157c9df45a",
+      "f587565885eaa432dda4a0bfd55fa20019b56dee",
       "2b1d8926a978f468ce80781baac50661a44a851f",
       "211a73f11a8722d61f7cea91b2c52fd4f9aa2ff6",
       "1006651b762e229b32cc001bb287c3f607749447",
@@ -332,10 +294,10 @@
       "41401cb47d98892ae37b7a12d2a125afea245e76",
       "4f890d8373b93892ce2a50d87415653fc225a5a8",
       "1231876b4c92c7a26d4e0cbea9cac388d6dafefb",
+      "e853967245079e097de13475b229d16988065719",
       "7d909170d91e1b35b4b9a8ac01731d7aed2cd53e",
       "1fd17e33165f4509a6e0b890ecb6483b9b7d844a",
       "ef00907321ce5dd241f55a24fcdf49267320dd09",
-      "e853967245079e097de13475b229d16988065719",
       "35f8de974adebb5e036af5f4524d8358ef1f0171",
       "6a2f658d6ea2d3a1f2d03b11d0cce65e9881bd96",
       "bbb2fba52c4d7d3b29f58a5e136d012acdc2010d",
@@ -350,6 +312,7 @@
       "8d00fe792435341ba46bd76adb34f891f46e6910",
       "225c1956cb19dabaa9ec35e9d951f683971c8349",
       "36863b6dd7968bca4efb3f6e93cf06cb84568f0f",
+      "20ba4363b7275178aaca520f9f16b39dad3a87d0",
       "98bfd032ec0208cadd3a5deb9f34d4b228736599",
       "8d62bb68ffa636edd5b72a8fc8fcd99f37aeb836",
       "0d7c52b0964e7161c384abc490c471bc51085508",
@@ -383,10 +346,8 @@
       "acb718a8659640ac1258d3bd391ddd9f1f2d7251",
       "c065b806555f74e4878ccbd695245d1b6534c16a",
       "4fe6ee338373b796ed3b26cf6908c7db2ca56798",
-      "aef0d84ac46f451d8083a7ae7bbafdbdfdad97ca",
       "e685b1cf4404d66f8abae727583d8bf905eaebc5",
       "badf8adcf2b6a6780a308881de75f148a4cacea0",
-      "d925357d2eec7147ee3c67016854271998307323",
       "7d77755819ac40a7e328e0f667c81e52c0dc525b",
       "bed6ecff103c1a6f3a516d9b9d4847be8aff5294",
       "952a89a0add88d80674c0554aa116a83d82763df",
@@ -421,9 +382,9 @@
       "fe640b62d632a3332af1fd2e2966e566317cba41",
       "4046dc07138ea5f3e04d628866b6d902af308c7c",
       "4fb6af36c41fbf5f34be30b0112a139bc3e9ad72",
+      "6f24ecfb6232d6d239db8fa2f55dc71fcd6bfbda",
       "166b5a44f9a20dd8ab72add744712e2b4edf2ac4",
       "d5e99ee816c43d6ce262cd42fb00fe6c67646c09",
-      "6f24ecfb6232d6d239db8fa2f55dc71fcd6bfbda",
       "30db10654933c134dea70e3f43d89eef9053599d",
       "25adcd394d203051b18136fcbd4b409a3a8d47be",
       "2154ab7d1741e093df8ed0361f63f636185d213f",
@@ -562,8 +523,8 @@
       "bb4616d5b5049aaade6b1f9a9c477086bb71c0ea",
       "f7135dca58bf8c6131ff2fbb708eac887a262640",
       "2df11afb0b0662a8a4c229a148b5664e20491c27",
-      "ed44571dd9de3654b84ee1fea63015ecb67e6e63",
       "1ac7fc5a55ce5843fb8a19d9f62b623e822bb7de",
+      "ed44571dd9de3654b84ee1fea63015ecb67e6e63",
       "6c6fc0bd6038eef6ecadb515f7597801b3938043",
       "87345019a78b98484a80efb031cb9d71a70c95c9",
       "881ebd6d94065e5157f2290009b147b87eaf4ec9",
@@ -709,15 +670,15 @@
       "d92c797f587ce7f1b001920ab9e6b7d31960bd77",
       "8e46321b0b717bb595a8ff23f7464fab5c313919",
       "49146ba6e2eac5eb854297db0fc4685656d0a9f4",
-      "ef060988cfb8e3f415c3227d80aa06e2e40619cc",
       "146748b26209afac66a3c0a52fea8b72065b2b2c",
+      "ef060988cfb8e3f415c3227d80aa06e2e40619cc",
       "d16feddfeca2617ca2127b7d134ceb78ce8a8b40",
       "487b7090af70989dde3a0e16bc5d014eb5dfd498",
       "5d3b032270276a0c17ef5fb76679291186dccdca",
+      "5bccb4ffcd3ea8c5d5b25adeb15366cd9579aa34",
       "79bb31af3b7bf51569adde031ded4e832bc02d8d",
       "e94804f8df0e5a3eff6f0a278606d60dcb767d56",
       "5e833e3674fda71ac8544f052ae1c8501a52a10d",
-      "5bccb4ffcd3ea8c5d5b25adeb15366cd9579aa34",
       "4f1408ca267763cb2d20e0141ac53a63d766e69e",
       "2aae2dd79ef30022da59d8c33f0b3afa55d9c20d",
       "22d31891ba36a02fcef6ba79f29e4f3ca9b783a0",
@@ -765,8 +726,8 @@
       "621cb2bca92c12ba8381ca8512c432f5ba7dd815",
       "1d6b1d998aec4093719eecd41cb1bde39b9e1ad0",
       "8335027d600d084cb99e144250d1ea387b2a0fc3",
-      "03c19ddaa26068f23e27ba94b10f08160e87f668",
       "736973165f98105fec3729b7db414ae4d80fcbeb",
+      "03c19ddaa26068f23e27ba94b10f08160e87f668",
       "5f7a1992ce7bfab7ee2dfd1a6cb5494d4c55135d",
       "b77df10c62c7df924e9fe7ede66f3fd2c6cd15ce",
       "dd77326d15fc524de4c0686237c9e9fafe5a511c",
@@ -790,12 +751,12 @@
       "203a1c0e5025489a52c030adbbc102a787685ee6",
       "d730cf22de923601140c7c435ef915d398997388",
       "5ad26b8d3043578ede5625d40f877cf980023338",
+      "2b23a0e5c1709d4a82e1bd09a83e2cef83d8dfe8",
       "fc721f4fd6260ed3b86c64eaa204375e18863aad",
       "7cfbd36c0043098589cbaf18dca2b41d8dc24abe",
       "9c36c8f398a074801d6098287c4353bcf87a1d6c",
-      "2b23a0e5c1709d4a82e1bd09a83e2cef83d8dfe8",
-      "8be831a07abe8c5475c2bd91cc41bf4c1c2be771",
       "77d4100d6fe291352e705147467f9acb1e308c60",
+      "8be831a07abe8c5475c2bd91cc41bf4c1c2be771",
       "b16855a3338052be6202eeea3a18b5496a67cef2",
       "3aea4d8765e5677ce38d5d35b35b5ef82b7e5277",
       "0351a103915d2f10d1915b4892a988d9b15df406",
@@ -809,13 +770,13 @@
       "6153e4a228e3aa353cc970a1d01872d030a04297",
       "e979dd7efc96d742cb8a0adfe17bc4acc9f7201b",
       "d0ed8be702a3a10a91ea3661859ec6f1d5b26cd5",
+      "4fca50ab80e278f7210b632e501e3616dd3eb2a1",
       "0c00e81e73bdcfcad82ff3a11e66b48b5012e0f8",
       "f42cb48e487171e7408b9f2ebf2d7dd5b5a4d675",
       "bb775023683e0909a47f680850bb04a8cabf962f",
       "e17d250eca28e6256a8f3b07442eb2b5ed3cabac",
       "47576b0eeff02623f7c1ce9bb987fcb781cf2a14",
       "7e72ccb32491711fcf3b59ac77359a57c2ff52de",
-      "4fca50ab80e278f7210b632e501e3616dd3eb2a1",
       "b65daf36711e458696e91613fd65ea35d09c85c8",
       "9583c43171c2f4605790def9d54a488a0e250aa9",
       "cf209f6cfa987e7b9320c24a8e9cb70bf39f31a7",
@@ -886,11 +847,11 @@
       "0e9ac2cfc5a3ecb66eeace720901390f7809ba0a",
       "fb04891d44f81cd3ae9e13886f0a8adaff3dd75c",
       "c4ec534bd46033b862f3b6746da4b185e2222d6f",
+      "b65bc8bd4e8900c38eb09bc1cbccea2499a86627",
       "2634d753899c065f412c9b299b432cbd5b601b32",
       "9fc8cbfa2bacd9933f7f50460db1627faeaa1a4f",
       "04f6c77abfa457d546f07c1fdc59d47241720591",
       "d5adb5323818b0f73403ab2509f5dea7e8e8401c",
-      "b65bc8bd4e8900c38eb09bc1cbccea2499a86627",
       "744702eddf5a0851e1f74af5525666109e730d53",
       "ff5f70c925be95dce6fb766a085beae66ab7fbbb",
       "e4179bf0963012f9f13ce0ca61d3cdd12a87b336",
@@ -905,8 +866,8 @@
       "90d1b79984a79a88dbd931a829029b171e57ca9e",
       "0d0cf5f64c052aa7edc5bb638203616a620557f6",
       "3253fcdd6ab3cb43f828ba9f08b974193ad1fe16",
-      "57119dde4f6c45b195d9768e00e441032da7a650",
       "cb1765d399b988ec5c3bfd0dd58df5c2f6c7d130",
+      "57119dde4f6c45b195d9768e00e441032da7a650",
       "c7dcdaafa2198b88854e364c4d7e6497a3a4f46c",
       "d616ec1fe4fa52627e6d57cffee126d8f58d25d8",
       "739ceacfafb1c4eaa17509351b647c773270b3ae",
@@ -926,8 +887,8 @@
       "831561a02369128fcd31b2aa1b4c12f4d09109b2",
       "b063020be00405c8f7c0d05d02a214a103f2a8d8",
       "3caf26a81f8b8be27b8ebc09bdb93416b4c40fe6",
-      "b090cfc2179a789e7aeb684ee8c85e71bcbd4aa0",
       "975e33347fd841ded9ebcd77d928b243ea786a8c",
+      "b090cfc2179a789e7aeb684ee8c85e71bcbd4aa0",
       "d2b9d6455bd97c8ed284cd6a638a9015cbd1f9f3",
       "6e42bc2519fd5a3752eb27e69a83f560cce75e6a",
       "596637f664b6fc1a5ad694378bb555598fac40ac",
@@ -937,8 +898,8 @@
       "ccbd7f5f7aaa7a50e35ff3de41f718861de790c4",
       "a425c6d74273cb9d2ad958273429cd0e8b0f13ba",
       "448e077fc6cc9d05b5c1dffc9b02f12253273651",
-      "6eaf6ecc07862ed2339d43d93f1cc8fb127c4222",
       "fd986d9988067df491604b1ae8152ade9b624053",
+      "6eaf6ecc07862ed2339d43d93f1cc8fb127c4222",
       "c0ef65fa2b6d1cc5a06f6f5e7f964964b1699630",
       "96424fde14891eb15709fab65577b2b8b146c4ce",
       "f488bd9e631caf8c5803a5bc52ab3a36dd8e803c",
@@ -946,10 +907,10 @@
       "22d40963e633e1b4af4a9fefda68e1b8dc96ba63",
       "41b063eb7e078479b267a4410b280dce753f4fab",
       "e97b7c5a7e25d53bfe3880a0f44b2e98e9eda4f5",
-      "02ebf1827a1cb08eea241e2fc80f8269f4d5a041",
       "5d25110b71e8f3ddb54aceabeb274dfc187c2991",
-      "7689f638e7d48fb391dd579baf3e8e360a0fe578",
+      "02ebf1827a1cb08eea241e2fc80f8269f4d5a041",
       "2f67c5259b1c4bf82c82e312df33037d053c856a",
+      "7689f638e7d48fb391dd579baf3e8e360a0fe578",
       "9f5526fe4553d61a6e093f8d32d0cc4e54c1abfe",
       "f4ebde1ba8944f136a654b0bcd468afec23556f7",
       "913e9384a1440dbf860f6d8597953187237fa1b4",
@@ -968,23 +929,23 @@
       "9d01ca964043a52b265534e94abc37210a50cc5a",
       "648d2cd200584f790bd6d07ba875eabc21710d6d",
       "382985a1996a22221b4eb6178c55772bd4f740c2",
-      "dcc4c760c3f1cb17f953c487190b735030c33b78",
       "aa35ec679c4ef5007655be655b1cc57020a73314",
+      "dcc4c760c3f1cb17f953c487190b735030c33b78",
       "36eb73d2a722de2f82bf3bd07493dea2ea1c4e10",
       "844c7955f70beee9b4ccf08d27f41cd873d2116d",
       "1a0d93034215411c8227dedaf5fa18d5929b448c",
       "1534d860ab98b64d23ffa741d0ae52b6cadbf503",
-      "e20848622d5145744127b82367f9b671c7ddb08e",
       "e61854de647b65e30510ad14726a798e818651d9",
-      "51d4f2aec59da6d150932e03e7a45eac8c2945f8",
+      "e20848622d5145744127b82367f9b671c7ddb08e",
       "bb797edf7556c57fe255d29a6c0647d6815f02b9",
       "f78f1e25a5a3dcb4745d31a27a15c87d246ec4c3",
+      "51d4f2aec59da6d150932e03e7a45eac8c2945f8",
       "d44ac0a7fd4734187bccafc4a2771027b8bb595e",
       "e12184b519c14d6964d1ab45ff13fd87f24891c5",
       "bfba23c642da07a0a82ffaa306f7707374383a7c",
       "862e96bd075ac44c9e4a172efd7a636fe9d03f83",
-      "e2bddea12e066b33b430a0414bf70f082572326e",
       "3b9728e8de5739d5dc62fe4576c3d4115070313a",
+      "e2bddea12e066b33b430a0414bf70f082572326e",
       "9147121ab65d3ace2d32afe123500f1b4ee18edd",
       "c3801644100f6f7e521b3f28c2785a2d151988f4",
       "f3c7e853bb77d1ad360464aea81676cc9e3ca1fe",
@@ -1017,10 +978,10 @@
       "10bb4ef7a6719ea132e00f0ab5680919a4131d99",
       "de95601d9e3b20ec51aa33e1f27b1880d2c44ef2",
       "c979efe1f0a8b0b343ea332368e5b51dc153c522",
-      "42ed2b05e1fb2edb1c19b6ed398285c7644e80fb",
       "9ed6f03f6822d3761da1a6811bfb54e28c919072",
       "d8c941f049a1850191c41ee5aa6ed2333d786334",
       "e17681fdc7de08e38c06a236507210116a7f46b6",
+      "42ed2b05e1fb2edb1c19b6ed398285c7644e80fb",
       "4ff9176f02af3f66c4bbb0449ec1eb2d4a3a2d13",
       "36777066966899fb48c1850d5776af97f1c81942",
       "fb3affc0fcaa1d03a086efe5bead15017b7af63a",
@@ -1085,10 +1046,10 @@
       "34642631a6ef8130b98ce73e61298bb9c89b0c71",
       "43a6503308bc5c7156596c0246da39394b2eceb4",
       "551b369fd1e22ca354bb1d2a1853f79e20932e95",
-      "a91c6ad6d97d958cc0bccc11a4e02cf272cab25d",
       "6b2f415b612c59f4f1eed6445806aa6f5874137a",
       "8da0a421f8f7b3a6cff6d691a7f9f38dc25218eb",
       "cfee1826dd4743eab44c6e27a0cc5970effa4d80",
+      "a91c6ad6d97d958cc0bccc11a4e02cf272cab25d",
       "28dc53e76ede84d5c108752341c72519ef705405",
       "470359a9416926371a7d1a104ca84e6eeef35def",
       "e6a7d7c83ca792aad31b43ffc216d07a748041fb",
@@ -1115,80 +1076,80 @@
     "dessinKeys": []
   },
   "status": "ok",
-  "headline": "AMI bets on geometric rigor: LeHami reframes the JEPA world-model problem from the inside out",
-  "stateOfPlay": "The lead signal from AMI this week is the LeHami paper, published on 11 October and co-authored by Randall Balestriero and Yann LeCun. It proposes a mathematically principled fix to a latent-space pathology that has quietly threatened the viability of JEPA-style world models: unconstrained autoregressive predictors' tendency to collapse latent representations over long rollouts. By embedding symplectic Hamiltonian mechanics into the JEPA predictor, the team signals that it believes geometric structure—not just better regularisation—is the right tool for making world models trustworthy at inference time. A second new paper from a collaboration involving Jiatao Gu refines representation alignment for diffusion models along a parallel axis. Julia Kempe's public posts on automated theorem proving add another dimension: AMI is also quietly building formal-reasoning infrastructure, a capability that could eventually plug into the verifiable-planning ambitions world models imply. The mix of signals demonstrates active collaborations outside of AMI as well as the networks being built throughout academia.",
+  "headline": "AMI's $30M pre-seed and the G42 partnership confirm a deliberate pivot toward physical-world AI — and H-JEPA is the technical spine",
+  "stateOfPlay": "Two announcements this week crystallise what AMI has been building toward: a $30 million pre-seed round and a strategic partnership with Gulf industrial heavyweight G42, both oriented explicitly around physical and industrial AI. Read alongside the publication of H-JEPA — a world model designed to plan across multiple levels of abstraction — and the picture snaps into focus. AMI is not positioning itself as another foundation-model lab; it is betting that the next frontier is AI that can reason about and act in the physical world, and it now has the capital and an industrial partner to press that bet.",
   "threads": [
     {
-      "title": "LeHami is AMI's clearest statement yet that JEPA needs physics, not just more data",
-      "category": "research",
-      "narrative": "The core technical claim of LeHami is precise and consequential. The paper's lead author is Romina Yalovetzky, a Computer Science student at NYU Courant. She says the paper was developed as part of her MSc in Computer Science with Randall Balestriero (Brown University and possible AMI collaborator) and Yann LeCun. Standard JEPA predictors are unconstrained neural networks; run autoregressively over many steps, they can contract the latent distribution — distinct world-states converge, and the model loses the ability to distinguish futures. LeHami replaces the predictor with an action-conditioned Hamiltonian flow integrated via an exactly symplectic leapfrog step. The symplectic constraint preserves phase-space volume at every rollout step, which by construction rules out uniform contraction, asymptotically stable fixed points, and the merging of distinct latent trajectories. The paper's framing — that geometric structure provides 'inference-time guarantees that are complementary to representation regularisation' — is a direct signal that AMI regards the collapse problem as structural, not one that can be patched by tweaking the loss function.\n\nThis matters beyond the technical details. LeCun has publicly staked AMI's identity on the JEPA paradigm as the path to human-level machine intelligence. LeHami shows that it is not merely applying JEPA but actively hardening its theoretical foundations. The choice of Hamiltonian mechanics—a framework from classical physics with deep connections to energy conservation and reversibility—points to a longer-term agenda around world models that can support reliable multi-step planning, which robotics and embodied-AI applications require. That Quentin Le Lidec, AMI's most active GitHub contributor this week, is simultaneously pushing capsule-box distance geometry work in the `coal` collision-detection library reinforces the sense that the team's physics-grounded, geometry-first approach runs across both the theoretical and engineering layers.",
+      "title": "The $30M pre-seed and the G42 deal are two halves of the same strategy",
+      "category": "funding",
+      "narrative": "The Sifted report of a $30 million pre-seed — with both Yann LeCun and Mistral's Arthur Mensch listed as backers — is notable not just for its size at such an early stage, but for the signal it sends about AMI's positioning within the European AI landscape. Pre-seed rounds of this magnitude are rare and typically reflect investor conviction that the team has a defensible technical thesis, not merely a promising idea. The presence of Mensch alongside LeCun suggests AMI is drawing on the broader French-European AI network that has formed around the post-LLM critique.\n\nThe G42 partnership, announced two days later, adds a second and arguably more telling dimension. G42 is not a research funder; it is an Abu Dhabi-based technology conglomerate with deep exposure to manufacturing, energy, and industrial infrastructure. A partnership framed explicitly around 'physical and industrial AI applications' implies AMI sees deployment in hard-environment settings — robotics, industrial automation — as a near-term commercial target, not a distant aspiration. Together, the two deals suggest AMI is structuring itself with both the runway (pre-seed capital) and the go-to-market channel (G42's industrial reach) to move from research prototype to real-world system.",
       "evidence": [
         {
-          "label": "LeHami paper (Semantic Scholar)",
-          "url": "https://www.semanticscholar.org/paper/afccda846d7dbe8f1ba666043ef30586ace10557"
+          "label": "Sifted: $30M pre-seed backed by LeCun and Mensch",
+          "url": "https://sifted.eu/articles/yann-lecun-arthur-mensch-zurich-robotics-startup-30m-pre-seed"
         },
         {
-          "label": "Quentin Le Lidec — coal library PR",
-          "url": "https://github.com/coal-library/coal"
+          "label": "ITP.net: G42 and AMI Labs partnership on physical and industrial AI",
+          "url": "https://www.itp.net/ai-automation/g42-and-yann-lecuns-ami-labs-partner-to-explore-physical-and-industrial-ai-applications"
         }
       ]
     },
     {
-      "title": "Gu's LAP paper shows AMI tightening the link between self-supervised encoders and generative models",
+      "title": "H-JEPA makes the technical thesis legible: hierarchical world models for planning",
       "category": "research",
-      "narrative": "Jiatao Gu's 'Purify Before You Align' paper, posted on 14 October, attacks a subtler problem in representation alignment for diffusion models. Gu is a Member of Technical Staff at AMI and remains an Assistant Professor in the University of Pennsylvania's Department of CIS. He co-authored the paper with 6 other researchers from Cornell University and the University of Pennsylvania. The standard approach encourages a diffusion model's intermediate features to match a pretrained encoder (such as MAE) — but it does so indiscriminately, forcing the model to reproduce information that is locally predictable and therefore uninformative for generation. Local Appearance Purification (LAP) strips out that locally predictable content before alignment, so the diffusion model is guided only by the residual — the genuinely surprising structure in the representation. Crucially, LAP modifies only the alignment target and requires no changes to diffusion training or inference, making it a low-friction improvement.\n\nRead alongside LeHami, the paper reveals a coherent team-wide preoccupation: how to make the information flowing between representation learning and generative or predictive models as clean and useful as possible. LeCun's Radial-VCReg work (also surfaced this week, though from February) operates on the same axis — using radial Gaussianisation to reduce higher-order dependencies and push representations toward maximum entropy.",
+      "narrative": "The VentureBeat writeup on H-JEPA — AMI's hierarchical extension of the JEPA (Joint Embedding Predictive Architecture) framework — provides the intellectual grounding for the week's commercial announcements. The core claim, as reported, is that H-JEPA enables an AI system to plan and reason simultaneously at multiple levels of abstraction, breaking complex tasks into hierarchical representations that span different scales of decision-making. This is precisely the capability gap that separates current LLMs from systems that could plausibly operate in industrial or robotic settings, where a model must coordinate long-horizon goals with moment-to-moment physical actions.\n\nThe timing of the coverage — released in the same week as the G42 partnership announcement — is unlikely to be coincidental. Publishing H-JEPA details alongside a deal focused on 'physical and industrial AI' reads as a deliberate act of technical credentialling: here is the partner, and here is the architecture that makes the partnership coherent. This is consistent with the European Scientist profile of LeCun published the same day as the G42 deal, which traces his empiricist critique of LLMs directly to the world-model agenda now institutionalised at AMI.",
       "evidence": [
         {
-          "label": "Purify Before You Align (Semantic Scholar)",
-          "url": "https://www.semanticscholar.org/paper/48cb3f3103251bf435a5664b848c182c4d1a980f"
+          "label": "VentureBeat: H-JEPA and hierarchical world-model planning",
+          "url": "https://venturebeat.com/technology/h-jepa-teaches-world-models-to-plan-at-multiple-levels-of-abstraction"
         },
         {
-          "label": "Purify Before You Align: Improving Representation Alignment for Diffusion Models",
-          "url": "https://yingheng-wang.com/LAP/"
-        },
-        {
-          "label": "Radial-VCReg (arXiv)",
-          "url": "https://doi.org/10.48550/arXiv.2602.14272"
+          "label": "European Scientist: LeCun's empiricism and the world-model agenda",
+          "url": "https://www.europeanscientist.com/en/features/yann-lecun-the-david-hume-of-our-time/"
         }
       ]
     },
     {
-      "title": "Kempe's formal-reasoning push suggests AMI is quietly building a verification capability alongside its perceptual agenda",
+      "title": "The torch2jax push points to a framework convergence that could matter for deployment",
       "category": "research",
-      "narrative": "Julia Kempe used X this week to announce two connected research outputs from work done outside of AMI: a new SOTA harness for Automated Theorem Proving and AutoformBench, a benchmark of 341 LEAN proving tasks drawn from graduate- and research-level mathematics, each formalized by human experts. The theorem-proving post drew meaningful engagement (75 likes, 10 retweets), suggesting the work is landing with the formal-methods community. Kempe's candid note — that the team kept finding ways to improve the baseline harness every time they tried to demonstrate the benefits of asymmetric self-play — is an honest signal about how competitive this space has become.",
+      "narrative": "The most substantive GitHub activity this week centres on `mavenlin/torch2jax`, a repository that — as the name suggests — bridges PyTorch and JAX. Min Lin opened and reviewed a pull request; Sanghyun Woo opened and then merged it, all within the same week. Six of Min Lin's seven GitHub events this window touched this repository or related activity, making it by far the most concentrated engineering effort visible in the tracker.\n\nThe inference is careful but worth drawing: a sustained push to interoperate between PyTorch and JAX suggests AMI is not locked into a single training framework and may be optimising for deployment flexibility or hardware portability — both relevant if the G42 partnership involves running models on industrial infrastructure that may not run standard GPU clusters. It could equally reflect an internal tooling need as the team scales up research. What it rules out is stagnation: the torch2jax work is active, collaborative, and being merged into production.",
       "evidence": [
         {
-          "label": "Kempe — theorem proving harness post",
-          "url": "https://x.com/KempeLab/status/2109678954831376433"
-        },
-        {
-          "label": "Kempe — AutoformBench post",
-          "url": "https://x.com/KempeLab/status/2109684437562618155"
+          "label": "GitHub: mavenlin/torch2jax — PR activity by Min Lin and Sanghyun Woo",
+          "url": "https://github.com/mavenlin/torch2jax"
         }
       ]
     }
   ],
   "signals": [
     {
-      "text": "Quentin Le Lidec was added as a member of the coal-library organization and opened PR #905 introducing capsule-box distance geometry — the most concentrated individual GitHub activity this week, pointing to ongoing robotics-adjacent collision-detection work.",
-      "category": "research",
-      "url": "https://github.com/coal-library/coal",
-      "linkLabel": "coal-library/coal"
+      "text": "Saining Xie's congratulatory post — 'what a time to be dreaming' — linked to what appears to be a team or collaborator milestone, suggesting positive internal momentum around a specific result or announcement this week.",
+      "category": "corporate",
+      "url": "https://x.com/sainingxie/status/2112239537271476251",
+      "linkLabel": "Tweet"
     },
     {
-      "text": "No new job postings were recorded this week against a standing total of six open roles (five in Technical Staff), and no corporate or IP filings changed — consistent with a team in execution rather than expansion mode.",
-      "category": "administrative"
+      "text": "Jiatao Gu publicly promoted STARFlow2, a system combining a VLM with TARFlow for unified multimodal generation — a signal that AMI researchers are continuing to publish on generative representation learning in parallel with the world-model agenda.",
+      "category": "research",
+      "url": "https://x.com/thoma_gu/status/2112318966840643785",
+      "linkLabel": "Tweet"
+    },
+    {
+      "text": "A new Office Manager/Executive Assistant role opened in Montreal — AMI's first visible administrative hire in this window — suggesting the operational infrastructure is beginning to scale alongside the research headcount.",
+      "category": "hiring",
+      "url": "https://jobs.ashbyhq.com/ami/6f9b8424-f48d-4515-8ddc-3d99c0d2ddd1",
+      "linkLabel": "Job posting"
     }
   ],
-  "whatToWatch": "The LeHami paper is currently unreviewed and uncited; watch for venue submission announcements or follow-up experimental results that test the symplectic predictor against standard JEPA baselines at scale, since that will determine whether the geometric argument translates into practical gains. The AutoformBench is a new evaluation surface for the formal-reasoning community — adoption or critique from external groups in the coming weeks will signal how seriously the field takes AMI's foothold in this space.",
+  "whatToWatch": "The G42 partnership is the one to watch most closely: the terms, scope, and timeline of any deliverable will reveal whether AMI intends to deploy H-JEPA-style architectures in industrial settings within months or years. If further technical publication on H-JEPA follows — particularly anything addressing robotics benchmarks or physical simulation — it will confirm that the research and the commercial roadmap are genuinely converging rather than being run in parallel for optics. The Montreal administrative hire is also a small but concrete sign that headcount is about to grow.",
   "whatToWatchLinks": [
     {
-      "url": "https://www.semanticscholar.org/paper/afccda846d7dbe8f1ba666043ef30586ace10557",
-      "linkLabel": "LeHami paper"
+      "url": "https://www.itp.net/ai-automation/g42-and-yann-lecuns-ami-labs-partner-to-explore-physical-and-industrial-ai-applications",
+      "linkLabel": "G42 partnership announcement"
     },
     {
-      "url": "https://x.com/KempeLab/status/2109684437562618155",
-      "linkLabel": "AutoformBench announcement"
+      "url": "https://venturebeat.com/technology/h-jepa-teaches-world-models-to-plan-at-multiple-levels-of-abstraction",
+      "linkLabel": "H-JEPA coverage"
     }
   ]
 }
