@@ -1,5 +1,103 @@
 [
   {
+    "id": "5cf6fffb-3508-4c1d-8d48-8bf8a2ef7df2",
+    "title": "Yann LeCun On What Comes After LLMs Julius Randle (KPNnUYstzQ) - Unisba Media",
+    "source": "Google News",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBvejdIcTg4V2thbWhIbVd5S1ZGY2xZSF9IQnF6ZkJJMWRVUGUwaXdEa0pCNFhZUnlLUmRPSE5HVVAxVFJobFJFMGhkdE5FWkUydDI5eU04aVVtTi1BTDFPd0w2OVF6QQ?oc=5",
+    "publishedAt": "2026-10-25",
+    "summary": "Yann LeCun discusses emerging developments and innovations that may supersede large language models (LLMs) in artificial intelligence. The article explores LeCun's perspective on the future direction of AI beyond current LLM technologies.",
+    "tags": [],
+    "score": 55,
+    "status": "pending",
+    "addedAt": "2026-10-26T13:53:43.563Z",
+    "image": null,
+    "people": [
+      "yann-lecun"
+    ]
+  },
+  {
+    "id": "5f537cec-a238-4ff6-a0d7-e9d85af13fb2",
+    "title": "Brown student maps the hidden global labor powering AI",
+    "source": "Hacker News",
+    "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+    "publishedAt": "2026-10-26",
+    "summary": "A Brown University student has conducted research mapping the global workforce of data workers who perform essential labeling and annotation tasks for AI systems. The study highlights the often-invisible labor practices that underpin the development and training of modern artificial intelligence models worldwide.",
+    "tags": [],
+    "score": 35,
+    "status": "pending",
+    "addedAt": "2026-10-26T13:53:46.230Z",
+    "image": "https://www.brown.edu/sites/default/files/styles/wide_lrg/public/2026-10/Dataworkers.jpg?h=f6430484&amp;itok=1eq5-wXm"
+  },
+  {
+    "id": "e91bc9ad-8f32-4850-8955-9295e3cbe4c9",
+    "title": "Show HN: Render your Windows desktop GUI on the NPU",
+    "source": "Hacker News",
+    "url": "https://github.com/labscommunity/npu-render",
+    "publishedAt": "2026-10-26",
+    "summary": "AMI Labs has developed a project that enables Windows desktop GUI rendering directly on Neural Processing Units (NPUs), potentially offloading graphics computation to specialized AI hardware. The tool, shared on Hacker News, is available on GitHub and represents an exploration of using NPUs for traditional graphics rendering tasks rather than just machine learning inference.",
+    "tags": [],
+    "score": 35,
+    "status": "pending",
+    "addedAt": "2026-10-26T13:53:49.082Z",
+    "image": "https://opengraph.githubassets.com/26696cc03d8eb6e9d9a9e316c9a3659f644416bae4c7b5217cc19ef66f733b42/labscommunity/npu-render"
+  },
+  {
+    "id": "8f27a267-b12a-49c7-b737-87b619678123",
+    "title": "Show HN: Ultimidi – piano learning web game",
+    "source": "Hacker News",
+    "url": "https://game.ultimidi.com/",
+    "publishedAt": "2026-10-26",
+    "summary": "Ultimidi is a web-based piano learning game that combines music education with interactive gameplay. The application allows users to learn piano skills through an engaging game interface accessible directly in web browsers.",
+    "tags": [],
+    "score": 35,
+    "status": "pending",
+    "addedAt": "2026-10-26T13:53:51.481Z",
+    "image": "https://game.ultimidi.com/og/ultimidi-game-20261019.png"
+  },
+  {
+    "id": "677ae4da-2808-4862-aac5-b41cee450e42",
+    "title": "Show HN: Deepswapp Browser: browser the browser with another browser",
+    "source": "Hacker News",
+    "url": "https://deepswapp.com",
+    "publishedAt": "2026-10-26",
+    "summary": "```\n\n```",
+    "tags": [],
+    "score": 42,
+    "status": "pending",
+    "addedAt": "2026-10-26T13:53:53.595Z",
+    "image": null
+  },
+  {
+    "id": "95a4e034-fd9e-4cb1-bc24-ea4a7334ce9e",
+    "title": "Model Equality Testing: Which Model Is This API Serving?",
+    "source": "Hacker News",
+    "url": "https://arxiv.org/abs/2410.20247",
+    "publishedAt": "2026-10-26",
+    "summary": "```\nAMI Labs researchers have developed methods to test and identify which specific machine learning model is being served by an API, addressing concerns about model transparency and consistency. The research on \"Model Equality Testing\" focuses on determining whether an API is actually deploying the claimed model version or specifications.\n```",
+    "tags": [
+      "research"
+    ],
+    "score": 35,
+    "status": "pending",
+    "addedAt": "2026-10-26T13:53:56.130Z",
+    "image": "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+  },
+  {
+    "id": "9ece2c81-2a91-4cf6-8082-e2152c5f32f8",
+    "title": "Show HN: Freehire, open-source search 3M+ tech jobs from company career boards",
+    "source": "Hacker News",
+    "url": "https://freehire.me/",
+    "publishedAt": "2026-10-26",
+    "summary": "Freehire is an open-source platform that enables users to search through more than 3 million technology jobs aggregated directly from company career boards. The tool was presented on Hacker News, highlighting its utility for job seekers looking to browse tech employment opportunities across multiple companies in a centralized location.",
+    "tags": [
+      "hiring"
+    ],
+    "score": 56,
+    "status": "pending",
+    "addedAt": "2026-10-26T13:53:58.242Z",
+    "image": "https://freehire.me/og.png"
+  },
+  {
     "id": "news-bot-25e786fe-15dc-44ea-9f6d-6935597abd45",
     "sanityId": "news-bot-25e786fe-15dc-44ea-9f6d-6935597abd45",
     "title": "Yann LeCun and Arthur Mensch back Zurich robotics startup in $30m pre-seed",
