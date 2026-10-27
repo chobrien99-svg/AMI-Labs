@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-27T03:30:31.054Z",
+  "lastFetched": "2026-10-27T11:31:42.666Z",
   "members": [
     {
       "slug": "adithya-iyer",
@@ -20,16 +20,7 @@
       "name": "Amir Bar",
       "username": "amirbar",
       "githubUrl": "https://github.com/amirbar",
-      "events": [
-        {
-          "type": "PushEvent",
-          "repo": "amirbar/amirbar.github.io",
-          "repoUrl": "https://github.com/amirbar/amirbar.github.io",
-          "description": "Pushed 0 commits to master on amirbar/amirbar.github.io",
-          "url": "https://github.com/amirbar/amirbar.github.io",
-          "timestamp": "2026-09-26T13:20:48Z"
-        }
-      ]
+      "events": []
     },
     {
       "slug": "andrew-brown",
@@ -115,14 +106,6 @@
           "description": "Starred boykopovar/AnyPS5",
           "url": "https://github.com/boykopovar/AnyPS5",
           "timestamp": "2026-10-09T03:46:46Z"
-        },
-        {
-          "type": "WatchEvent",
-          "repo": "JohnHeibel/ClaudeAnimationBase",
-          "repoUrl": "https://github.com/JohnHeibel/ClaudeAnimationBase",
-          "description": "Starred JohnHeibel/ClaudeAnimationBase",
-          "url": "https://github.com/JohnHeibel/ClaudeAnimationBase",
-          "timestamp": "2026-09-27T01:16:15Z"
         }
       ]
     },
@@ -234,7 +217,16 @@
       "name": "Chen Wei",
       "username": "weichen582",
       "githubUrl": "https://github.com/weichen582",
-      "events": []
+      "events": [
+        {
+          "type": "PushEvent",
+          "repo": "weichen582/weichen582.github.io",
+          "repoUrl": "https://github.com/weichen582/weichen582.github.io",
+          "description": "Pushed 0 commits to master on weichen582/weichen582.github.io",
+          "url": "https://github.com/weichen582/weichen582.github.io",
+          "timestamp": "2026-10-26T05:23:13Z"
+        }
+      ]
     },
     {
       "slug": "chenxia-tang",
@@ -801,6 +793,86 @@
       "githubUrl": "https://github.com/rohitgirdhar",
       "events": [
         {
+          "type": "PushEvent",
+          "repo": "rohitgirdhar/obsidian-worktree-switcher",
+          "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "description": "Pushed 0 commits to main on rohitgirdhar/obsidian-worktree-switcher",
+          "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "timestamp": "2026-10-27T04:05:57Z"
+        },
+        {
+          "type": "DeleteEvent",
+          "repo": "rohitgirdhar/obsidian-worktree-switcher",
+          "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "description": "Deleted branch t3/preserve-tabs-on-worktree-delete in rohitgirdhar/obsidian-worktree-switcher",
+          "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "timestamp": "2026-10-27T04:05:36Z"
+        },
+        {
+          "type": "CreateEvent",
+          "repo": "rohitgirdhar/obsidian-worktree-switcher",
+          "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "description": "Created branch t3/preserve-tabs-on-worktree-delete in rohitgirdhar/obsidian-worktree-switcher",
+          "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "timestamp": "2026-10-27T03:49:43Z"
+        },
+        {
+          "type": "CreateEvent",
+          "repo": "rohitgirdhar/obsidian-worktree-switcher",
+          "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "description": "Created branch t3/auto-switch-main-on-worktree-delete in rohitgirdhar/obsidian-worktree-switcher",
+          "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "timestamp": "2026-10-26T21:51:37Z"
+        },
+        {
+          "type": "DeleteEvent",
+          "repo": "rohitgirdhar/obsidian-worktree-switcher",
+          "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "description": "Deleted branch t3/auto-switch-main-on-worktree-delete in rohitgirdhar/obsidian-worktree-switcher",
+          "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "timestamp": "2026-10-26T21:53:47Z"
+        },
+        {
+          "type": "PushEvent",
+          "repo": "rohitgirdhar/obsidian-worktree-switcher",
+          "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "description": "Pushed 0 commits to main on rohitgirdhar/obsidian-worktree-switcher",
+          "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "timestamp": "2026-10-26T21:53:45Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "rohitgirdhar/obsidian-worktree-switcher",
+          "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "description": "merged PR #3 in rohitgirdhar/obsidian-worktree-switcher",
+          "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "timestamp": "2026-10-27T04:39:06Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "rohitgirdhar/obsidian-worktree-switcher",
+          "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "description": "Opened PR #3 in rohitgirdhar/obsidian-worktree-switcher",
+          "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "timestamp": "2026-10-27T04:29:05Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "rohitgirdhar/obsidian-worktree-switcher",
+          "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "description": "merged PR #2 in rohitgirdhar/obsidian-worktree-switcher",
+          "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "timestamp": "2026-10-27T04:05:34Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "rohitgirdhar/obsidian-worktree-switcher",
+          "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "description": "Opened PR #2 in rohitgirdhar/obsidian-worktree-switcher",
+          "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "timestamp": "2026-10-27T03:49:53Z"
+        },
+        {
           "type": "PullRequestEvent",
           "repo": "rohitgirdhar/obsidian-worktree-switcher",
           "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
@@ -839,86 +911,6 @@
           "description": "Pushed 0 commits to main on rohitgirdhar/obsidian-worktree-switcher",
           "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
           "timestamp": "2026-10-21T13:48:21Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "rohitgirdhar/obsidian-worktree-switcher",
-          "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "description": "Pushed 0 commits to main on rohitgirdhar/obsidian-worktree-switcher",
-          "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "timestamp": "2026-10-21T14:20:24Z"
-        },
-        {
-          "type": "PublicEvent",
-          "repo": "rohitgirdhar/obsidian-worktree-switcher",
-          "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "description": "Made rohitgirdhar/obsidian-worktree-switcher public",
-          "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "timestamp": "2026-10-21T13:40:53Z"
-        },
-        {
-          "type": "DiscussionEvent",
-          "repo": "pingdotgg/t3code",
-          "repoUrl": "https://github.com/pingdotgg/t3code",
-          "description": "Activity in pingdotgg/t3code",
-          "url": "https://github.com/pingdotgg/t3code",
-          "timestamp": "2026-10-05T01:00:44Z"
-        },
-        {
-          "type": "IssuesEvent",
-          "repo": "pingdotgg/t3code",
-          "repoUrl": "https://github.com/pingdotgg/t3code",
-          "description": "Opened issue #15821 in pingdotgg/t3code",
-          "url": "https://github.com/pingdotgg/t3code/issues/15821",
-          "timestamp": "2026-10-05T01:00:45Z"
-        },
-        {
-          "type": "IssueCommentEvent",
-          "repo": "pingdotgg/t3code",
-          "repoUrl": "https://github.com/pingdotgg/t3code",
-          "description": "Commented on issue #10684 in pingdotgg/t3code",
-          "url": "https://github.com/pingdotgg/t3code/issues/10684#issuecomment-5969757372",
-          "timestamp": "2026-10-03T13:45:08Z"
-        },
-        {
-          "type": "IssuesEvent",
-          "repo": "pingdotgg/t3code",
-          "repoUrl": "https://github.com/pingdotgg/t3code",
-          "description": "Opened issue #15195 in pingdotgg/t3code",
-          "url": "https://github.com/pingdotgg/t3code/issues/15195",
-          "timestamp": "2026-10-03T13:45:03Z"
-        },
-        {
-          "type": "IssueCommentEvent",
-          "repo": "pingdotgg/t3code",
-          "repoUrl": "https://github.com/pingdotgg/t3code",
-          "description": "Commented on issue #15190 in pingdotgg/t3code",
-          "url": "https://github.com/pingdotgg/t3code/issues/15190#issuecomment-5969696566",
-          "timestamp": "2026-10-03T13:37:19Z"
-        },
-        {
-          "type": "IssuesEvent",
-          "repo": "pingdotgg/t3code",
-          "repoUrl": "https://github.com/pingdotgg/t3code",
-          "description": "Opened issue #15190 in pingdotgg/t3code",
-          "url": "https://github.com/pingdotgg/t3code/issues/15190",
-          "timestamp": "2026-10-03T13:32:07Z"
-        },
-        {
-          "type": "IssuesEvent",
-          "repo": "pingdotgg/t3code",
-          "repoUrl": "https://github.com/pingdotgg/t3code",
-          "description": "Opened issue #14609 in pingdotgg/t3code",
-          "url": "https://github.com/pingdotgg/t3code/issues/14609",
-          "timestamp": "2026-10-01T14:35:14Z"
-        },
-        {
-          "type": "IssueCommentEvent",
-          "repo": "pingdotgg/t3code",
-          "repoUrl": "https://github.com/pingdotgg/t3code",
-          "description": "Commented on issue #14100 in pingdotgg/t3code",
-          "url": "https://github.com/pingdotgg/t3code/issues/14100#issuecomment-5871507951",
-          "timestamp": "2026-09-28T14:03:21Z"
         }
       ]
     },
