@@ -1,9 +1,36 @@
 {
-  "lastChecked": "2026-10-27T10:14:55.402Z",
-  "lastSeenId": "2114973672997786081",
-  "lastSeenAt": "2026-10-27T06:53:12.000Z",
+  "lastChecked": "2026-10-28T11:04:29.398Z",
+  "lastSeenId": "2115159602736054379",
+  "lastSeenAt": "2026-10-27T19:12:01.000Z",
   "listId": "2068355339636887579",
   "posts": [
+    {
+      "id": "2115159602736054379",
+      "authorId": "1720741438240292864",
+      "authorUsername": "ayaannmalik",
+      "authorSlug": null,
+      "authorName": "ayaan naveed malik",
+      "createdAt": "2026-10-27T19:12:01.000Z",
+      "text": "when I grow up I want to be @deancureton https://t.co/0WHJcf5CX9",
+      "url": "https://x.com/ayaannmalik/status/2115159602736054379",
+      "isQuote": true,
+      "metrics": {
+        "likes": 14,
+        "retweets": 0,
+        "replies": 2,
+        "quotes": 0
+      },
+      "engagementScore": 14,
+      "highEngagement": false,
+      "tags": [],
+      "urls": [
+        "https://twitter.com/axiommathai/status/2115089794867040584"
+      ],
+      "hashtags": [],
+      "mentions": [
+        "deancureton"
+      ]
+    },
     {
       "id": "2114973672997786081",
       "authorId": "140184251",
@@ -2492,59 +2519,6 @@
       ],
       "urls": [
         "https://wm-booth.org"
-      ],
-      "hashtags": [],
-      "mentions": []
-    },
-    {
-      "id": "2093334930822402274",
-      "authorId": "1246070462679040000",
-      "authorUsername": "randall_balestr",
-      "authorSlug": null,
-      "authorName": "Randall Balestriero",
-      "createdAt": "2026-08-28T13:48:34.000Z",
-      "text": "Forgot to mention, it is fully causal in time (pretraining and inference)! A more natural and efficient setup than bidirectional, especially for low latency on device applications! Hope you will try it on your data and share feeebacks! https://t.co/oU90sE7HuM",
-      "url": "https://x.com/randall_balestr/status/2093334930822402274",
-      "isQuote": true,
-      "metrics": {
-        "likes": 112,
-        "retweets": 3,
-        "replies": 2,
-        "quotes": 0
-      },
-      "engagementScore": 118,
-      "highEngagement": true,
-      "tags": [],
-      "urls": [
-        "https://twitter.com/lukaskuhn77/status/2093318310779613563"
-      ],
-      "hashtags": [],
-      "mentions": []
-    },
-    {
-      "id": "2093322239529652671",
-      "authorId": "1246070462679040000",
-      "authorUsername": "randall_balestr",
-      "authorSlug": null,
-      "authorName": "Randall Balestriero",
-      "createdAt": "2026-08-28T12:58:08.000Z",
-      "text": "SIGReg for pretraining Video Foundation Models! Our LeVJEPA opens many doors...\n- stable recipe with a simple loss (sigreg + prediction)\n- no tubelet, frame aggregation, EMA, stop-gradient, ....\n- 20X more FLOP efficient than VJEPA1/2 pretraining\n- open source + reproducible https://t.co/rCwJRx2Dim https://t.co/oU90sE7HuM",
-      "url": "https://x.com/randall_balestr/status/2093322239529652671",
-      "isQuote": true,
-      "metrics": {
-        "likes": 281,
-        "retweets": 33,
-        "replies": 9,
-        "quotes": 2
-      },
-      "engagementScore": 351,
-      "highEngagement": true,
-      "tags": [
-        "research"
-      ],
-      "urls": [
-        "https://x.com/randall_balestr/status/2093322239529652671/photo/1",
-        "https://twitter.com/lukaskuhn77/status/2093318310779613563"
       ],
       "hashtags": [],
       "mentions": []
