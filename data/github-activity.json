@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-29T12:11:56.087Z",
+  "lastFetched": "2026-10-29T22:23:03.277Z",
   "members": [
     {
       "slug": "adithya-iyer",
@@ -264,6 +264,14 @@
       "events": [
         {
           "type": "IssueCommentEvent",
+          "repo": "scala/scala3",
+          "repoUrl": "https://github.com/scala/scala3",
+          "description": "Commented on issue #25034 in scala/scala3",
+          "url": "https://github.com/scala/scala3/pull/25034#issuecomment-6506910859",
+          "timestamp": "2026-10-29T19:56:37Z"
+        },
+        {
+          "type": "IssueCommentEvent",
           "repo": "com-lihaoyi/os-lib",
           "repoUrl": "https://github.com/com-lihaoyi/os-lib",
           "description": "Commented on issue #434 in com-lihaoyi/os-lib",
@@ -290,17 +298,17 @@
           "type": "PushEvent",
           "repo": "com-lihaoyi/mill",
           "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Pushed 0 commits to codex/python-uv-toolchain-main on com-lihaoyi/mill",
+          "description": "Pushed 0 commits to codex/python-uv-toolchain-1.3 on com-lihaoyi/mill",
           "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-10-04T16:15:05Z"
+          "timestamp": "2026-10-04T16:15:06Z"
         },
         {
           "type": "PushEvent",
           "repo": "com-lihaoyi/mill",
           "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Pushed 0 commits to codex/python-uv-toolchain-1.3 on com-lihaoyi/mill",
+          "description": "Pushed 0 commits to codex/python-uv-toolchain-main on com-lihaoyi/mill",
           "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-10-04T16:15:06Z"
+          "timestamp": "2026-10-04T16:15:05Z"
         },
         {
           "type": "PushEvent",
@@ -373,14 +381,6 @@
           "description": "merged PR #7665 in com-lihaoyi/mill",
           "url": "https://github.com/com-lihaoyi/mill",
           "timestamp": "2026-10-05T02:50:16Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "com-lihaoyi/mill",
-          "repoUrl": "https://github.com/com-lihaoyi/mill",
-          "description": "Pushed 0 commits to main on com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-10-05T00:58:43Z"
         }
       ]
     },
@@ -525,6 +525,22 @@
       "githubUrl": "https://github.com/mavenlin",
       "events": [
         {
+          "type": "PullRequestEvent",
+          "repo": "mavenlin/torch2jax",
+          "repoUrl": "https://github.com/mavenlin/torch2jax",
+          "description": "merged PR #8 in mavenlin/torch2jax",
+          "url": "https://github.com/mavenlin/torch2jax",
+          "timestamp": "2026-10-29T13:59:57Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "mavenlin/torch2jax",
+          "repoUrl": "https://github.com/mavenlin/torch2jax",
+          "description": "Opened PR #8 in mavenlin/torch2jax",
+          "url": "https://github.com/mavenlin/torch2jax",
+          "timestamp": "2026-10-29T12:17:53Z"
+        },
+        {
           "type": "WatchEvent",
           "repo": "benthamite/codex",
           "repoUrl": "https://github.com/benthamite/codex",
@@ -627,22 +643,6 @@
           "description": "Commented on issue #4 in mavenlin/torch2jax",
           "url": "https://github.com/mavenlin/torch2jax/pull/4#issuecomment-5968068679",
           "timestamp": "2026-10-03T10:04:46Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "mavenlin/torch2jax",
-          "repoUrl": "https://github.com/mavenlin/torch2jax",
-          "description": "closed PR #2 in mavenlin/torch2jax",
-          "url": "https://github.com/mavenlin/torch2jax",
-          "timestamp": "2026-07-24T14:45:14Z"
-        },
-        {
-          "type": "IssueCommentEvent",
-          "repo": "mavenlin/torch2jax",
-          "repoUrl": "https://github.com/mavenlin/torch2jax",
-          "description": "Commented on issue #2 in mavenlin/torch2jax",
-          "url": "https://github.com/mavenlin/torch2jax/pull/2#issuecomment-5968067286",
-          "timestamp": "2026-10-03T10:04:39Z"
         }
       ]
     },
