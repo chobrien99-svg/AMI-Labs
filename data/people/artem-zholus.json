@@ -1759,6 +1759,11 @@
   ],
   "xPosts": [
     {
+      "text": "You can now build a robotic scaling law with a cheap robot on 1 GPU. The recipe:\n\n1. Collect 30mins of demonstrations with SO-101\n2. Run inference with public RoboJEPA models (a few hours on 1 GPU).\n3. Fit the scaling law.\n\ndetails: https://t.co/Dk9zq7zN1k https://t.co/5pSZv3Np11 https://t.co/PgY02hCF1i",
+      "url": "https://x.com/artemZholus/status/2116043196975153254",
+      "createdAt": "2026-10-30T05:43:06.000Z"
+    },
+    {
       "text": "Introducing RoboJEPA, the first scaling law for multiembodiment world models.\n\nWe scaled JEPA predictors up to 8B params, showed scaling laws extrapolate and correlated compute scaling with planning performance.\n\nWe release all checkpoints and the code. \nhttps://t.co/Dk9zq7zN1k https://t.co/HVb4W0Ahkg",
       "url": "https://x.com/artemZholus/status/2108983104178213096",
       "createdAt": "2026-10-10T18:08:49.000Z"
