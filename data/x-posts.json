@@ -1,9 +1,88 @@
 {
-  "lastChecked": "2026-10-29T11:20:51.334Z",
-  "lastSeenId": "2115675191007211891",
-  "lastSeenAt": "2026-10-29T05:20:47.000Z",
+  "lastChecked": "2026-10-30T11:13:00.596Z",
+  "lastSeenId": "2116043196975153254",
+  "lastSeenAt": "2026-10-30T05:43:06.000Z",
   "listId": "2068355339636887579",
   "posts": [
+    {
+      "id": "2116043196975153254",
+      "authorId": "846084838495019008",
+      "authorUsername": "artemZholus",
+      "authorSlug": "artem-zholus",
+      "authorName": "Artem Zholus",
+      "createdAt": "2026-10-30T05:43:06.000Z",
+      "text": "You can now build a robotic scaling law with a cheap robot on 1 GPU. The recipe:\n\n1. Collect 30mins of demonstrations with SO-101\n2. Run inference with public RoboJEPA models (a few hours on 1 GPU).\n3. Fit the scaling law.\n\ndetails: https://t.co/Dk9zq7zN1k https://t.co/5pSZv3Np11 https://t.co/PgY02hCF1i",
+      "url": "https://x.com/artemZholus/status/2116043196975153254",
+      "isQuote": true,
+      "metrics": {
+        "likes": 19,
+        "retweets": 1,
+        "replies": 3,
+        "quotes": 0
+      },
+      "engagementScore": 21,
+      "highEngagement": false,
+      "tags": [
+        "research"
+      ],
+      "urls": [
+        "https://robojepa.github.io",
+        "https://x.com/artemZholus/status/2116043196975153254/photo/1",
+        "https://twitter.com/artemZholus/status/2108983104178213096"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2115862338888675425",
+      "authorId": "910633147",
+      "authorUsername": "thoma_gu",
+      "authorSlug": "jiatao-gu",
+      "authorName": "Jiatao Gu",
+      "createdAt": "2026-10-29T17:44:27.000Z",
+      "text": "Super cool! open-weight video model with faster-than-realtime generation!! Cannot wait to try! https://t.co/gFCroPDAYX",
+      "url": "https://x.com/thoma_gu/status/2115862338888675425",
+      "isQuote": true,
+      "metrics": {
+        "likes": 11,
+        "retweets": 0,
+        "replies": 3,
+        "quotes": 0
+      },
+      "engagementScore": 11,
+      "highEngagement": false,
+      "tags": [],
+      "urls": [
+        "https://twitter.com/pika_labs/status/2115860471215788262"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2115861973523128643",
+      "authorId": "910633147",
+      "authorUsername": "thoma_gu",
+      "authorSlug": "jiatao-gu",
+      "authorName": "Jiatao Gu",
+      "createdAt": "2026-10-29T17:42:59.000Z",
+      "text": "Super cool! open-weight video model!! Cannot wait to try! https://t.co/gFCroPE8Ov",
+      "url": "https://x.com/thoma_gu/status/2115861973523128643",
+      "isQuote": true,
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "engagementScore": 0,
+      "highEngagement": false,
+      "tags": [],
+      "urls": [
+        "https://twitter.com/pika_labs/status/2115860471215788262"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
     {
       "id": "2115675191007211891",
       "authorId": "1782793458027036672",
@@ -2546,81 +2625,6 @@
       ],
       "urls": [
         "https://www.lihaoyi.com/post/JoiningAMItoworkonWorldModels.html"
-      ],
-      "hashtags": [],
-      "mentions": []
-    },
-    {
-      "id": "2094381442188923358",
-      "authorId": "714135850934734849",
-      "authorUsername": "_amirbar",
-      "authorSlug": "amir-bar",
-      "authorName": "Amir Bar",
-      "createdAt": "2026-08-31T11:07:02.000Z",
-      "text": "and to think we used to complain about the em dash… https://t.co/sFAQr9jLwz",
-      "url": "https://x.com/_amirbar/status/2094381442188923358",
-      "isQuote": true,
-      "metrics": {
-        "likes": 0,
-        "retweets": 0,
-        "replies": 0,
-        "quotes": 0
-      },
-      "engagementScore": 0,
-      "highEngagement": false,
-      "tags": [],
-      "urls": [
-        "https://twitter.com/_amirbar/status/2094376007415320965"
-      ],
-      "hashtags": [],
-      "mentions": []
-    },
-    {
-      "id": "2094376007415320965",
-      "authorId": "714135850934734849",
-      "authorUsername": "_amirbar",
-      "authorSlug": "amir-bar",
-      "authorName": "Amir Bar",
-      "createdAt": "2026-08-31T10:45:26.000Z",
-      "text": "I can finally root out the annoying Claude Code language “Arm A/B”, “The incumbent” …. Only to find out new students adopted it 🤦‍♂️",
-      "url": "https://x.com/_amirbar/status/2094376007415320965",
-      "isQuote": false,
-      "metrics": {
-        "likes": 2,
-        "retweets": 0,
-        "replies": 0,
-        "quotes": 1
-      },
-      "engagementScore": 4,
-      "highEngagement": false,
-      "tags": [],
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    },
-    {
-      "id": "2094157380972061165",
-      "authorId": "1246070462679040000",
-      "authorUsername": "randall_balestr",
-      "authorSlug": null,
-      "authorName": "Randall Balestriero",
-      "createdAt": "2026-08-30T20:16:41.000Z",
-      "text": "We are 18 hours away from the World Modeling Workshop! \nQuick things:\n- https://t.co/ux6MFRVKU1 for the latest infos and the YouTube livestream link (free and open to everyone)\n- &gt;= 2 annoucements during opening remarks\n- amazing lineup of speakers/attendees\n\nSee you soon!",
-      "url": "https://x.com/randall_balestr/status/2094157380972061165",
-      "isQuote": false,
-      "metrics": {
-        "likes": 99,
-        "retweets": 16,
-        "replies": 4,
-        "quotes": 2
-      },
-      "engagementScore": 135,
-      "highEngagement": true,
-      "tags": [
-        "research"
-      ],
-      "urls": [
-        "https://wm-booth.org"
       ],
       "hashtags": [],
       "mentions": []
