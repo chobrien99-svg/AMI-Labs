@@ -28,6 +28,44 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "19591bb8117dc4ad3c98bb21dde7b09111163eda",
+      "title": "LaLa-World: Scaling Latent World Models with Natural Language Actions",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/19591bb8117dc4ad3c98bb21dde7b09111163eda",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jun-Ha Song"
+        },
+        {
+          "slug": null,
+          "name": "Geonmo Gu"
+        },
+        {
+          "slug": null,
+          "name": "Jeongeun Park"
+        },
+        {
+          "slug": null,
+          "name": "Heejeong Nam"
+        },
+        {
+          "slug": null,
+          "name": "Byeongho Heo"
+        },
+        {
+          "slug": null,
+          "name": "Dongyoon Han"
+        },
+        {
+          "slug": null,
+          "name": "Sangdoo Yun"
+        }
+      ]
+    },
+    {
       "paperId": "437cb869d42d536ad1b2f35399c99ab79ec65d5a",
       "title": "LeVJEPA: Efficient&Scalable Video Pretraining without the Heuristics",
       "year": 2026,
@@ -370,37 +408,37 @@
     {
       "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
       "year": 2026,
-      "citationCount": 181,
+      "citationCount": 351,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.19312"
     },
     {
       "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
       "year": 2026,
-      "citationCount": 26,
+      "citationCount": 32,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.11389"
     },
     {
-      "title": "Understanding Adam Requires Better Rotation Dependent Assumptions",
-      "year": 2024,
-      "citationCount": 11,
-      "venue": "Neural Information Processing Systems",
-      "url": "https://doi.org/10.48550/arXiv.2410.19964"
-    },
-    {
-      "title": "stable-pretraining-v1: Foundation Model Research Made Simple",
-      "year": 2025,
-      "citationCount": 10,
+      "title": "stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation",
+      "year": 2026,
+      "citationCount": 27,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2511.19484"
+      "url": "https://doi.org/10.48550/arXiv.2605.21800"
     },
     {
       "title": "Causal-JEPA: Learning World Models through Object-Level Latent Masking",
       "year": 2026,
-      "citationCount": 9,
+      "citationCount": 27,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/bed6ecff103c1a6f3a516d9b9d4847be8aff5294"
+    },
+    {
+      "title": "stable-pretraining-v1: Foundation Model Research Made Simple",
+      "year": 2025,
+      "citationCount": 12,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2511.19484"
     }
   ],
   "githubProjects": [],
@@ -448,7 +486,7 @@
       },
       {
         "name": "Heejeong Nam",
-        "papers": 2
+        "papers": 3
       },
       {
         "name": "Nassim Massaudi",
@@ -457,6 +495,30 @@
       {
         "name": "Dan Haramati",
         "papers": 2
+      },
+      {
+        "name": "Jun-Ha Song",
+        "papers": 1
+      },
+      {
+        "name": "Geonmo Gu",
+        "papers": 1
+      },
+      {
+        "name": "Jeongeun Park",
+        "papers": 1
+      },
+      {
+        "name": "Byeongho Heo",
+        "papers": 1
+      },
+      {
+        "name": "Dongyoon Han",
+        "papers": 1
+      },
+      {
+        "name": "Sangdoo Yun",
+        "papers": 1
       },
       {
         "name": "Lukas Kuhn",

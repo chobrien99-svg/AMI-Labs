@@ -32,6 +32,32 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "e4262d7dfe590316c0ea9d45ead9998e20170f1e",
+      "title": "SWEeper-Bench: Can Agents Discover Bugs in Interactive Software?",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/e4262d7dfe590316c0ea9d45ead9998e20170f1e",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yang Yao"
+        },
+        {
+          "slug": null,
+          "name": "Hao-Zhe Chen"
+        },
+        {
+          "slug": null,
+          "name": "Karthik R. Narasimhan"
+        },
+        {
+          "slug": null,
+          "name": "Zhuang Liu"
+        }
+      ]
+    },
+    {
       "paperId": "1ac7fc5a55ce5843fb8a19d9f62b623e822bb7de",
       "title": "Loong: Generating Minute-level Long Videos with Autoregressive Language Models",
       "year": 2024,
@@ -1208,7 +1234,7 @@
     {
       "title": "Efficient Diffusion Policies for Offline Reinforcement Learning",
       "year": 2023,
-      "citationCount": 204,
+      "citationCount": 206,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2305.20081"
     },
@@ -1229,14 +1255,14 @@
     {
       "title": "Loong: Generating Minute-level Long Videos with Autoregressive Language Models",
       "year": 2024,
-      "citationCount": 110,
+      "citationCount": 113,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2410.02757"
     },
     {
       "title": "Bag of Tricks for Training Data Extraction from Language Models",
       "year": 2023,
-      "citationCount": 102,
+      "citationCount": 104,
       "venue": "International Conference on Machine Learning",
       "url": "https://doi.org/10.48550/arXiv.2302.04460"
     }
@@ -1251,13 +1277,7 @@
       "publishedAt": "2026-03-28"
     }
   ],
-  "xPosts": [
-    {
-      "text": "Welcome to apply and drop me a note if interested! https://t.co/w9gpHC6KFb",
-      "url": "https://x.com/bingyikang/status/2094526530231632279",
-      "createdAt": "2026-08-31T20:43:33.000Z"
-    }
-  ],
+  "xPosts": [],
   "connections": {
     "coAuthors": [
       {
@@ -1286,6 +1306,10 @@
         "papers": 10
       },
       {
+        "name": "Zhuang Liu",
+        "papers": 6
+      },
+      {
         "name": "Yu Li",
         "papers": 6
       },
@@ -1295,10 +1319,6 @@
       },
       {
         "name": "Xiao Ma",
-        "papers": 5
-      },
-      {
-        "name": "Zhuang Liu",
         "papers": 5
       },
       {
@@ -1408,6 +1428,18 @@
       {
         "name": "Alex Sivak",
         "papers": 2
+      },
+      {
+        "name": "Yang Yao",
+        "papers": 1
+      },
+      {
+        "name": "Hao-Zhe Chen",
+        "papers": 1
+      },
+      {
+        "name": "Karthik R. Narasimhan",
+        "papers": 1
       },
       {
         "name": "Yuqing Wang",

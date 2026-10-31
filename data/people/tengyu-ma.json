@@ -26,6 +26,1328 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "5640528f5d1029420c0bd8bd7dbe4a779ca58d71",
+      "title": "Muse Glimmer 30B: An On-Device Agentic Model",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/5640528f5d1029420c0bd8bd7dbe4a779ca58d71",
+      "citationCount": 2,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Arash Ebrahim Abtahizadeh"
+        },
+        {
+          "slug": null,
+          "name": "Muna Aghamelu"
+        },
+        {
+          "slug": null,
+          "name": "A. Ahmed"
+        },
+        {
+          "slug": null,
+          "name": "Juan C. Angeles Acuna"
+        },
+        {
+          "slug": null,
+          "name": "Alexis Audran-Reiss"
+        },
+        {
+          "slug": null,
+          "name": "Asaf Avrahamy"
+        },
+        {
+          "slug": null,
+          "name": "Yoram Bachrach"
+        },
+        {
+          "slug": null,
+          "name": "Can Balioglu"
+        },
+        {
+          "slug": null,
+          "name": "Amar Budhiraja"
+        },
+        {
+          "slug": null,
+          "name": "Onur Çelebi"
+        },
+        {
+          "slug": null,
+          "name": "Gaurav Chaurasia"
+        },
+        {
+          "slug": null,
+          "name": "Joy Chen"
+        },
+        {
+          "slug": null,
+          "name": "Lynn Cherif"
+        },
+        {
+          "slug": null,
+          "name": "Lucia Cipolina-Kun"
+        },
+        {
+          "slug": null,
+          "name": "Gal Cohen"
+        },
+        {
+          "slug": null,
+          "name": "Timothée Darcet"
+        },
+        {
+          "slug": null,
+          "name": "B. de Paola"
+        },
+        {
+          "slug": null,
+          "name": "Digant Desai"
+        },
+        {
+          "slug": null,
+          "name": "Sam Devlin"
+        },
+        {
+          "slug": null,
+          "name": "Derek Dunfield"
+        },
+        {
+          "slug": null,
+          "name": "Ivan Evtimov"
+        },
+        {
+          "slug": null,
+          "name": "Maryam Fazel-Zarandi"
+        },
+        {
+          "slug": null,
+          "name": "Rob Fergus"
+        },
+        {
+          "slug": null,
+          "name": "Jean-Christophe Gagnon-Audet"
+        },
+        {
+          "slug": null,
+          "name": "Grant Gardner"
+        },
+        {
+          "slug": null,
+          "name": "Bhavul Gauri"
+        },
+        {
+          "slug": null,
+          "name": "Paris Giampouras"
+        },
+        {
+          "slug": null,
+          "name": "Sujan Kumar Gonugondla"
+        },
+        {
+          "slug": null,
+          "name": "Antoine Grosnit"
+        },
+        {
+          "slug": null,
+          "name": "You-Ran Han"
+        },
+        {
+          "slug": null,
+          "name": "Michael Hassid"
+        },
+        {
+          "slug": null,
+          "name": "Monuril Islam"
+        },
+        {
+          "slug": null,
+          "name": "Masoud Jalili Sabet"
+        },
+        {
+          "slug": null,
+          "name": "Song-Hao Jia"
+        },
+        {
+          "slug": null,
+          "name": "Narine Kokhlikyan"
+        },
+        {
+          "slug": null,
+          "name": "Svetlana Kurtsman"
+        },
+        {
+          "slug": null,
+          "name": "Sandra Lefdal"
+        },
+        {
+          "slug": null,
+          "name": "C. Leow"
+        },
+        {
+          "slug": null,
+          "name": "Noam Levi"
+        },
+        {
+          "slug": null,
+          "name": "Mike Lewis"
+        },
+        {
+          "slug": null,
+          "name": "Sanae Lotfi"
+        },
+        {
+          "slug": null,
+          "name": "Xi-Yang Luo"
+        },
+        {
+          "slug": null,
+          "name": "Despoina Magka"
+        },
+        {
+          "slug": null,
+          "name": "Saeed Mahloujifar"
+        },
+        {
+          "slug": null,
+          "name": "Neal Mangaokar"
+        },
+        {
+          "slug": null,
+          "name": "Ishita Mediratta"
+        },
+        {
+          "slug": null,
+          "name": "Alexander H. Miller"
+        },
+        {
+          "slug": null,
+          "name": "Hela Momand"
+        },
+        {
+          "slug": null,
+          "name": "Saba Nazir"
+        },
+        {
+          "slug": null,
+          "name": "Kelvin Niu"
+        },
+        {
+          "slug": null,
+          "name": "Mattia Opper"
+        },
+        {
+          "slug": null,
+          "name": "Parth Pathak"
+        },
+        {
+          "slug": null,
+          "name": "Alberto Pepe"
+        },
+        {
+          "slug": null,
+          "name": "Danielle Pintz"
+        },
+        {
+          "slug": null,
+          "name": "Mikhail Plekhanov"
+        },
+        {
+          "slug": null,
+          "name": "S. Potu"
+        },
+        {
+          "slug": null,
+          "name": "Anton Protopopov"
+        },
+        {
+          "slug": null,
+          "name": "Shengyi Qian"
+        },
+        {
+          "slug": null,
+          "name": "Shashank Rajput"
+        },
+        {
+          "slug": null,
+          "name": "Joseph Rocca"
+        },
+        {
+          "slug": null,
+          "name": "Scott Roy"
+        },
+        {
+          "slug": null,
+          "name": "L. Sbordone"
+        },
+        {
+          "slug": null,
+          "name": "Amin Shakeri"
+        },
+        {
+          "slug": null,
+          "name": "Tatiana Shavrina"
+        },
+        {
+          "slug": null,
+          "name": "Michael Shvartsman"
+        },
+        {
+          "slug": null,
+          "name": "Ruan Silva"
+        },
+        {
+          "slug": null,
+          "name": "Anya Sims"
+        },
+        {
+          "slug": null,
+          "name": "E. Smith"
+        },
+        {
+          "slug": null,
+          "name": "Hugo Touvron"
+        },
+        {
+          "slug": null,
+          "name": "Mabel Ubong"
+        },
+        {
+          "slug": null,
+          "name": "Isabel Urrego"
+        },
+        {
+          "slug": null,
+          "name": "Yanzheng Xiang"
+        },
+        {
+          "slug": null,
+          "name": "Zhi-Yuan Yao"
+        },
+        {
+          "slug": null,
+          "name": "Alex Yarmula"
+        },
+        {
+          "slug": null,
+          "name": "He Ye"
+        },
+        {
+          "slug": null,
+          "name": "Jade Yu"
+        },
+        {
+          "slug": null,
+          "name": "Luke S. Zettlemoyer"
+        },
+        {
+          "slug": null,
+          "name": "A. Zharmagambetov"
+        },
+        {
+          "slug": null,
+          "name": "Perpetua Fathima Ahlijah"
+        },
+        {
+          "slug": null,
+          "name": "Tremo Ahmed"
+        },
+        {
+          "slug": null,
+          "name": "E. Alfonseca"
+        },
+        {
+          "slug": null,
+          "name": "Pedram Bashiri"
+        },
+        {
+          "slug": null,
+          "name": "Nikolay Bashlykov"
+        },
+        {
+          "slug": null,
+          "name": "Amine Benhalloum"
+        },
+        {
+          "slug": null,
+          "name": "A. Berman"
+        },
+        {
+          "slug": null,
+          "name": "R. Bhatia"
+        },
+        {
+          "slug": null,
+          "name": "Siddharth Bhattacharya"
+        },
+        {
+          "slug": null,
+          "name": "Prashant Bhende"
+        },
+        {
+          "slug": null,
+          "name": "Chloe Bi"
+        },
+        {
+          "slug": null,
+          "name": "Shu-Chao Bi"
+        },
+        {
+          "slug": null,
+          "name": "Clément Blanc"
+        },
+        {
+          "slug": null,
+          "name": "A. Bolourchi"
+        },
+        {
+          "slug": null,
+          "name": "Iva Simon-Bubalo"
+        },
+        {
+          "slug": null,
+          "name": "P. L. Cabot"
+        },
+        {
+          "slug": null,
+          "name": "Andrea Caciolai"
+        },
+        {
+          "slug": null,
+          "name": "Erica Cai"
+        },
+        {
+          "slug": null,
+          "name": "Xia-Yu Cao"
+        },
+        {
+          "slug": null,
+          "name": "Yue Cao"
+        },
+        {
+          "slug": null,
+          "name": "Andrew Caples"
+        },
+        {
+          "slug": null,
+          "name": "Jing Chang"
+        },
+        {
+          "slug": null,
+          "name": "Le Chen"
+        },
+        {
+          "slug": null,
+          "name": "Mo-Ya Chen"
+        },
+        {
+          "slug": null,
+          "name": "Wei-Jie Chen"
+        },
+        {
+          "slug": null,
+          "name": "Wen-Hu Chen"
+        },
+        {
+          "slug": null,
+          "name": "Xiao-Bai Chen"
+        },
+        {
+          "slug": null,
+          "name": "Yin-Yin Chen"
+        },
+        {
+          "slug": null,
+          "name": "Zheng-Xing Chen"
+        },
+        {
+          "slug": null,
+          "name": "Wei Cheng"
+        },
+        {
+          "slug": null,
+          "name": "P. Chikulaev"
+        },
+        {
+          "slug": null,
+          "name": "Edward Chou"
+        },
+        {
+          "slug": null,
+          "name": "Sy Choudhury"
+        },
+        {
+          "slug": null,
+          "name": "Brian Clerkin"
+        },
+        {
+          "slug": null,
+          "name": "M. Costa-jussà"
+        },
+        {
+          "slug": null,
+          "name": "Han-Jun Dai"
+        },
+        {
+          "slug": null,
+          "name": "Curtiss Davis"
+        },
+        {
+          "slug": null,
+          "name": "Myra Deng"
+        },
+        {
+          "slug": null,
+          "name": "Tiffany Deng"
+        },
+        {
+          "slug": null,
+          "name": "Du-Jian Ding"
+        },
+        {
+          "slug": null,
+          "name": "Hantian Ding"
+        },
+        {
+          "slug": null,
+          "name": "Shuangrui Ding"
+        },
+        {
+          "slug": null,
+          "name": "Jesse Dodge"
+        },
+        {
+          "slug": null,
+          "name": "Carl Domond"
+        },
+        {
+          "slug": null,
+          "name": "Shweta Doshi"
+        },
+        {
+          "slug": null,
+          "name": "Shirin Eghtesadi"
+        },
+        {
+          "slug": null,
+          "name": "Faith Eischen"
+        },
+        {
+          "slug": null,
+          "name": "Athyu Eleti"
+        },
+        {
+          "slug": null,
+          "name": "Jordi Armengol-Estapé"
+        },
+        {
+          "slug": null,
+          "name": "Alexander R. Fabbri"
+        },
+        {
+          "slug": null,
+          "name": "Han Fang"
+        },
+        {
+          "slug": null,
+          "name": "Paula Farani"
+        },
+        {
+          "slug": null,
+          "name": "Aiman Farooq"
+        },
+        {
+          "slug": null,
+          "name": "Darius Feher"
+        },
+        {
+          "slug": null,
+          "name": "Christoph Feichtenhofer"
+        },
+        {
+          "slug": null,
+          "name": "A. Felix"
+        },
+        {
+          "slug": null,
+          "name": "Romain Froger"
+        },
+        {
+          "slug": null,
+          "name": "Carl Chengyan Fu"
+        },
+        {
+          "slug": null,
+          "name": "Sean Gahagan"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Fan Gao"
+        },
+        {
+          "slug": null,
+          "name": "Itai Gat"
+        },
+        {
+          "slug": null,
+          "name": "J. Gladrow"
+        },
+        {
+          "slug": null,
+          "name": "Akashdeep Goel"
+        },
+        {
+          "slug": null,
+          "name": "Ahuva Goldstand"
+        },
+        {
+          "slug": null,
+          "name": "Bo-Yuan He"
+        },
+        {
+          "slug": null,
+          "name": "David Heineman"
+        },
+        {
+          "slug": null,
+          "name": "Dylan Herman"
+        },
+        {
+          "slug": null,
+          "name": "Irene Hjelt"
+        },
+        {
+          "slug": null,
+          "name": "Joonas Hjelt"
+        },
+        {
+          "slug": null,
+          "name": "Alexander Holz"
+        },
+        {
+          "slug": null,
+          "name": "Rui Hou"
+        },
+        {
+          "slug": null,
+          "name": "Angelene Hu"
+        },
+        {
+          "slug": null,
+          "name": "Yuan-Ting Hu"
+        },
+        {
+          "slug": null,
+          "name": "Bernie Huang"
+        },
+        {
+          "slug": null,
+          "name": "Jing Huang"
+        },
+        {
+          "slug": null,
+          "name": "Kun Huang"
+        },
+        {
+          "slug": null,
+          "name": "Ashley Hunter"
+        },
+        {
+          "slug": null,
+          "name": "Srinivasan Iyer"
+        },
+        {
+          "slug": null,
+          "name": "Somya Jain"
+        },
+        {
+          "slug": null,
+          "name": "Bei Jia"
+        },
+        {
+          "slug": null,
+          "name": "Michael Jiang"
+        },
+        {
+          "slug": null,
+          "name": "Song Jiang"
+        },
+        {
+          "slug": null,
+          "name": "Wen-Wen Jiang"
+        },
+        {
+          "slug": null,
+          "name": "Li-Feng Jin"
+        },
+        {
+          "slug": null,
+          "name": "Jacob Kahn"
+        },
+        {
+          "slug": null,
+          "name": "Melanie Kambadur"
+        },
+        {
+          "slug": null,
+          "name": "Yin Kang"
+        },
+        {
+          "slug": null,
+          "name": "Justine T. Kao"
+        },
+        {
+          "slug": null,
+          "name": "Stephane Kasriel"
+        },
+        {
+          "slug": null,
+          "name": "Hossein Kavianihamedani"
+        },
+        {
+          "slug": null,
+          "name": "Madian Khabsa"
+        },
+        {
+          "slug": null,
+          "name": "Ameya Khandekar"
+        },
+        {
+          "slug": null,
+          "name": "Yash Khare"
+        },
+        {
+          "slug": null,
+          "name": "Gefen Kohavi"
+        },
+        {
+          "slug": null,
+          "name": "Kavya Kopparapu"
+        },
+        {
+          "slug": null,
+          "name": "Praveen Krishnan"
+        },
+        {
+          "slug": null,
+          "name": "Venu Kuchibhotla"
+        },
+        {
+          "slug": null,
+          "name": "Ananya Kumar"
+        },
+        {
+          "slug": null,
+          "name": "Leona Lan"
+        },
+        {
+          "slug": null,
+          "name": "Jack Lanchantin"
+        },
+        {
+          "slug": null,
+          "name": "Hunter Lang"
+        },
+        {
+          "slug": null,
+          "name": "Nikolay Pavlovich Laptev"
+        },
+        {
+          "slug": null,
+          "name": "Yuan-Zhi Li"
+        },
+        {
+          "slug": null,
+          "name": "Yun-Lu Li"
+        },
+        {
+          "slug": null,
+          "name": "Asad Liaqat"
+        },
+        {
+          "slug": null,
+          "name": "John Lin"
+        },
+        {
+          "slug": null,
+          "name": "Run-Wei Lin"
+        },
+        {
+          "slug": null,
+          "name": "Zhi-Chao Lin"
+        },
+        {
+          "slug": null,
+          "name": "Shaun Lind-say"
+        },
+        {
+          "slug": null,
+          "name": "Y. Lipman"
+        },
+        {
+          "slug": null,
+          "name": "Frederick Liu"
+        },
+        {
+          "slug": null,
+          "name": "Meng-Chen Liu"
+        },
+        {
+          "slug": null,
+          "name": "Qiang Liu"
+        },
+        {
+          "slug": null,
+          "name": "Ying-Hai Lu"
+        },
+        {
+          "slug": null,
+          "name": "Yujie Lu"
+        },
+        {
+          "slug": null,
+          "name": "Christopher Luc"
+        },
+        {
+          "slug": null,
+          "name": "Fa-Ye Ma"
+        },
+        {
+          "slug": null,
+          "name": "Pingchuan Ma"
+        },
+        {
+          "slug": null,
+          "name": "Wufei Ma"
+        },
+        {
+          "slug": null,
+          "name": "Xiao-Dong Ma"
+        },
+        {
+          "slug": null,
+          "name": "Damir Maksyutov"
+        },
+        {
+          "slug": null,
+          "name": "J. Malone"
+        },
+        {
+          "slug": null,
+          "name": "Udeep Manchanda"
+        },
+        {
+          "slug": null,
+          "name": "Thomas Mann"
+        },
+        {
+          "slug": null,
+          "name": "Kalyani Marathe"
+        },
+        {
+          "slug": null,
+          "name": "Akhil Mathur"
+        },
+        {
+          "slug": null,
+          "name": "Roberto-Rafael Maura-Rivero"
+        },
+        {
+          "slug": null,
+          "name": "Ruslan Mavlyutov"
+        },
+        {
+          "slug": null,
+          "name": "Thomas Mesnard"
+        },
+        {
+          "slug": null,
+          "name": "Grégoire Mi-alon"
+        },
+        {
+          "slug": null,
+          "name": "Julian Michael"
+        },
+        {
+          "slug": null,
+          "name": "Sagar Miglani"
+        },
+        {
+          "slug": null,
+          "name": "Todor Mihaylov"
+        },
+        {
+          "slug": null,
+          "name": "Naureen Mitha"
+        },
+        {
+          "slug": null,
+          "name": "Archi Mitra"
+        },
+        {
+          "slug": null,
+          "name": "Leo Mok"
+        },
+        {
+          "slug": null,
+          "name": "Naila Murray"
+        },
+        {
+          "slug": null,
+          "name": "Muthukumaravel Muthuraman"
+        },
+        {
+          "slug": null,
+          "name": "Mergen Nachin"
+        },
+        {
+          "slug": null,
+          "name": "Nese Demir Nalci"
+        },
+        {
+          "slug": null,
+          "name": "Saaketh Narayan"
+        },
+        {
+          "slug": null,
+          "name": "Alyssa Newcomb"
+        },
+        {
+          "slug": null,
+          "name": "Peter Ney"
+        },
+        {
+          "slug": null,
+          "name": "Joycelyn Ng"
+        },
+        {
+          "slug": null,
+          "name": "Devin Norder"
+        },
+        {
+          "slug": null,
+          "name": "Maxwell Nye"
+        },
+        {
+          "slug": null,
+          "name": "Rajvardhan Oak"
+        },
+        {
+          "slug": null,
+          "name": "Cody Ohlsen"
+        },
+        {
+          "slug": null,
+          "name": "Artidoro Pagnoni"
+        },
+        {
+          "slug": null,
+          "name": "Yi Pan"
+        },
+        {
+          "slug": null,
+          "name": "N. Pandey"
+        },
+        {
+          "slug": null,
+          "name": "Guan Pang"
+        },
+        {
+          "slug": null,
+          "name": "Richard Yuanzhe Pang"
+        },
+        {
+          "slug": null,
+          "name": "Mahesh Pasupuleti"
+        },
+        {
+          "slug": null,
+          "name": "Parth Patel"
+        },
+        {
+          "slug": null,
+          "name": "Y. Patel"
+        },
+        {
+          "slug": null,
+          "name": "Vladan Petrovic"
+        },
+        {
+          "slug": null,
+          "name": "Leslie St. Pierre"
+        },
+        {
+          "slug": null,
+          "name": "Norman Ponte"
+        },
+        {
+          "slug": null,
+          "name": "Yun-Di Qian"
+        },
+        {
+          "slug": null,
+          "name": "Zeng-Yi Qin"
+        },
+        {
+          "slug": null,
+          "name": "Jack W. Rae"
+        },
+        {
+          "slug": null,
+          "name": "Ramya Raghavendra"
+        },
+        {
+          "slug": null,
+          "name": "Emmanuel Ramírez"
+        },
+        {
+          "slug": null,
+          "name": "Nikhila Ravi"
+        },
+        {
+          "slug": null,
+          "name": "Hong-Yu Ren"
+        },
+        {
+          "slug": null,
+          "name": "Riandy Riandy"
+        },
+        {
+          "slug": null,
+          "name": "Harrison Rudolph"
+        },
+        {
+          "slug": null,
+          "name": "Kalyan Saladi"
+        },
+        {
+          "slug": null,
+          "name": "Eduardo Sánchez"
+        },
+        {
+          "slug": null,
+          "name": "Karthik Abinav Sankararaman"
+        },
+        {
+          "slug": null,
+          "name": "A. Schelten"
+        },
+        {
+          "slug": null,
+          "name": "Thomas Scialom"
+        },
+        {
+          "slug": null,
+          "name": "A. Shankar"
+        },
+        {
+          "slug": null,
+          "name": "P. Shenoy"
+        },
+        {
+          "slug": null,
+          "name": "Alana Shine"
+        },
+        {
+          "slug": null,
+          "name": "Hamid Shojanazeri"
+        },
+        {
+          "slug": null,
+          "name": "Mitesh Kumar Singh"
+        },
+        {
+          "slug": null,
+          "name": "Pawan Sisodiya"
+        },
+        {
+          "slug": null,
+          "name": "Ali Sol"
+        },
+        {
+          "slug": null,
+          "name": "Sten Sootla"
+        },
+        {
+          "slug": null,
+          "name": "Di-Jia Su"
+        },
+        {
+          "slug": null,
+          "name": "Suraj Subramanian"
+        },
+        {
+          "slug": null,
+          "name": "B. Sun"
+        },
+        {
+          "slug": null,
+          "name": "T.-D. Sun"
+        },
+        {
+          "slug": null,
+          "name": "Zhi-Qing Sun"
+        },
+        {
+          "slug": null,
+          "name": "N. Supper"
+        },
+        {
+          "slug": null,
+          "name": "Jason Talpalar"
+        },
+        {
+          "slug": null,
+          "name": "E. Tan"
+        },
+        {
+          "slug": null,
+          "name": "Liang Tan"
+        },
+        {
+          "slug": null,
+          "name": "Bugra Tekin"
+        },
+        {
+          "slug": null,
+          "name": "Jean-Christophe Testud"
+        },
+        {
+          "slug": null,
+          "name": "Parth Thakkar"
+        },
+        {
+          "slug": null,
+          "name": "Joseph Tighe"
+        },
+        {
+          "slug": null,
+          "name": "Ty Toledano"
+        },
+        {
+          "slug": null,
+          "name": "T. Tse"
+        },
+        {
+          "slug": null,
+          "name": "I. Tufanov"
+        },
+        {
+          "slug": null,
+          "name": "Alex Vaughan"
+        },
+        {
+          "slug": null,
+          "name": "Josh Walters"
+        },
+        {
+          "slug": null,
+          "name": "A. Wang"
+        },
+        {
+          "slug": null,
+          "name": "Bethany Wang"
+        },
+        {
+          "slug": null,
+          "name": "Meng Wang"
+        },
+        {
+          "slug": null,
+          "name": "Rocky Wang"
+        },
+        {
+          "slug": null,
+          "name": "Wei-Yu Wang"
+        },
+        {
+          "slug": null,
+          "name": "Xiao-Lan Wang"
+        },
+        {
+          "slug": null,
+          "name": "Xin Wang"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Jian Wang"
+        },
+        {
+          "slug": null,
+          "name": "Bram Wasti"
+        },
+        {
+          "slug": null,
+          "name": "Quentin Wellens"
+        },
+        {
+          "slug": null,
+          "name": "Ye-Ming Wen"
+        },
+        {
+          "slug": null,
+          "name": "Mary Williamson"
+        },
+        {
+          "slug": null,
+          "name": "Yun-Chen Wu"
+        },
+        {
+          "slug": null,
+          "name": "Fei Xia"
+        },
+        {
+          "slug": null,
+          "name": "Tian-Fang Xie"
+        },
+        {
+          "slug": null,
+          "name": "An Xing"
+        },
+        {
+          "slug": null,
+          "name": "David Xu"
+        },
+        {
+          "slug": null,
+          "name": "Jay Xu"
+        },
+        {
+          "slug": null,
+          "name": "Pu-Xin Xu"
+        },
+        {
+          "slug": null,
+          "name": "Zheng Xu"
+        },
+        {
+          "slug": null,
+          "name": "Shen Yan"
+        },
+        {
+          "slug": null,
+          "name": "M. Yang"
+        },
+        {
+          "slug": null,
+          "name": "Ying Yang"
+        },
+        {
+          "slug": null,
+          "name": "Nick Yannopoulos"
+        },
+        {
+          "slug": null,
+          "name": "Ke-Can Yao"
+        },
+        {
+          "slug": null,
+          "name": "Michihiro Yasunaga"
+        },
+        {
+          "slug": null,
+          "name": "Hao-Xuan You"
+        },
+        {
+          "slug": null,
+          "name": "M.-H. You"
+        },
+        {
+          "slug": null,
+          "name": "Ding-Li Yu"
+        },
+        {
+          "slug": null,
+          "name": "Tian-He Yu"
+        },
+        {
+          "slug": null,
+          "name": "Yue Yu"
+        },
+        {
+          "slug": null,
+          "name": "Summer Yue"
+        },
+        {
+          "slug": null,
+          "name": "Xiang Yue"
+        },
+        {
+          "slug": null,
+          "name": "Shuai Zeng"
+        },
+        {
+          "slug": null,
+          "name": "Hanwen Zha"
+        },
+        {
+          "slug": null,
+          "name": "C. Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Fred Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Hong-Ming Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Kai-Yu Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Meng Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Ming-Yang Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Yi Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Sheng-Jia Zhao"
+        },
+        {
+          "slug": null,
+          "name": "Chao Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Claire Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Shu-Yan Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Yan-Jun Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Ya-Xuan Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Jia-Cheng Zhu"
+        },
+        {
+          "slug": null,
+          "name": "R. Zhu"
+        },
+        {
+          "slug": null,
+          "name": "Yun Zhu"
+        }
+      ]
+    },
+    {
       "paperId": "1231876b4c92c7a26d4e0cbea9cac388d6dafefb",
       "title": "Anchored Self-Play for Code Repair",
       "year": 2026,
@@ -1404,35 +2726,35 @@
     {
       "title": "Larger language models do in-context learning differently",
       "year": 2023,
-      "citationCount": 521,
+      "citationCount": 522,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2303.03846"
     },
     {
       "title": "DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining",
       "year": 2023,
-      "citationCount": 479,
+      "citationCount": 492,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2305.10429"
     },
     {
       "title": "Data Selection for Language Models via Importance Resampling",
       "year": 2023,
-      "citationCount": 397,
+      "citationCount": 406,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2302.03169"
     },
     {
       "title": "Large Language Models as Tool Makers",
       "year": 2023,
-      "citationCount": 382,
+      "citationCount": 390,
       "venue": "International Conference on Learning Representations",
       "url": "https://doi.org/10.48550/arXiv.2305.17126"
     },
     {
       "title": "Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training",
       "year": 2023,
-      "citationCount": 337,
+      "citationCount": 339,
       "venue": "International Conference on Learning Representations",
       "url": "https://doi.org/10.48550/arXiv.2305.14342"
     }
@@ -1471,7 +2793,7 @@
       },
       {
         "name": "Ananya Kumar",
-        "papers": 5
+        "papers": 6
       },
       {
         "name": "Zhiyuan Li",
@@ -1488,6 +2810,10 @@
       {
         "name": "Aditi Raghunathan",
         "papers": 4
+      },
+      {
+        "name": "Jing Huang",
+        "papers": 3
       },
       {
         "name": "Xinyun Chen",
@@ -1520,6 +2846,18 @@
       {
         "name": "Colin Wei",
         "papers": 3
+      },
+      {
+        "name": "Christoph Feichtenhofer",
+        "papers": 2
+      },
+      {
+        "name": "Nikhila Ravi",
+        "papers": 2
+      },
+      {
+        "name": "Michihiro Yasunaga",
+        "papers": 2
       },
       {
         "name": "Kaiyue Wen",
@@ -1558,12 +2896,1300 @@
         "papers": 2
       },
       {
-        "name": "Jing Huang",
+        "name": "Yining Chen",
         "papers": 2
       },
       {
-        "name": "Yining Chen",
-        "papers": 2
+        "name": "Arash Ebrahim Abtahizadeh",
+        "papers": 1
+      },
+      {
+        "name": "Muna Aghamelu",
+        "papers": 1
+      },
+      {
+        "name": "A. Ahmed",
+        "papers": 1
+      },
+      {
+        "name": "Juan C. Angeles Acuna",
+        "papers": 1
+      },
+      {
+        "name": "Alexis Audran-Reiss",
+        "papers": 1
+      },
+      {
+        "name": "Asaf Avrahamy",
+        "papers": 1
+      },
+      {
+        "name": "Yoram Bachrach",
+        "papers": 1
+      },
+      {
+        "name": "Can Balioglu",
+        "papers": 1
+      },
+      {
+        "name": "Amar Budhiraja",
+        "papers": 1
+      },
+      {
+        "name": "Onur Çelebi",
+        "papers": 1
+      },
+      {
+        "name": "Gaurav Chaurasia",
+        "papers": 1
+      },
+      {
+        "name": "Joy Chen",
+        "papers": 1
+      },
+      {
+        "name": "Lynn Cherif",
+        "papers": 1
+      },
+      {
+        "name": "Lucia Cipolina-Kun",
+        "papers": 1
+      },
+      {
+        "name": "Gal Cohen",
+        "papers": 1
+      },
+      {
+        "name": "Timothée Darcet",
+        "papers": 1
+      },
+      {
+        "name": "B. de Paola",
+        "papers": 1
+      },
+      {
+        "name": "Digant Desai",
+        "papers": 1
+      },
+      {
+        "name": "Sam Devlin",
+        "papers": 1
+      },
+      {
+        "name": "Derek Dunfield",
+        "papers": 1
+      },
+      {
+        "name": "Ivan Evtimov",
+        "papers": 1
+      },
+      {
+        "name": "Maryam Fazel-Zarandi",
+        "papers": 1
+      },
+      {
+        "name": "Rob Fergus",
+        "papers": 1
+      },
+      {
+        "name": "Jean-Christophe Gagnon-Audet",
+        "papers": 1
+      },
+      {
+        "name": "Grant Gardner",
+        "papers": 1
+      },
+      {
+        "name": "Bhavul Gauri",
+        "papers": 1
+      },
+      {
+        "name": "Paris Giampouras",
+        "papers": 1
+      },
+      {
+        "name": "Sujan Kumar Gonugondla",
+        "papers": 1
+      },
+      {
+        "name": "Antoine Grosnit",
+        "papers": 1
+      },
+      {
+        "name": "You-Ran Han",
+        "papers": 1
+      },
+      {
+        "name": "Michael Hassid",
+        "papers": 1
+      },
+      {
+        "name": "Monuril Islam",
+        "papers": 1
+      },
+      {
+        "name": "Masoud Jalili Sabet",
+        "papers": 1
+      },
+      {
+        "name": "Song-Hao Jia",
+        "papers": 1
+      },
+      {
+        "name": "Narine Kokhlikyan",
+        "papers": 1
+      },
+      {
+        "name": "Svetlana Kurtsman",
+        "papers": 1
+      },
+      {
+        "name": "Sandra Lefdal",
+        "papers": 1
+      },
+      {
+        "name": "C. Leow",
+        "papers": 1
+      },
+      {
+        "name": "Noam Levi",
+        "papers": 1
+      },
+      {
+        "name": "Mike Lewis",
+        "papers": 1
+      },
+      {
+        "name": "Sanae Lotfi",
+        "papers": 1
+      },
+      {
+        "name": "Xi-Yang Luo",
+        "papers": 1
+      },
+      {
+        "name": "Despoina Magka",
+        "papers": 1
+      },
+      {
+        "name": "Saeed Mahloujifar",
+        "papers": 1
+      },
+      {
+        "name": "Neal Mangaokar",
+        "papers": 1
+      },
+      {
+        "name": "Ishita Mediratta",
+        "papers": 1
+      },
+      {
+        "name": "Alexander H. Miller",
+        "papers": 1
+      },
+      {
+        "name": "Hela Momand",
+        "papers": 1
+      },
+      {
+        "name": "Saba Nazir",
+        "papers": 1
+      },
+      {
+        "name": "Kelvin Niu",
+        "papers": 1
+      },
+      {
+        "name": "Mattia Opper",
+        "papers": 1
+      },
+      {
+        "name": "Parth Pathak",
+        "papers": 1
+      },
+      {
+        "name": "Alberto Pepe",
+        "papers": 1
+      },
+      {
+        "name": "Danielle Pintz",
+        "papers": 1
+      },
+      {
+        "name": "Mikhail Plekhanov",
+        "papers": 1
+      },
+      {
+        "name": "S. Potu",
+        "papers": 1
+      },
+      {
+        "name": "Anton Protopopov",
+        "papers": 1
+      },
+      {
+        "name": "Shengyi Qian",
+        "papers": 1
+      },
+      {
+        "name": "Shashank Rajput",
+        "papers": 1
+      },
+      {
+        "name": "Joseph Rocca",
+        "papers": 1
+      },
+      {
+        "name": "Scott Roy",
+        "papers": 1
+      },
+      {
+        "name": "L. Sbordone",
+        "papers": 1
+      },
+      {
+        "name": "Amin Shakeri",
+        "papers": 1
+      },
+      {
+        "name": "Tatiana Shavrina",
+        "papers": 1
+      },
+      {
+        "name": "Michael Shvartsman",
+        "papers": 1
+      },
+      {
+        "name": "Ruan Silva",
+        "papers": 1
+      },
+      {
+        "name": "Anya Sims",
+        "papers": 1
+      },
+      {
+        "name": "E. Smith",
+        "papers": 1
+      },
+      {
+        "name": "Hugo Touvron",
+        "papers": 1
+      },
+      {
+        "name": "Mabel Ubong",
+        "papers": 1
+      },
+      {
+        "name": "Isabel Urrego",
+        "papers": 1
+      },
+      {
+        "name": "Yanzheng Xiang",
+        "papers": 1
+      },
+      {
+        "name": "Zhi-Yuan Yao",
+        "papers": 1
+      },
+      {
+        "name": "Alex Yarmula",
+        "papers": 1
+      },
+      {
+        "name": "He Ye",
+        "papers": 1
+      },
+      {
+        "name": "Jade Yu",
+        "papers": 1
+      },
+      {
+        "name": "Luke S. Zettlemoyer",
+        "papers": 1
+      },
+      {
+        "name": "A. Zharmagambetov",
+        "papers": 1
+      },
+      {
+        "name": "Perpetua Fathima Ahlijah",
+        "papers": 1
+      },
+      {
+        "name": "Tremo Ahmed",
+        "papers": 1
+      },
+      {
+        "name": "E. Alfonseca",
+        "papers": 1
+      },
+      {
+        "name": "Pedram Bashiri",
+        "papers": 1
+      },
+      {
+        "name": "Nikolay Bashlykov",
+        "papers": 1
+      },
+      {
+        "name": "Amine Benhalloum",
+        "papers": 1
+      },
+      {
+        "name": "A. Berman",
+        "papers": 1
+      },
+      {
+        "name": "R. Bhatia",
+        "papers": 1
+      },
+      {
+        "name": "Siddharth Bhattacharya",
+        "papers": 1
+      },
+      {
+        "name": "Prashant Bhende",
+        "papers": 1
+      },
+      {
+        "name": "Chloe Bi",
+        "papers": 1
+      },
+      {
+        "name": "Shu-Chao Bi",
+        "papers": 1
+      },
+      {
+        "name": "Clément Blanc",
+        "papers": 1
+      },
+      {
+        "name": "A. Bolourchi",
+        "papers": 1
+      },
+      {
+        "name": "Iva Simon-Bubalo",
+        "papers": 1
+      },
+      {
+        "name": "P. L. Cabot",
+        "papers": 1
+      },
+      {
+        "name": "Andrea Caciolai",
+        "papers": 1
+      },
+      {
+        "name": "Erica Cai",
+        "papers": 1
+      },
+      {
+        "name": "Xia-Yu Cao",
+        "papers": 1
+      },
+      {
+        "name": "Yue Cao",
+        "papers": 1
+      },
+      {
+        "name": "Andrew Caples",
+        "papers": 1
+      },
+      {
+        "name": "Jing Chang",
+        "papers": 1
+      },
+      {
+        "name": "Le Chen",
+        "papers": 1
+      },
+      {
+        "name": "Mo-Ya Chen",
+        "papers": 1
+      },
+      {
+        "name": "Wei-Jie Chen",
+        "papers": 1
+      },
+      {
+        "name": "Wen-Hu Chen",
+        "papers": 1
+      },
+      {
+        "name": "Xiao-Bai Chen",
+        "papers": 1
+      },
+      {
+        "name": "Yin-Yin Chen",
+        "papers": 1
+      },
+      {
+        "name": "Zheng-Xing Chen",
+        "papers": 1
+      },
+      {
+        "name": "Wei Cheng",
+        "papers": 1
+      },
+      {
+        "name": "P. Chikulaev",
+        "papers": 1
+      },
+      {
+        "name": "Edward Chou",
+        "papers": 1
+      },
+      {
+        "name": "Sy Choudhury",
+        "papers": 1
+      },
+      {
+        "name": "Brian Clerkin",
+        "papers": 1
+      },
+      {
+        "name": "M. Costa-jussà",
+        "papers": 1
+      },
+      {
+        "name": "Han-Jun Dai",
+        "papers": 1
+      },
+      {
+        "name": "Curtiss Davis",
+        "papers": 1
+      },
+      {
+        "name": "Myra Deng",
+        "papers": 1
+      },
+      {
+        "name": "Tiffany Deng",
+        "papers": 1
+      },
+      {
+        "name": "Du-Jian Ding",
+        "papers": 1
+      },
+      {
+        "name": "Hantian Ding",
+        "papers": 1
+      },
+      {
+        "name": "Shuangrui Ding",
+        "papers": 1
+      },
+      {
+        "name": "Jesse Dodge",
+        "papers": 1
+      },
+      {
+        "name": "Carl Domond",
+        "papers": 1
+      },
+      {
+        "name": "Shweta Doshi",
+        "papers": 1
+      },
+      {
+        "name": "Shirin Eghtesadi",
+        "papers": 1
+      },
+      {
+        "name": "Faith Eischen",
+        "papers": 1
+      },
+      {
+        "name": "Athyu Eleti",
+        "papers": 1
+      },
+      {
+        "name": "Jordi Armengol-Estapé",
+        "papers": 1
+      },
+      {
+        "name": "Alexander R. Fabbri",
+        "papers": 1
+      },
+      {
+        "name": "Han Fang",
+        "papers": 1
+      },
+      {
+        "name": "Paula Farani",
+        "papers": 1
+      },
+      {
+        "name": "Aiman Farooq",
+        "papers": 1
+      },
+      {
+        "name": "Darius Feher",
+        "papers": 1
+      },
+      {
+        "name": "A. Felix",
+        "papers": 1
+      },
+      {
+        "name": "Romain Froger",
+        "papers": 1
+      },
+      {
+        "name": "Carl Chengyan Fu",
+        "papers": 1
+      },
+      {
+        "name": "Sean Gahagan",
+        "papers": 1
+      },
+      {
+        "name": "Yi-Fan Gao",
+        "papers": 1
+      },
+      {
+        "name": "Itai Gat",
+        "papers": 1
+      },
+      {
+        "name": "J. Gladrow",
+        "papers": 1
+      },
+      {
+        "name": "Akashdeep Goel",
+        "papers": 1
+      },
+      {
+        "name": "Ahuva Goldstand",
+        "papers": 1
+      },
+      {
+        "name": "Bo-Yuan He",
+        "papers": 1
+      },
+      {
+        "name": "David Heineman",
+        "papers": 1
+      },
+      {
+        "name": "Dylan Herman",
+        "papers": 1
+      },
+      {
+        "name": "Irene Hjelt",
+        "papers": 1
+      },
+      {
+        "name": "Joonas Hjelt",
+        "papers": 1
+      },
+      {
+        "name": "Alexander Holz",
+        "papers": 1
+      },
+      {
+        "name": "Rui Hou",
+        "papers": 1
+      },
+      {
+        "name": "Angelene Hu",
+        "papers": 1
+      },
+      {
+        "name": "Yuan-Ting Hu",
+        "papers": 1
+      },
+      {
+        "name": "Bernie Huang",
+        "papers": 1
+      },
+      {
+        "name": "Kun Huang",
+        "papers": 1
+      },
+      {
+        "name": "Ashley Hunter",
+        "papers": 1
+      },
+      {
+        "name": "Srinivasan Iyer",
+        "papers": 1
+      },
+      {
+        "name": "Somya Jain",
+        "papers": 1
+      },
+      {
+        "name": "Bei Jia",
+        "papers": 1
+      },
+      {
+        "name": "Michael Jiang",
+        "papers": 1
+      },
+      {
+        "name": "Song Jiang",
+        "papers": 1
+      },
+      {
+        "name": "Wen-Wen Jiang",
+        "papers": 1
+      },
+      {
+        "name": "Li-Feng Jin",
+        "papers": 1
+      },
+      {
+        "name": "Jacob Kahn",
+        "papers": 1
+      },
+      {
+        "name": "Melanie Kambadur",
+        "papers": 1
+      },
+      {
+        "name": "Yin Kang",
+        "papers": 1
+      },
+      {
+        "name": "Justine T. Kao",
+        "papers": 1
+      },
+      {
+        "name": "Stephane Kasriel",
+        "papers": 1
+      },
+      {
+        "name": "Hossein Kavianihamedani",
+        "papers": 1
+      },
+      {
+        "name": "Madian Khabsa",
+        "papers": 1
+      },
+      {
+        "name": "Ameya Khandekar",
+        "papers": 1
+      },
+      {
+        "name": "Yash Khare",
+        "papers": 1
+      },
+      {
+        "name": "Gefen Kohavi",
+        "papers": 1
+      },
+      {
+        "name": "Kavya Kopparapu",
+        "papers": 1
+      },
+      {
+        "name": "Praveen Krishnan",
+        "papers": 1
+      },
+      {
+        "name": "Venu Kuchibhotla",
+        "papers": 1
+      },
+      {
+        "name": "Leona Lan",
+        "papers": 1
+      },
+      {
+        "name": "Jack Lanchantin",
+        "papers": 1
+      },
+      {
+        "name": "Hunter Lang",
+        "papers": 1
+      },
+      {
+        "name": "Nikolay Pavlovich Laptev",
+        "papers": 1
+      },
+      {
+        "name": "Yuan-Zhi Li",
+        "papers": 1
+      },
+      {
+        "name": "Yun-Lu Li",
+        "papers": 1
+      },
+      {
+        "name": "Asad Liaqat",
+        "papers": 1
+      },
+      {
+        "name": "John Lin",
+        "papers": 1
+      },
+      {
+        "name": "Run-Wei Lin",
+        "papers": 1
+      },
+      {
+        "name": "Zhi-Chao Lin",
+        "papers": 1
+      },
+      {
+        "name": "Shaun Lind-say",
+        "papers": 1
+      },
+      {
+        "name": "Y. Lipman",
+        "papers": 1
+      },
+      {
+        "name": "Frederick Liu",
+        "papers": 1
+      },
+      {
+        "name": "Meng-Chen Liu",
+        "papers": 1
+      },
+      {
+        "name": "Qiang Liu",
+        "papers": 1
+      },
+      {
+        "name": "Ying-Hai Lu",
+        "papers": 1
+      },
+      {
+        "name": "Yujie Lu",
+        "papers": 1
+      },
+      {
+        "name": "Christopher Luc",
+        "papers": 1
+      },
+      {
+        "name": "Fa-Ye Ma",
+        "papers": 1
+      },
+      {
+        "name": "Pingchuan Ma",
+        "papers": 1
+      },
+      {
+        "name": "Wufei Ma",
+        "papers": 1
+      },
+      {
+        "name": "Xiao-Dong Ma",
+        "papers": 1
+      },
+      {
+        "name": "Damir Maksyutov",
+        "papers": 1
+      },
+      {
+        "name": "J. Malone",
+        "papers": 1
+      },
+      {
+        "name": "Udeep Manchanda",
+        "papers": 1
+      },
+      {
+        "name": "Thomas Mann",
+        "papers": 1
+      },
+      {
+        "name": "Kalyani Marathe",
+        "papers": 1
+      },
+      {
+        "name": "Akhil Mathur",
+        "papers": 1
+      },
+      {
+        "name": "Roberto-Rafael Maura-Rivero",
+        "papers": 1
+      },
+      {
+        "name": "Ruslan Mavlyutov",
+        "papers": 1
+      },
+      {
+        "name": "Thomas Mesnard",
+        "papers": 1
+      },
+      {
+        "name": "Grégoire Mi-alon",
+        "papers": 1
+      },
+      {
+        "name": "Julian Michael",
+        "papers": 1
+      },
+      {
+        "name": "Sagar Miglani",
+        "papers": 1
+      },
+      {
+        "name": "Todor Mihaylov",
+        "papers": 1
+      },
+      {
+        "name": "Naureen Mitha",
+        "papers": 1
+      },
+      {
+        "name": "Archi Mitra",
+        "papers": 1
+      },
+      {
+        "name": "Leo Mok",
+        "papers": 1
+      },
+      {
+        "name": "Naila Murray",
+        "papers": 1
+      },
+      {
+        "name": "Muthukumaravel Muthuraman",
+        "papers": 1
+      },
+      {
+        "name": "Mergen Nachin",
+        "papers": 1
+      },
+      {
+        "name": "Nese Demir Nalci",
+        "papers": 1
+      },
+      {
+        "name": "Saaketh Narayan",
+        "papers": 1
+      },
+      {
+        "name": "Alyssa Newcomb",
+        "papers": 1
+      },
+      {
+        "name": "Peter Ney",
+        "papers": 1
+      },
+      {
+        "name": "Joycelyn Ng",
+        "papers": 1
+      },
+      {
+        "name": "Devin Norder",
+        "papers": 1
+      },
+      {
+        "name": "Maxwell Nye",
+        "papers": 1
+      },
+      {
+        "name": "Rajvardhan Oak",
+        "papers": 1
+      },
+      {
+        "name": "Cody Ohlsen",
+        "papers": 1
+      },
+      {
+        "name": "Artidoro Pagnoni",
+        "papers": 1
+      },
+      {
+        "name": "Yi Pan",
+        "papers": 1
+      },
+      {
+        "name": "N. Pandey",
+        "papers": 1
+      },
+      {
+        "name": "Guan Pang",
+        "papers": 1
+      },
+      {
+        "name": "Richard Yuanzhe Pang",
+        "papers": 1
+      },
+      {
+        "name": "Mahesh Pasupuleti",
+        "papers": 1
+      },
+      {
+        "name": "Parth Patel",
+        "papers": 1
+      },
+      {
+        "name": "Y. Patel",
+        "papers": 1
+      },
+      {
+        "name": "Vladan Petrovic",
+        "papers": 1
+      },
+      {
+        "name": "Leslie St. Pierre",
+        "papers": 1
+      },
+      {
+        "name": "Norman Ponte",
+        "papers": 1
+      },
+      {
+        "name": "Yun-Di Qian",
+        "papers": 1
+      },
+      {
+        "name": "Zeng-Yi Qin",
+        "papers": 1
+      },
+      {
+        "name": "Jack W. Rae",
+        "papers": 1
+      },
+      {
+        "name": "Ramya Raghavendra",
+        "papers": 1
+      },
+      {
+        "name": "Emmanuel Ramírez",
+        "papers": 1
+      },
+      {
+        "name": "Hong-Yu Ren",
+        "papers": 1
+      },
+      {
+        "name": "Riandy Riandy",
+        "papers": 1
+      },
+      {
+        "name": "Harrison Rudolph",
+        "papers": 1
+      },
+      {
+        "name": "Kalyan Saladi",
+        "papers": 1
+      },
+      {
+        "name": "Eduardo Sánchez",
+        "papers": 1
+      },
+      {
+        "name": "Karthik Abinav Sankararaman",
+        "papers": 1
+      },
+      {
+        "name": "A. Schelten",
+        "papers": 1
+      },
+      {
+        "name": "Thomas Scialom",
+        "papers": 1
+      },
+      {
+        "name": "A. Shankar",
+        "papers": 1
+      },
+      {
+        "name": "P. Shenoy",
+        "papers": 1
+      },
+      {
+        "name": "Alana Shine",
+        "papers": 1
+      },
+      {
+        "name": "Hamid Shojanazeri",
+        "papers": 1
+      },
+      {
+        "name": "Mitesh Kumar Singh",
+        "papers": 1
+      },
+      {
+        "name": "Pawan Sisodiya",
+        "papers": 1
+      },
+      {
+        "name": "Ali Sol",
+        "papers": 1
+      },
+      {
+        "name": "Sten Sootla",
+        "papers": 1
+      },
+      {
+        "name": "Di-Jia Su",
+        "papers": 1
+      },
+      {
+        "name": "Suraj Subramanian",
+        "papers": 1
+      },
+      {
+        "name": "B. Sun",
+        "papers": 1
+      },
+      {
+        "name": "T.-D. Sun",
+        "papers": 1
+      },
+      {
+        "name": "Zhi-Qing Sun",
+        "papers": 1
+      },
+      {
+        "name": "N. Supper",
+        "papers": 1
+      },
+      {
+        "name": "Jason Talpalar",
+        "papers": 1
+      },
+      {
+        "name": "E. Tan",
+        "papers": 1
+      },
+      {
+        "name": "Liang Tan",
+        "papers": 1
+      },
+      {
+        "name": "Bugra Tekin",
+        "papers": 1
+      },
+      {
+        "name": "Jean-Christophe Testud",
+        "papers": 1
+      },
+      {
+        "name": "Parth Thakkar",
+        "papers": 1
+      },
+      {
+        "name": "Joseph Tighe",
+        "papers": 1
+      },
+      {
+        "name": "Ty Toledano",
+        "papers": 1
+      },
+      {
+        "name": "T. Tse",
+        "papers": 1
+      },
+      {
+        "name": "I. Tufanov",
+        "papers": 1
+      },
+      {
+        "name": "Alex Vaughan",
+        "papers": 1
+      },
+      {
+        "name": "Josh Walters",
+        "papers": 1
+      },
+      {
+        "name": "A. Wang",
+        "papers": 1
+      },
+      {
+        "name": "Bethany Wang",
+        "papers": 1
+      },
+      {
+        "name": "Meng Wang",
+        "papers": 1
+      },
+      {
+        "name": "Rocky Wang",
+        "papers": 1
+      },
+      {
+        "name": "Wei-Yu Wang",
+        "papers": 1
+      },
+      {
+        "name": "Xiao-Lan Wang",
+        "papers": 1
+      },
+      {
+        "name": "Xin Wang",
+        "papers": 1
+      },
+      {
+        "name": "Zi-Jian Wang",
+        "papers": 1
+      },
+      {
+        "name": "Bram Wasti",
+        "papers": 1
+      },
+      {
+        "name": "Quentin Wellens",
+        "papers": 1
+      },
+      {
+        "name": "Ye-Ming Wen",
+        "papers": 1
+      },
+      {
+        "name": "Mary Williamson",
+        "papers": 1
+      },
+      {
+        "name": "Yun-Chen Wu",
+        "papers": 1
+      },
+      {
+        "name": "Fei Xia",
+        "papers": 1
+      },
+      {
+        "name": "Tian-Fang Xie",
+        "papers": 1
+      },
+      {
+        "name": "An Xing",
+        "papers": 1
+      },
+      {
+        "name": "David Xu",
+        "papers": 1
+      },
+      {
+        "name": "Jay Xu",
+        "papers": 1
+      },
+      {
+        "name": "Pu-Xin Xu",
+        "papers": 1
+      },
+      {
+        "name": "Zheng Xu",
+        "papers": 1
+      },
+      {
+        "name": "Shen Yan",
+        "papers": 1
+      },
+      {
+        "name": "M. Yang",
+        "papers": 1
+      },
+      {
+        "name": "Ying Yang",
+        "papers": 1
+      },
+      {
+        "name": "Nick Yannopoulos",
+        "papers": 1
+      },
+      {
+        "name": "Ke-Can Yao",
+        "papers": 1
+      },
+      {
+        "name": "Hao-Xuan You",
+        "papers": 1
+      },
+      {
+        "name": "M.-H. You",
+        "papers": 1
+      },
+      {
+        "name": "Ding-Li Yu",
+        "papers": 1
+      },
+      {
+        "name": "Tian-He Yu",
+        "papers": 1
+      },
+      {
+        "name": "Yue Yu",
+        "papers": 1
+      },
+      {
+        "name": "Summer Yue",
+        "papers": 1
+      },
+      {
+        "name": "Xiang Yue",
+        "papers": 1
+      },
+      {
+        "name": "Shuai Zeng",
+        "papers": 1
+      },
+      {
+        "name": "Hanwen Zha",
+        "papers": 1
+      },
+      {
+        "name": "C. Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Fred Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Hong-Ming Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Kai-Yu Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Meng Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Ming-Yang Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Yi Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Sheng-Jia Zhao",
+        "papers": 1
+      },
+      {
+        "name": "Chao Zhou",
+        "papers": 1
+      },
+      {
+        "name": "Claire Zhou",
+        "papers": 1
+      },
+      {
+        "name": "Shu-Yan Zhou",
+        "papers": 1
+      },
+      {
+        "name": "Yan-Jun Zhou",
+        "papers": 1
+      },
+      {
+        "name": "Ya-Xuan Zhou",
+        "papers": 1
+      },
+      {
+        "name": "Jia-Cheng Zhu",
+        "papers": 1
+      },
+      {
+        "name": "R. Zhu",
+        "papers": 1
+      },
+      {
+        "name": "Yun Zhu",
+        "papers": 1
       },
       {
         "name": "Caroline Choi",
@@ -1642,19 +4268,11 @@
         "papers": 1
       },
       {
-        "name": "Nikhila Ravi",
-        "papers": 1
-      },
-      {
         "name": "Shang-Wen Li",
         "papers": 1
       },
       {
         "name": "Piotr Doll'ar",
-        "papers": 1
-      },
-      {
-        "name": "Christoph Feichtenhofer",
         "papers": 1
       },
       {
@@ -2191,10 +4809,6 @@
       },
       {
         "name": "Yuhuai Wu",
-        "papers": 1
-      },
-      {
-        "name": "Michihiro Yasunaga",
         "papers": 1
       },
       {

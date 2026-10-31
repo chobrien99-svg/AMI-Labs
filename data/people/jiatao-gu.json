@@ -38,6 +38,98 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "4236633c397e895b6bc0e3f22f44bcfbf0daf4a3",
+      "title": "RoboReason: Boosting Robotics-Relevant VLM Reasoning Through Scalable Data Generation",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/4236633c397e895b6bc0e3f22f44bcfbf0daf4a3",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Sagnik Anupam"
+        },
+        {
+          "slug": null,
+          "name": "Utkarsh Lal"
+        },
+        {
+          "slug": null,
+          "name": "Aneesh Edara"
+        },
+        {
+          "slug": null,
+          "name": "Bo-Tong Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Yao Tang"
+        },
+        {
+          "slug": null,
+          "name": "Dinesh Jayaraman"
+        },
+        {
+          "slug": null,
+          "name": "Osbert Bastani"
+        }
+      ]
+    },
+    {
+      "paperId": "65431961fdd203c8b91c99ae94cea8c654d58172",
+      "title": "JUICE: Unified Multimodal Modeling in Pretrained Representation Spaces",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/65431961fdd203c8b91c99ae94cea8c654d58172",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jia-Han Li"
+        },
+        {
+          "slug": null,
+          "name": "Huang-Yuan Su"
+        },
+        {
+          "slug": null,
+          "name": "Sheng-Bang Tong"
+        },
+        {
+          "slug": null,
+          "name": "Shu-Sheng Yang"
+        },
+        {
+          "slug": null,
+          "name": "Rui-Han Guo"
+        },
+        {
+          "slug": null,
+          "name": "Suo-Zhi Huang"
+        },
+        {
+          "slug": null,
+          "name": "He-Xu Zhao"
+        },
+        {
+          "slug": null,
+          "name": "Pratyusha Sharma"
+        },
+        {
+          "slug": null,
+          "name": "Sherry Yang"
+        },
+        {
+          "slug": null,
+          "name": "Rob Fergus"
+        },
+        {
+          "slug": null,
+          "name": "K. Cho"
+        }
+      ]
+    },
+    {
       "paperId": "48cb3f3103251bf435a5664b848c182c4d1a980f",
       "title": "Purify Before You Align: Improving Representation Alignment for Diffusion Models",
       "year": 2026,
@@ -900,14 +992,14 @@
     {
       "title": "DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation",
       "year": 2025,
-      "citationCount": 208,
+      "citationCount": 210,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.20639"
     },
     {
       "title": "Multiplex Thinking: Reasoning via Token-wise Branch-and-Merge",
       "year": 2026,
-      "citationCount": 16,
+      "citationCount": 17,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.08808"
     },
@@ -1028,6 +1120,10 @@
         "papers": 3
       },
       {
+        "name": "Yao Tang",
+        "papers": 2
+      },
+      {
         "name": "Haoqiang Kang",
         "papers": 2
       },
@@ -1066,6 +1162,74 @@
       {
         "name": "Zhuofeng Wu",
         "papers": 2
+      },
+      {
+        "name": "Sagnik Anupam",
+        "papers": 1
+      },
+      {
+        "name": "Utkarsh Lal",
+        "papers": 1
+      },
+      {
+        "name": "Aneesh Edara",
+        "papers": 1
+      },
+      {
+        "name": "Bo-Tong Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Dinesh Jayaraman",
+        "papers": 1
+      },
+      {
+        "name": "Osbert Bastani",
+        "papers": 1
+      },
+      {
+        "name": "Jia-Han Li",
+        "papers": 1
+      },
+      {
+        "name": "Huang-Yuan Su",
+        "papers": 1
+      },
+      {
+        "name": "Sheng-Bang Tong",
+        "papers": 1
+      },
+      {
+        "name": "Shu-Sheng Yang",
+        "papers": 1
+      },
+      {
+        "name": "Rui-Han Guo",
+        "papers": 1
+      },
+      {
+        "name": "Suo-Zhi Huang",
+        "papers": 1
+      },
+      {
+        "name": "He-Xu Zhao",
+        "papers": 1
+      },
+      {
+        "name": "Pratyusha Sharma",
+        "papers": 1
+      },
+      {
+        "name": "Sherry Yang",
+        "papers": 1
+      },
+      {
+        "name": "Rob Fergus",
+        "papers": 1
+      },
+      {
+        "name": "K. Cho",
+        "papers": 1
       },
       {
         "name": "Yingheng Wang",
@@ -1121,10 +1285,6 @@
       },
       {
         "name": "Yao-Hua Tang",
-        "papers": 1
-      },
-      {
-        "name": "Yao Tang",
         "papers": 1
       },
       {

@@ -357,6 +357,32 @@
       ]
     },
     {
+      "paperId": "405d7c584bbf743ee8da020646e555a3e2b95a3a",
+      "title": "A Simple Learning Framework for Large Vocabulary Video Object Detection",
+      "year": 2022,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/405d7c584bbf743ee8da020646e555a3e2b95a3a",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Kwanyong Park"
+        },
+        {
+          "slug": null,
+          "name": "Seoung Wug Oh"
+        },
+        {
+          "slug": null,
+          "name": "I. Kweon"
+        },
+        {
+          "slug": null,
+          "name": "Joon-Young Lee"
+        }
+      ]
+    },
+    {
       "paperId": "9583c43171c2f4605790def9d54a488a0e250aa9",
       "title": "CD-TTA: Compound Domain Test-time Adaptation for Semantic Segmentation",
       "year": 2022,
@@ -879,6 +905,44 @@
       ]
     },
     {
+      "paperId": "11eda6e5876dbab49e15819f8796eff7c3b771d5",
+      "title": "Supplementary Material: Copy-and-Paste Networks for Deep Video Inpainting",
+      "year": 2019,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/11eda6e5876dbab49e15819f8796eff7c3b771d5",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Sung-Ho Lee"
+        },
+        {
+          "slug": null,
+          "name": "Seoung Wug Oh"
+        },
+        {
+          "slug": null,
+          "name": "Daeyeun Won"
+        },
+        {
+          "slug": null,
+          "name": "Hyundai Mnsoft"
+        },
+        {
+          "slug": null,
+          "name": "Seon Joo Kim"
+        },
+        {
+          "slug": null,
+          "name": "Dahun Kim"
+        },
+        {
+          "slug": null,
+          "name": "Joon-Young Lee"
+        }
+      ]
+    },
+    {
       "paperId": "794a1f2939e886a6c1ef7ef600ac43bc5414a416",
       "title": "Align-and-Attend Network for Globally and Locally Coherent Video Inpainting",
       "year": 2019,
@@ -1061,45 +1125,13 @@
           "name": "In-So Kweon"
         }
       ]
-    },
-    {
-      "paperId": "b44af04a88739af6c452871cd9feed6eabe1d2d2",
-      "title": "StairNet: Top-Down Semantic Aggregation for Accurate One Shot Detection",
-      "year": 2017,
-      "venue": "IEEE Workshop/Winter Conference on Applications of Computer Vision",
-      "url": "https://doi.org/10.1109/WACV.2018.00125",
-      "citationCount": 101,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Soonmin Hwang"
-        },
-        {
-          "slug": null,
-          "name": "In-So Kweon"
-        }
-      ]
-    },
-    {
-      "paperId": "147874c425fe8dd318d6678a36a8fd4a509afc80",
-      "title": "Deep Video",
-      "year": null,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/147874c425fe8dd318d6678a36a8fd4a509afc80",
-      "citationCount": 0,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Dahun Kim"
-        }
-      ]
     }
   ],
   "topPublications": [
     {
       "title": "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders",
       "year": 2023,
-      "citationCount": 2168,
+      "citationCount": 2195,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548"
     },
@@ -1125,11 +1157,11 @@
       "url": "https://doi.org/10.48550/arXiv.2303.09779"
     },
     {
-      "title": "Tracking by Associating Clips",
-      "year": 2022,
+      "title": "MTMMC: A Large-Scale Real-World Multi-Modal Camera Tracking Benchmark",
+      "year": 2024,
       "citationCount": 13,
-      "venue": "European Conference on Computer Vision",
-      "url": "https://doi.org/10.1007/978-3-031-19806-9_8"
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52733.2024.02108"
     }
   ],
   "githubProjects": [],
@@ -1171,15 +1203,15 @@
     "externalCoAuthors": [
       {
         "name": "In-So Kweon",
-        "papers": 29
+        "papers": 28
       },
       {
         "name": "Joon-Young Lee",
-        "papers": 16
+        "papers": 18
       },
       {
         "name": "Kwanyong Park",
-        "papers": 15
+        "papers": 16
       },
       {
         "name": "Dahun Kim",
@@ -1191,15 +1223,15 @@
       },
       {
         "name": "I. Kweon",
-        "papers": 7
+        "papers": 8
+      },
+      {
+        "name": "Seoung Wug Oh",
+        "papers": 6
       },
       {
         "name": "Donghyeon Cho",
         "papers": 6
-      },
-      {
-        "name": "Seoung Wug Oh",
-        "papers": 4
       },
       {
         "name": "Jongchan Park",
@@ -1227,10 +1259,6 @@
       },
       {
         "name": "Hoyong Jang",
-        "papers": 2
-      },
-      {
-        "name": "Soonmin Hwang",
         "papers": 2
       },
       {
@@ -1367,6 +1395,26 @@
       },
       {
         "name": "Philipp Benz",
+        "papers": 1
+      },
+      {
+        "name": "Sung-Ho Lee",
+        "papers": 1
+      },
+      {
+        "name": "Daeyeun Won",
+        "papers": 1
+      },
+      {
+        "name": "Hyundai Mnsoft",
+        "papers": 1
+      },
+      {
+        "name": "Seon Joo Kim",
+        "papers": 1
+      },
+      {
+        "name": "Soonmin Hwang",
         "papers": 1
       }
     ],

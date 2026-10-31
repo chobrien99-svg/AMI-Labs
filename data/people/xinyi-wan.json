@@ -37,6 +37,52 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "50e2faf1f8fcb438164baa7765f54e3a21a2649a",
+      "title": "VeruSteer: Learning What to Repair Next in Verus",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/50e2faf1f8fcb438164baa7765f54e3a21a2649a",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chao Jiang"
+        },
+        {
+          "slug": null,
+          "name": "Ding Wang"
+        },
+        {
+          "slug": null,
+          "name": "Chao-Hua Yang"
+        },
+        {
+          "slug": null,
+          "name": "Du-Gang Liu"
+        },
+        {
+          "slug": null,
+          "name": "Zhi-Wu Xu"
+        },
+        {
+          "slug": null,
+          "name": "Cheng Wen"
+        },
+        {
+          "slug": null,
+          "name": "Ming Zhong"
+        },
+        {
+          "slug": null,
+          "name": "Yu-Wei Liu"
+        },
+        {
+          "slug": null,
+          "name": "Lin Huang"
+        }
+      ]
+    },
+    {
       "paperId": "31418efab6a8d389afed475d40b5618945c2853b",
       "title": "Beyond Benchmarks: A Case Study of LLM-Generated Verus Specification Failures on Asterinas Vostd",
       "year": 2026,
@@ -828,7 +874,7 @@
     {
       "title": "PipeOffload: Improving Scalability of Pipeline Parallelism with Memory Optimization",
       "year": 2025,
-      "citationCount": 9,
+      "citationCount": 10,
       "venue": "International Conference on Machine Learning",
       "url": "https://doi.org/10.48550/arXiv.2503.01328"
     },
@@ -847,11 +893,11 @@
       "url": "https://doi.org/10.48550/arXiv.2505.16576"
     },
     {
-      "title": "Revisiting Parameter Server in LLM Post-Training",
+      "title": "StarVerus: LLM-Powered Multi-Agent Collaboration for Industrial Rust Code Verification Automation",
       "year": 2026,
       "citationCount": 3,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2601.19362"
+      "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+      "url": "https://doi.org/10.1145/3770855.3818485"
     }
   ],
   "githubProjects": [],
@@ -888,12 +934,12 @@
         "papers": 6
       },
       {
-        "name": "Jialin Li",
+        "name": "Lin Huang",
         "papers": 5
       },
       {
-        "name": "Lin Huang",
-        "papers": 4
+        "name": "Jialin Li",
+        "papers": 5
       },
       {
         "name": "Chaoyi Ruan",
@@ -904,15 +950,31 @@
         "papers": 4
       },
       {
-        "name": "Ding Wang",
-        "papers": 2
+        "name": "Chao Jiang",
+        "papers": 3
       },
       {
-        "name": "Chao Jiang",
-        "papers": 2
+        "name": "Ding Wang",
+        "papers": 3
       },
       {
         "name": "Cheng Wen",
+        "papers": 3
+      },
+      {
+        "name": "Du-Gang Liu",
+        "papers": 2
+      },
+      {
+        "name": "Zhi-Wu Xu",
+        "papers": 2
+      },
+      {
+        "name": "Ming Zhong",
+        "papers": 2
+      },
+      {
+        "name": "Yu-Wei Liu",
         "papers": 2
       },
       {
@@ -940,19 +1002,7 @@
         "papers": 2
       },
       {
-        "name": "Du-Gang Liu",
-        "papers": 1
-      },
-      {
-        "name": "Zhi-Wu Xu",
-        "papers": 1
-      },
-      {
-        "name": "Ming Zhong",
-        "papers": 1
-      },
-      {
-        "name": "Yu-Wei Liu",
+        "name": "Chao-Hua Yang",
         "papers": 1
       },
       {

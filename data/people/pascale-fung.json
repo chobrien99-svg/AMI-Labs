@@ -51,6 +51,32 @@
   ],
   "papers": [
     {
+      "paperId": "a133f958e29b04eeb8d61f814cf1c60f3f254c6b",
+      "title": "World Models with Configurable Perception",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/a133f958e29b04eeb8d61f814cf1c60f3f254c6b",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yi-Jun Shen"
+        },
+        {
+          "slug": null,
+          "name": "De-Long Chen"
+        },
+        {
+          "slug": null,
+          "name": "Xian-Ming Hu"
+        },
+        {
+          "slug": null,
+          "name": "Kai Zhang"
+        }
+      ]
+    },
+    {
       "paperId": "3686670d7e85083617d9fec8ee54ccfeca168c28",
       "title": "Plan, Watch, Recover: A Benchmark and Architectures for Proactive Procedural Assistance",
       "year": 2026,
@@ -3941,60 +3967,6 @@
       ]
     },
     {
-      "paperId": "7e72ccb32491711fcf3b59ac77359a57c2ff52de",
-      "title": "Automatic Speech Recognition Datasets in Cantonese Language: A Survey and a New Dataset",
-      "year": 2022,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/7e72ccb32491711fcf3b59ac77359a57c2ff52de",
-      "citationCount": 1,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Tiezheng Yu"
-        },
-        {
-          "slug": null,
-          "name": "Rita Frieske"
-        },
-        {
-          "slug": null,
-          "name": "Peng Xu"
-        },
-        {
-          "slug": null,
-          "name": "Samuel Cahyawijaya"
-        },
-        {
-          "slug": null,
-          "name": "C. Yiu"
-        },
-        {
-          "slug": null,
-          "name": "Holy Lovenia"
-        },
-        {
-          "slug": null,
-          "name": "Wenliang Dai"
-        },
-        {
-          "slug": null,
-          "name": "Elham J. Barezi"
-        },
-        {
-          "slug": null,
-          "name": "Qifeng Chen"
-        },
-        {
-          "slug": null,
-          "name": "Xiaojuan Ma"
-        },
-        {
-          "slug": null,
-          "name": "Bertram E. Shi"
-        }
-      ]
-    },
-    {
       "paperId": "7a8923ebf3c9168037951f078eed21b07239cac3",
       "title": "Clozer”:\" Adaptable Data Augmentation for Cloze-style Reading Comprehension",
       "year": 2022,
@@ -5729,21 +5701,21 @@
     {
       "title": "Survey of Hallucination in Natural Language Generation",
       "year": 2022,
-      "citationCount": 6302,
+      "citationCount": 6548,
       "venue": "ACM Computing Surveys",
       "url": "https://doi.org/10.1145/3571730"
     },
     {
       "title": "InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning",
       "year": 2023,
-      "citationCount": 4081,
+      "citationCount": 4170,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2305.06500"
     },
     {
       "title": "NusaX: Multilingual Parallel Sentiment Dataset for 10 Indonesian Local Languages",
       "year": 2022,
-      "citationCount": 161,
+      "citationCount": 165,
       "venue": "Conference of the European Chapter of the Association for Computational Linguistics",
       "url": "https://doi.org/10.48550/arXiv.2205.15960"
     },
@@ -5757,7 +5729,7 @@
     {
       "title": "International AI Safety Report",
       "year": 2025,
-      "citationCount": 97,
+      "citationCount": 100,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2501.17805"
     }
@@ -5831,11 +5803,11 @@
     "externalCoAuthors": [
       {
         "name": "Samuel Cahyawijaya",
-        "papers": 26
+        "papers": 25
       },
       {
         "name": "Holy Lovenia",
-        "papers": 18
+        "papers": 17
       },
       {
         "name": "Ziwei Ji",
@@ -5847,7 +5819,7 @@
       },
       {
         "name": "Tiezheng Yu",
-        "papers": 14
+        "papers": 13
       },
       {
         "name": "Yejin Bang",
@@ -5858,11 +5830,11 @@
         "papers": 10
       },
       {
-        "name": "Wenliang Dai",
-        "papers": 8
+        "name": "Etsuko Ishii",
+        "papers": 7
       },
       {
-        "name": "Etsuko Ishii",
+        "name": "Wenliang Dai",
         "papers": 7
       },
       {
@@ -5890,15 +5862,15 @@
         "papers": 5
       },
       {
-        "name": "Rita Frieske",
-        "papers": 5
-      },
-      {
         "name": "A. Bolourchi",
         "papers": 4
       },
       {
         "name": "Alham Fikri Aji",
+        "papers": 4
+      },
+      {
+        "name": "Rita Frieske",
         "papers": 4
       },
       {
@@ -5922,8 +5894,8 @@
         "papers": 3
       },
       {
-        "name": "Elham J. Barezi",
-        "papers": 3
+        "name": "Kai Zhang",
+        "papers": 2
       },
       {
         "name": "Tejaswi Kasarla",
@@ -6126,8 +6098,20 @@
         "papers": 2
       },
       {
-        "name": "Peng Xu",
+        "name": "Elham J. Barezi",
         "papers": 2
+      },
+      {
+        "name": "Yi-Jun Shen",
+        "papers": 1
+      },
+      {
+        "name": "De-Long Chen",
+        "papers": 1
+      },
+      {
+        "name": "Xian-Ming Hu",
+        "papers": 1
       },
       {
         "name": "K. Kundu",
@@ -6199,10 +6183,6 @@
       },
       {
         "name": "Hongbo Zhao",
-        "papers": 1
-      },
-      {
-        "name": "Kai Zhang",
         "papers": 1
       },
       {
@@ -8346,6 +8326,10 @@
         "papers": 1
       },
       {
+        "name": "Peng Xu",
+        "papers": 1
+      },
+      {
         "name": "R. Prenger",
         "papers": 1
       },
@@ -8367,22 +8351,6 @@
       },
       {
         "name": "I-Tsun Cheng",
-        "papers": 1
-      },
-      {
-        "name": "C. Yiu",
-        "papers": 1
-      },
-      {
-        "name": "Qifeng Chen",
-        "papers": 1
-      },
-      {
-        "name": "Xiaojuan Ma",
-        "papers": 1
-      },
-      {
-        "name": "Bertram E. Shi",
         "papers": 1
       },
       {
