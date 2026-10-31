@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-30T21:54:05.547Z",
+  "lastFetched": "2026-10-31T03:52:19.888Z",
   "members": [
     {
       "slug": "adithya-iyer",
@@ -304,16 +304,7 @@
       "name": "David Fan",
       "username": "dfan",
       "githubUrl": "https://github.com/dfan",
-      "events": [
-        {
-          "type": "IssuesEvent",
-          "repo": "openai/codex",
-          "repoUrl": "https://github.com/openai/codex",
-          "description": "Opened issue #49717 in openai/codex",
-          "url": "https://github.com/openai/codex/issues/49717",
-          "timestamp": "2026-09-30T19:33:31Z"
-        }
-      ]
+      "events": []
     },
     {
       "slug": "delong-chen",
@@ -613,6 +604,14 @@
       "githubUrl": "https://github.com/mavenlin",
       "events": [
         {
+          "type": "PushEvent",
+          "repo": "mavenlin/torch2jax",
+          "repoUrl": "https://github.com/mavenlin/torch2jax",
+          "description": "Pushed 0 commits to main on mavenlin/torch2jax",
+          "url": "https://github.com/mavenlin/torch2jax",
+          "timestamp": "2026-10-29T13:59:59Z"
+        },
+        {
           "type": "CreateEvent",
           "repo": "mavenlin/torch2jax",
           "repoUrl": "https://github.com/mavenlin/torch2jax",
@@ -723,14 +722,6 @@
           "description": "merged PR #5 in mavenlin/torch2jax",
           "url": "https://github.com/mavenlin/torch2jax",
           "timestamp": "2026-10-03T10:10:48Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "mavenlin/torch2jax",
-          "repoUrl": "https://github.com/mavenlin/torch2jax",
-          "description": "closed PR #4 in mavenlin/torch2jax",
-          "url": "https://github.com/mavenlin/torch2jax",
-          "timestamp": "2026-08-22T10:57:45Z"
         }
       ]
     },
