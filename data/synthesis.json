@@ -1,50 +1,16 @@
 {
-  "generatedAt": "2026-10-11T23:19:23.115Z",
+  "generatedAt": "2026-11-01T23:15:29.166Z",
   "window": {
     "days": 7,
-    "since": "2026-10-04",
-    "until": "2026-10-11"
+    "since": "2026-10-25",
+    "until": "2026-11-01"
   },
   "model": "claude-sonnet-4-6",
   "facts": {
     "news": {
-      "windowCount": 3,
-      "byTag": {
-        "hiring": 2,
-        "research": 1
-      },
-      "items": [
-        {
-          "title": "New Hire: Mahmoud Assran Member of Technical Staff, Montreal",
-          "url": "https://ami.frenchtechjournal.com/team/mahmoud-assran",
-          "source": "The AMI Observatory",
-          "publishedAt": "2026-10-05",
-          "tags": [
-            "hiring"
-          ],
-          "summary": "A founding scientist and member of technical staff at AMI, where he works on self-supervised learning and world models."
-        },
-        {
-          "title": "Pascale Fung: AMI’s Mission Goes Beyond Commercial Success",
-          "url": "/news/pascale-fung-ami-s-mission-goes-beyond-commercial-success",
-          "source": "LinkedIn",
-          "publishedAt": "2026-10-05",
-          "tags": [
-            "research"
-          ],
-          "summary": "The AI company’s commercial opportunity matters, Fung says, but its purpose is to advance the science of intelligence and build machines that benefit people."
-        },
-        {
-          "title": "New Hire: Chloe Giraut-Pierron, Vice President of Finance, Paris",
-          "url": "https://ami.frenchtechjournal.com/team/chloe-giraut-pierron",
-          "source": "The AMI Observatory",
-          "publishedAt": "2026-10-04",
-          "tags": [
-            "hiring"
-          ],
-          "summary": "Giraut-Pierron was actually an early AMI employee from November 2025, and officially a director general. She recently updated her LinkedIn to reflect that she is VP of Finance. She previously worked at Pigment, Qonto, and Stratumn."
-        }
-      ]
+      "windowCount": 0,
+      "byTag": {},
+      "items": []
     },
     "jobs": {
       "total": 6,
@@ -52,335 +18,279 @@
       "newItems": [],
       "byDepartment": {
         "All Departments": 1,
-        "Technical Staff": 5
+        "Technical Staff": 4,
+        "General and Administration": 1
       }
     },
     "publications": {
-      "total": 800,
-      "newSinceLast": 74,
+      "total": 802,
+      "newSinceLast": 12,
       "newItems": [
         {
           "memberName": "Jiatao Gu",
           "teamAuthors": [
             "Jiatao Gu"
           ],
-          "title": "The Lattice of Transition Laws",
+          "title": "RoboReason: Boosting Robotics-Relevant VLM Reasoning Through Scalable Data Generation",
           "year": 2026,
-          "publicationDate": "2026-10-08",
+          "publicationDate": "2026-10-24",
           "venue": null,
-          "url": "https://www.semanticscholar.org/paper/8451a69b7ff0c82cbc575bc86ce46f8af29d9fc6",
+          "url": "https://www.semanticscholar.org/paper/4236633c397e895b6bc0e3f22f44bcfbf0daf4a3",
           "citationCount": 0,
-          "tldr": "This work provides a design principle for decoding for future AR models, diffusion models, and anything in between as paths on one corruption lattice, and defines the cost of a schedule as the dependence its parallel steps discard.",
-          "abstract": "Diffusion and autoregression (AR) have long been seen as different categories of generative models, with diffusion specializing in continuous fields and AR specializing in discrete tokens. Recent work seeks to combine the advantages of the two models, and each hybrid fixes its decoding schedule by design. In this paper, we ask whether we can predict the performance of a model's decoding schedule before decoding at a fixed number of steps. We describe diffusion, AR, and models in between as paths on one corruption lattice, and define the cost of a schedule as the dependence its parallel s"
+          "tldr": "A scalable autonomous training data generation pipeline is proposed, and it is shown that both supervised finetuning and reinforcement-learning on the generated data can significantly improve VLM reasoning performance both on spatiotemporal ordering tasks as well as downstream robotics and visual reasoning tasks.",
+          "abstract": "Vision-Language Models (VLMs) have demonstrated impressive performance when integrated into robot manipulation pipelines, but real-world evaluation of VLM capabilities on downstream robotics tasks is both difficult and expensive to scale. We propose that spatial and temporal ordering tasks using images from stereo and wrist cameras attached to real-world robots are particularly well-suited for evaluating visual reasoning capabilities, as they assess skills directly applicable to robots. We evaluate VLM reasoning abilities on three questions: ordering shuffled frames conditioned on a language d"
         },
         {
-          "memberName": "Yann LeCun",
+          "memberName": "Xinyi Wan",
           "teamAuthors": [
-            "Yann LeCun"
+            "Xinyi Wan"
           ],
-          "title": "Preserving Unstable Modes Through Inverse Dynamics in JEPA World Models",
+          "title": "VeruSteer: Learning What to Repair Next in Verus",
           "year": 2026,
-          "publicationDate": "2026-10-06",
+          "publicationDate": "2026-10-21",
           "venue": null,
-          "url": "https://www.semanticscholar.org/paper/8b39cf2adfbecf073108ad70a67b45c0fd6bef67",
+          "url": "https://www.semanticscholar.org/paper/50e2faf1f8fcb438164baa7765f54e3a21a2649a",
           "citationCount": 0,
-          "tldr": "It is proved that exact action reconstruction makes the encoder injective on the finite-horizon reachable subspace, so the encoder cannot discard any state direction reachable by an action sequence within $H$ steps, and it is shown that, as $H$ grows, the dominant eigenspace of the finite-horizon controllability Gramian converges to the controllable unstable subspace.",
-          "abstract": "Robotic systems often exhibit unstable modes, along which small perturbations and disturbances can cause unbounded growth unless corrected through feedback. Controlling such systems from high-dimensional visual observations requires representations that preserve these modes. Joint-embedding predictive architectures (JEPAs) provide a natural framework for learning such representations and their dynamics from visual data. However, we demonstrate that next-step prediction combined with anti-collapse regularization does not guarantee that controllable unstable modes are preserved: the training los"
+          "tldr": "VeruSteer, which learns to select error types from the outcomes of alternative repair trajectories, is presented, which constructs repair trees offline and compares paths from the same initial program by verification success, repair rounds, and final verification progress.",
+          "abstract": "LLM-based verification systems repair Rust proofs by revising programs in response to Verus diagnostics. When several error types are reported, pipelines such as AutoVerus and VeruSAGE select the next repair target using a preset priority. Yet each repair changes the program and the errors that follow, so the same reported types can require different choices at different states. We present VeruSteer, which learns to select error types from the outcomes of alternative repair trajectories. It constructs repair trees offline and compares paths from the same initial program by verification success"
         },
-        {
-          "memberName": "Yann LeCun",
-          "teamAuthors": [
-            "Basile Terver",
-            "Yann LeCun"
-          ],
-          "title": "H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning",
-          "year": 2026,
-          "publicationDate": "2026-10-05",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/1b793cc81165f84d9b3fdd10b43451761b12170f",
-          "citationCount": 0,
-          "tldr": "H-JEPA is introduced, an end-to-end recipe for training a hierarchy of action-conditioned JEPAs in which each level predicts farther ahead in its own learned latent space in which each level's predictions become subgoals for the planner below it.",
-          "abstract": "Long-horizon planning with latent world models requires reasoning across timescales and levels of abstraction. Existing task-agnostic JEPA world models predict and plan at a single timescale or with multiple horizons in one shared latent space. We introduce H-JEPA, an end-to-end recipe for training a hierarchy of action-conditioned JEPAs in which each level predicts farther ahead in its own learned latent space. Planning proceeds top-down: the top level optimizes progress toward the goal, and each level's predictions become subgoals for the planner below it. When factors in the data evolve at "
-        },
-        {
-          "memberName": "Yann LeCun",
-          "teamAuthors": [
-            "Yann LeCun"
-          ],
-          "title": "SheetSage2: Coherent Lead-Sheet Transcription with Synthetic Supervision",
-          "year": 2026,
-          "publicationDate": "2026-10-04",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/dd2746b870572a22c58e66b9c34606ee09c4d318",
-          "citationCount": 0,
-          "tldr": "SheetSage2, a unified music transcription framework that combines synthetic data, task-specific structured decoding, and autoregressive distillation, is presented, substantially improving over SheetSage1 and surpassing task-specific models on several benchmarks.",
-          "abstract": "Transcribing music into a human-readable score requires a coherent understanding of rhythm, harmony, melody, and form. Two obstacles limit this goal: annotated recordings are scarce, and accurate local predictions can still produce inconsistent musical sequences. We present SheetSage2, a unified music transcription framework that combines synthetic data, task-specific structured decoding, and autoregressive distillation. Automatically annotated MIDI, rendered into audio, provides scalable supervision across music understanding tasks. Task-specific structured decoders integrate complementary mu"
-        },
-        {
-          "memberName": "Chen Wei",
-          "teamAuthors": [
-            "Chen Wei"
-          ],
-          "title": "Visualizing Distribution Coverage in Generative Diffusion Models",
-          "year": 2026,
-          "publicationDate": "2026-09-30",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/a62cfdeb7698a1294c4f8a11683634b2bb6d6801",
-          "citationCount": 0,
-          "tldr": "Across both image and video generation, the choice of training objective fundamentally determines whether a few-step model inherits its teacher's distribution coverage or trades it away for single-draw quality, and it is shown that this tradeoff extends to few-step causal video generation.",
-          "abstract": "Diffusion distillation is widely adopted to accelerate sampling, and the resulting few-step models are broadly believed to match or even surpass their multi-step teachers in generation. However, standard evaluations such as GenEval2 typically draw only one sample per prompt, so improved scores may fail to reveal losses in distribution coverage. We therefore revisit whether distilled models truly match their teachers beyond single-draw performance using \\textbf{pass@$\\mathbf{k}$}, which measures the probability that at least one of $k$ independent samples satisfies a quality criterion. At $k{=}"
-        },
-        {
-          "memberName": "Yann LeCun",
-          "teamAuthors": [
-            "Yann LeCun"
-          ],
-          "title": "Learning Functional Subspaces for Neural Network Compression",
-          "year": 2026,
-          "publicationDate": "2026-09-30",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/1db373b4b04de2a05cd8c1d942bd582e8ff22536",
-          "citationCount": 0,
-          "tldr": "This work introduces Learnable Subspace Projections (LSP), which instead learns the subspaces to discard end-to-end in each weight matrix, and outperforms baselines, and its advantage widens as compression increases.",
-          "abstract": "Modern transformers pair impressive capabilities with substantial memory and compute demands. Low-rank weight factorization reduces both while keeping the matrices dense, so they run efficiently on standard hardware. Existing methods, however, choose the subspace to remove from each weight matrix with local closed-form criteria: activation energy, layer-wise reconstruction error, or a quadratic approximation of the loss. These criteria ignore how errors propagate through the network, so at high compression the errors compound with depth and performance collapses. We introduce Learnable Subspace Pro"
-        },
-        {
-          "memberName": "Yann LeCun",
-          "teamAuthors": [
-            "Yann LeCun"
-          ],
-          "title": "SCOPE: Observation-Conditioned Full-Target Prediction for Sparse PDE Inference",
-          "year": 2026,
-          "publicationDate": "2026-09-29",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/ea3e758eab2563e271e030baefaa82286f4f4823",
-          "citationCount": 0,
-          "tldr": "SCOPE (Sparse-Context Observability-aware Predictive Embeddings) is proposed to recover complete PDE fields from sparse observations by coupling full-field latent prediction with physical reconstruction, and outperforms mask-aware neural operators on all ten forward and inverse tasks.",
-          "abstract": "Recovering complete physical fields from sparse observations is challenging because the measurements may not uniquely determine the underlying state. Diffusion-based PDE solvers address this problem through iterative sampling whereas neural operators provide deterministic one-pass predictions. We propose SCOPE (Sparse-Context Observability-aware Predictive Embeddings) to recover complete PDE fields from sparse observations by coupling full-field latent prediction with physical reconstruction. A shared decoder reconstructs fields from both predicted and complete-view representations so that rep"
-        },
-        {
-          "memberName": "Yann LeCun",
-          "teamAuthors": [
-            "Yann LeCun"
-          ],
-          "title": "PDE-OBS: Controlled Evaluation Across Observation Patterns",
-          "year": 2026,
-          "publicationDate": "2026-09-29",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/cede64a707325324571bf783bbb20e45002c1bcb",
-          "citationCount": 0,
-          "tldr": "Mixed-pattern training on five completed pairs reduces large single-pattern transfer errors, although destination-trained references usually remain more accurate, and the benchmark and findings support systematic evaluation of observation-pattern sensitivity and provide a reusable workflow for developing methods under changing measurement conditions.",
-          "abstract": "Physical-field reconstruction and forecasting depend on both measurement density and spatial layout, yet evaluation under a single observation pattern does not characterize performance when that pattern changes. We introduce PDE-OBS, an integrated benchmarking platform spanning numerical data generation, model training, and inference and evaluation under varying observation conditions. It combines 560,000 fields and trajectories from seven partial differential equation families with configurable observation operators and seven adapted baseline methods for stationary reconstruction and short-ho"
-        },
-        {
-          "memberName": "Chen Wei",
-          "teamAuthors": [
-            "Chen Wei"
-          ],
-          "title": "Representation by Design in Generation: Cross-View Class-Token Alignment in Diffusion Transformers",
-          "year": 2026,
-          "publicationDate": "2026-09-28",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/59a8c68415fffc8cf2413bd4bbcfe55965bd4754",
-          "citationCount": 0,
-          "tldr": "The results show that representation need not remain a by-product of generation or merely a tool for improving it: it can be directly optimized as a first-class capability of diffusion pretraining alongside generation.",
-          "abstract": "Generative and representation learning remain asymmetrically connected: semantic representations are used to improve diffusion generation, whereas the models'own representations are often treated as a by-product of synthesis. We ask whether diffusion models can instead be trained to learn substantially stronger semantic representations without sacrificing generation quality. SelfFlow takes a step in this direction by introducing self-supervised patch alignment into flow matching, but its main gains remain in faster convergence and improved generation. Inspired by DINO and iBOT, we extend this "
-        },
-        {
-          "memberName": "Yann LeCun",
-          "teamAuthors": [
-            "Yann LeCun"
-          ],
-          "title": "AD-E2E-JEPA: A Joint-Embedding Predictive Architecture For End-to-End Autonomous Driving",
-          "year": 2026,
-          "publicationDate": "2026-09-28",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/1cb318e4eee78c97d5ba10401b47f2d1ebc361ee",
-          "citationCount": 0,
-          "tldr": "This paper systematically evaluates existing action-conditioned joint-embedding predictive architecture (JEPA) world models, including LeWM, DINO-WM, and JEPA-WM for end-to-end autonomous driving (E2EAD), and proposes a SIGReg-regularized learnable projector applied to projected patch embeddings, which introduces a SIGReg-regularized learnable projector applied to projected patch embeddings.",
-          "abstract": "Autonomous driving requires \\textit{world models} that can understand the physical world, reason and plan, and operate safely. In this paper, we first systematically evaluate existing action-conditioned joint-embedding predictive architecture (JEPA) world models, including LeWM, DINO-WM, and JEPA-WM for end-to-end autonomous driving (E2EAD). To isolate world-model quality from policy learning, we employ a goal-conditioned zero-shot planning setting that evaluates these models using ground-truth future observations as goals, without training any driving policy. We find that existing JEPA-based "
-        },
-        {
-          "memberName": "Chao Du",
-          "teamAuthors": [
-            "Chao Du"
-          ],
-          "title": "Relative Generalization Invariance of LLM Pretraining",
-          "year": 2026,
-          "publicationDate": "2026-09-26",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/bf754770b2b52431faf2967aa9bfd6d51d349f8f",
-          "citationCount": 0,
-          "tldr": "This work introduces Relative Generalization Invariance (RGI), the invariance of the validation-loss difference between any two tokens across models, and shows that RGI approximately holds across a wide range of optimizers and moderate architectural variations, suggesting that these choices induce an approximately uniform shift in token-wise losses.",
-          "abstract": "Large Language Model (LLM) pretraining performance is jointly shaped by three components of the training triplet: the optimizer, model architecture, and training data stream. However, how these components influence performance in distinct ways remains unclear. We take a first step toward isolating their effects by studying relative generalization. We introduce Relative Generalization Invariance (RGI), the invariance of the validation-loss difference between any two tokens across models. We show that RGI approximately holds across a wide range of optimizers and moderate architectural variations"
-        },
-        {
-          "memberName": "Chen Wei",
-          "teamAuthors": [
-            "Chen Wei"
-          ],
-          "title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
-          "year": 2026,
-          "publicationDate": "2026-09-25",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/2a545b668a1028328af0a546f67e4630542f75b5",
-          "citationCount": 0,
-          "tldr": "This work introduces FuseReg, which replaces heuristic feature selection with training over random subsets of encoder layers, and theoretically analyzes the underlying mechanism: subset sampling preserves the full-layer latent mean in expectation while explicitly penalizing sensitivity to cross-layer disagreement.",
-          "abstract": "Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image generation. However, RAEs still need to decide which encoder layers form the shared latent space for the generator and pixel decoder. This choice involves a trade-off: shallower layers preserve fine pixel details better, while deeper layers yield better generation metrics. A fixed heuristic layer fusion therefore couples two stages that benefit from different information. We introduce FuseReg, which repl"
-        }
-      ],
-      "recent": [
         {
           "memberName": "Jiatao Gu",
           "teamAuthors": [
             "Jiatao Gu"
           ],
-          "title": "The Lattice of Transition Laws",
+          "title": "JUICE: Unified Multimodal Modeling in Pretrained Representation Spaces",
+          "year": 2026,
+          "publicationDate": "2026-10-20",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/65431961fdd203c8b91c99ae94cea8c654d58172",
+          "citationCount": 0,
+          "tldr": "This work introduces JUICE (Joint Unified multimodal modeling In Continuous Encoder spaces), a single flow matching Transformer over frozen image and text representations, in which each modality has its own noise level.",
+          "abstract": "Most unified multimodal models treat images and text asymmetrically: a pretrained language model generates text, an attached diffusion head generates images, and outputs that contain both are produced in a fixed order, so the first output cannot adapt to the second. We ask whether both modalities can instead be generated by one process that is trained on them jointly from scratch. Pretrained encoder spaces hold both modalities in one continuous form and carry knowledge learned at scale, and recent work finds them effective as generative targets for vision and language. We therefore model the j"
+        },
+        {
+          "memberName": "Lucas Maes",
+          "teamAuthors": [
+            "Lucas Maes"
+          ],
+          "title": "LaLa-World: Scaling Latent World Models with Natural Language Actions",
+          "year": 2026,
+          "publicationDate": "2026-10-20",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/19591bb8117dc4ad3c98bb21dde7b09111163eda",
+          "citationCount": 0,
+          "tldr": "This paper shows that JEPA-style latent world models (LWMs) can learn across diverse domains and data sources by adopting the language-conditioned interface of video generation models by introducing LaLa-World, a Language-conditioned Latent World model that learns from simulation and robot trajectories together with broader image and video data.",
+          "abstract": "This paper shows that JEPA-style latent world models (LWMs) can learn across diverse domains and data sources by adopting the language-conditioned interface of video generation models. We establish this approach as an effective and efficient basis for planning with imagination and downstream policy fine-tuning. To this end, we introduce LaLa-World, a Language-conditioned Latent World model that learns from simulation and robot trajectories together with broader image and video data. Two designs make this work. First, we describe both numerical actions and visual changes in language, enabling j"
+        },
+        {
+          "memberName": "Pascale Fung",
+          "teamAuthors": [
+            "Pascale Fung"
+          ],
+          "title": "World Models with Configurable Perception",
+          "year": 2026,
+          "publicationDate": "2026-10-20",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/a133f958e29b04eeb8d61f814cf1c60f3f254c6b",
+          "citationCount": 0,
+          "tldr": "Consistent gains in physical-quantity probing and distracted-to-clean retrieval indicate that ConfigWM learns states that preserve task-relevant information while remaining robust to distractors, supporting reliable world modeling and planning in noisy worlds.",
+          "abstract": "Real-world observations are noisy and often contain excessive task-irrelevant information. Effective world modeling and planning need to abstract observations into world state representations while filtering out irrelevant information. However, encoders in existing world models are typically non-adaptive, leading to state representations that are easily distracted by task-irrelevant information. As a result, the model may not selectively filter observations to cater to different task demands. To address this problem, we introduce ConfigWM, which realizes configurable perception through task-co"
+        },
+        {
+          "memberName": "Tengyu Ma",
+          "teamAuthors": [
+            "Tengyu Ma"
+          ],
+          "title": "Muse Glimmer 30B: An On-Device Agentic Model",
+          "year": 2026,
+          "publicationDate": "2026-10-17",
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/5640528f5d1029420c0bd8bd7dbe4a779ca58d71",
+          "citationCount": 2,
+          "tldr": "Muse Glimmer, an open-source 30B parameter causal language model with perception encoder, purpose-built for autonomous agentic tasks on consumer hardware, achieves state-of-the-art performance for its size class on agentic benchmarks, setting a new standard compared to the models of its size.",
+          "abstract": "We introduce Muse Glimmer, an open-source 30B parameter causal language model with perception encoder, purpose-built for autonomous agentic tasks on consumer hardware. Muse Glimmer integrates multi-step reasoning, reliable tool use and failure recovery into a single model that runs locally on consumer devices without requiring cloud infrastructure. The model accepts text and image inputs and produces text outputs, was trained on data from over a hundred languages, and is quantized to approximately 4-bit precision for efficient single-GPU inference. Muse Glimmer achieves state-of-the-art perfor"
+        },
+        {
+          "memberName": "Bingyi Kang",
+          "teamAuthors": [
+            "Bingyi Kang"
+          ],
+          "title": "SWEeper-Bench: Can Agents Discover Bugs in Interactive Software?",
           "year": 2026,
           "publicationDate": "2026-10-08",
           "venue": null,
-          "url": "https://www.semanticscholar.org/paper/8451a69b7ff0c82cbc575bc86ce46f8af29d9fc6",
-          "citationCount": 0,
-          "tldr": "This work provides a design principle for decoding for future AR models, diffusion models, and anything in between as paths on one corruption lattice, and defines the cost of a schedule as the dependence its parallel steps discard.",
-          "abstract": "Diffusion and autoregression (AR) have long been seen as different categories of generative models, with diffusion specializing in continuous fields and AR specializing in discrete tokens. Recent work seeks to combine the advantages of the two models, and each hybrid fixes its decoding schedule by design. In this paper, we ask whether we can predict the performance of a model's decoding schedule before decoding at a fixed number of steps. We describe diffusion, AR, and models in between as paths on one corruption lattice, and define the cost of a schedule as the dependence its parallel s"
+          "url": "https://www.semanticscholar.org/paper/e4262d7dfe590316c0ea9d45ead9998e20170f1e",
+          "citationCount": 1,
+          "tldr": "Through stage-by-stage analysis of agent trajectories, it is shown that the biggest bottleneck is identifying the buggy behavior: agents often reach the relevant feature but never trigger the failure or fail to recognize it.",
+          "abstract": "Coding agents increasingly interact with users by generating interactive software on the fly rather than replying in text, yet many bugs in such software reveal themselves only after multi-step interactions. Today, users must discover these bugs and wait for fixes, making the development loop slow and expensive. Existing benchmarks typically assume the bugs have already been identified, leaving agents'ability to find interaction-dependent failures largely unevaluated. We introduce SWEeper-Bench, 200 tasks built from real bug fixes in 200 widely used open-source web applications. Each task give"
         },
         {
           "memberName": "Yann LeCun",
           "teamAuthors": [
             "Yann LeCun"
           ],
-          "title": "Preserving Unstable Modes Through Inverse Dynamics in JEPA World Models",
+          "title": "TabPFN-3.5: Technical Report",
           "year": 2026,
-          "publicationDate": "2026-10-06",
+          "publicationDate": "2026-09-15",
           "venue": null,
-          "url": "https://www.semanticscholar.org/paper/8b39cf2adfbecf073108ad70a67b45c0fd6bef67",
-          "citationCount": 0,
-          "tldr": "It is proved that exact action reconstruction makes the encoder injective on the finite-horizon reachable subspace, so the encoder cannot discard any state direction reachable by an action sequence within $H$ steps, and it is shown that, as $H$ grows, the dominant eigenspace of the finite-horizon controllability Gramian converges to the controllable unstable subspace.",
-          "abstract": "Robotic systems often exhibit unstable modes, along which small perturbations and disturbances can cause unbounded growth unless corrected through feedback. Controlling such systems from high-dimensional visual observations requires representations that preserve these modes. Joint-embedding predictive architectures (JEPAs) naturally learn these representations and their dynamics from visual data. However, we demonstrate that next-step prediction combined with anti-collapse regularization does not guarantee that controllable unstable modes are preserved: the training los"
-        },
-        {
-          "memberName": "Yann LeCun",
-          "teamAuthors": [
-            "Basile Terver",
-            "Yann LeCun"
-          ],
-          "title": "H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning",
-          "year": 2026,
-          "publicationDate": "2026-10-05",
-          "venue": null,
-          "url": "https://www.semanticscholar.org/paper/1b793cc81165f84d9b3fdd10b43451761b12170f",
-          "citationCount": 0,
-          "tldr": "H-JEPA is introduced, an end-to-end recipe for training a hierarchy of action-conditioned JEPAs in which each level predicts farther ahead in its own learned latent space in which each level's predictions become subgoals for the planner below it.",
-          "abstract": "Long-horizon planning with latent world models requires reasoning across timescales and levels of abstraction. Existing task-agnostic JEPA world models predict and plan at a single timescale or with multiple horizons in one shared latent space. We introduce H-JEPA, an end-to-end recipe for training a hierarchy of action-conditioned JEPAs in which each level predicts farther ahead in its own learned latent space. Planning proceeds top-down: the top level optimizes progress toward the goal, and each level's predictions become subgoals for the planner below it. When factors in the data evolve at "
+          "url": "https://www.semanticscholar.org/paper/681c066e8a6bd7e3dec5ececfdb4cc67bfbabf9d",
+          "citationCount": 7,
+          "tldr": "The new TabPFN-3.5 sets a new state of the art on standard tabular prediction in TabArena, and extends it to the data practitioners encounter in practice: non-i.i.d. data with temporal or grouped splits, tables with strings, text and images, high-cardinality categorical features, and wide tables with many features.",
+          "abstract": "We introduce TabPFN-3.5, our new flagship Tabular Foundation Model. It significantly outperforms its predecessor, TabPFN-3, and all existing baselines across a broad range of tabular problems. TabPFN-3.5 sets a new state of the art on standard tabular prediction in TabArena, and extends it to the data practitioners encounter in practice: non-i.i.d. data with temporal or grouped splits, tables with strings, text and images, high-cardinality categorical features, and wide tables with many features. These gains carry over to our task-specific harnesses: state of the art on relational data and str"
         },
         {
           "memberName": "Yann LeCun",
           "teamAuthors": [
             "Yann LeCun"
           ],
-          "title": "SheetSage2: Coherent Lead-Sheet Transcription with Synthetic Supervision",
+          "title": "TabPFN-3: Technical Report",
           "year": 2026,
-          "publicationDate": "2026-10-04",
+          "publicationDate": null,
+          "venue": "arXiv.org",
+          "url": "https://doi.org/10.48550/arXiv.2605.13986",
+          "citationCount": 57,
+          "tldr": null,
+          "abstract": null
+        },
+        {
+          "memberName": "Yann LeCun",
+          "teamAuthors": [
+            "Yann LeCun"
+          ],
+          "title": "TabPFN-3: Technical Report",
+          "year": 2026,
+          "publicationDate": "2026-05-13",
           "venue": null,
-          "url": "https://www.semanticscholar.org/paper/dd2746b870572a22c58e66b9c34606ee09c4d318",
+          "url": "https://www.semanticscholar.org/paper/a637fa6822d14a7c29071271b729cb5194161360",
           "citationCount": 0,
-          "tldr": "SheetSage2, a unified music transcription framework that combines synthetic data, task-specific structured decoding, and autoregressive distillation, is presented, substantially improving over SheetSage1 and surpassing task-specific models on several benchmarks.",
-          "abstract": "Transcribing music into a human-readable score requires a coherent understanding of rhythm, harmony, melody, and form. Two obstacles limit this goal: annotated recordings are scarce, and accurate local predictions can still produce inconsistent musical sequences. We present SheetSage2, a unified music transcription framework that combines synthetic data, task-specific structured decoding, and autoregressive distillation. Automatically annotated MIDI, rendered into audio, provides scalable supervision across music understanding tasks. Task-specific structured decoders integrate complementary mu"
+          "tldr": "TabPFN-3 extends the capabilities of the authors' models, enabling SOTA prediction on relational data and tabular-text data and improves existing integrations: a specialized checkpoint, TabPFN-TS-3, ranks 2nd on the time-series benchmark fev-bench, and SHAP-value computation is up to 120x faster.",
+          "abstract": "Tabular data underpins most high-value prediction problems in science and industry, and TabPFN has driven the foundation model revolution for this modality. Designed with feedback from our users, TabPFN-3 builds on this foundation to scale state-of-the-art performance to datasets with 1M training rows and substantially reduce training and inference time. Pretrained exclusively on synthetic data from our prior, TabPFN-3 dramatically pushes the frontier of tabular prediction and brings substantial gains on time series, relational, and tabular-text data. On the standard tabular benchmark TabArena"
+        },
+        {
+          "memberName": "Sanghyun Woo",
+          "teamAuthors": [
+            "Sanghyun Woo"
+          ],
+          "title": "A Simple Learning Framework for Large Vocabulary Video Object Detection",
+          "year": 2022,
+          "publicationDate": null,
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/405d7c584bbf743ee8da020646e555a3e2b95a3a",
+          "citationCount": 0,
+          "tldr": "This paper investigates the new problem of large vocabulary tracking, one of the essential milestones for dynamic world understanding AI agents, and explicitly handles the former two issues by hallucinating the supervisions and enables end-to-end video model learning from all training data.",
+          "abstract": null
+        },
+        {
+          "memberName": "Sanghyun Woo",
+          "teamAuthors": [
+            "Sanghyun Woo"
+          ],
+          "title": "Supplementary Material: Copy-and-Paste Networks for Deep Video Inpainting",
+          "year": 2019,
+          "publicationDate": null,
+          "venue": null,
+          "url": "https://www.semanticscholar.org/paper/11eda6e5876dbab49e15819f8796eff7c3b771d5",
+          "citationCount": 0,
+          "tldr": "The copy-and-paste networks described in Sec.7 in the main paper are illustrated and the results with the methods in [1, 2].",
+          "abstract": null
         }
-      ]
+      ],
+      "recent": []
     },
     "github": {
-      "windowEventCount": 36,
+      "windowEventCount": 56,
       "byMember": {
-        "Artem Zholus": 6,
-        "Basile Terver": 5,
-        "Brian Li": 2,
-        "Li Haoyi": 15,
-        "Mahmoud Assran": 3,
-        "Min Lin": 2,
-        "Quentin Le Lidec": 1,
-        "Rohit Girdhar": 2
+        "Artem Zholus": 1,
+        "Brian Li": 15,
+        "Chen Wei": 1,
+        "Li Haoyi": 1,
+        "Li Jing": 1,
+        "Mahmoud Assran": 1,
+        "Min Lin": 15,
+        "Quentin Le Lidec": 5,
+        "Rohit Girdhar": 15,
+        "Sanghyun Woo": 1
       },
       "notable": [
         {
-          "member": "Artem Zholus",
+          "member": "Brian Li",
+          "type": "PullRequestReviewEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "description": "Reviewed PR #1581 in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-10-30T15:09:17Z"
+        },
+        {
+          "member": "Quentin Le Lidec",
+          "type": "IssueCommentEvent",
+          "repo": "coal-library/coal",
+          "description": "Commented on issue #915 in coal-library/coal",
+          "url": "https://github.com/coal-library/coal/pull/915#issuecomment-6520017311",
+          "timestamp": "2026-10-30T10:00:06Z"
+        },
+        {
+          "member": "Quentin Le Lidec",
+          "type": "PullRequestReviewEvent",
+          "repo": "coal-library/coal",
+          "description": "Reviewed PR #915 in coal-library/coal",
+          "url": "https://github.com/coal-library/coal",
+          "timestamp": "2026-10-30T09:57:27Z"
+        },
+        {
+          "member": "Quentin Le Lidec",
+          "type": "PullRequestEvent",
+          "repo": "coal-library/coal",
+          "description": "Opened PR #915 in coal-library/coal",
+          "url": "https://github.com/coal-library/coal",
+          "timestamp": "2026-10-30T09:21:03Z"
+        },
+        {
+          "member": "Quentin Le Lidec",
           "type": "CreateEvent",
-          "repo": "robojepa/robojepa.github.io",
-          "description": "Created branch main in robojepa/robojepa.github.io",
-          "url": "https://github.com/robojepa/robojepa.github.io",
-          "timestamp": "2026-10-07T17:23:03Z"
-        },
-        {
-          "member": "Basile Terver",
-          "type": "DeleteEvent",
-          "repo": "kevinghst/H-JEPA",
-          "description": "Deleted branch basile/droid_v2-merge-main in kevinghst/H-JEPA",
-          "url": "https://github.com/kevinghst/H-JEPA",
-          "timestamp": "2026-10-06T15:57:10Z"
-        },
-        {
-          "member": "Basile Terver",
-          "type": "DeleteEvent",
-          "repo": "kevinghst/H-JEPA",
-          "description": "Deleted branch basile/droid_v2 in kevinghst/H-JEPA",
-          "url": "https://github.com/kevinghst/H-JEPA",
-          "timestamp": "2026-10-06T15:57:10Z"
+          "repo": "quentinll/coal",
+          "description": "Created branch fix/placeholder-contacts in quentinll/coal",
+          "url": "https://github.com/quentinll/coal",
+          "timestamp": "2026-10-30T09:20:55Z"
         },
         {
           "member": "Brian Li",
-          "type": "PullRequestEvent",
+          "type": "CreateEvent",
           "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "description": "merged PR #1514 in EvolvingLMMs-Lab/lmms-eval",
+          "description": "Created branch brian/docs/maintenance-quickstart-links in EvolvingLMMs-Lab/lmms-eval",
           "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-10-05T05:41:30Z"
+          "timestamp": "2026-10-30T01:41:14Z"
         },
         {
           "member": "Brian Li",
-          "type": "PullRequestEvent",
+          "type": "CreateEvent",
           "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "description": "merged PR #1439 in EvolvingLMMs-Lab/lmms-eval",
+          "description": "Created branch brian/ci/maintenance-python-contract in EvolvingLMMs-Lab/lmms-eval",
           "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "timestamp": "2026-10-05T05:34:04Z"
+          "timestamp": "2026-10-30T01:41:08Z"
+        },
+        {
+          "member": "Brian Li",
+          "type": "PullRequestReviewCommentEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "description": "Activity in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-10-29T23:51:34Z"
         },
         {
           "member": "Li Haoyi",
-          "type": "DeleteEvent",
-          "repo": "com-lihaoyi/mill",
-          "description": "Deleted branch codex/python-uv-toolchain-1.3 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-10-05T02:50:19Z"
+          "type": "IssueCommentEvent",
+          "repo": "scala/scala3",
+          "description": "Commented on issue #25034 in scala/scala3",
+          "url": "https://github.com/scala/scala3/pull/25034#issuecomment-6506910859",
+          "timestamp": "2026-10-29T19:56:37Z"
         },
         {
-          "member": "Li Haoyi",
+          "member": "Min Lin",
           "type": "PullRequestEvent",
-          "repo": "com-lihaoyi/mill",
-          "description": "merged PR #7665 in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-10-05T02:50:16Z"
-        },
-        {
-          "member": "Rohit Girdhar",
-          "type": "IssuesEvent",
-          "repo": "pingdotgg/t3code",
-          "description": "Opened issue #15821 in pingdotgg/t3code",
-          "url": "https://github.com/pingdotgg/t3code/issues/15821",
-          "timestamp": "2026-10-05T01:00:45Z"
-        },
-        {
-          "member": "Rohit Girdhar",
-          "type": "DiscussionEvent",
-          "repo": "pingdotgg/t3code",
-          "description": "Activity in pingdotgg/t3code",
-          "url": "https://github.com/pingdotgg/t3code",
-          "timestamp": "2026-10-05T01:00:44Z"
-        },
-        {
-          "member": "Li Haoyi",
-          "type": "DeleteEvent",
-          "repo": "com-lihaoyi/mill",
-          "description": "Deleted branch codex/python-uv-toolchain-main in com-lihaoyi/mill",
-          "url": "https://github.com/com-lihaoyi/mill",
-          "timestamp": "2026-10-05T00:58:45Z"
+          "repo": "mavenlin/torch2jax",
+          "description": "merged PR #8 in mavenlin/torch2jax",
+          "url": "https://github.com/mavenlin/torch2jax",
+          "timestamp": "2026-10-29T13:59:57Z"
         }
       ]
     },
@@ -404,194 +314,124 @@
       "recentMilestones": []
     },
     "social": {
-      "windowCount": 24,
+      "windowCount": 18,
       "byTag": {
-        "research": 8,
-        "product": 1,
-        "funding": 3
+        "research": 6,
+        "hiring": 1
       },
       "notable": [
         {
-          "author": "Artem Zholus",
-          "handle": "artemZholus",
-          "text": "Introducing RoboJEPA, the first scaling law for multiembodiment world models.\n\nWe scaled JEPA predictors up to 8B params, showed scaling laws extrapolate and correlated compute scaling with planning performance.\n\nWe release all checkpoints and the code. \nhttps://t.co/Dk9zq7zN1k https://t.co/HVb4W0Ahkg",
-          "url": "https://x.com/artemZholus/status/2108983104178213096",
-          "createdAt": "2026-10-10T18:08:49.000Z",
+          "author": "Randall Balestriero",
+          "handle": "randall_balestr",
+          "text": "The Platonic Representation Hypothesis is now a Theorem ◼️\nTrain JEPAs separately, on any modalities: they provably learn the same representation up to one rotation.\nThe result? A 109M JEPA-Text model that aligns with vision models better than 72B LLMs. \nw/ @ylecun 🧵 https://t.co/WoLptHo5a4",
+          "url": "https://x.com/randall_balestr/status/2116173210148601966",
+          "createdAt": "2026-10-30T14:19:44.000Z",
+          "tags": [
+            "research"
+          ],
+          "metrics": {
+            "likes": 832,
+            "retweets": 145,
+            "replies": 28,
+            "quotes": 18
+          },
+          "highEngagement": true
+        },
+        {
+          "author": "Simon Zhai",
+          "handle": "simon_zhai",
+          "text": "Every time when I am losing faith in academia RL research, Andrea’s work will come up 🫡 https://t.co/i7yfSw0PI6",
+          "url": "https://x.com/simon_zhai/status/2116575258279112859",
+          "createdAt": "2026-10-31T16:57:20.000Z",
+          "tags": [
+            "research"
+          ],
+          "metrics": {
+            "likes": 387,
+            "retweets": 20,
+            "replies": 1,
+            "quotes": 1
+          },
+          "highEngagement": true
+        },
+        {
+          "author": "Junlin Han",
+          "handle": "han_junlin",
+          "text": "I joined @amilabs ~a month ago as an MTS, working on world model pre-training and capability emergence.  \n\nThere has never been a better time to build AI for the real world with a scaling mindset. Thrilled to join forces with friends old and new to build the next frontier🚀!",
+          "url": "https://x.com/han_junlin/status/2116597704113750203",
+          "createdAt": "2026-10-31T18:26:31.000Z",
           "tags": [
             "research",
-            "product"
+            "hiring"
           ],
           "metrics": {
-            "likes": 564,
-            "retweets": 104,
-            "replies": 30,
-            "quotes": 6
-          },
-          "highEngagement": true
-        },
-        {
-          "author": "Randall Balestriero",
-          "handle": "randall_balestr",
-          "text": "Introducing H-JEPA: the first end-to-end learned hierarchical world model for long-horizon visual planning!\nBuilt atop SIGReg/LeWM, H-JEPA provides a stable training recipe where semantic abstractions naturally emerge across levels... \nPaper+Code: https://t.co/Ozsn6x6W3i 🧵👇 https://t.co/oLXdoSP22N",
-          "url": "https://x.com/randall_balestr/status/2107479655150436504",
-          "createdAt": "2026-10-06T14:34:39.000Z",
-          "tags": [
-            "research"
-          ],
-          "metrics": {
-            "likes": 511,
-            "retweets": 64,
-            "replies": 16,
-            "quotes": 9
-          },
-          "highEngagement": true
-        },
-        {
-          "author": "Basile Terver",
-          "handle": "BasileTerv987",
-          "text": "Hierarchical world models, learned end-to-end from pixels!\n\nExcited to introduce H-JEPA: stacked JEPAs, each level in its own embedding space, planning top-down.\n\nVisual AntMaze: 3 levels lift success from 18% to 73% 👇\n\nw/ @kevinghstz, Michael Rabbat, @ylecun, @randall_balestr https://t.co/P3xtEOhI1v",
-          "url": "https://x.com/BasileTerv987/status/2107551177718284773",
-          "createdAt": "2026-10-06T19:18:51.000Z",
-          "tags": [
-            "research"
-          ],
-          "metrics": {
-            "likes": 349,
-            "retweets": 37,
-            "replies": 8,
-            "quotes": 2
-          },
-          "highEngagement": true
-        },
-        {
-          "author": "Randall Balestriero",
-          "handle": "randall_balestr",
-          "text": "Financial data is RIPE for JEPAs... noise, non-stationarity, unknown ground truth states... yet data and evaluation is not readily available! We resolve that in our latest NeurIPS paper `Towards Financial World Modeling' TLDR: invest with LeJEPA ;)\n📄https://t.co/FJG3jtZuBL 🧵⬇️ https://t.co/CBUp9rLjcq",
-          "url": "https://x.com/randall_balestr/status/2108272405236097449",
-          "createdAt": "2026-10-08T19:04:45.000Z",
-          "tags": [
-            "funding",
-            "research"
-          ],
-          "metrics": {
-            "likes": 185,
-            "retweets": 24,
-            "replies": 2,
-            "quotes": 2
-          },
-          "highEngagement": true
-        },
-        {
-          "author": "Randall Balestriero",
-          "handle": "randall_balestr",
-          "text": "LeJEPA already identified the world's latents--up to some mixing. There is now a very simple post-training recipe to undo that ambiguity and to recover the disentangled world's features! What a time to be Gaussian :)\n\n📄 https://t.co/YgD98TdVBJ https://t.co/1qLkGyMAkG",
-          "url": "https://x.com/randall_balestr/status/2108275156158448032",
-          "createdAt": "2026-10-08T19:15:41.000Z",
-          "tags": [
-            "research"
-          ],
-          "metrics": {
-            "likes": 184,
-            "retweets": 18,
-            "replies": 2,
+            "likes": 191,
+            "retweets": 4,
+            "replies": 23,
             "quotes": 0
           },
           "highEngagement": true
         },
         {
-          "author": "Randall Balestriero",
-          "handle": "randall_balestr",
-          "text": "If end-to-end is the question, SIGReg is the answer! Great work pushing end-to-end pretraining for WAMs! Also an important step for JEPAs to be able to plan and solve tasks at lightning speed! https://t.co/L8xHd2l0W2",
-          "url": "https://x.com/randall_balestr/status/2108648827280666718",
-          "createdAt": "2026-10-09T20:00:31.000Z",
+          "author": "Julia Kempe",
+          "handle": "KempeLab",
+          "text": "💪Brilliant AI-vision paper by Volker Kempe out: \"AI at a Turning Point...\"\n\nhttps://t.co/6au3bPL0fT\n\n 🧵 Spiking Neural Nets (SSN) and Neuromorphic AI as a low-energy hybrid complement to today's high-powered transformer architectures: energy-frugal SSN bring elements of https://t.co/pHNurL7zz4",
+          "url": "https://x.com/KempeLab/status/2116178264574017881",
+          "createdAt": "2026-10-30T14:39:49.000Z",
           "tags": [
             "research"
           ],
           "metrics": {
-            "likes": 89,
-            "retweets": 7,
-            "replies": 1,
-            "quotes": 0
+            "likes": 44,
+            "retweets": 10,
+            "replies": 4,
+            "quotes": 2
           },
           "highEngagement": true
         },
         {
-          "author": "Amir Bar",
-          "handle": "_amirbar",
-          "text": "NAVA-WAM: Can we learn latent actions for World Action Models?\n\nWe revisit a classic idea: jointly learning inverse and forward dynamics models while avoiding the identity shortcut (e.g., @SeonghyeonYe, @garridoq_, @jeffacce, @pulkitology, and others).\n\nThe twist: Both models are https://t.co/Ot1d0XuMQa",
-          "url": "https://x.com/_amirbar/status/2108183246622081039",
-          "createdAt": "2026-10-08T13:10:28.000Z",
+          "author": "Jiatao Gu",
+          "handle": "thoma_gu",
+          "text": "Announcing ProgramLab: 1,261 real-world programs for agents to rebuild through trial-and-error RL, from CLI tools to 100K+ line projects. We can train single and multi agents on it, which improves ProgramBench pass rates. \nMany thanks to my PhD student @tyao923 for leading this! https://t.co/JctapRLblT",
+          "url": "https://x.com/thoma_gu/status/2115545707717517341",
+          "createdAt": "2026-10-28T20:46:16.000Z",
           "tags": [],
           "metrics": {
-            "likes": 76,
-            "retweets": 6,
-            "replies": 0,
-            "quotes": 0
-          },
-          "highEngagement": true
-        },
-        {
-          "author": "Amir Bar",
-          "handle": "_amirbar",
-          "text": "𝗣𝗿𝗼𝗪𝗔𝗠 imagines latent visual subgoals to guide action prediction. Strong performance across robotics benchmarks and real-world experiments.\n🧵👇 https://t.co/ItEehij00p",
-          "url": "https://x.com/_amirbar/status/2107490148439249382",
-          "createdAt": "2026-10-06T15:16:21.000Z",
-          "tags": [
-            "research"
-          ],
-          "metrics": {
-            "likes": 65,
-            "retweets": 5,
-            "replies": 2,
-            "quotes": 0
-          },
-          "highEngagement": true
-        },
-        {
-          "author": "Jiatao Gu ✈️ COLM2026",
-          "handle": "thoma_gu",
-          "text": "Happy to share both STARFlow2 and NTM were accepted to #NeurIPS2026, onwards our exploration of scalable normalizing flows! 🎉\nhttps://t.co/kKLIlNxO4v\nhttps://t.co/NDID5iGxSp\n\nI'll also be at #COLM2026 in SF Oct 6–9 — happy to chat LLMs, world models, and everything in between!!",
-          "url": "https://x.com/thoma_gu/status/2107248612048601236",
-          "createdAt": "2026-10-05T23:16:34.000Z",
-          "tags": [
-            "research"
-          ],
-          "metrics": {
-            "likes": 52,
+            "likes": 54,
             "retweets": 4,
-            "replies": 0,
+            "replies": 3,
             "quotes": 0
           },
           "highEngagement": true
         },
         {
-          "author": "ayaan naveed malik",
-          "handle": "ayaannmalik",
-          "text": "(not so) hot take: a lot of the robotics startup “quadrants” are mostly investor taxonomy.\n\nfrom a modeling perspective, the endgame looks pretty similar: train a general model across tasks, environments, and embodiments at scale, then post-train it for the specific embodiment https://t.co/OriNNWufYu",
-          "url": "https://x.com/ayaannmalik/status/2107893777310396890",
-          "createdAt": "2026-10-07T18:00:13.000Z",
+          "author": "Artem Zholus",
+          "handle": "artemZholus",
+          "text": "You can now build a robotic scaling law with a cheap robot on 1 GPU. The recipe:\n\n1. Collect 30mins of demonstrations with SO-101\n2. Run inference with public RoboJEPA models (a few hours on 1 GPU).\n3. Fit the scaling law.\n\ndetails: https://t.co/Dk9zq7zN1k https://t.co/5pSZv3Np11 https://t.co/PgY02hCF1i",
+          "url": "https://x.com/artemZholus/status/2116043196975153254",
+          "createdAt": "2026-10-30T05:43:06.000Z",
           "tags": [
-            "funding"
+            "research"
           ],
           "metrics": {
-            "likes": 49,
+            "likes": 19,
             "retweets": 1,
             "replies": 3,
-            "quotes": 2
+            "quotes": 0
           },
-          "highEngagement": true
+          "highEngagement": false
         },
         {
-          "author": "ayaan naveed malik",
-          "handle": "ayaannmalik",
-          "text": "(not so) hot take: a lot of the robotics startup “quadrants” are mostly investor taxonomy.\n\nfrom a modeling perspective, the endgame looks pretty similar: train a general model across tasks, environments, and embodiments at scale, then post-train it for the specific embodiment https://t.co/OriNNWufYu",
-          "url": "https://x.com/ayaannmalik/status/2107893254549053927",
-          "createdAt": "2026-10-07T17:58:09.000Z",
+          "author": "Julia Kempe",
+          "handle": "KempeLab",
+          "text": "Very proud of our recently graduated group member Nikos @nikostsilivis for winning the G-Research PhD Prize Award for *Best Thesis in Machine Learning*!!! Congratuations, Nikos!\n@NYUDataScience",
+          "url": "https://x.com/KempeLab/status/2114631273822277864",
+          "createdAt": "2026-10-26T08:12:38.000Z",
           "tags": [
-            "funding"
+            "research"
           ],
           "metrics": {
-            "likes": 0,
+            "likes": 13,
             "retweets": 0,
             "replies": 0,
             "quotes": 0
@@ -606,27 +446,38 @@
       "34d3053f-381f-4350-9c9b-172e5d6a6b70",
       "da976389-9875-4eb6-b866-8097baed3178",
       "df8b17c5-97e6-49e7-abb9-c21a39e4162a",
-      "7d58ea84-fd76-4ac7-ad6e-1424f76c42f9",
       "0d7332d8-b8e7-40d3-89b6-dfc02b40bfa2",
-      "9f59ac61-f20b-4d33-9343-9603f693523f"
+      "9f59ac61-f20b-4d33-9343-9603f693523f",
+      "6f9b8424-f48d-4515-8ddc-3d99c0d2ddd1"
     ],
     "publicationKeys": [
+      "4236633c397e895b6bc0e3f22f44bcfbf0daf4a3",
+      "50e2faf1f8fcb438164baa7765f54e3a21a2649a",
+      "65431961fdd203c8b91c99ae94cea8c654d58172",
+      "19591bb8117dc4ad3c98bb21dde7b09111163eda",
+      "a133f958e29b04eeb8d61f814cf1c60f3f254c6b",
+      "5640528f5d1029420c0bd8bd7dbe4a779ca58d71",
+      "48cb3f3103251bf435a5664b848c182c4d1a980f",
+      "afccda846d7dbe8f1ba666043ef30586ace10557",
+      "e4262d7dfe590316c0ea9d45ead9998e20170f1e",
       "8451a69b7ff0c82cbc575bc86ce46f8af29d9fc6",
+      "31418efab6a8d389afed475d40b5618945c2853b",
       "8b39cf2adfbecf073108ad70a67b45c0fd6bef67",
       "1b793cc81165f84d9b3fdd10b43451761b12170f",
       "dd2746b870572a22c58e66b9c34606ee09c4d318",
-      "a62cfdeb7698a1294c4f8a11683634b2bb6d6801",
       "1db373b4b04de2a05cd8c1d942bd582e8ff22536",
-      "ea3e758eab2563e271e030baefaa82286f4f4823",
+      "a62cfdeb7698a1294c4f8a11683634b2bb6d6801",
       "cede64a707325324571bf783bbb20e45002c1bcb",
-      "59a8c68415fffc8cf2413bd4bbcfe55965bd4754",
+      "ea3e758eab2563e271e030baefaa82286f4f4823",
       "1cb318e4eee78c97d5ba10401b47f2d1ebc361ee",
+      "59a8c68415fffc8cf2413bd4bbcfe55965bd4754",
       "bf754770b2b52431faf2967aa9bfd6d51d349f8f",
       "2a545b668a1028328af0a546f67e4630542f75b5",
       "70d193672e658d3210942c731168b435786a521a",
       "fe07fb55b897fa343cf1ab6f4bdea46a1b047aaf",
       "4fa80977d52f72bd8e1bf88ff93398e96f3029d1",
       "34dac978ca1e5a5895734fdb083e0ad55bc27564",
+      "681c066e8a6bd7e3dec5ececfdb4cc67bfbabf9d",
       "d32a359821e772575e94cfe854b7c35ba63aeb00",
       "437cb869d42d536ad1b2f35399c99ab79ec65d5a",
       "302343f7676e209391f3d5e3409a1b157c9df45a",
@@ -640,11 +491,11 @@
       "41401cb47d98892ae37b7a12d2a125afea245e76",
       "4f890d8373b93892ce2a50d87415653fc225a5a8",
       "1231876b4c92c7a26d4e0cbea9cac388d6dafefb",
-      "d503a7f08b8333f96cb6298085b96cb87f3fea4c",
+      "e853967245079e097de13475b229d16988065719",
       "7d909170d91e1b35b4b9a8ac01731d7aed2cd53e",
+      "ce236392eec2ed9bedf4081038b1ab66f9fddeed",
       "1fd17e33165f4509a6e0b890ecb6483b9b7d844a",
       "ef00907321ce5dd241f55a24fcdf49267320dd09",
-      "e853967245079e097de13475b229d16988065719",
       "35f8de974adebb5e036af5f4524d8358ef1f0171",
       "6a2f658d6ea2d3a1f2d03b11d0cce65e9881bd96",
       "bbb2fba52c4d7d3b29f58a5e136d012acdc2010d",
@@ -655,7 +506,7 @@
       "69b2f3313b31ea5592f6242f2a517b84011f9f24",
       "e218c1a1fcba59c463082f9a1824ebeecae50f65",
       "19ce2437e3e3dea847158f697d7442bd5388df7b",
-      "3a638cbb42b5f388d57063059eaaae23d57b9b95",
+      "3686670d7e85083617d9fec8ee54ccfeca168c28",
       "8d00fe792435341ba46bd76adb34f891f46e6910",
       "225c1956cb19dabaa9ec35e9d951f683971c8349",
       "36863b6dd7968bca4efb3f6e93cf06cb84568f0f",
@@ -666,6 +517,7 @@
       "74122b34e76b9a6c7c209da10b6da00890710910",
       "101274838d26060ebdbed1949b7a7b82c23cd9c2",
       "1692a95688453760a46c2f073574bf8a6c45173d",
+      "a637fa6822d14a7c29071271b729cb5194161360",
       "7f012be3704ebd1ffaa7571f179368a7db8703f7",
       "e075577f6009b707439792696fd4f6a7ddc39145",
       "0b1fcfc3cf056b07c8860b5878cad1c06639d373",
@@ -684,16 +536,13 @@
       "4353f9b78c972e37273c1b77a440c3812215ca91",
       "42ca8bd0ae408eff0d3bd9f5e121f792876e83ea",
       "22cb569525194d67e964f61fa102506429cf85f4",
-      "23f953773609d673caf468aeea02da9c3f496592",
       "530dab86cb8034bc12a32d21508aaa3f2cc00aa1",
+      "23f953773609d673caf468aeea02da9c3f496592",
       "8c9ae85bb64e6e872094065cb9c062f051c2ad1a",
       "ad3040d17ed4b21c2c5f1b6a351e5ca5b56ea33c",
       "9b65331305dfab8d4f48da6854ee7673c8c6eb99",
-      "c3e09942658c43e607176e0b87192e91e15aeca1",
       "acb718a8659640ac1258d3bd391ddd9f1f2d7251",
       "c065b806555f74e4878ccbd695245d1b6534c16a",
-      "4fe6ee338373b796ed3b26cf6908c7db2ca56798",
-      "aef0d84ac46f451d8083a7ae7bbafdbdfdad97ca",
       "e685b1cf4404d66f8abae727583d8bf905eaebc5",
       "badf8adcf2b6a6780a308881de75f148a4cacea0",
       "7d77755819ac40a7e328e0f667c81e52c0dc525b",
@@ -706,14 +555,14 @@
       "7e65d820f13cf94be083495fd2c433c0886f5a9b",
       "0571686b5b6a838759a3219cd8e8684a1992c0aa",
       "6209c4ab686552f9d644f56ff962018a67978e27",
-      "307fd51e30ef676c96a065122e2a4fb8696cc3f8",
       "9ddc2b3cc7e2a165ada3ea880da3b7936c498122",
+      "307fd51e30ef676c96a065122e2a4fb8696cc3f8",
       "9d317102e82a43db4c461976c4ec914a1e423e90",
       "0b457a087fa7c01f37de67065be19f3aa8583aa8",
       "b8ed5bdadb1cd0fa2ccb329c135d5e57c3742de0",
       "f7cecd115a162e8b0324b3a70c61a0887e2c6192",
-      "ab95885caa31c40779131ec9c6fd3da49f901629",
       "711d95689035c3d9b2a8436878590047a91d5e87",
+      "ab95885caa31c40779131ec9c6fd3da49f901629",
       "28d1612b26e5e24af2647988e024fe3fb16420a4",
       "50509dcc04f3972ba0e10f4fe635aa92cbfac9fc",
       "35fc38884dacfaf54e87d739fdb4104bc49b63e5",
@@ -730,9 +579,9 @@
       "fe640b62d632a3332af1fd2e2966e566317cba41",
       "4046dc07138ea5f3e04d628866b6d902af308c7c",
       "4fb6af36c41fbf5f34be30b0112a139bc3e9ad72",
+      "6f24ecfb6232d6d239db8fa2f55dc71fcd6bfbda",
       "166b5a44f9a20dd8ab72add744712e2b4edf2ac4",
       "d5e99ee816c43d6ce262cd42fb00fe6c67646c09",
-      "6f24ecfb6232d6d239db8fa2f55dc71fcd6bfbda",
       "30db10654933c134dea70e3f43d89eef9053599d",
       "25adcd394d203051b18136fcbd4b409a3a8d47be",
       "2154ab7d1741e093df8ed0361f63f636185d213f",
@@ -764,8 +613,10 @@
       "c5c1eea3338ffaf46b548cd7e6678c2118393e47",
       "39d9c3f1cd4bd5069713e50dc7301570575fc055",
       "c70ea55cb8740b8260bca874d9f0921c6a8aa319",
-      "853e540102e92f8150e14be5f7daf943f0a88194",
       "d1a47b22d36c1747ec88686a0301626119ec83a4",
+      "751ef04264d661f6a59e49f3fbd181ac46ef5eed",
+      "a990b37c970a48b71533db1f49f51310a07755cb",
+      "853e540102e92f8150e14be5f7daf943f0a88194",
       "927498a8ccc57dc94e9654099c64d060aba5f4f8",
       "e73b7ee48a1b4375b4bb2fdaa0021df1b9c8d1a1",
       "235d09c83de3b9e36a5aba57e99e604e4336770a",
@@ -773,8 +624,6 @@
       "31256700f04eb7c2dbf7e9c50b39fc83f84cee79",
       "42793a3ad8f3d0ec9ad613417c1e7a2ed2999ece",
       "2268d5094a7baad2fb680584465c5584fb195587",
-      "751ef04264d661f6a59e49f3fbd181ac46ef5eed",
-      "a990b37c970a48b71533db1f49f51310a07755cb",
       "5d261402310229304989af0b4501b3e4b3df6491",
       "466e5de3b198c25211d5bd154beb8df6a86e2e60",
       "121d34fe66a35ef11e408de4119477971ee6e2cc",
@@ -794,8 +643,8 @@
       "24d9d00b91f99dde3c9a0ea5c79e63f2ed26151c",
       "97c44c9f6fa8da32dea71a7b593fe627a2e6748b",
       "ef03e180f8e0d46b9d5044a889103d8bb680e899",
-      "cce911c13b5f83db5a73252f78a4f82883e1ff5a",
       "3f3ae1e2a30297c0fcbc14b48aa0229ecf444341",
+      "cce911c13b5f83db5a73252f78a4f82883e1ff5a",
       "44c733e11c1de985f9cc31102a7e3d1a284421a2",
       "dc008a333ac4aaf69ca9715c05741de40b18630a",
       "682e200b367a63eb5444d5bb1e86eb797f5215ed",
@@ -820,8 +669,8 @@
       "ce414ee6bb8ad8f31d3dbce1748fccecbcc7c678",
       "b3bc3238dace58739b32a17cc55ba1428c0a62a0",
       "8632eafee313aabba4705703c7e99d81bea43b4f",
-      "7bb70c705fe877973650929afceb3d8c0dedce74",
       "d7630a918b68e6281318e0106dfe7bdacdb7161c",
+      "7bb70c705fe877973650929afceb3d8c0dedce74",
       "a99dee9602e21a71526b9681d8dba37c55b66941",
       "4e3d888abc01555feb92a60935c8e537abc4648a",
       "d12103f1ad109890c8b6dafdcc44b685a60e0fb1",
@@ -855,8 +704,8 @@
       "74abb1a62b70e7f9019c7209ea4e65b72867a574",
       "b0d3b4be56a559305328e176a1ccf3ba4be56850",
       "ac2d302e041b603bc972627c92e2fa8f14ba1ac3",
-      "7943ec4a67151a559b25cd34369e661c9a7924c8",
       "35fdb14f2b9ef61cc6876d33ec0f4ce6c20b0dc9",
+      "7943ec4a67151a559b25cd34369e661c9a7924c8",
       "b5c4c2f88fac2ca41854bbe8ae9740b9b03a0d3a",
       "dd1643f983aaa8b41a1bd41756d17c64a89a47be",
       "ed92a7be6b2acc36baf0ed43454a97dbade0c893",
@@ -865,14 +714,14 @@
       "5eb113b55526fd73249c47bfb544b9db959bdc22",
       "c4b1a89de59602a3a2728f2705be6dcd4bfaa77f",
       "a59f06bdda22df7474e93428239be38f2cdaf6ac",
-      "3ee7b090c1371801f5e7e7480d2282c1d87b7730",
       "61bfd967a6ba21e50276e52f353fa74dd68990a6",
+      "3ee7b090c1371801f5e7e7480d2282c1d87b7730",
       "9eb6cd5a12b37b717061f0060987492e82fecba6",
       "bb4616d5b5049aaade6b1f9a9c477086bb71c0ea",
       "f7135dca58bf8c6131ff2fbb708eac887a262640",
       "2df11afb0b0662a8a4c229a148b5664e20491c27",
-      "ed44571dd9de3654b84ee1fea63015ecb67e6e63",
       "1ac7fc5a55ce5843fb8a19d9f62b623e822bb7de",
+      "ed44571dd9de3654b84ee1fea63015ecb67e6e63",
       "6c6fc0bd6038eef6ecadb515f7597801b3938043",
       "87345019a78b98484a80efb031cb9d71a70c95c9",
       "881ebd6d94065e5157f2290009b147b87eaf4ec9",
@@ -888,10 +737,11 @@
       "2e230519ef242e592b3c19765639008c7046424f",
       "1d2af7a1415566e6251f1270428c15e75d0096a0",
       "c2278dd1325dbe58b5f281a0244eaf7024905063",
-      "a86fd3b9e30262095dfa4bb17c2fccbd819a9a63",
       "a9fd657b71bb70da7ae918537286e2d6b234714e",
       "d75e16896cc50b720cea864d50b3173a2d053524",
-      "155b480a52c1ef5bed03a2d1f78765767c0c5987",
+      "168eb6d00131b2b2718bbc6c227c7d40ffdfa929",
+      "fb48bffe6610ad544cb713af85b1579694dc4478",
+      "a86fd3b9e30262095dfa4bb17c2fccbd819a9a63",
       "444f39b9b3414003b39ee1c6da4141aae979e3de",
       "8a6580a0d894c05075fde1dbe3e1aede23d236f9",
       "b844ca1c019300e7c432b0474a968b53adc3e1e9",
@@ -900,8 +750,6 @@
       "670ffe4312a1c683f060ea31f00952d16f80c605",
       "8400b197d2647e79b4bf8cb8d020b90f6ddf7ca1",
       "66902fbf339ca56ba96e352e95c0ecf9faa29840",
-      "168eb6d00131b2b2718bbc6c227c7d40ffdfa929",
-      "fb48bffe6610ad544cb713af85b1579694dc4478",
       "94773f22b5befd0e167a7de525d29bec2b09937a",
       "5990dd4e00ab8d29d8942a953fa109716126b635",
       "b61163c25c99c9fb236ca9da20cbe5796f7140bb",
@@ -916,7 +764,6 @@
       "f2ade71bf8cfdef0ac82d50ad9e99b6bb8aa076a",
       "5b5601a55d0acb6a341149c22db982412082608c",
       "727262167f8fc61cce09f3a3ec602b0426e7db4d",
-      "dfe007b6fc8f97aebaf6000341a868c55225c777",
       "dc2108f1fc59c51179a5aaa11a826437a8214f5c",
       "f7749635a5fc0492ef4705bee963ffa887bb2865",
       "46b0d6d9ca06e844635de0139c09ef1dddcea014",
@@ -946,6 +793,7 @@
       "e8dd2e6a9f155fb17b153594f71deb91a29f5b07",
       "9f12a20f62238f5206520e52e83e2ccd1da17f03",
       "b0ada492ba48e85016cbbfd95ec7180fb7e79648",
+      "65f95ff2b1ca682f960c2e6edcd3fa281b831ee8",
       "0c08725a79cb5dbb1354793a287810646dbefe52",
       "534363ddcdddb15decdaf9f8e6c277545518f775",
       "9dad4d7c6da4f3bb56a24742998c76a2629ac9fd",
@@ -959,9 +807,9 @@
       "fa1e3a5c9f6e269d2a1ddbfe768a85b19ad94cf8",
       "47bb105aeade86fd82ae22573cb77709d42760a9",
       "2f5b235bc24565358fcee6c32b1a16e12f5548aa",
+      "7e88160ab2b3c9224ce0b9a66bec1740728984bf",
       "1e672bf4d38a93c4c140ee208216425444368fa6",
       "fc9994f5d0b966b16cbe61e6393b9f8be65bc416",
-      "7e88160ab2b3c9224ce0b9a66bec1740728984bf",
       "44ffd3cd333bb41b900926556edb1c452759c398",
       "698d454e4602442696c659520ac2de23f80fbd4f",
       "75974dcb2b3fdd3143e341227f2bc0f4047dbadb",
@@ -1003,11 +851,11 @@
       "aaaf02c44c94309ec476fc7d3df6b8acf6b7bb10",
       "811b2a0677fda94ec1bf655ff9d3958d62474139",
       "b555fbe8d4e30fc1312c615ab7dfe6ac030dbcff",
-      "70e96aa193f6d11661ddae6c3f8350831bd5965b",
       "d2b6db657204b8505ee6c7cf4833cb7811b6f162",
+      "942c856469a6feee06c6c90c1571d6f4d3ebc65b",
+      "70e96aa193f6d11661ddae6c3f8350831bd5965b",
       "eba383558d36e6cacb23b3f477a2125c4b7d5043",
       "81c03a26af98522bacd6cf566807fc08d596dada",
-      "942c856469a6feee06c6c90c1571d6f4d3ebc65b",
       "a24d6ccacda9b9dd62c66eb81cac000eae32dda2",
       "8a9b4df61a3099b33417d05fe37bba32def45b9a",
       "8f6f58da9011023c044a42bffa92310a5c55467c",
@@ -1017,23 +865,23 @@
       "d92c797f587ce7f1b001920ab9e6b7d31960bd77",
       "8e46321b0b717bb595a8ff23f7464fab5c313919",
       "49146ba6e2eac5eb854297db0fc4685656d0a9f4",
-      "ef060988cfb8e3f415c3227d80aa06e2e40619cc",
       "146748b26209afac66a3c0a52fea8b72065b2b2c",
+      "ef060988cfb8e3f415c3227d80aa06e2e40619cc",
       "d16feddfeca2617ca2127b7d134ceb78ce8a8b40",
       "487b7090af70989dde3a0e16bc5d014eb5dfd498",
       "5d3b032270276a0c17ef5fb76679291186dccdca",
-      "79bb31af3b7bf51569adde031ded4e832bc02d8d",
-      "e94804f8df0e5a3eff6f0a278606d60dcb767d56",
-      "5e833e3674fda71ac8544f052ae1c8501a52a10d",
       "5bccb4ffcd3ea8c5d5b25adeb15366cd9579aa34",
+      "79bb31af3b7bf51569adde031ded4e832bc02d8d",
+      "5e833e3674fda71ac8544f052ae1c8501a52a10d",
+      "e94804f8df0e5a3eff6f0a278606d60dcb767d56",
       "4f1408ca267763cb2d20e0141ac53a63d766e69e",
       "2aae2dd79ef30022da59d8c33f0b3afa55d9c20d",
       "22d31891ba36a02fcef6ba79f29e4f3ca9b783a0",
       "32dcd0887537cece54e214f531d2c384470b023f",
       "cbff55da4255cf523bf028e9faf8508f039a92e7",
       "6cb35dd6e1338faa0c3d6a6b0020bbcbcc18653d",
-      "9e00b821c5434e30e526e8b5cdefea77be3e6658",
       "1bdd5fc17cc580efe998304692639c57c857cc84",
+      "9e00b821c5434e30e526e8b5cdefea77be3e6658",
       "9b4f7c97c0b83a80c32bc0b93595cbcfb4ecb16d",
       "3db1219429c3f04e88347d41269bdc83c457fbf9",
       "8bd6a2a89503be083176f2cc26fabedb79238cbd",
@@ -1045,7 +893,6 @@
       "7e0b582f10af855c7a2e2a6320939bd7dd82ef62",
       "224671a281e5c9815df11035d732f165f98635a2",
       "5a9cb1b3dc4655218b3deeaf4a2417a9a8cd0891",
-      "7f82a6339a1302ecc84c5bad5528ca8a9a0582bf",
       "5367ca1c122a0806549e484fb488a977b4334777",
       "8f5eee0ab94a613cb30722e6573585e44cdd5aee",
       "d5076534b9fa8aaa70d12f14ed87d3d63fd6acaa",
@@ -1053,8 +900,8 @@
       "f5e1993f3f505e8fbb9cac9231285c8c9f1712a7",
       "154493f69d7db3d49da0e51df0192c6ad5f1724a",
       "c982c4e0b3c91c59f1ced11f984ac20dc12b3426",
-      "76f4416826b3393cf8f28ffd1a3191706d2b4286",
       "d5a952d3938e496af0ac67bc0e3d6a34f7040566",
+      "76f4416826b3393cf8f28ffd1a3191706d2b4286",
       "0d58f8732153fffb15c0c6ee6e01a448fbc16e98",
       "7ad573707c305ea41a21a1672ec4bba3afe40ca6",
       "10923e416d15ab36161f4ab9ad40aa15bb91f541",
@@ -1086,6 +933,7 @@
       "34feea048b3a7a8643f32ae37bc0dda2442d9459",
       "07dbbb95eff2640e07ade6e42e666c14ae5d1d19",
       "964bd39b546f0f6625ff3b9ef1083f797807ef2e",
+      "32de8d5e2c38506227300691ca07a56f640017fd",
       "d7d6701a0c6a252c950f1d046c277157da5a463d",
       "ac34ff3f547c942066ecc3b90f5db062a40432a8",
       "5e071a75a6906434daffe24f612fd291db4e1496",
@@ -1097,20 +945,18 @@
       "203a1c0e5025489a52c030adbbc102a787685ee6",
       "d730cf22de923601140c7c435ef915d398997388",
       "5ad26b8d3043578ede5625d40f877cf980023338",
+      "2b23a0e5c1709d4a82e1bd09a83e2cef83d8dfe8",
       "7cfbd36c0043098589cbaf18dca2b41d8dc24abe",
       "9c36c8f398a074801d6098287c4353bcf87a1d6c",
-      "2b23a0e5c1709d4a82e1bd09a83e2cef83d8dfe8",
       "fc721f4fd6260ed3b86c64eaa204375e18863aad",
-      "8be831a07abe8c5475c2bd91cc41bf4c1c2be771",
       "77d4100d6fe291352e705147467f9acb1e308c60",
+      "8be831a07abe8c5475c2bd91cc41bf4c1c2be771",
       "b16855a3338052be6202eeea3a18b5496a67cef2",
       "3aea4d8765e5677ce38d5d35b35b5ef82b7e5277",
       "0351a103915d2f10d1915b4892a988d9b15df406",
       "ea11c6ce8d3f091881c72a84672a3818e4e29a29",
       "127ebdb7b87fe5c8c8ff1bb9173584b75eec8f47",
       "b8d4beeb8df994db12688226cf2a619f1d633b72",
-      "b3b8c4b3c63486084c745da90693341ec2bc930f",
-      "c2156c76b102a15b2b83900cce21874026440119",
       "609ec8e18b8128e2474b5c96132b63105a5a5e73",
       "88eb2e8d2349b7c4939bec1ac58c2469b4a56c64",
       "6153e4a228e3aa353cc970a1d01872d030a04297",
@@ -1119,20 +965,19 @@
       "bb775023683e0909a47f680850bb04a8cabf962f",
       "e17d250eca28e6256a8f3b07442eb2b5ed3cabac",
       "47576b0eeff02623f7c1ce9bb987fcb781cf2a14",
-      "7e72ccb32491711fcf3b59ac77359a57c2ff52de",
-      "b65daf36711e458696e91613fd65ea35d09c85c8",
+      "4fca50ab80e278f7210b632e501e3616dd3eb2a1",
+      "405d7c584bbf743ee8da020646e555a3e2b95a3a",
       "9583c43171c2f4605790def9d54a488a0e250aa9",
-      "cf209f6cfa987e7b9320c24a8e9cb70bf39f31a7",
-      "e796eadea7ccf76934ff0c1f196600aa88b5f717",
+      "cbaeb612e208eac2723f6d7a3e7f66350c10c801",
       "0c00e81e73bdcfcad82ff3a11e66b48b5012e0f8",
       "f42cb48e487171e7408b9f2ebf2d7dd5b5a4d675",
-      "4fca50ab80e278f7210b632e501e3616dd3eb2a1",
-      "cbaeb612e208eac2723f6d7a3e7f66350c10c801",
+      "b65daf36711e458696e91613fd65ea35d09c85c8",
+      "cf209f6cfa987e7b9320c24a8e9cb70bf39f31a7",
+      "e796eadea7ccf76934ff0c1f196600aa88b5f717",
       "ae8598ad1b4a1828f9d4042b16c388565423542e",
       "3f60e8735f735cc84febde2340cb735e33fa1a76",
       "e3c598f5233d91f887edb626bb02ba86010a69c0",
       "c5f3e781e49937113d59f96ecf85482eb319458e",
-      "3915cf02d5419cf9a630e3fd7d5389cd24794244",
       "b616f427c041a2fc9da8e68b463df596ab1f547c",
       "d2b8e0e5964ed1da234c58fbf987f729f2be03cb",
       "0bbb60fd0fe2e0ffefacb16fc2c527cb2f01a71e",
@@ -1178,7 +1023,6 @@
       "10bd4160b44803ada6a3d2e366c44b7e2a4ffe90",
       "9291fab6800d152955c813331ef9465efad3d07f",
       "7d57c581e2c38dc23ed8256574575aaac8675810",
-      "6c1f449ef6d45116092d9c9370fd55a642a0902c",
       "4c188c99cb75e065e025a74e87a68dd0f3ff0f84",
       "99cafaec5f1936d388c23077872ac5589bbfca1d",
       "a01ac66f5f66a2b23152f631b920972e4407275c",
@@ -1189,18 +1033,18 @@
       "bfc3ed9955c5cd8676b2ec6a74cbc598ef5d751b",
       "c07b4f146416fab95548b42cf3d9acb482e1e5a5",
       "36d55c909e8c1be84f3a4f2631e3303ef5392fb0",
-      "4ea9b807600537af27fbb8409f5e541714030dfa",
       "0e9ac2cfc5a3ecb66eeace720901390f7809ba0a",
+      "4ea9b807600537af27fbb8409f5e541714030dfa",
       "fb04891d44f81cd3ae9e13886f0a8adaff3dd75c",
       "c4ec534bd46033b862f3b6746da4b185e2222d6f",
-      "2634d753899c065f412c9b299b432cbd5b601b32",
+      "b65bc8bd4e8900c38eb09bc1cbccea2499a86627",
       "9fc8cbfa2bacd9933f7f50460db1627faeaa1a4f",
+      "e4179bf0963012f9f13ce0ca61d3cdd12a87b336",
+      "2634d753899c065f412c9b299b432cbd5b601b32",
       "04f6c77abfa457d546f07c1fdc59d47241720591",
       "d5adb5323818b0f73403ab2509f5dea7e8e8401c",
-      "b65bc8bd4e8900c38eb09bc1cbccea2499a86627",
       "744702eddf5a0851e1f74af5525666109e730d53",
       "ff5f70c925be95dce6fb766a085beae66ab7fbbb",
-      "e4179bf0963012f9f13ce0ca61d3cdd12a87b336",
       "e491775da2a28dd522c3b441d6ab57ad86ef3a3d",
       "b2d009db853956292e9041a7d340435c8913e6fb",
       "d5d375628b5ed09a4e40c54eccdd1ae97a3a31fc",
@@ -1212,8 +1056,8 @@
       "90d1b79984a79a88dbd931a829029b171e57ca9e",
       "0d0cf5f64c052aa7edc5bb638203616a620557f6",
       "3253fcdd6ab3cb43f828ba9f08b974193ad1fe16",
-      "57119dde4f6c45b195d9768e00e441032da7a650",
       "cb1765d399b988ec5c3bfd0dd58df5c2f6c7d130",
+      "57119dde4f6c45b195d9768e00e441032da7a650",
       "c7dcdaafa2198b88854e364c4d7e6497a3a4f46c",
       "d616ec1fe4fa52627e6d57cffee126d8f58d25d8",
       "739ceacfafb1c4eaa17509351b647c773270b3ae",
@@ -1224,9 +1068,9 @@
       "1200ce0e0f604f742db6d7fb05c97a8efbc8a8d4",
       "6af5cdb1c6d54ed75a32353f3c31097eca6cb35e",
       "8424db67dc7fc95ffbf3f04d1bfac4c9ed09caed",
+      "737a9dbb44e4ff1525d6be30eecb977317d5793d",
       "63936fe9d0c6c7e87e1f939c926412349ced5716",
       "d232043934430b5cd674b77595d0d6b37211ea50",
-      "737a9dbb44e4ff1525d6be30eecb977317d5793d",
       "053b96e162724fa10d8639196a99856d60de5214",
       "e21cc9de85542465e0723f3f175c2938e4eed5b6",
       "926fe98caca0db9cef3d065f90b19ace24dedc76",
@@ -1244,17 +1088,17 @@
       "ccbd7f5f7aaa7a50e35ff3de41f718861de790c4",
       "a425c6d74273cb9d2ad958273429cd0e8b0f13ba",
       "448e077fc6cc9d05b5c1dffc9b02f12253273651",
-      "c0ef65fa2b6d1cc5a06f6f5e7f964964b1699630",
-      "96424fde14891eb15709fab65577b2b8b146c4ce",
       "fd986d9988067df491604b1ae8152ade9b624053",
-      "f488bd9e631caf8c5803a5bc52ab3a36dd8e803c",
+      "96424fde14891eb15709fab65577b2b8b146c4ce",
       "6eaf6ecc07862ed2339d43d93f1cc8fb127c4222",
+      "c0ef65fa2b6d1cc5a06f6f5e7f964964b1699630",
+      "f488bd9e631caf8c5803a5bc52ab3a36dd8e803c",
       "d686707aff5620e8788a63ba5cbb6aa100a34fdf",
       "22d40963e633e1b4af4a9fefda68e1b8dc96ba63",
       "41b063eb7e078479b267a4410b280dce753f4fab",
       "e97b7c5a7e25d53bfe3880a0f44b2e98e9eda4f5",
-      "02ebf1827a1cb08eea241e2fc80f8269f4d5a041",
       "5d25110b71e8f3ddb54aceabeb274dfc187c2991",
+      "02ebf1827a1cb08eea241e2fc80f8269f4d5a041",
       "2f67c5259b1c4bf82c82e312df33037d053c856a",
       "7689f638e7d48fb391dd579baf3e8e360a0fe578",
       "9f5526fe4553d61a6e093f8d32d0cc4e54c1abfe",
@@ -1271,8 +1115,8 @@
       "516511ea09ee736dced455253dfd961ab8d7d00f",
       "ab6d2e28f51012b1968b8b460624178d1cf47a5f",
       "6650e134c4b33a3b4ece379b03a30d444bbbccd7",
-      "9d01ca964043a52b265534e94abc37210a50cc5a",
       "add2f205338d70e10ce5e686df4a690e2851bdfc",
+      "9d01ca964043a52b265534e94abc37210a50cc5a",
       "648d2cd200584f790bd6d07ba875eabc21710d6d",
       "382985a1996a22221b4eb6178c55772bd4f740c2",
       "aa35ec679c4ef5007655be655b1cc57020a73314",
@@ -1281,8 +1125,8 @@
       "844c7955f70beee9b4ccf08d27f41cd873d2116d",
       "1a0d93034215411c8227dedaf5fa18d5929b448c",
       "1534d860ab98b64d23ffa741d0ae52b6cadbf503",
-      "e20848622d5145744127b82367f9b671c7ddb08e",
       "e61854de647b65e30510ad14726a798e818651d9",
+      "e20848622d5145744127b82367f9b671c7ddb08e",
       "bb797edf7556c57fe255d29a6c0647d6815f02b9",
       "f78f1e25a5a3dcb4745d31a27a15c87d246ec4c3",
       "51d4f2aec59da6d150932e03e7a45eac8c2945f8",
@@ -1290,14 +1134,15 @@
       "e12184b519c14d6964d1ab45ff13fd87f24891c5",
       "bfba23c642da07a0a82ffaa306f7707374383a7c",
       "862e96bd075ac44c9e4a172efd7a636fe9d03f83",
-      "e2bddea12e066b33b430a0414bf70f082572326e",
       "3b9728e8de5739d5dc62fe4576c3d4115070313a",
+      "11eda6e5876dbab49e15819f8796eff7c3b771d5",
+      "e2bddea12e066b33b430a0414bf70f082572326e",
       "9147121ab65d3ace2d32afe123500f1b4ee18edd",
       "c3801644100f6f7e521b3f28c2785a2d151988f4",
       "f3c7e853bb77d1ad360464aea81676cc9e3ca1fe",
       "511a22cfbb3ea1a3328f65f6549bbfe60d64c85d",
-      "794a1f2939e886a6c1ef7ef600ac43bc5414a416",
       "15a526d7d66dd7a08f6bec6aa9b39ffa6322a96e",
+      "794a1f2939e886a6c1ef7ef600ac43bc5414a416",
       "f374aa5ae8bcfb9fc1b36d1e546209f8c629b643",
       "d78af753319e673f393281ae17d63c0f2d0f35aa",
       "d6671a8f5c5ed906501f9c441fda64942a682800",
@@ -1319,7 +1164,6 @@
       "65d3e7fa7b452611aa729ac789d4373d6ee505b0",
       "b1d67fc92db00421840af6f157e2d9e67a7154db",
       "82ef41d2065e366ce1130d36b53881e06f1af2ed",
-      "b42c38975f3d3f8bfe4b0c1a6e576c3e297cec38",
       "45371436c11e5f6f42bb2b8524a1c663794ff1fe",
       "9bf53b5d0464a102bba4c653e43a897567368e17",
       "10bb4ef7a6719ea132e00f0ab5680919a4131d99",
@@ -1328,8 +1172,8 @@
       "9ed6f03f6822d3761da1a6811bfb54e28c919072",
       "d8c941f049a1850191c41ee5aa6ed2333d786334",
       "e17681fdc7de08e38c06a236507210116a7f46b6",
-      "4ff9176f02af3f66c4bbb0449ec1eb2d4a3a2d13",
       "42ed2b05e1fb2edb1c19b6ed398285c7644e80fb",
+      "4ff9176f02af3f66c4bbb0449ec1eb2d4a3a2d13",
       "36777066966899fb48c1850d5776af97f1c81942",
       "fb3affc0fcaa1d03a086efe5bead15017b7af63a",
       "8b6afef69b14b97a272c667b6b9004e441085c89",
@@ -1343,7 +1187,6 @@
       "4fa0d73b8ba114578744c2ebaf610d2ca9694f45",
       "815aa52cfc02961d82415f080384594639a21984",
       "bfdb693df3a04fa9645233c444ccd8ec16c6c477",
-      "b44af04a88739af6c452871cd9feed6eabe1d2d2",
       "b268a7ad9c9e83e9234beb1a37baf941c291036c",
       "f85ea632dc79e779a6a1b3170013288f55af0d52",
       "c6d78e818b0585144578d80b4d42585cd616709b",
@@ -1393,16 +1236,15 @@
       "34642631a6ef8130b98ce73e61298bb9c89b0c71",
       "43a6503308bc5c7156596c0246da39394b2eceb4",
       "551b369fd1e22ca354bb1d2a1853f79e20932e95",
-      "28dc53e76ede84d5c108752341c72519ef705405",
       "a91c6ad6d97d958cc0bccc11a4e02cf272cab25d",
       "6b2f415b612c59f4f1eed6445806aa6f5874137a",
       "8da0a421f8f7b3a6cff6d691a7f9f38dc25218eb",
       "cfee1826dd4743eab44c6e27a0cc5970effa4d80",
+      "28dc53e76ede84d5c108752341c72519ef705405",
       "470359a9416926371a7d1a104ca84e6eeef35def",
       "e6a7d7c83ca792aad31b43ffc216d07a748041fb",
       "8cb7405a75657fa6f5774066bcb1c76b436e0e59",
       "8a289c7171c78422726186339f1dd35726bfe3cc",
-      "147874c425fe8dd318d6678a36a8fd4a509afc80",
       "e737e82510e722a85551ea071e7c1631a6d280b8",
       "4e45ac10580841b22471dd37d45f478fdaa1efa0",
       "6f77dd79bbe56019aaabfc3619bb1a34bb0f8abd",
@@ -1423,103 +1265,89 @@
     "dessinKeys": []
   },
   "status": "ok",
-  "headline": "AMI + JEPA: a unified theory of world models, from robotics to finance",
-  "stateOfPlay": "There was substantial publishing activity this week as three interlocking papers on hierarchical planning, unstable-mode preservation, and multi-embodiment scaling, backed by GitHub activity and a wave of high-engagement social posts, all appeared. Together, they show the team believes it can extend, stack, and scale the JEPA framework to solve problems neither pure diffusion nor pure autoregression can. The launch of RoboJEPA was billed as the first scaling law for multiembodiment world models. That gives that thesis its most ambitious public test yet. Meanwhile, the quiet confirmation of a VP of Finance and the arrival of a founding self-supervised learning scientist signal that AMI is simultaneously hardening its organizational infrastructure.",
+  "headline": "JEPA convergence theory, LaLa-World, and a new world-model hire",
+  "stateOfPlay": "This week, several independent signals converged on the same point. A theoretically grounded proof that JEPA-style models learn convergent representations, a paper extending JEPA to language-conditioned latent world models across diverse data, a new member-of-technical-staff announcement specifically focused on world-model pre-training, and robotics tooling designed to make JEPA inference cheap and accessible. Taken together, these suggest that AMI is methodically closing the loop between theoretical foundations, scalable architecture, and practical deployment of world models. And it's doing so with increasing public confidence.",
   "threads": [
     {
-      "title": "JEPA goes hierarchical and robotic: AMI's architecture is being stress-tested at scale",
+      "title": "The Platonic Representation Hypothesis becomes a theorem. AMI claims the proof",
       "category": "research",
-      "narrative": "The most consequential cluster of work this week centers on pushing JEPA beyond its original single-timescale, single-embodiment form. H-JEPA's lead author is Wancong (Kevin) Zhang, a PhD student at NYU Courant, where Yann LeCun advises him. His research focuses on world models, planning, and representation learning, aiming to build agents that can learn from observation and interact with the world in an open-ended way. He became a Research Intern at AMI in May. The other four co-authors are Basile Terver, AMI Co-Founder Michael G. Rabbat, LeCun, and Randall Balestriero. That's notable for two reasons.\n\nFirst, all five authors identify themselves as researchers at Advanced Machine Intelligence. Until now, most research published by AMI team members had legacy ties to previous employers, such as Meta. Even if this is research rather than a product, it's pretty clearly tied to AMI. And second, this is the latest of several papers that identify Balestriero as an AMI researcher. The Brown professor hasn't publicly announced he's been hired, but his long-standing work with LeCun points in that direction.\n\nAs for the JEPA paper, it introduces a hierarchy of action-conditioned JEPAs where each level predicts farther ahead in its own learned latent space and passes subgoals down to the next level. The claimed result — lifting Visual AntMaze success from 18% to 73% with three levels — is the kind of jump that, if it holds up, reframes long-horizon planning as an architecture problem rather than a data problem. The paper and code dropped on 5 October, and Terver's GitHub activity on the `kevinghst/H-JEPA` repository — specifically the merging and deletion of `droid_v2` branches — suggests the team was integrating real-robot (DROID dataset) experiments up to the last moment before release.\n\nOn the same day, Artem Zholus launched RoboJEPA with a social post that earned 564 likes and 104 retweets — by far the week's highest-engagement item. The project, which scaled JEPA predictors to 8B parameters across multiple robot embodiments and claimed to establish scaling laws that correlate compute with planning performance, now has its own GitHub organization (`robojepa/robojepa.github.io`, created 7 October).\n\nA third paper, 'Preserving Unstable Modes Through Inverse Dynamics in JEPA World Models', provides theoretical grounding for why naive next-step JEPA prediction fails for robotic control and how inverse dynamics can fix it. Together, these three works read as a deliberate package: theory (unstable modes), architecture (H-JEPA), and scale (RoboJEPA) — each paper answering a question the others raise.",
+      "narrative": "The most significant signal of the week came from Randall Balestriero and Yann LeCun in their new paper: \"Proving and Improving the Platonic Representation Hypothesis with JEPA.\" This refers to the conjecture that separately trained models converge on the same underlying representation of reality. It has been elevated from empirical observation to formal theorem for JEPA models. An X post by Balestriero states that JEPAs trained independently on any modalities \"provably learn the same representation up to one rotation,\" and backs the claim with a striking empirical demonstration: a 109M-parameter JEPA-Text model aligns with vision models better than 72B-parameter language models. That last figure is a practical argument that JEPA's architectural inductive biases produce more aligned representations per parameter than autoregressive scaling. With 832 likes and 145 retweets, it is the team's highest-engagement post this week by a significant margin.\n\nThis matters for AMI's broader agenda because the theoretical grounding transforms JEPA from a design choice into a principled claim. If the convergence result holds under scrutiny, it provides a foundation for arguing that JEPA-style world models are not merely one approach among many but a uniquely well-motivated architecture for building models that understand the structure of the world. The paper arrives in the same week as LaLa-World and the world-model hire, suggesting the team is deliberately assembling a coherent narrative around this architecture. In addition, it is notable that the paper identifies Balestriero as a member of AMI Labs, though his role has not been officially announced.",
       "evidence": [
         {
-          "label": "H-JEPA paper",
-          "url": "https://www.semanticscholar.org/paper/1b793cc81165f84d9b3fdd10b43451761b12170f"
+          "label": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+          "url": "https://www.alphaxiv.org/abs/2610.39302"
         },
         {
-          "label": "Preserving Unstable Modes paper",
-          "url": "https://www.semanticscholar.org/paper/8b39cf2adfbecf073108ad70a67b45c0fd6bef67"
-        },
-        {
-          "label": "RoboJEPA launch post",
-          "url": "https://x.com/artemZholus/status/2108983104178213096"
-        },
-        {
-          "label": "H-JEPA repo (Terver activity)",
-          "url": "https://github.com/kevinghst/H-JEPA"
-        },
-        {
-          "label": "RoboJEPA GitHub",
-          "url": "https://github.com/robojepa/robojepa.github.io"
-        },
-        {
-          "label": "H-JEPA social announcement",
-          "url": "https://x.com/randall_balestr/status/2107479655150436504"
+          "label": "Balestriero/LeCun post on JEPA convergence theorem",
+          "url": "https://x.com/randall_balestr/status/2116173210148601966"
         }
       ]
     },
     {
-      "title": "JEPA's surface area is expanding — finance and autonomous driving are now on the map",
+      "title": "LaLa-World closes the gap between JEPA theory and scalable world-model practice",
       "category": "research",
-      "narrative": "Two papers this week extend the JEPA family into domains that have nothing to do with laboratory robotics. Randall Balestriero's NeurIPS-accepted 'Towards Financial World Modeling' applies JEPA-style reasoning to financial time series — noisy, non-stationary data with no ground-truth state — and the post announcing it (185 likes) frames LeJEPA as a practical investment tool. This is a deliberate provocation: applying a world-model framework designed for physical prediction to market dynamics claims the framework's generality, not just a quirky application. Separately, 'AD-E2E-JEPA' benchmarks existing JEPA world models (LeWM, DINO-WM, JEPA-WM) for end-to-end autonomous driving, identifies gaps, and proposes a SIGReg-regularised improvement. That paper lands alongside Balestriero's repeated public endorsements of SIGReg as the key stabilizer for end-to-end JEPA training.\n\nThe pattern here is strategic domain expansion through the same architectural lens. AMI is not building separate models for robotics, finance, and driving — it is arguing that one framework, properly extended, covers all of them. Whether that argument is borne out empirically is a question the coming months will answer, but the positioning is clear and deliberate.",
+      "narrative": "Lucas Maes's LaLa-World paper, published October 20th, is the other most technically concrete expression of AMI's world-model direction in this week's publication batch. The paper proposes a JEPA-style latent world model that learns across simulation, robot trajectories, and general image-video data by adopting the language-conditioned interface familiar from video generation models — describing both numerical actions and visual changes in natural language. The result is a single model that can plan by imagining in latent space and be fine-tuned downstream for policy learning. This is exactly the kind of general-purpose, data-efficient world model that AMI's founding agenda points toward: not a specialist simulator, but a model that absorbs diverse experience through a unified interface.\n\nA second paper reinforces the same week's theme from a complementary angle. Pascale Fung's ConfigWM introduces configurable perception for world models — encoders that adapt to filter task-irrelevant noise rather than passively encoding everything. Together, LaLa-World and ConfigWM suggest the team is tackling the world-model problem from both ends: scaling the latent prediction architecture across data sources on one side, and making the perceptual front end more robust and task-aware on the other. Neither paper has yet accumulated citations, but their simultaneous appearance alongside the theoretical convergence result suggests coordinated release rather than coincidence.",
       "evidence": [
         {
-          "label": "Financial World Modeling post",
-          "url": "https://x.com/randall_balestr/status/2108272405236097449"
+          "label": "LaLa-World paper",
+          "url": "https://www.semanticscholar.org/paper/19591bb8117dc4ad3c98bb21dde7b09111163eda"
         },
         {
-          "label": "AD-E2E-JEPA paper",
-          "url": "https://www.semanticscholar.org/paper/1cb318e4eee78c97d5ba10401b47f2d1ebc361ee"
-        },
-        {
-          "label": "SIGReg endorsement post",
-          "url": "https://x.com/randall_balestr/status/2108648827280666718"
+          "label": "ConfigWM paper",
+          "url": "https://www.semanticscholar.org/paper/a133f958e29b04eeb8d61f814cf1c60f3f254c6b"
         }
       ]
     },
     {
-      "title": "A VP of Finance and a founding SSL scientist",
+      "title": "A new world-model hire and cheap RoboJEPA inference signal a push toward accessible deployment",
       "category": "hiring",
-      "narrative": "Two personnel confirmations this week sit at opposite ends of AMI's organizational stack, and together they suggest a company moving from founding-team mode to structured institution. Mahmoud Assran joins as a founding scientist and member of technical staff in Montreal, focused on self-supervised learning and world models — exactly the research core that underpins every JEPA paper released this week. His arrival in Montreal also extends AMI's footprint toward Meta's FAIR Montreal hub, from which LeCun has long drawn collaborators.\n\nMore telling in institutional terms is the formalization of Chloe Giraut-Pierron as VP of Finance. She has actually been at AMI since November 2025, previously listed as director general, but her LinkedIn update to VP of Finance this week reflects a deliberate re-titling that points to growing financial complexity — the kind that requires a named executive rather than a founding generalist. Her background at Pigment, Qonto, and Stratumn maps onto exactly the fintech-adjacent financial operations infrastructure a scaling AI startup needs. Pascale Fung's public statement that AMI's mission 'goes beyond commercial success' reads, in this context, as a counterweight: a signal to the research community that the institutional build-out does not mean the science is being subordinated.",
+      "narrative": "Junlin Han announced this week that he joined AMI Labs roughly a month ago as a Member of Technical Staff, explicitly working on \"world model pre-training and capability emergence.\" The phrasing is deliberate and telling: not robotics, not vision, but world model pre-training as the primary frame — with capability emergence as the target phenomenon to study. His description of the moment as one to \"build AI for the real world with a scaling mindset\" reinforces AMI's positioning that JEPA-style world models are the right substrate for scaling, not transformer language models.\n\nAlongside this, Artem Zholus posted a practical demonstration showing that RoboJEPA inference — the public robotics world-model — can now be run on a single consumer GPU after 30 minutes of robot demonstrations, enabling researchers to fit their own scaling laws cheaply. This is a meaningful accessibility signal: AMI is not just publishing world-model research; it is building the tooling and lowering the barrier for external researchers to validate and extend it. That combination — theoretical proof, new architecture papers, a targeted hire, and cheap public inference — points to a team that is not hedging across paradigms but consolidating deliberately around a single bet.",
       "evidence": [
         {
-          "label": "Mahmoud Assran hire",
-          "url": "https://ami.frenchtechjournal.com/team/mahmoud-assran"
+          "label": "Junlin Han joining AMI Labs post",
+          "url": "https://x.com/han_junlin/status/2116597704113750203"
         },
         {
-          "label": "Chloe Giraut-Pierron hire",
-          "url": "https://ami.frenchtechjournal.com/team/chloe-giraut-pierron"
+          "label": "Artem Zholus on RoboJEPA single-GPU inference",
+          "url": "https://x.com/artemZholus/status/2116043196975153254"
         },
         {
-          "label": "Pascale Fung on AMI's mission",
-          "url": "/news/pascale-fung-ami-s-mission-goes-beyond-commercial-success"
+          "label": "Artem Zholus, Member of Technical Staff",
+          "url": "https://ami.frenchtechjournal.com/team/artem-zholus"
         }
       ]
     }
   ],
   "signals": [
     {
-      "text": "Jiatao Gu's 'Lattice of Transition Laws' (published 8 October) proposes a unified theoretical framework treating diffusion, autoregression, and hybrid models as paths on a single corruption lattice — a design principle for decoding schedules that could inform AMI's own generative modeling work, particularly given Gu's NeurIPS acceptances for STARFlow2 and NTM announced the same week.",
+      "text": "Jiatao Gu announced ProgramLab, a benchmark of 1,261 real-world programs for agents to rebuild through trial-and-error RL, from CLI tools to 100K+ line projects. Paired with his RoboReason paper on scalable VLM training data for robotics, Gu is building out both the agentic coding and robot reasoning sides of AMI's applied agenda in parallel.",
       "category": "research",
-      "url": "https://www.semanticscholar.org/paper/8451a69b7ff0c82cbc575bc86ce46f8af29d9fc6",
-      "linkLabel": "Lattice of Transition Laws"
+      "url": "https://x.com/thoma_gu/status/2115545707717517341",
+      "linkLabel": "ProgramLab announcement"
     },
     {
-      "text": "Ayaan Malik's post arguing that robotics startup 'quadrants' are investor taxonomy and that the real endgame is a single general model trained across embodiments and post-trained for specifics maps precisely onto the RoboJEPA thesis — and suggests the team is positioning AMI's approach as the technically correct answer to a question the VC community is framing incorrectly.",
+      "text": "Quentin Le Lidec opened and merged a fix to the coal collision-library this week, maintaining AMI's quiet but consistent contribution to the open-source robotics physics stack that underpins differentiable simulation work.",
       "category": "research",
-      "url": "https://x.com/ayaannmalik/status/2107893777310396890",
-      "linkLabel": "Tweet"
+      "url": "https://github.com/coal-library/coal",
+      "linkLabel": "coal PR"
+    },
+    {
+      "text": "Tengyu Ma is listed as a team author on Muse Glimmer 30B, an open-source on-device agentic model purpose-built for autonomous tasks on consumer hardware, with 2 citations already. The model's emphasis on local inference without cloud infrastructure aligns with AMI's stated interest in edge-capable, efficient architectures.",
+      "category": "research",
+      "url": "https://www.semanticscholar.org/paper/5640528f5d1029420c0bd8bd7dbe4a779ca58d71",
+      "linkLabel": "Muse Glimmer paper"
     }
   ],
-  "whatToWatch": "The RoboJEPA scaling-law claim is the most exposed bet AMI has made publicly — independent replication attempts will likely follow within weeks, and the community's verdict will shape how seriously the multiembodiment world-model framing is taken. Watch also for whether the AD-E2E-JEPA autonomous driving work attracts industry collaboration, and whether the VP of Finance re-titling precedes any announced financing round.",
+  "whatToWatch": "The JEPA convergence theorem is the claim most likely to generate external scrutiny in the coming weeks — watch for responses from the broader research community that either validate or contest the formal result, as the outcome will significantly shape how AMI's theoretical foundations are received. Simultaneously, LaLa-World's practical results on cross-domain world-model learning have not yet been independently reproduced; citation uptake and follow-on work will be the first signal of whether the approach generalizes as claimed. If Junlin Han's work on capability emergence produces a preprint in the near term, it may be the clearest window yet into what AMI believes world-model scaling actually unlocks.",
   "whatToWatchLinks": [
     {
-      "url": "https://x.com/artemZholus/status/2108983104178213096",
-      "linkLabel": "RoboJEPA launch"
+      "url": "https://www.semanticscholar.org/paper/19591bb8117dc4ad3c98bb21dde7b09111163eda",
+      "linkLabel": "LaLa-World"
     },
     {
-      "url": "https://ami.frenchtechjournal.com/team/chloe-giraut-pierron",
-      "linkLabel": "VP Finance confirmation"
+      "url": "https://x.com/randall_balestr/status/2116173210148601966",
+      "linkLabel": "JEPA theorem post"
     }
   ],
-  "publishedAt": "2026-10-12T12:45:55.447Z"
+  "publishedAt": "2026-11-02T11:56:03.044Z"
 }
