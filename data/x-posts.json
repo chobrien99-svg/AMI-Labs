@@ -1,9 +1,115 @@
 {
-  "lastChecked": "2026-11-02T13:13:28.190Z",
-  "lastSeenId": "2116597704113750203",
-  "lastSeenAt": "2026-10-31T18:26:31.000Z",
+  "lastChecked": "2026-11-03T12:39:28.478Z",
+  "lastSeenId": "2117519708807434331",
+  "lastSeenAt": "2026-11-03T07:30:14.000Z",
   "listId": "2068355339636887579",
   "posts": [
+    {
+      "id": "2117519708807434331",
+      "authorId": "1537295545189793793",
+      "authorUsername": "__JohnNguyen__",
+      "authorSlug": "john-nguyen",
+      "authorName": "John Nguyen",
+      "createdAt": "2026-11-03T07:30:14.000Z",
+      "text": "federated learning is so back! https://t.co/61cS7am90G",
+      "url": "https://x.com/__JohnNguyen__/status/2117519708807434331",
+      "isQuote": true,
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "engagementScore": 0,
+      "highEngagement": false,
+      "tags": [],
+      "urls": [
+        "https://twitter.com/_arohan_/status/2117286512417181813"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2117373847322480770",
+      "authorId": "1046196929124814848",
+      "authorUsername": "_rohitgirdhar_",
+      "authorSlug": null,
+      "authorName": "Rohit Girdhar",
+      "createdAt": "2026-11-02T21:50:38.000Z",
+      "text": "Very cool! Reminds me of back in the day when we were using diffusion models to generate model weights (eg https://t.co/cUpfI0yjPg) https://t.co/zJkc1xXcal",
+      "url": "https://x.com/_rohitgirdhar_/status/2117373847322480770",
+      "isQuote": true,
+      "metrics": {
+        "likes": 19,
+        "retweets": 0,
+        "replies": 3,
+        "quotes": 1
+      },
+      "engagementScore": 21,
+      "highEngagement": false,
+      "tags": [],
+      "urls": [
+        "https://arxiv.org/abs/2209.12892",
+        "https://twitter.com/rikiyatakehi/status/2117313742891327994"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2117326982090310030",
+      "authorId": "1246070462679040000",
+      "authorUsername": "randall_balestr",
+      "authorSlug": null,
+      "authorName": "Randall Balestriero",
+      "createdAt": "2026-11-02T18:44:25.000Z",
+      "text": "Another example that we should spend more time thinking about improving pretraining losses rather than just searching for more data/gpus!\nSIGReg is not the final answer, but certainly a good first step in that direction!\nTry it out, checkpoint is available! https://t.co/mCuGfGeIr6",
+      "url": "https://x.com/randall_balestr/status/2117326982090310030",
+      "isQuote": true,
+      "metrics": {
+        "likes": 227,
+        "retweets": 14,
+        "replies": 5,
+        "quotes": 0
+      },
+      "engagementScore": 255,
+      "highEngagement": true,
+      "tags": [],
+      "urls": [
+        "https://twitter.com/lukaskuhn77/status/2117323261465735320"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2117301273225466100",
+      "authorId": "1782793458027036672",
+      "authorUsername": "KempeLab",
+      "authorSlug": "julia-kempe",
+      "authorName": "Julia Kempe",
+      "createdAt": "2026-11-02T17:02:15.000Z",
+      "text": "Our \"Bitter Lesson Paper\" - h1 - is finally out on arXiv.\nhttps://t.co/nF415h3vSR\nHere is an excellent account by @SkanderMoalla on how this research came about. TL;DR: \n- we tried to study a (slightly) fancy idea to scale at test time (asymmetric self-play)\n- each time we https://t.co/dFDtZJ3Vks",
+      "url": "https://x.com/KempeLab/status/2117301273225466100",
+      "isQuote": true,
+      "metrics": {
+        "likes": 63,
+        "retweets": 9,
+        "replies": 2,
+        "quotes": 0
+      },
+      "engagementScore": 81,
+      "highEngagement": true,
+      "tags": [
+        "research"
+      ],
+      "urls": [
+        "https://arxiv.org/abs/2610.35962",
+        "https://twitter.com/SkanderMoalla/status/2117284434453946743"
+      ],
+      "hashtags": [],
+      "mentions": [
+        "SkanderMoalla"
+      ]
+    },
     {
       "id": "2116597704113750203",
       "authorId": "1285832206896619525",
@@ -2619,34 +2725,6 @@
       "tags": [],
       "urls": [
         "https://twitter.com/openai/status/2097374640582668336"
-      ],
-      "hashtags": [],
-      "mentions": []
-    },
-    {
-      "id": "2095648061338865928",
-      "authorId": "1720741438240292864",
-      "authorUsername": "ayaannmalik",
-      "authorSlug": null,
-      "authorName": "ayaan naveed malik",
-      "createdAt": "2026-09-03T23:00:07.000Z",
-      "text": "high signal launch days: then vs now https://t.co/0LWyPfK1jf",
-      "url": "https://x.com/ayaannmalik/status/2095648061338865928",
-      "isQuote": false,
-      "metrics": {
-        "likes": 2,
-        "retweets": 0,
-        "replies": 0,
-        "quotes": 0
-      },
-      "engagementScore": 2,
-      "highEngagement": false,
-      "tags": [
-        "product"
-      ],
-      "urls": [
-        "https://x.com/ayaannmalik/status/2095648061338865928/photo/1",
-        "https://x.com/ayaannmalik/status/2095648061338865928/photo/1"
       ],
       "hashtags": [],
       "mentions": []
