@@ -1,9 +1,264 @@
 {
-  "lastChecked": "2026-11-04T12:49:22.251Z",
-  "lastSeenId": "2117792254693925001",
-  "lastSeenAt": "2026-11-04T01:33:14.000Z",
+  "lastChecked": "2026-11-05T12:57:57.092Z",
+  "lastSeenId": "2118248494444183726",
+  "lastSeenAt": "2026-11-05T07:46:10.000Z",
   "listId": "2068355339636887579",
   "posts": [
+    {
+      "id": "2118248494444183726",
+      "authorId": "1355714771312472065",
+      "authorUsername": "Brian_Bo_Li",
+      "authorSlug": "brian-li",
+      "authorName": "Brian Li",
+      "createdAt": "2026-11-05T07:46:10.000Z",
+      "text": "This matters for multimodal pretraining.\n\nImage-text data is much smaller than text and usually repeated over several epochs, so vocab choices that look fine on unique text can overfit fast there.\n\nhttps://t.co/Kr0q290xT9",
+      "url": "https://x.com/Brian_Bo_Li/status/2118248494444183726",
+      "isQuote": true,
+      "metrics": {
+        "likes": 11,
+        "retweets": 0,
+        "replies": 2,
+        "quotes": 0
+      },
+      "engagementScore": 11,
+      "highEngagement": false,
+      "tags": [],
+      "urls": [
+        "https://x.com/SihanXuOfficial/status/2117714126621315110"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2118179703525969990",
+      "authorId": "1355714771312472065",
+      "authorUsername": "Brian_Bo_Li",
+      "authorSlug": "brian-li",
+      "authorName": "Brian Li",
+      "createdAt": "2026-11-05T03:12:49.000Z",
+      "text": "The headline on this Weight-Space Programming post is stronger than what the experiment actually shows.\n\nOn benchmraks, MATH-500 jumps from 7.9% to 48.1%, but the share of answers hitting the 32k token limit falls from 93% to 33%. On Gemma 3 270M, which rarely loops, the same https://t.co/hsLxVjEaGL",
+      "url": "https://x.com/Brian_Bo_Li/status/2118179703525969990",
+      "isQuote": true,
+      "metrics": {
+        "likes": 13,
+        "retweets": 2,
+        "replies": 2,
+        "quotes": 0
+      },
+      "engagementScore": 17,
+      "highEngagement": false,
+      "tags": [],
+      "urls": [
+        "https://x.com/rikiyatakehi/status/2117313742891327994"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2118177184162758848",
+      "authorId": "1355714771312472065",
+      "authorUsername": "Brian_Bo_Li",
+      "authorSlug": "brian-li",
+      "authorName": "Brian Li",
+      "createdAt": "2026-11-05T03:02:49.000Z",
+      "text": "The RAM memes this week are wild, but under the joke there is a real feeling.\n\nI do want the world to have more memory. I also want researchers to keep owning a machine they can actually think with.\n\nhttps://t.co/mF2zvHVbdM https://t.co/sWj1GKDzNf",
+      "url": "https://x.com/Brian_Bo_Li/status/2118177184162758848",
+      "isQuote": true,
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "engagementScore": 1,
+      "highEngagement": false,
+      "tags": [
+        "research"
+      ],
+      "urls": [
+        "https://x.com/karankendre/status/2116787750678745490",
+        "https://twitter.com/karankendre/status/2116787750678745490"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2118177129292824666",
+      "authorId": "1355714771312472065",
+      "authorUsername": "Brian_Bo_Li",
+      "authorSlug": "brian-li",
+      "authorName": "Brian Li",
+      "createdAt": "2026-11-05T03:02:36.000Z",
+      "text": "The RAM memes this week are wild, but under the joke there is a real research feeling.\n\nI do want the world to have more memory. I also want researchers to keep owning a machine they can actually think with.\n\nhttps://t.co/mF2zvHVbdM",
+      "url": "https://x.com/Brian_Bo_Li/status/2118177129292824666",
+      "isQuote": true,
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "engagementScore": 0,
+      "highEngagement": false,
+      "tags": [
+        "research"
+      ],
+      "urls": [
+        "https://x.com/karankendre/status/2116787750678745490"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2118049556898467850",
+      "authorId": "1355714771312472065",
+      "authorUsername": "Brian_Bo_Li",
+      "authorSlug": "brian-li",
+      "authorName": "Brian Li",
+      "createdAt": "2026-11-04T18:35:40.000Z",
+      "text": "I think there's an important condition underlying all of this. As in the NTU talk, working on large-scale LLMs today has become a highly industrialized endeavor, with increasingly standardized approaches and much of the work centered around scaling and execution.\n\n1/ Most https://t.co/tALuACiID4",
+      "url": "https://x.com/Brian_Bo_Li/status/2118049556898467850",
+      "isQuote": true,
+      "metrics": {
+        "likes": 19,
+        "retweets": 3,
+        "replies": 0,
+        "quotes": 0
+      },
+      "engagementScore": 25,
+      "highEngagement": false,
+      "tags": [],
+      "urls": [
+        "https://twitter.com/KayodeMusings/status/2117992435607306391"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2118047480416023025",
+      "authorId": "1355714771312472065",
+      "authorUsername": "Brian_Bo_Li",
+      "authorSlug": "brian-li",
+      "authorName": "Brian Li",
+      "createdAt": "2026-11-04T18:27:25.000Z",
+      "text": "I think there's an important condition underlying all of this. As in the NTU talk, working on large-scale LLMs today has become a highly industrialized endeavor, with increasingly standardized approaches and much of the work centered around scaling and execution.\n\n1/ Most https://t.co/tALuACiID4",
+      "url": "https://x.com/Brian_Bo_Li/status/2118047480416023025",
+      "isQuote": true,
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "engagementScore": 0,
+      "highEngagement": false,
+      "tags": [],
+      "urls": [
+        "https://twitter.com/KayodeMusings/status/2117992435607306391"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2118046515759579595",
+      "authorId": "1355714771312472065",
+      "authorUsername": "Brian_Bo_Li",
+      "authorSlug": "brian-li",
+      "authorName": "Brian Li",
+      "createdAt": "2026-11-04T18:23:35.000Z",
+      "text": "I think there's an important condition underlying all of this. As in the NTU talk, working on large-scale LLMs today has become a highly industrialized endeavor, with increasingly standardized approaches and much of the work centered around scaling and execution.\n\n1/ Most https://t.co/tALuACiID4",
+      "url": "https://x.com/Brian_Bo_Li/status/2118046515759579595",
+      "isQuote": true,
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "engagementScore": 1,
+      "highEngagement": false,
+      "tags": [],
+      "urls": [
+        "https://twitter.com/KayodeMusings/status/2117992435607306391"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2118046255373066494",
+      "authorId": "1355714771312472065",
+      "authorUsername": "Brian_Bo_Li",
+      "authorSlug": "brian-li",
+      "authorName": "Brian Li",
+      "createdAt": "2026-11-04T18:22:33.000Z",
+      "text": "I think there's an important condition underlying all of this. As in the NTU talk, working on large-scale LLMs today has become a highly industrialized endeavor, with increasingly standardized approaches and much of the work centered around scaling and execution.\n\n1/ Most https://t.co/tALuACiID4",
+      "url": "https://x.com/Brian_Bo_Li/status/2118046255373066494",
+      "isQuote": true,
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "engagementScore": 0,
+      "highEngagement": false,
+      "tags": [],
+      "urls": [
+        "https://twitter.com/KayodeMusings/status/2117992435607306391"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2118045431217492376",
+      "authorId": "1355714771312472065",
+      "authorUsername": "Brian_Bo_Li",
+      "authorSlug": "brian-li",
+      "authorName": "Brian Li",
+      "createdAt": "2026-11-04T18:19:16.000Z",
+      "text": "I think there's an important condition underlying all of this. As in the NTU talk, working on large-scale LLMs today has become a highly industrialized endeavor, with increasingly standardized approaches and much of the work centered around scaling and execution.\n\n1/ Most https://t.co/tALuACiID4",
+      "url": "https://x.com/Brian_Bo_Li/status/2118045431217492376",
+      "isQuote": true,
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "engagementScore": 0,
+      "highEngagement": false,
+      "tags": [],
+      "urls": [
+        "https://twitter.com/KayodeMusings/status/2117992435607306391"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
+    {
+      "id": "2118044347409236479",
+      "authorId": "1355714771312472065",
+      "authorUsername": "Brian_Bo_Li",
+      "authorSlug": "brian-li",
+      "authorName": "Brian Li",
+      "createdAt": "2026-11-04T18:14:58.000Z",
+      "text": "I think there’s an important condition behind. If you listen to the NTU talk: working on large-scale LLMs today has become a highly industrialized endeavor, with well-established approaches and a lot of work focused on scaling and execution. \n\n1/ Most students don’t get the https://t.co/tALuACiID4",
+      "url": "https://x.com/Brian_Bo_Li/status/2118044347409236479",
+      "isQuote": true,
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "engagementScore": 0,
+      "highEngagement": false,
+      "tags": [],
+      "urls": [
+        "https://twitter.com/KayodeMusings/status/2117992435607306391"
+      ],
+      "hashtags": [],
+      "mentions": []
+    },
     {
       "id": "2117792254693925001",
       "authorId": "1355714771312472065",
