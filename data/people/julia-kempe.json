@@ -40,6 +40,32 @@
   ],
   "papers": [
     {
+      "paperId": "a832668668cd74b803094718563b7c27df91934f",
+      "title": "h1: A Taste of the Bitter Lesson in Automated Theorem Proving",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/a832668668cd74b803094718563b7c27df91934f",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Skander Moalla"
+        },
+        {
+          "slug": null,
+          "name": "A. Rammal"
+        },
+        {
+          "slug": null,
+          "name": "Niket Patel"
+        },
+        {
+          "slug": null,
+          "name": "Rémi Munos"
+        }
+      ]
+    },
+    {
       "paperId": "fe07fb55b897fa343cf1ab6f4bdea46a1b047aaf",
       "title": "Learning to Discover Interesting Mathematics",
       "year": 2026,
@@ -409,37 +435,37 @@
     {
       "title": "Outcome-based Exploration for LLM Reasoning",
       "year": 2025,
-      "citationCount": 84,
+      "citationCount": 97,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2509.06941"
     },
     {
       "title": "Teaching Models to Teach Themselves: Reasoning at the Edge of Learnability",
       "year": 2026,
-      "citationCount": 20,
+      "citationCount": 25,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.18778"
     },
     {
       "title": "Soft Tokens, Hard Truths",
       "year": 2025,
-      "citationCount": 20,
+      "citationCount": 25,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2509.19170"
     },
     {
-      "title": "Formalization of De Giorgi--Nash--Moser Theory in Lean",
+      "title": "Formalizing Mathematics at Scale",
       "year": 2026,
-      "citationCount": 14,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/f274a1bce813c2bb358ed7b6fbd54c08c17bac1a"
+      "citationCount": 17,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2605.29955"
     },
     {
-      "title": "Emergent properties with repeated examples",
-      "year": 2024,
-      "citationCount": 13,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2410.07041"
+      "title": "Formalization of De Giorgi--Nash--Moser Theory in Lean",
+      "year": 2026,
+      "citationCount": 16,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/f274a1bce813c2bb358ed7b6fbd54c08c17bac1a"
     }
   ],
   "githubProjects": [],
@@ -542,11 +568,19 @@
     "externalCoAuthors": [
       {
         "name": "Rémi Munos",
-        "papers": 5
+        "papers": 6
       },
       {
         "name": "Ismail Labiad",
         "papers": 5
+      },
+      {
+        "name": "A. Rammal",
+        "papers": 3
+      },
+      {
+        "name": "Niket Patel",
+        "papers": 3
       },
       {
         "name": "M. Kowalski",
@@ -563,14 +597,6 @@
       {
         "name": "Yann Ollivier",
         "papers": 3
-      },
-      {
-        "name": "Niket Patel",
-        "papers": 2
-      },
-      {
-        "name": "A. Rammal",
-        "papers": 2
       },
       {
         "name": "Amaury Hayat",
@@ -599,6 +625,10 @@
       {
         "name": "Olivier Teytaud",
         "papers": 2
+      },
+      {
+        "name": "Skander Moalla",
+        "papers": 1
       },
       {
         "name": "Nikolaos Tsilivis",

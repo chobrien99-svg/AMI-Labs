@@ -22,6 +22,118 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "4968dd6bacd7120b8393ec8223293bd24503230c",
+      "title": "MindBlock: Probing Spatial Assembly and Structure in Unified Multimodal Models",
+      "year": 2026,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-032-37432-5_8",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Bai-Qiao Yin"
+        },
+        {
+          "slug": null,
+          "name": "Junhao Liu"
+        },
+        {
+          "slug": null,
+          "name": "Han Yin"
+        },
+        {
+          "slug": null,
+          "name": "He-Yang Yu"
+        },
+        {
+          "slug": null,
+          "name": "Ting-Xuan Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Zhi-Heng Li"
+        },
+        {
+          "slug": null,
+          "name": "Chengzu Li"
+        },
+        {
+          "slug": null,
+          "name": "Man-Ling Li"
+        },
+        {
+          "slug": null,
+          "name": "Chen Feng"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Ming Li"
+        }
+      ]
+    },
+    {
+      "paperId": "8c99e207b0477e86b051e42125d0b356fd41e9de",
+      "title": "Cambrian-S: Towards Spatial Supersensing in Video",
+      "year": 2026,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/8c99e207b0477e86b051e42125d0b356fd41e9de",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Shu-Sheng Yang"
+        },
+        {
+          "slug": null,
+          "name": "Pin-Zhi Huang"
+        },
+        {
+          "slug": null,
+          "name": "Ellis Brown"
+        },
+        {
+          "slug": null,
+          "name": "Zihao Yang"
+        },
+        {
+          "slug": null,
+          "name": "Yue Yu"
+        },
+        {
+          "slug": null,
+          "name": "Sheng-Bang Tong"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Han Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Fan Xu"
+        },
+        {
+          "slug": null,
+          "name": "Mu-Han Wang"
+        },
+        {
+          "slug": null,
+          "name": "Rob Fergus"
+        },
+        {
+          "slug": null,
+          "name": "Fei-Fei Li"
+        },
+        {
+          "slug": null,
+          "name": "Sai-Ning Xie"
+        }
+      ]
+    },
+    {
       "paperId": "98bfd032ec0208cadd3a5deb9f34d4b228736599",
       "title": "Cambrian-P: Pose-Grounded Video Understanding",
       "year": 2026,
@@ -402,37 +514,37 @@
     {
       "title": "Cambrian-S: Towards Spatial Supersensing in Video",
       "year": 2025,
-      "citationCount": 127,
+      "citationCount": 167,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2511.04670"
     },
     {
       "title": "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
       "year": 2026,
-      "citationCount": 44,
+      "citationCount": 58,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.16208"
     },
     {
       "title": "Benchmark Designers Should \"Train on the Test Set\" to Expose Exploitable Non-Visual Shortcuts",
       "year": 2025,
-      "citationCount": 31,
+      "citationCount": 35,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2511.04655"
     },
     {
-      "title": "Traveling Across Languages: Benchmarking Cross-Lingual Consistency in Multimodal LLMs",
-      "year": 2025,
-      "citationCount": 4,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2505.15075"
-    },
-    {
       "title": "Cambrian-P: Pose-Grounded Video Understanding",
       "year": 2026,
-      "citationCount": 2,
-      "venue": "arXiv.org",
+      "citationCount": 9,
+      "venue": "European Conference on Computer Vision",
       "url": "https://doi.org/10.48550/arXiv.2605.22819"
+    },
+    {
+      "title": "Traveling Across Languages: Benchmarking Cross-Lingual Consistency in Multimodal LLMs",
+      "year": 2025,
+      "citationCount": 5,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2505.15075"
     }
   ],
   "githubProjects": [],
@@ -460,7 +572,7 @@
       {
         "slug": "yann-lecun",
         "name": "Yann LeCun",
-        "sharedPapers": 3
+        "sharedPapers": 4
       },
       {
         "slug": "peter-tong",
@@ -485,6 +597,14 @@
     ],
     "externalCoAuthors": [
       {
+        "name": "Ellis Brown",
+        "papers": 5
+      },
+      {
+        "name": "Rob Fergus",
+        "papers": 5
+      },
+      {
         "name": "Shusheng Yang",
         "papers": 4
       },
@@ -493,12 +613,16 @@
         "papers": 4
       },
       {
-        "name": "Ellis Brown",
-        "papers": 4
+        "name": "Zihao Yang",
+        "papers": 2
       },
       {
-        "name": "Rob Fergus",
-        "papers": 4
+        "name": "Yue Yu",
+        "papers": 2
+      },
+      {
+        "name": "Fei-Fei Li",
+        "papers": 2
       },
       {
         "name": "Xichen Pan",
@@ -507,6 +631,74 @@
       {
         "name": "Pinzhi Huang",
         "papers": 2
+      },
+      {
+        "name": "Bai-Qiao Yin",
+        "papers": 1
+      },
+      {
+        "name": "Junhao Liu",
+        "papers": 1
+      },
+      {
+        "name": "Han Yin",
+        "papers": 1
+      },
+      {
+        "name": "He-Yang Yu",
+        "papers": 1
+      },
+      {
+        "name": "Ting-Xuan Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Zhi-Heng Li",
+        "papers": 1
+      },
+      {
+        "name": "Chengzu Li",
+        "papers": 1
+      },
+      {
+        "name": "Man-Ling Li",
+        "papers": 1
+      },
+      {
+        "name": "Chen Feng",
+        "papers": 1
+      },
+      {
+        "name": "Yi-Ming Li",
+        "papers": 1
+      },
+      {
+        "name": "Shu-Sheng Yang",
+        "papers": 1
+      },
+      {
+        "name": "Pin-Zhi Huang",
+        "papers": 1
+      },
+      {
+        "name": "Sheng-Bang Tong",
+        "papers": 1
+      },
+      {
+        "name": "Zi-Han Zheng",
+        "papers": 1
+      },
+      {
+        "name": "Yi-Fan Xu",
+        "papers": 1
+      },
+      {
+        "name": "Mu-Han Wang",
+        "papers": 1
+      },
+      {
+        "name": "Sai-Ning Xie",
+        "papers": 1
       },
       {
         "name": "Zifan Zhao",
@@ -593,14 +785,6 @@
         "papers": 1
       },
       {
-        "name": "Zihao Yang",
-        "papers": 1
-      },
-      {
-        "name": "Yue Yu",
-        "papers": 1
-      },
-      {
         "name": "Zihan Zheng",
         "papers": 1
       },
@@ -614,10 +798,6 @@
       },
       {
         "name": "Daohan Lu",
-        "papers": 1
-      },
-      {
-        "name": "Fei-Fei Li",
         "papers": 1
       },
       {

@@ -27,6 +27,114 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "be100cbeec4060d71266f357f95d6772e38f1133",
+      "title": "GSLM2: Multi-Stream Speech Representation Learning and Generative Spoken Language Modeling",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/be100cbeec4060d71266f357f95d6772e38f1133",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Yosuke Higuchi"
+        },
+        {
+          "slug": null,
+          "name": "Tom Fizycki"
+        },
+        {
+          "slug": null,
+          "name": "Mahi Luthra"
+        },
+        {
+          "slug": null,
+          "name": "Charles-Éric Saint-James"
+        },
+        {
+          "slug": null,
+          "name": "Azeez Syed"
+        },
+        {
+          "slug": null,
+          "name": "Angel Villar-Corrales"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Jia-Yi Shen"
+        },
+        {
+          "slug": null,
+          "name": "Dong-Yan Lin"
+        },
+        {
+          "slug": null,
+          "name": "Phillip Rust"
+        },
+        {
+          "slug": null,
+          "name": "Surya Parimi"
+        },
+        {
+          "slug": null,
+          "name": "Vanessa Stark"
+        },
+        {
+          "slug": null,
+          "name": "Alexandre Allauzen"
+        },
+        {
+          "slug": null,
+          "name": "Balázs Kégl"
+        },
+        {
+          "slug": null,
+          "name": "Juan Pino"
+        },
+        {
+          "slug": null,
+          "name": "Emmanuel Dupoux"
+        }
+      ]
+    },
+    {
+      "paperId": "6f354219e2e5a672e27a8a07070729e6edae446b",
+      "title": "Hierarchical World Models with Implicit Dynamics",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/6f354219e2e5a672e27a8a07070729e6edae446b",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Gao-Yue Zhou"
+        },
+        {
+          "slug": null,
+          "name": "Yvonne Wu"
+        },
+        {
+          "slug": null,
+          "name": "Zichen Jeff Cui"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Lerrel Pinto"
+        }
+      ]
+    },
+    {
       "paperId": "477e20594635eb0ced89bbf2dd9ec873278cf48d",
       "title": "Hierarchical Planning with Latent World Models",
       "year": 2026,
@@ -742,39 +850,39 @@
   ],
   "topPublications": [
     {
-      "title": "DINOv2: Learning Robust Visual Features without Supervision",
-      "year": 2023,
-      "citationCount": 11111,
-      "venue": "Trans. Mach. Learn. Res.",
-      "url": "https://doi.org/10.48550/arXiv.2304.07193"
-    },
-    {
       "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
-      "citationCount": 859,
+      "citationCount": 1046,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985"
     },
     {
       "title": "Revisiting Feature Prediction for Learning Visual Representations from Video",
       "year": 2024,
-      "citationCount": 610,
+      "citationCount": 698,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2404.08471"
     },
     {
       "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
       "year": 2026,
-      "citationCount": 112,
-      "venue": "arXiv.org",
+      "citationCount": 161,
+      "venue": "European Conference on Computer Vision",
       "url": "https://doi.org/10.48550/arXiv.2603.14482"
     },
     {
       "title": "Hierarchical Planning with Latent World Models",
       "year": 2026,
-      "citationCount": 38,
+      "citationCount": 56,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2604.03208"
+    },
+    {
+      "title": "A Shortcut-aware Video-QA Benchmark for Physical Understanding via Minimal Video Pairs",
+      "year": 2025,
+      "citationCount": 33,
+      "venue": "Trans. Mach. Learn. Res.",
+      "url": "https://doi.org/10.48550/arXiv.2506.09987"
     }
   ],
   "githubProjects": [],
@@ -797,7 +905,7 @@
       {
         "slug": "yann-lecun",
         "name": "Yann LeCun",
-        "sharedPapers": 5
+        "sharedPapers": 6
       },
       {
         "slug": "adrien-bardes",
@@ -848,7 +956,7 @@
     "externalCoAuthors": [
       {
         "name": "Nicolas Ballas",
-        "papers": 9
+        "papers": 11
       },
       {
         "name": "Mido Assran",
@@ -861,6 +969,22 @@
       {
         "name": "Mojtaba Komeili",
         "papers": 3
+      },
+      {
+        "name": "Yosuke Higuchi",
+        "papers": 2
+      },
+      {
+        "name": "Mahi Luthra",
+        "papers": 2
+      },
+      {
+        "name": "Juan Pino",
+        "papers": 2
+      },
+      {
+        "name": "Emmanuel Dupoux",
+        "papers": 2
       },
       {
         "name": "Mahmoud Assran",
@@ -911,6 +1035,66 @@
         "papers": 2
       },
       {
+        "name": "Tom Fizycki",
+        "papers": 1
+      },
+      {
+        "name": "Charles-Éric Saint-James",
+        "papers": 1
+      },
+      {
+        "name": "Azeez Syed",
+        "papers": 1
+      },
+      {
+        "name": "Angel Villar-Corrales",
+        "papers": 1
+      },
+      {
+        "name": "Jia-Yi Shen",
+        "papers": 1
+      },
+      {
+        "name": "Dong-Yan Lin",
+        "papers": 1
+      },
+      {
+        "name": "Phillip Rust",
+        "papers": 1
+      },
+      {
+        "name": "Surya Parimi",
+        "papers": 1
+      },
+      {
+        "name": "Vanessa Stark",
+        "papers": 1
+      },
+      {
+        "name": "Alexandre Allauzen",
+        "papers": 1
+      },
+      {
+        "name": "Balázs Kégl",
+        "papers": 1
+      },
+      {
+        "name": "Gao-Yue Zhou",
+        "papers": 1
+      },
+      {
+        "name": "Yvonne Wu",
+        "papers": 1
+      },
+      {
+        "name": "Zichen Jeff Cui",
+        "papers": 1
+      },
+      {
+        "name": "Lerrel Pinto",
+        "papers": 1
+      },
+      {
         "name": "Wancong Zhang",
         "papers": 1
       },
@@ -935,15 +1119,7 @@
         "papers": 1
       },
       {
-        "name": "Mahi Luthra",
-        "papers": 1
-      },
-      {
         "name": "Youssef Benchekroun",
-        "papers": 1
-      },
-      {
-        "name": "Yosuke Higuchi",
         "papers": 1
       },
       {
@@ -960,14 +1136,6 @@
       },
       {
         "name": "Yu-An Chung",
-        "papers": 1
-      },
-      {
-        "name": "Juan Pino",
-        "papers": 1
-      },
-      {
-        "name": "Emmanuel Dupoux",
         "papers": 1
       },
       {

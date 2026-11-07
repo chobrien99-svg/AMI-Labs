@@ -32,6 +32,52 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "d93c8e6e37e806411a6aa6d289949cd4ef060bba",
+      "title": "Partially Edited Audio: Generation, Defense, and Open Problems",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/d93c8e6e37e806411a6aa6d289949cd4ef060bba",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Lin Zhang"
+        },
+        {
+          "slug": null,
+          "name": "You Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Nicholas W. D. Evans"
+        },
+        {
+          "slug": null,
+          "name": "Xin Wang"
+        },
+        {
+          "slug": null,
+          "name": "David Harwath"
+        },
+        {
+          "slug": null,
+          "name": "A. Dhall"
+        },
+        {
+          "slug": null,
+          "name": "Cheng-Zhe Sun"
+        },
+        {
+          "slug": null,
+          "name": "Siwei Lyu"
+        },
+        {
+          "slug": null,
+          "name": "S. Khudanpur"
+        }
+      ]
+    },
+    {
       "paperId": "a410289d9adea1f9047373cd7d924daaf63a575d",
       "title": "JASTIN: Aligning LLMs for Zero-Shot Audio and Speech Evaluation via Natural Language Instructions",
       "year": 2026,
@@ -1646,35 +1692,35 @@
     {
       "title": "Meta Audiobox Aesthetics: Unified Automatic Quality Assessment for Speech, Music, and Sound",
       "year": 2025,
-      "citationCount": 199,
+      "citationCount": 230,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2502.05139"
     },
     {
       "title": "SAM Audio: Segment Anything in Audio",
       "year": 2025,
-      "citationCount": 41,
+      "citationCount": 57,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2512.18099"
     },
     {
       "title": "Meta Audiobox Aesthetics: Unified Automatic Assessment for Speech, Music and Sound",
       "year": 2025,
-      "citationCount": 11,
+      "citationCount": 18,
       "venue": "Automatic Speech Recognition & Understanding",
       "url": "https://doi.org/10.1109/ASRU65441.2025.11434623"
     },
     {
-      "title": "MDI-YOLO a lightweight transformer-CNN-based multidimensional feature fusion model for small object detection",
+      "title": "SAM Audio Judge: A Unified Multimodal Framework for Perceptual Evaluation of Audio Separation",
       "year": 2026,
-      "citationCount": 4,
-      "venue": "Scientific Reports",
-      "url": "https://doi.org/10.1038/s41598-026-38378-x"
+      "citationCount": 5,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.19702"
     },
     {
       "title": "MR-FlowDPO: Multi-Reward Direct Preference Optimization for Flow-Matching Text-to-Music Generation",
       "year": 2025,
-      "citationCount": 4,
+      "citationCount": 5,
       "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
       "url": "https://doi.org/10.48550/arXiv.2512.10264"
     }
@@ -1817,6 +1863,42 @@
       {
         "name": "Ernie Chang",
         "papers": 2
+      },
+      {
+        "name": "Lin Zhang",
+        "papers": 1
+      },
+      {
+        "name": "You Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Nicholas W. D. Evans",
+        "papers": 1
+      },
+      {
+        "name": "Xin Wang",
+        "papers": 1
+      },
+      {
+        "name": "David Harwath",
+        "papers": 1
+      },
+      {
+        "name": "A. Dhall",
+        "papers": 1
+      },
+      {
+        "name": "Cheng-Zhe Sun",
+        "papers": 1
+      },
+      {
+        "name": "Siwei Lyu",
+        "papers": 1
+      },
+      {
+        "name": "S. Khudanpur",
+        "papers": 1
       },
       {
         "name": "Leying Zhang",

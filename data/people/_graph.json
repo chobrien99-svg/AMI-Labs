@@ -1,6 +1,19 @@
 {
   "coAuthorship": [
     {
+      "a": "mahmoud-assran",
+      "b": "yann-lecun",
+      "paperCount": 6,
+      "papers": [
+        "Hierarchical World Models with Implicit Dynamics",
+        "Hierarchical Planning with Latent World Models",
+        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+        "Revisiting Feature Prediction for Learning Visual Representations from Video",
+        "Stochastic positional embeddings improve masked image modeling"
+      ]
+    },
+    {
       "a": "basile-terver",
       "b": "yann-lecun",
       "paperCount": 6,
@@ -63,6 +76,17 @@
         "Separating Representation from Reconstruction Enables Scalable Text Encoders",
         "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
         "Training compute-optimal transformer encoder models"
+      ]
+    },
+    {
+      "a": "jihan-yang",
+      "b": "yann-lecun",
+      "paperCount": 4,
+      "papers": [
+        "Cambrian-S: Towards Spatial Supersensing in Video",
+        "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
+        "Cambrian-S: Towards Spatial Supersensing in Video",
+        "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
       ]
     },
     {
@@ -236,18 +260,6 @@
         "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
         "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
         "Revisiting Feature Prediction for Learning Visual Representations from Video"
-      ]
-    },
-    {
-      "a": "mahmoud-assran",
-      "b": "yann-lecun",
-      "paperCount": 5,
-      "papers": [
-        "Hierarchical Planning with Latent World Models",
-        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
-        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
-        "Revisiting Feature Prediction for Learning Visual Representations from Video",
-        "Stochastic positional embeddings improve masked image modeling"
       ]
     },
     {
@@ -681,16 +693,6 @@
         "Zero Bubble (Almost) Pipeline Parallelism",
         "Pipeline Parallelism with Controllable Memory",
         "Zero Bubble Pipeline Parallelism"
-      ]
-    },
-    {
-      "a": "jihan-yang",
-      "b": "yann-lecun",
-      "paperCount": 3,
-      "papers": [
-        "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
-        "Cambrian-S: Towards Spatial Supersensing in Video",
-        "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
       ]
     },
     {
