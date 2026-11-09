@@ -1210,13 +1210,13 @@
     "dessinKeys": []
   },
   "status": "ok",
-  "headline": "Hierarchical world models and the anti-scaling thesis converge into AMI's clearest statement of direction yet",
-  "stateOfPlay": "Two research outputs this week — a new hierarchical world-model paper co-authored by Yann LeCun and Mahmoud Assran, and Julia Kempe's 'bitter lesson' theorem-proving work — crystallise what AMI is actually arguing: that architectural intelligence, not raw compute, is the path forward. The two papers arrive as Randall Balestriero is actively road-showing JEPA research at INFORMS and running a live public demo, suggesting AMI is moving from internal conviction to external advocacy. A new Robot Operator hire in New York adds a quiet but concrete signal that embodied deployment is no longer purely theoretical. Taken together, the week reads less like scattered activity and more like a coordinated intellectual position.",
+  "headline": "Hierarchical world models and the anti-scaling thesis converge",
+  "stateOfPlay": "Two intriguing research outputs this week — a new hierarchical world-model paper co-authored by Yann LeCun and Mahmoud Assran, and Julia Kempe's 'bitter lesson' theorem-proving work. These seem to crystallize what AMI is actually arguing: that architectural intelligence, not raw compute, is the path forward. The two papers arrive as Randall Balestriero road-shows JEPA research at INFORMS and runs a live public demo. A new Robot Operator hire in New York adds a clue about focus.",
   "threads": [
     {
       "title": "ID-WM is AMI's most direct bet on hierarchical world models for long-horizon control",
       "category": "research",
-      "narrative": "The most substantive output this week is 'Hierarchical World Models with Implicit Dynamics' (ID-WM), co-authored by Mahmoud Assran and Yann LeCun. The paper's core claim — that decoupling state-space reachability from local control yields a 135% performance gain over single-level world-model MPC on long-horizon tasks — is precisely the kind of architectural argument AMI has been building toward. The framing is telling: existing hierarchical methods fail because they rely on 'rigid macro-actions or latent skills,' producing brittle representations. ID-WM's answer is to let a high-level model sample feasible transitions while a lower-level controller handles fine-grained execution, without locking in the skill abstraction prematurely.\n\nThis is not an isolated paper. It arrives alongside Jihan Yang and LeCun's 'Cambrian-S,' which targets spatial supersensing in video and appeared at ICLR, and Yang's 'MindBlock' at ECCV, which argues that true spatial intelligence requires active 3D construction rather than passive recognition. The pattern across all three is the same: AMI researchers are systematically building the case that understanding the structure of the world — hierarchically, spatially, dynamically — is the design problem, not the data or compute problem.",
+      "narrative": "The most substantive output this week is 'Hierarchical World Models with Implicit Dynamics' (ID-WM), co-authored by Mahmoud Assran and Yann LeCun. The paper's core claim — that decoupling state-space reachability from local control yields a 135% performance gain over single-level world-model MPC on long-horizon tasks — is precisely the kind of architectural argument AMI has been building toward. The framing is that existing hierarchical methods fail because they rely on 'rigid macro-actions or latent skills,' producing brittle representations. ID-WM answers by letting a high-level model sample feasible transitions while a lower-level controller handles fine-grained execution, without locking in the skill abstraction prematurely.\n\nThis is not an isolated paper. It arrives alongside Jihan Yang and LeCun's 'Cambrian-S,' which targets spatial supersensing in video and appeared at ICLR, and Yang's 'MindBlock' at ECCV, which argues that true spatial intelligence requires active 3D construction rather than passive recognition. The pattern across all three is that AMI researchers are building the case that understanding the structure of the world — hierarchically, spatially, dynamically — is the design problem, not the data or compute problem.",
       "evidence": [
         {
           "label": "ID-WM paper (Assran & LeCun)",
@@ -1233,9 +1233,9 @@
       ]
     },
     {
-      "title": "Kempe's theorem-proving paper is a pointed argument against workflow engineering — and against the field's current direction",
+      "title": "Kempe's theorem-proving paper is a pointed argument against workflow engineering",
       "category": "research",
-      "narrative": "Julia Kempe's 'h1: A Taste of the Bitter Lesson in Automated Theorem Proving' lands as a deliberate provocation. The paper asks whether a simple agentic loop that scales test-time compute can match the elaborate human-designed workflows — planning, decomposition, specialised provers — that the formal verification community has converged on. Kempe's own account on X is unusually candid about how the work came to be: they started with a 'slightly fancy idea' and kept finding that simpler approaches competed. That is the bitter lesson reapplied to a new domain, and the choice to publish it now is a signal of institutional confidence in the thesis.\n\nWhat makes this notable in the AMI context is its alignment with LeCun's own public positioning. LeCun's high-engagement post this week — a 'reminder from 3 years ago,' without elaboration — read by his audience as a callback to his long-standing critique of the scaling consensus. Kempe's paper gives that stance a rigorous empirical anchor in a domain (formal mathematics) where the community has leaned hardest on bespoke human engineering. AMI is not just critiquing scaling abstractly; it is producing work that tests the thesis domain by domain.",
+      "narrative": "Julia Kempe's 'h1: A Taste of the Bitter Lesson in Automated Theorem Proving' asks whether a simple agentic loop that scales test-time compute can match the elaborate human-designed workflows — planning, decomposition, specialized provers — that the formal verification community has converged on. Kempe's own account on X described how the work came to be: they started with a 'slightly fancy idea' and kept finding that simpler approaches competed. That is the 'bitter lesson' reapplied to a new domain.",
       "evidence": [
         {
           "label": "h1 paper (Kempe)",
@@ -1244,17 +1244,13 @@
         {
           "label": "Kempe announces h1 on X",
           "url": "https://x.com/KempeLab/status/2117301273225466100"
-        },
-        {
-          "label": "LeCun's high-engagement callback post",
-          "url": "https://x.com/ylecun/status/2119184445987287449"
         }
       ]
     },
     {
-      "title": "Balestriero's JEPA roadshow — conference talk, live demo, public checkpoint — marks a shift from research to advocacy",
+      "title": "Balestriero's JEPA roadshow — conference talk, live demo, public checkpoint",
       "category": "research",
-      "narrative": "Randall Balestriero's activity this week is the clearest indicator that AMI is now actively pushing its ideas outward. He presented JEPA research at INFORMS in San Francisco, ran a Hugging Face Space demo that briefly ran out of credit under user load (a minor but concrete signal of genuine external interest), and released a checkpoint for SIGReg — a pretraining-loss improvement he explicitly frames as a rebuttal to the 'just find more data and GPUs' instinct. His post argues the field should spend more time on pretraining losses; the checkpoint is an invitation to verify that claim empirically.\n\nThe combination of a conference appearance, an interactive demo, and a downloadable model in a single week is not coincidental. It suggests a deliberate effort to make AMI's research tangible and reproducible for an external audience — the kind of move labs make when they want a research community to adopt or at least seriously engage with a direction, not just read papers.",
+      "narrative": "Randall Balestriero presented JEPA research at INFORMS in San Francisco, ran a Hugging Face Space demo that briefly ran out of credit under user load, and released a checkpoint for SIGReg — a pretraining-loss improvement he explicitly frames as a rebuttal to the 'just find more data and GPUs' instinct. His post argues the field should spend more time on pretraining losses; the checkpoint invites empirical verification of that claim.",
       "evidence": [
         {
           "label": "Balestriero on SIGReg and pretraining losses",
@@ -1296,7 +1292,7 @@
       "linkLabel": "lmms-eval repo"
     }
   ],
-  "whatToWatch": "The convergence of ID-WM, Cambrian-S, and the Robot Operator hire makes the next few weeks important for AMI's embodied agenda: watch for any public demonstration or technical report linking the world-model framework to a physical robotic system. Balestriero's SIGReg demo and checkpoint release also sets up a near-term test of community uptake — engagement metrics on the Hugging Face Space and any follow-on citations will indicate whether AMI's pretraining-loss argument gains traction beyond the team itself.",
+  "whatToWatch": "Any public demonstration or technical report linking the world-model framework to a physical robotic system. Balestriero's SIGReg demo and checkpoint release also sets up a near-term test of community uptake — engagement metrics on the Hugging Face Space and any follow-on citations will indicate whether AMI's pretraining-loss argument gains traction beyond the team itself.",
   "whatToWatchLinks": [
     {
       "url": "https://www.semanticscholar.org/paper/6f354219e2e5a672e27a8a07070729e6edae446b",
