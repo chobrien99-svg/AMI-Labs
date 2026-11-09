@@ -3,14 +3,28 @@
     {
       "a": "mahmoud-assran",
       "b": "yann-lecun",
-      "paperCount": 6,
+      "paperCount": 10,
       "papers": [
         "Hierarchical World Models with Implicit Dynamics",
         "Hierarchical Planning with Latent World Models",
         "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
         "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+        "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
+        "Learning and Leveraging World Models in Visual Representation Learning",
         "Revisiting Feature Prediction for Learning Visual Representations from Video",
-        "Stochastic positional embeddings improve masked image modeling"
+        "Stochastic positional embeddings improve masked image modeling",
+        "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+        "The Diashow Paradox: Stronger 3D-Aware Representations Emerge from Image Sets, Not Videos Anonymous ICCV submission"
+      ]
+    },
+    {
+      "a": "artem-zholus",
+      "b": "mahmoud-assran",
+      "paperCount": 3,
+      "papers": [
+        "RoboJEPA: Scaling Robotic Latent World Models",
+        "Hierarchical Planning with Latent World Models",
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
       ]
     },
     {
@@ -31,7 +45,7 @@
       "b": "quentin-le-lidec",
       "paperCount": 7,
       "papers": [
-        "LeVJEPA: Efficient&Scalable Video Pretraining without the Heuristics",
+        "LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics",
         "LpWM: A Case for Sparse Representations in World Models",
         "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
         "stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation",
@@ -45,7 +59,7 @@
       "b": "yann-lecun",
       "paperCount": 7,
       "papers": [
-        "LeVJEPA: Efficient&Scalable Video Pretraining without the Heuristics",
+        "LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics",
         "LpWM: A Case for Sparse Representations in World Models",
         "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
         "stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation",
@@ -59,7 +73,7 @@
       "b": "yann-lecun",
       "paperCount": 7,
       "papers": [
-        "LeVJEPA: Efficient&Scalable Video Pretraining without the Heuristics",
+        "LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics",
         "LpWM: A Case for Sparse Representations in World Models",
         "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
         "stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation",
@@ -133,6 +147,14 @@
       ]
     },
     {
+      "a": "basile-terver",
+      "b": "mahmoud-assran",
+      "paperCount": 1,
+      "papers": [
+        "Hierarchical Planning with Latent World Models"
+      ]
+    },
+    {
       "a": "amir-bar",
       "b": "basile-terver",
       "paperCount": 2,
@@ -151,14 +173,6 @@
       ]
     },
     {
-      "a": "basile-terver",
-      "b": "mahmoud-assran",
-      "paperCount": 1,
-      "papers": [
-        "Hierarchical Planning with Latent World Models"
-      ]
-    },
-    {
       "a": "amir-bar",
       "b": "artem-zholus",
       "paperCount": 1,
@@ -182,41 +196,6 @@
       "papers": [
         "Hierarchical Planning with Latent World Models",
         "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
-      ]
-    },
-    {
-      "a": "artem-zholus",
-      "b": "mahmoud-assran",
-      "paperCount": 2,
-      "papers": [
-        "Hierarchical Planning with Latent World Models",
-        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
-      ]
-    },
-    {
-      "a": "adrien-bardes",
-      "b": "amir-bar",
-      "paperCount": 3,
-      "papers": [
-        "Hierarchical Planning with Latent World Models",
-        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
-        "A Cookbook of Self-Supervised Learning"
-      ]
-    },
-    {
-      "a": "amir-bar",
-      "b": "yann-lecun",
-      "paperCount": 9,
-      "papers": [
-        "Hierarchical Planning with Latent World Models",
-        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
-        "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
-        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
-        "Parallel Stochastic Gradient-Based Planning for World Models",
-        "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
-        "Scaling Language-Free Visual Representation Learning",
-        "Stochastic positional embeddings improve masked image modeling",
-        "A Cookbook of Self-Supervised Learning"
       ]
     },
     {
@@ -231,8 +210,51 @@
     },
     {
       "a": "adrien-bardes",
+      "b": "mahmoud-assran",
+      "paperCount": 7,
+      "papers": [
+        "Hierarchical Planning with Latent World Models",
+        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+        "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
+        "Learning and Leveraging World Models in Visual Representation Learning",
+        "Revisiting Feature Prediction for Learning Visual Representations from Video",
+        "The Diashow Paradox: Stronger 3D-Aware Representations Emerge from Image Sets, Not Videos Anonymous ICCV submission"
+      ]
+    },
+    {
+      "a": "adrien-bardes",
+      "b": "amir-bar",
+      "paperCount": 4,
+      "papers": [
+        "Hierarchical Planning with Latent World Models",
+        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+        "A Cookbook of Self-Supervised Learning",
+        "A Cookbook of Self-Supervised Learning"
+      ]
+    },
+    {
+      "a": "amir-bar",
       "b": "yann-lecun",
-      "paperCount": 15,
+      "paperCount": 11,
+      "papers": [
+        "Hierarchical Planning with Latent World Models",
+        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+        "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
+        "Parallel Stochastic Gradient-Based Planning for World Models",
+        "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
+        "World Models Can Leverage Human Videos for Dexterous Manipulation",
+        "Scaling Language-Free Visual Representation Learning",
+        "Stochastic positional embeddings improve masked image modeling",
+        "A Cookbook of Self-Supervised Learning",
+        "A Cookbook of Self-Supervised Learning"
+      ]
+    },
+    {
+      "a": "adrien-bardes",
+      "b": "yann-lecun",
+      "paperCount": 16,
       "papers": [
         "Hierarchical Planning with Latent World Models",
         "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
@@ -243,6 +265,7 @@
         "Revisiting Feature Prediction for Learning Visual Representations from Video",
         "MC-JEPA: A Joint-Embedding Predictive Architecture for Self-Supervised Learning of Motion and Content Features",
         "A Cookbook of Self-Supervised Learning",
+        "A Cookbook of Self-Supervised Learning",
         "VICRegL: Self-Supervised Learning of Local Visual Features",
         "Intra-Instance VICReg: Bag of Self-Supervised Image Patch Embedding",
         "Bag of Image Patch Embedding Behind the Success of Self-Supervised Learning",
@@ -252,22 +275,38 @@
       ]
     },
     {
-      "a": "adrien-bardes",
-      "b": "mahmoud-assran",
-      "paperCount": 4,
-      "papers": [
-        "Hierarchical Planning with Latent World Models",
-        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
-        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
-        "Revisiting Feature Prediction for Learning Visual Representations from Video"
-      ]
-    },
-    {
       "a": "amir-bar",
       "b": "matthew-muckley",
       "paperCount": 1,
       "papers": [
         "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning"
+      ]
+    },
+    {
+      "a": "mahmoud-assran",
+      "b": "matthew-muckley",
+      "paperCount": 2,
+      "papers": [
+        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
+      ]
+    },
+    {
+      "a": "matthew-muckley",
+      "b": "yann-lecun",
+      "paperCount": 2,
+      "papers": [
+        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
+      ]
+    },
+    {
+      "a": "adrien-bardes",
+      "b": "matthew-muckley",
+      "paperCount": 2,
+      "papers": [
+        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
       ]
     },
     {
@@ -285,33 +324,6 @@
       ]
     },
     {
-      "a": "matthew-muckley",
-      "b": "yann-lecun",
-      "paperCount": 2,
-      "papers": [
-        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
-        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
-      ]
-    },
-    {
-      "a": "adrien-bardes",
-      "b": "matthew-muckley",
-      "paperCount": 2,
-      "papers": [
-        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
-        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
-      ]
-    },
-    {
-      "a": "mahmoud-assran",
-      "b": "matthew-muckley",
-      "paperCount": 2,
-      "papers": [
-        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
-        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
-      ]
-    },
-    {
       "a": "amir-bar",
       "b": "michael-rabbat",
       "paperCount": 6,
@@ -322,6 +334,28 @@
         "Parallel Stochastic Gradient-Based Planning for World Models",
         "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
         "Scaling Language-Free Visual Representation Learning"
+      ]
+    },
+    {
+      "a": "mahmoud-assran",
+      "b": "michael-rabbat",
+      "paperCount": 15,
+      "papers": [
+        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+        "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
+        "Revisiting Feature Prediction for Learning Visual Representations from Video",
+        "DINOv2: Learning Robust Visual Features without Supervision",
+        "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+        "The Hidden Uniform Cluster Prior in Self-Supervised Learning",
+        "Masked Siamese Networks for Label-Efficient Learning",
+        "Semi-Supervised Learning of Visual Features by Non-Parametrically Predicting View Assignments with Support Samples",
+        "A Closer Look at Codistillation for Distributed Training",
+        "Recovering Petaflops in Contrastive Semi-Supervised Learning of Visual Representations",
+        "Supervision Accelerates Pre-training in Contrastive Semi-Supervised Learning of Visual Representations.",
+        "On the Convergence of Nesterov's Accelerated Gradient Method in Stochastic Settings",
+        "Gossip-based Actor-Learner Architectures for Deep Reinforcement Learning",
+        "The Diashow Paradox: Stronger 3D-Aware Representations Emerge from Image Sets, Not Videos Anonymous ICCV submission"
       ]
     },
     {
@@ -345,17 +379,6 @@
       ]
     },
     {
-      "a": "mahmoud-assran",
-      "b": "michael-rabbat",
-      "paperCount": 4,
-      "papers": [
-        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
-        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
-        "Revisiting Feature Prediction for Learning Visual Representations from Video",
-        "DINOv2: Learning Robust Visual Features without Supervision"
-      ]
-    },
-    {
       "a": "peter-tong",
       "b": "yuexiang-zhai",
       "paperCount": 12,
@@ -375,24 +398,6 @@
       ]
     },
     {
-      "a": "delong-chen",
-      "b": "pascale-fung",
-      "paperCount": 11,
-      "papers": [
-        "Reward Prediction with Factorized World States",
-        "Action100M: A Large-scale Video Action Dataset",
-        "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language",
-        "Planning with Reasoning using Vision Language World Model",
-        "Embodied AI Agents: Modeling the World",
-        "WorldPrediction: A Benchmark for High-level World Modeling and Long-horizon Procedural Planning",
-        "What Makes for Good Image Captions?",
-        "High-Dimension Human Value Representation in Large Language Models",
-        "Measuring Political Bias in Large Language Models: What Is Said and How It Is Said",
-        "Subobject-level Image Tokenization",
-        "Survey of Hallucination in Natural Language Generation"
-      ]
-    },
-    {
       "a": "david-fan",
       "b": "john-nguyen",
       "paperCount": 1,
@@ -403,11 +408,12 @@
     {
       "a": "amir-bar",
       "b": "david-fan",
-      "paperCount": 4,
+      "paperCount": 5,
       "papers": [
         "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
         "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
         "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
+        "World Models Can Leverage Human Videos for Dexterous Manipulation",
         "Scaling Language-Free Visual Representation Learning"
       ]
     },
@@ -428,11 +434,12 @@
     {
       "a": "david-fan",
       "b": "yann-lecun",
-      "paperCount": 7,
+      "paperCount": 8,
       "papers": [
         "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
         "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
         "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
+        "World Models Can Leverage Human Videos for Dexterous Manipulation",
         "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
         "Scaling Language-Free Visual Representation Learning",
         "MetaMorph: Multimodal Understanding and Generation via Instruction Tuning",
@@ -630,16 +637,16 @@
       ]
     },
     {
-      "a": "megi-dervishi",
-      "b": "michael-rabbat",
+      "a": "amir-bar",
+      "b": "megi-dervishi",
       "paperCount": 1,
       "papers": [
         "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures"
       ]
     },
     {
-      "a": "amir-bar",
-      "b": "megi-dervishi",
+      "a": "megi-dervishi",
+      "b": "michael-rabbat",
       "paperCount": 1,
       "papers": [
         "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures"
@@ -657,7 +664,7 @@
     {
       "a": "quentin-garrido",
       "b": "yann-lecun",
-      "paperCount": 11,
+      "paperCount": 12,
       "papers": [
         "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
         "Learning Latent Action World Models In The Wild",
@@ -667,6 +674,7 @@
         "Revisiting Feature Prediction for Learning Visual Representations from Video",
         "Self-Supervised Learning with Lie Symmetries for Partial Differential Equations",
         "A Cookbook of Self-Supervised Learning",
+        "A Cookbook of Self-Supervised Learning",
         "Self-supervised learning of Split Invariant Equivariant representations",
         "RankMe: Assessing the downstream performance of pretrained self-supervised representations by their rank",
         "On the duality between contrastive and non-contrastive self-supervised learning"
@@ -675,9 +683,10 @@
     {
       "a": "amir-bar",
       "b": "quentin-garrido",
-      "paperCount": 2,
+      "paperCount": 3,
       "papers": [
         "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
+        "A Cookbook of Self-Supervised Learning",
         "A Cookbook of Self-Supervised Learning"
       ]
     },
@@ -705,6 +714,23 @@
         "Planning with Reasoning using Vision Language World Model",
         "Embodied AI Agents: Modeling the World",
         "WorldPrediction: A Benchmark for High-level World Modeling and Long-horizon Procedural Planning"
+      ]
+    },
+    {
+      "a": "delong-chen",
+      "b": "pascale-fung",
+      "paperCount": 10,
+      "papers": [
+        "Action100M: A Large-scale Video Action Dataset",
+        "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language",
+        "Planning with Reasoning using Vision Language World Model",
+        "Embodied AI Agents: Modeling the World",
+        "WorldPrediction: A Benchmark for High-level World Modeling and Long-horizon Procedural Planning",
+        "What Makes for Good Image Captions?",
+        "High-Dimension Human Value Representation in Large Language Models",
+        "Measuring Political Bias in Large Language Models: What Is Said and How It Is Said",
+        "Subobject-level Image Tokenization",
+        "Survey of Hallucination in Natural Language Generation"
       ]
     },
     {
@@ -813,14 +839,6 @@
     },
     {
       "a": "basile-terver",
-      "b": "delong-chen",
-      "paperCount": 1,
-      "papers": [
-        "Embodied AI Agents: Modeling the World"
-      ]
-    },
-    {
-      "a": "basile-terver",
       "b": "willy-chung",
       "paperCount": 1,
       "papers": [
@@ -828,12 +846,31 @@
       ]
     },
     {
+      "a": "basile-terver",
+      "b": "delong-chen",
+      "paperCount": 1,
+      "papers": [
+        "Embodied AI Agents: Modeling the World"
+      ]
+    },
+    {
+      "a": "david-fan",
+      "b": "mahmoud-assran",
+      "paperCount": 2,
+      "papers": [
+        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+        "The Diashow Paradox: Stronger 3D-Aware Representations Emerge from Image Sets, Not Videos Anonymous ICCV submission"
+      ]
+    },
+    {
       "a": "mahmoud-assran",
       "b": "quentin-garrido",
-      "paperCount": 3,
+      "paperCount": 5,
       "papers": [
-        "A Shortcut-aware Video-QA Benchmark for Physical Understanding via Minimal Video Pairs",
         "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+        "A Shortcut-aware Video-QA Benchmark for Physical Understanding via Minimal Video Pairs",
+        "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
+        "Learning and Leveraging World Models in Visual Representation Learning",
         "Revisiting Feature Prediction for Learning Visual Representations from Video"
       ]
     },
@@ -849,13 +886,14 @@
     {
       "a": "adrien-bardes",
       "b": "quentin-garrido",
-      "paperCount": 9,
+      "paperCount": 10,
       "papers": [
         "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
         "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
         "An Introduction to Vision-Language Modeling",
         "Learning and Leveraging World Models in Visual Representation Learning",
         "Revisiting Feature Prediction for Learning Visual Representations from Video",
+        "A Cookbook of Self-Supervised Learning",
         "A Cookbook of Self-Supervised Learning",
         "Guillotine Regularization: Improving Deep Networks Generalization by Removing their Head",
         "Guillotine Regularization: Why removing layers is needed to improve generalization in Self-Supervised Learning",
@@ -873,14 +911,6 @@
     {
       "a": "artem-zholus",
       "b": "david-fan",
-      "paperCount": 1,
-      "papers": [
-        "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
-      ]
-    },
-    {
-      "a": "david-fan",
-      "b": "mahmoud-assran",
       "paperCount": 1,
       "papers": [
         "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
@@ -944,15 +974,6 @@
       ]
     },
     {
-      "a": "michael-rabbat",
-      "b": "peter-tong",
-      "paperCount": 2,
-      "papers": [
-        "Scaling Language-Free Visual Representation Learning",
-        "MetaMorph: Multimodal Understanding and Generation via Instruction Tuning"
-      ]
-    },
-    {
       "a": "peter-tong",
       "b": "yann-lecun",
       "paperCount": 7,
@@ -972,6 +993,15 @@
       "paperCount": 1,
       "papers": [
         "Scaling Language-Free Visual Representation Learning"
+      ]
+    },
+    {
+      "a": "michael-rabbat",
+      "b": "peter-tong",
+      "paperCount": 2,
+      "papers": [
+        "Scaling Language-Free Visual Representation Learning",
+        "MetaMorph: Multimodal Understanding and Generation via Instruction Tuning"
       ]
     },
     {
@@ -1055,6 +1085,22 @@
       ]
     },
     {
+      "a": "peter-tong",
+      "b": "sanghyun-woo",
+      "paperCount": 1,
+      "papers": [
+        "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
+      ]
+    },
+    {
+      "a": "adithya-iyer",
+      "b": "peter-tong",
+      "paperCount": 1,
+      "papers": [
+        "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
+      ]
+    },
+    {
       "a": "jihan-yang",
       "b": "sanghyun-woo",
       "paperCount": 1,
@@ -1088,14 +1134,6 @@
       ]
     },
     {
-      "a": "peter-tong",
-      "b": "sanghyun-woo",
-      "paperCount": 1,
-      "papers": [
-        "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
-      ]
-    },
-    {
       "a": "adithya-iyer",
       "b": "jihan-yang",
       "paperCount": 1,
@@ -1120,29 +1158,12 @@
       ]
     },
     {
-      "a": "adithya-iyer",
-      "b": "peter-tong",
-      "paperCount": 1,
-      "papers": [
-        "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
-      ]
-    },
-    {
       "a": "yann-lecun",
       "b": "yuexiang-zhai",
       "paperCount": 2,
       "papers": [
         "Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning",
         "Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs"
-      ]
-    },
-    {
-      "a": "li-jing",
-      "b": "michael-rabbat",
-      "paperCount": 2,
-      "papers": [
-        "Contrastive Positive Unlabeled Learning",
-        "Positive Unlabeled Contrastive Learning"
       ]
     },
     {
@@ -1164,6 +1185,16 @@
       ]
     },
     {
+      "a": "mahmoud-assran",
+      "b": "quentin-duval",
+      "paperCount": 3,
+      "papers": [
+        "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+        "The Hidden Uniform Cluster Prior in Self-Supervised Learning",
+        "The Diashow Paradox: Stronger 3D-Aware Representations Emerge from Image Sets, Not Videos Anonymous ICCV submission"
+      ]
+    },
+    {
       "a": "michael-rabbat",
       "b": "quentin-duval",
       "paperCount": 3,
@@ -1180,6 +1211,14 @@
       "papers": [
         "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
         "The Diashow Paradox: Stronger 3D-Aware Representations Emerge from Image Sets, Not Videos Anonymous ICCV submission"
+      ]
+    },
+    {
+      "a": "li-jing",
+      "b": "michael-rabbat",
+      "paperCount": 1,
+      "papers": [
+        "Positive Unlabeled Contrastive Learning"
       ]
     },
     {

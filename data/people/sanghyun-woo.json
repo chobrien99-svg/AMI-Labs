@@ -38,8 +38,12 @@
       "year": 2024,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2406.16860",
-      "citationCount": 962,
+      "citationCount": 1073,
       "coAuthors": [
+        {
+          "slug": "peter-tong",
+          "name": "Peter Tong"
+        },
         {
           "slug": "jihan-yang",
           "name": "Jihan Yang"
@@ -55,14 +59,6 @@
         {
           "slug": "saining-xie",
           "name": "Saining Xie"
-        },
-        {
-          "slug": "peter-tong",
-          "name": "Peter Tong"
-        },
-        {
-          "slug": null,
-          "name": "Shengbang Tong"
         },
         {
           "slug": null,
@@ -82,7 +78,7 @@
         },
         {
           "slug": null,
-          "name": "Shusheng Yang"
+          "name": "Shu-Sheng Yang"
         },
         {
           "slug": null,
@@ -90,11 +86,15 @@
         },
         {
           "slug": null,
-          "name": "Austin Wang"
+          "name": "Austin S. Wang"
         },
         {
           "slug": null,
           "name": "Rob Fergus"
+        },
+        {
+          "slug": null,
+          "name": "Sai-Ning Xie"
         }
       ]
     },
@@ -1180,6 +1180,11 @@
         "sharedPapers": 2
       },
       {
+        "slug": "peter-tong",
+        "name": "Peter Tong",
+        "sharedPapers": 1
+      },
+      {
         "slug": "jihan-yang",
         "name": "Jihan Yang",
         "sharedPapers": 1
@@ -1192,11 +1197,6 @@
       {
         "slug": "yann-lecun",
         "name": "Yann LeCun",
-        "sharedPapers": 1
-      },
-      {
-        "slug": "peter-tong",
-        "name": "Peter Tong",
         "sharedPapers": 1
       }
     ],
@@ -1262,10 +1262,6 @@
         "papers": 2
       },
       {
-        "name": "Shengbang Tong",
-        "papers": 1
-      },
-      {
         "name": "Ellis Brown",
         "papers": 1
       },
@@ -1282,7 +1278,7 @@
         "papers": 1
       },
       {
-        "name": "Shusheng Yang",
+        "name": "Shu-Sheng Yang",
         "papers": 1
       },
       {
@@ -1290,11 +1286,15 @@
         "papers": 1
       },
       {
-        "name": "Austin Wang",
+        "name": "Austin S. Wang",
         "papers": 1
       },
       {
         "name": "Rob Fergus",
+        "papers": 1
+      },
+      {
+        "name": "Sai-Ning Xie",
         "papers": 1
       },
       {

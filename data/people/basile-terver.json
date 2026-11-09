@@ -32,7 +32,7 @@
       "year": 2026,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/1b793cc81165f84d9b3fdd10b43451761b12170f",
-      "citationCount": 0,
+      "citationCount": 7,
       "coAuthors": [
         {
           "slug": "yann-lecun",
@@ -76,11 +76,15 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2604.03208",
-      "citationCount": 20,
+      "citationCount": 56,
       "coAuthors": [
         {
           "slug": "artem-zholus",
           "name": "Artem Zholus"
+        },
+        {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
         },
         {
           "slug": "amir-bar",
@@ -95,12 +99,8 @@
           "name": "Yann LeCun"
         },
         {
-          "slug": "mahmoud-assran",
-          "name": "Mahmoud Assran"
-        },
-        {
           "slug": null,
-          "name": "Wancong Zhang"
+          "name": "Wan-Cong Zhang"
         },
         {
           "slug": null,
@@ -109,10 +109,6 @@
         {
           "slug": null,
           "name": "Harsh Sutaria"
-        },
-        {
-          "slug": null,
-          "name": "Mido Assran"
         },
         {
           "slug": null,
@@ -130,7 +126,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.03604",
-      "citationCount": 12,
+      "citationCount": 20,
       "coAuthors": [
         {
           "slug": "megi-dervishi",
@@ -145,16 +141,16 @@
           "name": "Quentin Garrido"
         },
         {
-          "slug": "michael-rabbat",
-          "name": "Michael Rabbat"
-        },
-        {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
         },
         {
           "slug": "amir-bar",
           "name": "Amir Bar"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
         },
         {
           "slug": null,
@@ -170,7 +166,11 @@
         },
         {
           "slug": null,
-          "name": "Wancong Zhang"
+          "name": "Wan-Cong Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Michael G. Rabbat"
         }
       ]
     },
@@ -180,7 +180,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.05230",
-      "citationCount": 41,
+      "citationCount": 62,
       "coAuthors": [
         {
           "slug": "quentin-garrido",
@@ -201,6 +201,10 @@
         {
           "slug": null,
           "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Michael G. Rabbat"
         }
       ]
     },
@@ -210,7 +214,7 @@
       "year": 2025,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2512.24497",
-      "citationCount": 33,
+      "citationCount": 64,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -236,7 +240,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2507.19468",
-      "citationCount": 56,
+      "citationCount": 70,
       "coAuthors": [
         {
           "slug": "yann-lecun",
@@ -268,7 +272,7 @@
         },
         {
           "slug": null,
-          "name": "Piotr Bojanowski"
+          "name": "P. Bojanowski"
         }
       ]
     },
@@ -278,19 +282,19 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.22355",
-      "citationCount": 84,
+      "citationCount": 94,
       "coAuthors": [
         {
           "slug": "pascale-fung",
           "name": "Pascale Fung"
         },
         {
-          "slug": "delong-chen",
-          "name": "Delong Chen"
-        },
-        {
           "slug": "willy-chung",
           "name": "Willy Chung"
+        },
+        {
+          "slug": "delong-chen",
+          "name": "Delong Chen"
         },
         {
           "slug": null,
@@ -306,7 +310,15 @@
         },
         {
           "slug": null,
+          "name": "De-Long Chen"
+        },
+        {
+          "slug": null,
           "name": "Emmanuel Dupoux"
+        },
+        {
+          "slug": null,
+          "name": "Hong-Yu Gong"
         },
         {
           "slug": null,
@@ -334,6 +346,10 @@
         },
         {
           "slug": null,
+          "name": "L. Morency"
+        },
+        {
+          "slug": null,
           "name": "Théo Moutakanni"
         },
         {
@@ -346,6 +362,10 @@
         },
         {
           "slug": null,
+          "name": "Paden D. Tomasello"
+        },
+        {
+          "slug": null,
           "name": "J. Malik"
         }
       ]
@@ -354,9 +374,9 @@
       "paperId": "66502329bc402a58b8d02c778dc5b37e2498c8c0",
       "title": "Dual Perspectives on Non-Contrastive Self-Supervised Learning",
       "year": 2025,
-      "venue": "arXiv.org",
+      "venue": "International Conference on Learning Representations",
       "url": "https://doi.org/10.48550/arXiv.2507.01028",
-      "citationCount": 3,
+      "citationCount": 6,
       "coAuthors": [
         {
           "slug": null,
@@ -365,6 +385,10 @@
         {
           "slug": null,
           "name": "Martial Hebert"
+        },
+        {
+          "slug": null,
+          "name": "M. Arbel"
         }
       ]
     },
@@ -382,7 +406,7 @@
         },
         {
           "slug": null,
-          "name": "Th'eo Saulus"
+          "name": "Théo Saulus"
         },
         {
           "slug": null,
@@ -443,7 +467,7 @@
     {
       "title": "What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?",
       "year": 2025,
-      "citationCount": 63,
+      "citationCount": 64,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2512.24497"
     },
@@ -466,7 +490,7 @@
   "githubActivity": {
     "username": "Basile-Terv",
     "githubUrl": "https://github.com/Basile-Terv",
-    "recentEventCount": 1
+    "recentEventCount": 2
   },
   "news": [
     {
@@ -541,17 +565,25 @@
         "sharedPapers": 1
       },
       {
-        "slug": "delong-chen",
-        "name": "Delong Chen",
+        "slug": "willy-chung",
+        "name": "Willy Chung",
         "sharedPapers": 1
       },
       {
-        "slug": "willy-chung",
-        "name": "Willy Chung",
+        "slug": "delong-chen",
+        "name": "Delong Chen",
         "sharedPapers": 1
       }
     ],
     "externalCoAuthors": [
+      {
+        "name": "Wan-Cong Zhang",
+        "papers": 3
+      },
+      {
+        "name": "Michael G. Rabbat",
+        "papers": 3
+      },
       {
         "name": "Randall Balestriero",
         "papers": 3
@@ -561,24 +593,12 @@
         "papers": 3
       },
       {
-        "name": "Wancong Zhang",
-        "papers": 2
-      },
-      {
         "name": "Nicolas Ballas",
         "papers": 2
       },
       {
         "name": "Tushar Nagarajan",
         "papers": 2
-      },
-      {
-        "name": "Wan-Cong Zhang",
-        "papers": 1
-      },
-      {
-        "name": "Michael G. Rabbat",
-        "papers": 1
       },
       {
         "name": "Michael Arbel",
@@ -590,10 +610,6 @@
       },
       {
         "name": "Harsh Sutaria",
-        "papers": 1
-      },
-      {
-        "name": "Mido Assran",
         "papers": 1
       },
       {
@@ -629,7 +645,7 @@
         "papers": 1
       },
       {
-        "name": "Piotr Bojanowski",
+        "name": "P. Bojanowski",
         "papers": 1
       },
       {
@@ -645,7 +661,15 @@
         "papers": 1
       },
       {
+        "name": "De-Long Chen",
+        "papers": 1
+      },
+      {
         "name": "Emmanuel Dupoux",
+        "papers": 1
+      },
+      {
+        "name": "Hong-Yu Gong",
         "papers": 1
       },
       {
@@ -673,6 +697,10 @@
         "papers": 1
       },
       {
+        "name": "L. Morency",
+        "papers": 1
+      },
+      {
         "name": "Théo Moutakanni",
         "papers": 1
       },
@@ -685,6 +713,10 @@
         "papers": 1
       },
       {
+        "name": "Paden D. Tomasello",
+        "papers": 1
+      },
+      {
         "name": "J. Malik",
         "papers": 1
       },
@@ -693,11 +725,15 @@
         "papers": 1
       },
       {
+        "name": "M. Arbel",
+        "papers": 1
+      },
+      {
         "name": "Ali Ramlaoui",
         "papers": 1
       },
       {
-        "name": "Th'eo Saulus",
+        "name": "Théo Saulus",
         "papers": 1
       },
       {

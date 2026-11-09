@@ -43,7 +43,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2604.03208",
-      "citationCount": 20,
+      "citationCount": 56,
       "coAuthors": [
         {
           "slug": "basile-terver",
@@ -54,6 +54,10 @@
           "name": "Artem Zholus"
         },
         {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
+        },
+        {
           "slug": "adrien-bardes",
           "name": "Adrien Bardes"
         },
@@ -62,12 +66,8 @@
           "name": "Yann LeCun"
         },
         {
-          "slug": "mahmoud-assran",
-          "name": "Mahmoud Assran"
-        },
-        {
           "slug": null,
-          "name": "Wancong Zhang"
+          "name": "Wan-Cong Zhang"
         },
         {
           "slug": null,
@@ -76,10 +76,6 @@
         {
           "slug": null,
           "name": "Harsh Sutaria"
-        },
-        {
-          "slug": null,
-          "name": "Mido Assran"
         },
         {
           "slug": null,
@@ -95,17 +91,17 @@
       "paperId": "42ca8bd0ae408eff0d3bd9f5e121f792876e83ea",
       "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
       "year": 2026,
-      "venue": "arXiv.org",
+      "venue": "European Conference on Computer Vision",
       "url": "https://doi.org/10.48550/arXiv.2603.14482",
-      "citationCount": 72,
+      "citationCount": 161,
       "coAuthors": [
         {
           "slug": "matthew-muckley",
           "name": "Matthew Muckley"
         },
         {
-          "slug": "michael-rabbat",
-          "name": "Michael Rabbat"
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
         },
         {
           "slug": "yann-lecun",
@@ -116,8 +112,8 @@
           "name": "Adrien Bardes"
         },
         {
-          "slug": "mahmoud-assran",
-          "name": "Mahmoud Assran"
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
         },
         {
           "slug": null,
@@ -125,11 +121,11 @@
         },
         {
           "slug": null,
-          "name": "Mido Assran"
+          "name": "Koustuv Sinha"
         },
         {
           "slug": null,
-          "name": "Koustuv Sinha"
+          "name": "Michael G. Rabbat"
         },
         {
           "slug": null,
@@ -143,7 +139,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276",
-      "citationCount": 31,
+      "citationCount": 44,
       "coAuthors": [
         {
           "slug": "david-fan",
@@ -175,7 +171,7 @@
         },
         {
           "slug": null,
-          "name": "Gaoyue Zhou"
+          "name": "Gao-Yue Zhou"
         },
         {
           "slug": null,
@@ -224,6 +220,10 @@
         {
           "slug": null,
           "name": "Koustuv Sinha"
+        },
+        {
+          "slug": null,
+          "name": "Sai-Ning Xie"
         }
       ]
     },
@@ -233,7 +233,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.03604",
-      "citationCount": 12,
+      "citationCount": 20,
       "coAuthors": [
         {
           "slug": "basile-terver",
@@ -252,12 +252,12 @@
           "name": "Quentin Garrido"
         },
         {
-          "slug": "michael-rabbat",
-          "name": "Michael Rabbat"
-        },
-        {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
         },
         {
           "slug": null,
@@ -273,7 +273,11 @@
         },
         {
           "slug": null,
-          "name": "Wancong Zhang"
+          "name": "Wan-Cong Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Michael G. Rabbat"
         }
       ]
     },
@@ -309,19 +313,19 @@
       "year": 2025,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/088a45338d45f05f6a7460fb152615fb96150f6e",
-      "citationCount": 17,
+      "citationCount": 30,
       "coAuthors": [
         {
           "slug": "david-fan",
           "name": "David Fan"
         },
         {
-          "slug": "michael-rabbat",
-          "name": "Michael Rabbat"
-        },
-        {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
         },
         {
           "slug": null,
@@ -333,11 +337,15 @@
         },
         {
           "slug": null,
-          "name": "Gaoyue Zhou"
+          "name": "Gao-Yue Zhou"
         },
         {
           "slug": null,
           "name": "P. Krishnamurthy"
+        },
+        {
+          "slug": null,
+          "name": "Michael G. Rabbat"
         },
         {
           "slug": null,
@@ -424,40 +432,78 @@
       ]
     },
     {
-      "paperId": "aa5d0f6a14a9da689de842f6af61021e6d91aadf",
-      "title": "Scaling Language-Free Visual Representation Learning",
+      "paperId": "d06c7100edb5baaf271e7f7099dfae5a46ee178a",
+      "title": "World Models Can Leverage Human Videos for Dexterous Manipulation",
       "year": 2025,
-      "venue": "IEEE International Conference on Computer Vision",
-      "url": "https://doi.org/10.1109/ICCV51701.2025.00042",
-      "citationCount": 68,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2512.13644",
+      "citationCount": 13,
       "coAuthors": [
         {
           "slug": "david-fan",
           "name": "David Fan"
         },
         {
-          "slug": "michael-rabbat",
-          "name": "Michael Rabbat"
-        },
-        {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
         },
         {
-          "slug": "saining-xie",
-          "name": "Saining Xie"
+          "slug": null,
+          "name": "Raktim Gautam Goswami"
+        },
+        {
+          "slug": null,
+          "name": "Tsung-Yen Yang"
+        },
+        {
+          "slug": null,
+          "name": "Gao-Yue Zhou"
+        },
+        {
+          "slug": null,
+          "name": "P. Krishnamurthy"
+        },
+        {
+          "slug": null,
+          "name": "Michael G. Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "F. Khorrami"
+        }
+      ]
+    },
+    {
+      "paperId": "aa5d0f6a14a9da689de842f6af61021e6d91aadf",
+      "title": "Scaling Language-Free Visual Representation Learning",
+      "year": 2025,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV51701.2025.00042",
+      "citationCount": 79,
+      "coAuthors": [
+        {
+          "slug": "david-fan",
+          "name": "David Fan"
         },
         {
           "slug": "peter-tong",
           "name": "Peter Tong"
         },
         {
-          "slug": null,
-          "name": "Shengbang Tong"
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
         },
         {
           "slug": null,
-          "name": "Jiacheng Zhu"
+          "name": "Jia-Cheng Zhu"
         },
         {
           "slug": null,
@@ -473,7 +519,15 @@
         },
         {
           "slug": null,
+          "name": "Michael G. Rabbat"
+        },
+        {
+          "slug": null,
           "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Sai-Ning Xie"
         }
       ]
     },
@@ -516,6 +570,88 @@
         {
           "slug": null,
           "name": "A. Globerson"
+        }
+      ]
+    },
+    {
+      "paperId": "ea89708b7d29491fed1bb44dbb31322783ce815f",
+      "title": "A Cookbook of Self-Supervised Learning",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2304.12210",
+      "citationCount": 416,
+      "coAuthors": [
+        {
+          "slug": "adrien-bardes",
+          "name": "Adrien Bardes"
+        },
+        {
+          "slug": "quentin-garrido",
+          "name": "Quentin Garrido"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Mark Ibrahim"
+        },
+        {
+          "slug": null,
+          "name": "V. Sobal"
+        },
+        {
+          "slug": null,
+          "name": "Ari S. Morcos"
+        },
+        {
+          "slug": null,
+          "name": "Shashank Shekhar"
+        },
+        {
+          "slug": null,
+          "name": "T. Goldstein"
+        },
+        {
+          "slug": null,
+          "name": "Florian Bordes"
+        },
+        {
+          "slug": null,
+          "name": "G. Mialon"
+        },
+        {
+          "slug": null,
+          "name": "Yuan-Dong Tian"
+        },
+        {
+          "slug": null,
+          "name": "Avi Schwarzschild"
+        },
+        {
+          "slug": null,
+          "name": "A. Wilson"
+        },
+        {
+          "slug": null,
+          "name": "Jonas Geiping"
+        },
+        {
+          "slug": null,
+          "name": "Pierre Fernandez"
+        },
+        {
+          "slug": null,
+          "name": "H. Pirsiavash"
+        },
+        {
+          "slug": null,
+          "name": "Micah Goldblum"
         }
       ]
     },
@@ -669,7 +805,7 @@
       {
         "slug": "yann-lecun",
         "name": "Yann LeCun",
-        "sharedPapers": 9
+        "sharedPapers": 11
       },
       {
         "slug": "michael-rabbat",
@@ -679,16 +815,21 @@
       {
         "slug": "david-fan",
         "name": "David Fan",
-        "sharedPapers": 4
+        "sharedPapers": 5
       },
       {
         "slug": "adrien-bardes",
         "name": "Adrien Bardes",
-        "sharedPapers": 3
+        "sharedPapers": 4
       },
       {
         "slug": "mahmoud-assran",
         "name": "Mahmoud Assran",
+        "sharedPapers": 3
+      },
+      {
+        "slug": "quentin-garrido",
+        "name": "Quentin Garrido",
         "sharedPapers": 3
       },
       {
@@ -704,11 +845,6 @@
       {
         "slug": "saining-xie",
         "name": "Saining Xie",
-        "sharedPapers": 2
-      },
-      {
-        "slug": "quentin-garrido",
-        "name": "Quentin Garrido",
         "sharedPapers": 2
       },
       {
@@ -743,27 +879,27 @@
         "papers": 5
       },
       {
+        "name": "Michael G. Rabbat",
+        "papers": 5
+      },
+      {
+        "name": "Randall Balestriero",
+        "papers": 4
+      },
+      {
         "name": "Koustuv Sinha",
         "papers": 4
       },
       {
-        "name": "Randall Balestriero",
+        "name": "Gao-Yue Zhou",
         "papers": 3
       },
       {
-        "name": "Wancong Zhang",
-        "papers": 2
+        "name": "Florian Bordes",
+        "papers": 3
       },
       {
-        "name": "Mido Assran",
-        "papers": 2
-      },
-      {
-        "name": "Shengbang Tong",
-        "papers": 2
-      },
-      {
-        "name": "Gaoyue Zhou",
+        "name": "Wan-Cong Zhang",
         "papers": 2
       },
       {
@@ -779,7 +915,67 @@
         "papers": 2
       },
       {
-        "name": "Florian Bordes",
+        "name": "Sai-Ning Xie",
+        "papers": 2
+      },
+      {
+        "name": "Raktim Gautam Goswami",
+        "papers": 2
+      },
+      {
+        "name": "Tsung-Yen Yang",
+        "papers": 2
+      },
+      {
+        "name": "P. Krishnamurthy",
+        "papers": 2
+      },
+      {
+        "name": "F. Khorrami",
+        "papers": 2
+      },
+      {
+        "name": "Mark Ibrahim",
+        "papers": 2
+      },
+      {
+        "name": "Ari S. Morcos",
+        "papers": 2
+      },
+      {
+        "name": "Shashank Shekhar",
+        "papers": 2
+      },
+      {
+        "name": "T. Goldstein",
+        "papers": 2
+      },
+      {
+        "name": "G. Mialon",
+        "papers": 2
+      },
+      {
+        "name": "Avi Schwarzschild",
+        "papers": 2
+      },
+      {
+        "name": "A. Wilson",
+        "papers": 2
+      },
+      {
+        "name": "Jonas Geiping",
+        "papers": 2
+      },
+      {
+        "name": "Pierre Fernandez",
+        "papers": 2
+      },
+      {
+        "name": "H. Pirsiavash",
+        "papers": 2
+      },
+      {
+        "name": "Micah Goldblum",
         "papers": 2
       },
       {
@@ -792,6 +988,10 @@
       },
       {
         "name": "Lorenzo Mur-Labadia",
+        "papers": 1
+      },
+      {
+        "name": "Shengbang Tong",
         "papers": 1
       },
       {
@@ -836,22 +1036,6 @@
       },
       {
         "name": "Aditi Krishnapriyan",
-        "papers": 1
-      },
-      {
-        "name": "Raktim Gautam Goswami",
-        "papers": 1
-      },
-      {
-        "name": "Tsung-Yen Yang",
-        "papers": 1
-      },
-      {
-        "name": "P. Krishnamurthy",
-        "papers": 1
-      },
-      {
-        "name": "F. Khorrami",
         "papers": 1
       },
       {
@@ -903,7 +1087,7 @@
         "papers": 1
       },
       {
-        "name": "Jiacheng Zhu",
+        "name": "Jia-Cheng Zhu",
         "papers": 1
       },
       {
@@ -931,7 +1115,11 @@
         "papers": 1
       },
       {
-        "name": "Mark Ibrahim",
+        "name": "V. Sobal",
+        "papers": 1
+      },
+      {
+        "name": "Yuan-Dong Tian",
         "papers": 1
       },
       {
@@ -939,47 +1127,7 @@
         "papers": 1
       },
       {
-        "name": "Ari S. Morcos",
-        "papers": 1
-      },
-      {
-        "name": "Shashank Shekhar",
-        "papers": 1
-      },
-      {
-        "name": "T. Goldstein",
-        "papers": 1
-      },
-      {
-        "name": "G. Mialon",
-        "papers": 1
-      },
-      {
         "name": "Yuandong Tian",
-        "papers": 1
-      },
-      {
-        "name": "Avi Schwarzschild",
-        "papers": 1
-      },
-      {
-        "name": "A. Wilson",
-        "papers": 1
-      },
-      {
-        "name": "Jonas Geiping",
-        "papers": 1
-      },
-      {
-        "name": "Pierre Fernandez",
-        "papers": 1
-      },
-      {
-        "name": "H. Pirsiavash",
-        "papers": 1
-      },
-      {
-        "name": "Micah Goldblum",
         "papers": 1
       }
     ],

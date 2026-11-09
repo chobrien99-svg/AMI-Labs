@@ -35,7 +35,7 @@
       "paperId": "e853967245079e097de13475b229d16988065719",
       "title": "The Tale of the Broken Clock: How LLMs Evaluate Requirement Quality and Where They Fail",
       "year": 2026,
-      "venue": null,
+      "venue": "INCOSE International Symposium",
       "url": "https://doi.org/10.1002/iis2.70245",
       "citationCount": 0,
       "coAuthors": [
@@ -55,7 +55,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2604.21776",
-      "citationCount": 2,
+      "citationCount": 4,
       "coAuthors": [
         {
           "slug": null,
@@ -81,7 +81,7 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2511.15757",
-      "citationCount": 2,
+      "citationCount": 3,
       "coAuthors": [
         {
           "slug": null,
@@ -105,7 +105,7 @@
         },
         {
           "slug": null,
-          "name": "Zhiyun Qian"
+          "name": "Zhi-Yun Qian"
         }
       ]
     },
@@ -115,8 +115,12 @@
       "year": 2024,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2406.16860",
-      "citationCount": 962,
+      "citationCount": 1073,
       "coAuthors": [
+        {
+          "slug": "peter-tong",
+          "name": "Peter Tong"
+        },
         {
           "slug": "sanghyun-woo",
           "name": "Sanghyun Woo"
@@ -132,14 +136,6 @@
         {
           "slug": "saining-xie",
           "name": "Saining Xie"
-        },
-        {
-          "slug": "peter-tong",
-          "name": "Peter Tong"
-        },
-        {
-          "slug": null,
-          "name": "Shengbang Tong"
         },
         {
           "slug": null,
@@ -159,7 +155,7 @@
         },
         {
           "slug": null,
-          "name": "Shusheng Yang"
+          "name": "Shu-Sheng Yang"
         },
         {
           "slug": null,
@@ -167,11 +163,15 @@
         },
         {
           "slug": null,
-          "name": "Austin Wang"
+          "name": "Austin S. Wang"
         },
         {
           "slug": null,
           "name": "Rob Fergus"
+        },
+        {
+          "slug": null,
+          "name": "Sai-Ning Xie"
         }
       ]
     },
@@ -215,7 +215,7 @@
         },
         {
           "slug": null,
-          "name": "Sarath Kumaar J"
+          "name": "S. J"
         },
         {
           "slug": null,
@@ -232,7 +232,7 @@
     {
       "title": "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
       "year": 2024,
-      "citationCount": 1061,
+      "citationCount": 1073,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2406.16860"
     },
@@ -283,6 +283,11 @@
   "connections": {
     "coAuthors": [
       {
+        "slug": "peter-tong",
+        "name": "Peter Tong",
+        "sharedPapers": 1
+      },
+      {
         "slug": "sanghyun-woo",
         "name": "Sanghyun Woo",
         "sharedPapers": 1
@@ -300,11 +305,6 @@
       {
         "slug": "saining-xie",
         "name": "Saining Xie",
-        "sharedPapers": 1
-      },
-      {
-        "slug": "peter-tong",
-        "name": "Peter Tong",
         "sharedPapers": 1
       }
     ],
@@ -354,11 +354,7 @@
         "papers": 1
       },
       {
-        "name": "Zhiyun Qian",
-        "papers": 1
-      },
-      {
-        "name": "Shengbang Tong",
+        "name": "Zhi-Yun Qian",
         "papers": 1
       },
       {
@@ -378,7 +374,7 @@
         "papers": 1
       },
       {
-        "name": "Shusheng Yang",
+        "name": "Shu-Sheng Yang",
         "papers": 1
       },
       {
@@ -386,11 +382,15 @@
         "papers": 1
       },
       {
-        "name": "Austin Wang",
+        "name": "Austin S. Wang",
         "papers": 1
       },
       {
         "name": "Rob Fergus",
+        "papers": 1
+      },
+      {
+        "name": "Sai-Ning Xie",
         "papers": 1
       },
       {
@@ -414,7 +414,7 @@
         "papers": 1
       },
       {
-        "name": "Sarath Kumaar J",
+        "name": "S. J",
         "papers": 1
       },
       {

@@ -40,9 +40,9 @@
       "paperId": "bbb2fba52c4d7d3b29f58a5e136d012acdc2010d",
       "title": "MJEPA: A Simple and Scalable Joint-Embedding Predictive Architecture for Audio-Visual Learning",
       "year": 2026,
-      "venue": "arXiv.org",
+      "venue": "European Conference on Computer Vision",
       "url": "https://doi.org/10.48550/arXiv.2606.25225",
-      "citationCount": 0,
+      "citationCount": 3,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -70,9 +70,9 @@
       "paperId": "42ca8bd0ae408eff0d3bd9f5e121f792876e83ea",
       "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
       "year": 2026,
-      "venue": "arXiv.org",
+      "venue": "European Conference on Computer Vision",
       "url": "https://doi.org/10.48550/arXiv.2603.14482",
-      "citationCount": 72,
+      "citationCount": 161,
       "coAuthors": [
         {
           "slug": "matthew-muckley",
@@ -83,6 +83,10 @@
           "name": "Amir Bar"
         },
         {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
+        },
+        {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
         },
@@ -91,20 +95,16 @@
           "name": "Adrien Bardes"
         },
         {
-          "slug": "mahmoud-assran",
-          "name": "Mahmoud Assran"
-        },
-        {
           "slug": null,
           "name": "Lorenzo Mur-Labadia"
         },
         {
           "slug": null,
-          "name": "Mido Assran"
+          "name": "Koustuv Sinha"
         },
         {
           "slug": null,
-          "name": "Koustuv Sinha"
+          "name": "Michael G. Rabbat"
         },
         {
           "slug": null,
@@ -118,7 +118,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.03276",
-      "citationCount": 31,
+      "citationCount": 44,
       "coAuthors": [
         {
           "slug": "david-fan",
@@ -150,7 +150,7 @@
         },
         {
           "slug": null,
-          "name": "Gaoyue Zhou"
+          "name": "Gao-Yue Zhou"
         },
         {
           "slug": null,
@@ -199,6 +199,10 @@
         {
           "slug": null,
           "name": "Koustuv Sinha"
+        },
+        {
+          "slug": null,
+          "name": "Sai-Ning Xie"
         }
       ]
     },
@@ -246,7 +250,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.03604",
-      "citationCount": 12,
+      "citationCount": 20,
       "coAuthors": [
         {
           "slug": "basile-terver",
@@ -286,7 +290,11 @@
         },
         {
           "slug": null,
-          "name": "Wancong Zhang"
+          "name": "Wan-Cong Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Michael G. Rabbat"
         }
       ]
     },
@@ -322,7 +330,7 @@
       "year": 2026,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2601.05230",
-      "citationCount": 41,
+      "citationCount": 62,
       "coAuthors": [
         {
           "slug": "quentin-garrido",
@@ -343,6 +351,10 @@
         {
           "slug": null,
           "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Michael G. Rabbat"
         }
       ]
     },
@@ -352,7 +364,7 @@
       "year": 2025,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/088a45338d45f05f6a7460fb152615fb96150f6e",
-      "citationCount": 17,
+      "citationCount": 30,
       "coAuthors": [
         {
           "slug": "amir-bar",
@@ -376,11 +388,15 @@
         },
         {
           "slug": null,
-          "name": "Gaoyue Zhou"
+          "name": "Gao-Yue Zhou"
         },
         {
           "slug": null,
           "name": "P. Krishnamurthy"
+        },
+        {
+          "slug": null,
+          "name": "Michael G. Rabbat"
         },
         {
           "slug": null,
@@ -394,8 +410,12 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2506.09985",
-      "citationCount": 683,
+      "citationCount": 1050,
       "coAuthors": [
+        {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
+        },
         {
           "slug": "adrien-bardes",
           "name": "Adrien Bardes"
@@ -419,14 +439,6 @@
         {
           "slug": "yann-lecun",
           "name": "Yann LeCun"
-        },
-        {
-          "slug": "mahmoud-assran",
-          "name": "Mahmoud Assran"
-        },
-        {
-          "slug": null,
-          "name": "Mahmoud Assran"
         },
         {
           "slug": null,
@@ -462,7 +474,7 @@
         },
         {
           "slug": null,
-          "name": "Francois Hogan"
+          "name": "F. Hogan"
         },
         {
           "slug": null,
@@ -470,7 +482,7 @@
         },
         {
           "slug": null,
-          "name": "Piotr Bojanowski"
+          "name": "P. Bojanowski"
         },
         {
           "slug": null,
@@ -502,7 +514,7 @@
         },
         {
           "slug": null,
-          "name": "Sarath Chandar"
+          "name": "A. P. Sarath Chandar"
         },
         {
           "slug": null,
@@ -510,23 +522,11 @@
         },
         {
           "slug": null,
+          "name": "Michael G. Rabbat"
+        },
+        {
+          "slug": null,
           "name": "Nicolas Ballas"
-        },
-        {
-          "slug": null,
-          "name": "Fair at Meta"
-        },
-        {
-          "slug": null,
-          "name": "M. Québec"
-        },
-        {
-          "slug": null,
-          "name": "AI Institute"
-        },
-        {
-          "slug": null,
-          "name": "Polytechnique Montr'eal"
         }
       ]
     },
@@ -566,11 +566,15 @@
       "year": 2025,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.00042",
-      "citationCount": 68,
+      "citationCount": 79,
       "coAuthors": [
         {
           "slug": "david-fan",
           "name": "David Fan"
+        },
+        {
+          "slug": "peter-tong",
+          "name": "Peter Tong"
         },
         {
           "slug": "yann-lecun",
@@ -585,16 +589,8 @@
           "name": "Saining Xie"
         },
         {
-          "slug": "peter-tong",
-          "name": "Peter Tong"
-        },
-        {
           "slug": null,
-          "name": "Shengbang Tong"
-        },
-        {
-          "slug": null,
-          "name": "Jiacheng Zhu"
+          "name": "Jia-Cheng Zhu"
         },
         {
           "slug": null,
@@ -610,7 +606,15 @@
         },
         {
           "slug": null,
+          "name": "Michael G. Rabbat"
+        },
+        {
+          "slug": null,
           "name": "Nicolas Ballas"
+        },
+        {
+          "slug": null,
+          "name": "Sai-Ning Xie"
         }
       ]
     },
@@ -620,11 +624,15 @@
       "year": 2025,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2502.11831",
-      "citationCount": 73,
+      "citationCount": 94,
       "coAuthors": [
         {
           "slug": "quentin-garrido",
           "name": "Quentin Garrido"
+        },
+        {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
         },
         {
           "slug": "adrien-bardes",
@@ -637,10 +645,6 @@
         {
           "slug": null,
           "name": "Nicolas Ballas"
-        },
-        {
-          "slug": null,
-          "name": "Mahmoud Assran"
         },
         {
           "slug": null,
@@ -658,8 +662,12 @@
       "year": 2024,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51701.2025.01579",
-      "citationCount": 229,
+      "citationCount": 246,
       "coAuthors": [
+        {
+          "slug": "peter-tong",
+          "name": "Peter Tong"
+        },
         {
           "slug": "david-fan",
           "name": "David Fan"
@@ -673,20 +681,12 @@
           "name": "Saining Xie"
         },
         {
-          "slug": "peter-tong",
-          "name": "Peter Tong"
+          "slug": null,
+          "name": "Jia-Cheng Zhu"
         },
         {
           "slug": null,
-          "name": "Shengbang Tong"
-        },
-        {
-          "slug": null,
-          "name": "Jiacheng Zhu"
-        },
-        {
-          "slug": null,
-          "name": "Yunyang Xiong"
+          "name": "Yun-Yang Xiong"
         },
         {
           "slug": null,
@@ -695,6 +695,14 @@
         {
           "slug": null,
           "name": "Koustuv Sinha"
+        },
+        {
+          "slug": null,
+          "name": "Michael G. Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Sai-Ning Xie"
         },
         {
           "slug": null,
@@ -708,7 +716,7 @@
       "year": 2024,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2404.08471",
-      "citationCount": 487,
+      "citationCount": 700,
       "coAuthors": [
         {
           "slug": "adrien-bardes",
@@ -736,10 +744,6 @@
         },
         {
           "slug": null,
-          "name": "Mido Assran"
-        },
-        {
-          "slug": null,
           "name": "Nicolas Ballas"
         }
       ]
@@ -750,7 +754,7 @@
       "year": 2024,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/65f95ff2b1ca682f960c2e6edcd3fa281b831ee8",
-      "citationCount": 0,
+      "citationCount": 1,
       "coAuthors": [
         {
           "slug": null,
@@ -770,41 +774,11 @@
         },
         {
           "slug": null,
-          "name": "Sujay Sanghavi"
+          "name": "S. Sanghavi"
         },
         {
           "slug": null,
           "name": "Inderjit S. Dhillon"
-        }
-      ]
-    },
-    {
-      "paperId": "942c856469a6feee06c6c90c1571d6f4d3ebc65b",
-      "title": "Contrastive Positive Unlabeled Learning",
-      "year": 2023,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/942c856469a6feee06c6c90c1571d6f4d3ebc65b",
-      "citationCount": 0,
-      "coAuthors": [
-        {
-          "slug": "li-jing",
-          "name": "Li Jing"
-        },
-        {
-          "slug": null,
-          "name": "Anish Acharya"
-        },
-        {
-          "slug": null,
-          "name": "Sujay Sanghavi"
-        },
-        {
-          "slug": null,
-          "name": "Bhargav Bhushanam"
-        },
-        {
-          "slug": null,
-          "name": "I. Dhillon"
         }
       ]
     },
@@ -814,11 +788,11 @@
       "year": 2023,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2306.07179",
-      "citationCount": 53,
+      "citationCount": 63,
       "coAuthors": [
         {
           "slug": null,
-          "name": "George E. Dahl"
+          "name": "G. Dahl"
         },
         {
           "slug": null,
@@ -890,7 +864,7 @@
         },
         {
           "slug": null,
-          "name": "Kongtao Chen"
+          "name": "Kong-Tao Chen"
         },
         {
           "slug": null,
@@ -920,7 +894,7 @@
       "year": 2023,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2304.07193",
-      "citationCount": 10335,
+      "citationCount": 12025,
       "coAuthors": [
         {
           "slug": "mahmoud-assran",
@@ -968,10 +942,6 @@
         },
         {
           "slug": null,
-          "name": "Mahmoud Assran"
-        },
-        {
-          "slug": null,
           "name": "Nicolas Ballas"
         },
         {
@@ -1012,7 +982,7 @@
         },
         {
           "slug": null,
-          "name": "J. Mairal"
+          "name": "Julien Mairal"
         },
         {
           "slug": null,
@@ -1020,11 +990,11 @@
         },
         {
           "slug": null,
-          "name": "Armand Joulin"
+          "name": "A. Joulin"
         },
         {
           "slug": null,
-          "name": "Piotr Bojanowski"
+          "name": "P. Bojanowski"
         }
       ]
     },
@@ -1034,7 +1004,7 @@
       "year": 2023,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2303.14604",
-      "citationCount": 23,
+      "citationCount": 27,
       "coAuthors": [
         {
           "slug": null,
@@ -1080,8 +1050,12 @@
       "year": 2023,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01499",
-      "citationCount": 1206,
+      "citationCount": 1561,
       "coAuthors": [
+        {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
+        },
         {
           "slug": "quentin-duval",
           "name": "Quentin Duval"
@@ -1092,15 +1066,11 @@
         },
         {
           "slug": null,
-          "name": "Mahmoud Assran"
-        },
-        {
-          "slug": null,
           "name": "Ishan Misra"
         },
         {
           "slug": null,
-          "name": "Piotr Bojanowski"
+          "name": "P. Bojanowski"
         },
         {
           "slug": null,
@@ -1118,7 +1088,7 @@
       "year": 2022,
       "venue": "International Conference on Machine Learning",
       "url": "https://www.semanticscholar.org/paper/32de8d5e2c38506227300691ca07a56f640017fd",
-      "citationCount": 10,
+      "citationCount": 11,
       "coAuthors": [
         {
           "slug": null,
@@ -1152,7 +1122,7 @@
         },
         {
           "slug": null,
-          "name": "Shen Li"
+          "name": "Li Shen"
         },
         {
           "slug": null,
@@ -1174,7 +1144,7 @@
       "year": 2022,
       "venue": "International Conference on Learning Representations",
       "url": "https://doi.org/10.48550/arXiv.2210.08090",
-      "citationCount": 108,
+      "citationCount": 119,
       "coAuthors": [
         {
           "slug": "john-nguyen",
@@ -1200,15 +1170,15 @@
       "year": 2022,
       "venue": "International Conference on Learning Representations",
       "url": "https://doi.org/10.48550/arXiv.2210.07277",
-      "citationCount": 69,
+      "citationCount": 71,
       "coAuthors": [
+        {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
+        },
         {
           "slug": "quentin-duval",
           "name": "Quentin Duval"
-        },
-        {
-          "slug": null,
-          "name": "Mahmoud Assran"
         },
         {
           "slug": null,
@@ -1224,7 +1194,7 @@
         },
         {
           "slug": null,
-          "name": "Piotr Bojanowski"
+          "name": "P. Bojanowski"
         },
         {
           "slug": null,
@@ -1250,7 +1220,7 @@
         },
         {
           "slug": null,
-          "name": "Kamalika Chaudhuri"
+          "name": "K. Chaudhuri"
         },
         {
           "slug": null,
@@ -1286,7 +1256,7 @@
       "year": 2022,
       "venue": null,
       "url": "https://www.semanticscholar.org/paper/ae8598ad1b4a1828f9d4042b16c388565423542e",
-      "citationCount": 19,
+      "citationCount": 18,
       "coAuthors": [
         {
           "slug": "john-nguyen",
@@ -1303,10 +1273,6 @@
         {
           "slug": null,
           "name": "Maziar Sanjabi"
-        },
-        {
-          "slug": null,
-          "name": "AI Meta"
         }
       ]
     },
@@ -1316,7 +1282,7 @@
       "year": 2022,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2206.01206",
-      "citationCount": 17,
+      "citationCount": 18,
       "coAuthors": [
         {
           "slug": "li-jing",
@@ -1328,7 +1294,7 @@
         },
         {
           "slug": null,
-          "name": "Sujay Sanghavi"
+          "name": "S. Sanghavi"
         },
         {
           "slug": null,
@@ -1350,7 +1316,7 @@
       "year": 2022,
       "venue": "ACM Conference on Recommender Systems",
       "url": "https://doi.org/10.1145/3523227.3546759",
-      "citationCount": 44,
+      "citationCount": 46,
       "coAuthors": [
         {
           "slug": "john-nguyen",
@@ -1406,10 +1372,10 @@
       "year": 2022,
       "venue": "European Conference on Computer Vision",
       "url": "https://doi.org/10.48550/arXiv.2204.07141",
-      "citationCount": 442,
+      "citationCount": 459,
       "coAuthors": [
         {
-          "slug": null,
+          "slug": "mahmoud-assran",
           "name": "Mahmoud Assran"
         },
         {
@@ -1422,7 +1388,7 @@
         },
         {
           "slug": null,
-          "name": "Piotr Bojanowski"
+          "name": "P. Bojanowski"
         },
         {
           "slug": null,
@@ -1434,7 +1400,7 @@
         },
         {
           "slug": null,
-          "name": "Armand Joulin"
+          "name": "A. Joulin"
         },
         {
           "slug": null,
@@ -1448,7 +1414,7 @@
       "year": 2022,
       "venue": "International Conference on Machine Learning",
       "url": "https://doi.org/10.48550/arXiv.2204.03809",
-      "citationCount": 245,
+      "citationCount": 260,
       "coAuthors": [
         {
           "slug": null,
@@ -1477,8 +1443,8 @@
       "title": "Papaya: Practical, Private, and Scalable Federated Learning",
       "year": 2021,
       "venue": "Conference on Machine Learning and Systems",
-      "url": "https://www.semanticscholar.org/paper/b87b5797b661d6137301dd3167d573a94493936e",
-      "citationCount": 174,
+      "url": "https://doi.org/10.48550/arXiv.2111.04877",
+      "citationCount": 179,
       "coAuthors": [
         {
           "slug": "john-nguyen",
@@ -1539,7 +1505,7 @@
       "title": "Trade-offs of Local SGD at Scale: An Empirical Study",
       "year": 2021,
       "venue": "arXiv.org",
-      "url": "https://www.semanticscholar.org/paper/4c188c99cb75e065e025a74e87a68dd0f3ff0f84",
+      "url": "https://doi.org/10.48550/arXiv.2110.08133",
       "citationCount": 22,
       "coAuthors": [
         {
@@ -1565,8 +1531,8 @@
       "title": "Stochastic Polyak Stepsize with a Moving Target",
       "year": 2021,
       "venue": "arXiv.org",
-      "url": "https://www.semanticscholar.org/paper/e491775da2a28dd522c3b441d6ab57ad86ef3a3d",
-      "citationCount": 21,
+      "url": "https://doi.org/10.48550/arXiv.2106.11851",
+      "citationCount": 23,
       "coAuthors": [
         {
           "slug": null,
@@ -1583,8 +1549,8 @@
       "title": "Federated Learning with Buffered Asynchronous Aggregation",
       "year": 2021,
       "venue": "International Conference on Artificial Intelligence and Statistics",
-      "url": "https://www.semanticscholar.org/paper/38fca90fef15b226dbae8db408c5efe8066dde1c",
-      "citationCount": 492,
+      "url": "https://doi.org/10.48550/arXiv.2106.06639",
+      "citationCount": 520,
       "coAuthors": [
         {
           "slug": "john-nguyen",
@@ -1618,10 +1584,10 @@
       "year": 2021,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV48922.2021.00833",
-      "citationCount": 176,
+      "citationCount": 182,
       "coAuthors": [
         {
-          "slug": null,
+          "slug": "mahmoud-assran",
           "name": "Mahmoud Assran"
         },
         {
@@ -1634,11 +1600,11 @@
         },
         {
           "slug": null,
-          "name": "Piotr Bojanowski"
+          "name": "P. Bojanowski"
         },
         {
           "slug": null,
-          "name": "Armand Joulin"
+          "name": "A. Joulin"
         },
         {
           "slug": null,
@@ -1651,7 +1617,7 @@
       "title": "Learning with Gradient Descent and Weakly Convex Losses",
       "year": 2021,
       "venue": "International Conference on Artificial Intelligence and Statistics",
-      "url": "https://www.semanticscholar.org/paper/737a9dbb44e4ff1525d6be30eecb977317d5793d",
+      "url": "https://doi.org/10.48550/arXiv.2101.04968",
       "citationCount": 19,
       "coAuthors": [
         {
@@ -1665,8 +1631,8 @@
       "title": "CPR: Understanding and Improving Failure Tolerant Training for Deep Learning Recommendation with Partial Recovery",
       "year": 2020,
       "venue": "Conference on Machine Learning and Systems",
-      "url": "https://www.semanticscholar.org/paper/b063020be00405c8f7c0d05d02a214a103f2a8d8",
-      "citationCount": 49,
+      "url": "https://doi.org/10.48550/arXiv.2011.02999",
+      "citationCount": 51,
       "coAuthors": [
         {
           "slug": null,
@@ -1698,7 +1664,7 @@
         },
         {
           "slug": null,
-          "name": "Jiyan Yang"
+          "name": "Ji-Yan Yang"
         },
         {
           "slug": null,
@@ -1711,13 +1677,17 @@
       ]
     },
     {
-      "paperId": "b090cfc2179a789e7aeb684ee8c85e71bcbd4aa0",
+      "paperId": "c8455dcd1b5b75da175fc254b25e07e522594fad",
       "title": "A Closer Look at Codistillation for Distributed Training",
       "year": 2020,
       "venue": "arXiv.org",
-      "url": "https://www.semanticscholar.org/paper/b090cfc2179a789e7aeb684ee8c85e71bcbd4aa0",
+      "url": "https://doi.org/10.48550/arXiv.2010.02838",
       "citationCount": 8,
       "coAuthors": [
+        {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
+        },
         {
           "slug": null,
           "name": "Shagun Sodhani"
@@ -1725,10 +1695,6 @@
         {
           "slug": null,
           "name": "Olivier Delalleau"
-        },
-        {
-          "slug": null,
-          "name": "Mahmoud Assran"
         },
         {
           "slug": null,
@@ -1746,7 +1712,7 @@
       "year": 2020,
       "venue": "AJR. American journal of roentgenology",
       "url": "https://doi.org/10.2214/ajr.20.23313",
-      "citationCount": 131,
+      "citationCount": 135,
       "coAuthors": [
         {
           "slug": "matthew-muckley",
@@ -1818,7 +1784,7 @@
         },
         {
           "slug": null,
-          "name": "Zhengnan Huang"
+          "name": "Zheng-Nan Huang"
         },
         {
           "slug": null,
@@ -1830,7 +1796,7 @@
         },
         {
           "slug": null,
-          "name": "C. L. Zitnick"
+          "name": "C. Zitnick"
         }
       ]
     },
@@ -1916,7 +1882,7 @@
         },
         {
           "slug": null,
-          "name": "C. L. Zitnick"
+          "name": "C. Zitnick"
         },
         {
           "slug": null,
@@ -1937,11 +1903,11 @@
       "title": "Recovering Petaflops in Contrastive Semi-Supervised Learning of Visual Representations",
       "year": 2020,
       "venue": "arXiv.org",
-      "url": "https://www.semanticscholar.org/paper/41b063eb7e078479b267a4410b280dce753f4fab",
+      "url": "https://doi.org/10.48550/arXiv.2006.10803",
       "citationCount": 3,
       "coAuthors": [
         {
-          "slug": null,
+          "slug": "mahmoud-assran",
           "name": "Mahmoud Assran"
         },
         {
@@ -1963,7 +1929,7 @@
       "citationCount": 18,
       "coAuthors": [
         {
-          "slug": null,
+          "slug": "mahmoud-assran",
           "name": "Mahmoud Assran"
         },
         {
@@ -2003,11 +1969,11 @@
       "title": "On the Convergence of Nesterov's Accelerated Gradient Method in Stochastic Settings",
       "year": 2020,
       "venue": "International Conference on Machine Learning",
-      "url": "https://www.semanticscholar.org/paper/317cfe2959f01af336dde41473de7894b83e3a07",
-      "citationCount": 75,
+      "url": "https://doi.org/10.48550/arXiv.2002.12414",
+      "citationCount": 77,
       "coAuthors": [
         {
-          "slug": null,
+          "slug": "mahmoud-assran",
           "name": "Mahmoud Assran"
         }
       ]
@@ -2018,7 +1984,7 @@
       "year": 2020,
       "venue": "Radiology: Artificial Intelligence",
       "url": "https://doi.org/10.1148/ryai.2020190007",
-      "citationCount": 536,
+      "citationCount": 559,
       "coAuthors": [
         {
           "slug": "matthew-muckley",
@@ -2062,7 +2028,7 @@
         },
         {
           "slug": null,
-          "name": "Zizhao Zhang"
+          "name": "Zi-Zhao Zhang"
         },
         {
           "slug": null,
@@ -2094,7 +2060,7 @@
         },
         {
           "slug": null,
-          "name": "C. L. Zitnick"
+          "name": "C. Zitnick"
         },
         {
           "slug": null,
@@ -2116,7 +2082,7 @@
       "year": 2020,
       "venue": "Magnetic Resonance in Medicine",
       "url": "https://doi.org/10.1002/mrm.28338",
-      "citationCount": 247,
+      "citationCount": 320,
       "coAuthors": [
         {
           "slug": "matthew-muckley",
@@ -2152,7 +2118,7 @@
         },
         {
           "slug": null,
-          "name": "C. L. Zitnick"
+          "name": "C. Zitnick"
         },
         {
           "slug": null,
@@ -2161,16 +2127,20 @@
       ]
     },
     {
-      "paperId": "1a0d93034215411c8227dedaf5fa18d5929b448c",
+      "paperId": "8870f3f6bafdec68a22ea7675b23510be3f6d71a",
       "title": "MVFST-RL: An Asynchronous RL Framework for Congestion Control with Delayed Actions",
       "year": 2019,
       "venue": "arXiv.org",
-      "url": "https://www.semanticscholar.org/paper/1a0d93034215411c8227dedaf5fa18d5929b448c",
-      "citationCount": 41,
+      "url": "https://doi.org/10.48550/arXiv.1910.04054",
+      "citationCount": 42,
       "coAuthors": [
         {
           "slug": null,
           "name": "V. Sivakumar"
+        },
+        {
+          "slug": null,
+          "name": "Olivier Delalleau"
         },
         {
           "slug": null,
@@ -2182,7 +2152,7 @@
         },
         {
           "slug": null,
-          "name": "Heinrich Küttler"
+          "name": "Heinrich Kuttler"
         },
         {
           "slug": null,
@@ -2203,8 +2173,8 @@
       "title": "SlowMo: Improving Communication-Efficient Distributed SGD with Slow Momentum",
       "year": 2019,
       "venue": "International Conference on Learning Representations",
-      "url": "https://www.semanticscholar.org/paper/e20848622d5145744127b82367f9b671c7ddb08e",
-      "citationCount": 226,
+      "url": "https://doi.org/10.48550/arXiv.1910.00643",
+      "citationCount": 231,
       "coAuthors": [
         {
           "slug": null,
@@ -2225,11 +2195,11 @@
       "title": "Gossip-based Actor-Learner Architectures for Deep Reinforcement Learning",
       "year": 2019,
       "venue": "Neural Information Processing Systems",
-      "url": "https://www.semanticscholar.org/paper/511a22cfbb3ea1a3328f65f6549bbfe60d64c85d",
+      "url": "https://doi.org/10.48550/arXiv.1906.04585",
       "citationCount": 40,
       "coAuthors": [
         {
-          "slug": null,
+          "slug": "mahmoud-assran",
           "name": "Mahmoud Assran"
         },
         {
@@ -2251,8 +2221,8 @@
       "title": "fastMRI: An Open Dataset and Benchmarks for Accelerated MRI",
       "year": 2018,
       "venue": "arXiv.org",
-      "url": "https://www.semanticscholar.org/paper/65d3e7fa7b452611aa729ac789d4373d6ee505b0",
-      "citationCount": 1092,
+      "url": "https://doi.org/10.48550/arXiv.1811.08839",
+      "citationCount": 1214,
       "coAuthors": [
         {
           "slug": "matthew-muckley",
@@ -2272,11 +2242,27 @@
         },
         {
           "slug": null,
-          "name": "M. Bruno"
+          "name": "Tullie Murrell"
+        },
+        {
+          "slug": null,
+          "name": "Zheng-Nan Huang"
         },
         {
           "slug": null,
           "name": "Aaron Defazio"
+        },
+        {
+          "slug": null,
+          "name": "Ruben Stern"
+        },
+        {
+          "slug": null,
+          "name": "Patricia M. Johnson"
+        },
+        {
+          "slug": null,
+          "name": "M. Bruno"
         },
         {
           "slug": null,
@@ -2300,7 +2286,7 @@
         },
         {
           "slug": null,
-          "name": "M. Drozdzal"
+          "name": "Michal Drozdzal"
         },
         {
           "slug": null,
@@ -2312,6 +2298,10 @@
         },
         {
           "slug": null,
+          "name": "N. Yakubova"
+        },
+        {
+          "slug": null,
           "name": "James Pinkerton"
         },
         {
@@ -2320,15 +2310,11 @@
         },
         {
           "slug": null,
-          "name": "N. Yakubova"
-        },
-        {
-          "slug": null,
           "name": "Erich Owens"
         },
         {
           "slug": null,
-          "name": "C. L. Zitnick"
+          "name": "C. Zitnick"
         },
         {
           "slug": null,
@@ -2353,6 +2339,10 @@
       "citationCount": 0,
       "coAuthors": [
         {
+          "slug": "mahmoud-assran",
+          "name": "Mahmoud Assran"
+        },
+        {
           "slug": "quentin-duval",
           "name": "Quentin Duval"
         },
@@ -2370,10 +2360,6 @@
         },
         {
           "slug": null,
-          "name": "Mahmoud Assran"
-        },
-        {
-          "slug": null,
           "name": "Ishan Misra"
         },
         {
@@ -2383,6 +2369,10 @@
         {
           "slug": null,
           "name": "Pascal Vincent"
+        },
+        {
+          "slug": null,
+          "name": "Michael G. Rabbat"
         },
         {
           "slug": null,
@@ -2434,7 +2424,7 @@
         },
         {
           "slug": null,
-          "name": "Piotr Dugas"
+          "name": "P. Dugas"
         },
         {
           "slug": null,
@@ -2478,7 +2468,7 @@
         },
         {
           "slug": null,
-          "name": "Herv'e Jegou"
+          "name": "Hervé Jégou"
         },
         {
           "slug": null,
@@ -2486,7 +2476,7 @@
         },
         {
           "slug": null,
-          "name": "Piotr Bojanowski"
+          "name": "P. Bojanowski"
         },
         {
           "slug": null,
@@ -2502,7 +2492,7 @@
         },
         {
           "slug": null,
-          "name": "Richard Socher"
+          "name": "R. Socher"
         },
         {
           "slug": null,
@@ -2514,7 +2504,7 @@
         },
         {
           "slug": null,
-          "name": "Leonidas J. Guibas"
+          "name": "L. Guibas"
         },
         {
           "slug": null,
@@ -2530,7 +2520,7 @@
         },
         {
           "slug": null,
-          "name": "Zhanyu Ma"
+          "name": "Zhan-Yu Ma"
         },
         {
           "slug": null,
@@ -2551,37 +2541,37 @@
     {
       "title": "DINOv2: Learning Robust Visual Features without Supervision",
       "year": 2023,
-      "citationCount": 11345,
+      "citationCount": 12025,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2304.07193"
     },
     {
       "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
       "year": 2023,
-      "citationCount": 1441,
+      "citationCount": 1561,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01499"
     },
     {
       "title": "Revisiting Feature Prediction for Learning Visual Representations from Video",
       "year": 2024,
-      "citationCount": 630,
+      "citationCount": 700,
       "venue": "Trans. Mach. Learn. Res.",
       "url": "https://doi.org/10.48550/arXiv.2404.08471"
     },
     {
-      "title": "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
-      "year": 2025,
-      "citationCount": 86,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2502.11831"
+      "title": "Federated Learning with Partial Model Personalization",
+      "year": 2022,
+      "citationCount": 260,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2204.03809"
     },
     {
-      "title": "Benchmarking Neural Network Training Algorithms",
-      "year": 2023,
-      "citationCount": 60,
+      "title": "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
+      "year": 2025,
+      "citationCount": 94,
       "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2306.07179"
+      "url": "https://doi.org/10.48550/arXiv.2502.11831"
     }
   ],
   "githubProjects": [],
@@ -2597,6 +2587,11 @@
   "xPosts": [],
   "connections": {
     "coAuthors": [
+      {
+        "slug": "mahmoud-assran",
+        "name": "Mahmoud Assran",
+        "sharedPapers": 15
+      },
       {
         "slug": "yann-lecun",
         "name": "Yann LeCun",
@@ -2633,11 +2628,6 @@
         "sharedPapers": 6
       },
       {
-        "slug": "mahmoud-assran",
-        "name": "Mahmoud Assran",
-        "sharedPapers": 4
-      },
-      {
         "slug": "saining-xie",
         "name": "Saining Xie",
         "sharedPapers": 3
@@ -2658,11 +2648,6 @@
         "sharedPapers": 2
       },
       {
-        "slug": "li-jing",
-        "name": "Li Jing",
-        "sharedPapers": 2
-      },
-      {
         "slug": "megi-dervishi",
         "name": "Megi Dervishi",
         "sharedPapers": 1
@@ -2670,6 +2655,11 @@
       {
         "slug": "artem-zholus",
         "name": "Artem Zholus",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "li-jing",
+        "name": "Li Jing",
         "sharedPapers": 1
       }
     ],
@@ -2679,15 +2669,15 @@
         "papers": 20
       },
       {
-        "name": "Mahmoud Assran",
-        "papers": 13
+        "name": "Michael G. Rabbat",
+        "papers": 8
       },
       {
         "name": "Koustuv Sinha",
         "papers": 7
       },
       {
-        "name": "Piotr Bojanowski",
+        "name": "P. Bojanowski",
         "papers": 7
       },
       {
@@ -2735,7 +2725,7 @@
         "papers": 5
       },
       {
-        "name": "C. L. Zitnick",
+        "name": "C. Zitnick",
         "papers": 5
       },
       {
@@ -2751,7 +2741,7 @@
         "papers": 4
       },
       {
-        "name": "Shengbang Tong",
+        "name": "Sai-Ning Xie",
         "papers": 3
       },
       {
@@ -2775,19 +2765,7 @@
         "papers": 3
       },
       {
-        "name": "Anish Acharya",
-        "papers": 3
-      },
-      {
-        "name": "Bhargav Bhushanam",
-        "papers": 3
-      },
-      {
-        "name": "Sujay Sanghavi",
-        "papers": 3
-      },
-      {
-        "name": "Armand Joulin",
+        "name": "A. Joulin",
         "papers": 3
       },
       {
@@ -2804,6 +2782,10 @@
       },
       {
         "name": "Mathilde Caron",
+        "papers": 3
+      },
+      {
+        "name": "Tullie Murrell",
         "papers": 3
       },
       {
@@ -2827,10 +2809,6 @@
         "papers": 3
       },
       {
-        "name": "Zizhao Zhang",
-        "papers": 3
-      },
-      {
         "name": "James Pinkerton",
         "papers": 3
       },
@@ -2843,11 +2821,7 @@
         "papers": 3
       },
       {
-        "name": "Mido Assran",
-        "papers": 2
-      },
-      {
-        "name": "Gaoyue Zhou",
+        "name": "Gao-Yue Zhou",
         "papers": 2
       },
       {
@@ -2879,7 +2853,7 @@
         "papers": 2
       },
       {
-        "name": "Jiacheng Zhu",
+        "name": "Jia-Cheng Zhu",
         "papers": 2
       },
       {
@@ -2891,15 +2865,31 @@
         "papers": 2
       },
       {
+        "name": "Anish Acharya",
+        "papers": 2
+      },
+      {
+        "name": "Bhargav Bhushanam",
+        "papers": 2
+      },
+      {
         "name": "Dhruv Choudhary",
         "papers": 2
       },
       {
-        "name": "I. Dhillon",
+        "name": "S. Sanghavi",
+        "papers": 2
+      },
+      {
+        "name": "Julien Mairal",
         "papers": 2
       },
       {
         "name": "Chuan Guo",
+        "papers": 2
+      },
+      {
+        "name": "K. Chaudhuri",
         "papers": 2
       },
       {
@@ -2927,7 +2917,23 @@
         "papers": 2
       },
       {
-        "name": "Tullie Murrell",
+        "name": "Olivier Delalleau",
+        "papers": 2
+      },
+      {
+        "name": "Zheng-Nan Huang",
+        "papers": 2
+      },
+      {
+        "name": "Patricia M. Johnson",
+        "papers": 2
+      },
+      {
+        "name": "Ruben Stern",
+        "papers": 2
+      },
+      {
+        "name": "Zizhao Zhang",
         "papers": 2
       },
       {
@@ -2964,6 +2970,10 @@
       },
       {
         "name": "Lorenzo Mur-Labadia",
+        "papers": 1
+      },
+      {
+        "name": "Shengbang Tong",
         "papers": 1
       },
       {
@@ -3031,7 +3041,7 @@
         "papers": 1
       },
       {
-        "name": "Wancong Zhang",
+        "name": "Wan-Cong Zhang",
         "papers": 1
       },
       {
@@ -3071,7 +3081,7 @@
         "papers": 1
       },
       {
-        "name": "Francois Hogan",
+        "name": "F. Hogan",
         "papers": 1
       },
       {
@@ -3091,27 +3101,11 @@
         "papers": 1
       },
       {
-        "name": "Sarath Chandar",
+        "name": "A. P. Sarath Chandar",
         "papers": 1
       },
       {
         "name": "Franziska Meier",
-        "papers": 1
-      },
-      {
-        "name": "Fair at Meta",
-        "papers": 1
-      },
-      {
-        "name": "M. Québec",
-        "papers": 1
-      },
-      {
-        "name": "AI Institute",
-        "papers": 1
-      },
-      {
-        "name": "Polytechnique Montr'eal",
         "papers": 1
       },
       {
@@ -3127,7 +3121,7 @@
         "papers": 1
       },
       {
-        "name": "Yunyang Xiong",
+        "name": "Yun-Yang Xiong",
         "papers": 1
       },
       {
@@ -3147,7 +3141,7 @@
         "papers": 1
       },
       {
-        "name": "George E. Dahl",
+        "name": "G. Dahl",
         "papers": 1
       },
       {
@@ -3219,7 +3213,7 @@
         "papers": 1
       },
       {
-        "name": "Kongtao Chen",
+        "name": "Kong-Tao Chen",
         "papers": 1
       },
       {
@@ -3303,10 +3297,6 @@
         "papers": 1
       },
       {
-        "name": "J. Mairal",
-        "papers": 1
-      },
-      {
         "name": "Sheng Guo",
         "papers": 1
       },
@@ -3327,10 +3317,6 @@
         "papers": 1
       },
       {
-        "name": "K. Chaudhuri",
-        "papers": 1
-      },
-      {
         "name": "Mitchell Wortsman",
         "papers": 1
       },
@@ -3339,7 +3325,7 @@
         "papers": 1
       },
       {
-        "name": "Shen Li",
+        "name": "Li Shen",
         "papers": 1
       },
       {
@@ -3351,11 +3337,7 @@
         "papers": 1
       },
       {
-        "name": "Kamalika Chaudhuri",
-        "papers": 1
-      },
-      {
-        "name": "AI Meta",
+        "name": "I. Dhillon",
         "papers": 1
       },
       {
@@ -3447,7 +3429,7 @@
         "papers": 1
       },
       {
-        "name": "Jiyan Yang",
+        "name": "Ji-Yan Yang",
         "papers": 1
       },
       {
@@ -3456,10 +3438,6 @@
       },
       {
         "name": "Shagun Sodhani",
-        "papers": 1
-      },
-      {
-        "name": "Olivier Delalleau",
         "papers": 1
       },
       {
@@ -3491,19 +3469,11 @@
         "papers": 1
       },
       {
-        "name": "Zhengnan Huang",
-        "papers": 1
-      },
-      {
-        "name": "Patricia M. Johnson",
-        "papers": 1
-      },
-      {
-        "name": "Ruben Stern",
-        "papers": 1
-      },
-      {
         "name": "A. Romero",
+        "papers": 1
+      },
+      {
+        "name": "Zi-Zhao Zhang",
         "papers": 1
       },
       {
@@ -3519,7 +3489,7 @@
         "papers": 1
       },
       {
-        "name": "Heinrich Küttler",
+        "name": "Heinrich Kuttler",
         "papers": 1
       },
       {
@@ -3535,7 +3505,7 @@
         "papers": 1
       },
       {
-        "name": "M. Drozdzal",
+        "name": "Michal Drozdzal",
         "papers": 1
       },
       {
@@ -3575,7 +3545,7 @@
         "papers": 1
       },
       {
-        "name": "Piotr Dugas",
+        "name": "P. Dugas",
         "papers": 1
       },
       {
@@ -3603,11 +3573,7 @@
         "papers": 1
       },
       {
-        "name": "Herv'e Jegou",
-        "papers": 1
-      },
-      {
-        "name": "Julien Mairal",
+        "name": "Hervé Jégou",
         "papers": 1
       },
       {
@@ -3623,7 +3589,7 @@
         "papers": 1
       },
       {
-        "name": "Richard Socher",
+        "name": "R. Socher",
         "papers": 1
       },
       {
@@ -3635,7 +3601,7 @@
         "papers": 1
       },
       {
-        "name": "Leonidas J. Guibas",
+        "name": "L. Guibas",
         "papers": 1
       },
       {
@@ -3651,7 +3617,7 @@
         "papers": 1
       },
       {
-        "name": "Zhanyu Ma",
+        "name": "Zhan-Yu Ma",
         "papers": 1
       },
       {
