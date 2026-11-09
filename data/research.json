@@ -39863,6 +39863,62 @@
       "abstract": "Human intelligence's adaptability is remarkable, allowing us to adjust to new tasks and multi-modal environments swiftly. This skill is evident from a young age as we acquire new abilities and solve problems by imitating others or following natural language instructions. The research community is actively pursuing the development of interactive\"embodied agents\"that can engage in natural conversations with humans and assist them with real-world tasks. These agents must possess the ability to promptly request feedback in case communication breaks down or instructions are unclear. Additionally, they must demonstrate proficiency in learning new vocabulary specific to a given domain. In this paper, we made the following contributions: (1) a crowd-sourcing tool for collecting grounded language instructions; (2) the largest dataset of grounded language instructions; and (3) several state-of-the-art baselines. These contributions are suitable as a foundation for further research."
     },
     {
+      "paperId": "1bdd5fc17cc580efe998304692639c57c857cc84",
+      "title": "Going Denser with Open-Vocabulary Part Segmentation",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Pei Sun",
+          "authorId": "2075416446",
+          "slug": null
+        },
+        {
+          "name": "Shoufa Chen",
+          "authorId": "2107977968",
+          "slug": null
+        },
+        {
+          "name": "Chenchen Zhu",
+          "authorId": "47894545",
+          "slug": null
+        },
+        {
+          "name": "Fanyi Xiao",
+          "authorId": "2299381",
+          "slug": null
+        },
+        {
+          "name": "Ping Luo",
+          "authorId": "2143481782",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Zhicheng Yan",
+          "authorId": "3305169",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2023-05-18",
+      "year": 2023,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV51070.2023.01417",
+      "citationCount": 96,
+      "tldr": "A detector with the ability to predict both open-vocabulary objects and their part segmentation and a detector that generalizes to a wide range of part segmentation datasets while achieving better performance than dataset-specific training is proposed.",
+      "abstract": "Object detection has been expanded from a limited number of categories to open vocabulary. Moving forward, a complete intelligent vision system requires understanding more fine-grained object descriptions, object parts. In this paper, we propose a detector with the ability to predict both open-vocabulary objects and their part segmentation. This ability comes from two designs. First, we train the detector on the joint of part-level, object-level and image-level data to build the multi-granularity alignment between language and image. Second, we parse the novel object into its parts by its dense semantic correspondence with the base object. These two designs enable the detector to largely benefit from various data sources and foundation models. In open-vocabulary part segmentation experiments, our method outperforms the baseline by 3.3∼7.3 mAP in cross-dataset generalization on PartImageNet, and improves the baseline by 7.3 novel AP50 in cross-category generalization on Pascal Part. Finally, we train a detector that generalizes to a wide range of part segmentation datasets while achieving better performance than dataset-specific training."
+    },
+    {
       "paperId": "9b4f7c97c0b83a80c32bc0b93595cbcfb4ecb16d",
       "title": "DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining",
       "teamAuthors": [
@@ -41778,6 +41834,67 @@
       "abstract": "Background MRI is a powerful diagnostic tool with a long acquisition time. Recently, deep learning (DL) methods have provided accelerated high-quality image reconstructions from undersampled data, but it is unclear if DL image reconstruction can be reliably translated to everyday clinical practice. Purpose To determine the diagnostic equivalence of prospectively accelerated DL-reconstructed knee MRI compared with conventional accelerated MRI for evaluating internal derangement of the knee in a clinical setting. Materials and Methods A DL reconstruction model was trained with images from 298 clinical 3-T knee examinations. In a prospective analysis, patients clinically referred for knee MRI underwent a conventional accelerated knee MRI protocol at 3 T followed by an accelerated DL protocol between January 2020 and February 2021. The equivalence of the DL reconstruction of the images relative to the conventional images for the detection of an abnormality was assessed in terms of interchangeability. Each examination was reviewed by six musculoskeletal radiologists. Analyses pertaining to the detection of meniscal or ligament tears and bone marrow or cartilage abnormalities were based "
     },
     {
+      "paperId": "b62b2b24378165df6a3dc904dde2b600745310f2",
+      "title": "CiT: Curation in Training for Effective Vision-Language Data",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Hu Xu",
+          "authorId": "2298402817",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Po-Yao (Bernie) Huang",
+          "authorId": "2319973",
+          "slug": null
+        },
+        {
+          "name": "Licheng Yu",
+          "authorId": "2269696579",
+          "slug": null
+        },
+        {
+          "name": "Russ Howes",
+          "authorId": "1410913697",
+          "slug": null
+        },
+        {
+          "name": "Gargi Ghosh",
+          "authorId": "134007132",
+          "slug": null
+        },
+        {
+          "name": "Luke Zettlemoyer",
+          "authorId": "1982950",
+          "slug": null
+        },
+        {
+          "name": "Christoph Feichtenhofer",
+          "authorId": "2322150",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2023-01-05",
+      "year": 2023,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.48550/arXiv.2301.02241",
+      "citationCount": 32,
+      "tldr": "Curation in Training is presented, a simple and efficient vision-text learning algorithm that couples a data objective into training and can speed up training by over an order of magnitude, especially if the raw data size is large.",
+      "abstract": "Large vision-language models are generally applicable to many downstream tasks, but come at an exorbitant training cost that only large institutions can afford. This paper trades generality for efficiency and presents Curation in Training (CiT), a simple and efficient vision-text learning algorithm that couples a data objective into training. CiT automatically yields quality data to speed-up contrastive image-text training and alleviates the need for an offline data filtering pipeline, allowing broad data sources (including raw image-text pairs from the web). CiT contains two loops: an outer loop curating the training data and an inner loop consuming the curated training data. The text encoder connects the two loops. Given metadata for tasks of interest, e.g., class names, and a large pool of image-text pairs, CiT alternatively selects relevant training data from the pool by measuring the similarity of their text embeddings and embeddings of the metadata. In our experiments, we observe that CiT can speed up training by over an order of magnitude, especially if the raw data size is large."
+    },
+    {
       "paperId": "15069b27b74b79fb6bcb3ba239d07820ba0895c4",
       "title": "Unsupervised Manifold Linearizing and Clustering",
       "teamAuthors": [
@@ -42383,6 +42500,37 @@
       "citationCount": 90,
       "tldr": "NusaCrowd's data collection enables the creation of the first zero-shot benchmarks for natural language understanding and generation in Indonesian and the local languages of Indonesia, including opening access to previously non-public resources.",
       "abstract": "We present NusaCrowd, a collaborative initiative to collect and unify existing resources for Indonesian languages, including opening access to previously non-public resources. Through this initiative, we have brought together 137 datasets and 118 standardized data loaders. The quality of the datasets has been assessed manually and automatically, and their value is demonstrated through multiple experiments. NusaCrowd's data collection enables the creation of the first zero-shot benchmarks for natural language understanding and generation in Indonesian and the local languages of Indonesia. Furthermore, NusaCrowd brings the creation of the first multilingual automatic speech recognition benchmark in Indonesian and the local languages of Indonesia. Our work strives to advance natural language processing (NLP) research for languages that are under-represented despite being widely spoken."
+    },
+    {
+      "paperId": "736973165f98105fec3729b7db414ae4d80fcbeb",
+      "title": "Scalable Diffusion Models with Transformers",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "William S. Peebles",
+          "authorId": "35235273",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2022-12-19",
+      "year": 2022,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV51070.2023.00387",
+      "citationCount": 7119,
+      "tldr": "A new class of diffusion models based on the transformer architecture is explored, replacing the commonly-used U-Net backbone with a transformer that operates on latent patches that outperform all prior diffusion models on the class-conditional ImageNet 512×512 and 256×256 benchmarks.",
+      "abstract": "We explore a new class of diffusion models based on the transformer architecture. We train latent diffusion models of images, replacing the commonly-used U-Net backbone with a transformer that operates on latent patches. We analyze the scalability of our Diffusion Transformers (DiTs) through the lens of forward pass complexity as measured by Gflops. We find that DiTs with higher Gflops—through increased transformer depth/width or increased number of input tokens—consistently have lower FID. In addition to possessing good scalability properties, our largest DiT-XL/2 models outperform all prior diffusion models on the class-conditional ImageNet 512×512 and 256×256 benchmarks, achieving a state-of-the-art FID of 2.27 on the latter."
     },
     {
       "paperId": "5f7a1992ce7bfab7ee2dfd1a6cb5494d4c55135d",
@@ -45794,6 +45942,47 @@
       "abstract": "A successful paradigm in representation learning is to perform self-supervised pretraining using tasks based on mini-batch statistics (e.g., SimCLR, VICReg, SwAV, MSN). We show that in the formulation of all these methods is an overlooked prior to learn features that enable uniform clustering of the data. While this prior has led to remarkably semantic representations when pretraining on class-balanced data, such as ImageNet, we demonstrate that it can hamper performance when pretraining on class-imbalanced data. By moving away from conventional uniformity priors and instead preferring power-law distributed feature clusters, we show that one can improve the quality of the learned representations on real-world class-imbalanced datasets. To demonstrate this, we develop an extension of the Masked Siamese Networks (MSN) method to support the use of arbitrary features priors."
     },
     {
+      "paperId": "77d4100d6fe291352e705147467f9acb1e308c60",
+      "title": "Exploring Long-Sequence Masked Autoencoders",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Ronghang Hu",
+          "authorId": "2874347",
+          "slug": null
+        },
+        {
+          "name": "Shoubhik Debnath",
+          "authorId": "3256722",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Xinlei Chen",
+          "authorId": "39717886",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2022-10-13",
+      "year": 2022,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2210.07224",
+      "citationCount": 23,
+      "tldr": "This study leads to a long-sequence version of MAE with minimal changes to the original recipe, by just decoupling the mask size from the patch size, and achieves strong results on ImageNet-1K classification by keeping a standard image size and only increasing the sequence length.",
+      "abstract": "Masked Autoencoding (MAE) has emerged as an effective approach for pre-training representations across multiple domains. In contrast to discrete tokens in natural languages, the input for image MAE is continuous and subject to additional specifications. We systematically study each input specification during the pre-training stage, and find sequence length is a key axis that further scales MAE. Our study leads to a long-sequence version of MAE with minimal changes to the original recipe, by just decoupling the mask size from the patch size. For object detection and semantic segmentation, our long-sequence MAE shows consistent gains across all the experimental setups without extra computation cost during the transfer. While long-sequence pre-training is discerned most beneficial for detection and segmentation, we also achieve strong results on ImageNet-1K classification by keeping a standard image size and only increasing the sequence length. We hope our findings can provide new insights and avenues for scaling in computer vision."
+    },
+    {
       "paperId": "b16855a3338052be6202eeea3a18b5496a67cef2",
       "title": "Context Generation Improves Open Domain Question Answering",
       "teamAuthors": [
@@ -46862,6 +47051,72 @@
       "url": "https://www.semanticscholar.org/paper/e796eadea7ccf76934ff0c1f196600aa88b5f717",
       "citationCount": 1,
       "tldr": "This work proposes CEMA, a structured world model with factorized latent state capable of modeling sparse interaction and analyzing the mutual information of the hierarchical latent states to show how the model can represent sparse updates and directly model the causal influence of the robot on the object.",
+      "abstract": null
+    },
+    {
+      "paperId": "4fca50ab80e278f7210b632e501e3616dd3eb2a1",
+      "title": "Can we train vision and language zero-shot classiﬁcation models without syntax?",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Ajinkya Tejankar",
+          "authorId": "1471776526",
+          "slug": null
+        },
+        {
+          "name": "Maziar Sanjabi",
+          "authorId": "2095979",
+          "slug": null
+        },
+        {
+          "name": "Bichen Wu",
+          "authorId": "3130257",
+          "slug": null
+        },
+        {
+          "name": "Madian Khabsa",
+          "authorId": "2072010",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "H. Pirsiavash",
+          "authorId": "2367683",
+          "slug": null
+        },
+        {
+          "name": "Hamed Firooz",
+          "authorId": "22593971",
+          "slug": null
+        },
+        {
+          "name": "U. Davis",
+          "authorId": "51998396",
+          "slug": null
+        },
+        {
+          "name": "AI Meta",
+          "authorId": "2149781051",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": null,
+      "year": 2022,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/4fca50ab80e278f7210b632e501e3616dd3eb2a1",
+      "citationCount": 0,
+      "tldr": "Through extensive and careful experiments, it is shown that replacing intact captions with Bag-of-Words (BoW) does not signiﬁcantly degrade the zero-shot performance and can even slightly improve the performance on some datasets by balancing the frequency of words in BoW.",
       "abstract": null
     },
     {
@@ -48643,6 +48898,57 @@
       "abstract": "In this work, we study the use of the Bellman equation as a surrogate objective for value prediction accuracy. While the Bellman equation is uniquely solved by the true value function over all state-action pairs, we find that the Bellman error (the difference between both sides of the equation) is a poor proxy for the accuracy of the value function. In particular, we show that (1) due to cancellations from both sides of the Bellman equation, the magnitude of the Bellman error is only weakly related to the distance to the true value function, even when considering all state-action pairs, and (2) in the finite data regime, the Bellman equation can be satisfied exactly by infinitely many suboptimal solutions. This means that the Bellman error can be minimized without improving the accuracy of the value function. We demonstrate these phenomena through a series of propositions, illustrative toy examples, and empirical analysis in standard benchmark domains."
     },
     {
+      "paperId": "177e957f5cd93229c9794ea652c646d2557b4a69",
+      "title": "A ConvNet for the 2020s",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Zhuang Liu",
+          "authorId": "2109168016",
+          "slug": null
+        },
+        {
+          "name": "Hanzi Mao",
+          "authorId": "2053590350",
+          "slug": null
+        },
+        {
+          "name": "Chaozheng Wu",
+          "authorId": "95426599",
+          "slug": null
+        },
+        {
+          "name": "Christoph Feichtenhofer",
+          "authorId": "2322150",
+          "slug": null
+        },
+        {
+          "name": "Trevor Darrell",
+          "authorId": "1753210",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2022-01-10",
+      "year": 2022,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52688.2022.01167",
+      "citationCount": 9317,
+      "tldr": "This work gradually “modernize” a standard ResNet toward the design of a vision Transformer, and discovers several key components that contribute to the performance difference along the way, leading to a family of pure ConvNet models dubbed ConvNeXt.",
+      "abstract": "The “Roaring 20s” of visual recognition began with the introduction of Vision Transformers (ViTs), which quickly superseded ConvNets as the state-of-the-art image classification model. A vanilla ViT, on the other hand, faces difficulties when applied to general computer vision tasks such as object detection and semantic segmentation. It is the hierarchical Transformers (e.g., Swin Transformers) that reintroduced several ConvNet priors, making Transformers practically viable as a generic vision backbone and demonstrating remarkable performance on a wide variety of vision tasks. However, the effectiveness of such hybrid approaches is still largely credited to the intrinsic superiority of Transformers, rather than the inherent inductive biases of convolutions. In this work, we reexamine the design spaces and test the limits of what a pure ConvNet can achieve. We gradually “modernize” a standard ResNet toward the design of a vision Transformer, and discover several key components that contribute to the performance difference along the way. The outcome of this exploration is a family of pure ConvNet models dubbed ConvNeXt. Constructed entirely from standard ConvNet modules, ConvNeXts co"
+    },
+    {
       "paperId": "86b42cac364985919987789795be7c3a577ee3de",
       "title": "Detecting Twenty-thousand Classes using Image-level Supervision",
       "teamAuthors": [
@@ -48691,6 +48997,98 @@
       "citationCount": 907,
       "tldr": "This work proposes Detic, which simply trains the classifiers of a detector on image classification data and thus expands the vocabulary of detectors to tens of thousands of concepts, making it much easier to implement and compatible with a range of detection architectures and backbones.",
       "abstract": "Current object detectors are limited in vocabulary size due to the small scale of detection datasets. Image classifiers, on the other hand, reason about much larger vocabularies, as their datasets are larger and easier to collect. We propose Detic, which simply trains the classifiers of a detector on image classification data and thus expands the vocabulary of detectors to tens of thousands of concepts. Unlike prior work, Detic does not need complex assignment schemes to assign image labels to boxes based on model predictions, making it much easier to implement and compatible with a range of detection architectures and backbones. Our results show that Detic yields excellent detectors even for classes without box annotations. It outperforms prior work on both open-vocabulary and long-tail detection benchmarks. Detic provides a gain of 2.4 mAP for all classes and 8.3 mAP for novel classes on the open-vocabulary LVIS benchmark. On the standard LVIS benchmark, Detic obtains 41.7 mAP when evaluated on all classes, or only rare classes, hence closing the gap in performance for object categories with few samples. For the first time, we train a detector with all the twenty-one-thousand cla"
+    },
+    {
+      "paperId": "bf6f640f937d001a0965ab374d0ff3cfa4ffcd4a",
+      "title": "A Fistful of Words: Learning Transferable Visual Models from Bag-of-Words Supervision",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Ajinkya Tejankar",
+          "authorId": "1471776526",
+          "slug": null
+        },
+        {
+          "name": "Bichen Wu",
+          "authorId": "3130257",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Madian Khabsa",
+          "authorId": "2072010",
+          "slug": null
+        },
+        {
+          "name": "H. Pirsiavash",
+          "authorId": "2367683",
+          "slug": null
+        },
+        {
+          "name": "Hamed Firooz",
+          "authorId": "22593971",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2021-12-27",
+      "year": 2021,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/bf6f640f937d001a0965ab374d0ff3cfa4ffcd4a",
+      "citationCount": 23,
+      "tldr": "This paper shows that a simple Bag-of-Words (BoW) caption could be used as a replacement for most of the image captions in the dataset and observes that this approach improves the zero-shot classification performance when combined with word balancing.",
+      "abstract": "Using natural language as a supervision for training visual recognition models holds great promise. Recent works have shown that if such supervision is used in the form of alignment between images and captions in large training datasets, then the resulting aligned models perform well on zero-shot classification as downstream tasks2. In this paper, we focus on teasing out what parts of the language supervision are essential for training zero-shot image classification models. Through extensive and careful experiments, we show that: 1) A simple Bag-of-Words (BoW) caption could be used as a replacement for most of the image captions in the dataset. Surprisingly, we observe that this approach improves the zero-shot classification performance when combined with word balancing. 2) Using a BoW pretrained model, we can obtain more training data by generating pseudo-BoW captions on images that do not have a caption. Models trained on images with real and pseudo-BoW captions achieve stronger zero-shot performance. On ImageNet-1k zero-shot evaluation, our best model, that uses only 3M image-caption pairs, performs on-par with a CLIP model trained on 15M image-caption pairs (31.5% vs 31.3%)."
+    },
+    {
+      "paperId": "e9581d9758062f76e029bd19a58c4ae976cfb414",
+      "title": "SLIP: Self-supervision meets Language-Image Pre-training",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Norman Mu",
+          "authorId": "52227748",
+          "slug": null
+        },
+        {
+          "name": "Alexander Kirillov",
+          "authorId": "144843400",
+          "slug": null
+        },
+        {
+          "name": "David A. Wagner",
+          "authorId": "2065515758",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2021-12-23",
+      "year": 2021,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-031-19809-0_30",
+      "citationCount": 651,
+      "tldr": "This work introduces SLIP, a multi-task learning framework for combining self-supervised learning and CLIP pre-training and finds that SLIP enjoys the best of both worlds: better performance than self- supervision and language supervision.",
+      "abstract": "Recent work has shown that self-supervised pre-training leads to improvements over supervised learning on challenging visual recognition tasks. CLIP, an exciting new approach to learning with language supervision, demonstrates promising performance on a wide variety of benchmarks. In this work, we explore whether self-supervised learning can aid in the use of language supervision for visual representation learning. We introduce SLIP, a multi-task learning framework for combining self-supervised learning and CLIP pre-training. After pre-training with Vision Transformers, we thoroughly evaluate representation quality and compare performance to both CLIP and self-supervised learning under three distinct settings: zero-shot transfer, linear classification, and end-to-end finetuning. Across ImageNet and a battery of additional datasets, we find that SLIP improves accuracy by a large margin. We validate our results further with experiments on different model sizes, training schedules, and pre-training datasets. Our findings show that SLIP enjoys the best of both worlds: better performance than self-supervision (+8.1% linear accuracy) and language supervision (+5.2% zero-shot accuracy)."
     },
     {
       "paperId": "008a428e049003fe768068a0f1fa1416af5c4982",
@@ -48886,6 +49284,57 @@
       "abstract": "Conservatism has led to significant progress in offline reinforcement learning (RL) where an agent learns from pre-collected datasets. However, as many real-world scenarios involve interaction among multiple agents, it is important to resolve offline RL in the multi-agent setting. Given the recent success of transferring online RL algorithms to the multi-agent setting, one may expect that offline RL algorithms will also transfer to multi-agent settings directly. Surprisingly, we empirically observe that conservative offline RL algorithms do not work well in the multi-agent setting -- the performance degrades significantly with an increasing number of agents. Towards mitigating the degradation, we identify a key issue that non-concavity of the value function makes the policy gradient improvements prone to local optima. Multiple agents exacerbate the problem severely, since the suboptimal policy by any agent can lead to uncoordinated global failure. Following this intuition, we propose a simple yet effective method, Offline Multi-Agent RL with Actor Rectification (OMAR), which combines the first-order policy gradients and zeroth-order optimization methods to better optimize the conse"
     },
     {
+      "paperId": "20ee3dc902706d8dffcbc08f8cc89ce749abc8b0",
+      "title": "Benchmarking Detection Transfer Learning with Vision Transformers",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Yanghao Li",
+          "authorId": "2359205979",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Xinlei Chen",
+          "authorId": "1639441927",
+          "slug": null
+        },
+        {
+          "name": "Piotr Dollár",
+          "authorId": "3127283",
+          "slug": null
+        },
+        {
+          "name": "Kaiming He",
+          "authorId": "2058350112",
+          "slug": null
+        },
+        {
+          "name": "Ross B. Girshick",
+          "authorId": "2983898",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2021-11-22",
+      "year": 2021,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/20ee3dc902706d8dffcbc08f8cc89ce749abc8b0",
+      "citationCount": 217,
+      "tldr": "The results show that recent masking-based unsupervised learning methods may, for the first time, provide convincing transfer learning improvements on COCO, increasing box AP up to 4% (absolute) over supervised and prior self-supervised pre-training methods.",
+      "abstract": "Object detection is a central downstream task used to test if pre-trained network parameters confer benefits, such as improved accuracy or training speed. The complexity of object detection methods can make this benchmarking non-trivial when new architectures, such as Vision Transformer (ViT) models, arrive. These difficulties (e.g., architectural incompatibility, slow training, high memory consumption, unknown training formulae, etc.) have prevented recent studies from benchmarking detection transfer learning with standard ViT models. In this paper, we present training techniques that overcome these challenges, enabling the use of standard ViT models as the backbone of Mask R-CNN. These tools facilitate the primary goal of our study: we compare five ViT initializations, including recent state-of-the-art self-supervised learning methods, supervised initialization, and a strong random initialization baseline. Our results show that recent masking-based unsupervised learning methods may, for the first time, provide convincing transfer learning improvements on COCO, increasing box AP up to 4% (absolute) over supervised and prior self-supervised pre-training methods. Moreover, these mas"
+    },
+    {
       "paperId": "22ddb09aef3d05c2ba406d7fb3b1f5386d03a94d",
       "title": "CTRL: Closed-Loop Transcription to an LDR via Minimaxing Rate Reduction",
       "teamAuthors": [
@@ -48996,6 +49445,57 @@
       "citationCount": 374,
       "tldr": "This work presents an approach to seamlessly fuse RGB sensors into Lidar-based 3D recognition, and shows that this framework improves a strong CenterPoint baseline by a significant 6.6 mAP, and outperforms competing fusion approaches.",
       "abstract": "Lidar-based sensing drives current autonomous vehicles. Despite rapid progress, current Lidar sensors still lag two decades behind traditional color cameras in terms of resolution and cost. For autonomous driving, this means that large objects close to the sensors are easily visible, but far-away or small objects comprise only one measurement or two. This is an issue, especially when these objects turn out to be driving hazards. On the other hand, these same objects are clearly visible in onboard RGB sensors. In this work, we present an approach to seamlessly fuse RGB sensors into Lidar-based 3D recognition. Our approach takes a set of 2D detections to generate dense 3D virtual points to augment an otherwise sparse 3D point cloud. These virtual points naturally integrate into any standard Lidar-based 3D detectors along with regular Lidar measurements. The resulting multi-modal detector is simple and effective. Experimental results on the large-scale nuScenes dataset show that our framework improves a strong CenterPoint baseline by a significant 6.6 mAP, and outperforms competing fusion approaches. Code and more visualizations are available at https://tianweiy.github.io/mvp/"
+    },
+    {
+      "paperId": "6351ebb4a3287f5f3e1273464b3b91e5df5a16d7",
+      "title": "Masked Autoencoders Are Scalable Vision Learners",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Kaiming He",
+          "authorId": "2058350112",
+          "slug": null
+        },
+        {
+          "name": "Xinlei Chen",
+          "authorId": "39717886",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Yanghao Li",
+          "authorId": "2359205979",
+          "slug": null
+        },
+        {
+          "name": "Piotr Doll'ar",
+          "authorId": "2065731243",
+          "slug": null
+        },
+        {
+          "name": "Ross B. Girshick",
+          "authorId": "2983898",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2021-11-11",
+      "year": 2021,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52688.2022.01553",
+      "citationCount": 12742,
+      "tldr": "This paper develops an asymmetric encoder-decoder architecture, with an encoder that operates only on the visible subset of patches (without mask tokens), along with a lightweight decoder that reconstructs the original image from the latent representation and mask tokens.",
+      "abstract": "This paper shows that masked autoencoders (MAE) are scalable self-supervised learners for computer vision. Our MAE approach is simple: we mask random patches of the input image and reconstruct the missing pixels. It is based on two core designs. First, we develop an asymmetric encoder-decoder architecture, with an encoder that operates only on the visible subset of patches (without mask tokens), along with a lightweight decoder that reconstructs the original image from the latent representation and mask tokens. Second, we find that masking a high proportion of the input image, e.g., 75%, yields a nontrivial and meaningful self-supervisory task. Coupling these two designs enables us to train large models efficiently and effectively: we accelerate training (by 3× or more) and improve accuracy. Our scalable approach allows for learning high-capacity models that generalize well: e.g., a vanilla ViT-Huge model achieves the best accuracy (87.8%) among methods that use only ImageNet-1K data. Transfer performance in downstream tasks outperforms supervised pretraining and shows promising scaling behavior."
     },
     {
       "paperId": "b87b5797b661d6137301dd3167d573a94493936e",
@@ -51734,6 +52234,175 @@
       "abstract": "This paper proposes a novel method of learning by predicting view assignments with support samples (PAWS). The method trains a model to minimize a consistency loss, which ensures that different views of the same unlabeled instance are assigned similar pseudo-labels. The pseudo-labels are generated non-parametrically, by comparing the representations of the image views to those of a set of randomly sampled labeled images. The distance between the view representations and labeled representations is used to provide a weighting over class labels, which we interpret as a soft pseudo-label. By non-parametrically incorporating labeled samples in this way, PAWS extends the distance-metric loss used in self-supervised methods such as BYOL and SwAV to the semi-supervised setting. Despite the simplicity of the approach, PAWS outperforms other semi-supervised methods across architectures, setting a new state-of-the-art for a ResNet-50 on ImageNet trained with either 10% or 1% of the labels, reaching 75.5% and 66.5% top-1 respectively. than the previous best methods. PAWS requires 4× to 12× less training"
     },
     {
+      "paperId": "cb1765d399b988ec5c3bfd0dd58df5c2f6c7d130",
+      "title": "Performance Analysis of Object Detection Framework: Evolution from SIFT to Mask R - CNN",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Karen",
+          "authorId": "2060040071",
+          "slug": null
+        },
+        {
+          "name": "Simonyan",
+          "authorId": "2226793915",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Samuel Albanie",
+          "authorId": "7641268",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2021-04-28",
+      "year": 2021,
+      "venue": null,
+      "url": "https://doi.org/10.17762/TURCOMAT.V12I10.5049",
+      "citationCount": 0,
+      "tldr": "The performance of each and every method led through the evolution of objectdetection methods, its advantages and the disadvantages which has pavedway for the innovation of next technique has been discussed and representedindetail.",
+      "abstract": null
+    },
+    {
+      "paperId": "c7dcdaafa2198b88854e364c4d7e6497a3a4f46c",
+      "title": "Pri3D: Can 3D Priors Help 2D Representation Learning?",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Ji Hou",
+          "authorId": "144129263",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Benjamin Graham",
+          "authorId": "143853801",
+          "slug": null
+        },
+        {
+          "name": "Angela Dai",
+          "authorId": "2208531",
+          "slug": null
+        },
+        {
+          "name": "M. Nießner",
+          "authorId": "2209612",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2021-04-22",
+      "year": 2021,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV48922.2021.00564",
+      "citationCount": 97,
+      "tldr": "This work proposes to employ contrastive learning under both multi-view image constraints and image-geometry constraints to encode 3D priors into learned 2D representations, which results in improvement over 2D-only representation learning on the image-based tasks of semantic segmentation, instance segmentation and object detection on real-world indoor datasets.",
+      "abstract": "Recent advances in 3D perception have shown impressive progress in understanding geometric structures of 3D shapes and even scenes. Inspired by these advances in geometric understanding, we aim to imbue image-based perception with representations learned under geometric constraints. We introduce an approach to learn view-invariant, geometry-aware representations for network pre-training, based on multi-view RGB-D data, that can then be effectively transferred to downstream 2D tasks. We propose to employ contrastive learning under both multi-view image constraints and image-geometry constraints to encode 3D priors into learned 2D representations. This results not only in improvement over 2D-only representation learning on the image-based tasks of semantic segmentation, instance segmentation and object detection on real-world indoor datasets, but moreover, provides significant improvement in the low data regime. We show significant improvement of 6.0% on semantic segmentation on full data as well as 11.9% on 20% data against baselines on ScanNet. Our code is open sourced at https://github.com/Sekunde/Pri3D."
+    },
+    {
+      "paperId": "d616ec1fe4fa52627e6d57cffee126d8f58d25d8",
+      "title": "Sample-Efficient Neural Architecture Search by Learning Actions for Monte Carlo Tree Search",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Linnan Wang",
+          "authorId": "3221830",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Teng Li",
+          "authorId": "2115646385",
+          "slug": null
+        },
+        {
+          "name": "Rodrigo Fonseca",
+          "authorId": "145502789",
+          "slug": null
+        },
+        {
+          "name": "Yuandong Tian",
+          "authorId": "1932187449",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2021-04-07",
+      "year": 2021,
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "url": "https://doi.org/10.1109/TPAMI.2021.3071343",
+      "citationCount": 56,
+      "tldr": null,
+      "abstract": "Neural Architecture Search (NAS) has emerged as a promising technique for automatic neural network design. However, existing MCTS based NAS approaches often utilize manually designed action space, which is not directly related to the performance metric to be optimized (e.g., accuracy), leading to sample-inefficient explorations of architectures. To improve the sample efficiency, this paper proposes Latent Action Neural Architecture Search (LaNAS), which learns actions to recursively partition the search space into good or bad regions that contain networks with similar performance metrics. During the search phase, as different action sequences lead to regions with different performance, the search efficiency can be significantly improved by biasing towards the good regions. On three NAS tasks, empirical results demonstrate that LaNAS is at least an order more sample efficient than baseline methods including evolutionary algorithms, Bayesian optimizations, and random search. When applied in practice, both one-shot and regular LaNAS consistently outperform existing results. Particularly, LaNAS achieves 99.0 percent accuracy on CIFAR-10 and 80.8 percent top1 accuracy at 600 MFLOPS on I"
+    },
+    {
+      "paperId": "739ceacfafb1c4eaa17509351b647c773270b3ae",
+      "title": "An Empirical Study of Training Self-Supervised Vision Transformers",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Xinlei Chen",
+          "authorId": "39717886",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Kaiming He",
+          "authorId": "2058350112",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2021-04-05",
+      "year": 2021,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV48922.2021.00950",
+      "citationCount": 2476,
+      "tldr": "This work investigates the effects of several fundamental components for training self-supervised ViT, and reveals that these results are indeed partial failure, and they can be improved when training is made more stable.",
+      "abstract": "This paper does not describe a novel method. Instead, it studies a straightforward, incremental, yet must-know baseline given the recent progress in computer vision: self-supervised learning for Vision Transformers (ViT). While the training recipes for standard convolutional networks have been highly mature and robust, the recipes for ViT are yet to be built, especially in the self-supervised scenarios where training becomes more challenging. In this work, we go back to basics and investigate the effects of several fundamental components for training self-supervised ViT. We observe that instability is a major issue that degrades accuracy, and it can be hidden by apparently good results. We reveal that these results are indeed partial failure, and they can be improved when training is made more stable. We benchmark ViT results in MoCo v3 and several other self-supervised frameworks, with ablations in various aspects. We discuss the currently positive evidence as well as challenges and open questions. We hope that this work will provide useful data points and experience for future research."
+    },
+    {
       "paperId": "72fe90517d8df2894a955ad01568ab7586495fda",
       "title": "SimPLE: Similar Pseudo Label Exploitation for Semi-Supervised Classification",
       "teamAuthors": [
@@ -51957,6 +52626,42 @@
       "citationCount": 163,
       "tldr": "A simple method for training a unified detector on multiple large-scale datasets that performs as well as dataset-specific models on each training domain, and can generalize to new unseen dataset without fine- tuning on them.",
       "abstract": "How do we build a general and broad object detection system? We use all labels of all concepts ever annotated. These labels span diverse datasets with potentially inconsistent taxonomies. In this paper, we present a simple method for training a unified detector on multiple large-scale datasets. We use dataset-specific training protocols and losses, but share a common detection architecture with dataset-specific outputs. We show how to automatically integrate these dataset-specific outputs into a common semantic taxonomy. In contrast to prior work, our approach does not require manual taxonomy reconciliation. Experiments show our learned taxonomy outperforms a expert-designed taxonomy in all datasets. Our multi-dataset detector performs as well as dataset-specific models on each training domain, and can generalize to new unseen dataset without fine-tuning on them. Code is available at https://github.com/xingyizhou/UniDet."
+    },
+    {
+      "paperId": "6af5cdb1c6d54ed75a32353f3c31097eca6cb35e",
+      "title": "On Interaction Between Augmentations and Corruptions in Natural Corruption Robustness",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Eric Mintun",
+          "authorId": "13131689",
+          "slug": null
+        },
+        {
+          "name": "A. Kirillov",
+          "authorId": "2064802835",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2021-02-22",
+      "year": 2021,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/6af5cdb1c6d54ed75a32353f3c31097eca6cb35e",
+      "citationCount": 136,
+      "tldr": "A feature space for image transforms is developed, and a new measure in this space between augmentations and corruptions called the Minimal Sample Distance is used to demonstrate a strong correlation between similarity and performance.",
+      "abstract": "Invariance to a broad array of image corruptions, such as warping, noise, or color shifts, is an important aspect of building robust models in computer vision. Recently, several new data augmentations have been proposed that significantly improve performance on ImageNet-C, a benchmark of such corruptions. However, there is still a lack of basic understanding on the relationship between data augmentations and test-time corruptions. To this end, we develop a feature space for image transforms, and then use a new measure in this space between augmentations and corruptions called the Minimal Sample Distance to demonstrate a strong correlation between similarity and performance. We then investigate recent data augmentations and observe a significant degradation in corruption robustness when the test-time corruptions are sampled to be perceptually dissimilar from ImageNet-C in this feature space. Our results suggest that test error can be improved by training on perceptually similar augmentations, and data augmentations may not generalize well beyond the existing benchmark. We hope our results and tools will allow for more robust progress towards improving robustness to image corruptions"
     },
     {
       "paperId": "8424db67dc7fc95ffbf3f04d1bfac4c9ed09caed",
@@ -52186,6 +52891,47 @@
       "citationCount": 10,
       "tldr": "Self-supervised learning based on the momentum contrast (MoCo) method in the pretraining phase is used to learn more general image representations to use for downstream tasks, and a new transformer-based architecture is proposed that can process sequences of multiple images for prediction.",
       "abstract": null
+    },
+    {
+      "paperId": "053b96e162724fa10d8639196a99856d60de5214",
+      "title": "Exploring Data-Efficient 3D Scene Understanding with Contrastive Scene Contexts",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Ji Hou",
+          "authorId": "144129263",
+          "slug": null
+        },
+        {
+          "name": "Benjamin Graham",
+          "authorId": "143853801",
+          "slug": null
+        },
+        {
+          "name": "M. Nießner",
+          "authorId": "2209612",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2020-12-16",
+      "year": 2020,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR46437.2021.01533",
+      "citationCount": 350,
+      "tldr": "This study reveals that exhaustive labelling of 3D point clouds might be unnecessary; and remarkably, on ScanNet, even using 0.1% of point labels, the method achieves state-of-the-art results on a suite of benchmarks where training data or labels are scarce.",
+      "abstract": "The rapid progress in 3D scene understanding has come with growing demand for data; however, collecting and an-notating 3D scenes (e.g. point clouds) are notoriously hard. For example, the number of scenes (e.g. indoor rooms) that can be accessed and scanned might be limited; even given sufficient data, acquiring 3D labels (e.g. instance masks) requires intensive human labor. In this paper, we explore data-efficient learning for 3D point cloud. As a first step towards this direction, we propose Contrastive Scene Contexts, a 3D pre-training method that makes use of both point-level correspondences and spatial contexts in a scene. Our method achieves state-of-the-art results on a suite of benchmarks where training data or labels are scarce. Our study reveals that exhaustive labelling of 3D point clouds might be unnecessary; and remarkably, on ScanNet, even using 0.1% of point labels, we still achieve 89% (instance segmentation) and 96% (semantic segmentation) of the baseline performance that uses full annotations."
     },
     {
       "paperId": "e21cc9de85542465e0723f3f175c2938e4eed5b6",
@@ -52829,6 +53575,57 @@
       "abstract": null
     },
     {
+      "paperId": "491188ac198663094537cb4c38ac1c8808ef7440",
+      "title": "PointContrast: Unsupervised Pre-training for 3D Point Cloud Understanding",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Jiatao Gu",
+          "authorId": "3016273",
+          "slug": null
+        },
+        {
+          "name": "Demi Guo",
+          "authorId": "35578711",
+          "slug": null
+        },
+        {
+          "name": "C. Qi",
+          "authorId": "144329939",
+          "slug": null
+        },
+        {
+          "name": "L. Guibas",
+          "authorId": "51352814",
+          "slug": null
+        },
+        {
+          "name": "O. Litany",
+          "authorId": "2528439",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2020-07-21",
+      "year": 2020,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-030-58580-8_34",
+      "citationCount": 864,
+      "tldr": "This work aims at facilitating research on 3D representation learning by selecting a suite of diverse datasets and tasks to measure the effect of unsupervised pre-training on a large source set of 3D scenes and achieving improvement over recent best results in segmentation and detection across 6 different benchmarks.",
+      "abstract": "Arguably one of the top success stories of deep learning is transfer learning. The finding that pre-training a network on a rich source set (eg., ImageNet) can help boost performance once fine-tuned on a usually much smaller target set, has been instrumental to many applications in language and vision. Yet, very little is known about its usefulness in 3D point cloud understanding. We see this as an opportunity considering the effort required for annotating data in 3D. In this work, we aim at facilitating research on 3D representation learning. Different from previous works, we focus on high-level scene understanding tasks. To this end, we select a suite of diverse datasets and tasks to measure the effect of unsupervised pre-training on a large source set of 3D scenes. Our findings are extremely encouraging: using a unified triplet of architecture, source dataset, and contrastive loss for pre-training, we achieve improvement over recent best results in segmentation and detection across 6 different benchmarks for indoor and outdoor, real and synthetic datasets -- demonstrating that the learned representation can generalize across domains. Furthermore, the improvement was similar to s"
+    },
+    {
       "paperId": "5da1b4e1ddc612970530e5bb29470fe43bfcf2d6",
       "title": "PC-PG: Policy Cover Directed Exploration for Provable Policy Gradient Learning",
       "teamAuthors": [
@@ -52904,6 +53701,47 @@
       "citationCount": 84,
       "tldr": "Surprisingly, in some environments PER can be replaced entirely by this new loss function without impact to empirical performance, and this relationship suggests a new branch of improvements to PER by correcting its uniformly sampled loss function equivalent.",
       "abstract": "Prioritized Experience Replay (PER) is a deep reinforcement learning technique in which agents learn from transitions sampled with non-uniform probability proportionate to their temporal-difference error. We show that any loss function evaluated with non-uniformly sampled data can be transformed into another uniformly sampled loss function with the same expected gradient. Surprisingly, we find in some environments PER can be replaced entirely by this new loss function without impact to empirical performance. Furthermore, this relationship suggests a new branch of improvements to PER by correcting its uniformly sampled loss function equivalent. We demonstrate the effectiveness of our proposed modifications to PER and the equivalent loss function in several MuJoCo and Atari environments."
+    },
+    {
+      "paperId": "ccbd7f5f7aaa7a50e35ff3de41f718861de790c4",
+      "title": "Graph Structure of Neural Networks",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Jiaxuan You",
+          "authorId": "145829303",
+          "slug": null
+        },
+        {
+          "name": "J. Leskovec",
+          "authorId": "1702139",
+          "slug": null
+        },
+        {
+          "name": "Kaiming He",
+          "authorId": "39353098",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2020-07-12",
+      "year": 2020,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/ccbd7f5f7aaa7a50e35ff3de41f718861de790c4",
+      "citationCount": 171,
+      "tldr": "A novel graph-based representation of neural networks called relational graph is developed, where layers of neural network computation correspond to rounds of message exchange along the graph structure, which shows that a \"sweet spot\" of relational graphs leads to neural networks with significantly improved predictive performance.",
+      "abstract": "Neural networks are often represented as graphs of connections between neurons. However, despite their wide use, there is currently little understanding of the relationship between the graph structure of the neural network and its predictive performance. Here we systematically investigate how does the graph structure of neural networks affect their predictive performance. To this end, we develop a novel graph-based representation of neural networks called relational graph, where layers of neural network computation correspond to rounds of message exchange along the graph structure. Using this representation we show that: (1) a \"sweet spot\" of relational graphs leads to neural networks with significantly improved predictive performance; (2) neural network's performance is approximately a smooth function of the clustering coefficient and average path length of its relational graph; (3) our findings are consistent across many different tasks and datasets; (4) the sweet spot can be identified efficiently; (5) top-performing neural networks have graph structure surprisingly similar to those of real biological neural networks. Our work opens new directions for the design of neural archit"
     },
     {
       "paperId": "448e077fc6cc9d05b5c1dffc9b02f12253273651",
@@ -53895,6 +54733,87 @@
       "abstract": null
     },
     {
+      "paperId": "e4afee97378ce41c703b9c4ee88ca442347d81c1",
+      "title": "FBNetV2: Differentiable Neural Architecture Search for Spatial and Channel Dimensions",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Alvin Wan",
+          "authorId": "144546548",
+          "slug": null
+        },
+        {
+          "name": "Xiaoliang Dai",
+          "authorId": "4527324",
+          "slug": null
+        },
+        {
+          "name": "Peizhao Zhang",
+          "authorId": "2918780",
+          "slug": null
+        },
+        {
+          "name": "Zijian He",
+          "authorId": "2558787",
+          "slug": null
+        },
+        {
+          "name": "Yuandong Tian",
+          "authorId": "39402399",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Bichen Wu",
+          "authorId": "3130257",
+          "slug": null
+        },
+        {
+          "name": "Matthew Yu",
+          "authorId": "2110144262",
+          "slug": null
+        },
+        {
+          "name": "Tao Xu",
+          "authorId": "2118716442",
+          "slug": null
+        },
+        {
+          "name": "Kan Chen",
+          "authorId": "2118439352",
+          "slug": null
+        },
+        {
+          "name": "Peter Vajda",
+          "authorId": "48682997",
+          "slug": null
+        },
+        {
+          "name": "Joseph E. Gonzalez",
+          "authorId": "49988044",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2020-04-12",
+      "year": 2020,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/cvpr42600.2020.01298",
+      "citationCount": 335,
+      "tldr": "This work proposes a memory and computationally efficient DNAS variant, DMaskingNAS, that expands the search space by up to 10^14x over conventional DNAS, supporting searches over spatial and channel dimensions that are otherwise prohibitively expensive: input resolution and number of filters.",
+      "abstract": "Differentiable Neural Architecture Search (DNAS) has demonstrated great success in designing state-of-the-art, efficient neural networks. However, DARTS-based DNAS's search space is small when compared to other search methods', since all candidate network layers must be explicitly instantiated in memory. To address this bottleneck, we propose a memory and computationally efficient DNAS variant: DMaskingNAS. This algorithm expands the search space by up to 10^14x over conventional DNAS, supporting searches over spatial and channel dimensions that are otherwise prohibitively expensive: input resolution and number of filters. We propose a masking mechanism for feature map reuse, so that memory and computational costs stay nearly constant as the search space expands. Furthermore, we employ effective shape propagation to maximize per-FLOP or per-parameter accuracy. The searched FBNetV2s yield state-of-the-art performance when compared with all previous architectures. With up to 421x less search cost, DMaskingNAS finds models with 0.9% higher accuracy, 15% fewer FLOPs than MobileNetV3-Small; and with similar accuracy but 20% fewer FLOPs than Efficient-B0. Furthermore, our FBNetV2 outperf"
+    },
+    {
       "paperId": "d37e125c272c1349b486b94804a5df6d9eb5ab34",
       "title": "Continuous Histogram Loss: Beyond Neural Similarity",
       "teamAuthors": [
@@ -53960,6 +54879,57 @@
       "citationCount": 1402,
       "tldr": null,
       "abstract": "Tracking has traditionally been the art of following interest points through space and time. This changed with the rise of powerful deep networks. Nowadays, tracking is dominated by pipelines that perform object detection followed by temporal association, also known as tracking-by-detection. In this paper, we present a simultaneous detection and tracking algorithm that is simpler, faster, and more accurate than the state of the art. Our tracker, CenterTrack, applies a detection model to a pair of images and detections from the prior frame. Given this minimal input, CenterTrack localizes objects and predicts their associations with the previous frame. That's it. CenterTrack is simple, online (no peeking into the future), and real-time. It achieves 67.3% MOTA on the MOT17 challenge at 22 FPS and 89.4% MOTA on the KITTI tracking benchmark at 15 FPS, setting a new state of the art on both datasets. CenterTrack is easily extended to monocular 3D tracking by regressing additional 3D attributes. Using monocular video input, it achieves 28.3% AMOTA@0.2 on the newly released nuScenes 3D tracking benchmark, substantially outperforming the monocular baseline on this benchmark while running at"
+    },
+    {
+      "paperId": "55edd0f014553e9faa2a9567f1323863f7e08410",
+      "title": "Are Labels Necessary for Neural Architecture Search?",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Chenxi Liu",
+          "authorId": "50557601",
+          "slug": null
+        },
+        {
+          "name": "Piotr Doll'ar",
+          "authorId": "2065731243",
+          "slug": null
+        },
+        {
+          "name": "Kaiming He",
+          "authorId": "39353098",
+          "slug": null
+        },
+        {
+          "name": "Ross B. Girshick",
+          "authorId": "2983898",
+          "slug": null
+        },
+        {
+          "name": "A. Yuille",
+          "authorId": "145081362",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2020-03-26",
+      "year": 2020,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-030-58548-8_46",
+      "citationCount": 80,
+      "tldr": "The potentially surprising finding that labels are not necessary, and the image statistics alone may be sufficient to identify good neural architectures is revealed.",
+      "abstract": "Existing neural network architectures in computer vision -- whether designed by humans or by machines -- were typically found using both images and their associated labels. In this paper, we ask the question: can we find high-quality neural architectures using only images, but no human-annotated labels? To answer this question, we first define a new setup called Unsupervised Neural Architecture Search (UnNAS). We then conduct two sets of experiments. In sample-based experiments, we train a large number (500) of diverse architectures with either supervised or unsupervised objectives, and find that the architecture rankings produced with and without labels are highly correlated. In search-based experiments, we run a well-established NAS algorithm (DARTS) using various unsupervised objectives, and report that the architectures searched without labels can be competitive to their counterparts searched with labels. Together, these results reveal the potentially surprising finding that labels are not necessary, and the image statistics alone may be sufficient to identify good neural architectures."
     },
     {
       "paperId": "317cfe2959f01af336dde41473de7894b83e3a07",
@@ -54433,6 +55403,52 @@
       "abstract": "We present an algorithm, HOMER, for exploration and reinforcement learning in rich observation environments that are summarizable by an unknown latent state space. The algorithm interleaves representation learning to identify a new notion of kinematic state abstraction with strategic exploration to reach new states using the learned abstraction. The algorithm provably explores the environment with sample complexity scaling polynomially in the number of latent states and the time horizon, and, crucially, with no dependence on the size of the observation space, which could be infinitely large. This exploration guarantee further enables sample-efficient global policy optimization for any reward function. On the computational side, we show that the algorithm can be implemented efficiently whenever certain supervised learning problems are tractable. Empirically, we evaluate HOMER on a challenging exploration problem, where we show that the algorithm is exponentially more sample efficient than standard reinforcement learning baselines."
     },
     {
+      "paperId": "add2f205338d70e10ce5e686df4a690e2851bdfc",
+      "title": "Momentum Contrast for Unsupervised Visual Representation Learning",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Kaiming He",
+          "authorId": "39353098",
+          "slug": null
+        },
+        {
+          "name": "Haoqi Fan",
+          "authorId": "146884473",
+          "slug": null
+        },
+        {
+          "name": "Yuxin Wu",
+          "authorId": "98264506",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Ross B. Girshick",
+          "authorId": "2983898",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2019-11-13",
+      "year": 2019,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/cvpr42600.2020.00975",
+      "citationCount": 15695,
+      "tldr": null,
+      "abstract": "We present Momentum Contrast (MoCo) for unsupervised visual representation learning. From a perspective on contrastive learning as dictionary look-up, we build a dynamic dictionary with a queue and a moving-averaged encoder. This enables building a large and consistent dictionary on-the-fly that facilitates contrastive unsupervised learning. MoCo provides competitive results under the common linear protocol on ImageNet classification. More importantly, the representations learned by MoCo transfer well to downstream tasks. MoCo can outperform its supervised pre-training counterpart in 7 detection/segmentation tasks on PASCAL VOC, COCO, and other datasets, sometimes surpassing it by large margins. This suggests that the gap between unsupervised and supervised representation learning has been largely closed in many vision tasks."
+    },
+    {
       "paperId": "648d2cd200584f790bd6d07ba875eabc21710d6d",
       "title": "Explicit Explore-Exploit Algorithms in Continuous State Spaces",
       "teamAuthors": [
@@ -54886,6 +55902,97 @@
       "abstract": "Distributed optimization is essential for training large models on large datasets. Multiple approaches have been proposed to reduce the communication overhead in distributed training, such as synchronizing only after performing multiple local SGD steps, and decentralized methods (e.g., using gossip algorithms) to decouple communications among workers. Although these methods run faster than AllReduce-based methods, which use blocking communication before every update, the resulting models may be less accurate after the same number of updates. Inspired by the BMUF method of Chen & Huo (2016), we propose a slow momentum (SlowMo) framework, where workers periodically synchronize and perform a momentum update, after multiple iterations of a base optimization algorithm. Experiments on image classification and machine translation tasks demonstrate that SlowMo consistently yields improvements in optimization and generalization performance relative to the base optimizer, even when the additional overhead is amortized over many updates so that the SlowMo runtime is on par with that of the base optimizer. We provide theoretical convergence guarantees showing that SlowMo converges to a station"
     },
     {
+      "paperId": "e61854de647b65e30510ad14726a798e818651d9",
+      "title": "Order-Aware Generative Modeling Using the 3D-Craft Dataset",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Zhuoyuan Chen",
+          "authorId": "2111498846",
+          "slug": null
+        },
+        {
+          "name": "Demi Guo",
+          "authorId": "35578711",
+          "slug": null
+        },
+        {
+          "name": "Tong Xiao",
+          "authorId": "2014849645",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Xinlei Chen",
+          "authorId": "39717886",
+          "slug": null
+        },
+        {
+          "name": "Haonan Yu",
+          "authorId": "2910174",
+          "slug": null
+        },
+        {
+          "name": "Jonathan Gray",
+          "authorId": "2114735703",
+          "slug": null
+        },
+        {
+          "name": "Kavya Srinet",
+          "authorId": "27693639",
+          "slug": null
+        },
+        {
+          "name": "Haoqi Fan",
+          "authorId": "146884473",
+          "slug": null
+        },
+        {
+          "name": "Jerry Ma",
+          "authorId": "30529616",
+          "slug": null
+        },
+        {
+          "name": "C. Qi",
+          "authorId": "144329939",
+          "slug": null
+        },
+        {
+          "name": "Shubham Tulsiani",
+          "authorId": "2757335",
+          "slug": null
+        },
+        {
+          "name": "Arthur Szlam",
+          "authorId": "3149531",
+          "slug": null
+        },
+        {
+          "name": "C. L. Zitnick",
+          "authorId": "1699161",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2019-10-01",
+      "year": 2019,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV.2019.00185",
+      "citationCount": 8,
+      "tldr": null,
+      "abstract": "In this paper, we study the problem of sequentially building houses in the game of Minecraft, and demonstrate that learning the ordering can make for more effective autoregressive models. Given a partially built house made by a human player, our system tries to place additional blocks in a human-like manner to complete the house. We introduce a new dataset, HouseCraft, for this new task. HouseCraft contains the sequential order in which 2,500 Minecraft houses were built from scratch by humans. The human action sequences enable us to learn an order-aware generative model called Voxel-CNN. In contrast to many generative models where the sequential generation ordering either does not matter (e.g. holistic generation with GANs), or is manually/arbitrarily set by simple rules (e.g. raster-scan order), our focus is on an ordered generation that imitates humans. To evaluate if a generative model can accurately predict human-like actions, we propose several novel quantitative metrics. We demonstrate that our Voxel-CNN model is simple and effective at this creative task, and can serve as a strong baseline for future research in this direction. The HouseCraft dataset and code with baseline m"
+    },
+    {
       "paperId": "bb797edf7556c57fe255d29a6c0647d6815f02b9",
       "title": "Regularization Matters in Policy Optimization",
       "teamAuthors": [
@@ -54970,6 +56077,52 @@
       "url": "https://www.semanticscholar.org/paper/f78f1e25a5a3dcb4745d31a27a15c87d246ec4c3",
       "citationCount": 9,
       "tldr": "This work proposes simple approaches to improve machine interpretability of processed images: optimizing the recognition loss directly on the image processing network or through an intermediate transforming model, and brings substantial accuracy improvement on both the same recognition model and when transferring to a different one, with minimal or no loss in the imageprocessing quality.",
+      "abstract": null
+    },
+    {
+      "paperId": "51d4f2aec59da6d150932e03e7a45eac8c2945f8",
+      "title": "Neural Architecture Search by Learning Action Space for Monte Carlo Tree Search",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Linnan Wang",
+          "authorId": "3221830",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Teng Li",
+          "authorId": "2115646385",
+          "slug": null
+        },
+        {
+          "name": "Rodrigo Fonseca",
+          "authorId": "145502789",
+          "slug": null
+        },
+        {
+          "name": "Yuandong Tian",
+          "authorId": "39402399",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2019-09-25",
+      "year": 2019,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/51d4f2aec59da6d150932e03e7a45eac8c2945f8",
+      "citationCount": 3,
+      "tldr": null,
       "abstract": null
     },
     {
@@ -55487,6 +56640,52 @@
       "abstract": null
     },
     {
+      "paperId": "f3c7e853bb77d1ad360464aea81676cc9e3ca1fe",
+      "title": "Sample-Efficient Neural Architecture Search by Learning Action Space",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Linnan Wang",
+          "authorId": "3221830",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Teng Li",
+          "authorId": "2115646385",
+          "slug": null
+        },
+        {
+          "name": "Rodrigo Fonseca",
+          "authorId": "145502789",
+          "slug": null
+        },
+        {
+          "name": "Yuandong Tian",
+          "authorId": "39402399",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2019-06-17",
+      "year": 2019,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/f3c7e853bb77d1ad360464aea81676cc9e3ca1fe",
+      "citationCount": 48,
+      "tldr": "This paper proposes Latent Action Neural Architecture Search (LaNAS) that learns the action space to recursively partition the architecture search space into regions, each with concentrated performance metrics (\\emph{i.e., low variance).",
+      "abstract": "Neural Architecture Search (NAS) has emerged as a promising technique for automatic neural network design. However, existing NAS approaches often utilize manually designed action space, which is not directly related to the performance metric to be optimized (e.g., accuracy). As a result, using manually designed action space to perform NAS often leads to sample-inefficient explorations of architectures and thus can be sub-optimal. In order to improve sample efficiency, this paper proposes Latent Action Neural Architecture Search (LaNAS) that learns the action space to recursively partition the architecture search space into regions, each with concentrated performance metrics (\\emph{i.e.}, low variance). During the search phase, as different architecture search action sequences lead to regions of different performance, the search efficiency can be significantly improved by biasing towards the regions with good performance. On the largest NAS dataset NasBench-101, our experimental results demonstrated that LaNAS is 22x, 14.6x and 12.4x more sample-efficient than random search, regularized evolution, and Monte Carlo Tree Search (MCTS) respectively. When applied to the open domain, LaNA"
+    },
+    {
       "paperId": "4345a20eeca8f816d72b0d9dbf63d39f00a4ca88",
       "title": "Complete Dictionary Learning via 𝓁4-Norm Maximization over the Orthogonal Group",
       "teamAuthors": [
@@ -55623,6 +56822,52 @@
       "citationCount": 8,
       "tldr": "A novel feed-forward network for video inpainting that inpaints the holes with globally and locally coherent contents and is designed with a recurrent propagation stream to encourage temporal consistency in video results.",
       "abstract": "We propose a novel feed-forward network for video inpainting. We use a set of sampled video frames as the reference to take visible contents to fill the hole of a target frame. Our video inpainting network consists of two stages. The first stage is an alignment module that uses computed homographies between the reference frames and the target frame. The visible patches are then aggregated based on the frame similarity to fill in the target holes roughly. The second stage is a non-local attention module that matches the generated patches with known reference patches (in space and time) to refine the previous global alignment stage. Both stages consist of large spatial-temporal window size for the reference and thus enable modeling long-range correlations between distant information and the hole regions. Therefore, even challenging scenes with large or slowly moving holes can be handled, which have been hardly modeled by existing flow-based approach. Our network is also designed with a recurrent propagation stream to encourage temporal consistency in video results. Experiments on video object removal demonstrate that our method inpaints the holes with globally and locally coherent co"
+    },
+    {
+      "paperId": "15a526d7d66dd7a08f6bec6aa9b39ffa6322a96e",
+      "title": "On Network Design Spaces for Visual Recognition",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Ilija Radosavovic",
+          "authorId": "30407997",
+          "slug": null
+        },
+        {
+          "name": "Justin Johnson",
+          "authorId": "2115231104",
+          "slug": null
+        },
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Wan-Yen Lo",
+          "authorId": "3317278",
+          "slug": null
+        },
+        {
+          "name": "Piotr Dollár",
+          "authorId": "3127283",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2019-05-30",
+      "year": 2019,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV.2019.00197",
+      "citationCount": 154,
+      "tldr": "A new comparison paradigm of distribution estimates is introduced, in which network design spaces are compared by applying statistical techniques to populations of sampled models, while controlling for confounding factors like network complexity.",
+      "abstract": "Over the past several years progress in designing better neural network architectures for visual recognition has been substantial. To help sustain this rate of progress, in this work we propose to reexamine the methodology for comparing network architectures. In particular, we introduce a new comparison paradigm of distribution estimates, in which network design spaces are compared by applying statistical techniques to populations of sampled models, while controlling for confounding factors like network complexity. Compared to current methodologies of comparing point and curve estimates of model families, distribution estimates paint a more complete picture of the entire design landscape. As a case study, we examine design spaces used in neural architecture search (NAS). We find significant statistical differences between recent NAS design space variants that have been largely overlooked. Furthermore, our analysis reveals that the design spaces for standard model families like ResNeXt can be comparable to the more complex ones used in recent NAS work. We hope these insights into distribution analysis will enable more robust progress toward discovering better networks for visual rec"
     },
     {
       "paperId": "f374aa5ae8bcfb9fc1b36d1e546209f8c629b643",
@@ -55934,6 +57179,47 @@
       "citationCount": 3807,
       "tldr": "The center point based approach, CenterNet, is end-to-end differentiable, simpler, faster, and more accurate than corresponding bounding box based detectors and performs competitively with sophisticated multi-stage methods and runs in real-time.",
       "abstract": "Detection identifies objects as axis-aligned boxes in an image. Most successful object detectors enumerate a nearly exhaustive list of potential object locations and classify each. This is wasteful, inefficient, and requires additional post-processing. In this paper, we take a different approach. We model an object as a single point --- the center point of its bounding box. Our detector uses keypoint estimation to find center points and regresses to all other object properties, such as size, 3D location, orientation, and even pose. Our center point based approach, CenterNet, is end-to-end differentiable, simpler, faster, and more accurate than corresponding bounding box based detectors. CenterNet achieves the best speed-accuracy trade-off on the MS COCO dataset, with 28.1% AP at 142 FPS, 37.4% AP at 52 FPS, and 45.1% AP with multi-scale testing at 1.4 FPS. We use the same approach to estimate 3D bounding box in the KITTI benchmark and human pose on the COCO keypoint dataset. Our method performs competitively with sophisticated multi-stage methods and runs in real-time."
+    },
+    {
+      "paperId": "e1cb7ddae92273dfb71f194e01586eb2342d847d",
+      "title": "Exploring Randomly Wired Neural Networks for Image Recognition",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Alexander Kirillov",
+          "authorId": "144843400",
+          "slug": null
+        },
+        {
+          "name": "Ross B. Girshick",
+          "authorId": "2983898",
+          "slug": null
+        },
+        {
+          "name": "Kaiming He",
+          "authorId": "39353098",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2019-04-02",
+      "year": 2019,
+      "venue": "IEEE International Conference on Computer Vision",
+      "url": "https://doi.org/10.1109/ICCV.2019.00137",
+      "citationCount": 395,
+      "tldr": "The results suggest that new efforts focusing on designing better network generators may lead to new breakthroughs by exploring less constrained search spaces with more room for novel design.",
+      "abstract": "Neural networks for image recognition have evolved through extensive manual design from simple chain-like models to structures with multiple wiring paths. The success of ResNets and DenseNets is due in large part to their innovative wiring plans. Now, neural architecture search (NAS) studies are exploring the joint optimization of wiring and operation types, however, the space of possible wirings is constrained and still driven by manual design despite being searched. In this paper, we explore a more diverse set of connectivity patterns through the lens of randomly wired neural networks. To do this, we first define the concept of a stochastic network generator that encapsulates the entire network generation process. Encapsulation provides a unified view of NAS and randomly wired networks. Then, we use three classical random graph models to generate randomly wired graphs for networks. The results are surprising: several variants of these random generators yield network instances that have competitive accuracy on the ImageNet benchmark. These results suggest that new efforts focusing on designing better network generators may lead to new breakthroughs by exploring less constrained se"
     },
     {
       "paperId": "ae5d5e5c40b208e21f6f0c18bc453310bf9cb297",
@@ -57037,6 +58323,32 @@
       "abstract": null
     },
     {
+      "paperId": "42ed2b05e1fb2edb1c19b6ed398285c7644e80fb",
+      "title": "Deep Representation Learning with Induced Structural Priors",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": null,
+      "year": 2018,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/42ed2b05e1fb2edb1c19b6ed398285c7644e80fb",
+      "citationCount": 0,
+      "tldr": "This thesis focuses on two structural priors that have proven to be useful and generalizable in many different scenarios: the multi-scale prior, with an application in edge detection, and the sparse-connectivity prior implemented for generic visual recognition.",
+      "abstract": null
+    },
+    {
       "paperId": "fb3affc0fcaa1d03a086efe5bead15017b7af63a",
       "title": "Sentiment Analysis: It’s Complicated!",
       "teamAuthors": [
@@ -57121,6 +58433,47 @@
       "citationCount": 72,
       "tldr": "The notion of a “complicated” class of sentiment to categorize text according to some predefined notion of sentiment is proposed, and it is argued that its inclusion in the short-text sentiment analysis framework will improve the quality of automated sentiment analysis systems as they are implemented in real-world settings.",
       "abstract": "Sentiment analysis is used as a proxy to measure human emotion, where the objective is to categorize text according to some predefined notion of sentiment. Sentiment analysis datasets are typically constructed with gold-standard sentiment labels, assigned based on the results of manual annotations. When working with such annotations, it is common for dataset constructors to discard “noisy” or “controversial” data where there is significant disagreement on the proper label. In datasets constructed for the purpose of Twitter sentiment analysis (TSA), these controversial examples can compose over 30% of the originally annotated data. We argue that the removal of such data is a problematic trend because, when performing real-time sentiment classification of short-text, an automated system cannot know a priori which samples would fall into this category of disputed sentiment. We therefore propose the notion of a “complicated” class of sentiment to categorize such text, and argue that its inclusion in the short-text sentiment analysis framework will improve the quality of automated sentiment analysis systems as they are implemented in real-world settings. We motivate this argument by bui"
+    },
+    {
+      "paperId": "36777066966899fb48c1850d5776af97f1c81942",
+      "title": "Attentional ShapeContextNet for Point Cloud Recognition",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Sainan Liu",
+          "authorId": "48641524",
+          "slug": null
+        },
+        {
+          "name": "Zeyu Chen",
+          "authorId": "2145422041",
+          "slug": null
+        },
+        {
+          "name": "Zhuowen Tu",
+          "authorId": "144035504",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2018-06-01",
+      "year": 2018,
+      "venue": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR.2018.00484",
+      "citationCount": 344,
+      "tldr": null,
+      "abstract": "We tackle the problem of point cloud recognition. Unlike previous approaches where a point cloud is either converted into a volume/image or represented independently in a permutation-invariant set, we develop a new representation by adopting the concept of shape context as the building block in our network design. The resulting model, called ShapeContextNet, consists of a hierarchy with modules not relying on a fixed grid while still enjoying properties similar to those in convolutional neural networks - being able to capture and propagate the object part information. In addition, we find inspiration from self-attention based models to include a simple yet effective contextual modeling mechanism - making the contextual region selection, the feature aggregation, and the feature transformation process fully automatic. ShapeContextNet is an end-to-end model that can be applied to the general point cloud classification and segmentation problems. We observe competitive results on a number of benchmark datasets."
     },
     {
       "paperId": "8b6afef69b14b97a272c667b6b9004e441085c89",
@@ -57292,6 +58645,62 @@
       "abstract": "In value-based reinforcement learning methods such as deep Q-learning, function approximation errors are known to lead to overestimated value estimates and suboptimal policies. We show that this problem persists in an actor-critic setting and propose novel mechanisms to minimize its effects on both the actor and the critic. Our algorithm builds on Double Q-learning, by taking the minimum value between a pair of critics to limit overestimation. We draw the connection between target networks and overestimation bias, and suggest delaying policy updates to reduce per-update error and further improve performance. We evaluate our method on the suite of OpenAI gym tasks, outperforming the state of the art in every environment tested."
     },
     {
+      "paperId": "61527789b487ab2dc0155f6f274de7196908c57c",
+      "title": "Transferring Task Goals via Hierarchical Reinforcement Learning",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Alexandre Galashov",
+          "authorId": "51980959",
+          "slug": null
+        },
+        {
+          "name": "Siqi Liu",
+          "authorId": "2108637290",
+          "slug": null
+        },
+        {
+          "name": "Shaobo Hou",
+          "authorId": "3108448",
+          "slug": null
+        },
+        {
+          "name": "Razvan Pascanu",
+          "authorId": "1996134",
+          "slug": null
+        },
+        {
+          "name": "N. Heess",
+          "authorId": "2801204",
+          "slug": null
+        },
+        {
+          "name": "Y. Teh",
+          "authorId": "1725303",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2018-02-12",
+      "year": 2018,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/61527789b487ab2dc0155f6f274de7196908c57c",
+      "citationCount": 6,
+      "tldr": null,
+      "abstract": null
+    },
+    {
       "paperId": "8aa51889a5e4ce2f3ecef47729348be41b2f6d6e",
       "title": "Multi-View Silhouette and Depth Decomposition for High Resolution 3D Object Representation",
       "teamAuthors": [
@@ -57418,6 +58827,98 @@
       "citationCount": 39,
       "tldr": "A novel unsupervised domain adaptation technique for the task of 3D keypoint prediction from a single depth scan or image using the fact that predictions from different views of the same or similar objects should be consistent with each other is introduced.",
       "abstract": "In this paper, we introduce a novel unsupervised domain adaptation technique for the task of 3D keypoint prediction from a single depth scan or image. Our key idea is to utilize the fact that predictions from different views of the same or similar objects should be consistent with each other. Such view consistency can provide effective regularization for keypoint prediction on unlabeled instances. In addition, we introduce a geometric alignment term to regularize predictions in the target domain. The resulting loss function can be effectively optimized via alternating minimization. We demonstrate the effectiveness of our approach on real datasets and present experimental results showing that our approach is superior to state-of-the-art general-purpose domain adaptation techniques."
+    },
+    {
+      "paperId": "4fa0d73b8ba114578744c2ebaf610d2ca9694f45",
+      "title": "Rethinking Spatiotemporal Feature Learning For Video Understanding",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Chen Sun",
+          "authorId": "1491624845",
+          "slug": null
+        },
+        {
+          "name": "Jonathan Huang",
+          "authorId": "2136435893",
+          "slug": null
+        },
+        {
+          "name": "Zhuowen Tu",
+          "authorId": "144035504",
+          "slug": null
+        },
+        {
+          "name": "K. Murphy",
+          "authorId": "1702318",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2017-12-13",
+      "year": 2017,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/4fa0d73b8ba114578744c2ebaf610d2ca9694f45",
+      "citationCount": 270,
+      "tldr": "Interestingly, it was found that 3D convolutions at the top layers of the network contribute more than 3D Convolutional networks at the bottom layers, while also being computationally more efficient, indicating that I3D is better at capturing high-level temporal patterns than low-level motion signals.",
+      "abstract": null
+    },
+    {
+      "paperId": "815aa52cfc02961d82415f080384594639a21984",
+      "title": "Rethinking Spatiotemporal Feature Learning: Speed-Accuracy Trade-offs in Video Classification",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Chen Sun",
+          "authorId": "2118831303",
+          "slug": null
+        },
+        {
+          "name": "Jonathan Huang",
+          "authorId": "2136435893",
+          "slug": null
+        },
+        {
+          "name": "Zhuowen Tu",
+          "authorId": "144035504",
+          "slug": null
+        },
+        {
+          "name": "K. Murphy",
+          "authorId": "1702318",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2017-12-13",
+      "year": 2017,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-030-01267-0_19",
+      "citationCount": 1516,
+      "tldr": "It is shown that it is possible to replace many of the 3D convolutions by low-cost 2D convolution, suggesting that temporal representation learning on high-level “semantic” features is more useful.",
+      "abstract": "Despite the steady progress in video analysis led by the adoption of convolutional neural networks (CNNs), the relative improvement has been less drastic as that in 2D static image classification. Three main challenges exist including spatial (image) feature representation, temporal information representation, and model/computation complexity. It was recently shown by Carreira and Zisserman that 3D CNNs, inflated from 2D networks and pretrained on ImageNet, could be a promising way for spatial and temporal representation learning. However, as for model/computation complexity, 3D CNNs are much more expensive than 2D CNNs and prone to overfit. We seek a balance between speed and accuracy by building an effective and efficient video classification system through systematic exploration of critical network design choices. In particular, we show that it is possible to replace many of the 3D convolutions by low-cost 2D convolutions. Rather surprisingly, best result (in both speed and accuracy) is achieved when replacing the 3D convolutions at the bottom of the network, suggesting that temporal representation learning on high-level “semantic” features is more useful. Our conclusion general"
     },
     {
       "paperId": "bfdb693df3a04fa9645233c444ccd8ec16c6c477",
@@ -57813,6 +59314,52 @@
       "citationCount": 38,
       "tldr": "This work revisits the residual function in several variations of residual units and demonstrates that these residual functions can actually be explained with a unified framework based on generalized block term decomposition, and proposes a new architecture, Collective Residual Unit (CRU), which enhances the parameter efficiency of deep neural networks through collective tensor factorization.",
       "abstract": "Residual units are wildly used for alleviating optimization difficulties when building deep neural networks. However, the performance gain does not well compensate the model size increase, indicating low parameter efficiency in these residual units. In this work, we first revisit the residual function in several variations of residual units and demonstrate that these residual functions can actually be explained with a unified framework based on generalized block term decomposition. Then, based on the new explanation, we propose a new architecture, Collective Residual Unit (CRU), which enhances the parameter efficiency of deep neural networks through collective tensor factorization. CRU enables knowledge sharing across different residual units using shared factors. Experimental results show that our proposed CRU Network demonstrates outstanding parameter efficiency, achieving comparable classification performance to ResNet-200 with the model size of ResNet-50. By building a deeper network using CRU, we can achieve state-of-the-art single model classification accuracy on ImageNet-1k and Places365-Standard benchmark datasets. (Code and trained models are available on GitHub)"
+    },
+    {
+      "paperId": "f6e0856b4a9199fa968ac00da612a9407b5cb85c",
+      "title": "Aggregated Residual Transformations for Deep Neural Networks",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Ross B. Girshick",
+          "authorId": "2983898",
+          "slug": null
+        },
+        {
+          "name": "Piotr Dollár",
+          "authorId": "3127283",
+          "slug": null
+        },
+        {
+          "name": "Zhuowen Tu",
+          "authorId": "144035504",
+          "slug": null
+        },
+        {
+          "name": "Kaiming He",
+          "authorId": "39353098",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2016-11-16",
+      "year": 2016,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR.2017.634",
+      "citationCount": 11893,
+      "tldr": "On the ImageNet-1K dataset, it is empirically show that even under the restricted condition of maintaining complexity, increasing cardinality is able to improve classification accuracy and is more effective than going deeper or wider when the authors increase the capacity.",
+      "abstract": "We present a simple, highly modularized network architecture for image classification. Our network is constructed by repeating a building block that aggregates a set of transformations with the same topology. Our simple design results in a homogeneous, multi-branch architecture that has only a few hyper-parameters to set. This strategy exposes a new dimension, which we call cardinality (the size of the set of transformations), as an essential factor in addition to the dimensions of depth and width. On the ImageNet-1K dataset, we empirically show that even under the restricted condition of maintaining complexity, increasing cardinality is able to improve classification accuracy. Moreover, increasing cardinality is more effective than going deeper or wider when we increase the capacity. Our models, named ResNeXt, are the foundations of our entry to the ILSVRC 2016 classification task in which we secured 2nd place. We further investigate ResNeXt on an ImageNet-5K set and the COCO detection set, also showing better results than its ResNet counterpart. The code and models are publicly available online."
     },
     {
       "paperId": "033dd6cf61a6017e9aa9b46068d3c89082849cf3",
@@ -58375,6 +59922,119 @@
       "abstract": null
     },
     {
+      "paperId": "ce21a57ba22b9c93cc7efa1540d2589c69fdfb9f",
+      "title": "Convolutional Pseudo-Prior for Structured Labeling",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Xun Huang",
+          "authorId": "144247007",
+          "slug": null
+        },
+        {
+          "name": "Zhuowen Tu",
+          "authorId": "144035504",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2015-11-23",
+      "year": 2015,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/ce21a57ba22b9c93cc7efa1540d2589c69fdfb9f",
+      "citationCount": 9,
+      "tldr": "A new method for structured labeling by developing convolutional pseudo-prior (ConvPP) on the ground-truth labels using pseudo-likelihood approximation to the prior under a novel fixed-point network structure that facilitates an end-to-end learning process.",
+      "abstract": null
+    },
+    {
+      "paperId": "ea8640efbd4f517c57519e1b91fe8b1fdb0dc080",
+      "title": "Top-Down Learning for Structured Labeling with Convolutional Pseudoprior",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Xun Huang",
+          "authorId": "144247007",
+          "slug": null
+        },
+        {
+          "name": "Zhuowen Tu",
+          "authorId": "144035504",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2015-11-23",
+      "year": 2015,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.1007/978-3-319-46493-0_19",
+      "citationCount": 39,
+      "tldr": "A new method for structured labeling by developing convolutional pseudo-prior (ConvPP) on the ground-truth labels using pseudo-likelihood approximation to the prior under a novel fixed-point network structure that facilitates an end-to-end learning process.",
+      "abstract": "Current practice in convolutional neural networks (CNN) remains largely bottom-up and the role of top-down process in CNN for pattern analysis and visual inference is not very clear. In this paper, we propose a new method for structured labeling by developing convolutional pseudo-prior (ConvPP) on the ground-truth labels. Our method has several interesting properties: (1) compared with classical machine learning algorithms like CRFs and Structural SVM, ConvPP automatically learns rich convolutional kernels to capture both short- and long- range contexts; (2) compared with cascade classifiers like Auto-Context, ConvPP avoids the iterative steps of learning a series of discriminative classifiers and automatically learns contextual configurations; (3) compared with recent efforts combing CNN models with CRFs and RNNs, ConvPP learns convolution in the labeling space with much improved modeling capability and less manual specification; (4) compared with Bayesian models like MRFs, ConvPP capitalizes on the rich representation power of convolution by automatically learning priors built on convolutional filters. We accomplish our task using pseudo-likelihood approximation to the prior unde"
+    },
+    {
+      "paperId": "38128302a9d3b910e4f4fb7c3e17dc98f1d735b1",
+      "title": "Hyper-class augmented and regularized deep learning for fine-grained image classification",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Tianbao Yang",
+          "authorId": "40381920",
+          "slug": null
+        },
+        {
+          "name": "Xiaoyu Wang",
+          "authorId": "2118775664",
+          "slug": null
+        },
+        {
+          "name": "Yuanqing Lin",
+          "authorId": "119916460",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2015-10-16",
+      "year": 2015,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR.2015.7298880",
+      "citationCount": 177,
+      "tldr": null,
+      "abstract": null
+    },
+    {
       "paperId": "015d25f66514ce0a966300944201d45968a104ba",
       "title": "Simple Image Description Generator via a Linear Phrase-based Model",
       "teamAuthors": [
@@ -58505,6 +60165,37 @@
       "citationCount": 1679,
       "tldr": "This paper develops an extension of Spectral Networks which incorporates a Graph Estimation procedure, that is test on large-scale classification problems, matching or improving over Dropout Networks with far less parameters to estimate.",
       "abstract": "Deep Learning's recent successes have mostly relied on Convolutional Networks, which exploit fundamental statistical properties of images, sounds and video data: the local stationarity and multi-scale compositional structure, that allows expressing long range interactions in terms of shorter, localized interactions. However, there exist other important examples, such as text documents or bioinformatic data, that may lack some or all of these strong statistical regularities. \nIn this paper we consider the general question of how to construct deep architectures with small learning complexity on general non-Euclidean domains, which are typically unknown and need to be estimated from the data. In particular, we develop an extension of Spectral Networks which incorporates a Graph Estimation procedure, that we test on large-scale classification problems, matching or improving over Dropout Networks with far less parameters to estimate."
+    },
+    {
+      "paperId": "8da55e685a7bef9c897788ab519a8710c695c419",
+      "title": "Holistically-Nested Edge Detection",
+      "teamAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Saining Xie",
+          "authorId": "1817030",
+          "slug": "saining-xie"
+        },
+        {
+          "name": "Zhuowen Tu",
+          "authorId": "144035504",
+          "slug": null
+        }
+      ],
+      "memberSlug": "saining-xie",
+      "memberName": "Saining Xie",
+      "publicationDate": "2015-04-23",
+      "year": 2015,
+      "venue": "International Journal of Computer Vision",
+      "url": "https://doi.org/10.1007/s11263-017-1004-z",
+      "citationCount": 3963,
+      "tldr": "HED performs image-to-image prediction by means of a deep learning model that leverages fully convolutional neural networks and deeply-supervised nets, and automatically learns rich hierarchical representations that are important in order to resolve the challenging ambiguity in edge and object boundary detection.",
+      "abstract": "We develop a new edge detection algorithm that addresses two important issues in this long-standing vision problem: (1) holistic image training and prediction; and (2) multi-scale and multi-level feature learning. Our proposed method, holistically-nested edge detection (HED), performs image-to-image prediction by means of a deep learning model that leverages fully convolutional neural networks and deeply-supervised nets. HED automatically learns rich hierarchical representations (guided by deep supervision on side responses) that are important in order to resolve the challenging ambiguity in edge and object boundary detection. We significantly advance the state-of-the-art on the BSDS500 dataset (ODS F-score of 0.790) and the NYU Depth dataset (ODS F-score of 0.746), and do so with an improved speed (0.4 s per image) that is orders of magnitude faster than some CNN-based edge detection algorithms developed before HED. We also observe encouraging results on other boundary detection benchmark datasets such as Multicue and PASCAL-Context."
     },
     {
       "paperId": "42ffc02d5fc249aaf3393f83c41e3a24e810924b",

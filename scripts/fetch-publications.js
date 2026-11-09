@@ -262,7 +262,7 @@ async function fetchAuthorPaperDates(id) {
 // fields for the newest RECENT_KEEP via the batch endpoint (which supports abstract/tldr/authors).
 // Papers whose id is in `knownIds` are already stored in research.json and are returned by id
 // only (`reused`) instead of being downloaded again; pass an empty set to refresh everything.
-async function fetchRecent(ids, knownIds = new Set()) {
+async function fetchRecent(ids, knownIds = new Set(), expectedCounts = {}) {
   const seen = new Map();
   let anyOk = false;
   let anyError = false;
@@ -271,6 +271,11 @@ async function fetchRecent(ids, knownIds = new Set()) {
     // already gathered from the member's valid profiles.
     try {
       const papers = await fetchAuthorPaperDates(ids[i]);
+      // A profile that reports papers but lists none is a bad response, not an empty
+      // profile — treat it as a failure so the member's stored papers are kept.
+      if (!papers.length && expectedCounts[ids[i]] > 0) {
+        throw new Error(`listed 0 papers but reports paperCount ${expectedCounts[ids[i]]}`);
+      }
       for (const p of papers) if (!seen.has(p.paperId)) seen.set(p.paperId, p);
       anyOk = true;
     } catch (e) {
@@ -282,17 +287,21 @@ async function fetchRecent(ids, knownIds = new Set()) {
   // Only surface a failure (so the caller preserves the member's prior papers via carry-over)
   // when EVERY profile errored — a partial failure still uses whatever succeeded.
   if (!anyOk && anyError) throw new Error("all author profiles failed");
+  // `partial` tells the caller some profile failed: the papers we did get are used, but the
+  // member's previously stored papers must be carried over too, or a single rate-limited
+  // profile silently deletes everything that was only listed under it.
+  const partial = anyError;
   const topIds = [...seen.values()].sort(byDateDesc).slice(0, RECENT_KEEP).map((p) => p.paperId);
   const reused = topIds.filter((id) => knownIds.has(id));
   const toFetch = topIds.filter((id) => !knownIds.has(id));
-  if (!toFetch.length) return { fresh: [], reused };
+  if (!toFetch.length) return { fresh: [], reused, partial };
 
   await pace();
   const url = `https://api.semanticscholar.org/graph/v1/paper/batch?fields=${BATCH_FIELDS}`;
   const details = await postJson(url, { ids: toFetch });
   const byId = new Map();
   for (const p of details || []) if (p && p.paperId && p.title) byId.set(p.paperId, p);
-  return { fresh: toFetch.map((id) => byId.get(id)).filter(Boolean), reused }; // preserve date order
+  return { fresh: toFetch.map((id) => byId.get(id)).filter(Boolean), reused, partial }; // preserve date order
 }
 
 // Merge a member's recent paper into the team-wide map (dedupe co-authored papers by paperId).
@@ -466,10 +475,16 @@ async function main() {
 
     // pass 2 — most-recent across all of the member's profiles (research feed)
     try {
-      const { fresh, reused } = await fetchRecent(ids, knownIds);
+      const { fresh, reused, partial } = await fetchRecent(ids, knownIds, counts);
       fresh.forEach((p) => addRecentPaper(researchMap, member, p, resolver));
       reused.forEach((id) => addExistingPaper(researchMap, member, existingById.get(id)));
-      console.log(`recent ${fresh.length + reused.length} (${fresh.length} new)`);
+      if (partial) {
+        // Keep their stored papers (carry-over below) and retry them next run.
+        memberOk = false;
+        failedMembers.push(member.slug);
+        degraded.add(member.slug);
+      }
+      console.log(`recent ${fresh.length + reused.length} (${fresh.length} new)${partial ? " — PARTIAL, stored papers kept" : ""}`);
     } catch (e) {
       memberOk = false;
       failedMembers.push(member.slug);
