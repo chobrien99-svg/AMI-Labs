@@ -479,7 +479,13 @@ async function main() {
     // pass 2 — most-recent across all of the member's profiles (research feed)
     try {
       const { fresh, reused, partial } = await fetchRecent(ids, knownIds, counts);
-      fresh.forEach((p) => addRecentPaper(researchMap, member, p, resolver));
+      fresh.forEach((p) => {
+        addRecentPaper(researchMap, member, p, resolver);
+        // A full refresh rebuilds the record; keep ids it was previously known by.
+        const prev = existingById.get(p.paperId);
+        const rec = researchMap.get(p.paperId);
+        if (prev && rec && Array.isArray(prev.aliases) && prev.aliases.length && !rec.aliases) rec.aliases = [...prev.aliases];
+      });
       reused.forEach((id) => addExistingPaper(researchMap, member, existingById.get(id)));
       if (partial) {
         // Keep their stored papers (carry-over below) and retry them next run.

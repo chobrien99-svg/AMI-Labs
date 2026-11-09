@@ -12,6 +12,7 @@ const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
 const { stripBriefingScaffolding } = require("./lib/strip-scaffolding");
+const { paperKeys } = require("./lib/merge-manual-papers");
 
 const API_KEY = process.env.RESEND_API_KEY;
 const AUDIENCE_ID = process.env.RESEND_AUDIENCE_ID;
@@ -164,7 +165,8 @@ function loadSeenIds(seenPath) {
 // the union of previously-seen ids + all current ids to persist, so a paper is
 // never reported twice even if only a subset was rendered.
 function computeNewResearch(papers, seenPath, max = NEW_RESEARCH_MAX) {
-  const currentIds = papers.map((p) => p.paperId);
+  // Match on aliases too: a hand-listed paper changes id when Semantic Scholar indexes it.
+  const currentIds = papers.flatMap(paperKeys);
   const seen = loadSeenIds(seenPath);
   const isFirstRun = seen === null;
   const nextSeen = new Set([...(seen || []), ...currentIds]);
@@ -172,7 +174,7 @@ function computeNewResearch(papers, seenPath, max = NEW_RESEARCH_MAX) {
   let newResearch = [];
   if (!isFirstRun) {
     newResearch = papers
-      .filter((p) => !seen.has(p.paperId))
+      .filter((p) => !paperKeys(p).some((id) => seen.has(id)))
       .sort((a, b) => String(b.publicationDate || "").localeCompare(String(a.publicationDate || "")))
       .slice(0, max);
   }
