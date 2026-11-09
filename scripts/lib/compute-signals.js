@@ -20,6 +20,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { paperKeys } = require("./merge-manual-papers");
 
 const DATA_DIR = path.resolve(__dirname, "../../data");
 
@@ -145,7 +146,8 @@ function computePublicationFacts(research, prevSnapshot, sinceTime, census) {
   const papers = research && Array.isArray(research.papers) ? research.papers : [];
   if (!papers.length) return empty;
 
-  const keys = papers.map((p) => p.paperId).filter(Boolean);
+  // Include aliases so a paper whose id changed (hand-listed → Semantic Scholar) is not "new" again.
+  const keys = papers.flatMap(paperKeys);
 
   // Snapshot migration: earlier snapshots stored `slug|title|year` keys. If we detect
   // that old format, treat this run as a baseline so switching to paperId keys does not
@@ -153,6 +155,7 @@ function computePublicationFacts(research, prevSnapshot, sinceTime, census) {
   const prevKeysRaw = (prevSnapshot && prevSnapshot.publicationKeys) || null;
   const prevIsOldFormat = prevKeysRaw && prevKeysRaw.some((k) => typeof k === "string" && k.includes("|"));
   const prevKeys = prevIsOldFormat ? null : prevKeysRaw;
+  const prevSet = new Set(prevKeys || []);
 
   const inWin = (p) => {
     const d = bestPubDate(p);
@@ -161,7 +164,7 @@ function computePublicationFacts(research, prevSnapshot, sinceTime, census) {
 
   // Census → treat the whole current corpus as notable. Otherwise → papers absent from
   // the prior snapshot (or none, on a migrated/baseline run).
-  const newlySeen = census ? papers.slice() : prevKeys ? papers.filter((p) => !prevKeys.includes(p.paperId)) : [];
+  const newlySeen = census ? papers.slice() : prevKeys ? papers.filter((p) => !paperKeys(p).some((k) => prevSet.has(k))) : [];
   const notable = new Map();
   for (const p of [...newlySeen, ...papers.filter(inWin)]) {
     if (!notable.has(p.paperId)) notable.set(p.paperId, p);

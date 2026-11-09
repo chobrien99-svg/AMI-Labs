@@ -20,12 +20,15 @@ const https = require("https");
 const fs = require("fs");
 const path = require("path");
 const { buildResolver } = require("./lib/resolve-identity");
+const { mergeManualPapers } = require("./lib/merge-manual-papers");
 
 const TEAM_FILE = path.resolve(__dirname, "../data/team.json");
 const PUBS_FILE = path.resolve(__dirname, "../data/publications.json");
 const RESEARCH_FILE = path.resolve(__dirname, "../data/research.json");
 // Per-profile paper counts from the last run — the cheap "anything new?" check.
 const STATE_FILE = path.resolve(__dirname, "../data/publications-state.json");
+// Hand-added papers Semantic Scholar has not indexed yet (see scripts/lib/merge-manual-papers.js).
+const MANUAL_FILE = path.resolve(__dirname, "../data/research-manual.json");
 const FULL_REFRESH = process.argv.includes("--full") || /^(1|true|yes)$/i.test(process.env.S2_FULL_REFRESH || "");
 const SANITY = { projectId: "k8hl9hed", dataset: "production", apiVersion: "2024-01-01" };
 const DELAY_MS = 1500; // floor for spacing between requests
@@ -476,7 +479,13 @@ async function main() {
     // pass 2 — most-recent across all of the member's profiles (research feed)
     try {
       const { fresh, reused, partial } = await fetchRecent(ids, knownIds, counts);
-      fresh.forEach((p) => addRecentPaper(researchMap, member, p, resolver));
+      fresh.forEach((p) => {
+        addRecentPaper(researchMap, member, p, resolver);
+        // A full refresh rebuilds the record; keep ids it was previously known by.
+        const prev = existingById.get(p.paperId);
+        const rec = researchMap.get(p.paperId);
+        if (prev && rec && Array.isArray(prev.aliases) && prev.aliases.length && !rec.aliases) rec.aliases = [...prev.aliases];
+      });
       reused.forEach((id) => addExistingPaper(researchMap, member, existingById.get(id)));
       if (partial) {
         // Keep their stored papers (carry-over below) and retry them next run.
@@ -524,7 +533,11 @@ async function main() {
     }
   }
 
-  const papers = [...researchMap.values()].sort((a, b) => {
+  // Carried-over rows may include last run's manual entries; mergeManualPapers re-derives them.
+  const manualEntries = fs.existsSync(MANUAL_FILE) ? JSON.parse(fs.readFileSync(MANUAL_FILE, "utf8")) : [];
+  const merged = mergeManualPapers([...researchMap.values()], manualEntries, resolver);
+  if (merged.added.length) console.log(`Added ${merged.added.length} hand-listed paper(s) not yet on Semantic Scholar.`);
+  const papers = merged.papers.sort((a, b) => {
     const da = sortDateOf(a), db = sortDateOf(b);
     if (!da && !db) return 0;
     if (!da) return 1;
