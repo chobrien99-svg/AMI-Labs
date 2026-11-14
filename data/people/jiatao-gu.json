@@ -958,6 +958,36 @@
       ]
     },
     {
+      "paperId": "589afb994d0f18d2590760126512be78353fb116",
+      "title": "PointContrast: Unsupervised Pre-training for 3D Point Cloud Understanding",
+      "year": 2020,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.48550/arXiv.2007.10985",
+      "citationCount": 898,
+      "coAuthors": [
+        {
+          "slug": "saining-xie",
+          "name": "Saining Xie"
+        },
+        {
+          "slug": null,
+          "name": "Demi Guo"
+        },
+        {
+          "slug": null,
+          "name": "C. Qi"
+        },
+        {
+          "slug": null,
+          "name": "L. Guibas"
+        },
+        {
+          "slug": null,
+          "name": "O. Litany"
+        }
+      ]
+    },
+    {
       "paperId": "a91c6ad6d97d958cc0bccc11a4e02cf272cab25d",
       "title": "PLANNER: Generating Diversiﬁed Paragraph via Latent Language Diffusion Model",
       "year": null,
@@ -1082,7 +1112,13 @@
     }
   ],
   "connections": {
-    "coAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "saining-xie",
+        "name": "Saining Xie",
+        "sharedPapers": 1
+      }
+    ],
     "externalCoAuthors": [
       {
         "name": "Yi-Zhe Zhang",
@@ -1438,6 +1474,22 @@
       },
       {
         "name": "Baoquan Chen",
+        "papers": 1
+      },
+      {
+        "name": "Demi Guo",
+        "papers": 1
+      },
+      {
+        "name": "C. Qi",
+        "papers": 1
+      },
+      {
+        "name": "L. Guibas",
+        "papers": 1
+      },
+      {
+        "name": "O. Litany",
         "papers": 1
       }
     ],

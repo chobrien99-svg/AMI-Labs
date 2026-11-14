@@ -434,15 +434,56 @@
           "name": "Christoph Feichtenhofer"
         }
       ]
+    },
+    {
+      "paperId": "39223c8e64221062cd992e7e89e6db858014eac1",
+      "title": "Progressive Recurrent Learning for Visual Recognition",
+      "year": 2018,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.1811.12047",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Xutong Ren"
+        },
+        {
+          "slug": null,
+          "name": "Ling-Xi Xie"
+        },
+        {
+          "slug": null,
+          "name": "Siyuan Qiao"
+        },
+        {
+          "slug": null,
+          "name": "Chi Su"
+        },
+        {
+          "slug": null,
+          "name": "Jia-Ying Liu"
+        },
+        {
+          "slug": null,
+          "name": "A. Yuille"
+        }
+      ]
     }
   ],
   "topPublications": [
     {
       "title": "Perception Encoder: The best visual embeddings are not at the output of the network",
       "year": 2025,
-      "citationCount": 409,
+      "citationCount": 420,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2504.13181"
+    },
+    {
+      "title": "Vision-Language-Vision Auto-Encoder: Scalable Knowledge Distillation from Diffusion Models",
+      "year": 2025,
+      "citationCount": 7,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.48550/arXiv.2507.07104"
     },
     {
       "title": "Prompt-Based Invertible Mapping Alignment for Unsupervised Domain Adaptation",
@@ -450,13 +491,6 @@
       "citationCount": 5,
       "venue": "ACM Trans. Multim. Comput. Commun. Appl.",
       "url": "https://doi.org/10.1145/3725735"
-    },
-    {
-      "title": "Vision-Language-Vision Auto-Encoder: Scalable Knowledge Distillation from Diffusion Models",
-      "year": 2025,
-      "citationCount": 5,
-      "venue": "Neural Information Processing Systems",
-      "url": "https://doi.org/10.48550/arXiv.2507.07104"
     },
     {
       "title": "SRSplat: Feed-Forward Super-Resolution Gaussian Splatting from Sparse Multi-View Images",
@@ -524,6 +558,10 @@
       },
       {
         "name": "Christoph Feichtenhofer",
+        "papers": 2
+      },
+      {
+        "name": "A. Yuille",
         "papers": 2
       },
       {
@@ -763,7 +801,23 @@
         "papers": 1
       },
       {
-        "name": "A. Yuille",
+        "name": "Xutong Ren",
+        "papers": 1
+      },
+      {
+        "name": "Ling-Xi Xie",
+        "papers": 1
+      },
+      {
+        "name": "Siyuan Qiao",
+        "papers": 1
+      },
+      {
+        "name": "Chi Su",
+        "papers": 1
+      },
+      {
+        "name": "Jia-Ying Liu",
         "papers": 1
       }
     ],

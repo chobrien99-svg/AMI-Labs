@@ -1,6 +1,25 @@
 {
   "coAuthorship": [
     {
+      "a": "amir-bar",
+      "b": "yann-lecun",
+      "paperCount": 12,
+      "papers": [
+        "Self-Supervised Collapse Prevention with Score-Based Entropy Maximization",
+        "Hierarchical Planning with Latent World Models",
+        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+        "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
+        "Parallel Stochastic Gradient-Based Planning for World Models",
+        "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
+        "World Models Can Leverage Human Videos for Dexterous Manipulation",
+        "Scaling Language-Free Visual Representation Learning",
+        "Stochastic positional embeddings improve masked image modeling",
+        "A Cookbook of Self-Supervised Learning",
+        "A Cookbook of Self-Supervised Learning"
+      ]
+    },
+    {
       "a": "mahmoud-assran",
       "b": "yann-lecun",
       "paperCount": 10,
@@ -229,24 +248,6 @@
       "papers": [
         "Hierarchical Planning with Latent World Models",
         "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
-        "A Cookbook of Self-Supervised Learning",
-        "A Cookbook of Self-Supervised Learning"
-      ]
-    },
-    {
-      "a": "amir-bar",
-      "b": "yann-lecun",
-      "paperCount": 11,
-      "papers": [
-        "Hierarchical Planning with Latent World Models",
-        "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
-        "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
-        "A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures",
-        "Parallel Stochastic Gradient-Based Planning for World Models",
-        "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
-        "World Models Can Leverage Human Videos for Dexterous Manipulation",
-        "Scaling Language-Free Visual Representation Learning",
-        "Stochastic positional embeddings improve masked image modeling",
         "A Cookbook of Self-Supervised Learning",
         "A Cookbook of Self-Supervised Learning"
       ]
@@ -1235,6 +1236,14 @@
       "paperCount": 1,
       "papers": [
         "Masked Feature Prediction for Self-Supervised Visual Pre-Training"
+      ]
+    },
+    {
+      "a": "jiatao-gu",
+      "b": "saining-xie",
+      "paperCount": 1,
+      "papers": [
+        "PointContrast: Unsupervised Pre-training for 3D Point Cloud Understanding"
       ]
     },
     {

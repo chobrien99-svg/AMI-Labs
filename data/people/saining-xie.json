@@ -1182,6 +1182,28 @@
       ]
     },
     {
+      "paperId": "e19ac29c5a376c92ecef1ed394695b1715c2eac8",
+      "title": "Exploring Data-Efficient 3D Scene Understanding with Contrastive Scene Contexts",
+      "year": 2020,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR46437.2021.01533",
+      "citationCount": 360,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ji Hou"
+        },
+        {
+          "slug": null,
+          "name": "Benjamin Graham"
+        },
+        {
+          "slug": null,
+          "name": "Matthias Niessner"
+        }
+      ]
+    },
+    {
       "paperId": "053b96e162724fa10d8639196a99856d60de5214",
       "title": "Exploring Data-Efficient 3D Scene Understanding with Contrastive Scene Contexts",
       "year": 2020,
@@ -1200,6 +1222,36 @@
         {
           "slug": null,
           "name": "M. Nießner"
+        }
+      ]
+    },
+    {
+      "paperId": "589afb994d0f18d2590760126512be78353fb116",
+      "title": "PointContrast: Unsupervised Pre-training for 3D Point Cloud Understanding",
+      "year": 2020,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.48550/arXiv.2007.10985",
+      "citationCount": 898,
+      "coAuthors": [
+        {
+          "slug": "jiatao-gu",
+          "name": "Jiatao Gu"
+        },
+        {
+          "slug": null,
+          "name": "Demi Guo"
+        },
+        {
+          "slug": null,
+          "name": "C. Qi"
+        },
+        {
+          "slug": null,
+          "name": "L. Guibas"
+        },
+        {
+          "slug": null,
+          "name": "O. Litany"
         }
       ]
     },
@@ -1388,6 +1440,36 @@
         {
           "slug": null,
           "name": "Joseph E. Gonzalez"
+        }
+      ]
+    },
+    {
+      "paperId": "b6cbcfe0487798762afcd9d1e2c79efbd57ee482",
+      "title": "Are Labels Necessary for Neural Architecture Search?",
+      "year": 2020,
+      "venue": "European Conference on Computer Vision",
+      "url": "https://doi.org/10.48550/arXiv.2003.12056",
+      "citationCount": 80,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Chenxi Liu"
+        },
+        {
+          "slug": null,
+          "name": "Piotr Dollár"
+        },
+        {
+          "slug": null,
+          "name": "Kaiming He"
+        },
+        {
+          "slug": null,
+          "name": "Ross B. Girshick"
+        },
+        {
+          "slug": null,
+          "name": "A. Yuille"
         }
       ]
     },
@@ -1863,35 +1945,35 @@
     {
       "title": "Masked Autoencoders Are Scalable Vision Learners",
       "year": 2021,
-      "citationCount": 13595,
+      "citationCount": 13689,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01553"
     },
     {
       "title": "A ConvNet for the 2020s",
       "year": 2022,
-      "citationCount": 10105,
+      "citationCount": 10189,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01167"
     },
     {
       "title": "Scalable Diffusion Models with Transformers",
       "year": 2022,
-      "citationCount": 8089,
+      "citationCount": 8183,
       "venue": "IEEE International Conference on Computer Vision",
       "url": "https://doi.org/10.1109/ICCV51070.2023.00387"
     },
     {
       "title": "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders",
       "year": 2023,
-      "citationCount": 2222,
+      "citationCount": 2251,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52729.2023.01548"
     },
     {
       "title": "Masked Feature Prediction for Self-Supervised Visual Pre-Training",
       "year": 2021,
-      "citationCount": 915,
+      "citationCount": 919,
       "venue": "Computer Vision and Pattern Recognition",
       "url": "https://doi.org/10.1109/CVPR52688.2022.01426"
     }
@@ -1911,6 +1993,11 @@
     }
   ],
   "xPosts": [
+    {
+      "text": "before hopping on the ‘encoder-free’ hype train, think twice. https://t.co/jzdCAOoDxt",
+      "url": "https://x.com/sainingxie/status/2121339807708193218",
+      "createdAt": "2026-11-13T20:29:57.000Z"
+    },
     {
       "text": "congrats @jang_yoel and the team! \nwhat a time to be dreaming https://t.co/9D6HPeXlIM",
       "url": "https://x.com/sainingxie/status/2112239537271476251",
@@ -1978,6 +2065,11 @@
         "slug": "chen-wei",
         "name": "Chen Wei",
         "sharedPapers": 1
+      },
+      {
+        "slug": "jiatao-gu",
+        "name": "Jiatao Gu",
+        "sharedPapers": 1
       }
     ],
     "externalCoAuthors": [
@@ -1986,20 +2078,20 @@
         "papers": 9
       },
       {
+        "name": "Kaiming He",
+        "papers": 9
+      },
+      {
         "name": "Xinlei Chen",
         "papers": 8
       },
       {
-        "name": "Kaiming He",
-        "papers": 8
+        "name": "Ross B. Girshick",
+        "papers": 7
       },
       {
         "name": "Zhuowen Tu",
         "papers": 7
-      },
-      {
-        "name": "Ross B. Girshick",
-        "papers": 6
       },
       {
         "name": "Ellis Brown",
@@ -2019,6 +2111,10 @@
       },
       {
         "name": "Shengbang Tong",
+        "papers": 4
+      },
+      {
+        "name": "Piotr Dollár",
         "papers": 4
       },
       {
@@ -2054,7 +2150,15 @@
         "papers": 3
       },
       {
-        "name": "Piotr Dollár",
+        "name": "A. Yuille",
+        "papers": 3
+      },
+      {
+        "name": "Ji Hou",
+        "papers": 3
+      },
+      {
+        "name": "Benjamin Graham",
         "papers": 3
       },
       {
@@ -2067,6 +2171,14 @@
       },
       {
         "name": "Rodrigo Fonseca",
+        "papers": 3
+      },
+      {
+        "name": "Demi Guo",
+        "papers": 3
+      },
+      {
+        "name": "C. Qi",
         "papers": 3
       },
       {
@@ -2130,10 +2242,6 @@
         "papers": 2
       },
       {
-        "name": "A. Yuille",
-        "papers": 2
-      },
-      {
         "name": "Yanghao Li",
         "papers": 2
       },
@@ -2142,23 +2250,15 @@
         "papers": 2
       },
       {
-        "name": "Ji Hou",
-        "papers": 2
-      },
-      {
-        "name": "Benjamin Graham",
-        "papers": 2
-      },
-      {
         "name": "M. Nießner",
         "papers": 2
       },
       {
-        "name": "Demi Guo",
+        "name": "L. Guibas",
         "papers": 2
       },
       {
-        "name": "C. Qi",
+        "name": "O. Litany",
         "papers": 2
       },
       {
@@ -2167,6 +2267,10 @@
       },
       {
         "name": "A. Gordo",
+        "papers": 2
+      },
+      {
+        "name": "Chenxi Liu",
         "papers": 2
       },
       {
@@ -2450,15 +2554,11 @@
         "papers": 1
       },
       {
+        "name": "Matthias Niessner",
+        "papers": 1
+      },
+      {
         "name": "Jiatao Gu",
-        "papers": 1
-      },
-      {
-        "name": "L. Guibas",
-        "papers": 1
-      },
-      {
-        "name": "O. Litany",
         "papers": 1
       },
       {
@@ -2559,10 +2659,6 @@
       },
       {
         "name": "Joseph E. Gonzalez",
-        "papers": 1
-      },
-      {
-        "name": "Chenxi Liu",
         "papers": 1
       },
       {

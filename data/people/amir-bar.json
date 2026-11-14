@@ -38,6 +38,36 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "89a327a62002e4e410778d46ad5a1222cee6238d",
+      "title": "Self-Supervised Collapse Prevention with Score-Based Entropy Maximization",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/89a327a62002e4e410778d46ad5a1222cee6238d",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Adarsh Kappiyath"
+        },
+        {
+          "slug": null,
+          "name": "S. V. Sreelatha"
+        },
+        {
+          "slug": null,
+          "name": "Xia-Tian Zhu"
+        },
+        {
+          "slug": null,
+          "name": "Lu Yin"
+        }
+      ]
+    },
+    {
       "paperId": "477e20594635eb0ced89bbf2dd9ec873278cf48d",
       "title": "Hierarchical Planning with Latent World Models",
       "year": 2026,
@@ -793,11 +823,6 @@
       "text": "Exactly, tokens are now cheap and like Yi reminds us, intelligent agent should be able to compress. \n\nConcretely:\n1. Desk rejection phase based on abstract only\n2. Shorter papers\n3. Cancel author-reviewer discussion phase, it’s now all AI slop anyway. https://t.co/h2P1P1cMiC",
       "url": "https://x.com/_amirbar/status/2101654188748865693",
       "createdAt": "2026-09-20T12:46:20.000Z"
-    },
-    {
-      "text": "The robotics company’s prisoner’s dilemma: don’t use GPT Astra and your competitors will show better demos and capabilities. Use it, and your data &amp; moat will be absorbed by the next version of the LLM.",
-      "url": "https://x.com/_amirbar/status/2099501855185248256",
-      "createdAt": "2026-09-14T14:13:43.000Z"
     }
   ],
   "connections": {
@@ -805,7 +830,7 @@
       {
         "slug": "yann-lecun",
         "name": "Yann LeCun",
-        "sharedPapers": 11
+        "sharedPapers": 12
       },
       {
         "slug": "michael-rabbat",
@@ -977,6 +1002,22 @@
       {
         "name": "Micah Goldblum",
         "papers": 2
+      },
+      {
+        "name": "Adarsh Kappiyath",
+        "papers": 1
+      },
+      {
+        "name": "S. V. Sreelatha",
+        "papers": 1
+      },
+      {
+        "name": "Xia-Tian Zhu",
+        "papers": 1
+      },
+      {
+        "name": "Lu Yin",
+        "papers": 1
       },
       {
         "name": "Soham Chitnis",
