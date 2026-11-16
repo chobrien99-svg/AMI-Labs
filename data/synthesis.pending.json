@@ -1309,13 +1309,13 @@
     "dessinKeys": []
   },
   "status": "ok",
-  "headline": "AMI doubles down on JEPA foundations while a new paper solves the problem that could sink them",
-  "stateOfPlay": "The most telling thing about AMI this week is not any single output but the coherence of everything happening at once: a new paper tackling representational collapse in self-supervised learning, a theoretical proof that JEPA converges across modalities to the same world representation, a robotic world model paper showing that JEPA scales predictably, a hire targeting 3D geometry, and Randall Balestriero on a university circuit evangelising JEPAs as the successor to current AI paradigms. These are not parallel threads — they are a single argument being prosecuted simultaneously at the technical, theoretical, applied, and public levels. AMI is not hedging; it is concentrating.",
+  "headline": "AMI and JEPA's foundations",
+  "stateOfPlay": "Last week saw a new paper tackling representational collapse in self-supervised learning, a theoretical proof that JEPA converges across modalities to the same world representation, a robotic world model paper showing that JEPA scales predictably, a hire targeting 3D geometry, and Randall Balestriero on a university circuit evangelizing JEPAs as the successor to current AI paradigms.",
   "threads": [
     {
-      "title": "The collapse problem: AMI plugs the foundational vulnerability in its own architecture",
+      "title": "The collapse problem: the foundational vulnerability in the JEPA architecture",
       "category": "research",
-      "narrative": "The freshest paper out of the window — 'Self-Supervised Collapse Prevention with Score-Based Entropy Maximization,' posted November 8 and co-authored by LeCun and Amir Bar — goes straight at a known weakness of joint-embedding methods like JEPA: representational collapse, the pathological outcome where an encoder learns to map all inputs to the same point and training short-circuits. The proposed framework, EBReg, borrows the score-estimation machinery of diffusion models and turns it into a regulariser that keeps the latent distribution diverse during training, motivated by a mutual-information lower bound.\n\nThis matters beyond the technical contribution. Collapse is the most common failure mode critics invoke against JEPA-style architectures, and the fact that LeCun's own team is publishing a targeted fix suggests they are both aware of the risk at scale and actively closing it. The timing is not coincidental: with RoboJEPA (see below) now scaling across 12 robotic embodiments, and a theoretical convergence proof also in circulation, the team needs the foundation to be airtight. EBReg looks like the missing load-bearing piece.",
+      "narrative": "A new paper, 'Self-Supervised Collapse Prevention with Score-Based Entropy Maximization,' posted November 8 and co-authored by LeCun and Amir Bar, addresses a known weakness of joint-embedding methods like JEPA: representational collapse, the pathological outcome where an encoder learns to map all inputs to the same point and training short-circuits. The proposed framework, EBReg, borrows the score-estimation machinery of diffusion models and turns it into a regularizer that keeps the latent distribution diverse during training, motivated by a mutual-information lower bound.\n\nThis matters beyond the technical contribution. Collapse is the most common failure mode critics invoke against JEPA-style architectures, and the fact that LeCun's own team is publishing a targeted fix suggests they are both aware of the risk at scale and actively closing it. The timing is not coincidental: with RoboJEPA (see below) now scaling across 12 robotic embodiments, and a theoretical convergence proof also in circulation, the team needs the foundation to be airtight. EBReg looks like the missing load-bearing piece.",
       "evidence": [
         {
           "label": "EBReg paper (Semantic Scholar)",
@@ -1324,9 +1324,9 @@
       ]
     },
     {
-      "title": "JEPA's theoretical backbone is being formalised — and that changes the stakes",
+      "title": "JEPA's theoretical backbone is being formalized",
       "category": "research",
-      "narrative": "Alongside EBReg, a paper titled 'Proving and Improving the Platonic Representation Hypothesis with JEPAs' — authored by LeCun and already accumulating 5 citations since late October — converts a conjecture into a theorem. The Platonic Representation Hypothesis had claimed that sufficiently scaled models trained on different modalities converge to the same underlying representation; this work proves it for JEPAs under the condition that positive training pairs constitute genuinely 'good views' of the same scene, with bounded misalignment otherwise.\n\nThe significance is strategic, not merely academic. A theorem gives AMI something a hypothesis cannot: a guarantee and a recipe. It reframes JEPA not as a design choice or a bet but as a mathematically grounded path toward a universal world representation. At 5 citations this early, it is already circulating. Combined with Balestriero's Northwestern talk — explicitly framing JEPAs as 'the next step' toward human-like predictive abstraction — AMI is mounting both a formal and a rhetorical case for its paradigm at the same moment.",
+      "narrative": "Alongside EBReg, a paper titled 'Proving and Improving the Platonic Representation Hypothesis with JEPAs' — authored by LeCun, claims that sufficiently scaled models trained on different modalities converge to the same underlying representation; this work proves it for JEPAs under the condition that positive training pairs constitute genuinely 'good views' of the same scene, with bounded misalignment otherwise.\n\nThe significance is strategic, not merely academic. A theorem gives AMI something a hypothesis cannot: a guarantee and a recipe. It reframes JEPA not as a design choice or a bet but as a mathematically grounded path toward a universal world representation.",
       "evidence": [
         {
           "label": "Platonic Representation Theorem paper",
@@ -1358,9 +1358,9 @@
       ]
     },
     {
-      "title": "Saining Xie pushes back on 'encoder-free' hype — a revealing act of positioning",
+      "title": "Saining Xie pushes back on 'encoder-free' hype",
       "category": "research",
-      "narrative": "Saining Xie's post on November 13 — 'before hopping on the encoder-free hype train, think twice' — is brief, but its 274 likes and the deliberateness of its phrasing make it worth reading carefully. AMI's entire technical programme is built on encoders: JEPA encodes observations into latent representations and then predicts in that latent space rather than in pixel space. Any architectural trend that dispensed with encoders in favour of end-to-end generative approaches would be a direct challenge to AMI's paradigm.\n\nXie is not speaking into a vacuum; 'encoder-free' architectures have been gaining attention in the vision-language community. His intervention — terse, confident, high-engagement — signals that AMI's team is watching the competitive landscape and is prepared to defend the encoder-centric view publicly. This is positioning as much as opinion: it tells the community where AMI stands and implicitly argues that the JEPA family is on the right side of a fork in the road.",
+      "narrative": "Saining Xie's post on November 13 — 'before hopping on the encoder-free hype train, think twice' — is brief, but its 274 likes and the deliberateness of its phrasing make it worth reading carefully. AMI's technical program is built on encoders: JEPA encodes observations into latent representations and then predicts in that latent space rather than in pixel space. Any architectural trend that dispenses with encoders in favor of end-to-end generative approaches would directly challenge AMI's paradigm.\n\nXie is not speaking into a vacuum; 'encoder-free' architectures have been gaining attention in the vision-language community. His intervention — terse, confident, high-engagement — signals that AMI's team is watching the competitive landscape and is prepared to defend the encoder-centric view publicly.",
       "evidence": [
         {
           "label": "Xie post on encoder-free hype",
@@ -1371,7 +1371,7 @@
   ],
   "signals": [
     {
-      "text": "Balestriero announced a venue (Manhattan) and December 22 paper deadline for an upcoming workshop or conference he is organising, with an open-review, single-blind, AI-use-permitted format — worth watching as an AMI-adjacent community-building effort.",
+      "text": "Balestriero announced a venue (Manhattan) and a December 22 paper deadline for an upcoming workshop or conference he is organizing, with an open-review, single-blind, AI-use-permitted format — worth watching as an AMI-adjacent community-building effort.",
       "category": "research",
       "url": "https://x.com/randall_balestr/status/2119926108111921232",
       "linkLabel": "Announcement post"
@@ -1389,7 +1389,7 @@
       "linkLabel": "lmms-eval repo"
     }
   ],
-  "whatToWatch": "The convergence of the collapse-prevention paper, the Platonic Representation Theorem, and RoboJEPA means AMI now has theoretical grounding, a scaling law, and a practical fix for failure modes — the remaining question is whether a demonstration system capable of showcasing all three together is imminent. The Geometry and 3D Vision hire and Bar's presence at CoRL suggest the robotics application layer is next to be filled in; watch for a physical manipulation demonstration or a follow-on to DexWM in the weeks ahead. Balestriero's December 22 paper deadline also makes late December a plausible moment for AMI-adjacent submissions to surface.",
+  "whatToWatch": "The convergence of the collapse-prevention paper, the Platonic Representation Theorem, and RoboJEPA means AMI now has theoretical grounding, a scaling law, and a practical fix for failure modes.",
   "whatToWatchLinks": [
     {
       "url": "https://www.semanticscholar.org/paper/aaf2ecd57c0d1c99b70898ae05032dd7170ecf7f",
