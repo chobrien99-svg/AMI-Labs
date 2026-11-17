@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-11-17T01:29:52.417Z",
+  "lastFetched": "2026-11-17T15:26:28.952Z",
   "members": [
     {
       "slug": "adithya-iyer",
@@ -139,6 +139,14 @@
       "githubUrl": "https://github.com/luodian",
       "events": [
         {
+          "type": "ReleaseEvent",
+          "repo": "Luodian/cleaner-mac",
+          "repoUrl": "https://github.com/Luodian/cleaner-mac",
+          "description": "Released v0.1.0 on Luodian/cleaner-mac",
+          "url": "https://github.com/Luodian/cleaner-mac/releases/tag/v0.1.0",
+          "timestamp": "2026-11-17T05:04:55Z"
+        },
+        {
           "type": "PushEvent",
           "repo": "EvolvingLMMs-Lab/lmms-eval",
           "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
@@ -249,14 +257,6 @@
           "description": "Reviewed PR #1674 in EvolvingLMMs-Lab/lmms-eval",
           "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
           "timestamp": "2026-11-15T02:38:38Z"
-        },
-        {
-          "type": "IssuesEvent",
-          "repo": "EvolvingLMMs-Lab/lmms-eval",
-          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
-          "description": "Closed issue #1543 in EvolvingLMMs-Lab/lmms-eval",
-          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval/issues/1543",
-          "timestamp": "2026-11-15T02:38:17Z"
         }
       ]
     },
@@ -617,6 +617,14 @@
       "githubUrl": "https://github.com/rohitgirdhar",
       "events": [
         {
+          "type": "PushEvent",
+          "repo": "rohitgirdhar/rohitgirdhar.github.io",
+          "repoUrl": "https://github.com/rohitgirdhar/rohitgirdhar.github.io",
+          "description": "Pushed 0 commits to main on rohitgirdhar/rohitgirdhar.github.io",
+          "url": "https://github.com/rohitgirdhar/rohitgirdhar.github.io",
+          "timestamp": "2026-11-17T03:39:43Z"
+        },
+        {
           "type": "WatchEvent",
           "repo": "pingdotgg/t3code",
           "repoUrl": "https://github.com/pingdotgg/t3code",
@@ -727,14 +735,6 @@
           "description": "merged PR #3 in rohitgirdhar/obsidian-worktree-switcher",
           "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
           "timestamp": "2026-10-27T04:39:06Z"
-        },
-        {
-          "type": "PullRequestEvent",
-          "repo": "rohitgirdhar/obsidian-worktree-switcher",
-          "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "description": "Opened PR #3 in rohitgirdhar/obsidian-worktree-switcher",
-          "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "timestamp": "2026-10-27T04:29:05Z"
         }
       ]
     },
