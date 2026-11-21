@@ -38,6 +38,28 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "1adfc6502b2a97b6254108e44dfa9526d51d5ceb",
+      "title": "CupOFMoCA: Coupled Objective-Guided Discrete Flows for Molecular Conjugate Assembly",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/1adfc6502b2a97b6254108e44dfa9526d51d5ceb",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Ruoxi Rosie Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Ziang Li"
+        },
+        {
+          "slug": null,
+          "name": "Pranam Chatterjee"
+        }
+      ]
+    },
+    {
       "paperId": "4236633c397e895b6bc0e3f22f44bcfbf0daf4a3",
       "title": "RoboReason: Boosting Robotics-Relevant VLM Reasoning Through Scalable Data Generation",
       "year": 2026,
@@ -1020,13 +1042,6 @@
   ],
   "topPublications": [
     {
-      "title": "DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation",
-      "year": 2025,
-      "citationCount": 212,
-      "venue": "International Conference on Learning Representations",
-      "url": "https://doi.org/10.48550/arXiv.2506.20639"
-    },
-    {
       "title": "Multiplex Thinking: Reasoning via Token-wise Branch-and-Merge",
       "year": 2026,
       "citationCount": 19,
@@ -1050,9 +1065,16 @@
     {
       "title": "DenseAnnotate: Enabling Scalable Dense Caption Collection for Images and 3D Scenes via Spoken Descriptions",
       "year": 2025,
-      "citationCount": 1,
+      "citationCount": 2,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2511.12452"
+    },
+    {
+      "title": "JUICE: Unified Multimodal Modeling in Pretrained Representation Spaces",
+      "year": 2026,
+      "citationCount": 1,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/65431961fdd203c8b91c99ae94cea8c654d58172"
     }
   ],
   "githubProjects": [],
@@ -1208,6 +1230,18 @@
       {
         "name": "Zhuofeng Wu",
         "papers": 2
+      },
+      {
+        "name": "Ruoxi Rosie Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Ziang Li",
+        "papers": 1
+      },
+      {
+        "name": "Pranam Chatterjee",
+        "papers": 1
       },
       {
         "name": "Sagnik Anupam",

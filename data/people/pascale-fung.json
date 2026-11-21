@@ -51,6 +51,20 @@
   ],
   "papers": [
     {
+      "paperId": "f8f6811acc4b66b06348910f8a1d54e68e312d7c",
+      "title": "World models: Enabling the next AI revolution",
+      "year": 2026,
+      "venue": "The AI Magazine",
+      "url": "https://doi.org/10.1002/aaai.70110",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        }
+      ]
+    },
+    {
       "paperId": "a133f958e29b04eeb8d61f814cf1c60f3f254c6b",
       "title": "World Models with Configurable Perception",
       "year": 2026,
@@ -73,6 +87,44 @@
         {
           "slug": null,
           "name": "Kai Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "a2a082e5e54309fa08f368e0b7a7661b3eabfa00",
+      "title": "J-ToRL: Tool-Integrated LLM-as-a-Judge via Reinforcement Learning",
+      "year": 2026,
+      "venue": "Volume 1",
+      "url": "https://doi.org/10.18653/2026.aacl-long.46",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Bryan Wilie"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
+        },
+        {
+          "slug": null,
+          "name": "Gerry Windiarto Mohamad Dunda"
+        },
+        {
+          "slug": null,
+          "name": "Jie-Run Chen"
+        },
+        {
+          "slug": null,
+          "name": "Chao-Fan Tao"
+        },
+        {
+          "slug": null,
+          "name": "Yan Xu"
+        },
+        {
+          "slug": null,
+          "name": "Jun-Xian He"
         }
       ]
     },
@@ -1519,32 +1571,6 @@
       ]
     },
     {
-      "paperId": "b555fbe8d4e30fc1312c615ab7dfe6ac030dbcff",
-      "title": "Instruct-Align: Teaching Novel Languages with to LLMs through Alignment-based Cross-Lingual Instruction",
-      "year": 2023,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2305.13627",
-      "citationCount": 14,
-      "coAuthors": [
-        {
-          "slug": "willy-chung",
-          "name": "Willy Chung"
-        },
-        {
-          "slug": null,
-          "name": "Samuel Cahyawijaya"
-        },
-        {
-          "slug": null,
-          "name": "Holy Lovenia"
-        },
-        {
-          "slug": null,
-          "name": "Tiezheng Yu"
-        }
-      ]
-    },
-    {
       "paperId": "811b2a0677fda94ec1bf655ff9d3958d62474139",
       "title": "Generating Hashtags for Short-form Videos with Guided Signals",
       "year": 2023,
@@ -1583,6 +1609,32 @@
         {
           "slug": null,
           "name": "Yi-Chia Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "b555fbe8d4e30fc1312c615ab7dfe6ac030dbcff",
+      "title": "Instruct-Align: Teaching Novel Languages with to LLMs through Alignment-based Cross-Lingual Instruction",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2305.13627",
+      "citationCount": 14,
+      "coAuthors": [
+        {
+          "slug": "willy-chung",
+          "name": "Willy Chung"
+        },
+        {
+          "slug": null,
+          "name": "Samuel Cahyawijaya"
+        },
+        {
+          "slug": null,
+          "name": "Holy Lovenia"
+        },
+        {
+          "slug": null,
+          "name": "Tiezheng Yu"
         }
       ]
     },
@@ -3945,48 +3997,6 @@
       ]
     },
     {
-      "paperId": "47576b0eeff02623f7c1ce9bb987fcb781cf2a14",
-      "title": "VScript: Controllable Script Generation with Audio-Visual Presentation",
-      "year": 2022,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2203.00314",
-      "citationCount": 2,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "Zi-Wei Ji"
-        },
-        {
-          "slug": null,
-          "name": "Yan Xu"
-        },
-        {
-          "slug": null,
-          "name": "I-Tsun Cheng"
-        },
-        {
-          "slug": null,
-          "name": "Samuel Cahyawijaya"
-        },
-        {
-          "slug": null,
-          "name": "Rita Frieske"
-        },
-        {
-          "slug": null,
-          "name": "Etsuko Ishii"
-        },
-        {
-          "slug": null,
-          "name": "Mini Zeng"
-        },
-        {
-          "slug": null,
-          "name": "Andrea Madotto"
-        }
-      ]
-    },
-    {
       "paperId": "7a8923ebf3c9168037951f078eed21b07239cac3",
       "title": "Clozer”:\" Adaptable Data Augmentation for Cloze-style Reading Comprehension",
       "year": 2022,
@@ -5721,35 +5731,35 @@
     {
       "title": "Survey of Hallucination in Natural Language Generation",
       "year": 2022,
-      "citationCount": 6732,
+      "citationCount": 6965,
       "venue": "ACM Computing Surveys",
       "url": "https://doi.org/10.1145/3571730"
     },
     {
       "title": "InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning",
       "year": 2023,
-      "citationCount": 4212,
+      "citationCount": 4295,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2305.06500"
     },
     {
       "title": "NusaX: Multilingual Parallel Sentiment Dataset for 10 Indonesian Local Languages",
       "year": 2022,
-      "citationCount": 169,
+      "citationCount": 170,
       "venue": "Conference of the European Chapter of the Association for Computational Linguistics",
       "url": "https://doi.org/10.48550/arXiv.2205.15960"
     },
     {
       "title": "LLMs Are Few-Shot In-Context Low-Resource Language Learners",
       "year": 2024,
-      "citationCount": 122,
+      "citationCount": 126,
       "venue": "North American Chapter of the Association for Computational Linguistics",
       "url": "https://doi.org/10.48550/arXiv.2403.16512"
     },
     {
       "title": "International AI Safety Report",
       "year": 2025,
-      "citationCount": 102,
+      "citationCount": 103,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2501.17805"
     }
@@ -5807,7 +5817,7 @@
       {
         "slug": "yann-lecun",
         "name": "Yann LeCun",
-        "sharedPapers": 1
+        "sharedPapers": 2
       },
       {
         "slug": "basile-terver",
@@ -5818,7 +5828,7 @@
     "externalCoAuthors": [
       {
         "name": "Samuel Cahyawijaya",
-        "papers": 25
+        "papers": 24
       },
       {
         "name": "Holy Lovenia",
@@ -5826,14 +5836,14 @@
       },
       {
         "name": "Bryan Wilie",
+        "papers": 15
+      },
+      {
+        "name": "Tiezheng Yu",
         "papers": 14
       },
       {
         "name": "Ziwei Ji",
-        "papers": 13
-      },
-      {
-        "name": "Tiezheng Yu",
         "papers": 13
       },
       {
@@ -5845,15 +5855,11 @@
         "papers": 10
       },
       {
-        "name": "Etsuko Ishii",
-        "papers": 7
-      },
-      {
-        "name": "Andrea Madotto",
+        "name": "Leila Khalatbari",
         "papers": 6
       },
       {
-        "name": "Leila Khalatbari",
+        "name": "Etsuko Ishii",
         "papers": 6
       },
       {
@@ -5873,6 +5879,10 @@
         "papers": 5
       },
       {
+        "name": "Andrea Madotto",
+        "papers": 5
+      },
+      {
         "name": "Genta Indra Winata",
         "papers": 5
       },
@@ -5882,10 +5892,6 @@
       },
       {
         "name": "Alham Fikri Aji",
-        "papers": 4
-      },
-      {
-        "name": "Rita Frieske",
         "papers": 4
       },
       {
@@ -5909,7 +5915,7 @@
         "papers": 3
       },
       {
-        "name": "Mini Zeng",
+        "name": "Rita Frieske",
         "papers": 3
       },
       {
@@ -6125,12 +6131,32 @@
         "papers": 2
       },
       {
+        "name": "Mini Zeng",
+        "papers": 2
+      },
+      {
         "name": "M. Shoeybi",
         "papers": 2
       },
       {
         "name": "Elham J. Barezi",
         "papers": 2
+      },
+      {
+        "name": "Gerry Windiarto Mohamad Dunda",
+        "papers": 1
+      },
+      {
+        "name": "Jie-Run Chen",
+        "papers": 1
+      },
+      {
+        "name": "Chao-Fan Tao",
+        "papers": 1
+      },
+      {
+        "name": "Jun-Xian He",
+        "papers": 1
       },
       {
         "name": "K. Kundu",
@@ -8370,14 +8396,6 @@
       },
       {
         "name": "Hayden Kee",
-        "papers": 1
-      },
-      {
-        "name": "Zi-Wei Ji",
-        "papers": 1
-      },
-      {
-        "name": "I-Tsun Cheng",
         "papers": 1
       },
       {

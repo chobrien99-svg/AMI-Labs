@@ -31,6 +31,28 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "e40f833a0af01994146b2869788bd8f4bc8928b4",
+      "title": "On BatchNorm Forward Modes in Value-Based Reinforcement Learning",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2609.06421",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "mikael-henaff",
+          "name": "Mikael Henaff"
+        },
+        {
+          "slug": null,
+          "name": "Daniel Palenicek"
+        },
+        {
+          "slug": null,
+          "name": "Koustuv Sinha"
+        }
+      ]
+    },
+    {
       "paperId": "7278d56b454459534245fead6774f698cd3a3c44",
       "title": "Hierarchical Behaviour Spaces",
       "year": 2026,
@@ -61,6 +83,54 @@
       ]
     },
     {
+      "paperId": "c360c01140ed8e52983e314c7605a175403abcf5",
+      "title": "The Surprising Difficulty of Search in Model-Based Reinforcement Learning",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.21306",
+      "citationCount": 7,
+      "coAuthors": [
+        {
+          "slug": "mikael-henaff",
+          "name": "Mikael Henaff"
+        },
+        {
+          "slug": null,
+          "name": "Wei-Di Chang"
+        },
+        {
+          "slug": null,
+          "name": "Brandon Amos"
+        },
+        {
+          "slug": null,
+          "name": "Gregory Dudek"
+        }
+      ]
+    },
+    {
+      "paperId": "d015b9a3bf45b7812bdf7d81d9256d643d0c6625",
+      "title": "Scalable Option Learning in High-Throughput Environments",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.00338",
+      "citationCount": 5,
+      "coAuthors": [
+        {
+          "slug": "mikael-henaff",
+          "name": "Mikael Henaff"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Michael Matthews"
+        }
+      ]
+    },
+    {
       "paperId": "4f8e6c36ff27dfc3d116d2eed48d79a8d0609622",
       "title": "Sparse-Reg: Improving Sample Complexity in Offline Reinforcement Learning using Sparsity",
       "year": 2025,
@@ -75,6 +145,32 @@
         {
           "slug": null,
           "name": "D. Precup"
+        }
+      ]
+    },
+    {
+      "paperId": "6393a8e8f8ac3e85a8ea986fdf7241bcb5d5dd47",
+      "title": "Towards General-Purpose Model-Free Reinforcement Learning",
+      "year": 2025,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://doi.org/10.48550/arXiv.2501.16142",
+      "citationCount": 54,
+      "coAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "P. D'Oro"
+        },
+        {
+          "slug": null,
+          "name": "Amy Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Yuan-Dong Tian"
         }
       ]
     },
@@ -576,7 +672,12 @@
       {
         "slug": "mikael-henaff",
         "name": "Mikael Henaff",
-        "sharedPapers": 1
+        "sharedPapers": 4
+      },
+      {
+        "slug": "michael-rabbat",
+        "name": "Michael Rabbat",
+        "sharedPapers": 2
       }
     ],
     "externalCoAuthors": [
@@ -590,6 +691,10 @@
       },
       {
         "name": "Wei-Di Chang",
+        "papers": 5
+      },
+      {
+        "name": "Gregory Dudek",
         "papers": 4
       },
       {
@@ -597,12 +702,12 @@
         "papers": 4
       },
       {
-        "name": "Gregory Dudek",
+        "name": "S. Gu",
         "papers": 3
       },
       {
-        "name": "S. Gu",
-        "papers": 3
+        "name": "P. D'Oro",
+        "papers": 2
       },
       {
         "name": "D. Precup",
@@ -611,6 +716,14 @@
       {
         "name": "Edoardo Conti",
         "papers": 2
+      },
+      {
+        "name": "Daniel Palenicek",
+        "papers": 1
+      },
+      {
+        "name": "Koustuv Sinha",
+        "papers": 1
       },
       {
         "name": "Michael T. Matthews",
@@ -625,11 +738,23 @@
         "papers": 1
       },
       {
-        "name": "P. D'Oro",
+        "name": "Brandon Amos",
+        "papers": 1
+      },
+      {
+        "name": "Michael Matthews",
         "papers": 1
       },
       {
         "name": "Samin Yeasar Arnob",
+        "papers": 1
+      },
+      {
+        "name": "Amy Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Yuan-Dong Tian",
         "papers": 1
       },
       {

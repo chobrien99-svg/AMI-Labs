@@ -45,6 +45,38 @@
   ],
   "papers": [
     {
+      "paperId": "5d61c45c14456aeb9689ec80aeae5152931387b1",
+      "title": "Counterfactual World Models: JEPAs That Reason About\"What If\"",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/5d61c45c14456aeb9689ec80aeae5152931387b1",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "randall-balestriero",
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": null,
+          "name": "Kerda Varaku"
+        }
+      ]
+    },
+    {
+      "paperId": "f8f6811acc4b66b06348910f8a1d54e68e312d7c",
+      "title": "World models: Enabling the next AI revolution",
+      "year": 2026,
+      "venue": "The AI Magazine",
+      "url": "https://doi.org/10.1002/aaai.70110",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "pascale-fung",
+          "name": "Pascale Fung"
+        }
+      ]
+    },
+    {
       "paperId": "89a327a62002e4e410778d46ad5a1222cee6238d",
       "title": "Self-Supervised Collapse Prevention with Score-Based Entropy Maximization",
       "year": 2026,
@@ -173,6 +205,10 @@
         {
           "slug": "basile-terver",
           "name": "Basile Terver"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
         },
         {
           "slug": null,
@@ -1258,6 +1294,108 @@
       ]
     },
     {
+      "paperId": "1fd17e33165f4509a6e0b890ecb6483b9b7d844a",
+      "title": "Learning Abstractions: A Conversation with Yann LeCun",
+      "year": 2026,
+      "venue": "Daedalus",
+      "url": "https://doi.org/10.1162/daed.a.972",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "J. Manyika"
+        }
+      ]
+    },
+    {
+      "paperId": "7d909170d91e1b35b4b9a8ac01731d7aed2cd53e",
+      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2602.11389",
+      "citationCount": 35,
+      "coAuthors": [
+        {
+          "slug": "quentin-le-lidec",
+          "name": "Quentin Le Lidec"
+        },
+        {
+          "slug": "lucas-maes",
+          "name": "Lucas Maes"
+        },
+        {
+          "slug": null,
+          "name": "Heejeong Nam"
+        },
+        {
+          "slug": null,
+          "name": "Randall Balestriero"
+        }
+      ]
+    },
+    {
+      "paperId": "8c99e207b0477e86b051e42125d0b356fd41e9de",
+      "title": "Cambrian-S: Towards Spatial Supersensing in Video",
+      "year": 2026,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/8c99e207b0477e86b051e42125d0b356fd41e9de",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "jihan-yang",
+          "name": "Jihan Yang"
+        },
+        {
+          "slug": null,
+          "name": "Shu-Sheng Yang"
+        },
+        {
+          "slug": null,
+          "name": "Pin-Zhi Huang"
+        },
+        {
+          "slug": null,
+          "name": "Ellis Brown"
+        },
+        {
+          "slug": null,
+          "name": "Zihao Yang"
+        },
+        {
+          "slug": null,
+          "name": "Yue Yu"
+        },
+        {
+          "slug": null,
+          "name": "Sheng-Bang Tong"
+        },
+        {
+          "slug": null,
+          "name": "Zi-Han Zheng"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Fan Xu"
+        },
+        {
+          "slug": null,
+          "name": "Mu-Han Wang"
+        },
+        {
+          "slug": null,
+          "name": "Rob Fergus"
+        },
+        {
+          "slug": null,
+          "name": "Fei-Fei Li"
+        },
+        {
+          "slug": null,
+          "name": "Sai-Ning Xie"
+        }
+      ]
+    },
+    {
       "paperId": "9c221b069ff407309d7a3b8ad0089aa625cc8634",
       "title": "TabPFN-3.5: Technical Report",
       "year": 2026,
@@ -1448,108 +1586,6 @@
         {
           "slug": null,
           "name": "F. Hutter"
-        }
-      ]
-    },
-    {
-      "paperId": "1fd17e33165f4509a6e0b890ecb6483b9b7d844a",
-      "title": "Learning Abstractions: A Conversation with Yann LeCun",
-      "year": 2026,
-      "venue": "Daedalus",
-      "url": "https://doi.org/10.1162/daed.a.972",
-      "citationCount": 0,
-      "coAuthors": [
-        {
-          "slug": null,
-          "name": "J. Manyika"
-        }
-      ]
-    },
-    {
-      "paperId": "7d909170d91e1b35b4b9a8ac01731d7aed2cd53e",
-      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2602.11389",
-      "citationCount": 35,
-      "coAuthors": [
-        {
-          "slug": "quentin-le-lidec",
-          "name": "Quentin Le Lidec"
-        },
-        {
-          "slug": "lucas-maes",
-          "name": "Lucas Maes"
-        },
-        {
-          "slug": null,
-          "name": "Heejeong Nam"
-        },
-        {
-          "slug": null,
-          "name": "Randall Balestriero"
-        }
-      ]
-    },
-    {
-      "paperId": "8c99e207b0477e86b051e42125d0b356fd41e9de",
-      "title": "Cambrian-S: Towards Spatial Supersensing in Video",
-      "year": 2026,
-      "venue": "International Conference on Learning Representations",
-      "url": "https://www.semanticscholar.org/paper/8c99e207b0477e86b051e42125d0b356fd41e9de",
-      "citationCount": 0,
-      "coAuthors": [
-        {
-          "slug": "jihan-yang",
-          "name": "Jihan Yang"
-        },
-        {
-          "slug": null,
-          "name": "Shu-Sheng Yang"
-        },
-        {
-          "slug": null,
-          "name": "Pin-Zhi Huang"
-        },
-        {
-          "slug": null,
-          "name": "Ellis Brown"
-        },
-        {
-          "slug": null,
-          "name": "Zihao Yang"
-        },
-        {
-          "slug": null,
-          "name": "Yue Yu"
-        },
-        {
-          "slug": null,
-          "name": "Sheng-Bang Tong"
-        },
-        {
-          "slug": null,
-          "name": "Zi-Han Zheng"
-        },
-        {
-          "slug": null,
-          "name": "Yi-Fan Xu"
-        },
-        {
-          "slug": null,
-          "name": "Mu-Han Wang"
-        },
-        {
-          "slug": null,
-          "name": "Rob Fergus"
-        },
-        {
-          "slug": null,
-          "name": "Fei-Fei Li"
-        },
-        {
-          "slug": null,
-          "name": "Sai-Ning Xie"
         }
       ]
     },
@@ -2900,6 +2936,28 @@
       ]
     },
     {
+      "paperId": "8702a0e747ca525e79dd7667d17558f7d016da90",
+      "title": "Gaussian Embeddings: How JEPAs Secretly Learn Your Data Density",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2510.05949",
+      "citationCount": 15,
+      "coAuthors": [
+        {
+          "slug": "randall-balestriero",
+          "name": "Randall Balestriero"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        }
+      ]
+    },
+    {
       "paperId": "6eab7b59bac9246b577dcbbadd0ab0a230bf5432",
       "title": "Back to the Features: DINO as a Foundation for Video World Models",
       "year": 2025,
@@ -2956,6 +3014,10 @@
         {
           "slug": "david-fan",
           "name": "David Fan"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
         },
         {
           "slug": null,
@@ -4481,9 +4543,16 @@
     {
       "title": "Rectified LpJEPA: Joint-Embedding Predictive Architectures with Sparse and Maximum-Entropy Representations",
       "year": 2026,
-      "citationCount": 15,
+      "citationCount": 16,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2602.01456"
+    },
+    {
+      "title": "H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning",
+      "year": 2026,
+      "citationCount": 14,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/1b793cc81165f84d9b3fdd10b43451761b12170f"
     },
     {
       "title": "World Models Can Leverage Human Videos for Dexterous Manipulation",
@@ -4498,13 +4567,6 @@
       "citationCount": 10,
       "venue": "arXiv.org",
       "url": "https://doi.org/10.48550/arXiv.2603.13227"
-    },
-    {
-      "title": "H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning",
-      "year": 2026,
-      "citationCount": 8,
-      "venue": null,
-      "url": "https://www.semanticscholar.org/paper/1b793cc81165f84d9b3fdd10b43451761b12170f"
     }
   ],
   "githubProjects": [],
@@ -5391,14 +5453,14 @@
   "connections": {
     "coAuthors": [
       {
-        "slug": "adrien-bardes",
-        "name": "Adrien Bardes",
+        "slug": "michael-rabbat",
+        "name": "Michael Rabbat",
         "sharedPapers": 16
       },
       {
-        "slug": "michael-rabbat",
-        "name": "Michael Rabbat",
-        "sharedPapers": 13
+        "slug": "adrien-bardes",
+        "name": "Adrien Bardes",
+        "sharedPapers": 16
       },
       {
         "slug": "mikael-henaff",
@@ -5461,6 +5523,16 @@
         "sharedPapers": 3
       },
       {
+        "slug": "randall-balestriero",
+        "name": "Randall Balestriero",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "pascale-fung",
+        "name": "Pascale Fung",
+        "sharedPapers": 2
+      },
+      {
         "slug": "artem-zholus",
         "name": "Artem Zholus",
         "sharedPapers": 2
@@ -5496,11 +5568,6 @@
         "sharedPapers": 1
       },
       {
-        "slug": "pascale-fung",
-        "name": "Pascale Fung",
-        "sharedPapers": 1
-      },
-      {
         "slug": "sanghyun-woo",
         "name": "Sanghyun Woo",
         "sharedPapers": 1
@@ -5518,7 +5585,7 @@
       },
       {
         "name": "Nicolas Ballas",
-        "papers": 12
+        "papers": 13
       },
       {
         "name": "Michael G. Rabbat",
@@ -6055,6 +6122,10 @@
       {
         "name": "Gérard Ben Arous",
         "papers": 2
+      },
+      {
+        "name": "Kerda Varaku",
+        "papers": 1
       },
       {
         "name": "Adarsh Kappiyath",

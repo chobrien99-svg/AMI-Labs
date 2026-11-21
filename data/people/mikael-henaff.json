@@ -34,6 +34,28 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "e40f833a0af01994146b2869788bd8f4bc8928b4",
+      "title": "On BatchNorm Forward Modes in Value-Based Reinforcement Learning",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2609.06421",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "scott-fujimoto",
+          "name": "Scott Fujimoto"
+        },
+        {
+          "slug": null,
+          "name": "Daniel Palenicek"
+        },
+        {
+          "slug": null,
+          "name": "Koustuv Sinha"
+        }
+      ]
+    },
+    {
       "paperId": "7278d56b454459534245fead6774f698cd3a3c44",
       "title": "Hierarchical Behaviour Spaces",
       "year": 2026,
@@ -64,6 +86,54 @@
       ]
     },
     {
+      "paperId": "c360c01140ed8e52983e314c7605a175403abcf5",
+      "title": "The Surprising Difficulty of Search in Model-Based Reinforcement Learning",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2601.21306",
+      "citationCount": 7,
+      "coAuthors": [
+        {
+          "slug": "scott-fujimoto",
+          "name": "Scott Fujimoto"
+        },
+        {
+          "slug": null,
+          "name": "Wei-Di Chang"
+        },
+        {
+          "slug": null,
+          "name": "Brandon Amos"
+        },
+        {
+          "slug": null,
+          "name": "Gregory Dudek"
+        }
+      ]
+    },
+    {
+      "paperId": "d015b9a3bf45b7812bdf7d81d9256d643d0c6625",
+      "title": "Scalable Option Learning in High-Throughput Environments",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2509.00338",
+      "citationCount": 5,
+      "coAuthors": [
+        {
+          "slug": "scott-fujimoto",
+          "name": "Scott Fujimoto"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": null,
+          "name": "Michael Matthews"
+        }
+      ]
+    },
+    {
       "paperId": "fbdbeb7fbe626f1a65db9afd9aad311e04d23f42",
       "title": "Locate 3D: Real-World Object Localization via Self-Supervised Learning in 3D",
       "year": 2025,
@@ -74,6 +144,10 @@
         {
           "slug": "mahmoud-assran",
           "name": "Mahmoud Assran"
+        },
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
         },
         {
           "slug": null,
@@ -158,6 +232,48 @@
       ]
     },
     {
+      "paperId": "62d564bc589cf6c37139144d0d6984d4aff1cc4a",
+      "title": "Fast3R: Towards 3D Reconstruction of 1000+ Images in One Forward Pass",
+      "year": 2025,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52734.2025.02042",
+      "citationCount": 487,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Jianing Yang"
+        },
+        {
+          "slug": null,
+          "name": "Alexander Sax"
+        },
+        {
+          "slug": null,
+          "name": "Kevin J. Liang"
+        },
+        {
+          "slug": null,
+          "name": "Hao Tang"
+        },
+        {
+          "slug": null,
+          "name": "Ang Cao"
+        },
+        {
+          "slug": null,
+          "name": "Joyce Chai"
+        },
+        {
+          "slug": null,
+          "name": "Franziska Meier"
+        },
+        {
+          "slug": null,
+          "name": "Matt Feiszli"
+        }
+      ]
+    },
+    {
       "paperId": "2d2be33626a55a25a762031f89cabb4a9a6825de",
       "title": "MaestroMotif: Skill Design from Artificial Intelligence Feedback",
       "year": 2024,
@@ -226,6 +342,108 @@
         {
           "slug": null,
           "name": "Brandon Amos"
+        }
+      ]
+    },
+    {
+      "paperId": "920731b589af90a5b79236f4939ac117bbb939f2",
+      "title": "OpenEQA: Embodied Question Answering in the Era of Foundation Models",
+      "year": 2024,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52733.2024.01560",
+      "citationCount": 450,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Arjun Majumdar"
+        },
+        {
+          "slug": null,
+          "name": "Anurag Ajay"
+        },
+        {
+          "slug": null,
+          "name": "Xiaohan Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Pranav Putta"
+        },
+        {
+          "slug": null,
+          "name": "Sriram Yenamandra"
+        },
+        {
+          "slug": null,
+          "name": "S. Silwal"
+        },
+        {
+          "slug": null,
+          "name": "Paul McVay"
+        },
+        {
+          "slug": null,
+          "name": "Oleksandr Maksymets"
+        },
+        {
+          "slug": null,
+          "name": "Sergio Arnaud"
+        },
+        {
+          "slug": null,
+          "name": "K. Yadav"
+        },
+        {
+          "slug": null,
+          "name": "Qi-Yang Li"
+        },
+        {
+          "slug": null,
+          "name": "Benjamin Newman"
+        },
+        {
+          "slug": null,
+          "name": "Mohit Sharma"
+        },
+        {
+          "slug": null,
+          "name": "Vincent-Pierre Berges"
+        },
+        {
+          "slug": null,
+          "name": "Shiqi Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Pulkit Agrawal"
+        },
+        {
+          "slug": null,
+          "name": "Yonatan Bisk"
+        },
+        {
+          "slug": null,
+          "name": "Dhruv Batra"
+        },
+        {
+          "slug": null,
+          "name": "Mrinal Kalakrishnan"
+        },
+        {
+          "slug": null,
+          "name": "Franziska Meier"
+        },
+        {
+          "slug": null,
+          "name": "Chris Paxton"
+        },
+        {
+          "slug": null,
+          "name": "Alexander Sax"
+        },
+        {
+          "slug": null,
+          "name": "Aravind Rajeswaran"
         }
       ]
     },
@@ -900,39 +1118,39 @@
   ],
   "topPublications": [
     {
-      "title": "Kinematic State Abstraction and Provably Efficient Rich-Observation Reinforcement Learning",
-      "year": 2019,
-      "citationCount": 163,
-      "venue": "International Conference on Machine Learning",
-      "url": "https://doi.org/10.48550/arXiv.1911.05815"
+      "title": "Fast3R: Towards 3D Reconstruction of 1000+ Images in One Forward Pass",
+      "year": 2025,
+      "citationCount": 487,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52734.2025.02042"
     },
     {
-      "title": "Model-Predictive Policy Learning with Uncertainty Regularization for Driving in Dense Traffic",
-      "year": 2019,
-      "citationCount": 130,
-      "venue": "International Conference on Learning Representations",
-      "url": "https://doi.org/10.48550/arXiv.1901.02705"
-    },
-    {
-      "title": "PC-PG: Policy Cover Directed Exploration for Provable Policy Gradient Learning",
-      "year": 2020,
-      "citationCount": 126,
-      "venue": "Neural Information Processing Systems",
-      "url": "https://doi.org/10.48550/arXiv.2007.08459"
+      "title": "OpenEQA: Embodied Question Answering in the Era of Foundation Models",
+      "year": 2024,
+      "citationCount": 450,
+      "venue": "Computer Vision and Pattern Recognition",
+      "url": "https://doi.org/10.1109/CVPR52733.2024.01560"
     },
     {
       "title": "Motif: Intrinsic Motivation from Artificial Intelligence Feedback",
       "year": 2023,
-      "citationCount": 122,
+      "citationCount": 123,
       "venue": "International Conference on Learning Representations",
       "url": "https://doi.org/10.48550/arXiv.2310.00166"
     },
     {
-      "title": "Disagreement-Regularized Imitation Learning",
-      "year": 2020,
-      "citationCount": 116,
+      "title": "Locate 3D: Real-World Object Localization via Self-Supervised Learning in 3D",
+      "year": 2025,
+      "citationCount": 33,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://doi.org/10.48550/arXiv.2504.14151"
+    },
+    {
+      "title": "MaestroMotif: Skill Design from Artificial Intelligence Feedback",
+      "year": 2024,
+      "citationCount": 24,
       "venue": "International Conference on Learning Representations",
-      "url": "https://www.semanticscholar.org/paper/913e9384a1440dbf860f6d8597953187237fa1b4"
+      "url": "https://doi.org/10.48550/arXiv.2412.08542"
     }
   ],
   "githubProjects": [],
@@ -976,7 +1194,12 @@
       {
         "slug": "scott-fujimoto",
         "name": "Scott Fujimoto",
-        "sharedPapers": 1
+        "sharedPapers": 4
+      },
+      {
+        "slug": "michael-rabbat",
+        "name": "Michael Rabbat",
+        "sharedPapers": 2
       },
       {
         "slug": "mahmoud-assran",
@@ -1002,6 +1225,18 @@
         "papers": 3
       },
       {
+        "name": "Brandon Amos",
+        "papers": 3
+      },
+      {
+        "name": "Alexander Sax",
+        "papers": 3
+      },
+      {
+        "name": "Franziska Meier",
+        "papers": 3
+      },
+      {
         "name": "Amy Zhang",
         "papers": 3
       },
@@ -1020,6 +1255,30 @@
       {
         "name": "Zhiguo Li",
         "papers": 3
+      },
+      {
+        "name": "Sergio Arnaud",
+        "papers": 2
+      },
+      {
+        "name": "Arjun Majumdar",
+        "papers": 2
+      },
+      {
+        "name": "Vincent-Pierre Berges",
+        "papers": 2
+      },
+      {
+        "name": "Ang Cao",
+        "papers": 2
+      },
+      {
+        "name": "Mrinal Kalakrishnan",
+        "papers": 2
+      },
+      {
+        "name": "Oleksandr Maksymets",
+        "papers": 2
       },
       {
         "name": "Martin Klissarov",
@@ -1043,10 +1302,6 @@
       },
       {
         "name": "Aditya Grover",
-        "papers": 2
-      },
-      {
-        "name": "Brandon Amos",
         "papers": 2
       },
       {
@@ -1094,6 +1349,14 @@
         "papers": 2
       },
       {
+        "name": "Daniel Palenicek",
+        "papers": 1
+      },
+      {
+        "name": "Koustuv Sinha",
+        "papers": 1
+      },
+      {
         "name": "Michael T. Matthews",
         "papers": 1
       },
@@ -1106,7 +1369,15 @@
         "papers": 1
       },
       {
-        "name": "Sergio Arnaud",
+        "name": "Wei-Di Chang",
+        "papers": 1
+      },
+      {
+        "name": "Gregory Dudek",
+        "papers": 1
+      },
+      {
+        "name": "Michael Matthews",
         "papers": 1
       },
       {
@@ -1115,10 +1386,6 @@
       },
       {
         "name": "Ada Martin",
-        "papers": 1
-      },
-      {
-        "name": "Arjun Majumdar",
         "papers": 1
       },
       {
@@ -1142,27 +1409,11 @@
         "papers": 1
       },
       {
-        "name": "Alexander Sax",
-        "papers": 1
-      },
-      {
-        "name": "Vincent-Pierre Berges",
-        "papers": 1
-      },
-      {
         "name": "Ayush Jain",
         "papers": 1
       },
       {
-        "name": "Ang Cao",
-        "papers": 1
-      },
-      {
         "name": "Ishita Prasad",
-        "papers": 1
-      },
-      {
-        "name": "Mrinal Kalakrishnan",
         "papers": 1
       },
       {
@@ -1174,15 +1425,27 @@
         "papers": 1
       },
       {
-        "name": "Oleksandr Maksymets",
-        "papers": 1
-      },
-      {
         "name": "A. Rajeswaran",
         "papers": 1
       },
       {
-        "name": "Franziska Meier",
+        "name": "Jianing Yang",
+        "papers": 1
+      },
+      {
+        "name": "Kevin J. Liang",
+        "papers": 1
+      },
+      {
+        "name": "Hao Tang",
+        "papers": 1
+      },
+      {
+        "name": "Joyce Chai",
+        "papers": 1
+      },
+      {
+        "name": "Matt Feiszli",
         "papers": 1
       },
       {
@@ -1191,6 +1454,70 @@
       },
       {
         "name": "Marlos C. Machado",
+        "papers": 1
+      },
+      {
+        "name": "Anurag Ajay",
+        "papers": 1
+      },
+      {
+        "name": "Xiaohan Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Pranav Putta",
+        "papers": 1
+      },
+      {
+        "name": "Sriram Yenamandra",
+        "papers": 1
+      },
+      {
+        "name": "S. Silwal",
+        "papers": 1
+      },
+      {
+        "name": "Paul McVay",
+        "papers": 1
+      },
+      {
+        "name": "K. Yadav",
+        "papers": 1
+      },
+      {
+        "name": "Qi-Yang Li",
+        "papers": 1
+      },
+      {
+        "name": "Benjamin Newman",
+        "papers": 1
+      },
+      {
+        "name": "Mohit Sharma",
+        "papers": 1
+      },
+      {
+        "name": "Shiqi Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Pulkit Agrawal",
+        "papers": 1
+      },
+      {
+        "name": "Yonatan Bisk",
+        "papers": 1
+      },
+      {
+        "name": "Dhruv Batra",
+        "papers": 1
+      },
+      {
+        "name": "Chris Paxton",
+        "papers": 1
+      },
+      {
+        "name": "Aravind Rajeswaran",
         "papers": 1
       },
       {

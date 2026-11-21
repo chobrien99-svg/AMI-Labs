@@ -12,15 +12,207 @@
   "careerHistory": [],
   "reportsTo": null,
   "reports": [],
-  "papers": [],
+  "papers": [
+    {
+      "paperId": "5d61c45c14456aeb9689ec80aeae5152931387b1",
+      "title": "Counterfactual World Models: JEPAs That Reason About\"What If\"",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/5d61c45c14456aeb9689ec80aeae5152931387b1",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Kerda Varaku"
+        }
+      ]
+    },
+    {
+      "paperId": "5440bb525805c49a2263fcc87484037819db50a4",
+      "title": "Rethinking the Reconstruction-Generation Gap in Representation Autoencoders",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/5440bb525805c49a2263fcc87484037819db50a4",
+      "citationCount": 1,
+      "coAuthors": [
+        {
+          "slug": "chen-wei",
+          "name": "Chen Wei"
+        },
+        {
+          "slug": null,
+          "name": "Hong-Yang Du"
+        },
+        {
+          "slug": null,
+          "name": "Yun-Fei Xie"
+        },
+        {
+          "slug": null,
+          "name": "Jun-Jie Ye"
+        },
+        {
+          "slug": null,
+          "name": "Jia-Wei Yang"
+        },
+        {
+          "slug": null,
+          "name": "Xiao-Yan Cong"
+        },
+        {
+          "slug": null,
+          "name": "Hao-Dong Zhang"
+        },
+        {
+          "slug": null,
+          "name": "Yong-Chao Huang"
+        },
+        {
+          "slug": null,
+          "name": "Hai-Yu Wu"
+        },
+        {
+          "slug": null,
+          "name": "Zong-Xia Li"
+        },
+        {
+          "slug": null,
+          "name": "Shi-Hang Gui"
+        },
+        {
+          "slug": null,
+          "name": "Dawei Liu"
+        },
+        {
+          "slug": null,
+          "name": "Run-Hao Li"
+        },
+        {
+          "slug": null,
+          "name": "J. Ni"
+        },
+        {
+          "slug": null,
+          "name": "Yue Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "8702a0e747ca525e79dd7667d17558f7d016da90",
+      "title": "Gaussian Embeddings: How JEPAs Secretly Learn Your Data Density",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "url": "https://doi.org/10.48550/arXiv.2510.05949",
+      "citationCount": 15,
+      "coAuthors": [
+        {
+          "slug": "michael-rabbat",
+          "name": "Michael Rabbat"
+        },
+        {
+          "slug": "yann-lecun",
+          "name": "Yann LeCun"
+        },
+        {
+          "slug": null,
+          "name": "Nicolas Ballas"
+        }
+      ]
+    }
+  ],
   "topPublications": [],
   "githubProjects": [],
   "githubActivity": null,
   "news": [],
   "xPosts": [],
   "connections": {
-    "coAuthors": [],
-    "externalCoAuthors": [],
+    "coAuthors": [
+      {
+        "slug": "yann-lecun",
+        "name": "Yann LeCun",
+        "sharedPapers": 2
+      },
+      {
+        "slug": "chen-wei",
+        "name": "Chen Wei",
+        "sharedPapers": 1
+      },
+      {
+        "slug": "michael-rabbat",
+        "name": "Michael Rabbat",
+        "sharedPapers": 1
+      }
+    ],
+    "externalCoAuthors": [
+      {
+        "name": "Kerda Varaku",
+        "papers": 1
+      },
+      {
+        "name": "Hong-Yang Du",
+        "papers": 1
+      },
+      {
+        "name": "Yun-Fei Xie",
+        "papers": 1
+      },
+      {
+        "name": "Jun-Jie Ye",
+        "papers": 1
+      },
+      {
+        "name": "Jia-Wei Yang",
+        "papers": 1
+      },
+      {
+        "name": "Xiao-Yan Cong",
+        "papers": 1
+      },
+      {
+        "name": "Hao-Dong Zhang",
+        "papers": 1
+      },
+      {
+        "name": "Yong-Chao Huang",
+        "papers": 1
+      },
+      {
+        "name": "Hai-Yu Wu",
+        "papers": 1
+      },
+      {
+        "name": "Zong-Xia Li",
+        "papers": 1
+      },
+      {
+        "name": "Shi-Hang Gui",
+        "papers": 1
+      },
+      {
+        "name": "Dawei Liu",
+        "papers": 1
+      },
+      {
+        "name": "Run-Hao Li",
+        "papers": 1
+      },
+      {
+        "name": "J. Ni",
+        "papers": 1
+      },
+      {
+        "name": "Yue Wang",
+        "papers": 1
+      },
+      {
+        "name": "Nicolas Ballas",
+        "papers": 1
+      }
+    ],
     "formerColleagues": []
   }
 }

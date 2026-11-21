@@ -32,6 +32,40 @@
   "reports": [],
   "papers": [
     {
+      "paperId": "645d22afb9f0c3e63e9730da708d37412e97a5da",
+      "title": "Hierarchical Diffusion Transformer for End-to-End Image Generation",
+      "year": 2026,
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/645d22afb9f0c3e63e9730da708d37412e97a5da",
+      "citationCount": 0,
+      "coAuthors": [
+        {
+          "slug": null,
+          "name": "Xiao-Yu Wu"
+        },
+        {
+          "slug": null,
+          "name": "Yi-Fei Wang"
+        },
+        {
+          "slug": null,
+          "name": "Wei-Hang Guo"
+        },
+        {
+          "slug": null,
+          "name": "L. Kavraki"
+        },
+        {
+          "slug": null,
+          "name": "Niloofar Mireshghallah"
+        },
+        {
+          "slug": null,
+          "name": "Steven Z. Wu"
+        }
+      ]
+    },
+    {
       "paperId": "a62cfdeb7698a1294c4f8a11683634b2bb6d6801",
       "title": "Visualizing Distribution Coverage in Generative Diffusion Models",
       "year": 2026,
@@ -84,13 +118,17 @@
       ]
     },
     {
-      "paperId": "2a545b668a1028328af0a546f67e4630542f75b5",
-      "title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
+      "paperId": "5440bb525805c49a2263fcc87484037819db50a4",
+      "title": "Rethinking the Reconstruction-Generation Gap in Representation Autoencoders",
       "year": 2026,
-      "venue": "arXiv.org",
-      "url": "https://doi.org/10.48550/arXiv.2609.31620",
+      "venue": null,
+      "url": "https://www.semanticscholar.org/paper/5440bb525805c49a2263fcc87484037819db50a4",
       "citationCount": 1,
       "coAuthors": [
+        {
+          "slug": "randall-balestriero",
+          "name": "Randall Balestriero"
+        },
         {
           "slug": null,
           "name": "Hong-Yang Du"
@@ -142,10 +180,6 @@
         {
           "slug": null,
           "name": "J. Ni"
-        },
-        {
-          "slug": null,
-          "name": "Randall Balestriero"
         },
         {
           "slug": null,
@@ -474,7 +508,7 @@
     {
       "title": "Perception Encoder: The best visual embeddings are not at the output of the network",
       "year": 2025,
-      "citationCount": 420,
+      "citationCount": 432,
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.48550/arXiv.2504.13181"
     },
@@ -525,6 +559,11 @@
   "connections": {
     "coAuthors": [
       {
+        "slug": "randall-balestriero",
+        "name": "Randall Balestriero",
+        "sharedPapers": 1
+      },
+      {
         "slug": "tengyu-ma",
         "name": "Tengyu Ma",
         "sharedPapers": 1
@@ -537,12 +576,12 @@
     ],
     "externalCoAuthors": [
       {
-        "name": "Yi-Fei Wang",
-        "papers": 3
+        "name": "Xiao-Yu Wu",
+        "papers": 4
       },
       {
-        "name": "Xiao-Yu Wu",
-        "papers": 3
+        "name": "Yi-Fei Wang",
+        "papers": 4
       },
       {
         "name": "Tsu-Jui Fu",
@@ -563,6 +602,22 @@
       {
         "name": "A. Yuille",
         "papers": 2
+      },
+      {
+        "name": "Wei-Hang Guo",
+        "papers": 1
+      },
+      {
+        "name": "L. Kavraki",
+        "papers": 1
+      },
+      {
+        "name": "Niloofar Mireshghallah",
+        "papers": 1
+      },
+      {
+        "name": "Steven Z. Wu",
+        "papers": 1
       },
       {
         "name": "Chen Chen",
@@ -618,10 +673,6 @@
       },
       {
         "name": "J. Ni",
-        "papers": 1
-      },
-      {
-        "name": "Randall Balestriero",
         "papers": 1
       },
       {
