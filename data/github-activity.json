@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-11-22T13:58:17.148Z",
+  "lastFetched": "2026-11-22T23:09:46.535Z",
   "members": [
     {
       "slug": "adithya-iyer",
@@ -131,22 +131,6 @@
           "timestamp": "2026-11-18T03:34:09Z"
         },
         {
-          "type": "PushEvent",
-          "repo": "Luodian/cleaner-mac",
-          "repoUrl": "https://github.com/Luodian/cleaner-mac",
-          "description": "Pushed 0 commits to main on Luodian/cleaner-mac",
-          "url": "https://github.com/Luodian/cleaner-mac",
-          "timestamp": "2026-11-17T05:14:36Z"
-        },
-        {
-          "type": "CreateEvent",
-          "repo": "Luodian/cleaner-mac",
-          "repoUrl": "https://github.com/Luodian/cleaner-mac",
-          "description": "Created branch main in Luodian/cleaner-mac",
-          "url": "https://github.com/Luodian/cleaner-mac",
-          "timestamp": "2026-11-17T05:04:52Z"
-        },
-        {
           "type": "ReleaseEvent",
           "repo": "Luodian/cleaner-mac",
           "repoUrl": "https://github.com/Luodian/cleaner-mac",
@@ -241,6 +225,22 @@
           "description": "closed PR #1332 in EvolvingLMMs-Lab/lmms-eval",
           "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
           "timestamp": "2026-11-15T02:31:31Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "closed PR #1263 in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "timestamp": "2026-11-15T02:31:30Z"
+        },
+        {
+          "type": "IssueCommentEvent",
+          "repo": "EvolvingLMMs-Lab/lmms-eval",
+          "repoUrl": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+          "description": "Commented on issue #1332 in EvolvingLMMs-Lab/lmms-eval",
+          "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval/pull/1332#issuecomment-6887976543",
+          "timestamp": "2026-11-15T02:31:31Z"
         }
       ]
     },
@@ -324,14 +324,6 @@
           "description": "Commented on issue #25034 in scala/scala3",
           "url": "https://github.com/scala/scala3/pull/25034#issuecomment-6506910859",
           "timestamp": "2026-10-29T19:56:37Z"
-        },
-        {
-          "type": "IssueCommentEvent",
-          "repo": "com-lihaoyi/os-lib",
-          "repoUrl": "https://github.com/com-lihaoyi/os-lib",
-          "description": "Commented on issue #434 in com-lihaoyi/os-lib",
-          "url": "https://github.com/com-lihaoyi/os-lib/issues/434#issuecomment-6355590757",
-          "timestamp": "2026-10-23T02:01:19Z"
         }
       ]
     },
@@ -574,14 +566,6 @@
           "description": "Opened PR #915 in coal-library/coal",
           "url": "https://github.com/coal-library/coal",
           "timestamp": "2026-10-30T09:21:03Z"
-        },
-        {
-          "type": "DeleteEvent",
-          "repo": "quentinll/coal",
-          "repoUrl": "https://github.com/quentinll/coal",
-          "description": "Deleted branch topic/capsule-box-distance in quentinll/coal",
-          "url": "https://github.com/quentinll/coal",
-          "timestamp": "2026-10-23T08:00:18Z"
         }
       ]
     },
@@ -614,38 +598,6 @@
           "description": "Starred pingdotgg/t3code",
           "url": "https://github.com/pingdotgg/t3code",
           "timestamp": "2026-11-02T22:34:18Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "rohitgirdhar/rohitgirdhar.github.io",
-          "repoUrl": "https://github.com/rohitgirdhar/rohitgirdhar.github.io",
-          "description": "Pushed 0 commits to main on rohitgirdhar/rohitgirdhar.github.io",
-          "url": "https://github.com/rohitgirdhar/rohitgirdhar.github.io",
-          "timestamp": "2026-10-28T04:28:42Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "rohitgirdhar/obsidian-worktree-switcher",
-          "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "description": "Pushed 0 commits to main on rohitgirdhar/obsidian-worktree-switcher",
-          "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "timestamp": "2026-10-27T04:05:34Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "rohitgirdhar/obsidian-worktree-switcher",
-          "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "description": "Pushed 0 commits to main on rohitgirdhar/obsidian-worktree-switcher",
-          "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "timestamp": "2026-10-27T04:39:05Z"
-        },
-        {
-          "type": "DeleteEvent",
-          "repo": "rohitgirdhar/obsidian-worktree-switcher",
-          "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "description": "Deleted branch t3/refresh-matching-editors-in-place in rohitgirdhar/obsidian-worktree-switcher",
-          "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "timestamp": "2026-10-27T04:39:08Z"
         },
         {
           "type": "PullRequestEvent",
