@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-11-21T22:43:37.012Z",
+  "lastFetched": "2026-11-22T04:50:56.514Z",
   "members": [
     {
       "slug": "adithya-iyer",
@@ -42,22 +42,6 @@
           "description": "Starred XPolicyLab/XPolicyLab",
           "url": "https://github.com/XPolicyLab/XPolicyLab",
           "timestamp": "2026-10-28T21:02:16Z"
-        },
-        {
-          "type": "WatchEvent",
-          "repo": "NVlabs/RoboVoLo",
-          "repoUrl": "https://github.com/NVlabs/RoboVoLo",
-          "description": "Starred NVlabs/RoboVoLo",
-          "url": "https://github.com/NVlabs/RoboVoLo",
-          "timestamp": "2026-10-22T20:04:36Z"
-        },
-        {
-          "type": "WatchEvent",
-          "repo": "NVlabs/DroidPlus",
-          "repoUrl": "https://github.com/NVlabs/DroidPlus",
-          "description": "Starred NVlabs/DroidPlus",
-          "url": "https://github.com/NVlabs/DroidPlus",
-          "timestamp": "2026-10-22T20:01:59Z"
         }
       ]
     },
@@ -372,16 +356,7 @@
       "name": "Lucas Maes",
       "username": "lucas-maes",
       "githubUrl": "https://github.com/lucas-maes",
-      "events": [
-        {
-          "type": "WatchEvent",
-          "repo": "qlabs-eng/noise",
-          "repoUrl": "https://github.com/qlabs-eng/noise",
-          "description": "Starred qlabs-eng/noise",
-          "url": "https://github.com/qlabs-eng/noise",
-          "timestamp": "2026-10-22T20:39:37Z"
-        }
-      ]
+      "events": []
     },
     {
       "slug": "mahmoud-assran",
@@ -681,60 +656,52 @@
           "timestamp": "2026-10-27T04:28:51Z"
         },
         {
-          "type": "PushEvent",
+          "type": "PullRequestEvent",
           "repo": "rohitgirdhar/obsidian-worktree-switcher",
           "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "description": "Pushed 0 commits to main on rohitgirdhar/obsidian-worktree-switcher",
+          "description": "merged PR #3 in rohitgirdhar/obsidian-worktree-switcher",
           "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "timestamp": "2026-10-27T04:39:16Z"
+          "timestamp": "2026-10-27T04:39:06Z"
         },
         {
-          "type": "PushEvent",
+          "type": "PullRequestEvent",
           "repo": "rohitgirdhar/obsidian-worktree-switcher",
           "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "description": "Pushed 0 commits to main on rohitgirdhar/obsidian-worktree-switcher",
+          "description": "Opened PR #3 in rohitgirdhar/obsidian-worktree-switcher",
           "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "timestamp": "2026-10-27T04:05:57Z"
+          "timestamp": "2026-10-27T04:29:05Z"
         },
         {
-          "type": "DeleteEvent",
+          "type": "PullRequestEvent",
           "repo": "rohitgirdhar/obsidian-worktree-switcher",
           "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "description": "Deleted branch t3/preserve-tabs-on-worktree-delete in rohitgirdhar/obsidian-worktree-switcher",
+          "description": "merged PR #2 in rohitgirdhar/obsidian-worktree-switcher",
           "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "timestamp": "2026-10-27T04:05:36Z"
+          "timestamp": "2026-10-27T04:05:34Z"
         },
         {
-          "type": "CreateEvent",
+          "type": "PullRequestEvent",
           "repo": "rohitgirdhar/obsidian-worktree-switcher",
           "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "description": "Created branch t3/preserve-tabs-on-worktree-delete in rohitgirdhar/obsidian-worktree-switcher",
+          "description": "Opened PR #2 in rohitgirdhar/obsidian-worktree-switcher",
           "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "timestamp": "2026-10-27T03:49:43Z"
+          "timestamp": "2026-10-27T03:49:53Z"
         },
         {
-          "type": "CreateEvent",
+          "type": "PullRequestEvent",
           "repo": "rohitgirdhar/obsidian-worktree-switcher",
           "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "description": "Created branch t3/auto-switch-main-on-worktree-delete in rohitgirdhar/obsidian-worktree-switcher",
+          "description": "merged PR #1 in rohitgirdhar/obsidian-worktree-switcher",
           "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "timestamp": "2026-10-26T21:51:37Z"
+          "timestamp": "2026-10-26T21:53:46Z"
         },
         {
-          "type": "DeleteEvent",
+          "type": "PullRequestEvent",
           "repo": "rohitgirdhar/obsidian-worktree-switcher",
           "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "description": "Deleted branch t3/auto-switch-main-on-worktree-delete in rohitgirdhar/obsidian-worktree-switcher",
+          "description": "Opened PR #1 in rohitgirdhar/obsidian-worktree-switcher",
           "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "timestamp": "2026-10-26T21:53:47Z"
-        },
-        {
-          "type": "PushEvent",
-          "repo": "rohitgirdhar/obsidian-worktree-switcher",
-          "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "description": "Pushed 0 commits to main on rohitgirdhar/obsidian-worktree-switcher",
-          "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
-          "timestamp": "2026-10-26T21:53:45Z"
+          "timestamp": "2026-10-26T21:51:49Z"
         }
       ]
     },
