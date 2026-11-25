@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-11-24T16:54:42.935Z",
+  "lastFetched": "2026-11-25T01:52:18.546Z",
   "members": [
     {
       "slug": "adithya-iyer",
@@ -458,14 +458,6 @@
           "description": "Starred benthamite/codex",
           "url": "https://github.com/benthamite/codex",
           "timestamp": "2026-10-29T03:35:26Z"
-        },
-        {
-          "type": "PullRequestReviewEvent",
-          "repo": "mavenlin/torch2jax",
-          "repoUrl": "https://github.com/mavenlin/torch2jax",
-          "description": "Reviewed PR #6 in mavenlin/torch2jax",
-          "url": "https://github.com/mavenlin/torch2jax",
-          "timestamp": "2026-10-25T13:03:43Z"
         }
       ]
     },
@@ -560,6 +552,22 @@
       "githubUrl": "https://github.com/rohitgirdhar",
       "events": [
         {
+          "type": "PullRequestEvent",
+          "repo": "rohitgirdhar/obsidian-worktree-switcher",
+          "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "description": "merged PR #4 in rohitgirdhar/obsidian-worktree-switcher",
+          "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "timestamp": "2026-11-24T22:11:37Z"
+        },
+        {
+          "type": "PullRequestEvent",
+          "repo": "rohitgirdhar/obsidian-worktree-switcher",
+          "repoUrl": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "description": "Opened PR #4 in rohitgirdhar/obsidian-worktree-switcher",
+          "url": "https://github.com/rohitgirdhar/obsidian-worktree-switcher",
+          "timestamp": "2026-11-24T21:59:39Z"
+        },
+        {
           "type": "WatchEvent",
           "repo": "pingdotgg/t3code",
           "repoUrl": "https://github.com/pingdotgg/t3code",
@@ -629,16 +637,7 @@
       "name": "Sanghyun Woo",
       "username": "shwoo1219",
       "githubUrl": "https://github.com/shwoo1219",
-      "events": [
-        {
-          "type": "PullRequestEvent",
-          "repo": "mavenlin/torch2jax",
-          "repoUrl": "https://github.com/mavenlin/torch2jax",
-          "description": "merged PR #6 in mavenlin/torch2jax",
-          "url": "https://github.com/mavenlin/torch2jax",
-          "timestamp": "2026-10-25T13:03:54Z"
-        }
-      ]
+      "events": []
     },
     {
       "slug": "scott-fujimoto",
